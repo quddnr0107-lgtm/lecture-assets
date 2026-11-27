@@ -3032,6 +3032,32 @@
       "visual_qa_passed": true,
       "render_commit": "1461f9684813c17ac8c3ff2a21d782170e3e2c37",
       "queued_production_jobs": 8
+    },
+    {
+      "run_id": "dr-20261127-142600-script",
+      "lesson_ids": [
+        "DR-013",
+        "DR-024",
+        "DR-062"
+      ],
+      "status": "partial_review_confirmed_production",
+      "source_commit": "ec8778b58d27d5e3f55df2923b2e4983c28244c5",
+      "jobs": [
+        "DR-013-exam80-07-new-script",
+        "DR-013-exam80-03-revision-script",
+        "DR-024-exam80-02-revision-script",
+        "DR-024-exam80-03-revision-script",
+        "DR-024-exam80-05-revision-script",
+        "DR-024-exam80-06-revision-script",
+        "DR-062-exam80-01-revision-script",
+        "DR-062-exam80-02-revision-script",
+        "DR-062-exam80-04-revision-script",
+        "DR-062-exam80-07-new-script",
+        "DR-062-exam80-08-new-script",
+        "DR-062-exam80-09-new-script",
+        "DR-062-exam80-10-new-script"
+      ],
+      "note": "원고 Git blob 일치 확인, 기존 구조화 도식과 시험 핵심 대조; 전체 검토 완료로 집계하지 않음"
     }
   ]
 }

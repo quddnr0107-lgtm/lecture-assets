@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-27T14:25:00+09:00",
+  "updated_at": "2026-11-27T14:26:00+09:00",
   "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
     "status": "files_completed",
@@ -66,7 +66,27 @@
     ]
   },
   "state": {
-    "active_run": null,
+    "active_run": {
+      "id": "dr-20261127-142600-script",
+      "started_at": "2026-11-27T14:26:00+09:00",
+      "lease_expires_at": "2026-11-27T16:26:00+09:00",
+      "claimed_job_ids": [
+        "DR-013-exam80-07-new-script",
+        "DR-013-exam80-03-revision-script",
+        "DR-024-exam80-02-revision-script",
+        "DR-024-exam80-03-revision-script",
+        "DR-024-exam80-05-revision-script",
+        "DR-024-exam80-06-revision-script",
+        "DR-062-exam80-01-revision-script",
+        "DR-062-exam80-02-revision-script",
+        "DR-062-exam80-04-revision-script",
+        "DR-062-exam80-07-new-script",
+        "DR-062-exam80-08-new-script",
+        "DR-062-exam80-09-new-script",
+        "DR-062-exam80-10-new-script"
+      ],
+      "mode": "targeted_render_multi_lesson_isolated_dbus"
+    },
     "last_successful_run": {
       "id": "dr-20261127-142219-recovery",
       "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625",
@@ -78,7 +98,7 @@
     "coverage_reviews_total": 78,
     "coverage_reviews_queued": 74,
     "coverage_reviews_completed": 4,
-    "confirmed_production_jobs": 11,
+    "confirmed_production_jobs": 24,
     "diagrams_added_after_baseline": 6,
     "diagrams_revised_after_baseline": 8,
     "script_bindings_verified": 78,
@@ -172,9 +192,17 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "scope": "원고와 기존 도식의 시험 핵심 대조; 전체 검토 완료로 집계하지 않음",
+        "source_sha256": "ba106c4c3743265a73b09d91a7b841213317b9771cd50ac9fa74ee85e02f109e",
+        "full_review_completed": false
+      },
       "script_ref": "DR-013",
-      "script_sha256": "ba106c4c3743265a73b09d91a7b841213317b9771cd50ac9fa74ee85e02f109e"
+      "script_sha256": "ba106c4c3743265a73b09d91a7b841213317b9771cd50ac9fa74ee85e02f109e",
+      "confirmed_production_job_ids": [
+        "DR-013-exam80-07-new-script",
+        "DR-013-exam80-03-revision-script"
+      ]
     },
     {
       "id": "DR-024-coverage-review-v1",
@@ -204,9 +232,19 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "scope": "원고와 기존 도식의 시험 핵심 대조; 전체 검토 완료로 집계하지 않음",
+        "source_sha256": "94e583fa555ab8e0191cbe33c4beb12d084cd7e5478c29bc52ee936743b872d6",
+        "full_review_completed": false
+      },
       "script_ref": "DR-024",
-      "script_sha256": "94e583fa555ab8e0191cbe33c4beb12d084cd7e5478c29bc52ee936743b872d6"
+      "script_sha256": "94e583fa555ab8e0191cbe33c4beb12d084cd7e5478c29bc52ee936743b872d6",
+      "confirmed_production_job_ids": [
+        "DR-024-exam80-02-revision-script",
+        "DR-024-exam80-03-revision-script",
+        "DR-024-exam80-05-revision-script",
+        "DR-024-exam80-06-revision-script"
+      ]
     },
     {
       "id": "DR-062-coverage-review-v1",
@@ -236,9 +274,22 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "scope": "원고와 기존 도식의 시험 핵심 대조; 전체 검토 완료로 집계하지 않음",
+        "source_sha256": "6c5810da8b3c2c54869b3cf128ef1216623f7a649103b23645b1e87bc90b19ab",
+        "full_review_completed": false
+      },
       "script_ref": "DR-062",
-      "script_sha256": "6c5810da8b3c2c54869b3cf128ef1216623f7a649103b23645b1e87bc90b19ab"
+      "script_sha256": "6c5810da8b3c2c54869b3cf128ef1216623f7a649103b23645b1e87bc90b19ab",
+      "confirmed_production_job_ids": [
+        "DR-062-exam80-01-revision-script",
+        "DR-062-exam80-02-revision-script",
+        "DR-062-exam80-04-revision-script",
+        "DR-062-exam80-07-new-script",
+        "DR-062-exam80-08-new-script",
+        "DR-062-exam80-09-new-script",
+        "DR-062-exam80-10-new-script"
+      ]
     },
     {
       "id": "DR-009-coverage-review-v1",
@@ -3053,6 +3104,394 @@
       "completed_at": "2026-11-27T14:25:00+09:00",
       "png_git_blob": "c99a8972b999d7ee1ca52a8b995202ef06a79991",
       "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625"
+    },
+    {
+      "id": "DR-013-exam80-07-new-script",
+      "lesson_id": "DR-013",
+      "type": "script_coverage_gap",
+      "target_diagram_id": null,
+      "learning_objective": "별표10 제대별 인원 범위와 지역대 제외",
+      "script_ref": "DR-013",
+      "design_version": "editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-13.txt",
+          "source_git_blob": "b18f2b1abb42942f34775b5177d31a15242c1e12",
+          "source_sha256": "ba106c4c3743265a73b09d91a7b841213317b9771cd50ac9fa74ee85e02f109e",
+          "line_numbers": [
+            21,
+            25,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            34,
+            36,
+            40
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-142600-script",
+      "claimed_at": "2026-11-27T14:26:00+09:00",
+      "lease_expires_at": "2026-11-27T16:26:00+09:00"
+    },
+    {
+      "id": "DR-013-exam80-03-revision-script",
+      "lesson_id": "DR-013",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-013-D03",
+      "learning_objective": "근로기준법상 근로자·직장별 통합·지역자원 요구 조건",
+      "script_ref": "DR-013",
+      "design_version": "editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-13.txt",
+          "source_git_blob": "b18f2b1abb42942f34775b5177d31a15242c1e12",
+          "source_sha256": "ba106c4c3743265a73b09d91a7b841213317b9771cd50ac9fa74ee85e02f109e",
+          "line_numbers": [
+            120,
+            134,
+            140,
+            154,
+            158,
+            172,
+            174,
+            192
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-142600-script",
+      "claimed_at": "2026-11-27T14:26:00+09:00",
+      "lease_expires_at": "2026-11-27T16:26:00+09:00"
+    },
+    {
+      "id": "DR-024-exam80-02-revision-script",
+      "lesson_id": "DR-024",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-024-D02",
+      "learning_objective": "직장 관할 지방병무청장·행정안전부 행정전산망",
+      "script_ref": "DR-024",
+      "design_version": "editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-24.txt",
+          "source_git_blob": "c81c18e18bf1db351236dc60301c2c10dec3168e",
+          "source_sha256": "94e583fa555ab8e0191cbe33c4beb12d084cd7e5478c29bc52ee936743b872d6",
+          "line_numbers": [
+            61,
+            73,
+            75,
+            77,
+            83
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-142600-script",
+      "claimed_at": "2026-11-27T14:26:00+09:00",
+      "lease_expires_at": "2026-11-27T16:26:00+09:00"
+    },
+    {
+      "id": "DR-024-exam80-03-revision-script",
+      "lesson_id": "DR-024",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-024-D03",
+      "learning_objective": "전·출입 직장 양쪽 통보 및 직장·주소 동시 변경",
+      "script_ref": "DR-024",
+      "design_version": "editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-24.txt",
+          "source_git_blob": "c81c18e18bf1db351236dc60301c2c10dec3168e",
+          "source_sha256": "94e583fa555ab8e0191cbe33c4beb12d084cd7e5478c29bc52ee936743b872d6",
+          "line_numbers": [
+            87,
+            103,
+            117,
+            119,
+            127,
+            129
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-142600-script",
+      "claimed_at": "2026-11-27T14:26:00+09:00",
+      "lease_expires_at": "2026-11-27T16:26:00+09:00"
+    },
+    {
+      "id": "DR-024-exam80-05-revision-script",
+      "lesson_id": "DR-024",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-024-D05",
+      "learning_objective": "별지 4·5호 및 관할 내 이동 전후 수임군부대장 통보",
+      "script_ref": "DR-024",
+      "design_version": "editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-24.txt",
+          "source_git_blob": "c81c18e18bf1db351236dc60301c2c10dec3168e",
+          "source_sha256": "94e583fa555ab8e0191cbe33c4beb12d084cd7e5478c29bc52ee936743b872d6",
+          "line_numbers": [
+            169,
+            181,
+            183,
+            189,
+            195,
+            199,
+            203,
+            211,
+            215,
+            225
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-142600-script",
+      "claimed_at": "2026-11-27T14:26:00+09:00",
+      "lease_expires_at": "2026-11-27T16:26:00+09:00"
+    },
+    {
+      "id": "DR-024-exam80-06-revision-script",
+      "lesson_id": "DR-024",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-024-D06",
+      "learning_objective": "관할 밖 이동 7일 전 통보 서식",
+      "script_ref": "DR-024",
+      "design_version": "editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-24.txt",
+          "source_git_blob": "c81c18e18bf1db351236dc60301c2c10dec3168e",
+          "source_sha256": "94e583fa555ab8e0191cbe33c4beb12d084cd7e5478c29bc52ee936743b872d6",
+          "line_numbers": [
+            229,
+            233,
+            243,
+            245,
+            257,
+            259
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-142600-script",
+      "claimed_at": "2026-11-27T14:26:00+09:00",
+      "lease_expires_at": "2026-11-27T16:26:00+09:00"
+    },
+    {
+      "id": "DR-062-exam80-01-revision-script",
+      "lesson_id": "DR-062",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-062-D01",
+      "learning_objective": "훈련결과 입력·상비예비군 준용·귀가 사유",
+      "script_ref": "DR-062",
+      "design_version": "editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-18.txt",
+          "source_git_blob": "aaed65786f38035ea47d8aaf64ac3f4e930da9d3",
+          "source_sha256": "6c5810da8b3c2c54869b3cf128ef1216623f7a649103b23645b1e87bc90b19ab",
+          "line_numbers": [
+            27,
+            39,
+            45,
+            53,
+            55,
+            57
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-142600-script",
+      "claimed_at": "2026-11-27T14:26:00+09:00",
+      "lease_expires_at": "2026-11-27T16:26:00+09:00"
+    },
+    {
+      "id": "DR-062-exam80-02-revision-script",
+      "lesson_id": "DR-062",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-062-D02",
+      "learning_objective": "소집필증 1부·2부 및 신고 요구 금지",
+      "script_ref": "DR-062",
+      "design_version": "editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-18.txt",
+          "source_git_blob": "aaed65786f38035ea47d8aaf64ac3f4e930da9d3",
+          "source_sha256": "6c5810da8b3c2c54869b3cf128ef1216623f7a649103b23645b1e87bc90b19ab",
+          "line_numbers": [
+            25,
+            29,
+            33,
+            37,
+            41,
+            43,
+            63,
+            213
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-142600-script",
+      "claimed_at": "2026-11-27T14:26:00+09:00",
+      "lease_expires_at": "2026-11-27T16:26:00+09:00"
+    },
+    {
+      "id": "DR-062-exam80-04-revision-script",
+      "lesson_id": "DR-062",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-062-D04",
+      "learning_objective": "정당한 귀가 4시간·조기퇴소 28시간 및 인도인접 포함",
+      "script_ref": "DR-062",
+      "design_version": "editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-18.txt",
+          "source_git_blob": "aaed65786f38035ea47d8aaf64ac3f4e930da9d3",
+          "source_sha256": "6c5810da8b3c2c54869b3cf128ef1216623f7a649103b23645b1e87bc90b19ab",
+          "line_numbers": [
+            97,
+            107,
+            113,
+            125,
+            131,
+            133,
+            135
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-142600-script",
+      "claimed_at": "2026-11-27T14:26:00+09:00",
+      "lease_expires_at": "2026-11-27T16:26:00+09:00"
+    },
+    {
+      "id": "DR-062-exam80-07-new-script",
+      "lesson_id": "DR-062",
+      "type": "script_coverage_gap",
+      "target_diagram_id": null,
+      "learning_objective": "Ⅰ형 무단불참·재부과 무단불참의 2차와 3차",
+      "script_ref": "DR-062",
+      "design_version": "editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-18.txt",
+          "source_git_blob": "aaed65786f38035ea47d8aaf64ac3f4e930da9d3",
+          "source_sha256": "6c5810da8b3c2c54869b3cf128ef1216623f7a649103b23645b1e87bc90b19ab",
+          "line_numbers": [
+            93,
+            95,
+            139,
+            149,
+            151
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-142600-script",
+      "claimed_at": "2026-11-27T14:26:00+09:00",
+      "lease_expires_at": "2026-11-27T16:26:00+09:00"
+    },
+    {
+      "id": "DR-062-exam80-08-new-script",
+      "lesson_id": "DR-062",
+      "type": "script_coverage_gap",
+      "target_diagram_id": null,
+      "learning_objective": "증빙서류에 따른 차수와 원격교육 지침",
+      "script_ref": "DR-062",
+      "design_version": "editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-18.txt",
+          "source_git_blob": "aaed65786f38035ea47d8aaf64ac3f4e930da9d3",
+          "source_sha256": "6c5810da8b3c2c54869b3cf128ef1216623f7a649103b23645b1e87bc90b19ab",
+          "line_numbers": [
+            59,
+            61,
+            67,
+            77,
+            191
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-142600-script",
+      "claimed_at": "2026-11-27T14:26:00+09:00",
+      "lease_expires_at": "2026-11-27T16:26:00+09:00"
+    },
+    {
+      "id": "DR-062-exam80-09-new-script",
+      "lesson_id": "DR-062",
+      "type": "script_coverage_gap",
+      "target_diagram_id": null,
+      "learning_objective": "거주불명 3차 미교부 및 훈련 취소·4시간",
+      "script_ref": "DR-062",
+      "design_version": "editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-18.txt",
+          "source_git_blob": "aaed65786f38035ea47d8aaf64ac3f4e930da9d3",
+          "source_sha256": "6c5810da8b3c2c54869b3cf128ef1216623f7a649103b23645b1e87bc90b19ab",
+          "line_numbers": [
+            195,
+            197,
+            201,
+            205,
+            209,
+            211,
+            215
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-142600-script",
+      "claimed_at": "2026-11-27T14:26:00+09:00",
+      "lease_expires_at": "2026-11-27T16:26:00+09:00"
+    },
+    {
+      "id": "DR-062-exam80-10-new-script",
+      "lesson_id": "DR-062",
+      "type": "script_coverage_gap",
+      "target_diagram_id": null,
+      "learning_objective": "간부·공군 입영훈련 차수와 4일·32시간",
+      "script_ref": "DR-062",
+      "design_version": "editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-18.txt",
+          "source_git_blob": "aaed65786f38035ea47d8aaf64ac3f4e930da9d3",
+          "source_sha256": "6c5810da8b3c2c54869b3cf128ef1216623f7a649103b23645b1e87bc90b19ab",
+          "line_numbers": [
+            171,
+            173,
+            175,
+            177,
+            185
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-142600-script",
+      "claimed_at": "2026-11-27T14:26:00+09:00",
+      "lease_expires_at": "2026-11-27T16:26:00+09:00"
     }
   ],
   "runs": [
