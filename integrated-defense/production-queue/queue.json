@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject": "integrated-defense",
   "created_at_kst": "2026-11-27T10:25:01+09:00",
-  "updated_at_kst": "2026-11-27T10:28:29+09:00",
+  "updated_at_kst": "2026-11-27T10:48:53+09:00",
   "status": "queued",
   "approved_style": "07-notion-editorial",
   "baseline": {
@@ -26,8 +26,13 @@
   "recurrence": {
     "interval_hours": 1,
     "timezone": "Asia/Seoul",
-    "automation_id": null,
-    "status": "not_scheduled"
+    "automation_id": "Automation_086c407a2438819190f289ac0f0462d8",
+    "status": "scheduled",
+    "is_enabled": true,
+    "timing_mode": "exact_schedule",
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261127T114900\nRRULE:FREQ=HOURLY;INTERVAL=1\nEND:VEVENT",
+    "first_scheduled_run_at_kst": "2026-11-27T11:49:00+09:00",
+    "confirmed_at_kst": "2026-11-27T10:48:53+09:00"
   },
   "completion_rule": "모든 작업의 출력·근거·검수가 확인되면 전용 예약을 중지한다.",
   "jobs": [

@@ -3,10 +3,14 @@
   "title": "통합방위법 도식 계속 제작",
   "requested_interval_hours": 1,
   "timezone": "Asia/Seoul",
-  "status": "not_scheduled",
-  "reason": "scheduling_capacity_unavailable",
-  "automation_id": null,
-  "updated_at_kst": "2026-11-27T10:28:29+09:00",
+  "status": "scheduled",
+  "reason": null,
+  "automation_id": "Automation_086c407a2438819190f289ac0f0462d8",
+  "updated_at_kst": "2026-11-27T10:48:53+09:00",
   "request": "automation-request.json",
-  "note": "예약 생성 성공 확인 전에는 실행 중으로 표시하지 않는다."
+  "note": "통합방위법 전용 예약이 활성화되었다. 매시간 최신 큐에서 작업을 이어 처리하며, 실제 완료 수는 queue.json과 runs/ 검증 기록을 기준으로 한다.",
+  "is_enabled": true,
+  "timing_mode": "exact_schedule",
+  "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261127T114900\nRRULE:FREQ=HOURLY;INTERVAL=1\nEND:VEVENT",
+  "first_scheduled_run_at_kst": "2026-11-27T11:49:00+09:00"
 }
