@@ -3,7 +3,7 @@
   "subject": "integrated-defense",
   "created_at_kst": "2026-11-27T10:25:01+09:00",
   "updated_at_kst": "2026-11-28T00:51:17+09:00",
-  "status": "review_pending",
+  "status": "final_audit_running",
   "approved_style": "07-notion-editorial",
   "baseline": {
     "lessons": 25,
@@ -1192,7 +1192,7 @@
       "kind": "final_audit",
       "title": "25강 전체의 누락·파일·목록 최종 검수",
       "priority": 3,
-      "status": "queued",
+      "status": "running",
       "depends_on": [
         "TB-MOBILE-SETUP",
         "TB-003-SUP-01",
@@ -1234,8 +1234,12 @@
       "outputs": [
         "integrated-defense/production-queue/completion.json"
       ],
-      "lease": null,
-      "attempts": 0,
+      "lease": {
+        "run_id": "tb-exam80-20261128-0051-final",
+        "started_at": "2026-11-28T00:51:17+09:00",
+        "expires_at": "2026-11-28T01:49:00+09:00"
+      },
+      "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     }
   ],

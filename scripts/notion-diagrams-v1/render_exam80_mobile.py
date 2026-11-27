@@ -38,6 +38,9 @@ def render_lesson(l):
 def main():
     req=load(P/'render-request.json'); q=load(P/'queue.json')
     assert req['exam_number']==80
+    if req.get('mode') == 'final-audit-package':
+        from final_exam80_audit import main as final_audit
+        return final_audit(req)
     # Validate only the requested lesson leases, not unrelated jobs.
     from datetime import datetime, timezone
     requested = set(req['lessons'])
