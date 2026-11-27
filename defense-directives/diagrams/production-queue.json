@@ -66,19 +66,7 @@
     ]
   },
   "state": {
-    "active_run": {
-      "id": "dr-20261128-062514-script",
-      "started_at": "2026-11-28T06:25:14+09:00",
-      "claimed_at": "2026-11-28T06:25:14+09:00",
-      "lease_expires_at": "2026-11-28T08:25:14+09:00",
-      "lesson_ids": [
-        "DR-064",
-        "DR-065",
-        "DR-072"
-      ],
-      "worker_count": 1,
-      "mode": "targeted_render"
-    },
+    "active_run": null,
     "last_successful_run": {
       "id": "dr-20261128-042219-script",
       "render_commit": "ba2cbd82dbb769a6769068ee90938c4d7e14dd8a",
@@ -106,7 +94,7 @@
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
     "production_jobs_queued": 0,
-    "production_jobs_qa": 0,
+    "production_jobs_qa": 6,
     "production_jobs_completed": 103,
     "production_jobs_running": 6
   },
@@ -9024,8 +9012,24 @@
       "script_sha256": "606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-064|606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0|15,19,31,35,39,89,101,103,105,121|전국단위훈련 공시·신청 주체와 인터넷 기한 및 서식 구분|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-064/diagrams/DR-064-D01-editorial-v1.svg",
+          "bytes": 7117,
+          "sha256": "4c7f9cfae6d44d6c587faa7775168ffc182a9b54cab993745dfe5769c188d734"
+        },
+        {
+          "path": "defense-directives/lesson-064/diagrams/DR-064-D01-editorial-v1.png",
+          "bytes": 200271,
+          "sha256": "910edf5d1d601de35d1f090f5d9a64f2c1e8aeac5624e1b1c7ba3d064d97e22c"
+        },
+        {
+          "path": "defense-directives/lesson-064/diagrams/DR-064-D01-editorial-v1.webp",
+          "bytes": 61632,
+          "sha256": "f42807d6219b72554010d591abf96a794faf1c62c38ae4021446c24aba7fdb0c"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_2-20.txt",
@@ -9045,11 +9049,15 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-062514-script",
-      "claimed_at": "2026-11-28T06:25:14+09:00",
-      "lease_expires_at": "2026-11-28T08:25:14+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "finding": "기존 도식에 연간 공시 주체·별지3호 누락, 인터넷 기한과 방문신청 구분 불명확, 강의 외 작계 예외 주석 존재",
-      "required_change": "전국단위훈련 공시·신청 주체와 인터넷 기한 및 서식 구분"
+      "required_change": "전국단위훈련 공시·신청 주체와 인터넷 기한 및 서식 구분",
+      "diagram_id": "DR-064-D01",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-064-D02-script-062514",
@@ -9062,8 +9070,24 @@
       "script_sha256": "606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-064|606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0|57,59,77,79,81,83,85,131|신청 정원 편성·확대 판단·축소 승인 주체 구분|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-064/diagrams/DR-064-D02-editorial-v1.svg",
+          "bytes": 5744,
+          "sha256": "646c86675b334cc16b20b074bbfaa2e0b7a0d71ceb81045f72bed772292ecebb"
+        },
+        {
+          "path": "defense-directives/lesson-064/diagrams/DR-064-D02-editorial-v1.png",
+          "bytes": 162618,
+          "sha256": "31eccfe6736eea54ac2f9bb550ad30bc56cfd2ec74f039ceb84409c0e8b0c815"
+        },
+        {
+          "path": "defense-directives/lesson-064/diagrams/DR-064-D02-editorial-v1.webp",
+          "bytes": 49216,
+          "sha256": "98d8a479ca04010ad589874af62b51d5aa52322fa4667c8b69b886d6ed46da6c"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_2-20.txt",
@@ -9081,11 +9105,15 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-062514-script",
-      "claimed_at": "2026-11-28T06:25:14+09:00",
-      "lease_expires_at": "2026-11-28T08:25:14+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "finding": "비율 편성 주체 및 반영 주체 누락, 해병대 승인권자 조건 명확화",
-      "required_change": "신청 정원 편성·확대 판단·축소 승인 주체 구분"
+      "required_change": "신청 정원 편성·확대 판단·축소 승인 주체 구분",
+      "diagram_id": "DR-064-D02",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-065-D01-script-062514",
@@ -9098,8 +9126,24 @@
       "script_sha256": "5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-065|5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d|17,25,37,41,43,53,61,77,79,81|휴일훈련 지정권자와 연간 공시·개별 공지 주체 구분|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-065/diagrams/DR-065-D01-editorial-v1.svg",
+          "bytes": 6358,
+          "sha256": "05d4d2a6f511a09f2c9c84df3456e393cec762d3fe19f75c6a99e5bd63f8c1e7"
+        },
+        {
+          "path": "defense-directives/lesson-065/diagrams/DR-065-D01-editorial-v1.png",
+          "bytes": 185470,
+          "sha256": "232cd6d1524316a67964c45ecca59b8dc4858ca23381993db966640dc03ab366"
+        },
+        {
+          "path": "defense-directives/lesson-065/diagrams/DR-065-D01-editorial-v1.webp",
+          "bytes": 56752,
+          "sha256": "4d623e8d2183e7b428559bfdc032854f24571170095e14400899bc4647aea4f6"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_2-21.txt",
@@ -9119,11 +9163,15 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-062514-script",
-      "claimed_at": "2026-11-28T06:25:14+09:00",
-      "lease_expires_at": "2026-11-28T08:25:14+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "finding": "기존 도식에 부대 지정권자·연간 공시 주체·개별 공지 주체가 빠짐",
-      "required_change": "휴일훈련 지정권자와 연간 공시·개별 공지 주체 구분"
+      "required_change": "휴일훈련 지정권자와 연간 공시·개별 공지 주체 구분",
+      "diagram_id": "DR-065-D01",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-065-D02-script-062514",
@@ -9136,8 +9184,24 @@
       "script_sha256": "5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-065|5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d|61,85,95,101,107,113,117,125,137|교관 구성과 조교 위로휴가 조건 비교|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-065/diagrams/DR-065-D02-editorial-v1.svg",
+          "bytes": 5728,
+          "sha256": "f53fde829dcf54df6b2e072bd23486e4d89f0a73df026feb55808684e2919fc4"
+        },
+        {
+          "path": "defense-directives/lesson-065/diagrams/DR-065-D02-editorial-v1.png",
+          "bytes": 141105,
+          "sha256": "d0c5ad9f390e4637c5a25672c232b12822d08205582322dcbb52e7c7cb0c291d"
+        },
+        {
+          "path": "defense-directives/lesson-065/diagrams/DR-065-D02-editorial-v1.webp",
+          "bytes": 43878,
+          "sha256": "fcb3f21891d59e4300403b1efc30e90feccfabd98b3e99b096139fd78eb6dcaa"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_2-21.txt",
@@ -9156,11 +9220,15 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-062514-script",
-      "claimed_at": "2026-11-28T06:25:14+09:00",
-      "lease_expires_at": "2026-11-28T08:25:14+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "finding": "교관의 현역·예비군지휘관·군무원 구분 누락",
-      "required_change": "교관 구성과 조교 위로휴가 조건 비교"
+      "required_change": "교관 구성과 조교 위로휴가 조건 비교",
+      "diagram_id": "DR-065-D02",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-072-D01-script-062514",
@@ -9173,8 +9241,24 @@
       "script_sha256": "63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-072|63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd|19,29,43,93,95,109,129,135,136,140|급식 방식과 대체 승인 및 급식비 중복 제한|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-072/diagrams/DR-072-D01-editorial-v1.svg",
+          "bytes": 6062,
+          "sha256": "380487c875dfdf8ebce4716dcefc30007e0402f1c9b103c3d045d783910518ae"
+        },
+        {
+          "path": "defense-directives/lesson-072/diagrams/DR-072-D01-editorial-v1.png",
+          "bytes": 145792,
+          "sha256": "2572624e0c403909af1bb2fa71f7deb1013b5595a4430e75330060ea0642d371"
+        },
+        {
+          "path": "defense-directives/lesson-072/diagrams/DR-072-D01-editorial-v1.webp",
+          "bytes": 43514,
+          "sha256": "5e0e9f749f9597c87c1f89a6a2b7396cbeaf75fbf0c882e16fbce790673aed8d"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_2-28.txt",
@@ -9194,11 +9278,15 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-062514-script",
-      "claimed_at": "2026-11-28T06:25:14+09:00",
-      "lease_expires_at": "2026-11-28T08:25:14+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "finding": "대체 방식의 공급능력 부족 조건 및 원고 제27조 연계 설명 보완",
-      "required_change": "급식 방식과 대체 승인 및 급식비 중복 제한"
+      "required_change": "급식 방식과 대체 승인 및 급식비 중복 제한",
+      "diagram_id": "DR-072-D01",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-072-D02-script-062514",
@@ -9211,8 +9299,24 @@
       "script_sha256": "63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-072|63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd|49,65,69,79,81,85,113,119,123,127|도시락 업체 계약·품평회 구성 및 만족도 조사 주체 비교|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-072/diagrams/DR-072-D02-editorial-v1.svg",
+          "bytes": 6693,
+          "sha256": "b1c0e5b1696f56ac72690b5be02ea7500dbb8a3055fe28e33a134ab516abd801"
+        },
+        {
+          "path": "defense-directives/lesson-072/diagrams/DR-072-D02-editorial-v1.png",
+          "bytes": 186193,
+          "sha256": "54ce9f3c345da24836082d3a7a25a1f95a6f1932541ec432012cff50af777909"
+        },
+        {
+          "path": "defense-directives/lesson-072/diagrams/DR-072-D02-editorial-v1.webp",
+          "bytes": 57008,
+          "sha256": "49c60716c1b0ea9a74c8dea6af903ee89d5942411f134b142628f14e00d2744a"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_2-28.txt",
@@ -9232,11 +9336,15 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-062514-script",
-      "claimed_at": "2026-11-28T06:25:14+09:00",
-      "lease_expires_at": "2026-11-28T08:25:14+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "finding": "계약 준거·품평회 참여자·조사 대상 누락",
-      "required_change": "도시락 업체 계약·품평회 구성 및 만족도 조사 주체 비교"
+      "required_change": "도시락 업체 계약·품평회 구성 및 만족도 조사 주체 비교",
+      "diagram_id": "DR-072-D02",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     }
   ],
   "runs": [
@@ -9615,6 +9723,21 @@
       "render_commit": "ba2cbd82dbb769a6769068ee90938c4d7e14dd8a",
       "completed_at": "2026-11-28T05:27:05+09:00",
       "remaining_reviews": 35
+    },
+    {
+      "id": "dr-20261128-062514-script",
+      "status": "rendered_pending_visual_qa",
+      "new_diagrams": 0,
+      "revised_diagrams": 6,
+      "completed_reviews": 0,
+      "diagram_ids": [
+        "DR-064-D01",
+        "DR-064-D02",
+        "DR-065-D01",
+        "DR-065-D02",
+        "DR-072-D01",
+        "DR-072-D02"
+      ]
     }
   ],
   "exam": {

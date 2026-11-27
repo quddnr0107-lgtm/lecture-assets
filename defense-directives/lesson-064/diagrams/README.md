@@ -12,7 +12,6 @@
 
 근거: [교육훈련 훈령 제20조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J20-0:0) · 국방부훈령 제3216호
 
-훈련장에서 실시하는 작계 3차의 전환 예외는 제14조제2호마목 적용.
 
 ## DR-064-D02 · 전국단위훈련 신청 정원
 
@@ -21,3 +20,4 @@
 ![전국단위훈련 신청 정원](DR-064-D02-editorial-v1.webp)
 
 근거: [교육훈련 훈령 제20조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J20-0:0) · 국방부훈령 제3216호
+

@@ -12,7 +12,6 @@
 
 근거: [교육훈련 훈령 제21조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J21-0:0) · 국방부훈령 제3216호
 
-간부·공군 병은 제13조제4항에 따라 휴일훈련 대상에서 제외.
 
 ## DR-065-D02 · 휴일훈련 불참과 지원인력
 
@@ -21,3 +20,4 @@
 ![휴일훈련 불참과 지원인력](DR-065-D02-editorial-v1.webp)
 
 근거: [교육훈련 훈령 제21조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J21-0:0) · 국방부훈령 제3216호
+
