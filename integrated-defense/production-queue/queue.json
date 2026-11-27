@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject": "integrated-defense",
   "created_at_kst": "2026-11-27T10:25:01+09:00",
-  "updated_at_kst": "2026-11-27T15:50:00+09:00",
+  "updated_at_kst": "2026-11-27T07:53:04.658Z",
   "status": "review_pending",
   "approved_style": "07-notion-editorial",
   "baseline": {
@@ -342,8 +342,12 @@
       "outputs": [
         "integrated-defense/lesson-004/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 3,
+      "lease": {
+        "run_id": "tb-exam80-visual-20261127T075304Z",
+        "started_at": "2026-11-27T07:53:04.658Z",
+        "expires_at": "2026-11-27T08:43:04.658Z"
+      },
+      "attempts": 4,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "D02 M02: 가로형 방향 지시어 '오른쪽' 제거 후 재생성·검수 필요. 원고·가로형 콘텐츠 변경 금지."
     },
@@ -377,8 +381,12 @@
       "outputs": [
         "integrated-defense/lesson-005/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 2,
+      "lease": {
+        "run_id": "tb-exam80-visual-20261127T075304Z",
+        "started_at": "2026-11-27T07:53:04.658Z",
+        "expires_at": "2026-11-27T08:43:04.658Z"
+      },
+      "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "D03 M03: 근거만 남은 페이지. 기존 재균형 알고리즘으로 재생성·검수 필요."
     },
@@ -410,8 +418,12 @@
       "outputs": [
         "integrated-defense/lesson-006/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 1,
+      "lease": {
+        "run_id": "tb-exam80-visual-20261127T075304Z",
+        "started_at": "2026-11-27T07:53:04.658Z",
+        "expires_at": "2026-11-27T08:43:04.658Z"
+      },
+      "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
