@@ -66,7 +66,38 @@
     ]
   },
   "state": {
-    "active_run": null,
+    "active_run": {
+      "id": "dr-20261127-203000-script",
+      "started_at": "2026-11-27T20:30:00+09:00",
+      "lease_expires_at": "2026-11-27T22:30:00+09:00",
+      "lesson_ids": [
+        "DR-002",
+        "DR-009",
+        "DR-067",
+        "DR-076",
+        "DR-063",
+        "DR-021"
+      ],
+      "production_job_ids": [
+        "DR-002-exam80-01-revision-203000",
+        "DR-002-exam80-03-revision-203000",
+        "DR-002-exam80-04-revision-203000",
+        "DR-002-exam80-05-new-203000",
+        "DR-009-exam80-06-new-203000",
+        "DR-009-exam80-07-new-203000",
+        "DR-009-exam80-08-new-203000",
+        "DR-009-exam80-09-new-203000",
+        "DR-067-exam80-01-revision-203000",
+        "DR-067-exam80-04-revision-203000",
+        "DR-067-exam80-06-new-203000",
+        "DR-067-exam80-07-new-203000",
+        "DR-067-exam80-08-new-203000",
+        "DR-076-exam80-02-new-203000",
+        "DR-076-exam80-03-new-203000",
+        "DR-063-exam80-01-revision-203000",
+        "DR-021-exam80-01-revision-203000"
+      ]
+    },
     "last_successful_run": {
       "id": "dr-20261127-183200-script",
       "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8",
@@ -78,7 +109,7 @@
     "coverage_reviews_total": 78,
     "coverage_reviews_queued": 46,
     "coverage_reviews_completed": 32,
-    "confirmed_production_jobs": 66,
+    "confirmed_production_jobs": 83,
     "diagrams_added_after_baseline": 20,
     "diagrams_revised_after_baseline": 49,
     "script_bindings_verified": 78,
@@ -378,7 +409,13 @@
       "completed_at": null,
       "result": null,
       "script_ref": "DR-009",
-      "script_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9"
+      "script_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+      "confirmed_production_job_ids": [
+        "DR-009-exam80-06-new-203000",
+        "DR-009-exam80-07-new-203000",
+        "DR-009-exam80-08-new-203000",
+        "DR-009-exam80-09-new-203000"
+      ]
     },
     {
       "id": "DR-067-coverage-review-v1",
@@ -409,7 +446,14 @@
       "completed_at": null,
       "result": null,
       "script_ref": "DR-067",
-      "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf"
+      "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+      "confirmed_production_job_ids": [
+        "DR-067-exam80-01-revision-203000",
+        "DR-067-exam80-04-revision-203000",
+        "DR-067-exam80-06-new-203000",
+        "DR-067-exam80-07-new-203000",
+        "DR-067-exam80-08-new-203000"
+      ]
     },
     {
       "id": "DR-045-coverage-review-v1",
@@ -599,7 +643,13 @@
       "completed_at": null,
       "result": null,
       "script_ref": "DR-002",
-      "script_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e"
+      "script_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+      "confirmed_production_job_ids": [
+        "DR-002-exam80-01-revision-203000",
+        "DR-002-exam80-03-revision-203000",
+        "DR-002-exam80-04-revision-203000",
+        "DR-002-exam80-05-new-203000"
+      ]
     },
     {
       "id": "DR-005-coverage-review-v1",
@@ -1550,7 +1600,8 @@
       "script_ref": "DR-021",
       "script_sha256": "6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04",
       "confirmed_production_job_ids": [
-        "DR-021-exam80-01-revision-183200"
+        "DR-021-exam80-01-revision-183200",
+        "DR-021-exam80-01-revision-203000"
       ]
     },
     {
@@ -2799,7 +2850,10 @@
       "completed_at": null,
       "result": null,
       "script_ref": "DR-063",
-      "script_sha256": "ef7ff0ba84a06441ecb71f6cc2b43513ac71f554af7d7ae55be9191278a0c161"
+      "script_sha256": "ef7ff0ba84a06441ecb71f6cc2b43513ac71f554af7d7ae55be9191278a0c161",
+      "confirmed_production_job_ids": [
+        "DR-063-exam80-01-revision-203000"
+      ]
     },
     {
       "id": "DR-069-coverage-review-v1",
@@ -2894,7 +2948,11 @@
       "completed_at": null,
       "result": null,
       "script_ref": "DR-076",
-      "script_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239"
+      "script_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
+      "confirmed_production_job_ids": [
+        "DR-076-exam80-02-new-203000",
+        "DR-076-exam80-03-new-203000"
+      ]
     },
     {
       "id": "DR-077-coverage-review-v1",
@@ -6605,6 +6663,516 @@
       "visual_review": "passed",
       "completed_at": "2026-11-27T20:30:00+09:00",
       "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8"
+    },
+    {
+      "id": "DR-002-exam80-01-revision-203000",
+      "lesson_id": "DR-002",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-002-D01",
+      "learning_objective": "예비군 정의와 조직·편성 구분",
+      "script_ref": "DR-002",
+      "script_section": "19,21,27,28,44",
+      "script_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-002|8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e|19,21,27,28,44|예비군 정의와 조직·편성 구분|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-2.txt",
+          "source_git_blob": "1fdb1e871dd507b7eafff5be6be788eb00abc150",
+          "source_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+          "line_numbers": [
+            19,
+            21,
+            27,
+            28,
+            44
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-203000-script",
+      "claimed_at": "2026-11-27T20:30:00+09:00",
+      "lease_expires_at": "2026-11-27T22:30:00+09:00"
+    },
+    {
+      "id": "DR-002-exam80-03-revision-203000",
+      "lesson_id": "DR-002",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-002-D03",
+      "learning_objective": "지역대 편성 단위와 지휘관리 명시",
+      "script_ref": "DR-002",
+      "script_section": "109,123,139",
+      "script_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-002|8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e|109,123,139|지역대 편성 단위와 지휘관리 명시|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-2.txt",
+          "source_git_blob": "1fdb1e871dd507b7eafff5be6be788eb00abc150",
+          "source_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+          "line_numbers": [
+            109,
+            123,
+            139
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-203000-script",
+      "claimed_at": "2026-11-27T20:30:00+09:00",
+      "lease_expires_at": "2026-11-27T22:30:00+09:00"
+    },
+    {
+      "id": "DR-002-exam80-04-revision-203000",
+      "lesson_id": "DR-002",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-002-D04",
+      "learning_objective": "위임받는 주체와 방향",
+      "script_ref": "DR-002",
+      "script_section": "89,161,189",
+      "script_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-002|8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e|89,161,189|위임받는 주체와 방향|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-2.txt",
+          "source_git_blob": "1fdb1e871dd507b7eafff5be6be788eb00abc150",
+          "source_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+          "line_numbers": [
+            89,
+            161,
+            189
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-203000-script",
+      "claimed_at": "2026-11-27T20:30:00+09:00",
+      "lease_expires_at": "2026-11-27T22:30:00+09:00"
+    },
+    {
+      "id": "DR-002-exam80-05-new-203000",
+      "lesson_id": "DR-002",
+      "type": "script_coverage_supplement",
+      "target_diagram_id": "DR-002-D05",
+      "learning_objective": "정보체계·주요 직위자·전역권부대의 정의",
+      "script_ref": "DR-002",
+      "script_section": "205,221,235",
+      "script_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-002|8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e|205,221,235|정보체계·주요 직위자·전역권부대의 정의|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-2.txt",
+          "source_git_blob": "1fdb1e871dd507b7eafff5be6be788eb00abc150",
+          "source_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+          "line_numbers": [
+            205,
+            221,
+            235
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-203000-script",
+      "claimed_at": "2026-11-27T20:30:00+09:00",
+      "lease_expires_at": "2026-11-27T22:30:00+09:00"
+    },
+    {
+      "id": "DR-009-exam80-06-new-203000",
+      "lesson_id": "DR-009",
+      "type": "script_coverage_supplement",
+      "target_diagram_id": "DR-009-D06",
+      "learning_objective": "별표 3·6·7 편성기구도 구분",
+      "script_ref": "DR-009",
+      "script_section": "27,29,191,211",
+      "script_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-009|dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9|27,29,191,211|별표 3·6·7 편성기구도 구분|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-9.txt",
+          "source_git_blob": "3ecda6a43480e8512f969ce798eeb05611a91527",
+          "source_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+          "line_numbers": [
+            27,
+            29,
+            191,
+            211
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-203000-script",
+      "claimed_at": "2026-11-27T20:30:00+09:00",
+      "lease_expires_at": "2026-11-27T22:30:00+09:00"
+    },
+    {
+      "id": "DR-009-exam80-07-new-203000",
+      "lesson_id": "DR-009",
+      "type": "script_coverage_supplement",
+      "target_diagram_id": "DR-009-D07",
+      "learning_objective": "지역대 본부 평시·동원시 편성",
+      "script_ref": "DR-009",
+      "script_section": "31",
+      "script_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-009|dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9|31|지역대 본부 평시·동원시 편성|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-9.txt",
+          "source_git_blob": "3ecda6a43480e8512f969ce798eeb05611a91527",
+          "source_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+          "line_numbers": [
+            31
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-203000-script",
+      "claimed_at": "2026-11-27T20:30:00+09:00",
+      "lease_expires_at": "2026-11-27T22:30:00+09:00"
+    },
+    {
+      "id": "DR-009-exam80-08-new-203000",
+      "lesson_id": "DR-009",
+      "type": "script_coverage_supplement",
+      "target_diagram_id": "DR-009-D08",
+      "learning_objective": "지역대 본부 직책별 임무",
+      "script_ref": "DR-009",
+      "script_section": "65",
+      "script_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-009|dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9|65|지역대 본부 직책별 임무|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-9.txt",
+          "source_git_blob": "3ecda6a43480e8512f969ce798eeb05611a91527",
+          "source_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+          "line_numbers": [
+            65
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-203000-script",
+      "claimed_at": "2026-11-27T20:30:00+09:00",
+      "lease_expires_at": "2026-11-27T22:30:00+09:00"
+    },
+    {
+      "id": "DR-009-exam80-09-new-203000",
+      "lesson_id": "DR-009",
+      "type": "script_coverage_supplement",
+      "target_diagram_id": "DR-009-D09",
+      "learning_objective": "기타소대 대상 및 명칭 부여 근거",
+      "script_ref": "DR-009",
+      "script_section": "209,255,257",
+      "script_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-009|dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9|209,255,257|기타소대 대상 및 명칭 부여 근거|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-9.txt",
+          "source_git_blob": "3ecda6a43480e8512f969ce798eeb05611a91527",
+          "source_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+          "line_numbers": [
+            209,
+            255,
+            257
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-203000-script",
+      "claimed_at": "2026-11-27T20:30:00+09:00",
+      "lease_expires_at": "2026-11-27T22:30:00+09:00"
+    },
+    {
+      "id": "DR-067-exam80-01-revision-203000",
+      "lesson_id": "DR-067",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-067-D01",
+      "learning_objective": "동원보류와 훈련보류 처리 차이",
+      "script_ref": "DR-067",
+      "script_section": "27,35,37,61,79",
+      "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|27,35,37,61,79|동원보류와 훈련보류 처리 차이|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
+          "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+          "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+          "line_numbers": [
+            27,
+            35,
+            37,
+            61,
+            79
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-203000-script",
+      "claimed_at": "2026-11-27T20:30:00+09:00",
+      "lease_expires_at": "2026-11-27T22:30:00+09:00"
+    },
+    {
+      "id": "DR-067-exam80-04-revision-203000",
+      "lesson_id": "DR-067",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-067-D04",
+      "learning_objective": "추가진단서 미제출시 기간 합산 예외",
+      "script_ref": "DR-067",
+      "script_section": "95,97,101,107,113",
+      "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|95,97,101,107,113|추가진단서 미제출시 기간 합산 예외|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
+          "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+          "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+          "line_numbers": [
+            95,
+            97,
+            101,
+            107,
+            113
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-203000-script",
+      "claimed_at": "2026-11-27T20:30:00+09:00",
+      "lease_expires_at": "2026-11-27T22:30:00+09:00"
+    },
+    {
+      "id": "DR-067-exam80-06-new-203000",
+      "lesson_id": "DR-067",
+      "type": "script_coverage_supplement",
+      "target_diagram_id": "DR-067-D06",
+      "learning_objective": "보류 시작일과 직권보류 대상",
+      "script_ref": "DR-067",
+      "script_section": "37,39,41,63",
+      "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|37,39,41,63|보류 시작일과 직권보류 대상|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
+          "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+          "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+          "line_numbers": [
+            37,
+            39,
+            41,
+            63
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-203000-script",
+      "claimed_at": "2026-11-27T20:30:00+09:00",
+      "lease_expires_at": "2026-11-27T22:30:00+09:00"
+    },
+    {
+      "id": "DR-067-exam80-07-new-203000",
+      "lesson_id": "DR-067",
+      "type": "script_coverage_supplement",
+      "target_diagram_id": "DR-067-D07",
+      "learning_objective": "질병 보류 심의와 중증질환 판단",
+      "script_ref": "DR-067",
+      "script_section": "97,107,109,113",
+      "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|97,107,109,113|질병 보류 심의와 중증질환 판단|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
+          "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+          "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+          "line_numbers": [
+            97,
+            107,
+            109,
+            113
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-203000-script",
+      "claimed_at": "2026-11-27T20:30:00+09:00",
+      "lease_expires_at": "2026-11-27T22:30:00+09:00"
+    },
+    {
+      "id": "DR-067-exam80-08-new-203000",
+      "lesson_id": "DR-067",
+      "type": "script_coverage_supplement",
+      "target_diagram_id": "DR-067-D08",
+      "learning_objective": "병역처분 변경과 현역복무부적합자 보류",
+      "script_ref": "DR-067",
+      "script_section": "131,133,139,141",
+      "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|131,133,139,141|병역처분 변경과 현역복무부적합자 보류|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
+          "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+          "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+          "line_numbers": [
+            131,
+            133,
+            139,
+            141
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-203000-script",
+      "claimed_at": "2026-11-27T20:30:00+09:00",
+      "lease_expires_at": "2026-11-27T22:30:00+09:00"
+    },
+    {
+      "id": "DR-076-exam80-02-new-203000",
+      "lesson_id": "DR-076",
+      "type": "script_coverage_supplement",
+      "target_diagram_id": "DR-076-D02",
+      "learning_objective": "자진납부 감경과 이의제기 비교",
+      "script_ref": "DR-076",
+      "script_section": "102,104,110,118,122,124",
+      "script_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-076|16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239|102,104,110,118,122,124|자진납부 감경과 이의제기 비교|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-32.txt",
+          "source_git_blob": "899302aaf728a341ec23adad26262a73c91c6fe1",
+          "source_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
+          "line_numbers": [
+            102,
+            104,
+            110,
+            118,
+            122,
+            124
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-203000-script",
+      "claimed_at": "2026-11-27T20:30:00+09:00",
+      "lease_expires_at": "2026-11-27T22:30:00+09:00"
+    },
+    {
+      "id": "DR-076-exam80-03-new-203000",
+      "lesson_id": "DR-076",
+      "type": "script_coverage_supplement",
+      "target_diagram_id": "DR-076-D03",
+      "learning_objective": "체납 가산금과 후속조치",
+      "script_ref": "DR-076",
+      "script_section": "126,130,134,140,142",
+      "script_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-076|16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239|126,130,134,140,142|체납 가산금과 후속조치|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-32.txt",
+          "source_git_blob": "899302aaf728a341ec23adad26262a73c91c6fe1",
+          "source_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
+          "line_numbers": [
+            126,
+            130,
+            134,
+            140,
+            142
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-203000-script",
+      "claimed_at": "2026-11-27T20:30:00+09:00",
+      "lease_expires_at": "2026-11-27T22:30:00+09:00"
+    },
+    {
+      "id": "DR-063-exam80-01-revision-203000",
+      "lesson_id": "DR-063",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-063-D01",
+      "learning_objective": "자율선택 주체 및 기간·장소 구별",
+      "script_ref": "DR-063",
+      "script_section": "17,29,47,51,55,73,75",
+      "script_sha256": "ef7ff0ba84a06441ecb71f6cc2b43513ac71f554af7d7ae55be9191278a0c161",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-063|ef7ff0ba84a06441ecb71f6cc2b43513ac71f554af7d7ae55be9191278a0c161|17,29,47,51,55,73,75|자율선택 주체 및 기간·장소 구별|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-19.txt",
+          "source_git_blob": "867bc13f4d6701f321f430f726acb4494a18017f",
+          "source_sha256": "ef7ff0ba84a06441ecb71f6cc2b43513ac71f554af7d7ae55be9191278a0c161",
+          "line_numbers": [
+            17,
+            29,
+            47,
+            51,
+            55,
+            73,
+            75
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-203000-script",
+      "claimed_at": "2026-11-27T20:30:00+09:00",
+      "lease_expires_at": "2026-11-27T22:30:00+09:00"
+    },
+    {
+      "id": "DR-021-exam80-01-revision-203000",
+      "lesson_id": "DR-021",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-021-D01",
+      "learning_objective": "추가 편성카드 통지 수단 명시",
+      "script_ref": "DR-021",
+      "script_section": "57,85,89,99,171",
+      "script_sha256": "6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-021|6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04|57,85,89,99,171|추가 편성카드 통지 수단 명시|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-21.txt",
+          "source_git_blob": "a8908c2960fbcdd6a7da0a671575452b3ec83bea",
+          "source_sha256": "6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04",
+          "line_numbers": [
+            57,
+            85,
+            89,
+            99,
+            171
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261127-203000-script",
+      "claimed_at": "2026-11-27T20:30:00+09:00",
+      "lease_expires_at": "2026-11-27T22:30:00+09:00"
     }
   ],
   "runs": [
