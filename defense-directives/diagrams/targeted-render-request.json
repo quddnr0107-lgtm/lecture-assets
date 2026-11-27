@@ -1,207 +1,603 @@
 {
-  "schema_version": 1,
-  "run_id": "dr-20261127-122552",
+  "schema_version": 2,
+  "run_id": "dr-20261127-132629",
   "exam": 80,
-  "lesson_id": "DR-045",
-  "expected_source_blob": "2c13f6ab444effe0f7d91f0d87a7768fbb5a9acb",
-  "expected_script_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18",
-  "existing_max": 1,
-  "items": [
+  "groups": [
     {
-      "id": "DR-045-D02",
-      "job_id": "DR-045-existing-script-voluntary-payment-and-objection",
-      "slide": {
-        "lessonId": "DR-045",
-        "articleKey": "2-32",
-        "layout": "equal",
-        "sourceArticle": "교육훈련 훈령 제32조",
-        "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J32-0:0",
-        "sourceVersion": "국방부훈령 제3216호",
-        "effectiveDate": "2026-10-14",
-        "scriptRef": "DR-045",
-        "note": "",
-        "scriptEvidence": {
-          "source_git_blob": "2c13f6ab444effe0f7d91f0d87a7768fbb5a9acb",
-          "source_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18",
-          "lines": [
-            29,
-            39,
-            41,
-            59,
-            61
-          ]
-        },
-        "title": "자진납부와 이의제기",
-        "subtitle": "사전통지 단계의 감경과 부과통지 이후 불복을 구분한다.",
-        "sourceClauses": [
-          "별지 제5호 서식",
-          "별지 제6호 서식"
-        ],
-        "left": {
-          "title": "자진납부 감경",
-          "subtitle": "사전통지서 · 별지 제5호",
-          "items": [
-            {
-              "label": "조건",
-              "text": "의견제출 기한 내 자진납부",
-              "bold": false
+      "lesson_id": "DR-001",
+      "expected_source_blob": "11e0c60385726c84442f70a4f5baac44db7249c7",
+      "expected_script_sha256": "96795bf7bad790e12f95997397d7957406dd3a882160354f5f7f6ae22da08e7a",
+      "existing_max": 1,
+      "items": [
+        {
+          "id": "DR-001-D01",
+          "job_id": "DR-001-exam80-D01-revision",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-001",
+            "articleKey": "1-1",
+            "title": "훈령이 정하는 것과 보충 기준",
+            "subtitle": "필요한 지침과 절차 등을 규정함을 목적으로 한다.",
+            "layout": "equal",
+            "left": {
+              "title": "훈령의 목적",
+              "subtitle": "예비군법·병역법 등에 근거",
+              "items": [
+                {
+                  "label": "규정 대상",
+                  "text": "예비군의 조직·편성 및 운영",
+                  "bold": false
+                },
+                {
+                  "label": "규정 내용",
+                  "text": "필요한 지침과 절차 등을 규정함",
+                  "bold": false
+                }
+              ]
             },
-            {
-              "label": "감경 범위",
-              "text": "100분의 20 이내에서 감경 가능",
-              "bold": false
+            "right": {
+              "title": "명시되지 않은 사항",
+              "subtitle": "본문에 정함이 없는 경우",
+              "items": [
+                {
+                  "label": "보충 기준 1",
+                  "text": "당해 연도 지침",
+                  "bold": false
+                },
+                {
+                  "label": "보충 기준 2",
+                  "text": "육군·해군 규정",
+                  "bold": false
+                }
+              ]
             },
-            {
-              "label": "절차 종료",
-              "text": "감경된 과태료 자진납부 시 의견제출·이의제기 불가",
-              "bold": false
+            "sourceArticle": "조직·편성 훈령 제1조",
+            "sourceClauses": [
+              "본문"
+            ],
+            "note": "시험 핵심: 규정함을 목적으로 한다. 권고함이 아니다.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J1-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-001",
+            "scriptEvidence": {
+              "source_git_blob": "11e0c60385726c84442f70a4f5baac44db7249c7",
+              "source_sha256": "96795bf7bad790e12f95997397d7957406dd3a882160354f5f7f6ae22da08e7a",
+              "lines": [
+                17,
+                43,
+                45,
+                55,
+                89
+              ]
             }
-          ]
-        },
-        "right": {
-          "title": "부과에 불복",
-          "subtitle": "부과 결정서 · 별지 제6호",
-          "items": [
-            {
-              "label": "기산점",
-              "text": "과태료 부과통지를 받은 날",
-              "bold": false
-            },
-            {
-              "label": "이의제기",
-              "text": "60일 이내",
-              "bold": false
-            },
-            {
-              "label": "판단",
-              "text": "이의제기 시 법원의 과태료 재판",
-              "bold": false
-            }
-          ]
+          }
         }
-      }
+      ]
     },
     {
-      "id": "DR-045-D03",
-      "job_id": "DR-045-existing-script-arrears-rates",
-      "slide": {
-        "lessonId": "DR-045",
-        "articleKey": "2-32",
-        "layout": "equal",
-        "sourceArticle": "교육훈련 훈령 제32조",
-        "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J32-0:0",
-        "sourceVersion": "국방부훈령 제3216호",
-        "effectiveDate": "2026-10-14",
-        "scriptRef": "DR-045",
-        "note": "",
-        "scriptEvidence": {
-          "source_git_blob": "2c13f6ab444effe0f7d91f0d87a7768fbb5a9acb",
-          "source_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18",
-          "lines": [
-            45,
-            47,
-            62
-          ]
-        },
-        "title": "가산금과 중가산금",
-        "subtitle": "납부기한까지 과태료를 납부하지 않은 경우 적용한다.",
-        "sourceClauses": [
-          "별지 제6호 서식"
-        ],
-        "left": {
-          "title": "가산금",
-          "subtitle": "납부기한 경과 시",
-          "items": [
-            {
-              "label": "산정 기준",
-              "text": "체납된 과태료",
-              "bold": false
+      "lesson_id": "DR-060",
+      "expected_source_blob": "4ae4b683613ed5f610c84fa844e21ab045e8d740",
+      "expected_script_sha256": "0d4cb439e9011e57a4bea7e3ab322e3b39d26f319774fbe3efec8ddc9e0687a0",
+      "existing_max": 6,
+      "items": [
+        {
+          "id": "DR-060-D02",
+          "job_id": "DR-060-exam80-D02-revision",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-060",
+            "articleKey": "2-16",
+            "title": "도서지역 예비군훈련",
+            "subtitle": "연륙교가 없는 도서면대 소속 예비군에게 적용한다.",
+            "layout": "equal",
+            "left": {
+              "title": "대상·시간",
+              "subtitle": "제2항제1호·제2호",
+              "items": [
+                {
+                  "label": "적용 지역",
+                  "text": "육지와 연결된 다리가 없는 도서면대",
+                  "bold": false
+                },
+                {
+                  "label": "대상",
+                  "text": "1~6년차 병력동원소집 미대상자",
+                  "bold": false
+                },
+                {
+                  "label": "훈련시간",
+                  "text": "기본훈련 8시간 + 작계훈련 12시간",
+                  "bold": false
+                }
+              ]
             },
-            {
-              "label": "비율",
-              "text": "100분의 3 (3%)",
-              "bold": false
-            }
-          ]
-        },
-        "right": {
-          "title": "중가산금",
-          "subtitle": "매 1개월마다 추가",
-          "items": [
-            {
-              "label": "주기",
-              "text": "매 1개월마다",
-              "bold": false
+            "right": {
+              "title": "전·출입",
+              "subtitle": "제2항제4호·제5호",
+              "items": [
+                {
+                  "label": "도서 → 내륙 · 8시간 이수",
+                  "text": "작계훈련 12시간 부과",
+                  "bold": false
+                },
+                {
+                  "label": "도서 → 내륙 · 미이수·무단불참",
+                  "text": "차수 증가 없이 내륙의 신분별·연차별 훈련 부과",
+                  "bold": false
+                },
+                {
+                  "label": "내륙 → 도서",
+                  "text": "도서 훈련시간 적용, 기이수시간 공제",
+                  "bold": false
+                },
+                {
+                  "label": "내륙 2차까지 무단불참",
+                  "text": "해당 훈련 재부과",
+                  "bold": false
+                }
+              ]
             },
-            {
-              "label": "비율",
-              "text": "1천분의 12 (1.2%)",
-              "bold": false
+            "sourceArticle": "교육훈련 훈령 제16조",
+            "sourceClauses": [
+              "제2항제1호",
+              "제2항제2호",
+              "제2항제4호",
+              "제2항제5호"
+            ],
+            "note": "",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J16-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-060",
+            "scriptEvidence": {
+              "source_git_blob": "4ae4b683613ed5f610c84fa844e21ab045e8d740",
+              "source_sha256": "0d4cb439e9011e57a4bea7e3ab322e3b39d26f319774fbe3efec8ddc9e0687a0",
+              "lines": [
+                93
+              ]
             }
-          ]
+          }
+        },
+        {
+          "id": "DR-060-D03",
+          "job_id": "DR-060-exam80-D03-revision",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-060",
+            "articleKey": "2-16",
+            "title": "지원예비군과 여성예비군",
+            "subtitle": "지원예비군 훈련과 여성예비군의 추가 기준을 구분한다.",
+            "layout": "equal",
+            "left": {
+              "title": "지원예비군",
+              "subtitle": "제3항제1호·제2호",
+              "items": [
+                {
+                  "label": "일반",
+                  "text": "작계훈련 6시간, 연 1회",
+                  "bold": false
+                },
+                {
+                  "label": "지휘요원",
+                  "text": "반기 1회 선소집 4시간 + 작계 6시간",
+                  "bold": false
+                },
+                {
+                  "label": "이수 대체",
+                  "text": "창설교육·구호활동 등 규정된 참가시간 대체 가능",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "여성예비군",
+              "subtitle": "제3항제4호",
+              "items": [
+                {
+                  "label": "소대 훈련",
+                  "text": "연 1회, 6시간 이상",
+                  "bold": false
+                },
+                {
+                  "label": "소대장",
+                  "text": "연 1회 선소집교육 4시간 추가",
+                  "bold": false
+                },
+                {
+                  "label": "지원예비군 공통",
+                  "text": "3차 훈련 무단불참자도 고발; 사전 훈련관리 철저",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "교육훈련 훈령 제16조",
+            "sourceClauses": [
+              "제3항제1호",
+              "제3항제2호",
+              "제3항제4호",
+              "제3항제3호"
+            ],
+            "note": "",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J16-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-060",
+            "scriptEvidence": {
+              "source_git_blob": "4ae4b683613ed5f610c84fa844e21ab045e8d740",
+              "source_sha256": "0d4cb439e9011e57a4bea7e3ab322e3b39d26f319774fbe3efec8ddc9e0687a0",
+              "lines": [
+                105,
+                107,
+                119,
+                192
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-060-D06",
+          "job_id": "DR-060-exam80-D06-revision",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-060",
+            "articleKey": "2-16",
+            "title": "5~6년차 병 상비예비군",
+            "subtitle": "제80회 강의 기준으로 선발 유지와 취소·철회를 구분한다.",
+            "layout": "equal",
+            "left": {
+              "title": "선발 유지",
+              "subtitle": "제4항제4호 본문",
+              "items": [
+                {
+                  "label": "대상",
+                  "text": "예비군 5~6년차 병 상비예비군",
+                  "bold": false
+                },
+                {
+                  "label": "훈련유형",
+                  "text": "지역예비군훈련 대신 동원훈련Ⅰ형 실시",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "취소·철회",
+              "subtitle": "제4항제4호 단서",
+              "items": [
+                {
+                  "label": "조건",
+                  "text": "동원훈련Ⅰ형을 받기 전 선발 취소·철회",
+                  "bold": false
+                },
+                {
+                  "label": "훈련유형",
+                  "text": "지역예비군훈련 실시",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "교육훈련 훈령 제16조",
+            "sourceClauses": [
+              "제4항제4호",
+              "제3216호 부칙"
+            ],
+            "note": "제80회 적용: 제16조제4항제4호는 2027.01.01. 시행.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J16-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2027-01-01",
+            "scriptRef": "DR-060",
+            "scriptEvidence": {
+              "source_git_blob": "4ae4b683613ed5f610c84fa844e21ab045e8d740",
+              "source_sha256": "0d4cb439e9011e57a4bea7e3ab322e3b39d26f319774fbe3efec8ddc9e0687a0",
+              "lines": [
+                167
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-060-D07",
+          "job_id": "DR-060-exam80-supplement-4-new",
+          "mode": "new",
+          "slide": {
+            "lessonId": "DR-060",
+            "articleKey": "2-16",
+            "title": "지휘요원 면직과 소대장 연차",
+            "subtitle": "면직 사유와 재임용 여부에 따라 훈련시간 적용이 다르다.",
+            "layout": "equal",
+            "left": {
+              "title": "개인 사정 면직",
+              "subtitle": "제1항제4호",
+              "items": [
+                {
+                  "label": "사유",
+                  "text": "개인 불희망·타지역 전출·작계 2차 무단불참",
+                  "bold": false
+                },
+                {
+                  "label": "부과",
+                  "text": "이수시간 공제 후 신분별·연차별 훈련",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "부대 사정·재임용",
+              "subtitle": "제1항제5호·제6호",
+              "items": [
+                {
+                  "label": "사유",
+                  "text": "부대 통·폐합 등 부대 사정 면직 또는 타지역 후반기 재임용",
+                  "bold": false
+                },
+                {
+                  "label": "부과",
+                  "text": "지휘요원 20시간 적용 후 이수시간 공제",
+                  "bold": false
+                },
+                {
+                  "label": "소대장 예외",
+                  "text": "7~8년차 소대의 소대장이 6년차 이내면 지휘요원 훈련",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "교육훈련 훈령 제16조",
+            "sourceClauses": [
+              "제1항제4호",
+              "제1항제5호",
+              "제1항제6호"
+            ],
+            "note": "",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J16-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-060",
+            "scriptEvidence": {
+              "source_git_blob": "4ae4b683613ed5f610c84fa844e21ab045e8d740",
+              "source_sha256": "0d4cb439e9011e57a4bea7e3ab322e3b39d26f319774fbe3efec8ddc9e0687a0",
+              "lines": [
+                45,
+                47,
+                49,
+                55,
+                67,
+                188,
+                189
+              ]
+            }
+          }
         }
-      }
+      ]
     },
     {
-      "id": "DR-045-D04",
-      "job_id": "DR-045-existing-script-arrears-other-measures",
-      "slide": {
-        "lessonId": "DR-045",
-        "articleKey": "2-32",
-        "layout": "equal",
-        "sourceArticle": "교육훈련 훈령 제32조",
-        "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J32-0:0",
-        "sourceVersion": "국방부훈령 제3216호",
-        "effectiveDate": "2026-10-14",
-        "scriptRef": "DR-045",
-        "note": "",
-        "scriptEvidence": {
-          "source_git_blob": "2c13f6ab444effe0f7d91f0d87a7768fbb5a9acb",
-          "source_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18",
-          "lines": [
-            49,
-            63
-          ]
-        },
-        "title": "과태료 체납 시 추가 조치",
-        "subtitle": "가산금 이외에 부과 결정서에서 안내하는 조치를 구분한다.",
-        "sourceClauses": [
-          "별지 제6호 서식"
-        ],
-        "left": {
-          "title": "관허사업 제한",
-          "subtitle": "질서위반행위규제법 제52조",
-          "items": [
-            {
-              "label": "조건",
-              "text": "대통령령이 정하는 사유 없이 일정 횟수·금액 이상 체납",
-              "bold": false
+      "lesson_id": "DR-078",
+      "expected_source_blob": "10cfc56fac80c296861241c032e43f35a9458465",
+      "expected_script_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
+      "existing_max": 4,
+      "items": [
+        {
+          "id": "DR-078-D02",
+          "job_id": "DR-078-exam80-D02-revision",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-078",
+            "articleKey": "2-23",
+            "title": "휴직·휴학과 외항선원 관리",
+            "subtitle": "일을 쉬는 경우와 학업을 쉬는 경우의 보류 신분이 다르다.",
+            "layout": "equal",
+            "left": {
+              "title": "휴직과 휴학",
+              "subtitle": "이미 동원·훈련을 보류받던 사람",
+              "items": [
+                {
+                  "label": "휴직",
+                  "text": "휴직기간 동안 보류자로 관리",
+                  "bold": false
+                },
+                {
+                  "label": "학생 휴학",
+                  "text": "보류자 신분에서 해제",
+                  "bold": false
+                }
+              ]
             },
-            {
-              "label": "조치",
-              "text": "관허사업 제한 가능",
-              "bold": false
-            }
-          ]
-        },
-        "right": {
-          "title": "그 밖의 조치",
-          "subtitle": "부과 결정서 안내",
-          "items": [
-            {
-              "label": "체납 자료",
-              "text": "신용정보집중기관에 제공 가능",
-              "bold": false
+            "right": {
+              "title": "외항선원",
+              "subtitle": "제1항제4호사목",
+              "items": [
+                {
+                  "label": "미재승선",
+                  "text": "하선 후 90일 되는 날까지 재승선하지 않으면 해소",
+                  "bold": false
+                },
+                {
+                  "label": "해소 기준일",
+                  "text": "하선일을 기준으로 보류해소 처리",
+                  "bold": false
+                },
+                {
+                  "label": "기간 중 훈련",
+                  "text": "하선 후 해당 기간 부과훈련은 연기 처리",
+                  "bold": false
+                },
+                {
+                  "label": "해소 신고",
+                  "text": "하선일로부터 90일이 되는 날부터 14일 이내",
+                  "bold": false
+                }
+              ]
             },
-            {
-              "label": "감치",
-              "text": "고액·상습체납자는 감치 가능 (제54조)",
-              "bold": false
+            "sourceArticle": "교육훈련 훈령 제23조",
+            "sourceClauses": [
+              "제1항제4호바목",
+              "제1항제4호사목"
+            ],
+            "note": "",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-078",
+            "scriptEvidence": {
+              "source_git_blob": "10cfc56fac80c296861241c032e43f35a9458465",
+              "source_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
+              "lines": [
+                79,
+                85,
+                89,
+                151
+              ]
             }
-          ]
+          }
+        },
+        {
+          "id": "DR-078-D05",
+          "job_id": "DR-078-exam80-supplement-6-new",
+          "mode": "new",
+          "slide": {
+            "lessonId": "DR-078",
+            "articleKey": "2-23",
+            "title": "보류기간 훈련과 이전 미이수",
+            "subtitle": "보류 중 부과된 훈련과 이전에 남은 의무를 구분한다.",
+            "layout": "equal",
+            "left": {
+              "title": "보류 적용",
+              "subtitle": "제1항제5호가목·다목",
+              "items": [
+                {
+                  "label": "해당 연도",
+                  "text": "보류기간 중 부과된 1차·2차만 보류, 이수 간주",
+                  "bold": false
+                },
+                {
+                  "label": "보류 이전",
+                  "text": "2차부터 무단불참한 훈련·이전 이월 미이수 훈련은 계속 부과",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "부과 시기·예외",
+              "subtitle": "제1항제5호다목",
+              "items": [
+                {
+                  "label": "국외·외항선원",
+                  "text": "귀국 후·하선 후 부과",
+                  "bold": false
+                },
+                {
+                  "label": "경찰학교",
+                  "text": "과정 이수 후 부과",
+                  "bold": false
+                },
+                {
+                  "label": "국가유공자·보훈대상자",
+                  "text": "선정 전 부과된 훈련은 이수 처리",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "교육훈련 훈령 제23조",
+            "sourceClauses": [
+              "제1항제5호가목",
+              "제1항제5호다목1)"
+            ],
+            "note": "",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-078",
+            "scriptEvidence": {
+              "source_git_blob": "10cfc56fac80c296861241c032e43f35a9458465",
+              "source_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
+              "lines": [
+                95,
+                97,
+                107,
+                111,
+                163,
+                166
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-078-D06",
+          "job_id": "DR-078-exam80-supplement-7-new",
+          "mode": "new",
+          "slide": {
+            "lessonId": "DR-078",
+            "articleKey": "2-23",
+            "title": "방침보류 전환 시 시간 계산",
+            "subtitle": "기이수시간은 인정하고, 이전 무단불참 훈련은 계속 부과한다.",
+            "layout": "equal",
+            "left": {
+              "title": "기이수시간 인정",
+              "subtitle": "제1항제5호다목2)·4)",
+              "items": [
+                {
+                  "label": "기이수 ≥ 방침보류 시간",
+                  "text": "종결 처리",
+                  "bold": false
+                },
+                {
+                  "label": "기이수 < 방침보류 시간",
+                  "text": "남은 시간만 추가 부과",
+                  "bold": false
+                },
+                {
+                  "label": "전면 → 일부",
+                  "text": "전면 보류기간 부과훈련 이수 인정 후 부족분만 부과",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "무단불참 훈련",
+              "subtitle": "제1항제5호다목3)",
+              "items": [
+                {
+                  "label": "대상",
+                  "text": "일부보류 전 2차부터 무단불참",
+                  "bold": false
+                },
+                {
+                  "label": "재부과",
+                  "text": "동일 훈련유형으로 차수를 올려 부과",
+                  "bold": false
+                },
+                {
+                  "label": "부족분",
+                  "text": "보류 직종별 훈련으로 추가 부과",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "교육훈련 훈령 제23조",
+            "sourceClauses": [
+              "제1항제5호다목2)",
+              "제1항제5호다목3)",
+              "제1항제5호다목4)"
+            ],
+            "note": "",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-078",
+            "scriptEvidence": {
+              "source_git_blob": "10cfc56fac80c296861241c032e43f35a9458465",
+              "source_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
+              "lines": [
+                113,
+                117,
+                119,
+                123
+              ]
+            }
+          }
         }
-      }
+      ]
     }
-  ],
-  "reviewed_lesson": "DR-047"
+  ]
 }
