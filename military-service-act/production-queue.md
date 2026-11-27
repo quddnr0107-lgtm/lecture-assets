@@ -48,3 +48,8 @@
 
 ## 77·94·109강 추가 초안
 - 배정 주체 교정 1장 및 추가 도식 6장을 SVG 초안으로 저장. [검수 대기 체크포인트](production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-03.json). 공개 확정 수에는 미포함.
+
+## 후속 7장 WebP 검수 체크포인트
+- 7장 렌더링 결과 공개 경로의 실제 화면 확인. 3장 원고 대조 통과(군 필요인원 통보·필요인원 통보 기준·국외 거주 허가 간주), 4장 교정 필요.
+- 정식 경로, 편집 데이터·manifest 동시 갱신 및 SHA-256 재계산 전까지 신규 확정 이미지로 세지 않음. [검수 근거](production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-04-visual-review.json).
+- 전체 강의 검수 6강 완료, 160강 대기. 기존 공개 도식 296장 유지.
