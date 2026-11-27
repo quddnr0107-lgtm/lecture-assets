@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject": "integrated-defense",
   "created_at_kst": "2026-11-27T10:25:01+09:00",
-  "updated_at_kst": "2026-11-27T12:46:35+09:00",
+  "updated_at_kst": "2026-11-27T04:53:29.415Z",
   "status": "review_pending",
   "approved_style": "07-notion-editorial",
   "baseline": {
@@ -262,8 +262,12 @@
       "outputs": [
         "integrated-defense/lesson-002/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 1,
+      "lease": {
+        "run_id": "tb-visual-20261127045329",
+        "started_at": "2026-11-27T04:53:29.415Z",
+        "expires_at": "2026-11-27T05:28:29.415Z"
+      },
+      "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
@@ -296,8 +300,12 @@
       "outputs": [
         "integrated-defense/lesson-003/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 1,
+      "lease": {
+        "run_id": "tb-visual-20261127045329",
+        "started_at": "2026-11-27T04:53:29.415Z",
+        "expires_at": "2026-11-27T05:28:29.415Z"
+      },
+      "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
@@ -330,8 +338,12 @@
       "outputs": [
         "integrated-defense/lesson-004/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 1,
+      "lease": {
+        "run_id": "tb-visual-20261127045329",
+        "started_at": "2026-11-27T04:53:29.415Z",
+        "expires_at": "2026-11-27T05:28:29.415Z"
+      },
+      "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
