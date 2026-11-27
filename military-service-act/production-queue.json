@@ -4484,13 +4484,16 @@
     "publication_parent": "04001b23ea35ac9a8dcb9042926dc8f2b125b790"
   },
   "last_draft_checkpoint": {
-    "date_kst": "2026-11-27",
+    "date_kst": "2026-11-28",
     "lecture_ids": [
-      "MS-109"
+      "MS-109",
+      "MS-065",
+      "MS-001"
     ],
-    "evidence_ref": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-09-MS-109-coverage-drafts.json",
-    "svg_drafts": 5,
-    "final_new_images": 0
+    "svg_drafts": 7,
+    "evidence_ref": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-12.json",
+    "status": "pending_lossless_render_and_visual_review",
+    "publication_parent": "e9f9058a800bccfd18e41c6b83dc7ccef783caa3"
   },
   "last_publication_checkpoint": {
     "date_kst": "2026-11-27",

@@ -1,0 +1,642 @@
+{
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "reviewed_date_kst": "2026-11-28",
+  "scope": "draft only, not formal publication",
+  "publication_parent": "e9f9058a800bccfd18e41c6b83dc7ccef783caa3",
+  "records": [
+    {
+      "lecture_id": "MS-109",
+      "provisional_target_id": "MS-109-D09-editorial-v1",
+      "kind": "new",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-109/restriction-grounds-and-exceptions-revised.svg",
+      "script_path": "docs/merged-lectures/병역법/본법_70.txt",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "script_line_count": 302,
+      "full_script_read": true,
+      "source_line_spans": [
+        [
+          58,
+          95
+        ]
+      ],
+      "reason": "제한 사유의 과거·현재 여부와 주체를 명확히 하고 예외 범위를 추정하지 않음",
+      "content": {
+        "lecture_id": "MS-109",
+        "title": "국외여행 제한 유형과 예외",
+        "subtitle": "시행령 제145조 · 제한 사유와 예외의 구분",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "제한 사유 6가지",
+            "items": [
+              {
+                "label": "검사·입영·소집",
+                "text": "기피 중 또는 기피한 사실",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "사회복무요원 등의 복무",
+                "text": "이탈 중 또는 이탈한 사실",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "국외여행허가 의무",
+                "text": "위반한 사실",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "연기·소집 해제처분",
+                "text": "정해진 사유로 취소",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "병역 기피·감면 목적",
+                "text": "도망·은신·신체손상·속임수",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "병역의무부과 통지서",
+                "text": "정당한 사유 없이 미수령",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "제한할 수 없는 사유",
+            "items": [
+              {
+                "label": "가족 사망",
+                "text": "국외 거주 배우자, 본인·배우자의 형제자매·직계존속·직계비속",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "본인 질병",
+                "text": "국내에서 치료 곤란",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "가사 정리",
+                "text": "입영·소집을 위한 경우",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제한 조치의 주체",
+                "text": "병무청장",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "복무 중인 사람의 제외 적용 범위는 원고상 불명확하여 별도 검토 보류",
+        "source_keys": [],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            58,
+            95
+          ]
+        ]
+      },
+      "status": "svg_draft_requires_lossless_raster_and_visual_review",
+      "layout_preflight": "estimated width and vertical bounds; actual visual pending"
+    },
+    {
+      "lecture_id": "MS-109",
+      "provisional_target_id": "MS-109-D14-editorial-v1",
+      "kind": "new",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-109/travel-authority-and-notification.svg",
+      "script_path": "docs/merged-lectures/병역법/본법_70.txt",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "script_line_count": 302,
+      "full_script_read": true,
+      "source_line_spans": [
+        [
+          127,
+          139
+        ],
+        [
+          171,
+          171
+        ],
+        [
+          197,
+          213
+        ],
+        [
+          225,
+          233
+        ]
+      ],
+      "reason": "기존 D02·D05·D03에 분산된 위임 항 번호, 통보 방법과 연장 결과 전달 보완",
+      "content": {
+        "lecture_id": "MS-109",
+        "title": "허가 위임과 통보의 구분",
+        "subtitle": "본법 제70조 제4·5·7항 / 시행령 제147·148조",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "대통령령으로 정함",
+            "items": [
+              {
+                "label": "제4항",
+                "text": "제1항의 국외여행허가 및 제3항의 기간연장허가 범위·절차",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제7항",
+                "text": "허가 취소 사유",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "통보 방향과 방법",
+            "items": [
+              {
+                "label": "허가·연장허가 사실",
+                "text": "병무청장 → 법무부장관",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "시행령 제148조",
+                "text": "정보통신망 등을 이용하여 통보",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "국외 연장허가 결과",
+                "text": "재외공관의 장에게 지체 없이 알려 본인에게 전달",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "제4항은 1항 및 3항 / 통보 대상은 법무부장관",
+        "source_keys": [],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            127,
+            139
+          ],
+          [
+            171,
+            171
+          ],
+          [
+            197,
+            213
+          ],
+          [
+            225,
+            233
+          ]
+        ]
+      },
+      "status": "svg_draft_requires_lossless_raster_and_visual_review",
+      "layout_preflight": "estimated width and vertical bounds; actual visual pending"
+    },
+    {
+      "lecture_id": "MS-065",
+      "provisional_target_id": "MS-065-D02-editorial-v1",
+      "kind": "new",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/doctor-document-forms.svg",
+      "script_path": "docs/merged-lectures/병역법/본법_34의5.txt",
+      "script_git_blob_sha": "74c8bb42ce2c144513f61ff341683c2c94c9fc98",
+      "script_line_count": 120,
+      "full_script_read": true,
+      "source_line_spans": [
+        [
+          33,
+          47
+        ],
+        [
+          109,
+          110
+        ]
+      ],
+      "reason": "D01은 청문만 포함하고 원고의 세 서식 및 통지 경로 누락",
+      "content": {
+        "lecture_id": "MS-065",
+        "title": "전담의사의 문서 서식",
+        "subtitle": "시행규칙 제47조의3 · 부르고, 알리고, 늘리고",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "직무교육·근무지 이탈",
+            "items": [
+              {
+                "label": "제52호의7",
+                "text": "직무교육소집 통지 / 소집일 3일 전까지 본인에게",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제52호의8",
+                "text": "근무지 이탈 등 보고 / 지방병무청장 → 병무청장",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "복무기간 연장",
+            "items": [
+              {
+                "label": "제52호의9",
+                "text": "복무기간 연장명령서",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "명령서 전달",
+                "text": "기간·사유를 적어 지체 없이 본인에게 보내고 지방병무청장에게도 통보",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "7 → 8 → 9 : 소집 통지, 이탈 보고, 연장명령서",
+        "source_keys": [],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            33,
+            47
+          ],
+          [
+            109,
+            110
+          ]
+        ]
+      },
+      "status": "svg_draft_requires_lossless_raster_and_visual_review",
+      "layout_preflight": "estimated width and vertical bounds; actual visual pending"
+    },
+    {
+      "lecture_id": "MS-065",
+      "provisional_target_id": "MS-065-D03-editorial-v1",
+      "kind": "new",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-records.svg",
+      "script_path": "docs/merged-lectures/병역법/본법_34의5.txt",
+      "script_git_blob_sha": "74c8bb42ce2c144513f61ff341683c2c94c9fc98",
+      "script_line_count": 120,
+      "full_script_read": true,
+      "source_line_spans": [
+        [
+          69,
+          89
+        ],
+        [
+          111,
+          114
+        ]
+      ],
+      "reason": "원고가 반복 강조하는 두 기록표 및 분기 보고 구분이 D01에 없음",
+      "content": {
+        "lecture_id": "MS-065",
+        "title": "병적기록표와 복무기록표",
+        "subtitle": "시행규칙 제55·56조 · 정리하는 장부와 송부하는 장부",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "병적기록표",
+            "items": [
+              {
+                "label": "관리 주체",
+                "text": "관할 지방병무청장",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "정리 시점",
+                "text": "편입·편입취소·복무만료",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "명부",
+                "text": "제67호서식",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "복무기록표",
+            "items": [
+              {
+                "label": "제68호서식",
+                "text": "편입 시 관할 지방병무청장이 작성 → 병역지정업체의 장",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "개별복무 예외",
+                "text": "편입 당시 지방병무청장이 직접 관리",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "업체 이동",
+                "text": "새 복무 업체의 장에게 송부",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "제69호 관리현황서: 분기 말일 기준 → 다음 달 15일까지 병무청장 보고",
+        "source_keys": [],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            69,
+            89
+          ],
+          [
+            111,
+            114
+          ]
+        ]
+      },
+      "status": "svg_draft_requires_lossless_raster_and_visual_review",
+      "layout_preflight": "estimated width and vertical bounds; actual visual pending"
+    },
+    {
+      "lecture_id": "MS-065",
+      "provisional_target_id": "MS-065-D04-editorial-v1",
+      "kind": "new",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-selection-entry.svg",
+      "script_path": "docs/merged-lectures/병역법/본법_34의5.txt",
+      "script_git_blob_sha": "74c8bb42ce2c144513f61ff341683c2c94c9fc98",
+      "script_line_count": 120,
+      "full_script_read": true,
+      "source_line_spans": [
+        [
+          49,
+          67
+        ]
+      ],
+      "reason": "원고의 업체 선정·필요인원·편입 서식 대응을 추가",
+      "content": {
+        "lecture_id": "MS-065",
+        "title": "업체 선정과 요원 편입 서식",
+        "subtitle": "시행규칙 제48·50조의2·50조의3·51·53·54조",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "업체 선정·필요인원",
+            "items": [
+              {
+                "label": "선정 신청",
+                "text": "연구기관 53호 / 기간·방위산업체 53호의2",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "추천 명부",
+                "text": "연구기관 56호 / 기간·방위산업체 57호",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "필요인원 통보",
+                "text": "전문연구 59호 / 기간·방위 60호 / 농어업 61호",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "요원 편입",
+            "items": [
+              {
+                "label": "편입원서·신청서",
+                "text": "전문연구·기능특기자·농어업 분야 62호",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "공통 서약서",
+                "text": "성실복무·약정근로조건 이행 서약서 64호",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "추가 서류 예시",
+                "text": "학위·수료 증명, 후계농어업경영인 확인서",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "요원 신청서 62호 / 서약서 64호",
+        "source_keys": [],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            49,
+            67
+          ]
+        ]
+      },
+      "status": "svg_draft_requires_lossless_raster_and_visual_review",
+      "layout_preflight": "estimated width and vertical bounds; actual visual pending"
+    },
+    {
+      "lecture_id": "MS-065",
+      "provisional_target_id": "MS-065-D05-editorial-v1",
+      "kind": "new",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-service-end.svg",
+      "script_path": "docs/merged-lectures/병역법/본법_34의5.txt",
+      "script_git_blob_sha": "74c8bb42ce2c144513f61ff341683c2c94c9fc98",
+      "script_line_count": 120,
+      "full_script_read": true,
+      "source_line_spans": [
+        [
+          91,
+          101
+        ],
+        [
+          115,
+          115
+        ]
+      ],
+      "reason": "신상변동·복무만료·편입취소 유보의 문서와 결정 흐름을 추가",
+      "content": {
+        "lecture_id": "MS-065",
+        "title": "복무 관리와 편입취소 유보",
+        "subtitle": "시행규칙 제60·62·64·65·65조의2",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "복무 관리",
+            "items": [
+              {
+                "label": "전직·교육훈련·파견 승인",
+                "text": "62호 신청서",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "신상변동 통보",
+                "text": "76호 통보서 → 지방병무청장이 67호 명부 정리",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "복무만료 처분",
+                "text": "75호 / 관할 지방병무청장이 병적기록표·명부 정리",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "해고 다툼 중 유보",
+            "items": [
+              {
+                "label": "신청",
+                "text": "62호 + 구제신청서 또는 소송서류 사본",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제출",
+                "text": "관할 지방병무청장",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "유보 이후",
+                "text": "결과 수시 확인 → 편입취소 여부 결정",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "해고를 다투는 중이면 편입취소 유보 가능",
+        "source_keys": [],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            91,
+            101
+          ],
+          [
+            115,
+            115
+          ]
+        ]
+      },
+      "status": "svg_draft_requires_lossless_raster_and_visual_review",
+      "layout_preflight": "estimated width and vertical bounds; actual visual pending"
+    },
+    {
+      "lecture_id": "MS-001",
+      "provisional_target_id": "MS-001-D02-editorial-v1",
+      "kind": "new",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-001/purpose-exam-distinctions.svg",
+      "script_path": "docs/merged-lectures/병역법/본법_1.txt",
+      "script_git_blob_sha": "f28ae8d03a454f402157d3040628a872bcc969d7",
+      "script_line_count": 89,
+      "full_script_read": true,
+      "source_line_spans": [
+        [
+          19,
+          45
+        ],
+        [
+          73,
+          84
+        ]
+      ],
+      "reason": "D01의 긍정형 목적 설명에 원고의 반복 오답 구분 및 법령 제정 주체 보완",
+      "content": {
+        "lecture_id": "MS-001",
+        "title": "병역법 목적의 시험 구분",
+        "subtitle": "병역의무와 국방의무 / 국민과 남성",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "목적 조항",
+            "items": [
+              {
+                "label": "병역의무",
+                "text": "국방의무 전체가 아닌 병역의무",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "대한민국 국민",
+                "text": "국민인 남성으로 좁히지 않음",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "이웃 법률",
+                "text": "예비군법: 조직 / 통합방위법: 대응 체계",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "법령의 제정 주체",
+            "items": [
+              {
+                "label": "병역법",
+                "text": "국회",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "시행령",
+                "text": "대통령",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "시행규칙",
+                "text": "국방부장관",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "병역법의 목적: 대한민국 국민의 병역의무",
+        "source_keys": [],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            19,
+            45
+          ],
+          [
+            73,
+            84
+          ]
+        ]
+      },
+      "status": "svg_draft_requires_lossless_raster_and_visual_review",
+      "layout_preflight": "estimated width and vertical bounds; actual visual pending"
+    }
+  ],
+  "unresolved": [
+    {
+      "lecture_id": "MS-109",
+      "line": 87,
+      "issue": "복무 중 제외의 적용 범위를 추정하지 않음. D09 정식 반영 보류."
+    },
+    {
+      "lecture_id": "MS-065",
+      "issue": "서식·청문 비교의 전체 대응 및 실제 SVG/WebP 검수 남음."
+    }
+  ],
+  "existing_reuse_candidates": [
+    {
+      "lecture_id": "MS-001",
+      "id": "MS-001-D01-editorial-v1",
+      "source_line_spans": [
+        [
+          19,
+          41
+        ],
+        [
+          49,
+          71
+        ]
+      ],
+      "note": "목적과 위임 관계 일치; D02 추가 필요"
+    },
+    {
+      "lecture_id": "MS-065",
+      "id": "MS-065-D01-editorial-v1",
+      "source_line_spans": [
+        [
+          17,
+          31
+        ]
+      ],
+      "note": "청문 주체·대상·의무 일치; 나머지 서식 추가 필요"
+    }
+  ]
+}

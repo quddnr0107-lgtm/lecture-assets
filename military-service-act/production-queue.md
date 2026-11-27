@@ -89,3 +89,7 @@
 - MS-048: 기존 도식 재사용 완료. [근거](production-evidence/exam80-generation-2/MS-048/001-c7065f3e98f2f9acd4bc8753ee918691cebcc8c0d2b622d23e0d774eaea2baf8.json)
 - MS-049: 기존 도식 재사용 완료. [근거](production-evidence/exam80-generation-2/MS-049/001-502ad3e8e7009e757fd46eb3a1c768c3ba211a9a010a556415ffabe2ad460959.json)
 - 전체 13강 완료, 153강 대기. 공개 이미지 312장 유지.
+
+## 2026-11-28 도식 초안 체크포인트 12
+- MS-109 2장(기존 보류 D09 수정 초안 포함), MS-065 4장, MS-001 1장: 원고 전문·blob SHA 대조 후 SVG 초안 및 편집 데이터 저장. [검수 근거](production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-12.json).
+- D09의 복무 중 제외 적용 범위는 미확정. 실제 WebP 렌더링·시각 검수·정식 통합 전까지 13강 완료, 153강 대기, 312장 유지.
