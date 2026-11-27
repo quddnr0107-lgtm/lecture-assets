@@ -3651,8 +3651,8 @@
       "title": "병역법 제83조의3, 병역증·전역증 소지의무",
       "priority": 2,
       "generation": 2,
-      "status": "pending",
-      "script_alignment_status": "script_alignment_pending",
+      "status": "completed",
+      "script_alignment_status": "script_alignment_verified",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_83의3.txt",
         "script_git_blob_sha": "82065918dd6d1367388898c5ebc7d3bf789afb77"
@@ -3660,14 +3660,22 @@
       "existing_diagram_ids": [
         "MS-143-D01-editorial-v1"
       ],
-      "full_script_read": false,
+      "full_script_read": true,
       "lease": null,
-      "checkpoint": 0,
-      "evidence_refs": [],
-      "outcome": null,
+      "checkpoint": 2,
+      "evidence_refs": [
+        "military-service-act/production-evidence/exam80-generation-2/MS-143/001-c04f5f4a9a57a60177be60e8c4f238651f6566fa6806cb3096fa0213cb17fdbb.json"
+      ],
+      "outcome": "reuse_only",
       "changed_diagram_ids": [],
       "new_diagram_ids": [],
-      "previously_verified_existing_diagram_ids": []
+      "previously_verified_existing_diagram_ids": [],
+      "completed_date_kst": "2026-11-27",
+      "verified_existing_diagram_ids": [
+        "MS-143-D01-editorial-v1"
+      ],
+      "related_existing_diagram_ids": [],
+      "evidence_sha256": "c04f5f4a9a57a60177be60e8c4f238651f6566fa6806cb3096fa0213cb17fdbb"
     },
     {
       "lecture_id": "MS-144",
@@ -3697,8 +3705,8 @@
       "title": "병역법 제85조, 병역의무부과 통지서 수령 거부",
       "priority": 2,
       "generation": 2,
-      "status": "pending",
-      "script_alignment_status": "script_alignment_pending",
+      "status": "completed",
+      "script_alignment_status": "script_alignment_verified",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_85.txt",
         "script_git_blob_sha": "2c04d26a16e425933f47619846a1a5a075038ab1"
@@ -3706,14 +3714,25 @@
       "existing_diagram_ids": [
         "MS-145-D01-editorial-v1"
       ],
-      "full_script_read": false,
+      "full_script_read": true,
       "lease": null,
-      "checkpoint": 0,
-      "evidence_refs": [],
-      "outcome": null,
+      "checkpoint": 2,
+      "evidence_refs": [
+        "military-service-act/production-evidence/exam80-generation-2/MS-145/001-ac6d2dcb37959bd8f5a1bf799bfe29fcf72207b4021c4d336edc8d2620f20948.json"
+      ],
+      "outcome": "reuse_only",
       "changed_diagram_ids": [],
       "new_diagram_ids": [],
-      "previously_verified_existing_diagram_ids": []
+      "previously_verified_existing_diagram_ids": [],
+      "completed_date_kst": "2026-11-27",
+      "verified_existing_diagram_ids": [
+        "MS-145-D01-editorial-v1"
+      ],
+      "related_existing_diagram_ids": [
+        "MS-007-D01-editorial-v1",
+        "MS-007-D02-editorial-v1"
+      ],
+      "evidence_sha256": "ac6d2dcb37959bd8f5a1bf799bfe29fcf72207b4021c4d336edc8d2620f20948"
     },
     {
       "lecture_id": "MS-146",
@@ -4046,8 +4065,8 @@
       "title": "병역법 제92조의2, 복무기관의 복무관리 위반",
       "priority": 2,
       "generation": 2,
-      "status": "pending",
-      "script_alignment_status": "script_alignment_pending",
+      "status": "completed",
+      "script_alignment_status": "script_alignment_verified",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_92의2.txt",
         "script_git_blob_sha": "9212a3423de859bcdc322d1f4ca70fa3fcb8ad7f"
@@ -4055,14 +4074,24 @@
       "existing_diagram_ids": [
         "MS-160-D01-editorial-v1"
       ],
-      "full_script_read": false,
+      "full_script_read": true,
       "lease": null,
-      "checkpoint": 0,
-      "evidence_refs": [],
-      "outcome": null,
+      "checkpoint": 2,
+      "evidence_refs": [
+        "military-service-act/production-evidence/exam80-generation-2/MS-160/001-4fd667774affd36c7216d777d3ad815292381f91e737a95b7cda1efaa973b98c.json"
+      ],
+      "outcome": "reuse_only",
       "changed_diagram_ids": [],
       "new_diagram_ids": [],
-      "previously_verified_existing_diagram_ids": []
+      "previously_verified_existing_diagram_ids": [],
+      "completed_date_kst": "2026-11-27",
+      "verified_existing_diagram_ids": [
+        "MS-160-D01-editorial-v1"
+      ],
+      "related_existing_diagram_ids": [
+        "MS-144-D01-editorial-v1"
+      ],
+      "evidence_sha256": "4fd667774affd36c7216d777d3ad815292381f91e737a95b7cda1efaa973b98c"
     },
     {
       "lecture_id": "MS-161",
@@ -4207,9 +4236,9 @@
   ],
   "existing_diagram_support_review": {
     "audit": "military-service-act/script-alignment-audit-exam80.json",
-    "verified_existing_pages": 7,
-    "pending_existing_pages": 276,
-    "scope": "대표3강의 현재7장 주장에 원고 근거가 있음; 강의 전체 설명의 도식화 완료는 아님"
+    "verified_existing_pages": 10,
+    "pending_existing_pages": 273,
+    "scope": "기존 도식 원고 근거 확인 10장; 전체 핵심 도식 범위 대조 완료 3강."
   },
   "last_partial_checkpoint": {
     "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/checkpoint.json",
@@ -4217,5 +4246,19 @@
     "draft_svg_count": 7,
     "completed_lectures": 0,
     "published_final_images": 0
+  },
+  "last_reuse_checkpoint": {
+    "date_kst": "2026-11-27",
+    "completed_lectures": [
+      "MS-143",
+      "MS-145",
+      "MS-160"
+    ],
+    "evidence_refs": [
+      "military-service-act/production-evidence/exam80-generation-2/MS-143/001-c04f5f4a9a57a60177be60e8c4f238651f6566fa6806cb3096fa0213cb17fdbb.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-145/001-ac6d2dcb37959bd8f5a1bf799bfe29fcf72207b4021c4d336edc8d2620f20948.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-160/001-4fd667774affd36c7216d777d3ad815292381f91e737a95b7cda1efaa973b98c.json"
+    ],
+    "new_images": 0
   }
 }

@@ -23244,8 +23244,24 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "full_script_core_visual_coverage",
+        "evidence": "military-service-act/production-evidence/exam80-generation-2/MS-143/001-c04f5f4a9a57a60177be60e8c4f238651f6566fa6806cb3096fa0213cb17fdbb.json",
+        "source_line_spans": [
+          [
+            17,
+            27
+          ],
+          [
+            29,
+            41
+          ],
+          [
+            43,
+            54
+          ]
+        ],
+        "related_existing_diagram_ids": []
       }
     },
     {
@@ -23415,8 +23431,31 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "full_script_core_visual_coverage",
+        "evidence": "military-service-act/production-evidence/exam80-generation-2/MS-145/001-ac6d2dcb37959bd8f5a1bf799bfe29fcf72207b4021c4d336edc8d2620f20948.json",
+        "source_line_spans": [
+          [
+            9,
+            13
+          ],
+          [
+            19,
+            29
+          ],
+          [
+            33,
+            39
+          ],
+          [
+            41,
+            67
+          ]
+        ],
+        "related_existing_diagram_ids": [
+          "MS-007-D01-editorial-v1",
+          "MS-007-D02-editorial-v1"
+        ]
       }
     },
     {
@@ -25073,8 +25112,30 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "full_script_core_visual_coverage",
+        "evidence": "military-service-act/production-evidence/exam80-generation-2/MS-160/001-4fd667774affd36c7216d777d3ad815292381f91e737a95b7cda1efaa973b98c.json",
+        "source_line_spans": [
+          [
+            17,
+            29
+          ],
+          [
+            31,
+            37
+          ],
+          [
+            39,
+            45
+          ],
+          [
+            47,
+            63
+          ]
+        ],
+        "related_existing_diagram_ids": [
+          "MS-144-D01-editorial-v1"
+        ]
       }
     },
     {
@@ -25787,7 +25848,7 @@
   "lecture_count": 166,
   "period": "27년 전반기",
   "requested_study_cutoff": "2027-02-02",
-  "source_basis_note": "제80회 기존 강의 원고를 내용 기준으로 사용한다. 기존283장 중 대표3강7장은 원고 근거를 대조했고 나머지276장은 대조 대기다. 초기 공식 법령 기반 검수는 과거 제작 기록이며 기존 스크립트 전체 정합 완료를 뜻하지 않는다.",
+  "source_basis_note": "제80회 기존 강의 원고 기준. 기존 283장 중 10장 원고 근거 확인, 273장 대조 대기. 전체 핵심 설명 검수 완료 3강.",
   "law_sources": [
     {
       "kind": "본법",
@@ -25839,9 +25900,9 @@
   "exam_number": 80,
   "script_alignment": {
     "existing_pages": 283,
-    "verified_pages": 7,
-    "pending_pages": 276,
-    "complete_script_coverage_verified_lectures": 0,
+    "verified_pages": 10,
+    "pending_pages": 273,
+    "complete_script_coverage_verified_lectures": 3,
     "audit": "military-service-act/script-alignment-audit-exam80.json",
     "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
   }

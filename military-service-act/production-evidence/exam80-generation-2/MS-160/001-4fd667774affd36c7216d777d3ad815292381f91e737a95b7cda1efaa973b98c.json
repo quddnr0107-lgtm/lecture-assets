@@ -1,0 +1,86 @@
+{
+  "lecture_id": "MS-160",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_92의2.txt",
+  "script_git_blob_sha": "9212a3423de859bcdc322d1f4ca70fa3fcb8ad7f",
+  "script_sha256": "97243774c9c7b7280541bf245461d9ac8d08ef433f250970ea53e7eb969823d4",
+  "full_script_read": true,
+  "script_line_count": 68,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        17,
+        29
+      ],
+      "topic": "공공단체·사회복지시설의 장 및 법인 대표자; 사회복무요원 자체가 처벌 주체가 아님",
+      "diagram": "MS-160-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        31,
+        37
+      ],
+      "topic": "정당한 사유 없이 공익목적 외 분야 복무",
+      "diagram": "MS-160-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        39,
+        45
+      ],
+      "topic": "6개월 이하 징역 또는 2천만원 이하 벌금",
+      "diagram": "MS-160-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        47,
+        63
+      ],
+      "topic": "제84조제1항과 동일 법정형; 행위 유형 비교",
+      "diagram": "MS-160-D01-editorial-v1",
+      "related": "MS-144-D01-editorial-v1"
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-160-D01-editorial-v1"
+  ],
+  "related_existing_diagrams": [
+    "MS-144-D01-editorial-v1"
+  ],
+  "decision": {
+    "outcome": "reuse_only",
+    "reason": "기존 그림에 주체·조건·행위·법정형이 모두 나타난다. 제84조와 형량 비교는 기존 144강 그림과 연결하면 되므로 같은 내용의 별도 그림을 생성하지 않는다."
+  },
+  "changed_artifacts_and_hashes": [],
+  "verified_existing_assets": {
+    "svg": {
+      "path": "military-service-act/lesson-160/diagrams/MS-160-D01-editorial-v1.svg",
+      "bytes": 5632,
+      "sha256": "82f3fe3b60799828056cbc9db9c1781f830bbd32d5714034bffbf4394b2d31a2",
+      "git_blob_sha": "ae7b22e2bd2400c909600a1f3ddc400e26790830"
+    },
+    "webp": {
+      "path": "military-service-act/lesson-160/diagrams/MS-160-D01-editorial-v1.webp",
+      "bytes": 39970,
+      "sha256": "ce8576bbe0ccfdfaea2bfec1fa4fb22502b93533ff4cbc3d3be43d84d91f9c9f",
+      "git_blob_sha": "bcc56697c3b58288dede7b64fe8ff3ea652be4a0",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    "layout": {
+      "id": "MS-160-D01-editorial-v1",
+      "text_blocks": 20,
+      "min_body_font": 40,
+      "bounds_valid": true,
+      "method": "기존 렌더 검수 기록을 실제 공개 파일 SHA-256 일치로 재사용; SVG 실제 텍스트 대조. 재렌더하지 않음."
+    }
+  },
+  "previous_evidence_sha256": null,
+  "publication_commit_or_null": null,
+  "reviewed_date_kst": "2026-11-27"
+}

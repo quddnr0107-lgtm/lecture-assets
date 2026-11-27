@@ -105,8 +105,14 @@
     "fulltext_files_identity_verified": 166,
     "old_law_expansion_queue": "superseded",
     "replacement_queue_generation": 2,
-    "sample_script_aligned_pages": 7,
-    "remaining_script_alignment_pages": 276,
-    "past_law_review_is_not_full_script_alignment": true
+    "sample_script_aligned_pages": 10,
+    "remaining_script_alignment_pages": 273,
+    "past_law_review_is_not_full_script_alignment": true,
+    "completed_script_coverage_lectures": 3,
+    "latest_reuse_evidence": [
+      "military-service-act/production-evidence/exam80-generation-2/MS-143/001-c04f5f4a9a57a60177be60e8c4f238651f6566fa6806cb3096fa0213cb17fdbb.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-145/001-ac6d2dcb37959bd8f5a1bf799bfe29fcf72207b4021c4d336edc8d2620f20948.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-160/001-4fd667774affd36c7216d777d3ad815292381f91e737a95b7cda1efaa973b98c.json"
+    ]
   }
 }

@@ -1,0 +1,75 @@
+{
+  "lecture_id": "MS-143",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_83의3.txt",
+  "script_git_blob_sha": "82065918dd6d1367388898c5ebc7d3bf789afb77",
+  "script_sha256": "cc7099e3f27d43cda61dd0a4b055ce7e8bfc7ae25148c7e709a15827bd3d625d",
+  "full_script_read": true,
+  "script_line_count": 57,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        17,
+        27
+      ],
+      "topic": "비상시 소지의무 발생; 평시 의무와 구분",
+      "diagram": "MS-143-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        29,
+        41
+      ],
+      "topic": "병역의무자, 해당 증서 하나, 몸에 지니고 다님",
+      "diagram": "MS-143-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        43,
+        54
+      ],
+      "topic": "통합방위와의 연결 및 복습은 같은 핵심 요건의 설명",
+      "diagram": "MS-143-D01-editorial-v1"
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-143-D01-editorial-v1"
+  ],
+  "related_existing_diagrams": [],
+  "decision": {
+    "outcome": "reuse_only",
+    "reason": "기존 도식이 조건·주체·증서·소지 행위를 모두 표현한다. 평시/집 보관 및 통합방위 예시는 그 조건의 반대와 설명으로 독립 신규 도식이 필요하지 않다."
+  },
+  "changed_artifacts_and_hashes": [],
+  "verified_existing_assets": {
+    "svg": {
+      "path": "military-service-act/lesson-143/diagrams/MS-143-D01-editorial-v1.svg",
+      "bytes": 5159,
+      "sha256": "af2dd349612be8fc5b4321b1fe820cdd0bd616cd21bfc11d1e4b102cf58edec8",
+      "git_blob_sha": "754b5f1648a09325e72ceb777ec4e91eae9c2a05"
+    },
+    "webp": {
+      "path": "military-service-act/lesson-143/diagrams/MS-143-D01-editorial-v1.webp",
+      "bytes": 36284,
+      "sha256": "df9a47a8aa2f442890326a0d53befe9bc291fd1eb81d3198dacd224b4b44d08b",
+      "git_blob_sha": "38ef295ba38055e6ffe093a5718bfeaee6c91b8b",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    "layout": {
+      "id": "MS-143-D01-editorial-v1",
+      "text_blocks": 18,
+      "min_body_font": 40,
+      "bounds_valid": true,
+      "method": "기존 렌더 검수 기록을 실제 공개 파일 SHA-256 일치로 재사용; SVG 실제 텍스트 대조. 재렌더하지 않음."
+    }
+  },
+  "previous_evidence_sha256": null,
+  "publication_commit_or_null": null,
+  "reviewed_date_kst": "2026-11-27"
+}

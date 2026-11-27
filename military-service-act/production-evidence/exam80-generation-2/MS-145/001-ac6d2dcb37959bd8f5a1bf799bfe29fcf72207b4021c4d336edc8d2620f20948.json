@@ -1,0 +1,89 @@
+{
+  "lecture_id": "MS-145",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_85.txt",
+  "script_git_blob_sha": "2c04d26a16e425933f47619846a1a5a075038ab1",
+  "script_sha256": "4f3dd974e3f4ae3f87a75493a89089b8921546d150dc826539d45d8a23c06d7b",
+  "full_script_read": true,
+  "script_line_count": 72,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        9,
+        13
+      ],
+      "topic": "송달 방법과 수령증",
+      "diagram": "MS-145-D01-editorial-v1",
+      "related": "MS-007-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        19,
+        29
+      ],
+      "topic": "본인 수령거부의 책임, 대신 수령하는 사람과 구분",
+      "diagram": "MS-145-D01-editorial-v1",
+      "related": "MS-007-D02-editorial-v1"
+    },
+    {
+      "lines": [
+        33,
+        39
+      ],
+      "topic": "정당한 사유 없는 수령 거부; 단순 미수령과 구분; 원칙 30일 전 송달",
+      "diagram": "MS-145-D01-editorial-v1",
+      "related": "MS-007-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        41,
+        67
+      ],
+      "topic": "6개월 이하 징역 또는 500만원 이하 벌금",
+      "diagram": "MS-145-D01-editorial-v1"
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-145-D01-editorial-v1"
+  ],
+  "related_existing_diagrams": [
+    "MS-007-D01-editorial-v1",
+    "MS-007-D02-editorial-v1"
+  ],
+  "decision": {
+    "outcome": "reuse_only",
+    "reason": "제85조의 행위자·법정 송달·정당한 사유·법정형은 기존 도식에 직접 표시된다. 보조 설명인 제6조 송달 절차와 대리 수령은 이미 7강 도식에 있어 연결로 충분하다. 별도 그림을 복제하지 않는다."
+  },
+  "changed_artifacts_and_hashes": [],
+  "verified_existing_assets": {
+    "svg": {
+      "path": "military-service-act/lesson-145/diagrams/MS-145-D01-editorial-v1.svg",
+      "bytes": 5416,
+      "sha256": "2e86bfc2e7201913b8d33926f775cb67bc619866f8cd8fa2fc06a20f2ecc5f32",
+      "git_blob_sha": "66ca8bc4a21a4dde9a18f62052af5b94a8b8e3a2"
+    },
+    "webp": {
+      "path": "military-service-act/lesson-145/diagrams/MS-145-D01-editorial-v1.webp",
+      "bytes": 38718,
+      "sha256": "3422b5b231a3e716218efef10823b702727f74e79070399915af7869f507aab4",
+      "git_blob_sha": "7e6b9abc373b34a941ed310b712d414ba6f025c6",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    "layout": {
+      "id": "MS-145-D01-editorial-v1",
+      "text_blocks": 19,
+      "min_body_font": 40,
+      "bounds_valid": true,
+      "method": "기존 렌더 검수 기록을 실제 공개 파일 SHA-256 일치로 재사용; SVG 실제 텍스트 대조. 재렌더하지 않음."
+    }
+  },
+  "previous_evidence_sha256": null,
+  "publication_commit_or_null": null,
+  "reviewed_date_kst": "2026-11-27"
+}
