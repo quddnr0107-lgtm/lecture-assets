@@ -66,19 +66,7 @@
     ]
   },
   "state": {
-    "active_run": {
-      "id": "dr-20261127-172411-script",
-      "started_at": "2026-11-27T17:24:11+09:00",
-      "lease_expires_at": "2026-11-27T19:24:11+09:00",
-      "claimed_job_ids": [
-        "DR-010-exam80-01-revision-172411",
-        "DR-023-exam80-01-revision-172411",
-        "DR-040-exam80-01-revision-172411",
-        "DR-020-exam80-01-revision-172411",
-        "DR-078-exam80-05-revision-172411"
-      ],
-      "mode": "targeted render; 3 raster workers"
-    },
+    "active_run": null,
     "last_successful_run": {
       "id": "dr-20261127-162118-script",
       "render_commit": "a3a42b35aad3d09bace4f07c8ca558207c8e3933",
@@ -106,7 +94,7 @@
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
     "production_jobs_queued": 0,
-    "production_jobs_qa": 0,
+    "production_jobs_qa": 5,
     "production_jobs_completed": 47
   },
   "jobs": [
@@ -5383,8 +5371,24 @@
       "script_sha256": "9afc37bd26bff5e272e807107b563b92624d2ae86a1393f89ac7d1abae5aa9ba",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-010|9afc37bd26bff5e272e807107b563b92624d2ae86a1393f89ac7d1abae5aa9ba|17,25,41,69,93,94,95,96,97,98|매년 계획 보고 명시|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-010/diagrams/DR-010-D01-editorial-v1.svg",
+          "bytes": 5573,
+          "sha256": "f35fa5456629c28e23ba6053633ed15ab894293b1c0aca1fa49453343dc0a066"
+        },
+        {
+          "path": "defense-directives/lesson-010/diagrams/DR-010-D01-editorial-v1.png",
+          "bytes": 137682,
+          "sha256": "25e33f8e68fa8bfe11f4ae354c244dd482d59b1707d134cd7e6942a871eb6b40"
+        },
+        {
+          "path": "defense-directives/lesson-010/diagrams/DR-010-D01-editorial-v1.webp",
+          "bytes": 41254,
+          "sha256": "3a76fa99791aec86e193eb32ce9c544d83ae458b5348e49f0feecc8d8ee386c7"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-10.txt",
@@ -5404,9 +5408,13 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261127-172411-script",
-      "claimed_at": "2026-11-27T17:24:11+09:00",
-      "lease_expires_at": "2026-11-27T19:24:11+09:00"
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "diagram_id": "DR-010-D01",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-023-exam80-01-revision-172411",
@@ -5419,8 +5427,24 @@
       "script_sha256": "524bea8523aba95d4cadafb77d12dc35b335db9d6a05348ccd11c81d39d6213e",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-023|524bea8523aba95d4cadafb77d12dc35b335db9d6a05348ccd11c81d39d6213e|19,41,65,71,99,115,116,117,118,119,120,121,122|모든 신상변동·두 전산망 구분|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-023/diagrams/DR-023-D01-editorial-v1.svg",
+          "bytes": 6527,
+          "sha256": "fd5429a1a3090a893e2c78f2caa30a9969cc1c3e8c75e56486bb694f9a1d26e2"
+        },
+        {
+          "path": "defense-directives/lesson-023/diagrams/DR-023-D01-editorial-v1.png",
+          "bytes": 196813,
+          "sha256": "2b6e0f771c3be903d83919e176201b50162d7d45f589e71326492996ec11bd58"
+        },
+        {
+          "path": "defense-directives/lesson-023/diagrams/DR-023-D01-editorial-v1.webp",
+          "bytes": 58632,
+          "sha256": "a4cc23aed9e642f7e5078d6946b8941fe39a38c9ead9a33709ad877eaf39d300"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-23.txt",
@@ -5443,9 +5467,13 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261127-172411-script",
-      "claimed_at": "2026-11-27T17:24:11+09:00",
-      "lease_expires_at": "2026-11-27T19:24:11+09:00"
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "diagram_id": "DR-023-D01",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-040-exam80-01-revision-172411",
@@ -5458,8 +5486,24 @@
       "script_sha256": "2c7db26b7b8269769406b64cb3547fb27465c295fb9372661fa004a3490bb126",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-040|2c7db26b7b8269769406b64cb3547fb27465c295fb9372661fa004a3490bb126|39,43,55,81,97,113,114,115,116,117|예비군육성지원예산 적용 범위 및 정확한 훈령명|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-040/diagrams/DR-040-D01-editorial-v1.svg",
+          "bytes": 6604,
+          "sha256": "e6ba5278de6c2cac7354c5d426b8ca88725821e252fc490dcad452927ee1cc4d"
+        },
+        {
+          "path": "defense-directives/lesson-040/diagrams/DR-040-D01-editorial-v1.png",
+          "bytes": 189440,
+          "sha256": "e413f8575855f53285958706a14d851fc485a8c39de1dd05e38da9cbbdcac9be"
+        },
+        {
+          "path": "defense-directives/lesson-040/diagrams/DR-040-D01-editorial-v1.webp",
+          "bytes": 59320,
+          "sha256": "e070c4c6ab8a821a2c3a4b53875e00370f8147c72bfc8a946bac4942bfde2b06"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-51.txt",
@@ -5479,9 +5523,13 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261127-172411-script",
-      "claimed_at": "2026-11-27T17:24:11+09:00",
-      "lease_expires_at": "2026-11-27T19:24:11+09:00"
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "diagram_id": "DR-040-D01",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-020-exam80-01-revision-172411",
@@ -5494,8 +5542,24 @@
       "script_sha256": "736c59283683e9bb7a27a1854d0d1bb02ca7c196313a5a34da4d2328332be685",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-020|736c59283683e9bb7a27a1854d0d1bb02ca7c196313a5a34da4d2328332be685|17,45,47,57,71,77,87|비상시 조건 어절 가독성 및 근거 조문 짝|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-020/diagrams/DR-020-D01-editorial-v1.svg",
+          "bytes": 5735,
+          "sha256": "35d732b4096831d592ae32a9989840e32acd515c3f20a334248299949d78ba6d"
+        },
+        {
+          "path": "defense-directives/lesson-020/diagrams/DR-020-D01-editorial-v1.png",
+          "bytes": 149372,
+          "sha256": "ef1324bc9f337283a48d2c56c88af482a674d1b608c9f7342e0573aa12a0c034"
+        },
+        {
+          "path": "defense-directives/lesson-020/diagrams/DR-020-D01-editorial-v1.webp",
+          "bytes": 44416,
+          "sha256": "d1fe3366fb07cc02c71d35603c5c8bb06fcccaa50f4e03092897206a34805cd6"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-20.txt",
@@ -5512,9 +5576,13 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261127-172411-script",
-      "claimed_at": "2026-11-27T17:24:11+09:00",
-      "lease_expires_at": "2026-11-27T19:24:11+09:00"
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "diagram_id": "DR-020-D01",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-078-exam80-05-revision-172411",
@@ -5527,8 +5595,24 @@
       "script_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-078|3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3|95,97,107,125,127|훈련 대상 입력 후 보류 처리 순서와 산정기간|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-078/diagrams/DR-078-D05-editorial-v1.svg",
+          "bytes": 6009,
+          "sha256": "bcf48f9f1a22a65eaf4642b33b90c6f45fb501b1d55d7289013e46d5a754222d"
+        },
+        {
+          "path": "defense-directives/lesson-078/diagrams/DR-078-D05-editorial-v1.png",
+          "bytes": 154973,
+          "sha256": "1340a0a57c22b3b06941debe91c2451fabc4407b976159144ead73bdb6a417b5"
+        },
+        {
+          "path": "defense-directives/lesson-078/diagrams/DR-078-D05-editorial-v1.webp",
+          "bytes": 47006,
+          "sha256": "32c7844b73f5a006ff9bf308f16dc6eabb09dd785f5f634bc6cc3fc6abb41577"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_2-65.txt",
@@ -5543,9 +5627,13 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261127-172411-script",
-      "claimed_at": "2026-11-27T17:24:11+09:00",
-      "lease_expires_at": "2026-11-27T19:24:11+09:00"
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "diagram_id": "DR-078-D05",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     }
   ],
   "runs": [
@@ -5676,6 +5764,20 @@
       "visual_qa": "passed",
       "render_commit": "a3a42b35aad3d09bace4f07c8ca558207c8e3933",
       "remaining_reviews": 57
+    },
+    {
+      "id": "dr-20261127-172411-script",
+      "status": "rendered_pending_visual_qa",
+      "new_diagrams": 0,
+      "revised_diagrams": 5,
+      "completed_reviews": 0,
+      "diagram_ids": [
+        "DR-010-D01",
+        "DR-023-D01",
+        "DR-040-D01",
+        "DR-020-D01",
+        "DR-078-D05"
+      ]
     }
   ],
   "exam": {

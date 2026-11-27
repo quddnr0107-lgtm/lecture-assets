@@ -11,3 +11,4 @@
 ![지역예비군 편성·해체 절차](DR-010-D01-editorial-v1.webp)
 
 근거: [조직·편성 훈령 제10조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J10-0:0) · 국방부훈령 제3104호
+

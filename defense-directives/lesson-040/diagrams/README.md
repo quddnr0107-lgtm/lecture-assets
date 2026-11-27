@@ -11,3 +11,4 @@
 ![관리전환의 승인권자](DR-040-D01-editorial-v1.webp)
 
 근거: [조직·편성 훈령 제51조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J51-0:0) · 국방부훈령 제3104호
+
