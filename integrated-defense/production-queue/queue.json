@@ -2,8 +2,8 @@
   "schema_version": 1,
   "subject": "integrated-defense",
   "created_at_kst": "2026-11-27T10:25:01+09:00",
-  "updated_at_kst": "2026-11-27T10:48:53+09:00",
-  "status": "queued",
+  "updated_at_kst": "2026-11-27T02:46:52.222Z",
+  "status": "running",
   "approved_style": "07-notion-editorial",
   "baseline": {
     "lessons": 25,
@@ -41,7 +41,7 @@
       "kind": "renderer_setup",
       "title": "모바일 세로형 제작·검증 틀 준비",
       "priority": 0,
-      "status": "queued",
+      "status": "running",
       "depends_on": [],
       "acceptance_criteria": [
         "7번 흑백 편집형을 유지하는 1080px 폭의 모바일 SVG 제작 틀을 추가한다.",
@@ -55,8 +55,12 @@
         "scripts/notion-diagrams-v1/build_mobile.py",
         "integrated-defense/notion-v1/mobile-manifest.json"
       ],
-      "lease": null,
-      "attempts": 0
+      "lease": {
+        "run_id": "tb-20261127-01",
+        "started_at": "2026-11-27T02:46:52.222Z",
+        "expires_at": "2026-11-27T03:46:52.222Z"
+      },
+      "attempts": 1
     },
     {
       "id": "TB-003-SUP-01",
@@ -69,7 +73,7 @@
         "통합방위법 시행령 제3조"
       ],
       "priority": 1,
-      "status": "queued",
+      "status": "running",
       "depends_on": [],
       "acceptance_criteria": [
         "착수 시 law.go.kr 현행 시행령 제3조와 시행일을 확인한다.",
@@ -83,8 +87,12 @@
       "outputs": [
         "integrated-defense/lesson-003/diagrams/notion-v1/"
       ],
-      "lease": null,
-      "attempts": 0
+      "lease": {
+        "run_id": "tb-20261127-01",
+        "started_at": "2026-11-27T02:46:52.222Z",
+        "expires_at": "2026-11-27T03:46:52.222Z"
+      },
+      "attempts": 1
     },
     {
       "id": "TB-004-SUP-01",
@@ -98,7 +106,7 @@
         "통합방위법 시행령 제5조"
       ],
       "priority": 1,
-      "status": "queued",
+      "status": "running",
       "depends_on": [],
       "acceptance_criteria": [
         "착수 시 law.go.kr 현행 법 제4조제2항 및 시행령 제5조를 확인한다.",
@@ -112,8 +120,12 @@
       "outputs": [
         "integrated-defense/lesson-004/diagrams/notion-v1/"
       ],
-      "lease": null,
-      "attempts": 0
+      "lease": {
+        "run_id": "tb-20261127-01",
+        "started_at": "2026-11-27T02:46:52.222Z",
+        "expires_at": "2026-11-27T03:46:52.222Z"
+      },
+      "attempts": 1
     },
     {
       "id": "TB-005-SUP-01",
@@ -127,7 +139,7 @@
         "통합방위법 시행령 제8조제1항"
       ],
       "priority": 1,
-      "status": "queued",
+      "status": "running",
       "depends_on": [],
       "acceptance_criteria": [
         "착수 시 law.go.kr 현행 시행령 제8조제1항의 각 호와 단서를 확인한다.",
@@ -142,8 +154,12 @@
       "outputs": [
         "integrated-defense/lesson-005/diagrams/notion-v1/"
       ],
-      "lease": null,
-      "attempts": 0
+      "lease": {
+        "run_id": "tb-20261127-01",
+        "started_at": "2026-11-27T02:46:52.222Z",
+        "expires_at": "2026-11-27T03:46:52.222Z"
+      },
+      "attempts": 1
     },
     {
       "id": "TB-001-MOBILE",
