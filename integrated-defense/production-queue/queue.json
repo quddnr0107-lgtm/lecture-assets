@@ -3,7 +3,7 @@
   "subject": "integrated-defense",
   "created_at_kst": "2026-11-27T10:25:01+09:00",
   "updated_at_kst": "2026-11-27T04:54:25.671Z",
-  "status": "rendering_layout_fix",
+  "status": "review_pending",
   "approved_style": "07-notion-editorial",
   "baseline": {
     "lessons": 25,
@@ -240,7 +240,7 @@
       "lecture_id": "TB-002",
       "title": "02강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -262,11 +262,7 @@
       "outputs": [
         "integrated-defense/lesson-002/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-visual-20261127045329",
-        "started_at": "2026-11-27T04:54:25.671Z",
-        "expires_at": "2026-11-27T05:49:25.671Z"
-      },
+      "lease": null,
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "법령 근거만 있는 마지막 페이지 발견. 기존 스크립트 내용은 보존하고 마지막 두 페이지의 배치를 균형 조정한다."
@@ -890,7 +886,7 @@
       "lecture_id": "TB-021",
       "title": "21강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -910,11 +906,7 @@
       "outputs": [
         "integrated-defense/lesson-021/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-visual-20261127045329",
-        "started_at": "2026-11-27T04:54:25.671Z",
-        "expires_at": "2026-11-27T05:49:25.671Z"
-      },
+      "lease": null,
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "법령 근거만 있는 마지막 페이지 발견. 기존 스크립트 내용은 보존하고 마지막 두 페이지의 배치를 균형 조정한다."
@@ -1026,7 +1018,7 @@
       "lecture_id": "TB-025",
       "title": "25강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -1046,11 +1038,7 @@
       "outputs": [
         "integrated-defense/lesson-025/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-visual-20261127045329",
-        "started_at": "2026-11-27T04:54:25.671Z",
-        "expires_at": "2026-11-27T05:49:25.671Z"
-      },
+      "lease": null,
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "법령 근거만 있는 마지막 페이지 발견. 기존 스크립트 내용은 보존하고 마지막 두 페이지의 배치를 균형 조정한다."
@@ -1127,7 +1115,7 @@
     "status": "matched_existing_script",
     "checked_at_kst": "2026-11-27T12:02:16+09:00"
   },
-  "last_render_run": "tb-exam80-mobile-4fe6cdf7",
+  "last_render_run": "tb-visual-20261127045329",
   "last_verified_commit": "b1e23f444518fb4511ed022579f6b39daeea216d",
   "progress": {
     "jobs_done": 8,
