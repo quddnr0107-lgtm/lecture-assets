@@ -4,6 +4,7 @@ Illustrative stills and diagrams for online lectures, organized by subject and l
 
 - [Defense directives](defense-directives/)
 - [Integrated Defense Act: photos and diagrams](integrated-defense/)
+- [통합방위법 도식 · 회사 디자인 10종 선택](integrated-defense/lesson-005/diagrams/style-studies-v2/)
 - [Reserve Forces Act](reserve-forces-act/)
 - [Military Service Act](military-service-act/)
 - [Image catalog](catalog.json)

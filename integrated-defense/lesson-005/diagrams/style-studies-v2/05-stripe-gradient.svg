@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120" role="img" aria-labelledby="title desc" lang="ko">
+<title id="title">05 · Stripe — 지역협의회 심의사항</title><desc id="desc">Stripe의 사선 구성, 색의 흐름, 입체적인 제품 시각화에서 착안한 자체 디자인. 통합방위법 제5조제3항의 지역협의회 공통 네 사항과 시·도 협의회에 한정된 두 사항을 비교한 디자인 시안.</desc>
+<rect x="0" y="0" width="1600" height="1120" rx="0" fill="#071D34" />
+<defs>
+ <linearGradient id="stripe-flow" x1="0%" y1="0%" x2="100%" y2="100%"><stop stop-color="#34E1DF"/><stop offset=".48" stop-color="#8794FF"/><stop offset="1" stop-color="#C865EE"/></linearGradient>
+ <linearGradient id="stripe-panel" x1="0%" y1="0%" x2="100%" y2="0%"><stop stop-color="#1C3760"/><stop offset="1" stop-color="#241F52"/></linearGradient>
+ <linearGradient id="stripe-band" x1="0%" y1="0%" x2="100%" y2="0%"><stop stop-color="#52DEDE"/><stop offset=".6" stop-color="#635BFF"/><stop offset="1" stop-color="#C66BE5"/></linearGradient>
+ </defs>
+<path d="M1175 0 L1600 0 L1600 175 L1490 198 Z" fill="#112845" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M1310 0 L1600 0 L1600 80 L1470 107 Z" fill="url(#stripe-band)" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+<text x="80" y="81" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="26" font-weight="700" fill="#A7BBDA" text-anchor="start" letter-spacing="1.5">05  /  STRIPE</text>
+<text x="80" y="171" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="69" font-weight="700" fill="#FFFFFF" text-anchor="start">지역협의회의</text>
+<text x="80" y="251" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="69" font-weight="700" fill="#FFFFFF" text-anchor="start">심의사항을 한눈에.</text>
+<text x="920" y="242" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="29" font-weight="400" fill="#A7BBDA" text-anchor="start">시·도와 시·군·구 지역협의회 비교</text>
+<path d="M80 296 L1520 276" fill="none" stroke="url(#stripe-band)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+<text x="95" y="502" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="165" font-weight="700" fill="#6CE0E9" text-anchor="start">4</text>
+<text x="216" y="487" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="40" font-weight="700" fill="#FFFFFF" text-anchor="start">공통 사항</text>
+<text x="100" y="562" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="34" font-weight="700" fill="#D2E3FA" text-anchor="start">시·도 · 시·군·구</text>
+<text x="100" y="613" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="34" font-weight="400" fill="#94AECF" text-anchor="start">각각 심의</text>
+<rect x="100" y="659" width="239" height="48" rx="24" fill="#102B46" />
+<text x="219.5" y="692.0" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="25" font-weight="700" fill="#AEC4DF" text-anchor="middle">제2·4·5·6호</text>
+<path d="M378 570 C470 570 480 443 572 443 M378 570 C470 570 480 665 572 665" fill="none" stroke="url(#stripe-flow)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="378" cy="570" r="7" fill="#74D5EC"/>
+<rect x="578" y="354" width="460" height="207" rx="20" fill="#102A45" stroke="#26415E" stroke-width="1.5" />
+<rect x="578" y="354" width="460" height="3" rx="0" fill="url(#stripe-flow)" />
+<circle cx="617" cy="395" r="15" fill="#1C4264"/>
+<text x="617" y="403" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="22" font-weight="700" fill="#94DCEE" text-anchor="middle">2</text>
+<text x="608" y="445" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="32" font-weight="400" fill="#F0F7FF" text-anchor="start">통합방위 대비책</text>
+<rect x="1060" y="354" width="460" height="207" rx="20" fill="#102A45" stroke="#26415E" stroke-width="1.5" />
+<rect x="1060" y="354" width="460" height="3" rx="0" fill="url(#stripe-flow)" />
+<circle cx="1099" cy="395" r="15" fill="#1C4264"/>
+<text x="1099" y="403" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="22" font-weight="700" fill="#94DCEE" text-anchor="middle">4</text>
+<text x="1090" y="445" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="32" font-weight="400" fill="#F0F7FF" text-anchor="start">통합방위작전·훈련의 지원</text>
+<text x="1090" y="491" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="32" font-weight="400" fill="#F0F7FF" text-anchor="start">대책</text>
+<rect x="578" y="582" width="460" height="207" rx="20" fill="#102A45" stroke="#26415E" stroke-width="1.5" />
+<rect x="578" y="582" width="460" height="3" rx="0" fill="url(#stripe-flow)" />
+<circle cx="617" cy="623" r="15" fill="#1C4264"/>
+<text x="617" y="631" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="22" font-weight="700" fill="#94DCEE" text-anchor="middle">5</text>
+<text x="608" y="673" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="32" font-weight="400" fill="#F0F7FF" text-anchor="start">국가방위요소의 효율적</text>
+<text x="608" y="719" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="32" font-weight="400" fill="#F0F7FF" text-anchor="start">육성·운용 및 지원 대책</text>
+<rect x="1060" y="582" width="460" height="207" rx="20" fill="#102A45" stroke="#26415E" stroke-width="1.5" />
+<rect x="1060" y="582" width="460" height="3" rx="0" fill="url(#stripe-flow)" />
+<circle cx="1099" cy="623" r="15" fill="#1C4264"/>
+<text x="1099" y="631" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="22" font-weight="700" fill="#94DCEE" text-anchor="middle">6</text>
+<text x="1090" y="673" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="32" font-weight="400" fill="#F0F7FF" text-anchor="start">그 밖에 통합방위에 관하여</text>
+<text x="1090" y="719" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="32" font-weight="400" fill="#F0F7FF" text-anchor="start">대통령령으로 정하는 사항</text>
+<path d="M80 848 L1520 824 L1520 1025 L80 1049 Z" fill="url(#stripe-panel)" stroke="#465383" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<text x="106" y="984" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="108" font-weight="700" fill="#C5BBFF" text-anchor="start">2</text>
+<text x="197" y="938" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="start">시·도만</text>
+<text x="197" y="986" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="25" font-weight="400" fill="#AFA8E2" text-anchor="start">제1·3호</text>
+<line x1="419" y1="876" x2="419" y2="1010" stroke="#5E5786" stroke-width="1" stroke-linecap="round"/>
+<rect x="475" y="864" width="91" height="38" rx="19" fill="#353265" />
+<text x="520.5" y="890.92" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="22" font-weight="700" fill="#CFC8FF" text-anchor="middle">제1호</text>
+<text x="475" y="946" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="start">취약지역의 선정 또는 해제</text>
+<rect x="1000" y="864" width="91" height="38" rx="19" fill="#353265" />
+<text x="1045.5" y="890.92" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="22" font-weight="700" fill="#CFC8FF" text-anchor="middle">제3호</text>
+<text x="1000" y="946" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="start">을종사태 및 병종사태의 선포</text>
+<text x="1000" y="997" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="start">또는 해제</text>
+<text x="80" y="1090" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="22" font-weight="400" fill="#91A5BE" text-anchor="start">통합방위법 제5조제3항 · TB-005 · 디자인 검토용</text>
+<text x="1520" y="1090" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="20" font-weight="400" fill="#91A5BE" text-anchor="end" letter-spacing="1">GRADIENT SYSTEM</text>
+</svg>

@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "title": "통합방위법 도식 · 회사 디자인 참고 시안 10종",
+  "created_date_kst": "2026-11-27",
+  "subject": "integrated-defense",
+  "lesson_number": 5,
+  "lecture_id": "TB-005",
+  "status": "pending_user_selection",
+  "content": {
+    "title": "지역협의회의 심의사항",
+    "scope": "시·도와 시·군·구 지역협의회 비교",
+    "common_label": "각각 심의 · 공통 4개",
+    "common": [
+      [
+        "2",
+        "통합방위 대비책"
+      ],
+      [
+        "4",
+        "통합방위작전·훈련의 지원 대책"
+      ],
+      [
+        "5",
+        "국가방위요소의 효율적 육성·운용 및 지원 대책"
+      ],
+      [
+        "6",
+        "그 밖에 통합방위에 관하여 대통령령으로 정하는 사항"
+      ]
+    ],
+    "extra_label": "시·도 협의회만 2개",
+    "extra": [
+      [
+        "1",
+        "취약지역의 선정 또는 해제"
+      ],
+      [
+        "3",
+        "을종사태 및 병종사태의 선포 또는 해제"
+      ]
+    ],
+    "footer": "통합방위법 제5조제3항 · TB-005 · 디자인 검토용"
+  },
+  "law_source": "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000774174",
+  "design_note": "공식 디자인 자료와 제품 표현을 참고해 독립 제작한 학습 도식이다. 각 회사의 공식 제작물 또는 승인본이라는 뜻이 아니다. 회사 로고와 유료 서체는 포함하지 않았다.",
+  "font": "Noto Sans CJK KR",
+  "width": 1600,
+  "height": 1120,
+  "items": [
+    {
+      "id": "01-apple-minimal",
+      "number": 1,
+      "brand_reference": "Apple",
+      "label": "여백과 위계",
+      "description": "큰 숫자, 넓은 여백, 부드러운 면으로 정보의 중요도를 나눈 시안.",
+      "theme": "light",
+      "design_reference_url": "https://developer.apple.com/design/human-interface-guidelines/materials",
+      "status": "pending_user_selection",
+      "files": {
+        "svg": {
+          "path": "01-apple-minimal.svg",
+          "bytes": 7339,
+          "sha256": "9598be7de2f130cb75db36f09f5bf5cba6045d780785e92669e7f54e93cba9e9"
+        },
+        "png": {
+          "path": "01-apple-minimal.png",
+          "bytes": 210040,
+          "sha256": "246fede722a3b72e97c0cad46b7a403333dabeb0d1657eb82dbe6377d65b70f9"
+        },
+        "webp": {
+          "path": "01-apple-minimal.webp",
+          "bytes": 68716,
+          "sha256": "b959d6b2898ac035ae15cf23c3542eb3399e46b8632126e9ae11695579aedff6"
+        }
+      }
+    },
+    {
+      "id": "02-google-material3",
+      "number": 2,
+      "brand_reference": "Google Material 3",
+      "label": "색으로 구분하는 구조",
+      "description": "파스텔 컨테이너와 플럼 강조, 공통 4개의 2×2 배치.",
+      "theme": "light",
+      "design_reference_url": "https://m3.material.io/styles/color/the-color-system/",
+      "status": "pending_user_selection",
+      "files": {
+        "svg": {
+          "path": "02-google-material3.svg",
+          "bytes": 7140,
+          "sha256": "47fe2740c801092983adc86c72be483961e1a9ccc527a925519f9b5e2a9c972a"
+        },
+        "png": {
+          "path": "02-google-material3.png",
+          "bytes": 117993,
+          "sha256": "5f2cbe7cba691889c8168d7b3c22c14879fa38d8a776e19556e8edd02b4c57e5"
+        },
+        "webp": {
+          "path": "02-google-material3.webp",
+          "bytes": 69062,
+          "sha256": "828ad53403a9e9bb4957c5ad2c13f5b1968221b726221455214720b0854ec05f"
+        }
+      }
+    },
+    {
+      "id": "03-microsoft-fluent2",
+      "number": 3,
+      "brand_reference": "Microsoft Fluent 2",
+      "label": "관계가 보이는 연결",
+      "description": "두 협의회의 공통 심의와 시·도 한정 심의를 독립 연결선으로 구별.",
+      "theme": "light",
+      "design_reference_url": "https://fluent2.microsoft.design/design-principles",
+      "status": "pending_user_selection",
+      "files": {
+        "svg": {
+          "path": "03-microsoft-fluent2.svg",
+          "bytes": 8486,
+          "sha256": "78a66cd28c39bc72f6067b0993b1132b19a30d4770cd445377a7553c1e51e7f7"
+        },
+        "png": {
+          "path": "03-microsoft-fluent2.png",
+          "bytes": 145955,
+          "sha256": "49c011ccf53c4bebb57ec072ea47ac1a500a5828e75d4d86fdd7d247a5ee57bf"
+        },
+        "webp": {
+          "path": "03-microsoft-fluent2.webp",
+          "bytes": 73146,
+          "sha256": "f2ee6000263224f816a42fe2138e638d35d17860bb76ea10d2296cc0880bbab0"
+        }
+      }
+    },
+    {
+      "id": "04-ibm-carbon",
+      "number": 4,
+      "brand_reference": "IBM Carbon",
+      "label": "정렬과 대비",
+      "description": "엄격한 세로 3단, 검정 헤더와 코발트 강조 열.",
+      "theme": "light",
+      "design_reference_url": "https://www.carbondesignsystem.com/building-blocks/foundations/typography/overview",
+      "status": "pending_user_selection",
+      "files": {
+        "svg": {
+          "path": "04-ibm-carbon.svg",
+          "bytes": 6677,
+          "sha256": "0501e75153d64894555fb28377416d352ab67237bcf2f333177eded5651323a0"
+        },
+        "png": {
+          "path": "04-ibm-carbon.png",
+          "bytes": 96547,
+          "sha256": "1dc96815986856c30f67152b7ef478bce7e82ec7180fc8c571dbf5aa98cad5e5"
+        },
+        "webp": {
+          "path": "04-ibm-carbon.webp",
+          "bytes": 58420,
+          "sha256": "804714b2f6afc60686c52957e457797786e361da5e8bab493db7c98192f98d62"
+        }
+      }
+    },
+    {
+      "id": "05-stripe-gradient",
+      "number": 5,
+      "brand_reference": "Stripe",
+      "label": "색이 흐르는 도식",
+      "description": "네이비 바탕에 그라데이션 선과 곡선 분기, 하단 예외 영역.",
+      "theme": "dark",
+      "design_reference_url": "https://stripe.com/blog/connect-front-end-experience",
+      "status": "pending_user_selection",
+      "files": {
+        "svg": {
+          "path": "05-stripe-gradient.svg",
+          "bytes": 8458,
+          "sha256": "349d77ef5695f7222ce6f4a766a967e12e15c72fb27b785f81677fb930953084"
+        },
+        "png": {
+          "path": "05-stripe-gradient.png",
+          "bytes": 132884,
+          "sha256": "db1c1d5bda89a2024eec06c93b6bc5a02735fdc3c5d459331f2218f375639c3c"
+        },
+        "webp": {
+          "path": "05-stripe-gradient.webp",
+          "bytes": 73216,
+          "sha256": "7c9ecf27fda8f47b0b2036c1f7644f6a1fb4940983bffaa36d5700371f16ae8b"
+        }
+      }
+    },
+    {
+      "id": "06-linear-dark",
+      "number": 6,
+      "brand_reference": "Linear",
+      "label": "차분한 다크 화면",
+      "description": "차콜 목록, 미세한 경계, 보라색 시·도 한정 영역.",
+      "theme": "dark",
+      "design_reference_url": "https://linear.app/now/behind-the-latest-design-refresh",
+      "status": "pending_user_selection",
+      "files": {
+        "svg": {
+          "path": "06-linear-dark.svg",
+          "bytes": 7797,
+          "sha256": "a7d5faef9c92aac8301dfe9aa1d9a47a742bde69176968f1b8de0cabba95100c"
+        },
+        "png": {
+          "path": "06-linear-dark.png",
+          "bytes": 126244,
+          "sha256": "94d95f4fb24fad5fcd64b25a3bd034e060b092fccf54a61a16f8387b3fa99c50"
+        },
+        "webp": {
+          "path": "06-linear-dark.webp",
+          "bytes": 51036,
+          "sha256": "66f200052b156ab4fb8870ed822ca5eed377df8e9c29cfe7a5febdcb97c8e588"
+        }
+      }
+    },
+    {
+      "id": "07-notion-editorial",
+      "number": 7,
+      "brand_reference": "Notion",
+      "label": "편집된 학습 노트",
+      "description": "흰 종이 같은 바탕, 흑백, 손으로 그린 괄호와 밑줄.",
+      "theme": "light",
+      "design_reference_url": "https://www.notion.com/about",
+      "status": "pending_user_selection",
+      "files": {
+        "svg": {
+          "path": "07-notion-editorial.svg",
+          "bytes": 6173,
+          "sha256": "04f7c77aae29f860573cb2236f2203e15e3a24c429ba9b9f519b084f543ad93b"
+        },
+        "png": {
+          "path": "07-notion-editorial.png",
+          "bytes": 109997,
+          "sha256": "0cca3917a99e86698d9e637a32c52a68f4525315246fad483be4d538cce3a137"
+        },
+        "webp": {
+          "path": "07-notion-editorial.webp",
+          "bytes": 56718,
+          "sha256": "9d5f1a6c3f7874a692c8364569f8c998874c1611bc5bc38a8dbb4b4dda5ed2bf"
+        }
+      }
+    },
+    {
+      "id": "08-vercel-geist",
+      "number": 8,
+      "brand_reference": "Vercel Geist",
+      "label": "선과 면의 대비",
+      "description": "검정 격자와 흰색 예외 열로 구획을 선명하게 구분.",
+      "theme": "dark",
+      "design_reference_url": "https://vercel.com/geist/grid",
+      "status": "pending_user_selection",
+      "files": {
+        "svg": {
+          "path": "08-vercel-geist.svg",
+          "bytes": 8726,
+          "sha256": "3880ec54144015579b54e0ba2925279776c7b3c0f5af23651289de69f0ce5ebd"
+        },
+        "png": {
+          "path": "08-vercel-geist.png",
+          "bytes": 95314,
+          "sha256": "e25328c8de4c08043fc21e9d518dd6789f3000154c4b29c4eda8b10b5ffc281b"
+        },
+        "webp": {
+          "path": "08-vercel-geist.webp",
+          "bytes": 51136,
+          "sha256": "ea1b1a3971e1aaca8e1cc2514b07aa8b6c2e20711fa597b288bf703433761844"
+        }
+      }
+    },
+    {
+      "id": "09-airbnb-warm",
+      "number": 9,
+      "brand_reference": "Airbnb",
+      "label": "따뜻한 연결",
+      "description": "코럴과 따뜻한 흰색, 수평 가지, 넓은 여백.",
+      "theme": "light",
+      "design_reference_url": "https://news.airbnb.com/airbnb-2025-summer-release/",
+      "status": "pending_user_selection",
+      "files": {
+        "svg": {
+          "path": "09-airbnb-warm.svg",
+          "bytes": 7272,
+          "sha256": "8e09445a572f2a116b6a80a6d7c61df0241f8e2ad6c0ee9b23828f4829fc5feb"
+        },
+        "png": {
+          "path": "09-airbnb-warm.png",
+          "bytes": 101642,
+          "sha256": "e7803063fa07875be7e73228ce79b807dce84d00335cfa33e031c776a89b3133"
+        },
+        "webp": {
+          "path": "09-airbnb-warm.webp",
+          "bytes": 58904,
+          "sha256": "33224e344dec80189f869b19d984ded009e2004ac8eb20c6843336245c215889"
+        }
+      }
+    },
+    {
+      "id": "10-samsung-one-ui",
+      "number": 10,
+      "brand_reference": "Samsung One UI",
+      "label": "크고 편안한 구획",
+      "description": "큰 제목과 4+2 캡슐, 둥근 목록, 선명한 블루 영역.",
+      "theme": "light",
+      "design_reference_url": "https://design.samsung.com/global/contents/one-ui-7/",
+      "status": "pending_user_selection",
+      "files": {
+        "svg": {
+          "path": "10-samsung-one-ui.svg",
+          "bytes": 6370,
+          "sha256": "1ecd94f5695c80bd0a252d0f0c48dcdf74c1f4b03dee4c9f41903655ee513f0b"
+        },
+        "png": {
+          "path": "10-samsung-one-ui.png",
+          "bytes": 111601,
+          "sha256": "4f2faa47e95ddafd57cc4a54949f865c6539d974c85a6bed733f9771e61102b7"
+        },
+        "webp": {
+          "path": "10-samsung-one-ui.webp",
+          "bytes": 66046,
+          "sha256": "bf8500fe79d40f4c8c899324f68c6aacd889e66bf19e3159682abb7de22682bf"
+        }
+      }
+    }
+  ]
+}
