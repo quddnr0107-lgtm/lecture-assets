@@ -6,7 +6,7 @@
     "cutoff_date": "2027-02-02",
     "cutoff_kind": "existing_user_specified_exam80_basis"
   },
-  "checked_at": "2026-11-27T14:25:00+09:00",
+  "checked_at": "2026-11-27T15:21:08+09:00",
   "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
   "script_bindings_verified": 78,
   "diagram_corrections": [
@@ -75,10 +75,10 @@
       "full_lesson_coverage_review": "pending"
     }
   ],
-  "full_lecture_coverage_reviews_completed": 4,
-  "remaining_full_lecture_reviews": 74,
+  "full_lecture_coverage_reviews_completed": 7,
+  "remaining_full_lecture_reviews": 71,
   "new_diagrams": 11,
-  "revised_diagrams": 8,
+  "revised_diagrams": 16,
   "priority_script_comparison": {
     "schema_version": 1,
     "created_at": "2026-11-27T11:59:01+09:00",
@@ -3025,7 +3025,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published lossless WebP viewed individually; no clipping, missing glyphs or overlap. Renderer verified PNG/WebP pixel equality and 1600×1120; remote tree sizes and manifest hashes match.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-013/diagrams/DR-013-D07-editorial-v1.svg",
@@ -3251,7 +3251,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "render_commit": "a27327637cf7cc3d5533079ecd13ccad85752ac5",
+          "png_git_blob": "6ddaa6be49b0f22fd9f44b30856bdd30a43b86f4",
+          "webp_git_blob": "255e3ee11c9369ee519515a60222a17c1df36f68"
         },
         {
           "id": "DR-013-D03",
@@ -3272,7 +3275,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published lossless WebP viewed individually; no clipping, missing glyphs or overlap. Renderer verified PNG/WebP pixel equality and 1600×1120; remote tree sizes and manifest hashes match.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-013/diagrams/DR-013-D03-editorial-v1.svg",
@@ -3507,7 +3510,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "render_commit": "a27327637cf7cc3d5533079ecd13ccad85752ac5",
+          "png_git_blob": "e98fd5914945e17ac1bdb3c591ac79eb67689fdb",
+          "webp_git_blob": "87f71513f41b8ed335f933a061c4fa82be0c13e9"
         },
         {
           "id": "DR-024-D02",
@@ -3525,7 +3531,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published lossless WebP viewed individually; no clipping, missing glyphs or overlap. Renderer verified PNG/WebP pixel equality and 1600×1120; remote tree sizes and manifest hashes match.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-024/diagrams/DR-024-D02-editorial-v1.svg",
@@ -3628,7 +3634,7 @@
             {
               "text": "요청 방법",
               "x": 144,
-              "y": 689.0,
+              "y": 689,
               "width": 91,
               "height": 23,
               "fontSize": 23,
@@ -3637,7 +3643,7 @@
             {
               "text": "국방동원정보체계",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 265,
               "height": 34,
               "fontSize": 36,
@@ -3751,7 +3757,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "render_commit": "a27327637cf7cc3d5533079ecd13ccad85752ac5",
+          "png_git_blob": "a046473998c2e014a4065943129f298db68c4f21",
+          "webp_git_blob": "4291de210cfe94bb4abb5c060c6152bd69d1a304"
         },
         {
           "id": "DR-024-D03",
@@ -3770,7 +3779,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published lossless WebP viewed individually; no clipping, missing glyphs or overlap. Renderer verified PNG/WebP pixel equality and 1600×1120; remote tree sizes and manifest hashes match.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-024/diagrams/DR-024-D03-editorial-v1.svg",
@@ -4005,7 +4014,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "render_commit": "a27327637cf7cc3d5533079ecd13ccad85752ac5",
+          "png_git_blob": "0a7b12023df2a9bff05fad5ff7cdfe454dafce43",
+          "webp_git_blob": "cc9368d5f3db52a24badd4671ae1739d5ffced77"
         },
         {
           "id": "DR-024-D05",
@@ -4028,7 +4040,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published lossless WebP viewed individually; no clipping, missing glyphs or overlap. Renderer verified PNG/WebP pixel equality and 1600×1120; remote tree sizes and manifest hashes match.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-024/diagrams/DR-024-D05-editorial-v1.svg",
@@ -4239,7 +4251,7 @@
             {
               "text": "수임군부대장에게 신속히 통보",
               "x": 860,
-              "y": 720.0,
+              "y": 720,
               "width": 451,
               "height": 35,
               "fontSize": 36,
@@ -4299,7 +4311,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "render_commit": "a27327637cf7cc3d5533079ecd13ccad85752ac5",
+          "png_git_blob": "6e3f5af1e138f6ab80e305330f184ff6281101af",
+          "webp_git_blob": "03b2f8cd95d08484c0821e4ab6b2ba6b8aff65c6"
         },
         {
           "id": "DR-024-D06",
@@ -4318,7 +4333,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published lossless WebP viewed individually; no clipping, missing glyphs or overlap. Renderer verified PNG/WebP pixel equality and 1600×1120; remote tree sizes and manifest hashes match.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-024/diagrams/DR-024-D06-editorial-v1.svg",
@@ -4562,7 +4577,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "render_commit": "a27327637cf7cc3d5533079ecd13ccad85752ac5",
+          "png_git_blob": "def5964ebf6bebb0547ff82e3138ad5488bdc29b",
+          "webp_git_blob": "25192e28229d83709ff56617df1819ac334e91f9"
         },
         {
           "id": "DR-062-D01",
@@ -4581,7 +4599,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published lossless WebP viewed individually; no clipping, missing glyphs or overlap. Renderer verified PNG/WebP pixel equality and 1600×1120; remote tree sizes and manifest hashes match.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-062/diagrams/DR-062-D01-editorial-v1.svg",
@@ -4702,7 +4720,7 @@
             {
               "text": "확인",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 66,
               "height": 34,
               "fontSize": 36,
@@ -4834,7 +4852,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "render_commit": "a27327637cf7cc3d5533079ecd13ccad85752ac5",
+          "png_git_blob": "dea87db60e48f959899158a350222725e5607456",
+          "webp_git_blob": "9e3d9b8be008bfd04237bc969fa378a9c8580412"
         },
         {
           "id": "DR-062-D02",
@@ -4855,7 +4876,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published lossless WebP viewed individually; no clipping, missing glyphs or overlap. Renderer verified PNG/WebP pixel equality and 1600×1120; remote tree sizes and manifest hashes match.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-062/diagrams/DR-062-D02-editorial-v1.svg",
@@ -5099,7 +5120,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "render_commit": "a27327637cf7cc3d5533079ecd13ccad85752ac5",
+          "png_git_blob": "432b53de49ce665d6d592a92f116b180047eb89f",
+          "webp_git_blob": "40bfd32bc28bf24861f0e5df773b633e2400b533"
         },
         {
           "id": "DR-062-D04",
@@ -5119,7 +5143,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published lossless WebP viewed individually; no clipping, missing glyphs or overlap. Renderer verified PNG/WebP pixel equality and 1600×1120; remote tree sizes and manifest hashes match.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-062/diagrams/DR-062-D04-editorial-v1.svg",
@@ -5345,7 +5369,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "render_commit": "a27327637cf7cc3d5533079ecd13ccad85752ac5",
+          "png_git_blob": "90019e84f3d3309dd322c26a8636e5cf5f54bf08",
+          "webp_git_blob": "5c6b99f6a4e3463e66f5575dd1e8d48c71ca9311"
         },
         {
           "id": "DR-062-D07",
@@ -5363,7 +5390,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published lossless WebP viewed individually; no clipping, missing glyphs or overlap. Renderer verified PNG/WebP pixel equality and 1600×1120; remote tree sizes and manifest hashes match.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-062/diagrams/DR-062-D07-editorial-v1.svg",
@@ -5535,7 +5562,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "render_commit": "a27327637cf7cc3d5533079ecd13ccad85752ac5",
+          "png_git_blob": "77de9dba37fd37c8cacc714587aef6271807e77f",
+          "webp_git_blob": "3fef151edd0fe1da0a83f2d92e12a29b4ef7da6a"
         },
         {
           "id": "DR-062-D08",
@@ -5553,7 +5583,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published lossless WebP viewed individually; no clipping, missing glyphs or overlap. Renderer verified PNG/WebP pixel equality and 1600×1120; remote tree sizes and manifest hashes match.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-062/diagrams/DR-062-D08-editorial-v1.svg",
@@ -5761,7 +5791,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "render_commit": "a27327637cf7cc3d5533079ecd13ccad85752ac5",
+          "png_git_blob": "858e24c418839f039a36a92f47bedfb560becf0d",
+          "webp_git_blob": "996ed4897a25faf5723ba58a6374f10b922ba676"
         },
         {
           "id": "DR-062-D09",
@@ -5781,7 +5814,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published lossless WebP viewed individually; no clipping, missing glyphs or overlap. Renderer verified PNG/WebP pixel equality and 1600×1120; remote tree sizes and manifest hashes match.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-062/diagrams/DR-062-D09-editorial-v1.svg",
@@ -6007,7 +6040,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "render_commit": "a27327637cf7cc3d5533079ecd13ccad85752ac5",
+          "png_git_blob": "a56eb11092f11d922129b73187def86a48724b9e",
+          "webp_git_blob": "5955e2bfac2a5e5442ee4f8881c1812eaa5bde6f"
         },
         {
           "id": "DR-062-D10",
@@ -6025,7 +6061,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published lossless WebP viewed individually; no clipping, missing glyphs or overlap. Renderer verified PNG/WebP pixel equality and 1600×1120; remote tree sizes and manifest hashes match.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-062/diagrams/DR-062-D10-editorial-v1.svg",
@@ -6242,7 +6278,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "render_commit": "a27327637cf7cc3d5533079ecd13ccad85752ac5",
+          "png_git_blob": "c97ea5f9eabcf42e6bbb70d7fa1a94135cb4f15a",
+          "webp_git_blob": "f3a0ed4c802b088446c7669d012fcf7a6fa157a0"
         }
       ]
     }
@@ -6309,6 +6348,35 @@
         "DR-062-exam80-10-new-script"
       ],
       "note": "원고 Git blob 일치 확인, 기존 구조화 도식과 시험 핵심 대조; 전체 검토 완료로 집계하지 않음"
+    },
+    {
+      "run_id": "dr-20261127-152108-script",
+      "source_commit": "e0211254a232e51d1beb252f9a5353f4d9ee56fb",
+      "completed_lessons": [
+        "DR-001",
+        "DR-013",
+        "DR-053"
+      ],
+      "visual_reviewed": [
+        "DR-013-D07",
+        "DR-013-D03",
+        "DR-024-D02",
+        "DR-024-D03",
+        "DR-024-D05",
+        "DR-024-D06",
+        "DR-062-D01",
+        "DR-062-D02",
+        "DR-062-D04",
+        "DR-062-D07",
+        "DR-062-D08",
+        "DR-062-D09",
+        "DR-062-D10"
+      ],
+      "next_render": {
+        "new": 6,
+        "revised": 6
+      },
+      "remaining_reviews": 71
     }
   ]
 }
