@@ -1,0 +1,20 @@
+{
+  "run_id": "tb-exam80-20261128-0152-final",
+  "job_id": "TB-FINAL-AUDIT",
+  "exam_number": 80,
+  "prior_workflow_run": 46029076321,
+  "prior_failure": "AssertionError: 12 in final_exam80_audit.py; mobile-index.md had literal backslash-n separators and only 11 rows",
+  "recovery": {
+    "index_commit": "e53098f96918e4caafa528e796ac87542413faca",
+    "renderer_commit": "9760af3422b7e1be85ee835afd304a9be98b893c",
+    "request_commit": "707de96788cac3926a17d254347b78b15f8401ee",
+    "workflow_run": 46037419179,
+    "verified_index_rows": 25,
+    "mobile_manifest_pages": 137,
+    "source_policy_lessons": 25,
+    "script_alignment_entries": 55,
+    "new_core_diagrams": 0,
+    "new_mobile_pages": 0
+  },
+  "status": "final_audit_retry_requested"
+}
