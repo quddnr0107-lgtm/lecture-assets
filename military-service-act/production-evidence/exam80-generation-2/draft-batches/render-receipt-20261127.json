@@ -2,7 +2,7 @@
   "generation": 2,
   "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
   "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
-  "request_sha256": "9004d7f6bb9cd8507d46f00fdbe5b1360ea9f68b36ef0f4b63611fa582d2b9cd",
+  "request_sha256": "040aa9c1f62fae25dc52f75834510d87cef5f124721b3e69118958e2768c4bbd",
   "status": "draft_raster_only_not_final",
   "final_new_images": 0,
   "items": [
@@ -415,6 +415,102 @@
       "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/overseas-residence-special-r2.webp",
       "webp_sha256": "942e2edf72a833525777bd4a241910e5d44537a1945024ae81ca582c6679efc3",
       "webp_bytes": 33022,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-077",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/cancellation-eight-grounds.svg",
+      "svg_sha256": "1717ca76802e016771df848033411e8dcbfc5137c2bf2ea6a0ade89ba713effb",
+      "svg_blob_sha": "18c46a7099c26a16e0618bfce0ea89e52a58cf07",
+      "script_git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/cancellation-eight-grounds.webp",
+      "webp_sha256": "3c05b3a843989495e36b66a9660b2cacf3759883269f8318e77023cae5a0cdc8",
+      "webp_bytes": 53470,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-077",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/art-sports-comparison.svg",
+      "svg_sha256": "d9c4a2c9ae14f9e8dfcb96a59f7cc789a8fb23eb95f7db1522f82125c33f351c",
+      "svg_blob_sha": "6660eb5b21482da8b22c17fab1e70b0bf60f8be5",
+      "script_git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/art-sports-comparison.webp",
+      "webp_sha256": "410513ba0acd18bee30c4cc5309145452406fa3bfec1b77b9528bc78ed786aa5",
+      "webp_bytes": 48490,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-077",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/transfer-scope-clarified.svg",
+      "svg_sha256": "b48af05b42e23f0c1bfdef5b23ecd5bfac6d3995c6dc3e13b7a9d99d85292d4b",
+      "svg_blob_sha": "76731decbb3663a32435e58a5bdb6f5a88340148",
+      "script_git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/transfer-scope-clarified.webp",
+      "webp_sha256": "13f83a6792c3b4b38f49d8b85a822863a39ecdb456f78df0439843732eb1e45e",
+      "webp_bytes": 55240,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-010",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-010/automatic-entry-calendar.svg",
+      "svg_sha256": "0ca72ff7662bc10a7f87f45d0a0b6b61332c8bcbea6d5d49ca09fcbbad70aa1b",
+      "svg_blob_sha": "88cf6b120786d576c876507fc37a14a6506929f3",
+      "script_git_blob_sha": "3212a7c3a553fd2344d7598ed127a3865932bca0",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-010/automatic-entry-calendar.webp",
+      "webp_sha256": "327c77f68db682f6049d3982082ab30c4e7b47fedde573ca405dbc76d9c03967",
+      "webp_bytes": 40954,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-117",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-117/three-day-counts.svg",
+      "svg_sha256": "6354ca971ab4c24d1fda1e641ed8f5c118348656ea985aa5b701f1fd304a30b6",
+      "svg_blob_sha": "d7b1d4feaa2a5e97513a18f8366c88fd610a9bd4",
+      "script_git_blob_sha": "5d781d1a08a60f8d47fe9d2aa2df5fcae4f8380e",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-117/three-day-counts.webp",
+      "webp_sha256": "8c6d6e8c6b30ea9862dbd25ed00b588abd4f5d662531a653ee395d36d95518c8",
+      "webp_bytes": 53372,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-157",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-157/punishment-result-comparison.svg",
+      "svg_sha256": "603d9177e49c074a834778cf65938e83b4280d0920fe3126be9193a959a23849",
+      "svg_blob_sha": "86e11b9918d67e7ca4136f51297a108fc26d5896",
+      "script_git_blob_sha": "727888ecbcc939f6dc1053e1f20c2d216fd54182",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-157/punishment-result-comparison.webp",
+      "webp_sha256": "3c63db97d968c85c7131a9678b9f503b8858abb177883ee2228de7d4cf4173eb",
+      "webp_bytes": 48488,
       "dimensions": [
         1600,
         1120
