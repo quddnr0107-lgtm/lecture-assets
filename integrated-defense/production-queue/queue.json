@@ -355,7 +355,7 @@
       "lecture_id": "TB-005",
       "title": "05강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "running",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP",
         "TB-005-SUP-01"
@@ -378,11 +378,7 @@
       "outputs": [
         "integrated-defense/lesson-005/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-visual-20261127T075304Z-repair",
-        "started_at": "2026-11-27T07:53:04.658Z",
-        "expires_at": "2026-11-27T08:43:04.658Z"
-      },
+      "lease": null,
       "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "D03 M03 근거 제목 중복 제거 후 재검수."
@@ -394,7 +390,7 @@
       "lecture_id": "TB-006",
       "title": "06강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "running",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -415,11 +411,7 @@
       "outputs": [
         "integrated-defense/lesson-006/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-visual-20261127T075304Z-repair",
-        "started_at": "2026-11-27T07:53:04.658Z",
-        "expires_at": "2026-11-27T08:43:04.658Z"
-      },
+      "lease": null,
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "D02 M03 근거만 있는 페이지 재균형 후 재검수."
@@ -1148,7 +1140,7 @@
     "status": "matched_existing_script",
     "checked_at_kst": "2026-11-27T12:02:16+09:00"
   },
-  "last_render_run": "tb-exam80-visual-20261127T064900Z",
+  "last_render_run": "tb-exam80-visual-20261127T075304Z-repair",
   "last_verified_commit": "f18e8dde6a25388ed39bca259d8b5f6c7a0ccb3e",
   "progress": {
     "jobs_done": 13,
