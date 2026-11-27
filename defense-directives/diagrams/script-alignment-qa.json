@@ -75,8 +75,8 @@
       "full_lesson_coverage_review": "pending"
     }
   ],
-  "full_lecture_coverage_reviews_completed": 1,
-  "remaining_full_lecture_reviews": 77,
+  "full_lecture_coverage_reviews_completed": 4,
+  "remaining_full_lecture_reviews": 74,
   "new_diagrams": 3,
   "revised_diagrams": 3,
   "priority_script_comparison": {
@@ -451,7 +451,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: actual published PNG visually inspected",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-045/diagrams/DR-045-D02-editorial-v1.svg",
@@ -677,7 +677,9 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "png_git_blob": "fc1e903c996d86463f5094671de7726249b4fd3c",
+          "render_commit": "1461f9684813c17ac8c3ff2a21d782170e3e2c37"
         },
         {
           "id": "DR-045-D03",
@@ -692,7 +694,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: actual published PNG visually inspected",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-045/diagrams/DR-045-D03-editorial-v1.svg",
@@ -873,7 +875,9 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "png_git_blob": "144350e0dacd29004e541f91504068d536e0d5cd",
+          "render_commit": "1461f9684813c17ac8c3ff2a21d782170e3e2c37"
         },
         {
           "id": "DR-045-D04",
@@ -887,7 +891,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: actual published PNG visually inspected",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-045/diagrams/DR-045-D04-editorial-v1.svg",
@@ -1077,9 +1081,49 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "png_git_blob": "3dcdb29b10cd7d90c1478fc3760e6c8980af7939",
+          "render_commit": "1461f9684813c17ac8c3ff2a21d782170e3e2c37"
         }
       ]
+    }
+  ],
+  "script_conflicts": [
+    {
+      "lesson_id": "DR-078",
+      "source_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
+      "lines": [
+        7,
+        95,
+        97,
+        156,
+        163
+      ],
+      "description": "원고 도입과 요약의 보류 설명이 단순 연기처럼 서술되나, 같은 원고의 조문 인용은 보류된 훈련을 이수한 것으로 간주한다. 도식은 명시적 조문 인용과 해당 설명 구간으로 제작하고 원본 원고는 임의 수정하지 않음."
+    }
+  ],
+  "review_checkpoints": [
+    {
+      "run_id": "dr-20261127-122552",
+      "full_review_completed": [
+        "DR-045",
+        "DR-047",
+        "DR-003",
+        "DR-043"
+      ],
+      "partial_reviews": [
+        "DR-001",
+        "DR-060",
+        "DR-078"
+      ],
+      "new_diagrams": [
+        "DR-045-D02",
+        "DR-045-D03",
+        "DR-045-D04"
+      ],
+      "visual_qa_passed": true,
+      "render_commit": "1461f9684813c17ac8c3ff2a21d782170e3e2c37",
+      "queued_production_jobs": 8
     }
   ]
 }

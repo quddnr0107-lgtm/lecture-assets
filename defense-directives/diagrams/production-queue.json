@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-27T12:25:52+09:00",
+  "updated_at": "2026-11-27T12:29:00+09:00",
   "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
     "status": "files_completed",
@@ -67,11 +67,18 @@
   },
   "state": {
     "active_run": null,
-    "last_successful_run": null,
+    "last_successful_run": {
+      "id": "dr-20261127-122552",
+      "render_commit": "1461f9684813c17ac8c3ff2a21d782170e3e2c37",
+      "new_diagrams": 3,
+      "revised_diagrams": 0,
+      "completed_reviews": 4,
+      "visual_qa": "passed"
+    },
     "coverage_reviews_total": 78,
-    "coverage_reviews_queued": 77,
-    "coverage_reviews_completed": 1,
-    "confirmed_production_jobs": 3,
+    "coverage_reviews_queued": 74,
+    "coverage_reviews_completed": 4,
+    "confirmed_production_jobs": 11,
     "diagrams_added_after_baseline": 3,
     "diagrams_revised_after_baseline": 3,
     "script_bindings_verified": 78,
@@ -86,8 +93,9 @@
       "report": "defense-directives/diagrams/script-alignment-qa.json",
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
-    "production_jobs_queued": 0,
-    "production_jobs_qa": 3
+    "production_jobs_queued": 8,
+    "production_jobs_qa": 0,
+    "production_jobs_completed": 3
   },
   "jobs": [
     {
@@ -118,11 +126,21 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "scope": "원고 전문 및 기존 구조화 도식 대조; 발견된 보강 필요 항목은 제작 큐에 기록",
+        "source_sha256": "0d4cb439e9011e57a4bea7e3ab322e3b39d26f319774fbe3efec8ddc9e0687a0",
+        "full_review_completed": false
+      },
       "script_ref": "DR-060",
       "script_sha256": "0d4cb439e9011e57a4bea7e3ab322e3b39d26f319774fbe3efec8ddc9e0687a0",
       "partial_corrections": [
         "DR-060-D06"
+      ],
+      "confirmed_production_job_ids": [
+        "DR-060-exam80-D02-revision",
+        "DR-060-exam80-D03-revision",
+        "DR-060-exam80-D06-revision",
+        "DR-060-exam80-supplement-4-new"
       ]
     },
     {
@@ -289,7 +307,7 @@
       "lesson_id": "DR-045",
       "title": "예비군 교육훈련 훈령 제32조, 과태료 부과 서식 해설",
       "priority": 7,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 4,
       "existing_diagram_ids": [
         "DR-045-D01",
@@ -304,14 +322,28 @@
         "국방부훈령 제3216호"
       ],
       "output_directory": "defense-directives/lesson-045/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18",
+        "existing_svg_sha256": [
+          "660d45e26d8cec8f52ff830c6f6c56541f620ffd2d2178400016f6fe2821f756",
+          "2b7fa8bff38b54fa8e025aaa04335027dc48de40a8d8d6a5651662995fc97157",
+          "fdfb3126a45ca271c4327ac156b10c7efe7bd0ce1a02a2b59dbf8a79c5dca025",
+          "beb32e6642a44ecab321f4ade4a06423f7194ae5436417e737522b6c1df20711"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-27T12:29:00+09:00",
       "result": {
-        "scope": "기존 원고 전문·D01 비교; 신규 3장 렌더 완료, 시각 검수 대기",
-        "source_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18"
+        "scope": "원고 전문 1–68행 및 D01–D04 내용 대조",
+        "coverage": "별지5/6·수임군부대장/수입징수관·10일 이상·자진납부 20% 범위/종결·60일 불복·3%/매월1.2%·대통령령 요건과 체납 추가조치 등 스크립트 핵심 시험 포인트 모두 반영. 일반 서식 항목과 비유는 원고로 유지.",
+        "uncovered_required_learning_objectives": [],
+        "source_git_blob": "2c13f6ab444effe0f7d91f0d87a7768fbb5a9acb",
+        "source_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18",
+        "additional_diagrams_required": false,
+        "visual_qa": "신규 3장 실제 PNG 검사 완료, 기존 D01 검수 유지"
       },
       "script_ref": "DR-045",
       "script_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18",
@@ -390,9 +422,18 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "scope": "원고 전문 및 기존 구조화 도식 대조; 발견된 보강 필요 항목은 제작 큐에 기록",
+        "source_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
+        "full_review_completed": false
+      },
       "script_ref": "DR-078",
-      "script_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3"
+      "script_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
+      "confirmed_production_job_ids": [
+        "DR-078-exam80-D02-revision",
+        "DR-078-exam80-supplement-6-new",
+        "DR-078-exam80-supplement-7-new"
+      ]
     },
     {
       "id": "DR-002-coverage-review-v1",
@@ -1712,9 +1753,16 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "scope": "원고 전문 및 기존 구조화 도식 대조; 발견된 보강 필요 항목은 제작 큐에 기록",
+        "source_sha256": "96795bf7bad790e12f95997397d7957406dd3a882160354f5f7f6ae22da08e7a",
+        "full_review_completed": false
+      },
       "script_ref": "DR-001",
-      "script_sha256": "96795bf7bad790e12f95997397d7957406dd3a882160354f5f7f6ae22da08e7a"
+      "script_sha256": "96795bf7bad790e12f95997397d7957406dd3a882160354f5f7f6ae22da08e7a",
+      "confirmed_production_job_ids": [
+        "DR-001-exam80-D01-revision"
+      ]
     },
     {
       "id": "DR-003-coverage-review-v1",
@@ -1722,7 +1770,7 @@
       "lesson_id": "DR-003",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제3조, 적용범위",
       "priority": 56,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 1,
       "existing_diagram_ids": [
         "DR-003-D01"
@@ -1734,12 +1782,26 @@
         "국방부훈령 제3104호"
       ],
       "output_directory": "defense-directives/lesson-003/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "41740dff7a78b08750ca8fabd1c5ac10b315d25fea3e71d6c7fe142364ddfc94",
+        "existing_svg_sha256": [
+          "3e9ad259dcbe3b227e324b7a7218d4b18c14124831f0b75f0465997b033d8a14"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
-      "result": null,
+      "completed_at": "2026-11-27T12:29:00+09:00",
+      "result": {
+        "scope": "원고 전문 1–63행 및 D01 대조",
+        "coverage": "예비군업무 담당이라는 조건, 부대 및 관련기관 두 범주 반영. 원고의 동원업무 추가/관련기관 누락 함정과 동일한 구분.",
+        "uncovered_required_learning_objectives": [],
+        "source_git_blob": "193099575fc376941ae311ff8d94c1ed246daf91",
+        "source_sha256": "41740dff7a78b08750ca8fabd1c5ac10b315d25fea3e71d6c7fe142364ddfc94",
+        "additional_diagrams_required": false,
+        "visual_qa": "기존 제작 검수 유지; 내용 대조만 수행"
+      },
       "script_ref": "DR-003",
       "script_sha256": "41740dff7a78b08750ca8fabd1c5ac10b315d25fea3e71d6c7fe142364ddfc94"
     },
@@ -2079,7 +2141,7 @@
       "lesson_id": "DR-043",
       "title": "예비군 교육훈련 훈령 제1조, 목적",
       "priority": 69,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 1,
       "existing_diagram_ids": [
         "DR-043-D01"
@@ -2091,12 +2153,26 @@
         "국방부훈령 제3216호"
       ],
       "output_directory": "defense-directives/lesson-043/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "7685f0f129f848bc69435c44b3b184880f330268ba41ad2d89c2c20a41ee7634",
+        "existing_svg_sha256": [
+          "c1d248b586e6f6fe38e82ffd8666a291ab3f94275ffd73fbbb25c44168b03109"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
-      "result": null,
+      "completed_at": "2026-11-27T12:29:00+09:00",
+      "result": {
+        "scope": "원고 전문 1–59행 및 D01 대조",
+        "coverage": "병역법 제6장 제2절·예비군법 제6조·예비군 교육훈련 체계적 관리 및 관련 사항 규정 반영. 6-2-6 핵심과 범위 충족.",
+        "uncovered_required_learning_objectives": [],
+        "source_git_blob": "1ac0d170ffddd8e0386cf244a67f3f90e68cdc74",
+        "source_sha256": "7685f0f129f848bc69435c44b3b184880f330268ba41ad2d89c2c20a41ee7634",
+        "additional_diagrams_required": false,
+        "visual_qa": "기존 제작 검수 유지; 내용 대조만 수행"
+      },
       "script_ref": "DR-043",
       "script_sha256": "7685f0f129f848bc69435c44b3b184880f330268ba41ad2d89c2c20a41ee7634"
     },
@@ -2363,12 +2439,12 @@
       "source_scope": "기존 스크립트의 사전통지서 및 부과결정서 안내 문단",
       "suggested_output": "기존 원고의 두 절차를 비교하는 추가 도식1장. 확정 ID는 현재 폴더의 실제 다음 번호를 확인해 부여한다.",
       "new_script_required": false,
-      "status": "qa",
+      "status": "completed",
       "script_ref": "DR-045",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-27T12:29:00+09:00",
       "outputs": [
         {
           "path": "defense-directives/lesson-045/diagrams/DR-045-D02-editorial-v1.svg",
@@ -2409,7 +2485,9 @@
       "diagram_id": "DR-045-D02",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "published PNG viewed; no clipping, overlap, missing glyphs or numeric mismatch",
+      "render_commit": "1461f9684813c17ac8c3ff2a21d782170e3e2c37",
+      "png_git_blob": "fc1e903c996d86463f5094671de7726249b4fd3c"
     },
     {
       "id": "DR-045-existing-script-arrears-rates",
@@ -2428,12 +2506,12 @@
       "source_scope": "기존 스크립트의 부과결정서 아래 미납 안내",
       "suggested_output": "기존 원고의 가산금/중가산금 비교 도식1장. 확정 ID는 현재 폴더의 실제 다음 번호를 확인해 부여한다.",
       "new_script_required": false,
-      "status": "qa",
+      "status": "completed",
       "script_ref": "DR-045",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-27T12:29:00+09:00",
       "outputs": [
         {
           "path": "defense-directives/lesson-045/diagrams/DR-045-D03-editorial-v1.svg",
@@ -2467,7 +2545,9 @@
       "diagram_id": "DR-045-D03",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "published PNG viewed; no clipping, overlap, missing glyphs or numeric mismatch",
+      "render_commit": "1461f9684813c17ac8c3ff2a21d782170e3e2c37",
+      "png_git_blob": "144350e0dacd29004e541f91504068d536e0d5cd"
     },
     {
       "id": "DR-045-existing-script-arrears-other-measures",
@@ -2495,7 +2575,7 @@
           ]
         }
       ],
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-045/diagrams/DR-045-D04-editorial-v1.svg",
@@ -2519,7 +2599,249 @@
       "diagram_id": "DR-045-D04",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "published PNG viewed; no clipping, overlap, missing glyphs or numeric mismatch",
+      "completed_at": "2026-11-27T12:29:00+09:00",
+      "render_commit": "1461f9684813c17ac8c3ff2a21d782170e3e2c37",
+      "png_git_blob": "3dcdb29b10cd7d90c1478fc3760e6c8980af7939"
+    },
+    {
+      "id": "DR-001-exam80-D01-revision",
+      "lesson_id": "DR-001",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-001-D01",
+      "priority": "high",
+      "learning_objective": "규정함과 권고함의 시험 핵심 표현 명시",
+      "required_conditions": [
+        "기존 목적과 보충기준 유지",
+        "필요한 지침과 절차 등을 규정함을 명시",
+        "권고가 아님"
+      ],
+      "script_ref": "DR-001",
+      "design_version": "editorial-v1",
+      "status": "queued",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-1.txt",
+          "source_git_blob": "11e0c60385726c84442f70a4f5baac44db7249c7",
+          "source_sha256": "96795bf7bad790e12f95997397d7957406dd3a882160354f5f7f6ae22da08e7a",
+          "line_numbers": [
+            17,
+            43,
+            45,
+            55,
+            89
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DR-060-exam80-D02-revision",
+      "lesson_id": "DR-060",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-060-D02",
+      "priority": "high",
+      "learning_objective": "도서에서 내륙으로 전입할 때 미이수·무단불참 예외",
+      "required_conditions": [
+        "도서에서 미이수 또는 무단불참 후 내륙 전입",
+        "차수 증가 없이 내륙의 신분·연차별 훈련 부과",
+        "기존 8+12 및 내륙→도서 예외 유지"
+      ],
+      "script_ref": "DR-060",
+      "design_version": "editorial-v1",
+      "status": "queued",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-16.txt",
+          "source_git_blob": "4ae4b683613ed5f610c84fa844e21ab045e8d740",
+          "source_sha256": "0d4cb439e9011e57a4bea7e3ab322e3b39d26f319774fbe3efec8ddc9e0687a0",
+          "line_numbers": [
+            93
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DR-060-exam80-D03-revision",
+      "lesson_id": "DR-060",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-060-D03",
+      "priority": "high",
+      "learning_objective": "지원예비군 3차 무단불참 처리 핵심 퀴즈",
+      "required_conditions": [
+        "3차 훈련 무단불참 지원예비군도 고발",
+        "사전 훈련관리 철저",
+        "기존 지원·여성예비군 훈련시간 유지"
+      ],
+      "script_ref": "DR-060",
+      "design_version": "editorial-v1",
+      "status": "queued",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-16.txt",
+          "source_git_blob": "4ae4b683613ed5f610c84fa844e21ab045e8d740",
+          "source_sha256": "0d4cb439e9011e57a4bea7e3ab322e3b39d26f319774fbe3efec8ddc9e0687a0",
+          "line_numbers": [
+            105,
+            107,
+            119,
+            192
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DR-060-exam80-D06-revision",
+      "lesson_id": "DR-060",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-060-D06",
+      "priority": "high",
+      "learning_objective": "동원훈련Ⅰ형 선발 취소·철회 조건 표현 일치",
+      "required_conditions": [
+        "동원훈련Ⅰ형을 받기 전이라는 스크립트 조건 사용",
+        "제80회 적용 시행일 표기 유지"
+      ],
+      "script_ref": "DR-060",
+      "design_version": "editorial-v1",
+      "status": "queued",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-16.txt",
+          "source_git_blob": "4ae4b683613ed5f610c84fa844e21ab045e8d740",
+          "source_sha256": "0d4cb439e9011e57a4bea7e3ab322e3b39d26f319774fbe3efec8ddc9e0687a0",
+          "line_numbers": [
+            167
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DR-060-exam80-supplement-4-new",
+      "lesson_id": "DR-060",
+      "type": "script_coverage_gap",
+      "target_diagram_id": null,
+      "priority": "high",
+      "learning_objective": "지휘요원 면직 사유별 시간 적용과 소대장 연차 예외",
+      "required_conditions": [
+        "개인 불희망·타지역 전출·작계 2차 무단불참 면직: 이수시간 공제 후 신분·연차별 훈련",
+        "부대 통폐합 등 부대 사정 면직 또는 타지역 후반기 재임용: 20시간 적용 후 공제",
+        "7~8년차 소대의 소대장이 6년차 이내이면 지휘요원 훈련"
+      ],
+      "script_ref": "DR-060",
+      "design_version": "editorial-v1",
+      "status": "queued",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-16.txt",
+          "source_git_blob": "4ae4b683613ed5f610c84fa844e21ab045e8d740",
+          "source_sha256": "0d4cb439e9011e57a4bea7e3ab322e3b39d26f319774fbe3efec8ddc9e0687a0",
+          "line_numbers": [
+            45,
+            47,
+            49,
+            55,
+            67,
+            188,
+            189
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DR-078-exam80-D02-revision",
+      "lesson_id": "DR-078",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-078-D02",
+      "priority": "high",
+      "learning_objective": "외항선원 90일과 보류해소 신고 14일 구분",
+      "required_conditions": [
+        "90일째까지 재승선하지 않으면 하선일 기준 해소",
+        "기간 중 부과훈련 연기",
+        "90일 되는 날로부터 14일 이내 해소 신고"
+      ],
+      "script_ref": "DR-078",
+      "design_version": "editorial-v1",
+      "status": "queued",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-65.txt",
+          "source_git_blob": "10cfc56fac80c296861241c032e43f35a9458465",
+          "source_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
+          "line_numbers": [
+            79,
+            85,
+            89,
+            151
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DR-078-exam80-supplement-6-new",
+      "lesson_id": "DR-078",
+      "type": "script_coverage_gap",
+      "target_diagram_id": null,
+      "priority": "high",
+      "learning_objective": "보류기간 적용 1·2차와 이전 미이수 훈련의 구분",
+      "required_conditions": [
+        "보류기간 중 부과된 해당 연도 1·2차만 보류, 이수 간주",
+        "2차부터 무단불참·보류 이전 이월훈련 계속 부과",
+        "국외 귀국 후·외항선원 하선 후·경찰학교 과정 이수 후 부과, 국가유공자·보훈대상자 선정 전 부과훈련 이수 처리"
+      ],
+      "script_ref": "DR-078",
+      "design_version": "editorial-v1",
+      "status": "queued",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-65.txt",
+          "source_git_blob": "10cfc56fac80c296861241c032e43f35a9458465",
+          "source_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
+          "line_numbers": [
+            95,
+            97,
+            107,
+            111,
+            163,
+            166
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DR-078-exam80-supplement-7-new",
+      "lesson_id": "DR-078",
+      "type": "script_coverage_gap",
+      "target_diagram_id": null,
+      "priority": "high",
+      "learning_objective": "방침보류 전환 시 기이수 시간과 무단불참 시간의 차이",
+      "required_conditions": [
+        "기이수시간 ≥ 방침보류 훈련시간이면 종결, 미달분만 추가",
+        "2차부터 무단불참 훈련은 동일 유형 차수 증가하여 부과, 부족분은 보류 직종별 훈련",
+        "전면→일부 전환은 기존 이수 인정 후 부족분만 부과"
+      ],
+      "script_ref": "DR-078",
+      "design_version": "editorial-v1",
+      "status": "queued",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-65.txt",
+          "source_git_blob": "10cfc56fac80c296861241c032e43f35a9458465",
+          "source_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
+          "line_numbers": [
+            113,
+            117,
+            119,
+            123
+          ]
+        }
+      ]
     }
   ],
   "runs": [
@@ -2532,14 +2854,19 @@
     },
     {
       "id": "dr-20261127-122552",
-      "status": "rendered_pending_visual_qa",
+      "status": "completed",
       "new_diagrams": 3,
-      "completed_reviews": 1,
+      "completed_reviews": 4,
       "diagram_ids": [
         "DR-045-D02",
         "DR-045-D03",
         "DR-045-D04"
-      ]
+      ],
+      "revised_diagrams": 0,
+      "render_commit": "1461f9684813c17ac8c3ff2a21d782170e3e2c37",
+      "visual_qa": "passed",
+      "remaining_reviews": 74,
+      "remaining_production": 8
     }
   ],
   "exam": {
