@@ -23,7 +23,7 @@ def validate():
     for i in req["items"]:
         p=(ROOT/i["svg_path"]).resolve()
         assert p.is_relative_to(DRAFT) and p.suffix==".svg" and p not in seen
-        assert p.parent.parent.name in {"20261127-01","20261127-02"}
+        assert p.parent.parent.name in {"20261127-01","20261127-02","20261128-11"}
         assert digest(p)==i["svg_sha256"]
         assert src[i["lecture_id"]]==jobs[i["lecture_id"]]["source"]["script_git_blob_sha"]==i["script_git_blob_sha"]
         seen.add(p)
