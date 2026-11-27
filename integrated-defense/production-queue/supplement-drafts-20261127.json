@@ -1,0 +1,394 @@
+{
+  "status": "source_checked_draft",
+  "law_checked_date": "2026-11-27",
+  "law_versions": {
+    "law": "21065, 2025-10-01; 제4조제2항 일부 2026-01-02",
+    "decree": "36728, 2026-10-02"
+  },
+  "items": [
+    {
+      "lesson": 3,
+      "job": "TB-003-SUP-01",
+      "diagrams": [
+        {
+          "id": "D03",
+          "slug": "central-conference-attendees",
+          "title": "중앙 통합방위회의 참석 대상",
+          "subtitle": "시행령 제3조제2항 · 법정 열거 1~9호",
+          "layout": "compare",
+          "sections": [
+            {
+              "title": "협의회·정부",
+              "items": [
+                {
+                  "label": "1호",
+                  "detail": "중앙협의회의 의장 및 위원"
+                },
+                {
+                  "label": "2호",
+                  "detail": "방송미디어통신위원회위원장"
+                },
+                {
+                  "label": "3호",
+                  "detail": "시·도 협의회의 의장"
+                },
+                {
+                  "label": "4호",
+                  "detail": "국가정보원의 지부장"
+                }
+              ]
+            },
+            {
+              "title": "경찰·소방·해양경찰",
+              "items": [
+                {
+                  "label": "5호",
+                  "detail": "경찰청장 및 시·도경찰청장"
+                },
+                {
+                  "label": "6호",
+                  "detail": "소방청장 및 소방본부장"
+                },
+                {
+                  "label": "7호",
+                  "detail": "해양경찰청장 및 지방해양경찰청장"
+                }
+              ]
+            },
+            {
+              "title": "군 지휘관",
+              "items": [
+                {
+                  "label": "8호",
+                  "detail": "군단장급 이상의 군 지휘관"
+                },
+                {
+                  "label": "9호",
+                  "detail": "지역군사령관 및 함대사령관"
+                }
+              ]
+            }
+          ],
+          "takeaway": "중앙 통합방위회의 참석 대상과 중앙협의회 위원은 동일하지 않다.",
+          "notes": [
+            "제10호의 추가 선정 및 지방회의 준비 관계는 D04에서 확인한다.",
+            "세 묶음은 학습용 편집 구분이며 법정 분류는 호 번호를 따른다."
+          ],
+          "display_notes": [
+            "제10호는 D04 참조. 묶음은 편집상 분류."
+          ],
+          "sources": [
+            {
+              "basis": "통합방위법 시행령 제3조제2항제1호~제9호",
+              "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507"
+            }
+          ]
+        },
+        {
+          "id": "D04",
+          "slug": "conference-selection-and-local-scope",
+          "title": "회의 참석 대상의 선정과 지방회의",
+          "subtitle": "시행령 제3조제2항제10호·제3항·제5항",
+          "layout": "compare",
+          "sections": [
+            {
+              "title": "중앙 통합방위회의",
+              "items": [
+                {
+                  "label": "10호 · 추가 대상",
+                  "detail": "통합방위본부장이 선정하는 사람"
+                },
+                {
+                  "label": "제3항 · 준비",
+                  "detail": "통합방위본부장이 의제·참석 대상·일시·장소·회의 주관자를 선정하고 준비"
+                }
+              ]
+            },
+            {
+              "title": "지방 통합방위회의",
+              "items": [
+                {
+                  "label": "제5항 · 준비 협의",
+                  "detail": "시·도 협의회 의장이 지역군사령관, 시·도경찰청장, 국가정보원의 지부장 등 관계 기관의 장과 협의"
+                },
+                {
+                  "label": "참석 범위",
+                  "detail": "제3조는 지방회의 참석자 전체 명단을 열거하지 않음"
+                }
+              ]
+            }
+          ],
+          "takeaway": "중앙은 본부장 선정, 지방은 시·도 의장의 관계기관 협의.",
+          "notes": [
+            "지방회의 준비 협의 상대를 지방회의 참석자 전체 명단으로 해석하지 않는다.",
+            "회의 개최·준비 주기와 지침은 TB-003-D02 참조."
+          ],
+          "display_notes": [
+            "지방회의 준비 협의 상대와 참석자 전체 명단을 구별."
+          ],
+          "sources": [
+            {
+              "basis": "통합방위법 시행령 제3조제2항제10호·제3항·제5항",
+              "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 4,
+      "job": "TB-004-SUP-01",
+      "diagrams": [
+        {
+          "id": "D03",
+          "slug": "central-council-ministers",
+          "title": "중앙협의회 법정 위원 · 장관",
+          "subtitle": "법 제4조제2항 · 법률에 열거된 장관 직위 20개",
+          "layout": "compare",
+          "sections": [
+            {
+              "title": "법문 순서 ①",
+              "items": [
+                {
+                  "label": "장관 7개",
+                  "detail": "재정경제부장관\n과학기술정보통신부장관\n교육부장관\n외교부장관\n통일부장관\n법무부장관\n국방부장관"
+                }
+              ]
+            },
+            {
+              "title": "법문 순서 ②",
+              "items": [
+                {
+                  "label": "장관 7개",
+                  "detail": "행정안전부장관\n국가보훈부장관\n문화체육관광부장관\n농림축산식품부장관\n산업통상부장관\n보건복지부장관\n기후에너지환경부장관"
+                }
+              ]
+            },
+            {
+              "title": "법문 순서 ③",
+              "items": [
+                {
+                  "label": "장관 6개",
+                  "detail": "고용노동부장관\n성평등가족부장관\n국토교통부장관\n해양수산부장관\n중소벤처기업부장관\n기획예산처장관"
+                }
+              ]
+            }
+          ],
+          "takeaway": "재정경제부·기획예산처 관련 개정 부분은 2026.1.2. 시행.",
+          "notes": [
+            "장관 직위의 묶음은 편집상 구분이다. 장관 외 법정 위원 및 추가 위원은 D04 참조.",
+            "법률 제21065호 중 재정경제부 및 기획예산처 개정 부분의 시행일은 2026.1.2.이다."
+          ],
+          "display_notes": [
+            "장관 외 법정 위원·추가 위원은 D04 참조."
+          ],
+          "sources": [
+            {
+              "basis": "통합방위법 제4조제2항 및 해당 개정부분 시행일",
+              "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315"
+            }
+          ]
+        },
+        {
+          "id": "D04",
+          "slug": "central-council-other-members",
+          "title": "중앙협의회 법정 위원과 추가 위원",
+          "subtitle": "법 제4조제2항 · 시행령 제5조",
+          "layout": "compare",
+          "sections": [
+            {
+              "title": "법률 직접 열거 · 장관 외",
+              "items": [
+                {
+                  "label": "기관장 5개",
+                  "detail": "국무조정실장\n법제처장\n식품의약품안전처장\n국가정보원장\n통합방위본부장"
+                }
+              ]
+            },
+            {
+              "title": "대통령령에 따른 추가 위원",
+              "items": [
+                {
+                  "label": "제1호 · 지방자치단체장",
+                  "detail": "지방자치단체의 장 중 중앙협의회 의장이 위촉"
+                },
+                {
+                  "label": "제2호 · 식견·경험",
+                  "detail": "통합방위에 관한 식견과 경험이 풍부한 사람 중 중앙협의회 의장이 임명하거나 위촉"
+                }
+              ]
+            }
+          ],
+          "takeaway": "지자체장: 위촉 / 식견·경험자: 임명 또는 위촉.",
+          "notes": [
+            "의장은 국무총리이다. 장관 직위는 D03 참조.",
+            "직위 열거와 추가 위원 자격을 구별하며 전체 정원을 고정하지 않는다."
+          ],
+          "display_notes": [
+            "의장은 국무총리. 장관 직위는 D03 참조."
+          ],
+          "sources": [
+            {
+              "basis": "통합방위법 제4조제2항",
+              "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315"
+            },
+            {
+              "basis": "통합방위법 시행령 제5조제1호·제2호",
+              "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lesson": 5,
+      "job": "TB-005-SUP-01",
+      "diagrams": [
+        {
+          "id": "D04",
+          "slug": "regional-council-members-part-one",
+          "title": "지역협의회 위원 구성 ①",
+          "subtitle": "시행령 제8조제1항 · 제1호~제7호(제4호의2 포함)",
+          "layout": "compare",
+          "sections": [
+            {
+              "title": "군·정보",
+              "items": [
+                {
+                  "label": "1호",
+                  "detail": "해당 지역의 작전책임을 담당하는 군부대의 장"
+                },
+                {
+                  "label": "2호",
+                  "detail": "해당 지역 국군방첩부대의 장 또는 그 부대원"
+                },
+                {
+                  "label": "3호",
+                  "detail": "국가정보원의 관계자"
+                }
+              ]
+            },
+            {
+              "title": "공소·중대범죄수사",
+              "items": [
+                {
+                  "label": "4호",
+                  "detail": "지방공소청장, 지방공소청 지청장 또는 검사"
+                },
+                {
+                  "label": "4호의2",
+                  "detail": "지방중대범죄수사청장 또는 그 장이 지명하는 소속 중대범죄수사청수사관"
+                }
+              ]
+            },
+            {
+              "title": "경찰·해경·교정",
+              "items": [
+                {
+                  "label": "5호",
+                  "detail": "시·도경찰청장 또는 경찰서장"
+                },
+                {
+                  "label": "6호",
+                  "detail": "지방해양경찰청장 또는 해양경찰서장"
+                },
+                {
+                  "label": "7호",
+                  "detail": "지방교정청장 또는 교정시설의 장"
+                }
+              ]
+            }
+          ],
+          "takeaway": "2026.10.2. 시행령 개정: 지방공소청 및 지방중대범죄수사청 직위 확인.",
+          "notes": [
+            "제4호의2가 추가되었으며 제8호~제14호는 D05에서 확인한다.",
+            "세 묶음은 학습용 분류이며 법정 호 번호는 그대로 표시한다."
+          ],
+          "display_notes": [
+            "제8호~제14호는 D05 참조. 묶음은 편집상 분류."
+          ],
+          "sources": [
+            {
+              "basis": "통합방위법 시행령 제8조제1항제1호~제7호",
+              "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507"
+            }
+          ]
+        },
+        {
+          "id": "D05",
+          "slug": "regional-council-members-part-two",
+          "title": "지역협의회 위원 구성 ②",
+          "subtitle": "시행령 제8조제1항 · 제8호~제14호",
+          "layout": "compare",
+          "sections": [
+            {
+              "title": "보훈·병무·교육",
+              "items": [
+                {
+                  "label": "8호",
+                  "detail": "지방보훈청장 또는 보훈지청장"
+                },
+                {
+                  "label": "9호",
+                  "detail": "지방병무청장 또는 병무지청장"
+                },
+                {
+                  "label": "10호",
+                  "detail": "교육감 또는 교육장"
+                }
+              ]
+            },
+            {
+              "title": "의회·소방·재향군인회",
+              "items": [
+                {
+                  "label": "11호",
+                  "detail": "지방의회 의장"
+                },
+                {
+                  "label": "12호",
+                  "detail": "소방본부장 또는 소방서장"
+                },
+                {
+                  "label": "13호",
+                  "detail": "지역 재향군인회장"
+                }
+              ]
+            },
+            {
+              "title": "추가 위촉",
+              "items": [
+                {
+                  "label": "14호",
+                  "detail": "통합방위에 관한 학식과 경험이 풍부한 사람으로서 지역협의회 의장이 위촉하는 사람"
+                },
+                {
+                  "label": "구성·운영 기준",
+                  "detail": "대통령령 기준에 따라 조례로 정함"
+                }
+              ]
+            }
+          ],
+          "takeaway": "지역협의회 의장이 위촉하는 추가 위원은 제14호.",
+          "notes": [
+            "제1호~제7호와 제4호의2는 D04 참조. 조례 위임 근거는 법 제5조제4항이다.",
+            "시·도 협의회와 시·군·구 협의회의 의장 및 소집 기준은 기존 D02 참조."
+          ],
+          "display_notes": [
+            "의장·회의 운영은 D02, 제1~7호(4호의2 포함)는 D04 참조."
+          ],
+          "sources": [
+            {
+              "basis": "통합방위법 시행령 제8조제1항제8호~제14호",
+              "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507"
+            },
+            {
+              "basis": "통합방위법 제5조제4항",
+              "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

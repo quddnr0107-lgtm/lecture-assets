@@ -1,0 +1,25 @@
+{
+  "run_id": "tb-20261127-01",
+  "status": "partial",
+  "local_mobile_sample": {
+    "source": "TB-001-D01",
+    "pages": 2,
+    "formats": [
+      "svg",
+      "png",
+      "webp"
+    ],
+    "visual_review": "390px 실제 PNG 축소본 2면 확인",
+    "remote_assets_saved": false
+  },
+  "supplements": {
+    "jobs": 3,
+    "draft_diagrams": 6,
+    "official_sources": [
+      "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+      "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507"
+    ],
+    "status": "법령 대조 및 초안, 미렌더"
+  },
+  "note": "초안과 제작 틀만 저장. 이미지 원격 검증 전에 완료 처리하지 않음."
+}
