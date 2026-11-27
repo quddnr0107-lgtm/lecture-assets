@@ -40,7 +40,7 @@
       "lessonId": "DR-001",
       "articleKey": "1-1",
       "title": "훈령이 정하는 것과 보충 기준",
-      "subtitle": "조직·편성과 운영에 필요한 지침·절차를 정한다.",
+      "subtitle": "필요한 지침과 절차 등을 규정함을 목적으로 한다.",
       "layout": "equal",
       "left": {
         "title": "훈령의 목적",
@@ -53,7 +53,7 @@
           },
           {
             "label": "규정 내용",
-            "text": "필요한 지침과 절차",
+            "text": "필요한 지침과 절차 등을 규정함",
             "bold": false
           }
         ]
@@ -78,17 +78,22 @@
       "sourceClauses": [
         "본문"
       ],
-      "note": "",
+      "note": "시험 핵심: 규정함을 목적으로 한다. 권고함이 아니다.",
       "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J1-0:0",
       "sourceVersion": "국방부훈령 제3104호",
       "effectiveDate": "2025-11-14",
-      "evidence": [
-        {
-          "claim": "훈령이 정하는 것과 보충 기준",
-          "quote": "제1조(목적) 이 훈령은「예비군법」,「병역법」등에 명시된 예비군의 조직ㆍ편성과 운영에관하여 필요한 지침과 절차 등을 규정함을 목적으로 하고, 명시되지 않은 사항은당해 연도 지침 또는 육군ㆍ해군(이하 \"각 군\"이라 한다.) 규정에 따른다."
-        }
-      ],
-      "scriptRef": "DR-001"
+      "scriptRef": "DR-001",
+      "scriptEvidence": {
+        "source_git_blob": "11e0c60385726c84442f70a4f5baac44db7249c7",
+        "source_sha256": "96795bf7bad790e12f95997397d7957406dd3a882160354f5f7f6ae22da08e7a",
+        "lines": [
+          17,
+          43,
+          45,
+          55,
+          89
+        ]
+      }
     },
     {
       "lessonId": "DR-002",
@@ -8810,7 +8815,7 @@
       "articleKey": "2-16",
       "title": "도서지역 예비군훈련",
       "subtitle": "연륙교가 없는 도서면대 소속 예비군에게 적용한다.",
-      "layout": "split",
+      "layout": "equal",
       "left": {
         "title": "대상·시간",
         "subtitle": "제2항제1호·제2호",
@@ -8837,18 +8842,23 @@
         "subtitle": "제2항제4호·제5호",
         "items": [
           {
-            "label": "도서 → 내륙",
-            "text": "기본 8시간 이수 후 전입하면 작계 12시간 부과",
+            "label": "도서 → 내륙 · 8시간 이수",
+            "text": "작계훈련 12시간 부과",
+            "bold": false
+          },
+          {
+            "label": "도서 → 내륙 · 미이수·무단불참",
+            "text": "차수 증가 없이 내륙의 신분별·연차별 훈련 부과",
             "bold": false
           },
           {
             "label": "내륙 → 도서",
-            "text": "도서 훈련시간 적용 후 기이수시간 공제",
+            "text": "도서 훈련시간 적용, 기이수시간 공제",
             "bold": false
           },
           {
-            "label": "무단불참 예외",
-            "text": "내륙에서 2차까지 무단불참한 훈련은 재부과",
+            "label": "내륙 2차까지 무단불참",
+            "text": "해당 훈련 재부과",
             "bold": false
           }
         ]
@@ -8861,35 +8871,24 @@
         "제2항제5호"
       ],
       "note": "",
-      "evidence": [
-        {
-          "claim": "연륙교",
-          "quote": "1. 도서지역 예비군훈련은 육지와 연결되어 있는 다리(연륙교)가 설치되어 있지 않은 도서면대 소속 예비군을 대상으로 한다."
-        },
-        {
-          "claim": "기본훈련(8시간)",
-          "quote": "2. 1∼6년차 병력동원소집 미대상자는 기본훈련(8시간)과 작계 훈련(12시간)을 실시한다."
-        },
-        {
-          "claim": "기본훈련 8시간 참석",
-          "quote": "4. 훈련대상 중에서 기본훈련 8시간 참석 후 내륙지역으로 전입한 자는 작계훈련 12시간을 부과하고, 미부과자 및 무단불참 후 전입자는 훈련차수 증가 없이 신분별ㆍ연차별 훈련을 적용한다."
-        },
-        {
-          "claim": "내륙지역에서 도서지역으로",
-          "quote": "5. 내륙지역에서 도서지역으로 전입한 자는 제 2호의 훈련시간을 적용하되, 기 이수한 훈련시간은 공제한 후 부과한다. 다만, 내륙지역에서 2차 훈련까지 무단 불참한 훈련은 재부과한다."
-        }
-      ],
       "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J16-0:0",
       "sourceVersion": "국방부훈령 제3216호",
       "effectiveDate": "2026-10-14",
-      "scriptRef": "DR-060"
+      "scriptRef": "DR-060",
+      "scriptEvidence": {
+        "source_git_blob": "4ae4b683613ed5f610c84fa844e21ab045e8d740",
+        "source_sha256": "0d4cb439e9011e57a4bea7e3ab322e3b39d26f319774fbe3efec8ddc9e0687a0",
+        "lines": [
+          93
+        ]
+      }
     },
     {
       "lessonId": "DR-060",
       "articleKey": "2-16",
       "title": "지원예비군과 여성예비군",
       "subtitle": "지원예비군 훈련과 여성예비군의 추가 기준을 구분한다.",
-      "layout": "split",
+      "layout": "equal",
       "left": {
         "title": "지원예비군",
         "subtitle": "제3항제1호·제2호",
@@ -8924,6 +8923,11 @@
             "label": "소대장",
             "text": "연 1회 선소집교육 4시간 추가",
             "bold": false
+          },
+          {
+            "label": "지원예비군 공통",
+            "text": "3차 훈련 무단불참자도 고발; 사전 훈련관리 철저",
+            "bold": false
           }
         ]
       },
@@ -8931,31 +8935,24 @@
       "sourceClauses": [
         "제3항제1호",
         "제3항제2호",
-        "제3항제4호"
+        "제3항제4호",
+        "제3항제3호"
       ],
       "note": "",
-      "evidence": [
-        {
-          "claim": "지원예비군은 작계훈련",
-          "quote": "1. 지원예비군은 작계훈련(6시간) 연 1회를 실시한다. 다만, 부대 창설 시 창설교육, 재난 시 구호활동, 작계훈련 시 작전지속지원 활동, 군 주관 행사에 참석한 시간은 해당 연도 훈련시간 이수로 대체할 수 있다."
-        },
-        {
-          "claim": "지원예비군 중 지휘요원",
-          "quote": "2. 지원예비군 중 지휘요원은 반기 1회 선 소집교육(4시간) 및 작계훈련(6시간)을 실시한다."
-        },
-        {
-          "claim": "여성예비군 소대",
-          "quote": "가. 여성예비군 소대 훈련은 연 1회 전ㆍ평시 임무와 기능을 고려하여 과제를 선정하고 6시간 이상 훈련을 실시한다."
-        },
-        {
-          "claim": "소대장은 연 1회",
-          "quote": "나. 소대장은 연 1회 선 소집교육(4시간)을 추가한다."
-        }
-      ],
       "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J16-0:0",
       "sourceVersion": "국방부훈령 제3216호",
       "effectiveDate": "2026-10-14",
-      "scriptRef": "DR-060"
+      "scriptRef": "DR-060",
+      "scriptEvidence": {
+        "source_git_blob": "4ae4b683613ed5f610c84fa844e21ab045e8d740",
+        "source_sha256": "0d4cb439e9011e57a4bea7e3ab322e3b39d26f319774fbe3efec8ddc9e0687a0",
+        "lines": [
+          105,
+          107,
+          119,
+          192
+        ]
+      }
     },
     {
       "lessonId": "DR-060",
@@ -9140,7 +9137,7 @@
         "items": [
           {
             "label": "조건",
-            "text": "동원훈련Ⅰ형을 이수하기 전 선발 취소·철회",
+            "text": "동원훈련Ⅰ형을 받기 전 선발 취소·철회",
             "bold": false
           },
           {
@@ -9156,16 +9153,85 @@
         "제3216호 부칙"
       ],
       "note": "제80회 적용: 제16조제4항제4호는 2027.01.01. 시행.",
-      "evidence": [
-        {
-          "claim": "예비군 5∼6년차 병 상비예비군",
-          "quote": "4. 예비군 5∼6년차 병 상비예비군은 지역예비군훈련이 아닌 동원훈련Ⅰ형을 실시한다. 단, 동원훈련Ⅰ형을 이수하기 전에 상비예비군 선발이 취소되거나 철회된 경우에는 지역예비군훈련을 실시한다."
-        }
-      ],
       "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J16-0:0",
       "sourceVersion": "국방부훈령 제3216호",
       "effectiveDate": "2027-01-01",
-      "scriptRef": "DR-060"
+      "scriptRef": "DR-060",
+      "scriptEvidence": {
+        "source_git_blob": "4ae4b683613ed5f610c84fa844e21ab045e8d740",
+        "source_sha256": "0d4cb439e9011e57a4bea7e3ab322e3b39d26f319774fbe3efec8ddc9e0687a0",
+        "lines": [
+          167
+        ]
+      }
+    },
+    {
+      "lessonId": "DR-060",
+      "articleKey": "2-16",
+      "title": "지휘요원 면직과 소대장 연차",
+      "subtitle": "면직 사유와 재임용 여부에 따라 훈련시간 적용이 다르다.",
+      "layout": "equal",
+      "left": {
+        "title": "개인 사정 면직",
+        "subtitle": "제1항제4호",
+        "items": [
+          {
+            "label": "사유",
+            "text": "개인 불희망·타지역 전출·작계 2차 무단불참",
+            "bold": false
+          },
+          {
+            "label": "부과",
+            "text": "이수시간 공제 후 신분별·연차별 훈련",
+            "bold": false
+          }
+        ]
+      },
+      "right": {
+        "title": "부대 사정·재임용",
+        "subtitle": "제1항제5호·제6호",
+        "items": [
+          {
+            "label": "사유",
+            "text": "부대 통·폐합 등 부대 사정 면직 또는 타지역 후반기 재임용",
+            "bold": false
+          },
+          {
+            "label": "부과",
+            "text": "지휘요원 20시간 적용 후 이수시간 공제",
+            "bold": false
+          },
+          {
+            "label": "소대장 예외",
+            "text": "7~8년차 소대의 소대장이 6년차 이내면 지휘요원 훈련",
+            "bold": false
+          }
+        ]
+      },
+      "sourceArticle": "교육훈련 훈령 제16조",
+      "sourceClauses": [
+        "제1항제4호",
+        "제1항제5호",
+        "제1항제6호"
+      ],
+      "note": "",
+      "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J16-0:0",
+      "sourceVersion": "국방부훈령 제3216호",
+      "effectiveDate": "2026-10-14",
+      "scriptRef": "DR-060",
+      "scriptEvidence": {
+        "source_git_blob": "4ae4b683613ed5f610c84fa844e21ab045e8d740",
+        "source_sha256": "0d4cb439e9011e57a4bea7e3ab322e3b39d26f319774fbe3efec8ddc9e0687a0",
+        "lines": [
+          45,
+          47,
+          49,
+          55,
+          67,
+          188,
+          189
+        ]
+      }
     },
     {
       "lessonId": "DR-061",
@@ -12264,6 +12330,11 @@
             "label": "기간 중 훈련",
             "text": "하선 후 해당 기간 부과훈련은 연기 처리",
             "bold": false
+          },
+          {
+            "label": "해소 신고",
+            "text": "하선일로부터 90일이 되는 날부터 14일 이내",
+            "bold": false
           }
         ]
       },
@@ -12273,20 +12344,20 @@
         "제1항제4호사목"
       ],
       "note": "",
-      "evidence": [
-        {
-          "claim": "휴직기간 동안",
-          "quote": "바. 동원 또는 훈련을 보류받던 자가 휴직한 경우에는 휴직기간 동안 보류자로 관리한다. 다만, 휴학한 학생예비군은 보류자 신분에서 해제한다."
-        },
-        {
-          "claim": "하선일로부터 90일",
-          "quote": "사. 외항선원 관리는 선원의 신분과 승선 여부에 따라 보류자로 관리하되 하선일로부터 90일이 되는 날까지 재승선하지 않는 경우 하선 일을 기준으로 보류해소 처리하며, 기간 중 부과된 훈련은 연기 처리 한다. 이때, 선원으로 보류받던 자는 재승선일 (하선일로부터 90일이 되는 날)로부터 14일 이내에 보류해소 신고를 하여야 한다."
-        }
-      ],
       "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
       "sourceVersion": "국방부훈령 제3216호",
       "effectiveDate": "2026-10-14",
-      "scriptRef": "DR-078"
+      "scriptRef": "DR-078",
+      "scriptEvidence": {
+        "source_git_blob": "10cfc56fac80c296861241c032e43f35a9458465",
+        "source_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
+        "lines": [
+          79,
+          85,
+          89,
+          151
+        ]
+      }
     },
     {
       "lessonId": "DR-078",
@@ -12423,6 +12494,142 @@
       "sourceVersion": "국방부훈령 제3216호",
       "effectiveDate": "2026-10-14",
       "scriptRef": "DR-078"
+    },
+    {
+      "lessonId": "DR-078",
+      "articleKey": "2-23",
+      "title": "보류기간 훈련과 이전 미이수",
+      "subtitle": "보류 중 부과된 훈련과 이전에 남은 의무를 구분한다.",
+      "layout": "equal",
+      "left": {
+        "title": "보류 적용",
+        "subtitle": "제1항제5호가목·다목",
+        "items": [
+          {
+            "label": "해당 연도",
+            "text": "보류기간 중 부과된 1차·2차만 보류, 이수 간주",
+            "bold": false
+          },
+          {
+            "label": "보류 이전",
+            "text": "2차부터 무단불참한 훈련·이전 이월 미이수 훈련은 계속 부과",
+            "bold": false
+          }
+        ]
+      },
+      "right": {
+        "title": "부과 시기·예외",
+        "subtitle": "제1항제5호다목",
+        "items": [
+          {
+            "label": "국외·외항선원",
+            "text": "귀국 후·하선 후 부과",
+            "bold": false
+          },
+          {
+            "label": "경찰학교",
+            "text": "과정 이수 후 부과",
+            "bold": false
+          },
+          {
+            "label": "국가유공자·보훈대상자",
+            "text": "선정 전 부과된 훈련은 이수 처리",
+            "bold": false
+          }
+        ]
+      },
+      "sourceArticle": "교육훈련 훈령 제23조",
+      "sourceClauses": [
+        "제1항제5호가목",
+        "제1항제5호다목1)"
+      ],
+      "note": "",
+      "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
+      "sourceVersion": "국방부훈령 제3216호",
+      "effectiveDate": "2026-10-14",
+      "scriptRef": "DR-078",
+      "scriptEvidence": {
+        "source_git_blob": "10cfc56fac80c296861241c032e43f35a9458465",
+        "source_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
+        "lines": [
+          95,
+          97,
+          107,
+          111,
+          163,
+          166
+        ]
+      }
+    },
+    {
+      "lessonId": "DR-078",
+      "articleKey": "2-23",
+      "title": "방침보류 전환 시 시간 계산",
+      "subtitle": "기이수시간은 인정하고, 이전 무단불참 훈련은 계속 부과한다.",
+      "layout": "equal",
+      "left": {
+        "title": "기이수시간 인정",
+        "subtitle": "제1항제5호다목2)·4)",
+        "items": [
+          {
+            "label": "기이수 ≥ 방침보류 시간",
+            "text": "종결 처리",
+            "bold": false
+          },
+          {
+            "label": "기이수 < 방침보류 시간",
+            "text": "남은 시간만 추가 부과",
+            "bold": false
+          },
+          {
+            "label": "전면 → 일부",
+            "text": "전면 보류기간 부과훈련 이수 인정 후 부족분만 부과",
+            "bold": false
+          }
+        ]
+      },
+      "right": {
+        "title": "무단불참 훈련",
+        "subtitle": "제1항제5호다목3)",
+        "items": [
+          {
+            "label": "대상",
+            "text": "일부보류 전 2차부터 무단불참",
+            "bold": false
+          },
+          {
+            "label": "재부과",
+            "text": "동일 훈련유형으로 차수를 올려 부과",
+            "bold": false
+          },
+          {
+            "label": "부족분",
+            "text": "보류 직종별 훈련으로 추가 부과",
+            "bold": false
+          }
+        ]
+      },
+      "sourceArticle": "교육훈련 훈령 제23조",
+      "sourceClauses": [
+        "제1항제5호다목2)",
+        "제1항제5호다목3)",
+        "제1항제5호다목4)"
+      ],
+      "note": "",
+      "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
+      "sourceVersion": "국방부훈령 제3216호",
+      "effectiveDate": "2026-10-14",
+      "scriptRef": "DR-078",
+      "scriptEvidence": {
+        "source_git_blob": "10cfc56fac80c296861241c032e43f35a9458465",
+        "source_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
+        "lines": [
+          113,
+          117,
+          119,
+          123
+        ]
+      }
     }
   ],
   "exam": {
