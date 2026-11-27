@@ -3,7 +3,7 @@
   "subject": "integrated-defense",
   "created_at_kst": "2026-11-27T10:25:01+09:00",
   "updated_at_kst": "2026-11-27T12:46:35+09:00",
-  "status": "running",
+  "status": "review_pending",
   "approved_style": "07-notion-editorial",
   "baseline": {
     "lessons": 25,
@@ -42,7 +42,7 @@
       "kind": "renderer_setup",
       "title": "모바일 세로형 제작·검증 틀 준비",
       "priority": 0,
-      "status": "running",
+      "status": "rendered_pending_visual",
       "depends_on": [],
       "acceptance_criteria": [
         "제80회 기존 스크립트와 일치한 content만 사용하며 내용 자체를 재작성하지 않는다.",
@@ -57,11 +57,7 @@
         "scripts/notion-diagrams-v1/build_mobile.py",
         "integrated-defense/notion-v1/mobile-manifest.json"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 2,
       "previous_lease": {
         "run_id": "tb-20261127-01",
@@ -82,7 +78,7 @@
         "통합방위법 시행령 제3조"
       ],
       "priority": 1,
-      "status": "running",
+      "status": "rendered_pending_visual",
       "depends_on": [],
       "acceptance_criteria": [
         "해당 강의의 기존 제80회 스크립트에서 참석 대상·위원 직위·기관명·숫자·조건을 직접 대조한다. 원고 밖 최신법 확장은 하지 않는다.",
@@ -95,11 +91,7 @@
       "outputs": [
         "integrated-defense/lesson-003/diagrams/notion-v1/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 2,
       "previous_lease": {
         "run_id": "tb-20261127-01",
@@ -121,7 +113,7 @@
         "통합방위법 시행령 제5조"
       ],
       "priority": 1,
-      "status": "running",
+      "status": "rendered_pending_visual",
       "depends_on": [],
       "acceptance_criteria": [
         "해당 강의의 기존 제80회 스크립트에서 참석 대상·위원 직위·기관명·숫자·조건을 직접 대조한다. 원고 밖 최신법 확장은 하지 않는다.",
@@ -134,11 +126,7 @@
       "outputs": [
         "integrated-defense/lesson-004/diagrams/notion-v1/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 2,
       "previous_lease": {
         "run_id": "tb-20261127-01",
@@ -160,7 +148,7 @@
         "통합방위법 시행령 제8조제1항"
       ],
       "priority": 1,
-      "status": "running",
+      "status": "rendered_pending_visual",
       "depends_on": [],
       "acceptance_criteria": [
         "해당 강의의 기존 제80회 스크립트에서 참석 대상·위원 직위·기관명·숫자·조건을 직접 대조한다. 원고 밖 최신법 확장은 하지 않는다.",
@@ -174,11 +162,7 @@
       "outputs": [
         "integrated-defense/lesson-005/diagrams/notion-v1/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 2,
       "previous_lease": {
         "run_id": "tb-20261127-01",
@@ -195,7 +179,7 @@
       "lecture_id": "TB-001",
       "title": "01강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -215,11 +199,7 @@
       "outputs": [
         "integrated-defense/lesson-001/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -230,7 +210,7 @@
       "lecture_id": "TB-002",
       "title": "02강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -252,11 +232,7 @@
       "outputs": [
         "integrated-defense/lesson-002/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -267,7 +243,7 @@
       "lecture_id": "TB-003",
       "title": "03강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP",
         "TB-003-SUP-01"
@@ -289,11 +265,7 @@
       "outputs": [
         "integrated-defense/lesson-003/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -304,7 +276,7 @@
       "lecture_id": "TB-004",
       "title": "04강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP",
         "TB-004-SUP-01"
@@ -326,11 +298,7 @@
       "outputs": [
         "integrated-defense/lesson-004/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -341,7 +309,7 @@
       "lecture_id": "TB-005",
       "title": "05강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP",
         "TB-005-SUP-01"
@@ -364,11 +332,7 @@
       "outputs": [
         "integrated-defense/lesson-005/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -379,7 +343,7 @@
       "lecture_id": "TB-006",
       "title": "06강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -400,11 +364,7 @@
       "outputs": [
         "integrated-defense/lesson-006/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -415,7 +375,7 @@
       "lecture_id": "TB-007",
       "title": "07강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -435,11 +395,7 @@
       "outputs": [
         "integrated-defense/lesson-007/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -450,7 +406,7 @@
       "lecture_id": "TB-008",
       "title": "08강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -472,11 +428,7 @@
       "outputs": [
         "integrated-defense/lesson-008/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -487,7 +439,7 @@
       "lecture_id": "TB-009",
       "title": "09강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -509,11 +461,7 @@
       "outputs": [
         "integrated-defense/lesson-009/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -524,7 +472,7 @@
       "lecture_id": "TB-010",
       "title": "10강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -544,11 +492,7 @@
       "outputs": [
         "integrated-defense/lesson-010/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -559,7 +503,7 @@
       "lecture_id": "TB-011",
       "title": "11강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -581,11 +525,7 @@
       "outputs": [
         "integrated-defense/lesson-011/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -596,7 +536,7 @@
       "lecture_id": "TB-012",
       "title": "12강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -617,11 +557,7 @@
       "outputs": [
         "integrated-defense/lesson-012/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -632,7 +568,7 @@
       "lecture_id": "TB-013",
       "title": "13강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -653,11 +589,7 @@
       "outputs": [
         "integrated-defense/lesson-013/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -668,7 +600,7 @@
       "lecture_id": "TB-014",
       "title": "14강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -688,11 +620,7 @@
       "outputs": [
         "integrated-defense/lesson-014/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -703,7 +631,7 @@
       "lecture_id": "TB-015",
       "title": "15강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -723,11 +651,7 @@
       "outputs": [
         "integrated-defense/lesson-015/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -738,7 +662,7 @@
       "lecture_id": "TB-016",
       "title": "16강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -761,11 +685,7 @@
       "outputs": [
         "integrated-defense/lesson-016/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -776,7 +696,7 @@
       "lecture_id": "TB-017",
       "title": "17강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -797,11 +717,7 @@
       "outputs": [
         "integrated-defense/lesson-017/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -812,7 +728,7 @@
       "lecture_id": "TB-018",
       "title": "18강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -833,11 +749,7 @@
       "outputs": [
         "integrated-defense/lesson-018/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -848,7 +760,7 @@
       "lecture_id": "TB-019",
       "title": "19강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -868,11 +780,7 @@
       "outputs": [
         "integrated-defense/lesson-019/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -883,7 +791,7 @@
       "lecture_id": "TB-020",
       "title": "20강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -903,11 +811,7 @@
       "outputs": [
         "integrated-defense/lesson-020/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -918,7 +822,7 @@
       "lecture_id": "TB-021",
       "title": "21강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -938,11 +842,7 @@
       "outputs": [
         "integrated-defense/lesson-021/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -953,7 +853,7 @@
       "lecture_id": "TB-022",
       "title": "22강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -974,11 +874,7 @@
       "outputs": [
         "integrated-defense/lesson-022/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -989,7 +885,7 @@
       "lecture_id": "TB-023",
       "title": "23강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -1011,11 +907,7 @@
       "outputs": [
         "integrated-defense/lesson-023/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -1026,7 +918,7 @@
       "lecture_id": "TB-024",
       "title": "24강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -1047,11 +939,7 @@
       "outputs": [
         "integrated-defense/lesson-024/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -1062,7 +950,7 @@
       "lecture_id": "TB-025",
       "title": "25강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -1082,11 +970,7 @@
       "outputs": [
         "integrated-defense/lesson-025/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-mobile-4fe6cdf7",
-        "started_at": "2026-11-27T03:46:35Z",
-        "expires_at": "2026-11-27T04:46:35Z"
-      },
+      "lease": null,
       "attempts": 1,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json"
     },
@@ -1161,5 +1045,6 @@
     ],
     "status": "matched_existing_script",
     "checked_at_kst": "2026-11-27T12:02:16+09:00"
-  }
+  },
+  "last_render_run": "tb-exam80-mobile-4fe6cdf7"
 }
