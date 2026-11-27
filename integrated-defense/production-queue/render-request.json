@@ -1,12 +1,36 @@
 {
-  "run_id": "tb-20261127-01",
-  "requested": [
-    "TB-MOBILE-SETUP",
-    "TB-003-SUP-01",
-    "TB-004-SUP-01",
-    "TB-005-SUP-01"
+  "run_id": "tb-exam80-mobile-4fe6cdf7",
+  "exam_number": 80,
+  "source_basis": "EXAM80-SCRIPT-SOURCE.json",
+  "lessons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
   ],
-  "mobile_pilot": [
-    1
-  ]
+  "worker_limit": 3,
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "mode": "mobile-only",
+  "note": "Do not regenerate desktop supplements from old legal input; use aligned content only."
 }
