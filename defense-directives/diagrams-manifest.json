@@ -17,7 +17,7 @@
   "coverage": {
     "expected_lessons": 78,
     "included_lessons": 78,
-    "diagrams": 208,
+    "diagrams": 210,
     "missing_lessons": []
   },
   "law_versions": [
@@ -89,10 +89,11 @@
     {
       "id": "DR-004",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제4조, 예비군 지휘관리체계",
-      "diagram_count": 2,
+      "diagram_count": 3,
       "diagram_ids": [
         "DR-004-D01",
-        "DR-004-D02"
+        "DR-004-D02",
+        "DR-004-D03"
       ],
       "path": "defense-directives/lesson-004/diagrams/",
       "script_ref": "DR-004"
@@ -113,10 +114,11 @@
     {
       "id": "DR-006",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제6조, 예비군 조직",
-      "diagram_count": 2,
+      "diagram_count": 3,
       "diagram_ids": [
         "DR-006-D01",
-        "DR-006-D02"
+        "DR-006-D02",
+        "DR-006-D03"
       ],
       "path": "defense-directives/lesson-006/diagrams/",
       "script_ref": "DR-006"
@@ -1272,6 +1274,56 @@
       "script_ref": "DR-004"
     },
     {
+      "id": "DR-004-D03",
+      "lecture_id": "DR-004",
+      "lesson_number": 4,
+      "title": "지휘관리체계의 세 가지 선",
+      "article": "조직·편성 훈령 제4조",
+      "article_key": "1-4",
+      "source_clauses": [
+        "제4항",
+        "별표 2"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J4-0:0",
+      "source_version": "국방부훈령 제3104호",
+      "effective_date": "2025-11-14",
+      "note": "대학 직장예비군부대는 차 하위 부대에 위임하여 관리할 수 있다.",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-004/diagrams/DR-004-D03-editorial-v1.svg",
+          "bytes": 5846,
+          "sha256": "ad7cbfbd3f2e58c312f4fd24c56be95ddb450143e404b2c539c66370bec8a5d8"
+        },
+        "png": {
+          "path": "defense-directives/lesson-004/diagrams/DR-004-D03-editorial-v1.png",
+          "bytes": 130739,
+          "sha256": "9b7073d19544366cab7c796ff6c6cfda3906707a21458b5cb35091fa5c83882e"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-004/diagrams/DR-004-D03-editorial-v1.webp",
+          "bytes": 41088,
+          "sha256": "a4f5022880c05b26b794b97cc9604d85fa60c62ac408f6a0aab09fbe301b6f94"
+        }
+      },
+      "script_ref": "DR-004",
+      "script_evidence": {
+        "source_git_blob": "bd41537dfc3dadf3cf328f1d67bdb0354d822522",
+        "source_sha256": "848884ffc959d1b46f917d405e12748277daa0d68a58e90b24e2691915db4b67",
+        "lines": [
+          109,
+          113,
+          121,
+          127,
+          133,
+          145,
+          146
+        ]
+      }
+    },
+    {
       "id": "DR-005-D01",
       "lecture_id": "DR-005",
       "lesson_number": 5,
@@ -1441,21 +1493,35 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-006/diagrams/DR-006-D01-editorial-v1.svg",
-          "bytes": 5173,
-          "sha256": "7af80d56aaf3cb03c96305e39439722a53ea0dc642f4221d01f82621ca486dab"
+          "bytes": 5547,
+          "sha256": "d5f1d7c2fccc6af0db592f51cb7dec185069c32758e58c47f66fceac3020b2ca"
         },
         "png": {
           "path": "defense-directives/lesson-006/diagrams/DR-006-D01-editorial-v1.png",
-          "bytes": 122123,
-          "sha256": "7b1ec3deb806e864fe2865192a6bb164987799acaafba134600a20b5d60c5ed9"
+          "bytes": 136950,
+          "sha256": "85d72b1ba1c3842ceaf38c325b00f3073127b6e564491468436ba77cf0150b51"
         },
         "webp": {
           "path": "defense-directives/lesson-006/diagrams/DR-006-D01-editorial-v1.webp",
-          "bytes": 37572,
-          "sha256": "b0bf3efa2b4bb5ad37fbffaf88a2da899bdea835f18b92d34ebf094edc845f7c"
+          "bytes": 41380,
+          "sha256": "f03a1af76fea47708887dedfe7ff986d1cb408f3d10aa5643ec6638712d92a20"
         }
       },
-      "script_ref": "DR-006"
+      "script_ref": "DR-006",
+      "script_evidence": {
+        "source_git_blob": "70fde4b5086f57a257cdba1cd983a119ef8b4592",
+        "source_sha256": "fd704490da5c8ee5f823f825c10ba20373d091920634fb20c926ff13beea00e9",
+        "lines": [
+          23,
+          43,
+          57,
+          71,
+          81,
+          85,
+          99,
+          103
+        ]
+      }
     },
     {
       "id": "DR-006-D02",
@@ -1494,6 +1560,53 @@
       "script_ref": "DR-006"
     },
     {
+      "id": "DR-006-D03",
+      "lecture_id": "DR-006",
+      "lesson_number": 6,
+      "title": "보충역 병의 조직 대상",
+      "article": "조직·편성 훈령 제6조",
+      "article_key": "1-6",
+      "source_clauses": [
+        "제3호"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J6-0:0",
+      "source_version": "국방부훈령 제3104호",
+      "effective_date": "2025-11-14",
+      "note": "보충역도 6년이 아니라 8년이다.",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-006/diagrams/DR-006-D03-editorial-v1.svg",
+          "bytes": 6091,
+          "sha256": "e66284696ac8a34d7e4bea01af069bf6450f71fe1ab97e4903c1df7f09a53865"
+        },
+        "png": {
+          "path": "defense-directives/lesson-006/diagrams/DR-006-D03-editorial-v1.png",
+          "bytes": 163155,
+          "sha256": "c5f067807408290420f6fd61624996c08fd2a6f7de58d5200c77c2c4f1f8c2f5"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-006/diagrams/DR-006-D03-editorial-v1.webp",
+          "bytes": 48866,
+          "sha256": "73a6163911baf0f628f4602401c4389fe42380d36351fec9227e905a67fc9030"
+        }
+      },
+      "script_ref": "DR-006",
+      "script_evidence": {
+        "source_git_blob": "70fde4b5086f57a257cdba1cd983a119ef8b4592",
+        "source_sha256": "fd704490da5c8ee5f823f825c10ba20373d091920634fb20c926ff13beea00e9",
+        "lines": [
+          85,
+          87,
+          89,
+          99,
+          103
+        ]
+      }
+    },
+    {
       "id": "DR-007-D01",
       "lecture_id": "DR-007",
       "lesson_number": 7,
@@ -1501,33 +1614,49 @@
       "article": "조직·편성 훈령 제7조",
       "article_key": "1-7",
       "source_clauses": [
+        "본문",
         "제1호"
       ],
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J7-0:0",
       "source_version": "국방부훈령 제3104호",
       "effective_date": "2025-11-14",
-      "note": "",
+      "note": "예비군법 제3조의2에 따라 국방부장관이 편성을 정한다.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-007/diagrams/DR-007-D01-editorial-v1.svg",
-          "bytes": 5383,
-          "sha256": "77a3614994b8479225e3d4a57e7b49c11049339de8480d0a98d6d31fb3d2b803"
+          "bytes": 5597,
+          "sha256": "63adead7d5ff8d5969b585813e85a7de2be20e7feb81b0bb3e14dfe1ac672df3"
         },
         "png": {
           "path": "defense-directives/lesson-007/diagrams/DR-007-D01-editorial-v1.png",
-          "bytes": 138616,
-          "sha256": "e8bd3a629a3397b9e4bf1b4aa7619ab3e8d5b006b68f1121e850f3aeb21b9f1a"
+          "bytes": 148830,
+          "sha256": "2065ddf8b9bfc924404680418f5fe29951c655d930be1ffb9b5b6ea8b4ced316"
         },
         "webp": {
           "path": "defense-directives/lesson-007/diagrams/DR-007-D01-editorial-v1.webp",
-          "bytes": 41328,
-          "sha256": "c68526c1c25a716ac261dda53f121fac368b4b635b7227f0f26b84ae3d0cb416"
+          "bytes": 44736,
+          "sha256": "f1de11411c875e5cca49e119f3f8ac1c3971127cc5c36408605fd4aa8d9dc4cc"
         }
       },
-      "script_ref": "DR-007"
+      "script_ref": "DR-007",
+      "script_evidence": {
+        "source_git_blob": "c8bebf32ef27552077b460760e4848230b8aff98",
+        "source_sha256": "dbb02e5717f30d307485ab267401a2765359b180de11543131483c177ec1fe83",
+        "lines": [
+          29,
+          53,
+          69,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142
+        ]
+      }
     },
     {
       "id": "DR-007-D02",
@@ -1549,21 +1678,35 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-007/diagrams/DR-007-D02-editorial-v1.svg",
-          "bytes": 5602,
-          "sha256": "91c6bca81e0eeeb7d55698c711fc89ce200e204a5bd02c8c3079dcf07240e382"
+          "bytes": 5800,
+          "sha256": "c087e964c3aa532019d3d57a90dcde3ef5d7699d5ccabac88fbe8bda5347f21b"
         },
         "png": {
           "path": "defense-directives/lesson-007/diagrams/DR-007-D02-editorial-v1.png",
-          "bytes": 148491,
-          "sha256": "20d5aa32e6c3ec76d06fc7914f5555da6810bc8ffeeeb5f17e1c5ae3674a6ac7"
+          "bytes": 159630,
+          "sha256": "ce2b1ea1b338aaa8004d554427ad7e64d12cd518bc9dec017d2ebe428263efda"
         },
         "webp": {
           "path": "defense-directives/lesson-007/diagrams/DR-007-D02-editorial-v1.webp",
-          "bytes": 45228,
-          "sha256": "c7489a26478ffaa722710a5bbad6ce0f7d7acd84386e9a6a0e7056c723acdbac"
+          "bytes": 48240,
+          "sha256": "fec46e38dc2fd3ca50ef7d2bff454a43b4003ffbf6e2f42cd4188235c4e39ac5"
         }
       },
-      "script_ref": "DR-007"
+      "script_ref": "DR-007",
+      "script_evidence": {
+        "source_git_blob": "c8bebf32ef27552077b460760e4848230b8aff98",
+        "source_sha256": "dbb02e5717f30d307485ab267401a2765359b180de11543131483c177ec1fe83",
+        "lines": [
+          95,
+          109,
+          119,
+          143,
+          144,
+          145,
+          146,
+          147
+        ]
+      }
     },
     {
       "id": "DR-008-D01",
@@ -1586,21 +1729,35 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-008/diagrams/DR-008-D01-editorial-v1.svg",
-          "bytes": 5744,
-          "sha256": "4712a6ca412b15e9f5c84c638a9d12b95889ac318c4998a11caf0b87f37a1932"
+          "bytes": 5803,
+          "sha256": "2ae899dabb088a486fc6df0d2be6f51ddd232f7948d23c2822145539f72d60b0"
         },
         "png": {
           "path": "defense-directives/lesson-008/diagrams/DR-008-D01-editorial-v1.png",
-          "bytes": 149990,
-          "sha256": "7b2c8b98bae1f65cfffe5e1da9c721383b8ff38d8b4927f3e47fe7140588f21d"
+          "bytes": 158707,
+          "sha256": "83e73d1ddc0af6cf9d37867d659c62b77000cfd922cdc1ea1764752144c4570f"
         },
         "webp": {
           "path": "defense-directives/lesson-008/diagrams/DR-008-D01-editorial-v1.webp",
-          "bytes": 44664,
-          "sha256": "974de9de3ebcdd0cf417fc948d18e416eb1f63e32611b71115b5eaef4e1a6ac6"
+          "bytes": 47568,
+          "sha256": "bcba555d870b09cadcd1b0959cb6821ce89b50a7c81e37aff8a883aee1208134"
         }
       },
-      "script_ref": "DR-008"
+      "script_ref": "DR-008",
+      "script_evidence": {
+        "source_git_blob": "bf2fa4e38cfe40502175444540a8762a0cceca2f",
+        "source_sha256": "aa591adef22ac48193eabf6e609486b6e70d614f673e2e8d0294897de9775257",
+        "lines": [
+          31,
+          51,
+          55,
+          69,
+          113,
+          114,
+          115,
+          116
+        ]
+      }
     },
     {
       "id": "DR-008-D02",
@@ -1623,21 +1780,32 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-008/diagrams/DR-008-D02-editorial-v1.svg",
-          "bytes": 5469,
-          "sha256": "738a41030e699a258dcef1bcd4b4ee4138bc7fda83f76ef9eafb6a8057696071"
+          "bytes": 5645,
+          "sha256": "d9f40b3db4b67500e3e24b5296bde771417233d9c44ee2bd3d90e41cdf798e20"
         },
         "png": {
           "path": "defense-directives/lesson-008/diagrams/DR-008-D02-editorial-v1.png",
-          "bytes": 126979,
-          "sha256": "136d2d4ba0fadf1d4a11543c558e19dd4a3ae23fb42f3a2b9c74c438c1861b7d"
+          "bytes": 132047,
+          "sha256": "9ecd582788dd063f993f4403ef4afe1e19f5796b6c244815b76ef968fc139623"
         },
         "webp": {
           "path": "defense-directives/lesson-008/diagrams/DR-008-D02-editorial-v1.webp",
-          "bytes": 37522,
-          "sha256": "8010c61d14d09cf276714d2413b1e4d21cc9f9f90a8ac5922c868e4f7544041c"
+          "bytes": 40360,
+          "sha256": "4e354c28abce52cd3ea4e3c06ba361be63acef0a053ed6fbd0bf53e8c86d9c1c"
         }
       },
-      "script_ref": "DR-008"
+      "script_ref": "DR-008",
+      "script_evidence": {
+        "source_git_blob": "bf2fa4e38cfe40502175444540a8762a0cceca2f",
+        "source_sha256": "aa591adef22ac48193eabf6e609486b6e70d614f673e2e8d0294897de9775257",
+        "lines": [
+          73,
+          87,
+          107,
+          117,
+          118
+        ]
+      }
     },
     {
       "id": "DR-009-D01",
@@ -2710,21 +2878,33 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-017/diagrams/DR-017-D01-editorial-v1.svg",
-          "bytes": 5910,
-          "sha256": "225072f5959207911094e481fa5055e92111d14ed7b7921e2c28a17feede3590"
+          "bytes": 5977,
+          "sha256": "c8f89bcc44f7b963f1e7c26f36c7c3b37cecba1007a5399fb16e4e6011064711"
         },
         "png": {
           "path": "defense-directives/lesson-017/diagrams/DR-017-D01-editorial-v1.png",
-          "bytes": 154383,
-          "sha256": "98f3c7d592a0f0645d453e79e14d472fc36a57997a743039bbe63f3f8b0536a1"
+          "bytes": 168717,
+          "sha256": "baf5c343e7eb29b66b594919e014436e0a3ea53699af176aa326cf3b9245bbb9"
         },
         "webp": {
           "path": "defense-directives/lesson-017/diagrams/DR-017-D01-editorial-v1.webp",
-          "bytes": 46514,
-          "sha256": "b1268c9a9571484050ad7f9e868f730506af36f43c6832e4f54be61541cdf114"
+          "bytes": 50918,
+          "sha256": "1e9682c8d82c614a1516cafcdc1ad6a2c67641174f326402b9dfb4a5131f7d5d"
         }
       },
-      "script_ref": "DR-017"
+      "script_ref": "DR-017",
+      "script_evidence": {
+        "source_git_blob": "0188f10f0e807a1aefc1a3052bdcff67a566c0a2",
+        "source_sha256": "e059bd4a61b24ae7288a84a67a393fa4187cad433594adf1b5285d0697d9226c",
+        "lines": [
+          17,
+          67,
+          99,
+          105,
+          109,
+          111
+        ]
+      }
     },
     {
       "id": "DR-017-D02",
@@ -2740,28 +2920,38 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J17-0:0",
       "source_version": "국방부훈령 제3104호",
       "effective_date": "2025-11-14",
-      "note": "",
+      "note": "이후의 절차는 제2항을 준용한다.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-017/diagrams/DR-017-D02-editorial-v1.svg",
-          "bytes": 5141,
-          "sha256": "16f35d3ae1aff104b9809241f1122f617a553dbcdfbbae7eb089e3960bd3e004"
+          "bytes": 5350,
+          "sha256": "b98b82402cf1841662049f7225cd69fa79dc6f2b6b6be1f219b62049827857e5"
         },
         "png": {
           "path": "defense-directives/lesson-017/diagrams/DR-017-D02-editorial-v1.png",
-          "bytes": 122649,
-          "sha256": "3249ec92f3f499b31a305effc220b8ee9cca1ea259c8bc76cc935790a2891f99"
+          "bytes": 131991,
+          "sha256": "1856017cd15103813543c6106c92e305c5cc5a434c8ccb91e29adfa7d8925a1d"
         },
         "webp": {
           "path": "defense-directives/lesson-017/diagrams/DR-017-D02-editorial-v1.webp",
-          "bytes": 36608,
-          "sha256": "876794d3591f973b8920d03148d133d612169bff182c30cd40f8b67c0c946076"
+          "bytes": 39358,
+          "sha256": "970c7bfcda4bc37559096f56ad24ec9c22544d81845d43b01f9012e4796bd9f4"
         }
       },
-      "script_ref": "DR-017"
+      "script_ref": "DR-017",
+      "script_evidence": {
+        "source_git_blob": "0188f10f0e807a1aefc1a3052bdcff67a566c0a2",
+        "source_sha256": "e059bd4a61b24ae7288a84a67a393fa4187cad433594adf1b5285d0697d9226c",
+        "lines": [
+          39,
+          139,
+          143,
+          147
+        ]
+      }
     },
     {
       "id": "DR-017-D03",
@@ -2785,21 +2975,30 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-017/diagrams/DR-017-D03-editorial-v1.svg",
-          "bytes": 5593,
-          "sha256": "75c0e0aba1d07b110166edba990a695d3dd8e98e9c0592399c85bcc5ca9c5621"
+          "bytes": 5618,
+          "sha256": "3faa5cb5cc0df1a04f4780bc5bfc7beadf2c055bcd78deed8c3bff33c37ab4a1"
         },
         "png": {
           "path": "defense-directives/lesson-017/diagrams/DR-017-D03-editorial-v1.png",
-          "bytes": 143963,
-          "sha256": "202d9c0c1680c4e0c7fc20d73cdb9ee99b7df55e2a104439f47fe1a2bcbf706e"
+          "bytes": 148182,
+          "sha256": "be188af9dd197b756d888c37bb9809c813fc7f9df0eebfd0926713e800474073"
         },
         "webp": {
           "path": "defense-directives/lesson-017/diagrams/DR-017-D03-editorial-v1.webp",
-          "bytes": 43778,
-          "sha256": "7f01e91074c57d94fcfc6c3e126441d358fa73aaa2c036d1c3f7be798caed841"
+          "bytes": 45364,
+          "sha256": "669f49065e86b8300d83a03eed700d87cfaf53918e26dd023bad7d500d7b8553"
         }
       },
-      "script_ref": "DR-017"
+      "script_ref": "DR-017",
+      "script_evidence": {
+        "source_git_blob": "0188f10f0e807a1aefc1a3052bdcff67a566c0a2",
+        "source_sha256": "e059bd4a61b24ae7288a84a67a393fa4187cad433594adf1b5285d0697d9226c",
+        "lines": [
+          165,
+          181,
+          199
+        ]
+      }
     },
     {
       "id": "DR-018-D01",
@@ -3086,28 +3285,47 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J21-0:0",
       "source_version": "국방부훈령 제3104호",
       "effective_date": "2025-11-14",
-      "note": "",
+      "note": "공고: 대상자·지역·필요사항. 협조: 민방위대 편성 제외 및 주소지 무단이탈 방지.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-021/diagrams/DR-021-D01-editorial-v1.svg",
-          "bytes": 5800,
-          "sha256": "7c53d9140bb2cb7b7633ffc671fff066e43d58925fbe7ce82a5c6a7ef4bc4b9f"
+          "bytes": 6574,
+          "sha256": "c2bc52529eafca219997ca0b47124f4cbe2940fac8b0b0192ea0f07ec66517c5"
         },
         "png": {
           "path": "defense-directives/lesson-021/diagrams/DR-021-D01-editorial-v1.png",
-          "bytes": 164698,
-          "sha256": "cc8b57ea1f556ce022b6ef0647a9db2f060a337d32d30eb0367045f25d99d25b"
+          "bytes": 188364,
+          "sha256": "39fd66ff0c58d286ed3e16e6ffdf5df31b47b1d7fbb2714bb6c47ddb1ee4829c"
         },
         "webp": {
           "path": "defense-directives/lesson-021/diagrams/DR-021-D01-editorial-v1.webp",
-          "bytes": 49522,
-          "sha256": "1465e053f6d509f4681bf77299c9799e24f96c82a3f913884690c853e7da5f7a"
+          "bytes": 56358,
+          "sha256": "e3a14ffce7f4822482cb1d36851ac994ed258927514eacc7246a35678a2ec58d"
         }
       },
-      "script_ref": "DR-021"
+      "script_ref": "DR-021",
+      "script_evidence": {
+        "source_git_blob": "a8908c2960fbcdd6a7da0a671575452b3ec83bea",
+        "source_sha256": "6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04",
+        "lines": [
+          57,
+          85,
+          89,
+          99,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174
+        ]
+      }
     },
     {
       "id": "DR-021-D02",
@@ -3167,21 +3385,32 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-022/diagrams/DR-022-D01-editorial-v1.svg",
-          "bytes": 5489,
-          "sha256": "2d124a3439663dbbe189d5b59713c7ec47a528799c0b0cfa1f3bab9d09d4adf1"
+          "bytes": 5665,
+          "sha256": "b421b18f7e56f42bbff48b8e71622e3258676330302ed888b55f83973322119e"
         },
         "png": {
           "path": "defense-directives/lesson-022/diagrams/DR-022-D01-editorial-v1.png",
-          "bytes": 131494,
-          "sha256": "cc19e6f05a6ca8f645ba501a6cf9c590c84535e444a1ae2c7a084e619ee823fb"
+          "bytes": 136280,
+          "sha256": "c905ccf9da8cfa5a27db2bee69807f8acad85287ce20174fd6b11a0e924fd899"
         },
         "webp": {
           "path": "defense-directives/lesson-022/diagrams/DR-022-D01-editorial-v1.webp",
-          "bytes": 39192,
-          "sha256": "9fbdc456156f0679710aa1a0f501fcb875c9e69a6e33eaf6a67cd297275e290b"
+          "bytes": 40550,
+          "sha256": "0db89bd42ab975305ca235a6a35d50a9e573a303b1ca956ef5498fc2a6d3fce3"
         }
       },
-      "script_ref": "DR-022"
+      "script_ref": "DR-022",
+      "script_evidence": {
+        "source_git_blob": "9f78c2227a55366ec4a7dd1610eaca3474b3e87a",
+        "source_sha256": "6c0b0550aea83d3178b4ff610e69801c4d715dcc256a2c0fa49306fe51b5aa6b",
+        "lines": [
+          19,
+          43,
+          69,
+          169,
+          170
+        ]
+      }
     },
     {
       "id": "DR-022-D02",
@@ -3205,21 +3434,36 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-022/diagrams/DR-022-D02-editorial-v1.svg",
-          "bytes": 5750,
-          "sha256": "4f728f09d3e84b32f23088e34f5533f30cbaa5cb910f05a578368291eca73db9"
+          "bytes": 6164,
+          "sha256": "7741a57246360519b76b122900db48d372f83e7a2c912dbeb2dd9f63ca83122a"
         },
         "png": {
           "path": "defense-directives/lesson-022/diagrams/DR-022-D02-editorial-v1.png",
-          "bytes": 151680,
-          "sha256": "c918b1f1f106c3b07503dab9dbb7b0cc4390c9e14d0e43a0dc9467f5fa3e8836"
+          "bytes": 177630,
+          "sha256": "9e6f57454beef0721ff9425b0ba82bdae9ad70fb3569e4421a69a5ae6e337c76"
         },
         "webp": {
           "path": "defense-directives/lesson-022/diagrams/DR-022-D02-editorial-v1.webp",
-          "bytes": 46822,
-          "sha256": "9362b07803a74daeb7cfedc0657e3d4f03c14840f91743a639762d7f5c85f18d"
+          "bytes": 52908,
+          "sha256": "d030526e1d782324e3c614276be45b6211884df85c7bc4eec590e35838898ed3"
         }
       },
-      "script_ref": "DR-022"
+      "script_ref": "DR-022",
+      "script_evidence": {
+        "source_git_blob": "9f78c2227a55366ec4a7dd1610eaca3474b3e87a",
+        "source_sha256": "6c0b0550aea83d3178b4ff610e69801c4d715dcc256a2c0fa49306fe51b5aa6b",
+        "lines": [
+          87,
+          109,
+          127,
+          155,
+          171,
+          172,
+          173,
+          174,
+          175
+        ]
+      }
     },
     {
       "id": "DR-023-D01",
@@ -9015,25 +9259,25 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
       "source_version": "국방부훈령 제3216호",
       "effective_date": "2026-10-14",
-      "note": "원고에 따른 동원 가용 방침보류자 임무는 해당부대 작전계획에 명시된 임무이다.",
+      "note": "필요시 증빙 요구 가능, 연례 요구 금지. 임무는 해당부대 작전계획에 명시된 임무.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-078/diagrams/DR-078-D04-editorial-v1.svg",
-          "bytes": 6390,
-          "sha256": "9f42140191809371a763621f7d2320a0bc6b9011f4f48faf4d3ae60447eb570e"
+          "bytes": 6572,
+          "sha256": "10965a3de80d5f425559695758bd9d8744b4c8a0fdf5b0d5fe973fc335752aa7"
         },
         "png": {
           "path": "defense-directives/lesson-078/diagrams/DR-078-D04-editorial-v1.png",
-          "bytes": 166908,
-          "sha256": "9c95dbb446887e686457afe908e5c547886106dd54acff476f93b7779580e6bf"
+          "bytes": 177346,
+          "sha256": "37716381bb7c1c62c0e2ed6440b76ef3f2e6686d4fa32ef18a5c0b597624dbb0"
         },
         "webp": {
           "path": "defense-directives/lesson-078/diagrams/DR-078-D04-editorial-v1.webp",
-          "bytes": 50944,
-          "sha256": "ec0b51ac8934df809be7bf12918d80bf287517369324be9deb355478e9b62599"
+          "bytes": 54104,
+          "sha256": "d74e3e263bdbf7da7b1fe963231fdf79381828bd62610a069f90ad0c943002e2"
         }
       },
       "script_ref": "DR-078",
@@ -9041,11 +9285,9 @@
         "source_git_blob": "10cfc56fac80c296861241c032e43f35a9458465",
         "source_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
         "lines": [
-          129,
           133,
           135,
           139,
-          141,
           143,
           147,
           149

@@ -12,6 +12,7 @@
 
 근거: [조직·편성 훈령 제22조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J22-0:0) · 국방부훈령 제3104호
 
+
 ## DR-022-D02 · 예비군 신규조직의 업무 흐름
 
 [WebP](DR-022-D02-editorial-v1.webp) · [PNG](DR-022-D02-editorial-v1.png) · [SVG 원본](DR-022-D02-editorial-v1.svg)
@@ -19,3 +20,4 @@
 ![예비군 신규조직의 업무 흐름](DR-022-D02-editorial-v1.webp)
 
 근거: [조직·편성 훈령 제22조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J22-0:0) · 국방부훈령 제3104호
+

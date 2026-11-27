@@ -12,6 +12,7 @@
 
 근거: [조직·편성 훈령 제17조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J17-0:0) · 국방부훈령 제3104호
 
+
 ## DR-017-D02 · 지원서 첨부와 복무연장
 
 [WebP](DR-017-D02-editorial-v1.webp) · [PNG](DR-017-D02-editorial-v1.png) · [SVG 원본](DR-017-D02-editorial-v1.svg)
@@ -20,6 +21,7 @@
 
 근거: [조직·편성 훈령 제17조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J17-0:0) · 국방부훈령 제3104호
 
+
 ## DR-017-D03 · 지원예비군 복무의 해지·탈퇴
 
 [WebP](DR-017-D03-editorial-v1.webp) · [PNG](DR-017-D03-editorial-v1.png) · [SVG 원본](DR-017-D03-editorial-v1.svg)
@@ -27,3 +29,4 @@
 ![지원예비군 복무의 해지·탈퇴](DR-017-D03-editorial-v1.webp)
 
 근거: [조직·편성 훈령 제17조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J17-0:0) · 국방부훈령 제3104호
+

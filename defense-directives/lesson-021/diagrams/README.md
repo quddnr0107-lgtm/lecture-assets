@@ -12,6 +12,7 @@
 
 근거: [조직·편성 훈령 제21조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J21-0:0) · 국방부훈령 제3104호
 
+
 ## DR-021-D02 · 추가 편성의 자원·연령 구분
 
 [WebP](DR-021-D02-editorial-v1.webp) · [PNG](DR-021-D02-editorial-v1.png) · [SVG 원본](DR-021-D02-editorial-v1.svg)
@@ -19,3 +20,4 @@
 ![추가 편성의 자원·연령 구분](DR-021-D02-editorial-v1.webp)
 
 근거: [조직·편성 훈령 제21조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J21-0:0) · 국방부훈령 제3104호
+

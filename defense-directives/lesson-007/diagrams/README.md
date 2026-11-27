@@ -12,6 +12,7 @@
 
 근거: [조직·편성 훈령 제7조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J7-0:0) · 국방부훈령 제3104호
 
+
 ## DR-007-D02 · 직장예비군부대 편성체계
 
 [WebP](DR-007-D02-editorial-v1.webp) · [PNG](DR-007-D02-editorial-v1.png) · [SVG 원본](DR-007-D02-editorial-v1.svg)
@@ -19,3 +20,4 @@
 ![직장예비군부대 편성체계](DR-007-D02-editorial-v1.webp)
 
 근거: [조직·편성 훈령 제7조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J7-0:0) · 국방부훈령 제3104호
+
