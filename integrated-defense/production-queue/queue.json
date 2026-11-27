@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject": "integrated-defense",
   "created_at_kst": "2026-11-27T10:25:01+09:00",
-  "updated_at_kst": "2026-11-27T08:51:49.682Z",
+  "updated_at_kst": "2026-11-27T09:47:35.961Z",
   "status": "review_pending",
   "approved_style": "07-notion-editorial",
   "baseline": {
@@ -497,7 +497,7 @@
       "lecture_id": "TB-009",
       "title": "09강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "in_progress",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -519,8 +519,12 @@
       "outputs": [
         "integrated-defense/lesson-009/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 1,
+      "lease": {
+        "run_id": "tb-exam80-visual-20261127T094900Z",
+        "started_at": "2026-11-27T09:47:35.961Z",
+        "expires_at": "2026-11-27T10:47:35.961Z"
+      },
+      "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
@@ -531,7 +535,7 @@
       "lecture_id": "TB-010",
       "title": "10강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "in_progress",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -551,8 +555,12 @@
       "outputs": [
         "integrated-defense/lesson-010/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 1,
+      "lease": {
+        "run_id": "tb-exam80-visual-20261127T094900Z",
+        "started_at": "2026-11-27T09:47:35.961Z",
+        "expires_at": "2026-11-27T10:47:35.961Z"
+      },
+      "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
@@ -563,7 +571,7 @@
       "lecture_id": "TB-011",
       "title": "11강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "in_progress",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -585,8 +593,12 @@
       "outputs": [
         "integrated-defense/lesson-011/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 1,
+      "lease": {
+        "run_id": "tb-exam80-visual-20261127T094900Z",
+        "started_at": "2026-11-27T09:47:35.961Z",
+        "expires_at": "2026-11-27T10:47:35.961Z"
+      },
+      "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
