@@ -132,20 +132,16 @@ def main():
     q['last_render_run']=req['run_id']
     q['progress']['mobile_rendered_pages']=len(records)
     q['progress']['mobile_rendered_lessons']=len({r['lesson'] for r in records})
-    # Keep the index synchronized with the actual manifest and review state.
+    # Rebuild the complete index from the manifest and queue; never patch a potentially truncated index.
     index=N/'mobile-index.md'
-    import re
-    rows=index.read_text().splitlines()
-    counts={n:sum(r['lesson']==n for r in records) for n in successful}
-    for i,row in enumerate(rows):
-        match=re.match(r'^\\| \\[(\\d+)강\\]',row)
-        if match and int(match.group(1)) in counts:
-            n=int(match.group(1))
-            cells=row.split('|')
-            cells[2]=f' {counts[n]} '
-            cells[3]=' 시각 재검수 대기 '
-            rows[i]='|'.join(cells)
-    index.write_text('\\n'.join(rows)+'\\n')
+    rows=['# 제80회 통합방위법 모바일 도식','','기존 제80회 강의 스크립트 기준. 생성 완료 목록이며 최종 검수 상태는 작업 큐를 따른다.','','[모바일 파일·해시 목록](mobile-manifest.json) · [작업 상태](../production-queue/queue.json)','','| 강의 | 페이지 | 검수 상태 |','|---|---:|---|']
+    jobs={j['lesson']:j for j in q['jobs'] if j['kind']=='lesson_mobile_reflow'}
+    for l in data['lessons']:
+        n=l['lesson']
+        count=sum(r['lesson']==n for r in records)
+        status='완료' if jobs[n]['status']=='done' else ('시각 재검수 대기' if count else '제작 대기')
+        rows.append(f'| [{n:02d}강](../lesson-{n:03d}/diagrams/notion-v1/mobile/) | {count} | {status} |')
+    index.write_text('\n'.join(rows)+'\n')
     save(P/'queue.json',q)
     print(json.dumps({k:v for k,v in report.items() if k!='files'},ensure_ascii=False))
 if __name__=='__main__':main()
