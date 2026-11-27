@@ -3,7 +3,7 @@
   "generation": 2,
   "subject": "military-service-act",
   "subject_name": "병역법",
-  "updated_date_kst": "2026-11-27",
+  "updated_date_kst": "2026-11-28",
   "timezone": "Asia/Seoul",
   "queue_status": "pending",
   "execution_started": true,
@@ -88,17 +88,7 @@
     "parallelism": "maximum_actual_available",
     "worker_limit": "현재 런타임에서 실제로 허용되는 가용 슬롯 수",
     "coordinator": "single_writer",
-    "coordinator_lease": {
-      "lease_id": "exam80-g2-ms048-049-20261128-0143",
-      "generation": 2,
-      "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
-      "acquired_at": "2026-11-28T01:43:33+09:00",
-      "expires_at": "2026-11-28T03:00:00+09:00",
-      "lecture_ids": [
-        "MS-048",
-        "MS-049"
-      ]
-    },
+    "coordinator_lease": null,
     "priority_lectures": [
       "MS-077",
       "MS-094",
@@ -1413,8 +1403,8 @@
       "title": "병역법 제31조의4, 사회복무요원의 성실의무",
       "priority": 2,
       "generation": 2,
-      "status": "ready_to_publish",
-      "script_alignment_status": "script_alignment_pending",
+      "status": "completed",
+      "script_alignment_status": "script_alignment_verified",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_31의4.txt",
         "script_git_blob_sha": "0d100986e35de9f9c8ac82d1866d89e73fd3d179"
@@ -1422,33 +1412,37 @@
       "existing_diagram_ids": [
         "MS-048-D01-editorial-v1"
       ],
-      "full_script_read": false,
-      "lease": {
-        "lease_id": "exam80-g2-ms048-049-20261128-0143",
-        "generation": 2,
-        "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
-        "acquired_at": "2026-11-28T01:43:33+09:00",
-        "expires_at": "2026-11-28T03:00:00+09:00",
-        "lecture_ids": [
-          "MS-048",
-          "MS-049"
-        ],
-        "lecture_id": "MS-048"
-      },
-      "checkpoint": 0,
-      "evidence_refs": [],
-      "outcome": null,
+      "full_script_read": true,
+      "lease": null,
+      "checkpoint": 1,
+      "evidence_refs": [
+        "military-service-act/production-evidence/exam80-generation-2/MS-048/001-c7065f3e98f2f9acd4bc8753ee918691cebcc8c0d2b622d23e0d774eaea2baf8.json"
+      ],
+      "outcome": "reuse_only",
       "changed_diagram_ids": [],
       "new_diagram_ids": [],
-      "previously_verified_existing_diagram_ids": []
+      "previously_verified_existing_diagram_ids": [],
+      "completed_date_kst": "2026-11-28",
+      "verified_existing_diagram_ids": [
+        "MS-048-D01-editorial-v1"
+      ],
+      "related_existing_diagram_ids": [
+        "MS-045-D01-editorial-v1",
+        "MS-049-D01-editorial-v1",
+        "MS-051-D01-editorial-v1",
+        "MS-051-D02-editorial-v1",
+        "MS-054-D01-editorial-v1",
+        "MS-054-D03-editorial-v1"
+      ],
+      "evidence_sha256": "c7065f3e98f2f9acd4bc8753ee918691cebcc8c0d2b622d23e0d774eaea2baf8"
     },
     {
       "lecture_id": "MS-049",
       "title": "병역법 제31조의5, 복무기관 내 괴롭힘의 금지",
       "priority": 2,
       "generation": 2,
-      "status": "ready_to_publish",
-      "script_alignment_status": "script_alignment_pending",
+      "status": "completed",
+      "script_alignment_status": "script_alignment_verified",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_31의5.txt",
         "script_git_blob_sha": "ecf37f45d12f623d898d1e7418bde31a4db3350b"
@@ -1456,25 +1450,26 @@
       "existing_diagram_ids": [
         "MS-049-D01-editorial-v1"
       ],
-      "full_script_read": false,
-      "lease": {
-        "lease_id": "exam80-g2-ms048-049-20261128-0143",
-        "generation": 2,
-        "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
-        "acquired_at": "2026-11-28T01:43:33+09:00",
-        "expires_at": "2026-11-28T03:00:00+09:00",
-        "lecture_ids": [
-          "MS-048",
-          "MS-049"
-        ],
-        "lecture_id": "MS-049"
-      },
-      "checkpoint": 0,
-      "evidence_refs": [],
-      "outcome": null,
+      "full_script_read": true,
+      "lease": null,
+      "checkpoint": 1,
+      "evidence_refs": [
+        "military-service-act/production-evidence/exam80-generation-2/MS-049/001-502ad3e8e7009e757fd46eb3a1c768c3ba211a9a010a556415ffabe2ad460959.json"
+      ],
+      "outcome": "reuse_only",
       "changed_diagram_ids": [],
       "new_diagram_ids": [],
-      "previously_verified_existing_diagram_ids": []
+      "previously_verified_existing_diagram_ids": [],
+      "completed_date_kst": "2026-11-28",
+      "verified_existing_diagram_ids": [
+        "MS-049-D01-editorial-v1"
+      ],
+      "related_existing_diagram_ids": [
+        "MS-048-D01-editorial-v1",
+        "MS-050-D01-editorial-v1",
+        "MS-050-D03-editorial-v1"
+      ],
+      "evidence_sha256": "502ad3e8e7009e757fd46eb3a1c768c3ba211a9a010a556415ffabe2ad460959"
     },
     {
       "lecture_id": "MS-050",
@@ -4456,9 +4451,9 @@
   ],
   "existing_diagram_support_review": {
     "audit": "military-service-act/script-alignment-audit-exam80.json",
-    "verified_existing_pages": 18,
-    "pending_existing_pages": 265,
-    "scope": "기존 도식 원고 근거 확인 18장; 전체 핵심 도식 범위 대조 완료 11강."
+    "verified_existing_pages": 20,
+    "pending_existing_pages": 263,
+    "scope": "기존 도식 원고 근거 확인 20장; 전체 핵심 도식 범위 대조 완료 13강."
   },
   "last_partial_checkpoint": {
     "date_kst": "2026-11-27",
@@ -4476,17 +4471,17 @@
     "full_lecture_complete": false
   },
   "last_reuse_checkpoint": {
-    "date_kst": "2026-11-27",
+    "date_kst": "2026-11-28",
     "completed_lectures": [
-      "MS-004",
-      "MS-052"
+      "MS-048",
+      "MS-049"
     ],
     "evidence_refs": [
-      "military-service-act/production-evidence/exam80-generation-2/MS-004/001-0fa030fc0065b6dfb76edd27d35d04515a845b646c33154a3d53d73a2d3ccabb.json",
-      "military-service-act/production-evidence/exam80-generation-2/MS-052/001-2840c8f383e3c0f908eb12f189b0e769537146a2c300e5c863fa9190d43e6f52.json"
+      "military-service-act/production-evidence/exam80-generation-2/MS-048/001-c7065f3e98f2f9acd4bc8753ee918691cebcc8c0d2b622d23e0d774eaea2baf8.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-049/001-502ad3e8e7009e757fd46eb3a1c768c3ba211a9a010a556415ffabe2ad460959.json"
     ],
     "new_images": 0,
-    "publication_commit": null
+    "publication_parent": "04001b23ea35ac9a8dcb9042926dc8f2b125b790"
   },
   "last_draft_checkpoint": {
     "date_kst": "2026-11-27",

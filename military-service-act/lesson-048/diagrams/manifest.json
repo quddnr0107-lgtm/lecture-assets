@@ -93,8 +93,27 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "full_script_core_coverage",
+        "source_line_spans": [
+          [
+            19,
+            39
+          ],
+          [
+            43,
+            49
+          ],
+          [
+            55,
+            68
+          ],
+          [
+            72,
+            83
+          ]
+        ],
+        "evidence": "military-service-act/production-evidence/exam80-generation-2/MS-048/001-c7065f3e98f2f9acd4bc8753ee918691cebcc8c0d2b622d23e0d774eaea2baf8.json"
       }
     }
   ],
@@ -104,8 +123,9 @@
   "script_git_blob_sha": "0d100986e35de9f9c8ac82d1866d89e73fd3d179",
   "exam_number": 80,
   "script_alignment": {
-    "verified_existing_pages": 0,
-    "pending_existing_pages": 1,
-    "complete_script_coverage": "pending"
+    "verified_existing_pages": 1,
+    "pending_existing_pages": 0,
+    "complete_script_coverage": "verified",
+    "evidence": "military-service-act/production-evidence/exam80-generation-2/MS-048/001-c7065f3e98f2f9acd4bc8753ee918691cebcc8c0d2b622d23e0d774eaea2baf8.json"
   }
 }

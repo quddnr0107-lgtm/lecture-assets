@@ -9482,8 +9482,27 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "full_script_core_coverage",
+        "source_line_spans": [
+          [
+            19,
+            39
+          ],
+          [
+            43,
+            49
+          ],
+          [
+            55,
+            68
+          ],
+          [
+            72,
+            83
+          ]
+        ],
+        "evidence": "military-service-act/production-evidence/exam80-generation-2/MS-048/001-c7065f3e98f2f9acd4bc8753ee918691cebcc8c0d2b622d23e0d774eaea2baf8.json"
       }
     },
     {
@@ -9575,8 +9594,27 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "full_script_core_coverage",
+        "source_line_spans": [
+          [
+            19,
+            25
+          ],
+          [
+            31,
+            49
+          ],
+          [
+            53,
+            63
+          ],
+          [
+            69,
+            79
+          ]
+        ],
+        "evidence": "military-service-act/production-evidence/exam80-generation-2/MS-049/001-502ad3e8e7009e757fd46eb3a1c768c3ba211a9a010a556415ffabe2ad460959.json"
       }
     },
     {
@@ -29061,7 +29099,7 @@
   "lecture_count": 166,
   "period": "27년 전반기",
   "requested_study_cutoff": "2027-02-02",
-  "source_basis_note": "제80회 기존 원고 기준. 기존 283장 중 18장 근거 확인, 265장 대조 대기. 전체 핵심 설명 검수 완료 11강, 신규 보완 29장 공개.",
+  "source_basis_note": "제80회 기존 원고 기준. 기존 283장 중 20장 근거 확인, 263장 대조 대기. 전체 핵심 설명 검수 완료 13강, 신규 보완 29장 공개.",
   "law_sources": [
     {
       "kind": "본법",
@@ -29113,9 +29151,9 @@
   "exam_number": 80,
   "script_alignment": {
     "existing_pages": 283,
-    "verified_pages": 18,
-    "pending_pages": 265,
-    "complete_script_coverage_verified_lectures": 11,
+    "verified_pages": 20,
+    "pending_pages": 263,
+    "complete_script_coverage_verified_lectures": 13,
     "audit": "military-service-act/script-alignment-audit-exam80.json",
     "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
     "published_supplement_pages": 29,

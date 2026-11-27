@@ -1,0 +1,85 @@
+{
+  "lecture_id": "MS-049",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_31의5.txt",
+  "script_git_blob_sha": "ecf37f45d12f623d898d1e7418bde31a4db3350b",
+  "script_sha256": "4fb571b90b75443694957838a5d9a63d4d3270c4087f0c58249f4af37130b89e",
+  "full_script_read": true,
+  "script_line_count": 84,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        19,
+        49
+      ],
+      "topic": "행위자 두 갈래와 우위·범위 초과·결과 중 하나",
+      "diagram": "MS-049-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        53,
+        63
+      ],
+      "topic": "금지의 정의와 다음 조문의 신고·조사·보호·징계 연결",
+      "related": [
+        "MS-049-D01-editorial-v1",
+        "MS-050-D01-editorial-v1",
+        "MS-050-D03-editorial-v1",
+        "MS-048-D01-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        65,
+        79
+      ],
+      "topic": "병역의무 이행 관계 및 양쪽 의무의 대비",
+      "related": [
+        "MS-048-D01-editorial-v1",
+        "MS-049-D01-editorial-v1"
+      ]
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-049-D01-editorial-v1"
+  ],
+  "decision": {
+    "outcome": "reuse_only",
+    "reason": "기존 도식은 행위자·우위 이용·업무상 범위 초과와 결과의 선택관계를 한 화면에 제시한다. 신고·조사·보호·징계는 다음 강의에 이미 도식화되어 있다. 제도 배경의 조사 수치와 비유는 조문의 적용 수치·요건이 아니므로 별도 시험 핵심 도식으로 확대하지 않는다."
+  },
+  "changed_artifacts_and_hashes": [],
+  "verified_existing_assets": {
+    "svg": {
+      "path": "military-service-act/lesson-049/diagrams/MS-049-D01-editorial-v1.svg",
+      "bytes": 6666,
+      "sha256": "85fd3b1d558df9044ef259ce4c83e87915d6d38593887e36706a63933df98aa5",
+      "git_blob_sha": "8eb896b311cc9c3a12d47f701fafa18717a5a623"
+    },
+    "webp": {
+      "path": "military-service-act/lesson-049/diagrams/MS-049-D01-editorial-v1.webp",
+      "bytes": 49686,
+      "sha256": "0a9e02c1bb19cddfd4c3c1fece4e02690a1f6408ff494094c9645bac4cd7fab1",
+      "git_blob_sha": "156785ad63c4796a72161af03bcd767808a6493e",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    "layout": {
+      "id": "MS-049-D01-editorial-v1",
+      "bounds_valid": true,
+      "method": "실제 공개 WebP 화면 확인 및 SVG·WebP SHA-256 재계산"
+    }
+  },
+  "related_existing_diagram_ids": [
+    "MS-048-D01-editorial-v1",
+    "MS-050-D01-editorial-v1",
+    "MS-050-D03-editorial-v1"
+  ],
+  "previous_evidence_sha256": null,
+  "reviewed_date_kst": "2026-11-28",
+  "publication_parent": "04001b23ea35ac9a8dcb9042926dc8f2b125b790"
+}

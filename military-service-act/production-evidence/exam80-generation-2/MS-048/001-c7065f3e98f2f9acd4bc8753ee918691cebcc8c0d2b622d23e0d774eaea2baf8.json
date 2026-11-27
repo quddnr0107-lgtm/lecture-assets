@@ -1,0 +1,99 @@
+{
+  "lecture_id": "MS-048",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_31의4.txt",
+  "script_git_blob_sha": "0d100986e35de9f9c8ac82d1866d89e73fd3d179",
+  "script_sha256": "954dc2a03ea1e66bf339e8785ced94c0b4d0330b0a10e7696ce10e0644b905db",
+  "full_script_read": true,
+  "script_line_count": 86,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        19,
+        39
+      ],
+      "topic": "명령 준수와 성실 수행의 두 의무 및 기관 쪽 금지",
+      "diagram": "MS-048-D01-editorial-v1",
+      "related": [
+        "MS-049-D01-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        43,
+        49
+      ],
+      "topic": "공무수행·지휘감독 근거",
+      "diagram": "MS-045-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        55,
+        68
+      ],
+      "topic": "경고와 복무기간 연장·신상변동 통보",
+      "related": [
+        "MS-051-D01-editorial-v1",
+        "MS-051-D02-editorial-v1",
+        "MS-054-D01-editorial-v1",
+        "MS-054-D03-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        72,
+        83
+      ],
+      "topic": "두 의무와 양쪽의 책임 정리",
+      "related": [
+        "MS-048-D01-editorial-v1",
+        "MS-049-D01-editorial-v1"
+      ]
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-048-D01-editorial-v1"
+  ],
+  "decision": {
+    "outcome": "reuse_only",
+    "reason": "현재 도식은 주 조문의 두 의무를 정확히 구별한다. 정당한 직무상 지시와 괴롭힘의 경계는 바로 다음 강의 도식, 공무수행·경고·통보·연장 처분은 해당 조문 강의의 기존 도식에 이미 있다. 비유 및 오답 문구는 같은 두 의무를 반복하므로 중복 제작하지 않는다."
+  },
+  "changed_artifacts_and_hashes": [],
+  "verified_existing_assets": {
+    "svg": {
+      "path": "military-service-act/lesson-048/diagrams/MS-048-D01-editorial-v1.svg",
+      "bytes": 5518,
+      "sha256": "8143c2d04cf5ae0b14d9b8ed1e919be518847a801247bcefbe1c1cf8c0797d45",
+      "git_blob_sha": "0e45cc1751bed0f08f1d72616fb6bd830b2b53fe"
+    },
+    "webp": {
+      "path": "military-service-act/lesson-048/diagrams/MS-048-D01-editorial-v1.webp",
+      "bytes": 37208,
+      "sha256": "a17b4ecf25b289d606bf52d0e993d16e5218e7bfbb4bf7b067153f4ac3f364fc",
+      "git_blob_sha": "e1d4b4a8571ae9f9ec260a874c2f36c9e71d458c",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    "layout": {
+      "id": "MS-048-D01-editorial-v1",
+      "bounds_valid": true,
+      "method": "실제 공개 WebP 화면 확인 및 SVG·WebP SHA-256 재계산"
+    }
+  },
+  "related_existing_diagram_ids": [
+    "MS-045-D01-editorial-v1",
+    "MS-049-D01-editorial-v1",
+    "MS-051-D01-editorial-v1",
+    "MS-051-D02-editorial-v1",
+    "MS-054-D01-editorial-v1",
+    "MS-054-D03-editorial-v1"
+  ],
+  "previous_evidence_sha256": null,
+  "reviewed_date_kst": "2026-11-28",
+  "publication_parent": "04001b23ea35ac9a8dcb9042926dc8f2b125b790"
+}

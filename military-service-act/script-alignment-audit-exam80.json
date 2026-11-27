@@ -259,6 +259,90 @@
         }
       },
       "required_content_changes": []
+    },
+    {
+      "diagram_id": "MS-048-D01-editorial-v1",
+      "lecture_id": "MS-048",
+      "title": "사회복무요원의 성실의무",
+      "status": "script_alignment_verified",
+      "comparison": "semantic paraphrase, not a verbatim transcript",
+      "script_path": "docs/merged-lectures/병역법/본법_31의4.txt",
+      "script_git_blob_sha": "0d100986e35de9f9c8ac82d1866d89e73fd3d179",
+      "source_line_spans": [
+        [
+          19,
+          39
+        ],
+        [
+          43,
+          49
+        ],
+        [
+          55,
+          68
+        ],
+        [
+          72,
+          83
+        ]
+      ],
+      "conclusion": "현재 도식은 주 조문의 두 의무를 정확히 구별한다. 정당한 직무상 지시와 괴롭힘의 경계는 바로 다음 강의 도식, 공무수행·경고·통보·연장 처분은 해당 조문 강의의 기존 도식에 이미 있다. 비유 및 오답 문구는 같은 두 의무를 반복하므로 중복 제작하지 않는다.",
+      "existing_files": {
+        "svg": {
+          "path": "military-service-act/lesson-048/diagrams/MS-048-D01-editorial-v1.svg",
+          "bytes": 5518,
+          "sha256": "8143c2d04cf5ae0b14d9b8ed1e919be518847a801247bcefbe1c1cf8c0797d45"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-048/diagrams/MS-048-D01-editorial-v1.webp",
+          "bytes": 37208,
+          "sha256": "a17b4ecf25b289d606bf52d0e993d16e5218e7bfbb4bf7b067153f4ac3f364fc"
+        }
+      },
+      "required_content_changes": [],
+      "evidence": "military-service-act/production-evidence/exam80-generation-2/MS-048/001-c7065f3e98f2f9acd4bc8753ee918691cebcc8c0d2b622d23e0d774eaea2baf8.json"
+    },
+    {
+      "diagram_id": "MS-049-D01-editorial-v1",
+      "lecture_id": "MS-049",
+      "title": "복무기관 내 괴롭힘의 금지",
+      "status": "script_alignment_verified",
+      "comparison": "semantic paraphrase, not a verbatim transcript",
+      "script_path": "docs/merged-lectures/병역법/본법_31의5.txt",
+      "script_git_blob_sha": "ecf37f45d12f623d898d1e7418bde31a4db3350b",
+      "source_line_spans": [
+        [
+          19,
+          25
+        ],
+        [
+          31,
+          49
+        ],
+        [
+          53,
+          63
+        ],
+        [
+          69,
+          79
+        ]
+      ],
+      "conclusion": "기존 도식은 행위자·우위 이용·업무상 범위 초과와 결과의 선택관계를 한 화면에 제시한다. 신고·조사·보호·징계는 다음 강의에 이미 도식화되어 있다. 제도 배경의 조사 수치와 비유는 조문의 적용 수치·요건이 아니므로 별도 시험 핵심 도식으로 확대하지 않는다.",
+      "existing_files": {
+        "svg": {
+          "path": "military-service-act/lesson-049/diagrams/MS-049-D01-editorial-v1.svg",
+          "bytes": 6666,
+          "sha256": "85fd3b1d558df9044ef259ce4c83e87915d6d38593887e36706a63933df98aa5"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-049/diagrams/MS-049-D01-editorial-v1.webp",
+          "bytes": 49686,
+          "sha256": "0a9e02c1bb19cddfd4c3c1fece4e02690a1f6408ff494094c9645bac4cd7fab1"
+        }
+      },
+      "required_content_changes": [],
+      "evidence": "military-service-act/production-evidence/exam80-generation-2/MS-049/001-502ad3e8e7009e757fd46eb3a1c768c3ba211a9a010a556415ffabe2ad460959.json"
     }
   ],
   "cross_reference_note": {
@@ -364,9 +448,9 @@
     "completed_lectures": []
   },
   "current_review_totals": {
-    "verified_existing_pages": 18,
-    "pending_existing_pages": 265,
-    "completed_lectures": 11,
+    "verified_existing_pages": 20,
+    "pending_existing_pages": 263,
+    "completed_lectures": 13,
     "published_pages": 312
   }
 }
