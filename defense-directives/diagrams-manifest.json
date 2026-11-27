@@ -17,7 +17,7 @@
   "coverage": {
     "expected_lessons": 78,
     "included_lessons": 78,
-    "diagrams": 210,
+    "diagrams": 220,
     "missing_lessons": []
   },
   "law_versions": [
@@ -66,12 +66,13 @@
     {
       "id": "DR-002",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제2조, 정의",
-      "diagram_count": 4,
+      "diagram_count": 5,
       "diagram_ids": [
         "DR-002-D01",
         "DR-002-D02",
         "DR-002-D03",
-        "DR-002-D04"
+        "DR-002-D04",
+        "DR-002-D05"
       ],
       "path": "defense-directives/lesson-002/diagrams/",
       "script_ref": "DR-002"
@@ -148,13 +149,17 @@
     {
       "id": "DR-009",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제9조, 편성방법",
-      "diagram_count": 5,
+      "diagram_count": 9,
       "diagram_ids": [
         "DR-009-D01",
         "DR-009-D02",
         "DR-009-D03",
         "DR-009-D04",
-        "DR-009-D05"
+        "DR-009-D05",
+        "DR-009-D06",
+        "DR-009-D07",
+        "DR-009-D08",
+        "DR-009-D09"
       ],
       "path": "defense-directives/lesson-009/diagrams/",
       "script_ref": "DR-009"
@@ -825,13 +830,16 @@
     {
       "id": "DR-067",
       "title": "예비군 교육훈련 훈령 제23조, 예비군훈련 보류",
-      "diagram_count": 5,
+      "diagram_count": 8,
       "diagram_ids": [
         "DR-067-D01",
         "DR-067-D02",
         "DR-067-D03",
         "DR-067-D04",
-        "DR-067-D05"
+        "DR-067-D05",
+        "DR-067-D06",
+        "DR-067-D07",
+        "DR-067-D08"
       ],
       "path": "defense-directives/lesson-067/diagrams/",
       "script_ref": "DR-067"
@@ -931,9 +939,11 @@
     {
       "id": "DR-076",
       "title": "예비군 교육훈련 훈령 제32조, 과태료",
-      "diagram_count": 1,
+      "diagram_count": 3,
       "diagram_ids": [
-        "DR-076-D01"
+        "DR-076-D01",
+        "DR-076-D02",
+        "DR-076-D03"
       ],
       "path": "defense-directives/lesson-076/diagrams/",
       "script_ref": "DR-076"
@@ -1022,34 +1032,46 @@
       "article": "조직·편성 훈령 제2조",
       "article_key": "1-2",
       "source_clauses": [
+        "제1호",
         "제2호",
         "제3호"
       ],
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J2-0:0",
       "source_version": "국방부훈령 제3104호",
       "effective_date": "2025-11-14",
-      "note": "",
+      "note": "제1호: 예비군법에 따라 조직·편성되는 개인 또는 부대.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-002/diagrams/DR-002-D01-editorial-v1.svg",
-          "bytes": 5042,
-          "sha256": "fa460011376a519f96cd23f1017afe80cccbf5e8bffafd536a0603288bbd0db5"
+          "bytes": 5450,
+          "sha256": "c74400833b3026d77a9bb2f1b221d7b6c3017219de88a6816d33052bfc9f7b0c"
         },
         "png": {
           "path": "defense-directives/lesson-002/diagrams/DR-002-D01-editorial-v1.png",
-          "bytes": 120540,
-          "sha256": "acc75f00f84f80a12d5144c37bf9d9832c7591104066877bd1153bb49346161c"
+          "bytes": 134858,
+          "sha256": "3419dcbe9069ad24795225f678d4a2427c98850f723a109ab01c9066bc82c51e"
         },
         "webp": {
           "path": "defense-directives/lesson-002/diagrams/DR-002-D01-editorial-v1.webp",
-          "bytes": 36180,
-          "sha256": "660325b0a469212abb410543f48e9196d3f3b25e03aec29f4c9cf279cdd67f96"
+          "bytes": 41864,
+          "sha256": "a3ff530ced1cdc88ef522c77bf3c64b0fd7f31824d95e31128a214cfc5f8197f"
         }
       },
-      "script_ref": "DR-002"
+      "script_ref": "DR-002",
+      "script_evidence": {
+        "source_git_blob": "1fdb1e871dd507b7eafff5be6be788eb00abc150",
+        "source_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+        "lines": [
+          19,
+          21,
+          27,
+          28,
+          44
+        ]
+      }
     },
     {
       "id": "DR-002-D02",
@@ -1110,21 +1132,30 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-002/diagrams/DR-002-D03-editorial-v1.svg",
-          "bytes": 5891,
-          "sha256": "99ecb61418bec8f5ce8d79d41d8241bcdf9b2b822b42ebfa0b7bdb148fd0b4b1"
+          "bytes": 6091,
+          "sha256": "d0d27367947fe16bccc65fd08b3cd0d5399e0d95fc91652273e764e0e9edb837"
         },
         "png": {
           "path": "defense-directives/lesson-002/diagrams/DR-002-D03-editorial-v1.png",
-          "bytes": 143461,
-          "sha256": "d742227e02ff2ef5b5a203147f02ea557eb84e50504434e08e5b59b052f0934a"
+          "bytes": 149661,
+          "sha256": "453e7200488ca2a3d9a1b0da81f5d9c9be7f022715c950063f0190cb46fc7bc6"
         },
         "webp": {
           "path": "defense-directives/lesson-002/diagrams/DR-002-D03-editorial-v1.webp",
-          "bytes": 44254,
-          "sha256": "45b008dca420ba790bec5ddc3eb4d97dc870500ed14af33bf488f443a9694895"
+          "bytes": 44538,
+          "sha256": "5dd424ae83a14366dba0b7b648627a14c430bbdc927c813adaddd3dfcab24460"
         }
       },
-      "script_ref": "DR-002"
+      "script_ref": "DR-002",
+      "script_evidence": {
+        "source_git_blob": "1fdb1e871dd507b7eafff5be6be788eb00abc150",
+        "source_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+        "lines": [
+          109,
+          123,
+          139
+        ]
+      }
     },
     {
       "id": "DR-002-D04",
@@ -1148,21 +1179,77 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-002/diagrams/DR-002-D04-editorial-v1.svg",
-          "bytes": 5348,
-          "sha256": "9cb67396920025dfcaf36570769878c0640c1a3e80bf3f2fda35a3a0bd74a7c6"
+          "bytes": 5354,
+          "sha256": "89dc5847cb1ec7fce9cb1428faeed52ff1c7834b729902e6b5f6d50e10eff835"
         },
         "png": {
           "path": "defense-directives/lesson-002/diagrams/DR-002-D04-editorial-v1.png",
-          "bytes": 137236,
-          "sha256": "a43444038246b2fe710e2b289de46f1dce2fa3bbc064e3b023f5af1be4153cc4"
+          "bytes": 137703,
+          "sha256": "3aa4289fee78e2979763ab5b422f71e9f5ce5ab5e7a19e09a12b298899340c1d"
         },
         "webp": {
           "path": "defense-directives/lesson-002/diagrams/DR-002-D04-editorial-v1.webp",
-          "bytes": 42552,
-          "sha256": "cbfd4e91a18051fe40be778fab866e428d865ed1028386f563e0db9044b0ce3e"
+          "bytes": 42640,
+          "sha256": "15e7cf1746cdb9deac31801558a0b8247d6d1088f2d8218d47a78a47cad5dd97"
         }
       },
-      "script_ref": "DR-002"
+      "script_ref": "DR-002",
+      "script_evidence": {
+        "source_git_blob": "1fdb1e871dd507b7eafff5be6be788eb00abc150",
+        "source_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+        "lines": [
+          89,
+          161,
+          189
+        ]
+      }
+    },
+    {
+      "id": "DR-002-D05",
+      "lecture_id": "DR-002",
+      "lesson_number": 2,
+      "title": "정보체계·주요 직위자·전역권부대",
+      "article": "조직·편성 훈령 제2조",
+      "article_key": "1-2",
+      "source_clauses": [
+        "제12호",
+        "제13호",
+        "제14호"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J2-0:0",
+      "source_version": "국방부훈령 제3104호",
+      "effective_date": "2025-11-14",
+      "note": "",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-002/diagrams/DR-002-D05-editorial-v1.svg",
+          "bytes": 5599,
+          "sha256": "de5ecad6fb2cdf7d729f2430e6b1f602b7bf8a75161b936895e1251d30f76bfd"
+        },
+        "png": {
+          "path": "defense-directives/lesson-002/diagrams/DR-002-D05-editorial-v1.png",
+          "bytes": 159301,
+          "sha256": "34688251460a3724a0236a6f1842594fa3f5b32c79b1c781f6e7503bad8fa361"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-002/diagrams/DR-002-D05-editorial-v1.webp",
+          "bytes": 48250,
+          "sha256": "3a48360dfaa9e83891d253f54f1f51b833f0cee40da027fa892a625a4b44c2aa"
+        }
+      },
+      "script_ref": "DR-002",
+      "script_evidence": {
+        "source_git_blob": "1fdb1e871dd507b7eafff5be6be788eb00abc150",
+        "source_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+        "lines": [
+          205,
+          221,
+          235
+        ]
+      }
     },
     {
       "id": "DR-003-D01",
@@ -1987,6 +2074,190 @@
         }
       },
       "script_ref": "DR-009"
+    },
+    {
+      "id": "DR-009-D06",
+      "lecture_id": "DR-009",
+      "lesson_number": 9,
+      "title": "지역대와 중대의 편성기구도",
+      "article": "조직·편성 훈령 제9조",
+      "article_key": "1-9",
+      "source_clauses": [
+        "제1항제2호",
+        "제2항",
+        "별표 3",
+        "별표 6",
+        "별표 7"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J9-0:0",
+      "source_version": "국방부훈령 제3104호",
+      "effective_date": "2025-11-14",
+      "note": "",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-009/diagrams/DR-009-D06-editorial-v1.svg",
+          "bytes": 5068,
+          "sha256": "a9c03006d2d13101745f10870d4897e4bfec6d908447ba40b7a79d9f2d6ebbfd"
+        },
+        "png": {
+          "path": "defense-directives/lesson-009/diagrams/DR-009-D06-editorial-v1.png",
+          "bytes": 114627,
+          "sha256": "3c168d9c2806a71257e8daf1a423eff93f50810df68defa6251a19158665fc6e"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-009/diagrams/DR-009-D06-editorial-v1.webp",
+          "bytes": 33788,
+          "sha256": "61ec54001c0091f869581f3dd2b60c6c5168ef9d51e32d6537219c0224fd48cb"
+        }
+      },
+      "script_ref": "DR-009",
+      "script_evidence": {
+        "source_git_blob": "3ecda6a43480e8512f969ce798eeb05611a91527",
+        "source_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+        "lines": [
+          27,
+          29,
+          191,
+          211
+        ]
+      }
+    },
+    {
+      "id": "DR-009-D07",
+      "lecture_id": "DR-009",
+      "lesson_number": 9,
+      "title": "지역대 본부의 평시·동원시 편성",
+      "article": "조직·편성 훈령 제9조",
+      "article_key": "1-9",
+      "source_clauses": [
+        "제1항",
+        "별표 4"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J9-0:0",
+      "source_version": "국방부훈령 제3104호",
+      "effective_date": "2025-11-14",
+      "note": "",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-009/diagrams/DR-009-D07-editorial-v1.svg",
+          "bytes": 5527,
+          "sha256": "d14d7f3246536552ed1f97a19f5a46b63328f85e41e2a3cade14b4545d13f872"
+        },
+        "png": {
+          "path": "defense-directives/lesson-009/diagrams/DR-009-D07-editorial-v1.png",
+          "bytes": 116607,
+          "sha256": "67d763954b923c90e00166211703d4ae87840bd3eb7bcb7ce1d89e20afabda26"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-009/diagrams/DR-009-D07-editorial-v1.webp",
+          "bytes": 33924,
+          "sha256": "db41c181cc6452df05e2c1cc317ca9441890a0ba65d900d7b95def1280f1e5d2"
+        }
+      },
+      "script_ref": "DR-009",
+      "script_evidence": {
+        "source_git_blob": "3ecda6a43480e8512f969ce798eeb05611a91527",
+        "source_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+        "lines": [
+          31
+        ]
+      }
+    },
+    {
+      "id": "DR-009-D08",
+      "lecture_id": "DR-009",
+      "lesson_number": 9,
+      "title": "지역대 본부 직책별 임무",
+      "article": "조직·편성 훈령 제9조",
+      "article_key": "1-9",
+      "source_clauses": [
+        "제1항",
+        "별표 5"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J9-0:0",
+      "source_version": "국방부훈령 제3104호",
+      "effective_date": "2025-11-14",
+      "note": "",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-009/diagrams/DR-009-D08-editorial-v1.svg",
+          "bytes": 5504,
+          "sha256": "66f0fad2711e11f3e3a3aa8f705909294015c1606c139a07aca1052867d828e1"
+        },
+        "png": {
+          "path": "defense-directives/lesson-009/diagrams/DR-009-D08-editorial-v1.png",
+          "bytes": 132033,
+          "sha256": "fda3f1ed3a741cabc0b9e829170360c6fd4979e600c18d923aaad64e9f59e5cc"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-009/diagrams/DR-009-D08-editorial-v1.webp",
+          "bytes": 39304,
+          "sha256": "1b91a3db8786800b0e2ecd66bc7f65c1da7dd5fd10bc620ed64bd1631fb8f01b"
+        }
+      },
+      "script_ref": "DR-009",
+      "script_evidence": {
+        "source_git_blob": "3ecda6a43480e8512f969ce798eeb05611a91527",
+        "source_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+        "lines": [
+          65
+        ]
+      }
+    },
+    {
+      "id": "DR-009-D09",
+      "lecture_id": "DR-009",
+      "lesson_number": 9,
+      "title": "기타소대와 부대 명칭",
+      "article": "조직·편성 훈령 제9조",
+      "article_key": "1-9",
+      "source_clauses": [
+        "제2항제3호",
+        "제4항"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J9-0:0",
+      "source_version": "국방부훈령 제3104호",
+      "effective_date": "2025-11-14",
+      "note": "",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-009/diagrams/DR-009-D09-editorial-v1.svg",
+          "bytes": 4894,
+          "sha256": "2c63cf828a30485039c445b2b0862fba1b5262e35c25a4813320ffe75969a0a7"
+        },
+        "png": {
+          "path": "defense-directives/lesson-009/diagrams/DR-009-D09-editorial-v1.png",
+          "bytes": 105410,
+          "sha256": "833e7d3aa8d47e9a1d43fc2fa40cba9d74eb2d5aea8775137a92c695ffe0ecfd"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-009/diagrams/DR-009-D09-editorial-v1.webp",
+          "bytes": 30766,
+          "sha256": "12f7597699acd8dd919eb7754f849c533dd75a0ce84586c7ed8cc7fdfe31c704"
+        }
+      },
+      "script_ref": "DR-009",
+      "script_evidence": {
+        "source_git_blob": "3ecda6a43480e8512f969ce798eeb05611a91527",
+        "source_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+        "lines": [
+          209,
+          255,
+          257
+        ]
+      }
     },
     {
       "id": "DR-010-D01",
@@ -3292,18 +3563,18 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-021/diagrams/DR-021-D01-editorial-v1.svg",
-          "bytes": 6574,
-          "sha256": "c2bc52529eafca219997ca0b47124f4cbe2940fac8b0b0192ea0f07ec66517c5"
+          "bytes": 6614,
+          "sha256": "55413eb5be639e3169f785c88b560bfdcca1fc0e6baac6b7ff9fc452688e387e"
         },
         "png": {
           "path": "defense-directives/lesson-021/diagrams/DR-021-D01-editorial-v1.png",
-          "bytes": 188364,
-          "sha256": "39fd66ff0c58d286ed3e16e6ffdf5df31b47b1d7fbb2714bb6c47ddb1ee4829c"
+          "bytes": 196636,
+          "sha256": "53e839ea9e98347ae024fc7d08e72e8b5b4230130a8f855ae4f53c5cb3568c05"
         },
         "webp": {
           "path": "defense-directives/lesson-021/diagrams/DR-021-D01-editorial-v1.webp",
-          "bytes": 56358,
-          "sha256": "e3a14ffce7f4822482cb1d36851ac994ed258927514eacc7246a35678a2ec58d"
+          "bytes": 59122,
+          "sha256": "d32a538619dc1a7a4bf3742d5c04053e77e746f06121d9198ec30c017d4c823f"
         }
       },
       "script_ref": "DR-021",
@@ -3315,15 +3586,7 @@
           85,
           89,
           99,
-          166,
-          167,
-          168,
-          169,
-          170,
-          171,
-          172,
-          173,
-          174
+          171
         ]
       }
     },
@@ -7810,28 +8073,41 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J19-0:0",
       "source_version": "국방부훈령 제3216호",
       "effective_date": "2026-10-14",
-      "note": "",
+      "note": "제19조는 훈련기간, 제20조 전국단위훈련은 장소 선택.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-063/diagrams/DR-063-D01-editorial-v1.svg",
-          "bytes": 5376,
-          "sha256": "9fcc1fe1026353d738ebede711223f4a001c8a2836c4e94e2866b64ef900e67c"
+          "bytes": 6117,
+          "sha256": "c52aeb55d45536646d740d107e2fa163427566e6e45046ac09d03a13dc940b6a"
         },
         "png": {
           "path": "defense-directives/lesson-063/diagrams/DR-063-D01-editorial-v1.png",
-          "bytes": 139424,
-          "sha256": "9e53e7ce36ccddb8e5ca26582d963b11d278218d523a66f2043791d5d4389b10"
+          "bytes": 161418,
+          "sha256": "6961b4a9331edac6c5e123e2c4dda89b1ce52186755d7f2f212beaddc39816fb"
         },
         "webp": {
           "path": "defense-directives/lesson-063/diagrams/DR-063-D01-editorial-v1.webp",
-          "bytes": 42978,
-          "sha256": "6f7ee24e6fcfca29946cabbfc7221eecb35483978508ed65841a8af1548bc282"
+          "bytes": 48118,
+          "sha256": "cb46ca514e5c1e30f28ca6c2e4491433596ce0bef7a9033eff1a9af25109a753"
         }
       },
-      "script_ref": "DR-063"
+      "script_ref": "DR-063",
+      "script_evidence": {
+        "source_git_blob": "867bc13f4d6701f321f430f726acb4494a18017f",
+        "source_sha256": "ef7ff0ba84a06441ecb71f6cc2b43513ac71f554af7d7ae55be9191278a0c161",
+        "lines": [
+          17,
+          29,
+          47,
+          51,
+          55,
+          73,
+          75
+        ]
+      }
     },
     {
       "id": "DR-064-D01",
@@ -8109,28 +8385,39 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
       "source_version": "국방부훈령 제3216호",
       "effective_date": "2026-10-14",
-      "note": "",
+      "note": "원칙: 사유 발생 즉시 적용. 기간 충족 요건이 있는 경우는 예외.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D01-editorial-v1.svg",
-          "bytes": 5738,
-          "sha256": "8dcc8843ec581009ce9a6964dc7f1a97b8e54d50bcf3e10389e8df85803b25dc"
+          "bytes": 6477,
+          "sha256": "4da02dbc6d2c7761ce51e2f8530a69ed2361490345c069977de34c76dc1fe736"
         },
         "png": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D01-editorial-v1.png",
-          "bytes": 140106,
-          "sha256": "f96436f104c658049f970e4d3c8207cdb357366f53a16e47eca1a9ffcc6f3f03"
+          "bytes": 161555,
+          "sha256": "7f73813b14b7ffd138698149a27b063af6b6fe175a05f71d28cda18e4fd8de05"
         },
         "webp": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D01-editorial-v1.webp",
-          "bytes": 42016,
-          "sha256": "217e2789343e1b1effed269eeb8a14e375e87ee3d5bcaef7c283063953c8f6ad"
+          "bytes": 50244,
+          "sha256": "65bbc1d5e1c97059fd17ac50fbd073645ac663048ea8162848129a4534a96645"
         }
       },
-      "script_ref": "DR-067"
+      "script_ref": "DR-067",
+      "script_evidence": {
+        "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+        "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+        "lines": [
+          27,
+          35,
+          37,
+          61,
+          79
+        ]
+      }
     },
     {
       "id": "DR-067-D02",
@@ -8220,28 +8507,39 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
       "source_version": "국방부훈령 제3216호",
       "effective_date": "2026-10-14",
-      "note": "",
+      "note": "잔여훈련을 부과했는데도 추가 진단서(진료확인서)를 내지 않으면 합산하지 않는다.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D04-editorial-v1.svg",
-          "bytes": 6091,
-          "sha256": "23e61f5eccac5648156d882299bb09e5e9954fa880304b131aeb0995b283ad4d"
+          "bytes": 6361,
+          "sha256": "0e309afdd6edb7f99dfaefd08fba549753b6525c0fabdbf2a96c3ad7bbf6302b"
         },
         "png": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D04-editorial-v1.png",
-          "bytes": 149211,
-          "sha256": "b26d46df6807c266416bbd844698310b1dbcee525e8cd1799fc3e372d37ae023"
+          "bytes": 165086,
+          "sha256": "651bffaadb32fe6323bfefb04aa1135a7bdf633beee4e23c37cb4180d12414d7"
         },
         "webp": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D04-editorial-v1.webp",
-          "bytes": 45844,
-          "sha256": "73a6e49888bcd883706219eb7bc9a926fc6a84eb7885c10d1890def8ae1491cb"
+          "bytes": 51082,
+          "sha256": "21f529cc182261f1710415a3b0c116c21cbcb32615529f79806d33bcf5b5ea6f"
         }
       },
-      "script_ref": "DR-067"
+      "script_ref": "DR-067",
+      "script_evidence": {
+        "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+        "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+        "lines": [
+          95,
+          97,
+          101,
+          107,
+          113
+        ]
+      }
     },
     {
       "id": "DR-067-D05",
@@ -8279,6 +8577,145 @@
         }
       },
       "script_ref": "DR-067"
+    },
+    {
+      "id": "DR-067-D06",
+      "lecture_id": "DR-067",
+      "lesson_number": 67,
+      "title": "보류 시작일과 직권처리",
+      "article": "교육훈련 훈령 제23조",
+      "article_key": "2-23",
+      "source_clauses": [
+        "제1항제1호",
+        "제1항제2호"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
+      "source_version": "국방부훈령 제3216호",
+      "effective_date": "2026-10-14",
+      "note": "",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D06-editorial-v1.svg",
+          "bytes": 5721,
+          "sha256": "06934cd9a4d0cea421b664c1ae91a4d688c34be12f1080026013f4cfe33c80ba"
+        },
+        "png": {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D06-editorial-v1.png",
+          "bytes": 146858,
+          "sha256": "32dba913e4bb6adf8992c81b247492a29ef720f21d58f1c350f1a7e6ca81ae52"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D06-editorial-v1.webp",
+          "bytes": 44666,
+          "sha256": "5e8d83874e1ad4a6450efbe0e36100b60888c70bdb744cd4ebf4aa58c9c7bbbf"
+        }
+      },
+      "script_ref": "DR-067",
+      "script_evidence": {
+        "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+        "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+        "lines": [
+          37,
+          39,
+          41,
+          63
+        ]
+      }
+    },
+    {
+      "id": "DR-067-D07",
+      "lecture_id": "DR-067",
+      "lesson_number": 67,
+      "title": "질병 보류 심의의 예외",
+      "article": "교육훈련 훈령 제23조",
+      "article_key": "2-23",
+      "source_clauses": [
+        "제1항제3호라목2)"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
+      "source_version": "국방부훈령 제3216호",
+      "effective_date": "2026-10-14",
+      "note": "원칙: 치료기간 180일 이상 진단서 제출 시 보류. 180일 미만은 연기.",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D07-editorial-v1.svg",
+          "bytes": 5307,
+          "sha256": "010b08bc7d1e0afc585f44bafaf5ec8e3b776c8b56d53ba949ae21e60167e773"
+        },
+        "png": {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D07-editorial-v1.png",
+          "bytes": 125411,
+          "sha256": "3e24406adcddcea86b40e6dfb4111a89e5db24dbed5669df9e6bcf9e872be530"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D07-editorial-v1.webp",
+          "bytes": 38154,
+          "sha256": "9557767d57bab1731eac72f7c5c8bff9d44454d8cd87ce95ef1cb35417e6245a"
+        }
+      },
+      "script_ref": "DR-067",
+      "script_evidence": {
+        "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+        "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+        "lines": [
+          97,
+          107,
+          109,
+          113
+        ]
+      }
+    },
+    {
+      "id": "DR-067-D08",
+      "lecture_id": "DR-067",
+      "lesson_number": 67,
+      "title": "병역처분 변경과 보류",
+      "article": "교육훈련 훈령 제23조",
+      "article_key": "2-23",
+      "source_clauses": [
+        "제1항"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
+      "source_version": "국방부훈령 제3216호",
+      "effective_date": "2026-10-14",
+      "note": "",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D08-editorial-v1.svg",
+          "bytes": 5492,
+          "sha256": "bb2b1453c7a37c5d8e1e00a2be7b91b7a9d9c2a027fe8a50fbf9b378d6f882cf"
+        },
+        "png": {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D08-editorial-v1.png",
+          "bytes": 133980,
+          "sha256": "78e396e9130b98758bd4f110c446a937827d3ca5eb6feb490bf6dccb082458b2"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D08-editorial-v1.webp",
+          "bytes": 41040,
+          "sha256": "2db0371778d49d3e2c96aa1f9b842c36f94de4d2d6dc00c7b65ea65a4f9d8a2c"
+        }
+      },
+      "script_ref": "DR-067",
+      "script_evidence": {
+        "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+        "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+        "lines": [
+          131,
+          133,
+          139,
+          141
+        ]
+      }
     },
     {
       "id": "DR-068-D01",
@@ -9056,6 +9493,102 @@
         }
       },
       "script_ref": "DR-076"
+    },
+    {
+      "id": "DR-076-D02",
+      "lecture_id": "DR-076",
+      "lesson_number": 76,
+      "title": "과태료 감경과 이의제기",
+      "article": "교육훈련 훈령 제32조",
+      "article_key": "2-32",
+      "source_clauses": [
+        "별지 제5호",
+        "별지 제6호"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J32-0:0",
+      "source_version": "국방부훈령 제3216호",
+      "effective_date": "2026-10-14",
+      "note": "",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-076/diagrams/DR-076-D02-editorial-v1.svg",
+          "bytes": 5510,
+          "sha256": "ccbc94be3bb8755dc6831e1329305023df10d957cb30dea7a76ffd3adf6b9119"
+        },
+        "png": {
+          "path": "defense-directives/lesson-076/diagrams/DR-076-D02-editorial-v1.png",
+          "bytes": 132753,
+          "sha256": "60b21a265502f4375cc087b8a2efd323f94e45bc8ebee75a9b33818a95362aa0"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-076/diagrams/DR-076-D02-editorial-v1.webp",
+          "bytes": 39996,
+          "sha256": "18405f0b548429e039b080ccc9fda015b4cf9d1a3785aa93a5f5bd10a0528657"
+        }
+      },
+      "script_ref": "DR-076",
+      "script_evidence": {
+        "source_git_blob": "899302aaf728a341ec23adad26262a73c91c6fe1",
+        "source_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
+        "lines": [
+          102,
+          104,
+          110,
+          118,
+          122,
+          124
+        ]
+      }
+    },
+    {
+      "id": "DR-076-D03",
+      "lecture_id": "DR-076",
+      "lesson_number": 76,
+      "title": "과태료 체납의 가산금과 후속조치",
+      "article": "교육훈련 훈령 제32조",
+      "article_key": "2-32",
+      "source_clauses": [
+        "별지 제6호"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J32-0:0",
+      "source_version": "국방부훈령 제3216호",
+      "effective_date": "2026-10-14",
+      "note": "",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-076/diagrams/DR-076-D03-editorial-v1.svg",
+          "bytes": 5621,
+          "sha256": "cb87d9f4209a7413724ae08462a788eb0d3212d2c5407e7a4e2199782b7eee1f"
+        },
+        "png": {
+          "path": "defense-directives/lesson-076/diagrams/DR-076-D03-editorial-v1.png",
+          "bytes": 134482,
+          "sha256": "f092d1bd7a24b4c1c1415d621ffbce108fff307d0f34b0f4fdaa9e11a36e0c14"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-076/diagrams/DR-076-D03-editorial-v1.webp",
+          "bytes": 39566,
+          "sha256": "3a2a56897df6519f5134651c9722ddcc9e670c86b75810fe5599b5bf8fe07e0a"
+        }
+      },
+      "script_ref": "DR-076",
+      "script_evidence": {
+        "source_git_blob": "899302aaf728a341ec23adad26262a73c91c6fe1",
+        "source_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
+        "lines": [
+          126,
+          130,
+          134,
+          140,
+          142
+        ]
+      }
     },
     {
       "id": "DR-077-D01",
