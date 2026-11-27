@@ -77,7 +77,7 @@
   ],
   "full_lecture_coverage_reviews_completed": 41,
   "remaining_full_lecture_reviews": 37,
-  "new_diagrams": 34,
+  "new_diagrams": 36,
   "revised_diagrams": 63,
   "priority_script_comparison": {
     "schema_version": 1,
@@ -25001,6 +25001,538 @@
             }
           ],
           "visual_reviewed_at": "2026-11-28T04:22:19+09:00"
+        }
+      ]
+    },
+    {
+      "run_id": "dr-20261128-042219-script",
+      "lesson_ids": [
+        "DR-036",
+        "DR-041"
+      ],
+      "records": [
+        {
+          "id": "DR-036-D02",
+          "mode": "new",
+          "script_evidence": {
+            "source_git_blob": "9d2b3d81243702eabe7c08977c9fae700d2d5b27",
+            "source_sha256": "29cc2b99f7cf762516fcbc14d2f5f8a2b3d826042866b13031d1892cda8664d4",
+            "lines": [
+              103,
+              107,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              116,
+              118,
+              120,
+              128,
+              139,
+              140
+            ]
+          },
+          "layout_errors": [],
+          "png_webp_pixel_equal": true,
+          "visual_review": "pending",
+          "files": {
+            "svg": {
+              "path": "defense-directives/lesson-036/diagrams/DR-036-D02-editorial-v1.svg",
+              "bytes": 5967,
+              "sha256": "aa9ef644d618071f0c81cd26603bc431f8df5af1779777281d61bebef729d48c"
+            },
+            "png": {
+              "path": "defense-directives/lesson-036/diagrams/DR-036-D02-editorial-v1.png",
+              "bytes": 145611,
+              "sha256": "565c399a09d1fced106f3704a31f3b5f9c48ffb19cd7cb4003a554a82bf116cd"
+            },
+            "webp": {
+              "path": "defense-directives/lesson-036/diagrams/DR-036-D02-editorial-v1.webp",
+              "bytes": 44556,
+              "sha256": "d7e30b0ef7a3bb3d3fc8d816a05115ba4709267c14bdc716054a1bb79a45da00"
+            }
+          },
+          "text_boxes": [
+            {
+              "text": "훈령  /  DR-036",
+              "x": 80,
+              "y": 52,
+              "width": 166,
+              "height": 27,
+              "fontSize": 25,
+              "role": "eyebrow"
+            },
+            {
+              "text": "조직·편성·운영",
+              "x": 1367.25,
+              "y": 54,
+              "width": 153,
+              "height": 23,
+              "fontSize": 23,
+              "role": "eyebrow"
+            },
+            {
+              "text": "별표 23 · 통신장비 보유기준",
+              "x": 80,
+              "y": 127,
+              "width": 764,
+              "height": 61,
+              "fontSize": 64,
+              "role": "title"
+            },
+            {
+              "text": "원고에서 설명한 네 장비와 부대별 보유기준을 비교한다.",
+              "x": 84,
+              "y": 208,
+              "width": 647,
+              "height": 28,
+              "fontSize": 28,
+              "role": "subtitle"
+            },
+            {
+              "text": "지역대·기동대·중대본부",
+              "x": 80,
+              "y": 334,
+              "width": 457,
+              "height": 43,
+              "fontSize": 44,
+              "role": "section-title"
+            },
+            {
+              "text": "장비 순서: P-999K / PS-LTE / 핸드토키 / 체신전화기",
+              "x": 84,
+              "y": 403,
+              "width": 586,
+              "height": 28,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "지역대",
+              "x": 144,
+              "y": 467,
+              "width": 63,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "2 / 1 / 3 / 없음",
+              "x": 144,
+              "y": 498,
+              "width": 217,
+              "height": 38,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "기동대",
+              "x": 144,
+              "y": 663.44,
+              "width": 63,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "2 / 1 / 7 / 2",
+              "x": 144,
+              "y": 696.44,
+              "width": 176,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "중대본부",
+              "x": 144,
+              "y": 859.88,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "2 / 1 / 2 / 1",
+              "x": 144,
+              "y": 892.88,
+              "width": 171,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "소대·특전예비군",
+              "x": 856,
+              "y": 336,
+              "width": 295,
+              "height": 41,
+              "fontSize": 42,
+              "role": "section-title"
+            },
+            {
+              "text": "동일한 장비 순서 (단위: 대)",
+              "x": 860,
+              "y": 402,
+              "width": 301,
+              "height": 30,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "전방군단 지역 소대",
+              "x": 860,
+              "y": 467,
+              "width": 182,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "1 / — / 5 / 1",
+              "x": 860,
+              "y": 500,
+              "width": 187,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "그 밖의 지역 소대",
+              "x": 860,
+              "y": 663.44,
+              "width": 167,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "— / — / 5 / 1",
+              "x": 860,
+              "y": 696.44,
+              "width": 199,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "특전예비군",
+              "x": 860,
+              "y": 859.88,
+              "width": 106,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "— / — / 3 / —",
+              "x": 860,
+              "y": 892.88,
+              "width": 210,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "예비군기동대에 감시정찰반 편성 시 핸드토키 1대 추가. —는 원고에서 보유 수량을 제시하지 않은 항목.",
+              "x": 80,
+              "y": 980,
+              "width": 973,
+              "height": 23,
+              "fontSize": 23,
+              "role": "note"
+            },
+            {
+              "text": "조직·편성 훈령 제47조 · DR-036-D02",
+              "x": 80,
+              "y": 1072,
+              "width": 353,
+              "height": 22,
+              "fontSize": 22,
+              "role": "footer"
+            },
+            {
+              "text": "무한회독",
+              "x": 1435.38,
+              "y": 1071,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "footer"
+            }
+          ]
+        },
+        {
+          "id": "DR-041-D02",
+          "mode": "new",
+          "script_evidence": {
+            "source_git_blob": "fbb479ed9771ef4a7c0a8c2fa791ebbec4b6f128",
+            "source_sha256": "7ef501d6ef126e02e0d3b0d5c9d56eb0d2f5b00f3b142e4f5afc304ff2bbd921",
+            "lines": [
+              75,
+              77,
+              79,
+              81,
+              87,
+              95,
+              97,
+              99,
+              101,
+              109,
+              119,
+              121,
+              122
+            ]
+          },
+          "layout_errors": [],
+          "png_webp_pixel_equal": true,
+          "visual_review": "pending",
+          "files": {
+            "svg": {
+              "path": "defense-directives/lesson-041/diagrams/DR-041-D02-editorial-v1.svg",
+              "bytes": 6407,
+              "sha256": "f4d3ed29d1989a1263cbe67b7f092e63322c162f6099042cc7f7df2749353b05"
+            },
+            "png": {
+              "path": "defense-directives/lesson-041/diagrams/DR-041-D02-editorial-v1.png",
+              "bytes": 179288,
+              "sha256": "45212c2766522ac2ed349281ce6222e30150dafc753dbbf196a0d570f8d821bf"
+            },
+            "webp": {
+              "path": "defense-directives/lesson-041/diagrams/DR-041-D02-editorial-v1.webp",
+              "bytes": 53884,
+              "sha256": "2253f837d90a407658483127424ae2ab2d9c9e6a69829e28867c6b814224a790"
+            }
+          },
+          "text_boxes": [
+            {
+              "text": "훈령  /  DR-041",
+              "x": 80,
+              "y": 52,
+              "width": 166,
+              "height": 27,
+              "fontSize": 25,
+              "role": "eyebrow"
+            },
+            {
+              "text": "조직·편성·운영",
+              "x": 1367.25,
+              "y": 54,
+              "width": 153,
+              "height": 23,
+              "fontSize": 23,
+              "role": "eyebrow"
+            },
+            {
+              "text": "별표 25 · 보유기준의 세 가지 단서",
+              "x": 80,
+              "y": 127,
+              "width": 917,
+              "height": 61,
+              "fontSize": 64,
+              "role": "title"
+            },
+            {
+              "text": "보유기준의 추가·제외 조건과 정비방식을 구분한다.",
+              "x": 84,
+              "y": 209,
+              "width": 596,
+              "height": 27,
+              "fontSize": 28,
+              "role": "subtitle"
+            },
+            {
+              "text": "보유기준 단서",
+              "x": 80,
+              "y": 334,
+              "width": 255,
+              "height": 43,
+              "fontSize": 44,
+              "role": "section-title"
+            },
+            {
+              "text": "제3항 · 별표 25",
+              "x": 84,
+              "y": 402,
+              "width": 178,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "대검",
+              "x": 144,
+              "y": 467,
+              "width": 42,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "기동대 및 전방군단 주민이동지역 지역예비군",
+              "x": 144,
+              "y": 501,
+              "width": 614,
+              "height": 32,
+              "fontSize": 33,
+              "role": "body"
+            },
+            {
+              "text": "1인 1개 (권총 지급자 제외)",
+              "x": 144,
+              "y": 547.86,
+              "width": 365,
+              "height": 35,
+              "fontSize": 33,
+              "role": "body"
+            },
+            {
+              "text": "감시정찰반",
+              "x": 144,
+              "y": 642.14,
+              "width": 106,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "기동대 편성 시 드론·GPS·쌍안경·M1·M2",
+              "x": 144,
+              "y": 675.14,
+              "width": 601,
+              "height": 33,
+              "fontSize": 33,
+              "role": "body"
+            },
+            {
+              "text": "나침의 추가",
+              "x": 144,
+              "y": 722.0,
+              "width": 161,
+              "height": 33,
+              "fontSize": 33,
+              "role": "body"
+            },
+            {
+              "text": "기동대 전투력 보강",
+              "x": 144,
+              "y": 817.28,
+              "width": 182,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "개인화기",
+              "x": 144,
+              "y": 850.28,
+              "width": 121,
+              "height": 33,
+              "fontSize": 33,
+              "role": "body"
+            },
+            {
+              "text": "조준경·레이저표적지시기·고성능확대경 추가",
+              "x": 144,
+              "y": 897.14,
+              "width": 625,
+              "height": 33,
+              "fontSize": 33,
+              "role": "body"
+            },
+            {
+              "text": "정비 비교",
+              "x": 856,
+              "y": 336,
+              "width": 166,
+              "height": 41,
+              "fontSize": 42,
+              "role": "section-title"
+            },
+            {
+              "text": "제47조와 제52조",
+              "x": 860,
+              "y": 403,
+              "width": 192,
+              "height": 26,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "통신장비",
+              "x": 860,
+              "y": 467,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "부대정비 계단 초과 고장장비는 지원시설에 반납",
+              "x": 860,
+              "y": 500,
+              "width": 653,
+              "height": 33,
+              "fontSize": 33,
+              "role": "body"
+            },
+            {
+              "text": "감시장비",
+              "x": 860,
+              "y": 665.86,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "지원시설 정비 제한 품목은 육성지원예산으로",
+              "x": 860,
+              "y": 698.86,
+              "width": 614,
+              "height": 33,
+              "fontSize": 33,
+              "role": "body"
+            },
+            {
+              "text": "정비",
+              "x": 860,
+              "y": 745.72,
+              "width": 61,
+              "height": 33,
+              "fontSize": 33,
+              "role": "body"
+            },
+            {
+              "text": "전투력 보강 단서의 마지막 품목은 고성능확대경이며 야간투시경이 아니다.",
+              "x": 80,
+              "y": 980,
+              "width": 707,
+              "height": 23,
+              "fontSize": 23,
+              "role": "note"
+            },
+            {
+              "text": "조직·편성 훈령 제52조 · DR-041-D02",
+              "x": 80,
+              "y": 1072,
+              "width": 353,
+              "height": 22,
+              "fontSize": 22,
+              "role": "footer"
+            },
+            {
+              "text": "무한회독",
+              "x": 1435.38,
+              "y": 1071,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "footer"
+            }
+          ]
         }
       ]
     }

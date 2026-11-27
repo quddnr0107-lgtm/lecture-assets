@@ -17,7 +17,7 @@
   "coverage": {
     "expected_lessons": 78,
     "included_lessons": 78,
-    "diagrams": 224,
+    "diagrams": 226,
     "missing_lessons": []
   },
   "law_versions": [
@@ -474,9 +474,10 @@
     {
       "id": "DR-036",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제47조, 통신장비",
-      "diagram_count": 1,
+      "diagram_count": 2,
       "diagram_ids": [
-        "DR-036-D01"
+        "DR-036-D01",
+        "DR-036-D02"
       ],
       "path": "defense-directives/lesson-036/diagrams/",
       "script_ref": "DR-036"
@@ -527,9 +528,10 @@
     {
       "id": "DR-041",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제52조, 감시장비 등",
-      "diagram_count": 1,
+      "diagram_count": 2,
       "diagram_ids": [
-        "DR-041-D01"
+        "DR-041-D01",
+        "DR-041-D02"
       ],
       "path": "defense-directives/lesson-041/diagrams/",
       "script_ref": "DR-041"
@@ -5356,6 +5358,63 @@
       "script_ref": "DR-036"
     },
     {
+      "id": "DR-036-D02",
+      "lecture_id": "DR-036",
+      "lesson_number": 36,
+      "title": "별표 23 · 통신장비 보유기준",
+      "article": "조직·편성 훈령 제47조",
+      "article_key": "1-47",
+      "source_clauses": [
+        "제4항",
+        "별표 23"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J47-0:0",
+      "source_version": "국방부훈령 제3104호",
+      "effective_date": "2025-11-14",
+      "note": "예비군기동대에 감시정찰반 편성 시 핸드토키 1대 추가. —는 원고에서 보유 수량을 제시하지 않은 항목.",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-036/diagrams/DR-036-D02-editorial-v1.svg",
+          "bytes": 5967,
+          "sha256": "aa9ef644d618071f0c81cd26603bc431f8df5af1779777281d61bebef729d48c"
+        },
+        "png": {
+          "path": "defense-directives/lesson-036/diagrams/DR-036-D02-editorial-v1.png",
+          "bytes": 145611,
+          "sha256": "565c399a09d1fced106f3704a31f3b5f9c48ffb19cd7cb4003a554a82bf116cd"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-036/diagrams/DR-036-D02-editorial-v1.webp",
+          "bytes": 44556,
+          "sha256": "d7e30b0ef7a3bb3d3fc8d816a05115ba4709267c14bdc716054a1bb79a45da00"
+        }
+      },
+      "script_ref": "DR-036",
+      "script_evidence": {
+        "source_git_blob": "9d2b3d81243702eabe7c08977c9fae700d2d5b27",
+        "source_sha256": "29cc2b99f7cf762516fcbc14d2f5f8a2b3d826042866b13031d1892cda8664d4",
+        "lines": [
+          103,
+          107,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          116,
+          118,
+          120,
+          128,
+          139,
+          140
+        ]
+      }
+    },
+    {
       "id": "DR-037-D01",
       "lecture_id": "DR-037",
       "lesson_number": 37,
@@ -5684,6 +5743,63 @@
         }
       },
       "script_ref": "DR-041"
+    },
+    {
+      "id": "DR-041-D02",
+      "lecture_id": "DR-041",
+      "lesson_number": 41,
+      "title": "별표 25 · 보유기준의 세 가지 단서",
+      "article": "조직·편성 훈령 제52조",
+      "article_key": "1-52",
+      "source_clauses": [
+        "제2항제1호",
+        "제3항",
+        "별표 25"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J52-0:0",
+      "source_version": "국방부훈령 제3104호",
+      "effective_date": "2025-11-14",
+      "note": "전투력 보강 단서의 마지막 품목은 고성능확대경이며 야간투시경이 아니다.",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 33,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-041/diagrams/DR-041-D02-editorial-v1.svg",
+          "bytes": 6407,
+          "sha256": "f4d3ed29d1989a1263cbe67b7f092e63322c162f6099042cc7f7df2749353b05"
+        },
+        "png": {
+          "path": "defense-directives/lesson-041/diagrams/DR-041-D02-editorial-v1.png",
+          "bytes": 179288,
+          "sha256": "45212c2766522ac2ed349281ce6222e30150dafc753dbbf196a0d570f8d821bf"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-041/diagrams/DR-041-D02-editorial-v1.webp",
+          "bytes": 53884,
+          "sha256": "2253f837d90a407658483127424ae2ab2d9c9e6a69829e28867c6b814224a790"
+        }
+      },
+      "script_ref": "DR-041",
+      "script_evidence": {
+        "source_git_blob": "fbb479ed9771ef4a7c0a8c2fa791ebbec4b6f128",
+        "source_sha256": "7ef501d6ef126e02e0d3b0d5c9d56eb0d2f5b00f3b142e4f5afc304ff2bbd921",
+        "lines": [
+          75,
+          77,
+          79,
+          81,
+          87,
+          95,
+          97,
+          99,
+          101,
+          109,
+          119,
+          121,
+          122
+        ]
+      }
     },
     {
       "id": "DR-042-D01",
