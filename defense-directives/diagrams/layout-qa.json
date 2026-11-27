@@ -1,5 +1,5 @@
 {
-  "diagrams": 190,
+  "diagrams": 193,
   "lessons": 78,
   "lessonCounts": {
     "DR-001": 1,
@@ -46,7 +46,7 @@
     "DR-042": 1,
     "DR-043": 1,
     "DR-044": 3,
-    "DR-045": 1,
+    "DR-045": 4,
     "DR-046": 1,
     "DR-047": 2,
     "DR-048": 1,
@@ -82,5 +82,16 @@
     "DR-078": 4
   },
   "errors": [],
-  "minimumBodyFontSize": 35
+  "minimumBodyFontSize": 35,
+  "targeted_runs": [
+    {
+      "run_id": "dr-20261127-122552",
+      "ids": [
+        "DR-045-D02",
+        "DR-045-D03",
+        "DR-045-D04"
+      ],
+      "errors": []
+    }
+  ]
 }

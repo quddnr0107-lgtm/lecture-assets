@@ -17,7 +17,7 @@
   "coverage": {
     "expected_lessons": 78,
     "included_lessons": 78,
-    "diagrams": 190,
+    "diagrams": 193,
     "missing_lessons": []
   },
   "law_versions": [
@@ -557,9 +557,12 @@
     {
       "id": "DR-045",
       "title": "예비군 교육훈련 훈령 제32조, 과태료 부과 서식 해설",
-      "diagram_count": 1,
+      "diagram_count": 4,
       "diagram_ids": [
-        "DR-045-D01"
+        "DR-045-D01",
+        "DR-045-D02",
+        "DR-045-D03",
+        "DR-045-D04"
       ],
       "path": "defense-directives/lesson-045/diagrams/",
       "script_ref": "DR-045"
@@ -4861,6 +4864,143 @@
         }
       },
       "script_ref": "DR-045"
+    },
+    {
+      "id": "DR-045-D02",
+      "lecture_id": "DR-045",
+      "lesson_number": 45,
+      "title": "자진납부와 이의제기",
+      "article": "교육훈련 훈령 제32조",
+      "article_key": "2-32",
+      "source_clauses": [
+        "별지 제5호 서식",
+        "별지 제6호 서식"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J32-0:0",
+      "source_version": "국방부훈령 제3216호",
+      "effective_date": "2026-10-14",
+      "note": "",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-045/diagrams/DR-045-D02-editorial-v1.svg",
+          "bytes": 5847,
+          "sha256": "2b7fa8bff38b54fa8e025aaa04335027dc48de40a8d8d6a5651662995fc97157"
+        },
+        "png": {
+          "path": "defense-directives/lesson-045/diagrams/DR-045-D02-editorial-v1.png",
+          "bytes": 139618,
+          "sha256": "e9bfe6b8eb9534d5c57eb60a2b26857b2a28064b1c952aaf7afba3d8facd75ef"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-045/diagrams/DR-045-D02-editorial-v1.webp",
+          "bytes": 41726,
+          "sha256": "06b45cbeb850cbeec84e1ad72fa4dc1a86adb968cf064031ceac4215c7e4ac52"
+        }
+      },
+      "script_ref": "DR-045",
+      "script_evidence": {
+        "source_git_blob": "2c13f6ab444effe0f7d91f0d87a7768fbb5a9acb",
+        "source_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18",
+        "lines": [
+          29,
+          39,
+          41,
+          59,
+          61
+        ]
+      }
+    },
+    {
+      "id": "DR-045-D03",
+      "lecture_id": "DR-045",
+      "lesson_number": 45,
+      "title": "가산금과 중가산금",
+      "article": "교육훈련 훈령 제32조",
+      "article_key": "2-32",
+      "source_clauses": [
+        "별지 제6호 서식"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J32-0:0",
+      "source_version": "국방부훈령 제3216호",
+      "effective_date": "2026-10-14",
+      "note": "",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-045/diagrams/DR-045-D03-editorial-v1.svg",
+          "bytes": 4839,
+          "sha256": "fdfb3126a45ca271c4327ac156b10c7efe7bd0ce1a02a2b59dbf8a79c5dca025"
+        },
+        "png": {
+          "path": "defense-directives/lesson-045/diagrams/DR-045-D03-editorial-v1.png",
+          "bytes": 96871,
+          "sha256": "2ad1d947ae4019132d7750995ce686d4a1546f9e1ee53e5b0bf4c3f676fc8102"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-045/diagrams/DR-045-D03-editorial-v1.webp",
+          "bytes": 29658,
+          "sha256": "71b8cb5cf52deaa1497eaa33474c727b568d9d2dcb2e9a2ac5d5faf0b119672e"
+        }
+      },
+      "script_ref": "DR-045",
+      "script_evidence": {
+        "source_git_blob": "2c13f6ab444effe0f7d91f0d87a7768fbb5a9acb",
+        "source_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18",
+        "lines": [
+          45,
+          47,
+          62
+        ]
+      }
+    },
+    {
+      "id": "DR-045-D04",
+      "lecture_id": "DR-045",
+      "lesson_number": 45,
+      "title": "과태료 체납 시 추가 조치",
+      "article": "교육훈련 훈령 제32조",
+      "article_key": "2-32",
+      "source_clauses": [
+        "별지 제6호 서식"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J32-0:0",
+      "source_version": "국방부훈령 제3216호",
+      "effective_date": "2026-10-14",
+      "note": "",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-045/diagrams/DR-045-D04-editorial-v1.svg",
+          "bytes": 5175,
+          "sha256": "beb32e6642a44ecab321f4ade4a06423f7194ae5436417e737522b6c1df20711"
+        },
+        "png": {
+          "path": "defense-directives/lesson-045/diagrams/DR-045-D04-editorial-v1.png",
+          "bytes": 133503,
+          "sha256": "89c7000d2f6605096621cbf22f62d43eed94034448ca374ddc7e39b270c0fcaa"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-045/diagrams/DR-045-D04-editorial-v1.webp",
+          "bytes": 40834,
+          "sha256": "62b33aa908b1c98d85636b2821aa5f4109f6fda1eea95226e4b3259951efc1b8"
+        }
+      },
+      "script_ref": "DR-045",
+      "script_evidence": {
+        "source_git_blob": "2c13f6ab444effe0f7d91f0d87a7768fbb5a9acb",
+        "source_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18",
+        "lines": [
+          49,
+          63
+        ]
+      }
     },
     {
       "id": "DR-046-D01",

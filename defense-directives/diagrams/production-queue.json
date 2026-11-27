@@ -66,24 +66,13 @@
     ]
   },
   "state": {
-    "active_run": {
-      "id": "dr-20261127-122552",
-      "started_at": "2026-11-27T12:25:52+09:00",
-      "lease_expires_at": "2026-11-27T14:25:52+09:00",
-      "claimed_job_ids": [
-        "DR-045-coverage-review-v1",
-        "DR-045-existing-script-voluntary-payment-and-objection",
-        "DR-045-existing-script-arrears-rates",
-        "DR-045-existing-script-arrears-other-measures"
-      ],
-      "mode": "single coordinator; targeted render and verification via GitHub Actions"
-    },
+    "active_run": null,
     "last_successful_run": null,
     "coverage_reviews_total": 78,
-    "coverage_reviews_queued": 76,
+    "coverage_reviews_queued": 77,
     "coverage_reviews_completed": 1,
     "confirmed_production_jobs": 3,
-    "diagrams_added_after_baseline": 0,
+    "diagrams_added_after_baseline": 3,
     "diagrams_revised_after_baseline": 3,
     "script_bindings_verified": 78,
     "last_correction": {
@@ -97,7 +86,8 @@
       "report": "defense-directives/diagrams/script-alignment-qa.json",
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
-    "production_jobs_queued": 0
+    "production_jobs_queued": 0,
+    "production_jobs_qa": 3
   },
   "jobs": [
     {
@@ -299,10 +289,13 @@
       "lesson_id": "DR-045",
       "title": "예비군 교육훈련 훈령 제32조, 과태료 부과 서식 해설",
       "priority": 7,
-      "status": "running",
-      "existing_diagram_count": 1,
+      "status": "queued",
+      "existing_diagram_count": 4,
       "existing_diagram_ids": [
-        "DR-045-D01"
+        "DR-045-D01",
+        "DR-045-D02",
+        "DR-045-D03",
+        "DR-045-D04"
       ],
       "article_keys": [
         "2-32"
@@ -312,11 +305,14 @@
       ],
       "output_directory": "defense-directives/lesson-045/diagrams/",
       "input_fingerprint": null,
-      "claimed_by": "dr-20261127-122552",
-      "claimed_at": "2026-11-27T12:25:52+09:00",
-      "lease_expires_at": "2026-11-27T14:25:52+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "scope": "기존 원고 전문·D01 비교; 신규 3장 렌더 완료, 시각 검수 대기",
+        "source_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18"
+      },
       "script_ref": "DR-045",
       "script_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18",
       "confirmed_production_job_ids": [
@@ -2367,13 +2363,29 @@
       "source_scope": "기존 스크립트의 사전통지서 및 부과결정서 안내 문단",
       "suggested_output": "기존 원고의 두 절차를 비교하는 추가 도식1장. 확정 ID는 현재 폴더의 실제 다음 번호를 확인해 부여한다.",
       "new_script_required": false,
-      "status": "running",
+      "status": "qa",
       "script_ref": "DR-045",
-      "claimed_by": "dr-20261127-122552",
-      "claimed_at": "2026-11-27T12:25:52+09:00",
-      "lease_expires_at": "2026-11-27T14:25:52+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "completed_at": null,
-      "outputs": [],
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-045/diagrams/DR-045-D02-editorial-v1.svg",
+          "bytes": 5847,
+          "sha256": "2b7fa8bff38b54fa8e025aaa04335027dc48de40a8d8d6a5651662995fc97157"
+        },
+        {
+          "path": "defense-directives/lesson-045/diagrams/DR-045-D02-editorial-v1.png",
+          "bytes": 139618,
+          "sha256": "e9bfe6b8eb9534d5c57eb60a2b26857b2a28064b1c952aaf7afba3d8facd75ef"
+        },
+        {
+          "path": "defense-directives/lesson-045/diagrams/DR-045-D02-editorial-v1.webp",
+          "bytes": 41726,
+          "sha256": "06b45cbeb850cbeec84e1ad72fa4dc1a86adb968cf064031ceac4215c7e4ac52"
+        }
+      ],
       "design_version": "editorial-v1",
       "evidence": [
         {
@@ -2393,7 +2405,11 @@
             41
           ]
         }
-      ]
+      ],
+      "diagram_id": "DR-045-D02",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-045-existing-script-arrears-rates",
@@ -2412,13 +2428,29 @@
       "source_scope": "기존 스크립트의 부과결정서 아래 미납 안내",
       "suggested_output": "기존 원고의 가산금/중가산금 비교 도식1장. 확정 ID는 현재 폴더의 실제 다음 번호를 확인해 부여한다.",
       "new_script_required": false,
-      "status": "running",
+      "status": "qa",
       "script_ref": "DR-045",
-      "claimed_by": "dr-20261127-122552",
-      "claimed_at": "2026-11-27T12:25:52+09:00",
-      "lease_expires_at": "2026-11-27T14:25:52+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "completed_at": null,
-      "outputs": [],
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-045/diagrams/DR-045-D03-editorial-v1.svg",
+          "bytes": 4839,
+          "sha256": "fdfb3126a45ca271c4327ac156b10c7efe7bd0ce1a02a2b59dbf8a79c5dca025"
+        },
+        {
+          "path": "defense-directives/lesson-045/diagrams/DR-045-D03-editorial-v1.png",
+          "bytes": 96871,
+          "sha256": "2ad1d947ae4019132d7750995ce686d4a1546f9e1ee53e5b0bf4c3f676fc8102"
+        },
+        {
+          "path": "defense-directives/lesson-045/diagrams/DR-045-D03-editorial-v1.webp",
+          "bytes": 29658,
+          "sha256": "71b8cb5cf52deaa1497eaa33474c727b568d9d2dcb2e9a2ac5d5faf0b119672e"
+        }
+      ],
       "design_version": "editorial-v1",
       "evidence": [
         {
@@ -2431,7 +2463,11 @@
             62
           ]
         }
-      ]
+      ],
+      "diagram_id": "DR-045-D03",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-045-existing-script-arrears-other-measures",
@@ -2459,11 +2495,31 @@
           ]
         }
       ],
-      "status": "running",
-      "outputs": [],
-      "claimed_by": "dr-20261127-122552",
-      "claimed_at": "2026-11-27T12:25:52+09:00",
-      "lease_expires_at": "2026-11-27T14:25:52+09:00"
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-045/diagrams/DR-045-D04-editorial-v1.svg",
+          "bytes": 5175,
+          "sha256": "beb32e6642a44ecab321f4ade4a06423f7194ae5436417e737522b6c1df20711"
+        },
+        {
+          "path": "defense-directives/lesson-045/diagrams/DR-045-D04-editorial-v1.png",
+          "bytes": 133503,
+          "sha256": "89c7000d2f6605096621cbf22f62d43eed94034448ca374ddc7e39b270c0fcaa"
+        },
+        {
+          "path": "defense-directives/lesson-045/diagrams/DR-045-D04-editorial-v1.webp",
+          "bytes": 40834,
+          "sha256": "62b33aa908b1c98d85636b2821aa5f4109f6fda1eea95226e4b3259951efc1b8"
+        }
+      ],
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "diagram_id": "DR-045-D04",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     }
   ],
   "runs": [
@@ -2473,6 +2529,17 @@
       "recorded_automation_completion": "2026-11-27T11:31:24+09:00",
       "reconciled_at": "2026-11-27T11:59:19+09:00",
       "action": "공식 자동화 조회에서 실행 종료를 확인했으며, 새 제80회 스크립트 기준으로 미완료 선점 9건을 다시 큐에 넣음."
+    },
+    {
+      "id": "dr-20261127-122552",
+      "status": "rendered_pending_visual_qa",
+      "new_diagrams": 3,
+      "completed_reviews": 1,
+      "diagram_ids": [
+        "DR-045-D02",
+        "DR-045-D03",
+        "DR-045-D04"
+      ]
     }
   ],
   "exam": {

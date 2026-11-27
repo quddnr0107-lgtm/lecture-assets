@@ -75,9 +75,9 @@
       "full_lesson_coverage_review": "pending"
     }
   ],
-  "full_lecture_coverage_reviews_completed": 0,
-  "remaining_full_lecture_reviews": 78,
-  "new_diagrams": 0,
+  "full_lecture_coverage_reviews_completed": 1,
+  "remaining_full_lecture_reviews": 77,
+  "new_diagrams": 3,
   "revised_diagrams": 3,
   "priority_script_comparison": {
     "schema_version": 1,
@@ -430,5 +430,656 @@
     ],
     "result": "passed",
     "overlap_or_clipping_observed": false
-  }
+  },
+  "targeted_render_runs": [
+    {
+      "run_id": "dr-20261127-122552",
+      "lesson_id": "DR-045",
+      "records": [
+        {
+          "id": "DR-045-D02",
+          "script_evidence": {
+            "source_git_blob": "2c13f6ab444effe0f7d91f0d87a7768fbb5a9acb",
+            "source_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18",
+            "lines": [
+              29,
+              39,
+              41,
+              59,
+              61
+            ]
+          },
+          "layout_errors": [],
+          "png_webp_pixel_equal": true,
+          "visual_review": "pending",
+          "files": {
+            "svg": {
+              "path": "defense-directives/lesson-045/diagrams/DR-045-D02-editorial-v1.svg",
+              "bytes": 5847,
+              "sha256": "2b7fa8bff38b54fa8e025aaa04335027dc48de40a8d8d6a5651662995fc97157"
+            },
+            "png": {
+              "path": "defense-directives/lesson-045/diagrams/DR-045-D02-editorial-v1.png",
+              "bytes": 139618,
+              "sha256": "e9bfe6b8eb9534d5c57eb60a2b26857b2a28064b1c952aaf7afba3d8facd75ef"
+            },
+            "webp": {
+              "path": "defense-directives/lesson-045/diagrams/DR-045-D02-editorial-v1.webp",
+              "bytes": 41726,
+              "sha256": "06b45cbeb850cbeec84e1ad72fa4dc1a86adb968cf064031ceac4215c7e4ac52"
+            }
+          },
+          "text_boxes": [
+            {
+              "text": "훈령  /  DR-045",
+              "x": 80,
+              "y": 52,
+              "width": 166,
+              "height": 27,
+              "fontSize": 25,
+              "role": "eyebrow"
+            },
+            {
+              "text": "교육훈련",
+              "x": 1435.38,
+              "y": 54,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "eyebrow"
+            },
+            {
+              "text": "자진납부와 이의제기",
+              "x": 80,
+              "y": 127,
+              "width": 548,
+              "height": 61,
+              "fontSize": 64,
+              "role": "title"
+            },
+            {
+              "text": "사전통지 단계의 감경과 부과통지 이후 불복을 구분한다.",
+              "x": 84,
+              "y": 208,
+              "width": 647,
+              "height": 28,
+              "fontSize": 28,
+              "role": "subtitle"
+            },
+            {
+              "text": "자진납부 감경",
+              "x": 80,
+              "y": 334,
+              "width": 255,
+              "height": 43,
+              "fontSize": 44,
+              "role": "section-title"
+            },
+            {
+              "text": "사전통지서 · 별지 제5호",
+              "x": 84,
+              "y": 402,
+              "width": 273,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "조건",
+              "x": 144,
+              "y": 467,
+              "width": 42,
+              "height": 22,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "의견제출 기한 내 자진납부",
+              "x": 144,
+              "y": 498,
+              "width": 395,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "감경 범위",
+              "x": 144,
+              "y": 652.38,
+              "width": 91,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "100분의 20 이내에서 감경 가능",
+              "x": 144,
+              "y": 683.38,
+              "width": 467,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "절차 종료",
+              "x": 144,
+              "y": 837.76,
+              "width": 91,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "감경된 과태료 자진납부 시",
+              "x": 144,
+              "y": 868.76,
+              "width": 395,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "의견제출·이의제기 불가",
+              "x": 144,
+              "y": 919.88,
+              "width": 362,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "부과에 불복",
+              "x": 856,
+              "y": 336,
+              "width": 205,
+              "height": 41,
+              "fontSize": 42,
+              "role": "section-title"
+            },
+            {
+              "text": "부과 결정서 · 별지 제6호",
+              "x": 860,
+              "y": 402,
+              "width": 281,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "기산점",
+              "x": 860,
+              "y": 467,
+              "width": 63,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "과태료 부과통지를 받은 날",
+              "x": 860,
+              "y": 497,
+              "width": 395,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "이의제기",
+              "x": 860,
+              "y": 670.12,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "60일 이내",
+              "x": 860,
+              "y": 701.12,
+              "width": 152,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "판단",
+              "x": 860,
+              "y": 873.24,
+              "width": 42,
+              "height": 22,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "이의제기 시 법원의 과태료 재판",
+              "x": 860,
+              "y": 903.24,
+              "width": 471,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "교육훈련 훈령 제32조 · DR-045-D02",
+              "x": 80,
+              "y": 1072,
+              "width": 341,
+              "height": 22,
+              "fontSize": 22,
+              "role": "footer"
+            },
+            {
+              "text": "무한회독",
+              "x": 1435.38,
+              "y": 1071,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "footer"
+            }
+          ]
+        },
+        {
+          "id": "DR-045-D03",
+          "script_evidence": {
+            "source_git_blob": "2c13f6ab444effe0f7d91f0d87a7768fbb5a9acb",
+            "source_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18",
+            "lines": [
+              45,
+              47,
+              62
+            ]
+          },
+          "layout_errors": [],
+          "png_webp_pixel_equal": true,
+          "visual_review": "pending",
+          "files": {
+            "svg": {
+              "path": "defense-directives/lesson-045/diagrams/DR-045-D03-editorial-v1.svg",
+              "bytes": 4839,
+              "sha256": "fdfb3126a45ca271c4327ac156b10c7efe7bd0ce1a02a2b59dbf8a79c5dca025"
+            },
+            "png": {
+              "path": "defense-directives/lesson-045/diagrams/DR-045-D03-editorial-v1.png",
+              "bytes": 96871,
+              "sha256": "2ad1d947ae4019132d7750995ce686d4a1546f9e1ee53e5b0bf4c3f676fc8102"
+            },
+            "webp": {
+              "path": "defense-directives/lesson-045/diagrams/DR-045-D03-editorial-v1.webp",
+              "bytes": 29658,
+              "sha256": "71b8cb5cf52deaa1497eaa33474c727b568d9d2dcb2e9a2ac5d5faf0b119672e"
+            }
+          },
+          "text_boxes": [
+            {
+              "text": "훈령  /  DR-045",
+              "x": 80,
+              "y": 52,
+              "width": 166,
+              "height": 27,
+              "fontSize": 25,
+              "role": "eyebrow"
+            },
+            {
+              "text": "교육훈련",
+              "x": 1435.38,
+              "y": 54,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "eyebrow"
+            },
+            {
+              "text": "가산금과 중가산금",
+              "x": 80,
+              "y": 127,
+              "width": 489,
+              "height": 61,
+              "fontSize": 64,
+              "role": "title"
+            },
+            {
+              "text": "납부기한까지 과태료를 납부하지 않은 경우 적용한다.",
+              "x": 84,
+              "y": 209,
+              "width": 614,
+              "height": 27,
+              "fontSize": 28,
+              "role": "subtitle"
+            },
+            {
+              "text": "가산금",
+              "x": 80,
+              "y": 334,
+              "width": 121,
+              "height": 42,
+              "fontSize": 44,
+              "role": "section-title"
+            },
+            {
+              "text": "납부기한 경과 시",
+              "x": 84,
+              "y": 403,
+              "width": 189,
+              "height": 26,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "산정 기준",
+              "x": 144,
+              "y": 467,
+              "width": 91,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "체납된 과태료",
+              "x": 144,
+              "y": 498,
+              "width": 209,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "비율",
+              "x": 144,
+              "y": 670.12,
+              "width": 42,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "100분의 3 (3%)",
+              "x": 144,
+              "y": 701.12,
+              "width": 240,
+              "height": 38,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "중가산금",
+              "x": 856,
+              "y": 336,
+              "width": 155,
+              "height": 41,
+              "fontSize": 42,
+              "role": "section-title"
+            },
+            {
+              "text": "매 1개월마다 추가",
+              "x": 860,
+              "y": 402,
+              "width": 203,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "주기",
+              "x": 860,
+              "y": 467,
+              "width": 42,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "매 1개월마다",
+              "x": 860,
+              "y": 497,
+              "width": 195,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "비율",
+              "x": 860,
+              "y": 670.12,
+              "width": 42,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "1천분의 12 (1.2%)",
+              "x": 860,
+              "y": 700.12,
+              "width": 295,
+              "height": 40,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "교육훈련 훈령 제32조 · DR-045-D03",
+              "x": 80,
+              "y": 1072,
+              "width": 341,
+              "height": 22,
+              "fontSize": 22,
+              "role": "footer"
+            },
+            {
+              "text": "무한회독",
+              "x": 1435.38,
+              "y": 1071,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "footer"
+            }
+          ]
+        },
+        {
+          "id": "DR-045-D04",
+          "script_evidence": {
+            "source_git_blob": "2c13f6ab444effe0f7d91f0d87a7768fbb5a9acb",
+            "source_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18",
+            "lines": [
+              49,
+              63
+            ]
+          },
+          "layout_errors": [],
+          "png_webp_pixel_equal": true,
+          "visual_review": "pending",
+          "files": {
+            "svg": {
+              "path": "defense-directives/lesson-045/diagrams/DR-045-D04-editorial-v1.svg",
+              "bytes": 5175,
+              "sha256": "beb32e6642a44ecab321f4ade4a06423f7194ae5436417e737522b6c1df20711"
+            },
+            "png": {
+              "path": "defense-directives/lesson-045/diagrams/DR-045-D04-editorial-v1.png",
+              "bytes": 133503,
+              "sha256": "89c7000d2f6605096621cbf22f62d43eed94034448ca374ddc7e39b270c0fcaa"
+            },
+            "webp": {
+              "path": "defense-directives/lesson-045/diagrams/DR-045-D04-editorial-v1.webp",
+              "bytes": 40834,
+              "sha256": "62b33aa908b1c98d85636b2821aa5f4109f6fda1eea95226e4b3259951efc1b8"
+            }
+          },
+          "text_boxes": [
+            {
+              "text": "훈령  /  DR-045",
+              "x": 80,
+              "y": 52,
+              "width": 166,
+              "height": 27,
+              "fontSize": 25,
+              "role": "eyebrow"
+            },
+            {
+              "text": "교육훈련",
+              "x": 1435.38,
+              "y": 54,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "eyebrow"
+            },
+            {
+              "text": "과태료 체납 시 추가 조치",
+              "x": 80,
+              "y": 127,
+              "width": 660,
+              "height": 61,
+              "fontSize": 64,
+              "role": "title"
+            },
+            {
+              "text": "가산금 이외에 부과 결정서에서 안내하는 조치를 구분한다.",
+              "x": 84,
+              "y": 208,
+              "width": 673,
+              "height": 28,
+              "fontSize": 28,
+              "role": "subtitle"
+            },
+            {
+              "text": "관허사업 제한",
+              "x": 80,
+              "y": 334,
+              "width": 255,
+              "height": 43,
+              "fontSize": 44,
+              "role": "section-title"
+            },
+            {
+              "text": "질서위반행위규제법 제52조",
+              "x": 84,
+              "y": 402,
+              "width": 311,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "조건",
+              "x": 144,
+              "y": 467,
+              "width": 42,
+              "height": 22,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "대통령령이 정하는 사유 없이 일정",
+              "x": 144,
+              "y": 498,
+              "width": 504,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "횟수·금액 이상 체납",
+              "x": 144,
+              "y": 549.12,
+              "width": 305,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "조치",
+              "x": 144,
+              "y": 721.24,
+              "width": 42,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "관허사업 제한 가능",
+              "x": 144,
+              "y": 752.24,
+              "width": 285,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "그 밖의 조치",
+              "x": 856,
+              "y": 336,
+              "width": 217,
+              "height": 41,
+              "fontSize": 42,
+              "role": "section-title"
+            },
+            {
+              "text": "부과 결정서 안내",
+              "x": 860,
+              "y": 402,
+              "width": 189,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "체납 자료",
+              "x": 860,
+              "y": 467,
+              "width": 91,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "신용정보집중기관에 제공 가능",
+              "x": 860,
+              "y": 497,
+              "width": 451,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "감치",
+              "x": 860,
+              "y": 670.12,
+              "width": 42,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "고액·상습체납자는 감치 가능 (제54조)",
+              "x": 860,
+              "y": 700.12,
+              "width": 583,
+              "height": 40,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "교육훈련 훈령 제32조 · DR-045-D04",
+              "x": 80,
+              "y": 1072,
+              "width": 341,
+              "height": 22,
+              "fontSize": 22,
+              "role": "footer"
+            },
+            {
+              "text": "무한회독",
+              "x": 1435.38,
+              "y": 1071,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "footer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

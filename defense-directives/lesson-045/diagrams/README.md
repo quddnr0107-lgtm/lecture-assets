@@ -1,6 +1,6 @@
 # DR-045 · 예비군 교육훈련 훈령 제32조, 과태료 부과 서식 해설
 
-도식 **1장** · 1600 × 1120 · 흑백 편집형 디자인
+도식 **4장** · 1600 × 1120 · 흑백 편집형 디자인
 
 [훈령 전체 목록](../../README.md) · [전체 매니페스트](../../diagrams-manifest.json)
 
@@ -11,3 +11,31 @@
 ![과태료 서식 5호와 6호](DR-045-D01-editorial-v1.webp)
 
 근거: [교육훈련 훈령 제32조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J32-0:0) · 국방부훈령 제3216호
+
+
+## DR-045-D02 · 자진납부와 이의제기
+
+[WebP](DR-045-D02-editorial-v1.webp) · [PNG](DR-045-D02-editorial-v1.png) · [SVG 원본](DR-045-D02-editorial-v1.svg)
+
+![자진납부와 이의제기](DR-045-D02-editorial-v1.webp)
+
+근거: [교육훈련 훈령 제32조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J32-0:0) · 국방부훈령 제3216호
+
+
+## DR-045-D03 · 가산금과 중가산금
+
+[WebP](DR-045-D03-editorial-v1.webp) · [PNG](DR-045-D03-editorial-v1.png) · [SVG 원본](DR-045-D03-editorial-v1.svg)
+
+![가산금과 중가산금](DR-045-D03-editorial-v1.webp)
+
+근거: [교육훈련 훈령 제32조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J32-0:0) · 국방부훈령 제3216호
+
+
+## DR-045-D04 · 과태료 체납 시 추가 조치
+
+[WebP](DR-045-D04-editorial-v1.webp) · [PNG](DR-045-D04-editorial-v1.png) · [SVG 원본](DR-045-D04-editorial-v1.svg)
+
+![과태료 체납 시 추가 조치](DR-045-D04-editorial-v1.webp)
+
+근거: [교육훈련 훈령 제32조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J32-0:0) · 국방부훈령 제3216호
+
