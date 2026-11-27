@@ -7,7 +7,7 @@
 | 강의 | 페이지 | 검수 상태 |
 |---|---:|---|
 | [01강](../lesson-001/diagrams/notion-v1/mobile/) | 2 | 완료 |
-| [02강](../lesson-002/diagrams/notion-v1/mobile/) | 8 | 시각 검수 대기 |
+| [02강](../lesson-002/diagrams/notion-v1/mobile/) | 8 | 페이지 균형 검토 필요 |
 | [03강](../lesson-003/diagrams/notion-v1/mobile/) | 8 | 시각 검수 대기 |
 | [04강](../lesson-004/diagrams/notion-v1/mobile/) | 9 | 시각 검수 대기 |
 | [05강](../lesson-005/diagrams/notion-v1/mobile/) | 12 | 시각 검수 대기 |

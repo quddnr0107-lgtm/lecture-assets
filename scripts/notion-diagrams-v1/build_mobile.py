@@ -76,6 +76,30 @@ def paginate(lesson,d):
             add(h)
         add(lines)
     if cur:pages.append(cur)
+    # Avoid a final page containing only legal references. Preserve all content,
+    # font sizes and ordering; move a meaningful suffix of the previous page.
+    if len(pages)>1 and pages[-1][0][0][0]=='법령 근거':
+        prev,last=pages[-2],pages[-1]
+        total=lambda pp:sum(height(b) for b in pp)
+        options=[]
+        for cut in range(1,len(prev)):
+            left,tail=prev[:cut],prev[cut:]
+            if left[-1][-1][3]=='heading':continue
+            # Preserve context when moving a list item or note across a page.
+            prefix=[]
+            if tail[0][0][3]!='heading':
+                headings=[b for b in left if b[0][3]=='heading']
+                if not headings:continue
+                name=' '.join(t[0] for t in headings[-1] if t[3]=='heading')
+                if not name:continue
+                if not name.endswith('(계속)'):name+=' (계속)'
+                prefix=[block(name,48,True,'heading')]
+            right=prefix+tail+last
+            if total(right)<=capacity and total(left)<=capacity:
+                options.append((abs(total(left)-total(right)),cut,left,right))
+        if not options:raise ValueError('Cannot rebalance reference-only page: '+d['id'])
+        _,_,left,right=min(options,key=lambda x:(x[0],x[1]))
+        pages[-2:]=[left,right]
     return title,subtitle,pages,start
 
 def build_page(lesson,d,header,pages,page,start,base):

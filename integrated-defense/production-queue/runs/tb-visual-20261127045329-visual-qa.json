@@ -1,0 +1,33 @@
+{
+  "run_id": "tb-visual-20261127045329",
+  "exam_number": 80,
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "reviewed_input_commit": "eb2424334f803fb17d2dc9fa60963577d155e85c",
+  "reviewed_lessons": [
+    2
+  ],
+  "reviewed_pages": 8,
+  "visual_issues": [
+    {
+      "lesson": 2,
+      "source_id": "TB-002-D02",
+      "page": 3,
+      "description": "법령 근거만 표시되어 페이지 대부분이 비어 있음."
+    }
+  ],
+  "previous_issues": [
+    21,
+    25
+  ],
+  "repair_scope": [
+    2,
+    21,
+    25
+  ],
+  "released_unreviewed_leases": [
+    3,
+    4
+  ],
+  "status": "render_requested_not_verified",
+  "note": "PNG 첫 페이지와 WebP 나머지 7페이지를 실제 열어 검수함. 원고 및 원본 도식 내용 변경 없음. 이전의 원고 대조 결과를 사용하며 이번에 새 원고 일치 검수를 했다는 뜻은 아님."
+}
