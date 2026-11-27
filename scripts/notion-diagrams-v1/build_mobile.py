@@ -100,6 +100,16 @@ def paginate(lesson,d):
         if not options:raise ValueError('Cannot rebalance reference-only page: '+d['id'])
         _,_,left,right=min(options,key=lambda x:(x[0],x[1]))
         pages[-2:]=[left,right]
+    # Keep one heading per continuous section on a page after rebalancing.
+    for i,page in enumerate(pages):
+        cleaned=[]; active_heading=None
+        for b in page:
+            if b[0][3]=='heading':
+                name=' '.join(t[0] for t in b if t[3]=='heading')
+                if name=='법령 근거' and active_heading==name and all(t[3]=='heading' for t in b):continue
+                active_heading=name
+            cleaned.append(b)
+        pages[i]=cleaned
     return title,subtitle,pages,start
 
 def build_page(lesson,d,header,pages,page,start,base):
