@@ -599,14 +599,10 @@
       "outputs": [
         "integrated-defense/lesson-011/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-20261127T135012Z",
-        "started_at": "2026-11-27T13:50:12Z",
-        "expires_at": "2026-11-27T14:49:00Z"
-      },
+      "lease": null,
       "attempts": 4,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "D01 보도본부 설치권한과 기자단 제공 의무의 진행 상황 표현 및 침투·도발 용어를 구분하도록 원고 기준 수정 필요. D02·D03 시각 이상 없음.",
+      "review_note": "D01 원고 문구 3건 확정; 데스크톱·모바일 재생성 및 정합성 갱신 필요. integrated-defense/production-queue/runs/tb-exam80-20261127T135012Z-visual-qa.json",
       "repair_required": {
         "diagram_id": "TB-011-D01",
         "report": "integrated-defense/production-queue/runs/tb-exam80-20261127-1049-qa.json"
@@ -659,7 +655,7 @@
       "lecture_id": "TB-013",
       "title": "13강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -680,18 +676,20 @@
       "outputs": [
         "integrated-defense/lesson-013/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-20261127T135012Z",
-        "started_at": "2026-11-27T13:50:12Z",
-        "expires_at": "2026-11-27T14:49:00Z"
-      },
+      "lease": null,
       "attempts": 4,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "직전 재생성 실패(lease ID 불일치), 모바일 방향 표현 재생성 재시도.",
+      "review_note": "실제 WebP 전 페이지 검수 통과; 원고 blob·렌더러 해시 기록·원격 경로 및 크기 일치.",
       "previous_lease": {
         "run_id": "tb-exam80-review-20261127T114833743Z",
         "started_at": "2026-11-27T11:48:33.743Z",
         "expires_at": "2026-11-27T12:48:33.743Z"
+      },
+      "completed_evidence": {
+        "verified_commit": "7bae75cf29afc56eebf19b10e83210f0d727be53",
+        "visual_report": "integrated-defense/production-queue/runs/tb-exam80-20261127T135012Z-visual-qa.json",
+        "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+        "output_type": "mobile"
       }
     },
     {
@@ -781,7 +779,7 @@
       "lecture_id": "TB-016",
       "title": "16강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -804,18 +802,20 @@
       "outputs": [
         "integrated-defense/lesson-016/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-20261127T135012Z",
-        "started_at": "2026-11-27T13:50:12Z",
-        "expires_at": "2026-11-27T14:49:00Z"
-      },
+      "lease": null,
       "attempts": 4,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "직전 재생성 실패(lease ID 불일치), 근거 전용 페이지 재균형 재시도.",
+      "review_note": "실제 WebP 전 페이지 검수 통과; 원고 blob·렌더러 해시 기록·원격 경로 및 크기 일치.",
       "previous_lease": {
         "run_id": "tb-exam80-review-20261127T114833743Z",
         "started_at": "2026-11-27T11:48:33.743Z",
         "expires_at": "2026-11-27T12:48:33.743Z"
+      },
+      "completed_evidence": {
+        "verified_commit": "7bae75cf29afc56eebf19b10e83210f0d727be53",
+        "visual_report": "integrated-defense/production-queue/runs/tb-exam80-20261127T135012Z-visual-qa.json",
+        "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+        "output_type": "mobile"
       }
     },
     {
@@ -1031,7 +1031,7 @@
       "lecture_id": "TB-022",
       "title": "22강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "reserved",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -1059,7 +1059,7 @@
       },
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
+      "review_note": "D02 M03 근거만 남은 페이지"
     },
     {
       "id": "TB-023-MOBILE",
@@ -1068,7 +1068,7 @@
       "lecture_id": "TB-023",
       "title": "23강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "reserved",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -1097,7 +1097,7 @@
       },
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
+      "review_note": "D02 M03 근거만 남은 페이지; D03 M03 재검수 필요"
     },
     {
       "id": "TB-024-MOBILE",
@@ -1106,7 +1106,7 @@
       "lecture_id": "TB-024",
       "title": "24강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "reserved",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -1134,7 +1134,7 @@
       },
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
+      "review_note": "D01 M03 근거만 남은 페이지"
     },
     {
       "id": "TB-025-MOBILE",
@@ -1247,19 +1247,20 @@
     "checked_at_kst": "2026-11-27T12:02:16+09:00"
   },
   "last_render_run": "tb-exam80-review-20261127T1248Z",
-  "last_verified_commit": "28acd1a9b5b3a97f90bf30b4541b612ca719e307",
+  "last_verified_commit": "7bae75cf29afc56eebf19b10e83210f0d727be53",
   "progress": {
-    "jobs_done": 23,
-    "jobs_remaining": 7,
+    "jobs_done": 25,
+    "jobs_remaining": 5,
     "desktop_diagrams": 55,
     "mobile_rendered_lessons": 25,
     "mobile_rendered_pages": 137,
-    "mobile_verified_lessons": 19,
-    "mobile_verified_pages": 94,
+    "mobile_verified_lessons": 21,
+    "mobile_verified_pages": 112,
     "mobile_layout_review_lessons": [
       11,
-      13,
-      16
+      22,
+      23,
+      24
     ]
   }
 }

@@ -18,16 +18,16 @@
 | [10강](../lesson-010/diagrams/notion-v1/mobile/) | 3 | 완료 |
 | [11강](../lesson-011/diagrams/notion-v1/mobile/) | 7 | 원고 표현 수정 필요 |
 | [12강](../lesson-012/diagrams/notion-v1/mobile/) | 6 | 완료 |
-| [13강](../lesson-013/diagrams/notion-v1/mobile/) | 6 | 재생성 완료·시각 검수 대기 |
+| [13강](../lesson-013/diagrams/notion-v1/mobile/) | 6 | 완료 |
 | [14강](../lesson-014/diagrams/notion-v1/mobile/) | 2 | 완료 |
 | [15강](../lesson-015/diagrams/notion-v1/mobile/) | 3 | 완료 |
-| [16강](../lesson-016/diagrams/notion-v1/mobile/) | 12 | 재생성 완료·시각 검수 대기 |
+| [16강](../lesson-016/diagrams/notion-v1/mobile/) | 12 | 완료 |
 | [17강](../lesson-017/diagrams/notion-v1/mobile/) | 5 | 완료 |
 | [18강](../lesson-018/diagrams/notion-v1/mobile/) | 5 | 완료 |
 | [19강](../lesson-019/diagrams/notion-v1/mobile/) | 3 | 완료 |
 | [20강](../lesson-020/diagrams/notion-v1/mobile/) | 2 | 완료 |
 | [21강](../lesson-021/diagrams/notion-v1/mobile/) | 2 | 완료 |
-| [22강](../lesson-022/diagrams/notion-v1/mobile/) | 5 | 시각 검수 대기 |
-| [23강](../lesson-023/diagrams/notion-v1/mobile/) | 8 | 시각 검수 대기 |
-| [24강](../lesson-024/diagrams/notion-v1/mobile/) | 5 | 시각 검수 대기 |
+| [22강](../lesson-022/diagrams/notion-v1/mobile/) | 5 | 근거 페이지 재배치 필요 |
+| [23강](../lesson-023/diagrams/notion-v1/mobile/) | 8 | 근거 페이지 재배치 필요 |
+| [24강](../lesson-024/diagrams/notion-v1/mobile/) | 5 | 근거 페이지 재배치 필요 |
 | [25강](../lesson-025/diagrams/notion-v1/mobile/) | 2 | 완료 |
