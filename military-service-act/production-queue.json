@@ -2937,14 +2937,15 @@
         "MS-109-D02-editorial-v1",
         "MS-109-D03-editorial-v1"
       ],
-      "full_script_read": false,
+      "full_script_read": true,
       "lease": null,
-      "checkpoint": 6,
+      "checkpoint": 9,
       "evidence_refs": [
         "military-service-act/production-evidence/exam80-generation-2/MS-109/002-publication-review.json",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-04-visual-review.json",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-05-corrected-drafts.json",
-        "military-service-act/production-evidence/exam80-generation-2/MS-109/006-publication-review.json"
+        "military-service-act/production-evidence/exam80-generation-2/MS-109/006-publication-review.json",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-09-MS-109-coverage-drafts.json"
       ],
       "outcome": null,
       "changed_diagram_ids": [],
@@ -2960,7 +2961,7 @@
         "MS-109-D02-editorial-v1",
         "MS-109-D03-editorial-v1"
       ],
-      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/MS-109/006-publication-review.json",
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-09-MS-109-coverage-drafts.json",
       "draft_preview_paths": [
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-109/travel-application.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-109/travel-stay-purpose.svg",
@@ -2969,7 +2970,12 @@
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/overseas-residence-special.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/study-travel-extension-r2.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/travel-cancellation-numbers-r2.svg",
-        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/overseas-residence-special-r2.svg"
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/overseas-residence-special-r2.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/restriction-grounds-and-exceptions.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/travel-permission-eleven-grounds.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/travel-cancellation-other-grounds.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/overseas-residence-five-cases.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/fixed-term-official-deferral.svg"
       ],
       "script_fulltext_retrieved": true,
       "partial_publication": {
@@ -2977,7 +2983,14 @@
         "review_ref": "military-service-act/production-evidence/exam80-generation-2/MS-109/006-publication-review.json",
         "remaining": "전체 원고 핵심 설명 누락 및 기존 도식 대응 최종 대조",
         "published_asset_source_commit": "dad67d12bd8b421ba54e01dca0b421bbfbe13a16"
-      }
+      },
+      "pending_draft_targets": [
+        "MS-109-D09-editorial-v1",
+        "MS-109-D10-editorial-v1",
+        "MS-109-D11-editorial-v1",
+        "MS-109-D12-editorial-v1",
+        "MS-109-D13-editorial-v1"
+      ]
     },
     {
       "lecture_id": "MS-110",
@@ -4444,13 +4457,10 @@
   "last_draft_checkpoint": {
     "date_kst": "2026-11-27",
     "lecture_ids": [
-      "MS-077",
-      "MS-010",
-      "MS-117",
-      "MS-157"
+      "MS-109"
     ],
-    "evidence_ref": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json",
-    "svg_drafts": 6,
+    "evidence_ref": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-09-MS-109-coverage-drafts.json",
+    "svg_drafts": 5,
     "final_new_images": 0
   },
   "last_publication_checkpoint": {

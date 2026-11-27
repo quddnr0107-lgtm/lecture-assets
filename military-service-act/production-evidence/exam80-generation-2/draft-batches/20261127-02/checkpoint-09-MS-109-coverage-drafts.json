@@ -1,0 +1,565 @@
+{
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "reviewed_date_kst": "2026-11-27",
+  "scope": "MS-109 script-only draft preparation; no final asset changes",
+  "previous_checkpoint": "military-service-act/production-evidence/exam80-generation-2/MS-109/006-publication-review.json",
+  "existing_diagram_topic_map": [
+    {
+      "ids": [
+        "D01"
+      ],
+      "lines": [
+        19,
+        52
+      ]
+    },
+    {
+      "ids": [
+        "D03"
+      ],
+      "lines": [
+        58,
+        85
+      ]
+    },
+    {
+      "ids": [
+        "D02"
+      ],
+      "lines": [
+        99,
+        125
+      ]
+    },
+    {
+      "ids": [
+        "D04"
+      ],
+      "lines": [
+        141,
+        151
+      ]
+    },
+    {
+      "ids": [
+        "D05",
+        "D06"
+      ],
+      "lines": [
+        153,
+        171
+      ]
+    },
+    {
+      "ids": [
+        "D02",
+        "D03"
+      ],
+      "lines": [
+        197,
+        233
+      ]
+    },
+    {
+      "ids": [
+        "D07"
+      ],
+      "lines": [
+        235,
+        247
+      ]
+    },
+    {
+      "ids": [
+        "D08"
+      ],
+      "lines": [
+        249,
+        267
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "lines": [
+        87,
+        87
+      ],
+      "issue": "복무 중인 승선근무예비역·보충역·대체복무요원 제외의 적용 범위가 원고 요약에서 불명확하여 추정하지 않음."
+    }
+  ],
+  "remaining_review": [
+    "제4항 위임 관계, 정보통신망 통보 방법, 연장 결과 통보 흐름",
+    "실제 렌더·시각 검수 및 정식 목록 통합"
+  ],
+  "records": [
+    {
+      "lecture_id": "MS-109",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/restriction-grounds-and-exceptions.svg",
+      "svg_sha256": "7cd7ccd3f3a1e48297487cb0b4a6eb597edcaf1f1ff560a8198931e03ed2c24a",
+      "svg_blob_sha": "2d16080deeea412cbbfe8f53b60b9d6e3bc3f769",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "provisional_target_id": "MS-109-D09-editorial-v1",
+      "kind": "new",
+      "title": "국외여행 제한과 예외",
+      "source_line_spans": [
+        [
+          58,
+          95
+        ]
+      ],
+      "reason": "기존 D03의 제한 및 예외 요약에 원고의 여섯 유형과 세 예외를 보완",
+      "script_path": "docs/merged-lectures/병역법/본법_70.txt",
+      "script_line_count": 302,
+      "full_script_read": true,
+      "content": {
+        "lecture_id": "MS-109",
+        "title": "국외여행 제한과 예외",
+        "subtitle": "시행령 제145조 · 제한 유형과 제한할 수 없는 사유",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "제한 대상 6가지",
+            "items": [
+              {
+                "label": "검사·입영·소집 기피",
+                "text": "검사·입영·소집 기피",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "사회복무요원 등 복무 이탈",
+                "text": "사회복무요원 등 복무 이탈",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "국외여행허가 의무 위반",
+                "text": "국외여행허가 의무 위반",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "정해진 사유로 연기·소집 해제 취소",
+                "text": "정해진 사유로 연기·소집 해제 취소",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "병역 기피·감면 목적",
+                "text": "도망·은신·신체손상·속임수",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "정당한 사유 없이 통지서 미수령",
+                "text": "정당한 사유 없이 통지서 미수령",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "제한할 수 없는 사유",
+            "items": [
+              {
+                "label": "가족 사망",
+                "text": "국외 거주 배우자, 본인·배우자의 형제자매·직계존속·직계비속",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "본인 질병",
+                "text": "국내에서 치료 곤란",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "가사 정리",
+                "text": "입영·소집을 위한 경우",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "허가 대상은 허가 금지 / 25세 미만 미소집자는 여행제한 조치",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            58,
+            95
+          ]
+        ]
+      },
+      "status": "svg_draft_requires_lossless_raster_and_visual_review",
+      "layout_preflight": "estimated width and vertical bounds only; visual pending"
+    },
+    {
+      "lecture_id": "MS-109",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/travel-permission-eleven-grounds.svg",
+      "svg_sha256": "18213e65207debef39c8adbd8db51efca5bf76ad1a002d62efbf9438f8498a6f",
+      "svg_blob_sha": "fc1f0b80c7da9925d899476d1c37458e11c3874a",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "provisional_target_id": "MS-109-D10-editorial-v1",
+      "kind": "new",
+      "title": "국외여행허가 사유 11가지",
+      "source_line_spans": [
+        [
+          175,
+          195
+        ],
+        [
+          292,
+          292
+        ]
+      ],
+      "reason": "원고가 열거하고 강조하는 허가 사유 및 전지훈련 포함이 기존 8장에 없음",
+      "script_path": "docs/merged-lectures/병역법/본법_70.txt",
+      "script_line_count": 302,
+      "full_script_read": true,
+      "content": {
+        "lecture_id": "MS-109",
+        "title": "국외여행허가 사유 11가지",
+        "subtitle": "시행령 제146조제1항 · 어느 하나에 해당하는 경우만",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "회의·교류·직무",
+            "items": [
+              {
+                "label": "01  국제회의·국제경기 (전지훈련 포함)",
+                "text": "01  국제회의·국제경기 (전지훈련 포함)",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "02  훈련·연수·견학·문화교류",
+                "text": "02  훈련·연수·견학·문화교류",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "03  수출시장 개척·수출입계약",
+                "text": "03  수출시장 개척·수출입계약",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "04  국외 왕래 선박의 선원",
+                "text": "04  국외 왕래 선박의 선원",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "05  항공기 승무원",
+                "text": "05  항공기 승무원",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "06  국외파견 공무원·취재기자",
+                "text": "06  국외파견 공무원·취재기자",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "취업·치료·거주·학업",
+            "items": [
+              {
+                "label": "07  국외취업",
+                "text": "07  국외취업",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "08  국내에서 치료 곤란한 질병의 치료",
+                "text": "08  국내에서 치료 곤란한 질병의 치료",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "09  국외이주",
+                "text": "09  국외이주",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "10  유학 (고등학교 수학 제외)",
+                "text": "10  유학 (고등학교 수학 제외)",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "11  병무청장이 특히 필요하다고 인정",
+                "text": "예: 친척·친지 방문",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "국제경기에는 전지훈련 포함 / 유학에는 고등학교 수학 제외",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            175,
+            195
+          ],
+          [
+            292,
+            292
+          ]
+        ]
+      },
+      "status": "svg_draft_requires_lossless_raster_and_visual_review",
+      "layout_preflight": "estimated width and vertical bounds only; visual pending"
+    },
+    {
+      "lecture_id": "MS-109",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/travel-cancellation-other-grounds.svg",
+      "svg_sha256": "fa87b914eb8ec9ea19aadbadeedca854307663c84af5e1e68bbe85cc378ac58d",
+      "svg_blob_sha": "9ec8272409b4c984d299e70788c7d208f744727a",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "provisional_target_id": "MS-109-D11-editorial-v1",
+      "kind": "new",
+      "title": "허가 취소의 나머지 사유",
+      "source_line_spans": [
+        [
+          235,
+          247
+        ]
+      ],
+      "reason": "D07의 기간 수치 외에 원고가 설명하는 영주귀국 신고·영리활동·부모 요건 등 보완",
+      "script_path": "docs/merged-lectures/병역법/본법_70.txt",
+      "script_line_count": 302,
+      "full_script_read": true,
+      "content": {
+        "lecture_id": "MS-109",
+        "title": "허가 취소의 나머지 사유",
+        "subtitle": "시행령 제147조의2 · 기간 수치 외의 판단 기준",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "국외이주 목적",
+            "items": [
+              {
+                "label": "영주귀국 신고",
+                "text": "영주귀국 신고",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "1년 중 국내 체재 통틀어 6개월 이상",
+                "text": "1년 중 국내 체재 통틀어 6개월 이상",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "병무청장 고시 영리활동 (국내취업 등)",
+                "text": "병무청장 고시 영리활동 (국내취업 등)",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "부모와 거주하는 요건의 허가",
+                "text": "부모가 해당 사유에 걸려도 적용",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "체재기간 제외",
+                "text": "정해진 사유로 60일 이내 머문 기간",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "그 밖의 취소 사유",
+            "items": [
+              {
+                "label": "허가기간 만료 전에 귀국하여",
+                "text": "병역의무를 이행하려는 경우",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "허가 요건을 유지하지 못한 경우",
+                "text": "허가 요건을 유지하지 못한 경우",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "본인이 취소를 원하는 경우",
+                "text": "지방병무청장에게 신청서 제출",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "취소 및 병역의무 부과 가능 / 기간 수치와 유예는 D07 참조",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            235,
+            247
+          ]
+        ]
+      },
+      "status": "svg_draft_requires_lossless_raster_and_visual_review",
+      "layout_preflight": "estimated width and vertical bounds only; visual pending"
+    },
+    {
+      "lecture_id": "MS-109",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/overseas-residence-five-cases.svg",
+      "svg_sha256": "eb79f7d7fc50aabb2383e456dfacaf740e237d78c33e5b6078ead0b74ae5fc61",
+      "svg_blob_sha": "4afdf5076e91c65debd9c28453edc2d650510404",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "provisional_target_id": "MS-109-D12-editorial-v1",
+      "kind": "new",
+      "title": "37세 허가 간주의 다섯 경우",
+      "source_line_spans": [
+        [
+          249,
+          267
+        ]
+      ],
+      "reason": "D08은 제5호 중심이므로 원고의 나머지 네 가지 유형 보완",
+      "script_path": "docs/merged-lectures/병역법/본법_70.txt",
+      "script_line_count": 302,
+      "full_script_read": true,
+      "content": {
+        "lecture_id": "MS-109",
+        "title": "37세 허가 간주의 다섯 경우",
+        "subtitle": "시행령 제149조 · 원고의 법정 사유 요약",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "본인 또는 부모의 자격 등",
+            "items": [
+              {
+                "label": "01  영주권 또는 장기 체류자격",
+                "text": "취득 후 계속 거주",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "02  일본 특별영주자·영주자 자격",
+                "text": "02  일본 특별영주자·영주자 자격",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "03  외국 출생 후 해당 국가 국적 취득",
+                "text": "부모와 함께 거주",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "이주·부모 동반",
+            "items": [
+              {
+                "label": "04  해외이주법에 따라 이주·거주",
+                "text": "04  해외이주법에 따라 이주·거주",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "05  18세 전 국외 주재원이 아닌",
+                "text": "부모와 출국, 그 부모와 계속 거주",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "공통",
+                "text": "18세 전부터 국외 거주 25세 전에 법정 사유 해당",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "37세까지 허가 간주 / 국외 주재원이 아닌 부모라는 조건에 주의",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            249,
+            267
+          ]
+        ]
+      },
+      "status": "svg_draft_requires_lossless_raster_and_visual_review",
+      "layout_preflight": "estimated width and vertical bounds only; visual pending"
+    },
+    {
+      "lecture_id": "MS-109",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/fixed-term-official-deferral.svg",
+      "svg_sha256": "527319d80387c39b9dec068faf5228cb9371ba1b9a8e549a09f5795b6c2c35d5",
+      "svg_blob_sha": "285f5ea6d57be4d18c50ae2068deadb1defd094b",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "provisional_target_id": "MS-109-D13-editorial-v1",
+      "kind": "new",
+      "title": "임기제공무원 허가취소 유보",
+      "source_line_spans": [
+        [
+          269,
+          279
+        ],
+        [
+          297,
+          297
+        ]
+      ],
+      "reason": "원고 말미의 시험 대비 핵심인 학위 분야·경력·서류·통보가 기존 도식에 없음",
+      "script_path": "docs/merged-lectures/병역법/본법_70.txt",
+      "script_line_count": 302,
+      "full_script_read": true,
+      "content": {
+        "lecture_id": "MS-109",
+        "title": "임기제공무원 허가취소 유보",
+        "subtitle": "시행령 제149조의2 · 재직기간 중 취소·의무부과 유보",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "대상과 조건",
+            "items": [
+              {
+                "label": "국외이주 목적 허가 후 국외체류",
+                "text": "제149조제1항 허가 간주 포함",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "경제 또는 과학기술 분야 박사",
+                "text": "경제 또는 과학기술 분야 박사",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "학위 취득 후 해당 분야 3년 이상 경력",
+                "text": "학위 취득 후 해당 분야 3년 이상 경력",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "중앙행정기관의 장이",
+                "text": "임기제공무원으로 임용",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "추천 → 유보 결정",
+            "items": [
+              {
+                "label": "임용 후 14일 이내",
+                "text": "중앙행정기관의 장 → 병무청장",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "추천자 명단과 임용발령서 사본",
+                "text": "재직 분야·임기가 구체적으로 기재",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "병무청장이 유보 여부 결정·통보",
+                "text": "병무청장이 유보 여부 결정·통보",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "재직기간 동안 유보 가능",
+                "text": "제147조의2제1항제1호 다~마목 사유",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "경제 또는 과학기술 / 3년 이상 / 14일 / 임용발령서 (재직증명서 아님)",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            269,
+            279
+          ],
+          [
+            297,
+            297
+          ]
+        ]
+      },
+      "status": "svg_draft_requires_lossless_raster_and_visual_review",
+      "layout_preflight": "estimated width and vertical bounds only; visual pending"
+    }
+  ]
+}

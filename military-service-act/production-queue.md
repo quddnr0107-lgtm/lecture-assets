@@ -76,3 +76,7 @@
 - 신규 도식 5장 및 77강 전직 도식 1장 교정. SVG와 실제 1600×1120 무손실 WebP의 해시 및 화면 검수.
 - 10·117·157강은 기존 도식과 신규 도식의 원고 전체 핵심 대응 검토 완료. 77강은 전체 범위 대조 대기.
 - 공개 308장, 전체 11강 완료, 155강 대기. 근거: [MS-010](production-evidence/exam80-generation-2/MS-010/008-publication-review.json) · [MS-077](production-evidence/exam80-generation-2/MS-077/008-publication-review.json) · [MS-117](production-evidence/exam80-generation-2/MS-117/008-publication-review.json) · [MS-157](production-evidence/exam80-generation-2/MS-157/008-publication-review.json)
+
+## 109강 원고 범위 체크포인트 09
+- 기존 8장과 원고 전문을 대조하여 제한 대상·예외, 허가 사유, 나머지 취소 사유, 37세 간주 사유, 임기제공무원 유보의 신규 SVG 초안 5장 작성. [근거](production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-09-MS-109-coverage-drafts.json).
+- 원고의 복무 중 대상 제외 적용 범위는 불명확하여 추정하지 않음. WebP 렌더·시각 검수와 최종 통합 전까지 정식 수량은 308장, 전체 11강 완료·155강 대기 유지.
