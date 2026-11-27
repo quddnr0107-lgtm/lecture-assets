@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject": "integrated-defense",
   "created_at_kst": "2026-11-27T10:25:01+09:00",
-  "updated_at_kst": "2026-11-27T08:49:21.125Z",
+  "updated_at_kst": "2026-11-27T08:51:49.682Z",
   "status": "review_pending",
   "approved_style": "07-notion-editorial",
   "baseline": {
@@ -355,7 +355,7 @@
       "lecture_id": "TB-005",
       "title": "05강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [
         "TB-MOBILE-SETUP",
         "TB-005-SUP-01"
@@ -378,14 +378,11 @@
       "outputs": [
         "integrated-defense/lesson-005/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-review-2026-11-27T08:49:21.125Z",
-        "started_at": "2026-11-27T08:49:21.125Z",
-        "expires_at": "2026-11-27T09:29:21.125Z"
-      },
+      "lease": null,
       "attempts": 4,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "D03 M03 근거 제목 중복 제거 후 재검수."
+      "review_note": "WebP 12페이지 직접 검수 통과; 제80회 고정 원고 blob 및 원고·도식 해시 연결 일치. 원격 3종 파일 SHA-256·크기 전수 재검증 통과. 근거 제목 중복 제거 확인.",
+      "verified_commit": "a18a8d193801a593b25fb5547f8b93dd088506d3"
     },
     {
       "id": "TB-006-MOBILE",
@@ -394,7 +391,7 @@
       "lecture_id": "TB-006",
       "title": "06강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -415,14 +412,11 @@
       "outputs": [
         "integrated-defense/lesson-006/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-review-2026-11-27T08:49:21.125Z",
-        "started_at": "2026-11-27T08:49:21.125Z",
-        "expires_at": "2026-11-27T09:29:21.125Z"
-      },
+      "lease": null,
       "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "D02 M03 근거만 있는 페이지 재균형 후 재검수."
+      "review_note": "WebP 5페이지 직접 검수 통과; 제80회 고정 원고 blob 및 원고·도식 해시 연결 일치. 원격 3종 파일 SHA-256·크기 전수 재검증 통과. 마지막 페이지에 조건·범위 본문 포함 확인.",
+      "verified_commit": "a18a8d193801a593b25fb5547f8b93dd088506d3"
     },
     {
       "id": "TB-007-MOBILE",
@@ -468,7 +462,7 @@
       "lecture_id": "TB-008",
       "title": "08강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -490,14 +484,11 @@
       "outputs": [
         "integrated-defense/lesson-008/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-review-2026-11-27T08:49:21.125Z",
-        "started_at": "2026-11-27T08:49:21.125Z",
-        "expires_at": "2026-11-27T09:29:21.125Z"
-      },
+      "lease": null,
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
+      "review_note": "WebP 7페이지 직접 검수 통과; 제80회 고정 원고 blob 및 원고·도식 해시 연결 일치. 원격 3종 파일 SHA-256·크기 전수 재검증 통과. 심의·사무 구분, 포상 절차 및 화살표 의미 확인.",
+      "verified_commit": "a18a8d193801a593b25fb5547f8b93dd088506d3"
     },
     {
       "id": "TB-009-MOBILE",
@@ -1153,18 +1144,15 @@
     "checked_at_kst": "2026-11-27T12:02:16+09:00"
   },
   "last_render_run": "tb-exam80-visual-20261127T075304Z-repair",
-  "last_verified_commit": "f18e8dde6a25388ed39bca259d8b5f6c7a0ccb3e",
+  "last_verified_commit": "a18a8d193801a593b25fb5547f8b93dd088506d3",
   "progress": {
-    "jobs_done": 13,
-    "jobs_remaining": 17,
+    "jobs_done": 16,
+    "jobs_remaining": 14,
     "desktop_diagrams": 55,
     "mobile_rendered_lessons": 25,
     "mobile_rendered_pages": 137,
-    "mobile_verified_lessons": 9,
-    "mobile_verified_pages": 37,
-    "mobile_layout_review_lessons": [
-      5,
-      6
-    ]
+    "mobile_verified_lessons": 12,
+    "mobile_verified_pages": 61,
+    "mobile_layout_review_lessons": []
   }
 }
