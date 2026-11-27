@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-27T18:32:00+09:00",
+  "updated_at": "2026-11-27T19:28:32+09:00",
   "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
     "status": "files_completed",
@@ -86,7 +86,12 @@
         "DR-022-exam80-02-revision-183200",
         "DR-078-exam80-04-revision-183200"
       ],
-      "mode": "single coordinator; targeted renderer 3 concurrent workers"
+      "mode": "single coordinator; targeted renderer 3 concurrent workers",
+      "retry": {
+        "previous_workflow_run": 45974454175,
+        "reason": "Unbreakable middle-dot compound exceeded 634px; add line-break opportunities without changing terms, use equal columns for DR-078-D04",
+        "retry_started_at": "2026-11-27T19:28:32+09:00"
+      }
     },
     "last_successful_run": {
       "id": "dr-20261127-172411-script",
