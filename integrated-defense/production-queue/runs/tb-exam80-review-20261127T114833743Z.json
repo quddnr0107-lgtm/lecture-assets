@@ -1,0 +1,89 @@
+{
+  "run_id": "tb-exam80-review-20261127T114833743Z",
+  "exam_number": 80,
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "reviewed_input_commit": "240877282015ea470c2e724508bd0873ddf0799c",
+  "reviewed_lessons": [
+    13,
+    15,
+    16
+  ],
+  "reviewed_pages": 21,
+  "original_script_blob_matches": [
+    13,
+    15,
+    16
+  ],
+  "mobile_manifest_alignment_checked": [
+    13,
+    15,
+    16
+  ],
+  "visual_format": "WebP",
+  "completed_lessons": [
+    15
+  ],
+  "sha256_recomputed_files": [
+    {
+      "path": "integrated-defense/lesson-015/diagrams/notion-v1/mobile/TB-015-D01-M01.svg",
+      "sha256": "b670091f25bfac8b0a237cae8692c775b7e7290a9f7228b26bada1ab56c08078",
+      "bytes": 4481
+    },
+    {
+      "path": "integrated-defense/lesson-015/diagrams/notion-v1/mobile/TB-015-D01-M01.png",
+      "sha256": "bfd5ba75b39c0b81a186eb16d53614ceed8f5dffb2f40ab6d560b8c649e81228",
+      "bytes": 142074
+    },
+    {
+      "path": "integrated-defense/lesson-015/diagrams/notion-v1/mobile/TB-015-D01-M01.webp",
+      "sha256": "b89025f92efa9f5b85d118590b784549e37f0e0bcaa0ac8358d308bd0537c5fb",
+      "bytes": 79404
+    },
+    {
+      "path": "integrated-defense/lesson-015/diagrams/notion-v1/mobile/TB-015-D01-M02.svg",
+      "sha256": "917dd26218d29203ba7d56ebf3cb4d575b70b06b46fbe5b4b4bdc842ce22f791",
+      "bytes": 4635
+    },
+    {
+      "path": "integrated-defense/lesson-015/diagrams/notion-v1/mobile/TB-015-D01-M02.png",
+      "sha256": "8a11c3940845e35ce0e383a373423ff31e1b505ddaedc570df61b9e40fb1db1f",
+      "bytes": 158246
+    },
+    {
+      "path": "integrated-defense/lesson-015/diagrams/notion-v1/mobile/TB-015-D01-M02.webp",
+      "sha256": "62669083c99ffb6c457daf7a45a3b6ba699bbe1b210188c0bcda182be5783cfb",
+      "bytes": 91112
+    },
+    {
+      "path": "integrated-defense/lesson-015/diagrams/notion-v1/mobile/TB-015-D01-M03.svg",
+      "sha256": "536e7dbac6d8258d17900007b75aeedde1f9c18ea068dc7c14da3f1ef8ea8b85",
+      "bytes": 3621
+    },
+    {
+      "path": "integrated-defense/lesson-015/diagrams/notion-v1/mobile/TB-015-D01-M03.png",
+      "sha256": "c90c8dff0f37864b554a71b114bef9ff4995c8f34a2b3e5f9a30ee7bf031acf9",
+      "bytes": 148735
+    },
+    {
+      "path": "integrated-defense/lesson-015/diagrams/notion-v1/mobile/TB-015-D01-M03.webp",
+      "sha256": "c607a557e52ed86da5ee39cf473bf76589ab98a535f87f627b112b4e8eb99c7b",
+      "bytes": 88262
+    }
+  ],
+  "issues": [
+    {
+      "lesson": 13,
+      "source_id": "TB-013-D01",
+      "page": 2,
+      "description": "각 열/두 열이라는 데스크톱 배치 설명을 모바일 경로 설명으로 바꾼다."
+    },
+    {
+      "lesson": 16,
+      "source_id": "TB-016-D02",
+      "page": 3,
+      "description": "법령 근거만 남은 페이지. 기존 재균형 렌더러로 다시 생성하고 실제 이미지 검수 필요."
+    }
+  ],
+  "repair_code_commit": "1d8430f182897869f8d62ce323d0dd4db718c2cd",
+  "note": "기존 원고와 원본 도식 내용은 변경하지 않음. 15강 실제 원격 3개 WebP 시각 검수 및 SVG·PNG·WebP 9개 SHA-256/크기 재계산 일치. 13·16강은 시각 검수 및 WebP 크기 확인, 전수 해시 재계산은 미실시. 독립 에이전트 실행 도구 없음."
+}
