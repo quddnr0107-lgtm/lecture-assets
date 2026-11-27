@@ -3,5 +3,86 @@
   "style": "07-notion-editorial",
   "width": 1080,
   "height": 1800,
-  "items": []
+  "items": [
+    {
+      "source_id": "TB-001-D01",
+      "lesson": 1,
+      "page": 1,
+      "page_count": 2,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-001/diagrams/notion-v1/mobile/TB-001-D01-M01.svg",
+          "bytes": 4513,
+          "sha256": "c74bf2582e9bf7947d8e390fdb313936ca78ef372afebf6b6ee952881e73cb25",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-001/diagrams/notion-v1/mobile/TB-001-D01-M01.png",
+          "bytes": 142772,
+          "sha256": "8deb12df5d5f2bab0e712e54e8125eba92ef10343fc8ab3bc48c7a6271432073",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-001/diagrams/notion-v1/mobile/TB-001-D01-M01.webp",
+          "bytes": 73738,
+          "sha256": "4f8407835ef9675b4caef502482a5c8aaa20a580849baf81515d875d78ea31ee",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제1조"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      }
+    },
+    {
+      "source_id": "TB-001-D01",
+      "lesson": 1,
+      "page": 2,
+      "page_count": 2,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-001/diagrams/notion-v1/mobile/TB-001-D01-M02.svg",
+          "bytes": 3084,
+          "sha256": "4b609b63181c481bcbaf749b998bdc84499920bea5d273180876cc61591cd0c8",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-001/diagrams/notion-v1/mobile/TB-001-D01-M02.png",
+          "bytes": 108919,
+          "sha256": "cff519dae031c115f86c6a30db40aa5f85c97e92dba26f940f18c888c2ccace7",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-001/diagrams/notion-v1/mobile/TB-001-D01-M02.webp",
+          "bytes": 58594,
+          "sha256": "4d8e1158974ad0357c085bf1bd50b35c03c56528ec9c3cce4634a9f416c78fc5",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제1조"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      }
+    }
+  ]
 }

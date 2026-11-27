@@ -7,7 +7,7 @@
   "created_date_kst": "2026-11-27",
   "legal_checked_date_kst": "2026-11-27",
   "lesson_count": 25,
-  "diagram_count": 49,
+  "diagram_count": 55,
   "status": "prepared",
   "content_scope": "각 강의의 핵심 관계를 요약한 도식. 조문 전문·전체 수업 대본·외부 지침을 대체하지 않음.",
   "source_versions": {
@@ -293,6 +293,96 @@
       }
     },
     {
+      "id": "TB-003-D03",
+      "lesson": 3,
+      "lecture_id": "TB-003",
+      "article": "제3조",
+      "title": "중앙 통합방위회의 참석 대상",
+      "layout": "compare",
+      "base": "lesson-003/diagrams/notion-v1/TB-003-D03-central-conference-attendees",
+      "alt": "시행령 제3조제2항 · 법정 열거 1~9호 협의회·정부：1호 중앙협의회의 의장 및 위원；2호 방송미디어통신위원회위원장；3호 시·도 협의회의 의장；4호 국가정보원의 지부장 경찰·소방·해양경찰：5호 경찰청장 및 시·도경찰청장；6호 소방청장 및 소방본부장；7호 해양경찰청장 및 지방해양경찰청장 군 지휘관：8호 군단장급 이상의 군 지휘관；9호 지역군사령관 및 함대사령관 제10호의 추가 선정 및 지방회의 준비 관계는 D04에서 확인한다. 세 묶음은 학습용 편집 구분이며 법정 분류는 호 번호를 따른다.",
+      "sources": [
+        {
+          "basis": "통합방위법 시행령 제3조제2항제1호~제9호",
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507"
+        }
+      ],
+      "notes": [
+        "제10호의 추가 선정 및 지방회의 준비 관계는 D04에서 확인한다.",
+        "세 묶음은 학습용 편집 구분이며 법정 분류는 호 번호를 따른다."
+      ],
+      "status": "prepared",
+      "style": "07-notion-editorial",
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-003/diagrams/notion-v1/TB-003-D03-central-conference-attendees.svg",
+          "bytes": 8868,
+          "sha256": "08a8e904021790f94beb019f1649b395e4df3d3cadd2c6aab6596ae4aa6eb799",
+          "width": 1600,
+          "height": 1120
+        },
+        "png": {
+          "path": "integrated-defense/lesson-003/diagrams/notion-v1/TB-003-D03-central-conference-attendees.png",
+          "bytes": 128718,
+          "sha256": "14930b1cdcda17f923036eb3a507d1caf6909f8ba8c98212c70183e264b3538c",
+          "width": 1600,
+          "height": 1120
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-003/diagrams/notion-v1/TB-003-D03-central-conference-attendees.webp",
+          "bytes": 67656,
+          "sha256": "df35af915140cb6c4aeade5cef981b1b310fcc4aee8366988b31c47181e2cdae",
+          "width": 1600,
+          "height": 1120
+        }
+      }
+    },
+    {
+      "id": "TB-003-D04",
+      "lesson": 3,
+      "lecture_id": "TB-003",
+      "article": "제3조",
+      "title": "회의 참석 대상의 선정과 지방회의",
+      "layout": "compare",
+      "base": "lesson-003/diagrams/notion-v1/TB-003-D04-conference-selection-and-local-scope",
+      "alt": "시행령 제3조제2항제10호·제3항·제5항 중앙 통합방위회의：10호 · 추가 대상 통합방위본부장이 선정하는 사람；제3항 · 준비 통합방위본부장이 의제·참석 대상·일시·장소·회의 주관자를 선정하고 준비 지방 통합방위회의：제5항 · 준비 협의 시·도 협의회 의장이 지역군사령관, 시·도경찰청장, 국가정보원의 지부장 등 관계 기관의 장과 협의；참석 범위 제3조는 지방회의 참석자 전체 명단을 열거하지 않음 지방회의 준비 협의 상대를 지방회의 참석자 전체 명단으로 해석하지 않는다. 회의 개최·준비 주기와 지침은 TB-003-D02 참조.",
+      "sources": [
+        {
+          "basis": "통합방위법 시행령 제3조제2항제10호·제3항·제5항",
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507"
+        }
+      ],
+      "notes": [
+        "지방회의 준비 협의 상대를 지방회의 참석자 전체 명단으로 해석하지 않는다.",
+        "회의 개최·준비 주기와 지침은 TB-003-D02 참조."
+      ],
+      "status": "prepared",
+      "style": "07-notion-editorial",
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-003/diagrams/notion-v1/TB-003-D04-conference-selection-and-local-scope.svg",
+          "bytes": 6959,
+          "sha256": "562440c3fc75c97ec03ff430a2a3765e8b732dd55c001140301257a807a9a731",
+          "width": 1600,
+          "height": 1120
+        },
+        "png": {
+          "path": "integrated-defense/lesson-003/diagrams/notion-v1/TB-003-D04-conference-selection-and-local-scope.png",
+          "bytes": 132506,
+          "sha256": "e1a096d2542267839d765107d234d6e48fac9e58c27c8b197b0a0076044adabd",
+          "width": 1600,
+          "height": 1120
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-003/diagrams/notion-v1/TB-003-D04-conference-selection-and-local-scope.webp",
+          "bytes": 74034,
+          "sha256": "8b8dd2283bc6929dcbe4a8618c69f91d3ff168250133b69eb635b737c38e17f1",
+          "width": 1600,
+          "height": 1120
+        }
+      }
+    },
+    {
       "id": "TB-004-D01",
       "lesson": 4,
       "lecture_id": "TB-004",
@@ -391,6 +481,100 @@
           "path": "integrated-defense/lesson-004/diagrams/notion-v1/TB-004-D02-central-council-deliberation.webp",
           "bytes": 84862,
           "sha256": "9cac809232a8728bc779141d03c463aeb53c35451b5bebd8521143481d1cf70b",
+          "width": 1600,
+          "height": 1120
+        }
+      }
+    },
+    {
+      "id": "TB-004-D03",
+      "lesson": 4,
+      "lecture_id": "TB-004",
+      "article": "제4조",
+      "title": "중앙협의회 법정 위원 · 장관",
+      "layout": "compare",
+      "base": "lesson-004/diagrams/notion-v1/TB-004-D03-central-council-ministers",
+      "alt": "법 제4조제2항 · 법률에 열거된 장관 직위 20개 법문 순서 ①：장관 7개 재정경제부장관\n과학기술정보통신부장관\n교육부장관\n외교부장관\n통일부장관\n법무부장관\n국방부장관 법문 순서 ②：장관 7개 행정안전부장관\n국가보훈부장관\n문화체육관광부장관\n농림축산식품부장관\n산업통상부장관\n보건복지부장관\n기후에너지환경부장관 법문 순서 ③：장관 6개 고용노동부장관\n성평등가족부장관\n국토교통부장관\n해양수산부장관\n중소벤처기업부장관\n기획예산처장관 장관 직위의 묶음은 편집상 구분이다. 장관 외 법정 위원 및 추가 위원은 D04 참조. 법률 제21065호 중 재정경제부 및 기획예산처 개정 부분의 시행일은 2026.1.2.이다.",
+      "sources": [
+        {
+          "basis": "통합방위법 제4조제2항 및 해당 개정부분 시행일",
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315"
+        }
+      ],
+      "notes": [
+        "장관 직위의 묶음은 편집상 구분이다. 장관 외 법정 위원 및 추가 위원은 D04 참조.",
+        "법률 제21065호 중 재정경제부 및 기획예산처 개정 부분의 시행일은 2026.1.2.이다."
+      ],
+      "status": "prepared",
+      "style": "07-notion-editorial",
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-004/diagrams/notion-v1/TB-004-D03-central-council-ministers.svg",
+          "bytes": 9240,
+          "sha256": "70c4faf67fe8322512486cffde5d78e1784a3409d83ddf979a1ff6249fa168ab",
+          "width": 1600,
+          "height": 1120
+        },
+        "png": {
+          "path": "integrated-defense/lesson-004/diagrams/notion-v1/TB-004-D03-central-council-ministers.png",
+          "bytes": 129943,
+          "sha256": "14c4c3b395c222cc77a0834589fa7d7b3562b20590f6884306017eca1f4cd5e8",
+          "width": 1600,
+          "height": 1120
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-004/diagrams/notion-v1/TB-004-D03-central-council-ministers.webp",
+          "bytes": 70442,
+          "sha256": "e5e6d2ab450c004b428ec2db7b184328d6ba0929e86a34542cc17303bbef19ae",
+          "width": 1600,
+          "height": 1120
+        }
+      }
+    },
+    {
+      "id": "TB-004-D04",
+      "lesson": 4,
+      "lecture_id": "TB-004",
+      "article": "제4조",
+      "title": "중앙협의회 법정 위원과 추가 위원",
+      "layout": "compare",
+      "base": "lesson-004/diagrams/notion-v1/TB-004-D04-central-council-other-members",
+      "alt": "법 제4조제2항 · 시행령 제5조 법률 직접 열거 · 장관 외：기관장 5개 국무조정실장\n법제처장\n식품의약품안전처장\n국가정보원장\n통합방위본부장 대통령령에 따른 추가 위원：제1호 · 지방자치단체장 지방자치단체의 장 중 중앙협의회 의장이 위촉；제2호 · 식견·경험 통합방위에 관한 식견과 경험이 풍부한 사람 중 중앙협의회 의장이 임명하거나 위촉 의장은 국무총리이다. 장관 직위는 D03 참조. 직위 열거와 추가 위원 자격을 구별하며 전체 정원을 고정하지 않는다.",
+      "sources": [
+        {
+          "basis": "통합방위법 제4조제2항",
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315"
+        },
+        {
+          "basis": "통합방위법 시행령 제5조제1호·제2호",
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507"
+        }
+      ],
+      "notes": [
+        "의장은 국무총리이다. 장관 직위는 D03 참조.",
+        "직위 열거와 추가 위원 자격을 구별하며 전체 정원을 고정하지 않는다."
+      ],
+      "status": "prepared",
+      "style": "07-notion-editorial",
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-004/diagrams/notion-v1/TB-004-D04-central-council-other-members.svg",
+          "bytes": 6445,
+          "sha256": "e51383565503060c296491c79305a44f01736ea481f8fb97fe61ebbb2968895d",
+          "width": 1600,
+          "height": 1120
+        },
+        "png": {
+          "path": "integrated-defense/lesson-004/diagrams/notion-v1/TB-004-D04-central-council-other-members.png",
+          "bytes": 124247,
+          "sha256": "86c8ca6f2dd9b10b6c8216268a91863283c8727d10d58cc2309707c8816ec705",
+          "width": 1600,
+          "height": 1120
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-004/diagrams/notion-v1/TB-004-D04-central-council-other-members.webp",
+          "bytes": 67858,
+          "sha256": "7c33f03e6d08ce452caae59512ab24b53e52cac3fcd424aff549328fec409d8f",
           "width": 1600,
           "height": 1120
         }
@@ -541,6 +725,100 @@
           "path": "integrated-defense/lesson-005/diagrams/notion-v1/TB-005-D03-regional-support-classification.webp",
           "bytes": 87656,
           "sha256": "752fcbe16ff969ab7ba27423264b3a712e83e750d61f8e34557238438c7dba9e",
+          "width": 1600,
+          "height": 1120
+        }
+      }
+    },
+    {
+      "id": "TB-005-D04",
+      "lesson": 5,
+      "lecture_id": "TB-005",
+      "article": "제5조",
+      "title": "지역협의회 위원 구성 ①",
+      "layout": "compare",
+      "base": "lesson-005/diagrams/notion-v1/TB-005-D04-regional-council-members-part-one",
+      "alt": "시행령 제8조제1항 · 제1호~제7호(제4호의2 포함) 군·정보：1호 해당 지역의 작전책임을 담당하는 군부대의 장；2호 해당 지역 국군방첩부대의 장 또는 그 부대원；3호 국가정보원의 관계자 공소·중대범죄수사：4호 지방공소청장, 지방공소청 지청장 또는 검사；4호의2 지방중대범죄수사청장 또는 그 장이 지명하는 소속 중대범죄수사청수사관 경찰·해경·교정：5호 시·도경찰청장 또는 경찰서장；6호 지방해양경찰청장 또는 해양경찰서장；7호 지방교정청장 또는 교정시설의 장 제4호의2가 추가되었으며 제8호~제14호는 D05에서 확인한다. 세 묶음은 학습용 분류이며 법정 호 번호는 그대로 표시한다.",
+      "sources": [
+        {
+          "basis": "통합방위법 시행령 제8조제1항제1호~제7호",
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507"
+        }
+      ],
+      "notes": [
+        "제4호의2가 추가되었으며 제8호~제14호는 D05에서 확인한다.",
+        "세 묶음은 학습용 분류이며 법정 호 번호는 그대로 표시한다."
+      ],
+      "status": "prepared",
+      "style": "07-notion-editorial",
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-005/diagrams/notion-v1/TB-005-D04-regional-council-members-part-one.svg",
+          "bytes": 9730,
+          "sha256": "29deff41e35e7638f59d867a1859c477fd16f3f3d4eb457771f772f277d0a439",
+          "width": 1600,
+          "height": 1120
+        },
+        "png": {
+          "path": "integrated-defense/lesson-005/diagrams/notion-v1/TB-005-D04-regional-council-members-part-one.png",
+          "bytes": 139830,
+          "sha256": "4068122d1e2e655910a8a430377c081e95d3d5c6a7b02c710d793511ba53e7a2",
+          "width": 1600,
+          "height": 1120
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-005/diagrams/notion-v1/TB-005-D04-regional-council-members-part-one.webp",
+          "bytes": 73664,
+          "sha256": "0b9e16bc5c53139cf565f44224e1cdf9926775d93db988125b29a169259ce632",
+          "width": 1600,
+          "height": 1120
+        }
+      }
+    },
+    {
+      "id": "TB-005-D05",
+      "lesson": 5,
+      "lecture_id": "TB-005",
+      "article": "제5조",
+      "title": "지역협의회 위원 구성 ②",
+      "layout": "compare",
+      "base": "lesson-005/diagrams/notion-v1/TB-005-D05-regional-council-members-part-two",
+      "alt": "시행령 제8조제1항 · 제8호~제14호 보훈·병무·교육：8호 지방보훈청장 또는 보훈지청장；9호 지방병무청장 또는 병무지청장；10호 교육감 또는 교육장 의회·소방·재향군인회：11호 지방의회 의장；12호 소방본부장 또는 소방서장；13호 지역 재향군인회장 추가 위촉：14호 통합방위에 관한 학식과 경험이 풍부한 사람으로서 지역협의회 의장이 위촉하는 사람；구성·운영 기준 대통령령 기준에 따라 조례로 정함 제1호~제7호와 제4호의2는 D04 참조. 조례 위임 근거는 법 제5조제4항이다. 시·도 협의회와 시·군·구 협의회의 의장 및 소집 기준은 기존 D02 참조.",
+      "sources": [
+        {
+          "basis": "통합방위법 시행령 제8조제1항제8호~제14호",
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507"
+        },
+        {
+          "basis": "통합방위법 제5조제4항",
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315"
+        }
+      ],
+      "notes": [
+        "제1호~제7호와 제4호의2는 D04 참조. 조례 위임 근거는 법 제5조제4항이다.",
+        "시·도 협의회와 시·군·구 협의회의 의장 및 소집 기준은 기존 D02 참조."
+      ],
+      "status": "prepared",
+      "style": "07-notion-editorial",
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-005/diagrams/notion-v1/TB-005-D05-regional-council-members-part-two.svg",
+          "bytes": 8957,
+          "sha256": "95095a0b38e7a179ae2fc2c76b7bee3153cef9e8f0440ad86413631737f42361",
+          "width": 1600,
+          "height": 1120
+        },
+        "png": {
+          "path": "integrated-defense/lesson-005/diagrams/notion-v1/TB-005-D05-regional-council-members-part-two.png",
+          "bytes": 129524,
+          "sha256": "eefd62bb65b6d2af150f31b3930124d815f84d5a003eb27f8a7bd435a3289a1d",
+          "width": 1600,
+          "height": 1120
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-005/diagrams/notion-v1/TB-005-D05-regional-council-members-part-two.webp",
+          "bytes": 68642,
+          "sha256": "0eca2fed651791c1f48f0c1393e650b1e5eac51c584780193b897b158258462a",
           "width": 1600,
           "height": 1120
         }
