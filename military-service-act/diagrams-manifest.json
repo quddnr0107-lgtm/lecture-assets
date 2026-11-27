@@ -13956,6 +13956,942 @@
       }
     },
     {
+      "id": "MS-077-D03-editorial-v1",
+      "lecture_id": "MS-077",
+      "lesson_number": 77,
+      "diagram_number": 3,
+      "title": "편입취소 연령과 연장복무",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 259,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D03-editorial-v1.svg",
+          "bytes": 5701,
+          "sha256": "6d235034844fe5959141937e1f54cbae54df246ed500ad03ccdc3ec867f55678"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D03-editorial-v1.webp",
+          "bytes": 50270,
+          "sha256": "4bf8095f9e45a8f541d460dad1e287dc51653004fb48a60504beb9fadd6a280a"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-077",
+        "title": "편입취소 연령과 연장복무",
+        "subtitle": "35세 · 37세 / 미복무 기간 · 5배",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "편입취소 연령",
+            "items": [
+              {
+                "label": "기본 35세",
+                "text": "35세까지 의무복무기간을 마칠 수 없으면 취소",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "예외 37세",
+                "text": "법 제37조제1항제3호 해당자 의사·치과의사·한의사 자격 및 군전공의 수련기관 과정 이수 자연계 대학원 박사과정 수료",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "연장복무",
+            "items": [
+              {
+                "label": "미복무 기간만큼",
+                "text": "휴업·영업정지·직장폐쇄 등 휴직·정직 등",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "통틀어 8일 미만 무단결근",
+                "text": "빠진 기간의 5배 연장",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "통틀어 8일 이상",
+                "text": "편입취소 사유",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "35세 / 37세 · 휴업·휴직은 해당 기간 · 8일 미만 무단결근은 5배",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            25,
+            46
+          ],
+          [
+            72,
+            89
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
+      "main_article": "병역법 제41조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-077",
+        "path": "docs/merged-lectures/병역법/본법_41.txt",
+        "git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
+        "source_line_spans": [
+          [
+            25,
+            46
+          ],
+          [
+            72,
+            89
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-077-D04-editorial-v1",
+      "lecture_id": "MS-077",
+      "lesson_number": 77,
+      "diagram_number": 4,
+      "title": "두 단서, 서로 다른 30일",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 260,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D04-editorial-v1.svg",
+          "bytes": 5717,
+          "sha256": "1a20572a48bd1d7e082517a5c10cf3c18f649e0fb6f3f7535bc1121ca260ee7a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D04-editorial-v1.webp",
+          "bytes": 53658,
+          "sha256": "47d138ac01aad246fd19fdb177cc0b7ee75cfe6405c42aad30215b4543f721e4"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-077",
+        "title": "두 단서, 서로 다른 30일",
+        "subtitle": "편입취소 유보와 연장복무 예외",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "해고 다툼",
+            "items": [
+              {
+                "label": "노동위원회 구제신청·법원 소송",
+                "text": "계류 중: 확정까지 취소 유보 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "해고일부터 30일 이내",
+                "text": "관할 지방병무청장에게 유보원서 제출 (전자문서 포함)",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "유보 여부 결정",
+                "text": "관할 지방병무청장이 결정하고 결과를 본인에게 통지",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "업체의 장 지시",
+            "items": [
+              {
+                "label": "부득이한 위반행위",
+                "text": "해당 분야 미복무에 해당할 때 별표 3 기준으로 연장 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "위반행위일부터 30일 이내",
+                "text": "관할 지방병무청장에게 신고",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "신고 시 예외",
+                "text": "의무복무기간을 연장하지 아니할 수 있다.",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "해고일 → 유보원서  /  위반행위일 → 신고",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            159,
+            169
+          ],
+          [
+            197,
+            197
+          ],
+          [
+            205,
+            205
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
+      "main_article": "병역법 제41조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-077",
+        "path": "docs/merged-lectures/병역법/본법_41.txt",
+        "git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
+        "source_line_spans": [
+          [
+            159,
+            169
+          ],
+          [
+            197,
+            197
+          ],
+          [
+            205,
+            205
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-077-D05-editorial-v1",
+      "lecture_id": "MS-077",
+      "lesson_number": 77,
+      "diagram_number": 5,
+      "title": "전직의 사유와 기한",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 261,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D05-editorial-v1.svg",
+          "bytes": 5844,
+          "sha256": "0ea277cca453a633cd59feed36072b372f6ef1bcb0293eb4bd83adacd3fa4d92"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D05-editorial-v1.webp",
+          "bytes": 54814,
+          "sha256": "a4d0dd9a5db2a7ba1ba6c1e347f0fc3554a1f5db934f5081b640f3dcc8de1294"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-077",
+        "title": "전직의 사유와 기한",
+        "subtitle": "전문연구요원·산업기능요원",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "옮겨야 하는 경우",
+            "items": [
+              {
+                "label": "업체 사정",
+                "text": "폐업·선정취소 6개월 이상 휴업·영업정지 농업기계 사후관리업체 인정취소",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "원칙적 전직 기한",
+                "text": "사유 발생일 또는 승인일부터 3개월 이내",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "일부 예외",
+                "text": "14일 이내 전직",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "승인받아 옮기는 경우",
+            "items": [
+              {
+                "label": "편입 후 경과기간",
+                "text": "전문연구 1년 6개월 산업기능 6개월 · 통틀어 2회",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "다른 승인 사유 예시",
+                "text": "임금체불 통틀어 3개월 이상 부당해고 확정·산업재해 등",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "같은 법인 내 전직",
+                "text": "신상변동 통보로 승인 갈음",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "전직 기한: 원칙 3개월 · 일부 14일 / 승인: 관할 지방병무청장",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            129,
+            145
+          ],
+          [
+            203,
+            203
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
+      "main_article": "병역법 제41조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-077",
+        "path": "docs/merged-lectures/병역법/본법_41.txt",
+        "git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
+        "source_line_spans": [
+          [
+            129,
+            145
+          ],
+          [
+            203,
+            203
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-077-D06-editorial-v1",
+      "lecture_id": "MS-077",
+      "lesson_number": 77,
+      "diagram_number": 6,
+      "title": "전직 대상에서 제외되는 곳",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 262,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D06-editorial-v1.svg",
+          "bytes": 4570,
+          "sha256": "2ad708aeea73923393268cf52e0133169ff740810850c6093ed8763d5cfd3a5c"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D06-editorial-v1.webp",
+          "bytes": 42362,
+          "sha256": "dcc30e435fceefe7058111099da4c22a94f4ac7ef4aab571f39ae630f9c5846a"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-077",
+        "title": "전직 대상에서 제외되는 곳",
+        "subtitle": "시행령 제85조 · 다른 병역지정업체로의 이동",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "과학기술원",
+            "items": [
+              {
+                "label": "자연계 박사학위과정",
+                "text": "한국과학기술원 광주과학기술원 대구경북과학기술원 울산과학기술원",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "그 밖의 제외 대상",
+            "items": [
+              {
+                "label": "자연계대학원",
+                "text": "전직 대상 업체에서 제외",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "대기업 연구기관",
+                "text": "병무청장이 고시하는 기관",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "전직 가능 여부와 별개로, 옮길 수 있는 업체의 범위에 제한이 있다.",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            131,
+            135
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
+      "main_article": "병역법 제41조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-077",
+        "path": "docs/merged-lectures/병역법/본법_41.txt",
+        "git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
+        "source_line_spans": [
+          [
+            131,
+            135
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-077-D07-editorial-v1",
+      "lecture_id": "MS-077",
+      "lesson_number": 77,
+      "diagram_number": 7,
+      "title": "전직 신청과 대기기간",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 263,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D07-editorial-v1.svg",
+          "bytes": 5987,
+          "sha256": "e4bf0472d719ec4b483a84828a96f24c8c133aa0d2edd8954cfef9887fb6a290"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D07-editorial-v1.webp",
+          "bytes": 60252,
+          "sha256": "a25d3bba22ad5febe02beb1265f00ef6ef3c02fdddc671851f1c9395a23a228f"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-077",
+        "title": "전직 신청과 대기기간",
+        "subtitle": "시행령 제85조 · 신청 경로와 기간 계산",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "전직승인 신청",
+            "items": [
+              {
+                "label": "원칙",
+                "text": "본인 → 병역지정업체의 장 업체의 장이 의견을 붙여 관할 지방병무청장에게 제출",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "직접 제출 예외",
+                "text": "부당해고 확정·대표 지시 위반 신고 근로기준법 위반 피해·산업재해 등 관할 지방병무청장에게 직접 제출",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "대기기간",
+            "items": [
+              {
+                "label": "원칙 3개월 이내 전직",
+                "text": "사유 발생일 또는 승인일부터",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "일부 14일 이내",
+                "text": "편입 후 경과기간을 이유로 전직 등",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "대기기간 처리",
+                "text": "해당 분야 복무기간으로 인정 부득이하면 관할 지방병무청장이 3개월 범위에서 연장 가능",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "업체 경유가 원칙 · 직접 신청 예외 · 전직 대기기간은 복무 인정",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            137,
+            145
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
+      "main_article": "병역법 제41조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-077",
+        "path": "docs/merged-lectures/병역법/본법_41.txt",
+        "git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
+        "source_line_spans": [
+          [
+            137,
+            145
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-077-D08-editorial-v1",
+      "lecture_id": "MS-077",
+      "lesson_number": 77,
+      "diagram_number": 8,
+      "title": "의무복무 중 수학 제한",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 264,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D08-editorial-v1.svg",
+          "bytes": 6025,
+          "sha256": "cb253cca014206f8d7db83b502abcdd7c09293f6e025e38e74ab207341d23142"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D08-editorial-v1.webp",
+          "bytes": 50718,
+          "sha256": "19c013bcbf9eb8c5259cbc1fdc7c45026528d467aa3f345214f27873f2ab92d4"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-077",
+        "title": "의무복무 중 수학 제한",
+        "subtitle": "시행령 제88조 · 수학 금지의 원칙과 예외",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "원칙과 일반 예외",
+            "items": [
+              {
+                "label": "의무복무기간 중",
+                "text": "교육기관에서 수학할 수 없다.",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "허용되는 수업",
+                "text": "야간수업 방송통신 수업",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "위반 시",
+                "text": "해당 분야에 복무하지 아니한 것으로 본다.",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "전문연구요원 박사과정",
+            "items": [
+              {
+                "label": "대상",
+                "text": "국내교육기관 박사과정 35세까지 의무복무 완료 가능자",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "수학기간",
+                "text": "3년 6개월을 넘지 못한다.",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "절차",
+                "text": "본인 → 업체의 장에게 신청 업체의 장이 기간을 정하여 신상변동 통보",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "야간·방송통신 허용 / 전문연구요원 박사과정은 별도 요건",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            147,
+            147
+          ],
+          [
+            204,
+            204
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
+      "main_article": "병역법 제41조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-077",
+        "path": "docs/merged-lectures/병역법/본법_41.txt",
+        "git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
+        "source_line_spans": [
+          [
+            147,
+            147
+          ],
+          [
+            204,
+            204
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-077-D09-editorial-v1",
+      "lecture_id": "MS-077",
+      "lesson_number": 77,
+      "diagram_number": 9,
+      "title": "의무복무기간 계산",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 265,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D09-editorial-v1.svg",
+          "bytes": 6422,
+          "sha256": "2f63239b94ebb00a1524748cd9b3242484658e65005cedc7aea6184271c89073"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D09-editorial-v1.webp",
+          "bytes": 54710,
+          "sha256": "895db592cead884c4359bfba7d1acd287f46fc1e82759e6e3aadb95719759b79"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-077",
+        "title": "의무복무기간 계산",
+        "subtitle": "시행령 제89조 · 기산일과 복무기간 제외",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "기산일과 제외 기간",
+            "items": [
+              {
+                "label": "기산일",
+                "text": "원칙: 편입한 날 승선예정 산업기능: 승선일",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "복무기간에서 제외",
+                "text": "박사과정 수학·휴직·정직 휴업·직장폐쇄·영업정지 해당 분야 미복무기간",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "휴직의 예외",
+                "text": "업무상 부상·질병으로 휴직한 기간은 복무기간에 산입",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "기간 기준",
+            "items": [
+              {
+                "label": "통틀어",
+                "text": "3개월 초과 국외여행기간 30일 초과 질병휴가·휴직·결근 8일 미만 무단결근기간",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "해고 다툼",
+                "text": "정당한 해고로 확정되면 다툼 진행기간 제외",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "전직 대기",
+                "text": "3개월(일부 14일)을 넘는 기간",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "국외여행 3개월 · 질병 30일 · 무단결근 8일 미만",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            149,
+            155
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
+      "main_article": "병역법 제41조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-077",
+        "path": "docs/merged-lectures/병역법/본법_41.txt",
+        "git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
+        "source_line_spans": [
+          [
+            149,
+            155
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-077-D10-editorial-v1",
+      "lecture_id": "MS-077",
+      "lesson_number": 77,
+      "diagram_number": 10,
+      "title": "복무만료 처분의 순서",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 266,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D10-editorial-v1.svg",
+          "bytes": 5437,
+          "sha256": "45cf2d66415e627725174165ff805840885c222c994189752ef6e659168a8603"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D10-editorial-v1.webp",
+          "bytes": 44076,
+          "sha256": "a6ed33fb4ea2e3d73df7061dfaea96e9ca2aa795afc2b68c931ae517b8d6cb7a"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-077",
+        "title": "복무만료 처분의 순서",
+        "subtitle": "전문연구요원·산업기능요원",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "전달 10일까지",
+            "items": [
+              {
+                "label": "병역지정업체의 장",
+                "text": "만료자 명단·병역증·복무기록표 관할 지방병무청장에게 송부",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "후계농어업경영인",
+                "text": "시·도지사가 송부",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "농업기계 업체",
+                "text": "시장·군수·구청장을 거침",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "만료되는 달 1일",
+            "items": [
+              {
+                "label": "관할 지방병무청장",
+                "text": "만료일을 명시하여 복무만료처분",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "군사교육소집 미이수",
+                "text": "국외근무·승선복무로 미이수한 경우 처분을 유보",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "군사교육소집 후",
+                "text": "복무만료처분",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "서류: 전달 10일  /  처분: 그달 1일",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            157,
+            157
+          ],
+          [
+            206,
+            206
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
+      "main_article": "병역법 제41조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-077",
+        "path": "docs/merged-lectures/병역법/본법_41.txt",
+        "git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
+        "source_line_spans": [
+          [
+            157,
+            157
+          ],
+          [
+            206,
+            206
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-077-D11-editorial-v1",
+      "lecture_id": "MS-077",
+      "lesson_number": 77,
+      "diagram_number": 11,
+      "title": "편입취소자 처리와 잔여 복무",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 267,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D11-editorial-v1.svg",
+          "bytes": 5954,
+          "sha256": "a390d16a179160a9929453a9562c378356db543e82800c4c2cf05f301971cd00"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D11-editorial-v1.webp",
+          "bytes": 53144,
+          "sha256": "0b88deaf45878d2247c9caef6ed2283ff212b14ff3a8588649ca4e8857b26ddd"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-077",
+        "title": "편입취소자 처리와 잔여 복무",
+        "subtitle": "시행령 제92조 · 병적 이관과 남은 복무기간",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "병적 이관",
+            "items": [
+              {
+                "label": "병역지정업체의 장",
+                "text": "복무기록표를 관할 지방병무청장에게 송부",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "관할 지방병무청장",
+                "text": "병적기록표에 산출된 복무기간 기재 편입되기 전 지방병무청장에게 병적 이관",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "남은 복무기간",
+            "items": [
+              {
+                "label": "적용 대상",
+                "text": "부정 전직 및 법 제41조제1항 제3호~제8호 사유로 취소된 사람",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "계산 구조",
+                "text": "미복무 비율 × 현역병 또는 사회복무요원 의무복무기간 소수점 아래는 세지 않음",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "부정 전직 후 군사교육",
+                "text": "전직 전 복무일수에 포함",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "부정 편입은 별도 계산 / 부정 전직 등은 남은 복무기간 비율 적용",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            171,
+            175
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
+      "main_article": "병역법 제41조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-077",
+        "path": "docs/merged-lectures/병역법/본법_41.txt",
+        "git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
+        "source_line_spans": [
+          [
+            171,
+            175
+          ]
+        ]
+      }
+    },
+    {
       "id": "MS-078-D01-editorial-v1",
       "lecture_id": "MS-078",
       "lesson_number": 78,
@@ -25894,13 +26830,13 @@
     }
   ],
   "lesson_count": 166,
-  "diagram_count": 283,
+  "diagram_count": 292,
   "created_date_kst": "2026-11-27",
   "review_status": "existing_exam80_script_alignment_in_progress",
   "lecture_count": 166,
   "period": "27년 전반기",
   "requested_study_cutoff": "2027-02-02",
-  "source_basis_note": "제80회 기존 강의 원고 기준. 기존 283장 중 10장 원고 근거 확인, 273장 대조 대기. 전체 핵심 설명 검수 완료 3강.",
+  "source_basis_note": "제80회 기존 원고 기준. 기존 283장 중 13장 근거 확인, 270장 대조 대기. 전체 핵심 설명 검수 완료 6강. 77강 신규 보완 9장 공개, 전체 강의 검수는 계속.",
   "law_sources": [
     {
       "kind": "본법",
@@ -25942,10 +26878,10 @@
   ],
   "raster_encoding": "lossless WebP",
   "content_source": "military-service-act/editorial-content.json",
-  "content_source_sha256": "880277f5aa3283a34db248ab9c533ae974b75a05f57833e0216816187dfaf4f7",
+  "content_source_sha256": "1cb257c0a66b5e8516e271f57cb27bc1c629b491a131eff2479d4904b917ac9d",
   "playback_timing": "not_assigned",
   "scope": "military_service_act_all_166_lectures_core_diagrams",
-  "concept_diagram_count": 259,
+  "concept_diagram_count": 268,
   "previous_review_status": "content_and_layout_checked",
   "content_authority": "existing_exam80_lecture_scripts",
   "script_source_index": "military-service-act/script-sources-exam80.json",
@@ -25956,6 +26892,8 @@
     "pending_pages": 270,
     "complete_script_coverage_verified_lectures": 6,
     "audit": "military-service-act/script-alignment-audit-exam80.json",
-    "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+    "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+    "published_supplement_pages": 9,
+    "total_published_pages": 292
   }
 }

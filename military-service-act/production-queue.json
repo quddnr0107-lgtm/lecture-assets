@@ -2079,11 +2079,23 @@
       ],
       "full_script_read": true,
       "lease": null,
-      "checkpoint": 2,
-      "evidence_refs": [],
+      "checkpoint": 3,
+      "evidence_refs": [
+        "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json"
+      ],
       "outcome": null,
       "changed_diagram_ids": [],
-      "new_diagram_ids": [],
+      "new_diagram_ids": [
+        "MS-077-D03-editorial-v1",
+        "MS-077-D04-editorial-v1",
+        "MS-077-D05-editorial-v1",
+        "MS-077-D06-editorial-v1",
+        "MS-077-D07-editorial-v1",
+        "MS-077-D08-editorial-v1",
+        "MS-077-D09-editorial-v1",
+        "MS-077-D10-editorial-v1",
+        "MS-077-D11-editorial-v1"
+      ],
       "previously_verified_existing_diagram_ids": [
         "MS-077-D01-editorial-v1",
         "MS-077-D02-editorial-v1"
@@ -2101,7 +2113,13 @@
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/transfer-application.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/transfer-excluded.svg"
       ],
-      "script_fulltext_retrieved": true
+      "script_fulltext_retrieved": true,
+      "partial_publication": {
+        "published_supplements": 9,
+        "review_ref": "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
+        "published_asset_source_commit": "749313f4471a1125a3d97291b34bbba33a97cc47",
+        "remaining": "군 필요인원 통보 도식의 배정 주체 교정 및 강의 전체 누락 확인"
+      }
     },
     {
       "lecture_id": "MS-078",
@@ -4274,10 +4292,10 @@
   "last_partial_checkpoint": {
     "date_kst": "2026-11-27",
     "lecture_id": "MS-077",
-    "checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint.json",
-    "svg_drafts": 7,
-    "local_webp_drafts": 7,
-    "final_new_images": 0
+    "checkpoint": "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
+    "published_supplements": 9,
+    "held_drafts": 1,
+    "full_lecture_complete": false
   },
   "last_reuse_checkpoint": {
     "date_kst": "2026-11-27",
