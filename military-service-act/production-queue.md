@@ -53,3 +53,7 @@
 - 7장 렌더링 결과 공개 경로의 실제 화면 확인. 3장 원고 대조 통과(군 필요인원 통보·필요인원 통보 기준·국외 거주 허가 간주), 4장 교정 필요.
 - 정식 경로, 편집 데이터·manifest 동시 갱신 및 SHA-256 재계산 전까지 신규 확정 이미지로 세지 않음. [검수 근거](production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-04-visual-review.json).
 - 전체 강의 검수 6강 완료, 160강 대기. 기존 공개 도식 296장 유지.
+
+## 후속 교정 체크포인트 05
+- 94강 2장·109강 3장 SVG 교정본 저장. 원고 267행의 취소 간주/병역의무 부과 재량을 다시 확인하여 109강의 기존 통과 초안도 교정 대상으로 변경.
+- 77강·94강 검수 통과 초안 각 1장은 정식 파일·목록 통합 대기. 교정본 5장은 WebP 렌더링 및 시각 검수 대기. 정식 공개 수 296장 유지. [근거](production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-05-corrected-drafts.json).

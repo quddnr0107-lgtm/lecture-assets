@@ -1,0 +1,101 @@
+{
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "reviewed_date_kst": "2026-11-27",
+  "source_identity_rechecked_in_run": true,
+  "previous_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-04-visual-review.json",
+  "revised": [
+    {
+      "lecture_id": "MS-094",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-094/candidate-application-deadlines-r2.svg",
+      "svg_sha256": "ef674ee079cfef72bee9559b6eefed738d6b201df51e4f1314e2a44dd8b618ef",
+      "svg_blob_sha": "812ebdd7e0f5a568b9d8d9a7b09567f05a540231",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "source_line_spans": [
+        [
+          124,
+          126
+        ]
+      ],
+      "reason": "군전공의요원·사법연수원·수의과대학 및 기산 연도 명시",
+      "previous_svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-094/candidate-application-deadlines.svg",
+      "status": "corrected_svg_requires_raster_and_visual_review"
+    },
+    {
+      "lecture_id": "MS-094",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-094/candidate-selection-scoring-r2.svg",
+      "svg_sha256": "dcf3864131a0e42cfb3ffa636ded8cefd6f29a531618f93c1a8afb37c5f531d8",
+      "svg_blob_sha": "c88ae0c4787f27bce2fd8b214fda08a653f48b02",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "source_line_spans": [
+        [
+          128,
+          128
+        ]
+      ],
+      "reason": "신체등급 급 단위·법무 대상별 산식·합산 선발·동점 방향 교정",
+      "previous_svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-094/candidate-selection-scoring.svg",
+      "status": "corrected_svg_requires_raster_and_visual_review"
+    },
+    {
+      "lecture_id": "MS-109",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/study-travel-extension-r2.svg",
+      "svg_sha256": "d1e951baffb4ef7b38f4a13b39d80ee9c1c9b1106130150f6f73670d8a95bded",
+      "svg_blob_sha": "de38fb78957a7ca11d5ad3ce151c153593b93b46",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "source_line_spans": [
+        [
+          171,
+          171
+        ],
+        [
+          195,
+          195
+        ]
+      ],
+      "reason": "병역의무부과 지장 없는 범위·재량 표현 및 고등학교 제외의 적용 위치 명시",
+      "previous_svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/study-travel-extension.svg",
+      "status": "corrected_svg_requires_raster_and_visual_review"
+    },
+    {
+      "lecture_id": "MS-109",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/travel-cancellation-numbers-r2.svg",
+      "svg_sha256": "60a41ee94b500e282edbab099835a80497226de1bc71819c8e34c15ba92030e7",
+      "svg_blob_sha": "004a98533baed159c8451e083e8bbf0df9668939",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "source_line_spans": [
+        [
+          235,
+          247
+        ]
+      ],
+      "reason": "연기일 기산·25세 이상 허가기간 중 귀국·3개월 이상 및 유예 대상 구분",
+      "previous_svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/travel-cancellation-numbers.svg",
+      "status": "corrected_svg_requires_raster_and_visual_review"
+    },
+    {
+      "lecture_id": "MS-109",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/overseas-residence-special-r2.svg",
+      "svg_sha256": "219bb5650001affc3bcdb8e120daf1c7fc4ad0faebbf74a5ee7e8563a42ed9e4",
+      "svg_blob_sha": "291af7a175e9f9d7f663ca1647c6c0688096e4ce",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "source_line_spans": [
+        [
+          249,
+          267
+        ]
+      ],
+      "reason": "원고 267행의 취소 간주 및 병역의무 부과 재량 정확화",
+      "previous_svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/overseas-residence-special.svg",
+      "status": "corrected_svg_requires_raster_and_visual_review"
+    }
+  ],
+  "publication_count": 0,
+  "full_lecture_complete": false,
+  "remaining_ready_for_final_publication": [
+    "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/military-demand-notification-corrected.svg",
+    "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-094/candidate-demand-notification.svg"
+  ],
+  "reason_for_reclassifying_MS109": "원고 267행은 허가 취소 간주와 병역의무 부과 가능을 구분하므로 기존 통과 초안을 교정 대상으로 재분류."
+}
