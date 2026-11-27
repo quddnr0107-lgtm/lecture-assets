@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "exam": 80,
-  "run_id": "dr-20261127-152108-script",
+  "run_id": "dr-20261127-162118-script",
   "groups": [
     {
       "lesson_id": "DR-024",
@@ -10,52 +10,58 @@
       "existing_max": 6,
       "items": [
         {
-          "id": "DR-024-D04",
-          "job_id": "DR-024-exam80-04-revision-152108",
+          "id": "DR-024-D02",
+          "job_id": "DR-024-exam80-02-revision-162118",
           "mode": "revision",
           "slide": {
             "lessonId": "DR-024",
             "articleKey": "1-24",
-            "title": "예비군 복무 만료와 카드 보관",
-            "subtitle": "복무만료 명단을 대조하고 편성 제외 후에도 카드를 보관한다.",
+            "title": "입사·입복학과 직장예비군 편입",
+            "subtitle": "직장의 장은 입사일·입복학일을 기준으로 3일 이내 편입을 요청한다.",
             "layout": "equal",
             "left": {
-              "title": "조직 제외·명단 대조",
-              "subtitle": "제7항제1호·제2호",
+              "title": "지역에서 직장으로",
+              "subtitle": "제2항",
               "items": [
                 {
-                  "label": "지방병무청장",
-                  "text": "복무만료자 조직 제외, 국방동원정보체계로 지역·직장 지휘관에게 명단 통보",
+                  "label": "해당 직장의 장",
+                  "text": "입사·입복학일부터 3일 이내, 직장 관할 지방병무청장에게",
                   "bold": false
                 },
                 {
-                  "label": "지역·직장 예비군지휘관",
-                  "text": "매년 말 별도 명단과 대조 후 이상 유무를 지방병무청장에게 통보",
+                  "label": "요청 방법",
+                  "text": "국방동원정보체계",
+                  "bold": false
+                },
+                {
+                  "label": "편성정보 수신 후",
+                  "text": "직장의 장이 보직 부여 등 자원관리",
                   "bold": false
                 }
               ]
             },
             "right": {
-              "title": "증빙·보관",
-              "subtitle": "제7항제3호·제4호",
+              "title": "직장 유지·주소 이전",
+              "subtitle": "제3항",
               "items": [
                 {
-                  "label": "지역·직장 예비군지휘관",
-                  "text": "연령·역종변경 외 사유의 본인 증빙을 받아 지방병무청장에게 확인 요청",
+                  "label": "직장 관할 지방병무청장",
+                  "text": "행정안전부 행정전산망의 신상변동 자료로 편성카드 주소 수정",
                   "bold": false
                 },
                 {
-                  "label": "전산 편성카드",
-                  "text": "편성 제외 후 3년간 보관",
+                  "label": "직장의 장에게",
+                  "text": "국방동원정보체계로 수정 결과 전송",
                   "bold": false
                 }
               ]
             },
             "sourceArticle": "조직·편성 훈령 제24조",
             "sourceClauses": [
-              "제7항"
+              "제2항",
+              "제3항"
             ],
-            "note": "조직에서 제외하는 주체는 지방병무청장이다.",
+            "note": "지역예비군 주소 이전의 편성정보는 국방동원정보체계로 전송된다.",
             "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J24-0:0",
             "sourceVersion": "국방부훈령 제3104호",
             "effectiveDate": "2025-11-14",
@@ -64,15 +70,89 @@
               "source_git_blob": "c81c18e18bf1db351236dc60301c2c10dec3168e",
               "source_sha256": "94e583fa555ab8e0191cbe33c4beb12d084cd7e5478c29bc52ee936743b872d6",
               "lines": [
-                131,
-                133,
-                143,
-                145,
-                147,
-                153,
-                155,
-                157,
-                163
+                61,
+                69,
+                73,
+                75,
+                77
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-024-D03",
+          "job_id": "DR-024-exam80-03-revision-162118",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-024",
+            "articleKey": "1-24",
+            "title": "퇴직과 직장 변경 때의 처리",
+            "subtitle": "직장 편성 제외와 다른 직장 전입 요청을 구분한다.",
+            "layout": "equal",
+            "left": {
+              "title": "퇴직 → 지역예비군",
+              "subtitle": "제4항",
+              "items": [
+                {
+                  "label": "직장의 장",
+                  "text": "국방동원정보체계로 관할 지방병무청장에게 제외 통보",
+                  "bold": false
+                },
+                {
+                  "label": "지방병무청장",
+                  "text": "카드 정리 후 국방동원정보체계로 주소지 지역예비군부대에 통보",
+                  "bold": false
+                },
+                {
+                  "label": "지역예비군지휘관",
+                  "text": "편성 처리, 필요 시 직장에 관련서류 요구",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "직장 변경",
+              "subtitle": "제5항·제6항",
+              "items": [
+                {
+                  "label": "전 직장의 장",
+                  "text": "국방동원정보체계로 관할 지방병무청장에게 전출 통보",
+                  "bold": false
+                },
+                {
+                  "label": "새 직장의 장",
+                  "text": "국방동원정보체계로 관할 지방병무청장에게 전입 요청",
+                  "bold": false
+                },
+                {
+                  "label": "지방병무청장",
+                  "text": "전·출입 직장의 장 양쪽에 국방동원정보체계로 통보",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "조직·편성 훈령 제24조",
+            "sourceClauses": [
+              "제4항",
+              "제5항",
+              "제6항"
+            ],
+            "note": "직장과 주소 동시 변경: 전 직장의 장이 전출 통보하고 지방병무청장은 제5항제3호 방식으로 처리.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J24-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-024",
+            "scriptEvidence": {
+              "source_git_blob": "c81c18e18bf1db351236dc60301c2c10dec3168e",
+              "source_sha256": "94e583fa555ab8e0191cbe33c4beb12d084cd7e5478c29bc52ee936743b872d6",
+              "lines": [
+                87,
+                91,
+                95,
+                103,
+                113,
+                119,
+                125
               ]
             }
           }
@@ -80,81 +160,616 @@
       ]
     },
     {
-      "lesson_id": "DR-046",
-      "expected_source_blob": "5ab599a1f9f6a9065e54be08386843bbb7fa0f7e",
-      "expected_script_sha256": "b087e198d987c99b17c2271ef0414e9c363c290e7ecba5884bbee1dccaaf9dfc",
-      "existing_max": 1,
+      "lesson_id": "DR-062",
+      "expected_source_blob": "aaed65786f38035ea47d8aaf64ac3f4e930da9d3",
+      "expected_script_sha256": "6c5810da8b3c2c54869b3cf128ef1216623f7a649103b23645b1e87bc90b19ab",
+      "existing_max": 11,
       "items": [
         {
-          "id": "DR-046-D01",
-          "job_id": "DR-046-exam80-01-revision-152108",
+          "id": "DR-062-D03",
+          "job_id": "DR-062-exam80-03-revision-162118",
           "mode": "revision",
           "slide": {
-            "lessonId": "DR-046",
-            "articleKey": "2-3",
-            "title": "교육훈련 훈령의 적용범위",
-            "subtitle": "예비군훈련을 담당하는 부대와 관련 기관에 적용한다.",
+            "lessonId": "DR-062",
+            "articleKey": "2-18",
+            "title": "보충훈련과 고발의 흐름",
+            "subtitle": "Ⅱ형·기본·작계훈련은 3차 훈련의 무단불참 여부가 핵심이다.",
             "layout": "split",
             "left": {
-              "title": "담당 부대",
-              "subtitle": "제3조",
+              "title": "훈련차수 증가",
+              "subtitle": "제4항 본문·제2호",
               "items": [
                 {
-                  "label": "명칭",
-                  "text": "예비군 교육훈련 → 예비군훈련",
+                  "label": "1차 미이수",
+                  "text": "2차 훈련 부과",
                   "bold": false
                 },
                 {
-                  "label": "대상 기준",
-                  "text": "예비군훈련을 담당하는 부대",
+                  "label": "2차 불참",
+                  "text": "3차 훈련 부과",
+                  "bold": false
+                },
+                {
+                  "label": "3차 무단불참",
+                  "text": "고발 후 3차 훈련 재부과, 이수까지 반복",
                   "bold": false
                 }
               ]
             },
             "right": {
-              "title": "괄호와 관련 기관",
-              "subtitle": "제3조",
+              "title": "3차 일부 이수",
+              "subtitle": "제4항제2호나목",
               "items": [
                 {
-                  "label": "부서 포함",
-                  "text": "부대에는 부서도 포함한다",
+                  "label": "50% 미만 이수",
+                  "text": "고발하고 잔여시간을 3차 훈련으로 재부과",
                   "bold": false
                 },
                 {
-                  "label": "이하 같다",
-                  "text": "이 훈령에서 이후에도 같은 뜻으로 적용",
+                  "label": "일부 연기·정당조퇴 예외",
+                  "text": "잔여시간을 3차 훈련으로 재부과",
                   "bold": false
                 },
                 {
-                  "label": "관련 기관",
-                  "text": "예비군훈련 관련 기관에도 적용",
+                  "label": "이후 무단불참",
+                  "text": "매회 고발",
                   "bold": false
                 }
               ]
             },
-            "sourceArticle": "교육훈련 훈령 제3조",
+            "sourceArticle": "교육훈련 훈령 제18조",
             "sourceClauses": [
-              "제3조"
+              "제4항",
+              "제4항제2호가목",
+              "제4항제2호나목"
             ],
-            "note": "소속 명칭보다 예비군훈련을 담당하는지가 기준이다.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J3-0:0",
+            "note": "동원훈련Ⅰ형 무단불참은 지방병무청 고발 등 제4항제1호의 별도 절차 적용.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J18-0:0",
             "sourceVersion": "국방부훈령 제3216호",
             "effectiveDate": "2026-10-14",
-            "scriptRef": "DR-046",
+            "scriptRef": "DR-062",
             "scriptEvidence": {
-              "source_git_blob": "5ab599a1f9f6a9065e54be08386843bbb7fa0f7e",
-              "source_sha256": "b087e198d987c99b17c2271ef0414e9c363c290e7ecba5884bbee1dccaaf9dfc",
+              "source_git_blob": "aaed65786f38035ea47d8aaf64ac3f4e930da9d3",
+              "source_sha256": "6c5810da8b3c2c54869b3cf128ef1216623f7a649103b23645b1e87bc90b19ab",
+              "lines": [
+                85,
+                87,
+                155,
+                157,
+                169
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-062-D05",
+          "job_id": "DR-062-exam80-05-revision-162118",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-062",
+            "articleKey": "2-18",
+            "title": "행정착오와 미이수 훈련",
+            "subtitle": "부대의 미부과 착오와 본인의 기존 미이수 훈련을 구분한다.",
+            "layout": "split",
+            "left": {
+              "title": "행정착오",
+              "subtitle": "제4항제2호라목·마목",
+              "items": [
+                {
+                  "label": "훈련 미부과",
+                  "text": "다음 해에 추가하여 부과할 수 없음",
+                  "bold": false
+                },
+                {
+                  "label": "훈련 과부과·이수",
+                  "text": "초과 이수한 훈련시간만큼 면제 처리",
+                  "bold": false
+                },
+                {
+                  "label": "잘못 부과한 입소",
+                  "text": "훈련 불가 시 해당일 훈련을 이수한 것으로 처리",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "기존 미이수",
+              "subtitle": "제4항제2호바목·제4호나목",
+              "items": [
+                {
+                  "label": "전년도 미이수",
+                  "text": "해당 연도 유형별 보충훈련 때 계속 부과",
+                  "bold": false
+                },
+                {
+                  "label": "누적시간",
+                  "text": "예비군 편성 종료 시까지 유지하여 부과",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "교육훈련 훈령 제18조",
+            "sourceClauses": [
+              "제4항제2호라목",
+              "제4항제2호마목",
+              "제4항제2호바목",
+              "제4항제4호나목"
+            ],
+            "note": "",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J18-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-062",
+            "scriptEvidence": {
+              "source_git_blob": "aaed65786f38035ea47d8aaf64ac3f4e930da9d3",
+              "source_sha256": "6c5810da8b3c2c54869b3cf128ef1216623f7a649103b23645b1e87bc90b19ab",
+              "lines": [
+                187,
+                195,
+                209
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson_id": "DR-078",
+      "expected_source_blob": "10cfc56fac80c296861241c032e43f35a9458465",
+      "expected_script_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
+      "existing_max": 7,
+      "items": [
+        {
+          "id": "DR-078-D01",
+          "job_id": "DR-078-exam80-01-revision-162118",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-078",
+            "articleKey": "2-23",
+            "title": "보류해소의 14일과 30일",
+            "subtitle": "본인 신고, 직권해소 후 안내, 체계입력 기한을 분리한다.",
+            "layout": "split",
+            "left": {
+              "title": "14일 이내",
+              "subtitle": "제1항제4호",
+              "items": [
+                {
+                  "label": "본인 신고",
+                  "text": "해소일부터 14일 이내: 예비군 홈페이지·FAX 또는 소속 예비군지휘관",
+                  "bold": false
+                },
+                {
+                  "label": "귀국자",
+                  "text": "명부 지속 확인, 14일 이내 해소; 자료 미비 시 조회",
+                  "bold": false
+                },
+                {
+                  "label": "지휘관 입력",
+                  "text": "해소사유 발생 후 14일 이내 체계 입력",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "직권해소 후 30일",
+              "subtitle": "제1항제4호나목",
+              "items": [
+                {
+                  "label": "직권조치",
+                  "text": "소속기관 등에서 해소 통보받으면 지체 없이 해소",
+                  "bold": false
+                },
+                {
+                  "label": "해소신고서",
+                  "text": "직권처리 안내를 받은 날부터 30일 이내 제출 안내",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "교육훈련 훈령 제23조",
+            "sourceClauses": [
+              "제1항제4호가목",
+              "제1항제4호나목",
+              "제1항제4호마목"
+            ],
+            "note": "",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-078",
+            "scriptEvidence": {
+              "source_git_blob": "10cfc56fac80c296861241c032e43f35a9458465",
+              "source_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
+              "lines": [
+                31,
+                33,
+                43,
+                51,
+                65
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-078-D08",
+          "job_id": "DR-078-exam80-08-new-162118",
+          "mode": "new",
+          "slide": {
+            "lessonId": "DR-078",
+            "articleKey": "2-23",
+            "title": "병역처분 변경과 보류의 구별",
+            "subtitle": "질병 등으로 복무 곤란한 경우와 보충역 소집해제자의 보류를 구분한다.",
+            "layout": "equal",
+            "left": {
+              "title": "병역처분변경",
+              "subtitle": "제1항제3호",
+              "items": [
+                {
+                  "label": "신청",
+                  "text": "거주지 지방병무청장에게 병역처분변경원서 신청",
+                  "bold": false
+                },
+                {
+                  "label": "신체검사",
+                  "text": "지정 신체검사기관 및 군 병원",
+                  "bold": false
+                },
+                {
+                  "label": "결과",
+                  "text": "전시근로역 편입 또는 병역면제 처분 가능",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "보류 처리",
+              "subtitle": "제1항제3호",
+              "items": [
+                {
+                  "label": "대상",
+                  "text": "현역복무부적합 처분 후 보충역 복무·소집해제",
+                  "bold": false
+                },
+                {
+                  "label": "전산코드",
+                  "text": "국방동원정보체계 ①(정신이상 및 성격장애)",
+                  "bold": false
+                },
+                {
+                  "label": "처리",
+                  "text": "보류처리할 수 있음",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "교육훈련 훈령 제23조",
+            "sourceClauses": [
+              "제1항제3호"
+            ],
+            "note": "병역처분변경 신청 근거: 병역법 시행령 제135조.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-078",
+            "scriptEvidence": {
+              "source_git_blob": "10cfc56fac80c296861241c032e43f35a9458465",
+              "source_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
+              "lines": [
+                15,
+                17,
+                19,
+                21,
+                23,
+                155
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson_id": "DR-042",
+      "expected_source_blob": "1c460275d8ab8a3cdb1b238c3527ba744dfdb543",
+      "expected_script_sha256": "e1f7e31169ba76dda3896dfdd9fffb3938b0d53f7fc44ef4eb490cc1c433da37",
+      "existing_max": 3,
+      "items": [
+        {
+          "id": "DR-042-D01",
+          "job_id": "DR-042-exam80-01-revision-162118",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-042",
+            "articleKey": "1-61",
+            "title": "조직·편성 훈령의 재검토",
+            "subtitle": "검토 주체·기준일·주기를 연결하여 기억한다.",
+            "layout": "equal",
+            "left": {
+              "title": "검토 주체·기준",
+              "subtitle": "제61조 재검토 기한",
+              "items": [
+                {
+                  "label": "검토 주체",
+                  "text": "국방부장관",
+                  "bold": true
+                },
+                {
+                  "label": "기준일",
+                  "text": "2024년 1월 1일",
+                  "bold": true
+                }
+              ]
+            },
+            "right": {
+              "title": "주기·조치",
+              "subtitle": "타당성을 정기적으로 검토",
+              "items": [
+                {
+                  "label": "검토 주기",
+                  "text": "매 3년이 되는 시점마다 타당성을 검토한다.",
+                  "bold": true
+                },
+                {
+                  "label": "검토 후 조치",
+                  "text": "개선 등의 조치를 하여야 한다.",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "조직·편성 훈령 제61조",
+            "sourceClauses": [
+              "제61조"
+            ],
+            "note": "조직·편성 훈령 제61조: 2024.1.1 / 교육훈련 훈령 제33조: 2027.1.1 (모두 매 3년).",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J61-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-042",
+            "scriptEvidence": {
+              "source_git_blob": "1c460275d8ab8a3cdb1b238c3527ba744dfdb543",
+              "source_sha256": "e1f7e31169ba76dda3896dfdd9fffb3938b0d53f7fc44ef4eb490cc1c433da37",
               "lines": [
                 17,
-                29,
+                23,
+                33,
                 39,
-                45,
-                55,
-                63,
-                64,
+                41,
+                95,
+                96,
+                97,
+                98
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson_id": "DR-016",
+      "expected_source_blob": "8542898dedf98f62fd0403fd3f17aeb1999fcfa1",
+      "expected_script_sha256": "b09a6d3b2d79f5e2dd04f614350efff690e9b1b896bfede8c25cc41e4ab41a90",
+      "existing_max": 1,
+      "items": [
+        {
+          "id": "DR-016-D01",
+          "job_id": "DR-016-exam80-01-revision-162118",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-016",
+            "articleKey": "1-16",
+            "title": "지원예비군의 선발 대상",
+            "subtitle": "나이는 최종 선발 예정일을 기준으로 판단한다.",
+            "layout": "split",
+            "left": {
+              "title": "기본 요건",
+              "subtitle": "본문",
+              "items": [
+                {
+                  "label": "국적",
+                  "text": "대한민국 국민",
+                  "bold": false
+                },
+                {
+                  "label": "나이",
+                  "text": "최종 선발 예정일 기준 18세 이상",
+                  "bold": false
+                },
+                {
+                  "label": "임무 수행",
+                  "text": "예비군 임무를 수행할 수 있어야 함",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "지원 제외",
+              "subtitle": "단서",
+              "items": [
+                {
+                  "label": "제외 대상",
+                  "text": "민방위기본법 제19조에 따른 민방위대 대장 등 임무수행 불가능자",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "조직·편성 훈령 제16조",
+            "sourceClauses": [
+              "본문",
+              "단서"
+            ],
+            "note": "18세 이상: 예비군법 시행령 제3조제1항. 지원서 제출일이 아니라 최종 선발 예정일 기준.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J16-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-016",
+            "scriptEvidence": {
+              "source_git_blob": "8542898dedf98f62fd0403fd3f17aeb1999fcfa1",
+              "source_sha256": "b09a6d3b2d79f5e2dd04f614350efff690e9b1b896bfede8c25cc41e4ab41a90",
+              "lines": [
+                31,
+                39,
+                61,
                 65,
-                66,
-                67
+                79,
+                87,
+                90
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson_id": "DR-020",
+      "expected_source_blob": "2a00f0a45985a3f77d2b4e02ec88b4c07ff10e11",
+      "expected_script_sha256": "736c59283683e9bb7a27a1854d0d1bb02ca7c196313a5a34da4d2328332be685",
+      "existing_max": 1,
+      "items": [
+        {
+          "id": "DR-020-D01",
+          "job_id": "DR-020-exam80-01-revision-162118",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-020",
+            "articleKey": "1-20",
+            "title": "예비군 추가 편성의 연령 기준",
+            "subtitle": "조직 기간이 지난 예비역·보충역 병이 추가 편성 대상이다.",
+            "layout": "equal",
+            "left": {
+              "title": "일반 기준",
+              "subtitle": "제1항",
+              "items": [
+                {
+                  "label": "대상",
+                  "text": "예비군법 제3조 조직 기간이 지난 예비역·보충역 병",
+                  "bold": false
+                },
+                {
+                  "label": "병역법 제72조",
+                  "text": "40세 이하",
+                  "bold": false
+                },
+                {
+                  "label": "권한",
+                  "text": "국방부장관이 추가 편성 가능",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "확대 기준",
+              "subtitle": "제2항",
+              "items": [
+                {
+                  "label": "근거",
+                  "text": "병역법 제83조: 전시·사변 또는 동원령 선포 시",
+                  "bold": false
+                },
+                {
+                  "label": "연령 확대",
+                  "text": "45세 이하 예비역·보충역 병까지 가능",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "조직·편성 훈령 제20조",
+            "sourceClauses": [
+              "제1항",
+              "제2항"
+            ],
+            "note": "추가 편성의 사유는 예비군법 시행령 제4조에 따른다.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J20-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-020",
+            "scriptEvidence": {
+              "source_git_blob": "2a00f0a45985a3f77d2b4e02ec88b4c07ff10e11",
+              "source_sha256": "736c59283683e9bb7a27a1854d0d1bb02ca7c196313a5a34da4d2328332be685",
+              "lines": [
+                17,
+                37,
+                45,
+                47,
+                57,
+                61,
+                71,
+                75,
+                77,
+                87
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson_id": "DR-025",
+      "expected_source_blob": "831fc0769d77b78ac240a4ba757b756064dabca3",
+      "expected_script_sha256": "aca030ec7a0c048f00b1872f50a63f3fde0ea196ebc1c40495cb27ca8bb779d2",
+      "existing_max": 1,
+      "items": [
+        {
+          "id": "DR-025-D01",
+          "job_id": "DR-025-exam80-01-revision-162118",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-025",
+            "articleKey": "1-25",
+            "title": "재복무자의 예비군 연차 계산",
+            "subtitle": "신분의 동일 여부와 재입대 시점에 따라 적용한다.",
+            "layout": "equal",
+            "left": {
+              "title": "동일 신분",
+              "subtitle": "제25조·별표18",
+              "items": [
+                {
+                  "label": "해당 유형",
+                  "text": "장교→장교, 부사관→부사관, 병→병",
+                  "bold": false
+                },
+                {
+                  "label": "적용 기준",
+                  "text": "예비군 복무연차 합산",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "상이한 신분",
+              "subtitle": "제25조·별표18",
+              "items": [
+                {
+                  "label": "2011.12.31 이전 입대",
+                  "text": "예비군 복무연차 합산",
+                  "bold": false
+                },
+                {
+                  "label": "2012.1.1 이후 입대",
+                  "text": "재복무 전역 후 다음 해에 1년차부터 부과",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "조직·편성 훈령 제25조",
+            "sourceClauses": [
+              "본문",
+              "별표18"
+            ],
+            "note": "재복무자 연차는 별표 18 (별표 17 아님), 예비역 간부 진급은 별표 19.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J25-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-025",
+            "scriptEvidence": {
+              "source_git_blob": "831fc0769d77b78ac240a4ba757b756064dabca3",
+              "source_sha256": "aca030ec7a0c048f00b1872f50a63f3fde0ea196ebc1c40495cb27ca8bb779d2",
+              "lines": [
+                17,
+                23,
+                25,
+                27,
+                31,
+                59,
+                62
               ]
             }
           }
@@ -165,11 +780,11 @@
       "lesson_id": "DR-050",
       "expected_source_blob": "9cc4c33c02969573f6d70ab961c45641cdb34eb6",
       "expected_script_sha256": "130fa82f7801502315da031812b228f966090d1463ce8b104ce5c27f0705e9b7",
-      "existing_max": 1,
+      "existing_max": 3,
       "items": [
         {
           "id": "DR-050-D01",
-          "job_id": "DR-050-exam80-01-revision-152108",
+          "job_id": "DR-050-exam80-01-revision-162118",
           "mode": "revision",
           "slide": {
             "lessonId": "DR-050",
@@ -187,13 +802,8 @@
                   "bold": false
                 },
                 {
-                  "label": "지휘·감독",
+                  "label": "지휘·감독, 조정·통제·평가",
                   "text": "각 군 참모총장·중간제대 지휘관",
-                  "bold": false
-                },
-                {
-                  "label": "조정·통제·평가",
-                  "text": "상급 제대에서 실시",
                   "bold": false
                 }
               ]
@@ -218,7 +828,7 @@
             "sourceClauses": [
               "제1호"
             ],
-            "note": "관련 문서 작성은 별도 제2호에서 규정한다.",
+            "note": "각 군 참모총장은 해병대의 경우 해병대사령관. 관련 문서는 제2호 참조.",
             "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J6-0:0",
             "sourceVersion": "국방부훈령 제3216호",
             "effectiveDate": "2026-10-14",
@@ -227,722 +837,11 @@
               "source_git_blob": "9cc4c33c02969573f6d70ab961c45641cdb34eb6",
               "source_sha256": "130fa82f7801502315da031812b228f966090d1463ce8b104ce5c27f0705e9b7",
               "lines": [
-                15,
                 17,
                 37,
-                45,
-                61,
-                63
-              ]
-            }
-          }
-        },
-        {
-          "id": "DR-050-D02",
-          "job_id": "DR-050-exam80-02-new-152108",
-          "mode": "new",
-          "slide": {
-            "lessonId": "DR-050",
-            "articleKey": "2-6",
-            "title": "별표 1 예비군훈련 체계",
-            "subtitle": "위에서 아래로 이어지는 지휘 층과 훈련 유형을 연결한다.",
-            "layout": "split",
-            "left": {
-              "title": "상급 제대에서 현장으로",
-              "subtitle": "별표 1",
-              "items": [
-                {
-                  "label": "상급",
-                  "text": "국방부 → 각 군 본부",
-                  "bold": false
-                },
-                {
-                  "label": "중간 제대",
-                  "text": "작전사령부·군단급 부대",
-                  "bold": false
-                },
-                {
-                  "label": "시행",
-                  "text": "수임군부대",
-                  "bold": false
-                }
-              ]
-            },
-            "right": {
-              "title": "훈련 세 갈래",
-              "subtitle": "별표 1",
-              "items": [
-                {
-                  "label": "동원예비군훈련",
-                  "text": "동원예비군 대상 훈련",
-                  "bold": false
-                },
-                {
-                  "label": "지역예비군훈련",
-                  "text": "지역예비군 대상 훈련",
-                  "bold": false
-                },
-                {
-                  "label": "간부교육",
-                  "text": "부대교육·학교교육",
-                  "bold": false
-                }
-              ]
-            },
-            "sourceArticle": "교육훈련 훈령 제6조",
-            "sourceClauses": [
-              "제1호",
-              "별표 1"
-            ],
-            "note": "시행 책임과 학교교육 통제의 예외는 앞 도식에서 구분한다.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J6-0:0",
-            "sourceVersion": "국방부훈령 제3216호",
-            "effectiveDate": "2026-10-14",
-            "scriptRef": "DR-050",
-            "scriptEvidence": {
-              "source_git_blob": "9cc4c33c02969573f6d70ab961c45641cdb34eb6",
-              "source_sha256": "130fa82f7801502315da031812b228f966090d1463ce8b104ce5c27f0705e9b7",
-              "lines": [
-                39
-              ]
-            }
-          }
-        },
-        {
-          "id": "DR-050-D03",
-          "job_id": "DR-050-exam80-03-new-152108",
-          "mode": "new",
-          "slide": {
-            "lessonId": "DR-050",
-            "articleKey": "2-6",
-            "title": "별표 2 훈련 관련 문서의 다섯 층",
-            "subtitle": "각급 제대별 해당 부분을 작성하며 국방정책 구현에 중점을 둔다.",
-            "layout": "equal",
-            "left": {
-              "title": "중장기 목표·기본방침",
-              "subtitle": "별표 2",
-              "items": [
-                {
-                  "label": "국방전략서 · 국방부",
-                  "text": "국방정책 중장기 목표",
-                  "bold": false
-                },
-                {
-                  "label": "예비전력 정책서 · 예비전력정책관실",
-                  "text": "예비전력 발전 중장기 목표",
-                  "bold": false
-                },
-                {
-                  "label": "예비군훈련 훈령 · 예비전력정책관실",
-                  "text": "교육훈련 기본방침",
-                  "bold": false
-                }
-              ]
-            },
-            "right": {
-              "title": "시행지침·실시방법",
-              "subtitle": "별표 2",
-              "items": [
-                {
-                  "label": "훈련 규정·지시",
-                  "text": "각 군·작전사령부 동원부서: 시행지침",
-                  "bold": false
-                },
-                {
-                  "label": "당해 연도 훈련지시",
-                  "text": "수임군부대 동원부서: 실시방법",
-                  "bold": false
-                }
-              ]
-            },
-            "sourceArticle": "교육훈련 훈령 제6조",
-            "sourceClauses": [
-              "제2호",
-              "별표 2"
-            ],
-            "note": "중점은 국방정책의 구현이다. 예비전력 극대화가 아니다.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J6-0:0",
-            "sourceVersion": "국방부훈령 제3216호",
-            "effectiveDate": "2026-10-14",
-            "scriptRef": "DR-050",
-            "scriptEvidence": {
-              "source_git_blob": "9cc4c33c02969573f6d70ab961c45641cdb34eb6",
-              "source_sha256": "130fa82f7801502315da031812b228f966090d1463ce8b104ce5c27f0705e9b7",
-              "lines": [
-                45,
-                61,
-                65,
-                67,
-                69,
-                71,
-                73,
-                75
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "lesson_id": "DR-042",
-      "expected_source_blob": "1c460275d8ab8a3cdb1b238c3527ba744dfdb543",
-      "expected_script_sha256": "e1f7e31169ba76dda3896dfdd9fffb3938b0d53f7fc44ef4eb490cc1c433da37",
-      "existing_max": 1,
-      "items": [
-        {
-          "id": "DR-042-D02",
-          "job_id": "DR-042-exam80-02-new-152108",
-          "mode": "new",
-          "slide": {
-            "lessonId": "DR-042",
-            "articleKey": "1-61",
-            "title": "편입·탈퇴·특전예비군 지원서",
-            "subtitle": "강의 후반의 별지 서식과 특전예비군 심사 경계를 비교한다.",
-            "layout": "equal",
-            "left": {
-              "title": "일반 지원 서식",
-              "subtitle": "별지 제1호·제2호",
-              "items": [
-                {
-                  "label": "제1호",
-                  "text": "편입·복무연장 / 예비군법 시행령 제3조",
-                  "bold": false
-                },
-                {
-                  "label": "제2호",
-                  "text": "지원예비군 탈퇴 / 조직편성 훈령 제17조",
-                  "bold": false
-                },
-                {
-                  "label": "미성년자",
-                  "text": "친권자 또는 후견인 동의",
-                  "bold": false
-                }
-              ]
-            },
-            "right": {
-              "title": "특전예비군부대",
-              "subtitle": "별지 제3호·별표 17",
-              "items": [
-                {
-                  "label": "제3호",
-                  "text": "편성 지원·편성연장",
-                  "bold": false
-                },
-                {
-                  "label": "신체 조건",
-                  "text": "BMI 30 미만 또는 국민체력 인증 3등급 이상",
-                  "bold": false
-                },
-                {
-                  "label": "경력",
-                  "text": "특수전사령부 소속 부대 복무 경력",
-                  "bold": false
-                }
-              ]
-            },
-            "sourceArticle": "조직·편성 훈령 별지 제1~3호·별표 17",
-            "sourceClauses": [
-              "별지 제1호",
-              "별지 제2호",
-              "별지 제3호",
-              "별표 17"
-            ],
-            "note": "BMI 30 미만과 체력 인증 3등급 이상은 또는 조건이다.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J61-0:0",
-            "sourceVersion": "국방부훈령 제3104호",
-            "effectiveDate": "2025-11-14",
-            "scriptRef": "DR-042",
-            "scriptEvidence": {
-              "source_git_blob": "1c460275d8ab8a3cdb1b238c3527ba744dfdb543",
-              "source_sha256": "e1f7e31169ba76dda3896dfdd9fffb3938b0d53f7fc44ef4eb490cc1c433da37",
-              "lines": [
-                45,
-                47,
-                79,
-                81,
-                83,
-                85,
+                87,
+                88,
                 89
-              ]
-            }
-          }
-        },
-        {
-          "id": "DR-042-D03",
-          "job_id": "DR-042-exam80-03-new-152108",
-          "mode": "new",
-          "slide": {
-            "lessonId": "DR-042",
-            "articleKey": "1-61",
-            "title": "선서문과 고발장 핵심 표현",
-            "subtitle": "선서문의 명령 주체와 금지 조문을 고발장과 구분한다.",
-            "layout": "equal",
-            "left": {
-              "title": "선서문",
-              "subtitle": "별지 제1호서식 뒤쪽",
-              "items": [
-                {
-                  "label": "제2문",
-                  "text": "상관의 명령에 복종하고 교육훈련을 받는다",
-                  "bold": false
-                },
-                {
-                  "label": "제3문",
-                  "text": "예비군법 제12조: 조직체로서 정치운동 관여 금지",
-                  "bold": false
-                },
-                {
-                  "label": "다섯 핵심",
-                  "text": "충성·복종·정치 중립·무기·출동",
-                  "bold": false
-                }
-              ]
-            },
-            "right": {
-              "title": "혼동 금지",
-              "subtitle": "강의의 시험 함정",
-              "items": [
-                {
-                  "label": "명령",
-                  "text": "부대장의 명령으로 바꾸면 틀림",
-                  "bold": false
-                },
-                {
-                  "label": "고발장",
-                  "text": "예비군법 제15조 위반죄로 고발",
-                  "bold": false
-                },
-                {
-                  "label": "조문",
-                  "text": "선서문은 제12조, 고발장은 제15조",
-                  "bold": false
-                }
-              ]
-            },
-            "sourceArticle": "조직·편성 훈령 별지 서식",
-            "sourceClauses": [
-              "별지 제1호 선서문",
-              "예비군법 위반자 고발장"
-            ],
-            "note": "선서문의 금지와 고발장의 처벌 근거를 구분한다.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J61-0:0",
-            "sourceVersion": "국방부훈령 제3104호",
-            "effectiveDate": "2025-11-14",
-            "scriptRef": "DR-042",
-            "scriptEvidence": {
-              "source_git_blob": "1c460275d8ab8a3cdb1b238c3527ba744dfdb543",
-              "source_sha256": "e1f7e31169ba76dda3896dfdd9fffb3938b0d53f7fc44ef4eb490cc1c433da37",
-              "lines": [
-                51,
-                53,
-                55,
-                63,
-                65,
-                67,
-                69,
-                75,
-                77
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "lesson_id": "DR-077",
-      "expected_source_blob": "a50d8031681e6cae809454436bbbb5f120a2fc89",
-      "expected_script_sha256": "b693df7990df84f875d76f5701d7a72d7c757437e32808fe309f3ced4de68907",
-      "existing_max": 1,
-      "items": [
-        {
-          "id": "DR-077-D01",
-          "job_id": "DR-077-exam80-01-revision-152108",
-          "mode": "revision",
-          "slide": {
-            "lessonId": "DR-077",
-            "articleKey": "2-33",
-            "title": "훈령의 재검토기한",
-            "subtitle": "국방부장관이 3년 주기로 타당성을 검토한다.",
-            "layout": "equal",
-            "left": {
-              "title": "기산점·근거",
-              "subtitle": "제33조",
-              "items": [
-                {
-                  "label": "기준일",
-                  "text": "2027년 1월 1일",
-                  "bold": false
-                },
-                {
-                  "label": "주체",
-                  "text": "국방부장관",
-                  "bold": false
-                },
-                {
-                  "label": "근거",
-                  "text": "훈령·예규 등의 발령 및 관리에 관한 규정",
-                  "bold": false
-                }
-              ]
-            },
-            "right": {
-              "title": "매 3년",
-              "subtitle": "검토와 개선",
-              "items": [
-                {
-                  "label": "검토 시점",
-                  "text": "매 3년째의 12월 31일까지",
-                  "bold": false
-                },
-                {
-                  "label": "조치",
-                  "text": "타당성을 검토하여 개선 등의 조치",
-                  "bold": false
-                }
-              ]
-            },
-            "sourceArticle": "교육훈련 훈령 제33조",
-            "sourceClauses": [
-              "제33조"
-            ],
-            "note": "조직편성 훈령의 기준일은 2024년 1월 1일, 교육훈련 훈령은 2027년 1월 1일.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J33-0:0",
-            "sourceVersion": "국방부훈령 제3216호",
-            "effectiveDate": "2026-10-14",
-            "scriptRef": "DR-077",
-            "scriptEvidence": {
-              "source_git_blob": "a50d8031681e6cae809454436bbbb5f120a2fc89",
-              "source_sha256": "b693df7990df84f875d76f5701d7a72d7c757437e32808fe309f3ced4de68907",
-              "lines": [
-                15,
-                19,
-                23,
-                25,
-                55,
-                56,
-                57,
-                58,
-                59,
-                60,
-                61
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "lesson_id": "DR-062",
-      "expected_source_blob": "aaed65786f38035ea47d8aaf64ac3f4e930da9d3",
-      "expected_script_sha256": "6c5810da8b3c2c54869b3cf128ef1216623f7a649103b23645b1e87bc90b19ab",
-      "existing_max": 10,
-      "items": [
-        {
-          "id": "DR-062-D11",
-          "job_id": "DR-062-exam80-11-new-152108",
-          "mode": "new",
-          "slide": {
-            "lessonId": "DR-062",
-            "articleKey": "2-18",
-            "title": "인도인접과 전입자 훈련 처리",
-            "subtitle": "귀가 증빙과 주소 이전 시 처리 절차를 구분한다.",
-            "layout": "equal",
-            "left": {
-              "title": "인도인접·귀가",
-              "subtitle": "제1항제1호·제2호",
-              "items": [
-                {
-                  "label": "소집부대·관할 지방병무청",
-                  "text": "인도인접서로 입영·강제/정상 귀가 결과 인계인수",
-                  "bold": false
-                },
-                {
-                  "label": "귀가 사유 증빙",
-                  "text": "인도인접서·소집명부 기재 사유 및 제출서류",
-                  "bold": false
-                },
-                {
-                  "label": "요구 시",
-                  "text": "별지 제2호 소집필증 발급",
-                  "bold": false
-                }
-              ]
-            },
-            "right": {
-              "title": "전입 후 훈련",
-              "subtitle": "제4항제2호아목",
-              "items": [
-                {
-                  "label": "전입일자",
-                  "text": "통지서 송달시간을 고려해 훈련 부과",
-                  "bold": false
-                },
-                {
-                  "label": "동일 관할·같은 훈련장",
-                  "text": "전출부대 부과훈련 유지, 전입부대가 결과 처리",
-                  "bold": false
-                },
-                {
-                  "label": "1·2차 작계훈련",
-                  "text": "전입부대 훈련주기에 따름",
-                  "bold": false
-                }
-              ]
-            },
-            "sourceArticle": "교육훈련 훈령 제18조",
-            "sourceClauses": [
-              "제1항제1호",
-              "제1항제2호",
-              "제4항제2호아목"
-            ],
-            "note": "이사에 따른 훈련 부과와 결과 처리 주체를 구분한다.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J18-0:0",
-            "sourceVersion": "국방부훈령 제3216호",
-            "effectiveDate": "2026-10-14",
-            "scriptRef": "DR-062",
-            "scriptEvidence": {
-              "source_git_blob": "aaed65786f38035ea47d8aaf64ac3f4e930da9d3",
-              "source_sha256": "6c5810da8b3c2c54869b3cf128ef1216623f7a649103b23645b1e87bc90b19ab",
-              "lines": [
-                21,
-                23,
-                25,
-                189
-              ]
-            }
-          }
-        },
-        {
-          "id": "DR-062-D10",
-          "job_id": "DR-062-exam80-10-revision-152108",
-          "mode": "revision",
-          "slide": {
-            "lessonId": "DR-062",
-            "articleKey": "2-18",
-            "title": "간부·공군 입영훈련 처리",
-            "subtitle": "입영훈련 차수와 자원관리부대 훈련 전환 기준을 비교한다.",
-            "layout": "equal",
-            "left": {
-              "title": "장교·부사관",
-              "subtitle": "제4항제2호다목",
-              "items": [
-                {
-                  "label": "입영훈련",
-                  "text": "각 군별 3차까지 실시",
-                  "bold": false
-                },
-                {
-                  "label": "이후",
-                  "text": "자원관리부대 별도 학급, 4일(32시간) 훈련",
-                  "bold": false
-                },
-                {
-                  "label": "대상자 부족",
-                  "text": "각 군 또는 수임군부대장 승인으로 3차 전에 4일 훈련 전환 가능",
-                  "bold": false
-                }
-              ]
-            },
-            "right": {
-              "title": "공군 간부·병 및 귀가",
-              "subtitle": "제4항제2호다목",
-              "items": [
-                {
-                  "label": "공군 간부·병",
-                  "text": "3차까지 실시, 고발은 예비군관리부대",
-                  "bold": false
-                },
-                {
-                  "label": "과실 강제귀가",
-                  "text": "공제 없이 차수 증가",
-                  "bold": false
-                },
-                {
-                  "label": "신검 불합격·연기사유",
-                  "text": "4시간 공제, 동일 차수",
-                  "bold": false
-                }
-              ]
-            },
-            "sourceArticle": "교육훈련 훈령 제18조",
-            "sourceClauses": [
-              "제4항제2호다목"
-            ],
-            "note": "정당한 조기퇴소는 대대장급 이상 지휘관 판단으로 28시간에서 인도인접 포함 이수시간을 공제.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J18-0:0",
-            "sourceVersion": "국방부훈령 제3216호",
-            "effectiveDate": "2026-10-14",
-            "scriptRef": "DR-062",
-            "scriptEvidence": {
-              "source_git_blob": "aaed65786f38035ea47d8aaf64ac3f4e930da9d3",
-              "source_sha256": "6c5810da8b3c2c54869b3cf128ef1216623f7a649103b23645b1e87bc90b19ab",
-              "lines": [
-                171,
-                173,
-                175,
-                177,
-                185
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "lesson_id": "DR-078",
-      "expected_source_blob": "10cfc56fac80c296861241c032e43f35a9458465",
-      "expected_script_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
-      "existing_max": 6,
-      "items": [
-        {
-          "id": "DR-078-D07",
-          "job_id": "DR-078-exam80-07-new-152108",
-          "mode": "new",
-          "slide": {
-            "lessonId": "DR-078",
-            "articleKey": "2-23",
-            "title": "보류해소 신고와 직권처리",
-            "subtitle": "본인 신고를 대신하는 경우와 지휘관 직권처리 조건을 구분한다.",
-            "layout": "split",
-            "left": {
-              "title": "신고·학적자료",
-              "subtitle": "제1항제4호가목·다목",
-              "items": [
-                {
-                  "label": "본인이 신고 불가",
-                  "text": "동일세대 세대주·성년 가족·고용주 대리 신고",
-                  "bold": false
-                },
-                {
-                  "label": "대학 직장예비군부대 학생",
-                  "text": "학적변동자료에 따라 직권 처리",
-                  "bold": false
-                }
-              ]
-            },
-            "right": {
-              "title": "해소 사유가 명백한 때",
-              "subtitle": "제1항제4호라목",
-              "items": [
-                {
-                  "label": "직권 해소 가능",
-                  "text": "휴학·졸업·유급·면직·퇴직·신고기간 만료 등",
-                  "bold": false
-                },
-                {
-                  "label": "증빙",
-                  "text": "관련 근거 기록 및 증명서류 첨부",
-                  "bold": false
-                },
-                {
-                  "label": "통보",
-                  "text": "보류해소 사실을 당사자에게 통보",
-                  "bold": false
-                }
-              ]
-            },
-            "sourceArticle": "교육훈련 훈령 제23조",
-            "sourceClauses": [
-              "제1항제4호가목",
-              "제1항제4호다목",
-              "제1항제4호라목"
-            ],
-            "note": "보류해소 본인 신고 기한 14일과 직권해소 후 신고서 안내 30일은 앞 도식 참조.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
-            "sourceVersion": "국방부훈령 제3216호",
-            "effectiveDate": "2026-10-14",
-            "scriptRef": "DR-078",
-            "scriptEvidence": {
-              "source_git_blob": "10cfc56fac80c296861241c032e43f35a9458465",
-              "source_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
-              "lines": [
-                37,
-                39,
-                55,
-                59,
-                61,
-                125
-              ]
-            }
-          }
-        },
-        {
-          "id": "DR-078-D04",
-          "job_id": "DR-078-exam80-04-revision-152108",
-          "mode": "revision",
-          "slide": {
-            "lessonId": "DR-078",
-            "articleKey": "2-23",
-            "title": "보류자 확인과 전출입 서류",
-            "subtitle": "신분 확인은 분기별로, 원서는 새 거주지 부대로 넘긴다.",
-            "layout": "split",
-            "left": {
-              "title": "신분 유지 확인",
-              "subtitle": "제1항제6호가목",
-              "items": [
-                {
-                  "label": "별도 편성",
-                  "text": "보류자를 따로 편성·관리",
-                  "bold": false
-                },
-                {
-                  "label": "분기 1회 이상",
-                  "text": "등록 후 문자·유무선 등으로 확인·홍보",
-                  "bold": false
-                },
-                {
-                  "label": "장기보류",
-                  "text": "실태조사·근거 유지; 연례적 증빙 요구 금지",
-                  "bold": false
-                }
-              ]
-            },
-            "right": {
-              "title": "편성과 전출입",
-              "subtitle": "제1항제6호나목~라목",
-              "items": [
-                {
-                  "label": "보류자 소대",
-                  "text": "법규·방침보류자 순; 동원 가용 방침보류자에게 임무 부여",
-                  "bold": false
-                },
-                {
-                  "label": "전출부대",
-                  "text": "원본 송부, 사본 보관하지 않음",
-                  "bold": false
-                },
-                {
-                  "label": "전입부대",
-                  "text": "체계 정리·서류 확인, 미접수 시 재송부 요청",
-                  "bold": false
-                }
-              ]
-            },
-            "sourceArticle": "교육훈련 훈령 제23조",
-            "sourceClauses": [
-              "제1항제6호가목",
-              "제1항제6호나목",
-              "제1항제6호다목",
-              "제1항제6호라목"
-            ],
-            "note": "원고에 따른 동원 가용 방침보류자 임무는 해당부대 작전계획에 명시된 임무이다.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
-            "sourceVersion": "국방부훈령 제3216호",
-            "effectiveDate": "2026-10-14",
-            "scriptRef": "DR-078",
-            "scriptEvidence": {
-              "source_git_blob": "10cfc56fac80c296861241c032e43f35a9458465",
-              "source_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
-              "lines": [
-                129,
-                133,
-                135,
-                139,
-                141,
-                143,
-                147,
-                149
               ]
             }
           }
