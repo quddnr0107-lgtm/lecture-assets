@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-28T03:22:55+09:00",
+  "updated_at": "2026-11-28T04:22:19+09:00",
   "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
     "status": "files_completed",
@@ -66,21 +66,32 @@
     ]
   },
   "state": {
-    "active_run": null,
+    "active_run": {
+      "id": "dr-20261128-042219-script",
+      "started_at": "2026-11-28T04:22:19+09:00",
+      "claimed_at": "2026-11-28T04:22:19+09:00",
+      "lease_expires_at": "2026-11-28T06:22:19+09:00",
+      "lesson_ids": [
+        "DR-036",
+        "DR-041"
+      ],
+      "worker_count": 1,
+      "mode": "targeted_render"
+    },
     "last_successful_run": {
-      "id": "dr-20261128-022512-script",
-      "render_commit": "36b79788aa33b7ee52002bcebc5df38173d99fd5",
-      "new_diagrams": 4,
+      "id": "dr-20261128-032255-script",
+      "render_commit": "45722a9f3f1a963cbb1ea9deaaf950bed025f3d7",
+      "new_diagrams": 0,
       "revised_diagrams": 3,
-      "completed_reviews": 1,
+      "completed_reviews": 2,
       "visual_qa": "passed"
     },
     "coverage_reviews_total": 78,
-    "coverage_reviews_queued": 39,
-    "coverage_reviews_completed": 39,
-    "confirmed_production_jobs": 98,
+    "coverage_reviews_queued": 37,
+    "coverage_reviews_completed": 41,
+    "confirmed_production_jobs": 101,
     "diagrams_added_after_baseline": 34,
-    "diagrams_revised_after_baseline": 60,
+    "diagrams_revised_after_baseline": 63,
     "script_bindings_verified": 78,
     "last_correction": {
       "updated_at": "2026-11-27T11:59:19+09:00",
@@ -94,9 +105,9 @@
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
     "production_jobs_queued": 0,
-    "production_jobs_qa": 3,
-    "production_jobs_completed": 98,
-    "production_jobs_running": 3
+    "production_jobs_qa": 0,
+    "production_jobs_completed": 101,
+    "production_jobs_running": 2
   },
   "jobs": [
     {
@@ -905,7 +916,7 @@
       "lesson_id": "DR-012",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제12조, 지역예비군부대계획",
       "priority": 20,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 5,
       "existing_diagram_ids": [
         "DR-012-D01",
@@ -926,8 +937,8 @@
         "existing_svg_sha256": [
           "021b4c4d599a382c2ef1ba655ffc143b248da2d604a4c772e2a3b976f653ea47",
           "09055e4ca19ed840622dc87da393d71dd089bbf7527beefeaebf6db79a2b37de",
-          "67fd801ebab0ec37b03fa9942cc037f4833077365dfddb78bd0a17f189257183",
-          "05be14d3d865539f9a21df8c864fc37df93412458d5c3bd202047d3ba79bdac2",
+          "2a5262f647e44023906b4519fc8d2dd7ab218a4fd37e06c40aabc34f05d9aa5f",
+          "67c84e482da177a0d81d1ace86a4ba8d5197b8f01c85fbd336d83456c95c4276",
           "fe833ca0909eb16e96b9854f32e832ee7ee1ec5f1892c36845bc6d10e464060d"
         ],
         "design_version": "editorial-v1"
@@ -935,25 +946,25 @@
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-28T04:22:19+09:00",
       "result": {
         "scope": "기존 원고 1–240행 및 D01–D05 실제 WebP 전체 대조",
-        "full_review_completed": false,
+        "full_review_completed": true,
         "source_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
         "source_git_blob": "6983bc045cafa95a86311146b700668fcb6f79d6",
-        "uncovered_required_learning_objectives": [
-          "수시계획 경유 주체의 타당성 검증과 의견 보고",
-          "연도별 정원 범위 내 시행이라는 제약"
-        ],
+        "uncovered_required_learning_objectives": [],
         "additional_diagrams_required": false,
-        "visual_qa": "기존 및 이번 렌더링 5장 직접 확인: 겹침·잘림 없음; 원고 표현 정밀 보강 필요"
+        "visual_qa": "passed: prior full script and five-image review plus current final PNG review",
+        "visual_reviewed_at": "2026-11-28T04:22:19+09:00"
       },
       "script_ref": "DR-012",
       "script_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
       "confirmed_production_job_ids": [
         "DR-012-D04-script-022512",
         "DR-012-D05-script-022512",
-        "DR-012-D03-script-022512"
+        "DR-012-D03-script-022512",
+        "DR-012-D03-precision-032255",
+        "DR-012-D04-precision-032255"
       ]
     },
     {
@@ -1128,7 +1139,7 @@
       "lesson_id": "DR-026",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제26조, 예비역 간부 진급",
       "priority": 26,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 5,
       "existing_diagram_ids": [
         "DR-026-D01",
@@ -1149,7 +1160,7 @@
         "existing_svg_sha256": [
           "cad5d6266131055c59e1259dcf8dbf0dae12e690e3a7a3494c2c1d8d7923e39b",
           "8e1ca63082d931d213bc789531ec1be02e3ce6221acf9ee114df5e182ac839f6",
-          "b968f2a104cf1a3bfa2973dc349153b47549e3eb9942ede65f776c5b7a888cfd",
+          "01710e72b52b6faef8eaed5db21b7f6056f9e7ce08e9001e0bae07a08852aa5d",
           "521b081e588348fa21a454e6c17dd8b2128f42566be11ffc951d03b8c641679c",
           "44803912d3ef9811f3da35cd71567092207306abfb556aae000dd7c5e31b5def"
         ],
@@ -1158,24 +1169,24 @@
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-28T04:22:19+09:00",
       "result": {
         "scope": "기존 원고 1–193행 및 D01–D05 실제 WebP 전체 대조",
-        "full_review_completed": false,
+        "full_review_completed": true,
         "source_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854",
         "source_git_blob": "a092efb5ca670b4aead58767bb8bab5d064f7ca7",
-        "uncovered_required_learning_objectives": [
-          "진급발령자 명부 송부권자의 정확한 명칭"
-        ],
+        "uncovered_required_learning_objectives": [],
         "additional_diagrams_required": false,
-        "visual_qa": "기존 및 이번 렌더링 5장 직접 확인: 겹침·잘림 없음; 원고 표현 정밀 보강 필요"
+        "visual_qa": "passed: prior full script and five-image review plus current final PNG review",
+        "visual_reviewed_at": "2026-11-28T04:22:19+09:00"
       },
       "script_ref": "DR-026",
       "script_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854",
       "confirmed_production_job_ids": [
         "DR-026-D04-script-022512",
         "DR-026-D05-script-022512",
-        "DR-026-D03-script-022512"
+        "DR-026-D03-script-022512",
+        "DR-026-D03-precision-032255"
       ]
     },
     {
@@ -2537,12 +2548,28 @@
         "국방부훈령 제3104호"
       ],
       "output_directory": "defense-directives/lesson-036/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "29cc2b99f7cf762516fcbc14d2f5f8a2b3d826042866b13031d1892cda8664d4",
+        "existing_svg_sha256": [
+          "03a5f1ad86419a992106632e260310c7f57903c504ee9920bf5a477fe47b0da2"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "scope": "원고 1–145행과 기존 D01 실물 대조",
+        "full_review_completed": false,
+        "source_sha256": "29cc2b99f7cf762516fcbc14d2f5f8a2b3d826042866b13031d1892cda8664d4",
+        "source_git_blob": "9d2b3d81243702eabe7c08977c9fae700d2d5b27",
+        "uncovered_required_learning_objectives": [
+          "별표 23 통신장비 보유기준과 감시정찰반 편성 단서"
+        ],
+        "additional_diagrams_required": true,
+        "visual_qa": "기존 D01 실제 PNG 개별 확인; 추가 도식 렌더링 및 검수 필요"
+      },
       "script_ref": "DR-036",
       "script_sha256": "29cc2b99f7cf762516fcbc14d2f5f8a2b3d826042866b13031d1892cda8664d4",
       "partial_corrections": [
@@ -2648,12 +2675,28 @@
         "국방부훈령 제3104호"
       ],
       "output_directory": "defense-directives/lesson-041/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "7ef501d6ef126e02e0d3b0d5c9d56eb0d2f5b00f3b142e4f5afc304ff2bbd921",
+        "existing_svg_sha256": [
+          "e9f597e8d3b900a8e5310a2191a7003d2e96f7df457e3225d5a6562f71857a36"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "scope": "원고 1–127행과 기존 D01 실물 대조",
+        "full_review_completed": false,
+        "source_sha256": "7ef501d6ef126e02e0d3b0d5c9d56eb0d2f5b00f3b142e4f5afc304ff2bbd921",
+        "source_git_blob": "fbb479ed9771ef4a7c0a8c2fa791ebbec4b6f128",
+        "uncovered_required_learning_objectives": [
+          "별표 25 단서 세 가지와 통신장비 정비 방식 비교"
+        ],
+        "additional_diagrams_required": true,
+        "visual_qa": "기존 D01 실제 PNG 개별 확인; 추가 도식 렌더링 및 검수 필요"
+      },
       "script_ref": "DR-041",
       "script_sha256": "7ef501d6ef126e02e0d3b0d5c9d56eb0d2f5b00f3b142e4f5afc304ff2bbd921",
       "partial_corrections": [
@@ -8607,7 +8650,7 @@
       "script_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-012|3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041|169,171,173,183,187,195,201,202,235,236|수시계획 경유 주체의 타당성 검증과 의견 보고|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-012/diagrams/DR-012-D03-editorial-v1.svg",
@@ -8652,7 +8695,11 @@
       "diagram_id": "DR-012-D03",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "Published PNG individually opened and compared with matching script sections: no clipping, overlapping text or missing glyphs. Renderer recorded PNG/WebP pixel equality and manifest file hashes agree.",
+      "completed_at": "2026-11-28T04:22:19+09:00",
+      "visual_reviewed_at": "2026-11-28T04:22:19+09:00",
+      "render_commit": "45722a9f3f1a963cbb1ea9deaaf950bed025f3d7",
+      "png_git_blob": "54b5e07bc898b31cff7c10b97ef20ecb5fe3a4f4"
     },
     {
       "id": "DR-012-D04-precision-032255",
@@ -8665,7 +8712,7 @@
       "script_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-012|3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041|51,73,96,98,118,227,232|연도별 정원 범위 내 시행이라는 제약|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-012/diagrams/DR-012-D04-editorial-v1.svg",
@@ -8707,7 +8754,11 @@
       "diagram_id": "DR-012-D04",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "Published PNG individually opened and compared with matching script sections: no clipping, overlapping text or missing glyphs. Renderer recorded PNG/WebP pixel equality and manifest file hashes agree.",
+      "completed_at": "2026-11-28T04:22:19+09:00",
+      "visual_reviewed_at": "2026-11-28T04:22:19+09:00",
+      "render_commit": "45722a9f3f1a963cbb1ea9deaaf950bed025f3d7",
+      "png_git_blob": "1f65cd9fdc2f207a69389b0be02a0400af79b0ae"
     },
     {
       "id": "DR-026-D03-precision-032255",
@@ -8720,7 +8771,7 @@
       "script_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-026|06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854|135,149,151,153,161,163,173,187,188|진급발령자 명부 송부권자의 정확한 명칭|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-026/diagrams/DR-026-D03-editorial-v1.svg",
@@ -8764,7 +8815,94 @@
       "diagram_id": "DR-026-D03",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "Published PNG individually opened and compared with matching script sections: no clipping, overlapping text or missing glyphs. Renderer recorded PNG/WebP pixel equality and manifest file hashes agree.",
+      "completed_at": "2026-11-28T04:22:19+09:00",
+      "visual_reviewed_at": "2026-11-28T04:22:19+09:00",
+      "render_commit": "45722a9f3f1a963cbb1ea9deaaf950bed025f3d7",
+      "png_git_blob": "87340e056f7441748ee6ad93bf2516b6fcb14e37"
+    },
+    {
+      "id": "DR-036-D02-script-042219",
+      "lesson_id": "DR-036",
+      "type": "script_coverage_gap",
+      "target_diagram_id": null,
+      "learning_objective": "별표 23 통신장비 보유기준과 감시정찰반 편성 단서",
+      "script_ref": "DR-036",
+      "script_section": "103,107,109,110,111,112,113,114,116,118,120,128,139,140",
+      "script_sha256": "29cc2b99f7cf762516fcbc14d2f5f8a2b3d826042866b13031d1892cda8664d4",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-036|29cc2b99f7cf762516fcbc14d2f5f8a2b3d826042866b13031d1892cda8664d4|103,107,109,110,111,112,113,114,116,118,120,128,139,140|별표 23 통신장비 보유기준과 감시정찰반 편성 단서|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-47.txt",
+          "source_git_blob": "9d2b3d81243702eabe7c08977c9fae700d2d5b27",
+          "source_sha256": "29cc2b99f7cf762516fcbc14d2f5f8a2b3d826042866b13031d1892cda8664d4",
+          "line_numbers": [
+            103,
+            107,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            116,
+            118,
+            120,
+            128,
+            139,
+            140
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-042219-script",
+      "claimed_at": "2026-11-28T04:22:19+09:00",
+      "lease_expires_at": "2026-11-28T06:22:19+09:00",
+      "finding": "기존 D01에는 별표 번호만 있고 원고의 세부 시험 핵심과 단서가 누락됨",
+      "required_change": "별표 23 통신장비 보유기준과 감시정찰반 편성 단서"
+    },
+    {
+      "id": "DR-041-D02-script-042219",
+      "lesson_id": "DR-041",
+      "type": "script_coverage_gap",
+      "target_diagram_id": null,
+      "learning_objective": "별표 25 단서 세 가지와 통신장비 정비 방식 비교",
+      "script_ref": "DR-041",
+      "script_section": "75,77,79,81,87,95,97,99,101,109,119,121,122",
+      "script_sha256": "7ef501d6ef126e02e0d3b0d5c9d56eb0d2f5b00f3b142e4f5afc304ff2bbd921",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-041|7ef501d6ef126e02e0d3b0d5c9d56eb0d2f5b00f3b142e4f5afc304ff2bbd921|75,77,79,81,87,95,97,99,101,109,119,121,122|별표 25 단서 세 가지와 통신장비 정비 방식 비교|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-52.txt",
+          "source_git_blob": "fbb479ed9771ef4a7c0a8c2fa791ebbec4b6f128",
+          "source_sha256": "7ef501d6ef126e02e0d3b0d5c9d56eb0d2f5b00f3b142e4f5afc304ff2bbd921",
+          "line_numbers": [
+            75,
+            77,
+            79,
+            81,
+            87,
+            95,
+            97,
+            99,
+            101,
+            109,
+            119,
+            121,
+            122
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-042219-script",
+      "claimed_at": "2026-11-28T04:22:19+09:00",
+      "lease_expires_at": "2026-11-28T06:22:19+09:00",
+      "finding": "기존 D01에는 별표 번호만 있고 원고의 세부 시험 핵심과 단서가 누락됨",
+      "required_change": "별표 25 단서 세 가지와 통신장비 정비 방식 비교"
     }
   ],
   "runs": [
@@ -9107,15 +9245,23 @@
     },
     {
       "id": "dr-20261128-032255-script",
-      "status": "rendered_pending_visual_qa",
+      "status": "completed",
       "new_diagrams": 0,
       "revised_diagrams": 3,
-      "completed_reviews": 0,
+      "completed_reviews": 2,
       "diagram_ids": [
         "DR-012-D03",
         "DR-012-D04",
         "DR-026-D03"
-      ]
+      ],
+      "completed_lessons": [
+        "DR-012",
+        "DR-026"
+      ],
+      "visual_qa": "passed",
+      "render_commit": "45722a9f3f1a963cbb1ea9deaaf950bed025f3d7",
+      "completed_at": "2026-11-28T04:22:19+09:00",
+      "remaining_reviews": 37
     }
   ],
   "exam": {

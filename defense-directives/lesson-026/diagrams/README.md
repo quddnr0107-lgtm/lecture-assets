@@ -48,3 +48,4 @@
 
 근거: [조직·편성 훈령 제26조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J26-0:0) · 국방부훈령 제3104호
 
+제80회 원고 대조 완료 (2026-11-28): D03 최종 수정 이미지 검수 통과. [검수 기록](../../diagrams/script-alignment-qa.json).

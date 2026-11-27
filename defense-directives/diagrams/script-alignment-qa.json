@@ -6,7 +6,7 @@
     "cutoff_date": "2027-02-02",
     "cutoff_kind": "existing_user_specified_exam80_basis"
   },
-  "checked_at": "2026-11-28T03:22:55+09:00",
+  "checked_at": "2026-11-28T04:22:19+09:00",
   "source_commit": "2d696ecb8a2805b0bc42df8ce5754ae91914371d",
   "script_bindings_verified": 78,
   "diagram_corrections": [
@@ -75,10 +75,10 @@
       "full_lesson_coverage_review": "pending"
     }
   ],
-  "full_lecture_coverage_reviews_completed": 39,
-  "remaining_full_lecture_reviews": 39,
+  "full_lecture_coverage_reviews_completed": 41,
+  "remaining_full_lecture_reviews": 37,
   "new_diagrams": 34,
-  "revised_diagrams": 60,
+  "revised_diagrams": 63,
   "priority_script_comparison": {
     "schema_version": 1,
     "created_at": "2026-11-27T11:59:01+09:00",
@@ -422,7 +422,7 @@
       "DR-045-existing-script-arrears-rates"
     ]
   },
-  "visual_review": "실제 WebP 신규 4장·수정 3장과 기존 5장을 열어 확인: 겹침·잘림 없음. 렌더러 PNG/WebP 픽셀 일치 및 manifest 파일 해시 대조 통과.",
+  "visual_review": "실제 공개 PNG 3장을 개별 열어 원고의 수치·조건·주체와 대조함. 겹침·잘림·글리프 누락 없음. 렌더러의 픽셀 일치 및 manifest 해시 기록 확인.",
   "targeted_render_runs": [
     {
       "run_id": "dr-20261127-122552",
@@ -24295,7 +24295,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-012/diagrams/DR-012-D03-editorial-v1.svg",
@@ -24494,7 +24494,8 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "visual_reviewed_at": "2026-11-28T04:22:19+09:00"
         },
         {
           "id": "DR-012-D04",
@@ -24514,7 +24515,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-012/diagrams/DR-012-D04-editorial-v1.svg",
@@ -24680,7 +24681,7 @@
             {
               "text": "시행 범위",
               "x": 860,
-              "y": 689.0,
+              "y": 689,
               "width": 91,
               "height": 23,
               "fontSize": 23,
@@ -24689,7 +24690,7 @@
             {
               "text": "연도별 정원 범위 내",
               "x": 860,
-              "y": 719.0,
+              "y": 719,
               "width": 295,
               "height": 36,
               "fontSize": 36,
@@ -24740,7 +24741,8 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "visual_reviewed_at": "2026-11-28T04:22:19+09:00"
         },
         {
           "id": "DR-026-D03",
@@ -24762,7 +24764,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-026/diagrams/DR-026-D03-editorial-v1.svg",
@@ -24997,7 +24999,8 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "visual_reviewed_at": "2026-11-28T04:22:19+09:00"
         }
       ]
     }
@@ -25503,6 +25506,28 @@
           "finding": "원고의 국방부장관·각 군 참모총장이 국방부·각 군으로 축약됨"
         }
       ]
+    },
+    {
+      "run_id": "dr-20261128-042219-script",
+      "completed_lessons": [
+        "DR-012",
+        "DR-026"
+      ],
+      "visual_reviewed": [
+        "DR-012-D03",
+        "DR-012-D04",
+        "DR-026-D03"
+      ],
+      "render_commit": "45722a9f3f1a963cbb1ea9deaaf950bed025f3d7",
+      "remaining_reviews": 37,
+      "partial_reviews": [
+        "DR-036",
+        "DR-041"
+      ],
+      "next_render": {
+        "new": 2,
+        "revised": 0
+      }
     }
   ]
 }
