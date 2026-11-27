@@ -1,6 +1,6 @@
 # DR-078 · 예비군 교육훈련 훈령 제23조, 예비군훈련 보류의 해소와 관리
 
-도식 **7장** · 1600 × 1120 · 흑백 편집형 디자인
+도식 **8장** · 1600 × 1120 · 흑백 편집형 디자인
 
 [훈령 전체 목록](../../README.md) · [전체 매니페스트](../../diagrams-manifest.json)
 
@@ -63,6 +63,15 @@
 [WebP](DR-078-D07-editorial-v1.webp) · [PNG](DR-078-D07-editorial-v1.png) · [SVG 원본](DR-078-D07-editorial-v1.svg)
 
 ![보류해소 신고와 직권처리](DR-078-D07-editorial-v1.webp)
+
+근거: [교육훈련 훈령 제23조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0) · 국방부훈령 제3216호
+
+
+## DR-078-D08 · 병역처분 변경과 보류의 구별
+
+[WebP](DR-078-D08-editorial-v1.webp) · [PNG](DR-078-D08-editorial-v1.png) · [SVG 원본](DR-078-D08-editorial-v1.svg)
+
+![병역처분 변경과 보류의 구별](DR-078-D08-editorial-v1.webp)
 
 근거: [교육훈련 훈령 제23조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0) · 국방부훈령 제3216호
 

@@ -11,3 +11,4 @@
 ![지원예비군의 선발 대상](DR-016-D01-editorial-v1.webp)
 
 근거: [조직·편성 훈령 제16조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J16-0:0) · 국방부훈령 제3104호
+

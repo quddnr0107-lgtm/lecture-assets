@@ -1,5 +1,5 @@
 {
-  "diagrams": 207,
+  "diagrams": 208,
   "lessons": 78,
   "lessonCounts": {
     "DR-001": 1,
@@ -79,7 +79,7 @@
     "DR-075": 3,
     "DR-076": 1,
     "DR-077": 1,
-    "DR-078": 7
+    "DR-078": 8
   },
   "errors": [],
   "minimumBodyFontSize": 35,
@@ -146,6 +146,23 @@
       ],
       "errors": [],
       "visual_review": "passed"
+    },
+    {
+      "run_id": "dr-20261127-162118-script",
+      "ids": [
+        "DR-024-D02",
+        "DR-024-D03",
+        "DR-062-D03",
+        "DR-062-D05",
+        "DR-078-D01",
+        "DR-078-D08",
+        "DR-042-D01",
+        "DR-016-D01",
+        "DR-020-D01",
+        "DR-025-D01",
+        "DR-050-D01"
+      ],
+      "errors": []
     }
   ]
 }

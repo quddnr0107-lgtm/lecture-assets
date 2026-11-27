@@ -11,3 +11,4 @@
 ![재복무자의 예비군 연차 계산](DR-025-D01-editorial-v1.webp)
 
 근거: [조직·편성 훈령 제25조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J25-0:0) · 국방부훈령 제3104호
+

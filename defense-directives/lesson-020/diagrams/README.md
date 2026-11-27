@@ -11,3 +11,4 @@
 ![예비군 추가 편성의 연령 기준](DR-020-D01-editorial-v1.webp)
 
 근거: [조직·편성 훈령 제20조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J20-0:0) · 국방부훈령 제3104호
+
