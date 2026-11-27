@@ -1,0 +1,2143 @@
+{
+  "schema_version": 1,
+  "subject": "defense-directives",
+  "subject_name": "훈령",
+  "created_at": "2026-11-27T10:25:00+09:00",
+  "updated_at": "2026-11-27T10:25:00+09:00",
+  "purpose": "완료된 190장을 기준으로 78강의 원고 대비 도식 보강 필요성을 확인하고, 확인된 누락만 추가 제작한다.",
+  "baseline": {
+    "status": "completed",
+    "lessons": 78,
+    "diagrams": 190,
+    "image_files": 570,
+    "commit": "03c609868e7d02dd5a2e94dac760f6d2593a43c2",
+    "manifest": "defense-directives/diagrams-manifest.json",
+    "manifest_git_blob": "062d3a6b593e0824a3701d21b731b8f57f9737fb",
+    "source": "defense-directives/diagrams/diagrams.source.json",
+    "content_qa": "defense-directives/diagrams/content-qa.json",
+    "layout_qa": "defense-directives/diagrams/layout-qa.json"
+  },
+  "execution_policy": {
+    "cadence": "PT1H",
+    "timezone": "Asia/Seoul",
+    "concurrency_mode": "maximum_available",
+    "observed_total_slots": 4,
+    "coordinator_slots": 1,
+    "observed_worker_slots": 3,
+    "worker_count_rule": "max(0, actual_available_total_slots - 1); only one slot available => coordinator processes sequentially",
+    "fixed_batch_limit": null,
+    "refill_workers": true,
+    "one_active_run": true,
+    "writer": "single_coordinator",
+    "lease_minutes": 120,
+    "claim_requires_expected_head": true,
+    "expired_lease_requires_activity_check": true,
+    "stop_when": "현재 실행의 가용 시간·토큰·도구 한도 또는 처리 가능한 큐가 소진되면 체크포인트를 저장한다.",
+    "when_queue_empty": "강의 원고·공식 근거·기존 도식의 변경 지문만 확인하고 변경이 없으면 재생성하지 않는다.",
+    "new_diagram_quota": null
+  },
+  "deduplication": {
+    "key_fields": [
+      "lesson_id",
+      "source_version_or_sha256",
+      "article_scope",
+      "learning_objective",
+      "design_version"
+    ],
+    "input_fingerprint_fields": [
+      "lecture_content_sha256",
+      "official_source_sha256",
+      "existing_diagrams_sha256",
+      "design_version"
+    ],
+    "unchanged_review": "직전 성공 검토와 입력 지문이 같으면 재검토하지 않는다.",
+    "existing_assets": "기존 내용이 같은 도식은 재생성하지 않고 확인된 오류·가독성 문제 또는 새 학습 목적이 있을 때만 수정·추가한다."
+  },
+  "design": {
+    "version": "editorial-v1",
+    "reference": "integrated-defense/lesson-005/diagrams/style-studies-v2/07-notion-editorial.svg",
+    "width": 1600,
+    "height": 1120,
+    "formats": [
+      "svg",
+      "png",
+      "webp"
+    ]
+  },
+  "state": {
+    "active_run": null,
+    "last_successful_run": null,
+    "coverage_reviews_total": 78,
+    "coverage_reviews_queued": 78,
+    "coverage_reviews_completed": 0,
+    "confirmed_production_jobs": 0,
+    "diagrams_added_after_baseline": 0,
+    "diagrams_revised_after_baseline": 0
+  },
+  "jobs": [
+    {
+      "id": "DR-060-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-060",
+      "title": "예비군 교육훈련 훈령 제16조, 기타훈련",
+      "priority": 1,
+      "status": "queued",
+      "existing_diagram_count": 6,
+      "existing_diagram_ids": [
+        "DR-060-D01",
+        "DR-060-D02",
+        "DR-060-D03",
+        "DR-060-D04",
+        "DR-060-D05",
+        "DR-060-D06"
+      ],
+      "article_keys": [
+        "2-16"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-060/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-013-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-013",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제13조, 편성원칙",
+      "priority": 2,
+      "status": "queued",
+      "existing_diagram_count": 6,
+      "existing_diagram_ids": [
+        "DR-013-D01",
+        "DR-013-D02",
+        "DR-013-D03",
+        "DR-013-D04",
+        "DR-013-D05",
+        "DR-013-D06"
+      ],
+      "article_keys": [
+        "1-13"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-013/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-024-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-024",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제24조, 전입 및 전출자 발생 시 조치절차",
+      "priority": 3,
+      "status": "queued",
+      "existing_diagram_count": 6,
+      "existing_diagram_ids": [
+        "DR-024-D01",
+        "DR-024-D02",
+        "DR-024-D03",
+        "DR-024-D04",
+        "DR-024-D05",
+        "DR-024-D06"
+      ],
+      "article_keys": [
+        "1-24"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-024/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-062-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-062",
+      "title": "예비군 교육훈련 훈령 제18조, 훈련 후 행정처리",
+      "priority": 4,
+      "status": "queued",
+      "existing_diagram_count": 6,
+      "existing_diagram_ids": [
+        "DR-062-D01",
+        "DR-062-D02",
+        "DR-062-D03",
+        "DR-062-D04",
+        "DR-062-D05",
+        "DR-062-D06"
+      ],
+      "article_keys": [
+        "2-18"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-062/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-009-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-009",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제9조, 편성방법",
+      "priority": 5,
+      "status": "queued",
+      "existing_diagram_count": 5,
+      "existing_diagram_ids": [
+        "DR-009-D01",
+        "DR-009-D02",
+        "DR-009-D03",
+        "DR-009-D04",
+        "DR-009-D05"
+      ],
+      "article_keys": [
+        "1-9"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-009/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-067-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-067",
+      "title": "예비군 교육훈련 훈령 제23조, 예비군훈련 보류",
+      "priority": 6,
+      "status": "queued",
+      "existing_diagram_count": 5,
+      "existing_diagram_ids": [
+        "DR-067-D01",
+        "DR-067-D02",
+        "DR-067-D03",
+        "DR-067-D04",
+        "DR-067-D05"
+      ],
+      "article_keys": [
+        "2-23"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-067/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-045-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-045",
+      "title": "예비군 교육훈련 훈령 제32조, 과태료 부과 서식 해설",
+      "priority": 7,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-045-D01"
+      ],
+      "article_keys": [
+        "2-32"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-045/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-047-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-047",
+      "title": "예비군 교육훈련 훈령 제2조제17호·제18호, 상비예비군 제도",
+      "priority": 8,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-047-D01",
+        "DR-047-D02"
+      ],
+      "article_keys": [
+        "2-2"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-047/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-078-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-078",
+      "title": "예비군 교육훈련 훈령 제23조, 예비군훈련 보류의 해소와 관리",
+      "priority": 9,
+      "status": "queued",
+      "existing_diagram_count": 4,
+      "existing_diagram_ids": [
+        "DR-078-D01",
+        "DR-078-D02",
+        "DR-078-D03",
+        "DR-078-D04"
+      ],
+      "article_keys": [
+        "2-23"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-078/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-002-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-002",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제2조, 정의",
+      "priority": 10,
+      "status": "queued",
+      "existing_diagram_count": 4,
+      "existing_diagram_ids": [
+        "DR-002-D01",
+        "DR-002-D02",
+        "DR-002-D03",
+        "DR-002-D04"
+      ],
+      "article_keys": [
+        "1-2"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-002/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-005-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-005",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제5조, 예비군 조직·편성과 운영에 관한 업무분장",
+      "priority": 11,
+      "status": "queued",
+      "existing_diagram_count": 4,
+      "existing_diagram_ids": [
+        "DR-005-D01",
+        "DR-005-D02",
+        "DR-005-D03",
+        "DR-005-D04"
+      ],
+      "article_keys": [
+        "1-5"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-005/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-011-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-011",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제11조, 예비군 주요 직위자 임명 및 면직",
+      "priority": 12,
+      "status": "queued",
+      "existing_diagram_count": 4,
+      "existing_diagram_ids": [
+        "DR-011-D01",
+        "DR-011-D02",
+        "DR-011-D03",
+        "DR-011-D04"
+      ],
+      "article_keys": [
+        "1-11"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-011/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-030-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-030",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제30조, 동원체계",
+      "priority": 13,
+      "status": "queued",
+      "existing_diagram_count": 4,
+      "existing_diagram_ids": [
+        "DR-030-D01",
+        "DR-030-D02",
+        "DR-030-D03",
+        "DR-030-D04"
+      ],
+      "article_keys": [
+        "1-30"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-030/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-035-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-035",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제46조, 무기 및 탄약",
+      "priority": 14,
+      "status": "queued",
+      "existing_diagram_count": 4,
+      "existing_diagram_ids": [
+        "DR-035-D01",
+        "DR-035-D02",
+        "DR-035-D03",
+        "DR-035-D04"
+      ],
+      "article_keys": [
+        "1-46"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-035/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-054-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-054",
+      "title": "예비군 교육훈련 훈령 제10조, 소집방법",
+      "priority": 15,
+      "status": "queued",
+      "existing_diagram_count": 4,
+      "existing_diagram_ids": [
+        "DR-054-D01",
+        "DR-054-D02",
+        "DR-054-D03",
+        "DR-054-D04"
+      ],
+      "article_keys": [
+        "2-10"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-054/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-056-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-056",
+      "title": "예비군 교육훈련 훈령 제12조, 공통과목",
+      "priority": 16,
+      "status": "queued",
+      "existing_diagram_count": 4,
+      "existing_diagram_ids": [
+        "DR-056-D01",
+        "DR-056-D02",
+        "DR-056-D03",
+        "DR-056-D04"
+      ],
+      "article_keys": [
+        "2-12"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-056/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-057-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-057",
+      "title": "예비군 교육훈련 훈령 제13조, 동원예비군훈련",
+      "priority": 17,
+      "status": "queued",
+      "existing_diagram_count": 4,
+      "existing_diagram_ids": [
+        "DR-057-D01",
+        "DR-057-D02",
+        "DR-057-D03",
+        "DR-057-D04"
+      ],
+      "article_keys": [
+        "2-13"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-057/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-071-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-071",
+      "title": "예비군 교육훈련 훈령 제27조, 훈련시설 및 예산",
+      "priority": 18,
+      "status": "queued",
+      "existing_diagram_count": 4,
+      "existing_diagram_ids": [
+        "DR-071-D01",
+        "DR-071-D02",
+        "DR-071-D03",
+        "DR-071-D04"
+      ],
+      "article_keys": [
+        "2-27"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-071/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-074-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-074",
+      "title": "예비군 교육훈련 훈령 제30조, 훈련기강 확립",
+      "priority": 19,
+      "status": "queued",
+      "existing_diagram_count": 4,
+      "existing_diagram_ids": [
+        "DR-074-D01",
+        "DR-074-D02",
+        "DR-074-D03",
+        "DR-074-D04"
+      ],
+      "article_keys": [
+        "2-30"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-074/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-012-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-012",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제12조, 지역예비군부대계획",
+      "priority": 20,
+      "status": "queued",
+      "existing_diagram_count": 3,
+      "existing_diagram_ids": [
+        "DR-012-D01",
+        "DR-012-D02",
+        "DR-012-D03"
+      ],
+      "article_keys": [
+        "1-12"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-012/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-014-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-014",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제14조, 편성방법",
+      "priority": 21,
+      "status": "queued",
+      "existing_diagram_count": 3,
+      "existing_diagram_ids": [
+        "DR-014-D01",
+        "DR-014-D02",
+        "DR-014-D03"
+      ],
+      "article_keys": [
+        "1-14"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-014/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-015-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-015",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제15조, 편성 및 해체절차",
+      "priority": 22,
+      "status": "queued",
+      "existing_diagram_count": 3,
+      "existing_diagram_ids": [
+        "DR-015-D01",
+        "DR-015-D02",
+        "DR-015-D03"
+      ],
+      "article_keys": [
+        "1-15"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-015/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-017-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-017",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제17조, 지원방법 및 처리절차",
+      "priority": 23,
+      "status": "queued",
+      "existing_diagram_count": 3,
+      "existing_diagram_ids": [
+        "DR-017-D01",
+        "DR-017-D02",
+        "DR-017-D03"
+      ],
+      "article_keys": [
+        "1-17"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-017/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-018-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-018",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제18조, 여성예비군 편성",
+      "priority": 24,
+      "status": "queued",
+      "existing_diagram_count": 3,
+      "existing_diagram_ids": [
+        "DR-018-D01",
+        "DR-018-D02",
+        "DR-018-D03"
+      ],
+      "article_keys": [
+        "1-18"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-018/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-019-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-019",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제19조, 특전예비군 편성",
+      "priority": 25,
+      "status": "queued",
+      "existing_diagram_count": 3,
+      "existing_diagram_ids": [
+        "DR-019-D01",
+        "DR-019-D02",
+        "DR-019-D03"
+      ],
+      "article_keys": [
+        "1-19"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-019/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-026-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-026",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제26조, 예비역 간부 진급",
+      "priority": 26,
+      "status": "queued",
+      "existing_diagram_count": 3,
+      "existing_diagram_ids": [
+        "DR-026-D01",
+        "DR-026-D02",
+        "DR-026-D03"
+      ],
+      "article_keys": [
+        "1-26"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-026/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-032-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-032",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제43조, 예비군 감사",
+      "priority": 27,
+      "status": "queued",
+      "existing_diagram_count": 3,
+      "existing_diagram_ids": [
+        "DR-032-D01",
+        "DR-032-D02",
+        "DR-032-D03"
+      ],
+      "article_keys": [
+        "1-43"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-032/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-033-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-033",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제44조, 예비군법 위반자 처리",
+      "priority": 28,
+      "status": "queued",
+      "existing_diagram_count": 3,
+      "existing_diagram_ids": [
+        "DR-033-D01",
+        "DR-033-D02",
+        "DR-033-D03"
+      ],
+      "article_keys": [
+        "1-44"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-033/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-038-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-038",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제49조, 개인피복 및 개인장구류",
+      "priority": 29,
+      "status": "queued",
+      "existing_diagram_count": 3,
+      "existing_diagram_ids": [
+        "DR-038-D01",
+        "DR-038-D02",
+        "DR-038-D03"
+      ],
+      "article_keys": [
+        "1-49"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-038/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-044-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-044",
+      "title": "예비군 교육훈련 훈령 제2조, 정의",
+      "priority": 30,
+      "status": "queued",
+      "existing_diagram_count": 3,
+      "existing_diagram_ids": [
+        "DR-044-D01",
+        "DR-044-D02",
+        "DR-044-D03"
+      ],
+      "article_keys": [
+        "2-2"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-044/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-055-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-055",
+      "title": "예비군 교육훈련 훈령 제11조, 훈련방법",
+      "priority": 31,
+      "status": "queued",
+      "existing_diagram_count": 3,
+      "existing_diagram_ids": [
+        "DR-055-D01",
+        "DR-055-D02",
+        "DR-055-D03"
+      ],
+      "article_keys": [
+        "2-11"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-055/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-066-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-066",
+      "title": "예비군 교육훈련 훈령 제22조, 훈련일정조정 등의 승인권한",
+      "priority": 32,
+      "status": "queued",
+      "existing_diagram_count": 3,
+      "existing_diagram_ids": [
+        "DR-066-D01",
+        "DR-066-D02",
+        "DR-066-D03"
+      ],
+      "article_keys": [
+        "2-22"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-066/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-068-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-068",
+      "title": "예비군 교육훈련 훈령 제24조, 예비군훈련 연기",
+      "priority": 33,
+      "status": "queued",
+      "existing_diagram_count": 3,
+      "existing_diagram_ids": [
+        "DR-068-D01",
+        "DR-068-D02",
+        "DR-068-D03"
+      ],
+      "article_keys": [
+        "2-24"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-068/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-075-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-075",
+      "title": "예비군 교육훈련 훈령 제31조, 기타",
+      "priority": 34,
+      "status": "queued",
+      "existing_diagram_count": 3,
+      "existing_diagram_ids": [
+        "DR-075-D01",
+        "DR-075-D02",
+        "DR-075-D03"
+      ],
+      "article_keys": [
+        "2-31"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-075/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-004-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-004",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제4조, 예비군 지휘관리체계",
+      "priority": 35,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-004-D01",
+        "DR-004-D02"
+      ],
+      "article_keys": [
+        "1-4"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-004/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-006-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-006",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제6조, 예비군 조직",
+      "priority": 36,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-006-D01",
+        "DR-006-D02"
+      ],
+      "article_keys": [
+        "1-6"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-006/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-007-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-007",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제7조, 예비군부대 편성체계",
+      "priority": 37,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-007-D01",
+        "DR-007-D02"
+      ],
+      "article_keys": [
+        "1-7"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-007/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-008-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-008",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제8조, 편성원칙",
+      "priority": 38,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-008-D01",
+        "DR-008-D02"
+      ],
+      "article_keys": [
+        "1-8"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-008/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-021-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-021",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제21조, 추가 편성 절차",
+      "priority": 39,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-021-D01",
+        "DR-021-D02"
+      ],
+      "article_keys": [
+        "1-21"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-021/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-022-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-022",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제22조, 예비군 신규조직 절차",
+      "priority": 40,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-022-D01",
+        "DR-022-D02"
+      ],
+      "article_keys": [
+        "1-22"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-022/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-028-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-028",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제28조, 무장",
+      "priority": 41,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-028-D01",
+        "DR-028-D02"
+      ],
+      "article_keys": [
+        "1-28"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-028/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-029-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-029",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제29조, 지휘통신",
+      "priority": 42,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-029-D01",
+        "DR-029-D02"
+      ],
+      "article_keys": [
+        "1-29"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-029/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-031-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-031",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제31조, 운용방법",
+      "priority": 43,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-031-D01",
+        "DR-031-D02"
+      ],
+      "article_keys": [
+        "1-31"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-031/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-039-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-039",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제50조, 시설",
+      "priority": 44,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-039-D01",
+        "DR-039-D02"
+      ],
+      "article_keys": [
+        "1-50"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-039/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-049-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-049",
+      "title": "예비군 교육훈련 훈령 제5조, 예비군훈련의 중점",
+      "priority": 45,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-049-D01",
+        "DR-049-D02"
+      ],
+      "article_keys": [
+        "2-5"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-049/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-051-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-051",
+      "title": "예비군 교육훈련 훈령 제7조, 각 관의 임무",
+      "priority": 46,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-051-D01",
+        "DR-051-D02"
+      ],
+      "article_keys": [
+        "2-7"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-051/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-052-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-052",
+      "title": "예비군 교육훈련 훈령 제8조, 훈련대상 및 시간",
+      "priority": 47,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-052-D01",
+        "DR-052-D02"
+      ],
+      "article_keys": [
+        "2-8"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-052/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-058-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-058",
+      "title": "예비군 교육훈련 훈령 제14조, 지역예비군훈련",
+      "priority": 48,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-058-D01",
+        "DR-058-D02"
+      ],
+      "article_keys": [
+        "2-14"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-058/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-059-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-059",
+      "title": "예비군 교육훈련 훈령 제15조, 간부교육",
+      "priority": 49,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-059-D01",
+        "DR-059-D02"
+      ],
+      "article_keys": [
+        "2-15"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-059/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-061-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-061",
+      "title": "예비군 교육훈련 훈령 제17조, 훈련관리",
+      "priority": 50,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-061-D01",
+        "DR-061-D02"
+      ],
+      "article_keys": [
+        "2-17"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-061/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-064-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-064",
+      "title": "예비군 교육훈련 훈령 제20조, 전국단위훈련",
+      "priority": 51,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-064-D01",
+        "DR-064-D02"
+      ],
+      "article_keys": [
+        "2-20"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-064/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-065-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-065",
+      "title": "예비군 교육훈련 훈령 제21조, 휴일예비군훈련",
+      "priority": 52,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-065-D01",
+        "DR-065-D02"
+      ],
+      "article_keys": [
+        "2-21"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-065/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-072-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-072",
+      "title": "예비군 교육훈련 훈령 제28조, 급식지원 기준",
+      "priority": 53,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-072-D01",
+        "DR-072-D02"
+      ],
+      "article_keys": [
+        "2-28"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-072/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-073-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-073",
+      "title": "예비군 교육훈련 훈령 제29조, 보상·치료 및 안전 활동",
+      "priority": 54,
+      "status": "queued",
+      "existing_diagram_count": 2,
+      "existing_diagram_ids": [
+        "DR-073-D01",
+        "DR-073-D02"
+      ],
+      "article_keys": [
+        "2-29"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-073/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-001-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-001",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제1조, 목적",
+      "priority": 55,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-001-D01"
+      ],
+      "article_keys": [
+        "1-1"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-001/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-003-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-003",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제3조, 적용범위",
+      "priority": 56,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-003-D01"
+      ],
+      "article_keys": [
+        "1-3"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-003/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-010-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-010",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제10조, 편성 및 해체절차",
+      "priority": 57,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-010-D01"
+      ],
+      "article_keys": [
+        "1-10"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-010/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-016-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-016",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제16조, 지원 대상",
+      "priority": 58,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-016-D01"
+      ],
+      "article_keys": [
+        "1-16"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-016/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-020-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-020",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제20조, 추가 편성 대상",
+      "priority": 59,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-020-D01"
+      ],
+      "article_keys": [
+        "1-20"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-020/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-023-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-023",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제23조, 예비군 신상변동자 관리절차",
+      "priority": 60,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-023-D01"
+      ],
+      "article_keys": [
+        "1-23"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-023/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-025-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-025",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제25조, 재복무자의 예비군 복무연차 적용",
+      "priority": 61,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-025-D01"
+      ],
+      "article_keys": [
+        "1-25"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-025/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-027-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-027",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제27조, 예비군 보류자 관리",
+      "priority": 62,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-027-D01"
+      ],
+      "article_keys": [
+        "1-27"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-027/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-034-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-034",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제45조, 보급지원계통",
+      "priority": 63,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-034-D01"
+      ],
+      "article_keys": [
+        "1-45"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-034/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-036-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-036",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제47조, 통신장비",
+      "priority": 64,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-036-D01"
+      ],
+      "article_keys": [
+        "1-47"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-036/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-037-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-037",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제48조, 기동장비",
+      "priority": 65,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-037-D01"
+      ],
+      "article_keys": [
+        "1-48"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-037/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-040-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-040",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제51조, 관리전환",
+      "priority": 66,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-040-D01"
+      ],
+      "article_keys": [
+        "1-51"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-040/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-041-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-041",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제52조, 감시장비 등",
+      "priority": 67,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-041-D01"
+      ],
+      "article_keys": [
+        "1-52"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-041/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-042-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-042",
+      "title": "예비군 조직·편성과 운영에 관한 훈령 제61조, 재검토 기한",
+      "priority": 68,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-042-D01"
+      ],
+      "article_keys": [
+        "1-61"
+      ],
+      "source_versions": [
+        "국방부훈령 제3104호"
+      ],
+      "output_directory": "defense-directives/lesson-042/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-043-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-043",
+      "title": "예비군 교육훈련 훈령 제1조, 목적",
+      "priority": 69,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-043-D01"
+      ],
+      "article_keys": [
+        "2-1"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-043/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-046-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-046",
+      "title": "예비군 교육훈련 훈령 제3조, 적용범위",
+      "priority": 70,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-046-D01"
+      ],
+      "article_keys": [
+        "2-3"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-046/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-048-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-048",
+      "title": "예비군 교육훈련 훈령 제4조, 예비군훈련의 목적",
+      "priority": 71,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-048-D01"
+      ],
+      "article_keys": [
+        "2-4"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-048/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-050-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-050",
+      "title": "예비군 교육훈련 훈령 제6조, 예비군훈련 체계",
+      "priority": 72,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-050-D01"
+      ],
+      "article_keys": [
+        "2-6"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-050/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-053-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-053",
+      "title": "예비군 교육훈련 훈령 제9조, 훈련시기",
+      "priority": 73,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-053-D01"
+      ],
+      "article_keys": [
+        "2-9"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-053/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-063-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-063",
+      "title": "예비군 교육훈련 훈령 제19조, 훈련일정 자율선택",
+      "priority": 74,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-063-D01"
+      ],
+      "article_keys": [
+        "2-19"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-063/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-069-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-069",
+      "title": "예비군 교육훈련 훈령 제25조, 활용 및 관리",
+      "priority": 75,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-069-D01"
+      ],
+      "article_keys": [
+        "2-25"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-069/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-070-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-070",
+      "title": "예비군 교육훈련 훈령 제26조, 교육훈련 교보재 및 탄약",
+      "priority": 76,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-070-D01"
+      ],
+      "article_keys": [
+        "2-26"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-070/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-076-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-076",
+      "title": "예비군 교육훈련 훈령 제32조, 과태료",
+      "priority": 77,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-076-D01"
+      ],
+      "article_keys": [
+        "2-32"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-076/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    },
+    {
+      "id": "DR-077-coverage-review-v1",
+      "type": "coverage_expansion_review",
+      "lesson_id": "DR-077",
+      "title": "예비군 교육훈련 훈령 제33조, 재검토기한",
+      "priority": 78,
+      "status": "queued",
+      "existing_diagram_count": 1,
+      "existing_diagram_ids": [
+        "DR-077-D01"
+      ],
+      "article_keys": [
+        "2-33"
+      ],
+      "source_versions": [
+        "국방부훈령 제3216호"
+      ],
+      "output_directory": "defense-directives/lesson-077/diagrams/",
+      "input_fingerprint": null,
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "result": null
+    }
+  ],
+  "production_jobs": [],
+  "runs": []
+}
