@@ -88,7 +88,18 @@
     "parallelism": "maximum_actual_available",
     "worker_limit": "현재 런타임에서 실제로 허용되는 가용 슬롯 수",
     "coordinator": "single_writer",
-    "coordinator_lease": null,
+    "coordinator_lease": {
+      "owner": "exam80-ms-checkpoint08",
+      "generation": 2,
+      "claimed_at_kst": "2026-11-27T21:48:38+09:00",
+      "expires_at_kst": "2026-11-27T22:45:00+09:00",
+      "lecture_ids": [
+        "MS-010",
+        "MS-077",
+        "MS-117",
+        "MS-157"
+      ]
+    },
     "priority_lectures": [
       "MS-077",
       "MS-094",
@@ -470,7 +481,7 @@
       "title": "병역법 제8조, 병역준비역 편입",
       "priority": 2,
       "generation": 2,
-      "status": "pending",
+      "status": "reviewing",
       "script_alignment_status": "script_alignment_pending",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_8.txt",
@@ -480,7 +491,18 @@
         "MS-010-D01-editorial-v1"
       ],
       "full_script_read": true,
-      "lease": null,
+      "lease": {
+        "owner": "exam80-ms-checkpoint08",
+        "generation": 2,
+        "claimed_at_kst": "2026-11-27T21:48:38+09:00",
+        "expires_at_kst": "2026-11-27T22:45:00+09:00",
+        "lecture_ids": [
+          "MS-010",
+          "MS-077",
+          "MS-117",
+          "MS-157"
+        ]
+      },
       "checkpoint": 7,
       "evidence_refs": [
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json"
@@ -2097,7 +2119,7 @@
       "title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
       "priority": 1,
       "generation": 2,
-      "status": "pending",
+      "status": "reviewing",
       "script_alignment_status": "script_alignment_pending",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_41.txt",
@@ -2108,7 +2130,18 @@
         "MS-077-D02-editorial-v1"
       ],
       "full_script_read": true,
-      "lease": null,
+      "lease": {
+        "owner": "exam80-ms-checkpoint08",
+        "generation": 2,
+        "claimed_at_kst": "2026-11-27T21:48:38+09:00",
+        "expires_at_kst": "2026-11-27T22:45:00+09:00",
+        "lecture_ids": [
+          "MS-010",
+          "MS-077",
+          "MS-117",
+          "MS-157"
+        ]
+      },
       "checkpoint": 7,
       "evidence_refs": [
         "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
@@ -3155,7 +3188,7 @@
       "title": "병역법 제74조의5, 상비예비군의 휴무 등 처리",
       "priority": 2,
       "generation": 2,
-      "status": "pending",
+      "status": "reviewing",
       "script_alignment_status": "script_alignment_pending",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_74의5.txt",
@@ -3165,7 +3198,18 @@
         "MS-117-D01-editorial-v1"
       ],
       "full_script_read": true,
-      "lease": null,
+      "lease": {
+        "owner": "exam80-ms-checkpoint08",
+        "generation": 2,
+        "claimed_at_kst": "2026-11-27T21:48:38+09:00",
+        "expires_at_kst": "2026-11-27T22:45:00+09:00",
+        "lecture_ids": [
+          "MS-010",
+          "MS-077",
+          "MS-117",
+          "MS-157"
+        ]
+      },
       "checkpoint": 7,
       "evidence_refs": [
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json"
@@ -4158,7 +4202,7 @@
       "title": "병역법 제91조, 허위증명서 등의 발급",
       "priority": 2,
       "generation": 2,
-      "status": "pending",
+      "status": "reviewing",
       "script_alignment_status": "script_alignment_pending",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_91.txt",
@@ -4168,7 +4212,18 @@
         "MS-157-D01-editorial-v1"
       ],
       "full_script_read": true,
-      "lease": null,
+      "lease": {
+        "owner": "exam80-ms-checkpoint08",
+        "generation": 2,
+        "claimed_at_kst": "2026-11-27T21:48:38+09:00",
+        "expires_at_kst": "2026-11-27T22:45:00+09:00",
+        "lecture_ids": [
+          "MS-010",
+          "MS-077",
+          "MS-117",
+          "MS-157"
+        ]
+      },
       "checkpoint": 7,
       "evidence_refs": [
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json"
