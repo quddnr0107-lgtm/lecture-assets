@@ -577,7 +577,7 @@
       "lecture_id": "TB-011",
       "title": "11강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -599,17 +599,20 @@
       "outputs": [
         "integrated-defense/lesson-011/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
+      "lease": null,
+      "attempts": 6,
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "제80회 고정 원고 직접 대조, 가로형 3장·모바일 7장 WebP 직접 검수. D01 12개 독립 SHA-256 일치; 전체 30개 경로·크기·blob 일치.",
+      "previous_lease": {
         "run_id": "tb-exam80-20261128-0051",
         "started_at": "2026-11-28T00:51:17+09:00",
         "expires_at": "2026-11-28T01:49:00+09:00"
       },
-      "attempts": 6,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "고정 제80회 원고에 확인한 D01 문구 3건의 데스크톱·모바일 동시 재제작 예약. 독립 이미지 검수 전 완료 금지.",
-      "repair_required": {
-        "diagram_id": "TB-011-D01",
-        "report": "integrated-defense/production-queue/runs/tb-exam80-20261127-1049-qa.json"
+      "completed_evidence": {
+        "verified_commit": "128de68354eab9eb7515394d28aa45dfa5decfee",
+        "visual_report": "integrated-defense/production-queue/runs/tb-exam80-20261128-0051-11-visual.json",
+        "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+        "output_type": "mobile"
       }
     },
     {
@@ -1259,15 +1262,13 @@
   "last_render_run": "tb-exam80-20261127T144638Z-11-repair",
   "last_verified_commit": "42d499deecb23ea9b6add51684906b54e90e0ba7",
   "progress": {
-    "jobs_done": 28,
-    "jobs_remaining": 2,
+    "jobs_done": 29,
+    "jobs_remaining": 1,
     "desktop_diagrams": 55,
     "mobile_rendered_lessons": 25,
     "mobile_rendered_pages": 137,
-    "mobile_verified_lessons": 24,
-    "mobile_verified_pages": 130,
-    "mobile_layout_review_lessons": [
-      11
-    ]
+    "mobile_verified_lessons": 25,
+    "mobile_verified_pages": 137,
+    "mobile_layout_review_lessons": []
   }
 }

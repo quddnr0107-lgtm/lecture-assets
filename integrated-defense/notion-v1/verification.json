@@ -56,7 +56,7 @@
     },
     "latest_repair": {
       "diagram": "TB-011-D01",
-      "visual_review": "pending",
+      "visual_review": "pass",
       "source_sha256": "56e3e3568ff5d310b7383614f99bef808c18bdc1a0a883d1e31e6c43a41c3d67",
       "diagram_content_sha256": "66cbe3b55c5fc7fa4236a0ab98946d9fdf1fb475a1b2e0ab412851c4447e7021",
       "files": {
@@ -81,7 +81,9 @@
           "width": 1600,
           "height": 1120
         }
-      }
+      },
+      "visual_report": "integrated-defense/production-queue/runs/tb-exam80-20261128-0051-11-visual.json",
+      "verified_commit": "128de68354eab9eb7515394d28aa45dfa5decfee"
     }
   }
 }

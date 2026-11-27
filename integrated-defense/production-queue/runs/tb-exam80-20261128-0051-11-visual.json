@@ -1,0 +1,320 @@
+{
+  "run_id": "tb-exam80-20261128-0051",
+  "exam_number": 80,
+  "job_id": "TB-011-MOBILE",
+  "verified_commit": "128de68354eab9eb7515394d28aa45dfa5decfee",
+  "render_commit": "f0a0cf6eb4711c32d73d8192b43d26088ec7b22d",
+  "render_workflow_run": 46019311864,
+  "script_source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "source_blob_sha": "7be74a2cc300ed21f060e36f862aecf71a3e06ce",
+  "source_sha256": "56e3e3568ff5d310b7383614f99bef808c18bdc1a0a883d1e31e6c43a41c3d67",
+  "source_review": "고정 원고 전문 대조: 법 제10조제2항과 시행령 제19조제1항 진행 상황 구분, 1일 한 차례 이상 제공 의무, 침투·도발 행위의 내용 및 기간 한정 비공개 조건 확인.",
+  "manifest_blob": "04f775171d47703b56cd6511a184169bfe837b20",
+  "mobile_manifest_blob": "d3f1bdca878f4bd9b3292872057e931fb6deae2f",
+  "visual_review": "가로형 3장, 모바일 7장 WebP 직접 시각 확인. 한글·잘림·겹침·병렬 구성·근거 확인. 390px 기준 본문 15.17px 렌더 기록.",
+  "files": [
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/TB-011-D01-media-support-and-disclosure.svg",
+      "bytes": 8989,
+      "sha256": "b4671d8181b6804f10074572bbec0c270f24fe7cbf3b7f818d74bff3757e7d7e",
+      "width": 1600,
+      "height": 1120,
+      "blob": "8037ec88024be0a89be761cf61ead4d4fc49c282",
+      "independent_sha256_recomputed": true,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/TB-011-D01-media-support-and-disclosure.png",
+      "bytes": 171340,
+      "sha256": "27f3731530ba575fceb082bdaf60a39628029d25d77c17926e1a6845a5a52344",
+      "width": 1600,
+      "height": 1120,
+      "blob": "bf71fd4413be47abc9320eb5ede7995b737f3f60",
+      "independent_sha256_recomputed": true,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/TB-011-D01-media-support-and-disclosure.webp",
+      "bytes": 99608,
+      "sha256": "ee1e21d393043db99c17c733abb0bf42105011581bd1d5ef92825068b825c469",
+      "width": 1600,
+      "height": 1120,
+      "blob": "2e019bb29b5765739db8f78bfffb79f8a18b41c6",
+      "independent_sha256_recomputed": true,
+      "webp_visually_reviewed": true
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/TB-011-D02-joint-media-headquarters.svg",
+      "bytes": 9019,
+      "sha256": "fc4f4f3a9d2fd52a55dec1eadf1fdac8bf5376eddbb80e02dd5e17336127f16c",
+      "width": 1600,
+      "height": 1120,
+      "blob": "62fc94e30bae310e0d3239d60ad8c4feda85ba15",
+      "independent_sha256_recomputed": false,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/TB-011-D02-joint-media-headquarters.png",
+      "bytes": 134507,
+      "sha256": "d2831a3ed26972ec89898079416208bfe63c089e97cb505108cb96934f345d6e",
+      "width": 1600,
+      "height": 1120,
+      "blob": "eccb66991e98aaf71bb197baaafc340a9c1880e5",
+      "independent_sha256_recomputed": false,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/TB-011-D02-joint-media-headquarters.webp",
+      "bytes": 75780,
+      "sha256": "c6c8d041c6c66c2fe2de2e05cd5e0548f6e2db1927b47a2044d3fc8e454d95ae",
+      "width": 1600,
+      "height": 1120,
+      "blob": "e7cf3a57361884a0b6e29b4a9674a1cbc24afb1d",
+      "independent_sha256_recomputed": false,
+      "webp_visually_reviewed": true
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/TB-011-D03-reporting-access-rules.svg",
+      "bytes": 9649,
+      "sha256": "1a3a9c5df7b93d37704f4518fe265ee75dac7476ef46cf49e0db27c36310f999",
+      "width": 1600,
+      "height": 1120,
+      "blob": "3ff8a3dbe127d8d84a5d32a450f35f973c121b9d",
+      "independent_sha256_recomputed": false,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/TB-011-D03-reporting-access-rules.png",
+      "bytes": 148230,
+      "sha256": "b1dc7a45f96fabcd35a055da02e2b273325ca96c9d073978b473c64546775a62",
+      "width": 1600,
+      "height": 1120,
+      "blob": "aff8281d1c9e00be678b50346d58cf9b0ac3a7ff",
+      "independent_sha256_recomputed": false,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/TB-011-D03-reporting-access-rules.webp",
+      "bytes": 84044,
+      "sha256": "efa49212c9a727a42e252662e334af929aa07d45d74e55ed54204ce16642e0f4",
+      "width": 1600,
+      "height": 1120,
+      "blob": "944f5d3625295bd36810512894923b0ad5fe1249",
+      "independent_sha256_recomputed": false,
+      "webp_visually_reviewed": true
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D01-M01.svg",
+      "bytes": 4705,
+      "sha256": "6b78df19274803915f9efc41e9044691a495cc4c946c4e15587bb4e68b189025",
+      "width": 1080,
+      "height": 1800,
+      "blob": "813683ad16ddc873abb3120921536a234ac3791f",
+      "independent_sha256_recomputed": true,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D01-M01.png",
+      "bytes": 167724,
+      "sha256": "a83fcca979dae8b3557f556af22ebf6ab263060687a0c4acb460bb2c02afd4c6",
+      "width": 1080,
+      "height": 1800,
+      "blob": "b7bb030aac66d68295cd0cd3c81c12fd41318baa",
+      "independent_sha256_recomputed": true,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D01-M01.webp",
+      "bytes": 88858,
+      "sha256": "40d73847ccad29ace07cf767cf296d7fcd3378d0eb81153c6b0ef8ac87441aa7",
+      "width": 1080,
+      "height": 1800,
+      "blob": "28926a643984bb5c8a0a817c2c2c77a9d2a347bb",
+      "independent_sha256_recomputed": true,
+      "webp_visually_reviewed": true
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D01-M02.svg",
+      "bytes": 3568,
+      "sha256": "b9f0fff30c834a57451fb54aedce22ddc9a20ce374582af327d7d33fbbb50e02",
+      "width": 1080,
+      "height": 1800,
+      "blob": "be09eb02e9a4168cec04c923813c67d7666d8a1a",
+      "independent_sha256_recomputed": true,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D01-M02.png",
+      "bytes": 139936,
+      "sha256": "2e3f1b57b353be41b54bcd360682b2bb707e8faeff80213abb7c0b153fae6773",
+      "width": 1080,
+      "height": 1800,
+      "blob": "d9669cabd5d572d2c5371ab86de9c7736c6c7630",
+      "independent_sha256_recomputed": true,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D01-M02.webp",
+      "bytes": 75070,
+      "sha256": "131f9561da593d52c876248bffbae475be4c29ae47dfe07df5d24b8a8dbd6a3a",
+      "width": 1080,
+      "height": 1800,
+      "blob": "6ba93426b239e05fa8d6f32fd05d3b358fc0f39b",
+      "independent_sha256_recomputed": true,
+      "webp_visually_reviewed": true
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D01-M03.svg",
+      "bytes": 2937,
+      "sha256": "a380e372d65484ba03b353133aeb83b8de5a211faf6e355a620bc98e3db374dd",
+      "width": 1080,
+      "height": 1800,
+      "blob": "46ea9f9c9d71b2599e65498920e0aba29ecf3350",
+      "independent_sha256_recomputed": true,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D01-M03.png",
+      "bytes": 132033,
+      "sha256": "3b0d7a3b846842428faf23201da7542f3cc1cb7a99e7ae15054b5a65191ef473",
+      "width": 1080,
+      "height": 1800,
+      "blob": "6077f08de76a66068dc6183dd1079a1593a3ad30",
+      "independent_sha256_recomputed": true,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D01-M03.webp",
+      "bytes": 71738,
+      "sha256": "cccefafdbada6b1fb2a427456cbd38f671c8e919f0fab926475f69694e70ce4f",
+      "width": 1080,
+      "height": 1800,
+      "blob": "aa91613019b6e534be3f022bc5e445227a73fc92",
+      "independent_sha256_recomputed": true,
+      "webp_visually_reviewed": true
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D02-M01.svg",
+      "bytes": 4682,
+      "sha256": "4ce7504512e00b8baf7447f83eb64a071bf0d5cb1f8e209e89dce8947a03196d",
+      "width": 1080,
+      "height": 1800,
+      "blob": "97d22184696f4d01903b7bcea90f9bf86ab312e9",
+      "independent_sha256_recomputed": false,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D02-M01.png",
+      "bytes": 144115,
+      "sha256": "f749ca1085176f2af2a758215effe7d0a6dd378a8471f70ee4025195555a674c",
+      "width": 1080,
+      "height": 1800,
+      "blob": "f933cb09326abfedcdcfaa07ae6bf8ec71045f6d",
+      "independent_sha256_recomputed": false,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D02-M01.webp",
+      "bytes": 77770,
+      "sha256": "e116f26c849959c76cc9fff996698a012890080e9542699ade86d2d171b14963",
+      "width": 1080,
+      "height": 1800,
+      "blob": "1a72f3279637de8af00957c98abb2da4bb75ba36",
+      "independent_sha256_recomputed": false,
+      "webp_visually_reviewed": true
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D02-M02.svg",
+      "bytes": 3315,
+      "sha256": "b12f31aa8cc739c116f707ce981bb7bd117149a5ea13880fe2f03bc44c0c7762",
+      "width": 1080,
+      "height": 1800,
+      "blob": "ea7923c04597f5016e6626ec50063e1e46d3611e",
+      "independent_sha256_recomputed": false,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D02-M02.png",
+      "bytes": 130814,
+      "sha256": "3ba72601db53fee080bc40cd65d4cb2f1741f8b34ff3247f0522e0877610fc16",
+      "width": 1080,
+      "height": 1800,
+      "blob": "8db62bb898c7bed33ac1dbf2a60c167741708460",
+      "independent_sha256_recomputed": false,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D02-M02.webp",
+      "bytes": 72968,
+      "sha256": "50312d46407ef0226c0c1fbacbd119cea36ccc34575ffd378d8500daf5d1741d",
+      "width": 1080,
+      "height": 1800,
+      "blob": "74d6cd86b94b60668422ba50380d3c2dea8b9afe",
+      "independent_sha256_recomputed": false,
+      "webp_visually_reviewed": true
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D03-M01.svg",
+      "bytes": 4603,
+      "sha256": "0df050d3bd47fae7eea2796b729fd625c9a4e1aba3a4873b63604cbb792d9b5b",
+      "width": 1080,
+      "height": 1800,
+      "blob": "ee1125114b07181ecdc609932cac1d217846c9a7",
+      "independent_sha256_recomputed": false,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D03-M01.png",
+      "bytes": 156487,
+      "sha256": "6658b34b5529029ad3385721a1ac4b049ee1d426cbf018302b4dc52fba5b9a4a",
+      "width": 1080,
+      "height": 1800,
+      "blob": "daff340e4dfaf358c0aa8c630285ae1f108b4620",
+      "independent_sha256_recomputed": false,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D03-M01.webp",
+      "bytes": 81320,
+      "sha256": "fdf3418cf88901a185c43874952aca65bbaab62a5528926d5e82d1f5628ff634",
+      "width": 1080,
+      "height": 1800,
+      "blob": "dc97dade60f75e74bd2935145f0ca7ba046ea8af",
+      "independent_sha256_recomputed": false,
+      "webp_visually_reviewed": true
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D03-M02.svg",
+      "bytes": 4277,
+      "sha256": "b872a32e916c4f304a7c0fc886ae4f317561df9d271d3563dac4d2b127667585",
+      "width": 1080,
+      "height": 1800,
+      "blob": "b2738691ae33548c7c6d600fb09a718296b0983b",
+      "independent_sha256_recomputed": false,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D03-M02.png",
+      "bytes": 170660,
+      "sha256": "4f6ac3f21ec321bd7c140736bad5f497647b3b3b5dc7cfbacb88050c2462a515",
+      "width": 1080,
+      "height": 1800,
+      "blob": "65c6208add2d08ce84778c889da10e8e8cbc3e1e",
+      "independent_sha256_recomputed": false,
+      "webp_visually_reviewed": false
+    },
+    {
+      "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D03-M02.webp",
+      "bytes": 91070,
+      "sha256": "5a60c9e8ff641ac6e87fa781848e5801b4023b8818a405a09e4b8509276c9547",
+      "width": 1080,
+      "height": 1800,
+      "blob": "7afa6d942da0c2a848131659e4baddd632cb3bfe",
+      "independent_sha256_recomputed": false,
+      "webp_visually_reviewed": true
+    }
+  ],
+  "result": "pass",
+  "new_legal_diagrams": 0,
+  "new_mobile_pages": 0
+}
