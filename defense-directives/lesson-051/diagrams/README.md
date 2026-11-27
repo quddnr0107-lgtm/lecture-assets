@@ -12,7 +12,6 @@
 
 근거: [교육훈련 훈령 제7조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J7-0:0) · 국방부훈령 제3216호
 
-각 군 지휘부: 각 군 참모총장·해병대사령관.
 
 ## DR-051-D02 · 작전사·수임군·국직의 임무
 
@@ -21,3 +20,4 @@
 ![작전사·수임군·국직의 임무](DR-051-D02-editorial-v1.webp)
 
 근거: [교육훈련 훈령 제7조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J7-0:0) · 국방부훈령 제3216호
+

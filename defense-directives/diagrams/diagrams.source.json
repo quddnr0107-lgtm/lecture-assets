@@ -3917,7 +3917,7 @@
             "bold": false
           },
           {
-            "label": "동원 순서",
+            "label": "지역예비군 동원 시",
             "text": "35세 이하 제대부터 순차 동원",
             "bold": false
           }
@@ -3932,13 +3932,20 @@
       "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J21-0:0",
       "sourceVersion": "국방부훈령 제3104호",
       "effectiveDate": "2025-11-14",
-      "evidence": [
-        {
-          "claim": "추가 편성의 자원·연령 구분",
-          "quote": "⑤ 추가 편성 시 가용자원이 부족한 지역에서는 예비군소대에 통합 편성하고,가용자원이 충분한 지역에서는 별도의 소대를 편성한다.\n\n⑥ 별도의 소대로 예비군 추가편성은 35세 이하자와 36세 이상자로 제대를 구분하여 편성하고, 지역예비군 동원 시에는 35세 이하자로 편성된 제대부터 순차적으로 동원한다."
-        }
-      ],
-      "scriptRef": "DR-021"
+      "scriptRef": "DR-021",
+      "scriptEvidence": {
+        "source_git_blob": "a8908c2960fbcdd6a7da0a671575452b3ec83bea",
+        "source_sha256": "6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04",
+        "lines": [
+          115,
+          127,
+          131,
+          133,
+          149,
+          175,
+          176
+        ]
+      }
     },
     {
       "lessonId": "DR-022",
@@ -8085,7 +8092,7 @@
       "lessonId": "DR-051",
       "articleKey": "2-7",
       "title": "기본정책에서 각 군 지시까지",
-      "subtitle": "국방부장관이 정책을 수립하고 각 군이 승인받아 구체화한다.",
+      "subtitle": "국방부장관이 정책을 수립하고 참모총장이 승인받아 구체화한다.",
       "layout": "equal",
       "left": {
         "title": "국방부장관",
@@ -8109,7 +8116,7 @@
         ]
       },
       "right": {
-        "title": "각 군 지휘부",
+        "title": "각 군 참모총장",
         "subtitle": "제2호",
         "items": [
           {
@@ -8134,21 +8141,25 @@
         "제1호",
         "제2호"
       ],
-      "note": "각 군 지휘부: 각 군 참모총장·해병대사령관.",
-      "evidence": [
-        {
-          "claim": "1. 국방부장관",
-          "quote": "1. 국방부장관은 예비군훈련에 관한 기본정책을 수립하고, 「예비군 교육훈련 훈령」을 작성ㆍ하달하며, 그 시행에 대한 조정, 통제, 평가 등을 실시한다."
-        },
-        {
-          "claim": "2. 각 군 참모총장",
-          "quote": "2. 각 군 참모총장(해병대의 경우에는 해병대사령관을 말한다.)은 「예비군 교육훈련 훈령」을 기초로 각 군 규정 또는 지시를 작성하여 국방부장관의 승인을 득한 후 예하부대에 하달하고, 그 시행에 대한 조정, 통제, 평가 등을 실시한다."
-        }
-      ],
+      "note": "해병대의 경우 해병대사령관. 작전사령관은 작성·승인 주체가 아니다.",
       "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J7-0:0",
       "sourceVersion": "국방부훈령 제3216호",
       "effectiveDate": "2026-10-14",
-      "scriptRef": "DR-051"
+      "scriptRef": "DR-051",
+      "scriptEvidence": {
+        "source_git_blob": "b3625b807ba3cd51349b192039a5ad8b962621d3",
+        "source_sha256": "298227f52d8160bc2c9b2de08f2f8c00270bfa7f06df3f27982b61ef717ee234",
+        "lines": [
+          15,
+          19,
+          21,
+          27,
+          37,
+          45,
+          75,
+          76
+        ]
+      }
     },
     {
       "lessonId": "DR-051",
@@ -8161,7 +8172,7 @@
         "subtitle": "제3호·제4호",
         "items": [
           {
-            "label": "작전사령관",
+            "label": "작전사령관(중간 지휘관리 제대의 장)",
             "text": "수임군부대의 훈련업무 조정·통제·평가",
             "bold": false
           },
@@ -8188,7 +8199,7 @@
           },
           {
             "label": "부대훈련지시",
-            "text": "예하부대 훈련 조정·통제·시행·평가 반영",
+            "text": "예하부대 훈련 조정·통제·시행·평가를 반영하여 실시",
             "bold": false
           }
         ]
@@ -8199,25 +8210,29 @@
         "제4호",
         "제5호"
       ],
-      "note": "",
-      "evidence": [
-        {
-          "claim": "3. 작전사령관",
-          "quote": "3. 작전사령관은 중간 지휘관리 제대의 장으로서 수임군부대의 예비군훈련에 관한 업무를 조정, 통제, 평가 한다."
-        },
-        {
-          "claim": "4. 수임군부대장",
-          "quote": "4. 수임군부대장은 각 군 참모총장(해병대의 경우에는 해병대사령관을 말한다.)의 예비군훈련 규정 또는 지시에 기초하여 예비군훈련 계획을 수립하고, 훈련담당부대에 대한 훈련지원과 예비군훈련에 관한 업무를 조정, 통제, 감독, 평가 등을 실시한다."
-        },
-        {
-          "claim": "5. 국방부 직할부대장",
-          "quote": "5. 국방부 직할부대장은 「예비군 교육훈련 훈령」을 기초로 부대별임무와 여건을 고려 예하부대 훈련의 조정ㆍ통제ㆍ시행ㆍ평가 등에 관한 사항을 부대훈련지시에 반영하여 실시한다."
-        }
-      ],
+      "note": "국방부장관: 훈령 → 참모총장: 규정·지시 → 수임군부대장: 계획. 직할부대는 훈령에 직접 기초.",
       "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J7-0:0",
       "sourceVersion": "국방부훈령 제3216호",
       "effectiveDate": "2026-10-14",
-      "scriptRef": "DR-051"
+      "scriptRef": "DR-051",
+      "scriptEvidence": {
+        "source_git_blob": "b3625b807ba3cd51349b192039a5ad8b962621d3",
+        "source_sha256": "298227f52d8160bc2c9b2de08f2f8c00270bfa7f06df3f27982b61ef717ee234",
+        "lines": [
+          41,
+          45,
+          49,
+          53,
+          55,
+          61,
+          65,
+          69,
+          77,
+          78,
+          79,
+          81
+        ]
+      }
     },
     {
       "lessonId": "DR-052",
@@ -12491,13 +12506,13 @@
         "subtitle": "각 군 규정",
         "items": [
           {
-            "label": "탄약규정",
-            "text": "각 군 탄약규정 적용",
+            "label": "교육훈련지원규정",
+            "text": "각 군 교육훈련지원규정 적용",
             "bold": false
           },
           {
-            "label": "교육훈련지원규정",
-            "text": "각 군 교육훈련지원규정 적용",
+            "label": "탄약규정",
+            "text": "각 군 탄약규정 적용",
             "bold": false
           }
         ]
@@ -12506,17 +12521,27 @@
       "sourceClauses": [
         "제26조"
       ],
-      "note": "",
-      "evidence": [
-        {
-          "claim": "예비군훈련 교보재 및 탄약",
-          "quote": "제26조 (교육훈련 교보재 및 탄약) 예비군훈련 교보재 및 탄약은 각 군 탄약규정, 교육훈련지원규정에 따른다."
-        }
-      ],
+      "note": "이 훈령은 수량·절차를 따로 정하지 않고 각 군 규정을 따른다.",
       "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J26-0:0",
       "sourceVersion": "국방부훈령 제3216호",
       "effectiveDate": "2026-10-14",
-      "scriptRef": "DR-070"
+      "scriptRef": "DR-070",
+      "scriptEvidence": {
+        "source_git_blob": "4a8ec51989af64d319c635c81e97e3abd2145839",
+        "source_sha256": "8edf53a30a6f3b29468f5cadeaed29034c82833ea403f8345543c44e633b5c5e",
+        "lines": [
+          15,
+          19,
+          21,
+          23,
+          31,
+          33,
+          35,
+          39,
+          40,
+          41
+        ]
+      }
     },
     {
       "lessonId": "DR-071",
@@ -13686,7 +13711,7 @@
             "bold": false
           },
           {
-            "label": "시행령 해당 감경",
+            "label": "질서위반행위규제법 시행령 해당",
             "text": "100분의 50 범위 내 감경 가능",
             "bold": false
           },
@@ -13718,7 +13743,7 @@
         "별지 제5호",
         "별지 제6호"
       ],
-      "note": "",
+      "note": "의견제출: 서면(전자문서 포함) 또는 구두.",
       "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J32-0:0",
       "sourceVersion": "국방부훈령 제3216호",
       "effectiveDate": "2026-10-14",
@@ -13727,12 +13752,16 @@
         "source_git_blob": "899302aaf728a341ec23adad26262a73c91c6fe1",
         "source_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
         "lines": [
+          96,
           102,
           104,
           110,
           118,
           122,
-          124
+          124,
+          152,
+          153,
+          154
         ]
       }
     },
