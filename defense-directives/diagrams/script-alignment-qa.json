@@ -6,7 +6,7 @@
     "cutoff_date": "2027-02-02",
     "cutoff_kind": "existing_user_specified_exam80_basis"
   },
-  "checked_at": "2026-11-28T01:24:30+09:00",
+  "checked_at": "2026-11-28T03:22:55+09:00",
   "source_commit": "2d696ecb8a2805b0bc42df8ce5754ae91914371d",
   "script_bindings_verified": 78,
   "diagram_corrections": [
@@ -75,10 +75,10 @@
       "full_lesson_coverage_review": "pending"
     }
   ],
-  "full_lecture_coverage_reviews_completed": 38,
-  "remaining_full_lecture_reviews": 40,
+  "full_lecture_coverage_reviews_completed": 39,
+  "remaining_full_lecture_reviews": 39,
   "new_diagrams": 34,
-  "revised_diagrams": 57,
+  "revised_diagrams": 60,
   "priority_script_comparison": {
     "schema_version": 1,
     "created_at": "2026-11-27T11:59:01+09:00",
@@ -422,7 +422,7 @@
       "DR-045-existing-script-arrears-rates"
     ]
   },
-  "visual_review": "실제 WebP 수정분 5장 및 DR-039 기존 2장 직접 확인: 글자 겹침·잘림 없음. 수정분 렌더러 PNG/WebP 픽셀 일치·manifest 해시 대조 완료.",
+  "visual_review": "실제 WebP 신규 4장·수정 3장과 기존 5장을 열어 확인: 겹침·잘림 없음. 렌더러 PNG/WebP 픽셀 일치 및 manifest 파일 해시 대조 통과.",
   "targeted_render_runs": [
     {
       "run_id": "dr-20261127-122552",
@@ -22577,7 +22577,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-039/diagrams/DR-039-D01-editorial-v1.svg",
@@ -22770,7 +22770,7 @@
             {
               "text": "예산으로 건축한다.",
               "x": 860,
-              "y": 720.0,
+              "y": 720,
               "width": 287,
               "height": 35,
               "fontSize": 36,
@@ -22830,7 +22830,8 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "visual_reviewed_at": "2026-11-28T03:22:55+09:00"
         },
         {
           "id": "DR-026-D04",
@@ -22855,7 +22856,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-026/diagrams/DR-026-D04-editorial-v1.svg",
@@ -23081,7 +23082,8 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "visual_reviewed_at": "2026-11-28T03:22:55+09:00"
         },
         {
           "id": "DR-026-D05",
@@ -23107,7 +23109,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-026/diagrams/DR-026-D05-editorial-v1.svg",
@@ -23324,7 +23326,8 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "visual_reviewed_at": "2026-11-28T03:22:55+09:00"
         },
         {
           "id": "DR-026-D03",
@@ -23342,7 +23345,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-026/diagrams/DR-026-D03-editorial-v1.svg",
@@ -23568,7 +23571,8 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "visual_reviewed_at": "2026-11-28T03:22:55+09:00"
         },
         {
           "id": "DR-012-D04",
@@ -23597,7 +23601,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-012/diagrams/DR-012-D04-editorial-v1.svg",
@@ -23805,7 +23809,8 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "visual_reviewed_at": "2026-11-28T03:22:55+09:00"
         },
         {
           "id": "DR-012-D05",
@@ -23823,7 +23828,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-012/diagrams/DR-012-D05-editorial-v1.svg",
@@ -24049,7 +24054,8 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "visual_reviewed_at": "2026-11-28T03:22:55+09:00"
         },
         {
           "id": "DR-012-D03",
@@ -24066,7 +24072,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-012/diagrams/DR-012-D03-editorial-v1.svg",
@@ -24256,7 +24262,8 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "visual_reviewed_at": "2026-11-28T03:22:55+09:00"
         }
       ]
     }
@@ -24690,6 +24697,76 @@
           ],
           "objective": "컨테이너 허용 대상의 정확한 구분",
           "finding": "무기·탄약고 공통 제목 아래의 무기고 라벨을 예비군 무기고로 명확히 하고 탄약고와 구분 필요"
+        }
+      ]
+    },
+    {
+      "run_id": "dr-20261128-032255-script",
+      "completed_lessons": [
+        "DR-039"
+      ],
+      "visual_reviewed": [
+        "DR-039-D01",
+        "DR-026-D04",
+        "DR-026-D05",
+        "DR-026-D03",
+        "DR-012-D04",
+        "DR-012-D05",
+        "DR-012-D03"
+      ],
+      "render_commit": "36b79788aa33b7ee52002bcebc5df38173d99fd5",
+      "remaining_reviews": 39,
+      "partial_reviews": [
+        "DR-012",
+        "DR-026"
+      ],
+      "precision_followups": [
+        {
+          "diagram_id": "DR-012-D03",
+          "lines": [
+            169,
+            171,
+            173,
+            183,
+            187,
+            195,
+            201,
+            202,
+            235,
+            236
+          ],
+          "objective": "수시계획 경유 주체의 타당성 검증과 의견 보고",
+          "finding": "경유 과정의 정원 연계 검증 및 의견 보고 생략"
+        },
+        {
+          "diagram_id": "DR-012-D04",
+          "lines": [
+            51,
+            73,
+            96,
+            98,
+            118,
+            227,
+            232
+          ],
+          "objective": "연도별 정원 범위 내 시행이라는 제약",
+          "finding": "연도계획의 정원 범위 제약이 해당 칸에서 생략됨"
+        },
+        {
+          "diagram_id": "DR-026-D03",
+          "lines": [
+            135,
+            149,
+            151,
+            153,
+            161,
+            163,
+            173,
+            187,
+            188
+          ],
+          "objective": "진급발령자 명부 송부권자의 정확한 명칭",
+          "finding": "원고의 국방부장관·각 군 참모총장이 국방부·각 군으로 축약됨"
         }
       ]
     }
