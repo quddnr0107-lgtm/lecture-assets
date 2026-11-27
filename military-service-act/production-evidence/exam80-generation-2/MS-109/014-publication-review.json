@@ -1,0 +1,73 @@
+{
+  "lecture_id": "MS-109",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_70.txt",
+  "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+  "full_script_read": true,
+  "script_line_count": 302,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        [
+          127,
+          139
+        ],
+        [
+          171,
+          171
+        ],
+        [
+          197,
+          213
+        ],
+        [
+          225,
+          233
+        ]
+      ],
+      "diagram": "MS-109-D14-editorial-v1",
+      "topic": "허가 위임과 통보의 구분"
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-109-D01-editorial-v1",
+    "MS-109-D02-editorial-v1",
+    "MS-109-D03-editorial-v1"
+  ],
+  "decision": {
+    "outcome": "partial_publication",
+    "reason": "checkpoint-13 원고·실제 화면 검수 통과 초안만 정식 경로에 통합. 전체 강의 완료 아님.",
+    "remaining": [
+      "MS-109-D09-editorial-v1"
+    ]
+  },
+  "changed_artifacts_and_hashes": [
+    {
+      "id": "MS-109-D14-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D14-editorial-v1.svg",
+          "bytes": 4632,
+          "sha256": "888382a87af34f80b6546ca58c8164b9defcaa28b2330cc20ab0436088ff1722"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D14-editorial-v1.webp",
+          "bytes": 43386,
+          "sha256": "81d8c053189d5e7635abcff1afafac9743a4d5e2d6fb79ada50f7774b40904d4"
+        }
+      },
+      "git_blob_shas": {
+        "svg": "2b24f199e9a734e83fc36060d6190fe5a72bf840",
+        "webp": "9bf508818ce46959efbc2ee92e14ec71d8bd2f63"
+      }
+    }
+  ],
+  "previous_evidence_sha256": "28b957c36a5f82bda1d0bf52665443ab5f6e597a31dd19bfb274601f07eef747",
+  "previous_visual_review": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-13-visual-review.json",
+  "publication_commit_or_null": null,
+  "publication_parent": "24f1ea84f146149742dbdea1472fb05a07345b7d",
+  "reviewed_date_kst": "2026-11-28",
+  "visual_review": "검수 당시 commit과 동일한 SVG·WebP Git blob 및 바이트, 1600×1120 VP8L·SHA-256 재확인"
+}

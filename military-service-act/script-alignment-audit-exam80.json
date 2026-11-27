@@ -470,23 +470,23 @@
   "automatic_run_added_images": 0,
   "latest_supplement_publication": {
     "lecture_ids": [
-      "MS-001"
+      "MS-065",
+      "MS-109"
     ],
-    "published_pages": 1,
+    "published_pages": 3,
     "corrected_pages": 0,
-    "cumulative_published_supplement_pages": 30,
+    "cumulative_published_supplement_pages": 33,
     "evidence": [
-      "military-service-act/production-evidence/exam80-generation-2/MS-001/013-publication-review.json"
+      "military-service-act/production-evidence/exam80-generation-2/MS-065/014-publication-review.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-109/014-publication-review.json"
     ],
-    "full_lecture_complete": true,
-    "completed_lectures": [
-      "MS-001"
-    ]
+    "full_lecture_complete": false,
+    "completed_lectures": []
   },
   "current_review_totals": {
     "verified_existing_pages": 21,
     "pending_existing_pages": 262,
     "completed_lectures": 14,
-    "published_pages": 313
+    "published_pages": 316
   }
 }

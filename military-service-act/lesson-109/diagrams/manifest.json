@@ -3,7 +3,7 @@
   "subject": "military-service-act",
   "lecture_id": "MS-109",
   "lecture_title": "병역법 제70조, 국외여행의 허가 및 취소",
-  "diagram_count": 12,
+  "diagram_count": 13,
   "canvas": [
     1600,
     1120
@@ -1268,6 +1268,127 @@
           ]
         ]
       }
+    },
+    {
+      "id": "MS-109-D14-editorial-v1",
+      "lecture_id": "MS-109",
+      "lesson_number": 109,
+      "diagram_number": 14,
+      "title": "허가 위임과 통보의 구분",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 291,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D14-editorial-v1.svg",
+          "bytes": 4632,
+          "sha256": "888382a87af34f80b6546ca58c8164b9defcaa28b2330cc20ab0436088ff1722"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D14-editorial-v1.webp",
+          "bytes": 43386,
+          "sha256": "81d8c053189d5e7635abcff1afafac9743a4d5e2d6fb79ada50f7774b40904d4"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-109",
+        "title": "허가 위임과 통보의 구분",
+        "subtitle": "본법 제70조 제4·5·7항 / 시행령 제147·148조",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "대통령령으로 정함",
+            "items": [
+              {
+                "label": "제4항",
+                "text": "제1항의 국외여행허가 및 제3항의 기간연장허가 범위·절차",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제7항",
+                "text": "허가 취소 사유",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "통보 방향과 방법",
+            "items": [
+              {
+                "label": "허가·연장허가 사실",
+                "text": "병무청장 → 법무부장관",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "시행령 제148조",
+                "text": "정보통신망 등을 이용하여 통보",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "국외 연장허가 결과",
+                "text": "재외공관의 장에게 지체 없이 알려 본인에게 전달",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "제4항은 1항 및 3항 / 통보 대상은 법무부장관",
+        "source_keys": [],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            127,
+            139
+          ],
+          [
+            171,
+            171
+          ],
+          [
+            197,
+            213
+          ],
+          [
+            225,
+            233
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제70조, 국외여행의 허가 및 취소",
+      "main_article": "병역법 제70조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-109",
+        "path": "docs/merged-lectures/병역법/본법_70.txt",
+        "git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-109/014-publication-review.json",
+        "source_line_spans": [
+          [
+            127,
+            139
+          ],
+          [
+            171,
+            171
+          ],
+          [
+            197,
+            213
+          ],
+          [
+            225,
+            233
+          ]
+        ]
+      }
     }
   ],
   "content_authority": "existing_exam80_lecture_script",
@@ -1279,7 +1400,7 @@
     "verified_existing_pages": 3,
     "pending_existing_pages": 0,
     "complete_script_coverage": "pending",
-    "published_supplement_pages": 9,
+    "published_supplement_pages": 10,
     "full_lecture_complete": false
   }
 }

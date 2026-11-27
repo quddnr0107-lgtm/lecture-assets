@@ -1,6 +1,6 @@
 # MS-109 · 병역법 제70조, 국외여행의 허가 및 취소
 
-흑백 편집형 도식 12장 · 1600×1120 · SVG / 무손실 WebP
+흑백 편집형 도식 13장 · 1600×1120 · SVG / 무손실 WebP
 
 ## 01. 국외여행허가의 대상
 
@@ -73,5 +73,11 @@
 ![임기제공무원 허가취소 유보](MS-109-D13-editorial-v1.webp)
 
 [강의용 WebP](MS-109-D13-editorial-v1.webp) · [편집용 SVG](MS-109-D13-editorial-v1.svg)
+
+## 14. 허가 위임과 통보의 구분
+
+![허가 위임과 통보의 구분](MS-109-D14-editorial-v1.webp)
+
+[강의용 WebP](MS-109-D14-editorial-v1.webp) · [편집용 SVG](MS-109-D14-editorial-v1.svg)
 
 [전체 병역법 도식 목차](../../README.md)

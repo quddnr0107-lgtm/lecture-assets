@@ -2061,6 +2061,42 @@
       "webp_sha256_verified": true,
       "bounds_valid": true,
       "method": "visual inspection and VP8L header"
+    },
+    {
+      "id": "MS-065-D02-editorial-v1",
+      "visual_review": "checkpoint-13 actual public draft WebP review retained; exact reviewed blobs reverified",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp_verified_by_header": true,
+      "webp_sha256_verified": true,
+      "bounds_valid": true,
+      "method": "prior visual review and unchanged VP8L/SHA-256"
+    },
+    {
+      "id": "MS-065-D04-editorial-v1",
+      "visual_review": "checkpoint-13 actual public draft WebP review retained; exact reviewed blobs reverified",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp_verified_by_header": true,
+      "webp_sha256_verified": true,
+      "bounds_valid": true,
+      "method": "prior visual review and unchanged VP8L/SHA-256"
+    },
+    {
+      "id": "MS-109-D14-editorial-v1",
+      "visual_review": "checkpoint-13 actual public draft WebP review retained; exact reviewed blobs reverified",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp_verified_by_header": true,
+      "webp_sha256_verified": true,
+      "bounds_valid": true,
+      "method": "prior visual review and unchanged VP8L/SHA-256"
     }
   ],
   "errors": []

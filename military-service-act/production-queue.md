@@ -98,3 +98,7 @@
 - 7장 실제 WebP 화면 검수. 1강 신규 1장 정식 통합 및 기존 1장 재사용 근거 확인, 전체 원고 핵심 검수 완료.
 - 65강 2장, 109강 1장은 원고·화면 검수 통과 후 통합 대기. 65강 2장 문구 교정 및 109강 1장 불명확 범위 보류.
 - 공개 313장, 전체 14강 완료·152강 대기. [공개 근거](production-evidence/exam80-generation-2/MS-001/013-publication-review.json) · [후속 검수](production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-13-visual-review.json).
+
+## 2026-11-28 정식 공개 체크포인트 14
+- MS-065 D02·D04 및 MS-109 D14 신규 3장 정식 통합. 기존 시각검수 당시와 동일한 SVG·WebP blob, 1600×1120 VP8L, SHA-256 재검증.
+- 65강 D03·D05 문구 교정과 109강 D09 적용 범위 미확정은 보류. 전체 강의 완료 14강·대기 152강, 공개 316장. [65강 근거](production-evidence/exam80-generation-2/MS-065/014-publication-review.json) · [109강 근거](production-evidence/exam80-generation-2/MS-109/014-publication-review.json).

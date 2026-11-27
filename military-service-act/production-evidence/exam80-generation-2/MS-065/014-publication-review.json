@@ -1,0 +1,93 @@
+{
+  "lecture_id": "MS-065",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_34의5.txt",
+  "script_git_blob_sha": "74c8bb42ce2c144513f61ff341683c2c94c9fc98",
+  "full_script_read": true,
+  "script_line_count": 120,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        [
+          33,
+          47
+        ],
+        [
+          109,
+          110
+        ]
+      ],
+      "diagram": "MS-065-D02-editorial-v1",
+      "topic": "전담의사의 문서 서식"
+    },
+    {
+      "lines": [
+        [
+          49,
+          67
+        ]
+      ],
+      "diagram": "MS-065-D04-editorial-v1",
+      "topic": "업체 선정과 요원 편입 서식"
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-065-D01-editorial-v1"
+  ],
+  "decision": {
+    "outcome": "partial_publication",
+    "reason": "checkpoint-13 원고·실제 화면 검수 통과 초안만 정식 경로에 통합. 전체 강의 완료 아님.",
+    "remaining": [
+      "MS-065-D03-editorial-v1",
+      "MS-065-D05-editorial-v1"
+    ]
+  },
+  "changed_artifacts_and_hashes": [
+    {
+      "id": "MS-065-D02-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-065/diagrams/MS-065-D02-editorial-v1.svg",
+          "bytes": 4410,
+          "sha256": "f3e20783db6f39e9e6ec0cd6a7e0f05782e3c8bc36d74bfd9a3cdf3f4b64f420"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-065/diagrams/MS-065-D02-editorial-v1.webp",
+          "bytes": 37844,
+          "sha256": "480ba8313f225bd1efe1300ccb886699385712cc4441e330b6b970dc7ff2fca1"
+        }
+      },
+      "git_blob_shas": {
+        "svg": "b9895b5dbcf9f244dbf16c9dffc7f77e8cda5879",
+        "webp": "095c8b1229e620170da744f7ed4edcae1cfc44cd"
+      }
+    },
+    {
+      "id": "MS-065-D04-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-065/diagrams/MS-065-D04-editorial-v1.svg",
+          "bytes": 4922,
+          "sha256": "39f88c72bd561890bee990c36ee71020e6189ec9f3e1e5ca80641b0d58c5d2c9"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-065/diagrams/MS-065-D04-editorial-v1.webp",
+          "bytes": 48626,
+          "sha256": "0df7b4e76fa36db3a7507203f5573bd44f355864f7819c0e7887f0a7ffa09e69"
+        }
+      },
+      "git_blob_shas": {
+        "svg": "20fc4de340a0ab5e7f4b1d70f9891a434032ff15",
+        "webp": "730ed8767ff98b4c1cf9dc7612fa5ac32307755d"
+      }
+    }
+  ],
+  "previous_evidence_sha256": null,
+  "previous_visual_review": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-13-visual-review.json",
+  "publication_commit_or_null": null,
+  "publication_parent": "24f1ea84f146149742dbdea1472fb05a07345b7d",
+  "reviewed_date_kst": "2026-11-28",
+  "visual_review": "검수 당시 commit과 동일한 SVG·WebP Git blob 및 바이트, 1600×1120 VP8L·SHA-256 재확인"
+}

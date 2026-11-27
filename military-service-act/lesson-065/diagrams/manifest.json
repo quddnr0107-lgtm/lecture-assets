@@ -3,7 +3,7 @@
   "subject": "military-service-act",
   "lecture_id": "MS-065",
   "lecture_title": "병역법 제34조의5, 청문",
-  "diagram_count": 1,
+  "diagram_count": 3,
   "canvas": [
     1600,
     1120
@@ -96,6 +96,208 @@
         "status": "pending",
         "scope": "not_yet_compared"
       }
+    },
+    {
+      "id": "MS-065-D02-editorial-v1",
+      "lecture_id": "MS-065",
+      "lesson_number": 65,
+      "diagram_number": 2,
+      "title": "전담의사의 문서 서식",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 289,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-065/diagrams/MS-065-D02-editorial-v1.svg",
+          "bytes": 4410,
+          "sha256": "f3e20783db6f39e9e6ec0cd6a7e0f05782e3c8bc36d74bfd9a3cdf3f4b64f420"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-065/diagrams/MS-065-D02-editorial-v1.webp",
+          "bytes": 37844,
+          "sha256": "480ba8313f225bd1efe1300ccb886699385712cc4441e330b6b970dc7ff2fca1"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-065",
+        "title": "전담의사의 문서 서식",
+        "subtitle": "시행규칙 제47조의3 · 부르고, 알리고, 늘리고",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "직무교육·근무지 이탈",
+            "items": [
+              {
+                "label": "제52호의7",
+                "text": "직무교육소집 통지 / 소집일 3일 전까지 본인에게",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제52호의8",
+                "text": "근무지 이탈 등 보고 / 지방병무청장 → 병무청장",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "복무기간 연장",
+            "items": [
+              {
+                "label": "제52호의9",
+                "text": "복무기간 연장명령서",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "명령서 전달",
+                "text": "기간·사유를 적어 지체 없이 본인에게 보내고 지방병무청장에게도 통보",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "7 → 8 → 9 : 소집 통지, 이탈 보고, 연장명령서",
+        "source_keys": [],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            33,
+            47
+          ],
+          [
+            109,
+            110
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제34조의5, 청문",
+      "main_article": "병역법 제34조의5",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-065",
+        "path": "docs/merged-lectures/병역법/본법_34의5.txt",
+        "git_blob_sha": "74c8bb42ce2c144513f61ff341683c2c94c9fc98",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-065/014-publication-review.json",
+        "source_line_spans": [
+          [
+            33,
+            47
+          ],
+          [
+            109,
+            110
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-065-D04-editorial-v1",
+      "lecture_id": "MS-065",
+      "lesson_number": 65,
+      "diagram_number": 4,
+      "title": "업체 선정과 요원 편입 서식",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 290,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-065/diagrams/MS-065-D04-editorial-v1.svg",
+          "bytes": 4922,
+          "sha256": "39f88c72bd561890bee990c36ee71020e6189ec9f3e1e5ca80641b0d58c5d2c9"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-065/diagrams/MS-065-D04-editorial-v1.webp",
+          "bytes": 48626,
+          "sha256": "0df7b4e76fa36db3a7507203f5573bd44f355864f7819c0e7887f0a7ffa09e69"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-065",
+        "title": "업체 선정과 요원 편입 서식",
+        "subtitle": "시행규칙 제48·50조의2·50조의3·51·53·54조",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "업체 선정·필요인원",
+            "items": [
+              {
+                "label": "선정 신청",
+                "text": "연구기관 53호 / 기간·방위산업체 53호의2",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "추천 명부",
+                "text": "연구기관 56호 / 기간·방위산업체 57호",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "필요인원 통보",
+                "text": "전문연구 59호 / 기간·방위 60호 / 농어업 61호",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "요원 편입",
+            "items": [
+              {
+                "label": "편입원서·신청서",
+                "text": "전문연구·기능특기자·농어업 분야 62호",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "공통 서약서",
+                "text": "성실복무·약정근로조건 이행 서약서 64호",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "추가 서류 예시",
+                "text": "학위·수료 증명, 후계농어업경영인 확인서",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "요원 신청서 62호 / 서약서 64호",
+        "source_keys": [],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            49,
+            67
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제34조의5, 청문",
+      "main_article": "병역법 제34조의5",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-065",
+        "path": "docs/merged-lectures/병역법/본법_34의5.txt",
+        "git_blob_sha": "74c8bb42ce2c144513f61ff341683c2c94c9fc98",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-065/014-publication-review.json",
+        "source_line_spans": [
+          [
+            49,
+            67
+          ]
+        ]
+      }
     }
   ],
   "content_authority": "existing_exam80_lecture_script",
@@ -106,6 +308,8 @@
   "script_alignment": {
     "verified_existing_pages": 0,
     "pending_existing_pages": 1,
-    "complete_script_coverage": "pending"
+    "complete_script_coverage": "pending",
+    "published_supplement_pages": 2,
+    "full_lecture_complete": false
   }
 }

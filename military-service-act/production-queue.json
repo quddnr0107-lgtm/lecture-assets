@@ -1873,21 +1873,33 @@
       ],
       "full_script_read": true,
       "lease": null,
-      "checkpoint": 0,
+      "checkpoint": 14,
       "evidence_refs": [
-        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-13-visual-review.json"
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-13-visual-review.json",
+        "military-service-act/production-evidence/exam80-generation-2/MS-065/014-publication-review.json"
       ],
       "outcome": null,
       "changed_diagram_ids": [],
-      "new_diagram_ids": [],
+      "new_diagram_ids": [
+        "MS-065-D02-editorial-v1",
+        "MS-065-D04-editorial-v1"
+      ],
       "previously_verified_existing_diagram_ids": [],
       "script_fulltext_retrieved": true,
       "pending_draft_targets": [
-        "MS-065-D02-editorial-v1",
         "MS-065-D03-editorial-v1",
-        "MS-065-D04-editorial-v1",
         "MS-065-D05-editorial-v1"
-      ]
+      ],
+      "evidence_sha256": "6e12e556297c0ee7ec84e3036dabeed1d5914eb653673899eeb2bd755e664267",
+      "partial_publication": {
+        "published_supplements": 2,
+        "review_ref": "military-service-act/production-evidence/exam80-generation-2/MS-065/014-publication-review.json",
+        "remaining": [
+          "MS-065-D03-editorial-v1",
+          "MS-065-D05-editorial-v1"
+        ],
+        "full_lecture_complete": false
+      }
     },
     {
       "lecture_id": "MS-066",
@@ -2989,7 +3001,7 @@
       ],
       "full_script_read": true,
       "lease": null,
-      "checkpoint": 10,
+      "checkpoint": 14,
       "evidence_refs": [
         "military-service-act/production-evidence/exam80-generation-2/MS-109/002-publication-review.json",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-04-visual-review.json",
@@ -2997,7 +3009,8 @@
         "military-service-act/production-evidence/exam80-generation-2/MS-109/006-publication-review.json",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-09-MS-109-coverage-drafts.json",
         "military-service-act/production-evidence/exam80-generation-2/MS-109/010-publication-review.json",
-        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-13-visual-review.json"
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-13-visual-review.json",
+        "military-service-act/production-evidence/exam80-generation-2/MS-109/014-publication-review.json"
       ],
       "outcome": null,
       "changed_diagram_ids": [],
@@ -3010,7 +3023,8 @@
         "MS-109-D10-editorial-v1",
         "MS-109-D11-editorial-v1",
         "MS-109-D12-editorial-v1",
-        "MS-109-D13-editorial-v1"
+        "MS-109-D13-editorial-v1",
+        "MS-109-D14-editorial-v1"
       ],
       "previously_verified_existing_diagram_ids": [
         "MS-109-D01-editorial-v1",
@@ -3035,16 +3049,17 @@
       ],
       "script_fulltext_retrieved": true,
       "partial_publication": {
-        "published_supplements": 9,
-        "review_ref": "military-service-act/production-evidence/exam80-generation-2/MS-109/010-publication-review.json",
-        "remaining": "D09 예외 적용 범위 및 원고 전체 핵심 대응 검토",
+        "published_supplements": 10,
+        "review_ref": "military-service-act/production-evidence/exam80-generation-2/MS-109/014-publication-review.json",
+        "remaining": [
+          "MS-109-D09-editorial-v1"
+        ],
         "full_lecture_complete": false
       },
       "pending_draft_targets": [
-        "MS-109-D09-editorial-v1",
-        "MS-109-D14-editorial-v1"
+        "MS-109-D09-editorial-v1"
       ],
-      "evidence_sha256": "28b957c36a5f82bda1d0bf52665443ab5f6e597a31dd19bfb274601f07eef747"
+      "evidence_sha256": "74ba086cc179aadf2519aeffe41bce72e07384ab1aea030c47f72def7b446cd9"
     },
     {
       "lecture_id": "MS-110",
@@ -4517,23 +4532,23 @@
     ],
     "svg_drafts": 7,
     "evidence_ref": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-12.json",
-    "status": "visual_reviewed_7_one_published",
-    "publication_parent": "e9f9058a800bccfd18e41c6b83dc7ccef783caa3",
+    "status": "three_more_published",
+    "publication_parent": "24f1ea84f146149742dbdea1472fb05a07345b7d",
     "visual_review_ref": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-13-visual-review.json",
-    "remaining_drafts": 6
+    "remaining_drafts": 3
   },
   "last_publication_checkpoint": {
     "date_kst": "2026-11-28",
     "lecture_ids": [
-      "MS-001"
+      "MS-065",
+      "MS-109"
     ],
-    "published_new": 1,
+    "published_new": 3,
     "published_corrections": 0,
-    "completed_lectures": [
-      "MS-001"
-    ],
+    "completed_lectures": [],
     "evidence_refs": [
-      "military-service-act/production-evidence/exam80-generation-2/MS-001/013-publication-review.json"
+      "military-service-act/production-evidence/exam80-generation-2/MS-065/014-publication-review.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-109/014-publication-review.json"
     ]
   }
 }
