@@ -1031,7 +1031,7 @@
       "lecture_id": "TB-022",
       "title": "22강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -1052,11 +1052,7 @@
       "outputs": [
         "integrated-defense/lesson-022/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-20261127T135012Z",
-        "started_at": "2026-11-27T13:50:12Z",
-        "expires_at": "2026-11-27T14:49:00Z"
-      },
+      "lease": null,
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "D02 M03 근거만 남은 페이지"
@@ -1068,7 +1064,7 @@
       "lecture_id": "TB-023",
       "title": "23강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -1090,11 +1086,7 @@
       "outputs": [
         "integrated-defense/lesson-023/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-20261127T135012Z",
-        "started_at": "2026-11-27T13:50:12Z",
-        "expires_at": "2026-11-27T14:49:00Z"
-      },
+      "lease": null,
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "D02 M03 근거만 남은 페이지; D03 M03 재검수 필요"
@@ -1106,7 +1098,7 @@
       "lecture_id": "TB-024",
       "title": "24강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -1127,11 +1119,7 @@
       "outputs": [
         "integrated-defense/lesson-024/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-20261127T135012Z",
-        "started_at": "2026-11-27T13:50:12Z",
-        "expires_at": "2026-11-27T14:49:00Z"
-      },
+      "lease": null,
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "D01 M03 근거만 남은 페이지"
@@ -1246,7 +1234,7 @@
     "status": "matched_existing_script",
     "checked_at_kst": "2026-11-27T12:02:16+09:00"
   },
-  "last_render_run": "tb-exam80-review-20261127T1248Z",
+  "last_render_run": "tb-exam80-20261127T135012Z",
   "last_verified_commit": "7bae75cf29afc56eebf19b10e83210f0d727be53",
   "progress": {
     "jobs_done": 25,
