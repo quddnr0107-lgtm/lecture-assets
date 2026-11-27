@@ -1,0 +1,21 @@
+{
+  "run_id": "tb-exam80-20261128-0152-final",
+  "exam_number": 80,
+  "status": "audit_pass_remote_verification_pending",
+  "input_commit": "707de96788cac3926a17d254347b78b15f8401ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "lesson_count": 25,
+  "core_diagrams": 55,
+  "mobile_pages": 137,
+  "asset_files_sha256_verified": 576,
+  "desktop_content_hashes_verified": 55,
+  "mobile_content_links_verified": 137,
+  "gallery_links_verified": 332,
+  "prior_visual_review": "25 lesson mobile jobs done; desktop visual records plus TB-011 direct review",
+  "bundle": {
+    "path": "integrated-defense/downloads/exam80-integrated-defense-notion-v1.zip",
+    "bytes": 40612061,
+    "sha256": "66382b49ad53f88cfac33eeb4236254a536cd2b0efc6301a71296f40a92660ce",
+    "entries": 638
+  }
+}
