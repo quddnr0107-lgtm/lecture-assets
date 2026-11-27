@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject": "integrated-defense",
   "created_at_kst": "2026-11-27T10:25:01+09:00",
-  "updated_at_kst": "2026-11-27T22:50:12+09:00",
+  "updated_at_kst": "2026-11-27T23:46:38+09:00",
   "status": "review_pending",
   "approved_style": "07-notion-editorial",
   "baseline": {
@@ -1052,8 +1052,12 @@
       "outputs": [
         "integrated-defense/lesson-022/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 2,
+      "lease": {
+        "run_id": "tb-exam80-20261127T144638Z",
+        "started_at": "2026-11-27T14:46:38Z",
+        "expires_at": "2026-11-27T15:46:38Z"
+      },
+      "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "D02 M03 근거만 남은 페이지"
     },
@@ -1086,8 +1090,12 @@
       "outputs": [
         "integrated-defense/lesson-023/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 2,
+      "lease": {
+        "run_id": "tb-exam80-20261127T144638Z",
+        "started_at": "2026-11-27T14:46:38Z",
+        "expires_at": "2026-11-27T15:46:38Z"
+      },
+      "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "D02 M03 근거만 남은 페이지; D03 M03 재검수 필요"
     },
@@ -1119,8 +1127,12 @@
       "outputs": [
         "integrated-defense/lesson-024/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 2,
+      "lease": {
+        "run_id": "tb-exam80-20261127T144638Z",
+        "started_at": "2026-11-27T14:46:38Z",
+        "expires_at": "2026-11-27T15:46:38Z"
+      },
+      "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "D01 M03 근거만 남은 페이지"
     },
