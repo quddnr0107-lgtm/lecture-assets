@@ -1,13 +1,13 @@
 {
-  "run_id": "tb-exam80-visual-20261127T094900Z-repair",
+  "run_id": "tb-exam80-review-20261127T114833743Z-repair",
   "exam_number": 80,
   "source_basis": "EXAM80-SCRIPT-SOURCE.json",
   "lessons": [
-    9,
-    11
+    13,
+    16
   ],
   "worker_limit": 3,
   "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
   "mode": "mobile-layout-repair",
-  "note": "Re-render reference-only pages using existing rebalancing code; canonical content unchanged. TB-011 requires further script-precision review before acceptance."
+  "note": "Regenerate 13/16 only; mobile-only column wording and final legal-reference-only page. Preserve canonical content. TB-011 remains pending semantic correction; do not accept automatically."
 }
