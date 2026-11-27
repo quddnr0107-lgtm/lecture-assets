@@ -27,3 +27,7 @@
 - MS-143: 기존 도식 재사용 완료. [근거](production-evidence/exam80-generation-2/MS-143/001-c04f5f4a9a57a60177be60e8c4f238651f6566fa6806cb3096fa0213cb17fdbb.json)
 - MS-145: 기존 도식 재사용 완료. [근거](production-evidence/exam80-generation-2/MS-145/001-ac6d2dcb37959bd8f5a1bf799bfe29fcf72207b4021c4d336edc8d2620f20948.json)
 - MS-160: 기존 도식 재사용 완료. [근거](production-evidence/exam80-generation-2/MS-160/001-4fd667774affd36c7216d777d3ad815292381f91e737a95b7cda1efaa973b98c.json)
+
+## MS-077 추가 초안 체크포인트
+- 원고 전문 대조 완료, 추가 SVG 초안 7장 및 로컬 무손실 WebP 7장 렌더 검사. 기존 초안과 구분해 [검수 근거](production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint.json)에 보관합니다.
+- WebP 공개 반영 및 최종 목록 일치 전까지 MS-077은 대기 상태입니다. 신규 확정 이미지 수에는 포함하지 않습니다.

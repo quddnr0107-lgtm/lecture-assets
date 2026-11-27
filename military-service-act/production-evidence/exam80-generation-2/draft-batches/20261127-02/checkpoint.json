@@ -1,0 +1,150 @@
+{
+  "date_kst": "2026-11-27",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "lecture_id": "MS-077",
+  "source": {
+    "path": "docs/merged-lectures/병역법/본법_41.txt",
+    "script_git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+    "script_sha256": "617f85b91800f4b7aeea48c0936bc53de869541452b338670e3b9bd527f63f1e"
+  },
+  "full_script_read": true,
+  "previous_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/checkpoint.json",
+  "existing_verified": [
+    "MS-077-D01-editorial-v1",
+    "MS-077-D02-editorial-v1"
+  ],
+  "prior_drafts": [
+    "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-077/two-30-day-rules.svg",
+    "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-077/transfer.svg",
+    "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-077/completion.svg"
+  ],
+  "content_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/draft-content.json",
+  "render_check_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/render-check.json",
+  "new_drafts": [
+    {
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/age-and-extension.svg",
+      "git_blob": "0666b5b55de5b48aa3f2f525a2b397c38f49a67d",
+      "source_line_ranges": [
+        [
+          25,
+          46
+        ],
+        [
+          72,
+          89
+        ]
+      ],
+      "svg_sha256": "6d235034844fe5959141937e1f54cbae54df246ed500ad03ccdc3ec867f55678",
+      "svg_bytes": 5701,
+      "local_webp_sha256": "4bf8095f9e45a8f541d460dad1e287dc51653004fb48a60504beb9fadd6a280a",
+      "local_webp_bytes": 50270,
+      "public_webp": false
+    },
+    {
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/cancellation-records-and-calculation.svg",
+      "git_blob": "7b59384c38cadd32811d0e6bde3941a10a72e811",
+      "source_line_ranges": [
+        [
+          171,
+          175
+        ]
+      ],
+      "svg_sha256": "a390d16a179160a9929453a9562c378356db543e82800c4c2cf05f301971cd00",
+      "svg_bytes": 5954,
+      "local_webp_sha256": "0b88deaf45878d2247c9caef6ed2283ff212b14ff3a8588649ca4e8857b26ddd",
+      "local_webp_bytes": 53144,
+      "public_webp": false
+    },
+    {
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/military-demand-notification.svg",
+      "git_blob": "b511951d407805a39d05034e33646353d7219fa0",
+      "source_line_ranges": [
+        [
+          177,
+          183
+        ],
+        [
+          207,
+          207
+        ]
+      ],
+      "svg_sha256": "bcc0e21e33c51060a35f36c9ae6aff3544f26413e316dc1b9ac80e31a13dd44f",
+      "svg_bytes": 5018,
+      "local_webp_sha256": "7b0ee484f1adf67f01cefff792efafee24ef030ec97d49d3dcdbc7b0a391c718",
+      "local_webp_bytes": 49986,
+      "public_webp": false
+    },
+    {
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/service-period-calculation.svg",
+      "git_blob": "01b78af658c884f48b32e25794d98c4df16ffb96",
+      "source_line_ranges": [
+        [
+          149,
+          155
+        ]
+      ],
+      "svg_sha256": "2f63239b94ebb00a1524748cd9b3242484658e65005cedc7aea6184271c89073",
+      "svg_bytes": 6422,
+      "local_webp_sha256": "895db592cead884c4359bfba7d1acd287f46fc1e82759e6e3aadb95719759b79",
+      "local_webp_bytes": 54710,
+      "public_webp": false
+    },
+    {
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/study-during-service.svg",
+      "git_blob": "3a91614c719b0e28de74b27a3a26af9a23c6e678",
+      "source_line_ranges": [
+        [
+          147,
+          147
+        ],
+        [
+          204,
+          204
+        ]
+      ],
+      "svg_sha256": "cb253cca014206f8d7db83b502abcdd7c09293f6e025e38e74ab207341d23142",
+      "svg_bytes": 6025,
+      "local_webp_sha256": "19c013bcbf9eb8c5259cbc1fdc7c45026528d467aa3f345214f27873f2ab92d4",
+      "local_webp_bytes": 50718,
+      "public_webp": false
+    },
+    {
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/transfer-application.svg",
+      "git_blob": "c5967e6fb9b7e4f12136c7337970327996ea98e6",
+      "source_line_ranges": [
+        [
+          137,
+          145
+        ]
+      ],
+      "svg_sha256": "e4bf0472d719ec4b483a84828a96f24c8c133aa0d2edd8954cfef9887fb6a290",
+      "svg_bytes": 5987,
+      "local_webp_sha256": "a25d3bba22ad5febe02beb1265f00ef6ef3c02fdddc671851f1c9395a23a228f",
+      "local_webp_bytes": 60252,
+      "public_webp": false
+    },
+    {
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/transfer-excluded.svg",
+      "git_blob": "a63f0205530a732959b27c70d5f01a4fd0ff5cc1",
+      "source_line_ranges": [
+        [
+          131,
+          135
+        ]
+      ],
+      "svg_sha256": "2ad708aeea73923393268cf52e0133169ff740810850c6093ed8763d5cfd3a5c",
+      "svg_bytes": 4570,
+      "local_webp_sha256": "dcc30e435fceefe7058111099da4c22a94f4ac7ef4aab571f39ae630f9c5846a",
+      "local_webp_bytes": 42362,
+      "public_webp": false
+    }
+  ],
+  "status": "drafts_only",
+  "remaining": [
+    "complete cross-lecture comparison",
+    "publish lossless WebP binaries",
+    "final manifest and gallery update"
+  ],
+  "final_new_images": 0
+}
