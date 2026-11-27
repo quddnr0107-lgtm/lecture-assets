@@ -6,7 +6,7 @@
     "cutoff_date": "2027-02-02",
     "cutoff_kind": "existing_user_specified_exam80_basis"
   },
-  "checked_at": "2026-11-28T00:27:34+09:00",
+  "checked_at": "2026-11-28T01:24:30+09:00",
   "source_commit": "2d696ecb8a2805b0bc42df8ce5754ae91914371d",
   "script_bindings_verified": 78,
   "diagram_corrections": [
@@ -75,10 +75,10 @@
       "full_lesson_coverage_review": "pending"
     }
   ],
-  "full_lecture_coverage_reviews_completed": 34,
-  "remaining_full_lecture_reviews": 44,
+  "full_lecture_coverage_reviews_completed": 38,
+  "remaining_full_lecture_reviews": 40,
   "new_diagrams": 30,
-  "revised_diagrams": 52,
+  "revised_diagrams": 57,
   "priority_script_comparison": {
     "schema_version": 1,
     "created_at": "2026-11-27T11:59:01+09:00",
@@ -422,7 +422,7 @@
       "DR-045-existing-script-arrears-rates"
     ]
   },
-  "visual_review": "실제 PNG 17장 직접 확인: 글자 깨짐·겹침·잘림 없음. 기존 렌더 검증의 PNG/WebP 픽셀 일치와 manifest 출력 해시 대조. 내용 정밀 수정 3건 별도 등록.",
+  "visual_review": "실제 WebP 수정분 5장 및 DR-039 기존 2장 직접 확인: 글자 겹침·잘림 없음. 수정분 렌더러 PNG/WebP 픽셀 일치·manifest 해시 대조 완료.",
   "targeted_render_runs": [
     {
       "run_id": "dr-20261127-122552",
@@ -22944,6 +22944,42 @@
           "objective": "교보재·탄약과 각 군 준거 규정의 대응",
           "finding": "좌우 행 순서가 반대로 나열되어 교보재와 탄약규정을 짝짓는 것으로 오독 가능",
           "change": "좌우 대응 순서를 정렬하고 훈령이 수량·절차를 직접 정하지 않음을 표시"
+        }
+      ]
+    },
+    {
+      "run_id": "dr-20261128-012430-script",
+      "completed_lessons": [
+        "DR-021",
+        "DR-051",
+        "DR-070",
+        "DR-076"
+      ],
+      "visual_reviewed": [
+        "DR-021-D02",
+        "DR-076-D02",
+        "DR-051-D01",
+        "DR-051-D02",
+        "DR-070-D01"
+      ],
+      "render_commit": "e79e6e127da19c6e53517b2bd2896cad45ff8334",
+      "remaining_reviews": 40,
+      "partial_reviews": [
+        "DR-039"
+      ],
+      "precision_followups": [
+        {
+          "diagram_id": "DR-039-D01",
+          "lines": [
+            61,
+            67,
+            71,
+            77,
+            113,
+            121
+          ],
+          "objective": "컨테이너 허용 대상의 정확한 구분",
+          "finding": "무기·탄약고 공통 제목 아래의 무기고 라벨을 예비군 무기고로 명확히 하고 탄약고와 구분 필요"
         }
       ]
     }
