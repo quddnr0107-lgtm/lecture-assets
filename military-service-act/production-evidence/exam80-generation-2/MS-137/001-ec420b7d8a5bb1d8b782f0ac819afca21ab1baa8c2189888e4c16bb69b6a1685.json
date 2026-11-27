@@ -1,0 +1,75 @@
+{
+  "lecture_id": "MS-137",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_82.txt",
+  "script_git_blob_sha": "3d624697ea06026cc1ade97fbb3925184f2d573a",
+  "script_sha256": "9f427925486aa6fc636da75d704e8d1621fc1f8273d9173166855d1f1f3aab33",
+  "full_script_read": true,
+  "script_line_count": 70,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        17,
+        29
+      ],
+      "topic": "주체 병무청장, 국방부장관·지방병무청장이 아님",
+      "diagram": "MS-137-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        31,
+        49
+      ],
+      "topic": "자발적 이행 분위기 조성, 홍보 및 교육과 이행자 선양사업",
+      "diagram": "MS-137-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        51,
+        65
+      ],
+      "topic": "재량 권한 및 사업 등의 범위",
+      "diagram": "MS-137-D01-editorial-v1"
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-137-D01-editorial-v1"
+  ],
+  "related_existing_diagrams": [],
+  "decision": {
+    "outcome": "reuse_only",
+    "reason": "주체·목적·홍보 및 교육·선양사업 등·실시 가능이 명시되어 있다. 주체의 대비, 선양 의미, 마라톤 비유는 같은 요건의 풀이로 별도 도식이 필요하지 않다."
+  },
+  "changed_artifacts_and_hashes": [],
+  "verified_existing_assets": {
+    "svg": {
+      "path": "military-service-act/lesson-137/diagrams/MS-137-D01-editorial-v1.svg",
+      "bytes": 5608,
+      "sha256": "704f54f01b13c3be352af072af7ecac013658006196f0921e2b2c139901c0ded",
+      "git_blob_sha": "13309f45078e330183832bbf9dc3da8cc42031bd"
+    },
+    "webp": {
+      "path": "military-service-act/lesson-137/diagrams/MS-137-D01-editorial-v1.webp",
+      "bytes": 39644,
+      "sha256": "61c4f79c24d4a81ff70f37856e06d69785d1d3a386c7210211d8fe00e8f75d1d",
+      "git_blob_sha": "8c1f06a8896e4808fceef2a8113b95acadadb06d",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    "layout": {
+      "id": "MS-137-D01-editorial-v1",
+      "text_blocks": 20,
+      "min_body_font": 40,
+      "bounds_valid": true,
+      "method": "공개 WebP 실제 화면 확인, 기존 렌더 검수 기록과 실제 SVG·WebP SHA-256 일치 확인. 변경 없음."
+    }
+  },
+  "previous_evidence_sha256": null,
+  "publication_commit_or_null": null,
+  "reviewed_date_kst": "2026-11-27"
+}

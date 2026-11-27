@@ -1,0 +1,83 @@
+{
+  "lecture_id": "MS-154",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_89의4.txt",
+  "script_git_blob_sha": "85752845e146c89bf6dfc9482c9f0695e0c3b2f5",
+  "script_sha256": "38b4502580fc50a74229d61023b6894c3cf4b4ab8b3b6a6e7436e6b61f364596",
+  "full_script_read": true,
+  "script_line_count": 82,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        17,
+        19
+      ],
+      "topic": "사회복무요원, 복무 중 취득한 다른 사람의 정보",
+      "diagram": "MS-154-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        21,
+        33
+      ],
+      "topic": "무단 유출 또는 이용, 정상 업무 제외",
+      "diagram": "MS-154-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        35,
+        53
+      ],
+      "topic": "5년 이하 징역 또는 5천만원 이하 벌금",
+      "diagram": "MS-154-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        55,
+        77
+      ],
+      "topic": "벌금과 과태료 구분 및 복습",
+      "diagram": "MS-154-D01-editorial-v1"
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-154-D01-editorial-v1"
+  ],
+  "related_existing_diagrams": [],
+  "decision": {
+    "outcome": "reuse_only",
+    "reason": "복무 중 취득·타인 정보·권한 없는 유출 또는 이용·징역 또는 벌금의 수치를 모두 명시한다. 정상 업무 예시와 벌금·과태료 비교는 이 요건의 설명으로 별도 도식 없이 활용한다."
+  },
+  "changed_artifacts_and_hashes": [],
+  "verified_existing_assets": {
+    "svg": {
+      "path": "military-service-act/lesson-154/diagrams/MS-154-D01-editorial-v1.svg",
+      "bytes": 5425,
+      "sha256": "afeddda9c8d22a33e90f256f60c1afcecdc4ab5e44cedb3f60dab981c2811a25",
+      "git_blob_sha": "8f76cd868f49aef0c5e90ecf9da0eae8592a41a2"
+    },
+    "webp": {
+      "path": "military-service-act/lesson-154/diagrams/MS-154-D01-editorial-v1.webp",
+      "bytes": 38524,
+      "sha256": "101aa40809d6cff68536c2aad784d25ff74454bd64c0078e4d7158c2c34bd430",
+      "git_blob_sha": "1cd38a41ce26453a3ceecb86a4ca504b069c610e",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    "layout": {
+      "id": "MS-154-D01-editorial-v1",
+      "text_blocks": 19,
+      "min_body_font": 40,
+      "bounds_valid": true,
+      "method": "공개 WebP 실제 화면 확인, 기존 렌더 검수 기록과 실제 SVG·WebP SHA-256 일치 확인. 변경 없음."
+    }
+  },
+  "previous_evidence_sha256": null,
+  "publication_commit_or_null": null,
+  "reviewed_date_kst": "2026-11-27"
+}

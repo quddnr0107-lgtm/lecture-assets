@@ -1,0 +1,75 @@
+{
+  "lecture_id": "MS-150",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_88의2.txt",
+  "script_git_blob_sha": "ad862fb15bd27e2a4dcd5b6688c671523d8404c2",
+  "script_sha256": "14c82e5f28f972bec6454b960eb131c6a6bc226ea0e908568e406a9a8805ffe2",
+  "full_script_read": true,
+  "script_line_count": 62,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        15,
+        21
+      ],
+      "topic": "거짓 작성·제출 또는 거짓 진술",
+      "diagram": "MS-150-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        23,
+        31
+      ],
+      "topic": "대체역 편입 목적, 실제 편입 여부 불문",
+      "diagram": "MS-150-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        33,
+        57
+      ],
+      "topic": "1년 이상 5년 이하 징역, 벌금 없음 및 3년 함정",
+      "diagram": "MS-150-D01-editorial-v1"
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-150-D01-editorial-v1"
+  ],
+  "related_existing_diagrams": [],
+  "decision": {
+    "outcome": "reuse_only",
+    "reason": "제목은 편입 시도를 기준으로 하고 본문은 목적과 두 행위 요건 및 징역 1~5년만 명시한다. 실제 편입 성공을 요건으로 추가하지 않는다. 원고의 예시와 틀린 선택지 비교는 같은 요건의 복습이다."
+  },
+  "changed_artifacts_and_hashes": [],
+  "verified_existing_assets": {
+    "svg": {
+      "path": "military-service-act/lesson-150/diagrams/MS-150-D01-editorial-v1.svg",
+      "bytes": 5158,
+      "sha256": "f7d18eb13c0272443cc42aa327f5a5a1613f5a9a294dd2fc00e3a36f4692ed50",
+      "git_blob_sha": "c21cd97e38b2e8ee700c6d5c0f896d993fbfcd06"
+    },
+    "webp": {
+      "path": "military-service-act/lesson-150/diagrams/MS-150-D01-editorial-v1.webp",
+      "bytes": 35248,
+      "sha256": "33473d5392fc978283b0469f60027c6e981459c53b53e480462a34ed1cb7d143",
+      "git_blob_sha": "626b27d1f8faf9ba912ddfab0ed80b471c49fa38",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    "layout": {
+      "id": "MS-150-D01-editorial-v1",
+      "text_blocks": 18,
+      "min_body_font": 40,
+      "bounds_valid": true,
+      "method": "공개 WebP 실제 화면 확인, 기존 렌더 검수 기록과 실제 SVG·WebP SHA-256 일치 확인. 변경 없음."
+    }
+  },
+  "previous_evidence_sha256": null,
+  "publication_commit_or_null": null,
+  "reviewed_date_kst": "2026-11-27"
+}

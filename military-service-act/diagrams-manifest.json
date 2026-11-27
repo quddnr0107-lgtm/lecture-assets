@@ -22117,8 +22117,24 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "full_script_core_visual_coverage",
+        "evidence": "military-service-act/production-evidence/exam80-generation-2/MS-137/001-ec420b7d8a5bb1d8b782f0ac819afca21ab1baa8c2189888e4c16bb69b6a1685.json",
+        "source_line_spans": [
+          [
+            17,
+            29
+          ],
+          [
+            31,
+            49
+          ],
+          [
+            51,
+            65
+          ]
+        ],
+        "related_existing_diagram_ids": []
       }
     },
     {
@@ -24063,8 +24079,24 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "full_script_core_visual_coverage",
+        "evidence": "military-service-act/production-evidence/exam80-generation-2/MS-150/001-30f90ad54f38cc9a0908a3454036914b1c05972c1e917d43393612669b49bec9.json",
+        "source_line_spans": [
+          [
+            15,
+            21
+          ],
+          [
+            23,
+            31
+          ],
+          [
+            33,
+            57
+          ]
+        ],
+        "related_existing_diagram_ids": []
       }
     },
     {
@@ -24500,8 +24532,28 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "full_script_core_visual_coverage",
+        "evidence": "military-service-act/production-evidence/exam80-generation-2/MS-154/001-5132d7f38321b48a9d17459441c221fee5f48e8f70f11bb2e366287e792ed7d8.json",
+        "source_line_spans": [
+          [
+            17,
+            19
+          ],
+          [
+            21,
+            33
+          ],
+          [
+            35,
+            53
+          ],
+          [
+            55,
+            77
+          ]
+        ],
+        "related_existing_diagram_ids": []
       }
     },
     {
@@ -25900,9 +25952,9 @@
   "exam_number": 80,
   "script_alignment": {
     "existing_pages": 283,
-    "verified_pages": 10,
-    "pending_pages": 273,
-    "complete_script_coverage_verified_lectures": 3,
+    "verified_pages": 13,
+    "pending_pages": 270,
+    "complete_script_coverage_verified_lectures": 6,
     "audit": "military-service-act/script-alignment-audit-exam80.json",
     "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
   }

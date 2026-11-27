@@ -3514,8 +3514,8 @@
       "title": "병역법 제82조, 병역의무 이행의 장려",
       "priority": 2,
       "generation": 2,
-      "status": "pending",
-      "script_alignment_status": "script_alignment_pending",
+      "status": "completed",
+      "script_alignment_status": "script_alignment_verified",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_82.txt",
         "script_git_blob_sha": "3d624697ea06026cc1ade97fbb3925184f2d573a"
@@ -3523,14 +3523,22 @@
       "existing_diagram_ids": [
         "MS-137-D01-editorial-v1"
       ],
-      "full_script_read": false,
+      "full_script_read": true,
       "lease": null,
-      "checkpoint": 0,
-      "evidence_refs": [],
-      "outcome": null,
+      "checkpoint": 2,
+      "evidence_refs": [
+        "military-service-act/production-evidence/exam80-generation-2/MS-137/001-ec420b7d8a5bb1d8b782f0ac819afca21ab1baa8c2189888e4c16bb69b6a1685.json"
+      ],
+      "outcome": "reuse_only",
       "changed_diagram_ids": [],
       "new_diagram_ids": [],
-      "previously_verified_existing_diagram_ids": []
+      "previously_verified_existing_diagram_ids": [],
+      "completed_date_kst": "2026-11-27",
+      "verified_existing_diagram_ids": [
+        "MS-137-D01-editorial-v1"
+      ],
+      "related_existing_diagram_ids": [],
+      "evidence_sha256": "ec420b7d8a5bb1d8b782f0ac819afca21ab1baa8c2189888e4c16bb69b6a1685"
     },
     {
       "lecture_id": "MS-138",
@@ -3840,8 +3848,8 @@
       "title": "병역법 제88조의2, 대체역 편입의 허위",
       "priority": 2,
       "generation": 2,
-      "status": "pending",
-      "script_alignment_status": "script_alignment_pending",
+      "status": "completed",
+      "script_alignment_status": "script_alignment_verified",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_88의2.txt",
         "script_git_blob_sha": "ad862fb15bd27e2a4dcd5b6688c671523d8404c2"
@@ -3849,14 +3857,22 @@
       "existing_diagram_ids": [
         "MS-150-D01-editorial-v1"
       ],
-      "full_script_read": false,
+      "full_script_read": true,
       "lease": null,
-      "checkpoint": 0,
-      "evidence_refs": [],
-      "outcome": null,
+      "checkpoint": 2,
+      "evidence_refs": [
+        "military-service-act/production-evidence/exam80-generation-2/MS-150/001-30f90ad54f38cc9a0908a3454036914b1c05972c1e917d43393612669b49bec9.json"
+      ],
+      "outcome": "reuse_only",
       "changed_diagram_ids": [],
       "new_diagram_ids": [],
-      "previously_verified_existing_diagram_ids": []
+      "previously_verified_existing_diagram_ids": [],
+      "completed_date_kst": "2026-11-27",
+      "verified_existing_diagram_ids": [
+        "MS-150-D01-editorial-v1"
+      ],
+      "related_existing_diagram_ids": [],
+      "evidence_sha256": "30f90ad54f38cc9a0908a3454036914b1c05972c1e917d43393612669b49bec9"
     },
     {
       "lecture_id": "MS-151",
@@ -3933,8 +3949,8 @@
       "title": "병역법 제89조의4, 사회복무요원의 개인정보 유출 또는 이용",
       "priority": 2,
       "generation": 2,
-      "status": "pending",
-      "script_alignment_status": "script_alignment_pending",
+      "status": "completed",
+      "script_alignment_status": "script_alignment_verified",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_89의4.txt",
         "script_git_blob_sha": "85752845e146c89bf6dfc9482c9f0695e0c3b2f5"
@@ -3942,14 +3958,22 @@
       "existing_diagram_ids": [
         "MS-154-D01-editorial-v1"
       ],
-      "full_script_read": false,
+      "full_script_read": true,
       "lease": null,
-      "checkpoint": 0,
-      "evidence_refs": [],
-      "outcome": null,
+      "checkpoint": 2,
+      "evidence_refs": [
+        "military-service-act/production-evidence/exam80-generation-2/MS-154/001-5132d7f38321b48a9d17459441c221fee5f48e8f70f11bb2e366287e792ed7d8.json"
+      ],
+      "outcome": "reuse_only",
       "changed_diagram_ids": [],
       "new_diagram_ids": [],
-      "previously_verified_existing_diagram_ids": []
+      "previously_verified_existing_diagram_ids": [],
+      "completed_date_kst": "2026-11-27",
+      "verified_existing_diagram_ids": [
+        "MS-154-D01-editorial-v1"
+      ],
+      "related_existing_diagram_ids": [],
+      "evidence_sha256": "5132d7f38321b48a9d17459441c221fee5f48e8f70f11bb2e366287e792ed7d8"
     },
     {
       "lecture_id": "MS-155",
@@ -4243,9 +4267,9 @@
   ],
   "existing_diagram_support_review": {
     "audit": "military-service-act/script-alignment-audit-exam80.json",
-    "verified_existing_pages": 10,
-    "pending_existing_pages": 273,
-    "scope": "기존 도식 원고 근거 확인 10장; 전체 핵심 도식 범위 대조 완료 3강."
+    "verified_existing_pages": 13,
+    "pending_existing_pages": 270,
+    "scope": "기존 도식 원고 근거 확인 13장; 전체 핵심 도식 범위 대조 완료 6강."
   },
   "last_partial_checkpoint": {
     "date_kst": "2026-11-27",
@@ -4258,16 +4282,16 @@
   "last_reuse_checkpoint": {
     "date_kst": "2026-11-27",
     "completed_lectures": [
-      "MS-143",
-      "MS-145",
-      "MS-160"
+      "MS-137",
+      "MS-150",
+      "MS-154"
     ],
     "evidence_refs": [
-      "military-service-act/production-evidence/exam80-generation-2/MS-143/001-c04f5f4a9a57a60177be60e8c4f238651f6566fa6806cb3096fa0213cb17fdbb.json",
-      "military-service-act/production-evidence/exam80-generation-2/MS-145/001-ac6d2dcb37959bd8f5a1bf799bfe29fcf72207b4021c4d336edc8d2620f20948.json",
-      "military-service-act/production-evidence/exam80-generation-2/MS-160/001-4fd667774affd36c7216d777d3ad815292381f91e737a95b7cda1efaa973b98c.json"
+      "military-service-act/production-evidence/exam80-generation-2/MS-137/001-ec420b7d8a5bb1d8b782f0ac819afca21ab1baa8c2189888e4c16bb69b6a1685.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-150/001-30f90ad54f38cc9a0908a3454036914b1c05972c1e917d43393612669b49bec9.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-154/001-5132d7f38321b48a9d17459441c221fee5f48e8f70f11bb2e366287e792ed7d8.json"
     ],
     "new_images": 0,
-    "publication_commit": "8096ac5f472b4f88e800d861756eb40211793879"
+    "publication_commit": null
   }
 }

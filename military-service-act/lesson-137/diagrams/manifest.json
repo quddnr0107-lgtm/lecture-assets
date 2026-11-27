@@ -88,8 +88,24 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "full_script_core_visual_coverage",
+        "evidence": "military-service-act/production-evidence/exam80-generation-2/MS-137/001-ec420b7d8a5bb1d8b782f0ac819afca21ab1baa8c2189888e4c16bb69b6a1685.json",
+        "source_line_spans": [
+          [
+            17,
+            29
+          ],
+          [
+            31,
+            49
+          ],
+          [
+            51,
+            65
+          ]
+        ],
+        "related_existing_diagram_ids": []
       }
     }
   ],
