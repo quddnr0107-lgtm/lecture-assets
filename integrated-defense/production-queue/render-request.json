@@ -1,13 +1,13 @@
 {
-  "run_id": "tb-exam80-visual-20261127T064900Z",
+  "run_id": "tb-exam80-visual-20261127T075304Z-repair",
   "exam_number": 80,
   "source_basis": "EXAM80-SCRIPT-SOURCE.json",
   "lessons": [
-    4,
-    5
+    5,
+    6
   ],
   "worker_limit": 3,
   "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
   "mode": "mobile-layout-repair",
-  "note": "Mobile only: neutralize desktop direction label; rebalance reference-only final pages. Preserve canonical Exam 80 content. Visual acceptance pending."
+  "note": "Remove redundant source heading and rebalance reference-only pages; canonical content unchanged."
 }
