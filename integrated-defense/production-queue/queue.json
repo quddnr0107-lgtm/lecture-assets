@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject": "integrated-defense",
   "created_at_kst": "2026-11-27T10:25:01+09:00",
-  "updated_at_kst": "2026-11-27T04:54:25.671Z",
+  "updated_at_kst": "2026-11-27T14:45:34+09:00",
   "status": "review_pending",
   "approved_style": "07-notion-editorial",
   "baseline": {
@@ -262,8 +262,12 @@
       "outputs": [
         "integrated-defense/lesson-002/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 2,
+      "lease": {
+        "run_id": "tb-exam80-visual-20261127T054534Z",
+        "started_at": "2026-11-27T05:45:34Z",
+        "expires_at": "2026-11-27T06:05:34Z"
+      },
+      "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "법령 근거만 있는 마지막 페이지 발견. 기존 스크립트 내용은 보존하고 마지막 두 페이지의 배치를 균형 조정한다."
     },
@@ -906,8 +910,12 @@
       "outputs": [
         "integrated-defense/lesson-021/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 2,
+      "lease": {
+        "run_id": "tb-exam80-visual-20261127T054534Z",
+        "started_at": "2026-11-27T05:45:34Z",
+        "expires_at": "2026-11-27T06:05:34Z"
+      },
+      "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "법령 근거만 있는 마지막 페이지 발견. 기존 스크립트 내용은 보존하고 마지막 두 페이지의 배치를 균형 조정한다."
     },
@@ -1038,8 +1046,12 @@
       "outputs": [
         "integrated-defense/lesson-025/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 2,
+      "lease": {
+        "run_id": "tb-exam80-visual-20261127T054534Z",
+        "started_at": "2026-11-27T05:45:34Z",
+        "expires_at": "2026-11-27T06:05:34Z"
+      },
+      "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "법령 근거만 있는 마지막 페이지 발견. 기존 스크립트 내용은 보존하고 마지막 두 페이지의 배치를 균형 조정한다."
     },
