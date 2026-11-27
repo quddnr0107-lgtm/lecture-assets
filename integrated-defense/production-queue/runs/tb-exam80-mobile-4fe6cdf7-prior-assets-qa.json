@@ -1,0 +1,196 @@
+{
+  "exam_number": 80,
+  "run_id": "tb-exam80-mobile-4fe6cdf7",
+  "verified_input_commit": "20253a369b6844889634cf1ac82bd2fde707f19f",
+  "script_source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_blob_match_count": 25,
+  "catalog_version_match_count": 25,
+  "verified_desktop_ids": [
+    "TB-003-D03",
+    "TB-003-D04",
+    "TB-004-D03",
+    "TB-004-D04",
+    "TB-005-D04",
+    "TB-005-D05"
+  ],
+  "visual_review": "Six desktop WebP images and two pilot mobile WebP images opened and inspected; Korean characters, legibility, clipping, overlap and section relationships checked.",
+  "source_review": "TB-003/004/005 source references directly compared; existing script-alignment used for other source content. No outside legal additions.",
+  "file_sha256_checks": 24,
+  "files": [
+    {
+      "path": "integrated-defense/lesson-003/diagrams/notion-v1/TB-003-D03-central-conference-attendees.svg",
+      "bytes": 8868,
+      "sha256": "08a8e904021790f94beb019f1649b395e4df3d3cadd2c6aab6596ae4aa6eb799",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-003/diagrams/notion-v1/TB-003-D03-central-conference-attendees.png",
+      "bytes": 128718,
+      "sha256": "14930b1cdcda17f923036eb3a507d1caf6909f8ba8c98212c70183e264b3538c",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-003/diagrams/notion-v1/TB-003-D03-central-conference-attendees.webp",
+      "bytes": 67656,
+      "sha256": "df35af915140cb6c4aeade5cef981b1b310fcc4aee8366988b31c47181e2cdae",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-003/diagrams/notion-v1/TB-003-D04-conference-selection-and-local-scope.svg",
+      "bytes": 6959,
+      "sha256": "562440c3fc75c97ec03ff430a2a3765e8b732dd55c001140301257a807a9a731",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-003/diagrams/notion-v1/TB-003-D04-conference-selection-and-local-scope.png",
+      "bytes": 132506,
+      "sha256": "e1a096d2542267839d765107d234d6e48fac9e58c27c8b197b0a0076044adabd",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-003/diagrams/notion-v1/TB-003-D04-conference-selection-and-local-scope.webp",
+      "bytes": 74034,
+      "sha256": "8b8dd2283bc6929dcbe4a8618c69f91d3ff168250133b69eb635b737c38e17f1",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-004/diagrams/notion-v1/TB-004-D03-central-council-ministers.svg",
+      "bytes": 9123,
+      "sha256": "bf83f268ee2359d1a66a3390811446c59755204d64d0594cdcc2e2f83afbf8d7",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-004/diagrams/notion-v1/TB-004-D03-central-council-ministers.png",
+      "bytes": 129570,
+      "sha256": "eaa30f9e8da6e1ddf513c3521fd44b72b924c01cf69d25dfd6b44d73d1ccce24",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-004/diagrams/notion-v1/TB-004-D03-central-council-ministers.webp",
+      "bytes": 70646,
+      "sha256": "01b862215a27bf0360fbd4e537ba99573fe5d528a8eb2602e4759fab22a6ef11",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-004/diagrams/notion-v1/TB-004-D04-central-council-other-members.svg",
+      "bytes": 6445,
+      "sha256": "e51383565503060c296491c79305a44f01736ea481f8fb97fe61ebbb2968895d",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-004/diagrams/notion-v1/TB-004-D04-central-council-other-members.png",
+      "bytes": 124247,
+      "sha256": "86c8ca6f2dd9b10b6c8216268a91863283c8727d10d58cc2309707c8816ec705",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-004/diagrams/notion-v1/TB-004-D04-central-council-other-members.webp",
+      "bytes": 67858,
+      "sha256": "7c33f03e6d08ce452caae59512ab24b53e52cac3fcd424aff549328fec409d8f",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-005/diagrams/notion-v1/TB-005-D04-regional-council-members-part-one.svg",
+      "bytes": 9746,
+      "sha256": "957151313bedf274fc628365078f6fc5af0dd9ef22f6cec7a15d7d1a0aa26535",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-005/diagrams/notion-v1/TB-005-D04-regional-council-members-part-one.png",
+      "bytes": 137673,
+      "sha256": "784d8ac4f1a3db2174acdec36c49969ff636c3507669722d22ff59977ab46dfe",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-005/diagrams/notion-v1/TB-005-D04-regional-council-members-part-one.webp",
+      "bytes": 73334,
+      "sha256": "7d019737aa10900f8d2ceb140c417ab3fe5f313ec65e1383f8118821b3ab7801",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-005/diagrams/notion-v1/TB-005-D05-regional-council-members-part-two.svg",
+      "bytes": 8957,
+      "sha256": "95095a0b38e7a179ae2fc2c76b7bee3153cef9e8f0440ad86413631737f42361",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-005/diagrams/notion-v1/TB-005-D05-regional-council-members-part-two.png",
+      "bytes": 129524,
+      "sha256": "eefd62bb65b6d2af150f31b3930124d815f84d5a003eb27f8a7bd435a3289a1d",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-005/diagrams/notion-v1/TB-005-D05-regional-council-members-part-two.webp",
+      "bytes": 68642,
+      "sha256": "0eca2fed651791c1f48f0c1393e650b1e5eac51c584780193b897b158258462a",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-001/diagrams/notion-v1/mobile/TB-001-D01-M01.svg",
+      "bytes": 4513,
+      "sha256": "c74bf2582e9bf7947d8e390fdb313936ca78ef372afebf6b6ee952881e73cb25",
+      "width": 1080,
+      "height": 1800
+    },
+    {
+      "path": "integrated-defense/lesson-001/diagrams/notion-v1/mobile/TB-001-D01-M01.png",
+      "bytes": 142772,
+      "sha256": "8deb12df5d5f2bab0e712e54e8125eba92ef10343fc8ab3bc48c7a6271432073",
+      "width": 1080,
+      "height": 1800
+    },
+    {
+      "path": "integrated-defense/lesson-001/diagrams/notion-v1/mobile/TB-001-D01-M01.webp",
+      "bytes": 73738,
+      "sha256": "4f8407835ef9675b4caef502482a5c8aaa20a580849baf81515d875d78ea31ee",
+      "width": 1080,
+      "height": 1800
+    },
+    {
+      "path": "integrated-defense/lesson-001/diagrams/notion-v1/mobile/TB-001-D01-M02.svg",
+      "bytes": 3084,
+      "sha256": "4b609b63181c481bcbaf749b998bdc84499920bea5d273180876cc61591cd0c8",
+      "width": 1080,
+      "height": 1800
+    },
+    {
+      "path": "integrated-defense/lesson-001/diagrams/notion-v1/mobile/TB-001-D01-M02.png",
+      "bytes": 108919,
+      "sha256": "cff519dae031c115f86c6a30db40aa5f85c97e92dba26f940f18c888c2ccace7",
+      "width": 1080,
+      "height": 1800
+    },
+    {
+      "path": "integrated-defense/lesson-001/diagrams/notion-v1/mobile/TB-001-D01-M02.webp",
+      "bytes": 58594,
+      "sha256": "4d8e1158974ad0357c085bf1bd50b35c03c56528ec9c3cce4634a9f416c78fc5",
+      "width": 1080,
+      "height": 1800
+    }
+  ],
+  "verified_mobile_lessons": [
+    1
+  ],
+  "verified_mobile_pages": 2,
+  "new_diagrams_created_this_run": 0,
+  "queue_note": "Do not change the leased queue concurrently with the renderer. Use this evidence to mark verified prior outputs done once current renderer commit has been reconciled.",
+  "workflow_run": 45936193994
+}
