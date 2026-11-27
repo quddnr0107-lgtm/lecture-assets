@@ -1,0 +1,315 @@
+{
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "reviewed_date_kst": "2026-11-27",
+  "lecture_id": "MS-109",
+  "script_path": "docs/merged-lectures/병역법/본법_70.txt",
+  "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+  "full_script_read": true,
+  "script_topic_mapping": [
+    {
+      "ids": [
+        "D01"
+      ],
+      "lines": [
+        19,
+        52
+      ]
+    },
+    {
+      "ids": [
+        "D03"
+      ],
+      "lines": [
+        58,
+        85
+      ]
+    },
+    {
+      "ids": [
+        "D02"
+      ],
+      "lines": [
+        99,
+        125
+      ]
+    },
+    {
+      "ids": [
+        "D04"
+      ],
+      "lines": [
+        141,
+        151
+      ]
+    },
+    {
+      "ids": [
+        "D05",
+        "D06"
+      ],
+      "lines": [
+        153,
+        171
+      ]
+    },
+    {
+      "ids": [
+        "D02",
+        "D03"
+      ],
+      "lines": [
+        197,
+        233
+      ]
+    },
+    {
+      "ids": [
+        "D07"
+      ],
+      "lines": [
+        235,
+        247
+      ]
+    },
+    {
+      "ids": [
+        "D08"
+      ],
+      "lines": [
+        249,
+        267
+      ]
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-109-D01-editorial-v1",
+    "MS-109-D02-editorial-v1",
+    "MS-109-D03-editorial-v1"
+  ],
+  "previous_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-09-MS-109-coverage-drafts.json",
+  "decision": "partial publication; no full-lecture completion",
+  "published_items": [
+    {
+      "id": "MS-109-D10-editorial-v1",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "source_line_spans": [
+        [
+          175,
+          195
+        ],
+        [
+          292,
+          292
+        ]
+      ],
+      "draft_svg": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/travel-permission-eleven-grounds.svg",
+      "draft_webp": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/travel-permission-eleven-grounds.webp",
+      "svg_blob_sha": "fc1f0b80c7da9925d899476d1c37458e11c3874a",
+      "webp_blob_sha": "88fa1908a8c2fa149cc2308884789df6cb39e537",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D10-editorial-v1.svg",
+          "bytes": 5434,
+          "sha256": "18213e65207debef39c8adbd8db51efca5bf76ad1a002d62efbf9438f8498a6f"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D10-editorial-v1.webp",
+          "bytes": 49884,
+          "sha256": "f585d171d5e9e21cc06d19f633207ab8ebf58e7202f4020282488fa9d26b3d77"
+        }
+      },
+      "visual_review": "pass; actual WebP inspected, no clipping or overlap",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp": true,
+      "review": "원고가 열거하고 강조하는 허가 사유 및 전지훈련 포함이 기존 8장에 없음"
+    },
+    {
+      "id": "MS-109-D11-editorial-v1",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "source_line_spans": [
+        [
+          235,
+          247
+        ]
+      ],
+      "draft_svg": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/travel-cancellation-other-grounds.svg",
+      "draft_webp": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/travel-cancellation-other-grounds.webp",
+      "svg_blob_sha": "9ec8272409b4c984d299e70788c7d208f744727a",
+      "webp_blob_sha": "853118f928fee019b6375e280539989506e054a8",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D11-editorial-v1.svg",
+          "bytes": 5302,
+          "sha256": "fa87b914eb8ec9ea19aadbadeedca854307663c84af5e1e68bbe85cc378ac58d"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D11-editorial-v1.webp",
+          "bytes": 49360,
+          "sha256": "2ae4d85ca09759bd22a1def78459aff0e07810cce542decfcd9bcbaeac0118d3"
+        }
+      },
+      "visual_review": "pass; actual WebP inspected, no clipping or overlap",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp": true,
+      "review": "D07의 기간 수치 외에 원고가 설명하는 영주귀국 신고·영리활동·부모 요건 등 보완"
+    },
+    {
+      "id": "MS-109-D12-editorial-v1",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "source_line_spans": [
+        [
+          249,
+          267
+        ]
+      ],
+      "draft_svg": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/overseas-residence-five-cases.svg",
+      "draft_webp": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/overseas-residence-five-cases.webp",
+      "svg_blob_sha": "4afdf5076e91c65debd9c28453edc2d650510404",
+      "webp_blob_sha": "32dbb1591c0f4d15f0397c4c54f4deb9ae1ca210",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D12-editorial-v1.svg",
+          "bytes": 4986,
+          "sha256": "eb79f7d7fc50aabb2383e456dfacaf740e237d78c33e5b6078ead0b74ae5fc61"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D12-editorial-v1.webp",
+          "bytes": 46168,
+          "sha256": "d3bed88ec72c8a3893f9fc6405555e9e67662bdfbe9f6e8e2d9126860da845b4"
+        }
+      },
+      "visual_review": "pass; actual WebP inspected, no clipping or overlap",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp": true,
+      "review": "D08은 제5호 중심이므로 원고의 나머지 네 가지 유형 보완"
+    },
+    {
+      "id": "MS-109-D13-editorial-v1",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "source_line_spans": [
+        [
+          269,
+          279
+        ],
+        [
+          297,
+          297
+        ]
+      ],
+      "draft_svg": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/fixed-term-official-deferral.svg",
+      "draft_webp": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/fixed-term-official-deferral.webp",
+      "svg_blob_sha": "285f5ea6d57be4d18c50ae2068deadb1defd094b",
+      "webp_blob_sha": "20d8fc1e3c916561af851b9619994efcb85a5563",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D13-editorial-v1.svg",
+          "bytes": 5531,
+          "sha256": "527319d80387c39b9dec068faf5228cb9371ba1b9a8e549a09f5795b6c2c35d5"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D13-editorial-v1.webp",
+          "bytes": 55436,
+          "sha256": "eb0649aaf589836e923bed804da9e02a8bddb6f9d0b1aa45aede0cee8da7e906"
+        }
+      },
+      "visual_review": "pass; actual WebP inspected, no clipping or overlap",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp": true,
+      "review": "원고 말미의 시험 대비 핵심인 학위 분야·경력·서류·통보가 기존 도식에 없음"
+    }
+  ],
+  "changed_artifacts_and_hashes": [
+    {
+      "id": "MS-109-D10-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D10-editorial-v1.svg",
+          "bytes": 5434,
+          "sha256": "18213e65207debef39c8adbd8db51efca5bf76ad1a002d62efbf9438f8498a6f"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D10-editorial-v1.webp",
+          "bytes": 49884,
+          "sha256": "f585d171d5e9e21cc06d19f633207ab8ebf58e7202f4020282488fa9d26b3d77"
+        }
+      }
+    },
+    {
+      "id": "MS-109-D11-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D11-editorial-v1.svg",
+          "bytes": 5302,
+          "sha256": "fa87b914eb8ec9ea19aadbadeedca854307663c84af5e1e68bbe85cc378ac58d"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D11-editorial-v1.webp",
+          "bytes": 49360,
+          "sha256": "2ae4d85ca09759bd22a1def78459aff0e07810cce542decfcd9bcbaeac0118d3"
+        }
+      }
+    },
+    {
+      "id": "MS-109-D12-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D12-editorial-v1.svg",
+          "bytes": 4986,
+          "sha256": "eb79f7d7fc50aabb2383e456dfacaf740e237d78c33e5b6078ead0b74ae5fc61"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D12-editorial-v1.webp",
+          "bytes": 46168,
+          "sha256": "d3bed88ec72c8a3893f9fc6405555e9e67662bdfbe9f6e8e2d9126860da845b4"
+        }
+      }
+    },
+    {
+      "id": "MS-109-D13-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D13-editorial-v1.svg",
+          "bytes": 5531,
+          "sha256": "527319d80387c39b9dec068faf5228cb9371ba1b9a8e549a09f5795b6c2c35d5"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D13-editorial-v1.webp",
+          "bytes": 55436,
+          "sha256": "eb0649aaf589836e923bed804da9e02a8bddb6f9d0b1aa45aede0cee8da7e906"
+        }
+      }
+    }
+  ],
+  "unresolved": [
+    {
+      "lines": [
+        87,
+        87
+      ],
+      "issue": "복무 중인 승선근무예비역·보충역·대체복무요원 제외의 적용 범위가 원고 요약에서 불명확하여 추정하지 않음."
+    },
+    {
+      "id": "MS-109-D09-editorial-v1",
+      "issue": "여섯 제한 유형에 복무 중 대상 제외의 범위가 표시되지 않아 완결된 목록으로 오해될 수 있음. 과거 및 현재 기피·이탈 여부와 병무청장 주체도 명확화 필요. 시각 검수 통과하나 정식 공개 보류."
+    }
+  ],
+  "remaining_review": [
+    "제4항 위임 관계, 정보통신망 통보 방법, 연장 결과 통보 흐름",
+    "실제 렌더·시각 검수 및 정식 목록 통합"
+  ],
+  "publication_commit_or_null": null
+}

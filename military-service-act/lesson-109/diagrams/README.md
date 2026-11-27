@@ -1,6 +1,6 @@
 # MS-109 · 병역법 제70조, 국외여행의 허가 및 취소
 
-흑백 편집형 도식 8장 · 1600×1120 · SVG / 무손실 WebP
+흑백 편집형 도식 12장 · 1600×1120 · SVG / 무손실 WebP
 
 ## 01. 국외여행허가의 대상
 
@@ -49,5 +49,29 @@
 ![국외 거주자의 허가 간주](MS-109-D08-editorial-v1.webp)
 
 [강의용 WebP](MS-109-D08-editorial-v1.webp) · [편집용 SVG](MS-109-D08-editorial-v1.svg)
+
+## 10. 국외여행허가 사유 11가지
+
+![국외여행허가 사유 11가지](MS-109-D10-editorial-v1.webp)
+
+[강의용 WebP](MS-109-D10-editorial-v1.webp) · [편집용 SVG](MS-109-D10-editorial-v1.svg)
+
+## 11. 허가 취소의 나머지 사유
+
+![허가 취소의 나머지 사유](MS-109-D11-editorial-v1.webp)
+
+[강의용 WebP](MS-109-D11-editorial-v1.webp) · [편집용 SVG](MS-109-D11-editorial-v1.svg)
+
+## 12. 37세 허가 간주의 다섯 경우
+
+![37세 허가 간주의 다섯 경우](MS-109-D12-editorial-v1.webp)
+
+[강의용 WebP](MS-109-D12-editorial-v1.webp) · [편집용 SVG](MS-109-D12-editorial-v1.svg)
+
+## 13. 임기제공무원 허가취소 유보
+
+![임기제공무원 허가취소 유보](MS-109-D13-editorial-v1.webp)
+
+[강의용 WebP](MS-109-D13-editorial-v1.webp) · [편집용 SVG](MS-109-D13-editorial-v1.svg)
 
 [전체 병역법 도식 목차](../../README.md)

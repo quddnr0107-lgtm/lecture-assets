@@ -2939,13 +2939,14 @@
       ],
       "full_script_read": true,
       "lease": null,
-      "checkpoint": 9,
+      "checkpoint": 10,
       "evidence_refs": [
         "military-service-act/production-evidence/exam80-generation-2/MS-109/002-publication-review.json",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-04-visual-review.json",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-05-corrected-drafts.json",
         "military-service-act/production-evidence/exam80-generation-2/MS-109/006-publication-review.json",
-        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-09-MS-109-coverage-drafts.json"
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-09-MS-109-coverage-drafts.json",
+        "military-service-act/production-evidence/exam80-generation-2/MS-109/010-publication-review.json"
       ],
       "outcome": null,
       "changed_diagram_ids": [],
@@ -2954,14 +2955,18 @@
         "MS-109-D05-editorial-v1",
         "MS-109-D06-editorial-v1",
         "MS-109-D07-editorial-v1",
-        "MS-109-D08-editorial-v1"
+        "MS-109-D08-editorial-v1",
+        "MS-109-D10-editorial-v1",
+        "MS-109-D11-editorial-v1",
+        "MS-109-D12-editorial-v1",
+        "MS-109-D13-editorial-v1"
       ],
       "previously_verified_existing_diagram_ids": [
         "MS-109-D01-editorial-v1",
         "MS-109-D02-editorial-v1",
         "MS-109-D03-editorial-v1"
       ],
-      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-09-MS-109-coverage-drafts.json",
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/MS-109/010-publication-review.json",
       "draft_preview_paths": [
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-109/travel-application.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-109/travel-stay-purpose.svg",
@@ -2979,18 +2984,15 @@
       ],
       "script_fulltext_retrieved": true,
       "partial_publication": {
-        "published_supplements": 5,
-        "review_ref": "military-service-act/production-evidence/exam80-generation-2/MS-109/006-publication-review.json",
-        "remaining": "전체 원고 핵심 설명 누락 및 기존 도식 대응 최종 대조",
-        "published_asset_source_commit": "dad67d12bd8b421ba54e01dca0b421bbfbe13a16"
+        "published_supplements": 9,
+        "review_ref": "military-service-act/production-evidence/exam80-generation-2/MS-109/010-publication-review.json",
+        "remaining": "D09 예외 적용 범위 및 원고 전체 핵심 대응 검토",
+        "full_lecture_complete": false
       },
       "pending_draft_targets": [
-        "MS-109-D09-editorial-v1",
-        "MS-109-D10-editorial-v1",
-        "MS-109-D11-editorial-v1",
-        "MS-109-D12-editorial-v1",
-        "MS-109-D13-editorial-v1"
-      ]
+        "MS-109-D09-editorial-v1"
+      ],
+      "evidence_sha256": "28b957c36a5f82bda1d0bf52665443ab5f6e597a31dd19bfb274601f07eef747"
     },
     {
       "lecture_id": "MS-110",
@@ -4466,23 +4468,13 @@
   "last_publication_checkpoint": {
     "date_kst": "2026-11-27",
     "lecture_ids": [
-      "MS-010",
-      "MS-077",
-      "MS-117",
-      "MS-157"
+      "MS-109"
     ],
-    "published_new": 5,
-    "published_corrections": 1,
-    "completed_lectures": [
-      "MS-010",
-      "MS-117",
-      "MS-157"
-    ],
+    "published_new": 4,
+    "published_corrections": 0,
+    "completed_lectures": [],
     "evidence_refs": [
-      "military-service-act/production-evidence/exam80-generation-2/MS-010/008-publication-review.json",
-      "military-service-act/production-evidence/exam80-generation-2/MS-077/008-publication-review.json",
-      "military-service-act/production-evidence/exam80-generation-2/MS-117/008-publication-review.json",
-      "military-service-act/production-evidence/exam80-generation-2/MS-157/008-publication-review.json"
+      "military-service-act/production-evidence/exam80-generation-2/MS-109/010-publication-review.json"
     ]
   }
 }
