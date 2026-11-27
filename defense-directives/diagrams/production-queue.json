@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-27T13:26:29+09:00",
+  "updated_at": "2026-11-27T14:22:19+09:00",
   "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
     "status": "files_completed",
@@ -67,9 +67,9 @@
   },
   "state": {
     "active_run": {
-      "id": "dr-20261127-132629",
-      "started_at": "2026-11-27T13:26:29+09:00",
-      "lease_expires_at": "2026-11-27T15:26:29+09:00",
+      "id": "dr-20261127-142219-recovery",
+      "started_at": "2026-11-27T14:22:19+09:00",
+      "lease_expires_at": "2026-11-27T16:22:19+09:00",
       "claimed_job_ids": [
         "DR-001-exam80-D01-revision",
         "DR-060-exam80-D02-revision",
@@ -80,7 +80,7 @@
         "DR-078-exam80-supplement-6-new",
         "DR-078-exam80-supplement-7-new"
       ],
-      "mode": "targeted_render_multi_lesson"
+      "mode": "targeted_render_multi_lesson_isolated_dbus"
     },
     "last_successful_run": {
       "id": "dr-20261127-122552",
@@ -2649,9 +2649,9 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261127-132629",
-      "claimed_at": "2026-11-27T13:26:29+09:00",
-      "lease_expires_at": "2026-11-27T15:26:29+09:00"
+      "claimed_by": "dr-20261127-142219-recovery",
+      "claimed_at": "2026-11-27T14:22:19+09:00",
+      "lease_expires_at": "2026-11-27T16:22:19+09:00"
     },
     {
       "id": "DR-060-exam80-D02-revision",
@@ -2679,9 +2679,9 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261127-132629",
-      "claimed_at": "2026-11-27T13:26:29+09:00",
-      "lease_expires_at": "2026-11-27T15:26:29+09:00"
+      "claimed_by": "dr-20261127-142219-recovery",
+      "claimed_at": "2026-11-27T14:22:19+09:00",
+      "lease_expires_at": "2026-11-27T16:22:19+09:00"
     },
     {
       "id": "DR-060-exam80-D03-revision",
@@ -2712,9 +2712,9 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261127-132629",
-      "claimed_at": "2026-11-27T13:26:29+09:00",
-      "lease_expires_at": "2026-11-27T15:26:29+09:00"
+      "claimed_by": "dr-20261127-142219-recovery",
+      "claimed_at": "2026-11-27T14:22:19+09:00",
+      "lease_expires_at": "2026-11-27T16:22:19+09:00"
     },
     {
       "id": "DR-060-exam80-D06-revision",
@@ -2741,9 +2741,9 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261127-132629",
-      "claimed_at": "2026-11-27T13:26:29+09:00",
-      "lease_expires_at": "2026-11-27T15:26:29+09:00"
+      "claimed_by": "dr-20261127-142219-recovery",
+      "claimed_at": "2026-11-27T14:22:19+09:00",
+      "lease_expires_at": "2026-11-27T16:22:19+09:00"
     },
     {
       "id": "DR-060-exam80-supplement-4-new",
@@ -2777,9 +2777,9 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261127-132629",
-      "claimed_at": "2026-11-27T13:26:29+09:00",
-      "lease_expires_at": "2026-11-27T15:26:29+09:00"
+      "claimed_by": "dr-20261127-142219-recovery",
+      "claimed_at": "2026-11-27T14:22:19+09:00",
+      "lease_expires_at": "2026-11-27T16:22:19+09:00"
     },
     {
       "id": "DR-078-exam80-D02-revision",
@@ -2810,9 +2810,9 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261127-132629",
-      "claimed_at": "2026-11-27T13:26:29+09:00",
-      "lease_expires_at": "2026-11-27T15:26:29+09:00"
+      "claimed_by": "dr-20261127-142219-recovery",
+      "claimed_at": "2026-11-27T14:22:19+09:00",
+      "lease_expires_at": "2026-11-27T16:22:19+09:00"
     },
     {
       "id": "DR-078-exam80-supplement-6-new",
@@ -2845,9 +2845,9 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261127-132629",
-      "claimed_at": "2026-11-27T13:26:29+09:00",
-      "lease_expires_at": "2026-11-27T15:26:29+09:00"
+      "claimed_by": "dr-20261127-142219-recovery",
+      "claimed_at": "2026-11-27T14:22:19+09:00",
+      "lease_expires_at": "2026-11-27T16:22:19+09:00"
     },
     {
       "id": "DR-078-exam80-supplement-7-new",
@@ -2878,9 +2878,9 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261127-132629",
-      "claimed_at": "2026-11-27T13:26:29+09:00",
-      "lease_expires_at": "2026-11-27T15:26:29+09:00"
+      "claimed_by": "dr-20261127-142219-recovery",
+      "claimed_at": "2026-11-27T14:22:19+09:00",
+      "lease_expires_at": "2026-11-27T16:22:19+09:00"
     }
   ],
   "runs": [
@@ -2906,6 +2906,16 @@
       "visual_qa": "passed",
       "remaining_reviews": 74,
       "remaining_production": 8
+    },
+    {
+      "id": "dr-20261127-132629",
+      "status": "render_failed",
+      "workflow_run_id": 45940064053,
+      "new_diagrams": 0,
+      "revised_diagrams": 0,
+      "completed_reviews": 0,
+      "error": "Concurrent Inkscape Gio::DBus::Error; publish step skipped",
+      "recovery_run": "dr-20261127-142219-recovery"
     }
   ],
   "exam": {

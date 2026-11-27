@@ -205,7 +205,8 @@ def render_slide(slide, diagram_id):
 
 def rasterize(job):
     svg,png,webp=job
-    result=subprocess.run(['inkscape',str(svg),'--export-type=png',f'--export-filename={png}',f'--export-width={W}'],capture_output=True,text=True)
+    # Each parallel process needs its own D-Bus session; shared sessions can crash Gio.
+    result=subprocess.run(['dbus-run-session','--','inkscape',str(svg),'--export-type=png',f'--export-filename={png}',f'--export-width={W}'],capture_output=True,text=True)
     if result.returncode: raise RuntimeError(result.stderr)
     with Image.open(png) as im:
         # Lossless WebP preserves small Korean strokes and the paper-colored field.
