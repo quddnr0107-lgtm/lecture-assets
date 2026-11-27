@@ -202,6 +202,15 @@
       ],
       "status": "content_checked_rendered_visual_passed",
       "visual_reviewed_at": "2026-11-28T03:22:55+09:00"
+    },
+    {
+      "run_id": "dr-20261128-032255-script",
+      "ids": [
+        "DR-012-D03",
+        "DR-012-D04",
+        "DR-026-D03"
+      ],
+      "status": "content_checked_rendered_visual_pending"
     }
   ]
 }

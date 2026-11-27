@@ -66,20 +66,7 @@
     ]
   },
   "state": {
-    "active_run": {
-      "id": "dr-20261128-032255-script",
-      "started_at": "2026-11-28T03:22:55+09:00",
-      "claimed_at": "2026-11-28T03:22:55+09:00",
-      "lease_expires_at": "2026-11-28T05:22:55+09:00",
-      "expected_head": "6b2548b74d2ba829a75c0de1391e38527712d773",
-      "worker_slots": 2,
-      "status": "render_requested",
-      "job_ids": [
-        "DR-012-D03-precision-032255",
-        "DR-012-D04-precision-032255",
-        "DR-026-D03-precision-032255"
-      ]
-    },
+    "active_run": null,
     "last_successful_run": {
       "id": "dr-20261128-022512-script",
       "render_commit": "36b79788aa33b7ee52002bcebc5df38173d99fd5",
@@ -107,7 +94,7 @@
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
     "production_jobs_queued": 0,
-    "production_jobs_qa": 0,
+    "production_jobs_qa": 3,
     "production_jobs_completed": 98,
     "production_jobs_running": 3
   },
@@ -8620,8 +8607,24 @@
       "script_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-012|3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041|169,171,173,183,187,195,201,202,235,236|수시계획 경유 주체의 타당성 검증과 의견 보고|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D03-editorial-v1.svg",
+          "bytes": 5452,
+          "sha256": "2a5262f647e44023906b4519fc8d2dd7ab218a4fd37e06c40aabc34f05d9aa5f"
+        },
+        {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D03-editorial-v1.png",
+          "bytes": 151070,
+          "sha256": "177074af4c1a5f87c7e999a18d0628a3c9e42f8c97164a19dd6c28ce0a3c4e23"
+        },
+        {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D03-editorial-v1.webp",
+          "bytes": 45674,
+          "sha256": "8431719948bb711a2380ec95d1934758400d70db67f83bc53fb31e467f1d70a9"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-12.txt",
@@ -8641,11 +8644,15 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-032255-script",
-      "claimed_at": "2026-11-28T03:22:55+09:00",
-      "lease_expires_at": "2026-11-28T05:22:55+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "finding": "경유 과정의 정원 연계 검증 및 의견 보고 생략",
-      "required_change": "수시계획 경유 주체의 타당성 검증과 의견 보고"
+      "required_change": "수시계획 경유 주체의 타당성 검증과 의견 보고",
+      "diagram_id": "DR-012-D03",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-012-D04-precision-032255",
@@ -8658,8 +8665,24 @@
       "script_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-012|3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041|51,73,96,98,118,227,232|연도별 정원 범위 내 시행이라는 제약|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D04-editorial-v1.svg",
+          "bytes": 5961,
+          "sha256": "67c84e482da177a0d81d1ace86a4ba8d5197b8f01c85fbd336d83456c95c4276"
+        },
+        {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D04-editorial-v1.png",
+          "bytes": 154655,
+          "sha256": "521c948a372b92d43c88f109049fe89a7692f7c6b227c0246f78c1741361576c"
+        },
+        {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D04-editorial-v1.webp",
+          "bytes": 46480,
+          "sha256": "3ed9823fb46a4d08c5c265dff6dc0df25663b27468fdcb911053caffb94f0957"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-12.txt",
@@ -8676,11 +8699,15 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-032255-script",
-      "claimed_at": "2026-11-28T03:22:55+09:00",
-      "lease_expires_at": "2026-11-28T05:22:55+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "finding": "연도계획의 정원 범위 제약이 해당 칸에서 생략됨",
-      "required_change": "연도별 정원 범위 내 시행이라는 제약"
+      "required_change": "연도별 정원 범위 내 시행이라는 제약",
+      "diagram_id": "DR-012-D04",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-026-D03-precision-032255",
@@ -8693,8 +8720,24 @@
       "script_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-026|06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854|135,149,151,153,161,163,173,187,188|진급발령자 명부 송부권자의 정확한 명칭|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-026/diagrams/DR-026-D03-editorial-v1.svg",
+          "bytes": 6107,
+          "sha256": "01710e72b52b6faef8eaed5db21b7f6056f9e7ce08e9001e0bae07a08852aa5d"
+        },
+        {
+          "path": "defense-directives/lesson-026/diagrams/DR-026-D03-editorial-v1.png",
+          "bytes": 160179,
+          "sha256": "44825ba551f1f463a1f170030da0759fd06aa12dea59c71c6c8df0366cf0868b"
+        },
+        {
+          "path": "defense-directives/lesson-026/diagrams/DR-026-D03-editorial-v1.webp",
+          "bytes": 48086,
+          "sha256": "2042d07eada5a9c7e0ba0e0fb91cbbce67d104c88a81b2d5f16904b708f26664"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-26.txt",
@@ -8713,11 +8756,15 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-032255-script",
-      "claimed_at": "2026-11-28T03:22:55+09:00",
-      "lease_expires_at": "2026-11-28T05:22:55+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "finding": "원고의 국방부장관·각 군 참모총장이 국방부·각 군으로 축약됨",
-      "required_change": "진급발령자 명부 송부권자의 정확한 명칭"
+      "required_change": "진급발령자 명부 송부권자의 정확한 명칭",
+      "diagram_id": "DR-026-D03",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     }
   ],
   "runs": [
@@ -9057,6 +9104,18 @@
       "render_commit": "36b79788aa33b7ee52002bcebc5df38173d99fd5",
       "completed_at": "2026-11-28T03:22:55+09:00",
       "remaining_reviews": 39
+    },
+    {
+      "id": "dr-20261128-032255-script",
+      "status": "rendered_pending_visual_qa",
+      "new_diagrams": 0,
+      "revised_diagrams": 3,
+      "completed_reviews": 0,
+      "diagram_ids": [
+        "DR-012-D03",
+        "DR-012-D04",
+        "DR-026-D03"
+      ]
     }
   ],
   "exam": {

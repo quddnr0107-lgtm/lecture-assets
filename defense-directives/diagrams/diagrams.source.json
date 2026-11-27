@@ -2345,7 +2345,7 @@
       "sourceClauses": [
         "제3호나목"
       ],
-      "note": "",
+      "note": "각 군 참모총장: 군무원 정원과 연계하여 타당성 검증 후 국방부에 의견 보고.",
       "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J12-0:0",
       "sourceVersion": "국방부훈령 제3104호",
       "effectiveDate": "2025-11-14",
@@ -2354,8 +2354,14 @@
         "source_git_blob": "6983bc045cafa95a86311146b700668fcb6f79d6",
         "source_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
         "lines": [
+          169,
+          171,
+          173,
+          183,
+          187,
           195,
-          212,
+          201,
+          202,
           235,
           236
         ]
@@ -2393,6 +2399,11 @@
             "bold": false
           },
           {
+            "label": "시행 범위",
+            "text": "연도별 정원 범위 내",
+            "bold": true
+          },
+          {
             "label": "결과",
             "text": "부대계획 시행·정원계획 수립의 근거",
             "bold": true
@@ -2414,21 +2425,12 @@
         "source_git_blob": "6983bc045cafa95a86311146b700668fcb6f79d6",
         "source_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
         "lines": [
-          15,
-          29,
-          37,
           51,
           73,
           96,
-          102,
-          108,
-          110,
-          112,
+          98,
           118,
-          226,
           227,
-          228,
-          230,
           232
         ]
       }
@@ -4917,9 +4919,14 @@
         "subtitle": "제5항제3호·제4호",
         "items": [
           {
-            "label": "진급발령자 명부",
-            "text": "장교: 국방부→각 군·병무청 / 부사관: 각 군→병무청",
-            "bold": false
+            "label": "장교 명부",
+            "text": "국방부장관 → 각 군·병무청",
+            "bold": true
+          },
+          {
+            "label": "부사관 명부",
+            "text": "각 군 참모총장 → 병무청",
+            "bold": true
           },
           {
             "label": "지방병무청장 · 30일",
@@ -4946,9 +4953,13 @@
         "source_git_blob": "a092efb5ca670b4aead58767bb8bab5d064f7ca7",
         "source_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854",
         "lines": [
+          135,
+          149,
+          151,
+          153,
+          161,
+          163,
           173,
-          175,
-          186,
           187,
           188
         ]

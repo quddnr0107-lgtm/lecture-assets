@@ -2547,25 +2547,25 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J12-0:0",
       "source_version": "국방부훈령 제3104호",
       "effective_date": "2025-11-14",
-      "note": "",
+      "note": "각 군 참모총장: 군무원 정원과 연계하여 타당성 검증 후 국방부에 의견 보고.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-012/diagrams/DR-012-D03-editorial-v1.svg",
-          "bytes": 5197,
-          "sha256": "67fd801ebab0ec37b03fa9942cc037f4833077365dfddb78bd0a17f189257183"
+          "bytes": 5452,
+          "sha256": "2a5262f647e44023906b4519fc8d2dd7ab218a4fd37e06c40aabc34f05d9aa5f"
         },
         "png": {
           "path": "defense-directives/lesson-012/diagrams/DR-012-D03-editorial-v1.png",
-          "bytes": 137522,
-          "sha256": "dd9bcb6fef6274d4a8a44b8cc52b463889b57d019ef51c4ef64f84cde50dbbf5"
+          "bytes": 151070,
+          "sha256": "177074af4c1a5f87c7e999a18d0628a3c9e42f8c97164a19dd6c28ce0a3c4e23"
         },
         "webp": {
           "path": "defense-directives/lesson-012/diagrams/DR-012-D03-editorial-v1.webp",
-          "bytes": 41552,
-          "sha256": "f2ebce9ff0ebd694112f384efd1e32a112575595a99955988078140af4a99d7d"
+          "bytes": 45674,
+          "sha256": "8431719948bb711a2380ec95d1934758400d70db67f83bc53fb31e467f1d70a9"
         }
       },
       "script_ref": "DR-012",
@@ -2573,8 +2573,14 @@
         "source_git_blob": "6983bc045cafa95a86311146b700668fcb6f79d6",
         "source_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
         "lines": [
+          169,
+          171,
+          173,
+          183,
+          187,
           195,
-          212,
+          201,
+          202,
           235,
           236
         ]
@@ -2602,18 +2608,18 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-012/diagrams/DR-012-D04-editorial-v1.svg",
-          "bytes": 5615,
-          "sha256": "05be14d3d865539f9a21df8c864fc37df93412458d5c3bd202047d3ba79bdac2"
+          "bytes": 5961,
+          "sha256": "67c84e482da177a0d81d1ace86a4ba8d5197b8f01c85fbd336d83456c95c4276"
         },
         "png": {
           "path": "defense-directives/lesson-012/diagrams/DR-012-D04-editorial-v1.png",
-          "bytes": 147219,
-          "sha256": "8a7d6d68bcc89cb4315fb54360809eba4fd4e37b03113f9a718f060e61506c3a"
+          "bytes": 154655,
+          "sha256": "521c948a372b92d43c88f109049fe89a7692f7c6b227c0246f78c1741361576c"
         },
         "webp": {
           "path": "defense-directives/lesson-012/diagrams/DR-012-D04-editorial-v1.webp",
-          "bytes": 44224,
-          "sha256": "5cbedfead11a2db6c6c31756cc2b79d901bf97d6b32a3582bfaa6f1d3a10f2a8"
+          "bytes": 46480,
+          "sha256": "3ed9823fb46a4d08c5c265dff6dc0df25663b27468fdcb911053caffb94f0957"
         }
       },
       "script_ref": "DR-012",
@@ -2621,21 +2627,12 @@
         "source_git_blob": "6983bc045cafa95a86311146b700668fcb6f79d6",
         "source_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
         "lines": [
-          15,
-          29,
-          37,
           51,
           73,
           96,
-          102,
-          108,
-          110,
-          112,
+          98,
           118,
-          226,
           227,
-          228,
-          230,
           232
         ]
       }
@@ -4359,18 +4356,18 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-026/diagrams/DR-026-D03-editorial-v1.svg",
-          "bytes": 5936,
-          "sha256": "b968f2a104cf1a3bfa2973dc349153b47549e3eb9942ede65f776c5b7a888cfd"
+          "bytes": 6107,
+          "sha256": "01710e72b52b6faef8eaed5db21b7f6056f9e7ce08e9001e0bae07a08852aa5d"
         },
         "png": {
           "path": "defense-directives/lesson-026/diagrams/DR-026-D03-editorial-v1.png",
-          "bytes": 157516,
-          "sha256": "058f14165a8d72897f878d0864bb88f3f29e0467043fcf54989045e64ec7a9a9"
+          "bytes": 160179,
+          "sha256": "44825ba551f1f463a1f170030da0759fd06aa12dea59c71c6c8df0366cf0868b"
         },
         "webp": {
           "path": "defense-directives/lesson-026/diagrams/DR-026-D03-editorial-v1.webp",
-          "bytes": 47418,
-          "sha256": "3e72c52417e1d5bf05c2d2eae3ac07c746711af9879602ab826f8ecc80f38a5e"
+          "bytes": 48086,
+          "sha256": "2042d07eada5a9c7e0ba0e0fb91cbbce67d104c88a81b2d5f16904b708f26664"
         }
       },
       "script_ref": "DR-026",
@@ -4378,9 +4375,13 @@
         "source_git_blob": "a092efb5ca670b4aead58767bb8bab5d064f7ca7",
         "source_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854",
         "lines": [
+          135,
+          149,
+          151,
+          153,
+          161,
+          163,
           173,
-          175,
-          186,
           187,
           188
         ]
