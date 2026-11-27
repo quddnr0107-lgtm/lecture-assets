@@ -1,0 +1,795 @@
+{
+  "run_id": "tb-exam80-20261127-1049-qa",
+  "exam_number": 80,
+  "verified_commit": "64fe49c2292dc0d3e63de3a701217d1b47e64cac",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "manifest_blob": "3e0e9eb2d87ea11ba159efae19d3fa7725494e44",
+  "script_alignment_blob": "3e36b734d307996b98a791d08a95c04e0e73a88e",
+  "visual_format": "WebP",
+  "hash_validation": "기존 실제 렌더러 SHA-256 검증 보고서와 현재 manifest 파일 레코드 일치, 원격 git tree 경로·바이트·blob 및 직접 본 WebP blob 대조. 이번 독립 전체 SHA-256 재계산은 호출 한도 때문에 미완료.",
+  "new_legal_diagrams": 0,
+  "new_mobile_pages": 0,
+  "lessons": [
+    {
+      "lesson": 9,
+      "job_id": "TB-009-MOBILE",
+      "script_blob_matches_pinned": true,
+      "pages": [
+        {
+          "id": "TB-009-D01",
+          "page": 1,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D01-M01.svg",
+              "bytes": 4726,
+              "sha256": "296b1eceb82c87a64d213bde2b23694fc0725c85ebda8f8c1f473e86f76f4d5a",
+              "blob": "22f61b80cda2c8138bc89dcb4cb2a6e6d685222b",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D01-M01.png",
+              "bytes": 158723,
+              "sha256": "3500526521bf80cae2492687c4bdcabf4c0e612859f720f06a53efa79df2dfed",
+              "blob": "a9b1157d27478f7e5a19396c7093cc3434a3694e",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D01-M01.webp",
+              "bytes": 82552,
+              "sha256": "207285c6f5aedb5efd60e5c683618879380d4cb94b1347173c19ab908ec4a5e1",
+              "blob": "b5bb50645a9a059e234327fdc1d558d504860e8b",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        },
+        {
+          "id": "TB-009-D01",
+          "page": 2,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D01-M02.svg",
+              "bytes": 3418,
+              "sha256": "8d8a9ca6e1f2c0b7c69e270f298aff2263ccfab5f1577b086de63f5a3e52e43c",
+              "blob": "1ee88e7968f5d2a0c77d0894e0ec94fd04466e63",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D01-M02.png",
+              "bytes": 115244,
+              "sha256": "b2a60804609f6d70af74899273e6a93d4631cb4a10f6bfea9da5c0ab76121467",
+              "blob": "81311dce39941ea1394d264a5c44b6467d6d249c",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D01-M02.webp",
+              "bytes": 64034,
+              "sha256": "2584eed9a8ac4445e257c60f4a4fee2d3035046cc0330a44486ee73136db8e4d",
+              "blob": "3fa94d93eb3a2897e0188a346b82425795ca2bfc",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        },
+        {
+          "id": "TB-009-D01",
+          "page": 3,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D01-M03.svg",
+              "bytes": 3173,
+              "sha256": "1f96afa08895640c15af512de693d02fac494633db3d7bbef88ff06b5f50f3b1",
+              "blob": "f14474da81af3a67145b5b30bd33524b5c586a82",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D01-M03.png",
+              "bytes": 124789,
+              "sha256": "1db6aab1b38a4706a4b2f92f79b415dcd0e96ce50e5bf673385a7dd02eb3d24e",
+              "blob": "705a770e42107dff2566e64f0b39aa1a2d4931e7",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D01-M03.webp",
+              "bytes": 68674,
+              "sha256": "252b223602656b4da6ed43cf495ac7d15f783480c9c19954642600767c48a164",
+              "blob": "0b6a0e8f8d5b9971ce70791cb6b0f6db66c8c1a2",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        },
+        {
+          "id": "TB-009-D02",
+          "page": 1,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D02-M01.svg",
+              "bytes": 4741,
+              "sha256": "dce3283d837f6e80502bab651e92209e36f7ee8a252f53c6bcfcc1c5aa85f66b",
+              "blob": "c47f6752f6746367dc8607be0a597815d0143b96",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D02-M01.png",
+              "bytes": 153451,
+              "sha256": "b0206c210f5dbd527fe3a8822f939f85db9ff799b564921dd3a7453f6d291551",
+              "blob": "85c69ff1839c844b7853b0b71bd06b7d9dfd08a5",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D02-M01.webp",
+              "bytes": 83626,
+              "sha256": "493a262a2fc361ad61c601dc2866eb44bd59f4a9406d47e5e169dbbd6f953f05",
+              "blob": "358fc1eddbf68ceff4998f33ea094084005eeea9",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        },
+        {
+          "id": "TB-009-D02",
+          "page": 2,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D02-M02.svg",
+              "bytes": 4259,
+              "sha256": "d7afe5a7bd9ebd660378604e6dd9c6fd524d975c037d46322ea6cf6ec47d5e68",
+              "blob": "b7c374597a5179b46841f338c192514b44ec8cfc",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D02-M02.png",
+              "bytes": 154702,
+              "sha256": "9d08cc168eea7b1de13b4e20d3ea55ca5a11a7139c61e248ec850bc916587f90",
+              "blob": "9e7c39fb1993cb2d1670963915097400f609c604",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D02-M02.webp",
+              "bytes": 88534,
+              "sha256": "537ac2185c4ba87ae950f4b927cc37b38b7e7511f3b47677b5a487fbe428909a",
+              "blob": "c43bd60ec3b9b59e86ae562bf7d5e2a08fca53a7",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        },
+        {
+          "id": "TB-009-D03",
+          "page": 1,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D03-M01.svg",
+              "bytes": 4356,
+              "sha256": "818bad89cf7596141b58e6f3570a2e6394464f6a824512991b15b9d026f3e3cd",
+              "blob": "cd1d4069d1ca01d01eb0d1a71ce755ae5f179020",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D03-M01.png",
+              "bytes": 152926,
+              "sha256": "5f42f2bc1a9652c9ccc96a8b5690c6657719f4a0438c0cd131467480b5c3a039",
+              "blob": "7b392fac1f6e8d6e342b94b903273076a52881e4",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D03-M01.webp",
+              "bytes": 80604,
+              "sha256": "8cc0ea77e5bb5fe694600c352f2cbfd326db2904cc0ab1df5e6d7cc3a7298795",
+              "blob": "22654b719412cdf7ba1bebf894c646b76026e867",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        },
+        {
+          "id": "TB-009-D03",
+          "page": 2,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D03-M02.svg",
+              "bytes": 3191,
+              "sha256": "85782835728b9dd90eeed5d708d7a179e499a2f4e191f52c92fdbe086f3dc532",
+              "blob": "893efc836b1b763419273b5b708bfc79056a3f3f",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D03-M02.png",
+              "bytes": 122695,
+              "sha256": "0ff4588004ae9b4c7c0afc3de2d8366a66c1b7342cb03f8f21040879929bbafc",
+              "blob": "a54551f158b8998b36270c905644e520702ab5a3",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D03-M02.webp",
+              "bytes": 67480,
+              "sha256": "b3135819a045af4ae8cb350aae6695aa3bf0a30b20f529f669d4a05062f9dfc1",
+              "blob": "38ebe2d79369735319c4449962bd62f00c600009",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        },
+        {
+          "id": "TB-009-D03",
+          "page": 3,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D03-M03.svg",
+              "bytes": 3041,
+              "sha256": "195743a812dc5b225d4cc2bcbefd6c9caabdfa6087250d29d11664d19594a070",
+              "blob": "dd32207578eb6a14379114ac240f2d31f8c00adb",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D03-M03.png",
+              "bytes": 130750,
+              "sha256": "d6f52ec5ce758557c944ddf8f7a2ddd96d2f7b23968b4470944c49541e80f74e",
+              "blob": "1bbd1b6c2891583f737bae969e1a9d81f62aa4c4",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-009/diagrams/notion-v1/mobile/TB-009-D03-M03.webp",
+              "bytes": 68618,
+              "sha256": "a1ff6662435391cea1afeeb9ef9a0916843052ff5e1b934335fb843a246eecff",
+              "blob": "94073674681ac051e8152b958e3fb55febaf297d",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        }
+      ],
+      "visual_result": "pass",
+      "notes": "마지막 페이지에 조건·범위와 근거 포함, 여백이 남지만 근거만 남는 문제는 해소. 잘림·겹침 없음."
+    },
+    {
+      "lesson": 11,
+      "job_id": "TB-011-MOBILE",
+      "script_blob_matches_pinned": true,
+      "pages": [
+        {
+          "id": "TB-011-D01",
+          "page": 1,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D01-M01.svg",
+              "bytes": 4637,
+              "sha256": "37bf9dff3a7e7da01a4ce3aca0e2cb4170eb910a10262ab8b24974863a449745",
+              "blob": "06aff768bb0f0e57492be0f254000935a8cb3594",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D01-M01.png",
+              "bytes": 153792,
+              "sha256": "f5724fadd2ebd7019311f152744a1cdd3c1a051e9c421fc3db1e90d16a7f34cd",
+              "blob": "4040607ea84d96bc97d117b592c775568ae420f7",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D01-M01.webp",
+              "bytes": 80590,
+              "sha256": "7d7dd51e5d6b4cae0fd1ef7563b5e903e48271fc72ddd6fc6cae1cbae24ea527",
+              "blob": "c6df234799dd7951c6adf9bfff8f648b8add7ad5",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        },
+        {
+          "id": "TB-011-D01",
+          "page": 2,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D01-M02.svg",
+              "bytes": 3392,
+              "sha256": "a79b68770dbfd8137816231c30c30223454c849583b4c4fb767b6360d3117df1",
+              "blob": "d351540144015a4121bce52c77234ce58aad3aa2",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D01-M02.png",
+              "bytes": 131327,
+              "sha256": "91a52a2be82c814158a175eb5f34005b8388965dfbba3f340cef3080b2c2217a",
+              "blob": "2358ea79611e236c6ed7b1c33ff67f5dd633a096",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D01-M02.webp",
+              "bytes": 70520,
+              "sha256": "b0c4698103d7eee003635885f1938f8e18396fd561fad95bddfed033a981974b",
+              "blob": "a0800277c657b82f10103b115f58339fd29584dc",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        },
+        {
+          "id": "TB-011-D01",
+          "page": 3,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D01-M03.svg",
+              "bytes": 2937,
+              "sha256": "a380e372d65484ba03b353133aeb83b8de5a211faf6e355a620bc98e3db374dd",
+              "blob": "46ea9f9c9d71b2599e65498920e0aba29ecf3350",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D01-M03.png",
+              "bytes": 132033,
+              "sha256": "3b0d7a3b846842428faf23201da7542f3cc1cb7a99e7ae15054b5a65191ef473",
+              "blob": "6077f08de76a66068dc6183dd1079a1593a3ad30",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D01-M03.webp",
+              "bytes": 71738,
+              "sha256": "cccefafdbada6b1fb2a427456cbd38f671c8e919f0fab926475f69694e70ce4f",
+              "blob": "aa91613019b6e534be3f022bc5e445227a73fc92",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        },
+        {
+          "id": "TB-011-D02",
+          "page": 1,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D02-M01.svg",
+              "bytes": 4682,
+              "sha256": "4ce7504512e00b8baf7447f83eb64a071bf0d5cb1f8e209e89dce8947a03196d",
+              "blob": "97d22184696f4d01903b7bcea90f9bf86ab312e9",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D02-M01.png",
+              "bytes": 144115,
+              "sha256": "f749ca1085176f2af2a758215effe7d0a6dd378a8471f70ee4025195555a674c",
+              "blob": "f933cb09326abfedcdcfaa07ae6bf8ec71045f6d",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D02-M01.webp",
+              "bytes": 77770,
+              "sha256": "e116f26c849959c76cc9fff996698a012890080e9542699ade86d2d171b14963",
+              "blob": "1a72f3279637de8af00957c98abb2da4bb75ba36",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        },
+        {
+          "id": "TB-011-D02",
+          "page": 2,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D02-M02.svg",
+              "bytes": 3315,
+              "sha256": "b12f31aa8cc739c116f707ce981bb7bd117149a5ea13880fe2f03bc44c0c7762",
+              "blob": "ea7923c04597f5016e6626ec50063e1e46d3611e",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D02-M02.png",
+              "bytes": 130814,
+              "sha256": "3ba72601db53fee080bc40cd65d4cb2f1741f8b34ff3247f0522e0877610fc16",
+              "blob": "8db62bb898c7bed33ac1dbf2a60c167741708460",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D02-M02.webp",
+              "bytes": 72968,
+              "sha256": "50312d46407ef0226c0c1fbacbd119cea36ccc34575ffd378d8500daf5d1741d",
+              "blob": "74d6cd86b94b60668422ba50380d3c2dea8b9afe",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        },
+        {
+          "id": "TB-011-D03",
+          "page": 1,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D03-M01.svg",
+              "bytes": 4603,
+              "sha256": "0df050d3bd47fae7eea2796b729fd625c9a4e1aba3a4873b63604cbb792d9b5b",
+              "blob": "ee1125114b07181ecdc609932cac1d217846c9a7",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D03-M01.png",
+              "bytes": 156487,
+              "sha256": "6658b34b5529029ad3385721a1ac4b049ee1d426cbf018302b4dc52fba5b9a4a",
+              "blob": "daff340e4dfaf358c0aa8c630285ae1f108b4620",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D03-M01.webp",
+              "bytes": 81320,
+              "sha256": "fdf3418cf88901a185c43874952aca65bbaab62a5528926d5e82d1f5628ff634",
+              "blob": "dc97dade60f75e74bd2935145f0ca7ba046ea8af",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        },
+        {
+          "id": "TB-011-D03",
+          "page": 2,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D03-M02.svg",
+              "bytes": 4277,
+              "sha256": "b872a32e916c4f304a7c0fc886ae4f317561df9d271d3563dac4d2b127667585",
+              "blob": "b2738691ae33548c7c6d600fb09a718296b0983b",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D03-M02.png",
+              "bytes": 170660,
+              "sha256": "4f6ac3f21ec321bd7c140736bad5f497647b3b3b5dc7cfbacb88050c2462a515",
+              "blob": "65c6208add2d08ce84778c889da10e8e8cbc3e1e",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-011/diagrams/notion-v1/mobile/TB-011-D03-M02.webp",
+              "bytes": 91070,
+              "sha256": "5a60c9e8ff641ac6e87fa781848e5801b4023b8818a405a09e4b8509276c9547",
+              "blob": "7afa6d942da0c2a848131659e4baddd632cb3bfe",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        }
+      ],
+      "visual_result": "content_repair_required",
+      "notes": "D01 보도본부 설치권한과 기자단 제공 의무의 진행 상황 표현 및 침투·도발 용어를 구분하도록 원고 기준 수정 필요. D02·D03 시각 이상 없음."
+    },
+    {
+      "lesson": 12,
+      "job_id": "TB-012-MOBILE",
+      "script_blob_matches_pinned": true,
+      "pages": [
+        {
+          "id": "TB-012-D01",
+          "page": 1,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-012/diagrams/notion-v1/mobile/TB-012-D01-M01.svg",
+              "bytes": 4342,
+              "sha256": "caa4867f8cc21a2d4018c293037af4d692094bf29b13cd79281777f8882569ca",
+              "blob": "49470ea335e2a13610ee9f6537eb42347825fd09",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-012/diagrams/notion-v1/mobile/TB-012-D01-M01.png",
+              "bytes": 138862,
+              "sha256": "19da78feed75f5db1f63faad27e3219ba99d3835478e8ea5352265618233a61a",
+              "blob": "4e35a5599df276ce64a0002283b9ceb07beb2613",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-012/diagrams/notion-v1/mobile/TB-012-D01-M01.webp",
+              "bytes": 75026,
+              "sha256": "5a4a96e4b2418e31e9456526643de833e76d9b776951044c58b11ca484103a85",
+              "blob": "d871630ea293454242fd2340e81ba02aaab81815",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        },
+        {
+          "id": "TB-012-D01",
+          "page": 2,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-012/diagrams/notion-v1/mobile/TB-012-D01-M02.svg",
+              "bytes": 4390,
+              "sha256": "8ec47d58b4726990a557df84c8182a3015a11a7d65b272a34cd554d973ff974a",
+              "blob": "4c26ff3c33923f6d9cf7ac1542f1d1338d3221ee",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-012/diagrams/notion-v1/mobile/TB-012-D01-M02.png",
+              "bytes": 143113,
+              "sha256": "b1781f89383aa7e7e3d016c39929421f106fc4dee75feda4bfafb379fa64f33f",
+              "blob": "2d93ffe60ba28de7827c35a6e3cb758bfd486237",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-012/diagrams/notion-v1/mobile/TB-012-D01-M02.webp",
+              "bytes": 78984,
+              "sha256": "26d3f9d3fe49c9b06d662dc0ea374baf98f34645d1cb8b88ec0ee4db48ae086d",
+              "blob": "bce9a6012fd910284082f41a2f63cb235cc53cdf",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        },
+        {
+          "id": "TB-012-D01",
+          "page": 3,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-012/diagrams/notion-v1/mobile/TB-012-D01-M03.svg",
+              "bytes": 4282,
+              "sha256": "8aa896ca59b97fe1d63950d27222fe35c7a9da5bda3e8cf19a061a2c655cd46d",
+              "blob": "a5b42693c62c3b5fdae1457d3ef1dc623bafc273",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-012/diagrams/notion-v1/mobile/TB-012-D01-M03.png",
+              "bytes": 172163,
+              "sha256": "80ea53c8fcd63a5d4cd0b9f5aafa1d00c72612c45dc6b4ff07844057f0f41b4e",
+              "blob": "27ac02fc7047b567373c58119df911852c381272",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-012/diagrams/notion-v1/mobile/TB-012-D01-M03.webp",
+              "bytes": 98642,
+              "sha256": "232b898916ca33115666a551ea66b29d894717e014c83578bc3c6c3227a20bc1",
+              "blob": "0e89e723409a5e7fb5a73ffe7324e511e8e70dce",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        },
+        {
+          "id": "TB-012-D02",
+          "page": 1,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-012/diagrams/notion-v1/mobile/TB-012-D02-M01.svg",
+              "bytes": 4511,
+              "sha256": "c45bb6044102d7c3e9e8a6fa412dd036405adeb7fe16303f010e1754c1a182db",
+              "blob": "d1e37231daf242ce2bb56f7c3e933d9cf8c8b077",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-012/diagrams/notion-v1/mobile/TB-012-D02-M01.png",
+              "bytes": 158007,
+              "sha256": "4896d25753c9f1f6123693056099419f82558d175e018fa1bcc1c69648ff5d97",
+              "blob": "7c61eeab69624bcbf141ce4da43d95daa802ea93",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-012/diagrams/notion-v1/mobile/TB-012-D02-M01.webp",
+              "bytes": 83824,
+              "sha256": "3395ee7c499a3978c1f4e26b8dc803c9b7756b2308f93d6e49b92e3d4a7d1921",
+              "blob": "f52747d434bae11ba2431c6627a81a9bb47bdb3b",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        },
+        {
+          "id": "TB-012-D02",
+          "page": 2,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-012/diagrams/notion-v1/mobile/TB-012-D02-M02.svg",
+              "bytes": 4609,
+              "sha256": "dd0424b65532fb59d02127fad3fb554bbc823bcd80fe99a7e177285545e73ba2",
+              "blob": "d8d21567470603a1e94fb59285cbef1d9b0adc66",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-012/diagrams/notion-v1/mobile/TB-012-D02-M02.png",
+              "bytes": 163501,
+              "sha256": "dd9c8fd0cf3873c8f21e89c36ac0c38c3c58bee08e8ce5979e83af1c33f179c6",
+              "blob": "6df29456c1a0363266b53d0213bc41bf56e94d31",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-012/diagrams/notion-v1/mobile/TB-012-D02-M02.webp",
+              "bytes": 90772,
+              "sha256": "27d2e6fe0096caa1b0ba200f025474a82e48611087bcf00d4024b886ae67ef29",
+              "blob": "e8815a2197f90c864292f7cd439871220dd4443e",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        },
+        {
+          "id": "TB-012-D02",
+          "page": 3,
+          "files": [
+            {
+              "path": "integrated-defense/lesson-012/diagrams/notion-v1/mobile/TB-012-D02-M03.svg",
+              "bytes": 2738,
+              "sha256": "b4ab73050c688403ef7f0038f707dbfeb3c8a29ca071f77935438cb2cd774c01",
+              "blob": "70986fb46fd34911db8fde5887f55e5c69d61d7f",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-012/diagrams/notion-v1/mobile/TB-012-D02-M03.png",
+              "bytes": 115652,
+              "sha256": "13fa66cbc832ea7f63f8373cf1e7a0cd78d6a7cd3d11bc9e0e2f5206c8bfc4be",
+              "blob": "ad157d9473eb3a814d09beb4662e4f2d857037b3",
+              "size_match": true
+            },
+            {
+              "path": "integrated-defense/lesson-012/diagrams/notion-v1/mobile/TB-012-D02-M03.webp",
+              "bytes": 63924,
+              "sha256": "04679ac6c3a8a77e74925c4a05f2dc35c51872d7e0bab24e9a47750b2e134e3d",
+              "blob": "8a3a9ef139db54f1e2c6a198f4f1222da5c6951c",
+              "size_match": true
+            }
+          ],
+          "webp_seen": true,
+          "render_report_match": true,
+          "source_match": true,
+          "layout_check": {
+            "text_bounds": true,
+            "no_text_overlap": true,
+            "min_body_px_at_390": 15.166666666666666
+          }
+        }
+      ],
+      "visual_result": "pass",
+      "notes": "조건·범위와 법령 근거 포함, 잘림·겹침 없음."
+    }
+  ],
+  "repair_11": {
+    "status": "patch_prepared_not_rendered",
+    "diagram_id": "TB-011-D01",
+    "instructions": "기존 공개 도식 요약의 다음 세 표현만 정밀화하고 기존 스크립트는 수정하지 않는다. 데스크톱·모바일·alignment·manifest 동시 갱신 후 원격 검수.",
+    "changes": [
+      {
+        "label": "보도본부",
+        "replacement": "통합방위 진행 상황 및 대국민 협조사항 등을 알릴 필요가 있으면 설치·운영 가능"
+      },
+      {
+        "label": "상황 제공",
+        "replacement": "합동보도본부를 통해 취재기자단에 통합방위작전의 진행 상황을 하루 1차례 이상 제공 의무"
+      },
+      {
+        "label": "기간 한정",
+        "replacement": "효율적 작전 수행에 필요하면 적의 구체적인 침투·도발 행위와 아군의 통합방위작전 상황 등을 필요한 기간 동안 비공개 가능"
+      }
+    ]
+  }
+}
