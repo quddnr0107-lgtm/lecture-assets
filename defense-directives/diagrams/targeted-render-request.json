@@ -46,7 +46,7 @@
                 },
                 {
                   "label": "제3호 · 기준",
-                  "text": "전투력을 발휘할 수 있는 단위로 부대화",
+                  "text": "일정한 기준에 따라 전투력을 발휘할 수 있는 단위로 부대화",
                   "bold": false
                 }
               ]
@@ -229,7 +229,7 @@
               "items": [
                 {
                   "label": "정보 공유",
-                  "text": "국방부로부터 정부부처·각 군·해병대·관련기관과 상호 공유",
+                  "text": "동원·예비군 정보자료(DB)를 정부부처, 육·해·공군 및 해병대, 관련기관과 상호 공유하여 업무 처리",
                   "bold": false
                 }
               ]
@@ -378,17 +378,17 @@
               "subtitle": "별표 4",
               "items": [
                 {
-                  "label": "대위",
+                  "label": "예비역 대위",
                   "text": "부지역대장",
                   "bold": false
                 },
                 {
-                  "label": "중사·상사",
+                  "label": "예비역 중사·상사",
                   "text": "통신담당관",
                   "bold": false
                 },
                 {
-                  "label": "중위·대위",
+                  "label": "예비역 중위·대위",
                   "text": "지원과장·동원장교",
                   "bold": false
                 },
@@ -450,12 +450,12 @@
               "items": [
                 {
                   "label": "정보작전과장",
-                  "text": "주민신고망·군사보안·교육훈련·지휘통신·상황실 지원",
+                  "text": "주민신고망· 군사보안· 교육훈련· 지휘통신, 유사시 군·경 상황실 운영 지원",
                   "bold": false
                 },
                 {
                   "label": "지원과장",
-                  "text": "인사·군기·장비·물자·시설·육성지원",
+                  "text": "인사· 군기· 장비· 물자· 시설, 예비군 육성 및 지원",
                   "bold": false
                 }
               ]
@@ -662,7 +662,7 @@
               "subtitle": "제1항제3호라목2)",
               "items": [
                 {
-                  "label": "보류 입력",
+                  "label": "180일 이상 진단서",
                   "text": "원서 제출일부터 진단서상 치료 종료일까지",
                   "bold": false
                 },
@@ -807,7 +807,7 @@
                 },
                 {
                   "label": "판단",
-                  "text": "치료기간을 명시하기 어려운 경우 심의",
+                  "text": "대대급 이상 부대에서 심의",
                   "bold": false
                 }
               ]
@@ -816,7 +816,7 @@
             "sourceClauses": [
               "제1항제3호라목2)"
             ],
-            "note": "",
+            "note": "원칙: 치료기간 180일 이상 진단서 제출 시 보류. 180일 미만은 연기.",
             "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
             "sourceVersion": "국방부훈령 제3216호",
             "effectiveDate": "2026-10-14",
@@ -924,13 +924,13 @@
               "subtitle": "별지 제5호",
               "items": [
                 {
-                  "label": "자진납부 감경",
-                  "text": "100분의 20",
+                  "label": "의견제출 기한 내 자진납부",
+                  "text": "100분의 20 범위 내 감경 가능",
                   "bold": false
                 },
                 {
                   "label": "시행령 해당 감경",
-                  "text": "100분의 50",
+                  "text": "100분의 50 범위 내 감경 가능",
                   "bold": false
                 },
                 {
@@ -989,7 +989,7 @@
             "articleKey": "2-32",
             "title": "과태료 체납의 가산금과 후속조치",
             "subtitle": "체납 금액과 후속조치의 요건을 비교한다.",
-            "layout": "split",
+            "layout": "equal",
             "left": {
               "title": "가산금",
               "subtitle": "체납 시",
@@ -1017,12 +1017,12 @@
                 },
                 {
                   "label": "신용정보",
-                  "text": "요청 시 집중기관에 체납·결손처분 자료 제공 가능",
+                  "text": "신용정보집중기관 요청 시 체납·결손처분 자료 제공 가능",
                   "bold": false
                 },
                 {
                   "label": "감치",
-                  "text": "고액·상습체납자 감치 가능",
+                  "text": "고액 또는 상습체납자 감치 가능",
                   "bold": false
                 }
               ]
@@ -1065,7 +1065,7 @@
             "lessonId": "DR-063",
             "articleKey": "2-19",
             "title": "훈련일정 자율선택의 범위",
-            "subtitle": "소속 예비군부대의 공시 일정에서 원하는 훈련기간을 선택한다.",
+            "subtitle": "사전에 인터넷으로 공시된 일정에서 원하는 훈련기간을 선택한다.",
             "layout": "equal",
             "left": {
               "title": "자율선택",
@@ -1188,7 +1188,7 @@
                 },
                 {
                   "label": "수임군부대장",
-                  "text": "장구류·피복류 등 지원 대책 강구",
+                  "text": "장구류·피복류 등 작전지속지원 대책 강구",
                   "bold": false
                 }
               ]
@@ -1220,5 +1220,22 @@
         }
       ]
     }
-  ]
+  ],
+  "retry": {
+    "previous_failed_run": 45991497562,
+    "reason": "Unbreakable Korean middle-dot list in DR-009-D08; explicit safe breakpoints; exam80 source evidence rechecked",
+    "rechecked_source_blobs": 6,
+    "adjusted_diagram_ids": [
+      "DR-002-D01",
+      "DR-002-D05",
+      "DR-009-D07",
+      "DR-009-D08",
+      "DR-067-D04",
+      "DR-067-D07",
+      "DR-076-D02",
+      "DR-076-D03",
+      "DR-063-D01",
+      "DR-021-D01"
+    ]
+  }
 }
