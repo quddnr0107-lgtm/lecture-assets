@@ -718,17 +718,16 @@
               ]
             }
           ],
-          "takeaway": "재정경제부·기획예산처 관련 개정 부분은 2026.1.2. 시행.",
+          "takeaway": "중앙협의회 의장은 국무총리이며, 장관·기관장 등이 위원으로 참여한다.",
           "notes": [
-            "장관 직위의 묶음은 편집상 구분이다. 장관 외 법정 위원 및 추가 위원은 D04 참조.",
-            "법률 제21065호 중 재정경제부 및 기획예산처 개정 부분의 시행일은 2026.1.2.이다."
+            "장관 직위의 묶음은 편집상 구분이다. 장관 외 법정 위원 및 추가 위원은 D04 참조."
           ],
           "display_notes": [
             "장관 외 법정 위원·추가 위원은 D04 참조."
           ],
           "sources": [
             {
-              "basis": "통합방위법 제4조제2항 및 해당 개정부분 시행일",
+              "basis": "통합방위법 제4조제2항",
               "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315"
             }
           ]
@@ -1071,9 +1070,9 @@
               ]
             }
           ],
-          "takeaway": "2026.10.2. 시행령 개정: 지방공소청 및 지방중대범죄수사청 직위 확인.",
+          "takeaway": "공소청 관련 직위는 제4호, 중대범죄수사청 관련 직위는 제4호의2다.",
           "notes": [
-            "제4호의2가 추가되었으며 제8호~제14호는 D05에서 확인한다.",
+            "제1호~제7호와 제4호의2를 정리했으며, 제8호~제14호는 D05에서 확인한다.",
             "세 묶음은 학습용 분류이며 법정 호 번호는 그대로 표시한다."
           ],
           "display_notes": [
@@ -1812,7 +1811,7 @@
               "items": [
                 {
                   "label": "역할",
-                  "detail": "대공정보 조정·분담, 첩보 수집·판단으로 지역 작전부대 지원"
+                  "detail": "대공정보업무 조정·분담, 첩보 수집·정보 판단으로 지역 작전부대 지원"
                 },
                 {
                   "label": "구성·성격",
@@ -3831,5 +3830,14 @@
         }
       ]
     }
-  ]
+  ],
+  "source_basis": {
+    "exam_number": 80,
+    "period": "27년 전반기",
+    "policy": "integrated-defense/production-queue/EXAM80-SCRIPT-SOURCE.json",
+    "alignment_report": "integrated-defense/notion-v1/script-alignment.json",
+    "authority": "existing_approved_lecture_manuscripts",
+    "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+    "catalog_version": "174fce697dc12f9aa3d6da7d6e98ddd8e9c1a3c79ac7e6ba39ef1b9de2dd1290"
+  }
 }

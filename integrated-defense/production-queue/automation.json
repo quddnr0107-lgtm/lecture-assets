@@ -6,11 +6,13 @@
   "status": "scheduled",
   "reason": null,
   "automation_id": "Automation_086c407a2438819190f289ac0f0462d8",
-  "updated_at_kst": "2026-11-27T10:48:53+09:00",
+  "updated_at_kst": "2026-11-27T12:02:16+09:00",
   "request": "automation-request.json",
-  "note": "통합방위법 전용 예약이 활성화되었다. 매시간 최신 큐에서 작업을 이어 처리하며, 실제 완료 수는 queue.json과 runs/ 검증 기록을 기준으로 한다.",
+  "note": "제80회 기존 스크립트를 내용 기준으로 하는 통합방위법 전용 예약. 매시간 최신 큐를 이어 처리하며 실제 완료 수는 원고·이미지·원격 검수 후 기록.",
   "is_enabled": true,
   "timing_mode": "exact_schedule",
   "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Seoul:20261127T114900\nRRULE:FREQ=HOURLY;INTERVAL=1\nEND:VEVENT",
-  "first_scheduled_run_at_kst": "2026-11-27T11:49:00+09:00"
+  "first_scheduled_run_at_kst": "2026-11-27T11:49:00+09:00",
+  "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+  "prompt_sha256": "76db5432893f7011e23c5ad4308613c472752220a0d518f9f0bf947136de7754"
 }

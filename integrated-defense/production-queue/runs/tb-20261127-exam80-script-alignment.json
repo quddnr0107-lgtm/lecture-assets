@@ -1,0 +1,83 @@
+{
+  "run_id": "tb-20261127-exam80-script-alignment",
+  "completed_at_kst": "2026-11-27T12:04:11+09:00",
+  "status": "source_alignment_and_three_corrections_complete",
+  "source_policy": "../EXAM80-SCRIPT-SOURCE.json",
+  "source_lessons_verified": 25,
+  "diagrams_text_reviewed": 55,
+  "changed_diagrams": [
+    "TB-004-D03",
+    "TB-005-D04",
+    "TB-010-D01"
+  ],
+  "alignment_report": "../../notion-v1/script-alignment.json",
+  "changed_files": [
+    {
+      "path": "integrated-defense/lesson-004/diagrams/notion-v1/TB-004-D03-central-council-ministers.svg",
+      "bytes": 9123,
+      "sha256": "bf83f268ee2359d1a66a3390811446c59755204d64d0594cdcc2e2f83afbf8d7",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-004/diagrams/notion-v1/TB-004-D03-central-council-ministers.png",
+      "bytes": 129570,
+      "sha256": "eaa30f9e8da6e1ddf513c3521fd44b72b924c01cf69d25dfd6b44d73d1ccce24",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-004/diagrams/notion-v1/TB-004-D03-central-council-ministers.webp",
+      "bytes": 70646,
+      "sha256": "01b862215a27bf0360fbd4e537ba99573fe5d528a8eb2602e4759fab22a6ef11",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-005/diagrams/notion-v1/TB-005-D04-regional-council-members-part-one.svg",
+      "bytes": 9746,
+      "sha256": "957151313bedf274fc628365078f6fc5af0dd9ef22f6cec7a15d7d1a0aa26535",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-005/diagrams/notion-v1/TB-005-D04-regional-council-members-part-one.png",
+      "bytes": 137673,
+      "sha256": "784d8ac4f1a3db2174acdec36c49969ff636c3507669722d22ff59977ab46dfe",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-005/diagrams/notion-v1/TB-005-D04-regional-council-members-part-one.webp",
+      "bytes": 73334,
+      "sha256": "7d019737aa10900f8d2ceb140c417ab3fe5f313ec65e1383f8118821b3ab7801",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-010/diagrams/notion-v1/TB-010-D01-information-center-vs-investigation-team.svg",
+      "bytes": 11726,
+      "sha256": "4d3cba956c318c71a5ae252ad91efbd624554b14fc08f58107f35e46c17ed5e8",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-010/diagrams/notion-v1/TB-010-D01-information-center-vs-investigation-team.png",
+      "bytes": 182271,
+      "sha256": "aa6d6e81d65261e372c900372fd7619e4ad299313d5720977a3d17e72f5d2b99",
+      "width": 1600,
+      "height": 1120
+    },
+    {
+      "path": "integrated-defense/lesson-010/diagrams/notion-v1/TB-010-D01-information-center-vs-investigation-team.webp",
+      "bytes": 104292,
+      "sha256": "f97d6a465565f7a95661051772d48ce32a30b5f37010342941fc0e62ee6acd6f",
+      "width": 1600,
+      "height": 1120
+    }
+  ],
+  "visual_scope": "수정 도식 3개, 전체 55개 재렌더 검수 아님",
+  "queue_completion_count_unchanged": true,
+  "automation_rule": "제80회 기존 강의 원고 기준. 매시간 주기는 유지.",
+  "next_work": "원고 일치 검수된 내용을 사용해 30개 큐의 남은 이미지 검수와 모바일 제작을 이어간다."
+}

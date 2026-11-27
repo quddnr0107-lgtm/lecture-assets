@@ -12,6 +12,10 @@ def main():
     data=json.loads((DEST/'content.json').read_text())
     records=json.loads((DEST/'render-records.json').read_text())
     draft=json.loads(DRAFT.read_text())
+    if data.get('source_basis',{}).get('exam_number') != 80:
+        raise ValueError('Require existing exam-80 script basis before supplement rendering')
+    if draft.get('script_review',{}).get('status') != 'matched_existing_script':
+        raise ValueError('Compare supplements with the existing exam-80 scripts first')
     ids={r['id'] for r in records}; new=[]; qa=[]
     for s in draft['items']:
         l=next(l for l in data['lessons'] if l['lesson']==s['lesson'])

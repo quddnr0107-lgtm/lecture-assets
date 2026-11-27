@@ -309,5 +309,20 @@
       ],
       "gaps": []
     }
-  ]
+  ],
+  "source_basis": {
+    "exam_number": 80,
+    "period": "27년 전반기",
+    "policy": "integrated-defense/production-queue/EXAM80-SCRIPT-SOURCE.json",
+    "alignment_report": "integrated-defense/notion-v1/script-alignment.json",
+    "authority": "existing_approved_lecture_manuscripts",
+    "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+    "catalog_version": "174fce697dc12f9aa3d6da7d6e98ddd8e9c1a3c79ac7e6ba39ef1b9de2dd1290"
+  },
+  "script_revalidation": {
+    "status": "matched_existing_script",
+    "lessons": 25,
+    "diagrams": 55,
+    "report": "../notion-v1/script-alignment.json"
+  }
 }

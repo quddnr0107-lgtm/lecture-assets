@@ -1,0 +1,1193 @@
+{
+  "schema_version": 1,
+  "exam_number": 80,
+  "period": "27년 전반기",
+  "checked_at_kst": "2026-11-27T12:02:16+09:00",
+  "status": "matched_existing_script",
+  "source_policy": "../production-queue/EXAM80-SCRIPT-SOURCE.json",
+  "lessons_reviewed": 25,
+  "diagrams_reviewed": 55,
+  "corrected_diagrams": [
+    "TB-004-D03",
+    "TB-005-D04",
+    "TB-010-D01"
+  ],
+  "method": "기존 강의 원고 전문과 도식의 본문·주체·숫자·기관명·요건·예외·기억할 문장·주석을 의미 단위로 대조. 해시는 검사 대상 버전을 식별한다.",
+  "hash_serialization": "UTF-8 JSON, sort_keys=True, ensure_ascii=False, separators=(comma,colon)",
+  "corrections": [
+    {
+      "diagram_id": "TB-004-D03",
+      "change": "원고에 없는 개정 시행일 강조를 제거하고 의장·위원 관계로 정리."
+    },
+    {
+      "diagram_id": "TB-005-D04",
+      "change": "원고에 없는 개정이력 강조를 제거하고 제4호와 제4호의2를 구분."
+    },
+    {
+      "diagram_id": "TB-010-D01",
+      "change": "원고의 첩보 수집·정보 판단 구분을 보존."
+    }
+  ],
+  "scope_note": "기존 원고 내용 일치 검수. 전체 강의 설명의 완전 수록, 모든 이미지의 재검수, 암호화 음성 원고 전문과의 바이트 비교를 뜻하지 않음.",
+  "items": [
+    {
+      "diagram_id": "TB-001-D01",
+      "lecture_id": "TB-001",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "067fee23a265ccbd0abe08ccf676bf6a3f30ea27fdb80a1e9ab3161618b30fca",
+      "script_sha256": "bceadf7509da807f9fd00c4bd7ca6cf8aa13e5797ccb078d853db8eaf2342915",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-001",
+          "start_line": 21,
+          "end_line": 49,
+          "script_sha256": "bceadf7509da807f9fd00c4bd7ca6cf8aa13e5797ccb078d853db8eaf2342915",
+          "block_sha256": "a7b154589f998a091fc79b8c68f41d58da6c25757847ff2e537cb0fa9655925a"
+        },
+        {
+          "lecture_id": "TB-001",
+          "start_line": 77,
+          "end_line": 81,
+          "script_sha256": "bceadf7509da807f9fd00c4bd7ca6cf8aa13e5797ccb078d853db8eaf2342915",
+          "block_sha256": "0edb19fbe44417d7b3cfcac32c83234ee01f318d4c359e19cad0904726d7d381"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-002-D01",
+      "lecture_id": "TB-002",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "46ab04f7986845f1c3972a59ef6663f25ba6e751d20e397d4c994acc5e2f08e8",
+      "script_sha256": "7ad7905e5afe06ee6557ebb6703ebaf02214747023ee5b0070e1ff93132b0b7a",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-002",
+          "start_line": 43,
+          "end_line": 75,
+          "script_sha256": "7ad7905e5afe06ee6557ebb6703ebaf02214747023ee5b0070e1ff93132b0b7a",
+          "block_sha256": "c93571704a37a67a31492410c48fca3acf5899c6598b07e4946bd019deebf085"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-002-D02",
+      "lecture_id": "TB-002",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "f27fbbc00b5a1490a1bf4ca30dfee293057c92f88bbc96111c2fb143c2e12865",
+      "script_sha256": "7ad7905e5afe06ee6557ebb6703ebaf02214747023ee5b0070e1ff93132b0b7a",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-002",
+          "start_line": 135,
+          "end_line": 175,
+          "script_sha256": "7ad7905e5afe06ee6557ebb6703ebaf02214747023ee5b0070e1ff93132b0b7a",
+          "block_sha256": "fa288d72092d6be10fc61d3c9aa787c8552e341dbb1a9d2361a4696fdef9f6a0"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-002-D03",
+      "lecture_id": "TB-002",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "c8cd1c9f8a11cffb984a3ac93bb4a4489b6b3f2aecf4c726e65cc3632feed1e6",
+      "script_sha256": "7ad7905e5afe06ee6557ebb6703ebaf02214747023ee5b0070e1ff93132b0b7a",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-002",
+          "start_line": 19,
+          "end_line": 37,
+          "script_sha256": "7ad7905e5afe06ee6557ebb6703ebaf02214747023ee5b0070e1ff93132b0b7a",
+          "block_sha256": "36ebad094f42fd3bc2ee5f972359af5d6c4eb199ccc97812e672764fd85eb316"
+        },
+        {
+          "lecture_id": "TB-002",
+          "start_line": 95,
+          "end_line": 133,
+          "script_sha256": "7ad7905e5afe06ee6557ebb6703ebaf02214747023ee5b0070e1ff93132b0b7a",
+          "block_sha256": "30bcb9ce88cf791c2176693836986b2400e8fe0abd943ee95e213a2c4faf52dd"
+        },
+        {
+          "lecture_id": "TB-002",
+          "start_line": 179,
+          "end_line": 247,
+          "script_sha256": "7ad7905e5afe06ee6557ebb6703ebaf02214747023ee5b0070e1ff93132b0b7a",
+          "block_sha256": "cf3f91e3a694d604314bdfb7d0fc18237a5d9eb5ea33e97f89e892143774958a"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-003-D01",
+      "lecture_id": "TB-003",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "3d6dedaece90d22aef275f348139bd1d7c5a5306141d3ad74c2bb599c7b7dd9c",
+      "script_sha256": "16a80629291bb7ef3ca028a5239f5b06febd1a2d380f3d4b8ce3bd6055457a3d",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-003",
+          "start_line": 19,
+          "end_line": 99,
+          "script_sha256": "16a80629291bb7ef3ca028a5239f5b06febd1a2d380f3d4b8ce3bd6055457a3d",
+          "block_sha256": "35b079c0cd803cece7b21c62df382d441b71c647068248e77bc9f0dce4032576"
+        },
+        {
+          "lecture_id": "TB-003",
+          "start_line": 225,
+          "end_line": 250,
+          "script_sha256": "16a80629291bb7ef3ca028a5239f5b06febd1a2d380f3d4b8ce3bd6055457a3d",
+          "block_sha256": "bd79d61cd8a9ef21bae969d610ad11fd7f5e154476a7e35b29e8c68407327bcf"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-003-D02",
+      "lecture_id": "TB-003",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "7d9814c9a2ae596ec18000b7c50a49831428fcc2863839eef81c5de1a63485a0",
+      "script_sha256": "16a80629291bb7ef3ca028a5239f5b06febd1a2d380f3d4b8ce3bd6055457a3d",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-003",
+          "start_line": 101,
+          "end_line": 115,
+          "script_sha256": "16a80629291bb7ef3ca028a5239f5b06febd1a2d380f3d4b8ce3bd6055457a3d",
+          "block_sha256": "a3a04bbb1f095e6eb62e38b874b169cb5e2e3f56a051e69f537c6c6499e0b7a3"
+        },
+        {
+          "lecture_id": "TB-003",
+          "start_line": 161,
+          "end_line": 222,
+          "script_sha256": "16a80629291bb7ef3ca028a5239f5b06febd1a2d380f3d4b8ce3bd6055457a3d",
+          "block_sha256": "8105ddd694ccdc778def6af07425d7274aa944f5a06d98b60f69f68ef3752af6"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-003-D03",
+      "lecture_id": "TB-003",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "6b23aeee1bafedabdf6c64423940b6b0e6dec38ef69c2c70c9481b3e37a7aba4",
+      "script_sha256": "16a80629291bb7ef3ca028a5239f5b06febd1a2d380f3d4b8ce3bd6055457a3d",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-003",
+          "start_line": 117,
+          "end_line": 144,
+          "script_sha256": "16a80629291bb7ef3ca028a5239f5b06febd1a2d380f3d4b8ce3bd6055457a3d",
+          "block_sha256": "b004c7a7fe7182ce0e587ddac43f92e67105e96e1ca3acec5858e64d152224eb"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-003-D04",
+      "lecture_id": "TB-003",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "5b5d3cfc03c5ab61f993671cd80eef87a32cf48d8d5117797145fed1a4a1eb66",
+      "script_sha256": "16a80629291bb7ef3ca028a5239f5b06febd1a2d380f3d4b8ce3bd6055457a3d",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-003",
+          "start_line": 140,
+          "end_line": 174,
+          "script_sha256": "16a80629291bb7ef3ca028a5239f5b06febd1a2d380f3d4b8ce3bd6055457a3d",
+          "block_sha256": "ceb0c6fd2c8c07233e5d62e9bce45e74a6b3de6a770ed100a44c66740d7b239c"
+        },
+        {
+          "lecture_id": "TB-003",
+          "start_line": 176,
+          "end_line": 222,
+          "script_sha256": "16a80629291bb7ef3ca028a5239f5b06febd1a2d380f3d4b8ce3bd6055457a3d",
+          "block_sha256": "50d380211c4aa592f986c9dff311bb6fa76df18abc27d7da52311c2142d2f587"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-004-D01",
+      "lecture_id": "TB-004",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "6b2335ca21a30d93f34a57a859b1bd799c3b6baf906476cadef051b5ec8eafa9",
+      "script_sha256": "4c41b368efc9bef00e1eaa8286e6349b171457bdc4303dff464dec459b83aaf6",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-004",
+          "start_line": 15,
+          "end_line": 70,
+          "script_sha256": "4c41b368efc9bef00e1eaa8286e6349b171457bdc4303dff464dec459b83aaf6",
+          "block_sha256": "7ca1fc6721998696cbb95d6e208c7c3cc2a7927b37f1aad5753849f652837519"
+        },
+        {
+          "lecture_id": "TB-004",
+          "start_line": 246,
+          "end_line": 274,
+          "script_sha256": "4c41b368efc9bef00e1eaa8286e6349b171457bdc4303dff464dec459b83aaf6",
+          "block_sha256": "c53ac07bcb86c69716b9452d3a272ae063c38e3a8a8f8288295472fa3c8d0090"
+        },
+        {
+          "lecture_id": "TB-015",
+          "start_line": 45,
+          "end_line": 65,
+          "script_sha256": "5b88ac7de391882478ace18208aabfdd82293c03c719dbc6665030d701c189c5",
+          "block_sha256": "10d2f00a1ad2066762571e6beae9550d817ed9f36dfb6eb037b31c1e9c62d244"
+        },
+        {
+          "lecture_id": "TB-015",
+          "start_line": 123,
+          "end_line": 131,
+          "script_sha256": "5b88ac7de391882478ace18208aabfdd82293c03c719dbc6665030d701c189c5",
+          "block_sha256": "bd813337007dc9df9c0870dd52c8003ce1ee44a5cf51353889056035617fc2a5"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-004-D02",
+      "lecture_id": "TB-004",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "b16ce84403ec871295774ab85c2ec17f03c0499db25998f37286f0847ab54c7e",
+      "script_sha256": "4c41b368efc9bef00e1eaa8286e6349b171457bdc4303dff464dec459b83aaf6",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-004",
+          "start_line": 73,
+          "end_line": 137,
+          "script_sha256": "4c41b368efc9bef00e1eaa8286e6349b171457bdc4303dff464dec459b83aaf6",
+          "block_sha256": "c86986d015e0408630c59dcfd33dac9f51c1d59813098f564f7dd28656af41fd"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-004-D03",
+      "lecture_id": "TB-004",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "988170bf27c423827742973c2b48904aada8350605494e8a4adf524d535ac857",
+      "script_sha256": "4c41b368efc9bef00e1eaa8286e6349b171457bdc4303dff464dec459b83aaf6",
+      "corrected_in_this_review": true,
+      "references": [
+        {
+          "lecture_id": "TB-004",
+          "start_line": 21,
+          "end_line": 45,
+          "script_sha256": "4c41b368efc9bef00e1eaa8286e6349b171457bdc4303dff464dec459b83aaf6",
+          "block_sha256": "9e30ff3336adba4a04abd21692a2323c8b83a3ae591d9b3b1e969b215b2fdf89"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-004-D04",
+      "lecture_id": "TB-004",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "3f7e3658b37bf457c8c46dac355185117480c2f23da717497c7e71207e641486",
+      "script_sha256": "4c41b368efc9bef00e1eaa8286e6349b171457bdc4303dff464dec459b83aaf6",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-004",
+          "start_line": 21,
+          "end_line": 54,
+          "script_sha256": "4c41b368efc9bef00e1eaa8286e6349b171457bdc4303dff464dec459b83aaf6",
+          "block_sha256": "00474b63a8e9d4616913ee6b1b4d7f78a575e788a12bf0876a0b44dc627f8612"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-005-D01",
+      "lecture_id": "TB-005",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "437a9b86e81aa0e9364e6300907d99644e0533d1bd9b15c65ffe8fe26651d9c5",
+      "script_sha256": "6888706128827a908cd1eaa8be819b16bce2a79ef01d59a8705e889b253e48a3",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-005",
+          "start_line": 17,
+          "end_line": 112,
+          "script_sha256": "6888706128827a908cd1eaa8be819b16bce2a79ef01d59a8705e889b253e48a3",
+          "block_sha256": "ec0b2a171b5b19f3c1ab17165dc4653f102b8df807c355228a01fbd7d37de661"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-005-D02",
+      "lecture_id": "TB-005",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "5761779d2921695be98cb1f8330f80d838815cd9bfac52c49a90ed289928dad8",
+      "script_sha256": "6888706128827a908cd1eaa8be819b16bce2a79ef01d59a8705e889b253e48a3",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-005",
+          "start_line": 17,
+          "end_line": 57,
+          "script_sha256": "6888706128827a908cd1eaa8be819b16bce2a79ef01d59a8705e889b253e48a3",
+          "block_sha256": "df6677306044dd0abdda04717c3eec5be6d502aa9f27e7a9993a37fc33988d20"
+        },
+        {
+          "lecture_id": "TB-005",
+          "start_line": 147,
+          "end_line": 162,
+          "script_sha256": "6888706128827a908cd1eaa8be819b16bce2a79ef01d59a8705e889b253e48a3",
+          "block_sha256": "be86428fec23d5f733f88d42c788d60ee5bf534152c3fe5c233b1313405b13d6"
+        },
+        {
+          "lecture_id": "TB-005",
+          "start_line": 187,
+          "end_line": 221,
+          "script_sha256": "6888706128827a908cd1eaa8be819b16bce2a79ef01d59a8705e889b253e48a3",
+          "block_sha256": "c1117a7d9fa3de4d6ed2c1e7abf36c0e1d5dbf19f1a8a9adb828d321fb3ae33c"
+        },
+        {
+          "lecture_id": "TB-004",
+          "start_line": 268,
+          "end_line": 274,
+          "script_sha256": "4c41b368efc9bef00e1eaa8286e6349b171457bdc4303dff464dec459b83aaf6",
+          "block_sha256": "879871f6d640f6284ef6c4834d6f53728a28b6cbb16679d4f0978a3cafb186f4"
+        },
+        {
+          "lecture_id": "TB-003",
+          "start_line": 176,
+          "end_line": 222,
+          "script_sha256": "16a80629291bb7ef3ca028a5239f5b06febd1a2d380f3d4b8ce3bd6055457a3d",
+          "block_sha256": "50d380211c4aa592f986c9dff311bb6fa76df18abc27d7da52311c2142d2f587"
+        },
+        {
+          "lecture_id": "TB-015",
+          "start_line": 123,
+          "end_line": 131,
+          "script_sha256": "5b88ac7de391882478ace18208aabfdd82293c03c719dbc6665030d701c189c5",
+          "block_sha256": "bd813337007dc9df9c0870dd52c8003ce1ee44a5cf51353889056035617fc2a5"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-005-D03",
+      "lecture_id": "TB-005",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "0cb3feda8504d7c1efad63defffc8f8f36ab12033a7c72ae47ed489ebd492c6a",
+      "script_sha256": "6888706128827a908cd1eaa8be819b16bce2a79ef01d59a8705e889b253e48a3",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-005",
+          "start_line": 115,
+          "end_line": 144,
+          "script_sha256": "6888706128827a908cd1eaa8be819b16bce2a79ef01d59a8705e889b253e48a3",
+          "block_sha256": "cd2846ac860510ebe3f78b9c0140c220b77c28ffbb2d4a081f45f71f33461ab4"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-005-D04",
+      "lecture_id": "TB-005",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "a1b595c8dbd56d0cf4b3c185026f6a37854534d27b358fbf8c9ce090487414ed",
+      "script_sha256": "6888706128827a908cd1eaa8be819b16bce2a79ef01d59a8705e889b253e48a3",
+      "corrected_in_this_review": true,
+      "references": [
+        {
+          "lecture_id": "TB-005",
+          "start_line": 164,
+          "end_line": 172,
+          "script_sha256": "6888706128827a908cd1eaa8be819b16bce2a79ef01d59a8705e889b253e48a3",
+          "block_sha256": "3d8ef758c5ec9680b7d0cfa851b1853753e373fbd6ea8283503271b971975799"
+        },
+        {
+          "lecture_id": "TB-005",
+          "start_line": 181,
+          "end_line": 185,
+          "script_sha256": "6888706128827a908cd1eaa8be819b16bce2a79ef01d59a8705e889b253e48a3",
+          "block_sha256": "e39296f72fc40e881347198529ba8d30b8b1217dd8253ea1f4c368d9e6aaba61"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-005-D05",
+      "lecture_id": "TB-005",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "d7192a9737c51af75ebe95535c6efdc2a410f06af615ecf539582fbb422f1d05",
+      "script_sha256": "6888706128827a908cd1eaa8be819b16bce2a79ef01d59a8705e889b253e48a3",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-005",
+          "start_line": 173,
+          "end_line": 185,
+          "script_sha256": "6888706128827a908cd1eaa8be819b16bce2a79ef01d59a8705e889b253e48a3",
+          "block_sha256": "7f8ca03bf077e9815e0ec76b4c5d4a4faeb7a56c8e6d2afeba673a7c0dab73b7"
+        },
+        {
+          "lecture_id": "TB-005",
+          "start_line": 147,
+          "end_line": 162,
+          "script_sha256": "6888706128827a908cd1eaa8be819b16bce2a79ef01d59a8705e889b253e48a3",
+          "block_sha256": "be86428fec23d5f733f88d42c788d60ee5bf534152c3fe5c233b1313405b13d6"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-006-D01",
+      "lecture_id": "TB-006",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "8c87b38714ed2e921f96c9b86071712dfd9ba631079ed08d4a68cf174563120b",
+      "script_sha256": "aa63516a404abae9034162cc4f31e576398b28d89e1fb7e7de8a22f4eab2ce68",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-006",
+          "start_line": 19,
+          "end_line": 100,
+          "script_sha256": "aa63516a404abae9034162cc4f31e576398b28d89e1fb7e7de8a22f4eab2ce68",
+          "block_sha256": "cb6b3ff15d3daffdb8dde3b1993783157edf49e3b266460cc6b20ab2c5cb8b61"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-006-D02",
+      "lecture_id": "TB-006",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "532d106ce31344bb017065aec35503a33306aec911fd90e49dd092a322e904cd",
+      "script_sha256": "aa63516a404abae9034162cc4f31e576398b28d89e1fb7e7de8a22f4eab2ce68",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-006",
+          "start_line": 102,
+          "end_line": 146,
+          "script_sha256": "aa63516a404abae9034162cc4f31e576398b28d89e1fb7e7de8a22f4eab2ce68",
+          "block_sha256": "607ee787cde32a7e9cfb2a03756b5e96b4ab4eaa1f8784e5d1cecf283707ea5d"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-007-D01",
+      "lecture_id": "TB-007",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "39e8097a2482e4b6bae1a1d32c023613bdbeb1eb90d8a6890058dd45aa9b0c82",
+      "script_sha256": "1d1c8cfce3ffb3e9b13e7e3253e0df623385f7cbee659ccf78f6d95b9c59ffc8",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-007",
+          "start_line": 21,
+          "end_line": 97,
+          "script_sha256": "1d1c8cfce3ffb3e9b13e7e3253e0df623385f7cbee659ccf78f6d95b9c59ffc8",
+          "block_sha256": "cf58abd1c006b0d46c41e1a24e1df7fe9c9be5c5ae7feb8d26c01c1ab16a7574"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-008-D01",
+      "lecture_id": "TB-008",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "9f3b5b2a5eed31f3335622bbdb3df45678d2ecba412c3ad9b68a10e90f698bf2",
+      "script_sha256": "a29319805f5d7d810023319051f62801bc6342a204bd1d6a95fe40eef0f3eb30",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-008",
+          "start_line": 15,
+          "end_line": 99,
+          "script_sha256": "a29319805f5d7d810023319051f62801bc6342a204bd1d6a95fe40eef0f3eb30",
+          "block_sha256": "be43b9f039cf77c86b0844ed21178a608731cefa1ccca0cd6794a67f3caecf70"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-008-D02",
+      "lecture_id": "TB-008",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "86c2e05e65cbd7e50f61cea631e3223034020bd8fced814132da8ca94af937e3",
+      "script_sha256": "a29319805f5d7d810023319051f62801bc6342a204bd1d6a95fe40eef0f3eb30",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-008",
+          "start_line": 135,
+          "end_line": 183,
+          "script_sha256": "a29319805f5d7d810023319051f62801bc6342a204bd1d6a95fe40eef0f3eb30",
+          "block_sha256": "1ad2208ccaec5d0432292a0ab176d529d5022476c25823ae78209f6af13d3330"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-008-D03",
+      "lecture_id": "TB-008",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "e2f897f2cbac8753f43d31aaf9cf458657956cb8747a8c92dbb1fd69fc386216",
+      "script_sha256": "a29319805f5d7d810023319051f62801bc6342a204bd1d6a95fe40eef0f3eb30",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-008",
+          "start_line": 101,
+          "end_line": 133,
+          "script_sha256": "a29319805f5d7d810023319051f62801bc6342a204bd1d6a95fe40eef0f3eb30",
+          "block_sha256": "496a4e672181752865c3b0e9aed1454a587b3986df9f4a8de9b3cbca8ed8ca5c"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-009-D01",
+      "lecture_id": "TB-009",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "9dba68a1257d93786386066e6f82cf715fccd9586e608f46d2dc013c4c7916e1",
+      "script_sha256": "62e146a31bccf8c6fff05a8a4c7157f451d8c3c350c505a8c04340621190b387",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-009",
+          "start_line": 19,
+          "end_line": 119,
+          "script_sha256": "62e146a31bccf8c6fff05a8a4c7157f451d8c3c350c505a8c04340621190b387"
+        },
+        {
+          "lecture_id": "TB-009",
+          "start_line": 207,
+          "end_line": 221,
+          "script_sha256": "62e146a31bccf8c6fff05a8a4c7157f451d8c3c350c505a8c04340621190b387"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-009-D02",
+      "lecture_id": "TB-009",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "8b3056e34fb7a75c31e1965f9acac0a44a9efd3cca549f4dd76dcd9cc925ca0e",
+      "script_sha256": "62e146a31bccf8c6fff05a8a4c7157f451d8c3c350c505a8c04340621190b387",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-009",
+          "start_line": 135,
+          "end_line": 151,
+          "script_sha256": "62e146a31bccf8c6fff05a8a4c7157f451d8c3c350c505a8c04340621190b387"
+        },
+        {
+          "lecture_id": "TB-009",
+          "start_line": 227,
+          "end_line": 257,
+          "script_sha256": "62e146a31bccf8c6fff05a8a4c7157f451d8c3c350c505a8c04340621190b387"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-009-D03",
+      "lecture_id": "TB-009",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "d887b1aec09b617ffb0d441ba00d54175f0047e922b9806de3bc321ebdda7349",
+      "script_sha256": "62e146a31bccf8c6fff05a8a4c7157f451d8c3c350c505a8c04340621190b387",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-009",
+          "start_line": 155,
+          "end_line": 205,
+          "script_sha256": "62e146a31bccf8c6fff05a8a4c7157f451d8c3c350c505a8c04340621190b387"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-010-D01",
+      "lecture_id": "TB-010",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "7fde7f4b19ce6782dbe2b93dd011990bad139413f0a116a040f87a443059bfaf",
+      "script_sha256": "6b1fbd4569190c8b3f481274ede34ba08171e60b22eacee62a2c7da23984b476",
+      "corrected_in_this_review": true,
+      "references": [
+        {
+          "lecture_id": "TB-010",
+          "start_line": 19,
+          "end_line": 51,
+          "script_sha256": "6b1fbd4569190c8b3f481274ede34ba08171e60b22eacee62a2c7da23984b476"
+        },
+        {
+          "lecture_id": "TB-010",
+          "start_line": 71,
+          "end_line": 89,
+          "script_sha256": "6b1fbd4569190c8b3f481274ede34ba08171e60b22eacee62a2c7da23984b476"
+        },
+        {
+          "lecture_id": "TB-010",
+          "start_line": 113,
+          "end_line": 139,
+          "script_sha256": "6b1fbd4569190c8b3f481274ede34ba08171e60b22eacee62a2c7da23984b476"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-011-D01",
+      "lecture_id": "TB-011",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "7c379da8309296b5858e51352c047cc5b5902b7da61a10c1e53a375715be4131",
+      "script_sha256": "56e3e3568ff5d310b7383614f99bef808c18bdc1a0a883d1e31e6c43a41c3d67",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-011",
+          "start_line": 19,
+          "end_line": 65,
+          "script_sha256": "56e3e3568ff5d310b7383614f99bef808c18bdc1a0a883d1e31e6c43a41c3d67"
+        },
+        {
+          "lecture_id": "TB-011",
+          "start_line": 145,
+          "end_line": 171,
+          "script_sha256": "56e3e3568ff5d310b7383614f99bef808c18bdc1a0a883d1e31e6c43a41c3d67"
+        },
+        {
+          "lecture_id": "TB-011",
+          "start_line": 199,
+          "end_line": 229,
+          "script_sha256": "56e3e3568ff5d310b7383614f99bef808c18bdc1a0a883d1e31e6c43a41c3d67"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-011-D02",
+      "lecture_id": "TB-011",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "1cb237092fecbe4b95021f7d0a0dba5bc81e1a81c2fb2be2ce4899406421e3e5",
+      "script_sha256": "56e3e3568ff5d310b7383614f99bef808c18bdc1a0a883d1e31e6c43a41c3d67",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-011",
+          "start_line": 175,
+          "end_line": 185,
+          "script_sha256": "56e3e3568ff5d310b7383614f99bef808c18bdc1a0a883d1e31e6c43a41c3d67"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-011-D03",
+      "lecture_id": "TB-011",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "880b8933c55ec29727c55f0d9c4af139319cf9edfb2dd501741f232634a24dc6",
+      "script_sha256": "56e3e3568ff5d310b7383614f99bef808c18bdc1a0a883d1e31e6c43a41c3d67",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-011",
+          "start_line": 67,
+          "end_line": 137,
+          "script_sha256": "56e3e3568ff5d310b7383614f99bef808c18bdc1a0a883d1e31e6c43a41c3d67"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-012-D01",
+      "lecture_id": "TB-012",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "6a786d28dfc60fd9e12080d55365fc74ccadce09bdfaf4135bbc3f59934d334b",
+      "script_sha256": "a2954905e96e64d245ffa99807bdd55713018af2c0e9bd38c45846b3b38f4f1e",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-012",
+          "start_line": 33,
+          "end_line": 115,
+          "script_sha256": "a2954905e96e64d245ffa99807bdd55713018af2c0e9bd38c45846b3b38f4f1e"
+        },
+        {
+          "lecture_id": "TB-012",
+          "start_line": 119,
+          "end_line": 194,
+          "script_sha256": "a2954905e96e64d245ffa99807bdd55713018af2c0e9bd38c45846b3b38f4f1e"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-012-D02",
+      "lecture_id": "TB-012",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "cb2cb0a6beb7081aa6c01f8ffb678ed3e2c74897297231516668d11a8bb32783",
+      "script_sha256": "a2954905e96e64d245ffa99807bdd55713018af2c0e9bd38c45846b3b38f4f1e",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-012",
+          "start_line": 200,
+          "end_line": 288,
+          "script_sha256": "a2954905e96e64d245ffa99807bdd55713018af2c0e9bd38c45846b3b38f4f1e"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-013-D01",
+      "lecture_id": "TB-013",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "db9f5c8d71a1bbe589f6a77ac7d23d31d8c5fea62369ba4cb971f29eacab78b0",
+      "script_sha256": "404a9835f5c00a4b50e1ac4e1f586cc81e6be121241cc1506e1e206cab2377ba",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-013",
+          "start_line": 19,
+          "end_line": 133,
+          "script_sha256": "404a9835f5c00a4b50e1ac4e1f586cc81e6be121241cc1506e1e206cab2377ba"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-013-D02",
+      "lecture_id": "TB-013",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "8b4630cf770e851990545767071b1ff475d1e37db470ddee65c91d1f6c9e88f8",
+      "script_sha256": "404a9835f5c00a4b50e1ac4e1f586cc81e6be121241cc1506e1e206cab2377ba",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-013",
+          "start_line": 131,
+          "end_line": 167,
+          "script_sha256": "404a9835f5c00a4b50e1ac4e1f586cc81e6be121241cc1506e1e206cab2377ba"
+        },
+        {
+          "lecture_id": "TB-013",
+          "start_line": 183,
+          "end_line": 224,
+          "script_sha256": "404a9835f5c00a4b50e1ac4e1f586cc81e6be121241cc1506e1e206cab2377ba"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-014-D01",
+      "lecture_id": "TB-014",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "c5657794cefe2cdcf0d1c178fb5e962211c721e0674ec02e5a32fff2f009cfa5",
+      "script_sha256": "7c489e2dacee1d76ebdf8d3543537e4ace5e1f8a76a4e6133e993df1d1decaf4",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-014",
+          "start_line": 19,
+          "end_line": 93,
+          "script_sha256": "7c489e2dacee1d76ebdf8d3543537e4ace5e1f8a76a4e6133e993df1d1decaf4"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-015-D01",
+      "lecture_id": "TB-015",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "80ce41ae6e71aa28004b5c0c7327b1961824dcb04da3ca624ce2c3490c681160",
+      "script_sha256": "5b88ac7de391882478ace18208aabfdd82293c03c719dbc6665030d701c189c5",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-015",
+          "start_line": 19,
+          "end_line": 147,
+          "script_sha256": "5b88ac7de391882478ace18208aabfdd82293c03c719dbc6665030d701c189c5"
+        },
+        {
+          "lecture_id": "TB-015",
+          "start_line": 158,
+          "end_line": 162,
+          "script_sha256": "5b88ac7de391882478ace18208aabfdd82293c03c719dbc6665030d701c189c5"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-016-D01",
+      "lecture_id": "TB-016",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "84e13c0b144adf5f1a358e1849e07d4f07704d96cab1af3d8265d801991772c9",
+      "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-016",
+          "start_line": 19,
+          "end_line": 96,
+          "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+        },
+        {
+          "lecture_id": "TB-016",
+          "start_line": 126,
+          "end_line": 126,
+          "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-016-D02",
+      "lecture_id": "TB-016",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "a4e126b80b4f9c7c6a656bfb55a1318292e99f9bcf926caacdef74efa853cb70",
+      "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-016",
+          "start_line": 132,
+          "end_line": 168,
+          "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+        },
+        {
+          "lecture_id": "TB-016",
+          "start_line": 188,
+          "end_line": 200,
+          "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-016-D03",
+      "lecture_id": "TB-016",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "884d2b2c66cfea1c4860625e0f75e706604be6cc5246954e8d3179f7c7ab5cb1",
+      "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-016",
+          "start_line": 110,
+          "end_line": 110,
+          "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+        },
+        {
+          "lecture_id": "TB-016",
+          "start_line": 172,
+          "end_line": 186,
+          "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+        },
+        {
+          "lecture_id": "TB-016",
+          "start_line": 202,
+          "end_line": 232,
+          "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-016-D04",
+      "lecture_id": "TB-016",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "54e10c6b7b4cf3b45c1c10f30e2be2967c2b9b45bd79ba48c5b6e135e562f804",
+      "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-016",
+          "start_line": 128,
+          "end_line": 128,
+          "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+        },
+        {
+          "lecture_id": "TB-016",
+          "start_line": 236,
+          "end_line": 274,
+          "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-017-D01",
+      "lecture_id": "TB-017",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "5ac89340acf9cf3c5aae644dc874bfa45c564289b8d0fd7b7d5db07270fb5433",
+      "script_sha256": "0f7b3bb7462af83ee4afde92e1cb14263656c3a5926edefd6b658296a459d481",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-017",
+          "start_line": 17,
+          "end_line": 74,
+          "script_sha256": "0f7b3bb7462af83ee4afde92e1cb14263656c3a5926edefd6b658296a459d481"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-017-D02",
+      "lecture_id": "TB-017",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "968ce16bfeb42d3516dd0e68eede61ba8352b5a1552212cb9ba6485e690a4744",
+      "script_sha256": "0f7b3bb7462af83ee4afde92e1cb14263656c3a5926edefd6b658296a459d481",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-017",
+          "start_line": 94,
+          "end_line": 174,
+          "script_sha256": "0f7b3bb7462af83ee4afde92e1cb14263656c3a5926edefd6b658296a459d481"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-018-D01",
+      "lecture_id": "TB-018",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "9a110962a5925d161919952a05e01235753f7ee832c8d4eca9b945d5cef35601",
+      "script_sha256": "ae658eab0186763a0bb477a9d230347d3a1d2c4c26674a09166b6bb88ea1d38f",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-018",
+          "start_line": 15,
+          "end_line": 69,
+          "script_sha256": "ae658eab0186763a0bb477a9d230347d3a1d2c4c26674a09166b6bb88ea1d38f"
+        },
+        {
+          "lecture_id": "TB-018",
+          "start_line": 131,
+          "end_line": 169,
+          "script_sha256": "ae658eab0186763a0bb477a9d230347d3a1d2c4c26674a09166b6bb88ea1d38f"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-018-D02",
+      "lecture_id": "TB-018",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "66b13a9a021841fb73691582a7fab03d22af5f4339a692c8bce9b084180259e4",
+      "script_sha256": "ae658eab0186763a0bb477a9d230347d3a1d2c4c26674a09166b6bb88ea1d38f",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-018",
+          "start_line": 77,
+          "end_line": 125,
+          "script_sha256": "ae658eab0186763a0bb477a9d230347d3a1d2c4c26674a09166b6bb88ea1d38f"
+        },
+        {
+          "lecture_id": "TB-018",
+          "start_line": 175,
+          "end_line": 189,
+          "script_sha256": "ae658eab0186763a0bb477a9d230347d3a1d2c4c26674a09166b6bb88ea1d38f"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-019-D01",
+      "lecture_id": "TB-019",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "96b98df06732775390d7ce791b60a3a6d7319e8809e61931e1339f74f5376756",
+      "script_sha256": "98017bb359b1b8c317771d60a48b7e2c08f8847278b6ff1d1ceb63647315b979",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-019",
+          "start_line": 15,
+          "end_line": 71,
+          "script_sha256": "98017bb359b1b8c317771d60a48b7e2c08f8847278b6ff1d1ceb63647315b979"
+        },
+        {
+          "lecture_id": "TB-019",
+          "start_line": 91,
+          "end_line": 181,
+          "script_sha256": "98017bb359b1b8c317771d60a48b7e2c08f8847278b6ff1d1ceb63647315b979"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-020-D01",
+      "lecture_id": "TB-020",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "56d3bfbf3b1b0ba9424fdc26aba64de86e40d04dd886a50203ace7ad0a4cdf4a",
+      "script_sha256": "f1a7bef9092d4339ef46d0bebbac60d94a2a7c14253d54c3d90aff613913c25d",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-020",
+          "start_line": 13,
+          "end_line": 71,
+          "script_sha256": "f1a7bef9092d4339ef46d0bebbac60d94a2a7c14253d54c3d90aff613913c25d"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-021-D01",
+      "lecture_id": "TB-021",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "b73e8502df1312e4ae5e9434ef05e7395a7393e245cbbb730e5ecbf40019b7f7",
+      "script_sha256": "fdb2d86a415287dc3a5dff025becb436cfa99d2822a40e72bd274eb00b974ff2",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-021",
+          "start_line": 13,
+          "end_line": 75,
+          "script_sha256": "fdb2d86a415287dc3a5dff025becb436cfa99d2822a40e72bd274eb00b974ff2"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-022-D01",
+      "lecture_id": "TB-022",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "93b2c2c046976f42354f2a30ae41d020c6a7d6b3838210aa5136d01bd56eeaa8",
+      "script_sha256": "a87aa799b9ca11a0db2a657fea0211e0861ce98055bec4a4af4daf042078b2d9",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-022",
+          "start_line": 19,
+          "end_line": 139,
+          "script_sha256": "a87aa799b9ca11a0db2a657fea0211e0861ce98055bec4a4af4daf042078b2d9"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-022-D02",
+      "lecture_id": "TB-022",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "170ebb446eadd20e88ffcad6d34ff7de7d574a151f3545ecf3b6eb5c5b54c504",
+      "script_sha256": "a87aa799b9ca11a0db2a657fea0211e0861ce98055bec4a4af4daf042078b2d9",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-022",
+          "start_line": 171,
+          "end_line": 225,
+          "script_sha256": "a87aa799b9ca11a0db2a657fea0211e0861ce98055bec4a4af4daf042078b2d9"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-023-D01",
+      "lecture_id": "TB-023",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "f5dc036f6c51678c83753a6c07f2bfa662db51c9ea08c6c55a50105c52b9f8d8",
+      "script_sha256": "ea56015be5ae8be852aa5a2700fe3501b90e97003e4a0e89cb94e690849ef7a8",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-023",
+          "start_line": 53,
+          "end_line": 76,
+          "script_sha256": "ea56015be5ae8be852aa5a2700fe3501b90e97003e4a0e89cb94e690849ef7a8"
+        },
+        {
+          "lecture_id": "TB-023",
+          "start_line": 155,
+          "end_line": 181,
+          "script_sha256": "ea56015be5ae8be852aa5a2700fe3501b90e97003e4a0e89cb94e690849ef7a8"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-023-D02",
+      "lecture_id": "TB-023",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "a969c7abc33747ae2d5bffe74584e7f560556e7d42b520e721de703105e34fbe",
+      "script_sha256": "ea56015be5ae8be852aa5a2700fe3501b90e97003e4a0e89cb94e690849ef7a8",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-023",
+          "start_line": 19,
+          "end_line": 51,
+          "script_sha256": "ea56015be5ae8be852aa5a2700fe3501b90e97003e4a0e89cb94e690849ef7a8"
+        },
+        {
+          "lecture_id": "TB-023",
+          "start_line": 80,
+          "end_line": 100,
+          "script_sha256": "ea56015be5ae8be852aa5a2700fe3501b90e97003e4a0e89cb94e690849ef7a8"
+        },
+        {
+          "lecture_id": "TB-023",
+          "start_line": 183,
+          "end_line": 203,
+          "script_sha256": "ea56015be5ae8be852aa5a2700fe3501b90e97003e4a0e89cb94e690849ef7a8"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-023-D03",
+      "lecture_id": "TB-023",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "abaa42a10d3d5f04f3b1f568e051480160ae91fb4e28c36a6ec9840ccb1d808d",
+      "script_sha256": "ea56015be5ae8be852aa5a2700fe3501b90e97003e4a0e89cb94e690849ef7a8",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-023",
+          "start_line": 104,
+          "end_line": 151,
+          "script_sha256": "ea56015be5ae8be852aa5a2700fe3501b90e97003e4a0e89cb94e690849ef7a8"
+        },
+        {
+          "lecture_id": "TB-023",
+          "start_line": 209,
+          "end_line": 279,
+          "script_sha256": "ea56015be5ae8be852aa5a2700fe3501b90e97003e4a0e89cb94e690849ef7a8"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-024-D01",
+      "lecture_id": "TB-024",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "e24e3f368a498da98d07336353377b62875eb03357dd69772f344e3cbbb317e3",
+      "script_sha256": "707edcb0004ea6cc7471f26bfec05589697fc392c7aaa7184113bed745714cb0",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-024",
+          "start_line": 21,
+          "end_line": 75,
+          "script_sha256": "707edcb0004ea6cc7471f26bfec05589697fc392c7aaa7184113bed745714cb0"
+        },
+        {
+          "lecture_id": "TB-024",
+          "start_line": 135,
+          "end_line": 169,
+          "script_sha256": "707edcb0004ea6cc7471f26bfec05589697fc392c7aaa7184113bed745714cb0"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-024-D02",
+      "lecture_id": "TB-024",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "c151c009cd412c1747efd99b5c5a167741ea754493e22406e3983d786bb12f14",
+      "script_sha256": "707edcb0004ea6cc7471f26bfec05589697fc392c7aaa7184113bed745714cb0",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-024",
+          "start_line": 83,
+          "end_line": 99,
+          "script_sha256": "707edcb0004ea6cc7471f26bfec05589697fc392c7aaa7184113bed745714cb0"
+        },
+        {
+          "lecture_id": "TB-024",
+          "start_line": 109,
+          "end_line": 129,
+          "script_sha256": "707edcb0004ea6cc7471f26bfec05589697fc392c7aaa7184113bed745714cb0"
+        }
+      ]
+    },
+    {
+      "diagram_id": "TB-025-D01",
+      "lecture_id": "TB-025",
+      "status": "matched_existing_script",
+      "diagram_content_sha256": "0305b4318303cb627fd04c644287543bfd315b98eb7cf4a85d632e6cf1d76513",
+      "script_sha256": "ebc095a2e53d1a3f2eaf0aa5d7e33fb1387c40b7cac97008702f0b420ad34190",
+      "corrected_in_this_review": false,
+      "references": [
+        {
+          "lecture_id": "TB-025",
+          "start_line": 17,
+          "end_line": 55,
+          "script_sha256": "ebc095a2e53d1a3f2eaf0aa5d7e33fb1387c40b7cac97008702f0b420ad34190"
+        },
+        {
+          "lecture_id": "TB-025",
+          "start_line": 79,
+          "end_line": 79,
+          "script_sha256": "ebc095a2e53d1a3f2eaf0aa5d7e33fb1387c40b7cac97008702f0b420ad34190"
+        }
+      ]
+    }
+  ]
+}

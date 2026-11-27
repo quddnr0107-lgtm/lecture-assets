@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "policy_id": "exam80-existing-script-v1",
+  "exam_number": 80,
+  "period": "27년 전반기",
+  "user_instruction": "80회 기준, 기존 스크립트로 제작",
+  "confirmed_at_kst": "2026-11-27T12:02:16+09:00",
+  "content_authority": "기존 제80회 통합방위법 합본 강의 스크립트 25편",
+  "script_source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "manuscript_last_change_commit": "7383ff90a7e97abc125c2f73b937b5437aa5790e",
+  "catalog_version": "174fce697dc12f9aa3d6da7d6e98ddd8e9c1a3c79ac7e6ba39ef1b9de2dd1290",
+  "law_cutoff": "2027-02-02",
+  "law_cutoff_source": "user-instruction-20261019",
+  "official_notice_verified": false,
+  "rules": [
+    "기존 스크립트의 강의 번호·주제·설명 순서·주체·기관명·숫자·요건·예외를 내용 기준으로 삼는다.",
+    "읽기 쉬운 도식으로 요약·배치하되, 기존 원고에 없는 법령 개정 이력·설명·학습 주제를 추가하지 않는다.",
+    "원고를 새로 쓰거나 최신 법령을 이유로 원고의 표현을 임의로 바꾸지 않는다. 제79회 자료를 섞지 않는다.",
+    "법령 출처와 시행일은 근거 메타데이터로 보존할 수 있다. 별도의 최신화 지시로 해석하지 않는다.",
+    "원고에서 확인되지 않거나 충돌하는 내용만 확인 필요로 기록하고, 다른 독립 작업을 계속한다.",
+    "원고 버전이 달라지면 이 고정 버전과 차이를 확인한다. 새 원고를 임의로 기준으로 교체하지 않는다.",
+    "비공개 원고 전문과 앵커는 공개하지 않는다. 공개 검수에는 강의 ID·원고 해시·도식 해시만 연결한다."
+  ],
+  "verification_scope": "기존 합본 원고의 원격 파일 해시와 도식 텍스트 대조. 암호화 재생 payload의 전문 바이트 동일성은 확인하지 않음.",
+  "lessons": [
+    {
+      "lecture_id": "TB-001",
+      "article": "통합방위법 제1조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제1조.txt",
+      "script_sha256": "bceadf7509da807f9fd00c4bd7ca6cf8aa13e5797ccb078d853db8eaf2342915",
+      "script_blob_sha": "930b1280f2e079fbbd8a0659b893072f481c0975"
+    },
+    {
+      "lecture_id": "TB-002",
+      "article": "통합방위법 제2조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제2조.txt",
+      "script_sha256": "7ad7905e5afe06ee6557ebb6703ebaf02214747023ee5b0070e1ff93132b0b7a",
+      "script_blob_sha": "dd4eb08959c986f9e4b196907c7c2bea5eb9ba2c"
+    },
+    {
+      "lecture_id": "TB-003",
+      "article": "통합방위법 제3조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제3조.txt",
+      "script_sha256": "16a80629291bb7ef3ca028a5239f5b06febd1a2d380f3d4b8ce3bd6055457a3d",
+      "script_blob_sha": "60483162ee3a62d7537dba909e37fc46ce31d52c"
+    },
+    {
+      "lecture_id": "TB-004",
+      "article": "통합방위법 제4조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제4조.txt",
+      "script_sha256": "4c41b368efc9bef00e1eaa8286e6349b171457bdc4303dff464dec459b83aaf6",
+      "script_blob_sha": "734ea1abc6130fe8d0f7ed4cb1e5f2c72386bfc0"
+    },
+    {
+      "lecture_id": "TB-005",
+      "article": "통합방위법 제5조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제5조.txt",
+      "script_sha256": "6888706128827a908cd1eaa8be819b16bce2a79ef01d59a8705e889b253e48a3",
+      "script_blob_sha": "b14d1e631329e2f1c972946a0152c42967f54e9d"
+    },
+    {
+      "lecture_id": "TB-006",
+      "article": "통합방위법 제6조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제6조.txt",
+      "script_sha256": "aa63516a404abae9034162cc4f31e576398b28d89e1fb7e7de8a22f4eab2ce68",
+      "script_blob_sha": "f3a310b6d71d2047ecfdf55f6cab01db096d99e0"
+    },
+    {
+      "lecture_id": "TB-007",
+      "article": "통합방위법 제7조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제7조.txt",
+      "script_sha256": "1d1c8cfce3ffb3e9b13e7e3253e0df623385f7cbee659ccf78f6d95b9c59ffc8",
+      "script_blob_sha": "456ec6849afd25ebbada757865c0a067bf0b737a"
+    },
+    {
+      "lecture_id": "TB-008",
+      "article": "통합방위법 제8조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제8조.txt",
+      "script_sha256": "a29319805f5d7d810023319051f62801bc6342a204bd1d6a95fe40eef0f3eb30",
+      "script_blob_sha": "de7241f5b53b445886a8815ad5f622d8763f131b"
+    },
+    {
+      "lecture_id": "TB-009",
+      "article": "통합방위법 제9조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제9조.txt",
+      "script_sha256": "62e146a31bccf8c6fff05a8a4c7157f451d8c3c350c505a8c04340621190b387",
+      "script_blob_sha": "b033aa700b2c71ad6fdb6fc32b58fb395a875581"
+    },
+    {
+      "lecture_id": "TB-010",
+      "article": "통합방위법 제9조의2",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제9조의2.txt",
+      "script_sha256": "6b1fbd4569190c8b3f481274ede34ba08171e60b22eacee62a2c7da23984b476",
+      "script_blob_sha": "82e90841369173d6cb14c97cf9866c0b77eb8218"
+    },
+    {
+      "lecture_id": "TB-011",
+      "article": "통합방위법 제10조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제10조.txt",
+      "script_sha256": "56e3e3568ff5d310b7383614f99bef808c18bdc1a0a883d1e31e6c43a41c3d67",
+      "script_blob_sha": "7be74a2cc300ed21f060e36f862aecf71a3e06ce"
+    },
+    {
+      "lecture_id": "TB-012",
+      "article": "통합방위법 제11조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제11조.txt",
+      "script_sha256": "a2954905e96e64d245ffa99807bdd55713018af2c0e9bd38c45846b3b38f4f1e",
+      "script_blob_sha": "1aefec41fef393c47b48b2a8a07ce3934e3193a0"
+    },
+    {
+      "lecture_id": "TB-013",
+      "article": "통합방위법 제12조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제12조.txt",
+      "script_sha256": "404a9835f5c00a4b50e1ac4e1f586cc81e6be121241cc1506e1e206cab2377ba",
+      "script_blob_sha": "6ff62eb82f14df68e4827b71c18666c1596bd328"
+    },
+    {
+      "lecture_id": "TB-014",
+      "article": "통합방위법 제13조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제13조.txt",
+      "script_sha256": "7c489e2dacee1d76ebdf8d3543537e4ace5e1f8a76a4e6133e993df1d1decaf4",
+      "script_blob_sha": "086c1ca0d47d0795090f2bcf4c3ff1cb7b135e3b"
+    },
+    {
+      "lecture_id": "TB-015",
+      "article": "통합방위법 제14조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제14조.txt",
+      "script_sha256": "5b88ac7de391882478ace18208aabfdd82293c03c719dbc6665030d701c189c5",
+      "script_blob_sha": "06930935a424c87b93ee1ac7b0eb80af1752cee9"
+    },
+    {
+      "lecture_id": "TB-016",
+      "article": "통합방위법 제15조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제15조.txt",
+      "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9",
+      "script_blob_sha": "d76d755878fa0d01ba6e100d2a7e0c23c7c4156a"
+    },
+    {
+      "lecture_id": "TB-017",
+      "article": "통합방위법 제16조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제16조.txt",
+      "script_sha256": "0f7b3bb7462af83ee4afde92e1cb14263656c3a5926edefd6b658296a459d481",
+      "script_blob_sha": "3ca91fc4ea85da0de74f23a6566d3d68cbc28560"
+    },
+    {
+      "lecture_id": "TB-018",
+      "article": "통합방위법 제17조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제17조.txt",
+      "script_sha256": "ae658eab0186763a0bb477a9d230347d3a1d2c4c26674a09166b6bb88ea1d38f",
+      "script_blob_sha": "cecb111bf0b51c69c478a272a01f25a83a1079cf"
+    },
+    {
+      "lecture_id": "TB-019",
+      "article": "통합방위법 제18조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제18조.txt",
+      "script_sha256": "98017bb359b1b8c317771d60a48b7e2c08f8847278b6ff1d1ceb63647315b979",
+      "script_blob_sha": "863ab0dda515cdb345992d1d063c6d715efce3fd"
+    },
+    {
+      "lecture_id": "TB-020",
+      "article": "통합방위법 제19조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제19조.txt",
+      "script_sha256": "f1a7bef9092d4339ef46d0bebbac60d94a2a7c14253d54c3d90aff613913c25d",
+      "script_blob_sha": "1fb91c8ab8a92fca77439cfe8124a5e010e12eeb"
+    },
+    {
+      "lecture_id": "TB-021",
+      "article": "통합방위법 제20조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제20조.txt",
+      "script_sha256": "fdb2d86a415287dc3a5dff025becb436cfa99d2822a40e72bd274eb00b974ff2",
+      "script_blob_sha": "5ca0a8c21b9c2fedcdb5ac4e1655e497c101f2dc"
+    },
+    {
+      "lecture_id": "TB-022",
+      "article": "통합방위법 제21조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제21조.txt",
+      "script_sha256": "a87aa799b9ca11a0db2a657fea0211e0861ce98055bec4a4af4daf042078b2d9",
+      "script_blob_sha": "1d8173f9a6d133e07ce4a191b187b31fe28355f0"
+    },
+    {
+      "lecture_id": "TB-023",
+      "article": "통합방위법 제22조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제22조.txt",
+      "script_sha256": "ea56015be5ae8be852aa5a2700fe3501b90e97003e4a0e89cb94e690849ef7a8",
+      "script_blob_sha": "18a59188db1b3c2dad7ee451ce75e724cf4c0ec0"
+    },
+    {
+      "lecture_id": "TB-024",
+      "article": "통합방위법 제23조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제23조.txt",
+      "script_sha256": "707edcb0004ea6cc7471f26bfec05589697fc392c7aaa7184113bed745714cb0",
+      "script_blob_sha": "72e512d49c3fb7da26011be78f571ef10a93a24e"
+    },
+    {
+      "lecture_id": "TB-025",
+      "article": "통합방위법 제24조",
+      "script_ref": "docs/merged-lectures/통합방위법/통합방위법_제24조.txt",
+      "script_sha256": "ebc095a2e53d1a3f2eaf0aa5d7e33fb1387c40b7cac97008702f0b420ad34190",
+      "script_blob_sha": "997eff142394168b83a85df07f6838cdc6ecc7a3"
+    }
+  ]
+}

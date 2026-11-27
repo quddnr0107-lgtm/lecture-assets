@@ -1,8 +1,10 @@
 # 통합방위법 강의 자료
 
+**내용 기준: 제80회(27년 전반기) 기존 통합방위법 강의 스크립트 25편.** [기준 원고·검수 정책](production-queue/EXAM80-SCRIPT-SOURCE.json)
+
 ## 도식: 7번 선택 스타일 적용
 
-**25강 · 핵심 도식 49장 · SVG / PNG / WebP · 2026년 11월 27일**
+**25강 · 도식 55장 · SVG / PNG / WebP · 2026년 11월 27일**
 
 [전체 도식·강의별 목록](notion-v1/) · [파일·해시 목록](notion-v1/manifest.json) · [강의 연결표](notion-v1/lecture-map.json)
 

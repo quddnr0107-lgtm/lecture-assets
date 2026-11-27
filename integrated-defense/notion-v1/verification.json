@@ -23,5 +23,35 @@
     "텍스트 경계·겹침",
     "강의별 출처와 예외 표시",
     "독립 비교와 절차 화살표 구분"
-  ]
+  ],
+  "script_alignment": {
+    "report": "script-alignment.json",
+    "exam_number": 80,
+    "lessons": 25,
+    "diagrams": 55,
+    "corrected_diagrams": [
+      "TB-004-D03",
+      "TB-005-D04",
+      "TB-010-D01"
+    ],
+    "scope": "기존 강의 원고와 도식 텍스트 대조; 기존 49개 이미지 검수 기록의 범위를 확대하지 않음.",
+    "changed_image_review": {
+      "diagrams": [
+        "TB-004-D03",
+        "TB-005-D04",
+        "TB-010-D01"
+      ],
+      "formats": [
+        "svg",
+        "png",
+        "webp"
+      ],
+      "file_count": 9,
+      "width": 1600,
+      "height": 1120,
+      "layout_bounds_errors": 0,
+      "text_overlap_errors": 0,
+      "visual_review": "수정한 3개 도식 PNG의 한글·개정이력 제거·첩보/정보 구분·잘림·겹침 확인"
+    }
+  }
 }
