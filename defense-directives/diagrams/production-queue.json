@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-28T06:25:14+09:00",
+  "updated_at": "2026-11-28T07:30:14+09:00",
   "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
     "status": "files_completed",
@@ -68,19 +68,19 @@
   "state": {
     "active_run": null,
     "last_successful_run": {
-      "id": "dr-20261128-042219-script",
-      "render_commit": "ba2cbd82dbb769a6769068ee90938c4d7e14dd8a",
-      "new_diagrams": 2,
-      "revised_diagrams": 0,
-      "completed_reviews": 2,
+      "id": "dr-20261128-062514-script",
+      "render_commit": "e8a97783ed7ed331fe15da1e1e76b92266ab734a",
+      "new_diagrams": 0,
+      "revised_diagrams": 6,
+      "completed_reviews": 3,
       "visual_qa": "passed"
     },
     "coverage_reviews_total": 78,
-    "coverage_reviews_queued": 35,
-    "coverage_reviews_completed": 43,
-    "confirmed_production_jobs": 103,
+    "coverage_reviews_queued": 32,
+    "coverage_reviews_completed": 46,
+    "confirmed_production_jobs": 109,
     "diagrams_added_after_baseline": 36,
-    "diagrams_revised_after_baseline": 63,
+    "diagrams_revised_after_baseline": 69,
     "script_bindings_verified": 78,
     "last_correction": {
       "updated_at": "2026-11-27T11:59:19+09:00",
@@ -94,9 +94,9 @@
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
     "production_jobs_queued": 0,
-    "production_jobs_qa": 6,
-    "production_jobs_completed": 103,
-    "production_jobs_running": 6
+    "production_jobs_qa": 0,
+    "production_jobs_completed": 109,
+    "production_jobs_running": 0
   },
   "jobs": [
     {
@@ -2038,7 +2038,7 @@
       "lesson_id": "DR-064",
       "title": "예비군 교육훈련 훈령 제20조, 전국단위훈련",
       "priority": 51,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 2,
       "existing_diagram_ids": [
         "DR-064-D01",
@@ -2054,29 +2054,32 @@
       "input_fingerprint": {
         "script_sha256": "606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0",
         "existing_svg_sha256": [
-          "90f25f3e704f0e8516bdf9299fc1407b27d3369a077534aec6c80deb37042649",
-          "e09416803bfc9790a7d7d603a001308c49ed9b1280162c511e563421db78353b"
+          "4c7f9cfae6d44d6c587faa7775168ffc182a9b54cab993745dfe5769c188d734",
+          "646c86675b334cc16b20b074bbfaa2e0b7a0d71ceb81045f72bed772292ecebb"
         ],
         "design_version": "editorial-v1"
       },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-28T07:30:14+09:00",
       "result": {
         "scope": "원고 1–148행과 기존 구조화 도식 D01·D02 대조",
-        "full_review_completed": false,
+        "full_review_completed": true,
         "source_sha256": "606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0",
         "source_git_blob": "e014fc84c521b1e039b439633ad31b04ce97079f",
-        "uncovered_required_learning_objectives": [
-          "전국단위훈련 공시·신청 주체와 인터넷 기한 및 서식 구분",
-          "신청 정원 편성·확대 판단·축소 승인 주체 구분"
-        ],
+        "uncovered_required_learning_objectives": [],
         "additional_diagrams_required": false,
-        "visual_qa": "기존 구조화 도식 텍스트 대조 완료, 수정 렌더 및 실물 검수 필요"
+        "visual_qa": "passed",
+        "visual_reviewed_at": "2026-11-28T07:30:14+09:00",
+        "coverage": "전국단위훈련 공시·신청 주체와 인터넷 기한 및 서식 구분; 신청 정원 편성·확대 판단·축소 승인 주체 구분"
       },
       "script_ref": "DR-064",
-      "script_sha256": "606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0"
+      "script_sha256": "606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0",
+      "confirmed_production_job_ids": [
+        "DR-064-D01-script-062514",
+        "DR-064-D02-script-062514"
+      ]
     },
     {
       "id": "DR-065-coverage-review-v1",
@@ -2084,7 +2087,7 @@
       "lesson_id": "DR-065",
       "title": "예비군 교육훈련 훈령 제21조, 휴일예비군훈련",
       "priority": 52,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 2,
       "existing_diagram_ids": [
         "DR-065-D01",
@@ -2100,29 +2103,32 @@
       "input_fingerprint": {
         "script_sha256": "5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d",
         "existing_svg_sha256": [
-          "7bc0856ad58051ea9b7bf322b3e9945d9b1ce86ffbcd810bb57ec506e4b8f7a9",
-          "9893f10dbc6d507d6d2ce41a1f767651ba03b1a8f9da8caaf256b337cf6c1319"
+          "05d4d2a6f511a09f2c9c84df3456e393cec762d3fe19f75c6a99e5bd63f8c1e7",
+          "f53fde829dcf54df6b2e072bd23486e4d89f0a73df026feb55808684e2919fc4"
         ],
         "design_version": "editorial-v1"
       },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-28T07:30:14+09:00",
       "result": {
         "scope": "원고 1–157행과 기존 구조화 도식 D01·D02 대조",
-        "full_review_completed": false,
+        "full_review_completed": true,
         "source_sha256": "5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d",
         "source_git_blob": "456f35c842315c21d936107fbcbf9d0085a09433",
-        "uncovered_required_learning_objectives": [
-          "휴일훈련 지정권자와 연간 공시·개별 공지 주체 구분",
-          "교관 구성과 조교 위로휴가 조건 비교"
-        ],
+        "uncovered_required_learning_objectives": [],
         "additional_diagrams_required": false,
-        "visual_qa": "기존 구조화 도식 텍스트 대조 완료, 수정 렌더 및 실물 검수 필요"
+        "visual_qa": "passed",
+        "visual_reviewed_at": "2026-11-28T07:30:14+09:00",
+        "coverage": "휴일훈련 지정권자와 연간 공시·개별 공지 주체 구분; 교관 구성과 조교 위로휴가 조건 비교"
       },
       "script_ref": "DR-065",
-      "script_sha256": "5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d"
+      "script_sha256": "5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d",
+      "confirmed_production_job_ids": [
+        "DR-065-D01-script-062514",
+        "DR-065-D02-script-062514"
+      ]
     },
     {
       "id": "DR-072-coverage-review-v1",
@@ -2130,7 +2136,7 @@
       "lesson_id": "DR-072",
       "title": "예비군 교육훈련 훈령 제28조, 급식지원 기준",
       "priority": 53,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 2,
       "existing_diagram_ids": [
         "DR-072-D01",
@@ -2146,29 +2152,32 @@
       "input_fingerprint": {
         "script_sha256": "63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd",
         "existing_svg_sha256": [
-          "7a2a40315eb49e10018da4121d3f333e48dcab0a26fcaf476d94451bb997da9c",
-          "20475fa8690bee378df82fd559734fd54f29989985609dd85033563fe140cf85"
+          "380487c875dfdf8ebce4716dcefc30007e0402f1c9b103c3d045d783910518ae",
+          "b1c0e5b1696f56ac72690b5be02ea7500dbb8a3055fe28e33a134ab516abd801"
         ],
         "design_version": "editorial-v1"
       },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-28T07:30:14+09:00",
       "result": {
         "scope": "원고 1–146행과 기존 구조화 도식 D01·D02 대조",
-        "full_review_completed": false,
+        "full_review_completed": true,
         "source_sha256": "63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd",
         "source_git_blob": "15eaf88c5f80c6834e82ed7d23e78ced45843029",
-        "uncovered_required_learning_objectives": [
-          "급식 방식과 대체 승인 및 급식비 중복 제한",
-          "도시락 업체 계약·품평회 구성 및 만족도 조사 주체 비교"
-        ],
+        "uncovered_required_learning_objectives": [],
         "additional_diagrams_required": false,
-        "visual_qa": "기존 구조화 도식 텍스트 대조 완료, 수정 렌더 및 실물 검수 필요"
+        "visual_qa": "passed",
+        "visual_reviewed_at": "2026-11-28T07:30:14+09:00",
+        "coverage": "급식 방식과 대체 승인 및 급식비 중복 제한; 도시락 업체 계약·품평회 구성 및 만족도 조사 주체 비교"
       },
       "script_ref": "DR-072",
-      "script_sha256": "63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd"
+      "script_sha256": "63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd",
+      "confirmed_production_job_ids": [
+        "DR-072-D01-script-062514",
+        "DR-072-D02-script-062514"
+      ]
     },
     {
       "id": "DR-073-coverage-review-v1",
@@ -9012,7 +9021,7 @@
       "script_sha256": "606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-064|606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0|15,19,31,35,39,89,101,103,105,121|전국단위훈련 공시·신청 주체와 인터넷 기한 및 서식 구분|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-064/diagrams/DR-064-D01-editorial-v1.svg",
@@ -9057,7 +9066,10 @@
       "diagram_id": "DR-064-D01",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "공개 WebP 실물 개별 확인: 한글·수치·주체·조건 대조, 겹침·잘림·누락 없음. SVG·PNG·WebP 파일 크기 및 SHA-256 재계산 일치, PNG·무손실 WebP 1600×1120 헤더 확인. PNG/WebP 픽셀 일치는 렌더러 검수 기록 근거.",
+      "completed_at": "2026-11-28T07:30:14+09:00",
+      "render_commit": "e8a97783ed7ed331fe15da1e1e76b92266ab734a",
+      "webp_git_blob": "df97bf16e0550dcebe3235197733327eac01ecea"
     },
     {
       "id": "DR-064-D02-script-062514",
@@ -9070,7 +9082,7 @@
       "script_sha256": "606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-064|606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0|57,59,77,79,81,83,85,131|신청 정원 편성·확대 판단·축소 승인 주체 구분|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-064/diagrams/DR-064-D02-editorial-v1.svg",
@@ -9113,7 +9125,10 @@
       "diagram_id": "DR-064-D02",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "공개 WebP 실물 개별 확인: 한글·수치·주체·조건 대조, 겹침·잘림·누락 없음. SVG·PNG·WebP 파일 크기 및 SHA-256 재계산 일치, PNG·무손실 WebP 1600×1120 헤더 확인. PNG/WebP 픽셀 일치는 렌더러 검수 기록 근거.",
+      "completed_at": "2026-11-28T07:30:14+09:00",
+      "render_commit": "e8a97783ed7ed331fe15da1e1e76b92266ab734a",
+      "webp_git_blob": "825e40be78cf0337bded1adf68ee3f2aaf05146e"
     },
     {
       "id": "DR-065-D01-script-062514",
@@ -9126,7 +9141,7 @@
       "script_sha256": "5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-065|5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d|17,25,37,41,43,53,61,77,79,81|휴일훈련 지정권자와 연간 공시·개별 공지 주체 구분|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-065/diagrams/DR-065-D01-editorial-v1.svg",
@@ -9171,7 +9186,10 @@
       "diagram_id": "DR-065-D01",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "공개 WebP 실물 개별 확인: 한글·수치·주체·조건 대조, 겹침·잘림·누락 없음. SVG·PNG·WebP 파일 크기 및 SHA-256 재계산 일치, PNG·무손실 WebP 1600×1120 헤더 확인. PNG/WebP 픽셀 일치는 렌더러 검수 기록 근거.",
+      "completed_at": "2026-11-28T07:30:14+09:00",
+      "render_commit": "e8a97783ed7ed331fe15da1e1e76b92266ab734a",
+      "webp_git_blob": "b7477921521ee8fab15a041d2d478f5096bfcfcd"
     },
     {
       "id": "DR-065-D02-script-062514",
@@ -9184,7 +9202,7 @@
       "script_sha256": "5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-065|5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d|61,85,95,101,107,113,117,125,137|교관 구성과 조교 위로휴가 조건 비교|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-065/diagrams/DR-065-D02-editorial-v1.svg",
@@ -9228,7 +9246,10 @@
       "diagram_id": "DR-065-D02",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "공개 WebP 실물 개별 확인: 한글·수치·주체·조건 대조, 겹침·잘림·누락 없음. SVG·PNG·WebP 파일 크기 및 SHA-256 재계산 일치, PNG·무손실 WebP 1600×1120 헤더 확인. PNG/WebP 픽셀 일치는 렌더러 검수 기록 근거.",
+      "completed_at": "2026-11-28T07:30:14+09:00",
+      "render_commit": "e8a97783ed7ed331fe15da1e1e76b92266ab734a",
+      "webp_git_blob": "a74f6a8bcb6b2f9dc3dfb9ed67bd25301a13c17e"
     },
     {
       "id": "DR-072-D01-script-062514",
@@ -9241,7 +9262,7 @@
       "script_sha256": "63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-072|63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd|19,29,43,93,95,109,129,135,136,140|급식 방식과 대체 승인 및 급식비 중복 제한|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-072/diagrams/DR-072-D01-editorial-v1.svg",
@@ -9286,7 +9307,10 @@
       "diagram_id": "DR-072-D01",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "공개 WebP 실물 개별 확인: 한글·수치·주체·조건 대조, 겹침·잘림·누락 없음. SVG·PNG·WebP 파일 크기 및 SHA-256 재계산 일치, PNG·무손실 WebP 1600×1120 헤더 확인. PNG/WebP 픽셀 일치는 렌더러 검수 기록 근거.",
+      "completed_at": "2026-11-28T07:30:14+09:00",
+      "render_commit": "e8a97783ed7ed331fe15da1e1e76b92266ab734a",
+      "webp_git_blob": "1be6a67c70915b21714fea4a349f617e0d7422b6"
     },
     {
       "id": "DR-072-D02-script-062514",
@@ -9299,7 +9323,7 @@
       "script_sha256": "63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-072|63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd|49,65,69,79,81,85,113,119,123,127|도시락 업체 계약·품평회 구성 및 만족도 조사 주체 비교|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-072/diagrams/DR-072-D02-editorial-v1.svg",
@@ -9344,7 +9368,10 @@
       "diagram_id": "DR-072-D02",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "공개 WebP 실물 개별 확인: 한글·수치·주체·조건 대조, 겹침·잘림·누락 없음. SVG·PNG·WebP 파일 크기 및 SHA-256 재계산 일치, PNG·무손실 WebP 1600×1120 헤더 확인. PNG/WebP 픽셀 일치는 렌더러 검수 기록 근거.",
+      "completed_at": "2026-11-28T07:30:14+09:00",
+      "render_commit": "e8a97783ed7ed331fe15da1e1e76b92266ab734a",
+      "webp_git_blob": "1eb88d1c205818853cf2d9b1c19614f9ad59ddfb"
     }
   ],
   "runs": [
@@ -9726,10 +9753,10 @@
     },
     {
       "id": "dr-20261128-062514-script",
-      "status": "rendered_pending_visual_qa",
+      "status": "completed",
       "new_diagrams": 0,
       "revised_diagrams": 6,
-      "completed_reviews": 0,
+      "completed_reviews": 3,
       "diagram_ids": [
         "DR-064-D01",
         "DR-064-D02",
@@ -9737,7 +9764,16 @@
         "DR-065-D02",
         "DR-072-D01",
         "DR-072-D02"
-      ]
+      ],
+      "completed_at": "2026-11-28T07:30:14+09:00",
+      "completed_lessons": [
+        "DR-064",
+        "DR-065",
+        "DR-072"
+      ],
+      "visual_qa": "passed",
+      "render_commit": "e8a97783ed7ed331fe15da1e1e76b92266ab734a",
+      "remaining_reviews": 32
     }
   ],
   "exam": {

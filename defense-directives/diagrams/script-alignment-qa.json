@@ -6,7 +6,7 @@
     "cutoff_date": "2027-02-02",
     "cutoff_kind": "existing_user_specified_exam80_basis"
   },
-  "checked_at": "2026-11-28T05:27:05+09:00",
+  "checked_at": "2026-11-28T07:30:14+09:00",
   "source_commit": "2d696ecb8a2805b0bc42df8ce5754ae91914371d",
   "script_bindings_verified": 78,
   "diagram_corrections": [
@@ -75,10 +75,10 @@
       "full_lesson_coverage_review": "pending"
     }
   ],
-  "full_lecture_coverage_reviews_completed": 43,
-  "remaining_full_lecture_reviews": 35,
+  "full_lecture_coverage_reviews_completed": 46,
+  "remaining_full_lecture_reviews": 32,
   "new_diagrams": 36,
-  "revised_diagrams": 63,
+  "revised_diagrams": 69,
   "priority_script_comparison": {
     "schema_version": 1,
     "created_at": "2026-11-27T11:59:01+09:00",
@@ -422,7 +422,7 @@
       "DR-045-existing-script-arrears-rates"
     ]
   },
-  "visual_review": "실제 공개 PNG 3장을 개별 열어 원고의 수치·조건·주체와 대조함. 겹침·잘림·글리프 누락 없음. 렌더러의 픽셀 일치 및 manifest 해시 기록 확인.",
+  "visual_review": "공개 WebP 실물 개별 확인: 한글·수치·주체·조건 대조, 겹침·잘림·누락 없음. SVG·PNG·WebP 파일 크기 및 SHA-256 재계산 일치, PNG·무손실 WebP 1600×1120 헤더 확인. PNG/WebP 픽셀 일치는 렌더러 검수 기록 근거.",
   "targeted_render_runs": [
     {
       "run_id": "dr-20261127-122552",
@@ -25565,7 +25565,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "공개 WebP 실물 개별 확인: 한글·수치·주체·조건 대조, 겹침·잘림·누락 없음. SVG·PNG·WebP 파일 크기 및 SHA-256 재계산 일치, PNG·무손실 WebP 1600×1120 헤더 확인. PNG/WebP 픽셀 일치는 렌더러 검수 기록 근거.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-064/diagrams/DR-064-D01-editorial-v1.svg",
@@ -25845,7 +25845,8 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "webp_git_blob": "df97bf16e0550dcebe3235197733327eac01ecea"
         },
         {
           "id": "DR-064-D02",
@@ -25866,7 +25867,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "공개 WebP 실물 개별 확인: 한글·수치·주체·조건 대조, 겹침·잘림·누락 없음. SVG·PNG·WebP 파일 크기 및 SHA-256 재계산 일치, PNG·무손실 WebP 1600×1120 헤더 확인. PNG/WebP 픽셀 일치는 렌더러 검수 기록 근거.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-064/diagrams/DR-064-D02-editorial-v1.svg",
@@ -26083,7 +26084,8 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "webp_git_blob": "825e40be78cf0337bded1adf68ee3f2aaf05146e"
         },
         {
           "id": "DR-065-D01",
@@ -26106,7 +26108,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "공개 WebP 실물 개별 확인: 한글·수치·주체·조건 대조, 겹침·잘림·누락 없음. SVG·PNG·WebP 파일 크기 및 SHA-256 재계산 일치, PNG·무손실 WebP 1600×1120 헤더 확인. PNG/WebP 픽셀 일치는 렌더러 검수 기록 근거.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-065/diagrams/DR-065-D01-editorial-v1.svg",
@@ -26350,7 +26352,8 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "webp_git_blob": "b7477921521ee8fab15a041d2d478f5096bfcfcd"
         },
         {
           "id": "DR-065-D02",
@@ -26372,7 +26375,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "공개 WebP 실물 개별 확인: 한글·수치·주체·조건 대조, 겹침·잘림·누락 없음. SVG·PNG·WebP 파일 크기 및 SHA-256 재계산 일치, PNG·무손실 WebP 1600×1120 헤더 확인. PNG/WebP 픽셀 일치는 렌더러 검수 기록 근거.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-065/diagrams/DR-065-D02-editorial-v1.svg",
@@ -26538,7 +26541,7 @@
             {
               "text": "전투휴무",
               "x": 860,
-              "y": 719.0,
+              "y": 719,
               "width": 133,
               "height": 36,
               "fontSize": 36,
@@ -26589,7 +26592,8 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "webp_git_blob": "a74f6a8bcb6b2f9dc3dfb9ed67bd25301a13c17e"
         },
         {
           "id": "DR-072-D01",
@@ -26612,7 +26616,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "공개 WebP 실물 개별 확인: 한글·수치·주체·조건 대조, 겹침·잘림·누락 없음. SVG·PNG·WebP 파일 크기 및 SHA-256 재계산 일치, PNG·무손실 WebP 1600×1120 헤더 확인. PNG/WebP 픽셀 일치는 렌더러 검수 기록 근거.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-072/diagrams/DR-072-D01-editorial-v1.svg",
@@ -26847,7 +26851,8 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "webp_git_blob": "1be6a67c70915b21714fea4a349f617e0d7422b6"
         },
         {
           "id": "DR-072-D02",
@@ -26870,7 +26875,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "공개 WebP 실물 개별 확인: 한글·수치·주체·조건 대조, 겹침·잘림·누락 없음. SVG·PNG·WebP 파일 크기 및 SHA-256 재계산 일치, PNG·무손실 WebP 1600×1120 헤더 확인. PNG/WebP 픽셀 일치는 렌더러 검수 기록 근거.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-072/diagrams/DR-072-D02-editorial-v1.svg",
@@ -27132,7 +27137,8 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "webp_git_blob": "1eb88d1c205818853cf2d9b1c19614f9ad59ddfb"
         }
       ]
     }
@@ -27674,6 +27680,25 @@
       "render_commit": "ba2cbd82dbb769a6769068ee90938c4d7e14dd8a",
       "remaining_reviews": 35,
       "visual_reviewed_at": "2026-11-28T05:27:05+09:00"
+    },
+    {
+      "run_id": "dr-20261128-073014-visual",
+      "completed_lessons": [
+        "DR-064",
+        "DR-065",
+        "DR-072"
+      ],
+      "visual_reviewed": [
+        "DR-064-D01",
+        "DR-064-D02",
+        "DR-065-D01",
+        "DR-065-D02",
+        "DR-072-D01",
+        "DR-072-D02"
+      ],
+      "render_commit": "e8a97783ed7ed331fe15da1e1e76b92266ab734a",
+      "remaining_reviews": 32,
+      "visual_reviewed_at": "2026-11-28T07:30:14+09:00"
     }
   ]
 }
