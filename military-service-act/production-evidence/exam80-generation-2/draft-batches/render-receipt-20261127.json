@@ -2,7 +2,7 @@
   "generation": 2,
   "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
   "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
-  "request_sha256": "040aa9c1f62fae25dc52f75834510d87cef5f124721b3e69118958e2768c4bbd",
+  "request_sha256": "bbe8e2320b9ceadf3ee72dc72ca84308b40cde8ce7b419240a0565a5efa9ccaf",
   "status": "draft_raster_only_not_final",
   "final_new_images": 0,
   "items": [
@@ -511,6 +511,86 @@
       "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-157/punishment-result-comparison.webp",
       "webp_sha256": "3c63db97d968c85c7131a9678b9f503b8858abb177883ee2228de7d4cf4173eb",
       "webp_bytes": 48488,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-109",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/restriction-grounds-and-exceptions.svg",
+      "svg_sha256": "7cd7ccd3f3a1e48297487cb0b4a6eb597edcaf1f1ff560a8198931e03ed2c24a",
+      "svg_blob_sha": "2d16080deeea412cbbfe8f53b60b9d6e3bc3f769",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/restriction-grounds-and-exceptions.webp",
+      "webp_sha256": "3f543852b6049d8b843101710d19590a74642efcd6fbc8eaa09ead64fde757fa",
+      "webp_bytes": 50220,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-109",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/travel-permission-eleven-grounds.svg",
+      "svg_sha256": "18213e65207debef39c8adbd8db51efca5bf76ad1a002d62efbf9438f8498a6f",
+      "svg_blob_sha": "fc1f0b80c7da9925d899476d1c37458e11c3874a",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/travel-permission-eleven-grounds.webp",
+      "webp_sha256": "f585d171d5e9e21cc06d19f633207ab8ebf58e7202f4020282488fa9d26b3d77",
+      "webp_bytes": 49884,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-109",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/travel-cancellation-other-grounds.svg",
+      "svg_sha256": "fa87b914eb8ec9ea19aadbadeedca854307663c84af5e1e68bbe85cc378ac58d",
+      "svg_blob_sha": "9ec8272409b4c984d299e70788c7d208f744727a",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/travel-cancellation-other-grounds.webp",
+      "webp_sha256": "2ae4d85ca09759bd22a1def78459aff0e07810cce542decfcd9bcbaeac0118d3",
+      "webp_bytes": 49360,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-109",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/overseas-residence-five-cases.svg",
+      "svg_sha256": "eb79f7d7fc50aabb2383e456dfacaf740e237d78c33e5b6078ead0b74ae5fc61",
+      "svg_blob_sha": "4afdf5076e91c65debd9c28453edc2d650510404",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/overseas-residence-five-cases.webp",
+      "webp_sha256": "d3bed88ec72c8a3893f9fc6405555e9e67662bdfbe9f6e8e2d9126860da845b4",
+      "webp_bytes": 46168,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-109",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/fixed-term-official-deferral.svg",
+      "svg_sha256": "527319d80387c39b9dec068faf5228cb9371ba1b9a8e549a09f5795b6c2c35d5",
+      "svg_blob_sha": "285f5ea6d57be4d18c50ae2068deadb1defd094b",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/fixed-term-official-deferral.webp",
+      "webp_sha256": "eb0649aaf589836e923bed804da9e02a8bddb6f9d0b1aa45aede0cee8da7e906",
+      "webp_bytes": 55436,
       "dimensions": [
         1600,
         1120
