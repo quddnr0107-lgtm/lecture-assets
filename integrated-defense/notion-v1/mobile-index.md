@@ -10,18 +10,18 @@
 | [02강](../lesson-002/diagrams/notion-v1/mobile/) | 8 | 완료 |
 | [03강](../lesson-003/diagrams/notion-v1/mobile/) | 8 | 완료 |
 | [04강](../lesson-004/diagrams/notion-v1/mobile/) | 9 | 완료 |
-| [05강](../lesson-005/diagrams/notion-v1/mobile/) | 12 | 재생성 요청 |
-| [06강](../lesson-006/diagrams/notion-v1/mobile/) | 5 | 재생성 요청 |
+| [05강](../lesson-005/diagrams/notion-v1/mobile/) | 12 | 완료 |
+| [06강](../lesson-006/diagrams/notion-v1/mobile/) | 5 | 완료 |
 | [07강](../lesson-007/diagrams/notion-v1/mobile/) | 2 | 완료 |
-| [08강](../lesson-008/diagrams/notion-v1/mobile/) | 7 | 시각 검수 대기 |
-| [09강](../lesson-009/diagrams/notion-v1/mobile/) | 8 | 시각 검수 대기 |
-| [10강](../lesson-010/diagrams/notion-v1/mobile/) | 3 | 시각 검수 대기 |
-| [11강](../lesson-011/diagrams/notion-v1/mobile/) | 7 | 시각 검수 대기 |
-| [12강](../lesson-012/diagrams/notion-v1/mobile/) | 6 | 시각 검수 대기 |
-| [13강](../lesson-013/diagrams/notion-v1/mobile/) | 6 | 시각 검수 대기 |
+| [08강](../lesson-008/diagrams/notion-v1/mobile/) | 7 | 완료 |
+| [09강](../lesson-009/diagrams/notion-v1/mobile/) | 8 | 완료 |
+| [10강](../lesson-010/diagrams/notion-v1/mobile/) | 3 | 완료 |
+| [11강](../lesson-011/diagrams/notion-v1/mobile/) | 7 | 원고 표현 수정 필요 |
+| [12강](../lesson-012/diagrams/notion-v1/mobile/) | 6 | 완료 |
+| [13강](../lesson-013/diagrams/notion-v1/mobile/) | 6 | 재생성 요청 |
 | [14강](../lesson-014/diagrams/notion-v1/mobile/) | 2 | 완료 |
-| [15강](../lesson-015/diagrams/notion-v1/mobile/) | 3 | 시각 검수 대기 |
-| [16강](../lesson-016/diagrams/notion-v1/mobile/) | 12 | 시각 검수 대기 |
+| [15강](../lesson-015/diagrams/notion-v1/mobile/) | 3 | 완료 |
+| [16강](../lesson-016/diagrams/notion-v1/mobile/) | 12 | 재생성 요청 |
 | [17강](../lesson-017/diagrams/notion-v1/mobile/) | 5 | 시각 검수 대기 |
 | [18강](../lesson-018/diagrams/notion-v1/mobile/) | 5 | 시각 검수 대기 |
 | [19강](../lesson-019/diagrams/notion-v1/mobile/) | 3 | 시각 검수 대기 |
