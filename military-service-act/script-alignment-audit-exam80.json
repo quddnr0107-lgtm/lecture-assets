@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "audit_type": "representative_existing_diagrams_vs_existing_exam80_scripts",
+  "reviewed_date_kst": "2026-11-27",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "exam": {
+    "number": 80,
+    "period": "27년 전반기",
+    "user_requested_cutoff": "2027-02-02"
+  },
+  "privacy": "원고 전문·비공개 설명·계정정보를 포함하지 않는다. 원고 경로·해시·문단 위치와 기존 공개 도식의 짧은 의미 대조 결과만 기록한다.",
+  "basis": "고정 commit의 기존 UTF-8 강의 원고. 법령 스냅샷 차이를 스크립트 불일치로 간주하지 않았다.",
+  "script_sources": [
+    {
+      "lecture_id": "MS-077",
+      "source_path": "docs/merged-lectures/병역법/본법_41.txt",
+      "script_git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+      "script_sha256": "617f85b91800f4b7aeea48c0936bc53de869541452b338670e3b9bd527f63f1e",
+      "bytes": 34537,
+      "first_line_title_verified": true,
+      "fulltext_retrieved": true,
+      "diagram_supporting_passages_reviewed": true
+    },
+    {
+      "lecture_id": "MS-094",
+      "source_path": "docs/merged-lectures/병역법/본법_58.txt",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "script_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+      "bytes": 49822,
+      "first_line_title_verified": true,
+      "fulltext_retrieved": true,
+      "diagram_supporting_passages_reviewed": true
+    },
+    {
+      "lecture_id": "MS-109",
+      "source_path": "docs/merged-lectures/병역법/본법_70.txt",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "script_sha256": "cef65091efcc97d0698da1fd1213af04b41917c7805d640048e9e955dd3e3ac9",
+      "bytes": 39903,
+      "first_line_title_verified": true,
+      "fulltext_retrieved": true,
+      "diagram_supporting_passages_reviewed": true
+    }
+  ],
+  "verified_diagrams": [
+    {
+      "diagram_id": "MS-077-D01-editorial-v1",
+      "lecture_id": "MS-077",
+      "title": "전문연구·산업기능 편입취소",
+      "status": "script_alignment_verified",
+      "comparison": "semantic paraphrase, not a verbatim transcript",
+      "script_path": "docs/merged-lectures/병역법/본법_41.txt",
+      "script_git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+      "source_line_spans": [
+        [
+          21,
+          36
+        ],
+        [
+          50,
+          66
+        ],
+        [
+          72,
+          89
+        ]
+      ],
+      "conclusion": "취소 주체·법정 사유, 8일 이상 취소, 해고 다툼 유보, 미복무 연장 예외, 8일 미만 5배 연장에 원고 근거가 있다.",
+      "existing_files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D01-editorial-v1.svg",
+          "sha256": "7d63f21c14544d102342c2c312b0013597ebaff955731d81d519ee2d868d1735"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D01-editorial-v1.webp",
+          "sha256": "45439e25a90de7d0c26bb074fc75294f5d768af6d28e016aa6d1e08f97492051"
+        }
+      },
+      "required_content_changes": []
+    },
+    {
+      "diagram_id": "MS-077-D02-editorial-v1",
+      "lecture_id": "MS-077",
+      "title": "부정 편입과 부정 전직의 차이",
+      "status": "script_alignment_verified",
+      "comparison": "semantic paraphrase, not a verbatim transcript",
+      "script_path": "docs/merged-lectures/병역법/본법_41.txt",
+      "script_git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+      "source_line_spans": [
+        [
+          95,
+          125
+        ]
+      ],
+      "conclusion": "부정 편입/부정 전직의 기간 계산과 6개월 미만 사회복무 전환에 원고 근거가 있다.",
+      "existing_files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D02-editorial-v1.svg",
+          "sha256": "3f0c2c76122056a73eac3a6238a79e63f2582fb1e71ee470c65ae7e31f6aa10a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D02-editorial-v1.webp",
+          "sha256": "336ad0f2c986b30a56e789899ff3b13c244b0d19f61339337f057db7955da4e7"
+        }
+      },
+      "required_content_changes": []
+    },
+    {
+      "diagram_id": "MS-094-D01-editorial-v1",
+      "lecture_id": "MS-094",
+      "title": "특수병과 현역장교 편입 대상",
+      "status": "script_alignment_verified",
+      "comparison": "semantic paraphrase, not a verbatim transcript",
+      "script_path": "docs/merged-lectures/병역법/본법_58.txt",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "source_line_spans": [
+        [
+          21,
+          40
+        ],
+        [
+          152,
+          166
+        ]
+      ],
+      "conclusion": "현역병입영 대상·본인 희망·4개 자격 갈래·후보생 35세에 원고 근거가 있다.",
+      "existing_files": {
+        "svg": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D01-editorial-v1.svg",
+          "sha256": "00ef75a809fa8579b3d69d74f54c8afcfbf1d588a37defa7d897f4903fb944d7"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D01-editorial-v1.webp",
+          "sha256": "b722971ff1d871effa50e942a785b641ff0c22a520ba31a7951faeb8bea54f95"
+        }
+      },
+      "required_content_changes": []
+    },
+    {
+      "diagram_id": "MS-094-D02-editorial-v1",
+      "lecture_id": "MS-094",
+      "title": "특수병과 장교 입영검사와 귀가",
+      "status": "script_alignment_verified",
+      "comparison": "semantic paraphrase, not a verbatim transcript",
+      "script_path": "docs/merged-lectures/병역법/본법_58.txt",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "source_line_spans": [
+        [
+          196,
+          200
+        ],
+        [
+          214,
+          232
+        ]
+      ],
+      "conclusion": "입영부대장 7일 검사, 15일 치유 귀가, 병무청장 재검사, 3개월 미만 예외에 원고 근거가 있다.",
+      "existing_files": {
+        "svg": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D02-editorial-v1.svg",
+          "sha256": "783116305adf332be3cb73a8f27969a15709f021dd095ecfcb4df21b475ac4e8"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D02-editorial-v1.webp",
+          "sha256": "170c89a4cdab5ac9b379b5da7a7cd50d1d8e7e556cd109b286a853e89c4920ed"
+        }
+      },
+      "required_content_changes": []
+    },
+    {
+      "diagram_id": "MS-109-D01-editorial-v1",
+      "lecture_id": "MS-109",
+      "title": "국외여행허가의 대상",
+      "status": "script_alignment_verified",
+      "comparison": "semantic paraphrase, not a verbatim transcript",
+      "script_path": "docs/merged-lectures/병역법/본법_70.txt",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "source_line_spans": [
+        [
+          19,
+          38
+        ],
+        [
+          52,
+          52
+        ]
+      ],
+      "conclusion": "병무청장 허가, 25세 이상 미소집 역종, 복무 중 대상의 나이 조건 구별에 원고 근거가 있다.",
+      "existing_files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D01-editorial-v1.svg",
+          "sha256": "4af7c8fd90911a5a4a1c079ca3c21dfdca728b43d139ba8bd680dfeeb505370b"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D01-editorial-v1.webp",
+          "sha256": "9b86326a01a6c8147ac7600efcfd21dc0fe3a3480877226fe2b60fd5c8f5cd90"
+        }
+      },
+      "required_content_changes": []
+    },
+    {
+      "diagram_id": "MS-109-D02-editorial-v1",
+      "lecture_id": "MS-109",
+      "title": "국외여행허가의 두 기한",
+      "status": "script_alignment_verified",
+      "comparison": "semantic paraphrase, not a verbatim transcript",
+      "script_path": "docs/merged-lectures/병역법/본법_70.txt",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "source_line_spans": [
+        [
+          99,
+          109
+        ],
+        [
+          197,
+          203
+        ]
+      ],
+      "conclusion": "기간만료 15일 전, 25세 되는 해 1월15일, 법무부장관 통보에 원고 근거가 있다.",
+      "existing_files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D02-editorial-v1.svg",
+          "sha256": "4866a1461ab24e7843da2dbc462b768c1d5a7e351fdea89efd787fc4cf35f6c6"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D02-editorial-v1.webp",
+          "sha256": "43ed6811ed2cce384a2cbac1b471fd544e6c01e774535df62ac2e072d9cae95c"
+        }
+      },
+      "required_content_changes": []
+    },
+    {
+      "diagram_id": "MS-109-D03-editorial-v1",
+      "lecture_id": "MS-109",
+      "title": "국외여행허가 제한과 취소",
+      "status": "script_alignment_verified",
+      "comparison": "semantic paraphrase, not a verbatim transcript",
+      "script_path": "docs/merged-lectures/병역법/본법_70.txt",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "source_line_spans": [
+        [
+          56,
+          85
+        ],
+        [
+          215,
+          233
+        ]
+      ],
+      "conclusion": "법정 기피자 제한·예외, 예술체육 연장자 제한, 영주귀국 등 취소에 원고 근거가 있다.",
+      "existing_files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D03-editorial-v1.svg",
+          "sha256": "b1e01b5b9e6a4acdebedd0174f3a845a344edfc6ca478fe28c53eca92f9a402f"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D03-editorial-v1.webp",
+          "sha256": "37f9272263a67887ad7755db2ef307ae89a081adce895bad2e1052e6719dda94"
+        }
+      },
+      "required_content_changes": []
+    }
+  ],
+  "cross_reference_note": {
+    "diagram_id": "MS-077-D02-editorial-v1",
+    "detail": "혈족 제한 표현은 MS077 원고가 인용하는 제38조의2를 풀어 쓴 것이다. 동일 기존 원고집 MS074의 혈족 제한 설명으로 추가 확인했으며, 외부 법령을 새로 끌어와 확장한 주장으로 판정하지 않았다.",
+    "source_path": "docs/merged-lectures/병역법/본법_38의2.txt",
+    "script_git_blob_sha": "e187923b26cdc05658b78401420201ec92ff3c9b",
+    "source_line_spans": [
+      [
+        17,
+        21
+      ],
+      [
+        35,
+        35
+      ]
+    ]
+  },
+  "unwanted_substantive_additions_found": [],
+  "required_wording_corrections_found": [],
+  "script_topics_not_shown_in_sample_diagrams": [
+    {
+      "lecture_id": "MS-077",
+      "topic": "해고일부터 30일 이내 유보원서·관할 지방병무청장 결정 통지",
+      "script_line_spans": [
+        [
+          159,
+          161
+        ]
+      ],
+      "boundary": "기존 원고에 실제로 있는 추가 도식 후보. 기존 2장의 사실 오류라는 뜻은 아니다."
+    },
+    {
+      "lecture_id": "MS-094",
+      "topic": "군종장교운영심사위원회 구성·특정 종교 비율·개의와 의결",
+      "script_line_spans": [
+        [
+          250,
+          276
+        ]
+      ],
+      "boundary": "기존 원고에 실제로 있는 추가 도식 후보. 도입 퀴즈와 정리에서도 강조된다."
+    },
+    {
+      "lecture_id": "MS-109",
+      "topic": "출국 2일 전 신청·재외공관 경유·직접 신청 예외",
+      "script_line_spans": [
+        [
+          141,
+          149
+        ]
+      ],
+      "boundary": "기존 원고에 실제로 있는 추가 도식 후보. 새 법령 조문 발굴이 필요하지 않다."
+    }
+  ],
+  "mapping_limitation": {
+    "lecture_id": "MS-077",
+    "finding": "실제 원고에는 시행령85·88·89·90을 설명하는 구간이 있으나 기존 military-service-context.json의 MS077 articles에는 이 4개 조문이 없다.",
+    "script_line_spans": [
+      [
+        129,
+        157
+      ]
+    ],
+    "implication": "기존 강의–조문 연결표나 미사용 조문 수가 원고 전체 범위를 대체할 수 없다. 실제 원고 문단을 먼저 읽어야 한다."
+  },
+  "claims_to_qualify": [
+    "166강·283페이지는 파일 보유 범위이다. 기존 스크립트 전체와의 정합 완료 또는 모든 설명의 도식화 완료를 뜻하지 않는다.",
+    "기존 content_and_layout_checked는 법령 기반 내용·배치 검수 기록이다. 스크립트 정합은 별도의 확인 상태로 기록해야 한다.",
+    "299개 미사용 공식 조문은 원고에서 확인된 누락이나 추가 이미지 수가 아니다. 생산 범위는 원고 대조 후 정한다."
+  ],
+  "next_action_boundary": {
+    "preserve_existing_files": true,
+    "all_166_rerender_justified_by_this_audit": false,
+    "existing_diagram_pages": 283,
+    "sample_verified_pages": 7,
+    "remaining_pages_requiring_script_alignment": 276,
+    "recommended_order": [
+      "기존166편 원고에 도식별 근거 문단 연결",
+      "원고와 실제로 어긋나거나 원고 밖으로 늘린 내용만 변경",
+      "원고에서 다루되 도식이 없는 유용한 주제만 선별 추가",
+      "내용이 바뀐 도식만 재렌더"
+    ],
+    "automation_state_observed_from_root": "paused; new images produced by the automation: 0"
+  },
+  "limitations": [
+    "대표3강7장에 대한 의미 대조 결과이다. 다른276장의 정합을 완료했다는 뜻이 아니다.",
+    "음성 재생 시점·전체 스크립트의 법률 정확성은 이 감사의 검토 범위가 아니다."
+  ],
+  "automation_status_at_review": "paused_for_user_source_basis_correction",
+  "automatic_run_added_images": 0
+}

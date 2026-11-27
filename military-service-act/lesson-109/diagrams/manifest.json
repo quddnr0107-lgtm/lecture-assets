@@ -85,7 +85,29 @@
           "effective_date": "2026-12-10",
           "promulgation": "법률 제21769호"
         }
-      ]
+      ],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-109",
+        "path": "docs/merged-lectures/병역법/본법_70.txt",
+        "git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "existing_diagram_claims_only",
+        "audit": "military-service-act/script-alignment-audit-exam80.json",
+        "source_line_spans": [
+          [
+            19,
+            38
+          ],
+          [
+            52,
+            52
+          ]
+        ]
+      }
     },
     {
       "id": "MS-109-D02-editorial-v1",
@@ -162,7 +184,29 @@
           "effective_date": "2026-12-10",
           "promulgation": "법률 제21769호"
         }
-      ]
+      ],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-109",
+        "path": "docs/merged-lectures/병역법/본법_70.txt",
+        "git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "existing_diagram_claims_only",
+        "audit": "military-service-act/script-alignment-audit-exam80.json",
+        "source_line_spans": [
+          [
+            99,
+            109
+          ],
+          [
+            197,
+            203
+          ]
+        ]
+      }
     },
     {
       "id": "MS-109-D03-editorial-v1",
@@ -239,7 +283,39 @@
           "effective_date": "2026-12-10",
           "promulgation": "법률 제21769호"
         }
-      ]
+      ],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-109",
+        "path": "docs/merged-lectures/병역법/본법_70.txt",
+        "git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "existing_diagram_claims_only",
+        "audit": "military-service-act/script-alignment-audit-exam80.json",
+        "source_line_spans": [
+          [
+            56,
+            85
+          ],
+          [
+            215,
+            233
+          ]
+        ]
+      }
     }
-  ]
+  ],
+  "content_authority": "existing_exam80_lecture_script",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_70.txt",
+  "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+  "exam_number": 80,
+  "script_alignment": {
+    "verified_existing_pages": 3,
+    "pending_existing_pages": 0,
+    "complete_script_coverage": "pending"
+  }
 }

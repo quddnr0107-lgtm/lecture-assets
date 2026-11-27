@@ -36,6 +36,9 @@
       "retrieved_date_kst": "2026-11-27"
     }
   ],
-  "source_rule": "공식 법령의 조문 번호와 문언으로 확인. 본법의 소실 항목 및 잘못 귀속된 단서는 공식 전문으로 복원.",
-  "text_source_sha256": "880277f5aa3283a34db248ab9c533ae974b75a05f57833e0216816187dfaf4f7"
+  "source_rule": "아래 sources는 초기 제작에서 참고한 법령 버전의 이력이다. 현재 제작 내용과 범위는 제80회 기존 강의 스크립트에 따르며, 이 법령 목록으로 원고 밖 내용을 추가하지 않는다.",
+  "text_source_sha256": "880277f5aa3283a34db248ab9c533ae974b75a05f57833e0216816187dfaf4f7",
+  "role": "historical_initial_law_references",
+  "current_content_authority": "existing_exam80_lecture_scripts",
+  "script_source_index": "military-service-act/script-sources-exam80.json"
 }

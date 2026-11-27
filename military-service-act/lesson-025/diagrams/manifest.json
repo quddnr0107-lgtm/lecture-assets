@@ -90,7 +90,18 @@
           "effective_date": "2026-12-10",
           "promulgation": "법률 제21769호"
         }
-      ]
+      ],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-025",
+        "path": "docs/merged-lectures/병역법/본법_19.txt",
+        "git_blob_sha": "4479b8b67bcfa605aa46c36afb2c63f450f3d0cb",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "pending",
+        "scope": "not_yet_compared"
+      }
     },
     {
       "id": "MS-025-D02-editorial-v1",
@@ -148,7 +159,28 @@
           "effective_date": "2026-12-10",
           "promulgation": "법률 제21769호"
         }
-      ]
+      ],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-025",
+        "path": "docs/merged-lectures/병역법/본법_19.txt",
+        "git_blob_sha": "4479b8b67bcfa605aa46c36afb2c63f450f3d0cb",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "pending",
+        "scope": "not_yet_compared"
+      }
     }
-  ]
+  ],
+  "content_authority": "existing_exam80_lecture_script",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_19.txt",
+  "script_git_blob_sha": "4479b8b67bcfa605aa46c36afb2c63f450f3d0cb",
+  "exam_number": 80,
+  "script_alignment": {
+    "verified_existing_pages": 0,
+    "pending_existing_pages": 2,
+    "complete_script_coverage": "pending"
+  }
 }

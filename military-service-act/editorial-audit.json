@@ -97,5 +97,16 @@
     "핵심 구조를 요약한 강의 보조 도식으로, 강의 대본 전체나 모든 항·호의 전문은 포함하지 않음",
     "공포 확인일 이후 추가 개정 시 관련 도식을 다시 대조해야 함",
     "사이트 재생 시점·영상 자막 타이밍은 이 자산 작업에 포함되지 않음"
-  ]
+  ],
+  "source_basis_correction": {
+    "date_kst": "2026-11-27",
+    "instruction": "제80회 기존 강의 스크립트로 제작",
+    "script_source_index": "military-service-act/script-sources-exam80.json",
+    "fulltext_files_identity_verified": 166,
+    "old_law_expansion_queue": "superseded",
+    "replacement_queue_generation": 2,
+    "sample_script_aligned_pages": 7,
+    "remaining_script_alignment_pages": 276,
+    "past_law_review_is_not_full_script_alignment": true
+  }
 }

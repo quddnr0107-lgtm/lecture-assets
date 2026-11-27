@@ -94,7 +94,18 @@
           "effective_date": "2026-12-10",
           "promulgation": "법률 제21769호"
         }
-      ]
+      ],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-149",
+        "path": "docs/merged-lectures/병역법/본법_88.txt",
+        "git_blob_sha": "6944fa63d0587e7d0a5b447fabac3ba0a362e99b",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "pending",
+        "scope": "not_yet_compared"
+      }
     },
     {
       "id": "MS-149-D02-editorial-v1",
@@ -171,7 +182,18 @@
           "effective_date": "2026-12-10",
           "promulgation": "법률 제21769호"
         }
-      ]
+      ],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-149",
+        "path": "docs/merged-lectures/병역법/본법_88.txt",
+        "git_blob_sha": "6944fa63d0587e7d0a5b447fabac3ba0a362e99b",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "pending",
+        "scope": "not_yet_compared"
+      }
     },
     {
       "id": "MS-149-D03-editorial-v1",
@@ -243,7 +265,28 @@
           "effective_date": "2026-12-10",
           "promulgation": "법률 제21769호"
         }
-      ]
+      ],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-149",
+        "path": "docs/merged-lectures/병역법/본법_88.txt",
+        "git_blob_sha": "6944fa63d0587e7d0a5b447fabac3ba0a362e99b",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "pending",
+        "scope": "not_yet_compared"
+      }
     }
-  ]
+  ],
+  "content_authority": "existing_exam80_lecture_script",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_88.txt",
+  "script_git_blob_sha": "6944fa63d0587e7d0a5b447fabac3ba0a362e99b",
+  "exam_number": 80,
+  "script_alignment": {
+    "verified_existing_pages": 0,
+    "pending_existing_pages": 3,
+    "complete_script_coverage": "pending"
+  }
 }

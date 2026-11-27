@@ -94,7 +94,18 @@
           "effective_date": "2026-12-10",
           "promulgation": "법률 제21769호"
         }
-      ]
+      ],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-039",
+        "path": "docs/merged-lectures/병역법/본법_25.txt",
+        "git_blob_sha": "1f03a28a83cf795887115d37e029c27bca79538a",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "pending",
+        "scope": "not_yet_compared"
+      }
     },
     {
       "id": "MS-039-D02-editorial-v1",
@@ -176,7 +187,18 @@
           "effective_date": "2026-12-10",
           "promulgation": "법률 제21769호"
         }
-      ]
+      ],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-039",
+        "path": "docs/merged-lectures/병역법/본법_25.txt",
+        "git_blob_sha": "1f03a28a83cf795887115d37e029c27bca79538a",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "pending",
+        "scope": "not_yet_compared"
+      }
     },
     {
       "id": "MS-039-D03-editorial-v1",
@@ -254,7 +276,18 @@
           "effective_date": "2026-10-02",
           "promulgation": "대통령령 제36728호"
         }
-      ]
+      ],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-039",
+        "path": "docs/merged-lectures/병역법/본법_25.txt",
+        "git_blob_sha": "1f03a28a83cf795887115d37e029c27bca79538a",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "pending",
+        "scope": "not_yet_compared"
+      }
     },
     {
       "id": "MS-039-D04-editorial-v1",
@@ -312,7 +345,28 @@
           "effective_date": "2026-10-02",
           "promulgation": "대통령령 제36728호"
         }
-      ]
+      ],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-039",
+        "path": "docs/merged-lectures/병역법/본법_25.txt",
+        "git_blob_sha": "1f03a28a83cf795887115d37e029c27bca79538a",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "pending",
+        "scope": "not_yet_compared"
+      }
     }
-  ]
+  ],
+  "content_authority": "existing_exam80_lecture_script",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_25.txt",
+  "script_git_blob_sha": "1f03a28a83cf795887115d37e029c27bca79538a",
+  "exam_number": 80,
+  "script_alignment": {
+    "verified_existing_pages": 0,
+    "pending_existing_pages": 4,
+    "complete_script_coverage": "pending"
+  }
 }

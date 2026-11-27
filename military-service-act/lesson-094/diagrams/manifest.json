@@ -85,7 +85,29 @@
           "effective_date": "2026-12-10",
           "promulgation": "법률 제21769호"
         }
-      ]
+      ],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-094",
+        "path": "docs/merged-lectures/병역법/본법_58.txt",
+        "git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "existing_diagram_claims_only",
+        "audit": "military-service-act/script-alignment-audit-exam80.json",
+        "source_line_spans": [
+          [
+            21,
+            40
+          ],
+          [
+            152,
+            166
+          ]
+        ]
+      }
     },
     {
       "id": "MS-094-D02-editorial-v1",
@@ -163,7 +185,39 @@
           "effective_date": "2026-12-10",
           "promulgation": "법률 제21769호"
         }
-      ]
+      ],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-094",
+        "path": "docs/merged-lectures/병역법/본법_58.txt",
+        "git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "existing_diagram_claims_only",
+        "audit": "military-service-act/script-alignment-audit-exam80.json",
+        "source_line_spans": [
+          [
+            196,
+            200
+          ],
+          [
+            214,
+            232
+          ]
+        ]
+      }
     }
-  ]
+  ],
+  "content_authority": "existing_exam80_lecture_script",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_58.txt",
+  "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+  "exam_number": 80,
+  "script_alignment": {
+    "verified_existing_pages": 2,
+    "pending_existing_pages": 0,
+    "complete_script_coverage": "pending"
+  }
 }

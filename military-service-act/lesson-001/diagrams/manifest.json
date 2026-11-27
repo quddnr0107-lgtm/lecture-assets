@@ -100,7 +100,28 @@
           "effective_date": "2026-10-29",
           "promulgation": "국방부령 제1235호"
         }
-      ]
+      ],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-001",
+        "path": "docs/merged-lectures/병역법/본법_1.txt",
+        "git_blob_sha": "f28ae8d03a454f402157d3040628a872bcc969d7",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "pending",
+        "scope": "not_yet_compared"
+      }
     }
-  ]
+  ],
+  "content_authority": "existing_exam80_lecture_script",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_1.txt",
+  "script_git_blob_sha": "f28ae8d03a454f402157d3040628a872bcc969d7",
+  "exam_number": 80,
+  "script_alignment": {
+    "verified_existing_pages": 0,
+    "pending_existing_pages": 1,
+    "complete_script_coverage": "pending"
+  }
 }
