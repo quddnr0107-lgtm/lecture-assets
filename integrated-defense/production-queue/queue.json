@@ -813,7 +813,7 @@
       "lecture_id": "TB-017",
       "title": "17강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "reserved",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -834,8 +834,12 @@
       "outputs": [
         "integrated-defense/lesson-017/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 2,
+      "lease": {
+        "run_id": "tb-exam80-review-20261127T1248Z-qa",
+        "started_at": "2026-11-27T12:50:28.160Z",
+        "expires_at": "2026-11-27T13:50:28.160Z"
+      },
+      "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "실제 WebP 검수에서 마지막 페이지가 근거만 포함됨. 기존 내용 그대로 페이지 재균형 필요."
     },
@@ -846,7 +850,7 @@
       "lecture_id": "TB-018",
       "title": "18강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "reserved",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -867,8 +871,12 @@
       "outputs": [
         "integrated-defense/lesson-018/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 2,
+      "lease": {
+        "run_id": "tb-exam80-review-20261127T1248Z-qa",
+        "started_at": "2026-11-27T12:50:28.160Z",
+        "expires_at": "2026-11-27T13:50:28.160Z"
+      },
+      "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "실제 WebP 검수에서 마지막 페이지가 근거만 포함됨. 기존 내용 그대로 페이지 재균형 필요."
     },
@@ -879,7 +887,7 @@
       "lecture_id": "TB-019",
       "title": "19강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "reserved",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -899,8 +907,12 @@
       "outputs": [
         "integrated-defense/lesson-019/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 2,
+      "lease": {
+        "run_id": "tb-exam80-review-20261127T1248Z-qa",
+        "started_at": "2026-11-27T12:50:28.160Z",
+        "expires_at": "2026-11-27T13:50:28.160Z"
+      },
+      "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "실제 WebP 검수에서 마지막 페이지가 근거만 포함됨. 기존 내용 그대로 페이지 재균형 필요."
     },
