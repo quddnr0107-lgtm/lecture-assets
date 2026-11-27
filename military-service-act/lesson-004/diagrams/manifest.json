@@ -93,8 +93,23 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "complete_script_coverage",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-004/001-0fa030fc0065b6dfb76edd27d35d04515a845b646c33154a3d53d73a2d3ccabb.json",
+        "source_line_spans": [
+          [
+            23,
+            55
+          ],
+          [
+            61,
+            73
+          ],
+          [
+            75,
+            96
+          ]
+        ]
       }
     }
   ],
@@ -104,8 +119,8 @@
   "script_git_blob_sha": "1c31dd87c4575669197f3d3583a82677ebbe5702",
   "exam_number": 80,
   "script_alignment": {
-    "verified_existing_pages": 0,
-    "pending_existing_pages": 1,
-    "complete_script_coverage": "pending"
+    "verified_existing_pages": 1,
+    "pending_existing_pages": 0,
+    "complete_script_coverage": "verified"
   }
 }

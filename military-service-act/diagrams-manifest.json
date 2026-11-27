@@ -646,8 +646,23 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "complete_script_coverage",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-004/001-0fa030fc0065b6dfb76edd27d35d04515a845b646c33154a3d53d73a2d3ccabb.json",
+        "source_line_spans": [
+          [
+            23,
+            55
+          ],
+          [
+            61,
+            73
+          ],
+          [
+            75,
+            96
+          ]
+        ]
       }
     },
     {
@@ -10158,8 +10173,23 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "complete_script_coverage",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-052/001-2840c8f383e3c0f908eb12f189b0e769537146a2c300e5c863fa9190d43e6f52.json",
+        "source_line_spans": [
+          [
+            23,
+            43
+          ],
+          [
+            49,
+            61
+          ],
+          [
+            63,
+            74
+          ]
+        ]
       }
     },
     {
@@ -27992,9 +28022,9 @@
   "exam_number": 80,
   "script_alignment": {
     "existing_pages": 283,
-    "verified_pages": 13,
-    "pending_pages": 270,
-    "complete_script_coverage_verified_lectures": 6,
+    "verified_pages": 15,
+    "pending_pages": 268,
+    "complete_script_coverage_verified_lectures": 8,
     "audit": "military-service-act/script-alignment-audit-exam80.json",
     "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
     "published_supplement_pages": 20,

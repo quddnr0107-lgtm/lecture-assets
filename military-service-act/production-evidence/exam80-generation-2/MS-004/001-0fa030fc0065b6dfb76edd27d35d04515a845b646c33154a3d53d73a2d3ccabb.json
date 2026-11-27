@@ -1,0 +1,74 @@
+{
+  "lecture_id": "MS-004",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_4.txt",
+  "script_git_blob_sha": "1c31dd87c4575669197f3d3583a82677ebbe5702",
+  "script_sha256": "358b2eb93b68b919c6a475ab9923de959b182a9dacbf5414fdaac3cb50ff0049",
+  "full_script_read": true,
+  "script_line_count": 101,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        23,
+        55
+      ],
+      "topic": "입영 대상 3종·병역법 우선·군인사법 보충 적용",
+      "diagram": "MS-004-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        61,
+        73
+      ],
+      "topic": "대체역 편입·복무는 별도 법률에 따름",
+      "diagram": "MS-004-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        75,
+        96
+      ],
+      "topic": "두 항의 보충 적용과 별도 법률 위임 대비",
+      "diagram": "MS-004-D01-editorial-v1"
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-004-D01-editorial-v1"
+  ],
+  "decision": {
+    "outcome": "reuse_only",
+    "reason": "기존 한 장에 두 항의 적용 대상·제외 문구·법률명이 나란히 표시된다. 국가공무원법·대통령령 등 오답 대비와 비유는 동일한 핵심 대비의 반복이므로 추가 도식 불필요."
+  },
+  "changed_artifacts_and_hashes": [],
+  "verified_existing_assets": {
+    "svg": {
+      "path": "military-service-act/lesson-004/diagrams/MS-004-D01-editorial-v1.svg",
+      "bytes": 6357,
+      "sha256": "099099fd0d470c30ddf14487cb8a716ff6a61ba910e312fe4e3b337c55f79dbb",
+      "git_blob_sha": "14384551bdac23604e30542114b0bfab087a5aba"
+    },
+    "webp": {
+      "path": "military-service-act/lesson-004/diagrams/MS-004-D01-editorial-v1.webp",
+      "bytes": 38438,
+      "sha256": "797f6f4e914d2489c9facabd8dae92888679cbb84348768a521d10dd99026b26",
+      "git_blob_sha": "224958862723b5a7b724b092d8e0eaac2e2214f2",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    "layout": {
+      "id": "MS-004-D01-editorial-v1",
+      "text_blocks": 24,
+      "min_body_font": 40,
+      "bounds_valid": true,
+      "method": "공개 WebP 실제 화면 검수 및 SVG·WebP 바이트 SHA-256 재검증"
+    }
+  },
+  "previous_evidence_sha256": null,
+  "publication_commit_or_null": null,
+  "reviewed_date_kst": "2026-11-27"
+}

@@ -317,8 +317,8 @@
       "title": "병역법 제4조, 다른 법률과의 관계",
       "priority": 2,
       "generation": 2,
-      "status": "pending",
-      "script_alignment_status": "script_alignment_pending",
+      "status": "completed",
+      "script_alignment_status": "script_alignment_verified",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_4.txt",
         "script_git_blob_sha": "1c31dd87c4575669197f3d3583a82677ebbe5702"
@@ -326,14 +326,22 @@
       "existing_diagram_ids": [
         "MS-004-D01-editorial-v1"
       ],
-      "full_script_read": false,
+      "full_script_read": true,
       "lease": null,
-      "checkpoint": 0,
-      "evidence_refs": [],
-      "outcome": null,
+      "checkpoint": 2,
+      "evidence_refs": [
+        "military-service-act/production-evidence/exam80-generation-2/MS-004/001-0fa030fc0065b6dfb76edd27d35d04515a845b646c33154a3d53d73a2d3ccabb.json"
+      ],
+      "outcome": "reuse_only",
       "changed_diagram_ids": [],
       "new_diagram_ids": [],
-      "previously_verified_existing_diagram_ids": []
+      "previously_verified_existing_diagram_ids": [],
+      "completed_date_kst": "2026-11-27",
+      "verified_existing_diagram_ids": [
+        "MS-004-D01-editorial-v1"
+      ],
+      "related_existing_diagram_ids": [],
+      "evidence_sha256": "0fa030fc0065b6dfb76edd27d35d04515a845b646c33154a3d53d73a2d3ccabb"
     },
     {
       "lecture_id": "MS-005",
@@ -1476,8 +1484,8 @@
       "title": "병역법 제32조의2, 수사기관의 수사 개시ㆍ종료 통보 등",
       "priority": 2,
       "generation": 2,
-      "status": "pending",
-      "script_alignment_status": "script_alignment_pending",
+      "status": "completed",
+      "script_alignment_status": "script_alignment_verified",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_32의2.txt",
         "script_git_blob_sha": "6c9097d9dfcb7e8ce4cadb35a041aa28d8a737b3"
@@ -1485,14 +1493,22 @@
       "existing_diagram_ids": [
         "MS-052-D01-editorial-v1"
       ],
-      "full_script_read": false,
+      "full_script_read": true,
       "lease": null,
-      "checkpoint": 0,
-      "evidence_refs": [],
-      "outcome": null,
+      "checkpoint": 2,
+      "evidence_refs": [
+        "military-service-act/production-evidence/exam80-generation-2/MS-052/001-2840c8f383e3c0f908eb12f189b0e769537146a2c300e5c863fa9190d43e6f52.json"
+      ],
+      "outcome": "reuse_only",
       "changed_diagram_ids": [],
       "new_diagram_ids": [],
-      "previously_verified_existing_diagram_ids": []
+      "previously_verified_existing_diagram_ids": [],
+      "completed_date_kst": "2026-11-27",
+      "verified_existing_diagram_ids": [
+        "MS-052-D01-editorial-v1"
+      ],
+      "related_existing_diagram_ids": [],
+      "evidence_sha256": "2840c8f383e3c0f908eb12f189b0e769537146a2c300e5c863fa9190d43e6f52"
     },
     {
       "lecture_id": "MS-053",
@@ -4334,9 +4350,9 @@
   ],
   "existing_diagram_support_review": {
     "audit": "military-service-act/script-alignment-audit-exam80.json",
-    "verified_existing_pages": 13,
-    "pending_existing_pages": 270,
-    "scope": "기존 도식 원고 근거 확인 13장; 전체 핵심 도식 범위 대조 완료 6강."
+    "verified_existing_pages": 15,
+    "pending_existing_pages": 268,
+    "scope": "기존 도식 원고 근거 확인 15장; 전체 핵심 도식 범위 대조 완료 8강."
   },
   "last_partial_checkpoint": {
     "date_kst": "2026-11-27",
@@ -4356,14 +4372,12 @@
   "last_reuse_checkpoint": {
     "date_kst": "2026-11-27",
     "completed_lectures": [
-      "MS-137",
-      "MS-150",
-      "MS-154"
+      "MS-004",
+      "MS-052"
     ],
     "evidence_refs": [
-      "military-service-act/production-evidence/exam80-generation-2/MS-137/001-ec420b7d8a5bb1d8b782f0ac819afca21ab1baa8c2189888e4c16bb69b6a1685.json",
-      "military-service-act/production-evidence/exam80-generation-2/MS-150/001-30f90ad54f38cc9a0908a3454036914b1c05972c1e917d43393612669b49bec9.json",
-      "military-service-act/production-evidence/exam80-generation-2/MS-154/001-5132d7f38321b48a9d17459441c221fee5f48e8f70f11bb2e366287e792ed7d8.json"
+      "military-service-act/production-evidence/exam80-generation-2/MS-004/001-0fa030fc0065b6dfb76edd27d35d04515a845b646c33154a3d53d73a2d3ccabb.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-052/001-2840c8f383e3c0f908eb12f189b0e769537146a2c300e5c863fa9190d43e6f52.json"
     ],
     "new_images": 0,
     "publication_commit": null

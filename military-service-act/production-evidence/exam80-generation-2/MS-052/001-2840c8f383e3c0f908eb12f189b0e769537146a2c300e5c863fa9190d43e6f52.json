@@ -1,0 +1,74 @@
+{
+  "lecture_id": "MS-052",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_32의2.txt",
+  "script_git_blob_sha": "6c9097d9dfcb7e8ce4cadb35a041aa28d8a737b3",
+  "script_sha256": "86bf1608cb33e8db5f9c6c559816c34bb06cd864b0c87528b13c3f13a6a75850",
+  "full_script_read": true,
+  "script_line_count": 77,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        23,
+        43
+      ],
+      "topic": "제29조제4항 각 호 범죄·공소청과 수사기관·개시 및 종료(공소제기 여부 결정)·10일·두 수신자",
+      "diagram": "MS-052-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        49,
+        61
+      ],
+      "topic": "두 수신자의 임무부여 등 복무관리 활용 재량",
+      "diagram": "MS-052-D01-editorial-v1"
+    },
+    {
+      "lines": [
+        63,
+        74
+      ],
+      "topic": "시험 핵심의 반복 확인",
+      "diagram": "MS-052-D01-editorial-v1"
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-052-D01-editorial-v1"
+  ],
+  "decision": {
+    "outcome": "reuse_only",
+    "reason": "기존 도식에 범죄 범위, 통보 시점·기한, 양쪽 수신자 및 활용 재량이 모두 있다. 공소청의 하위기관 열거와 통보만으로 처벌되지 않는다는 설명은 기존 절차를 풀이하는 보조 설명으로 별도 도식을 요구하지 않는다."
+  },
+  "changed_artifacts_and_hashes": [],
+  "verified_existing_assets": {
+    "svg": {
+      "path": "military-service-act/lesson-052/diagrams/MS-052-D01-editorial-v1.svg",
+      "bytes": 6762,
+      "sha256": "f40140d741d32c7dfd667ba9bedd6d0bb91527fa3d46b62a233de1b8a5d3c515",
+      "git_blob_sha": "a6ec96ea62f99642219fe6120eef4d92a780c087"
+    },
+    "webp": {
+      "path": "military-service-act/lesson-052/diagrams/MS-052-D01-editorial-v1.webp",
+      "bytes": 53118,
+      "sha256": "26b20ced9060800c5efc17bc963804689f4b49ffb14a560063674ba8b547a5a0",
+      "git_blob_sha": "f087ed1fd6c64106616a023f3649dbe4ea4d52d7",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    "layout": {
+      "id": "MS-052-D01-editorial-v1",
+      "text_blocks": 25,
+      "min_body_font": 40,
+      "bounds_valid": true,
+      "method": "공개 WebP 실제 화면 검수 및 SVG·WebP 바이트 SHA-256 재검증"
+    }
+  },
+  "previous_evidence_sha256": null,
+  "publication_commit_or_null": null,
+  "reviewed_date_kst": "2026-11-27"
+}
