@@ -62,3 +62,7 @@ WebP는 무손실 압축이며 PNG와 동일한 화면을 제공합니다. SVG�
 - [전체 파일 매니페스트](../diagrams-manifest.json)
 
 공식 원문: [조직·편성·운영 훈령 제3104호](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674), [교육훈련 훈령 제3216호](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712).
+
+## 2026-11-28 추가 검수
+
+DR-036·DR-041 기존 스크립트 전체와 각 D01·D02 실제 PNG를 대조했다. 신규 2장에 대해 문자·수치·줄바꿈·겹침·잘림을 확인했으며 레이아웃 검사 및 기존 렌더링의 PNG/WebP 일치 기록을 확인했다. 전체 대조 완료 43/78강. 이미지 반영 커밋: `ba2cbd82dbb769a6769068ee90938c4d7e14dd8a`.

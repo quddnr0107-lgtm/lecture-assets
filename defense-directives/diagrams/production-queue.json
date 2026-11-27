@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-28T04:22:19+09:00",
+  "updated_at": "2026-11-28T05:27:05+09:00",
   "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
     "status": "files_completed",
@@ -68,17 +68,17 @@
   "state": {
     "active_run": null,
     "last_successful_run": {
-      "id": "dr-20261128-032255-script",
-      "render_commit": "45722a9f3f1a963cbb1ea9deaaf950bed025f3d7",
-      "new_diagrams": 0,
-      "revised_diagrams": 3,
+      "id": "dr-20261128-042219-script",
+      "render_commit": "ba2cbd82dbb769a6769068ee90938c4d7e14dd8a",
+      "new_diagrams": 2,
+      "revised_diagrams": 0,
       "completed_reviews": 2,
       "visual_qa": "passed"
     },
     "coverage_reviews_total": 78,
-    "coverage_reviews_queued": 37,
-    "coverage_reviews_completed": 41,
-    "confirmed_production_jobs": 101,
+    "coverage_reviews_queued": 35,
+    "coverage_reviews_completed": 43,
+    "confirmed_production_jobs": 103,
     "diagrams_added_after_baseline": 36,
     "diagrams_revised_after_baseline": 63,
     "script_bindings_verified": 78,
@@ -94,9 +94,9 @@
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
     "production_jobs_queued": 0,
-    "production_jobs_qa": 2,
-    "production_jobs_completed": 101,
-    "production_jobs_running": 2
+    "production_jobs_qa": 0,
+    "production_jobs_completed": 103,
+    "production_jobs_running": 0
   },
   "jobs": [
     {
@@ -2525,7 +2525,7 @@
       "lesson_id": "DR-036",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제47조, 통신장비",
       "priority": 64,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 2,
       "existing_diagram_ids": [
         "DR-036-D01",
@@ -2541,29 +2541,32 @@
       "input_fingerprint": {
         "script_sha256": "29cc2b99f7cf762516fcbc14d2f5f8a2b3d826042866b13031d1892cda8664d4",
         "existing_svg_sha256": [
-          "03a5f1ad86419a992106632e260310c7f57903c504ee9920bf5a477fe47b0da2"
+          "03a5f1ad86419a992106632e260310c7f57903c504ee9920bf5a477fe47b0da2",
+          "aa9ef644d618071f0c81cd26603bc431f8df5af1779777281d61bebef729d48c"
         ],
         "design_version": "editorial-v1"
       },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-28T05:27:05+09:00",
       "result": {
-        "scope": "원고 1–145행과 기존 D01 실물 대조",
-        "full_review_completed": false,
+        "scope": "원고 1–145행 및 D01·D02 실제 PNG 대조",
+        "full_review_completed": true,
         "source_sha256": "29cc2b99f7cf762516fcbc14d2f5f8a2b3d826042866b13031d1892cda8664d4",
         "source_git_blob": "9d2b3d81243702eabe7c08977c9fae700d2d5b27",
-        "uncovered_required_learning_objectives": [
-          "별표 23 통신장비 보유기준과 감시정찰반 편성 단서"
-        ],
-        "additional_diagrams_required": true,
-        "visual_qa": "기존 D01 실제 PNG 개별 확인; 추가 도식 렌더링 및 검수 필요"
+        "uncovered_required_learning_objectives": [],
+        "additional_diagrams_required": false,
+        "visual_qa": "D01·D02 실제 PNG 확인: 글자 누락·겹침·잘림 없음",
+        "coverage": "보급·등록·관리·정비, 별표 23 부대별 기준 및 편성 단서, 정비 차이 비교"
       },
       "script_ref": "DR-036",
       "script_sha256": "29cc2b99f7cf762516fcbc14d2f5f8a2b3d826042866b13031d1892cda8664d4",
       "partial_corrections": [
         "DR-036-D01"
+      ],
+      "confirmed_production_job_ids": [
+        "DR-036-D02-script-042219"
       ]
     },
     {
@@ -2653,7 +2656,7 @@
       "lesson_id": "DR-041",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제52조, 감시장비 등",
       "priority": 67,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 2,
       "existing_diagram_ids": [
         "DR-041-D01",
@@ -2669,29 +2672,32 @@
       "input_fingerprint": {
         "script_sha256": "7ef501d6ef126e02e0d3b0d5c9d56eb0d2f5b00f3b142e4f5afc304ff2bbd921",
         "existing_svg_sha256": [
-          "e9f597e8d3b900a8e5310a2191a7003d2e96f7df457e3225d5a6562f71857a36"
+          "e9f597e8d3b900a8e5310a2191a7003d2e96f7df457e3225d5a6562f71857a36",
+          "f4d3ed29d1989a1263cbe67b7f092e63322c162f6099042cc7f7df2749353b05"
         ],
         "design_version": "editorial-v1"
       },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-28T05:27:05+09:00",
       "result": {
-        "scope": "원고 1–127행과 기존 D01 실물 대조",
-        "full_review_completed": false,
+        "scope": "원고 1–127행 및 D01·D02 실제 PNG 대조",
+        "full_review_completed": true,
         "source_sha256": "7ef501d6ef126e02e0d3b0d5c9d56eb0d2f5b00f3b142e4f5afc304ff2bbd921",
         "source_git_blob": "fbb479ed9771ef4a7c0a8c2fa791ebbec4b6f128",
-        "uncovered_required_learning_objectives": [
-          "별표 25 단서 세 가지와 통신장비 정비 방식 비교"
-        ],
-        "additional_diagrams_required": true,
-        "visual_qa": "기존 D01 실제 PNG 개별 확인; 추가 도식 렌더링 및 검수 필요"
+        "uncovered_required_learning_objectives": [],
+        "additional_diagrams_required": false,
+        "visual_qa": "D01·D02 실제 PNG 확인: 글자 누락·겹침·잘림 없음",
+        "coverage": "보급·등록·순회정비, 제한 품목 예산, 별표 25 세 가지 단서와 정비 방식 비교"
       },
       "script_ref": "DR-041",
       "script_sha256": "7ef501d6ef126e02e0d3b0d5c9d56eb0d2f5b00f3b142e4f5afc304ff2bbd921",
       "partial_corrections": [
         "DR-041-D01"
+      ],
+      "confirmed_production_job_ids": [
+        "DR-041-D02-script-042219"
       ]
     },
     {
@@ -8823,7 +8829,7 @@
       "script_sha256": "29cc2b99f7cf762516fcbc14d2f5f8a2b3d826042866b13031d1892cda8664d4",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-036|29cc2b99f7cf762516fcbc14d2f5f8a2b3d826042866b13031d1892cda8664d4|103,107,109,110,111,112,113,114,116,118,120,128,139,140|별표 23 통신장비 보유기준과 감시정찰반 편성 단서|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-036/diagrams/DR-036-D02-editorial-v1.svg",
@@ -8872,7 +8878,10 @@
       "diagram_id": "DR-036-D02",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "visual_reviewed_at": "2026-11-28T05:27:05+09:00",
+      "completed_at": "2026-11-28T05:27:05+09:00",
+      "render_commit": "ba2cbd82dbb769a6769068ee90938c4d7e14dd8a"
     },
     {
       "id": "DR-041-D02-script-042219",
@@ -8885,7 +8894,7 @@
       "script_sha256": "7ef501d6ef126e02e0d3b0d5c9d56eb0d2f5b00f3b142e4f5afc304ff2bbd921",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-041|7ef501d6ef126e02e0d3b0d5c9d56eb0d2f5b00f3b142e4f5afc304ff2bbd921|75,77,79,81,87,95,97,99,101,109,119,121,122|별표 25 단서 세 가지와 통신장비 정비 방식 비교|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-041/diagrams/DR-041-D02-editorial-v1.svg",
@@ -8933,7 +8942,10 @@
       "diagram_id": "DR-041-D02",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "visual_reviewed_at": "2026-11-28T05:27:05+09:00",
+      "completed_at": "2026-11-28T05:27:05+09:00",
+      "render_commit": "ba2cbd82dbb769a6769068ee90938c4d7e14dd8a"
     }
   ],
   "runs": [
@@ -9296,14 +9308,22 @@
     },
     {
       "id": "dr-20261128-042219-script",
-      "status": "rendered_pending_visual_qa",
+      "status": "completed",
       "new_diagrams": 2,
       "revised_diagrams": 0,
-      "completed_reviews": 0,
+      "completed_reviews": 2,
       "diagram_ids": [
         "DR-036-D02",
         "DR-041-D02"
-      ]
+      ],
+      "completed_lessons": [
+        "DR-036",
+        "DR-041"
+      ],
+      "visual_qa": "passed",
+      "render_commit": "ba2cbd82dbb769a6769068ee90938c4d7e14dd8a",
+      "completed_at": "2026-11-28T05:27:05+09:00",
+      "remaining_reviews": 35
     }
   ],
   "exam": {

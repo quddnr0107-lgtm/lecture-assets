@@ -82,7 +82,7 @@
     "DR-078": 8
   },
   "errors": [],
-  "minimumBodyFontSize": 35,
+  "minimumBodyFontSize": 33,
   "targeted_runs": [
     {
       "run_id": "dr-20261127-122552",
@@ -274,7 +274,9 @@
         "DR-036-D02",
         "DR-041-D02"
       ],
-      "errors": []
+      "errors": [],
+      "visual_review": "passed",
+      "visual_reviewed_at": "2026-11-28T05:27:05+09:00"
     }
   ]
 }

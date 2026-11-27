@@ -6,7 +6,7 @@
     "cutoff_date": "2027-02-02",
     "cutoff_kind": "existing_user_specified_exam80_basis"
   },
-  "checked_at": "2026-11-28T04:22:19+09:00",
+  "checked_at": "2026-11-28T05:27:05+09:00",
   "source_commit": "2d696ecb8a2805b0bc42df8ce5754ae91914371d",
   "script_bindings_verified": 78,
   "diagram_corrections": [
@@ -75,8 +75,8 @@
       "full_lesson_coverage_review": "pending"
     }
   ],
-  "full_lecture_coverage_reviews_completed": 41,
-  "remaining_full_lecture_reviews": 37,
+  "full_lecture_coverage_reviews_completed": 43,
+  "remaining_full_lecture_reviews": 35,
   "new_diagrams": 36,
   "revised_diagrams": 63,
   "priority_script_comparison": {
@@ -25409,7 +25409,7 @@
             {
               "text": "나침의 추가",
               "x": 144,
-              "y": 722.0,
+              "y": 722,
               "width": 161,
               "height": 33,
               "fontSize": 33,
@@ -26060,6 +26060,20 @@
         "new": 2,
         "revised": 0
       }
+    },
+    {
+      "run_id": "dr-20261128-052705-script",
+      "completed_lessons": [
+        "DR-036",
+        "DR-041"
+      ],
+      "visual_reviewed": [
+        "DR-036-D02",
+        "DR-041-D02"
+      ],
+      "render_commit": "ba2cbd82dbb769a6769068ee90938c4d7e14dd8a",
+      "remaining_reviews": 35,
+      "visual_reviewed_at": "2026-11-28T05:27:05+09:00"
     }
   ]
 }
