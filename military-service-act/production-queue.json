@@ -88,7 +88,16 @@
     "parallelism": "maximum_actual_available",
     "worker_limit": "현재 런타임에서 실제로 허용되는 가용 슬롯 수",
     "coordinator": "single_writer",
-    "coordinator_lease": null,
+    "coordinator_lease": {
+      "token": "exam80-ms-20261127-checkpoint05",
+      "lecture_ids": [
+        "MS-077",
+        "MS-094",
+        "MS-109"
+      ],
+      "expires_at_kst": "2026-11-27T19:40:00+09:00",
+      "scope": "resume existing verified drafts and revise flagged SVGs"
+    },
     "priority_lectures": [
       "MS-077",
       "MS-094",
@@ -2067,7 +2076,7 @@
       "title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
       "priority": 1,
       "generation": 2,
-      "status": "pending",
+      "status": "claimed",
       "script_alignment_status": "script_alignment_pending",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_41.txt",
@@ -2078,7 +2087,10 @@
         "MS-077-D02-editorial-v1"
       ],
       "full_script_read": true,
-      "lease": null,
+      "lease": {
+        "token": "exam80-ms-20261127-checkpoint05",
+        "expires_at_kst": "2026-11-27T19:40:00+09:00"
+      },
       "checkpoint": 4,
       "evidence_refs": [
         "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
@@ -2501,7 +2513,7 @@
       "title": "병역법 제58조, 의무·법무·군종·수의장교 등의 병적 편입",
       "priority": 1,
       "generation": 2,
-      "status": "pending",
+      "status": "claimed",
       "script_alignment_status": "script_alignment_pending",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_58.txt",
@@ -2512,7 +2524,10 @@
         "MS-094-D02-editorial-v1"
       ],
       "full_script_read": false,
-      "lease": null,
+      "lease": {
+        "token": "exam80-ms-20261127-checkpoint05",
+        "expires_at_kst": "2026-11-27T19:40:00+09:00"
+      },
       "checkpoint": 3,
       "evidence_refs": [
         "military-service-act/production-evidence/exam80-generation-2/MS-094/002-publication-review.json",
@@ -2873,7 +2888,7 @@
       "title": "병역법 제70조, 국외여행의 허가 및 취소",
       "priority": 1,
       "generation": 2,
-      "status": "pending",
+      "status": "claimed",
       "script_alignment_status": "script_alignment_pending",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_70.txt",
@@ -2885,7 +2900,10 @@
         "MS-109-D03-editorial-v1"
       ],
       "full_script_read": false,
-      "lease": null,
+      "lease": {
+        "token": "exam80-ms-20261127-checkpoint05",
+        "expires_at_kst": "2026-11-27T19:40:00+09:00"
+      },
       "checkpoint": 3,
       "evidence_refs": [
         "military-service-act/production-evidence/exam80-generation-2/MS-109/002-publication-review.json",
