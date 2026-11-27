@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "subject": "integrated-defense",
+  "subject_name": "통합방위법",
+  "created_date_kst": "2026-11-27",
+  "review_status": "pending_user_review",
+  "scope": "three_diagram_examples_only",
+  "law": {
+    "title": "통합방위법",
+    "law_number": "21065",
+    "displayed_effective_date": "2025-10-01",
+    "verified_on_kst": "2026-11-27",
+    "source": "https://www.law.go.kr/LSW/lsInfoP.do?lsId=000920"
+  },
+  "items": [
+    {
+      "id": "TB-001-D01-purpose-review-v1",
+      "lecture_id": "TB-001",
+      "lesson_number": 1,
+      "title": "목적 조문의 논리 구조",
+      "article": "제1조",
+      "status": "pending_user_review",
+      "width": 1200,
+      "height": 1440,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-001/diagrams/TB-001-D01-purpose-review-v1.svg",
+          "bytes": 5116,
+          "sha256": "8e7bcd7b12cad348f32f1788ee7cb5cbbcf40036f96381692ea39fa53f7757d0"
+        },
+        "png": {
+          "path": "integrated-defense/lesson-001/diagrams/TB-001-D01-purpose-review-v1.png",
+          "bytes": 80005,
+          "sha256": "83c5a1724831306964604e3908c4ccd2f04a7c09cfbc529a9f39d6d75d0643a7"
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-001/diagrams/TB-001-D01-purpose-review-v1.webp",
+          "bytes": 50452,
+          "sha256": "ea530b391179b469d356975a4ef7d2e384993fad54b28cf5fa711b74b4d233da"
+        }
+      }
+    },
+    {
+      "id": "TB-002-D01-national-defense-elements-review-v1",
+      "lecture_id": "TB-002",
+      "lesson_number": 2,
+      "title": "국가방위요소 가~사 7개",
+      "article": "제2조제2호",
+      "status": "pending_user_review",
+      "width": 1200,
+      "height": 1440,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-002/diagrams/TB-002-D01-national-defense-elements-review-v1.svg",
+          "bytes": 7907,
+          "sha256": "d59dbc327a4152dd939e072fe2f40ad225c48166e91c3b9683a8f35f48a95c2d"
+        },
+        "png": {
+          "path": "integrated-defense/lesson-002/diagrams/TB-002-D01-national-defense-elements-review-v1.png",
+          "bytes": 126961,
+          "sha256": "8ad2ad4660e45b42d2954aa910ff24ffbd09c4de4b56c3a91c276bd351eabf02"
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-002/diagrams/TB-002-D01-national-defense-elements-review-v1.webp",
+          "bytes": 72230,
+          "sha256": "9953cddc9312188f2659eddd18739c88c3ca8eb6b07d0a7534cbc40f7a1ccbdf"
+        }
+      }
+    },
+    {
+      "id": "TB-005-D01-regional-deliberation-review-v1",
+      "lecture_id": "TB-005",
+      "lesson_number": 5,
+      "title": "지역협의회 공통 4개와 시·도만 2개",
+      "article": "제5조제3항",
+      "status": "pending_user_review",
+      "width": 1200,
+      "height": 1440,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-005/diagrams/TB-005-D01-regional-deliberation-review-v1.svg",
+          "bytes": 6968,
+          "sha256": "4d9a870b9333b2bd4f9a4e98f38365a6b180e4d01f299336e57d0fef78c6ed18"
+        },
+        "png": {
+          "path": "integrated-defense/lesson-005/diagrams/TB-005-D01-regional-deliberation-review-v1.png",
+          "bytes": 118693,
+          "sha256": "44e4d5a6d25f79721579dd5234bb15f4c6b805f4bf8d3fe1358cb544a34b44d6"
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-005/diagrams/TB-005-D01-regional-deliberation-review-v1.webp",
+          "bytes": 73146,
+          "sha256": "f716742a530843265f794b1bf913dbd680628ec6257a90643ec82756637ba8cb"
+        }
+      }
+    }
+  ]
+}

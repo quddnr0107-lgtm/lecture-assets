@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1440" viewBox="0 0 1200 1440" role="img" aria-labelledby="title desc" lang="ko">
+<title id="title">지역협의회의 심의사항</title><desc id="desc">법 제5조제3항에서 시·도와 시·군·구 지역협의회가 공통으로 심의하는 네 항목과 시·도 협의회에만 한정되는 두 항목을 비교한다. 취약지역 선정 또는 해제와 을종사태 및 병종사태의 선포 또는 해제는 시·도 협의회만 심의한다. 심의권을 선포권으로 표현한 것이 아니다.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L8 5 L1 9" fill="none" stroke="#275AA3" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="0" y="0" width="1200" height="1440" rx="0" fill="#F4F4F4"/>
+<g id="header">
+<rect x="72" y="59" width="8" height="31" rx="4" fill="#275AA3"/>
+<text x="96" y="85" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="30" font-weight="700" fill="#275AA3" text-anchor="start">무한회독 · 통합방위법</text>
+<rect x="938" y="47" width="190" height="60" rx="30" fill="#FFFFFF" stroke="#D6DAE1" stroke-width="2"/>
+<text x="1033" y="88" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="30" font-weight="700" fill="#202124" text-anchor="middle">TB-005</text>
+<line x1="72" y1="133" x2="1128" y2="133" stroke="#D6DAE1" stroke-width="2" stroke-linecap="round"/>
+<text x="72" y="217" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="64" font-weight="700" fill="#202124" text-anchor="start">지역협의회의 심의사항</text>
+<text x="72" y="272" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="34" font-weight="400" fill="#545860" text-anchor="start">제5조제3항  |  시·도와 시·군·구 비교</text>
+</g>
+<g id="shared-scope">
+<rect x="72" y="328" width="1056" height="86" rx="22" fill="#FFFFFF" stroke="#D6DAE1" stroke-width="2"/>
+<text x="336" y="384" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="44" font-weight="700" fill="#202124" text-anchor="middle">시·도 협의회</text>
+<line x1="600" y1="350" x2="600" y2="391" stroke="#D6DAE1" stroke-width="2" stroke-linecap="round"/>
+<text x="864" y="384" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="44" font-weight="700" fill="#202124" text-anchor="middle">시·군·구 협의회</text>
+<line x1="600" y1="426" x2="600" y2="460" stroke="#275AA3" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+</g>
+<g id="common-four">
+<text x="72" y="516" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="46" font-weight="700" fill="#275AA3" text-anchor="start">각각 심의 · 공통 4개</text>
+<text x="1128" y="511" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="32" font-weight="400" fill="#545860" text-anchor="end">제2·4·5·6호</text>
+<rect x="72" y="547" width="1056" height="441" rx="24" fill="#FFFFFF" stroke="#D6DAE1" stroke-width="2"/>
+<circle cx="126" cy="585" r="24" fill="#E9EFF8"/>
+<text x="126" y="596" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="28" font-weight="700" fill="#275AA3" text-anchor="middle">2</text>
+<text x="178" y="600" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="42" font-weight="700" fill="#202124" text-anchor="start">통합방위 대비책</text>
+<circle cx="126" cy="669" r="24" fill="#E9EFF8"/>
+<text x="126" y="680" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="28" font-weight="700" fill="#275AA3" text-anchor="middle">4</text>
+<text x="178" y="684" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="42" font-weight="400" fill="#202124" text-anchor="start">통합방위작전·훈련의 지원 대책</text>
+<circle cx="126" cy="755" r="24" fill="#E9EFF8"/>
+<text x="126" y="766" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="28" font-weight="700" fill="#275AA3" text-anchor="middle">5</text>
+<text x="178" y="770" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="42" font-weight="400" fill="#202124" text-anchor="start">국가방위요소의 효율적</text>
+<text x="178" y="827" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="42" font-weight="400" fill="#202124" text-anchor="start">육성·운용 및 지원 대책</text>
+<circle cx="126" cy="880" r="24" fill="#E9EFF8"/>
+<text x="126" y="891" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="28" font-weight="700" fill="#275AA3" text-anchor="middle">6</text>
+<text x="178" y="895" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="40" font-weight="400" fill="#202124" text-anchor="start">그 밖에 통합방위에 관하여</text>
+<text x="178" y="952" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="40" font-weight="400" fill="#202124" text-anchor="start">대통령령으로 정하는 사항</text>
+</g>
+<g id="province-only-two">
+<text x="72" y="1055" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="48" font-weight="700" fill="#275AA3" text-anchor="start">시·도만 2개</text>
+<text x="1128" y="1050" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="32" font-weight="400" fill="#545860" text-anchor="end">제1·3호</text>
+<rect x="72" y="1085" width="1056" height="242" rx="24" fill="#275AA3"/>
+<circle cx="126" cy="1142" r="24" fill="#FFFFFF"/>
+<text x="126" y="1153" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="28" font-weight="700" fill="#275AA3" text-anchor="middle">1</text>
+<text x="178" y="1160" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="44" font-weight="700" fill="#FFFFFF" text-anchor="start">취약지역의 선정 또는 해제</text>
+<circle cx="126" cy="1227" r="24" fill="#FFFFFF"/>
+<text x="126" y="1238" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="28" font-weight="700" fill="#275AA3" text-anchor="middle">3</text>
+<text x="178" y="1234" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="44" font-weight="700" fill="#FFFFFF" text-anchor="start">을종사태 및 병종사태의</text>
+<text x="178" y="1292" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="44" font-weight="700" fill="#FFFFFF" text-anchor="start">선포 또는 해제</text>
+</g>
+<g id="footer">
+<line x1="72" y1="1360" x2="1128" y2="1360" stroke="#D6DAE1" stroke-width="2" stroke-linecap="round"/>
+<text x="72" y="1402" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="25" font-weight="400" fill="#545860" text-anchor="start">근거: 법 제5조제3항  ·  2026.11.27 확인</text>
+<text x="1128" y="1402" font-family="Noto Sans CJK KR,Noto Sans KR,sans-serif" font-size="25" font-weight="400" fill="#545860" text-anchor="end">예시 · 검토 대기</text>
+</g>
+</svg>
