@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_date_kst": "2026-11-27",
-  "status": "ready_for_lesson_integration",
+  "status": "exam80_script_alignment_in_progress",
   "style": {
     "name": "editorial-monochrome",
     "reference": "integrated-defense/lesson-005/diagrams/style-studies-v2/07-notion-editorial.svg",
@@ -60,7 +60,8 @@
       "diagram_ids": [
         "DR-001-D01"
       ],
-      "path": "defense-directives/lesson-001/diagrams/"
+      "path": "defense-directives/lesson-001/diagrams/",
+      "script_ref": "DR-001"
     },
     {
       "id": "DR-002",
@@ -72,7 +73,8 @@
         "DR-002-D03",
         "DR-002-D04"
       ],
-      "path": "defense-directives/lesson-002/diagrams/"
+      "path": "defense-directives/lesson-002/diagrams/",
+      "script_ref": "DR-002"
     },
     {
       "id": "DR-003",
@@ -81,7 +83,8 @@
       "diagram_ids": [
         "DR-003-D01"
       ],
-      "path": "defense-directives/lesson-003/diagrams/"
+      "path": "defense-directives/lesson-003/diagrams/",
+      "script_ref": "DR-003"
     },
     {
       "id": "DR-004",
@@ -91,7 +94,8 @@
         "DR-004-D01",
         "DR-004-D02"
       ],
-      "path": "defense-directives/lesson-004/diagrams/"
+      "path": "defense-directives/lesson-004/diagrams/",
+      "script_ref": "DR-004"
     },
     {
       "id": "DR-005",
@@ -103,7 +107,8 @@
         "DR-005-D03",
         "DR-005-D04"
       ],
-      "path": "defense-directives/lesson-005/diagrams/"
+      "path": "defense-directives/lesson-005/diagrams/",
+      "script_ref": "DR-005"
     },
     {
       "id": "DR-006",
@@ -113,7 +118,8 @@
         "DR-006-D01",
         "DR-006-D02"
       ],
-      "path": "defense-directives/lesson-006/diagrams/"
+      "path": "defense-directives/lesson-006/diagrams/",
+      "script_ref": "DR-006"
     },
     {
       "id": "DR-007",
@@ -123,7 +129,8 @@
         "DR-007-D01",
         "DR-007-D02"
       ],
-      "path": "defense-directives/lesson-007/diagrams/"
+      "path": "defense-directives/lesson-007/diagrams/",
+      "script_ref": "DR-007"
     },
     {
       "id": "DR-008",
@@ -133,7 +140,8 @@
         "DR-008-D01",
         "DR-008-D02"
       ],
-      "path": "defense-directives/lesson-008/diagrams/"
+      "path": "defense-directives/lesson-008/diagrams/",
+      "script_ref": "DR-008"
     },
     {
       "id": "DR-009",
@@ -146,7 +154,8 @@
         "DR-009-D04",
         "DR-009-D05"
       ],
-      "path": "defense-directives/lesson-009/diagrams/"
+      "path": "defense-directives/lesson-009/diagrams/",
+      "script_ref": "DR-009"
     },
     {
       "id": "DR-010",
@@ -155,7 +164,8 @@
       "diagram_ids": [
         "DR-010-D01"
       ],
-      "path": "defense-directives/lesson-010/diagrams/"
+      "path": "defense-directives/lesson-010/diagrams/",
+      "script_ref": "DR-010"
     },
     {
       "id": "DR-011",
@@ -167,7 +177,8 @@
         "DR-011-D03",
         "DR-011-D04"
       ],
-      "path": "defense-directives/lesson-011/diagrams/"
+      "path": "defense-directives/lesson-011/diagrams/",
+      "script_ref": "DR-011"
     },
     {
       "id": "DR-012",
@@ -178,7 +189,8 @@
         "DR-012-D02",
         "DR-012-D03"
       ],
-      "path": "defense-directives/lesson-012/diagrams/"
+      "path": "defense-directives/lesson-012/diagrams/",
+      "script_ref": "DR-012"
     },
     {
       "id": "DR-013",
@@ -192,7 +204,8 @@
         "DR-013-D05",
         "DR-013-D06"
       ],
-      "path": "defense-directives/lesson-013/diagrams/"
+      "path": "defense-directives/lesson-013/diagrams/",
+      "script_ref": "DR-013"
     },
     {
       "id": "DR-014",
@@ -203,7 +216,8 @@
         "DR-014-D02",
         "DR-014-D03"
       ],
-      "path": "defense-directives/lesson-014/diagrams/"
+      "path": "defense-directives/lesson-014/diagrams/",
+      "script_ref": "DR-014"
     },
     {
       "id": "DR-015",
@@ -214,7 +228,8 @@
         "DR-015-D02",
         "DR-015-D03"
       ],
-      "path": "defense-directives/lesson-015/diagrams/"
+      "path": "defense-directives/lesson-015/diagrams/",
+      "script_ref": "DR-015"
     },
     {
       "id": "DR-016",
@@ -223,7 +238,8 @@
       "diagram_ids": [
         "DR-016-D01"
       ],
-      "path": "defense-directives/lesson-016/diagrams/"
+      "path": "defense-directives/lesson-016/diagrams/",
+      "script_ref": "DR-016"
     },
     {
       "id": "DR-017",
@@ -234,7 +250,8 @@
         "DR-017-D02",
         "DR-017-D03"
       ],
-      "path": "defense-directives/lesson-017/diagrams/"
+      "path": "defense-directives/lesson-017/diagrams/",
+      "script_ref": "DR-017"
     },
     {
       "id": "DR-018",
@@ -245,7 +262,8 @@
         "DR-018-D02",
         "DR-018-D03"
       ],
-      "path": "defense-directives/lesson-018/diagrams/"
+      "path": "defense-directives/lesson-018/diagrams/",
+      "script_ref": "DR-018"
     },
     {
       "id": "DR-019",
@@ -256,7 +274,8 @@
         "DR-019-D02",
         "DR-019-D03"
       ],
-      "path": "defense-directives/lesson-019/diagrams/"
+      "path": "defense-directives/lesson-019/diagrams/",
+      "script_ref": "DR-019"
     },
     {
       "id": "DR-020",
@@ -265,7 +284,8 @@
       "diagram_ids": [
         "DR-020-D01"
       ],
-      "path": "defense-directives/lesson-020/diagrams/"
+      "path": "defense-directives/lesson-020/diagrams/",
+      "script_ref": "DR-020"
     },
     {
       "id": "DR-021",
@@ -275,7 +295,8 @@
         "DR-021-D01",
         "DR-021-D02"
       ],
-      "path": "defense-directives/lesson-021/diagrams/"
+      "path": "defense-directives/lesson-021/diagrams/",
+      "script_ref": "DR-021"
     },
     {
       "id": "DR-022",
@@ -285,7 +306,8 @@
         "DR-022-D01",
         "DR-022-D02"
       ],
-      "path": "defense-directives/lesson-022/diagrams/"
+      "path": "defense-directives/lesson-022/diagrams/",
+      "script_ref": "DR-022"
     },
     {
       "id": "DR-023",
@@ -294,7 +316,8 @@
       "diagram_ids": [
         "DR-023-D01"
       ],
-      "path": "defense-directives/lesson-023/diagrams/"
+      "path": "defense-directives/lesson-023/diagrams/",
+      "script_ref": "DR-023"
     },
     {
       "id": "DR-024",
@@ -308,7 +331,8 @@
         "DR-024-D05",
         "DR-024-D06"
       ],
-      "path": "defense-directives/lesson-024/diagrams/"
+      "path": "defense-directives/lesson-024/diagrams/",
+      "script_ref": "DR-024"
     },
     {
       "id": "DR-025",
@@ -317,7 +341,8 @@
       "diagram_ids": [
         "DR-025-D01"
       ],
-      "path": "defense-directives/lesson-025/diagrams/"
+      "path": "defense-directives/lesson-025/diagrams/",
+      "script_ref": "DR-025"
     },
     {
       "id": "DR-026",
@@ -328,7 +353,8 @@
         "DR-026-D02",
         "DR-026-D03"
       ],
-      "path": "defense-directives/lesson-026/diagrams/"
+      "path": "defense-directives/lesson-026/diagrams/",
+      "script_ref": "DR-026"
     },
     {
       "id": "DR-027",
@@ -337,7 +363,8 @@
       "diagram_ids": [
         "DR-027-D01"
       ],
-      "path": "defense-directives/lesson-027/diagrams/"
+      "path": "defense-directives/lesson-027/diagrams/",
+      "script_ref": "DR-027"
     },
     {
       "id": "DR-028",
@@ -347,7 +374,8 @@
         "DR-028-D01",
         "DR-028-D02"
       ],
-      "path": "defense-directives/lesson-028/diagrams/"
+      "path": "defense-directives/lesson-028/diagrams/",
+      "script_ref": "DR-028"
     },
     {
       "id": "DR-029",
@@ -357,7 +385,8 @@
         "DR-029-D01",
         "DR-029-D02"
       ],
-      "path": "defense-directives/lesson-029/diagrams/"
+      "path": "defense-directives/lesson-029/diagrams/",
+      "script_ref": "DR-029"
     },
     {
       "id": "DR-030",
@@ -369,7 +398,8 @@
         "DR-030-D03",
         "DR-030-D04"
       ],
-      "path": "defense-directives/lesson-030/diagrams/"
+      "path": "defense-directives/lesson-030/diagrams/",
+      "script_ref": "DR-030"
     },
     {
       "id": "DR-031",
@@ -379,7 +409,8 @@
         "DR-031-D01",
         "DR-031-D02"
       ],
-      "path": "defense-directives/lesson-031/diagrams/"
+      "path": "defense-directives/lesson-031/diagrams/",
+      "script_ref": "DR-031"
     },
     {
       "id": "DR-032",
@@ -390,7 +421,8 @@
         "DR-032-D02",
         "DR-032-D03"
       ],
-      "path": "defense-directives/lesson-032/diagrams/"
+      "path": "defense-directives/lesson-032/diagrams/",
+      "script_ref": "DR-032"
     },
     {
       "id": "DR-033",
@@ -401,7 +433,8 @@
         "DR-033-D02",
         "DR-033-D03"
       ],
-      "path": "defense-directives/lesson-033/diagrams/"
+      "path": "defense-directives/lesson-033/diagrams/",
+      "script_ref": "DR-033"
     },
     {
       "id": "DR-034",
@@ -410,7 +443,8 @@
       "diagram_ids": [
         "DR-034-D01"
       ],
-      "path": "defense-directives/lesson-034/diagrams/"
+      "path": "defense-directives/lesson-034/diagrams/",
+      "script_ref": "DR-034"
     },
     {
       "id": "DR-035",
@@ -422,7 +456,8 @@
         "DR-035-D03",
         "DR-035-D04"
       ],
-      "path": "defense-directives/lesson-035/diagrams/"
+      "path": "defense-directives/lesson-035/diagrams/",
+      "script_ref": "DR-035"
     },
     {
       "id": "DR-036",
@@ -431,7 +466,8 @@
       "diagram_ids": [
         "DR-036-D01"
       ],
-      "path": "defense-directives/lesson-036/diagrams/"
+      "path": "defense-directives/lesson-036/diagrams/",
+      "script_ref": "DR-036"
     },
     {
       "id": "DR-037",
@@ -440,7 +476,8 @@
       "diagram_ids": [
         "DR-037-D01"
       ],
-      "path": "defense-directives/lesson-037/diagrams/"
+      "path": "defense-directives/lesson-037/diagrams/",
+      "script_ref": "DR-037"
     },
     {
       "id": "DR-038",
@@ -451,7 +488,8 @@
         "DR-038-D02",
         "DR-038-D03"
       ],
-      "path": "defense-directives/lesson-038/diagrams/"
+      "path": "defense-directives/lesson-038/diagrams/",
+      "script_ref": "DR-038"
     },
     {
       "id": "DR-039",
@@ -461,7 +499,8 @@
         "DR-039-D01",
         "DR-039-D02"
       ],
-      "path": "defense-directives/lesson-039/diagrams/"
+      "path": "defense-directives/lesson-039/diagrams/",
+      "script_ref": "DR-039"
     },
     {
       "id": "DR-040",
@@ -470,7 +509,8 @@
       "diagram_ids": [
         "DR-040-D01"
       ],
-      "path": "defense-directives/lesson-040/diagrams/"
+      "path": "defense-directives/lesson-040/diagrams/",
+      "script_ref": "DR-040"
     },
     {
       "id": "DR-041",
@@ -479,7 +519,8 @@
       "diagram_ids": [
         "DR-041-D01"
       ],
-      "path": "defense-directives/lesson-041/diagrams/"
+      "path": "defense-directives/lesson-041/diagrams/",
+      "script_ref": "DR-041"
     },
     {
       "id": "DR-042",
@@ -488,7 +529,8 @@
       "diagram_ids": [
         "DR-042-D01"
       ],
-      "path": "defense-directives/lesson-042/diagrams/"
+      "path": "defense-directives/lesson-042/diagrams/",
+      "script_ref": "DR-042"
     },
     {
       "id": "DR-043",
@@ -497,7 +539,8 @@
       "diagram_ids": [
         "DR-043-D01"
       ],
-      "path": "defense-directives/lesson-043/diagrams/"
+      "path": "defense-directives/lesson-043/diagrams/",
+      "script_ref": "DR-043"
     },
     {
       "id": "DR-044",
@@ -508,7 +551,8 @@
         "DR-044-D02",
         "DR-044-D03"
       ],
-      "path": "defense-directives/lesson-044/diagrams/"
+      "path": "defense-directives/lesson-044/diagrams/",
+      "script_ref": "DR-044"
     },
     {
       "id": "DR-045",
@@ -517,7 +561,8 @@
       "diagram_ids": [
         "DR-045-D01"
       ],
-      "path": "defense-directives/lesson-045/diagrams/"
+      "path": "defense-directives/lesson-045/diagrams/",
+      "script_ref": "DR-045"
     },
     {
       "id": "DR-046",
@@ -526,7 +571,8 @@
       "diagram_ids": [
         "DR-046-D01"
       ],
-      "path": "defense-directives/lesson-046/diagrams/"
+      "path": "defense-directives/lesson-046/diagrams/",
+      "script_ref": "DR-046"
     },
     {
       "id": "DR-047",
@@ -536,7 +582,8 @@
         "DR-047-D01",
         "DR-047-D02"
       ],
-      "path": "defense-directives/lesson-047/diagrams/"
+      "path": "defense-directives/lesson-047/diagrams/",
+      "script_ref": "DR-047"
     },
     {
       "id": "DR-048",
@@ -545,7 +592,8 @@
       "diagram_ids": [
         "DR-048-D01"
       ],
-      "path": "defense-directives/lesson-048/diagrams/"
+      "path": "defense-directives/lesson-048/diagrams/",
+      "script_ref": "DR-048"
     },
     {
       "id": "DR-049",
@@ -555,7 +603,8 @@
         "DR-049-D01",
         "DR-049-D02"
       ],
-      "path": "defense-directives/lesson-049/diagrams/"
+      "path": "defense-directives/lesson-049/diagrams/",
+      "script_ref": "DR-049"
     },
     {
       "id": "DR-050",
@@ -564,7 +613,8 @@
       "diagram_ids": [
         "DR-050-D01"
       ],
-      "path": "defense-directives/lesson-050/diagrams/"
+      "path": "defense-directives/lesson-050/diagrams/",
+      "script_ref": "DR-050"
     },
     {
       "id": "DR-051",
@@ -574,7 +624,8 @@
         "DR-051-D01",
         "DR-051-D02"
       ],
-      "path": "defense-directives/lesson-051/diagrams/"
+      "path": "defense-directives/lesson-051/diagrams/",
+      "script_ref": "DR-051"
     },
     {
       "id": "DR-052",
@@ -584,7 +635,8 @@
         "DR-052-D01",
         "DR-052-D02"
       ],
-      "path": "defense-directives/lesson-052/diagrams/"
+      "path": "defense-directives/lesson-052/diagrams/",
+      "script_ref": "DR-052"
     },
     {
       "id": "DR-053",
@@ -593,7 +645,8 @@
       "diagram_ids": [
         "DR-053-D01"
       ],
-      "path": "defense-directives/lesson-053/diagrams/"
+      "path": "defense-directives/lesson-053/diagrams/",
+      "script_ref": "DR-053"
     },
     {
       "id": "DR-054",
@@ -605,7 +658,8 @@
         "DR-054-D03",
         "DR-054-D04"
       ],
-      "path": "defense-directives/lesson-054/diagrams/"
+      "path": "defense-directives/lesson-054/diagrams/",
+      "script_ref": "DR-054"
     },
     {
       "id": "DR-055",
@@ -616,7 +670,8 @@
         "DR-055-D02",
         "DR-055-D03"
       ],
-      "path": "defense-directives/lesson-055/diagrams/"
+      "path": "defense-directives/lesson-055/diagrams/",
+      "script_ref": "DR-055"
     },
     {
       "id": "DR-056",
@@ -628,7 +683,8 @@
         "DR-056-D03",
         "DR-056-D04"
       ],
-      "path": "defense-directives/lesson-056/diagrams/"
+      "path": "defense-directives/lesson-056/diagrams/",
+      "script_ref": "DR-056"
     },
     {
       "id": "DR-057",
@@ -640,7 +696,8 @@
         "DR-057-D03",
         "DR-057-D04"
       ],
-      "path": "defense-directives/lesson-057/diagrams/"
+      "path": "defense-directives/lesson-057/diagrams/",
+      "script_ref": "DR-057"
     },
     {
       "id": "DR-058",
@@ -650,7 +707,8 @@
         "DR-058-D01",
         "DR-058-D02"
       ],
-      "path": "defense-directives/lesson-058/diagrams/"
+      "path": "defense-directives/lesson-058/diagrams/",
+      "script_ref": "DR-058"
     },
     {
       "id": "DR-059",
@@ -660,7 +718,8 @@
         "DR-059-D01",
         "DR-059-D02"
       ],
-      "path": "defense-directives/lesson-059/diagrams/"
+      "path": "defense-directives/lesson-059/diagrams/",
+      "script_ref": "DR-059"
     },
     {
       "id": "DR-060",
@@ -674,7 +733,8 @@
         "DR-060-D05",
         "DR-060-D06"
       ],
-      "path": "defense-directives/lesson-060/diagrams/"
+      "path": "defense-directives/lesson-060/diagrams/",
+      "script_ref": "DR-060"
     },
     {
       "id": "DR-061",
@@ -684,7 +744,8 @@
         "DR-061-D01",
         "DR-061-D02"
       ],
-      "path": "defense-directives/lesson-061/diagrams/"
+      "path": "defense-directives/lesson-061/diagrams/",
+      "script_ref": "DR-061"
     },
     {
       "id": "DR-062",
@@ -698,7 +759,8 @@
         "DR-062-D05",
         "DR-062-D06"
       ],
-      "path": "defense-directives/lesson-062/diagrams/"
+      "path": "defense-directives/lesson-062/diagrams/",
+      "script_ref": "DR-062"
     },
     {
       "id": "DR-063",
@@ -707,7 +769,8 @@
       "diagram_ids": [
         "DR-063-D01"
       ],
-      "path": "defense-directives/lesson-063/diagrams/"
+      "path": "defense-directives/lesson-063/diagrams/",
+      "script_ref": "DR-063"
     },
     {
       "id": "DR-064",
@@ -717,7 +780,8 @@
         "DR-064-D01",
         "DR-064-D02"
       ],
-      "path": "defense-directives/lesson-064/diagrams/"
+      "path": "defense-directives/lesson-064/diagrams/",
+      "script_ref": "DR-064"
     },
     {
       "id": "DR-065",
@@ -727,7 +791,8 @@
         "DR-065-D01",
         "DR-065-D02"
       ],
-      "path": "defense-directives/lesson-065/diagrams/"
+      "path": "defense-directives/lesson-065/diagrams/",
+      "script_ref": "DR-065"
     },
     {
       "id": "DR-066",
@@ -738,7 +803,8 @@
         "DR-066-D02",
         "DR-066-D03"
       ],
-      "path": "defense-directives/lesson-066/diagrams/"
+      "path": "defense-directives/lesson-066/diagrams/",
+      "script_ref": "DR-066"
     },
     {
       "id": "DR-067",
@@ -751,7 +817,8 @@
         "DR-067-D04",
         "DR-067-D05"
       ],
-      "path": "defense-directives/lesson-067/diagrams/"
+      "path": "defense-directives/lesson-067/diagrams/",
+      "script_ref": "DR-067"
     },
     {
       "id": "DR-068",
@@ -762,7 +829,8 @@
         "DR-068-D02",
         "DR-068-D03"
       ],
-      "path": "defense-directives/lesson-068/diagrams/"
+      "path": "defense-directives/lesson-068/diagrams/",
+      "script_ref": "DR-068"
     },
     {
       "id": "DR-069",
@@ -771,7 +839,8 @@
       "diagram_ids": [
         "DR-069-D01"
       ],
-      "path": "defense-directives/lesson-069/diagrams/"
+      "path": "defense-directives/lesson-069/diagrams/",
+      "script_ref": "DR-069"
     },
     {
       "id": "DR-070",
@@ -780,7 +849,8 @@
       "diagram_ids": [
         "DR-070-D01"
       ],
-      "path": "defense-directives/lesson-070/diagrams/"
+      "path": "defense-directives/lesson-070/diagrams/",
+      "script_ref": "DR-070"
     },
     {
       "id": "DR-071",
@@ -792,7 +862,8 @@
         "DR-071-D03",
         "DR-071-D04"
       ],
-      "path": "defense-directives/lesson-071/diagrams/"
+      "path": "defense-directives/lesson-071/diagrams/",
+      "script_ref": "DR-071"
     },
     {
       "id": "DR-072",
@@ -802,7 +873,8 @@
         "DR-072-D01",
         "DR-072-D02"
       ],
-      "path": "defense-directives/lesson-072/diagrams/"
+      "path": "defense-directives/lesson-072/diagrams/",
+      "script_ref": "DR-072"
     },
     {
       "id": "DR-073",
@@ -812,7 +884,8 @@
         "DR-073-D01",
         "DR-073-D02"
       ],
-      "path": "defense-directives/lesson-073/diagrams/"
+      "path": "defense-directives/lesson-073/diagrams/",
+      "script_ref": "DR-073"
     },
     {
       "id": "DR-074",
@@ -824,7 +897,8 @@
         "DR-074-D03",
         "DR-074-D04"
       ],
-      "path": "defense-directives/lesson-074/diagrams/"
+      "path": "defense-directives/lesson-074/diagrams/",
+      "script_ref": "DR-074"
     },
     {
       "id": "DR-075",
@@ -835,7 +909,8 @@
         "DR-075-D02",
         "DR-075-D03"
       ],
-      "path": "defense-directives/lesson-075/diagrams/"
+      "path": "defense-directives/lesson-075/diagrams/",
+      "script_ref": "DR-075"
     },
     {
       "id": "DR-076",
@@ -844,7 +919,8 @@
       "diagram_ids": [
         "DR-076-D01"
       ],
-      "path": "defense-directives/lesson-076/diagrams/"
+      "path": "defense-directives/lesson-076/diagrams/",
+      "script_ref": "DR-076"
     },
     {
       "id": "DR-077",
@@ -853,7 +929,8 @@
       "diagram_ids": [
         "DR-077-D01"
       ],
-      "path": "defense-directives/lesson-077/diagrams/"
+      "path": "defense-directives/lesson-077/diagrams/",
+      "script_ref": "DR-077"
     },
     {
       "id": "DR-078",
@@ -865,7 +942,8 @@
         "DR-078-D03",
         "DR-078-D04"
       ],
-      "path": "defense-directives/lesson-078/diagrams/"
+      "path": "defense-directives/lesson-078/diagrams/",
+      "script_ref": "DR-078"
     }
   ],
   "items": [
@@ -902,7 +980,8 @@
           "bytes": 36820,
           "sha256": "2c601c98af64f0d0ad8f9d6793448deec711922c3c56959e972259c3fb44630f"
         }
-      }
+      },
+      "script_ref": "DR-001"
     },
     {
       "id": "DR-002-D01",
@@ -938,7 +1017,8 @@
           "bytes": 36180,
           "sha256": "660325b0a469212abb410543f48e9196d3f3b25e03aec29f4c9cf279cdd67f96"
         }
-      }
+      },
+      "script_ref": "DR-002"
     },
     {
       "id": "DR-002-D02",
@@ -974,7 +1054,8 @@
           "bytes": 28096,
           "sha256": "3fee46677dc9a5e8e928690809e27ba1a8ab1ade7a75b11e06cdd1f5c0e76b72"
         }
-      }
+      },
+      "script_ref": "DR-002"
     },
     {
       "id": "DR-002-D03",
@@ -1011,7 +1092,8 @@
           "bytes": 44254,
           "sha256": "45b008dca420ba790bec5ddc3eb4d97dc870500ed14af33bf488f443a9694895"
         }
-      }
+      },
+      "script_ref": "DR-002"
     },
     {
       "id": "DR-002-D04",
@@ -1048,7 +1130,8 @@
           "bytes": 42552,
           "sha256": "cbfd4e91a18051fe40be778fab866e428d865ed1028386f563e0db9044b0ce3e"
         }
-      }
+      },
+      "script_ref": "DR-002"
     },
     {
       "id": "DR-003-D01",
@@ -1083,7 +1166,8 @@
           "bytes": 27394,
           "sha256": "8e758d82d3c961c5963b08cd3fc15d177478a38176dc719abed106cc9a08bb6f"
         }
-      }
+      },
+      "script_ref": "DR-003"
     },
     {
       "id": "DR-004-D01",
@@ -1119,7 +1203,8 @@
           "bytes": 43026,
           "sha256": "dc48e72e6921e8f2097b7aecd071d2daf71cf73a12bda331daa1811846d36725"
         }
-      }
+      },
+      "script_ref": "DR-004"
     },
     {
       "id": "DR-004-D02",
@@ -1154,7 +1239,8 @@
           "bytes": 38042,
           "sha256": "87bc12c447148b225db5996d69f1877dbaec194f0d9805e781a6f4a857458963"
         }
-      }
+      },
+      "script_ref": "DR-004"
     },
     {
       "id": "DR-005-D01",
@@ -1190,7 +1276,8 @@
           "bytes": 47492,
           "sha256": "dc9bcfa36a9809aeca066ed018367bb67b785ad1742bc8b48ac97ae1d9e705fb"
         }
-      }
+      },
+      "script_ref": "DR-005"
     },
     {
       "id": "DR-005-D02",
@@ -1226,7 +1313,8 @@
           "bytes": 52944,
           "sha256": "4358a87a6f3f7b6652279bdfccd7f6f4ce36dd74ead823d711b820d4a80030fa"
         }
-      }
+      },
+      "script_ref": "DR-005"
     },
     {
       "id": "DR-005-D03",
@@ -1262,7 +1350,8 @@
           "bytes": 49082,
           "sha256": "57ee7f8c418eb513562e34a45fce7c7c0a282de8d302cac0ab942a247f8476da"
         }
-      }
+      },
+      "script_ref": "DR-005"
     },
     {
       "id": "DR-005-D04",
@@ -1298,7 +1387,8 @@
           "bytes": 46908,
           "sha256": "95cf9c9c5ee208459f83c1bc06ede2532f0cc777c7479b18f4ff99e1191b50c7"
         }
-      }
+      },
+      "script_ref": "DR-005"
     },
     {
       "id": "DR-006-D01",
@@ -1335,7 +1425,8 @@
           "bytes": 37572,
           "sha256": "b0bf3efa2b4bb5ad37fbffaf88a2da899bdea835f18b92d34ebf094edc845f7c"
         }
-      }
+      },
+      "script_ref": "DR-006"
     },
     {
       "id": "DR-006-D02",
@@ -1370,7 +1461,8 @@
           "bytes": 34394,
           "sha256": "aa0b6655999f8b762b73c1d4c88d729bfb5497e808ef282636dec8b05c7e0777"
         }
-      }
+      },
+      "script_ref": "DR-006"
     },
     {
       "id": "DR-007-D01",
@@ -1405,7 +1497,8 @@
           "bytes": 41328,
           "sha256": "c68526c1c25a716ac261dda53f121fac368b4b635b7227f0f26b84ae3d0cb416"
         }
-      }
+      },
+      "script_ref": "DR-007"
     },
     {
       "id": "DR-007-D02",
@@ -1440,7 +1533,8 @@
           "bytes": 45228,
           "sha256": "c7489a26478ffaa722710a5bbad6ce0f7d7acd84386e9a6a0e7056c723acdbac"
         }
-      }
+      },
+      "script_ref": "DR-007"
     },
     {
       "id": "DR-008-D01",
@@ -1476,7 +1570,8 @@
           "bytes": 44664,
           "sha256": "974de9de3ebcdd0cf417fc948d18e416eb1f63e32611b71115b5eaef4e1a6ac6"
         }
-      }
+      },
+      "script_ref": "DR-008"
     },
     {
       "id": "DR-008-D02",
@@ -1512,7 +1607,8 @@
           "bytes": 37522,
           "sha256": "8010c61d14d09cf276714d2413b1e4d21cc9f9f90a8ac5922c868e4f7544041c"
         }
-      }
+      },
+      "script_ref": "DR-008"
     },
     {
       "id": "DR-009-D01",
@@ -1547,7 +1643,8 @@
           "bytes": 42002,
           "sha256": "b8c02c7b3f3e474760da4d17d5ac0ea7228e5893ee628b14ef7806f792529539"
         }
-      }
+      },
+      "script_ref": "DR-009"
     },
     {
       "id": "DR-009-D02",
@@ -1582,7 +1679,8 @@
           "bytes": 46280,
           "sha256": "eb6f706abbf99a757f3b0e1a2764aec460f7c7a11b8f4c660710e06979394a2d"
         }
-      }
+      },
+      "script_ref": "DR-009"
     },
     {
       "id": "DR-009-D03",
@@ -1618,7 +1716,8 @@
           "bytes": 40942,
           "sha256": "d4be8c247bf870976c33e13b089d834eee467e3f8f803c63427992013a032141"
         }
-      }
+      },
+      "script_ref": "DR-009"
     },
     {
       "id": "DR-009-D04",
@@ -1653,7 +1752,8 @@
           "bytes": 44390,
           "sha256": "0bcee84f63a28bc9c5bc507627af5876c16ad7497daa0b471043e55efa78fd76"
         }
-      }
+      },
+      "script_ref": "DR-009"
     },
     {
       "id": "DR-009-D05",
@@ -1688,7 +1788,8 @@
           "bytes": 50938,
           "sha256": "de560c88719673b1043a541ee788c4a9994c5cbbed0ab66ea2a065c5850e362a"
         }
-      }
+      },
+      "script_ref": "DR-009"
     },
     {
       "id": "DR-010-D01",
@@ -1724,7 +1825,8 @@
           "bytes": 37744,
           "sha256": "9758410274fc26d70eec2262edd0bfb51ac3893a6888c510539d8cf000a6a942"
         }
-      }
+      },
+      "script_ref": "DR-010"
     },
     {
       "id": "DR-011-D01",
@@ -1760,7 +1862,8 @@
           "bytes": 39914,
           "sha256": "cdf93cb1fea8e4024087f2be917741e5cb7d4c4304cc5dd97de04a91bb8d195c"
         }
-      }
+      },
+      "script_ref": "DR-011"
     },
     {
       "id": "DR-011-D02",
@@ -1795,7 +1898,8 @@
           "bytes": 40434,
           "sha256": "1bc85b4b33b9c72607c073bea832670bd752d4c6fe8da37ec7fa882e54212046"
         }
-      }
+      },
+      "script_ref": "DR-011"
     },
     {
       "id": "DR-011-D03",
@@ -1830,7 +1934,8 @@
           "bytes": 50574,
           "sha256": "4aa8df79158e57c72293c7ae35fbbf30cb8a2234aa00b5d7591d3e8695f7c691"
         }
-      }
+      },
+      "script_ref": "DR-011"
     },
     {
       "id": "DR-011-D04",
@@ -1865,7 +1970,8 @@
           "bytes": 44854,
           "sha256": "75fd2f914b205b6fcd73941c663cc57192779463ab1323ec9a5d7f2433fe52b2"
         }
-      }
+      },
+      "script_ref": "DR-011"
     },
     {
       "id": "DR-012-D01",
@@ -1901,7 +2007,8 @@
           "bytes": 40606,
           "sha256": "4a728860189f50495f36bdaee4b2004d20eae560305ef8ea8bc85829f0c501e0"
         }
-      }
+      },
+      "script_ref": "DR-012"
     },
     {
       "id": "DR-012-D02",
@@ -1936,7 +2043,8 @@
           "bytes": 43260,
           "sha256": "25e2c15e6f5f02de4f838bce5c6b8a5967831e1c78e9dcd874e645a9de5fe219"
         }
-      }
+      },
+      "script_ref": "DR-012"
     },
     {
       "id": "DR-012-D03",
@@ -1971,7 +2079,8 @@
           "bytes": 41758,
           "sha256": "f64332186d6da73cf03a40e7129f09578a5cb879ade1677ca0a820ec019e7d12"
         }
-      }
+      },
+      "script_ref": "DR-012"
     },
     {
       "id": "DR-013-D01",
@@ -2007,7 +2116,8 @@
           "bytes": 41972,
           "sha256": "974f314cdea5018fc9ec128fce72f0aaa91621a7e680ee501efcbaac74749ef0"
         }
-      }
+      },
+      "script_ref": "DR-013"
     },
     {
       "id": "DR-013-D02",
@@ -2042,7 +2152,8 @@
           "bytes": 35640,
           "sha256": "c462f4ca5d6d3ca68e0ee722664c67e8c06f70b8aff48f5a5dfba8750b2eadce"
         }
-      }
+      },
+      "script_ref": "DR-013"
     },
     {
       "id": "DR-013-D03",
@@ -2080,7 +2191,8 @@
           "bytes": 49560,
           "sha256": "c648fccf92cde549c83f27da9a9da0efdc2633669da44a24e89c341774c2a1ef"
         }
-      }
+      },
+      "script_ref": "DR-013"
     },
     {
       "id": "DR-013-D04",
@@ -2115,7 +2227,8 @@
           "bytes": 48426,
           "sha256": "93afb668ddb9232e9bfbc0d2bfea1822eed56fa8e0da50e23d6ace0fdfcba23b"
         }
-      }
+      },
+      "script_ref": "DR-013"
     },
     {
       "id": "DR-013-D05",
@@ -2150,7 +2263,8 @@
           "bytes": 39144,
           "sha256": "bfda0a1e8ac4c320cfd15e1febd7abb8dbc6b401780ae019e0a091398c1ef82b"
         }
-      }
+      },
+      "script_ref": "DR-013"
     },
     {
       "id": "DR-013-D06",
@@ -2185,7 +2299,8 @@
           "bytes": 37434,
           "sha256": "524d22d27811db4ce3e3472208a7a4f0fc53f93841ccedfe267a3d3665c4a5a9"
         }
-      }
+      },
+      "script_ref": "DR-013"
     },
     {
       "id": "DR-014-D01",
@@ -2222,7 +2337,8 @@
           "bytes": 42446,
           "sha256": "2828af01cd3ab6b72d1e6a15ae6ecff5cd14b04a78a24feacebecc8b191f463e"
         }
-      }
+      },
+      "script_ref": "DR-014"
     },
     {
       "id": "DR-014-D02",
@@ -2257,7 +2373,8 @@
           "bytes": 46348,
           "sha256": "34682197a61bdbdd2a9ba70aa7ee1795b4de82dfab33a1a68cd5b600ed8aa934"
         }
-      }
+      },
+      "script_ref": "DR-014"
     },
     {
       "id": "DR-014-D03",
@@ -2294,7 +2411,8 @@
           "bytes": 39384,
           "sha256": "bb61d84f809777d7a9808ef3eb691690ca5d0f6ef5bbb56895b9565db9636766"
         }
-      }
+      },
+      "script_ref": "DR-014"
     },
     {
       "id": "DR-015-D01",
@@ -2329,7 +2447,8 @@
           "bytes": 53398,
           "sha256": "5b25d4ae70481eba7a3109141ccef05dc503cae38d7548a01ea76c8f399ab946"
         }
-      }
+      },
+      "script_ref": "DR-015"
     },
     {
       "id": "DR-015-D02",
@@ -2365,7 +2484,8 @@
           "bytes": 52504,
           "sha256": "05bb435d8df2105d8536709c3792cb6c06ee109723bb661932aaab2d4417f025"
         }
-      }
+      },
+      "script_ref": "DR-015"
     },
     {
       "id": "DR-015-D03",
@@ -2403,7 +2523,8 @@
           "bytes": 45172,
           "sha256": "63a4717780a4818ff3f81482871ce068b341521af6b005e108bd8bcfd8d45bdd"
         }
-      }
+      },
+      "script_ref": "DR-015"
     },
     {
       "id": "DR-016-D01",
@@ -2439,7 +2560,8 @@
           "bytes": 33420,
           "sha256": "73eaf4d26f35f5268e784226a605f30cbbec982e32a1e3666a7117a0bfc8e51c"
         }
-      }
+      },
+      "script_ref": "DR-016"
     },
     {
       "id": "DR-017-D01",
@@ -2475,7 +2597,8 @@
           "bytes": 46514,
           "sha256": "b1268c9a9571484050ad7f9e868f730506af36f43c6832e4f54be61541cdf114"
         }
-      }
+      },
+      "script_ref": "DR-017"
     },
     {
       "id": "DR-017-D02",
@@ -2511,7 +2634,8 @@
           "bytes": 36608,
           "sha256": "876794d3591f973b8920d03148d133d612169bff182c30cd40f8b67c0c946076"
         }
-      }
+      },
+      "script_ref": "DR-017"
     },
     {
       "id": "DR-017-D03",
@@ -2548,7 +2672,8 @@
           "bytes": 43778,
           "sha256": "7f01e91074c57d94fcfc6c3e126441d358fa73aaa2c036d1c3f7be798caed841"
         }
-      }
+      },
+      "script_ref": "DR-017"
     },
     {
       "id": "DR-018-D01",
@@ -2583,7 +2708,8 @@
           "bytes": 41934,
           "sha256": "595e0c68cbf67caa0fe6b19c177d621f9f49cb819456a4a6706084f636638f3d"
         }
-      }
+      },
+      "script_ref": "DR-018"
     },
     {
       "id": "DR-018-D02",
@@ -2618,7 +2744,8 @@
           "bytes": 48708,
           "sha256": "737eae817cecd71ccaad478a85960953b158829835768bef4b25a85d19f50c5b"
         }
-      }
+      },
+      "script_ref": "DR-018"
     },
     {
       "id": "DR-018-D03",
@@ -2653,7 +2780,8 @@
           "bytes": 44898,
           "sha256": "11ba4f0135a4a7c23c1adee6256c4d165592dd8bae38a51802f5371c8b857b68"
         }
-      }
+      },
+      "script_ref": "DR-018"
     },
     {
       "id": "DR-019-D01",
@@ -2689,7 +2817,8 @@
           "bytes": 44674,
           "sha256": "e03bd067f4cd74e261c89076b3871e8e2bb8dbd69ed024fd17392f11aa9e6923"
         }
-      }
+      },
+      "script_ref": "DR-019"
     },
     {
       "id": "DR-019-D02",
@@ -2724,7 +2853,8 @@
           "bytes": 48586,
           "sha256": "46ab83f1ddb759831d6f80e090a684f62a568221d8bd3d8c2f452d91ab3d5256"
         }
-      }
+      },
+      "script_ref": "DR-019"
     },
     {
       "id": "DR-019-D03",
@@ -2761,7 +2891,8 @@
           "bytes": 41688,
           "sha256": "59ef8ab643cf1fec7b921626db46fbe811734119916161b01422e0f3b7c3d8ef"
         }
-      }
+      },
+      "script_ref": "DR-019"
     },
     {
       "id": "DR-020-D01",
@@ -2797,7 +2928,8 @@
           "bytes": 39292,
           "sha256": "403220e34fbed802126601a7658b5c9b166062dbe2c6e7f01f9e683413512333"
         }
-      }
+      },
+      "script_ref": "DR-020"
     },
     {
       "id": "DR-021-D01",
@@ -2835,7 +2967,8 @@
           "bytes": 49522,
           "sha256": "1465e053f6d509f4681bf77299c9799e24f96c82a3f913884690c853e7da5f7a"
         }
-      }
+      },
+      "script_ref": "DR-021"
     },
     {
       "id": "DR-021-D02",
@@ -2871,7 +3004,8 @@
           "bytes": 37244,
           "sha256": "1ad61ccaf47f72f41b508ef0ede44bcef71736f93a53538c2b12d2f3efa6ea4a"
         }
-      }
+      },
+      "script_ref": "DR-021"
     },
     {
       "id": "DR-022-D01",
@@ -2907,7 +3041,8 @@
           "bytes": 39192,
           "sha256": "9fbdc456156f0679710aa1a0f501fcb875c9e69a6e33eaf6a67cd297275e290b"
         }
-      }
+      },
+      "script_ref": "DR-022"
     },
     {
       "id": "DR-022-D02",
@@ -2944,7 +3079,8 @@
           "bytes": 46822,
           "sha256": "9362b07803a74daeb7cfedc0657e3d4f03c14840f91743a639762d7f5c85f18d"
         }
-      }
+      },
+      "script_ref": "DR-022"
     },
     {
       "id": "DR-023-D01",
@@ -2981,7 +3117,8 @@
           "bytes": 51276,
           "sha256": "06f7ca47c7a45728a111cd72e53f5a5e9f9707461679d1553b4723905be46e06"
         }
-      }
+      },
+      "script_ref": "DR-023"
     },
     {
       "id": "DR-024-D01",
@@ -3016,7 +3153,8 @@
           "bytes": 44194,
           "sha256": "97c70ca798e5d7592cbbefc8333b041f526a3d890a5f98682609236e55397f83"
         }
-      }
+      },
+      "script_ref": "DR-024"
     },
     {
       "id": "DR-024-D02",
@@ -3052,7 +3190,8 @@
           "bytes": 49114,
           "sha256": "0b93a4e014abe96aefa7d4153223b5c8264fc9f6a05cbec167e952a187e85caa"
         }
-      }
+      },
+      "script_ref": "DR-024"
     },
     {
       "id": "DR-024-D03",
@@ -3089,7 +3228,8 @@
           "bytes": 50008,
           "sha256": "49580002314c1795dd7e942f41e71d9b9ff6236d6a898e2c746f9b3a41e8a09d"
         }
-      }
+      },
+      "script_ref": "DR-024"
     },
     {
       "id": "DR-024-D04",
@@ -3124,7 +3264,8 @@
           "bytes": 45202,
           "sha256": "eb3e33ebdea74c71a399ae67e49fee53594fc436513fd492cd15ef52547f9344"
         }
-      }
+      },
+      "script_ref": "DR-024"
     },
     {
       "id": "DR-024-D05",
@@ -3160,7 +3301,8 @@
           "bytes": 48562,
           "sha256": "e9dddd25a35a27ae986220a793a5700c3b0532ca29538e9a9e8e56dae0b1719e"
         }
-      }
+      },
+      "script_ref": "DR-024"
     },
     {
       "id": "DR-024-D06",
@@ -3195,7 +3337,8 @@
           "bytes": 51614,
           "sha256": "b9c9bb07445366d98369fc7036f0ff4ef9e8dcc975e714103231539d69eb0976"
         }
-      }
+      },
+      "script_ref": "DR-024"
     },
     {
       "id": "DR-025-D01",
@@ -3231,7 +3374,8 @@
           "bytes": 36558,
           "sha256": "b2987b51845b6f2480486ddc4282b82c5e91de0bc8b5d639a6da1b1671b10f20"
         }
-      }
+      },
+      "script_ref": "DR-025"
     },
     {
       "id": "DR-026-D01",
@@ -3267,7 +3411,8 @@
           "bytes": 42634,
           "sha256": "76d385346d7523f5d26a3d8f7241dabb51d70ee93991e457507ba78cc2062fa0"
         }
-      }
+      },
+      "script_ref": "DR-026"
     },
     {
       "id": "DR-026-D02",
@@ -3304,7 +3449,8 @@
           "bytes": 41564,
           "sha256": "abb4ad3f3b2596f0a8be651b68f08caa7e3740ccad1e2ab7336702e1fc670afc"
         }
-      }
+      },
+      "script_ref": "DR-026"
     },
     {
       "id": "DR-026-D03",
@@ -3339,7 +3485,8 @@
           "bytes": 46578,
           "sha256": "a5c3d98f43338120d3d0610d6a8e13629324b9070f2063252681bfac10743a04"
         }
-      }
+      },
+      "script_ref": "DR-026"
     },
     {
       "id": "DR-027-D01",
@@ -3374,7 +3521,8 @@
           "bytes": 33184,
           "sha256": "e90a81d9176ff60ef22af5e8ad32d829fb1db6e42af53d9527b6c444e5965452"
         }
-      }
+      },
+      "script_ref": "DR-027"
     },
     {
       "id": "DR-028-D01",
@@ -3409,7 +3557,8 @@
           "bytes": 37982,
           "sha256": "df0b4b6dd911b9f505d92d9f56bdb4100a12fea5e6fac721820b2873abe63c8b"
         }
-      }
+      },
+      "script_ref": "DR-028"
     },
     {
       "id": "DR-028-D02",
@@ -3446,7 +3595,8 @@
           "bytes": 45260,
           "sha256": "ce9c0bd571af3c7194ee496eb2273f80621fcb0ca254fbd90be4003be6a7e566"
         }
-      }
+      },
+      "script_ref": "DR-028"
     },
     {
       "id": "DR-029-D01",
@@ -3482,7 +3632,8 @@
           "bytes": 44100,
           "sha256": "088ad6a875d8740dcd20dda639627e2b655cb906ea1e55f4edf491c6f580fd4a"
         }
-      }
+      },
+      "script_ref": "DR-029"
     },
     {
       "id": "DR-029-D02",
@@ -3518,7 +3669,8 @@
           "bytes": 48316,
           "sha256": "735ba7bcef8ae6ee9e750fa4a7740b42e117435fcd828e779317016cee2317e3"
         }
-      }
+      },
+      "script_ref": "DR-029"
     },
     {
       "id": "DR-030-D01",
@@ -3554,7 +3706,8 @@
           "bytes": 51840,
           "sha256": "1532e2a5ab67e98661ef54ab0a0cc25d6aa57518459d8e8f1ebc0aaa398f8844"
         }
-      }
+      },
+      "script_ref": "DR-030"
     },
     {
       "id": "DR-030-D02",
@@ -3590,7 +3743,8 @@
           "bytes": 54038,
           "sha256": "488cf7b2cf2d2346e2f0abd27277929f1e3eee8f90bee716170fb0aebd62e948"
         }
-      }
+      },
+      "script_ref": "DR-030"
     },
     {
       "id": "DR-030-D03",
@@ -3626,7 +3780,8 @@
           "bytes": 53808,
           "sha256": "88765069f5b716b2dfcfbe9770400efe9dac6d82abe46d21a218552c6c04554b"
         }
-      }
+      },
+      "script_ref": "DR-030"
     },
     {
       "id": "DR-030-D04",
@@ -3662,7 +3817,8 @@
           "bytes": 50692,
           "sha256": "2086f93486c00bfa68bcb7f70d4a4f8ec4a9999b1e2890d1c5136db5bb9209c4"
         }
-      }
+      },
+      "script_ref": "DR-030"
     },
     {
       "id": "DR-031-D01",
@@ -3699,7 +3855,8 @@
           "bytes": 54810,
           "sha256": "672876825128c4341f1a82d635535ad24724d9ae5b3584f55b57605f334b1da2"
         }
-      }
+      },
+      "script_ref": "DR-031"
     },
     {
       "id": "DR-031-D02",
@@ -3736,7 +3893,8 @@
           "bytes": 58338,
           "sha256": "2db95b887d27c1a3fa7686169b812fc27476e1b33f4788991f62221010bbfb73"
         }
-      }
+      },
+      "script_ref": "DR-031"
     },
     {
       "id": "DR-032-D01",
@@ -3773,7 +3931,8 @@
           "bytes": 53522,
           "sha256": "43d4846037ff785ebfd2842d6cc21c28fd1301c21847f72a47873ca91b544cfa"
         }
-      }
+      },
+      "script_ref": "DR-032"
     },
     {
       "id": "DR-032-D02",
@@ -3810,7 +3969,8 @@
           "bytes": 53118,
           "sha256": "2d743f7919a75966a48bc6ac3a5bea245d5a50ecf4bb9feecc1c12b8d31c07a2"
         }
-      }
+      },
+      "script_ref": "DR-032"
     },
     {
       "id": "DR-032-D03",
@@ -3845,7 +4005,8 @@
           "bytes": 45908,
           "sha256": "8e085412501ed10e3c1be69d87bd75f7610c3fc9ba32ae061f14a192c30fc6d1"
         }
-      }
+      },
+      "script_ref": "DR-032"
     },
     {
       "id": "DR-033-D01",
@@ -3881,7 +4042,8 @@
           "bytes": 53010,
           "sha256": "8feebf15664f28d494fd6516f58bd091418c07082fd71f5d72f5948f67e2dce8"
         }
-      }
+      },
+      "script_ref": "DR-033"
     },
     {
       "id": "DR-033-D02",
@@ -3919,7 +4081,8 @@
           "bytes": 51322,
           "sha256": "69e7a86076dd0100c304cd3ade273da6c14d9cedfbf65f153e41426f29a72b31"
         }
-      }
+      },
+      "script_ref": "DR-033"
     },
     {
       "id": "DR-033-D03",
@@ -3954,7 +4117,8 @@
           "bytes": 55024,
           "sha256": "78c440ef15a01fa210c1cd8419e227858e85e3ff7b6420257095a3feac264d54"
         }
-      }
+      },
+      "script_ref": "DR-033"
     },
     {
       "id": "DR-034-D01",
@@ -3991,7 +4155,8 @@
           "bytes": 41110,
           "sha256": "8ea4ef19ca12039e39ca276d6f584974d76e91e9e4f13579633905d9d31dae24"
         }
-      }
+      },
+      "script_ref": "DR-034"
     },
     {
       "id": "DR-035-D01",
@@ -4026,7 +4191,8 @@
           "bytes": 43646,
           "sha256": "f8c2c0faca97810608ca2b7a93512a2886b1c3f2365ce3b7b0d3675932835fca"
         }
-      }
+      },
+      "script_ref": "DR-035"
     },
     {
       "id": "DR-035-D02",
@@ -4061,7 +4227,8 @@
           "bytes": 54186,
           "sha256": "dcdda50d35c2185d08240655e68bf1c8babc8ed1c839050f87469a34bb916af7"
         }
-      }
+      },
+      "script_ref": "DR-035"
     },
     {
       "id": "DR-035-D03",
@@ -4096,7 +4263,8 @@
           "bytes": 53214,
           "sha256": "5fba5aec5fdc9bdab5f17751d5cddd2b7464380f27d8cc659db3a22e3434f328"
         }
-      }
+      },
+      "script_ref": "DR-035"
     },
     {
       "id": "DR-035-D04",
@@ -4133,7 +4301,8 @@
           "bytes": 62436,
           "sha256": "8f44e588692b24a4315cb22fe6d15d9199449e8f5f77a525eb6d3dc0fcbd3c7f"
         }
-      }
+      },
+      "script_ref": "DR-035"
     },
     {
       "id": "DR-036-D01",
@@ -4158,20 +4327,21 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-036/diagrams/DR-036-D01-editorial-v1.svg",
-          "bytes": 7042,
-          "sha256": "68ee4238647ff4c979fb6564e73ebd8cd801537ea35c268ac2a08b9419ab1197"
+          "bytes": 7054,
+          "sha256": "03a5f1ad86419a992106632e260310c7f57903c504ee9920bf5a477fe47b0da2"
         },
         "png": {
           "path": "defense-directives/lesson-036/diagrams/DR-036-D01-editorial-v1.png",
-          "bytes": 202678,
-          "sha256": "e1450d44e205793c7f2d615b6a28a2bea07c3909c134568f43e4611b768b5990"
+          "bytes": 203698,
+          "sha256": "c0e9ceb9ba2d0ca2ddd7f60a93c16ebde6fc66c7f58b69c305ef94d93a0bf2c4"
         },
         "webp": {
           "path": "defense-directives/lesson-036/diagrams/DR-036-D01-editorial-v1.webp",
-          "bytes": 65222,
-          "sha256": "d9e099b2bd7b0467db9eb0832e3a1ff9abe3f8f61118f7d86748e93870d2b7f0"
+          "bytes": 63368,
+          "sha256": "6d016b3049f348ead9ff07c8b1389ebd05437cdb41b09e6d5430f749387444e3"
         }
-      }
+      },
+      "script_ref": "DR-036"
     },
     {
       "id": "DR-037-D01",
@@ -4207,7 +4377,8 @@
           "bytes": 52198,
           "sha256": "6c85fc75ab1ff3d832b0f63eecf36ca509c527abe7b15a803784924c1d717dac"
         }
-      }
+      },
+      "script_ref": "DR-037"
     },
     {
       "id": "DR-038-D01",
@@ -4243,7 +4414,8 @@
           "bytes": 53768,
           "sha256": "d969d8c3ce18cde54ce7cb68f547ab794dc52cc58eb1a7cb079c793ca0ac0a3c"
         }
-      }
+      },
+      "script_ref": "DR-038"
     },
     {
       "id": "DR-038-D02",
@@ -4283,7 +4455,8 @@
           "bytes": 61584,
           "sha256": "fcc7fad3e6fa20208c0dc87cac422e13b9838d02f14d4d8cd89521168823d156"
         }
-      }
+      },
+      "script_ref": "DR-038"
     },
     {
       "id": "DR-038-D03",
@@ -4318,7 +4491,8 @@
           "bytes": 48144,
           "sha256": "16d5e1ea412d1e8d35233c155ec97fbf738aafcb28fc485b5224c9afe26a3444"
         }
-      }
+      },
+      "script_ref": "DR-038"
     },
     {
       "id": "DR-039-D01",
@@ -4354,7 +4528,8 @@
           "bytes": 53178,
           "sha256": "f563ecfe226f9939d262a396edb8193da19c837d52914cc8f5536a7ebb4848a2"
         }
-      }
+      },
+      "script_ref": "DR-039"
     },
     {
       "id": "DR-039-D02",
@@ -4389,7 +4564,8 @@
           "bytes": 47606,
           "sha256": "b187add1a3f91dc6ce1f9da0447a7494d5e69790d59621bae9bb9839b9bb997a"
         }
-      }
+      },
+      "script_ref": "DR-039"
     },
     {
       "id": "DR-040-D01",
@@ -4426,7 +4602,8 @@
           "bytes": 53658,
           "sha256": "87d5d46686a0fb84ae011e46cf12d16c0b5e40a3d90ed65925a36e3eda7e8cdf"
         }
-      }
+      },
+      "script_ref": "DR-040"
     },
     {
       "id": "DR-041-D01",
@@ -4450,20 +4627,21 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-041/diagrams/DR-041-D01-editorial-v1.svg",
-          "bytes": 6262,
-          "sha256": "ab598256721296be806b940bdf2255e2d7f51b40a1b6b8837f9f1ef30a22ea09"
+          "bytes": 6274,
+          "sha256": "e9f597e8d3b900a8e5310a2191a7003d2e96f7df457e3225d5a6562f71857a36"
         },
         "png": {
           "path": "defense-directives/lesson-041/diagrams/DR-041-D01-editorial-v1.png",
-          "bytes": 172555,
-          "sha256": "987ff73c737dd8188abd65e2e0f474b813c2fb9c9363e7e689f1c81959d6b254"
+          "bytes": 173448,
+          "sha256": "64d26e55ed1d15d3a831d633fc929502cdad2dcf0527ef8a060d330d2a1e70c1"
         },
         "webp": {
           "path": "defense-directives/lesson-041/diagrams/DR-041-D01-editorial-v1.webp",
-          "bytes": 52542,
-          "sha256": "b445ad43f988d280cf949851d33340b260ecf112dfbc9f7d3de76dd383e668f0"
+          "bytes": 52934,
+          "sha256": "f7d4778b5f8e7ee1c53ab2dd640fad27e55d72d0e1c7dee06c9148f5af826e26"
         }
-      }
+      },
+      "script_ref": "DR-041"
     },
     {
       "id": "DR-042-D01",
@@ -4498,7 +4676,8 @@
           "bytes": 34734,
           "sha256": "3a1324fa16b5601b9b7c314fc9228b04f19f93cf7b7cb7f5facae3888898a66b"
         }
-      }
+      },
+      "script_ref": "DR-042"
     },
     {
       "id": "DR-043-D01",
@@ -4533,7 +4712,8 @@
           "bytes": 37348,
           "sha256": "095651796018cd99ccce5a7e9b44a027ea675c9f39899d6a358cb03f8f794a4c"
         }
-      }
+      },
+      "script_ref": "DR-043"
     },
     {
       "id": "DR-044-D01",
@@ -4568,7 +4748,8 @@
           "bytes": 35546,
           "sha256": "3d5214e945f74522c1043588c4f6bb86e5b75b86e276a7f5ff5ea505d4adc06c"
         }
-      }
+      },
+      "script_ref": "DR-044"
     },
     {
       "id": "DR-044-D02",
@@ -4604,7 +4785,8 @@
           "bytes": 33200,
           "sha256": "361b8823d6ec4069293fdc2c664218056a5e72a358612be4211a00793b637b94"
         }
-      }
+      },
+      "script_ref": "DR-044"
     },
     {
       "id": "DR-044-D03",
@@ -4640,7 +4822,8 @@
           "bytes": 33606,
           "sha256": "ba4384c4394991dea507811e1cb21aec759bf278c964b2955c6992c30d0aa34e"
         }
-      }
+      },
+      "script_ref": "DR-044"
     },
     {
       "id": "DR-045-D01",
@@ -4676,7 +4859,8 @@
           "bytes": 38548,
           "sha256": "0d8a8d0ddd901951969b9816dbbba19e0c916c594d5093f02b03a10247577264"
         }
-      }
+      },
+      "script_ref": "DR-045"
     },
     {
       "id": "DR-046-D01",
@@ -4711,7 +4895,8 @@
           "bytes": 35070,
           "sha256": "a2deb8defda5d81b9ec69f4290f480bf783a02f392d7675a9772f11f51bcebc8"
         }
-      }
+      },
+      "script_ref": "DR-046"
     },
     {
       "id": "DR-047-D01",
@@ -4746,7 +4931,8 @@
           "bytes": 33970,
           "sha256": "7126ff7aba167d5c646c6dcc23398cca4dd8a58541bf7ca2122f6182d40e8994"
         }
-      }
+      },
+      "script_ref": "DR-047"
     },
     {
       "id": "DR-047-D02",
@@ -4781,7 +4967,8 @@
           "bytes": 35550,
           "sha256": "08d5f321cb81c6c003daac86723738e90b85eb9e80c5dd597c436d31d7aa882a"
         }
-      }
+      },
+      "script_ref": "DR-047"
     },
     {
       "id": "DR-048-D01",
@@ -4816,7 +5003,8 @@
           "bytes": 30518,
           "sha256": "62db33a0a488e12146cb97d0420a6e664a3bcaeb32c5d8ed7b7e68441b561c82"
         }
-      }
+      },
+      "script_ref": "DR-048"
     },
     {
       "id": "DR-049-D01",
@@ -4852,7 +5040,8 @@
           "bytes": 33778,
           "sha256": "54588240004d9838a58fe6dd581d71d63ef7aa66ce2e904066d189b1012db2fa"
         }
-      }
+      },
+      "script_ref": "DR-049"
     },
     {
       "id": "DR-049-D02",
@@ -4888,7 +5077,8 @@
           "bytes": 38480,
           "sha256": "a14815a377b7b8200d5f2b90d5a6f5cfa47b8f2a3e1b8239f9fd1a194062bc54"
         }
-      }
+      },
+      "script_ref": "DR-049"
     },
     {
       "id": "DR-050-D01",
@@ -4924,7 +5114,8 @@
           "bytes": 47326,
           "sha256": "5ff85bb1bd2ea2286cb52d90a45d8a976f752f90dce910597cd64627fac142a3"
         }
-      }
+      },
+      "script_ref": "DR-050"
     },
     {
       "id": "DR-051-D01",
@@ -4960,7 +5151,8 @@
           "bytes": 43888,
           "sha256": "c9a0b2ab72dd55cb976a7586bfd1e224485fb10c240019b44e7766a1416d4f15"
         }
-      }
+      },
+      "script_ref": "DR-051"
     },
     {
       "id": "DR-051-D02",
@@ -4997,7 +5189,8 @@
           "bytes": 42614,
           "sha256": "8d743662c1eb2ecf74c1275adb41f468f26a3f62f824ba6023df398afbea9f73"
         }
-      }
+      },
+      "script_ref": "DR-051"
     },
     {
       "id": "DR-052-D01",
@@ -5033,7 +5226,8 @@
           "bytes": 31812,
           "sha256": "aa808a9ae0af81f0f4e45b18b24d29e05c430d26c4a0b18bd92dadba816a7fa8"
         }
-      }
+      },
+      "script_ref": "DR-052"
     },
     {
       "id": "DR-052-D02",
@@ -5069,7 +5263,8 @@
           "bytes": 36448,
           "sha256": "26883c89272ed495b22f47848628083b0c3cddc1c89ad56396661f18cb873858"
         }
-      }
+      },
+      "script_ref": "DR-052"
     },
     {
       "id": "DR-053-D01",
@@ -5104,7 +5299,8 @@
           "bytes": 37674,
           "sha256": "570174855e0591cef7c057fcd01c12638bb0234452fc0fa525d6e1a38888f6b6"
         }
-      }
+      },
+      "script_ref": "DR-053"
     },
     {
       "id": "DR-054-D01",
@@ -5142,7 +5338,8 @@
           "bytes": 38238,
           "sha256": "6f8883f52f9fe5d2ecbd73308993d74ee6eef5b70576f2cd2983430909e19b3d"
         }
-      }
+      },
+      "script_ref": "DR-054"
     },
     {
       "id": "DR-054-D02",
@@ -5177,7 +5374,8 @@
           "bytes": 43472,
           "sha256": "990c1d9bae7a77a2b3134052231b8df5452014448b5405ae018abc7ad8564a78"
         }
-      }
+      },
+      "script_ref": "DR-054"
     },
     {
       "id": "DR-054-D03",
@@ -5214,7 +5412,8 @@
           "bytes": 40448,
           "sha256": "f591dc6c5ea768e758fabd780b82c98e61c7b2bbd54241fa2e85533d1b27956c"
         }
-      }
+      },
+      "script_ref": "DR-054"
     },
     {
       "id": "DR-054-D04",
@@ -5251,7 +5450,8 @@
           "bytes": 39618,
           "sha256": "7c347977dddcef7c828199718edc16b214bdf3e8c99b2bca9fe65d6d80583df2"
         }
-      }
+      },
+      "script_ref": "DR-054"
     },
     {
       "id": "DR-055-D01",
@@ -5287,7 +5487,8 @@
           "bytes": 42580,
           "sha256": "cd127c7301bfdf66f18f124e64b7fc3ffc2b14a0dd89a54225f9dae480be296a"
         }
-      }
+      },
+      "script_ref": "DR-055"
     },
     {
       "id": "DR-055-D02",
@@ -5324,7 +5525,8 @@
           "bytes": 51112,
           "sha256": "362c852c5b43efe588ff8f96b74f1d62824aa49af6d98fe442a3ea1be7802e08"
         }
-      }
+      },
+      "script_ref": "DR-055"
     },
     {
       "id": "DR-055-D03",
@@ -5362,7 +5564,8 @@
           "bytes": 49230,
           "sha256": "38b9d7368f4b9fc9bb6b178a0fa67356df0ff9e7897426d7fdc9cc976d863a4f"
         }
-      }
+      },
+      "script_ref": "DR-055"
     },
     {
       "id": "DR-056-D01",
@@ -5397,7 +5600,8 @@
           "bytes": 42574,
           "sha256": "22c60ad1f69a423d8e0539f70e5ed11e6ad428ae014141eeec3a62cbacb1699b"
         }
-      }
+      },
+      "script_ref": "DR-056"
     },
     {
       "id": "DR-056-D02",
@@ -5432,7 +5636,8 @@
           "bytes": 41556,
           "sha256": "c9c706b8c19e652a6d0dfc30bafea65b608ee3e788180fc4288609f9538e7878"
         }
-      }
+      },
+      "script_ref": "DR-056"
     },
     {
       "id": "DR-056-D03",
@@ -5468,7 +5673,8 @@
           "bytes": 53188,
           "sha256": "cac9a2ff3460e563d1058b8b4a01b7901b371f1c61406494b4e8628a79ff8a9d"
         }
-      }
+      },
+      "script_ref": "DR-056"
     },
     {
       "id": "DR-056-D04",
@@ -5503,7 +5709,8 @@
           "bytes": 42376,
           "sha256": "6d923753ea68128c8094f41c0d166fa985fd31d7fe18344700c869ea3eaa0781"
         }
-      }
+      },
+      "script_ref": "DR-056"
     },
     {
       "id": "DR-057-D01",
@@ -5539,7 +5746,8 @@
           "bytes": 40454,
           "sha256": "fa911413c0046c4c325a1b24830e794863594ee7ff9416dc029c6f137a31e227"
         }
-      }
+      },
+      "script_ref": "DR-057"
     },
     {
       "id": "DR-057-D02",
@@ -5574,7 +5782,8 @@
           "bytes": 44596,
           "sha256": "d116d4f25f99e7b0e11167220bf2ad91cb812bc0352adfda31054aceccbe8861"
         }
-      }
+      },
+      "script_ref": "DR-057"
     },
     {
       "id": "DR-057-D03",
@@ -5609,7 +5818,8 @@
           "bytes": 32296,
           "sha256": "7c5a5626c0aa2732d781fb08fbe281f53c92054b7a51926ad65c884330872c8c"
         }
-      }
+      },
+      "script_ref": "DR-057"
     },
     {
       "id": "DR-057-D04",
@@ -5645,7 +5855,8 @@
           "bytes": 39082,
           "sha256": "44e29ede9b4613834216204a94912465c529baf26c26061aabb3f005cd749a44"
         }
-      }
+      },
+      "script_ref": "DR-057"
     },
     {
       "id": "DR-058-D01",
@@ -5681,7 +5892,8 @@
           "bytes": 41500,
           "sha256": "94d51f076105cfd7b33bbc50c70fd669bac7234cd61ad9dbb9e6efcbd1ac2a30"
         }
-      }
+      },
+      "script_ref": "DR-058"
     },
     {
       "id": "DR-058-D02",
@@ -5718,7 +5930,8 @@
           "bytes": 43960,
           "sha256": "9eb4c304691969732d0d65597c09bb78031e216ab5f7a337ab614341b8df8438"
         }
-      }
+      },
+      "script_ref": "DR-058"
     },
     {
       "id": "DR-059-D01",
@@ -5754,7 +5967,8 @@
           "bytes": 42068,
           "sha256": "97f3de2e7a3394168290c5d658b709378b2b40ae715be230d05d6a1b440b4285"
         }
-      }
+      },
+      "script_ref": "DR-059"
     },
     {
       "id": "DR-059-D02",
@@ -5790,7 +6004,8 @@
           "bytes": 33718,
           "sha256": "8cfa60821a7f364520437517852d5c4644d6bd0456a7f30136774762fdc9350d"
         }
-      }
+      },
+      "script_ref": "DR-059"
     },
     {
       "id": "DR-060-D01",
@@ -5827,7 +6042,8 @@
           "bytes": 45492,
           "sha256": "f3269c1523a592eee037374d45ce49d6343243ca4a2bdc6141bf9b398972ecdb"
         }
-      }
+      },
+      "script_ref": "DR-060"
     },
     {
       "id": "DR-060-D02",
@@ -5865,7 +6081,8 @@
           "bytes": 44902,
           "sha256": "c9f804afb04a8e78920842cfd2e2be2d28d2cf48fa8dcfc39b679049a1c38ac9"
         }
-      }
+      },
+      "script_ref": "DR-060"
     },
     {
       "id": "DR-060-D03",
@@ -5902,7 +6119,8 @@
           "bytes": 40046,
           "sha256": "1b944cf2db9ae5c0667de465f5d8eecf5f9fc8ae94314f9496227690ab4cc605"
         }
-      }
+      },
+      "script_ref": "DR-060"
     },
     {
       "id": "DR-060-D04",
@@ -5938,7 +6156,8 @@
           "bytes": 47374,
           "sha256": "967c70c7efc5755179a0b2a07d137ba3e4729a999de5e31bce7b31e211759e70"
         }
-      }
+      },
+      "script_ref": "DR-060"
     },
     {
       "id": "DR-060-D05",
@@ -5975,7 +6194,8 @@
           "bytes": 40238,
           "sha256": "4a6f281cfeb218d207a9ca63d7ff340dae89bb54a60ce121ce198e167b73ca97"
         }
-      }
+      },
+      "script_ref": "DR-060"
     },
     {
       "id": "DR-060-D06",
@@ -5990,28 +6210,29 @@
       ],
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J16-0:0",
       "source_version": "국방부훈령 제3216호",
-      "effective_date": "2026-10-14",
-      "note": "제16조제4항제4호는 2027.01.01. 시행 예정(국방부훈령 제3216호 부칙).",
+      "effective_date": "2027-01-01",
+      "note": "제80회 적용: 제16조제4항제4호는 2027.01.01. 시행.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-060/diagrams/DR-060-D06-editorial-v1.svg",
-          "bytes": 5337,
-          "sha256": "b18a911c9a99bd67c3d73eb38e49240459e82933bc63a91d0aad6ed1622ebcb6"
+          "bytes": 5340,
+          "sha256": "67760324714560369ba566a7ef90bd46fea158588fc76008c7bf6622c131fd61"
         },
         "png": {
           "path": "defense-directives/lesson-060/diagrams/DR-060-D06-editorial-v1.png",
-          "bytes": 138827,
-          "sha256": "8cf5c2dcebc86ff7b5bdd4df688cc8d2f850bde0c21bdede81d1f0d8fef7786e"
+          "bytes": 137074,
+          "sha256": "ba970fb949406395235df17e9b75087d235a65bda7585c62b89e2e10b70e2e65"
         },
         "webp": {
           "path": "defense-directives/lesson-060/diagrams/DR-060-D06-editorial-v1.webp",
-          "bytes": 43356,
-          "sha256": "3b1a5a070c7afca3ff633c57a40d779a1e55f78b46f852dc76f207376b1137d1"
+          "bytes": 41102,
+          "sha256": "a3ce65a67c9ffb49cb8b10a132855a3fc0fc5fc05291e26b142ecf2bf8e3fb75"
         }
-      }
+      },
+      "script_ref": "DR-060"
     },
     {
       "id": "DR-061-D01",
@@ -6048,7 +6269,8 @@
           "bytes": 38864,
           "sha256": "dc62147212648382879f8bb9f91c33e4502df5886f3ca2b99bbfc270944e2679"
         }
-      }
+      },
+      "script_ref": "DR-061"
     },
     {
       "id": "DR-061-D02",
@@ -6085,7 +6307,8 @@
           "bytes": 51118,
           "sha256": "cd7132b20c3e81582a8abc72dcd98954a0b3f4a2840800dc9d243f4c6e488f47"
         }
-      }
+      },
+      "script_ref": "DR-061"
     },
     {
       "id": "DR-062-D01",
@@ -6123,7 +6346,8 @@
           "bytes": 43004,
           "sha256": "1af6c3c58e1f23d56c84fcd425f971d6aee3fb78f4dfe2c79cb5b19baa650978"
         }
-      }
+      },
+      "script_ref": "DR-062"
     },
     {
       "id": "DR-062-D02",
@@ -6162,7 +6386,8 @@
           "bytes": 47418,
           "sha256": "9888d09edeeb4f4c889c5d926034ff3edb05d2a760bc6ebfdbf76f29b06df39c"
         }
-      }
+      },
+      "script_ref": "DR-062"
     },
     {
       "id": "DR-062-D03",
@@ -6199,7 +6424,8 @@
           "bytes": 46324,
           "sha256": "b6d4ea8cac0709e354fec2a60d2688fa85366e65bde7c66b4b4e8e40efccfdf3"
         }
-      }
+      },
+      "script_ref": "DR-062"
     },
     {
       "id": "DR-062-D04",
@@ -6236,7 +6462,8 @@
           "bytes": 47414,
           "sha256": "2f8aef7a63129d59429a45f2d072a65004961bff4fab9f52e32ff9294c7e0136"
         }
-      }
+      },
+      "script_ref": "DR-062"
     },
     {
       "id": "DR-062-D05",
@@ -6274,7 +6501,8 @@
           "bytes": 50948,
           "sha256": "0f6092f852794c9b3d371eefd207aa7a0037090687e21046571d9a6489925cf7"
         }
-      }
+      },
+      "script_ref": "DR-062"
     },
     {
       "id": "DR-062-D06",
@@ -6310,7 +6538,8 @@
           "bytes": 46830,
           "sha256": "56b4e3a950a96627bfba8f3a38bc0c605ac5ae5076c280e06bee66c90375cf89"
         }
-      }
+      },
+      "script_ref": "DR-062"
     },
     {
       "id": "DR-063-D01",
@@ -6345,7 +6574,8 @@
           "bytes": 42978,
           "sha256": "6f7ee24e6fcfca29946cabbfc7221eecb35483978508ed65841a8af1548bc282"
         }
-      }
+      },
+      "script_ref": "DR-063"
     },
     {
       "id": "DR-064-D01",
@@ -6384,7 +6614,8 @@
           "bytes": 53060,
           "sha256": "927d40fd29f292d9a7037d196914023d1454f8225479e4d3c9c8057947d0c16a"
         }
-      }
+      },
+      "script_ref": "DR-064"
     },
     {
       "id": "DR-064-D02",
@@ -6419,7 +6650,8 @@
           "bytes": 41830,
           "sha256": "9767c33bfa1c48ca3daf0af7d8ef28683637a79fadf54110c09c0d573e388111"
         }
-      }
+      },
+      "script_ref": "DR-064"
     },
     {
       "id": "DR-065-D01",
@@ -6456,7 +6688,8 @@
           "bytes": 47076,
           "sha256": "608c8ff6f9e7f4119c2f42097555429e5caa28917318cca3c2ed1d19f349f198"
         }
-      }
+      },
+      "script_ref": "DR-065"
     },
     {
       "id": "DR-065-D02",
@@ -6492,7 +6725,8 @@
           "bytes": 35650,
           "sha256": "fe9818d1934bd9ed9344e275db037c7bdeaaf804c40842a5ca5d28cbc279f013"
         }
-      }
+      },
+      "script_ref": "DR-065"
     },
     {
       "id": "DR-066-D01",
@@ -6529,7 +6763,8 @@
           "bytes": 47564,
           "sha256": "9da7972ed39ed3ee7e4c9342dfba5f73e4dfad44162d77d314ae59fed5a307fc"
         }
-      }
+      },
+      "script_ref": "DR-066"
     },
     {
       "id": "DR-066-D02",
@@ -6564,7 +6799,8 @@
           "bytes": 50022,
           "sha256": "f1753987d8523806a66f8e4642b295dc1348a25b1d5e02b9674cff5d5e9e3b56"
         }
-      }
+      },
+      "script_ref": "DR-066"
     },
     {
       "id": "DR-066-D03",
@@ -6599,7 +6835,8 @@
           "bytes": 40066,
           "sha256": "83695caa7f038284734c9d852813bbc128bb96ab4d2eaeaa839ddb80eb57b835"
         }
-      }
+      },
+      "script_ref": "DR-066"
     },
     {
       "id": "DR-067-D01",
@@ -6636,7 +6873,8 @@
           "bytes": 42016,
           "sha256": "217e2789343e1b1effed269eeb8a14e375e87ee3d5bcaef7c283063953c8f6ad"
         }
-      }
+      },
+      "script_ref": "DR-067"
     },
     {
       "id": "DR-067-D02",
@@ -6671,7 +6909,8 @@
           "bytes": 51730,
           "sha256": "e959e144f37bc1bf6948321689b4b4c18710a2a550071d796809e361099d4e4b"
         }
-      }
+      },
+      "script_ref": "DR-067"
     },
     {
       "id": "DR-067-D03",
@@ -6708,7 +6947,8 @@
           "bytes": 43302,
           "sha256": "057c48c56296291cdec966d541c889c7eb6bc988bf845325b3affa7e36de400f"
         }
-      }
+      },
+      "script_ref": "DR-067"
     },
     {
       "id": "DR-067-D04",
@@ -6744,7 +6984,8 @@
           "bytes": 45844,
           "sha256": "73a6e49888bcd883706219eb7bc9a926fc6a84eb7885c10d1890def8ae1491cb"
         }
-      }
+      },
+      "script_ref": "DR-067"
     },
     {
       "id": "DR-067-D05",
@@ -6780,7 +7021,8 @@
           "bytes": 44896,
           "sha256": "20f21151257fdf920f54e96dfd7c5bd04df1cc9a0af3a5df6e0746cd291dc576"
         }
-      }
+      },
+      "script_ref": "DR-067"
     },
     {
       "id": "DR-068-D01",
@@ -6815,7 +7057,8 @@
           "bytes": 41118,
           "sha256": "c1776d42a4992102342295cca17501c6dec970a818b8a1462d15276efced1e43"
         }
-      }
+      },
+      "script_ref": "DR-068"
     },
     {
       "id": "DR-068-D02",
@@ -6851,7 +7094,8 @@
           "bytes": 37108,
           "sha256": "5ee3e8e9466ba168cad4d7f0c7d738ba7adc1b54f7b14b076a3fbcd7a722a6de"
         }
-      }
+      },
+      "script_ref": "DR-068"
     },
     {
       "id": "DR-068-D03",
@@ -6888,7 +7132,8 @@
           "bytes": 46460,
           "sha256": "5ecac6e4cc4d9847a4270e37c1eb6999bdc7631f0533072be89cb06c93a67afd"
         }
-      }
+      },
+      "script_ref": "DR-068"
     },
     {
       "id": "DR-069-D01",
@@ -6924,7 +7169,8 @@
           "bytes": 37652,
           "sha256": "b2747ddab193762217ec69082588e36367689ed2a0c8fbe23b87ad3673816eb5"
         }
-      }
+      },
+      "script_ref": "DR-069"
     },
     {
       "id": "DR-070-D01",
@@ -6959,7 +7205,8 @@
           "bytes": 32832,
           "sha256": "bda7491095211e225dc994a7d67e9ac49d21d4262c7e3feadafe29236c890b68"
         }
-      }
+      },
+      "script_ref": "DR-070"
     },
     {
       "id": "DR-071-D01",
@@ -6994,7 +7241,8 @@
           "bytes": 45810,
           "sha256": "1a2da5432c2a99d1dacd639e12afd401b5791b42dbf810c809ba3d5eb4370dc3"
         }
-      }
+      },
+      "script_ref": "DR-071"
     },
     {
       "id": "DR-071-D02",
@@ -7029,7 +7277,8 @@
           "bytes": 42466,
           "sha256": "1f9dbfe4cae20e64470a7c63bb48fc6a9108e7b4526835ec77d57e5d367d6dd8"
         }
-      }
+      },
+      "script_ref": "DR-071"
     },
     {
       "id": "DR-071-D03",
@@ -7065,7 +7314,8 @@
           "bytes": 30536,
           "sha256": "6121609b185683c2c222a50ea27b856f1b364e0befe3b19a26d8149ff4c0d33a"
         }
-      }
+      },
+      "script_ref": "DR-071"
     },
     {
       "id": "DR-071-D04",
@@ -7101,7 +7351,8 @@
           "bytes": 38186,
           "sha256": "60fb566fe2a0d3f2d2310eccb906802a988d70fbd566c417199b429a80e8f7f8"
         }
-      }
+      },
+      "script_ref": "DR-071"
     },
     {
       "id": "DR-072-D01",
@@ -7138,7 +7389,8 @@
           "bytes": 36394,
           "sha256": "f1b7831cdc8995822f56ae443290380cba0713ceedd23936696d8e1e975df2d0"
         }
-      }
+      },
+      "script_ref": "DR-072"
     },
     {
       "id": "DR-072-D02",
@@ -7174,7 +7426,8 @@
           "bytes": 38922,
           "sha256": "144d5739362f58bf55a6dd0f407febd44b370f4f9a34e0061b375dfdeae6a23d"
         }
-      }
+      },
+      "script_ref": "DR-072"
     },
     {
       "id": "DR-073-D01",
@@ -7212,7 +7465,8 @@
           "bytes": 42304,
           "sha256": "a5949d1a6a352ff15ca3cc471bc660fe1d2c7423fb7e1d8fa84f67d8ab870a95"
         }
-      }
+      },
+      "script_ref": "DR-073"
     },
     {
       "id": "DR-073-D02",
@@ -7247,7 +7501,8 @@
           "bytes": 43628,
           "sha256": "6a519ccbf2a646c70be93ae823368d816cb3b293817debd3cfe287f06c151e2b"
         }
-      }
+      },
+      "script_ref": "DR-073"
     },
     {
       "id": "DR-074-D01",
@@ -7283,7 +7538,8 @@
           "bytes": 52210,
           "sha256": "5045f7e40f8cb92dd66ac3f54e70e644cf16ed2ae732a236b207247bb9ea4950"
         }
-      }
+      },
+      "script_ref": "DR-074"
     },
     {
       "id": "DR-074-D02",
@@ -7319,7 +7575,8 @@
           "bytes": 36780,
           "sha256": "fb7b7af6a32e7964094191d3e0cb30065f98135f2847330c3cb438719db2ca2f"
         }
-      }
+      },
+      "script_ref": "DR-074"
     },
     {
       "id": "DR-074-D03",
@@ -7355,7 +7612,8 @@
           "bytes": 48516,
           "sha256": "a1a93cf3200964db8913b6c13abb6a8f7abe0e446b2515e66d3ca69c6d6acb8e"
         }
-      }
+      },
+      "script_ref": "DR-074"
     },
     {
       "id": "DR-074-D04",
@@ -7390,7 +7648,8 @@
           "bytes": 43160,
           "sha256": "f2876c2b148c5f22dac7b0f524c80445f36b4473b490d193fc9ad9af5a71cb43"
         }
-      }
+      },
+      "script_ref": "DR-074"
     },
     {
       "id": "DR-075-D01",
@@ -7427,7 +7686,8 @@
           "bytes": 49768,
           "sha256": "eaaf3e42e6a4a24ad63f79edc36022c9551d403e2fe126618816bda4c755aec3"
         }
-      }
+      },
+      "script_ref": "DR-075"
     },
     {
       "id": "DR-075-D02",
@@ -7463,7 +7723,8 @@
           "bytes": 39562,
           "sha256": "801698f21c1d6429a187035294af8a28b9e8645d7de0aebeb1f2a59c91659c3e"
         }
-      }
+      },
+      "script_ref": "DR-075"
     },
     {
       "id": "DR-075-D03",
@@ -7499,7 +7760,8 @@
           "bytes": 40254,
           "sha256": "0f942716ebe0d1ca8a15819137ba360306d0e34b458f7981e793a7cd1e25501b"
         }
-      }
+      },
+      "script_ref": "DR-075"
     },
     {
       "id": "DR-076-D01",
@@ -7536,7 +7798,8 @@
           "bytes": 45912,
           "sha256": "0fbd13836501c8a4b3beaf7c00ff81a04c673c0f79e850cbce5032311fdfd949"
         }
-      }
+      },
+      "script_ref": "DR-076"
     },
     {
       "id": "DR-077-D01",
@@ -7571,7 +7834,8 @@
           "bytes": 29548,
           "sha256": "45d7b9bd35335cd96434f8a26761e9d11f0af88a9d73f16b4f3021272461ba04"
         }
-      }
+      },
+      "script_ref": "DR-077"
     },
     {
       "id": "DR-078-D01",
@@ -7608,7 +7872,8 @@
           "bytes": 44388,
           "sha256": "1bb4e77d2dada0266aeeb093caf8cad1aafcc86fde9b29efc5bfd50bfd7e3cd2"
         }
-      }
+      },
+      "script_ref": "DR-078"
     },
     {
       "id": "DR-078-D02",
@@ -7644,7 +7909,8 @@
           "bytes": 42334,
           "sha256": "29be28d6c3bd4cf7683389363f10629b1ffb9a1c59645dd90dbc9d8bdb0e4cb6"
         }
-      }
+      },
+      "script_ref": "DR-078"
     },
     {
       "id": "DR-078-D03",
@@ -7680,7 +7946,8 @@
           "bytes": 41208,
           "sha256": "227a844c56a6c326fb9c5630a236c872888f84a8d0dc75892dedbaaf7f4b8bce"
         }
-      }
+      },
+      "script_ref": "DR-078"
     },
     {
       "id": "DR-078-D04",
@@ -7717,7 +7984,21 @@
           "bytes": 45632,
           "sha256": "ad16c2787c915ace22ba54eb4cf7aff7a5f0e64f85b430f23336385ccb2df41e"
         }
-      }
+      },
+      "script_ref": "DR-078"
     }
-  ]
+  ],
+  "exam": {
+    "number": 80,
+    "period": "27년 전반기",
+    "cutoff_date": "2027-02-02",
+    "cutoff_kind": "existing_user_specified_exam80_basis"
+  },
+  "content_basis": {
+    "type": "existing_merged_lecture_script",
+    "index": "defense-directives/diagrams/script-basis.json",
+    "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+    "precedence": "existing_exam80_script_first",
+    "full_lecture_alignment_status": "in_progress"
+  }
 }

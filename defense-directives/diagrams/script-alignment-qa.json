@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "exam": {
+    "number": 80,
+    "period": "27년 전반기",
+    "cutoff_date": "2027-02-02",
+    "cutoff_kind": "existing_user_specified_exam80_basis"
+  },
+  "checked_at": "2026-11-27T11:59:19+09:00",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_bindings_verified": 78,
+  "diagram_corrections": [
+    {
+      "id": "DR-036-D01",
+      "lesson_id": "DR-036",
+      "changed_fields": [
+        "subtitle"
+      ],
+      "before": {
+        "subtitle": "수령 즉시 재산등록하고, 정비계단을 넘는 고장은 지원시설로 보낸다.",
+        "note": "",
+        "effectiveDate": "2025-11-14"
+      },
+      "after": {
+        "subtitle": "수령과 동시에 재산등록하고, 정비계단을 넘는 고장은 지원시설로 보낸다."
+      },
+      "script_path": "docs/merged-lectures/훈령/본훈_1-47.txt",
+      "script_sha256": "29cc2b99f7cf762516fcbc14d2f5f8a2b3d826042866b13031d1892cda8664d4",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "full_lesson_coverage_review": "pending"
+    },
+    {
+      "id": "DR-041-D01",
+      "lesson_id": "DR-041",
+      "changed_fields": [
+        "subtitle"
+      ],
+      "before": {
+        "subtitle": "수령 즉시 재산등록하고, 지원시설 정비가 제한되면 육성지원예산을 쓴다.",
+        "note": "",
+        "effectiveDate": "2025-11-14"
+      },
+      "after": {
+        "subtitle": "수령과 동시에 재산등록하고, 지원시설 정비가 제한되면 육성지원예산을 쓴다."
+      },
+      "script_path": "docs/merged-lectures/훈령/본훈_1-52.txt",
+      "script_sha256": "7ef501d6ef126e02e0d3b0d5c9d56eb0d2f5b00f3b142e4f5afc304ff2bbd921",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "full_lesson_coverage_review": "pending"
+    },
+    {
+      "id": "DR-060-D06",
+      "lesson_id": "DR-060",
+      "changed_fields": [
+        "subtitle",
+        "note",
+        "effectiveDate"
+      ],
+      "before": {
+        "subtitle": "2027년 1월 1일부터 적용되는 훈련유형 전환이다.",
+        "note": "제16조제4항제4호는 2027.01.01. 시행 예정(국방부훈령 제3216호 부칙).",
+        "effectiveDate": "2026-10-14"
+      },
+      "after": {
+        "subtitle": "제80회 강의 기준으로 선발 유지와 취소·철회를 구분한다.",
+        "note": "제80회 적용: 제16조제4항제4호는 2027.01.01. 시행.",
+        "effectiveDate": "2027-01-01"
+      },
+      "script_path": "docs/merged-lectures/훈령/본훈_2-16.txt",
+      "script_sha256": "0d4cb439e9011e57a4bea7e3ab322e3b39d26f319774fbe3efec8ddc9e0687a0",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "full_lesson_coverage_review": "pending"
+    }
+  ],
+  "full_lecture_coverage_reviews_completed": 0,
+  "remaining_full_lecture_reviews": 78,
+  "new_diagrams": 0,
+  "revised_diagrams": 3,
+  "priority_script_comparison": {
+    "schema_version": 1,
+    "created_at": "2026-11-27T11:59:01+09:00",
+    "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+    "exam": {
+      "number": 80,
+      "period": "27년 전반기",
+      "examDate": null,
+      "cutoffDate": "2027-02-02",
+      "cutoffSource": "user-instruction-20261019",
+      "officialNoticeVerified": false,
+      "dateStatus": "user-specified-law-cutoff-exam-date-unverified"
+    },
+    "purpose": "기존 제80회 통합 강의 스크립트에 대한 우선 도식 대조. 원고 재작성 및 공식 원문의 새 조사 없음.",
+    "scope": {
+      "lessons_compared": 15,
+      "existing_diagrams_in_scope": 34,
+      "full_script_read_and_diagram_content_compared": {
+        "lesson_ids": [
+          "DR-045",
+          "DR-047",
+          "DR-060",
+          "DR-078"
+        ],
+        "diagram_count": 13
+      },
+      "script_summary_article_mapping_and_core_diagram_claims_compared": {
+        "lesson_ids": [
+          "DR-032",
+          "DR-033",
+          "DR-034",
+          "DR-035",
+          "DR-036",
+          "DR-037",
+          "DR-038",
+          "DR-039",
+          "DR-040",
+          "DR-041",
+          "DR-042"
+        ],
+        "diagram_count": 21
+      },
+      "all_78_lessons_reviewed": false,
+      "all_190_diagrams_reviewed": false,
+      "all_learning_objectives_covered": false,
+      "source_manuscripts_modified": false,
+      "diagram_files_modified": false,
+      "note": "11개 조직편성 강의는 원고 전문 전수 대조가 아니라 핵심 요약·조문 연결·도식 핵심 숫자/주체의 대조이다. 4개 교육훈련 강의는 원고 전문을 읽고 기존 13장의 표시 내용과 대조했으나 학습 목적별 완전성 검토 종료를 뜻하지 않는다."
+    },
+    "lessons": [
+      {
+        "lesson_id": "DR-045",
+        "method": "full_script_and_existing_diagram_content",
+        "existing_diagram_ids": [
+          "DR-045-D01"
+        ],
+        "source_path": "docs/merged-lectures/훈령/본훈_2-2의2.txt",
+        "source_git_blob": "2c13f6ab444effe0f7d91f0d87a7768fbb5a9acb",
+        "source_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18",
+        "article_mapping_result": "Existing catalog and diagram legal article mapping agree; retain the current mapping.",
+        "content_result": "No contradictory core figures, actors or procedures found within the stated comparison scope.",
+        "entire_lesson_coverage_review_completed": false
+      },
+      {
+        "lesson_id": "DR-047",
+        "method": "full_script_and_existing_diagram_content",
+        "existing_diagram_ids": [
+          "DR-047-D01",
+          "DR-047-D02"
+        ],
+        "source_path": "docs/merged-lectures/훈령/본훈_2-3의3.txt",
+        "source_git_blob": "0e4e993247f33f5d79e576a94a415906bbc0660f",
+        "source_sha256": "b518a0ae7f475744bd11d1111321fb00e62a0951366622cec33c4b1ee8b3aa5d",
+        "article_mapping_result": "Existing catalog and diagram legal article mapping agree; retain the current mapping.",
+        "content_result": "No contradictory core figures, actors or procedures found within the stated comparison scope.",
+        "entire_lesson_coverage_review_completed": false
+      },
+      {
+        "lesson_id": "DR-060",
+        "method": "full_script_and_existing_diagram_content",
+        "existing_diagram_ids": [
+          "DR-060-D01",
+          "DR-060-D02",
+          "DR-060-D03",
+          "DR-060-D04",
+          "DR-060-D05",
+          "DR-060-D06"
+        ],
+        "source_path": "docs/merged-lectures/훈령/본훈_2-16.txt",
+        "source_git_blob": "4ae4b683613ed5f610c84fa844e21ab045e8d740",
+        "source_sha256": "0d4cb439e9011e57a4bea7e3ab322e3b39d26f319774fbe3efec8ddc9e0687a0",
+        "article_mapping_result": "Existing catalog and diagram legal article mapping agree; retain the current mapping.",
+        "content_result": "No contradictory core figures, actors or procedures found within the stated comparison scope.",
+        "entire_lesson_coverage_review_completed": false
+      },
+      {
+        "lesson_id": "DR-078",
+        "method": "full_script_and_existing_diagram_content",
+        "existing_diagram_ids": [
+          "DR-078-D01",
+          "DR-078-D02",
+          "DR-078-D03",
+          "DR-078-D04"
+        ],
+        "source_path": "docs/merged-lectures/훈령/본훈_2-65.txt",
+        "source_git_blob": "10cfc56fac80c296861241c032e43f35a9458465",
+        "source_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
+        "article_mapping_result": "Existing catalog and diagram legal article mapping agree; retain the current mapping.",
+        "content_result": "No contradictory core figures, actors or procedures found within the stated comparison scope.",
+        "entire_lesson_coverage_review_completed": false
+      },
+      {
+        "lesson_id": "DR-032",
+        "method": "script_summary_and_article_mapping_and_core_claims",
+        "existing_diagram_ids": [
+          "DR-032-D01",
+          "DR-032-D02",
+          "DR-032-D03"
+        ],
+        "source_path": "docs/merged-lectures/훈령/본훈_1-43.txt",
+        "source_git_blob": "921e712e1bb6fdbae70781e05e94d9eadf3cda7a",
+        "source_sha256": "2859de9ae6aad672b3b66e81d770b1b203a3b0610e60069ddf6b7f86b8b5da22",
+        "article_mapping_result": "Existing catalog and diagram legal article mapping agree; retain the current mapping.",
+        "content_result": "No contradictory core figures, actors or procedures found within the stated comparison scope.",
+        "entire_lesson_coverage_review_completed": false
+      },
+      {
+        "lesson_id": "DR-033",
+        "method": "script_summary_and_article_mapping_and_core_claims",
+        "existing_diagram_ids": [
+          "DR-033-D01",
+          "DR-033-D02",
+          "DR-033-D03"
+        ],
+        "source_path": "docs/merged-lectures/훈령/본훈_1-44.txt",
+        "source_git_blob": "a1521e1cac7e9d2455b2bdd134e3516bee0d8f18",
+        "source_sha256": "70c9b5a008b701e2f526395aa198aa483e30be4df39fd6d3a55be9dfdf2cb522",
+        "article_mapping_result": "Existing catalog and diagram legal article mapping agree; retain the current mapping.",
+        "content_result": "No contradictory core figures, actors or procedures found within the stated comparison scope.",
+        "entire_lesson_coverage_review_completed": false
+      },
+      {
+        "lesson_id": "DR-034",
+        "method": "script_summary_and_article_mapping_and_core_claims",
+        "existing_diagram_ids": [
+          "DR-034-D01"
+        ],
+        "source_path": "docs/merged-lectures/훈령/본훈_1-45.txt",
+        "source_git_blob": "05c65ac8e14269eaad62466b4cea35dd030eb943",
+        "source_sha256": "5032ecec378e02418034707f52eda198e849611dcd80ce67145e9128b264b402",
+        "article_mapping_result": "Existing catalog and diagram legal article mapping agree; retain the current mapping.",
+        "content_result": "No contradictory core figures, actors or procedures found within the stated comparison scope.",
+        "entire_lesson_coverage_review_completed": false
+      },
+      {
+        "lesson_id": "DR-035",
+        "method": "script_summary_and_article_mapping_and_core_claims",
+        "existing_diagram_ids": [
+          "DR-035-D01",
+          "DR-035-D02",
+          "DR-035-D03",
+          "DR-035-D04"
+        ],
+        "source_path": "docs/merged-lectures/훈령/본훈_1-46.txt",
+        "source_git_blob": "4fbb17daa28256cbe32c65d568ce9171fd0134b7",
+        "source_sha256": "f34aa53a8ce916322a4d0a4c6a8b03f1f69ab6fe537bfc57c560e841de6c4b21",
+        "article_mapping_result": "Existing catalog and diagram legal article mapping agree; retain the current mapping.",
+        "content_result": "No contradictory core figures, actors or procedures found within the stated comparison scope.",
+        "entire_lesson_coverage_review_completed": false
+      },
+      {
+        "lesson_id": "DR-036",
+        "method": "script_summary_and_article_mapping_and_core_claims",
+        "existing_diagram_ids": [
+          "DR-036-D01"
+        ],
+        "source_path": "docs/merged-lectures/훈령/본훈_1-47.txt",
+        "source_git_blob": "9d2b3d81243702eabe7c08977c9fae700d2d5b27",
+        "source_sha256": "29cc2b99f7cf762516fcbc14d2f5f8a2b3d826042866b13031d1892cda8664d4",
+        "article_mapping_result": "Existing catalog and diagram legal article mapping agree; retain the current mapping.",
+        "content_result": "No contradictory core figures, actors or procedures found within the stated comparison scope.",
+        "entire_lesson_coverage_review_completed": false
+      },
+      {
+        "lesson_id": "DR-037",
+        "method": "script_summary_and_article_mapping_and_core_claims",
+        "existing_diagram_ids": [
+          "DR-037-D01"
+        ],
+        "source_path": "docs/merged-lectures/훈령/본훈_1-48.txt",
+        "source_git_blob": "a61286f01dcc5590af04dc1994115c2c5e4637d8",
+        "source_sha256": "6f66c8f02ea2ab75ffad24895ae6a90dbc57335ae99662701890b3105cb35085",
+        "article_mapping_result": "Existing catalog and diagram legal article mapping agree; retain the current mapping.",
+        "content_result": "No contradictory core figures, actors or procedures found within the stated comparison scope.",
+        "entire_lesson_coverage_review_completed": false
+      },
+      {
+        "lesson_id": "DR-038",
+        "method": "script_summary_and_article_mapping_and_core_claims",
+        "existing_diagram_ids": [
+          "DR-038-D01",
+          "DR-038-D02",
+          "DR-038-D03"
+        ],
+        "source_path": "docs/merged-lectures/훈령/본훈_1-49.txt",
+        "source_git_blob": "3c0f95798a31b6798b31897ec33d259ae553ce50",
+        "source_sha256": "ba7e9636f8c7eed1251bac1a8c2cab95dd00d0d662a1de9ac4088a113b602540",
+        "article_mapping_result": "Existing catalog and diagram legal article mapping agree; retain the current mapping.",
+        "content_result": "No contradictory core figures, actors or procedures found within the stated comparison scope.",
+        "entire_lesson_coverage_review_completed": false
+      },
+      {
+        "lesson_id": "DR-039",
+        "method": "script_summary_and_article_mapping_and_core_claims",
+        "existing_diagram_ids": [
+          "DR-039-D01",
+          "DR-039-D02"
+        ],
+        "source_path": "docs/merged-lectures/훈령/본훈_1-50.txt",
+        "source_git_blob": "d98d26de1fa85cd73b536e3b24bf4da21dbb07e7",
+        "source_sha256": "019aa03dbaf12151e0b82e080e23c0b9fb7982084c0d157ed4d51d712aa42dc1",
+        "article_mapping_result": "Existing catalog and diagram legal article mapping agree; retain the current mapping.",
+        "content_result": "No contradictory core figures, actors or procedures found within the stated comparison scope.",
+        "entire_lesson_coverage_review_completed": false
+      },
+      {
+        "lesson_id": "DR-040",
+        "method": "script_summary_and_article_mapping_and_core_claims",
+        "existing_diagram_ids": [
+          "DR-040-D01"
+        ],
+        "source_path": "docs/merged-lectures/훈령/본훈_1-51.txt",
+        "source_git_blob": "2b43119933bb96b2208d977c200291e0209242c5",
+        "source_sha256": "2c7db26b7b8269769406b64cb3547fb27465c295fb9372661fa004a3490bb126",
+        "article_mapping_result": "Existing catalog and diagram legal article mapping agree; retain the current mapping.",
+        "content_result": "No contradictory core figures, actors or procedures found within the stated comparison scope.",
+        "entire_lesson_coverage_review_completed": false
+      },
+      {
+        "lesson_id": "DR-041",
+        "method": "script_summary_and_article_mapping_and_core_claims",
+        "existing_diagram_ids": [
+          "DR-041-D01"
+        ],
+        "source_path": "docs/merged-lectures/훈령/본훈_1-52.txt",
+        "source_git_blob": "fbb479ed9771ef4a7c0a8c2fa791ebbec4b6f128",
+        "source_sha256": "7ef501d6ef126e02e0d3b0d5c9d56eb0d2f5b00f3b142e4f5afc304ff2bbd921",
+        "article_mapping_result": "Existing catalog and diagram legal article mapping agree; retain the current mapping.",
+        "content_result": "No contradictory core figures, actors or procedures found within the stated comparison scope.",
+        "entire_lesson_coverage_review_completed": false
+      },
+      {
+        "lesson_id": "DR-042",
+        "method": "script_summary_and_article_mapping_and_core_claims",
+        "existing_diagram_ids": [
+          "DR-042-D01"
+        ],
+        "source_path": "docs/merged-lectures/훈령/본훈_1-61.txt",
+        "source_git_blob": "1c460275d8ab8a3cdb1b238c3527ba744dfdb543",
+        "source_sha256": "e1f7e31169ba76dda3896dfdd9fffb3938b0d53f7fc44ef4eb490cc1c433da37",
+        "article_mapping_result": "Existing catalog and diagram legal article mapping agree; retain the current mapping.",
+        "content_result": "No contradictory core figures, actors or procedures found within the stated comparison scope.",
+        "entire_lesson_coverage_review_completed": false
+      }
+    ],
+    "mapping_notes": [
+      "DR-032~041의 실제 조문제43~52조, DR-042의제61조, DR-078의제23조 연결은 그대로 유지한다.",
+      "DR-045 원고의 파일명과 첫줄에2의2가 남아 있으나 본문은제32조의 별지5호/6호서식을 명시적으로 설명한다. 원고를 덮어쓰거나 실제 법령 근거를2의2로 되돌리지 않는다.",
+      "DR-047 원고의 파일명과 첫줄에3의3이 남아 있으나 본문은상비예비군 정의,단기30일/장기30일초과180일이내,제18호참가비를 설명한다. 현재제2조제17·18호 근거를 보존한다.",
+      "DR-077-D01의2027-01-01은 훈령 재검토기산점이므로 시행예정 표현 수정 대상과 혼동하지 않는다."
+    ],
+    "not_done": [
+      "훈령78강 전체 내용 일치 전수검수",
+      "기존190장 모두의 화면 재렌더링/시각검수",
+      "도식 신규 제작 또는 수정",
+      "공개 저장소 반영",
+      "예약 작업 변경"
+    ],
+    "findings": [
+      {
+        "id": "DR-060-D06-exam80-perspective",
+        "type": "exam_basis_presentation",
+        "diagram_id": "DR-060-D06",
+        "field": "note / subtitle",
+        "script_result": "기존 원고는 5~6년차 병 상비예비군에 동원훈련Ⅰ형을 적용하고 취소·철회 시 지역예비군훈련으로 돌아가는 내용을 본문으로 설명한다. 시행예정이라는 유보는 하지 않는다.",
+        "minimal_change": "제80회 적용 기준임을 명시하고 시행 예정이라는 상대시점 표현을 제거한다. 시행일 2027.01.01과 선발 취소·철회 예외는 보존한다.",
+        "evidence": {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-16.txt",
+          "source_git_blob": "4ae4b683613ed5f610c84fa844e21ab045e8d740",
+          "source_sha256": "0d4cb439e9011e57a4bea7e3ab322e3b39d26f319774fbe3efec8ddc9e0687a0",
+          "line_numbers": [
+            167,
+            196
+          ]
+        },
+        "status": "corrected_in_this_revision"
+      },
+      {
+        "id": "DR-036-D01-script-keyword",
+        "type": "exam_keyword_precision",
+        "diagram_id": "DR-036-D01",
+        "field": "subtitle",
+        "existing": "수령 즉시 재산등록하고, 정비계단을 넘는 고장은 지원시설로 보낸다.",
+        "minimal_change": "수령과 동시에 재산등록하고, 정비계단을 넘는 고장은 지원시설로 보낸다.",
+        "reason": "본문은 이미 수령과 동시에로 정확하지만 부제도 원고가 강조하는 시험 표현으로 통일한다. 즉시와 동시에의 사실 반전을 단정하는 것이 아닌 핵심 표현 보존이다.",
+        "evidence": {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-47.txt",
+          "source_git_blob": "9d2b3d81243702eabe7c08977c9fae700d2d5b27",
+          "source_sha256": "29cc2b99f7cf762516fcbc14d2f5f8a2b3d826042866b13031d1892cda8664d4",
+          "line_numbers": [
+            27,
+            31,
+            37
+          ]
+        },
+        "status": "corrected_in_this_revision"
+      },
+      {
+        "id": "DR-041-D01-script-keyword",
+        "type": "exam_keyword_precision",
+        "diagram_id": "DR-041-D01",
+        "field": "subtitle",
+        "existing": "수령 즉시 재산등록하고, 지원시설 정비가 제한되면 육성지원예산을 쓴다.",
+        "minimal_change": "수령과 동시에 재산등록하고, 지원시설 정비가 제한되면 육성지원예산을 쓴다.",
+        "reason": "원고가 수령과 동시에를 따로 강조하므로 부제도 같은 표현으로 통일한다.",
+        "evidence": {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-52.txt",
+          "source_git_blob": "fbb479ed9771ef4a7c0a8c2fa791ebbec4b6f128",
+          "source_sha256": "7ef501d6ef126e02e0d3b0d5c9d56eb0d2f5b00f3b142e4f5afc304ff2bbd921",
+          "line_numbers": [
+            31,
+            35,
+            41
+          ]
+        },
+        "status": "corrected_in_this_revision"
+      }
+    ],
+    "confirmed_production_job_ids": [
+      "DR-045-existing-script-voluntary-payment-and-objection",
+      "DR-045-existing-script-arrears-rates"
+    ]
+  },
+  "visual_review": {
+    "diagrams": [
+      "DR-036-D01",
+      "DR-041-D01",
+      "DR-060-D06"
+    ],
+    "result": "passed",
+    "overlap_or_clipping_observed": false
+  }
+}

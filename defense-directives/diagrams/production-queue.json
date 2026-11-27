@@ -1,12 +1,12 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-27T11:29:40+09:00",
-  "purpose": "완료된 190장을 기준으로 78강의 원고 대비 도식 보강 필요성을 확인하고, 확인된 누락만 추가 제작한다.",
+  "updated_at": "2026-11-27T12:02:39+09:00",
+  "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
-    "status": "completed",
+    "status": "files_completed",
     "lessons": 78,
     "diagrams": 190,
     "image_files": 570,
@@ -15,7 +15,9 @@
     "manifest_git_blob": "062d3a6b593e0824a3701d21b731b8f57f9737fb",
     "source": "defense-directives/diagrams/diagrams.source.json",
     "content_qa": "defense-directives/diagrams/content-qa.json",
-    "layout_qa": "defense-directives/diagrams/layout-qa.json"
+    "layout_qa": "defense-directives/diagrams/layout-qa.json",
+    "script_alignment_status": "in_progress",
+    "note": "기존 190장은 파일 제작 실적이며 제80회 스크립트 전체 대조 완료를 뜻하지 않는다."
   },
   "execution_policy": {
     "cadence": "PT1H",
@@ -33,20 +35,19 @@
     "claim_requires_expected_head": true,
     "expired_lease_requires_activity_check": true,
     "stop_when": "현재 실행의 가용 시간·토큰·도구 한도 또는 처리 가능한 큐가 소진되면 체크포인트를 저장한다.",
-    "when_queue_empty": "강의 원고·공식 근거·기존 도식의 변경 지문만 확인하고 변경이 없으면 재생성하지 않는다.",
+    "when_queue_empty": "제80회 기존 강의 스크립트·매핑·도식의 변경 지문만 확인하며, 현행 법령을 별도 원고로 재구성하지 않는다.",
     "new_diagram_quota": null
   },
   "deduplication": {
     "key_fields": [
       "lesson_id",
-      "source_version_or_sha256",
-      "article_scope",
+      "script_sha256",
+      "script_section",
       "learning_objective",
       "design_version"
     ],
     "input_fingerprint_fields": [
-      "lecture_content_sha256",
-      "official_source_sha256",
+      "lecture_script_sha256",
       "existing_diagrams_sha256",
       "design_version"
     ],
@@ -65,39 +66,36 @@
     ]
   },
   "state": {
-    "active_run": {
-      "id": "dr-20261127-112940",
-      "started_at": "2026-11-27T11:29:40+09:00",
-      "lease_expires_at": "2026-11-27T13:29:40+09:00",
-      "claimed_job_ids": [
-        "DR-060-coverage-review-v1",
-        "DR-013-coverage-review-v1",
-        "DR-024-coverage-review-v1",
-        "DR-062-coverage-review-v1",
-        "DR-009-coverage-review-v1",
-        "DR-067-coverage-review-v1",
-        "DR-045-coverage-review-v1",
-        "DR-047-coverage-review-v1",
-        "DR-078-coverage-review-v1"
-      ],
-      "mode": "single coordinator; concurrent connector reads"
-    },
+    "active_run": null,
     "last_successful_run": null,
     "coverage_reviews_total": 78,
-    "coverage_reviews_queued": 69,
+    "coverage_reviews_queued": 78,
     "coverage_reviews_completed": 0,
-    "confirmed_production_jobs": 0,
+    "confirmed_production_jobs": 2,
     "diagrams_added_after_baseline": 0,
-    "diagrams_revised_after_baseline": 0
+    "diagrams_revised_after_baseline": 3,
+    "script_bindings_verified": 78,
+    "last_correction": {
+      "updated_at": "2026-11-27T11:59:19+09:00",
+      "diagram_ids": [
+        "DR-036-D01",
+        "DR-041-D01",
+        "DR-060-D06"
+      ],
+      "basis": "existing_exam80_scripts",
+      "report": "defense-directives/diagrams/script-alignment-qa.json",
+      "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
+    },
+    "production_jobs_queued": 2
   },
   "jobs": [
     {
       "id": "DR-060-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-060",
       "title": "예비군 교육훈련 훈령 제16조, 기타훈련",
       "priority": 1,
-      "status": "running",
+      "status": "queued",
       "existing_diagram_count": 6,
       "existing_diagram_ids": [
         "DR-060-D01",
@@ -115,19 +113,24 @@
       ],
       "output_directory": "defense-directives/lesson-060/diagrams/",
       "input_fingerprint": null,
-      "claimed_by": "dr-20261127-112940",
-      "claimed_at": "2026-11-27T11:29:40+09:00",
-      "lease_expires_at": "2026-11-27T13:29:40+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-060",
+      "script_sha256": "0d4cb439e9011e57a4bea7e3ab322e3b39d26f319774fbe3efec8ddc9e0687a0",
+      "partial_corrections": [
+        "DR-060-D06"
+      ]
     },
     {
       "id": "DR-013-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-013",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제13조, 편성원칙",
       "priority": 2,
-      "status": "running",
+      "status": "queued",
       "existing_diagram_count": 6,
       "existing_diagram_ids": [
         "DR-013-D01",
@@ -145,19 +148,21 @@
       ],
       "output_directory": "defense-directives/lesson-013/diagrams/",
       "input_fingerprint": null,
-      "claimed_by": "dr-20261127-112940",
-      "claimed_at": "2026-11-27T11:29:40+09:00",
-      "lease_expires_at": "2026-11-27T13:29:40+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-013",
+      "script_sha256": "ba106c4c3743265a73b09d91a7b841213317b9771cd50ac9fa74ee85e02f109e"
     },
     {
       "id": "DR-024-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-024",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제24조, 전입 및 전출자 발생 시 조치절차",
       "priority": 3,
-      "status": "running",
+      "status": "queued",
       "existing_diagram_count": 6,
       "existing_diagram_ids": [
         "DR-024-D01",
@@ -175,19 +180,21 @@
       ],
       "output_directory": "defense-directives/lesson-024/diagrams/",
       "input_fingerprint": null,
-      "claimed_by": "dr-20261127-112940",
-      "claimed_at": "2026-11-27T11:29:40+09:00",
-      "lease_expires_at": "2026-11-27T13:29:40+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-024",
+      "script_sha256": "94e583fa555ab8e0191cbe33c4beb12d084cd7e5478c29bc52ee936743b872d6"
     },
     {
       "id": "DR-062-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-062",
       "title": "예비군 교육훈련 훈령 제18조, 훈련 후 행정처리",
       "priority": 4,
-      "status": "running",
+      "status": "queued",
       "existing_diagram_count": 6,
       "existing_diagram_ids": [
         "DR-062-D01",
@@ -205,19 +212,21 @@
       ],
       "output_directory": "defense-directives/lesson-062/diagrams/",
       "input_fingerprint": null,
-      "claimed_by": "dr-20261127-112940",
-      "claimed_at": "2026-11-27T11:29:40+09:00",
-      "lease_expires_at": "2026-11-27T13:29:40+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-062",
+      "script_sha256": "6c5810da8b3c2c54869b3cf128ef1216623f7a649103b23645b1e87bc90b19ab"
     },
     {
       "id": "DR-009-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-009",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제9조, 편성방법",
       "priority": 5,
-      "status": "running",
+      "status": "queued",
       "existing_diagram_count": 5,
       "existing_diagram_ids": [
         "DR-009-D01",
@@ -234,19 +243,21 @@
       ],
       "output_directory": "defense-directives/lesson-009/diagrams/",
       "input_fingerprint": null,
-      "claimed_by": "dr-20261127-112940",
-      "claimed_at": "2026-11-27T11:29:40+09:00",
-      "lease_expires_at": "2026-11-27T13:29:40+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-009",
+      "script_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9"
     },
     {
       "id": "DR-067-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-067",
       "title": "예비군 교육훈련 훈령 제23조, 예비군훈련 보류",
       "priority": 6,
-      "status": "running",
+      "status": "queued",
       "existing_diagram_count": 5,
       "existing_diagram_ids": [
         "DR-067-D01",
@@ -263,19 +274,21 @@
       ],
       "output_directory": "defense-directives/lesson-067/diagrams/",
       "input_fingerprint": null,
-      "claimed_by": "dr-20261127-112940",
-      "claimed_at": "2026-11-27T11:29:40+09:00",
-      "lease_expires_at": "2026-11-27T13:29:40+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-067",
+      "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf"
     },
     {
       "id": "DR-045-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-045",
       "title": "예비군 교육훈련 훈령 제32조, 과태료 부과 서식 해설",
       "priority": 7,
-      "status": "running",
+      "status": "queued",
       "existing_diagram_count": 1,
       "existing_diagram_ids": [
         "DR-045-D01"
@@ -288,19 +301,25 @@
       ],
       "output_directory": "defense-directives/lesson-045/diagrams/",
       "input_fingerprint": null,
-      "claimed_by": "dr-20261127-112940",
-      "claimed_at": "2026-11-27T11:29:40+09:00",
-      "lease_expires_at": "2026-11-27T13:29:40+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-045",
+      "script_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18",
+      "confirmed_production_job_ids": [
+        "DR-045-existing-script-voluntary-payment-and-objection",
+        "DR-045-existing-script-arrears-rates"
+      ]
     },
     {
       "id": "DR-047-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-047",
       "title": "예비군 교육훈련 훈령 제2조제17호·제18호, 상비예비군 제도",
       "priority": 8,
-      "status": "running",
+      "status": "queued",
       "existing_diagram_count": 2,
       "existing_diagram_ids": [
         "DR-047-D01",
@@ -314,19 +333,21 @@
       ],
       "output_directory": "defense-directives/lesson-047/diagrams/",
       "input_fingerprint": null,
-      "claimed_by": "dr-20261127-112940",
-      "claimed_at": "2026-11-27T11:29:40+09:00",
-      "lease_expires_at": "2026-11-27T13:29:40+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-047",
+      "script_sha256": "b518a0ae7f475744bd11d1111321fb00e62a0951366622cec33c4b1ee8b3aa5d"
     },
     {
       "id": "DR-078-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-078",
       "title": "예비군 교육훈련 훈령 제23조, 예비군훈련 보류의 해소와 관리",
       "priority": 9,
-      "status": "running",
+      "status": "queued",
       "existing_diagram_count": 4,
       "existing_diagram_ids": [
         "DR-078-D01",
@@ -342,15 +363,17 @@
       ],
       "output_directory": "defense-directives/lesson-078/diagrams/",
       "input_fingerprint": null,
-      "claimed_by": "dr-20261127-112940",
-      "claimed_at": "2026-11-27T11:29:40+09:00",
-      "lease_expires_at": "2026-11-27T13:29:40+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-078",
+      "script_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3"
     },
     {
       "id": "DR-002-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-002",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제2조, 정의",
       "priority": 10,
@@ -374,11 +397,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-002",
+      "script_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e"
     },
     {
       "id": "DR-005-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-005",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제5조, 예비군 조직·편성과 운영에 관한 업무분장",
       "priority": 11,
@@ -402,11 +427,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-005",
+      "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1"
     },
     {
       "id": "DR-011-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-011",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제11조, 예비군 주요 직위자 임명 및 면직",
       "priority": 12,
@@ -430,11 +457,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-011",
+      "script_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed"
     },
     {
       "id": "DR-030-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-030",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제30조, 동원체계",
       "priority": 13,
@@ -458,11 +487,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-030",
+      "script_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504"
     },
     {
       "id": "DR-035-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-035",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제46조, 무기 및 탄약",
       "priority": 14,
@@ -486,11 +517,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-035",
+      "script_sha256": "f34aa53a8ce916322a4d0a4c6a8b03f1f69ab6fe537bfc57c560e841de6c4b21"
     },
     {
       "id": "DR-054-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-054",
       "title": "예비군 교육훈련 훈령 제10조, 소집방법",
       "priority": 15,
@@ -514,11 +547,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-054",
+      "script_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f"
     },
     {
       "id": "DR-056-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-056",
       "title": "예비군 교육훈련 훈령 제12조, 공통과목",
       "priority": 16,
@@ -542,11 +577,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-056",
+      "script_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0"
     },
     {
       "id": "DR-057-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-057",
       "title": "예비군 교육훈련 훈령 제13조, 동원예비군훈련",
       "priority": 17,
@@ -570,11 +607,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-057",
+      "script_sha256": "1f0481d9cee437ba98d3d72508f5d33a7206185a6cea9cc82b2a6c1c7808f81c"
     },
     {
       "id": "DR-071-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-071",
       "title": "예비군 교육훈련 훈령 제27조, 훈련시설 및 예산",
       "priority": 18,
@@ -598,11 +637,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-071",
+      "script_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c"
     },
     {
       "id": "DR-074-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-074",
       "title": "예비군 교육훈련 훈령 제30조, 훈련기강 확립",
       "priority": 19,
@@ -626,11 +667,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-074",
+      "script_sha256": "7ca8a9968b3f023c5458c61820a88347b9b20bb746aec36a9bdfe252028d9e3d"
     },
     {
       "id": "DR-012-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-012",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제12조, 지역예비군부대계획",
       "priority": 20,
@@ -653,11 +696,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-012",
+      "script_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041"
     },
     {
       "id": "DR-014-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-014",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제14조, 편성방법",
       "priority": 21,
@@ -680,11 +725,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-014",
+      "script_sha256": "08368482fce9b32c5649b356fc4aaa7cc4e690e99169958dff79b02aafc97130"
     },
     {
       "id": "DR-015-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-015",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제15조, 편성 및 해체절차",
       "priority": 22,
@@ -707,11 +754,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-015",
+      "script_sha256": "e588ffa01bba7dd52550f285830c868b81a9faa6a29d0791d97d915bb0cd0d9d"
     },
     {
       "id": "DR-017-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-017",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제17조, 지원방법 및 처리절차",
       "priority": 23,
@@ -734,11 +783,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-017",
+      "script_sha256": "e059bd4a61b24ae7288a84a67a393fa4187cad433594adf1b5285d0697d9226c"
     },
     {
       "id": "DR-018-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-018",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제18조, 여성예비군 편성",
       "priority": 24,
@@ -761,11 +812,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-018",
+      "script_sha256": "aef46cdbba0ce737e55bff52cc507e2baed173d0f585c9528a44879090e1c022"
     },
     {
       "id": "DR-019-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-019",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제19조, 특전예비군 편성",
       "priority": 25,
@@ -788,11 +841,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-019",
+      "script_sha256": "2e4e1a2954909f14b34528887b7978d291991ce184e551bd371a97ef64e6608b"
     },
     {
       "id": "DR-026-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-026",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제26조, 예비역 간부 진급",
       "priority": 26,
@@ -815,11 +870,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-026",
+      "script_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854"
     },
     {
       "id": "DR-032-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-032",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제43조, 예비군 감사",
       "priority": 27,
@@ -842,11 +899,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-032",
+      "script_sha256": "2859de9ae6aad672b3b66e81d770b1b203a3b0610e60069ddf6b7f86b8b5da22"
     },
     {
       "id": "DR-033-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-033",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제44조, 예비군법 위반자 처리",
       "priority": 28,
@@ -869,11 +928,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-033",
+      "script_sha256": "70c9b5a008b701e2f526395aa198aa483e30be4df39fd6d3a55be9dfdf2cb522"
     },
     {
       "id": "DR-038-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-038",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제49조, 개인피복 및 개인장구류",
       "priority": 29,
@@ -896,11 +957,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-038",
+      "script_sha256": "ba7e9636f8c7eed1251bac1a8c2cab95dd00d0d662a1de9ac4088a113b602540"
     },
     {
       "id": "DR-044-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-044",
       "title": "예비군 교육훈련 훈령 제2조, 정의",
       "priority": 30,
@@ -923,11 +986,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-044",
+      "script_sha256": "0206905eb062e524f80223e7a012eef9608ecf3d66b9d9d97cb9f52582b9a935"
     },
     {
       "id": "DR-055-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-055",
       "title": "예비군 교육훈련 훈령 제11조, 훈련방법",
       "priority": 31,
@@ -950,11 +1015,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-055",
+      "script_sha256": "4003dd22ad3f58e08c5f77da50ab1f13e8c0fc5f9c6ad3e50abe941f2e3a4fa5"
     },
     {
       "id": "DR-066-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-066",
       "title": "예비군 교육훈련 훈령 제22조, 훈련일정조정 등의 승인권한",
       "priority": 32,
@@ -977,11 +1044,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-066",
+      "script_sha256": "fea4026adfc7f265f5f21826bb81c0c548a563d5d4293731ab4018031e627d7c"
     },
     {
       "id": "DR-068-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-068",
       "title": "예비군 교육훈련 훈령 제24조, 예비군훈련 연기",
       "priority": 33,
@@ -1004,11 +1073,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-068",
+      "script_sha256": "809552e2e5aba26f46eefb75d70135eaa72585edcd7c05d737abb532812462cd"
     },
     {
       "id": "DR-075-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-075",
       "title": "예비군 교육훈련 훈령 제31조, 기타",
       "priority": 34,
@@ -1031,11 +1102,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-075",
+      "script_sha256": "cc78d9579f52efb7d62592a876d5d581628f6b00f51138dce2013c1d7fcac5be"
     },
     {
       "id": "DR-004-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-004",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제4조, 예비군 지휘관리체계",
       "priority": 35,
@@ -1057,11 +1130,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-004",
+      "script_sha256": "848884ffc959d1b46f917d405e12748277daa0d68a58e90b24e2691915db4b67"
     },
     {
       "id": "DR-006-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-006",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제6조, 예비군 조직",
       "priority": 36,
@@ -1083,11 +1158,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-006",
+      "script_sha256": "fd704490da5c8ee5f823f825c10ba20373d091920634fb20c926ff13beea00e9"
     },
     {
       "id": "DR-007-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-007",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제7조, 예비군부대 편성체계",
       "priority": 37,
@@ -1109,11 +1186,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-007",
+      "script_sha256": "dbb02e5717f30d307485ab267401a2765359b180de11543131483c177ec1fe83"
     },
     {
       "id": "DR-008-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-008",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제8조, 편성원칙",
       "priority": 38,
@@ -1135,11 +1214,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-008",
+      "script_sha256": "aa591adef22ac48193eabf6e609486b6e70d614f673e2e8d0294897de9775257"
     },
     {
       "id": "DR-021-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-021",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제21조, 추가 편성 절차",
       "priority": 39,
@@ -1161,11 +1242,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-021",
+      "script_sha256": "6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04"
     },
     {
       "id": "DR-022-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-022",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제22조, 예비군 신규조직 절차",
       "priority": 40,
@@ -1187,11 +1270,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-022",
+      "script_sha256": "6c0b0550aea83d3178b4ff610e69801c4d715dcc256a2c0fa49306fe51b5aa6b"
     },
     {
       "id": "DR-028-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-028",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제28조, 무장",
       "priority": 41,
@@ -1213,11 +1298,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-028",
+      "script_sha256": "1a3fc59c0807d0d07988096cf31960ea4080d226ce663915d077540bf17da301"
     },
     {
       "id": "DR-029-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-029",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제29조, 지휘통신",
       "priority": 42,
@@ -1239,11 +1326,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-029",
+      "script_sha256": "b82e86926c45c0d6f6bf0cf0149863fed8351d1cf35db82c8a2dd843138e65c0"
     },
     {
       "id": "DR-031-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-031",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제31조, 운용방법",
       "priority": 43,
@@ -1265,11 +1354,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-031",
+      "script_sha256": "b22c5b364f05fa5370b5b151a121d5d57babbf26f8707e6c1a608bb388075bb1"
     },
     {
       "id": "DR-039-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-039",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제50조, 시설",
       "priority": 44,
@@ -1291,11 +1382,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-039",
+      "script_sha256": "019aa03dbaf12151e0b82e080e23c0b9fb7982084c0d157ed4d51d712aa42dc1"
     },
     {
       "id": "DR-049-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-049",
       "title": "예비군 교육훈련 훈령 제5조, 예비군훈련의 중점",
       "priority": 45,
@@ -1317,11 +1410,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-049",
+      "script_sha256": "c57ee709b3299e4fcddceefcddd18cbcb3c3b3e38340dfe170f43f4cc5f963a6"
     },
     {
       "id": "DR-051-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-051",
       "title": "예비군 교육훈련 훈령 제7조, 각 관의 임무",
       "priority": 46,
@@ -1343,11 +1438,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-051",
+      "script_sha256": "298227f52d8160bc2c9b2de08f2f8c00270bfa7f06df3f27982b61ef717ee234"
     },
     {
       "id": "DR-052-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-052",
       "title": "예비군 교육훈련 훈령 제8조, 훈련대상 및 시간",
       "priority": 47,
@@ -1369,11 +1466,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-052",
+      "script_sha256": "09fa7f04a92f047298b141b2659a4bf4ebfb5260a8e6f9fffcb3606ec610763e"
     },
     {
       "id": "DR-058-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-058",
       "title": "예비군 교육훈련 훈령 제14조, 지역예비군훈련",
       "priority": 48,
@@ -1395,11 +1494,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-058",
+      "script_sha256": "182a21b7ac545d1ae91da0c880653391950036b8677ec8d6793278a7bf6a21c9"
     },
     {
       "id": "DR-059-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-059",
       "title": "예비군 교육훈련 훈령 제15조, 간부교육",
       "priority": 49,
@@ -1421,11 +1522,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-059",
+      "script_sha256": "c9cb3dcfabb360af5861983aeccbd4bb7a611f23babc26a52daec2c07e3d90a9"
     },
     {
       "id": "DR-061-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-061",
       "title": "예비군 교육훈련 훈령 제17조, 훈련관리",
       "priority": 50,
@@ -1447,11 +1550,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-061",
+      "script_sha256": "b9f11187f63ebc620de1b7db05a6d27f0029825a24039b5ed5c79f0e4ab0705b"
     },
     {
       "id": "DR-064-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-064",
       "title": "예비군 교육훈련 훈령 제20조, 전국단위훈련",
       "priority": 51,
@@ -1473,11 +1578,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-064",
+      "script_sha256": "606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0"
     },
     {
       "id": "DR-065-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-065",
       "title": "예비군 교육훈련 훈령 제21조, 휴일예비군훈련",
       "priority": 52,
@@ -1499,11 +1606,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-065",
+      "script_sha256": "5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d"
     },
     {
       "id": "DR-072-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-072",
       "title": "예비군 교육훈련 훈령 제28조, 급식지원 기준",
       "priority": 53,
@@ -1525,11 +1634,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-072",
+      "script_sha256": "63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd"
     },
     {
       "id": "DR-073-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-073",
       "title": "예비군 교육훈련 훈령 제29조, 보상·치료 및 안전 활동",
       "priority": 54,
@@ -1551,11 +1662,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-073",
+      "script_sha256": "2bc24bc7b68b8a99a27a9b91bcbdb50b62a61ea9b437c34dbd93be785caf62fa"
     },
     {
       "id": "DR-001-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-001",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제1조, 목적",
       "priority": 55,
@@ -1576,11 +1689,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-001",
+      "script_sha256": "96795bf7bad790e12f95997397d7957406dd3a882160354f5f7f6ae22da08e7a"
     },
     {
       "id": "DR-003-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-003",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제3조, 적용범위",
       "priority": 56,
@@ -1601,11 +1716,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-003",
+      "script_sha256": "41740dff7a78b08750ca8fabd1c5ac10b315d25fea3e71d6c7fe142364ddfc94"
     },
     {
       "id": "DR-010-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-010",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제10조, 편성 및 해체절차",
       "priority": 57,
@@ -1626,11 +1743,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-010",
+      "script_sha256": "9afc37bd26bff5e272e807107b563b92624d2ae86a1393f89ac7d1abae5aa9ba"
     },
     {
       "id": "DR-016-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-016",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제16조, 지원 대상",
       "priority": 58,
@@ -1651,11 +1770,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-016",
+      "script_sha256": "b09a6d3b2d79f5e2dd04f614350efff690e9b1b896bfede8c25cc41e4ab41a90"
     },
     {
       "id": "DR-020-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-020",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제20조, 추가 편성 대상",
       "priority": 59,
@@ -1676,11 +1797,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-020",
+      "script_sha256": "736c59283683e9bb7a27a1854d0d1bb02ca7c196313a5a34da4d2328332be685"
     },
     {
       "id": "DR-023-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-023",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제23조, 예비군 신상변동자 관리절차",
       "priority": 60,
@@ -1701,11 +1824,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-023",
+      "script_sha256": "524bea8523aba95d4cadafb77d12dc35b335db9d6a05348ccd11c81d39d6213e"
     },
     {
       "id": "DR-025-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-025",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제25조, 재복무자의 예비군 복무연차 적용",
       "priority": 61,
@@ -1726,11 +1851,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-025",
+      "script_sha256": "aca030ec7a0c048f00b1872f50a63f3fde0ea196ebc1c40495cb27ca8bb779d2"
     },
     {
       "id": "DR-027-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-027",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제27조, 예비군 보류자 관리",
       "priority": 62,
@@ -1751,11 +1878,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-027",
+      "script_sha256": "dd91e85192e1a9006e107f98a7a5bc020e21923c72cbd8953b101668e03359b7"
     },
     {
       "id": "DR-034-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-034",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제45조, 보급지원계통",
       "priority": 63,
@@ -1776,11 +1905,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-034",
+      "script_sha256": "5032ecec378e02418034707f52eda198e849611dcd80ce67145e9128b264b402"
     },
     {
       "id": "DR-036-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-036",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제47조, 통신장비",
       "priority": 64,
@@ -1801,11 +1932,16 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-036",
+      "script_sha256": "29cc2b99f7cf762516fcbc14d2f5f8a2b3d826042866b13031d1892cda8664d4",
+      "partial_corrections": [
+        "DR-036-D01"
+      ]
     },
     {
       "id": "DR-037-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-037",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제48조, 기동장비",
       "priority": 65,
@@ -1826,11 +1962,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-037",
+      "script_sha256": "6f66c8f02ea2ab75ffad24895ae6a90dbc57335ae99662701890b3105cb35085"
     },
     {
       "id": "DR-040-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-040",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제51조, 관리전환",
       "priority": 66,
@@ -1851,11 +1989,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-040",
+      "script_sha256": "2c7db26b7b8269769406b64cb3547fb27465c295fb9372661fa004a3490bb126"
     },
     {
       "id": "DR-041-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-041",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제52조, 감시장비 등",
       "priority": 67,
@@ -1876,11 +2016,16 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-041",
+      "script_sha256": "7ef501d6ef126e02e0d3b0d5c9d56eb0d2f5b00f3b142e4f5afc304ff2bbd921",
+      "partial_corrections": [
+        "DR-041-D01"
+      ]
     },
     {
       "id": "DR-042-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-042",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제61조, 재검토 기한",
       "priority": 68,
@@ -1901,11 +2046,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-042",
+      "script_sha256": "e1f7e31169ba76dda3896dfdd9fffb3938b0d53f7fc44ef4eb490cc1c433da37"
     },
     {
       "id": "DR-043-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-043",
       "title": "예비군 교육훈련 훈령 제1조, 목적",
       "priority": 69,
@@ -1926,11 +2073,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-043",
+      "script_sha256": "7685f0f129f848bc69435c44b3b184880f330268ba41ad2d89c2c20a41ee7634"
     },
     {
       "id": "DR-046-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-046",
       "title": "예비군 교육훈련 훈령 제3조, 적용범위",
       "priority": 70,
@@ -1951,11 +2100,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-046",
+      "script_sha256": "b087e198d987c99b17c2271ef0414e9c363c290e7ecba5884bbee1dccaaf9dfc"
     },
     {
       "id": "DR-048-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-048",
       "title": "예비군 교육훈련 훈령 제4조, 예비군훈련의 목적",
       "priority": 71,
@@ -1976,11 +2127,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-048",
+      "script_sha256": "3085d98acda16f6854b3c41d740e7b609dde1fbd003a087d26508c250e9a7710"
     },
     {
       "id": "DR-050-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-050",
       "title": "예비군 교육훈련 훈령 제6조, 예비군훈련 체계",
       "priority": 72,
@@ -2001,11 +2154,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-050",
+      "script_sha256": "130fa82f7801502315da031812b228f966090d1463ce8b104ce5c27f0705e9b7"
     },
     {
       "id": "DR-053-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-053",
       "title": "예비군 교육훈련 훈령 제9조, 훈련시기",
       "priority": 73,
@@ -2026,11 +2181,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-053",
+      "script_sha256": "853c5c6818f502dba8b6e9ae2d2540956983fb4ab43fc56600816268be1e787c"
     },
     {
       "id": "DR-063-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-063",
       "title": "예비군 교육훈련 훈령 제19조, 훈련일정 자율선택",
       "priority": 74,
@@ -2051,11 +2208,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-063",
+      "script_sha256": "ef7ff0ba84a06441ecb71f6cc2b43513ac71f554af7d7ae55be9191278a0c161"
     },
     {
       "id": "DR-069-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-069",
       "title": "예비군 교육훈련 훈령 제25조, 활용 및 관리",
       "priority": 75,
@@ -2076,11 +2235,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-069",
+      "script_sha256": "1f7622ea2f8ebd489837d55cfb4f4d93284d564883d1487bc5022218494e77ea"
     },
     {
       "id": "DR-070-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-070",
       "title": "예비군 교육훈련 훈령 제26조, 교육훈련 교보재 및 탄약",
       "priority": 76,
@@ -2101,11 +2262,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-070",
+      "script_sha256": "8edf53a30a6f3b29468f5cadeaed29034c82833ea403f8345543c44e633b5c5e"
     },
     {
       "id": "DR-076-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-076",
       "title": "예비군 교육훈련 훈령 제32조, 과태료",
       "priority": 77,
@@ -2126,11 +2289,13 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-076",
+      "script_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239"
     },
     {
       "id": "DR-077-coverage-review-v1",
-      "type": "coverage_expansion_review",
+      "type": "exam80_script_alignment_and_coverage_review",
       "lesson_id": "DR-077",
       "title": "예비군 교육훈련 훈령 제33조, 재검토기한",
       "priority": 78,
@@ -2151,9 +2316,117 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null
+      "result": null,
+      "script_ref": "DR-077",
+      "script_sha256": "b693df7990df84f875d76f5701d7a72d7c757437e32808fe309f3ced4de68907"
     }
   ],
-  "production_jobs": [],
-  "runs": []
+  "production_jobs": [
+    {
+      "id": "DR-045-existing-script-voluntary-payment-and-objection",
+      "lesson_id": "DR-045",
+      "type": "script_coverage_gap",
+      "priority": "high",
+      "learning_objective": "과태료 사전통지의 자진납부 감경 조건과 부과통지 후 불복 기간을 구분한다.",
+      "existing_coverage": "DR-045-D01은 별지5/6호, 10일 이상 의견제출, 수임군부대장과 수입징수관을 설명한다. 감경20% 및 불복60일은 포함하지 않는다.",
+      "required_conditions": [
+        "감경 적용기간은 의견제출 기한 내이다.",
+        "과태료를 자진납부하는 경우 100분의20 범위 내에서 감경받을 수 있다. 무조건20% 또는20%초과로 쓰지 않는다.",
+        "감경된 과태료를 자진납부하면 절차가 종료되어 의견제출과 이의제기를 할 수 없다는 원고 조건을 함께 표시한다.",
+        "불복 이의제기의 기산점은 과태료 부과통지를 받은 날이다.",
+        "이의제기는 그날부터60일 이내이며, 이의를 제기하면 법원에서 과태료 재판을 받는다.",
+        "감경액 자진납부 후에도 별도로60일 불복할 수 있는 것처럼 두 절차를 연결하지 않는다."
+      ],
+      "source_scope": "기존 스크립트의 사전통지서 및 부과결정서 안내 문단",
+      "suggested_output": "기존 원고의 두 절차를 비교하는 추가 도식1장. 확정 ID는 현재 폴더의 실제 다음 번호를 확인해 부여한다.",
+      "new_script_required": false,
+      "status": "queued",
+      "script_ref": "DR-045",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "outputs": [],
+      "design_version": "editorial-v1",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-2의2.txt",
+          "source_git_blob": "2c13f6ab444effe0f7d91f0d87a7768fbb5a9acb",
+          "source_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18",
+          "line_numbers": [
+            29
+          ]
+        },
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-2의2.txt",
+          "source_git_blob": "2c13f6ab444effe0f7d91f0d87a7768fbb5a9acb",
+          "source_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18",
+          "line_numbers": [
+            39,
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DR-045-existing-script-arrears-rates",
+      "lesson_id": "DR-045",
+      "type": "script_coverage_gap",
+      "priority": "high",
+      "learning_objective": "납부기한을 넘긴 과태료의 가산금과 매월 중가산금의 비율·주기를 구분한다.",
+      "existing_coverage": "DR-045-D01에는 체납 가산금3%와 매월 중가산금1.2% 설명이 없다.",
+      "required_conditions": [
+        "납부기한까지 과태료를 납부하지 않은 경우라는 발생 조건을 표시한다.",
+        "가산금은 체납된 과태료의100분의3(3%)이다.",
+        "중가산금은 매1개월마다1천분의12(1.2%)이다.",
+        "첫 가산금3%와 매월 중가산금1.2%를 구분하고, 12% 또는3%매월로 바꾸지 않는다.",
+        "스크립트에 없는 복리·합산예시·체납기간 상한을 새로 만들지 않는다."
+      ],
+      "source_scope": "기존 스크립트의 부과결정서 아래 미납 안내",
+      "suggested_output": "기존 원고의 가산금/중가산금 비교 도식1장. 확정 ID는 현재 폴더의 실제 다음 번호를 확인해 부여한다.",
+      "new_script_required": false,
+      "status": "queued",
+      "script_ref": "DR-045",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "outputs": [],
+      "design_version": "editorial-v1",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-2의2.txt",
+          "source_git_blob": "2c13f6ab444effe0f7d91f0d87a7768fbb5a9acb",
+          "source_sha256": "eaf28c01c9caaa98218f961edba76436d6ff556cb360b37b868698eef8965a18",
+          "line_numbers": [
+            45,
+            47,
+            62
+          ]
+        }
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "id": "dr-20261127-112940",
+      "status": "ended_without_completion_checkpoint",
+      "recorded_automation_completion": "2026-11-27T11:31:24+09:00",
+      "reconciled_at": "2026-11-27T11:59:19+09:00",
+      "action": "공식 자동화 조회에서 실행 종료를 확인했으며, 새 제80회 스크립트 기준으로 미완료 선점 9건을 다시 큐에 넣음."
+    }
+  ],
+  "exam": {
+    "number": 80,
+    "period": "27년 전반기",
+    "cutoff_date": "2027-02-02",
+    "cutoff_kind": "existing_user_specified_exam80_basis"
+  },
+  "content_basis": {
+    "type": "existing_merged_lecture_script",
+    "index": "defense-directives/diagrams/script-basis.json",
+    "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+    "precedence": "existing_exam80_script_first",
+    "full_lecture_alignment_status": "in_progress"
+  }
 }
