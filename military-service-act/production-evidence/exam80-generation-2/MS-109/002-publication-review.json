@@ -1,0 +1,64 @@
+{
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "lecture_id": "MS-109",
+  "script_path": "docs/merged-lectures/병역법/본법_70.txt",
+  "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+  "script_sha256": "cef65091efcc97d0698da1fd1213af04b41917c7805d640048e9e955dd3e3ac9",
+  "source_fulltext_identity_checked": true,
+  "review_date_kst": "2026-11-27",
+  "publication_scope": "script-derived supplements only; full lecture scope remains pending",
+  "items": [
+    {
+      "id": "MS-109-D04-editorial-v1",
+      "title": "국외여행허가 신청 경로",
+      "source_line_spans": [
+        [
+          141,
+          151
+        ]
+      ],
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D04-editorial-v1.svg",
+          "bytes": 5547,
+          "sha256": "2607a9b4e9576f1a25dfcb2a6a5a949e8f5de8c6d4e42ee11e76f04bd83371b3"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D04-editorial-v1.webp",
+          "bytes": 55882,
+          "sha256": "3c1c55117a96eb72173052d433ee50412a9819b98566bd5bdcca041cdf7cfb42"
+        }
+      },
+      "visual_review": "actual published draft WebP visually inspected; no clipping or overlapping observed",
+      "webp_sha256_verified_against_receipt": true,
+      "svg_sha256_verified_against_receipt": true
+    },
+    {
+      "id": "MS-109-D05-editorial-v1",
+      "title": "여행목적과 체재목적",
+      "source_line_spans": [
+        [
+          153,
+          171
+        ]
+      ],
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D05-editorial-v1.svg",
+          "bytes": 5301,
+          "sha256": "f060c44012b0b4ccc95f5945d36925fecec468a3dc9f7bc77b8b9d47d696ec3a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D05-editorial-v1.webp",
+          "bytes": 49822,
+          "sha256": "c48d682119b6a150eaf76b467d800dbbc22bca25171f713dfa6808e5b97e3caf"
+        }
+      },
+      "visual_review": "actual published draft WebP visually inspected; no clipping or overlapping observed",
+      "webp_sha256_verified_against_receipt": true,
+      "svg_sha256_verified_against_receipt": true
+    }
+  ]
+}

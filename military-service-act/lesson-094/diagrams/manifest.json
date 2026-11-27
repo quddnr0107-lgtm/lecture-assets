@@ -3,7 +3,7 @@
   "subject": "military-service-act",
   "lecture_id": "MS-094",
   "lecture_title": "병역법 제58조, 의무·법무·군종·수의장교 등의 병적 편입",
-  "diagram_count": 2,
+  "diagram_count": 4,
   "canvas": [
     1600,
     1120
@@ -208,6 +208,234 @@
           ]
         ]
       }
+    },
+    {
+      "id": "MS-094-D03-editorial-v1",
+      "lecture_id": "MS-094",
+      "lesson_number": 94,
+      "diagram_number": 3,
+      "title": "군종장교운영심사위원회",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 268,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D03-editorial-v1.svg",
+          "bytes": 5224,
+          "sha256": "b7145105d3244a7f2bbc98851cc016a513a13bb4028ee94d9db7f6d1629f5ff5"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D03-editorial-v1.webp",
+          "bytes": 44682,
+          "sha256": "7e8f906db6fb1faab24106e5268df2fb1d1b19b986673b0feffceb1e6074e310"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "군종장교운영심사위원회",
+        "subtitle": "소속·구성·정족수의 구분",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "구성",
+            "items": [
+              {
+                "label": "국방부에 설치",
+                "text": "각 군 본부가 아님",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "위원장 포함 8~11명",
+                "text": "위원장: 국방부 인사복지실장",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "특정 종교 신자",
+                "text": "전체 위원의 3분의 1 미만",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "운영",
+            "items": [
+              {
+                "label": "개의",
+                "text": "재적위원 3분의 2 이상 출석",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "의결",
+                "text": "출석위원 과반수 찬성",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "심의·의결 사항",
+                "text": "대상 종교 선정·취소 군종장교 선발·제도 운영 종교 선정·취소 시 관계자 의견 청취",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "신자 비율 1/3 미만  ≠  개의 2/3 이상",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            250,
+            276
+          ],
+          [
+            299,
+            299
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제58조, 의무·법무·군종·수의장교 등의 병적 편입",
+      "main_article": "병역법 제58조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-094",
+        "path": "docs/merged-lectures/병역법/본법_58.txt",
+        "git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-094/002-publication-review.json",
+        "source_line_spans": [
+          [
+            250,
+            276
+          ],
+          [
+            299,
+            299
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-094-D04-editorial-v1",
+      "lecture_id": "MS-094",
+      "lesson_number": 94,
+      "diagram_number": 4,
+      "title": "특수병과 사관후보생의 나이",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 269,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D04-editorial-v1.svg",
+          "bytes": 5309,
+          "sha256": "b0183c4a046654204e995b302582248ad9ecfbb3648ad42f09ec0f0220e76e0e"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D04-editorial-v1.webp",
+          "bytes": 49338,
+          "sha256": "01294c20cee7c219090dfdf79679f645d93c8fe88436270572518a1413ce77a1"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "특수병과 사관후보생의 나이",
+        "subtitle": "후보생 제한연령과 장교 편입 연령",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "후보생 제한연령",
+            "items": [
+              {
+                "label": "의무 분야",
+                "text": "33세까지 수련과정 이수 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "법무 분야",
+                "text": "30세까지 연수원 과정 이수 또는 판사·검사·변호사 자격 취득 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "군종·수의 분야",
+                "text": "28세까지 대학 과정 이수 가능",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "후보생 관리",
+            "items": [
+              {
+                "label": "군전공의 수련기관",
+                "text": "국방부장관이 지정",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "의무·법무·수의 선발인원",
+                "text": "장관들의 통보를 받아 병무청장이 결정",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "특수병과 현역장교 편입",
+                "text": "35세까지 편입 가능",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "33 · 30 · 28 / 35세는 별도의 편입 연령",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            101,
+            122
+          ],
+          [
+            134,
+            146
+          ],
+          [
+            150,
+            156
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제58조, 의무·법무·군종·수의장교 등의 병적 편입",
+      "main_article": "병역법 제58조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-094",
+        "path": "docs/merged-lectures/병역법/본법_58.txt",
+        "git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-094/002-publication-review.json",
+        "source_line_spans": [
+          [
+            101,
+            122
+          ],
+          [
+            134,
+            146
+          ],
+          [
+            150,
+            156
+          ]
+        ]
+      }
     }
   ],
   "content_authority": "existing_exam80_lecture_script",
@@ -218,6 +446,8 @@
   "script_alignment": {
     "verified_existing_pages": 2,
     "pending_existing_pages": 0,
-    "complete_script_coverage": "pending"
+    "complete_script_coverage": "pending",
+    "published_supplement_pages": 2,
+    "full_lecture_complete": false
   }
 }

@@ -16957,6 +16957,234 @@
       }
     },
     {
+      "id": "MS-094-D03-editorial-v1",
+      "lecture_id": "MS-094",
+      "lesson_number": 94,
+      "diagram_number": 3,
+      "title": "군종장교운영심사위원회",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 268,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D03-editorial-v1.svg",
+          "bytes": 5224,
+          "sha256": "b7145105d3244a7f2bbc98851cc016a513a13bb4028ee94d9db7f6d1629f5ff5"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D03-editorial-v1.webp",
+          "bytes": 44682,
+          "sha256": "7e8f906db6fb1faab24106e5268df2fb1d1b19b986673b0feffceb1e6074e310"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "군종장교운영심사위원회",
+        "subtitle": "소속·구성·정족수의 구분",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "구성",
+            "items": [
+              {
+                "label": "국방부에 설치",
+                "text": "각 군 본부가 아님",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "위원장 포함 8~11명",
+                "text": "위원장: 국방부 인사복지실장",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "특정 종교 신자",
+                "text": "전체 위원의 3분의 1 미만",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "운영",
+            "items": [
+              {
+                "label": "개의",
+                "text": "재적위원 3분의 2 이상 출석",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "의결",
+                "text": "출석위원 과반수 찬성",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "심의·의결 사항",
+                "text": "대상 종교 선정·취소 군종장교 선발·제도 운영 종교 선정·취소 시 관계자 의견 청취",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "신자 비율 1/3 미만  ≠  개의 2/3 이상",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            250,
+            276
+          ],
+          [
+            299,
+            299
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제58조, 의무·법무·군종·수의장교 등의 병적 편입",
+      "main_article": "병역법 제58조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-094",
+        "path": "docs/merged-lectures/병역법/본법_58.txt",
+        "git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-094/002-publication-review.json",
+        "source_line_spans": [
+          [
+            250,
+            276
+          ],
+          [
+            299,
+            299
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-094-D04-editorial-v1",
+      "lecture_id": "MS-094",
+      "lesson_number": 94,
+      "diagram_number": 4,
+      "title": "특수병과 사관후보생의 나이",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 269,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D04-editorial-v1.svg",
+          "bytes": 5309,
+          "sha256": "b0183c4a046654204e995b302582248ad9ecfbb3648ad42f09ec0f0220e76e0e"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D04-editorial-v1.webp",
+          "bytes": 49338,
+          "sha256": "01294c20cee7c219090dfdf79679f645d93c8fe88436270572518a1413ce77a1"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "특수병과 사관후보생의 나이",
+        "subtitle": "후보생 제한연령과 장교 편입 연령",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "후보생 제한연령",
+            "items": [
+              {
+                "label": "의무 분야",
+                "text": "33세까지 수련과정 이수 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "법무 분야",
+                "text": "30세까지 연수원 과정 이수 또는 판사·검사·변호사 자격 취득 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "군종·수의 분야",
+                "text": "28세까지 대학 과정 이수 가능",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "후보생 관리",
+            "items": [
+              {
+                "label": "군전공의 수련기관",
+                "text": "국방부장관이 지정",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "의무·법무·수의 선발인원",
+                "text": "장관들의 통보를 받아 병무청장이 결정",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "특수병과 현역장교 편입",
+                "text": "35세까지 편입 가능",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "33 · 30 · 28 / 35세는 별도의 편입 연령",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            101,
+            122
+          ],
+          [
+            134,
+            146
+          ],
+          [
+            150,
+            156
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제58조, 의무·법무·군종·수의장교 등의 병적 편입",
+      "main_article": "병역법 제58조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-094",
+        "path": "docs/merged-lectures/병역법/본법_58.txt",
+        "git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-094/002-publication-review.json",
+        "source_line_spans": [
+          [
+            101,
+            122
+          ],
+          [
+            134,
+            146
+          ],
+          [
+            150,
+            156
+          ]
+        ]
+      }
+    },
+    {
       "id": "MS-095-D01-editorial-v1",
       "lecture_id": "MS-095",
       "lesson_number": 95,
@@ -18751,6 +18979,200 @@
           [
             215,
             233
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-109-D04-editorial-v1",
+      "lecture_id": "MS-109",
+      "lesson_number": 109,
+      "diagram_number": 4,
+      "title": "국외여행허가 신청 경로",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 270,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D04-editorial-v1.svg",
+          "bytes": 5547,
+          "sha256": "2607a9b4e9576f1a25dfcb2a6a5a949e8f5de8c6d4e42ee11e76f04bd83371b3"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D04-editorial-v1.webp",
+          "bytes": 55882,
+          "sha256": "3c1c55117a96eb72173052d433ee50412a9819b98566bd5bdcca041cdf7cfb42"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-109",
+        "title": "국외여행허가 신청 경로",
+        "subtitle": "출국 전과 25세 전 출국자",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "출국 예정자",
+            "items": [
+              {
+                "label": "출국 예정일 2일 전까지",
+                "text": "병무청장에게 신청서 제출 전자문서 포함",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "출국 전 허가기간 변경",
+                "text": "지방병무청장에게 국외여행기간 연장허가 신청",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "25세 전에 출국한 사람",
+            "items": [
+              {
+                "label": "25세가 되는 해 1월 15일까지",
+                "text": "재외공관의 장을 거쳐 병무청장에게 신청서 제출",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "직접 신청 가능",
+                "text": "국외이주·국외취업 외 사유는 재외공관을 거치지 않을 수 있음",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "허가받은 것으로 보는 경우",
+                "text": "병역준비역 편입 전 해외이주신고 후 잠시 귀국했다가 재출국",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "처음 신청 2일 전  /  25세 전 출국자는 1월 15일",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            141,
+            151
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제70조, 국외여행의 허가 및 취소",
+      "main_article": "병역법 제70조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-109",
+        "path": "docs/merged-lectures/병역법/본법_70.txt",
+        "git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-109/002-publication-review.json",
+        "source_line_spans": [
+          [
+            141,
+            151
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-109-D05-editorial-v1",
+      "lecture_id": "MS-109",
+      "lesson_number": 109,
+      "diagram_number": 5,
+      "title": "여행목적과 체재목적",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 271,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D05-editorial-v1.svg",
+          "bytes": 5301,
+          "sha256": "f060c44012b0b4ccc95f5945d36925fecec468a3dc9f7bc77b8b9d47d696ec3a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D05-editorial-v1.webp",
+          "bytes": 49822,
+          "sha256": "c48d682119b6a150eaf76b467d800dbbc22bca25171f713dfa6808e5b97e3caf"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-109",
+        "title": "여행목적과 체재목적",
+        "subtitle": "최초 허가와 국외 체류 중 연장",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "처음 허가",
+            "items": [
+              {
+                "label": "시행령 제146조제2항",
+                "text": "병역사항·여행목적·여행기간 고려",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "허가기준 및 기간",
+                "text": "병역의무 부과에 지장이 없는 범위에서 병무청장이 정함",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "출국 후 연장",
+            "items": [
+              {
+                "label": "시행령 제147조제1항",
+                "text": "체재목적 증명 서류와 기간연장허가 신청서 제출",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "신청 경로",
+                "text": "재외공관의 장을 거쳐 병무청장에게 제출",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "연장허가 범위",
+                "text": "국외체재 목적을 보고 병역의무부과에 지장이 없는 범위",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "나가기 전: 여행목적  /  머무는 중: 체재목적",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            153,
+            171
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제70조, 국외여행의 허가 및 취소",
+      "main_article": "병역법 제70조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-109",
+        "path": "docs/merged-lectures/병역법/본법_70.txt",
+        "git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-109/002-publication-review.json",
+        "source_line_spans": [
+          [
+            153,
+            171
           ]
         ]
       }
@@ -26830,13 +27252,13 @@
     }
   ],
   "lesson_count": 166,
-  "diagram_count": 292,
+  "diagram_count": 296,
   "created_date_kst": "2026-11-27",
   "review_status": "existing_exam80_script_alignment_in_progress",
   "lecture_count": 166,
   "period": "27년 전반기",
   "requested_study_cutoff": "2027-02-02",
-  "source_basis_note": "제80회 기존 원고 기준. 기존 283장 중 13장 근거 확인, 270장 대조 대기. 전체 핵심 설명 검수 완료 6강. 77강 신규 보완 9장 공개, 전체 강의 검수는 계속.",
+  "source_basis_note": "제80회 기존 원고 기준. 기존 283장 중 13장 근거 확인, 270장 대조 대기. 전체 핵심 설명 검수 완료 6강. 77·94·109강 신규 보완 13장 공개, 전체 강의 검수는 계속.",
   "law_sources": [
     {
       "kind": "본법",
@@ -26878,10 +27300,10 @@
   ],
   "raster_encoding": "lossless WebP",
   "content_source": "military-service-act/editorial-content.json",
-  "content_source_sha256": "1cb257c0a66b5e8516e271f57cb27bc1c629b491a131eff2479d4904b917ac9d",
+  "content_source_sha256": "0e243fff5471e2acb210281a1bce6073d0b88b2bc0bf48fd2616c2f79e4b4ccf",
   "playback_timing": "not_assigned",
   "scope": "military_service_act_all_166_lectures_core_diagrams",
-  "concept_diagram_count": 268,
+  "concept_diagram_count": 272,
   "previous_review_status": "content_and_layout_checked",
   "content_authority": "existing_exam80_lecture_scripts",
   "script_source_index": "military-service-act/script-sources-exam80.json",
@@ -26893,7 +27315,7 @@
     "complete_script_coverage_verified_lectures": 6,
     "audit": "military-service-act/script-alignment-audit-exam80.json",
     "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
-    "published_supplement_pages": 9,
-    "total_published_pages": 292
+    "published_supplement_pages": 13,
+    "total_published_pages": 296
   }
 }

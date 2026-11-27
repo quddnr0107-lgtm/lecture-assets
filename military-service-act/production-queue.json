@@ -2511,11 +2511,16 @@
       ],
       "full_script_read": false,
       "lease": null,
-      "checkpoint": 1,
-      "evidence_refs": [],
+      "checkpoint": 2,
+      "evidence_refs": [
+        "military-service-act/production-evidence/exam80-generation-2/MS-094/002-publication-review.json"
+      ],
       "outcome": null,
       "changed_diagram_ids": [],
-      "new_diagram_ids": [],
+      "new_diagram_ids": [
+        "MS-094-D03-editorial-v1",
+        "MS-094-D04-editorial-v1"
+      ],
       "previously_verified_existing_diagram_ids": [
         "MS-094-D01-editorial-v1",
         "MS-094-D02-editorial-v1"
@@ -2525,7 +2530,12 @@
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-094/chaplain-committee.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-094/candidate-ages.svg"
       ],
-      "script_fulltext_retrieved": true
+      "script_fulltext_retrieved": true,
+      "partial_publication": {
+        "published_supplements": 2,
+        "review_ref": "military-service-act/production-evidence/exam80-generation-2/MS-094/002-publication-review.json",
+        "remaining": "원고 전체 핵심 설명의 누락 여부와 추가 보완 검토"
+      }
     },
     {
       "lecture_id": "MS-095",
@@ -2870,11 +2880,16 @@
       ],
       "full_script_read": false,
       "lease": null,
-      "checkpoint": 1,
-      "evidence_refs": [],
+      "checkpoint": 2,
+      "evidence_refs": [
+        "military-service-act/production-evidence/exam80-generation-2/MS-109/002-publication-review.json"
+      ],
       "outcome": null,
       "changed_diagram_ids": [],
-      "new_diagram_ids": [],
+      "new_diagram_ids": [
+        "MS-109-D04-editorial-v1",
+        "MS-109-D05-editorial-v1"
+      ],
       "previously_verified_existing_diagram_ids": [
         "MS-109-D01-editorial-v1",
         "MS-109-D02-editorial-v1",
@@ -2885,7 +2900,12 @@
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-109/travel-application.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-109/travel-stay-purpose.svg"
       ],
-      "script_fulltext_retrieved": true
+      "script_fulltext_retrieved": true,
+      "partial_publication": {
+        "published_supplements": 2,
+        "review_ref": "military-service-act/production-evidence/exam80-generation-2/MS-109/002-publication-review.json",
+        "remaining": "원고 전체 핵심 설명의 누락 여부와 추가 보완 검토"
+      }
     },
     {
       "lecture_id": "MS-110",
@@ -4291,10 +4311,15 @@
   },
   "last_partial_checkpoint": {
     "date_kst": "2026-11-27",
-    "lecture_id": "MS-077",
-    "checkpoint": "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
-    "published_supplements": 9,
-    "held_drafts": 1,
+    "lecture_ids": [
+      "MS-094",
+      "MS-109"
+    ],
+    "checkpoint": [
+      "military-service-act/production-evidence/exam80-generation-2/MS-094/002-publication-review.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-109/002-publication-review.json"
+    ],
+    "published_supplements": 4,
     "full_lecture_complete": false
   },
   "last_reuse_checkpoint": {
