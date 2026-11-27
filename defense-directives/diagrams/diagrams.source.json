@@ -2314,9 +2314,9 @@
         "subtitle": "제3호나목",
         "items": [
           {
-            "label": "승인 건의",
-            "text": "수임군부대장이 각 군 참모총장 경유, 시행 7개월 전까지",
-            "bold": false
+            "label": "승인 건의 · 7개월 전",
+            "text": "수임군부대장 → 각 군 참모총장 경유 → 국방부장관",
+            "bold": true
           },
           {
             "label": "확정 하달",
@@ -2349,13 +2349,159 @@
       "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J12-0:0",
       "sourceVersion": "국방부훈령 제3104호",
       "effectiveDate": "2025-11-14",
-      "evidence": [
-        {
-          "claim": "수시계획의 건의·확정 기한",
-          "quote": "제12조(지역예비군부대계획) 국방부 장관은 예비전력관리 군무원의 인력운영효율성을 제고하기 위하여 중기, 연도, 수시 지역예비군부대계획(이하 \"예비군부대계획\"이라 한다.)을 수립 및 시행한다.\n1. 중기 예비군부대계획 작성 목적과 절차는 다음 각 목과 같다.\n가. 향후 5년간(F+2∼F+6)의 예비군부대 창설 및 해체 등의 소요를 예비전력관리 군무원 정원 범위 내에서 검토ㆍ조정하여 중기 대상기간에시행할 부대계획을 수립함으로써, 연도 예비군부대계획 및 정원계획수립에 필요한 지침을 제공한다.\n나. 각 군 참모총장은 중기 예비군부대계획 요구서를 F년 8월까지 국방부 장관에게 보고해야 한다.\n다. 국방부장관(국방부 동원기획관)은 실무조정회의 후 F년 11월까지 중기 예비군부대계획을 확정하여 각 군 참모총장에게 통보한다.\n2. 연도 예비군부대계획 작성 목적과 절차는 다음 각 목과 같다.\n가. 중기 예비군부대계획의 기준연도 계획과 각 군에서 제기한 연도 예비군 부대계획 요구서를 기초로 연도별 정원 범위 내에서 시행하기 위해 작성하는 계획으로써 F+1년 예비군부대계획의 시행과 정원계획 수립의 근거가 된다.\n나. 각 군은 F+1년 연도 예비군부대계획 요구서를 F년 6월까지 국방부 장관에게 보고해야 한다.\n다. 국방부장관(국방부 동원기획관)은 실무조정회의 후 F년 8월까지 연도 예비군부대계획을 확정하여 각 군 참모총장에게 통보한다.\n3. 수시 예비군부대계획 작성목적과 절차는 다음 각 목과 같다.\n가. 수시 예비군부대계획은 다음의 어느 하나에 해당하는 불가피한 경우에만 시행할 수 있다.\n1) 예비군 조직관련 법령 등의 제ㆍ개정에 따른 경우\n2) 조직진단 등을 통해 예비군부대계획 조정 소요가 발생한 경우\n3) 작전환경 변화에 따라 당해 연도 시행이 불가피한 경우(다만, 연도 예비군부대계획 승인 이후 6개월이 경과한 경우로 한정한다.)\n나. 수시 예비군부대계획 작성 및 시행절차는 다음과 같다.\n1) 수임군부대장은 수시 예비군부대계획 요구서를 각 군 참모총장을 경유하여 시행 7개월 전까지 국방부 장관에게 승인 건의한다. 다만, 명예퇴직, 의원면직, 징계, 사망 등으로 사전 예측이 제한되는 경우는 시행 3개월 전까지 건의한다.\n2) 각 군 참모총장은 예비전력관리 군무원 정원과 연계하여 수시 예비군 부대 요구의 타당성을 검증하여 의견을 국방부에 보고한다.\n3) 국방부 장관은 수시 예비군부대계획 시행 5개월 전까지 확정 하달한다. 다만, 1)호 단서의 경우에는 시행 1개월 전까지 확정 하달할 수 있다.\n4. 세부적인 예비군부대계획 수립 절차는 별표 9와 같다."
-        }
+      "scriptRef": "DR-012",
+      "scriptEvidence": {
+        "source_git_blob": "6983bc045cafa95a86311146b700668fcb6f79d6",
+        "source_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
+        "lines": [
+          195,
+          212,
+          235,
+          236
+        ]
+      }
+    },
+    {
+      "lessonId": "DR-012",
+      "articleKey": "1-12",
+      "title": "중기계획의 지침 · 연도계획의 근거",
+      "subtitle": "국방부장관이 지역예비군부대계획을 수립·시행한다.",
+      "layout": "equal",
+      "left": {
+        "title": "중기계획",
+        "subtitle": "향후 5년간 F+2~F+6",
+        "items": [
+          {
+            "label": "검토·조정",
+            "text": "군무원 정원 범위 내 창설·해체 소요",
+            "bold": false
+          },
+          {
+            "label": "결과",
+            "text": "연도 계획·정원계획 수립에 필요한 지침 제공",
+            "bold": true
+          }
+        ]
+      },
+      "right": {
+        "title": "연도계획",
+        "subtitle": "F+1년 시행",
+        "items": [
+          {
+            "label": "기초 자료",
+            "text": "중기계획의 기준연도 계획 + 각 군의 연도 요구서",
+            "bold": false
+          },
+          {
+            "label": "결과",
+            "text": "부대계획 시행·정원계획 수립의 근거",
+            "bold": true
+          }
+        ]
+      },
+      "sourceArticle": "조직·편성 훈령 제12조",
+      "sourceClauses": [
+        "본문",
+        "제1호가목",
+        "제2호가목"
       ],
-      "scriptRef": "DR-012"
+      "note": "목적: 예비전력관리 군무원의 인력운영 효율성 제고. 대상은 지역예비군부대.",
+      "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J12-0:0",
+      "sourceVersion": "국방부훈령 제3104호",
+      "effectiveDate": "2025-11-14",
+      "scriptRef": "DR-012",
+      "scriptEvidence": {
+        "source_git_blob": "6983bc045cafa95a86311146b700668fcb6f79d6",
+        "source_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
+        "lines": [
+          15,
+          29,
+          37,
+          51,
+          73,
+          96,
+          102,
+          108,
+          110,
+          112,
+          118,
+          226,
+          227,
+          228,
+          230,
+          232
+        ]
+      }
+    },
+    {
+      "lessonId": "DR-012",
+      "articleKey": "1-12",
+      "title": "별표 9 · 한 해의 계획 수립 순서",
+      "subtitle": "F년의 달력에서 연도계획과 중기계획이 만나는 달은 8월이다.",
+      "layout": "equal",
+      "left": {
+        "title": "연도계획",
+        "subtitle": "F+1년 대상",
+        "items": [
+          {
+            "label": "2월",
+            "text": "중기 예비군부대계획 작성지침",
+            "bold": false
+          },
+          {
+            "label": "6월",
+            "text": "각 군 연도 계획 요구서",
+            "bold": false
+          },
+          {
+            "label": "8월",
+            "text": "실무조정회의 후 연도 계획 확정",
+            "bold": true
+          }
+        ]
+      },
+      "right": {
+        "title": "중기계획",
+        "subtitle": "F+2~F+6년 대상",
+        "items": [
+          {
+            "label": "8월",
+            "text": "각 군 중기 계획 요구서",
+            "bold": true
+          },
+          {
+            "label": "10월",
+            "text": "중기 계획 안",
+            "bold": false
+          },
+          {
+            "label": "11월",
+            "text": "중기 계획 확정",
+            "bold": false
+          }
+        ]
+      },
+      "sourceArticle": "조직·편성 훈령 제12조",
+      "sourceClauses": [
+        "제4호",
+        "별표 9"
+      ],
+      "note": "확정·시행 협조: 조직총괄과 및 장비관리과.",
+      "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J12-0:0",
+      "sourceVersion": "국방부훈령 제3104호",
+      "effectiveDate": "2025-11-14",
+      "scriptRef": "DR-012",
+      "scriptEvidence": {
+        "source_git_blob": "6983bc045cafa95a86311146b700668fcb6f79d6",
+        "source_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
+        "lines": [
+          214,
+          216,
+          218,
+          231,
+          233
+        ]
+      }
     },
     {
       "lessonId": "DR-013",
@@ -4776,9 +4922,14 @@
             "bold": false
           },
           {
-            "label": "지방병무청장",
-            "text": "명부 접수 후 30일 이내 병적정리, 동원지정결과 송부",
+            "label": "지방병무청장 · 30일",
+            "text": "명부 접수 후 30일 이내 병적정리",
             "bold": false
+          },
+          {
+            "label": "동원지정결과",
+            "text": "국방부 및 각 군에 송부",
+            "bold": true
           }
         ]
       },
@@ -4790,13 +4941,170 @@
       "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J26-0:0",
       "sourceVersion": "국방부훈령 제3104호",
       "effectiveDate": "2025-11-14",
-      "evidence": [
-        {
-          "claim": "진급명령과 병적정리",
-          "quote": "⑤ 진급명령 발령및병적정리는 다음 각 호와 같이 시행한다.\n1. 진급대상자는 제4항의 진급대상자교육을 이수해야 하고, 당해 연도 선발공고에서 명시하는 기준 이상의 성적을 획득한 자에 대해서만 진급명령을 발령한다.\n2. 진급명령은 교육수료와 동시 발령하고, 장교는 국방부 장관, 부사관은 각 군 참모총장이 임명장을 수여한다.\n3. 각 군 참모총장은 예비역 부사관 진급발령자 명부를 병무청에 송부하며,국방부장관은 예비역 장교 진급발령자 명부를 각 군 및 병무청에 송부한다.\n4. 지방병무청장은 진급발령자 명부 접수 후 30일 이내에 병적을 정리하고, 진급자의 동원지정결과를 국방부 및 각 군에 송부한다."
-        }
+      "scriptRef": "DR-026",
+      "scriptEvidence": {
+        "source_git_blob": "a092efb5ca670b4aead58767bb8bab5d064f7ca7",
+        "source_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854",
+        "lines": [
+          173,
+          175,
+          186,
+          187,
+          188
+        ]
+      }
+    },
+    {
+      "lessonId": "DR-026",
+      "articleKey": "1-26",
+      "title": "별표 19 · 계급별 진급 기준",
+      "subtitle": "진급 최저 복무기간과 만 나이 상한을 함께 기억한다.",
+      "layout": "equal",
+      "left": {
+        "title": "부사관",
+        "subtitle": "최저 복무기간 / 연령",
+        "items": [
+          {
+            "label": "하사 → 중사",
+            "text": "7년 / 만 40세 이하",
+            "bold": true
+          },
+          {
+            "label": "중사 → 상사",
+            "text": "12년 / 만 45세 이하",
+            "bold": true
+          }
+        ]
+      },
+      "right": {
+        "title": "장교",
+        "subtitle": "최저 복무기간 / 연령",
+        "items": [
+          {
+            "label": "소위 → 중위",
+            "text": "2년 / 만 40세 이하",
+            "bold": false
+          },
+          {
+            "label": "중위 → 대위",
+            "text": "6년 / 만 40세 이하",
+            "bold": false
+          },
+          {
+            "label": "대위 → 소령",
+            "text": "7년 / 만 42세 이하",
+            "bold": false
+          },
+          {
+            "label": "소령 → 중령",
+            "text": "7년 / 만 45세 이하",
+            "bold": false
+          }
+        ]
+      },
+      "sourceArticle": "조직·편성 훈령 제26조",
+      "sourceClauses": [
+        "제2항",
+        "별표 19"
       ],
-      "scriptRef": "DR-026"
+      "note": "복무기간은 현역과 예비역 기간을 합산한다.",
+      "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J26-0:0",
+      "sourceVersion": "국방부훈령 제3104호",
+      "effectiveDate": "2025-11-14",
+      "scriptRef": "DR-026",
+      "scriptEvidence": {
+        "source_git_blob": "a092efb5ca670b4aead58767bb8bab5d064f7ca7",
+        "source_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854",
+        "lines": [
+          53,
+          56,
+          57,
+          60,
+          61,
+          62,
+          63,
+          65,
+          67,
+          71,
+          75,
+          181
+        ]
+      }
+    },
+    {
+      "lessonId": "DR-026",
+      "articleKey": "1-26",
+      "title": "지시 · 지침 · 공고",
+      "subtitle": "당해 연도 문서 세 가지와 진급대상자교육의 연결",
+      "layout": "equal",
+      "left": {
+        "title": "문서별 역할",
+        "subtitle": "시험에서 바꿔 내는 세 표현",
+        "items": [
+          {
+            "label": "제2항 · 대상",
+            "text": "예비역 간부 진급에 관한 지시",
+            "bold": true
+          },
+          {
+            "label": "제3항 · 선발 절차",
+            "text": "선발지침",
+            "bold": true
+          },
+          {
+            "label": "제5항제1호 · 성적 기준",
+            "text": "선발공고",
+            "bold": true
+          }
+        ]
+      },
+      "right": {
+        "title": "진급대상자교육",
+        "subtitle": "제4항 → 제5항",
+        "items": [
+          {
+            "label": "교육 대상",
+            "text": "제2항 및 제3항에 따라 선발된 사람",
+            "bold": false
+          },
+          {
+            "label": "진급명령",
+            "text": "진급대상자교육 이수 및 공고 기준 이상의 성적",
+            "bold": false
+          }
+        ]
+      },
+      "sourceArticle": "조직·편성 훈령 제26조",
+      "sourceClauses": [
+        "제2항",
+        "제3항",
+        "제4항",
+        "제5항제1호"
+      ],
+      "note": "대상은 지시, 선발 절차는 지침, 성적 기준은 공고.",
+      "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J26-0:0",
+      "sourceVersion": "국방부훈령 제3104호",
+      "effectiveDate": "2025-11-14",
+      "scriptRef": "DR-026",
+      "scriptEvidence": {
+        "source_git_blob": "a092efb5ca670b4aead58767bb8bab5d064f7ca7",
+        "source_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854",
+        "lines": [
+          27,
+          31,
+          35,
+          83,
+          85,
+          87,
+          89,
+          103,
+          105,
+          113,
+          182,
+          184,
+          185
+        ]
+      }
     },
     {
       "lessonId": "DR-027",
@@ -6607,9 +6915,9 @@
             "bold": true
           },
           {
-            "label": "제2항제1호나) · 무기고",
-            "text": "이동성·경제성 등을 고려하여 고정시설 외에 컨테이너를 설치할 수 있다.",
-            "bold": false
+            "label": "제2항제1호나) · 예비군 무기고",
+            "text": "이동성·경제성 등을 고려하여 고정시설 외에 컨테이너 설치 가능",
+            "bold": true
           }
         ]
       },
@@ -6618,29 +6926,25 @@
         "제1항",
         "제2항제1호"
       ],
-      "note": "",
-      "evidence": [
-        {
-          "claim": "장비고설치원칙",
-          "quote": "1. 장비고는 해당 예비군부대 내 또는 예비군부대 최기 지역에 설치하는 것을 원칙으로 한다."
-        },
-        {
-          "claim": "장비고방호",
-          "quote": "2. 장비고에는 화재예방, 도난방지를 포함한 일련의 방호대책을 강구해야 한다."
-        },
-        {
-          "claim": "건축예산원칙과직장예외",
-          "quote": "가. 예비군 무기고, 탄약고의 건축예산은 원칙적으로 국방예산으로 건축하며, 예비군 재산으로 등재한다. 다만 직장 무기(탄약)고는 해당 직장 자체 예산으로 건축한다."
-        },
-        {
-          "claim": "컨테이너가능",
-          "quote": "나. 예비군 무기고는 이동성, 경제성 등을 고려하여 고정시설 외에 컨테이너를 설치할 수 있다."
-        }
-      ],
+      "note": "시험 핵심: 직장 무기고로 한정하지 않으며, 이 조항은 탄약고를 명시하지 않는다.",
       "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J50-0:0",
       "sourceVersion": "국방부훈령 제3104호",
       "effectiveDate": "2025-11-14",
-      "scriptRef": "DR-039"
+      "scriptRef": "DR-039",
+      "scriptEvidence": {
+        "source_git_blob": "d98d26de1fa85cd73b536e3b24bf4da21dbb07e7",
+        "source_sha256": "019aa03dbaf12151e0b82e080e23c0b9fb7982084c0d157ed4d51d712aa42dc1",
+        "lines": [
+          61,
+          67,
+          69,
+          71,
+          73,
+          77,
+          113,
+          121
+        ]
+      }
     },
     {
       "lessonId": "DR-039",

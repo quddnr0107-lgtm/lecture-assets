@@ -66,22 +66,7 @@
     ]
   },
   "state": {
-    "active_run": {
-      "id": "dr-20261128-022512-script",
-      "claimed_at": "2026-11-28T02:25:12+09:00",
-      "lease_expires_at": "2026-11-28T04:25:12+09:00",
-      "production_job_ids": [
-        "DR-039-D01-script-022512",
-        "DR-026-D04-script-022512",
-        "DR-026-D05-script-022512",
-        "DR-026-D03-script-022512",
-        "DR-012-D04-script-022512",
-        "DR-012-D05-script-022512",
-        "DR-012-D03-script-022512"
-      ],
-      "status": "running",
-      "workers": 3
-    },
+    "active_run": null,
     "last_successful_run": {
       "id": "dr-20261128-012430-script",
       "render_commit": "e79e6e127da19c6e53517b2bd2896cad45ff8334",
@@ -94,7 +79,7 @@
     "coverage_reviews_queued": 40,
     "coverage_reviews_completed": 38,
     "confirmed_production_jobs": 91,
-    "diagrams_added_after_baseline": 30,
+    "diagrams_added_after_baseline": 34,
     "diagrams_revised_after_baseline": 57,
     "script_bindings_verified": 78,
     "last_correction": {
@@ -109,7 +94,7 @@
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
     "production_jobs_queued": 0,
-    "production_jobs_qa": 0,
+    "production_jobs_qa": 7,
     "production_jobs_completed": 91
   },
   "jobs": [
@@ -920,11 +905,13 @@
       "title": "예비군 조직·편성과 운영에 관한 훈령 제12조, 지역예비군부대계획",
       "priority": 20,
       "status": "queued",
-      "existing_diagram_count": 3,
+      "existing_diagram_count": 5,
       "existing_diagram_ids": [
         "DR-012-D01",
         "DR-012-D02",
-        "DR-012-D03"
+        "DR-012-D03",
+        "DR-012-D04",
+        "DR-012-D05"
       ],
       "article_keys": [
         "1-12"
@@ -1115,11 +1102,13 @@
       "title": "예비군 조직·편성과 운영에 관한 훈령 제26조, 예비역 간부 진급",
       "priority": 26,
       "status": "queued",
-      "existing_diagram_count": 3,
+      "existing_diagram_count": 5,
       "existing_diagram_ids": [
         "DR-026-D01",
         "DR-026-D02",
-        "DR-026-D03"
+        "DR-026-D03",
+        "DR-026-D04",
+        "DR-026-D05"
       ],
       "article_keys": [
         "1-26"
@@ -8139,8 +8128,24 @@
       "script_sha256": "019aa03dbaf12151e0b82e080e23c0b9fb7982084c0d157ed4d51d712aa42dc1",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-039|019aa03dbaf12151e0b82e080e23c0b9fb7982084c0d157ed4d51d712aa42dc1|61,67,69,71,73,77,113,121|컨테이너 허용 대상의 정확한 구분|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-039/diagrams/DR-039-D01-editorial-v1.svg",
+          "bytes": 6629,
+          "sha256": "bd41c703372625253be9db91299b8160a175090dac154b2c059755091a3dc5e8"
+        },
+        {
+          "path": "defense-directives/lesson-039/diagrams/DR-039-D01-editorial-v1.png",
+          "bytes": 188470,
+          "sha256": "960bb8352aa7abf6ac1133cca875519a6873a05a06f20dce010a929b74db7107"
+        },
+        {
+          "path": "defense-directives/lesson-039/diagrams/DR-039-D01-editorial-v1.webp",
+          "bytes": 57274,
+          "sha256": "49eff9cedc591937fcaedc45727c8bc7060d3cc7fb62e39bad2e19fd920bb98d"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-50.txt",
@@ -8158,11 +8163,15 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-022512-script",
-      "claimed_at": "2026-11-28T02:25:12+09:00",
-      "lease_expires_at": "2026-11-28T04:25:12+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "finding": "무기·탄약고 공통 제목 아래 허용 대상 불명확",
-      "required_change": "예비군 무기고 명시, 탄약고·직장 한정과 구분"
+      "required_change": "예비군 무기고 명시, 탄약고·직장 한정과 구분",
+      "diagram_id": "DR-039-D01",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-026-D04-script-022512",
@@ -8175,8 +8184,24 @@
       "script_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-026|06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854|53,56,57,60,61,62,63,65,67,71,75,181|별표 19 계급별 복무기간·연령기준|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-026/diagrams/DR-026-D04-editorial-v1.svg",
+          "bytes": 5849,
+          "sha256": "521b081e588348fa21a454e6c17dd8b2128f42566be11ffc951d03b8c641679c"
+        },
+        {
+          "path": "defense-directives/lesson-026/diagrams/DR-026-D04-editorial-v1.png",
+          "bytes": 122188,
+          "sha256": "2ea51806869ce678c546dee23d98b42eb939aeabb34dc5afa890ce658efcd13b"
+        },
+        {
+          "path": "defense-directives/lesson-026/diagrams/DR-026-D04-editorial-v1.webp",
+          "bytes": 38946,
+          "sha256": "ac1e80ccdc13a081df28322fa3724b9998b09ad8c80fd9fa2163321b5b88613d"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-26.txt",
@@ -8198,11 +8223,15 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-022512-script",
-      "claimed_at": "2026-11-28T02:25:12+09:00",
-      "lease_expires_at": "2026-11-28T04:25:12+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "finding": "기존 도식은 별표19를 참조만 하여 빈칸 출제 숫자 누락",
-      "required_change": "부사관·장교 6개 기준과 기간 합산 명시"
+      "required_change": "부사관·장교 6개 기준과 기간 합산 명시",
+      "diagram_id": "DR-026-D04",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-026-D05-script-022512",
@@ -8215,8 +8244,24 @@
       "script_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-026|06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854|27,31,35,83,85,87,89,103,105,113,182,184,185|진급 지시·선발지침·선발공고 구분|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-026/diagrams/DR-026-D05-editorial-v1.svg",
+          "bytes": 5710,
+          "sha256": "44803912d3ef9811f3da35cd71567092207306abfb556aae000dd7c5e31b5def"
+        },
+        {
+          "path": "defense-directives/lesson-026/diagrams/DR-026-D05-editorial-v1.png",
+          "bytes": 142696,
+          "sha256": "2881c1e4fcc32acd6b3ed0d58041df6ec27b04ab78f29114c0c647f30b0691e9"
+        },
+        {
+          "path": "defense-directives/lesson-026/diagrams/DR-026-D05-editorial-v1.webp",
+          "bytes": 42698,
+          "sha256": "6d5dbfe748108b124ca274c9d9cd6a1bda082f4eb48262a2267d3da24eacedeb"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-26.txt",
@@ -8239,11 +8284,15 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-022512-script",
-      "claimed_at": "2026-11-28T02:25:12+09:00",
-      "lease_expires_at": "2026-11-28T04:25:12+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "finding": "스크립트에서 강조한 세 문서 비교와 교육 대상 항 번호 누락",
-      "required_change": "문서별 역할과 교육 대상 연결"
+      "required_change": "문서별 역할과 교육 대상 연결",
+      "diagram_id": "DR-026-D05",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-026-D03-script-022512",
@@ -8256,8 +8305,24 @@
       "script_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-026|06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854|173,175,186,187,188|병적정리 결과 송부 대상|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-026/diagrams/DR-026-D03-editorial-v1.svg",
+          "bytes": 5936,
+          "sha256": "b968f2a104cf1a3bfa2973dc349153b47549e3eb9942ede65f776c5b7a888cfd"
+        },
+        {
+          "path": "defense-directives/lesson-026/diagrams/DR-026-D03-editorial-v1.png",
+          "bytes": 157516,
+          "sha256": "058f14165a8d72897f878d0864bb88f3f29e0467043fcf54989045e64ec7a9a9"
+        },
+        {
+          "path": "defense-directives/lesson-026/diagrams/DR-026-D03-editorial-v1.webp",
+          "bytes": 47418,
+          "sha256": "3e72c52417e1d5bf05c2d2eae3ac07c746711af9879602ab826f8ecc80f38a5e"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-26.txt",
@@ -8272,11 +8337,15 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-022512-script",
-      "claimed_at": "2026-11-28T02:25:12+09:00",
-      "lease_expires_at": "2026-11-28T04:25:12+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "finding": "동원지정결과의 수신자 생략",
-      "required_change": "국방부 및 각 군 명시"
+      "required_change": "국방부 및 각 군 명시",
+      "diagram_id": "DR-026-D03",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-012-D04-script-022512",
@@ -8289,8 +8358,24 @@
       "script_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-012|3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041|15,29,37,51,73,96,102,108,110,112,118,226,227,228,230,232|중기 지침과 연도 근거의 구별|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D04-editorial-v1.svg",
+          "bytes": 5615,
+          "sha256": "05be14d3d865539f9a21df8c864fc37df93412458d5c3bd202047d3ba79bdac2"
+        },
+        {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D04-editorial-v1.png",
+          "bytes": 147219,
+          "sha256": "8a7d6d68bcc89cb4315fb54360809eba4fd4e37b03113f9a718f060e61506c3a"
+        },
+        {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D04-editorial-v1.webp",
+          "bytes": 44224,
+          "sha256": "5cbedfead11a2db6c6c31756cc2b79d901bf97d6b32a3582bfaa6f1d3a10f2a8"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-12.txt",
@@ -8316,11 +8401,15 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-022512-script",
-      "claimed_at": "2026-11-28T02:25:12+09:00",
-      "lease_expires_at": "2026-11-28T04:25:12+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "finding": "기존 일정표에 계획 수립 주체·범위와 두 계획의 목적·입력 문서 구분 누락",
-      "required_change": "정원·기준연도·요구서·지침과 근거 비교"
+      "required_change": "정원·기준연도·요구서·지침과 근거 비교",
+      "diagram_id": "DR-012-D04",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-012-D05-script-022512",
@@ -8333,8 +8422,24 @@
       "script_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-012|3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041|214,216,218,231,233|별표 9의 연간 계획 수립 순서|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D05-editorial-v1.svg",
+          "bytes": 5823,
+          "sha256": "fe833ca0909eb16e96b9854f32e832ee7ee1ec5f1892c36845bc6d10e464060d"
+        },
+        {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D05-editorial-v1.png",
+          "bytes": 133044,
+          "sha256": "1fee77890bb0df4f06e9d6fd30aaebf4e3d828958f99ff84da811946dd7658f2"
+        },
+        {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D05-editorial-v1.webp",
+          "bytes": 40354,
+          "sha256": "84bc3ff16d3ce48fa3b6051031d7cd303e871797e838e20cf15974d31d0921cc"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-12.txt",
@@ -8349,11 +8454,15 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-022512-script",
-      "claimed_at": "2026-11-28T02:25:12+09:00",
-      "lease_expires_at": "2026-11-28T04:25:12+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "finding": "기존 일정 비교에 2월 지침·10월 중기 안 및 8월 접점 누락",
-      "required_change": "별표 9를 두 계획의 순서로 시각화"
+      "required_change": "별표 9를 두 계획의 순서로 시각화",
+      "diagram_id": "DR-012-D05",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-012-D03-script-022512",
@@ -8366,8 +8475,24 @@
       "script_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-012|3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041|195,212,235,236|수시계획 건의 경유와 수신 주체|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D03-editorial-v1.svg",
+          "bytes": 5197,
+          "sha256": "67fd801ebab0ec37b03fa9942cc037f4833077365dfddb78bd0a17f189257183"
+        },
+        {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D03-editorial-v1.png",
+          "bytes": 137522,
+          "sha256": "dd9bcb6fef6274d4a8a44b8cc52b463889b57d019ef51c4ef64f84cde50dbbf5"
+        },
+        {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D03-editorial-v1.webp",
+          "bytes": 41552,
+          "sha256": "f2ebce9ff0ebd694112f384efd1e32a112575595a99955988078140af4a99d7d"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-12.txt",
@@ -8381,11 +8506,15 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-022512-script",
-      "claimed_at": "2026-11-28T02:25:12+09:00",
-      "lease_expires_at": "2026-11-28T04:25:12+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "finding": "건의 수신자 명시 누락",
-      "required_change": "국방부장관에게 건의 명시"
+      "required_change": "국방부장관에게 건의 명시",
+      "diagram_id": "DR-012-D03",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     }
   ],
   "runs": [
@@ -8701,6 +8830,22 @@
       "remaining_production": 0,
       "partial_review": [
         "DR-039"
+      ]
+    },
+    {
+      "id": "dr-20261128-022512-script",
+      "status": "rendered_pending_visual_qa",
+      "new_diagrams": 4,
+      "revised_diagrams": 3,
+      "completed_reviews": 0,
+      "diagram_ids": [
+        "DR-039-D01",
+        "DR-026-D04",
+        "DR-026-D05",
+        "DR-026-D03",
+        "DR-012-D04",
+        "DR-012-D05",
+        "DR-012-D03"
       ]
     }
   ],

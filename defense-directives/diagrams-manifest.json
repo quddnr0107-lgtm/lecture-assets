@@ -17,7 +17,7 @@
   "coverage": {
     "expected_lessons": 78,
     "included_lessons": 78,
-    "diagrams": 220,
+    "diagrams": 224,
     "missing_lessons": []
   },
   "law_versions": [
@@ -190,11 +190,13 @@
     {
       "id": "DR-012",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제12조, 지역예비군부대계획",
-      "diagram_count": 3,
+      "diagram_count": 5,
       "diagram_ids": [
         "DR-012-D01",
         "DR-012-D02",
-        "DR-012-D03"
+        "DR-012-D03",
+        "DR-012-D04",
+        "DR-012-D05"
       ],
       "path": "defense-directives/lesson-012/diagrams/",
       "script_ref": "DR-012"
@@ -355,11 +357,13 @@
     {
       "id": "DR-026",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제26조, 예비역 간부 진급",
-      "diagram_count": 3,
+      "diagram_count": 5,
       "diagram_ids": [
         "DR-026-D01",
         "DR-026-D02",
-        "DR-026-D03"
+        "DR-026-D03",
+        "DR-026-D04",
+        "DR-026-D05"
       ],
       "path": "defense-directives/lesson-026/diagrams/",
       "script_ref": "DR-026"
@@ -2550,21 +2554,139 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-012/diagrams/DR-012-D03-editorial-v1.svg",
-          "bytes": 5187,
-          "sha256": "202087f4de718791f589bb584fa4bc915ed599641f47d8456aecb8ba8bf3d55e"
+          "bytes": 5197,
+          "sha256": "67fd801ebab0ec37b03fa9942cc037f4833077365dfddb78bd0a17f189257183"
         },
         "png": {
           "path": "defense-directives/lesson-012/diagrams/DR-012-D03-editorial-v1.png",
-          "bytes": 138934,
-          "sha256": "2bb5b504c34e5a7d7aff39c116fa3612973c19cb61ba4889f4aa6efef5afb996"
+          "bytes": 137522,
+          "sha256": "dd9bcb6fef6274d4a8a44b8cc52b463889b57d019ef51c4ef64f84cde50dbbf5"
         },
         "webp": {
           "path": "defense-directives/lesson-012/diagrams/DR-012-D03-editorial-v1.webp",
-          "bytes": 41758,
-          "sha256": "f64332186d6da73cf03a40e7129f09578a5cb879ade1677ca0a820ec019e7d12"
+          "bytes": 41552,
+          "sha256": "f2ebce9ff0ebd694112f384efd1e32a112575595a99955988078140af4a99d7d"
         }
       },
-      "script_ref": "DR-012"
+      "script_ref": "DR-012",
+      "script_evidence": {
+        "source_git_blob": "6983bc045cafa95a86311146b700668fcb6f79d6",
+        "source_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
+        "lines": [
+          195,
+          212,
+          235,
+          236
+        ]
+      }
+    },
+    {
+      "id": "DR-012-D04",
+      "lecture_id": "DR-012",
+      "lesson_number": 12,
+      "title": "중기계획의 지침 · 연도계획의 근거",
+      "article": "조직·편성 훈령 제12조",
+      "article_key": "1-12",
+      "source_clauses": [
+        "본문",
+        "제1호가목",
+        "제2호가목"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J12-0:0",
+      "source_version": "국방부훈령 제3104호",
+      "effective_date": "2025-11-14",
+      "note": "목적: 예비전력관리 군무원의 인력운영 효율성 제고. 대상은 지역예비군부대.",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D04-editorial-v1.svg",
+          "bytes": 5615,
+          "sha256": "05be14d3d865539f9a21df8c864fc37df93412458d5c3bd202047d3ba79bdac2"
+        },
+        "png": {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D04-editorial-v1.png",
+          "bytes": 147219,
+          "sha256": "8a7d6d68bcc89cb4315fb54360809eba4fd4e37b03113f9a718f060e61506c3a"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D04-editorial-v1.webp",
+          "bytes": 44224,
+          "sha256": "5cbedfead11a2db6c6c31756cc2b79d901bf97d6b32a3582bfaa6f1d3a10f2a8"
+        }
+      },
+      "script_ref": "DR-012",
+      "script_evidence": {
+        "source_git_blob": "6983bc045cafa95a86311146b700668fcb6f79d6",
+        "source_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
+        "lines": [
+          15,
+          29,
+          37,
+          51,
+          73,
+          96,
+          102,
+          108,
+          110,
+          112,
+          118,
+          226,
+          227,
+          228,
+          230,
+          232
+        ]
+      }
+    },
+    {
+      "id": "DR-012-D05",
+      "lecture_id": "DR-012",
+      "lesson_number": 12,
+      "title": "별표 9 · 한 해의 계획 수립 순서",
+      "article": "조직·편성 훈령 제12조",
+      "article_key": "1-12",
+      "source_clauses": [
+        "제4호",
+        "별표 9"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J12-0:0",
+      "source_version": "국방부훈령 제3104호",
+      "effective_date": "2025-11-14",
+      "note": "확정·시행 협조: 조직총괄과 및 장비관리과.",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D05-editorial-v1.svg",
+          "bytes": 5823,
+          "sha256": "fe833ca0909eb16e96b9854f32e832ee7ee1ec5f1892c36845bc6d10e464060d"
+        },
+        "png": {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D05-editorial-v1.png",
+          "bytes": 133044,
+          "sha256": "1fee77890bb0df4f06e9d6fd30aaebf4e3d828958f99ff84da811946dd7658f2"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-012/diagrams/DR-012-D05-editorial-v1.webp",
+          "bytes": 40354,
+          "sha256": "84bc3ff16d3ce48fa3b6051031d7cd303e871797e838e20cf15974d31d0921cc"
+        }
+      },
+      "script_ref": "DR-012",
+      "script_evidence": {
+        "source_git_blob": "6983bc045cafa95a86311146b700668fcb6f79d6",
+        "source_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
+        "lines": [
+          214,
+          216,
+          218,
+          231,
+          233
+        ]
+      }
     },
     {
       "id": "DR-013-D01",
@@ -4237,21 +4359,145 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-026/diagrams/DR-026-D03-editorial-v1.svg",
-          "bytes": 5750,
-          "sha256": "eebb179308e240e24a3f6e9777ca064cd3a185bf9ef85fcceb1b6d5ff453e4db"
+          "bytes": 5936,
+          "sha256": "b968f2a104cf1a3bfa2973dc349153b47549e3eb9942ede65f776c5b7a888cfd"
         },
         "png": {
           "path": "defense-directives/lesson-026/diagrams/DR-026-D03-editorial-v1.png",
-          "bytes": 154028,
-          "sha256": "4446da42b91521ef9f1828674b9a7650b70d29e6f69bb58d8080ca3ac545d6d6"
+          "bytes": 157516,
+          "sha256": "058f14165a8d72897f878d0864bb88f3f29e0467043fcf54989045e64ec7a9a9"
         },
         "webp": {
           "path": "defense-directives/lesson-026/diagrams/DR-026-D03-editorial-v1.webp",
-          "bytes": 46578,
-          "sha256": "a5c3d98f43338120d3d0610d6a8e13629324b9070f2063252681bfac10743a04"
+          "bytes": 47418,
+          "sha256": "3e72c52417e1d5bf05c2d2eae3ac07c746711af9879602ab826f8ecc80f38a5e"
         }
       },
-      "script_ref": "DR-026"
+      "script_ref": "DR-026",
+      "script_evidence": {
+        "source_git_blob": "a092efb5ca670b4aead58767bb8bab5d064f7ca7",
+        "source_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854",
+        "lines": [
+          173,
+          175,
+          186,
+          187,
+          188
+        ]
+      }
+    },
+    {
+      "id": "DR-026-D04",
+      "lecture_id": "DR-026",
+      "lesson_number": 26,
+      "title": "별표 19 · 계급별 진급 기준",
+      "article": "조직·편성 훈령 제26조",
+      "article_key": "1-26",
+      "source_clauses": [
+        "제2항",
+        "별표 19"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J26-0:0",
+      "source_version": "국방부훈령 제3104호",
+      "effective_date": "2025-11-14",
+      "note": "복무기간은 현역과 예비역 기간을 합산한다.",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-026/diagrams/DR-026-D04-editorial-v1.svg",
+          "bytes": 5849,
+          "sha256": "521b081e588348fa21a454e6c17dd8b2128f42566be11ffc951d03b8c641679c"
+        },
+        "png": {
+          "path": "defense-directives/lesson-026/diagrams/DR-026-D04-editorial-v1.png",
+          "bytes": 122188,
+          "sha256": "2ea51806869ce678c546dee23d98b42eb939aeabb34dc5afa890ce658efcd13b"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-026/diagrams/DR-026-D04-editorial-v1.webp",
+          "bytes": 38946,
+          "sha256": "ac1e80ccdc13a081df28322fa3724b9998b09ad8c80fd9fa2163321b5b88613d"
+        }
+      },
+      "script_ref": "DR-026",
+      "script_evidence": {
+        "source_git_blob": "a092efb5ca670b4aead58767bb8bab5d064f7ca7",
+        "source_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854",
+        "lines": [
+          53,
+          56,
+          57,
+          60,
+          61,
+          62,
+          63,
+          65,
+          67,
+          71,
+          75,
+          181
+        ]
+      }
+    },
+    {
+      "id": "DR-026-D05",
+      "lecture_id": "DR-026",
+      "lesson_number": 26,
+      "title": "지시 · 지침 · 공고",
+      "article": "조직·편성 훈령 제26조",
+      "article_key": "1-26",
+      "source_clauses": [
+        "제2항",
+        "제3항",
+        "제4항",
+        "제5항제1호"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J26-0:0",
+      "source_version": "국방부훈령 제3104호",
+      "effective_date": "2025-11-14",
+      "note": "대상은 지시, 선발 절차는 지침, 성적 기준은 공고.",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-026/diagrams/DR-026-D05-editorial-v1.svg",
+          "bytes": 5710,
+          "sha256": "44803912d3ef9811f3da35cd71567092207306abfb556aae000dd7c5e31b5def"
+        },
+        "png": {
+          "path": "defense-directives/lesson-026/diagrams/DR-026-D05-editorial-v1.png",
+          "bytes": 142696,
+          "sha256": "2881c1e4fcc32acd6b3ed0d58041df6ec27b04ab78f29114c0c647f30b0691e9"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-026/diagrams/DR-026-D05-editorial-v1.webp",
+          "bytes": 42698,
+          "sha256": "6d5dbfe748108b124ca274c9d9cd6a1bda082f4eb48262a2267d3da24eacedeb"
+        }
+      },
+      "script_ref": "DR-026",
+      "script_evidence": {
+        "source_git_blob": "a092efb5ca670b4aead58767bb8bab5d064f7ca7",
+        "source_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854",
+        "lines": [
+          27,
+          31,
+          35,
+          83,
+          85,
+          87,
+          89,
+          103,
+          105,
+          113,
+          182,
+          184,
+          185
+        ]
+      }
     },
     {
       "id": "DR-027-D01",
@@ -5273,28 +5519,42 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J50-0:0",
       "source_version": "국방부훈령 제3104호",
       "effective_date": "2025-11-14",
-      "note": "",
+      "note": "시험 핵심: 직장 무기고로 한정하지 않으며, 이 조항은 탄약고를 명시하지 않는다.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-039/diagrams/DR-039-D01-editorial-v1.svg",
-          "bytes": 6371,
-          "sha256": "ddb3e95d5ff6b545c0fe9bd7e38a10568192ff0577559885e8b2f1cab2cc9caf"
+          "bytes": 6629,
+          "sha256": "bd41c703372625253be9db91299b8160a175090dac154b2c059755091a3dc5e8"
         },
         "png": {
           "path": "defense-directives/lesson-039/diagrams/DR-039-D01-editorial-v1.png",
-          "bytes": 175789,
-          "sha256": "8328f23c9480541b4b612aded693dd9cad0335257d295c1aba17c78def3ae964"
+          "bytes": 188470,
+          "sha256": "960bb8352aa7abf6ac1133cca875519a6873a05a06f20dce010a929b74db7107"
         },
         "webp": {
           "path": "defense-directives/lesson-039/diagrams/DR-039-D01-editorial-v1.webp",
-          "bytes": 53178,
-          "sha256": "f563ecfe226f9939d262a396edb8193da19c837d52914cc8f5536a7ebb4848a2"
+          "bytes": 57274,
+          "sha256": "49eff9cedc591937fcaedc45727c8bc7060d3cc7fb62e39bad2e19fd920bb98d"
         }
       },
-      "script_ref": "DR-039"
+      "script_ref": "DR-039",
+      "script_evidence": {
+        "source_git_blob": "d98d26de1fa85cd73b536e3b24bf4da21dbb07e7",
+        "source_sha256": "019aa03dbaf12151e0b82e080e23c0b9fb7982084c0d157ed4d51d712aa42dc1",
+        "lines": [
+          61,
+          67,
+          69,
+          71,
+          73,
+          77,
+          113,
+          121
+        ]
+      }
     },
     {
       "id": "DR-039-D02",
