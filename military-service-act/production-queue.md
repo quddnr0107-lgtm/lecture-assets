@@ -45,3 +45,6 @@
 ## 94강·109강 도식 공개 체크포인트
 - 기존 원고와 대조한 4장(각 2장)을 정식 SVG·무손실 WebP 경로로 반영했습니다. [94강 근거](production-evidence/exam80-generation-2/MS-094/002-publication-review.json) · [109강 근거](production-evidence/exam80-generation-2/MS-109/002-publication-review.json).
 - 공개 도식 296장(기존 283장 + 보완 13장). 전체 강의 검수 6강 완료, 160강 대기. 해당 강의 전체 검수는 아직 완료가 아닙니다.
+
+## 77·94·109강 추가 초안
+- 배정 주체 교정 1장 및 추가 도식 6장을 SVG 초안으로 저장. [검수 대기 체크포인트](production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-03.json). 공개 확정 수에는 미포함.

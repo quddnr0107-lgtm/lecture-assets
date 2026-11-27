@@ -2100,7 +2100,7 @@
         "MS-077-D01-editorial-v1",
         "MS-077-D02-editorial-v1"
       ],
-      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint.json",
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-03.json",
       "draft_preview_paths": [
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-077/two-30-day-rules.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-077/transfer.svg",
@@ -2111,7 +2111,8 @@
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/service-period-calculation.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/study-during-service.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/transfer-application.svg",
-        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/transfer-excluded.svg"
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/transfer-excluded.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/military-demand-notification-corrected.svg"
       ],
       "script_fulltext_retrieved": true,
       "partial_publication": {
@@ -2525,10 +2526,13 @@
         "MS-094-D01-editorial-v1",
         "MS-094-D02-editorial-v1"
       ],
-      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/checkpoint.json",
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-03.json",
       "draft_preview_paths": [
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-094/chaplain-committee.svg",
-        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-094/candidate-ages.svg"
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-094/candidate-ages.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-094/candidate-application-deadlines.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-094/candidate-selection-scoring.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-094/candidate-demand-notification.svg"
       ],
       "script_fulltext_retrieved": true,
       "partial_publication": {
@@ -2895,10 +2899,13 @@
         "MS-109-D02-editorial-v1",
         "MS-109-D03-editorial-v1"
       ],
-      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/checkpoint.json",
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-03.json",
       "draft_preview_paths": [
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-109/travel-application.svg",
-        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-109/travel-stay-purpose.svg"
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-109/travel-stay-purpose.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/study-travel-extension.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/travel-cancellation-numbers.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/overseas-residence-special.svg"
       ],
       "script_fulltext_retrieved": true,
       "partial_publication": {
@@ -4312,14 +4319,14 @@
   "last_partial_checkpoint": {
     "date_kst": "2026-11-27",
     "lecture_ids": [
+      "MS-077",
       "MS-094",
       "MS-109"
     ],
     "checkpoint": [
-      "military-service-act/production-evidence/exam80-generation-2/MS-094/002-publication-review.json",
-      "military-service-act/production-evidence/exam80-generation-2/MS-109/002-publication-review.json"
+      "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-03.json"
     ],
-    "published_supplements": 4,
+    "published_supplements": 0,
     "full_lecture_complete": false
   },
   "last_reuse_checkpoint": {
