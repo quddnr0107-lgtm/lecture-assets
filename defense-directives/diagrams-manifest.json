@@ -3556,25 +3556,25 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J21-0:0",
       "source_version": "국방부훈령 제3104호",
       "effective_date": "2025-11-14",
-      "note": "공고: 대상자·지역·필요사항. 협조: 민방위대 편성 제외 및 주소지 무단이탈 방지.",
+      "note": "공고: 추가 편성 대상자·대상지역·필요사항. 협조: 민방위대 편성 제외 및 주소지 무단이탈 방지.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-021/diagrams/DR-021-D01-editorial-v1.svg",
-          "bytes": 6614,
-          "sha256": "55413eb5be639e3169f785c88b560bfdcca1fc0e6baac6b7ff9fc452688e387e"
+          "bytes": 6644,
+          "sha256": "0c036b7eade527a64e16c057afdd67d3c4bb40e4f48a1049997bd413ef1eeef1"
         },
         "png": {
           "path": "defense-directives/lesson-021/diagrams/DR-021-D01-editorial-v1.png",
-          "bytes": 196636,
-          "sha256": "53e839ea9e98347ae024fc7d08e72e8b5b4230130a8f855ae4f53c5cb3568c05"
+          "bytes": 201916,
+          "sha256": "400feae1e156745177730bafcb1ab7ed962834ec21b844d4e5fb3f9bb649cf37"
         },
         "webp": {
           "path": "defense-directives/lesson-021/diagrams/DR-021-D01-editorial-v1.webp",
-          "bytes": 59122,
-          "sha256": "d32a538619dc1a7a4bf3742d5c04053e77e746f06121d9198ec30c017d4c823f"
+          "bytes": 60462,
+          "sha256": "6e912f173422424d0ae6fa9f94feb44b8335f851f16fabea463e10e383d21c65"
         }
       },
       "script_ref": "DR-021",
@@ -3582,10 +3582,17 @@
         "source_git_blob": "a8908c2960fbcdd6a7da0a671575452b3ec83bea",
         "source_sha256": "6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04",
         "lines": [
+          19,
+          39,
+          43,
+          45,
           57,
+          63,
           85,
           89,
           99,
+          166,
+          168,
           171
         ]
       }
@@ -9471,28 +9478,42 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J32-0:0",
       "source_version": "국방부훈령 제3216호",
       "effective_date": "2026-10-14",
-      "note": "그 밖의 부과·징수·재판·집행 절차는 질서위반행위규제법 적용.",
+      "note": "부과 근거: 예비군법 제15조의2. 그 밖의 부과·징수·재판·집행: 질서위반행위규제법.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-076/diagrams/DR-076-D01-editorial-v1.svg",
-          "bytes": 5921,
-          "sha256": "a261373932829fac94aedf197c9529a2f9b150ce71ede37778ae1559562b1afc"
+          "bytes": 6323,
+          "sha256": "aea748824fd7f3ff3b0474ec6ec3f9dd7bb5ea903c4eae69e48c660681bb5a35"
         },
         "png": {
           "path": "defense-directives/lesson-076/diagrams/DR-076-D01-editorial-v1.png",
-          "bytes": 153717,
-          "sha256": "dd211dcb8b325e4bf8b0f5793af1171ee05d08223b10f00479762afd625bc493"
+          "bytes": 169860,
+          "sha256": "7b866704070c8099be9bd349b52f7a26a38d36f5cfa932ebc5705b690f45c8ae"
         },
         "webp": {
           "path": "defense-directives/lesson-076/diagrams/DR-076-D01-editorial-v1.webp",
-          "bytes": 45912,
-          "sha256": "0fbd13836501c8a4b3beaf7c00ff81a04c673c0f79e850cbce5032311fdfd949"
+          "bytes": 53334,
+          "sha256": "12d2a3fa46576315a2627d3db01986fecdc296466642e1b2fb14e413e63e3955"
         }
       },
-      "script_ref": "DR-076"
+      "script_ref": "DR-076",
+      "script_evidence": {
+        "source_git_blob": "899302aaf728a341ec23adad26262a73c91c6fe1",
+        "source_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
+        "lines": [
+          19,
+          58,
+          68,
+          82,
+          96,
+          148,
+          150,
+          151
+        ]
+      }
     },
     {
       "id": "DR-076-D02",
@@ -9563,18 +9584,18 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-076/diagrams/DR-076-D03-editorial-v1.svg",
-          "bytes": 5621,
-          "sha256": "cb87d9f4209a7413724ae08462a788eb0d3212d2c5407e7a4e2199782b7eee1f"
+          "bytes": 5689,
+          "sha256": "96062adbaae9bbe7a47f4460dae3aad87073c51308bb2fe2225ceb5668e73081"
         },
         "png": {
           "path": "defense-directives/lesson-076/diagrams/DR-076-D03-editorial-v1.png",
-          "bytes": 134482,
-          "sha256": "f092d1bd7a24b4c1c1415d621ffbce108fff307d0f34b0f4fdaa9e11a36e0c14"
+          "bytes": 144236,
+          "sha256": "132fe8f6ac7ef78953be5bf7364840c225f3cfecf567fb571310a52d2fe9fc38"
         },
         "webp": {
           "path": "defense-directives/lesson-076/diagrams/DR-076-D03-editorial-v1.webp",
-          "bytes": 39566,
-          "sha256": "3a2a56897df6519f5134651c9722ddcc9e670c86b75810fe5599b5bf8fe07e0a"
+          "bytes": 42690,
+          "sha256": "1bdc66fe174cca51e7eb6a31a933061c5a746baac8add5b45fe2d03dfaa8a6a3"
         }
       },
       "script_ref": "DR-076",
@@ -9586,7 +9607,8 @@
           130,
           134,
           140,
-          142
+          142,
+          155
         ]
       }
     },

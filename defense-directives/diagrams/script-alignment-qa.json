@@ -20589,6 +20589,794 @@
         }
       ],
       "visual_review": "passed"
+    },
+    {
+      "run_id": "dr-20261127-232742-script",
+      "lesson_ids": [
+        "DR-021",
+        "DR-076"
+      ],
+      "records": [
+        {
+          "id": "DR-021-D01",
+          "mode": "revision",
+          "script_evidence": {
+            "source_git_blob": "a8908c2960fbcdd6a7da0a671575452b3ec83bea",
+            "source_sha256": "6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04",
+            "lines": [
+              19,
+              39,
+              43,
+              45,
+              57,
+              63,
+              85,
+              89,
+              99,
+              166,
+              168,
+              171
+            ]
+          },
+          "layout_errors": [],
+          "png_webp_pixel_equal": true,
+          "visual_review": "pending",
+          "files": {
+            "svg": {
+              "path": "defense-directives/lesson-021/diagrams/DR-021-D01-editorial-v1.svg",
+              "bytes": 6644,
+              "sha256": "0c036b7eade527a64e16c057afdd67d3c4bb40e4f48a1049997bd413ef1eeef1"
+            },
+            "png": {
+              "path": "defense-directives/lesson-021/diagrams/DR-021-D01-editorial-v1.png",
+              "bytes": 201916,
+              "sha256": "400feae1e156745177730bafcb1ab7ed962834ec21b844d4e5fb3f9bb649cf37"
+            },
+            "webp": {
+              "path": "defense-directives/lesson-021/diagrams/DR-021-D01-editorial-v1.webp",
+              "bytes": 60462,
+              "sha256": "6e912f173422424d0ae6fa9f94feb44b8335f851f16fabea463e10e383d21c65"
+            }
+          },
+          "text_boxes": [
+            {
+              "text": "훈령  /  DR-021",
+              "x": 80,
+              "y": 52,
+              "width": 166,
+              "height": 27,
+              "fontSize": 25,
+              "role": "eyebrow"
+            },
+            {
+              "text": "조직·편성·운영",
+              "x": 1367.25,
+              "y": 54,
+              "width": 153,
+              "height": 23,
+              "fontSize": 23,
+              "role": "eyebrow"
+            },
+            {
+              "text": "추가 편성의 지시와 통지",
+              "x": 80,
+              "y": 127,
+              "width": 643,
+              "height": 61,
+              "fontSize": 64,
+              "role": "title"
+            },
+            {
+              "text": "장관의 지시 뒤 병무청이 편성하고 지휘관이 본인에게 통지한다.",
+              "x": 84,
+              "y": 208,
+              "width": 733,
+              "height": 28,
+              "fontSize": 28,
+              "role": "subtitle"
+            },
+            {
+              "text": "지시·편성·통지",
+              "x": 80,
+              "y": 334,
+              "width": 295,
+              "height": 43,
+              "fontSize": 44,
+              "role": "section-title"
+            },
+            {
+              "text": "제1항·제2항",
+              "x": 84,
+              "y": 403,
+              "width": 144,
+              "height": 26,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "국방부장관",
+              "x": 144,
+              "y": 467,
+              "width": 106,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "필요시 수임군부대장 및 병무청장에게",
+              "x": 144,
+              "y": 498,
+              "width": 560,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "추가 편성 지시",
+              "x": 144,
+              "y": 549.12,
+              "width": 219,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "동시에 공고·협조",
+              "x": 144,
+              "y": 637.88,
+              "width": 167,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "신문·방송 등 공고, 행정안전부장관에게",
+              "x": 144,
+              "y": 668.88,
+              "width": 588,
+              "height": 38,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "대책 협조",
+              "x": 144,
+              "y": 720.0,
+              "width": 143,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "병무청장 → 지방병무청장",
+              "x": 144,
+              "y": 808.76,
+              "width": 245,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "추가 편성 조치 및 지방병무청장의",
+              "x": 144,
+              "y": 839.76,
+              "width": 504,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "편성카드 작성",
+              "x": 144,
+              "y": 890.88,
+              "width": 209,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "완료 보고·지원",
+              "x": 856,
+              "y": 336,
+              "width": 268,
+              "height": 41,
+              "fontSize": 42,
+              "role": "section-title"
+            },
+            {
+              "text": "제2항~제4항",
+              "x": 860,
+              "y": 403,
+              "width": 144,
+              "height": 26,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "지역예비군지휘관",
+              "x": 860,
+              "y": 467,
+              "width": 169,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "국방동원정보체계로 카드 수신 후 본인 통지",
+              "x": 860,
+              "y": 497,
+              "width": 647,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "병무청장",
+              "x": 860,
+              "y": 663.44,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "완료 결과를 국방부장관에게 보고",
+              "x": 860,
+              "y": 693.44,
+              "width": 494,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "수임군부대장",
+              "x": 860,
+              "y": 859.88,
+              "width": 127,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "장구류·피복류 등 작전지속지원 대책 강구",
+              "x": 860,
+              "y": 890.88,
+              "width": 625,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "공고: 추가 편성 대상자·대상지역·필요사항. 협조: 민방위대 편성 제외 및 주소지 무단이탈 방지.",
+              "x": 80,
+              "y": 980,
+              "width": 901,
+              "height": 23,
+              "fontSize": 23,
+              "role": "note"
+            },
+            {
+              "text": "조직·편성 훈령 제21조 · DR-021-D01",
+              "x": 80,
+              "y": 1072,
+              "width": 353,
+              "height": 22,
+              "fontSize": 22,
+              "role": "footer"
+            },
+            {
+              "text": "무한회독",
+              "x": 1435.38,
+              "y": 1071,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "footer"
+            }
+          ]
+        },
+        {
+          "id": "DR-076-D03",
+          "mode": "revision",
+          "script_evidence": {
+            "source_git_blob": "899302aaf728a341ec23adad26262a73c91c6fe1",
+            "source_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
+            "lines": [
+              126,
+              130,
+              134,
+              140,
+              142,
+              155
+            ]
+          },
+          "layout_errors": [],
+          "png_webp_pixel_equal": true,
+          "visual_review": "pending",
+          "files": {
+            "svg": {
+              "path": "defense-directives/lesson-076/diagrams/DR-076-D03-editorial-v1.svg",
+              "bytes": 5689,
+              "sha256": "96062adbaae9bbe7a47f4460dae3aad87073c51308bb2fe2225ceb5668e73081"
+            },
+            "png": {
+              "path": "defense-directives/lesson-076/diagrams/DR-076-D03-editorial-v1.png",
+              "bytes": 144236,
+              "sha256": "132fe8f6ac7ef78953be5bf7364840c225f3cfecf567fb571310a52d2fe9fc38"
+            },
+            "webp": {
+              "path": "defense-directives/lesson-076/diagrams/DR-076-D03-editorial-v1.webp",
+              "bytes": 42690,
+              "sha256": "1bdc66fe174cca51e7eb6a31a933061c5a746baac8add5b45fe2d03dfaa8a6a3"
+            }
+          },
+          "text_boxes": [
+            {
+              "text": "훈령  /  DR-076",
+              "x": 80,
+              "y": 52,
+              "width": 166,
+              "height": 27,
+              "fontSize": 25,
+              "role": "eyebrow"
+            },
+            {
+              "text": "교육훈련",
+              "x": 1435.38,
+              "y": 54,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "eyebrow"
+            },
+            {
+              "text": "과태료 체납의 가산금과 후속조치",
+              "x": 80,
+              "y": 127,
+              "width": 878,
+              "height": 61,
+              "fontSize": 64,
+              "role": "title"
+            },
+            {
+              "text": "체납 금액과 후속조치의 요건을 비교한다.",
+              "x": 84,
+              "y": 209,
+              "width": 477,
+              "height": 27,
+              "fontSize": 28,
+              "role": "subtitle"
+            },
+            {
+              "text": "가산금·중가산금",
+              "x": 80,
+              "y": 334,
+              "width": 309,
+              "height": 42,
+              "fontSize": 44,
+              "role": "section-title"
+            },
+            {
+              "text": "납부기한까지 미납 시",
+              "x": 84,
+              "y": 402,
+              "width": 239,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "최초 가산금",
+              "x": 144,
+              "y": 467,
+              "width": 112,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "100분의 3",
+              "x": 144,
+              "y": 498,
+              "width": 154,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "매 1개월마다 중가산금",
+              "x": 144,
+              "y": 670.12,
+              "width": 215,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "1천분의 12",
+              "x": 144,
+              "y": 701.12,
+              "width": 167,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "후속조치",
+              "x": 856,
+              "y": 336,
+              "width": 155,
+              "height": 41,
+              "fontSize": 42,
+              "role": "section-title"
+            },
+            {
+              "text": "요건에 따른 조치",
+              "x": 860,
+              "y": 402,
+              "width": 189,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "관허사업",
+              "x": 860,
+              "y": 467,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "대통령령상 사유 없이 일정 횟수·금액 이상",
+              "x": 860,
+              "y": 497,
+              "width": 635,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "체납 시 제한 가능",
+              "x": 860,
+              "y": 548.12,
+              "width": 262,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "신용정보",
+              "x": 860,
+              "y": 677.94,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "신용정보집중기관 요청 시 체납·결손처분",
+              "x": 860,
+              "y": 707.94,
+              "width": 615,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "자료 제공 가능",
+              "x": 860,
+              "y": 759.06,
+              "width": 219,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "감치",
+              "x": 860,
+              "y": 888.88,
+              "width": 42,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "고액 또는 상습체납자 감치 가능",
+              "x": 860,
+              "y": 919.88,
+              "width": 471,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "교육훈련 훈령 제32조 · DR-076-D03",
+              "x": 80,
+              "y": 1072,
+              "width": 341,
+              "height": 22,
+              "fontSize": 22,
+              "role": "footer"
+            },
+            {
+              "text": "무한회독",
+              "x": 1435.38,
+              "y": 1071,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "footer"
+            }
+          ]
+        },
+        {
+          "id": "DR-076-D01",
+          "mode": "revision",
+          "script_evidence": {
+            "source_git_blob": "899302aaf728a341ec23adad26262a73c91c6fe1",
+            "source_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
+            "lines": [
+              19,
+              58,
+              68,
+              82,
+              96,
+              148,
+              150,
+              151
+            ]
+          },
+          "layout_errors": [],
+          "png_webp_pixel_equal": true,
+          "visual_review": "pending",
+          "files": {
+            "svg": {
+              "path": "defense-directives/lesson-076/diagrams/DR-076-D01-editorial-v1.svg",
+              "bytes": 6323,
+              "sha256": "aea748824fd7f3ff3b0474ec6ec3f9dd7bb5ea903c4eae69e48c660681bb5a35"
+            },
+            "png": {
+              "path": "defense-directives/lesson-076/diagrams/DR-076-D01-editorial-v1.png",
+              "bytes": 169860,
+              "sha256": "7b866704070c8099be9bd349b52f7a26a38d36f5cfa932ebc5705b690f45c8ae"
+            },
+            "webp": {
+              "path": "defense-directives/lesson-076/diagrams/DR-076-D01-editorial-v1.webp",
+              "bytes": 53334,
+              "sha256": "12d2a3fa46576315a2627d3db01986fecdc296466642e1b2fb14e413e63e3955"
+            }
+          },
+          "text_boxes": [
+            {
+              "text": "훈령  /  DR-076",
+              "x": 80,
+              "y": 52,
+              "width": 166,
+              "height": 27,
+              "fontSize": 25,
+              "role": "eyebrow"
+            },
+            {
+              "text": "교육훈련",
+              "x": 1435.38,
+              "y": 54,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "eyebrow"
+            },
+            {
+              "text": "과태료 부과의 세 단계",
+              "x": 80,
+              "y": 127,
+              "width": 584,
+              "height": 61,
+              "fontSize": 64,
+              "role": "title"
+            },
+            {
+              "text": "수임군부대장이 의견을 듣고 산정한 뒤 징수를 의뢰한다.",
+              "x": 84,
+              "y": 208,
+              "width": 647,
+              "height": 28,
+              "fontSize": 28,
+              "role": "subtitle"
+            },
+            {
+              "text": "통지·의견제출",
+              "x": 80,
+              "y": 334,
+              "width": 269,
+              "height": 43,
+              "fontSize": 44,
+              "role": "section-title"
+            },
+            {
+              "text": "제1항",
+              "x": 84,
+              "y": 403,
+              "width": 65,
+              "height": 26,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "위반 근거",
+              "x": 144,
+              "y": 467,
+              "width": 91,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "예비군법 제6조의2 제4항 및 제10조의2",
+              "x": 144,
+              "y": 498,
+              "width": 589,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "사전통지",
+              "x": 144,
+              "y": 663.44,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "수임군부대장 → 당사자, 별지 제5호",
+              "x": 144,
+              "y": 694.44,
+              "width": 531,
+              "height": 38,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "의견 기회",
+              "x": 144,
+              "y": 859.88,
+              "width": 91,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "10일 이상의 의견제출 기간 부여",
+              "x": 144,
+              "y": 890.88,
+              "width": 478,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "산정·징수의뢰",
+              "x": 1030,
+              "y": 336,
+              "width": 257,
+              "height": 41,
+              "fontSize": 42,
+              "role": "section-title"
+            },
+            {
+              "text": "제2항",
+              "x": 1034,
+              "y": 403,
+              "width": 65,
+              "height": 26,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "의견제출 절차 종료 후",
+              "x": 1034,
+              "y": 467,
+              "width": 210,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "수임군부대장이 예비군법 시행령",
+              "x": 1034,
+              "y": 498,
+              "width": 484,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "제39조에 따라 산정",
+              "x": 1034,
+              "y": 548.12,
+              "width": 295,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "첨부 자료",
+              "x": 1034,
+              "y": 663.44,
+              "width": 91,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "별지 제6호 부과 결정서와 기타",
+              "x": 1034,
+              "y": 693.44,
+              "width": 459,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "필요서류",
+              "x": 1034,
+              "y": 745.56,
+              "width": 133,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "징수의뢰",
+              "x": 1034,
+              "y": 859.88,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "수입징수관에게 의뢰",
+              "x": 1034,
+              "y": 889.88,
+              "width": 308,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "부과 근거: 예비군법 제15조의2. 그 밖의 부과·징수·재판·집행: 질서위반행위규제법.",
+              "x": 80,
+              "y": 980,
+              "width": 800,
+              "height": 23,
+              "fontSize": 23,
+              "role": "note"
+            },
+            {
+              "text": "교육훈련 훈령 제32조 · DR-076-D01",
+              "x": 80,
+              "y": 1072,
+              "width": 341,
+              "height": 22,
+              "fontSize": 22,
+              "role": "footer"
+            },
+            {
+              "text": "무한회독",
+              "x": 1435.38,
+              "y": 1071,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "footer"
+            }
+          ]
+        }
+      ]
     }
   ],
   "script_conflicts": [
