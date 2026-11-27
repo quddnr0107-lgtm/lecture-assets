@@ -32,7 +32,8 @@
     "corrected_diagrams": [
       "TB-004-D03",
       "TB-005-D04",
-      "TB-010-D01"
+      "TB-010-D01",
+      "TB-011-D01"
     ],
     "scope": "기존 강의 원고와 도식 텍스트 대조; 기존 49개 이미지 검수 기록의 범위를 확대하지 않음.",
     "changed_image_review": {
@@ -52,6 +53,35 @@
       "layout_bounds_errors": 0,
       "text_overlap_errors": 0,
       "visual_review": "수정한 3개 도식 PNG의 한글·개정이력 제거·첩보/정보 구분·잘림·겹침 확인"
+    },
+    "latest_repair": {
+      "diagram": "TB-011-D01",
+      "visual_review": "pending",
+      "source_sha256": "56e3e3568ff5d310b7383614f99bef808c18bdc1a0a883d1e31e6c43a41c3d67",
+      "diagram_content_sha256": "66cbe3b55c5fc7fa4236a0ab98946d9fdf1fb475a1b2e0ab412851c4447e7021",
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-011/diagrams/notion-v1/TB-011-D01-media-support-and-disclosure.svg",
+          "bytes": 8989,
+          "sha256": "b4671d8181b6804f10074572bbec0c270f24fe7cbf3b7f818d74bff3757e7d7e",
+          "width": 1600,
+          "height": 1120
+        },
+        "png": {
+          "path": "integrated-defense/lesson-011/diagrams/notion-v1/TB-011-D01-media-support-and-disclosure.png",
+          "bytes": 171340,
+          "sha256": "27f3731530ba575fceb082bdaf60a39628029d25d77c17926e1a6845a5a52344",
+          "width": 1600,
+          "height": 1120
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-011/diagrams/notion-v1/TB-011-D01-media-support-and-disclosure.webp",
+          "bytes": 99608,
+          "sha256": "ee1e21d393043db99c17c733abb0bf42105011581bd1d5ef92825068b825c469",
+          "width": 1600,
+          "height": 1120
+        }
+      }
     }
   }
 }

@@ -10,7 +10,8 @@
   "corrected_diagrams": [
     "TB-004-D03",
     "TB-005-D04",
-    "TB-010-D01"
+    "TB-010-D01",
+    "TB-011-D01"
   ],
   "method": "기존 강의 원고 전문과 도식의 본문·주체·숫자·기관명·요건·예외·기억할 문장·주석을 의미 단위로 대조. 해시는 검사 대상 버전을 식별한다.",
   "hash_serialization": "UTF-8 JSON, sort_keys=True, ensure_ascii=False, separators=(comma,colon)",
@@ -26,6 +27,10 @@
     {
       "diagram_id": "TB-010-D01",
       "change": "원고의 첩보 수집·정보 판단 구분을 보존."
+    },
+    {
+      "diagram_id": "TB-011-D01",
+      "change": "설치·운영 권한과 기자단 제공 의무의 진행 상황 표현 및 적의 침투·도발 범위 구분."
     }
   ],
   "scope_note": "기존 원고 내용 일치 검수. 전체 강의 설명의 완전 수록, 모든 이미지의 재검수, 암호화 음성 원고 전문과의 바이트 비교를 뜻하지 않음.",
@@ -625,9 +630,9 @@
       "diagram_id": "TB-011-D01",
       "lecture_id": "TB-011",
       "status": "matched_existing_script",
-      "diagram_content_sha256": "7c379da8309296b5858e51352c047cc5b5902b7da61a10c1e53a375715be4131",
+      "diagram_content_sha256": "66cbe3b55c5fc7fa4236a0ab98946d9fdf1fb475a1b2e0ab412851c4447e7021",
       "script_sha256": "56e3e3568ff5d310b7383614f99bef808c18bdc1a0a883d1e31e6c43a41c3d67",
-      "corrected_in_this_review": false,
+      "corrected_in_this_review": true,
       "references": [
         {
           "lecture_id": "TB-011",
@@ -647,7 +652,8 @@
           "end_line": 229,
           "script_sha256": "56e3e3568ff5d310b7383614f99bef808c18bdc1a0a883d1e31e6c43a41c3d67"
         }
-      ]
+      ],
+      "correction_note": "설치·운영 권한과 기자단 제공 의무의 진행 상황 표현 및 적의 침투·도발 범위 구분."
     },
     {
       "diagram_id": "TB-011-D02",
