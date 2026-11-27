@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject": "integrated-defense",
   "created_at_kst": "2026-11-27T10:25:01+09:00",
-  "updated_at_kst": "2026-11-27T12:51:53.608+00:00",
+  "updated_at_kst": "2026-11-27T22:50:12+09:00",
   "status": "review_pending",
   "approved_style": "07-notion-editorial",
   "baseline": {
@@ -599,8 +599,12 @@
       "outputs": [
         "integrated-defense/lesson-011/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 3,
+      "lease": {
+        "run_id": "tb-exam80-20261127T135012Z",
+        "started_at": "2026-11-27T13:50:12Z",
+        "expires_at": "2026-11-27T14:49:00Z"
+      },
+      "attempts": 4,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "D01 보도본부 설치권한과 기자단 제공 의무의 진행 상황 표현 및 침투·도발 용어를 구분하도록 원고 기준 수정 필요. D02·D03 시각 이상 없음.",
       "repair_required": {
@@ -676,8 +680,12 @@
       "outputs": [
         "integrated-defense/lesson-013/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 3,
+      "lease": {
+        "run_id": "tb-exam80-20261127T135012Z",
+        "started_at": "2026-11-27T13:50:12Z",
+        "expires_at": "2026-11-27T14:49:00Z"
+      },
+      "attempts": 4,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "직전 재생성 실패(lease ID 불일치), 모바일 방향 표현 재생성 재시도.",
       "previous_lease": {
@@ -796,8 +804,12 @@
       "outputs": [
         "integrated-defense/lesson-016/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 3,
+      "lease": {
+        "run_id": "tb-exam80-20261127T135012Z",
+        "started_at": "2026-11-27T13:50:12Z",
+        "expires_at": "2026-11-27T14:49:00Z"
+      },
+      "attempts": 4,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "직전 재생성 실패(lease ID 불일치), 근거 전용 페이지 재균형 재시도.",
       "previous_lease": {
@@ -1040,8 +1052,12 @@
       "outputs": [
         "integrated-defense/lesson-022/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 1,
+      "lease": {
+        "run_id": "tb-exam80-20261127T135012Z",
+        "started_at": "2026-11-27T13:50:12Z",
+        "expires_at": "2026-11-27T14:49:00Z"
+      },
+      "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
@@ -1074,8 +1090,12 @@
       "outputs": [
         "integrated-defense/lesson-023/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 1,
+      "lease": {
+        "run_id": "tb-exam80-20261127T135012Z",
+        "started_at": "2026-11-27T13:50:12Z",
+        "expires_at": "2026-11-27T14:49:00Z"
+      },
+      "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
@@ -1107,8 +1127,12 @@
       "outputs": [
         "integrated-defense/lesson-024/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 1,
+      "lease": {
+        "run_id": "tb-exam80-20261127T135012Z",
+        "started_at": "2026-11-27T13:50:12Z",
+        "expires_at": "2026-11-27T14:49:00Z"
+      },
+      "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
