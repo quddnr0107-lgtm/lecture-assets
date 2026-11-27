@@ -1,0 +1,97 @@
+{
+  "run_id": "tb-exam80-visual-20261127T094900Z",
+  "exam_number": 80,
+  "verified_input_commit": "becab7dc29f9bdbd9d7a7ae129e4545585b1da38",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "manifest_blob": "c683f1383e532f5602bbe19c980ca34f49ee84eb",
+  "content_blob": "131bc18e7325961d5cc2e463e0b6bf160fa2e45f",
+  "alignment_blob": "3e36b734d307996b98a791d08a95c04e0e73a88e",
+  "visual_method": "All 18 target WebP pages fetched from GitHub and inspected; 10강 only accepted. SVG and PNG checked by SHA-256 and byte length for 10강.",
+  "checked_pages": 18,
+  "accepted_lessons": [
+    10
+  ],
+  "accepted_pages": 3,
+  "source_check": {
+    "lecture_id": "TB-010",
+    "script_sha256": "6b1fbd4569190c8b3f481274ede34ba08171e60b22eacee62a2c7da23984b476",
+    "script_blob_sha": "82e90841369173d6cb14c97cf9866c0b77eb8218",
+    "diagram_content_sha256": "7fde7f4b19ce6782dbe2b93dd011990bad139413f0a116a040f87a443059bfaf",
+    "prior_alignment_verified": true
+  },
+  "files": [
+    {
+      "path": "integrated-defense/lesson-010/diagrams/notion-v1/mobile/TB-010-D01-M01.svg",
+      "bytes": 4491,
+      "sha256": "9479b9c1dc073aca87c95e7092c5646aa7648baa3a756acb94bbbdf4763f3083",
+      "width": 1080,
+      "height": 1800
+    },
+    {
+      "path": "integrated-defense/lesson-010/diagrams/notion-v1/mobile/TB-010-D01-M01.png",
+      "bytes": 135077,
+      "sha256": "b87fca32dc3cfc908ede36df5c1c94d95d056258664ea9f8ada9a216def68c0c",
+      "width": 1080,
+      "height": 1800
+    },
+    {
+      "path": "integrated-defense/lesson-010/diagrams/notion-v1/mobile/TB-010-D01-M01.webp",
+      "bytes": 75348,
+      "sha256": "09492b17072045aab5faf316e9274419a11fecb8c0cb156b12d12c54bb617f02",
+      "width": 1080,
+      "height": 1800
+    },
+    {
+      "path": "integrated-defense/lesson-010/diagrams/notion-v1/mobile/TB-010-D01-M02.svg",
+      "bytes": 4244,
+      "sha256": "60ea4c17cbbcc42093facf4ce19ff7923a51896369b6cab9745a2dc38585e63d",
+      "width": 1080,
+      "height": 1800
+    },
+    {
+      "path": "integrated-defense/lesson-010/diagrams/notion-v1/mobile/TB-010-D01-M02.png",
+      "bytes": 147765,
+      "sha256": "727d2db1f200190af6d53e2c995d5f1900b96b7a2ff90fe2571590196657b151",
+      "width": 1080,
+      "height": 1800
+    },
+    {
+      "path": "integrated-defense/lesson-010/diagrams/notion-v1/mobile/TB-010-D01-M02.webp",
+      "bytes": 79332,
+      "sha256": "856307a976c3fd7e7485064f609e1b3bf93caf0efa79c6f4136cee44dd92831e",
+      "width": 1080,
+      "height": 1800
+    },
+    {
+      "path": "integrated-defense/lesson-010/diagrams/notion-v1/mobile/TB-010-D01-M03.svg",
+      "bytes": 3717,
+      "sha256": "038e85ddb99a0746a081add0559c1ba62fa35c79dad9866b9d5433384e60e7ec",
+      "width": 1080,
+      "height": 1800
+    },
+    {
+      "path": "integrated-defense/lesson-010/diagrams/notion-v1/mobile/TB-010-D01-M03.png",
+      "bytes": 163898,
+      "sha256": "13d1b9cf127662adce4115b3cb9aaf018702892d3893e6be2a5d33967c71aa44",
+      "width": 1080,
+      "height": 1800
+    },
+    {
+      "path": "integrated-defense/lesson-010/diagrams/notion-v1/mobile/TB-010-D01-M03.webp",
+      "bytes": 90644,
+      "sha256": "312852076679f0390bf205f1881a1da8c83976013799b7d90642a6572848a5a9",
+      "width": 1080,
+      "height": 1800
+    }
+  ],
+  "repair_lessons": [
+    9,
+    11
+  ],
+  "findings": {
+    "9": "D01-M03 및 D03-M03이 근거만 포함하여 여백 과다. 기존 재배치 렌더러로 재생성 후 전 페이지 재검수.",
+    "11": "D01-M03이 근거만 포함하여 여백 과다. 기존 재배치 렌더러로 재생성 후 전 페이지 재검수. 원고의 통합방위 진행 상황/통합방위작전의 진행 상황 구분 및 침투·도발 행위 표현이 기존 요약에서 약화되어 별도 내용 확인 필요."
+  },
+  "new_law_diagrams": 0,
+  "limitations": "No separate parallel assistant slots available; concurrent GitHub reads and existing three-worker rendering pipeline used. 9 and 11 not accepted; no new law content added."
+}

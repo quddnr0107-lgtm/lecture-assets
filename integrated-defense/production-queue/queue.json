@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject": "integrated-defense",
   "created_at_kst": "2026-11-27T10:25:01+09:00",
-  "updated_at_kst": "2026-11-27T09:47:35.961Z",
+  "updated_at_kst": "2026-11-27T09:48:47.372Z",
   "status": "review_pending",
   "approved_style": "07-notion-editorial",
   "baseline": {
@@ -497,7 +497,7 @@
       "lecture_id": "TB-009",
       "title": "09강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "in_progress",
+      "status": "running",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -520,13 +520,13 @@
         "integrated-defense/lesson-009/diagrams/notion-v1/mobile/"
       ],
       "lease": {
-        "run_id": "tb-exam80-visual-20261127T094900Z",
-        "started_at": "2026-11-27T09:47:35.961Z",
-        "expires_at": "2026-11-27T10:47:35.961Z"
+        "run_id": "tb-exam80-visual-20261127T094900Z-repair",
+        "started_at": "2026-11-27T09:48:47.372Z",
+        "expires_at": "2026-11-27T10:48:47.372Z"
       },
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
+      "review_note": "D01-M03 및 D03-M03이 근거만 포함하여 여백 과다. 기존 재배치 렌더러로 재생성 후 전 페이지 재검수."
     },
     {
       "id": "TB-010-MOBILE",
@@ -535,7 +535,7 @@
       "lecture_id": "TB-010",
       "title": "10강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "in_progress",
+      "status": "done",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -555,14 +555,17 @@
       "outputs": [
         "integrated-defense/lesson-010/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-visual-20261127T094900Z",
-        "started_at": "2026-11-27T09:47:35.961Z",
-        "expires_at": "2026-11-27T10:47:35.961Z"
-      },
+      "lease": null,
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
+      "review_note": "WebP 3페이지 직접 시각 검수 통과; 고정 원고 SHA-256 및 blob, canonical 도식 SHA-256, 원격 3종 파일 9개 SHA-256·크기 전수 일치.",
+      "completed_evidence": {
+        "verified_commit": "becab7dc29f9bdbd9d7a7ae129e4545585b1da38",
+        "visual_report": "integrated-defense/production-queue/runs/tb-exam80-visual-20261127T094900Z-review.json",
+        "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+        "output_type": "mobile"
+      },
+      "verified_commit": "becab7dc29f9bdbd9d7a7ae129e4545585b1da38"
     },
     {
       "id": "TB-011-MOBILE",
@@ -571,7 +574,7 @@
       "lecture_id": "TB-011",
       "title": "11강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "in_progress",
+      "status": "running",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -594,13 +597,13 @@
         "integrated-defense/lesson-011/diagrams/notion-v1/mobile/"
       ],
       "lease": {
-        "run_id": "tb-exam80-visual-20261127T094900Z",
-        "started_at": "2026-11-27T09:47:35.961Z",
-        "expires_at": "2026-11-27T10:47:35.961Z"
+        "run_id": "tb-exam80-visual-20261127T094900Z-repair",
+        "started_at": "2026-11-27T09:48:47.372Z",
+        "expires_at": "2026-11-27T10:48:47.372Z"
       },
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
+      "review_note": "D01-M03이 근거만 포함하여 여백 과다. 기존 재배치 렌더러로 재생성 후 전 페이지 재검수. 원고의 통합방위 진행 상황/통합방위작전의 진행 상황 구분 및 침투·도발 행위 표현이 기존 요약에서 약화되어 별도 내용 확인 필요."
     },
     {
       "id": "TB-012-MOBILE",
@@ -1156,15 +1159,18 @@
     "checked_at_kst": "2026-11-27T12:02:16+09:00"
   },
   "last_render_run": "tb-exam80-visual-20261127T075304Z-repair",
-  "last_verified_commit": "a18a8d193801a593b25fb5547f8b93dd088506d3",
+  "last_verified_commit": "becab7dc29f9bdbd9d7a7ae129e4545585b1da38",
   "progress": {
-    "jobs_done": 16,
-    "jobs_remaining": 14,
+    "jobs_done": 17,
+    "jobs_remaining": 13,
     "desktop_diagrams": 55,
     "mobile_rendered_lessons": 25,
     "mobile_rendered_pages": 137,
-    "mobile_verified_lessons": 12,
-    "mobile_verified_pages": 61,
-    "mobile_layout_review_lessons": []
+    "mobile_verified_lessons": 13,
+    "mobile_verified_pages": 64,
+    "mobile_layout_review_lessons": [
+      9,
+      11
+    ]
   }
 }
