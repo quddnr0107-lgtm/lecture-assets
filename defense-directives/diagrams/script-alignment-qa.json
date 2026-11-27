@@ -75,10 +75,10 @@
       "full_lesson_coverage_review": "pending"
     }
   ],
-  "full_lecture_coverage_reviews_completed": 21,
-  "remaining_full_lecture_reviews": 57,
+  "full_lecture_coverage_reviews_completed": 24,
+  "remaining_full_lecture_reviews": 54,
   "new_diagrams": 18,
-  "revised_diagrams": 32,
+  "revised_diagrams": 37,
   "priority_script_comparison": {
     "schema_version": 1,
     "created_at": "2026-11-27T11:59:01+09:00",
@@ -11955,7 +11955,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published PNG individually viewed: no missing glyphs, clipping or overlap; Git tree file sizes match manifest; renderer verified PNG/WebP pixel equality.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-010/diagrams/DR-010-D01-editorial-v1.svg",
@@ -12189,7 +12189,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published PNG individually viewed: no missing glyphs, clipping or overlap; Git tree file sizes match manifest; renderer verified PNG/WebP pixel equality.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-023/diagrams/DR-023-D01-editorial-v1.svg",
@@ -12292,7 +12292,7 @@
             {
               "text": "지방병무청장",
               "x": 144,
-              "y": 689.0,
+              "y": 689,
               "width": 127,
               "height": 23,
               "fontSize": 23,
@@ -12301,7 +12301,7 @@
             {
               "text": "편성카드 정리 후 병무청으로 전송",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 504,
               "height": 35,
               "fontSize": 36,
@@ -12465,7 +12465,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published PNG individually viewed: no missing glyphs, clipping or overlap; Git tree file sizes match manifest; renderer verified PNG/WebP pixel equality.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-040/diagrams/DR-040-D01-editorial-v1.svg",
@@ -12658,7 +12658,7 @@
             {
               "text": "지자체장과 사전에 협의한다.",
               "x": 860,
-              "y": 719.0,
+              "y": 719,
               "width": 429,
               "height": 36,
               "fontSize": 36,
@@ -12738,7 +12738,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published PNG individually viewed: no missing glyphs, clipping or overlap; Git tree file sizes match manifest; renderer verified PNG/WebP pixel equality.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-020/diagrams/DR-020-D01-editorial-v1.svg",
@@ -12841,7 +12841,7 @@
             {
               "text": "병역법 제72조",
               "x": 144,
-              "y": 689.0,
+              "y": 689,
               "width": 138,
               "height": 23,
               "fontSize": 23,
@@ -12850,7 +12850,7 @@
             {
               "text": "40세 이하",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 149,
               "height": 35,
               "fontSize": 36,
@@ -12973,7 +12973,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published PNG individually viewed: no missing glyphs, clipping or overlap; Git tree file sizes match manifest; renderer verified PNG/WebP pixel equality.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-078/diagrams/DR-078-D05-editorial-v1.svg",
@@ -13354,6 +13354,28 @@
       ],
       "render_commit": "a3a42b35aad3d09bace4f07c8ca558207c8e3933",
       "remaining_reviews": 57
+    },
+    {
+      "run_id": "dr-20261127-183200-script",
+      "source_commit": "2d696ecb8a2805b0bc42df8ce5754ae91914371d",
+      "completed_lessons": [
+        "DR-010",
+        "DR-023",
+        "DR-040"
+      ],
+      "visual_reviewed": [
+        "DR-010-D01",
+        "DR-023-D01",
+        "DR-040-D01",
+        "DR-020-D01",
+        "DR-078-D05"
+      ],
+      "render_commit": "3a74ce4ba9e187d3b432a3faef64dea015ab6321",
+      "next_render": {
+        "new": 2,
+        "revised": 12
+      },
+      "remaining_reviews": 54
     }
   ]
 }
