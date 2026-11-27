@@ -1,14 +1,13 @@
 {
-  "run_id": "tb-visual-20261127045329",
+  "run_id": "tb-exam80-visual-20261127T064900Z",
   "exam_number": 80,
   "source_basis": "EXAM80-SCRIPT-SOURCE.json",
   "lessons": [
-    2,
-    21,
-    25
+    4,
+    5
   ],
   "worker_limit": 3,
   "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
   "mode": "mobile-layout-repair",
-  "note": "Rebalance reference-only final pages; preserve all Exam 80 script-aligned content; visual QA remains pending."
+  "note": "Mobile only: neutralize desktop direction label; rebalance reference-only final pages. Preserve canonical Exam 80 content. Visual acceptance pending."
 }

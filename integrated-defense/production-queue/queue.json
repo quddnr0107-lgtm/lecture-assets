@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject": "integrated-defense",
   "created_at_kst": "2026-11-27T10:25:01+09:00",
-  "updated_at_kst": "2026-11-27T15:49:00+09:00",
+  "updated_at_kst": "2026-11-27T15:50:00+09:00",
   "status": "review_pending",
   "approved_style": "07-notion-editorial",
   "baseline": {
@@ -280,7 +280,7 @@
       "lecture_id": "TB-003",
       "title": "03강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [
         "TB-MOBILE-SETUP",
         "TB-003-SUP-01"
@@ -302,14 +302,16 @@
       "outputs": [
         "integrated-defense/lesson-003/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-visual-20261127T064900Z",
-        "started_at": "2026-11-27T06:49:00Z",
-        "expires_at": "2026-11-27T07:39:00Z"
-      },
+      "lease": null,
       "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
+      "review_note": "실제 WebP 8장 전체 검수 통과. 기존 검증 커밋과 SVG·PNG·WebP 24개 blob SHA 및 크기 일치, manifest 동일. 일부 여백은 조건·근거가 있는 페이지로 허용.",
+      "completed_evidence": {
+        "verified_commit": "419163ec336205b4ed2ed4a369ba2f45d902a5c0",
+        "visual_report": "integrated-defense/production-queue/runs/tb-exam80-visual-20261127T064900Z-review.json",
+        "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+        "output_type": "mobile"
+      }
     },
     {
       "id": "TB-004-MOBILE",
@@ -318,7 +320,7 @@
       "lecture_id": "TB-004",
       "title": "04강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "reserved",
       "depends_on": [
         "TB-MOBILE-SETUP",
         "TB-004-SUP-01"
@@ -347,7 +349,7 @@
       },
       "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
+      "review_note": "D02 M02: 가로형 방향 지시어 '오른쪽' 제거 후 재생성·검수 필요. 원고·가로형 콘텐츠 변경 금지."
     },
     {
       "id": "TB-005-MOBILE",
@@ -356,7 +358,7 @@
       "lecture_id": "TB-005",
       "title": "05강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "reserved",
       "depends_on": [
         "TB-MOBILE-SETUP",
         "TB-005-SUP-01"
@@ -386,7 +388,7 @@
       },
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
+      "review_note": "D03 M03: 근거만 남은 페이지. 기존 재균형 알고리즘으로 재생성·검수 필요."
     },
     {
       "id": "TB-006-MOBILE",
@@ -1148,13 +1150,16 @@
   "last_render_run": "tb-visual-20261127045329",
   "last_verified_commit": "749313f4471a1125a3d97291b34bbba33a97cc47",
   "progress": {
-    "jobs_done": 11,
-    "jobs_remaining": 19,
+    "jobs_done": 12,
+    "jobs_remaining": 18,
     "desktop_diagrams": 55,
     "mobile_rendered_lessons": 25,
     "mobile_rendered_pages": 137,
-    "mobile_verified_lessons": 7,
-    "mobile_verified_pages": 20,
-    "mobile_layout_review_lessons": []
+    "mobile_verified_lessons": 8,
+    "mobile_verified_pages": 28,
+    "mobile_layout_review_lessons": [
+      4,
+      5
+    ]
   }
 }

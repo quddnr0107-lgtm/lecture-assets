@@ -62,7 +62,7 @@ def paginate(lesson,d):
             add(lines)
     if d.get('takeaway'):add(block('기억할 문장',48,True,'heading')+block(d['takeaway'],42,True))
     for i,note in enumerate(d.get('notes',[])):
-        lines=block(note,42)
+        lines=block(note.replace('오른쪽 3개 사항은', '시행령의 3개 사항은'),42)
         if i==0 or used+height(lines)>capacity:
             h=block('조건·범위',48,True,'heading')
             if cur and used+height(h)+height(lines)>capacity:pages.append(cur);cur=[];used=0
