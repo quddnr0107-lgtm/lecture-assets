@@ -109,8 +109,129 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "existing_diagram_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-001/013-publication-review.json",
+        "source_line_spans": [
+          [
+            19,
+            41
+          ],
+          [
+            49,
+            71
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-001-D02-editorial-v1",
+      "lecture_id": "MS-001",
+      "lesson_number": 1,
+      "diagram_number": 2,
+      "title": "병역법 목적의 시험 구분",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 288,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-001/diagrams/MS-001-D02-editorial-v1.svg",
+          "bytes": 4572,
+          "sha256": "6b2c02bad9e218ede3b73ff0c71843f4e0d90d588ac9f3ddb9a2ae4d24a9b9b6"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-001/diagrams/MS-001-D02-editorial-v1.webp",
+          "bytes": 32226,
+          "sha256": "d16f675bf28de0726201216451b178a001f913bed3df0344d657c3070bf81299"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-001",
+        "title": "병역법 목적의 시험 구분",
+        "subtitle": "병역의무와 국방의무 / 국민과 남성",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "목적 조항",
+            "items": [
+              {
+                "label": "병역의무",
+                "text": "국방의무 전체가 아닌 병역의무",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "대한민국 국민",
+                "text": "국민인 남성으로 좁히지 않음",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "이웃 법률",
+                "text": "예비군법: 조직 / 통합방위법: 대응 체계",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "법령의 제정 주체",
+            "items": [
+              {
+                "label": "병역법",
+                "text": "국회",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "시행령",
+                "text": "대통령",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "시행규칙",
+                "text": "국방부장관",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "병역법의 목적: 대한민국 국민의 병역의무",
+        "source_keys": [],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            19,
+            45
+          ],
+          [
+            73,
+            84
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제1조, 목적",
+      "main_article": "병역법 제1조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-001",
+        "path": "docs/merged-lectures/병역법/본법_1.txt",
+        "git_blob_sha": "f28ae8d03a454f402157d3040628a872bcc969d7",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-001/013-publication-review.json",
+        "source_line_spans": [
+          [
+            19,
+            45
+          ],
+          [
+            73,
+            84
+          ]
+        ]
       }
     },
     {
@@ -29093,13 +29214,13 @@
     }
   ],
   "lesson_count": 166,
-  "diagram_count": 312,
+  "diagram_count": 313,
   "created_date_kst": "2026-11-27",
   "review_status": "existing_exam80_script_alignment_in_progress",
   "lecture_count": 166,
   "period": "27년 전반기",
   "requested_study_cutoff": "2027-02-02",
-  "source_basis_note": "제80회 기존 원고 기준. 기존 283장 중 20장 근거 확인, 263장 대조 대기. 전체 핵심 설명 검수 완료 13강, 신규 보완 29장 공개.",
+  "source_basis_note": "제80회 기존 원고 기준. 기존 283장 중 21장 근거 확인, 262장 대조 대기. 전체 핵심 설명 검수 완료 14강, 신규 보완 30장 공개.",
   "law_sources": [
     {
       "kind": "본법",
@@ -29141,22 +29262,22 @@
   ],
   "raster_encoding": "lossless WebP",
   "content_source": "military-service-act/editorial-content.json",
-  "content_source_sha256": "928d5df43e87c0fe5e6355b4ab63c8dc120c64a993cb9a15b0af4da89bf9e4b5",
+  "content_source_sha256": "2c1023e9936315e039c705e03f7c172f6c9d2f640cec6d1de6cbf14269eb3217",
   "playback_timing": "not_assigned",
   "scope": "military_service_act_all_166_lectures_core_diagrams",
-  "concept_diagram_count": 288,
+  "concept_diagram_count": 289,
   "previous_review_status": "content_and_layout_checked",
   "content_authority": "existing_exam80_lecture_scripts",
   "script_source_index": "military-service-act/script-sources-exam80.json",
   "exam_number": 80,
   "script_alignment": {
     "existing_pages": 283,
-    "verified_pages": 20,
-    "pending_pages": 263,
-    "complete_script_coverage_verified_lectures": 13,
+    "verified_pages": 21,
+    "pending_pages": 262,
+    "complete_script_coverage_verified_lectures": 14,
     "audit": "military-service-act/script-alignment-audit-exam80.json",
     "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
-    "published_supplement_pages": 29,
-    "total_published_pages": 312
+    "published_supplement_pages": 30,
+    "total_published_pages": 313
   }
 }

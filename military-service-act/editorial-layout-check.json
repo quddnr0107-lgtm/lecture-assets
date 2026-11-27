@@ -2049,6 +2049,18 @@
       "webp_sha256_verified": true,
       "bounds_valid": true,
       "method": "visual inspection and VP8L header"
+    },
+    {
+      "id": "MS-001-D02-editorial-v1",
+      "visual_review": "actual public draft WebP inspected; no clipping or overlapping observed",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp_verified_by_header": true,
+      "webp_sha256_verified": true,
+      "bounds_valid": true,
+      "method": "visual inspection and VP8L header"
     }
   ],
   "errors": []

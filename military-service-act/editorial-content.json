@@ -13091,5 +13091,66 @@
       ]
     ],
     "source_keys": []
+  },
+  {
+    "lecture_id": "MS-001",
+    "title": "병역법 목적의 시험 구분",
+    "subtitle": "병역의무와 국방의무 / 국민과 남성",
+    "layout": "compare",
+    "sections": [
+      {
+        "heading": "목적 조항",
+        "items": [
+          {
+            "label": "병역의무",
+            "text": "국방의무 전체가 아닌 병역의무",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "대한민국 국민",
+            "text": "국민인 남성으로 좁히지 않음",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "이웃 법률",
+            "text": "예비군법: 조직 / 통합방위법: 대응 체계",
+            "ref": "제80회 강의 원고"
+          }
+        ]
+      },
+      {
+        "heading": "법령의 제정 주체",
+        "items": [
+          {
+            "label": "병역법",
+            "text": "국회",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "시행령",
+            "text": "대통령",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "시행규칙",
+            "text": "국방부장관",
+            "ref": "제80회 강의 원고"
+          }
+        ]
+      }
+    ],
+    "takeaway": "병역법의 목적: 대한민국 국민의 병역의무",
+    "source_keys": [],
+    "content_authority": "existing_exam80_lecture_script",
+    "script_line_spans": [
+      [
+        19,
+        45
+      ],
+      [
+        73,
+        84
+      ]
+    ]
   }
 ]

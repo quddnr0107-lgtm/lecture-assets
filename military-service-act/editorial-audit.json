@@ -5,10 +5,10 @@
     "expected_lectures": 166,
     "actual_lectures": 166,
     "missing_lectures": [],
-    "content_diagrams": 288,
-    "rendered_diagrams": 312,
-    "vector_files": 312,
-    "lossless_webp_files": 312
+    "content_diagrams": 289,
+    "rendered_diagrams": 313,
+    "vector_files": 313,
+    "lossless_webp_files": 313
   },
   "layout": {
     "canvas": [
@@ -88,10 +88,10 @@
   ],
   "asset_sizes": {
     "webp_min_bytes": 25526,
-    "webp_median_bytes": 53250,
+    "webp_median_bytes": 53156,
     "webp_max_bytes": 74434,
-    "webp_total_bytes": 16196486,
-    "all_formats_total_bytes": 18245627
+    "webp_total_bytes": 16228712,
+    "all_formats_total_bytes": 18282425
   },
   "limitations": [
     "핵심 구조를 요약한 강의 보조 도식으로, 강의 대본 전체나 모든 항·호의 전문은 포함하지 않음",
@@ -105,25 +105,23 @@
     "fulltext_files_identity_verified": 166,
     "old_law_expansion_queue": "superseded",
     "replacement_queue_generation": 2,
-    "sample_script_aligned_pages": 18,
-    "remaining_script_alignment_pages": 265,
+    "sample_script_aligned_pages": 21,
+    "remaining_script_alignment_pages": 262,
     "past_law_review_is_not_full_script_alignment": true,
-    "completed_script_coverage_lectures": 11,
+    "completed_script_coverage_lectures": 14,
     "latest_reuse_evidence": [
-      "military-service-act/production-evidence/exam80-generation-2/MS-010/008-publication-review.json",
-      "military-service-act/production-evidence/exam80-generation-2/MS-117/008-publication-review.json",
-      "military-service-act/production-evidence/exam80-generation-2/MS-157/008-publication-review.json"
+      "military-service-act/production-evidence/exam80-generation-2/MS-001/013-publication-review.json"
     ]
   },
   "current_publication": {
-    "diagram_count": 312,
-    "concept_diagram_count": 288,
+    "diagram_count": 313,
+    "concept_diagram_count": 289,
     "existing_pages": 283,
-    "new_script_supplement_pages": 29,
-    "verified_existing_pages": 18,
-    "completed_lectures": 11,
+    "new_script_supplement_pages": 30,
+    "verified_existing_pages": 21,
+    "completed_lectures": 14,
     "evidence": [
-      "military-service-act/production-evidence/exam80-generation-2/MS-109/010-publication-review.json"
+      "military-service-act/production-evidence/exam80-generation-2/MS-001/013-publication-review.json"
     ]
   }
 }

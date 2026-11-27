@@ -1,0 +1,85 @@
+{
+  "lecture_id": "MS-001",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_1.txt",
+  "script_git_blob_sha": "f28ae8d03a454f402157d3040628a872bcc969d7",
+  "full_script_read": true,
+  "script_line_count": 89,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        [
+          19,
+          41
+        ],
+        [
+          49,
+          71
+        ]
+      ],
+      "diagram": "MS-001-D01-editorial-v1",
+      "topic": "목적 및 위임 관계"
+    },
+    {
+      "lines": [
+        [
+          19,
+          45
+        ],
+        [
+          73,
+          84
+        ]
+      ],
+      "diagram": "MS-001-D02-editorial-v1",
+      "topic": "오답 구분 및 법령 제정 주체"
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-001-D01-editorial-v1"
+  ],
+  "decision": {
+    "outcome": "added_missing",
+    "reason": "기존 목적·위임 설명과 신규 시험 구분·제정 주체로 핵심 범위 대응. 반복 비유 별도 제작 불필요."
+  },
+  "changed_artifacts_and_hashes": [
+    {
+      "id": "MS-001-D02-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-001/diagrams/MS-001-D02-editorial-v1.svg",
+          "bytes": 4572,
+          "sha256": "6b2c02bad9e218ede3b73ff0c71843f4e0d90d588ac9f3ddb9a2ae4d24a9b9b6"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-001/diagrams/MS-001-D02-editorial-v1.webp",
+          "bytes": 32226,
+          "sha256": "d16f675bf28de0726201216451b178a001f913bed3df0344d657c3070bf81299"
+        }
+      },
+      "git_blob_shas": {
+        "svg": "7811eb7cb00b1f9dd23e365583ac0cafa25dc70c",
+        "webp": "2a1905416d448ef2d53a9574e4f88a752849fbbb"
+      }
+    }
+  ],
+  "verified_existing_assets": {
+    "svg": {
+      "path": "military-service-act/lesson-001/diagrams/MS-001-D01-editorial-v1.svg",
+      "bytes": 5907,
+      "sha256": "8cde55d93d0f400746639367f0ab74fe876cdb7819fbf72eecf1c58a27015194"
+    },
+    "webp": {
+      "path": "military-service-act/lesson-001/diagrams/MS-001-D01-editorial-v1.webp",
+      "bytes": 39314,
+      "sha256": "0f638df1361aba64530c92f2487e4afa7136592af6135e164b495d1fb58a79da"
+    }
+  },
+  "previous_evidence_sha256": null,
+  "publication_commit_or_null": null,
+  "publication_parent": "37f285a236e23db038b129a5b9364fb6134a4da1",
+  "reviewed_date_kst": "2026-11-28",
+  "visual_review": "D01·D02 실제 공개 WebP 화면 확인, 잘림·겹침 없음. D02 VP8L 및 SHA-256 재계산; D01 기존 목록의 해시 참조."
+}

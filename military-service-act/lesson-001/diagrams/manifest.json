@@ -3,7 +3,7 @@
   "subject": "military-service-act",
   "lecture_id": "MS-001",
   "lecture_title": "병역법 제1조, 목적",
-  "diagram_count": 1,
+  "diagram_count": 2,
   "canvas": [
     1600,
     1120
@@ -109,8 +109,129 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "existing_diagram_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-001/013-publication-review.json",
+        "source_line_spans": [
+          [
+            19,
+            41
+          ],
+          [
+            49,
+            71
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-001-D02-editorial-v1",
+      "lecture_id": "MS-001",
+      "lesson_number": 1,
+      "diagram_number": 2,
+      "title": "병역법 목적의 시험 구분",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 288,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-001/diagrams/MS-001-D02-editorial-v1.svg",
+          "bytes": 4572,
+          "sha256": "6b2c02bad9e218ede3b73ff0c71843f4e0d90d588ac9f3ddb9a2ae4d24a9b9b6"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-001/diagrams/MS-001-D02-editorial-v1.webp",
+          "bytes": 32226,
+          "sha256": "d16f675bf28de0726201216451b178a001f913bed3df0344d657c3070bf81299"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-001",
+        "title": "병역법 목적의 시험 구분",
+        "subtitle": "병역의무와 국방의무 / 국민과 남성",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "목적 조항",
+            "items": [
+              {
+                "label": "병역의무",
+                "text": "국방의무 전체가 아닌 병역의무",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "대한민국 국민",
+                "text": "국민인 남성으로 좁히지 않음",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "이웃 법률",
+                "text": "예비군법: 조직 / 통합방위법: 대응 체계",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "법령의 제정 주체",
+            "items": [
+              {
+                "label": "병역법",
+                "text": "국회",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "시행령",
+                "text": "대통령",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "시행규칙",
+                "text": "국방부장관",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "병역법의 목적: 대한민국 국민의 병역의무",
+        "source_keys": [],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            19,
+            45
+          ],
+          [
+            73,
+            84
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제1조, 목적",
+      "main_article": "병역법 제1조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-001",
+        "path": "docs/merged-lectures/병역법/본법_1.txt",
+        "git_blob_sha": "f28ae8d03a454f402157d3040628a872bcc969d7",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-001/013-publication-review.json",
+        "source_line_spans": [
+          [
+            19,
+            45
+          ],
+          [
+            73,
+            84
+          ]
+        ]
       }
     }
   ],
@@ -120,8 +241,10 @@
   "script_git_blob_sha": "f28ae8d03a454f402157d3040628a872bcc969d7",
   "exam_number": 80,
   "script_alignment": {
-    "verified_existing_pages": 0,
-    "pending_existing_pages": 1,
-    "complete_script_coverage": "pending"
+    "verified_existing_pages": 1,
+    "pending_existing_pages": 0,
+    "complete_script_coverage": "verified",
+    "published_supplement_pages": 1,
+    "full_lecture_complete": true
   }
 }

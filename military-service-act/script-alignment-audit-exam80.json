@@ -343,6 +343,40 @@
       },
       "required_content_changes": [],
       "evidence": "military-service-act/production-evidence/exam80-generation-2/MS-049/001-502ad3e8e7009e757fd46eb3a1c768c3ba211a9a010a556415ffabe2ad460959.json"
+    },
+    {
+      "diagram_id": "MS-001-D01-editorial-v1",
+      "lecture_id": "MS-001",
+      "title": "병역법령의 목적",
+      "status": "script_alignment_verified",
+      "comparison": "semantic paraphrase",
+      "script_path": "docs/merged-lectures/병역법/본법_1.txt",
+      "script_git_blob_sha": "f28ae8d03a454f402157d3040628a872bcc969d7",
+      "source_line_spans": [
+        [
+          19,
+          41
+        ],
+        [
+          49,
+          71
+        ]
+      ],
+      "conclusion": "기존 목적·위임 설명과 신규 시험 구분·제정 주체로 핵심 범위 대응. 반복 비유 별도 제작 불필요.",
+      "existing_files": {
+        "svg": {
+          "path": "military-service-act/lesson-001/diagrams/MS-001-D01-editorial-v1.svg",
+          "bytes": 5907,
+          "sha256": "8cde55d93d0f400746639367f0ab74fe876cdb7819fbf72eecf1c58a27015194"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-001/diagrams/MS-001-D01-editorial-v1.webp",
+          "bytes": 39314,
+          "sha256": "0f638df1361aba64530c92f2487e4afa7136592af6135e164b495d1fb58a79da"
+        }
+      },
+      "required_content_changes": [],
+      "evidence": "military-service-act/production-evidence/exam80-generation-2/MS-001/013-publication-review.json"
     }
   ],
   "cross_reference_note": {
@@ -436,21 +470,23 @@
   "automatic_run_added_images": 0,
   "latest_supplement_publication": {
     "lecture_ids": [
-      "MS-109"
+      "MS-001"
     ],
-    "published_pages": 4,
+    "published_pages": 1,
     "corrected_pages": 0,
-    "cumulative_published_supplement_pages": 29,
+    "cumulative_published_supplement_pages": 30,
     "evidence": [
-      "military-service-act/production-evidence/exam80-generation-2/MS-109/010-publication-review.json"
+      "military-service-act/production-evidence/exam80-generation-2/MS-001/013-publication-review.json"
     ],
-    "full_lecture_complete": false,
-    "completed_lectures": []
+    "full_lecture_complete": true,
+    "completed_lectures": [
+      "MS-001"
+    ]
   },
   "current_review_totals": {
-    "verified_existing_pages": 20,
-    "pending_existing_pages": 263,
-    "completed_lectures": 13,
-    "published_pages": 312
+    "verified_existing_pages": 21,
+    "pending_existing_pages": 262,
+    "completed_lectures": 14,
+    "published_pages": 313
   }
 }

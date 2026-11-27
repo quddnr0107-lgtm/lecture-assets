@@ -1,0 +1,65 @@
+{
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "reviewed_date_kst": "2026-11-28",
+  "publication_parent": "37f285a236e23db038b129a5b9364fb6134a4da1",
+  "previous_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-12.json",
+  "published": [
+    "MS-001-D02-editorial-v1"
+  ],
+  "remaining": [
+    {
+      "id": "MS-109-D09-editorial-v1",
+      "lecture_id": "MS-109",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-109/restriction-grounds-and-exceptions-revised.svg",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "visual_review": "실제 공개 WebP 화면 확인, 한글 잘림·겹침 없음",
+      "decision": "보류: 복무 중 제외 적용 범위 원고 불명확"
+    },
+    {
+      "id": "MS-109-D14-editorial-v1",
+      "lecture_id": "MS-109",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-109/travel-authority-and-notification.svg",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "visual_review": "실제 공개 WebP 화면 확인, 한글 잘림·겹침 없음",
+      "decision": "원고 및 시각검수 통과, 정식 목록 통합 대기"
+    },
+    {
+      "id": "MS-065-D02-editorial-v1",
+      "lecture_id": "MS-065",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/doctor-document-forms.svg",
+      "script_git_blob_sha": "74c8bb42ce2c144513f61ff341683c2c94c9fc98",
+      "visual_review": "실제 공개 WebP 화면 확인, 한글 잘림·겹침 없음",
+      "decision": "원고 및 시각검수 통과, 정식 목록 통합 대기"
+    },
+    {
+      "id": "MS-065-D03-editorial-v1",
+      "lecture_id": "MS-065",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-records.svg",
+      "script_git_blob_sha": "74c8bb42ce2c144513f61ff341683c2c94c9fc98",
+      "visual_review": "실제 공개 WebP 화면 확인, 한글 잘림·겹침 없음",
+      "decision": "교정: 개별복무 예외에 병역지정업체 밖의 업체 범위 명시"
+    },
+    {
+      "id": "MS-065-D04-editorial-v1",
+      "lecture_id": "MS-065",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-selection-entry.svg",
+      "script_git_blob_sha": "74c8bb42ce2c144513f61ff341683c2c94c9fc98",
+      "visual_review": "실제 공개 WebP 화면 확인, 한글 잘림·겹침 없음",
+      "decision": "원고 및 시각검수 통과, 정식 목록 통합 대기"
+    },
+    {
+      "id": "MS-065-D05-editorial-v1",
+      "lecture_id": "MS-065",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-service-end.svg",
+      "script_git_blob_sha": "74c8bb42ce2c144513f61ff341683c2c94c9fc98",
+      "visual_review": "실제 공개 WebP 화면 확인, 한글 잘림·겹침 없음",
+      "decision": "교정: 구제신청서와 소송서류 모두 사본임을 명시"
+    }
+  ],
+  "notes": [
+    "65강 D01은 원고 청문 주체·의무와 일치하나 청문/심문 비교 및 추가 서식 범위 확인 필요",
+    "별도 신규 법령 근거 없음"
+  ]
+}
