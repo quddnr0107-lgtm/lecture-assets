@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-28T07:30:14+09:00",
+  "updated_at": "2026-11-28T08:24:10+09:00",
   "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
     "status": "files_completed",
@@ -66,7 +66,19 @@
     ]
   },
   "state": {
-    "active_run": null,
+    "active_run": {
+      "id": "dr-20261128-082410-script",
+      "started_at": "2026-11-28T08:24:10+09:00",
+      "claimed_at": "2026-11-28T08:24:10+09:00",
+      "lease_expires_at": "2026-11-28T10:24:10+09:00",
+      "lesson_ids": [
+        "DR-009",
+        "DR-067",
+        "DR-002"
+      ],
+      "worker_count": 1,
+      "mode": "targeted_render"
+    },
     "last_successful_run": {
       "id": "dr-20261128-062514-script",
       "render_commit": "e8a97783ed7ed331fe15da1e1e76b92266ab734a",
@@ -96,7 +108,7 @@
     "production_jobs_queued": 0,
     "production_jobs_qa": 0,
     "production_jobs_completed": 109,
-    "production_jobs_running": 0
+    "production_jobs_running": 14
   },
   "jobs": [
     {
@@ -381,7 +393,19 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "scope": "기존 스크립트 전문의 주요 설명 및 기존 구조화 도식 대조",
+        "full_review_completed": false,
+        "source_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+        "source_git_blob": "3ecda6a43480e8512f969ce798eeb05611a91527",
+        "uncovered_required_learning_objectives": [
+          "도서 통합 조건과 접적도서 예외 정확화",
+          "동원지정·미지정 소대의 별도 편성 대상 대응",
+          "기동대 편성 및 감시정찰반 설치 조건"
+        ],
+        "additional_diagrams_required": false,
+        "visual_qa": "수정·신규 렌더 및 실물 검수 필요"
+      },
       "script_ref": "DR-009",
       "script_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
       "confirmed_production_job_ids": [
@@ -421,7 +445,23 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "scope": "기존 스크립트 전문의 주요 설명 및 기존 구조화 도식 대조",
+        "full_review_completed": false,
+        "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+        "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+        "uncovered_required_learning_objectives": [
+          "기간제 교사 재계약·학생 보류 기간 조건",
+          "보류원서 대리 제출과 직권 처리 조건",
+          "질병 보류 두 심의 사유 구분",
+          "병역처분 변경 근거와 별도 보류 대상 정확화",
+          "보류해소 신고·전산입력 기한과 휴직·휴학·외항선원 비교",
+          "보류 대상 훈련 차수와 신분 상실 후 부과 시점",
+          "보류자 관리·전출입 문서 처리 비교"
+        ],
+        "additional_diagrams_required": true,
+        "visual_qa": "수정·신규 렌더 및 실물 검수 필요"
+      },
       "script_ref": "DR-067",
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "confirmed_production_job_ids": [
@@ -619,7 +659,20 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "scope": "기존 스크립트 전문의 주요 설명 및 기존 구조화 도식 대조",
+        "full_review_completed": false,
+        "source_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+        "source_git_blob": "1fdb1e871dd507b7eafff5be6be788eb00abc150",
+        "uncovered_required_learning_objectives": [
+          "지역대 본부 설치 장소와 중간 지휘제대 명확화",
+          "관리대대장 정의의 해군·해병대 단서",
+          "권한 위임과 자료 공유 출발점 구분",
+          "별표 1 수임군부대장 현황 및 숫자 구분"
+        ],
+        "additional_diagrams_required": true,
+        "visual_qa": "수정·신규 렌더 및 실물 검수 필요"
+      },
       "script_ref": "DR-002",
       "script_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
       "confirmed_production_job_ids": [
@@ -9372,6 +9425,476 @@
       "completed_at": "2026-11-28T07:30:14+09:00",
       "render_commit": "e8a97783ed7ed331fe15da1e1e76b92266ab734a",
       "webp_git_blob": "1eb88d1c205818853cf2d9b1c19614f9ad59ddfb"
+    },
+    {
+      "id": "DR-009-D02-script-082410",
+      "lesson_id": "DR-009",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-009-D02",
+      "learning_objective": "도서 통합 조건과 접적도서 예외 정확화",
+      "script_ref": "DR-009",
+      "script_section": "75,91,97,111,119,131",
+      "script_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-009|dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9|75,91,97,111,119,131|도서 통합 조건과 접적도서 예외 정확화|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-9.txt",
+          "source_git_blob": "3ecda6a43480e8512f969ce798eeb05611a91527",
+          "source_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+          "line_numbers": [
+            75,
+            91,
+            97,
+            111,
+            119,
+            131
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-082410-script",
+      "claimed_at": "2026-11-28T08:24:10+09:00",
+      "lease_expires_at": "2026-11-28T10:24:10+09:00",
+      "finding": "도서 통합의 구체적 고려요소 누락",
+      "required_change": "도서 통합 조건과 접적도서 예외 정확화"
+    },
+    {
+      "id": "DR-009-D03-script-082410",
+      "lesson_id": "DR-009",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-009-D03",
+      "learning_objective": "동원지정·미지정 소대의 별도 편성 대상 대응",
+      "script_ref": "DR-009",
+      "script_section": "137,141,153,165,195,207",
+      "script_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-009|dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9|137,141,153,165,195,207|동원지정·미지정 소대의 별도 편성 대상 대응|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-9.txt",
+          "source_git_blob": "3ecda6a43480e8512f969ce798eeb05611a91527",
+          "source_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+          "line_numbers": [
+            137,
+            141,
+            153,
+            165,
+            195,
+            207
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-082410-script",
+      "claimed_at": "2026-11-28T08:24:10+09:00",
+      "lease_expires_at": "2026-11-28T10:24:10+09:00",
+      "finding": "별도 소대의 대응 관계와 편성방법 불명확",
+      "required_change": "동원지정·미지정 소대의 별도 편성 대상 대응"
+    },
+    {
+      "id": "DR-009-D05-script-082410",
+      "lesson_id": "DR-009",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-009-D05",
+      "learning_objective": "기동대 편성 및 감시정찰반 설치 조건",
+      "script_ref": "DR-009",
+      "script_section": "217,219,221,225,235,241",
+      "script_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-009|dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9|217,219,221,225,235,241|기동대 편성 및 감시정찰반 설치 조건|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-9.txt",
+          "source_git_blob": "3ecda6a43480e8512f969ce798eeb05611a91527",
+          "source_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+          "line_numbers": [
+            217,
+            219,
+            221,
+            225,
+            235,
+            241
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-082410-script",
+      "claimed_at": "2026-11-28T08:24:10+09:00",
+      "lease_expires_at": "2026-11-28T10:24:10+09:00",
+      "finding": "감시정찰반의 설치 주체 및 조건 누락",
+      "required_change": "기동대 편성 및 감시정찰반 설치 조건"
+    },
+    {
+      "id": "DR-067-D02-script-082410",
+      "lesson_id": "DR-067",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-067-D02",
+      "learning_objective": "기간제 교사 재계약·학생 보류 기간 조건",
+      "script_ref": "DR-067",
+      "script_section": "85,97,115,117,119",
+      "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|85,97,115,117,119|기간제 교사 재계약·학생 보류 기간 조건|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
+          "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+          "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+          "line_numbers": [
+            85,
+            97,
+            115,
+            117,
+            119
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-082410-script",
+      "claimed_at": "2026-11-28T08:24:10+09:00",
+      "lease_expires_at": "2026-11-28T10:24:10+09:00",
+      "finding": "학생·기간제 교사 기간 산정과 수업연한 초과 조건 불충분",
+      "required_change": "기간제 교사 재계약·학생 보류 기간 조건"
+    },
+    {
+      "id": "DR-067-D03-script-082410",
+      "lesson_id": "DR-067",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-067-D03",
+      "learning_objective": "보류원서 대리 제출과 직권 처리 조건",
+      "script_ref": "DR-067",
+      "script_section": "63,125,127",
+      "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|63,125,127|보류원서 대리 제출과 직권 처리 조건|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
+          "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+          "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+          "line_numbers": [
+            63,
+            125,
+            127
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-082410-script",
+      "claimed_at": "2026-11-28T08:24:10+09:00",
+      "lease_expires_at": "2026-11-28T10:24:10+09:00",
+      "finding": "대리 제출 주체·증명서 제한·학적 및 출입국 확인 누락",
+      "required_change": "보류원서 대리 제출과 직권 처리 조건"
+    },
+    {
+      "id": "DR-067-D07-script-082410",
+      "lesson_id": "DR-067",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-067-D07",
+      "learning_objective": "질병 보류 두 심의 사유 구분",
+      "script_ref": "DR-067",
+      "script_section": "97,101,109,113",
+      "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|97,101,109,113|질병 보류 두 심의 사유 구분|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
+          "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+          "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+          "line_numbers": [
+            97,
+            101,
+            109,
+            113
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-082410-script",
+      "claimed_at": "2026-11-28T08:24:10+09:00",
+      "lease_expires_at": "2026-11-28T10:24:10+09:00",
+      "finding": "군의관 포함 5명 이상 심의와 치료기간 기재 불가 심의 혼재",
+      "required_change": "질병 보류 두 심의 사유 구분"
+    },
+    {
+      "id": "DR-067-D08-script-082410",
+      "lesson_id": "DR-067",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-067-D08",
+      "learning_objective": "병역처분 변경 근거와 별도 보류 대상 정확화",
+      "script_ref": "DR-067",
+      "script_section": "131,133,139,141",
+      "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|131,133,139,141|병역처분 변경 근거와 별도 보류 대상 정확화|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
+          "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+          "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+          "line_numbers": [
+            131,
+            133,
+            139,
+            141
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-082410-script",
+      "claimed_at": "2026-11-28T08:24:10+09:00",
+      "lease_expires_at": "2026-11-28T10:24:10+09:00",
+      "finding": "병역법 조문 번호와 현역복무부적합 조건 누락",
+      "required_change": "병역처분 변경 근거와 별도 보류 대상 정확화"
+    },
+    {
+      "id": "DR-067-D09-script-082410",
+      "lesson_id": "DR-067",
+      "type": "script_coverage_new",
+      "target_diagram_id": "DR-067-D09",
+      "learning_objective": "보류해소 신고·전산입력 기한과 휴직·휴학·외항선원 비교",
+      "script_ref": "DR-067",
+      "script_section": "147,151,153,161,163,165,169,181",
+      "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|147,151,153,161,163,165,169,181|보류해소 신고·전산입력 기한과 휴직·휴학·외항선원 비교|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
+          "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+          "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+          "line_numbers": [
+            147,
+            151,
+            153,
+            161,
+            163,
+            165,
+            169,
+            181
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-082410-script",
+      "claimed_at": "2026-11-28T08:24:10+09:00",
+      "lease_expires_at": "2026-11-28T10:24:10+09:00",
+      "finding": "보류해소 절차 시험 핵심 누락",
+      "required_change": "보류해소 신고·전산입력 기한과 휴직·휴학·외항선원 비교"
+    },
+    {
+      "id": "DR-067-D10-script-082410",
+      "lesson_id": "DR-067",
+      "type": "script_coverage_new",
+      "target_diagram_id": "DR-067-D10",
+      "learning_objective": "보류 대상 훈련 차수와 신분 상실 후 부과 시점",
+      "script_ref": "DR-067",
+      "script_section": "187,189,197,199,201",
+      "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|187,189,197,199,201|보류 대상 훈련 차수와 신분 상실 후 부과 시점|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
+          "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+          "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+          "line_numbers": [
+            187,
+            189,
+            197,
+            199,
+            201
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-082410-script",
+      "claimed_at": "2026-11-28T08:24:10+09:00",
+      "lease_expires_at": "2026-11-28T10:24:10+09:00",
+      "finding": "1·2차 한정 및 신분 상실 시점 비교 누락",
+      "required_change": "보류 대상 훈련 차수와 신분 상실 후 부과 시점"
+    },
+    {
+      "id": "DR-067-D11-script-082410",
+      "lesson_id": "DR-067",
+      "type": "script_coverage_new",
+      "target_diagram_id": "DR-067-D11",
+      "learning_objective": "보류자 관리·전출입 문서 처리 비교",
+      "script_ref": "DR-067",
+      "script_section": "215,217,221,229,233",
+      "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|215,217,221,229,233|보류자 관리·전출입 문서 처리 비교|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
+          "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+          "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+          "line_numbers": [
+            215,
+            217,
+            221,
+            229,
+            233
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-082410-script",
+      "claimed_at": "2026-11-28T08:24:10+09:00",
+      "lease_expires_at": "2026-11-28T10:24:10+09:00",
+      "finding": "분기 확인 및 전출입 사본·재송부 규칙 누락",
+      "required_change": "보류자 관리·전출입 문서 처리 비교"
+    },
+    {
+      "id": "DR-002-D03-script-082410",
+      "lesson_id": "DR-002",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-002-D03",
+      "learning_objective": "지역대 본부 설치 장소와 중간 지휘제대 명확화",
+      "script_ref": "DR-002",
+      "script_section": "95,97,109,113,123,127,139",
+      "script_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-002|8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e|95,97,109,113,123,127,139|지역대 본부 설치 장소와 중간 지휘제대 명확화|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-2.txt",
+          "source_git_blob": "1fdb1e871dd507b7eafff5be6be788eb00abc150",
+          "source_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+          "line_numbers": [
+            95,
+            97,
+            109,
+            113,
+            123,
+            127,
+            139
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-082410-script",
+      "claimed_at": "2026-11-28T08:24:10+09:00",
+      "lease_expires_at": "2026-11-28T10:24:10+09:00",
+      "finding": "본부 설치 위치와 상하 제대 누락",
+      "required_change": "지역대 본부 설치 장소와 중간 지휘제대 명확화"
+    },
+    {
+      "id": "DR-002-D04-script-082410",
+      "lesson_id": "DR-002",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-002-D04",
+      "learning_objective": "관리대대장 정의의 해군·해병대 단서",
+      "script_ref": "DR-002",
+      "script_section": "69,89,145,161,177,189",
+      "script_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-002|8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e|69,89,145,161,177,189|관리대대장 정의의 해군·해병대 단서|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-2.txt",
+          "source_git_blob": "1fdb1e871dd507b7eafff5be6be788eb00abc150",
+          "source_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+          "line_numbers": [
+            69,
+            89,
+            145,
+            161,
+            177,
+            189
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-082410-script",
+      "claimed_at": "2026-11-28T08:24:10+09:00",
+      "lease_expires_at": "2026-11-28T10:24:10+09:00",
+      "finding": "기본 단위 부대 및 관리대장 포함 단서 누락",
+      "required_change": "관리대대장 정의의 해군·해병대 단서"
+    },
+    {
+      "id": "DR-002-D05-script-082410",
+      "lesson_id": "DR-002",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-002-D05",
+      "learning_objective": "권한 위임과 자료 공유 출발점 구분",
+      "script_ref": "DR-002",
+      "script_section": "193,197,199,205,221,235,239,241",
+      "script_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-002|8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e|193,197,199,205,221,235,239,241|권한 위임과 자료 공유 출발점 구분|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-2.txt",
+          "source_git_blob": "1fdb1e871dd507b7eafff5be6be788eb00abc150",
+          "source_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+          "line_numbers": [
+            193,
+            197,
+            199,
+            205,
+            221,
+            235,
+            239,
+            241
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-082410-script",
+      "claimed_at": "2026-11-28T08:24:10+09:00",
+      "lease_expires_at": "2026-11-28T10:24:10+09:00",
+      "finding": "정보 공유 출발점 국방부 누락",
+      "required_change": "권한 위임과 자료 공유 출발점 구분"
+    },
+    {
+      "id": "DR-002-D06-script-082410",
+      "lesson_id": "DR-002",
+      "type": "script_coverage_new",
+      "target_diagram_id": "DR-002-D06",
+      "learning_objective": "별표 1 수임군부대장 현황 및 숫자 구분",
+      "script_ref": "DR-002",
+      "script_section": "145,163,165,167,171",
+      "script_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-002|8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e|145,163,165,167,171|별표 1 수임군부대장 현황 및 숫자 구분|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-2.txt",
+          "source_git_blob": "1fdb1e871dd507b7eafff5be6be788eb00abc150",
+          "source_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+          "line_numbers": [
+            145,
+            163,
+            165,
+            167,
+            171
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-082410-script",
+      "claimed_at": "2026-11-28T08:24:10+09:00",
+      "lease_expires_at": "2026-11-28T10:24:10+09:00",
+      "finding": "기출에서 다룬 별표 1 명단 도식 누락",
+      "required_change": "별표 1 수임군부대장 현황 및 숫자 구분"
     }
   ],
   "runs": [
