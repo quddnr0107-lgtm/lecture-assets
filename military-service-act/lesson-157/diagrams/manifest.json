@@ -3,7 +3,7 @@
   "subject": "military-service-act",
   "lecture_id": "MS-157",
   "lecture_title": "병역법 제91조, 허위증명서 등의 발급",
-  "diagram_count": 1,
+  "diagram_count": 2,
   "canvas": [
     1600,
     1120
@@ -93,8 +93,137 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "full_script_coverage_review",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-157/008-publication-review.json",
+        "source_line_spans": [
+          [
+            19,
+            29
+          ],
+          [
+            53,
+            75
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-157-D02-editorial-v1",
+      "lecture_id": "MS-157",
+      "lesson_number": 157,
+      "diagram_number": 2,
+      "title": "병역 면탈과 허위증명서 발급",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 283,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-157/diagrams/MS-157-D02-editorial-v1.svg",
+          "bytes": 5489,
+          "sha256": "603d9177e49c074a834778cf65938e83b4280d0920fe3126be9193a959a23849"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-157/diagrams/MS-157-D02-editorial-v1.webp",
+          "bytes": 48488,
+          "sha256": "3c63db97d968c85c7131a9678b9f503b8858abb177883ee2228de7d4cf4173eb"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-157",
+        "title": "병역 면탈과 허위증명서 발급",
+        "subtitle": "징역 상한 5년과 10년의 구분",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "제86조  본인의 면탈",
+            "items": [
+              {
+                "label": "행위의 예",
+                "text": "도망·신체손상·속임수",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "목적",
+                "text": "병역의무 기피 또는 감면",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "징역",
+                "text": "1년 이상 5년 이하",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "제91조  허위증명서",
+            "items": [
+              {
+                "label": "주체와 행위",
+                "text": "공무원·의사·치과의사 거짓 서류·증명서·진단서 발급",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "목적과 결과",
+                "text": "연기·면제·복무기간 단축 목적 실제 면제 등 결과는 불필요",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "징역 및 자격정지",
+                "text": "1년 이상 10년 이하 징역 10년 이하 자격정지 병과 가능",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "제86조 5년 / 제91조 10년 · 실제 면제되지 않아도 발급으로 성립",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            19,
+            29
+          ],
+          [
+            35,
+            49
+          ],
+          [
+            53,
+            75
+          ]
+        ],
+        "source_keys": []
+      },
+      "lecture_title": "병역법 제91조, 허위증명서 등의 발급",
+      "main_article": "병역법 제91조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-157",
+        "path": "docs/merged-lectures/병역법/본법_91.txt",
+        "git_blob_sha": "727888ecbcc939f6dc1053e1f20c2d216fd54182",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-157/008-publication-review.json",
+        "source_line_spans": [
+          [
+            19,
+            29
+          ],
+          [
+            35,
+            49
+          ],
+          [
+            53,
+            75
+          ]
+        ]
       }
     }
   ],
@@ -104,8 +233,9 @@
   "script_git_blob_sha": "727888ecbcc939f6dc1053e1f20c2d216fd54182",
   "exam_number": 80,
   "script_alignment": {
-    "verified_existing_pages": 0,
-    "pending_existing_pages": 1,
-    "complete_script_coverage": "pending"
+    "verified_existing_pages": 1,
+    "pending_existing_pages": 0,
+    "complete_script_coverage": "verified",
+    "published_supplement_pages": 1
   }
 }

@@ -88,18 +88,7 @@
     "parallelism": "maximum_actual_available",
     "worker_limit": "현재 런타임에서 실제로 허용되는 가용 슬롯 수",
     "coordinator": "single_writer",
-    "coordinator_lease": {
-      "owner": "exam80-ms-checkpoint08",
-      "generation": 2,
-      "claimed_at_kst": "2026-11-27T21:48:38+09:00",
-      "expires_at_kst": "2026-11-27T22:45:00+09:00",
-      "lecture_ids": [
-        "MS-010",
-        "MS-077",
-        "MS-117",
-        "MS-157"
-      ]
-    },
+    "coordinator_lease": null,
     "priority_lectures": [
       "MS-077",
       "MS-094",
@@ -481,8 +470,8 @@
       "title": "병역법 제8조, 병역준비역 편입",
       "priority": 2,
       "generation": 2,
-      "status": "reviewing",
-      "script_alignment_status": "script_alignment_pending",
+      "status": "completed",
+      "script_alignment_status": "script_alignment_verified",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_8.txt",
         "script_git_blob_sha": "3212a7c3a553fd2344d7598ed127a3865932bca0"
@@ -491,38 +480,29 @@
         "MS-010-D01-editorial-v1"
       ],
       "full_script_read": true,
-      "lease": {
-        "owner": "exam80-ms-checkpoint08",
-        "generation": 2,
-        "claimed_at_kst": "2026-11-27T21:48:38+09:00",
-        "expires_at_kst": "2026-11-27T22:45:00+09:00",
-        "lecture_ids": [
-          "MS-010",
-          "MS-077",
-          "MS-117",
-          "MS-157"
-        ]
-      },
-      "checkpoint": 7,
+      "lease": null,
+      "checkpoint": 8,
       "evidence_refs": [
-        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json"
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json",
+        "military-service-act/production-evidence/exam80-generation-2/MS-010/008-publication-review.json"
       ],
-      "outcome": null,
+      "outcome": "added_missing",
       "changed_diagram_ids": [],
-      "new_diagram_ids": [],
+      "new_diagram_ids": [
+        "MS-010-D02-editorial-v1"
+      ],
       "previously_verified_existing_diagram_ids": [],
       "script_fulltext_retrieved": true,
-      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json",
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/MS-010/008-publication-review.json",
       "draft_preview_paths": [
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-010/automatic-entry-calendar.svg"
       ],
-      "pending_draft_targets": [
-        {
-          "id": "MS-010-D02-editorial-v1",
-          "kind": "new",
-          "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-010/automatic-entry-calendar.svg"
-        }
-      ]
+      "pending_draft_targets": [],
+      "verified_existing_diagram_ids": [
+        "MS-010-D01-editorial-v1"
+      ],
+      "completed_date_kst": "2026-11-27",
+      "evidence_sha256": "a71628e8a1e7f409bafa8e894db8b552078501b74d26e8154aa59120d095918e"
     },
     {
       "lecture_id": "MS-011",
@@ -2119,7 +2099,7 @@
       "title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
       "priority": 1,
       "generation": 2,
-      "status": "reviewing",
+      "status": "pending",
       "script_alignment_status": "script_alignment_pending",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_41.txt",
@@ -2130,27 +2110,19 @@
         "MS-077-D02-editorial-v1"
       ],
       "full_script_read": true,
-      "lease": {
-        "owner": "exam80-ms-checkpoint08",
-        "generation": 2,
-        "claimed_at_kst": "2026-11-27T21:48:38+09:00",
-        "expires_at_kst": "2026-11-27T22:45:00+09:00",
-        "lecture_ids": [
-          "MS-010",
-          "MS-077",
-          "MS-117",
-          "MS-157"
-        ]
-      },
-      "checkpoint": 7,
+      "lease": null,
+      "checkpoint": 8,
       "evidence_refs": [
         "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-04-visual-review.json",
         "military-service-act/production-evidence/exam80-generation-2/MS-077/006-publication-review.json",
-        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json"
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json",
+        "military-service-act/production-evidence/exam80-generation-2/MS-077/008-publication-review.json"
       ],
       "outcome": null,
-      "changed_diagram_ids": [],
+      "changed_diagram_ids": [
+        "MS-077-D05-editorial-v1"
+      ],
       "new_diagram_ids": [
         "MS-077-D03-editorial-v1",
         "MS-077-D04-editorial-v1",
@@ -2161,13 +2133,15 @@
         "MS-077-D09-editorial-v1",
         "MS-077-D10-editorial-v1",
         "MS-077-D11-editorial-v1",
-        "MS-077-D12-editorial-v1"
+        "MS-077-D12-editorial-v1",
+        "MS-077-D13-editorial-v1",
+        "MS-077-D14-editorial-v1"
       ],
       "previously_verified_existing_diagram_ids": [
         "MS-077-D01-editorial-v1",
         "MS-077-D02-editorial-v1"
       ],
-      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json",
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/MS-077/008-publication-review.json",
       "draft_preview_paths": [
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-077/two-30-day-rules.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-077/transfer.svg",
@@ -2186,28 +2160,13 @@
       ],
       "script_fulltext_retrieved": true,
       "partial_publication": {
-        "published_supplements": 10,
-        "review_ref": "military-service-act/production-evidence/exam80-generation-2/MS-077/006-publication-review.json",
+        "published_supplements": 12,
+        "review_ref": "military-service-act/production-evidence/exam80-generation-2/MS-077/008-publication-review.json",
         "published_asset_source_commit": "dad67d12bd8b421ba54e01dca0b421bbfbe13a16",
-        "remaining": "전체 원고 핵심 설명 누락 및 기존 도식 대응 최종 대조"
+        "remaining": "전체 원고 핵심 설명과 모든 기존 도식의 최종 범위 대조"
       },
-      "pending_draft_targets": [
-        {
-          "id": "MS-077-D13-editorial-v1",
-          "kind": "new",
-          "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/cancellation-eight-grounds.svg"
-        },
-        {
-          "id": "MS-077-D14-editorial-v1",
-          "kind": "new",
-          "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/art-sports-comparison.svg"
-        },
-        {
-          "id": "MS-077-D05-editorial-v1",
-          "kind": "correction",
-          "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/transfer-scope-clarified.svg"
-        }
-      ]
+      "pending_draft_targets": [],
+      "evidence_sha256": "97c2a9a42badea412e2c1fb311f9e0314be15ba4ae0ad4d55be5ac2e64829a2f"
     },
     {
       "lecture_id": "MS-078",
@@ -3188,8 +3147,8 @@
       "title": "병역법 제74조의5, 상비예비군의 휴무 등 처리",
       "priority": 2,
       "generation": 2,
-      "status": "reviewing",
-      "script_alignment_status": "script_alignment_pending",
+      "status": "completed",
+      "script_alignment_status": "script_alignment_verified",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_74의5.txt",
         "script_git_blob_sha": "5d781d1a08a60f8d47fe9d2aa2df5fcae4f8380e"
@@ -3198,38 +3157,29 @@
         "MS-117-D01-editorial-v1"
       ],
       "full_script_read": true,
-      "lease": {
-        "owner": "exam80-ms-checkpoint08",
-        "generation": 2,
-        "claimed_at_kst": "2026-11-27T21:48:38+09:00",
-        "expires_at_kst": "2026-11-27T22:45:00+09:00",
-        "lecture_ids": [
-          "MS-010",
-          "MS-077",
-          "MS-117",
-          "MS-157"
-        ]
-      },
-      "checkpoint": 7,
+      "lease": null,
+      "checkpoint": 8,
       "evidence_refs": [
-        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json"
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json",
+        "military-service-act/production-evidence/exam80-generation-2/MS-117/008-publication-review.json"
       ],
-      "outcome": null,
+      "outcome": "added_missing",
       "changed_diagram_ids": [],
-      "new_diagram_ids": [],
+      "new_diagram_ids": [
+        "MS-117-D02-editorial-v1"
+      ],
       "previously_verified_existing_diagram_ids": [],
       "script_fulltext_retrieved": true,
-      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json",
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/MS-117/008-publication-review.json",
       "draft_preview_paths": [
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-117/three-day-counts.svg"
       ],
-      "pending_draft_targets": [
-        {
-          "id": "MS-117-D02-editorial-v1",
-          "kind": "new",
-          "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-117/three-day-counts.svg"
-        }
-      ]
+      "pending_draft_targets": [],
+      "verified_existing_diagram_ids": [
+        "MS-117-D01-editorial-v1"
+      ],
+      "completed_date_kst": "2026-11-27",
+      "evidence_sha256": "464a107eed351f62d0ae747b62d1378eddc6b77bb650c76478f8143770545dd8"
     },
     {
       "lecture_id": "MS-118",
@@ -4202,8 +4152,8 @@
       "title": "병역법 제91조, 허위증명서 등의 발급",
       "priority": 2,
       "generation": 2,
-      "status": "reviewing",
-      "script_alignment_status": "script_alignment_pending",
+      "status": "completed",
+      "script_alignment_status": "script_alignment_verified",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_91.txt",
         "script_git_blob_sha": "727888ecbcc939f6dc1053e1f20c2d216fd54182"
@@ -4212,38 +4162,29 @@
         "MS-157-D01-editorial-v1"
       ],
       "full_script_read": true,
-      "lease": {
-        "owner": "exam80-ms-checkpoint08",
-        "generation": 2,
-        "claimed_at_kst": "2026-11-27T21:48:38+09:00",
-        "expires_at_kst": "2026-11-27T22:45:00+09:00",
-        "lecture_ids": [
-          "MS-010",
-          "MS-077",
-          "MS-117",
-          "MS-157"
-        ]
-      },
-      "checkpoint": 7,
+      "lease": null,
+      "checkpoint": 8,
       "evidence_refs": [
-        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json"
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json",
+        "military-service-act/production-evidence/exam80-generation-2/MS-157/008-publication-review.json"
       ],
-      "outcome": null,
+      "outcome": "added_missing",
       "changed_diagram_ids": [],
-      "new_diagram_ids": [],
+      "new_diagram_ids": [
+        "MS-157-D02-editorial-v1"
+      ],
       "previously_verified_existing_diagram_ids": [],
       "script_fulltext_retrieved": true,
-      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json",
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/MS-157/008-publication-review.json",
       "draft_preview_paths": [
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-157/punishment-result-comparison.svg"
       ],
-      "pending_draft_targets": [
-        {
-          "id": "MS-157-D02-editorial-v1",
-          "kind": "new",
-          "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-157/punishment-result-comparison.svg"
-        }
-      ]
+      "pending_draft_targets": [],
+      "verified_existing_diagram_ids": [
+        "MS-157-D01-editorial-v1"
+      ],
+      "completed_date_kst": "2026-11-27",
+      "evidence_sha256": "108c69b546d50503b0124624f515fbc29d48044205e9d5be3c68ffbb7dc62658"
     },
     {
       "lecture_id": "MS-158",
@@ -4468,9 +4409,9 @@
   ],
   "existing_diagram_support_review": {
     "audit": "military-service-act/script-alignment-audit-exam80.json",
-    "verified_existing_pages": 15,
-    "pending_existing_pages": 268,
-    "scope": "기존 도식 원고 근거 확인 15장; 전체 핵심 도식 범위 대조 완료 8강."
+    "verified_existing_pages": 18,
+    "pending_existing_pages": 265,
+    "scope": "기존 도식 원고 근거 확인 18장; 전체 핵심 도식 범위 대조 완료 11강."
   },
   "last_partial_checkpoint": {
     "date_kst": "2026-11-27",
@@ -4511,5 +4452,27 @@
     "evidence_ref": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json",
     "svg_drafts": 6,
     "final_new_images": 0
+  },
+  "last_publication_checkpoint": {
+    "date_kst": "2026-11-27",
+    "lecture_ids": [
+      "MS-010",
+      "MS-077",
+      "MS-117",
+      "MS-157"
+    ],
+    "published_new": 5,
+    "published_corrections": 1,
+    "completed_lectures": [
+      "MS-010",
+      "MS-117",
+      "MS-157"
+    ],
+    "evidence_refs": [
+      "military-service-act/production-evidence/exam80-generation-2/MS-010/008-publication-review.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-077/008-publication-review.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-117/008-publication-review.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-157/008-publication-review.json"
+    ]
   }
 }

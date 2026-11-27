@@ -1,0 +1,102 @@
+{
+  "lecture_id": "MS-010",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_8.txt",
+  "script_git_blob_sha": "3212a7c3a553fd2344d7598ed127a3865932bca0",
+  "full_script_read": true,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        15,
+        29
+      ],
+      "diagrams": [
+        "MS-010-D01-editorial-v1",
+        "MS-010-D02-editorial-v1"
+      ],
+      "topic": "국적·성별·18세 대상"
+    },
+    {
+      "lines": [
+        31,
+        43
+      ],
+      "diagrams": [
+        "MS-010-D02-editorial-v1"
+      ],
+      "topic": "출생연도 기준 1월 1일과 퀴즈"
+    },
+    {
+      "lines": [
+        45,
+        70
+      ],
+      "diagrams": [
+        "MS-010-D02-editorial-v1"
+      ],
+      "topic": "자동 편입과 준비역의 의미"
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-010-D01-editorial-v1"
+  ],
+  "decision": "added_missing",
+  "changed_artifacts_and_hashes": [
+    {
+      "id": "MS-010-D02-editorial-v1",
+      "lecture_id": "MS-010",
+      "kind": "new",
+      "title": "병역준비역의 출발선",
+      "draft_svg": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-010/automatic-entry-calendar.svg",
+      "draft_webp": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-010/automatic-entry-calendar.webp",
+      "svg_blob_sha": "88cf6b120786d576c876507fc37a14a6506929f3",
+      "webp_blob_sha": "878849cc0bbf0962a9ba6c24ec3a17ac6688cfa2",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-010/diagrams/MS-010-D02-editorial-v1.svg",
+          "bytes": 5059,
+          "sha256": "0ca72ff7662bc10a7f87f45d0a0b6b61332c8bcbea6d5d49ca09fcbbad70aa1b"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-010/diagrams/MS-010-D02-editorial-v1.webp",
+          "bytes": 40954,
+          "sha256": "327c77f68db682f6049d3982082ab30c4e7b47fedde573ca405dbc76d9c03967"
+        }
+      },
+      "previous_files": null,
+      "source_line_spans": [
+        [
+          15,
+          29
+        ],
+        [
+          31,
+          43
+        ],
+        [
+          45,
+          59
+        ],
+        [
+          67,
+          70
+        ]
+      ],
+      "reason": "원고 도입 퀴즈의 정답과 자동 편입의 핵심이 D01에 명시되지 않았다.",
+      "visual_review": "pass; rendered WebP inspected",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp": true
+    }
+  ],
+  "previous_evidence_sha256": "032727a80e1edfb9e46f0cf3a8064c9c97c942f1938f5c180f113ef204372ff4",
+  "publication_commit_or_null": null,
+  "publication_parent": "f93aeffafbc90410003af554703b26dafba3128f",
+  "full_lecture_complete": true,
+  "reviewed_date_kst": "2026-11-27",
+  "reason": "기존 도식의 핵심과 추가 도식의 비교를 원고 전문에 대조. 반복 설명·도입 비유의 별도 그림은 불필요."
+}

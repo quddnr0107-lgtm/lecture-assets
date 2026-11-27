@@ -2,7 +2,7 @@
 
 내용 기준은 **기존 제80회(27년 전반기) 병역법 강의 대본 166편**입니다. 2027-02-02는 요청된 학습 법령 기준일이며, 확정 시험일을 뜻하지 않습니다.
 
-기존 도식 **283장은 공개된 상태**입니다. 대본 전문과의 일치 여부와 중요한 설명의 누락 여부를 확인하는 강의별 검토 166건 중 8강은 검토 완료, 158강은 대기 중입니다. 대본 전체 범위의 제작이 끝났다고 표시하지 않습니다.
+기존 도식 **283장은 공개된 상태**입니다. 대본 전문과의 일치 여부와 중요한 설명의 누락 여부를 확인하는 강의별 검토 166건 중 11강은 검토 완료, 155강은 대기 중입니다. 대본 전체 범위의 제작이 끝났다고 표시하지 않습니다.
 
 ## 진행 방법
 
@@ -71,3 +71,8 @@
 ## 원고 범위 검수·도식 초안 체크포인트 07
 - 6장 SVG 초안 (5장 추가 후보, 1장 교정 후보). 기존 원고 전문·blob SHA 대조 후 저장. 렌더링 및 시각검수 전에는 정식 수량에 포함하지 않음.
 - [검수 근거 및 대상 ID](production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json) · 전체 8강 완료, 158강 대기. 기존 공개 303장 유지.
+
+## 정식 공개 체크포인트 08
+- 신규 도식 5장 및 77강 전직 도식 1장 교정. SVG와 실제 1600×1120 무손실 WebP의 해시 및 화면 검수.
+- 10·117·157강은 기존 도식과 신규 도식의 원고 전체 핵심 대응 검토 완료. 77강은 전체 범위 대조 대기.
+- 공개 308장, 전체 11강 완료, 155강 대기. 근거: [MS-010](production-evidence/exam80-generation-2/MS-010/008-publication-review.json) · [MS-077](production-evidence/exam80-generation-2/MS-077/008-publication-review.json) · [MS-117](production-evidence/exam80-generation-2/MS-117/008-publication-review.json) · [MS-157](production-evidence/exam80-generation-2/MS-157/008-publication-review.json)

@@ -3,7 +3,7 @@
   "subject": "military-service-act",
   "lecture_id": "MS-117",
   "lecture_title": "병역법 제74조의5, 상비예비군의 휴무 등 처리",
-  "diagram_count": 1,
+  "diagram_count": 2,
   "canvas": [
     1600,
     1120
@@ -93,8 +93,145 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "full_script_coverage_review",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-117/008-publication-review.json",
+        "source_line_spans": [
+          [
+            11,
+            23
+          ],
+          [
+            27,
+            41
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-117-D02-editorial-v1",
+      "lecture_id": "MS-117",
+      "lesson_number": 117,
+      "diagram_number": 2,
+      "title": "30일과 180일, 세 가지 기준",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 282,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-117/diagrams/MS-117-D02-editorial-v1.svg",
+          "bytes": 5679,
+          "sha256": "6354ca971ab4c24d1fda1e641ed8f5c118348656ea985aa5b701f1fd304a30b6"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-117/diagrams/MS-117-D02-editorial-v1.webp",
+          "bytes": 53372,
+          "sha256": "8c6d6e8c6b30ea9862dbd25ed00b588abd4f5d662531a653ee395d36d95518c8"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-117",
+        "title": "30일과 180일, 세 가지 기준",
+        "subtitle": "훈련 소집 한도 · 보호 범위 · 시정 기한",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "훈련 소집과 보호",
+            "items": [
+              {
+                "label": "제49조  연간 소집 한도",
+                "text": "원칙 30일 이내 상비예비군 180일 이내",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제74조의5  보호 범위",
+                "text": "연간 30일까지 보호 적용 30일 초과분은 적용 제외 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "재량",
+                "text": "30일 초과분도 보호할 수 있음",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "불이익처우 시정",
+            "items": [
+              {
+                "label": "제74조의6의 30일",
+                "text": "시정요구를 받은 날부터 30일 이내 이행",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "신고와 시정",
+                "text": "불이익처우 신고 국방부장관의 시정요구 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "숫자의 의미",
+                "text": "훈련일수와 시정기한은 다름",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "연간 30일은 보호의 범위 / 시정의 30일은 요구를 받은 뒤의 기한",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            13,
+            13
+          ],
+          [
+            27,
+            41
+          ],
+          [
+            43,
+            49
+          ],
+          [
+            57,
+            61
+          ]
+        ],
+        "source_keys": []
+      },
+      "lecture_title": "병역법 제74조의5, 상비예비군의 휴무 등 처리",
+      "main_article": "병역법 제74조의5",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-117",
+        "path": "docs/merged-lectures/병역법/본법_74의5.txt",
+        "git_blob_sha": "5d781d1a08a60f8d47fe9d2aa2df5fcae4f8380e",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-117/008-publication-review.json",
+        "source_line_spans": [
+          [
+            13,
+            13
+          ],
+          [
+            27,
+            41
+          ],
+          [
+            43,
+            49
+          ],
+          [
+            57,
+            61
+          ]
+        ]
       }
     }
   ],
@@ -104,8 +241,9 @@
   "script_git_blob_sha": "5d781d1a08a60f8d47fe9d2aa2df5fcae4f8380e",
   "exam_number": 80,
   "script_alignment": {
-    "verified_existing_pages": 0,
-    "pending_existing_pages": 1,
-    "complete_script_coverage": "pending"
+    "verified_existing_pages": 1,
+    "pending_existing_pages": 0,
+    "complete_script_coverage": "verified",
+    "published_supplement_pages": 1
   }
 }

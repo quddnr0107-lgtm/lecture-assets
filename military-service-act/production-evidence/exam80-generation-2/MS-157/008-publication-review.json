@@ -1,0 +1,99 @@
+{
+  "lecture_id": "MS-157",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_91.txt",
+  "script_git_blob_sha": "727888ecbcc939f6dc1053e1f20c2d216fd54182",
+  "full_script_read": true,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        19,
+        29
+      ],
+      "diagrams": [
+        "MS-157-D01-editorial-v1",
+        "MS-157-D02-editorial-v1"
+      ],
+      "topic": "주체·목적·행위"
+    },
+    {
+      "lines": [
+        35,
+        49
+      ],
+      "diagrams": [
+        "MS-157-D02-editorial-v1"
+      ],
+      "topic": "5년과 10년 비교 및 결과 불요"
+    },
+    {
+      "lines": [
+        53,
+        75
+      ],
+      "diagrams": [
+        "MS-157-D01-editorial-v1",
+        "MS-157-D02-editorial-v1"
+      ],
+      "topic": "징역과 재량적 자격정지 병과"
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-157-D01-editorial-v1"
+  ],
+  "decision": "added_missing",
+  "changed_artifacts_and_hashes": [
+    {
+      "id": "MS-157-D02-editorial-v1",
+      "lecture_id": "MS-157",
+      "kind": "new",
+      "title": "병역 면탈과 허위증명서 발급",
+      "draft_svg": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-157/punishment-result-comparison.svg",
+      "draft_webp": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-157/punishment-result-comparison.webp",
+      "svg_blob_sha": "86e11b9918d67e7ca4136f51297a108fc26d5896",
+      "webp_blob_sha": "5cf881be85940cb789d98e5ca214d128dad95414",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-157/diagrams/MS-157-D02-editorial-v1.svg",
+          "bytes": 5489,
+          "sha256": "603d9177e49c074a834778cf65938e83b4280d0920fe3126be9193a959a23849"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-157/diagrams/MS-157-D02-editorial-v1.webp",
+          "bytes": 48488,
+          "sha256": "3c63db97d968c85c7131a9678b9f503b8858abb177883ee2228de7d4cf4173eb"
+        }
+      },
+      "previous_files": null,
+      "source_line_spans": [
+        [
+          19,
+          29
+        ],
+        [
+          35,
+          49
+        ],
+        [
+          53,
+          75
+        ]
+      ],
+      "reason": "도입 퀴즈의 결과 불요 및 법 제86조와의 징역 상한 비교가 기존 D01에서 빠져 있다.",
+      "visual_review": "pass; rendered WebP inspected",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp": true
+    }
+  ],
+  "previous_evidence_sha256": "032727a80e1edfb9e46f0cf3a8064c9c97c942f1938f5c180f113ef204372ff4",
+  "publication_commit_or_null": null,
+  "publication_parent": "f93aeffafbc90410003af554703b26dafba3128f",
+  "full_lecture_complete": true,
+  "reviewed_date_kst": "2026-11-27",
+  "reason": "기존 도식의 핵심과 추가 도식의 비교를 원고 전문에 대조. 반복 설명·도입 비유의 별도 그림은 불필요."
+}

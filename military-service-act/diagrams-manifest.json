@@ -1917,8 +1917,141 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "full_script_coverage_review",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-010/008-publication-review.json",
+        "source_line_spans": [
+          [
+            15,
+            29
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-010-D02-editorial-v1",
+      "lecture_id": "MS-010",
+      "lesson_number": 10,
+      "diagram_number": 2,
+      "title": "병역준비역의 출발선",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 281,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-010/diagrams/MS-010-D02-editorial-v1.svg",
+          "bytes": 5059,
+          "sha256": "0ca72ff7662bc10a7f87f45d0a0b6b61332c8bcbea6d5d49ca09fcbbad70aa1b"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-010/diagrams/MS-010-D02-editorial-v1.webp",
+          "bytes": 40954,
+          "sha256": "327c77f68db682f6049d3982082ab30c4e7b47fedde573ca405dbc76d9c03967"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-010",
+        "title": "병역준비역의 출발선",
+        "subtitle": "18세부터 = 그해 1월 1일부터",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "같은 출생연도",
+            "items": [
+              {
+                "label": "1월 2일생",
+                "text": "18세가 되는 해의 1월 1일",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "12월 31일생",
+                "text": "18세가 되는 해의 1월 1일",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "시점의 기준",
+                "text": "생일이 아니라 출생연도 기준",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "자동 편입",
+            "items": [
+              {
+                "label": "대상",
+                "text": "대한민국 국민인 남성",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "절차",
+                "text": "신청·통지 없이 법에 따라 편입",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "역종의 출발점",
+                "text": "병역처분 전 준비 단계 병역판정검사 후 처분으로 이어짐",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "18세가 되는 해 1월 1일 · 생일과 관계없이 자동 편입",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            15,
+            29
+          ],
+          [
+            31,
+            43
+          ],
+          [
+            45,
+            59
+          ],
+          [
+            67,
+            70
+          ]
+        ],
+        "source_keys": []
+      },
+      "lecture_title": "병역법 제8조, 병역준비역 편입",
+      "main_article": "병역법 제8조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-010",
+        "path": "docs/merged-lectures/병역법/본법_8.txt",
+        "git_blob_sha": "3212a7c3a553fd2344d7598ed127a3865932bca0",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-010/008-publication-review.json",
+        "source_line_spans": [
+          [
+            15,
+            29
+          ],
+          [
+            31,
+            43
+          ],
+          [
+            45,
+            59
+          ],
+          [
+            67,
+            70
+          ]
+        ]
       }
     },
     {
@@ -14222,13 +14355,13 @@
       "files": {
         "svg": {
           "path": "military-service-act/lesson-077/diagrams/MS-077-D05-editorial-v1.svg",
-          "bytes": 5844,
-          "sha256": "0ea277cca453a633cd59feed36072b372f6ef1bcb0293eb4bd83adacd3fa4d92"
+          "bytes": 6029,
+          "sha256": "b48af05b42e23f0c1bfdef5b23ecd5bfac6d3995c6dc3e13b7a9d99d85292d4b"
         },
         "webp": {
           "path": "military-service-act/lesson-077/diagrams/MS-077-D05-editorial-v1.webp",
-          "bytes": 54814,
-          "sha256": "a4d0dd9a5db2a7ba1ba6c1e347f0fc3554a1f5db934f5081b640f3dcc8de1294"
+          "bytes": 55240,
+          "sha256": "13f83a6792c3b4b38f49d8b85a822863a39ecdb456f78df0439843732eb1e45e"
         }
       },
       "content": {
@@ -14236,7 +14369,6 @@
         "title": "전직의 사유와 기한",
         "subtitle": "전문연구요원·산업기능요원",
         "layout": "compare",
-        "source_keys": [],
         "sections": [
           {
             "heading": "옮겨야 하는 경우",
@@ -14263,7 +14395,7 @@
             "items": [
               {
                 "label": "편입 후 경과기간",
-                "text": "전문연구 1년 6개월 산업기능 6개월 · 통틀어 2회",
+                "text": "전문연구 1년 6개월 산업기능 6개월 산업기능만 통틀어 2회 한정",
                 "ref": "제80회 강의 원고"
               },
               {
@@ -14279,7 +14411,7 @@
             ]
           }
         ],
-        "takeaway": "전직 기한: 원칙 3개월 · 일부 14일 / 승인: 관할 지방병무청장",
+        "takeaway": "경과기간을 이유로 하는 전직의 2회 한정은 산업기능요원에만 적용",
         "content_authority": "existing_exam80_lecture_script",
         "script_line_spans": [
           [
@@ -14290,7 +14422,8 @@
             203,
             203
           ]
-        ]
+        ],
+        "source_keys": []
       },
       "lecture_title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
       "main_article": "병역법 제41조",
@@ -14305,7 +14438,7 @@
       "script_alignment": {
         "status": "verified",
         "scope": "script_supplement_claims_only",
-        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-077/008-publication-review.json",
         "source_line_spans": [
           [
             129,
@@ -15009,6 +15142,229 @@
           [
             179,
             183
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-077-D13-editorial-v1",
+      "lecture_id": "MS-077",
+      "lesson_number": 77,
+      "diagram_number": 13,
+      "title": "편입취소 사유 여덟 가지",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 279,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D13-editorial-v1.svg",
+          "bytes": 5913,
+          "sha256": "1717ca76802e016771df848033411e8dcbfc5137c2bf2ea6a0ade89ba713effb"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D13-editorial-v1.webp",
+          "bytes": 53470,
+          "sha256": "3c05b3a843989495e36b66a9660b2cacf3759883269f8318e77023cae5a0cdc8"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-077",
+        "title": "편입취소 사유 여덟 가지",
+        "subtitle": "관할 지방병무청장 · 편입취소 의무",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "부정 · 연령 · 복무",
+            "items": [
+              {
+                "label": "제1·2호  부정",
+                "text": "제38조의2 위반 부정 편입·전직 금품 수수 등 부정 편입·전직 (제1호 해당 제외)",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제3호  연령",
+                "text": "35세까지 복무 완료 불가 법정 예외는 37세",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제4호  신상변동",
+                "text": "제40조 제1~4호 및 제7호",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "복무 · 국외",
+            "items": [
+              {
+                "label": "제5·6호  복무 불이행",
+                "text": "정당한 사유 없는 군사교육 미수 정해진 전직 기간 안에 미전직",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제7호  국외여행",
+                "text": "허가 없이 출국·체재 정당한 사유 없이 기간 내 미귀국",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제8호  귀국명령",
+                "text": "귀국명령 위반 후 미귀국",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "해고 다툼의 유보·업체 지시의 연장 예외는 별도 도식과 함께 확인",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            21,
+            36
+          ],
+          [
+            50,
+            66
+          ]
+        ],
+        "source_keys": []
+      },
+      "lecture_title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
+      "main_article": "병역법 제41조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-077",
+        "path": "docs/merged-lectures/병역법/본법_41.txt",
+        "git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-077/008-publication-review.json",
+        "source_line_spans": [
+          [
+            21,
+            36
+          ],
+          [
+            50,
+            66
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-077-D14-editorial-v1",
+      "lecture_id": "MS-077",
+      "lesson_number": 77,
+      "diagram_number": 14,
+      "title": "두 대체복무의 편입취소 비교",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 280,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D14-editorial-v1.svg",
+          "bytes": 5865,
+          "sha256": "d9c4a2c9ae14f9e8dfcb96a59f7cc789a8fb23eb95f7db1522f82125c33f351c"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D14-editorial-v1.webp",
+          "bytes": 48490,
+          "sha256": "410513ba0acd18bee30c4cc5309145452406fa3bfec1b77b9528bc78ed786aa5"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-077",
+        "title": "두 대체복무의 편입취소 비교",
+        "subtitle": "예술·체육요원 / 전문연구·산업기능요원",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "공통점",
+            "items": [
+              {
+                "label": "신분과 잔여 복무",
+                "text": "편입 전 신분으로 복귀 현역 대상 잔여 6개월 미만은 사회복무요원 소집 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "부정 편입",
+                "text": "원래 신분의 복무기간에서 군사교육 기간만 공제",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "그 밖의 취소",
+                "text": "대통령령 기준에 따른 남은 복무기간",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "차이점",
+            "items": [
+              {
+                "label": "예술·체육요원",
+                "text": "부정 편입과 그 밖의 취소 구분 해당 분야 미복무일의 5배 연장",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "전문연구·산업기능요원",
+                "text": "부정 전직은 남은 기간 적용 통틀어 8일 미만 무단결근 해당 기간의 5배 연장",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "부정 편입은 처음부터 / 부정 전직은 남은 기간",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            83,
+            85
+          ],
+          [
+            95,
+            125
+          ],
+          [
+            185,
+            189
+          ]
+        ],
+        "source_keys": []
+      },
+      "lecture_title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
+      "main_article": "병역법 제41조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-077",
+        "path": "docs/merged-lectures/병역법/본법_41.txt",
+        "git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-077/008-publication-review.json",
+        "source_line_spans": [
+          [
+            83,
+            85
+          ],
+          [
+            95,
+            125
+          ],
+          [
+            185,
+            189
           ]
         ]
       }
@@ -20802,8 +21158,145 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "full_script_coverage_review",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-117/008-publication-review.json",
+        "source_line_spans": [
+          [
+            11,
+            23
+          ],
+          [
+            27,
+            41
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-117-D02-editorial-v1",
+      "lecture_id": "MS-117",
+      "lesson_number": 117,
+      "diagram_number": 2,
+      "title": "30일과 180일, 세 가지 기준",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 282,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-117/diagrams/MS-117-D02-editorial-v1.svg",
+          "bytes": 5679,
+          "sha256": "6354ca971ab4c24d1fda1e641ed8f5c118348656ea985aa5b701f1fd304a30b6"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-117/diagrams/MS-117-D02-editorial-v1.webp",
+          "bytes": 53372,
+          "sha256": "8c6d6e8c6b30ea9862dbd25ed00b588abd4f5d662531a653ee395d36d95518c8"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-117",
+        "title": "30일과 180일, 세 가지 기준",
+        "subtitle": "훈련 소집 한도 · 보호 범위 · 시정 기한",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "훈련 소집과 보호",
+            "items": [
+              {
+                "label": "제49조  연간 소집 한도",
+                "text": "원칙 30일 이내 상비예비군 180일 이내",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제74조의5  보호 범위",
+                "text": "연간 30일까지 보호 적용 30일 초과분은 적용 제외 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "재량",
+                "text": "30일 초과분도 보호할 수 있음",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "불이익처우 시정",
+            "items": [
+              {
+                "label": "제74조의6의 30일",
+                "text": "시정요구를 받은 날부터 30일 이내 이행",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "신고와 시정",
+                "text": "불이익처우 신고 국방부장관의 시정요구 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "숫자의 의미",
+                "text": "훈련일수와 시정기한은 다름",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "연간 30일은 보호의 범위 / 시정의 30일은 요구를 받은 뒤의 기한",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            13,
+            13
+          ],
+          [
+            27,
+            41
+          ],
+          [
+            43,
+            49
+          ],
+          [
+            57,
+            61
+          ]
+        ],
+        "source_keys": []
+      },
+      "lecture_title": "병역법 제74조의5, 상비예비군의 휴무 등 처리",
+      "main_article": "병역법 제74조의5",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-117",
+        "path": "docs/merged-lectures/병역법/본법_74의5.txt",
+        "git_blob_sha": "5d781d1a08a60f8d47fe9d2aa2df5fcae4f8380e",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-117/008-publication-review.json",
+        "source_line_spans": [
+          [
+            13,
+            13
+          ],
+          [
+            27,
+            41
+          ],
+          [
+            43,
+            49
+          ],
+          [
+            57,
+            61
+          ]
+        ]
       }
     },
     {
@@ -26887,8 +27380,137 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "full_script_coverage_review",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-157/008-publication-review.json",
+        "source_line_spans": [
+          [
+            19,
+            29
+          ],
+          [
+            53,
+            75
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-157-D02-editorial-v1",
+      "lecture_id": "MS-157",
+      "lesson_number": 157,
+      "diagram_number": 2,
+      "title": "병역 면탈과 허위증명서 발급",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 283,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-157/diagrams/MS-157-D02-editorial-v1.svg",
+          "bytes": 5489,
+          "sha256": "603d9177e49c074a834778cf65938e83b4280d0920fe3126be9193a959a23849"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-157/diagrams/MS-157-D02-editorial-v1.webp",
+          "bytes": 48488,
+          "sha256": "3c63db97d968c85c7131a9678b9f503b8858abb177883ee2228de7d4cf4173eb"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-157",
+        "title": "병역 면탈과 허위증명서 발급",
+        "subtitle": "징역 상한 5년과 10년의 구분",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "제86조  본인의 면탈",
+            "items": [
+              {
+                "label": "행위의 예",
+                "text": "도망·신체손상·속임수",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "목적",
+                "text": "병역의무 기피 또는 감면",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "징역",
+                "text": "1년 이상 5년 이하",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "제91조  허위증명서",
+            "items": [
+              {
+                "label": "주체와 행위",
+                "text": "공무원·의사·치과의사 거짓 서류·증명서·진단서 발급",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "목적과 결과",
+                "text": "연기·면제·복무기간 단축 목적 실제 면제 등 결과는 불필요",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "징역 및 자격정지",
+                "text": "1년 이상 10년 이하 징역 10년 이하 자격정지 병과 가능",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "제86조 5년 / 제91조 10년 · 실제 면제되지 않아도 발급으로 성립",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            19,
+            29
+          ],
+          [
+            35,
+            49
+          ],
+          [
+            53,
+            75
+          ]
+        ],
+        "source_keys": []
+      },
+      "lecture_title": "병역법 제91조, 허위증명서 등의 발급",
+      "main_article": "병역법 제91조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-157",
+        "path": "docs/merged-lectures/병역법/본법_91.txt",
+        "git_blob_sha": "727888ecbcc939f6dc1053e1f20c2d216fd54182",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-157/008-publication-review.json",
+        "source_line_spans": [
+          [
+            19,
+            29
+          ],
+          [
+            35,
+            49
+          ],
+          [
+            53,
+            75
+          ]
+        ]
       }
     },
     {
@@ -27964,7 +28586,7 @@
     }
   ],
   "lesson_count": 166,
-  "diagram_count": 303,
+  "diagram_count": 308,
   "created_date_kst": "2026-11-27",
   "review_status": "existing_exam80_script_alignment_in_progress",
   "lecture_count": 166,
@@ -28012,22 +28634,22 @@
   ],
   "raster_encoding": "lossless WebP",
   "content_source": "military-service-act/editorial-content.json",
-  "content_source_sha256": "ec8bce7b6a6b61c685adb0b07770dda211a4b3fbbe4877f55dcd71995885063d",
+  "content_source_sha256": "98a1eec369bd5a9ab50bef8b2c3f9c52ce2c7b1e1d7b6e74a38b4ae4dfe02823",
   "playback_timing": "not_assigned",
   "scope": "military_service_act_all_166_lectures_core_diagrams",
-  "concept_diagram_count": 279,
+  "concept_diagram_count": 284,
   "previous_review_status": "content_and_layout_checked",
   "content_authority": "existing_exam80_lecture_scripts",
   "script_source_index": "military-service-act/script-sources-exam80.json",
   "exam_number": 80,
   "script_alignment": {
     "existing_pages": 283,
-    "verified_pages": 15,
-    "pending_pages": 268,
-    "complete_script_coverage_verified_lectures": 8,
+    "verified_pages": 18,
+    "pending_pages": 265,
+    "complete_script_coverage_verified_lectures": 11,
     "audit": "military-service-act/script-alignment-audit-exam80.json",
     "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
-    "published_supplement_pages": 20,
-    "total_published_pages": 303
+    "published_supplement_pages": 25,
+    "total_published_pages": 308
   }
 }

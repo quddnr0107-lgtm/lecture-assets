@@ -1,0 +1,189 @@
+{
+  "lecture_id": "MS-077",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_41.txt",
+  "script_git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+  "full_script_read": true,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        21,
+        36
+      ],
+      "diagrams": [
+        "MS-077-D13-editorial-v1"
+      ],
+      "topic": "편입취소 여덟 사유"
+    },
+    {
+      "lines": [
+        129,
+        145
+      ],
+      "diagrams": [
+        "MS-077-D05-editorial-v1"
+      ],
+      "topic": "전직 2회 한정 적용 범위"
+    },
+    {
+      "lines": [
+        185,
+        189
+      ],
+      "diagrams": [
+        "MS-077-D14-editorial-v1"
+      ],
+      "topic": "예술·체육요원과 비교"
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-077-D01-editorial-v1",
+    "MS-077-D02-editorial-v1"
+  ],
+  "decision": "partial_corrected_and_added",
+  "changed_artifacts_and_hashes": [
+    {
+      "id": "MS-077-D13-editorial-v1",
+      "lecture_id": "MS-077",
+      "kind": "new",
+      "title": "편입취소 사유 여덟 가지",
+      "draft_svg": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/cancellation-eight-grounds.svg",
+      "draft_webp": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/cancellation-eight-grounds.webp",
+      "svg_blob_sha": "18c46a7099c26a16e0618bfce0ea89e52a58cf07",
+      "webp_blob_sha": "3741537fbb82753f1c087da67bba93d6b1d201b8",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D13-editorial-v1.svg",
+          "bytes": 5913,
+          "sha256": "1717ca76802e016771df848033411e8dcbfc5137c2bf2ea6a0ade89ba713effb"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D13-editorial-v1.webp",
+          "bytes": 53470,
+          "sha256": "3c05b3a843989495e36b66a9660b2cacf3759883269f8318e77023cae5a0cdc8"
+        }
+      },
+      "previous_files": null,
+      "source_line_spans": [
+        [
+          21,
+          36
+        ],
+        [
+          50,
+          66
+        ]
+      ],
+      "reason": "원고가 여덟 취소사유를 구분하며 기존 D01은 일부 사유만 요약. 주체와 항목 범위를 완결한다.",
+      "visual_review": "pass; rendered WebP inspected",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp": true
+    },
+    {
+      "id": "MS-077-D14-editorial-v1",
+      "lecture_id": "MS-077",
+      "kind": "new",
+      "title": "두 대체복무의 편입취소 비교",
+      "draft_svg": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/art-sports-comparison.svg",
+      "draft_webp": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/art-sports-comparison.webp",
+      "svg_blob_sha": "6660eb5b21482da8b22c17fab1e70b0bf60f8be5",
+      "webp_blob_sha": "c71bcffee21c11411cb755e57d8f1134295824d5",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D14-editorial-v1.svg",
+          "bytes": 5865,
+          "sha256": "d9c4a2c9ae14f9e8dfcb96a59f7cc789a8fb23eb95f7db1522f82125c33f351c"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D14-editorial-v1.webp",
+          "bytes": 48490,
+          "sha256": "410513ba0acd18bee30c4cc5309145452406fa3bfec1b77b9528bc78ed786aa5"
+        }
+      },
+      "previous_files": null,
+      "source_line_spans": [
+        [
+          83,
+          85
+        ],
+        [
+          95,
+          125
+        ],
+        [
+          185,
+          189
+        ]
+      ],
+      "reason": "원고 말미의 두 제도 비교는 기존 도식에서 각각의 규칙만 표시되어 대조 학습용 한 장이 필요하다.",
+      "visual_review": "pass; rendered WebP inspected",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp": true
+    },
+    {
+      "id": "MS-077-D05-editorial-v1",
+      "lecture_id": "MS-077",
+      "kind": "correction",
+      "title": "전직의 사유와 기한",
+      "draft_svg": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/transfer-scope-clarified.svg",
+      "draft_webp": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/transfer-scope-clarified.webp",
+      "svg_blob_sha": "76731decbb3663a32435e58a5bdb6f5a88340148",
+      "webp_blob_sha": "5f89a1aab2e537aa841a795c7206037d36616822",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D05-editorial-v1.svg",
+          "bytes": 6029,
+          "sha256": "b48af05b42e23f0c1bfdef5b23ecd5bfac6d3995c6dc3e13b7a9d99d85292d4b"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D05-editorial-v1.webp",
+          "bytes": 55240,
+          "sha256": "13f83a6792c3b4b38f49d8b85a822863a39ecdb456f78df0439843732eb1e45e"
+        }
+      },
+      "previous_files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D05-editorial-v1.svg",
+          "bytes": 5844,
+          "sha256": "0ea277cca453a633cd59feed36072b372f6ef1bcb0293eb4bd83adacd3fa4d92"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D05-editorial-v1.webp",
+          "bytes": 54814,
+          "sha256": "a4d0dd9a5db2a7ba1ba6c1e347f0fc3554a1f5db934f5081b640f3dcc8de1294"
+        }
+      },
+      "source_line_spans": [
+        [
+          129,
+          145
+        ],
+        [
+          203,
+          203
+        ]
+      ],
+      "reason": "원고 137행의 2회 한정 대상이 산업기능요원임을 명시하여 적용범위 혼동 방지. 기존 ID 유지.",
+      "visual_review": "pass; rendered WebP inspected",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp": true
+    }
+  ],
+  "previous_evidence_sha256": "032727a80e1edfb9e46f0cf3a8064c9c97c942f1938f5c180f113ef204372ff4",
+  "publication_commit_or_null": null,
+  "publication_parent": "f93aeffafbc90410003af554703b26dafba3128f",
+  "full_lecture_complete": false,
+  "reviewed_date_kst": "2026-11-27",
+  "reason": "추가·교정 대상의 원고 및 실제 화면 대조 통과; 전체 강의 완료는 별도 검토 필요."
+}

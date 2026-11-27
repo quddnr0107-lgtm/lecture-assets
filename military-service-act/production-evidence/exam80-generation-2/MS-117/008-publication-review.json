@@ -1,0 +1,103 @@
+{
+  "lecture_id": "MS-117",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_74의5.txt",
+  "script_git_blob_sha": "5d781d1a08a60f8d47fe9d2aa2df5fcae4f8380e",
+  "full_script_read": true,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        11,
+        23
+      ],
+      "diagrams": [
+        "MS-117-D01-editorial-v1",
+        "MS-117-D02-editorial-v1"
+      ],
+      "topic": "상비예비군의 근거와 30/180일"
+    },
+    {
+      "lines": [
+        27,
+        41
+      ],
+      "diagrams": [
+        "MS-117-D01-editorial-v1",
+        "MS-117-D02-editorial-v1"
+      ],
+      "topic": "보호 범위와 초과분 재량"
+    },
+    {
+      "lines": [
+        43,
+        61
+      ],
+      "diagrams": [
+        "MS-117-D02-editorial-v1"
+      ],
+      "topic": "인접 조문의 시정기한 대비; 상세 신고 처리 절차는 별도 조문 강의 범위"
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-117-D01-editorial-v1"
+  ],
+  "decision": "added_missing",
+  "changed_artifacts_and_hashes": [
+    {
+      "id": "MS-117-D02-editorial-v1",
+      "lecture_id": "MS-117",
+      "kind": "new",
+      "title": "30일과 180일, 세 가지 기준",
+      "draft_svg": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-117/three-day-counts.svg",
+      "draft_webp": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-117/three-day-counts.webp",
+      "svg_blob_sha": "d7b1d4feaa2a5e97513a18f8366c88fd610a9bd4",
+      "webp_blob_sha": "28dbd430a27a0e7566471b6289a5a725baf37148",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-117/diagrams/MS-117-D02-editorial-v1.svg",
+          "bytes": 5679,
+          "sha256": "6354ca971ab4c24d1fda1e641ed8f5c118348656ea985aa5b701f1fd304a30b6"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-117/diagrams/MS-117-D02-editorial-v1.webp",
+          "bytes": 53372,
+          "sha256": "8c6d6e8c6b30ea9862dbd25ed00b588abd4f5d662531a653ee395d36d95518c8"
+        }
+      },
+      "previous_files": null,
+      "source_line_spans": [
+        [
+          13,
+          13
+        ],
+        [
+          27,
+          41
+        ],
+        [
+          43,
+          49
+        ],
+        [
+          57,
+          61
+        ]
+      ],
+      "reason": "원고 정리에서 180일 및 별개 시정 30일을 직접 비교하는데 기존 도식은 초과분 적용 특례만 담고 있다.",
+      "visual_review": "pass; rendered WebP inspected",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp": true
+    }
+  ],
+  "previous_evidence_sha256": "032727a80e1edfb9e46f0cf3a8064c9c97c942f1938f5c180f113ef204372ff4",
+  "publication_commit_or_null": null,
+  "publication_parent": "f93aeffafbc90410003af554703b26dafba3128f",
+  "full_lecture_complete": true,
+  "reviewed_date_kst": "2026-11-27",
+  "reason": "기존 도식의 핵심과 추가 도식의 비교를 원고 전문에 대조. 반복 설명·도입 비유의 별도 그림은 불필요."
+}
