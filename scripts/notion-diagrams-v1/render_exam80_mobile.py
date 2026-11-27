@@ -38,7 +38,19 @@ def render_lesson(l):
 def main():
     req=load(P/'render-request.json'); q=load(P/'queue.json')
     assert req['exam_number']==80
-    assert all(j.get('lease',{}).get('run_id')==req['run_id'] for j in q['jobs'] if j['status'] in ('running','reserved'))
+    # Validate only the requested lesson leases, not unrelated jobs.
+    from datetime import datetime, timezone
+    requested = set(req['lessons'])
+    assert requested and len(requested) == len(req['lessons'])
+    assert 1 <= req['worker_limit'] <= 3
+    claimed = {j['lesson']: j for j in q['jobs']
+               if j['kind'] == 'lesson_mobile_reflow' and j['lesson'] in requested}
+    assert set(claimed) == requested
+    for n, job in claimed.items():
+        lease = job.get('lease') or {}
+        assert job['status'] in ('running', 'reserved'), f'{n}: not reserved'
+        assert lease.get('run_id') == req['run_id'], f'{n}: wrong lease owner'
+        assert datetime.fromisoformat(lease['expires_at'].replace('Z','+00:00')) > datetime.now(timezone.utc), f'{n}: expired lease'
     source=load(P/'EXAM80-SCRIPT-SOURCE.json'); align=load(N/'script-alignment.json')
     data=load(N/'content.json'); desktop=load(N/'manifest.json')
     assert source['exam_number']==align['exam_number']==80 and source['script_source_commit']==req['source_commit']
@@ -79,6 +91,15 @@ def main():
             subprocess.run(['git','clean','-fd','--',rel],cwd=ROOT,check=True,capture_output=True)
     records=[r for r in old['items'] if r['lesson'] not in successful]
     for rr in successful.values():records.extend(rr)
+    # Remove only old, manifest-owned mobile files for successful lessons.
+    keep = {f['path'] for rec in records for f in rec['files'].values()}
+    for rec in old['items']:
+        if rec['lesson'] in successful:
+            for f in rec['files'].values():
+                path = f['path']
+                expected = f"integrated-defense/lesson-{rec['lesson']:03d}/diagrams/notion-v1/mobile/"
+                if path.startswith(expected) and path not in keep:
+                    (ROOT/path).unlink(missing_ok=True)
     records.sort(key=lambda r:(r['source_id'],r['page']))
     save(mp,{'schema_version':1,'style':'07-notion-editorial','exam_number':80,'width':b.W,'height':b.H,'items':records})
     for n,rr in successful.items():
@@ -103,6 +124,22 @@ def main():
         j['lease']=None
     q['status']='review_pending'
     q['last_render_run']=req['run_id']
+    q['progress']['mobile_rendered_pages']=len(records)
+    q['progress']['mobile_rendered_lessons']=len({r['lesson'] for r in records})
+    # Keep the index synchronized with the actual manifest and review state.
+    index=N/'mobile-index.md'
+    import re
+    rows=index.read_text().splitlines()
+    counts={n:sum(r['lesson']==n for r in records) for n in successful}
+    for i,row in enumerate(rows):
+        match=re.match(r'^\\| \\[(\\d+)강\\]',row)
+        if match and int(match.group(1)) in counts:
+            n=int(match.group(1))
+            cells=row.split('|')
+            cells[2]=f' {counts[n]} '
+            cells[3]=' 시각 재검수 대기 '
+            rows[i]='|'.join(cells)
+    index.write_text('\\n'.join(rows)+'\\n')
     save(P/'queue.json',q)
     print(json.dumps({k:v for k,v in report.items() if k!='files'},ensure_ascii=False))
 if __name__=='__main__':main()

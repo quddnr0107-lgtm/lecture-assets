@@ -1,13 +1,16 @@
 {
-  "run_id": "tb-exam80-review-20261127T114833743Z-repair",
+  "run_id": "tb-exam80-review-20261127T1248Z",
   "exam_number": 80,
   "source_basis": "EXAM80-SCRIPT-SOURCE.json",
   "lessons": [
     13,
-    16
+    16,
+    17,
+    18,
+    19
   ],
   "worker_limit": 3,
   "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
   "mode": "mobile-layout-repair",
-  "note": "Regenerate 13/16 only; mobile-only column wording and final legal-reference-only page. Preserve canonical content. TB-011 remains pending semantic correction; do not accept automatically."
+  "note": "Recover 13/16 failed lease; reflow references-only pages 17/18/19. No canonical content edits."
 }

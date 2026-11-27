@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject": "integrated-defense",
   "created_at_kst": "2026-11-27T10:25:01+09:00",
-  "updated_at_kst": "2026-11-27T12:48:21.259Z",
+  "updated_at_kst": "2026-11-27T12:49:22.093Z",
   "status": "rendering_layout_fix",
   "approved_style": "07-notion-editorial",
   "baseline": {
@@ -677,13 +677,13 @@
         "integrated-defense/lesson-013/diagrams/notion-v1/mobile/"
       ],
       "lease": {
-        "run_id": "tb-exam80-review-20261127T114833743Z",
-        "started_at": "2026-11-27T11:48:33.743Z",
-        "expires_at": "2026-11-27T12:48:33.743Z"
+        "run_id": "tb-exam80-review-20261127T1248Z",
+        "started_at": "2026-11-27T12:49:22.093Z",
+        "expires_at": "2026-11-27T13:49:22.093Z"
       },
-      "attempts": 2,
+      "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "모바일 가로형 열 지시어 교정 코드 저장. 재생성 및 검수 대기.",
+      "review_note": "직전 재생성 실패(lease ID 불일치), 모바일 방향 표현 재생성 재시도.",
       "previous_lease": {
         "run_id": "tb-exam80-review-20261127T114833743Z",
         "started_at": "2026-11-27T11:48:33.743Z",
@@ -801,13 +801,13 @@
         "integrated-defense/lesson-016/diagrams/notion-v1/mobile/"
       ],
       "lease": {
-        "run_id": "tb-exam80-review-20261127T114833743Z",
-        "started_at": "2026-11-27T11:48:33.743Z",
-        "expires_at": "2026-11-27T12:48:33.743Z"
+        "run_id": "tb-exam80-review-20261127T1248Z",
+        "started_at": "2026-11-27T12:49:22.093Z",
+        "expires_at": "2026-11-27T13:49:22.093Z"
       },
-      "attempts": 2,
+      "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "법령 근거만 남은 페이지 발견. 기존 재균형 코드 재생성 및 검수 대기.",
+      "review_note": "직전 재생성 실패(lease ID 불일치), 근거 전용 페이지 재균형 재시도.",
       "previous_lease": {
         "run_id": "tb-exam80-review-20261127T114833743Z",
         "started_at": "2026-11-27T11:48:33.743Z",
@@ -844,12 +844,12 @@
       ],
       "lease": {
         "run_id": "tb-exam80-review-20261127T1248Z",
-        "started_at": "2026-11-27T12:48:21.259Z",
-        "expires_at": "2026-11-27T13:48:21.259Z"
+        "started_at": "2026-11-27T12:49:22.093Z",
+        "expires_at": "2026-11-27T13:49:22.093Z"
       },
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
+      "review_note": "실제 WebP 검수에서 마지막 페이지가 근거만 포함됨. 기존 내용 그대로 페이지 재균형 필요."
     },
     {
       "id": "TB-018-MOBILE",
@@ -881,12 +881,12 @@
       ],
       "lease": {
         "run_id": "tb-exam80-review-20261127T1248Z",
-        "started_at": "2026-11-27T12:48:21.259Z",
-        "expires_at": "2026-11-27T13:48:21.259Z"
+        "started_at": "2026-11-27T12:49:22.093Z",
+        "expires_at": "2026-11-27T13:49:22.093Z"
       },
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
+      "review_note": "실제 WebP 검수에서 마지막 페이지가 근거만 포함됨. 기존 내용 그대로 페이지 재균형 필요."
     },
     {
       "id": "TB-019-MOBILE",
@@ -917,12 +917,12 @@
       ],
       "lease": {
         "run_id": "tb-exam80-review-20261127T1248Z",
-        "started_at": "2026-11-27T12:48:21.259Z",
-        "expires_at": "2026-11-27T13:48:21.259Z"
+        "started_at": "2026-11-27T12:49:22.093Z",
+        "expires_at": "2026-11-27T13:49:22.093Z"
       },
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
+      "review_note": "실제 WebP 검수에서 마지막 페이지가 근거만 포함됨. 기존 내용 그대로 페이지 재균형 필요."
     },
     {
       "id": "TB-020-MOBILE",
@@ -1222,7 +1222,10 @@
     "mobile_layout_review_lessons": [
       11,
       13,
-      16
+      16,
+      17,
+      18,
+      19
     ]
   }
 }

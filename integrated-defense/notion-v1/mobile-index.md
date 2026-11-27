@@ -22,9 +22,9 @@
 | [14강](../lesson-014/diagrams/notion-v1/mobile/) | 2 | 완료 |
 | [15강](../lesson-015/diagrams/notion-v1/mobile/) | 3 | 완료 |
 | [16강](../lesson-016/diagrams/notion-v1/mobile/) | 12 | 재생성 요청 |
-| [17강](../lesson-017/diagrams/notion-v1/mobile/) | 5 | 시각 검수 대기 |
-| [18강](../lesson-018/diagrams/notion-v1/mobile/) | 5 | 시각 검수 대기 |
-| [19강](../lesson-019/diagrams/notion-v1/mobile/) | 3 | 시각 검수 대기 |
+| [17강](../lesson-017/diagrams/notion-v1/mobile/) | 5 | 재생성 요청 |
+| [18강](../lesson-018/diagrams/notion-v1/mobile/) | 5 | 재생성 요청 |
+| [19강](../lesson-019/diagrams/notion-v1/mobile/) | 3 | 재생성 요청 |
 | [20강](../lesson-020/diagrams/notion-v1/mobile/) | 2 | 완료 |
 | [21강](../lesson-021/diagrams/notion-v1/mobile/) | 2 | 완료 |
 | [22강](../lesson-022/diagrams/notion-v1/mobile/) | 5 | 시각 검수 대기 |
