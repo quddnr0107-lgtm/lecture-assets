@@ -2,7 +2,7 @@
   "generation": 2,
   "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
   "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
-  "request_sha256": "bbe8e2320b9ceadf3ee72dc72ca84308b40cde8ce7b419240a0565a5efa9ccaf",
+  "request_sha256": "6109aa4e58dae9614211d81ef18b65b8845067c9486f802e75c57bbb819a0126",
   "status": "draft_raster_only_not_final",
   "final_new_images": 0,
   "items": [
@@ -591,6 +591,118 @@
       "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/fixed-term-official-deferral.webp",
       "webp_sha256": "eb0649aaf589836e923bed804da9e02a8bddb6f9d0b1aa45aede0cee8da7e906",
       "webp_bytes": 55436,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-109",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-109/travel-authority-and-notification.svg",
+      "svg_sha256": "888382a87af34f80b6546ca58c8164b9defcaa28b2330cc20ab0436088ff1722",
+      "svg_blob_sha": "2b24f199e9a734e83fc36060d6190fe5a72bf840",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-109/travel-authority-and-notification.webp",
+      "webp_sha256": "81d8c053189d5e7635abcff1afafac9743a4d5e2d6fb79ada50f7774b40904d4",
+      "webp_bytes": 43386,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-109",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-109/restriction-grounds-and-exceptions-revised.svg",
+      "svg_sha256": "14b48614b167b116fa073eaef021c451bbd57250f22de1efd9edd7f192360258",
+      "svg_blob_sha": "deaf7b9b5b345f64a29a5e77599f6c9533fa47bc",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-109/restriction-grounds-and-exceptions-revised.webp",
+      "webp_sha256": "0307254e919f711afeeeb1a1e811c9d511a04c33946a05029415743fe1bf3ec5",
+      "webp_bytes": 51284,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-065",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/doctor-document-forms.svg",
+      "svg_sha256": "f3e20783db6f39e9e6ec0cd6a7e0f05782e3c8bc36d74bfd9a3cdf3f4b64f420",
+      "svg_blob_sha": "b9895b5dbcf9f244dbf16c9dffc7f77e8cda5879",
+      "script_git_blob_sha": "74c8bb42ce2c144513f61ff341683c2c94c9fc98",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/doctor-document-forms.webp",
+      "webp_sha256": "480ba8313f225bd1efe1300ccb886699385712cc4441e330b6b970dc7ff2fca1",
+      "webp_bytes": 37844,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-065",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-records.svg",
+      "svg_sha256": "cf20a959d166b7745de2b4259a06691425210034040d549aeffee7ab37e8f272",
+      "svg_blob_sha": "6155c9443e7a9f69fe57e3e40c80181da3f303ec",
+      "script_git_blob_sha": "74c8bb42ce2c144513f61ff341683c2c94c9fc98",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-records.webp",
+      "webp_sha256": "58044f04641afa7911b98ab9c1092ce63b2913f79fc7362f98b987b00ca25055",
+      "webp_bytes": 40194,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-065",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-selection-entry.svg",
+      "svg_sha256": "39f88c72bd561890bee990c36ee71020e6189ec9f3e1e5ca80641b0d58c5d2c9",
+      "svg_blob_sha": "20fc4de340a0ab5e7f4b1d70f9891a434032ff15",
+      "script_git_blob_sha": "74c8bb42ce2c144513f61ff341683c2c94c9fc98",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-selection-entry.webp",
+      "webp_sha256": "0df7b4e76fa36db3a7507203f5573bd44f355864f7819c0e7887f0a7ffa09e69",
+      "webp_bytes": 48626,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-001",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-001/purpose-exam-distinctions.svg",
+      "svg_sha256": "6b2c02bad9e218ede3b73ff0c71843f4e0d90d588ac9f3ddb9a2ae4d24a9b9b6",
+      "svg_blob_sha": "7811eb7cb00b1f9dd23e365583ac0cafa25dc70c",
+      "script_git_blob_sha": "f28ae8d03a454f402157d3040628a872bcc969d7",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-001/purpose-exam-distinctions.webp",
+      "webp_sha256": "d16f675bf28de0726201216451b178a001f913bed3df0344d657c3070bf81299",
+      "webp_bytes": 32226,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-065",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-service-end.svg",
+      "svg_sha256": "f5005d1672865da458cb6dc2cf411fe243c1d0cffa668743b1f63a05e35dec4c",
+      "svg_blob_sha": "8faabd3b67a7efdf825267bcea8f76389a8767dd",
+      "script_git_blob_sha": "74c8bb42ce2c144513f61ff341683c2c94c9fc98",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-service-end.webp",
+      "webp_sha256": "b40213b9651da402b27f5e150676311cfed104d18a61ec1c47bbaa4dddde7c7c",
+      "webp_bytes": 40320,
       "dimensions": [
         1600,
         1120
