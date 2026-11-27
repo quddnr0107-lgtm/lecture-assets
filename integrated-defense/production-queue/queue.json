@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject": "integrated-defense",
   "created_at_kst": "2026-11-27T10:25:01+09:00",
-  "updated_at_kst": "2026-11-28T00:51:17+09:00",
+  "updated_at_kst": "2026-11-28T01:52:40+09:00",
   "status": "final_audit_running",
   "approved_style": "07-notion-editorial",
   "baseline": {
@@ -1235,12 +1235,18 @@
         "integrated-defense/production-queue/completion.json"
       ],
       "lease": {
+        "run_id": "tb-exam80-20261128-0152-final",
+        "started_at": "2026-11-28T01:52:40+09:00",
+        "expires_at": "2026-11-28T02:49:00+09:00"
+      },
+      "attempts": 2,
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "previous_lease": {
         "run_id": "tb-exam80-20261128-0051-final",
         "started_at": "2026-11-28T00:51:17+09:00",
         "expires_at": "2026-11-28T01:49:00+09:00"
       },
-      "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "review_note": "직전 최종 검증 실패: mobile-index.md에 실제 줄바꿈 대신 리터럴 줄바꿈 및 12~25강 행 누락. 25강 manifest 및 완료된 큐를 기준으로 목록 복구 후 기존 자산 변경 없이 재검증."
     }
   ],
   "source_basis": {
