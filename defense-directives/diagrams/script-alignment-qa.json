@@ -6,7 +6,7 @@
     "cutoff_date": "2027-02-02",
     "cutoff_kind": "existing_user_specified_exam80_basis"
   },
-  "checked_at": "2026-11-27T16:21:18+09:00",
+  "checked_at": "2026-11-27T17:24:11+09:00",
   "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
   "script_bindings_verified": 78,
   "diagram_corrections": [
@@ -75,10 +75,10 @@
       "full_lesson_coverage_review": "pending"
     }
   ],
-  "full_lecture_coverage_reviews_completed": 12,
-  "remaining_full_lecture_reviews": 66,
+  "full_lecture_coverage_reviews_completed": 21,
+  "remaining_full_lecture_reviews": 57,
   "new_diagrams": 18,
-  "revised_diagrams": 22,
+  "revised_diagrams": 32,
   "priority_script_comparison": {
     "schema_version": 1,
     "created_at": "2026-11-27T11:59:01+09:00",
@@ -422,7 +422,7 @@
       "DR-045-existing-script-arrears-rates"
     ]
   },
-  "visual_review": "12 published lossless WebPs individually viewed, verified against manifest and Git tree; no clipping, overlaps or missing glyphs.",
+  "visual_review": "11 published WebPs individually viewed; no clipping/overlap/missing glyphs; manifest entries checked.",
   "targeted_render_runs": [
     {
       "run_id": "dr-20261127-122552",
@@ -9303,7 +9303,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: published WebP individually viewed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-024/diagrams/DR-024-D02-editorial-v1.svg",
@@ -9406,7 +9406,7 @@
             {
               "text": "요청 방법",
               "x": 144,
-              "y": 689.0,
+              "y": 689,
               "width": 91,
               "height": 23,
               "fontSize": 23,
@@ -9415,7 +9415,7 @@
             {
               "text": "국방동원정보체계",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 265,
               "height": 34,
               "fontSize": 36,
@@ -9549,7 +9549,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: published WebP individually viewed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-024/diagrams/DR-024-D03-editorial-v1.svg",
@@ -9760,7 +9760,7 @@
             {
               "text": "전입 요청",
               "x": 860,
-              "y": 720.0,
+              "y": 720,
               "width": 143,
               "height": 34,
               "fontSize": 36,
@@ -9838,7 +9838,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: published WebP individually viewed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-062/diagrams/DR-062-D03-editorial-v1.svg",
@@ -10013,7 +10013,7 @@
             {
               "text": "일부 연기·정당조퇴 예외",
               "x": 1034,
-              "y": 689.0,
+              "y": 689,
               "width": 237,
               "height": 23,
               "fontSize": 23,
@@ -10022,7 +10022,7 @@
             {
               "text": "잔여시간을 3차 훈련으로 재부과",
               "x": 1034,
-              "y": 719.0,
+              "y": 719,
               "width": 480,
               "height": 36,
               "fontSize": 36,
@@ -10089,7 +10089,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: published WebP individually viewed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-062/diagrams/DR-062-D05-editorial-v1.svg",
@@ -10324,7 +10324,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: published WebP individually viewed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-078/diagrams/DR-078-D01-editorial-v1.svg",
@@ -10569,7 +10569,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: published WebP individually viewed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-078/diagrams/DR-078-D08-editorial-v1.svg",
@@ -10672,7 +10672,7 @@
             {
               "text": "신체검사",
               "x": 144,
-              "y": 689.0,
+              "y": 689,
               "width": 85,
               "height": 23,
               "fontSize": 23,
@@ -10681,7 +10681,7 @@
             {
               "text": "지정 신체검사기관 및 군 병원",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 438,
               "height": 34,
               "fontSize": 36,
@@ -10753,7 +10753,7 @@
             {
               "text": "전산코드",
               "x": 860,
-              "y": 689.0,
+              "y": 689,
               "width": 85,
               "height": 22,
               "fontSize": 23,
@@ -10762,7 +10762,7 @@
             {
               "text": "국방동원정보체계 ①(정신이상 및 성격장애)",
               "x": 860,
-              "y": 719.0,
+              "y": 719,
               "width": 655,
               "height": 40,
               "fontSize": 36,
@@ -10835,7 +10835,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: published WebP individually viewed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-042/diagrams/DR-042-D01-editorial-v1.svg",
@@ -11045,7 +11045,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: published WebP individually viewed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-016/diagrams/DR-016-D01-editorial-v1.svg",
@@ -11276,7 +11276,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: published WebP individually viewed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-020/diagrams/DR-020-D01-editorial-v1.svg",
@@ -11379,7 +11379,7 @@
             {
               "text": "병역법 제72조",
               "x": 144,
-              "y": 689.0,
+              "y": 689,
               "width": 138,
               "height": 23,
               "fontSize": 23,
@@ -11388,7 +11388,7 @@
             {
               "text": "40세 이하",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 149,
               "height": 35,
               "fontSize": 36,
@@ -11522,7 +11522,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: published WebP individually viewed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-025/diagrams/DR-025-D01-editorial-v1.svg",
@@ -11730,7 +11730,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: published WebP individually viewed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-050/diagrams/DR-050-D01-editorial-v1.svg",
@@ -12046,6 +12046,35 @@
         "revised": 10
       },
       "remaining_reviews": 66
+    },
+    {
+      "run_id": "dr-20261127-162118-script",
+      "completed_lessons": [
+        "DR-024",
+        "DR-062",
+        "DR-042",
+        "DR-016",
+        "DR-025",
+        "DR-050",
+        "DR-027",
+        "DR-034",
+        "DR-049"
+      ],
+      "visual_reviewed": [
+        "DR-024-D02",
+        "DR-024-D03",
+        "DR-062-D03",
+        "DR-062-D05",
+        "DR-078-D01",
+        "DR-078-D08",
+        "DR-042-D01",
+        "DR-016-D01",
+        "DR-020-D01",
+        "DR-025-D01",
+        "DR-050-D01"
+      ],
+      "render_commit": "a3a42b35aad3d09bace4f07c8ca558207c8e3933",
+      "remaining_reviews": 57
     }
   ]
 }
