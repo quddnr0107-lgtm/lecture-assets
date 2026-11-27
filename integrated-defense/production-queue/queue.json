@@ -1031,7 +1031,7 @@
       "lecture_id": "TB-022",
       "title": "22강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -1052,14 +1052,16 @@
       "outputs": [
         "integrated-defense/lesson-022/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-20261127T144638Z",
-        "started_at": "2026-11-27T14:46:38Z",
-        "expires_at": "2026-11-27T15:46:38Z"
-      },
+      "lease": null,
       "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "D02 M03 근거만 남은 페이지"
+      "review_note": "재생성된 WebP 전 페이지 직접 검수, 근거 전용 페이지 개선 확인. 제80회 원고 blob·alignment·렌더러 파일 해시 기록 및 원격 파일 크기 대조.",
+      "completed_evidence": {
+        "verified_commit": "42d499deecb23ea9b6add51684906b54e90e0ba7",
+        "visual_report": "integrated-defense/production-queue/runs/tb-exam80-20261127T144638Z-visual-qa.json",
+        "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+        "output_type": "mobile"
+      }
     },
     {
       "id": "TB-023-MOBILE",
@@ -1068,7 +1070,7 @@
       "lecture_id": "TB-023",
       "title": "23강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -1090,14 +1092,16 @@
       "outputs": [
         "integrated-defense/lesson-023/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-20261127T144638Z",
-        "started_at": "2026-11-27T14:46:38Z",
-        "expires_at": "2026-11-27T15:46:38Z"
-      },
+      "lease": null,
       "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "D02 M03 근거만 남은 페이지; D03 M03 재검수 필요"
+      "review_note": "재생성된 WebP 전 페이지 직접 검수, 근거 전용 페이지 개선 확인. 제80회 원고 blob·alignment·렌더러 파일 해시 기록 및 원격 파일 크기 대조.",
+      "completed_evidence": {
+        "verified_commit": "42d499deecb23ea9b6add51684906b54e90e0ba7",
+        "visual_report": "integrated-defense/production-queue/runs/tb-exam80-20261127T144638Z-visual-qa.json",
+        "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+        "output_type": "mobile"
+      }
     },
     {
       "id": "TB-024-MOBILE",
@@ -1106,7 +1110,7 @@
       "lecture_id": "TB-024",
       "title": "24강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -1127,14 +1131,16 @@
       "outputs": [
         "integrated-defense/lesson-024/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-20261127T144638Z",
-        "started_at": "2026-11-27T14:46:38Z",
-        "expires_at": "2026-11-27T15:46:38Z"
-      },
+      "lease": null,
       "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "D01 M03 근거만 남은 페이지"
+      "review_note": "재생성된 WebP 전 페이지 직접 검수, 근거 전용 페이지 개선 확인. 제80회 원고 blob·alignment·렌더러 파일 해시 기록 및 원격 파일 크기 대조.",
+      "completed_evidence": {
+        "verified_commit": "42d499deecb23ea9b6add51684906b54e90e0ba7",
+        "visual_report": "integrated-defense/production-queue/runs/tb-exam80-20261127T144638Z-visual-qa.json",
+        "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+        "output_type": "mobile"
+      }
     },
     {
       "id": "TB-025-MOBILE",
@@ -1247,20 +1253,17 @@
     "checked_at_kst": "2026-11-27T12:02:16+09:00"
   },
   "last_render_run": "tb-exam80-20261127T135012Z",
-  "last_verified_commit": "7bae75cf29afc56eebf19b10e83210f0d727be53",
+  "last_verified_commit": "42d499deecb23ea9b6add51684906b54e90e0ba7",
   "progress": {
-    "jobs_done": 25,
-    "jobs_remaining": 5,
+    "jobs_done": 28,
+    "jobs_remaining": 2,
     "desktop_diagrams": 55,
     "mobile_rendered_lessons": 25,
     "mobile_rendered_pages": 137,
-    "mobile_verified_lessons": 21,
-    "mobile_verified_pages": 112,
+    "mobile_verified_lessons": 24,
+    "mobile_verified_pages": 130,
     "mobile_layout_review_lessons": [
-      11,
-      22,
-      23,
-      24
+      11
     ]
   }
 }
