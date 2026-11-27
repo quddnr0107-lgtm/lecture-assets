@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-27T22:29:06+09:00",
+  "updated_at": "2026-11-27T23:27:42+09:00",
   "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
     "status": "files_completed",
@@ -66,7 +66,18 @@
     ]
   },
   "state": {
-    "active_run": null,
+    "active_run": {
+      "id": "dr-20261127-232742-script",
+      "claimed_at": "2026-11-27T23:27:42+09:00",
+      "lease_expires_at": "2026-11-28T01:27:42+09:00",
+      "production_job_ids": [
+        "DR-021-D01-precision-222906",
+        "DR-076-D03-precision-222906",
+        "DR-076-D01-precision-222906"
+      ],
+      "status": "running",
+      "workers": 3
+    },
     "last_successful_run": {
       "id": "dr-20261127-222906-script",
       "render_commit": "a2e22e8e0620b233a913131abfcf897b8cd8ebd3",
@@ -93,7 +104,7 @@
       "report": "defense-directives/diagrams/script-alignment-qa.json",
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
-    "production_jobs_queued": 3,
+    "production_jobs_queued": 0,
     "production_jobs_qa": 0,
     "production_jobs_completed": 83
   },
@@ -7570,7 +7581,7 @@
       "script_sha256": "6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-021|6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04|19,47,58,166,168|필요시 지시 및 추가 편성 대상자·대상지역·필요사항의 시험 핵심 표현|editorial-v1",
-      "status": "queued",
+      "status": "running",
       "outputs": [],
       "evidence": [
         {
@@ -7586,9 +7597,9 @@
           ]
         }
       ],
-      "claimed_by": null,
-      "claimed_at": null,
-      "lease_expires_at": null,
+      "claimed_by": "dr-20261127-232742-script",
+      "claimed_at": "2026-11-27T23:27:42+09:00",
+      "lease_expires_at": "2026-11-28T01:27:42+09:00",
       "finding": "도식에 필요시가 없고 공고 대상을 축약하여 원고의 명시적인 낱말 구분을 보존하지 못함",
       "required_change": "국방부장관 항목에 필요시 추가 편성 지시, 각주에 추가 편성 대상자·대상지역·필요사항 명시"
     },
@@ -7603,7 +7614,7 @@
       "script_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-076|16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239|126,130,155|가산금과 중가산금의 명칭 및 기산|editorial-v1",
-      "status": "queued",
+      "status": "running",
       "outputs": [],
       "evidence": [
         {
@@ -7617,9 +7628,9 @@
           ]
         }
       ],
-      "claimed_by": null,
-      "claimed_at": null,
-      "lease_expires_at": null,
+      "claimed_by": "dr-20261127-232742-script",
+      "claimed_at": "2026-11-27T23:27:42+09:00",
+      "lease_expires_at": "2026-11-28T01:27:42+09:00",
       "finding": "최초·매월 수치는 맞으나 매월 항목이 가산금으로만 묶여 원고의 중가산금 구분 누락",
       "required_change": "최초 가산금 / 매월 중가산금으로 명칭 구분"
     },
@@ -7634,7 +7645,7 @@
       "script_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-076|16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239|19,58,68,82,96,148,150,151|위반 근거와 산정 주체·절차의 명확한 구분|editorial-v1",
-      "status": "queued",
+      "status": "running",
       "outputs": [],
       "evidence": [
         {
@@ -7653,9 +7664,9 @@
           ]
         }
       ],
-      "claimed_by": null,
-      "claimed_at": null,
-      "lease_expires_at": null,
+      "claimed_by": "dr-20261127-232742-script",
+      "claimed_at": "2026-11-27T23:27:42+09:00",
+      "lease_expires_at": "2026-11-28T01:27:42+09:00",
       "finding": "제1항의 위반 조문 및 제2항 금액 산정 주체가 명시되지 않음",
       "required_change": "예비군법 제6조의2제4항·제10조의2 위반과 수임군부대장 산정 주체 명시"
     }
