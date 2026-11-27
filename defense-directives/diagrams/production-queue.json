@@ -68,19 +68,19 @@
   "state": {
     "active_run": null,
     "last_successful_run": {
-      "id": "dr-20261127-172411-script",
-      "render_commit": "3a74ce4ba9e187d3b432a3faef64dea015ab6321",
-      "new_diagrams": 0,
-      "revised_diagrams": 5,
-      "completed_reviews": 3,
+      "id": "dr-20261127-183200-script",
+      "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8",
+      "new_diagrams": 2,
+      "revised_diagrams": 12,
+      "completed_reviews": 8,
       "visual_qa": "passed"
     },
     "coverage_reviews_total": 78,
-    "coverage_reviews_queued": 54,
-    "coverage_reviews_completed": 24,
+    "coverage_reviews_queued": 46,
+    "coverage_reviews_completed": 32,
     "confirmed_production_jobs": 66,
     "diagrams_added_after_baseline": 20,
-    "diagrams_revised_after_baseline": 37,
+    "diagrams_revised_after_baseline": 49,
     "script_bindings_verified": 78,
     "last_correction": {
       "updated_at": "2026-11-27T11:59:19+09:00",
@@ -94,8 +94,8 @@
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
     "production_jobs_queued": 0,
-    "production_jobs_qa": 14,
-    "production_jobs_completed": 52
+    "production_jobs_qa": 0,
+    "production_jobs_completed": 66
   },
   "jobs": [
     {
@@ -512,7 +512,7 @@
       "lesson_id": "DR-078",
       "title": "예비군 교육훈련 훈령 제23조, 예비군훈련 보류의 해소와 관리",
       "priority": 9,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 8,
       "existing_diagram_ids": [
         "DR-078-D01",
@@ -531,15 +531,32 @@
         "국방부훈령 제3216호"
       ],
       "output_directory": "defense-directives/lesson-078/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
+        "existing_svg_sha256": [
+          "620faa00e8feba5a085788791b30f04fb1a27d66e60c62784bdeb671bd650646",
+          "5a481e568789714d0f4ba67fc93c24e29759fc608fe81443fdd2cf557e49f862",
+          "0335fd9ecc818d5e0fa7b8bd6129edd04a03507655e3eaa12ca7b8c243dcc453",
+          "10965a3de80d5f425559695758bd9d8744b4c8a0fdf5b0d5fe973fc335752aa7",
+          "bcf48f9f1a22a65eaf4642b33b90c6f45fb501b1d55d7289013e46d5a754222d",
+          "de711554be7e0ab0995f9c2098889ba11f69026f5260265d89591f7d00a07a99",
+          "57362e3aad2bb314dce061529259cf490d357806a067d9ef086d14609fc391fd",
+          "4567fb88db6d2256c08aadf5e4f11029f1b8df840cbc3e82162639a5867ad58f"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-27T20:30:00+09:00",
       "result": {
-        "scope": "제80회 기존 스크립트 대조에서 확인한 보강",
-        "full_review_completed": false,
-        "source_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3"
+        "scope": "기존 원고 핵심 설명·조문 인용 및 강의별 구조화 도식 전체 대조",
+        "coverage": "보류의 개념·대상·절차·예외; 원고 표현 충돌 기존 기록 유지",
+        "source_git_blob": "10cfc56fac80c296861241c032e43f35a9458465",
+        "source_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
+        "additional_diagrams_required": false,
+        "uncovered_required_learning_objectives": [],
+        "visual_qa": "기존 제작 검수 유지 및 이번 변경 대상 실제 PNG 확인"
       },
       "script_ref": "DR-078",
       "script_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
@@ -947,7 +964,7 @@
       "lesson_id": "DR-017",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제17조, 지원방법 및 처리절차",
       "priority": 23,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 3,
       "existing_diagram_ids": [
         "DR-017-D01",
@@ -961,15 +978,27 @@
         "국방부훈령 제3104호"
       ],
       "output_directory": "defense-directives/lesson-017/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "e059bd4a61b24ae7288a84a67a393fa4187cad433594adf1b5285d0697d9226c",
+        "existing_svg_sha256": [
+          "c8f89bcc44f7b963f1e7c26f36c7c3b37cecba1007a5399fb16e4e6011064711",
+          "b98b82402cf1841662049f7225cd69fa79dc6f2b6b6be1f219b62049827857e5",
+          "3faa5cb5cc0df1a04f4780bc5bfc7beadf2c055bcd78deed8c3bff33c37ab4a1"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-27T20:30:00+09:00",
       "result": {
-        "scope": "제80회 기존 스크립트 대조에서 확인한 보강",
-        "full_review_completed": false,
-        "source_sha256": "e059bd4a61b24ae7288a84a67a393fa4187cad433594adf1b5285d0697d9226c"
+        "scope": "기존 원고 핵심 설명·조문 인용 및 강의별 구조화 도식 전체 대조",
+        "coverage": "지원예비군 관련 대상·절차·조건",
+        "source_git_blob": "0188f10f0e807a1aefc1a3052bdcff67a566c0a2",
+        "source_sha256": "e059bd4a61b24ae7288a84a67a393fa4187cad433594adf1b5285d0697d9226c",
+        "additional_diagrams_required": false,
+        "uncovered_required_learning_objectives": [],
+        "visual_qa": "기존 제작 검수 유지 및 이번 변경 대상 실제 PNG 확인"
       },
       "script_ref": "DR-017",
       "script_sha256": "e059bd4a61b24ae7288a84a67a393fa4187cad433594adf1b5285d0697d9226c",
@@ -1304,7 +1333,7 @@
       "lesson_id": "DR-004",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제4조, 예비군 지휘관리체계",
       "priority": 35,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 3,
       "existing_diagram_ids": [
         "DR-004-D01",
@@ -1318,15 +1347,27 @@
         "국방부훈령 제3104호"
       ],
       "output_directory": "defense-directives/lesson-004/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "848884ffc959d1b46f917d405e12748277daa0d68a58e90b24e2691915db4b67",
+        "existing_svg_sha256": [
+          "de6ba02740177daa33394f50bdf059cff3b11a7d9fc26018d929855a63152e2a",
+          "f58ffc6251b13c7166d2180ec45dc5a5db94101652f98e6ca2ab16d745d876b9",
+          "ad7cbfbd3f2e58c312f4fd24c56be95ddb450143e404b2c539c66370bec8a5d8"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-27T20:30:00+09:00",
       "result": {
-        "scope": "제80회 기존 스크립트 대조에서 확인한 보강",
-        "full_review_completed": false,
-        "source_sha256": "848884ffc959d1b46f917d405e12748277daa0d68a58e90b24e2691915db4b67"
+        "scope": "기존 원고 핵심 설명·조문 인용 및 강의별 구조화 도식 전체 대조",
+        "coverage": "지휘관리 및 직장예비군 관리 주체·대학 예외",
+        "source_git_blob": "bd41537dfc3dadf3cf328f1d67bdb0354d822522",
+        "source_sha256": "848884ffc959d1b46f917d405e12748277daa0d68a58e90b24e2691915db4b67",
+        "additional_diagrams_required": false,
+        "uncovered_required_learning_objectives": [],
+        "visual_qa": "기존 제작 검수 유지 및 이번 변경 대상 실제 PNG 확인"
       },
       "script_ref": "DR-004",
       "script_sha256": "848884ffc959d1b46f917d405e12748277daa0d68a58e90b24e2691915db4b67",
@@ -1340,7 +1381,7 @@
       "lesson_id": "DR-006",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제6조, 예비군 조직",
       "priority": 36,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 3,
       "existing_diagram_ids": [
         "DR-006-D01",
@@ -1354,15 +1395,27 @@
         "국방부훈령 제3104호"
       ],
       "output_directory": "defense-directives/lesson-006/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "fd704490da5c8ee5f823f825c10ba20373d091920634fb20c926ff13beea00e9",
+        "existing_svg_sha256": [
+          "d5f1d7c2fccc6af0db592f51cb7dec185069c32758e58c47f66fceac3020b2ca",
+          "7aab7ddc1b9ddcb3e20d514be45f0963cfaa399af16c84d35f25a58bf408c7de",
+          "e66284696ac8a34d7e4bea01af069bf6450f71fe1ab97e4903c1df7f09a53865"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-27T20:30:00+09:00",
       "result": {
-        "scope": "제80회 기존 스크립트 대조에서 확인한 보강",
-        "full_review_completed": false,
-        "source_sha256": "fd704490da5c8ee5f823f825c10ba20373d091920634fb20c926ff13beea00e9"
+        "scope": "기존 원고 핵심 설명·조문 인용 및 강의별 구조화 도식 전체 대조",
+        "coverage": "편성 기준 및 편성 대상·제외",
+        "source_git_blob": "70fde4b5086f57a257cdba1cd983a119ef8b4592",
+        "source_sha256": "fd704490da5c8ee5f823f825c10ba20373d091920634fb20c926ff13beea00e9",
+        "additional_diagrams_required": false,
+        "uncovered_required_learning_objectives": [],
+        "visual_qa": "기존 제작 검수 유지 및 이번 변경 대상 실제 PNG 확인"
       },
       "script_ref": "DR-006",
       "script_sha256": "fd704490da5c8ee5f823f825c10ba20373d091920634fb20c926ff13beea00e9",
@@ -1377,7 +1430,7 @@
       "lesson_id": "DR-007",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제7조, 예비군부대 편성체계",
       "priority": 37,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 2,
       "existing_diagram_ids": [
         "DR-007-D01",
@@ -1390,15 +1443,26 @@
         "국방부훈령 제3104호"
       ],
       "output_directory": "defense-directives/lesson-007/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "dbb02e5717f30d307485ab267401a2765359b180de11543131483c177ec1fe83",
+        "existing_svg_sha256": [
+          "63adead7d5ff8d5969b585813e85a7de2be20e7feb81b0bb3e14dfe1ac672df3",
+          "c087e964c3aa532019d3d57a90dcde3ef5d7699d5ccabac88fbe8bda5347f21b"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-27T20:30:00+09:00",
       "result": {
-        "scope": "제80회 기존 스크립트 대조에서 확인한 보강",
-        "full_review_completed": false,
-        "source_sha256": "dbb02e5717f30d307485ab267401a2765359b180de11543131483c177ec1fe83"
+        "scope": "기존 원고 핵심 설명·조문 인용 및 강의별 구조화 도식 전체 대조",
+        "coverage": "편성·임무 구분과 예외",
+        "source_git_blob": "c8bebf32ef27552077b460760e4848230b8aff98",
+        "source_sha256": "dbb02e5717f30d307485ab267401a2765359b180de11543131483c177ec1fe83",
+        "additional_diagrams_required": false,
+        "uncovered_required_learning_objectives": [],
+        "visual_qa": "기존 제작 검수 유지 및 이번 변경 대상 실제 PNG 확인"
       },
       "script_ref": "DR-007",
       "script_sha256": "dbb02e5717f30d307485ab267401a2765359b180de11543131483c177ec1fe83",
@@ -1413,7 +1477,7 @@
       "lesson_id": "DR-008",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제8조, 편성원칙",
       "priority": 38,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 2,
       "existing_diagram_ids": [
         "DR-008-D01",
@@ -1426,15 +1490,26 @@
         "국방부훈령 제3104호"
       ],
       "output_directory": "defense-directives/lesson-008/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "aa591adef22ac48193eabf6e609486b6e70d614f673e2e8d0294897de9775257",
+        "existing_svg_sha256": [
+          "2ae899dabb088a486fc6df0d2be6f51ddd232f7948d23c2822145539f72d60b0",
+          "d9f40b3db4b67500e3e24b5296bde771417233d9c44ee2bd3d90e41cdf798e20"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-27T20:30:00+09:00",
       "result": {
-        "scope": "제80회 기존 스크립트 대조에서 확인한 보강",
-        "full_review_completed": false,
-        "source_sha256": "aa591adef22ac48193eabf6e609486b6e70d614f673e2e8d0294897de9775257"
+        "scope": "기존 원고 핵심 설명·조문 인용 및 강의별 구조화 도식 전체 대조",
+        "coverage": "편성 관련 절차·주체·기준",
+        "source_git_blob": "bf2fa4e38cfe40502175444540a8762a0cceca2f",
+        "source_sha256": "aa591adef22ac48193eabf6e609486b6e70d614f673e2e8d0294897de9775257",
+        "additional_diagrams_required": false,
+        "uncovered_required_learning_objectives": [],
+        "visual_qa": "기존 제작 검수 유지 및 이번 변경 대상 실제 PNG 확인"
       },
       "script_ref": "DR-008",
       "script_sha256": "aa591adef22ac48193eabf6e609486b6e70d614f673e2e8d0294897de9775257",
@@ -1484,7 +1559,7 @@
       "lesson_id": "DR-022",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제22조, 예비군 신규조직 절차",
       "priority": 40,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 2,
       "existing_diagram_ids": [
         "DR-022-D01",
@@ -1497,15 +1572,26 @@
         "국방부훈령 제3104호"
       ],
       "output_directory": "defense-directives/lesson-022/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "6c0b0550aea83d3178b4ff610e69801c4d715dcc256a2c0fa49306fe51b5aa6b",
+        "existing_svg_sha256": [
+          "b421b18f7e56f42bbff48b8e71622e3258676330302ed888b55f83973322119e",
+          "7741a57246360519b76b122900db48d372f83e7a2c912dbeb2dd9f63ca83122a"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-27T20:30:00+09:00",
       "result": {
-        "scope": "제80회 기존 스크립트 대조에서 확인한 보강",
-        "full_review_completed": false,
-        "source_sha256": "6c0b0550aea83d3178b4ff610e69801c4d715dcc256a2c0fa49306fe51b5aa6b"
+        "scope": "기존 원고 핵심 설명·조문 인용 및 강의별 구조화 도식 전체 대조",
+        "coverage": "신상변동·처리 절차와 주체",
+        "source_git_blob": "9f78c2227a55366ec4a7dd1610eaca3474b3e87a",
+        "source_sha256": "6c0b0550aea83d3178b4ff610e69801c4d715dcc256a2c0fa49306fe51b5aa6b",
+        "additional_diagrams_required": false,
+        "uncovered_required_learning_objectives": [],
+        "visual_qa": "기존 제작 검수 유지 및 이번 변경 대상 실제 PNG 확인"
       },
       "script_ref": "DR-022",
       "script_sha256": "6c0b0550aea83d3178b4ff610e69801c4d715dcc256a2c0fa49306fe51b5aa6b",
@@ -2094,7 +2180,7 @@
       "lesson_id": "DR-020",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제20조, 추가 편성 대상",
       "priority": 59,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 1,
       "existing_diagram_ids": [
         "DR-020-D01"
@@ -2106,15 +2192,25 @@
         "국방부훈령 제3104호"
       ],
       "output_directory": "defense-directives/lesson-020/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "736c59283683e9bb7a27a1854d0d1bb02ca7c196313a5a34da4d2328332be685",
+        "existing_svg_sha256": [
+          "35d732b4096831d592ae32a9989840e32acd515c3f20a334248299949d78ba6d"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-27T20:30:00+09:00",
       "result": {
-        "scope": "제80회 기존 스크립트 대조에서 확인한 보강",
-        "full_review_completed": false,
-        "source_sha256": "736c59283683e9bb7a27a1854d0d1bb02ca7c196313a5a34da4d2328332be685"
+        "scope": "기존 원고 핵심 설명·조문 인용 및 강의별 구조화 도식 전체 대조",
+        "coverage": "기존 스크립트의 정의·대상 및 핵심 기준",
+        "source_git_blob": "2a00f0a45985a3f77d2b4e02ec88b4c07ff10e11",
+        "source_sha256": "736c59283683e9bb7a27a1854d0d1bb02ca7c196313a5a34da4d2328332be685",
+        "additional_diagrams_required": false,
+        "uncovered_required_learning_objectives": [],
+        "visual_qa": "기존 제작 검수 유지 및 이번 변경 대상 실제 PNG 확인"
       },
       "script_ref": "DR-020",
       "script_sha256": "736c59283683e9bb7a27a1854d0d1bb02ca7c196313a5a34da4d2328332be685",
@@ -5753,7 +5849,7 @@
       "script_sha256": "848884ffc959d1b46f917d405e12748277daa0d68a58e90b24e2691915db4b67",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-004|848884ffc959d1b46f917d405e12748277daa0d68a58e90b24e2691915db4b67|109,113,121,127,133,145,146|별표2 선 종류 및 직장예비군 관리 주체·대학 예외|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-004/diagrams/DR-004-D03-editorial-v1.svg",
@@ -5793,7 +5889,9 @@
       "diagram_id": "DR-004-D03",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "completed_at": "2026-11-27T20:30:00+09:00",
+      "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8"
     },
     {
       "id": "DR-006-exam80-01-revision-183200",
@@ -5806,7 +5904,7 @@
       "script_sha256": "fd704490da5c8ee5f823f825c10ba20373d091920634fb20c926ff13beea00e9",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-006|fd704490da5c8ee5f823f825c10ba20373d091920634fb20c926ff13beea00e9|23,43,57,71,81,85,99,103|간부 연령정년 근거와 현역 복무 완료 간주|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-006/diagrams/DR-006-D01-editorial-v1.svg",
@@ -5847,7 +5945,9 @@
       "diagram_id": "DR-006-D01",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "completed_at": "2026-11-27T20:30:00+09:00",
+      "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8"
     },
     {
       "id": "DR-006-exam80-03-new-183200",
@@ -5860,7 +5960,7 @@
       "script_sha256": "fd704490da5c8ee5f823f825c10ba20373d091920634fb20c926ff13beea00e9",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-006|fd704490da5c8ee5f823f825c10ba20373d091920634fb20c926ff13beea00e9|85,87,89,99,103|보충역 복무 완료자 및 가사사정 예외|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-006/diagrams/DR-006-D03-editorial-v1.svg",
@@ -5898,7 +5998,9 @@
       "diagram_id": "DR-006-D03",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "completed_at": "2026-11-27T20:30:00+09:00",
+      "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8"
     },
     {
       "id": "DR-007-exam80-01-revision-183200",
@@ -5911,7 +6013,7 @@
       "script_sha256": "dbb02e5717f30d307485ab267401a2765359b180de11543131483c177ec1fe83",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-007|dbb02e5717f30d307485ab267401a2765359b180de11543131483c177ec1fe83|29,53,69,137,138,139,140,141,142|부대 편성 결정 권한|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-007/diagrams/DR-007-D01-editorial-v1.svg",
@@ -5953,7 +6055,9 @@
       "diagram_id": "DR-007-D01",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "completed_at": "2026-11-27T20:30:00+09:00",
+      "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8"
     },
     {
       "id": "DR-007-exam80-02-revision-183200",
@@ -5966,7 +6070,7 @@
       "script_sha256": "dbb02e5717f30d307485ab267401a2765359b180de11543131483c177ec1fe83",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-007|dbb02e5717f30d307485ab267401a2765359b180de11543131483c177ec1fe83|95,109,119,143,144,145,146,147|계획 교부 주체 및 대학 총·학장 포함|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-007/diagrams/DR-007-D02-editorial-v1.svg",
@@ -6007,7 +6111,9 @@
       "diagram_id": "DR-007-D02",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "completed_at": "2026-11-27T20:30:00+09:00",
+      "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8"
     },
     {
       "id": "DR-008-exam80-01-revision-183200",
@@ -6020,7 +6126,7 @@
       "script_sha256": "aa591adef22ac48193eabf6e609486b6e70d614f673e2e8d0294897de9775257",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-008|aa591adef22ac48193eabf6e609486b6e70d614f673e2e8d0294897de9775257|31,51,55,69,113,114,115,116|통합·분리 조건과 확산 편성 대상|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-008/diagrams/DR-008-D01-editorial-v1.svg",
@@ -6061,7 +6167,9 @@
       "diagram_id": "DR-008-D01",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "completed_at": "2026-11-27T20:30:00+09:00",
+      "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8"
     },
     {
       "id": "DR-008-exam80-02-revision-183200",
@@ -6074,7 +6182,7 @@
       "script_sha256": "aa591adef22ac48193eabf6e609486b6e70d614f673e2e8d0294897de9775257",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-008|aa591adef22ac48193eabf6e609486b6e70d614f673e2e8d0294897de9775257|73,87,107,117,118|특별 편성의 정확한 부대 명칭|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-008/diagrams/DR-008-D02-editorial-v1.svg",
@@ -6112,7 +6220,9 @@
       "diagram_id": "DR-008-D02",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "completed_at": "2026-11-27T20:30:00+09:00",
+      "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8"
     },
     {
       "id": "DR-017-exam80-01-revision-183200",
@@ -6125,7 +6235,7 @@
       "script_sha256": "e059bd4a61b24ae7288a84a67a393fa4187cad433594adf1b5285d0697d9226c",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-017|e059bd4a61b24ae7288a84a67a393fa4187cad433594adf1b5285d0697d9226c|17,67,99,105,109,111|편입지원서 서식과 카드 전송 수단|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-017/diagrams/DR-017-D01-editorial-v1.svg",
@@ -6164,7 +6274,9 @@
       "diagram_id": "DR-017-D01",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "completed_at": "2026-11-27T20:30:00+09:00",
+      "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8"
     },
     {
       "id": "DR-017-exam80-02-revision-183200",
@@ -6177,7 +6289,7 @@
       "script_sha256": "e059bd4a61b24ae7288a84a67a393fa4187cad433594adf1b5285d0697d9226c",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-017|e059bd4a61b24ae7288a84a67a393fa4187cad433594adf1b5285d0697d9226c|39,139,143,147|복무연장 후 제2항 절차 준용|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-017/diagrams/DR-017-D02-editorial-v1.svg",
@@ -6214,7 +6326,9 @@
       "diagram_id": "DR-017-D02",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "completed_at": "2026-11-27T20:30:00+09:00",
+      "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8"
     },
     {
       "id": "DR-017-exam80-03-revision-183200",
@@ -6227,7 +6341,7 @@
       "script_sha256": "e059bd4a61b24ae7288a84a67a393fa4187cad433594adf1b5285d0697d9226c",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-017|e059bd4a61b24ae7288a84a67a393fa4187cad433594adf1b5285d0697d9226c|165,181,199|탈퇴지원서 서식 및 관할 청장|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-017/diagrams/DR-017-D03-editorial-v1.svg",
@@ -6263,7 +6377,9 @@
       "diagram_id": "DR-017-D03",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "completed_at": "2026-11-27T20:30:00+09:00",
+      "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8"
     },
     {
       "id": "DR-021-exam80-01-revision-183200",
@@ -6276,7 +6392,7 @@
       "script_sha256": "6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-021|6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04|57,85,89,99,166,167,168,169,170,171,172,173,174|지시 수신자·공고 수단·편성카드 작성자|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-021/diagrams/DR-021-D01-editorial-v1.svg",
@@ -6322,7 +6438,9 @@
       "diagram_id": "DR-021-D01",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "completed_at": "2026-11-27T20:30:00+09:00",
+      "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8"
     },
     {
       "id": "DR-022-exam80-01-revision-183200",
@@ -6335,7 +6453,7 @@
       "script_sha256": "6c0b0550aea83d3178b4ff610e69801c4d715dcc256a2c0fa49306fe51b5aa6b",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-022|6c0b0550aea83d3178b4ff610e69801c4d715dcc256a2c0fa49306fe51b5aa6b|19,43,69,169,170|병적자료의 전산자료 포함|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-022/diagrams/DR-022-D01-editorial-v1.svg",
@@ -6373,7 +6491,9 @@
       "diagram_id": "DR-022-D01",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "completed_at": "2026-11-27T20:30:00+09:00",
+      "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8"
     },
     {
       "id": "DR-022-exam80-02-revision-183200",
@@ -6386,7 +6506,7 @@
       "script_sha256": "6c0b0550aea83d3178b4ff610e69801c4d715dcc256a2c0fa49306fe51b5aa6b",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-022|6c0b0550aea83d3178b4ff610e69801c4d715dcc256a2c0fa49306fe51b5aa6b|87,109,127,155,171,172,173,174,175|소집해제와 조직의 관할 구분·전송 주체|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-022/diagrams/DR-022-D02-editorial-v1.svg",
@@ -6428,7 +6548,9 @@
       "diagram_id": "DR-022-D02",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "completed_at": "2026-11-27T20:30:00+09:00",
+      "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8"
     },
     {
       "id": "DR-078-exam80-04-revision-183200",
@@ -6441,7 +6563,7 @@
       "script_sha256": "3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-078|3516eff3907440bdefee7941bb091d945951114d58320103d30e34e42f438de3|133,135,139,143,147,149|장기보류 확인책임기관 및 필요시 증빙|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-078/diagrams/DR-078-D04-editorial-v1.svg",
@@ -6480,7 +6602,9 @@
       "diagram_id": "DR-078-D04",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "completed_at": "2026-11-27T20:30:00+09:00",
+      "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8"
     }
   ],
   "runs": [
@@ -6631,10 +6755,10 @@
     },
     {
       "id": "dr-20261127-183200-script",
-      "status": "rendered_pending_visual_qa",
+      "status": "completed",
       "new_diagrams": 2,
       "revised_diagrams": 12,
-      "completed_reviews": 0,
+      "completed_reviews": 8,
       "diagram_ids": [
         "DR-004-D03",
         "DR-006-D01",
@@ -6650,7 +6774,10 @@
         "DR-022-D01",
         "DR-022-D02",
         "DR-078-D04"
-      ]
+      ],
+      "visual_qa": "passed",
+      "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8",
+      "remaining_reviews": 46
     }
   ],
   "exam": {

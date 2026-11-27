@@ -6,8 +6,8 @@
     "cutoff_date": "2027-02-02",
     "cutoff_kind": "existing_user_specified_exam80_basis"
   },
-  "checked_at": "2026-11-27T17:24:11+09:00",
-  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "checked_at": "2026-11-27T20:30:00+09:00",
+  "source_commit": "2d696ecb8a2805b0bc42df8ce5754ae91914371d",
   "script_bindings_verified": 78,
   "diagram_corrections": [
     {
@@ -75,10 +75,10 @@
       "full_lesson_coverage_review": "pending"
     }
   ],
-  "full_lecture_coverage_reviews_completed": 24,
-  "remaining_full_lecture_reviews": 54,
+  "full_lecture_coverage_reviews_completed": 32,
+  "remaining_full_lecture_reviews": 46,
   "new_diagrams": 20,
-  "revised_diagrams": 37,
+  "revised_diagrams": 49,
   "priority_script_comparison": {
     "schema_version": 1,
     "created_at": "2026-11-27T11:59:01+09:00",
@@ -422,7 +422,7 @@
       "DR-045-existing-script-arrears-rates"
     ]
   },
-  "visual_review": "11 published WebPs individually viewed; no clipping/overlap/missing glyphs; manifest entries checked.",
+  "visual_review": "이번 변경 PNG 14장 직접 확인: 겹침·잘림·누락 없음; manifest 및 렌더 검증 확인",
   "targeted_render_runs": [
     {
       "run_id": "dr-20261127-122552",
@@ -13234,7 +13234,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-004/diagrams/DR-004-D03-editorial-v1.svg",
@@ -13481,7 +13481,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-006/diagrams/DR-006-D01-editorial-v1.svg",
@@ -13707,7 +13707,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-006/diagrams/DR-006-D03-editorial-v1.svg",
@@ -13819,7 +13819,7 @@
             {
               "text": "공익법무관· 공중방역수의사",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 426,
               "height": 34,
               "fontSize": 36,
@@ -13964,7 +13964,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-007/diagrams/DR-007-D01-editorial-v1.svg",
@@ -14193,7 +14193,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-007/diagrams/DR-007-D02-editorial-v1.svg",
@@ -14431,7 +14431,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-008/diagrams/DR-008-D01-editorial-v1.svg",
@@ -14666,7 +14666,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-008/diagrams/DR-008-D02-editorial-v1.svg",
@@ -14902,7 +14902,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-017/diagrams/DR-017-D01-editorial-v1.svg",
@@ -15145,7 +15145,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-017/diagrams/DR-017-D02-editorial-v1.svg",
@@ -15360,7 +15360,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-017/diagrams/DR-017-D03-editorial-v1.svg",
@@ -15594,7 +15594,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-021/diagrams/DR-021-D01-editorial-v1.svg",
@@ -15715,7 +15715,7 @@
             {
               "text": "대책 협조",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 143,
               "height": 34,
               "fontSize": 36,
@@ -15865,7 +15865,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-022/diagrams/DR-022-D01-editorial-v1.svg",
@@ -16104,7 +16104,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-022/diagrams/DR-022-D02-editorial-v1.svg",
@@ -16358,7 +16358,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-078/diagrams/DR-078-D04-editorial-v1.svg",
@@ -16613,7 +16613,8 @@
             }
           ]
         }
-      ]
+      ],
+      "visual_review": "passed"
     }
   ],
   "script_conflicts": [
@@ -16788,6 +16789,38 @@
         "revised": 12
       },
       "remaining_reviews": 54
+    },
+    {
+      "run_id": "dr-20261127-203000-script",
+      "source_commit": "2d696ecb8a2805b0bc42df8ce5754ae91914371d",
+      "completed_lessons": [
+        "DR-004",
+        "DR-006",
+        "DR-007",
+        "DR-008",
+        "DR-017",
+        "DR-022",
+        "DR-020",
+        "DR-078"
+      ],
+      "visual_reviewed": [
+        "DR-004-D03",
+        "DR-006-D01",
+        "DR-006-D03",
+        "DR-007-D01",
+        "DR-007-D02",
+        "DR-008-D01",
+        "DR-008-D02",
+        "DR-017-D01",
+        "DR-017-D02",
+        "DR-017-D03",
+        "DR-021-D01",
+        "DR-022-D01",
+        "DR-022-D02",
+        "DR-078-D04"
+      ],
+      "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8",
+      "remaining_reviews": 46
     }
   ]
 }
