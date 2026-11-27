@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-158",
+  "lecture_title": "병역법 제91조의2, 대체역의 허위증명서 등의 발급",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-158-D01-editorial-v1",
+      "lecture_id": "MS-158",
+      "lesson_number": 158,
+      "diagram_number": 1,
+      "title": "대체역 편입용 거짓 서류·진술",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|91의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 248,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-158/diagrams/MS-158-D01-editorial-v1.svg",
+          "bytes": 6522,
+          "sha256": "a7e328d26066c0d95b7baac839f9ee96542646be5823d3d179c71f9ebf0c3259"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-158/diagrams/MS-158-D01-editorial-v1.webp",
+          "bytes": 51940,
+          "sha256": "222c3883d63430b68e484a1a97a80510a4dcf9b5085a71443afd67cb83a635bd"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-158",
+        "title": "대체역 편입용 거짓 서류·진술",
+        "subtitle": "다른 사람을 대체역으로 편입시킬 목적",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|91의2"
+        ],
+        "sections": [
+          {
+            "heading": "공무원·의사 등",
+            "items": [
+              {
+                "label": "행위",
+                "text": "공무원·의사·변호사·종교인 등이 서류를 거짓 발급하거나 거짓 진술",
+                "ref": "법 제91조의2제1항"
+              },
+              {
+                "label": "법정형",
+                "text": "1년 이상 10년 이하 징역. 10년 이하 자격정지를 함께 부과할 수 있음",
+                "ref": "법 제91조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "증인·참고인 등",
+            "items": [
+              {
+                "label": "행위",
+                "text": "증인·참고인 등이 서류를 거짓 작성하거나 거짓 진술",
+                "ref": "법 제91조의2제2항"
+              },
+              {
+                "label": "법정형",
+                "text": "1년 이상 5년 이하의 징역 또는 3천만원 이하의 벌금",
+                "ref": "법 제91조의2제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제91조의2, 대체역의 허위증명서 등의 발급",
+      "main_article": "병역법 제91조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|91의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0091&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

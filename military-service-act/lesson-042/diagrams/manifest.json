@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-042",
+  "lecture_title": "병역법 제28조, 사회복무요원 소집 순서의 결정",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-042-D01-editorial-v1",
+      "lecture_id": "MS-042",
+      "lesson_number": 42,
+      "diagram_number": 1,
+      "title": "사회복무요원 소집순서",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|28",
+        "병역법|시행령|51"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 76,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-042/diagrams/MS-042-D01-editorial-v1.svg",
+          "bytes": 6692,
+          "sha256": "283cedcb8a8791cdfa09cae06773cfa9860e452827d0d9626dc4984eda87f91b"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-042/diagrams/MS-042-D01-editorial-v1.webp",
+          "bytes": 54344,
+          "sha256": "b136d64b1556b3c54a6d5879a7bb48c05353d1b21fe60dec231e4eae5c4278e9"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-042",
+        "title": "사회복무요원 소집순서",
+        "subtitle": "순서 결정과 결정기준의 담당 주체를 구분",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|28",
+          "병역법|시행령|51"
+        ],
+        "sections": [
+          {
+            "heading": "지방병무청장",
+            "items": [
+              {
+                "label": "지역별 결정",
+                "text": "사회복무요원 소집 대상자에 대하여 지역별 소집순서 결정",
+                "ref": "법 제28조제1항"
+              },
+              {
+                "label": "명부 작성",
+                "text": "소집순서를 정하면 시·군·구별 소집순서 명부 작성",
+                "ref": "시행령 제51조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "병무청장",
+            "items": [
+              {
+                "label": "지역별 범위",
+                "text": "소집순서를 정할 지역별 범위를 정함",
+                "ref": "법 제28조제2항"
+              },
+              {
+                "label": "결정기준",
+                "text": "신체등급·학력·연령 등의 자질을 고려하여 소집순서 결정기준을 정함",
+                "ref": "법 제28조제2항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "소집 통지서를 받은 홀로 거주하는 사람은 본인이 원하면 부모·가족 거주 지역에서 소집할 수 있습니다."
+      },
+      "lecture_title": "병역법 제28조, 사회복무요원 소집 순서의 결정",
+      "main_article": "병역법 제28조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|28",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0028&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|51",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0051&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-064",
+  "lecture_title": "병역법 제34조의4, 병역판정검사전담의사의 복무기간 연장 등",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-064-D01-editorial-v1",
+      "lecture_id": "MS-064",
+      "lesson_number": 64,
+      "diagram_number": 1,
+      "title": "전담의사의 복무기간 연장",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|34의4"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 115,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-064/diagrams/MS-064-D01-editorial-v1.svg",
+          "bytes": 7284,
+          "sha256": "98613bb5ef88cc7891ab7e4ae8904454c5287cb5a78d518f98584c0c62f6bb79"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-064/diagrams/MS-064-D01-editorial-v1.webp",
+          "bytes": 61004,
+          "sha256": "60424af87c95111008f9838f3ae5b2d51a52a1b7bbea24dd71017322001febb2"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-064",
+        "title": "전담의사의 복무기간 연장",
+        "subtitle": "위반 내용과 병무청장의 조치",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|34의4"
+        ],
+        "sections": [
+          {
+            "heading": "허용되지 않는 업무",
+            "items": [
+              {
+                "label": "다른 업무 금지",
+                "text": "부여받은 신체검사업무 등 외의 업무에 종사해서는 안 된다.",
+                "ref": "법 제34조의4제1항"
+              },
+              {
+                "label": "종사일수의 5배",
+                "text": "위반하여 다른 업무에 종사한 경우 병무청장이 그 일수의 5배 연장근무를 명할 수 있다.",
+                "ref": "법 제34조의4제2항"
+              }
+            ]
+          },
+          {
+            "heading": "직무 외 질병·부상",
+            "items": [
+              {
+                "label": "1개월 이상 미근무",
+                "text": "직무 외 사유로 1개월 이상 근무하지 못하면 그 기간에 상응하는 기간을 연장할 수 있다.",
+                "ref": "법 제34조의4제3항"
+              },
+              {
+                "label": "신분 박탈 예외",
+                "text": "법 제34조의3제4호의 사유로 신분이 박탈된 경우에는 위 연장을 적용하지 않는다.",
+                "ref": "법 제34조의4제3항 단서"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제34조의4, 병역판정검사전담의사의 복무기간 연장 등",
+      "main_article": "병역법 제34조의4",
+      "source_articles": [
+        {
+          "key": "병역법|본법|34의4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=04&joNo=0034&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-064-D02-editorial-v1",
+      "lecture_id": "MS-064",
+      "lesson_number": 64,
+      "diagram_number": 2,
+      "title": "전담의사의 의무위반 조치",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|34의4"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 116,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-064/diagrams/MS-064-D02-editorial-v1.svg",
+          "bytes": 7078,
+          "sha256": "43c803ed3608dcdfe1f32572bb029c928115db1e09216fa7c6eefe88bd47904e"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-064/diagrams/MS-064-D02-editorial-v1.webp",
+          "bytes": 60278,
+          "sha256": "dda7ac3dccaf6e7073d81e6f3d0ab052529f658e953e89ea751f197e7e0caad1"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-064",
+        "title": "전담의사의 의무위반 조치",
+        "subtitle": "병무청장이 할 수 있는 조치와 적용 예외",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|34의4"
+        ],
+        "sections": [
+          {
+            "heading": "조치의 종류",
+            "items": [
+              {
+                "label": "복무기간 연장",
+                "text": "법·명령 또는 직무상 의무를 위반하거나 게을리하면 그 사유에 상응하는 기간을 연장할 수 있다.",
+                "ref": "법 제34조의4제4항"
+              },
+              {
+                "label": "감액 또는 견책",
+                "text": "봉급의 3분의 1 이하 감액 또는 견책을 할 수 있다.",
+                "ref": "법 제34조의4제4항"
+              }
+            ]
+          },
+          {
+            "heading": "이 조치의 적용 제외",
+            "items": [
+              {
+                "label": "법정 사유 신분 박탈",
+                "text": "제34조의3제2·3·5·6·7호 사유로 신분을 박탈당한 경우.",
+                "ref": "법 제34조의4제4항 단서"
+              },
+              {
+                "label": "별도 5배 연장",
+                "text": "정당한 사유 없는 통틀어 7일 이내 이탈·미복무로 제35조제2항에 따라 연장근무하게 된 경우.",
+                "ref": "법 제34조의4제4항 단서"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제34조의4, 병역판정검사전담의사의 복무기간 연장 등",
+      "main_article": "병역법 제34조의4",
+      "source_articles": [
+        {
+          "key": "병역법|본법|34의4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=04&joNo=0034&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

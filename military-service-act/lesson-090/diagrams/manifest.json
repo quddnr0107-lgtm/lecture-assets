@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-090",
+  "lecture_title": "병역법 제54조, 전시근로소집 및 입영신체검사 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-090-D01-editorial-v1",
+      "lecture_id": "MS-090",
+      "lesson_number": 90,
+      "diagram_number": 1,
+      "title": "전시근로소집의 복무 특례",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|54"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 148,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-090/diagrams/MS-090-D01-editorial-v1.svg",
+          "bytes": 7468,
+          "sha256": "4959d1f5ad2b7ca39bb8f4fcb44f8c71ad72e45c892289e4fc666b67adf09fab"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-090/diagrams/MS-090-D01-editorial-v1.webp",
+          "bytes": 59084,
+          "sha256": "a6268ced714f7c802fa97e6f7fffe8d14b17a2f07d9ecb553f6b87d48d5c7148"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-090",
+        "title": "전시근로소집의 복무 특례",
+        "subtitle": "지정·검사·귀가는 병력동원소집 규정 준용",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|54"
+        ],
+        "sections": [
+          {
+            "heading": "준용되는 절차",
+            "items": [
+              {
+                "label": "법 제45~48조",
+                "text": "대상자 지정·소집·입영신체검사·귀가·복무 등은 병력동원소집 규정을 준용한다.",
+                "ref": "법 제54조제1항"
+              },
+              {
+                "label": "용어의 치환",
+                "text": "병력동원소집·병력동원소집 복무를 전시근로소집·전시근로소집 복무로 본다.",
+                "ref": "법 제54조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "별도로 정한 특례",
+            "items": [
+              {
+                "label": "대체역의 제한",
+                "text": "국방부장관은 대체역에서 소집된 사람에게 대체역법 제16조제2항의 행위를 시켜서는 안 된다.",
+                "ref": "법 제54조제2항"
+              },
+              {
+                "label": "군부대 밖 거주",
+                "text": "국방부장관은 부대 밖 거주를 허용할 수 있고 예산 범위에서 급식·실비 등을 지급할 수 있다.",
+                "ref": "법 제54조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제54조, 전시근로소집 및 입영신체검사 등",
+      "main_article": "병역법 제54조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|54",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0054&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-142",
+  "lecture_title": "병역법 제83조의2, 병무사범방지대책위원회",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-142-D01-editorial-v1",
+      "lecture_id": "MS-142",
+      "lesson_number": 142,
+      "diagram_number": 1,
+      "title": "병무사범방지대책위원회",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|83의2",
+        "병역법|시행령|169의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 228,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-142/diagrams/MS-142-D01-editorial-v1.svg",
+          "bytes": 6042,
+          "sha256": "dc926c7185eec69c385b807f35949f68010d7a2a2c3c29cc96459735cc99790e"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-142/diagrams/MS-142-D01-editorial-v1.webp",
+          "bytes": 40770,
+          "sha256": "e9b4af4e49a6b03b170c40e169236797170365c39ceaf657f4ef4085071dc1d8"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-142",
+        "title": "병무사범방지대책위원회",
+        "subtitle": "전시·사변 또는 동원령 선포 시 설치",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|83의2",
+          "병역법|시행령|169의2"
+        ],
+        "sections": [
+          {
+            "heading": "중앙위원회",
+            "items": [
+              {
+                "label": "병무청에 설치",
+                "text": "위원장 병무청장",
+                "ref": "법 제83조의2제1항·영 제169조의2제1항"
+              },
+              {
+                "label": "총 13명",
+                "text": "위원장 1명 + 부위원장 2명 + 위원 10명",
+                "ref": "영 제169조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "지방위원회",
+            "items": [
+              {
+                "label": "특별시·광역시·도 등",
+                "text": "특별시·광역시·도·특별자치도에 설치. 위원장 시·도지사",
+                "ref": "법 제83조의2제1항·영 제169조의2제2항"
+              },
+              {
+                "label": "총 9명",
+                "text": "위원장 1명 + 부위원장 2명 + 위원 6명",
+                "ref": "영 제169조의2제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제83조의2, 병무사범방지대책위원회",
+      "main_article": "병역법 제83조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|83의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0083&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|169의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0169&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-142-D02-editorial-v1",
+      "lecture_id": "MS-142",
+      "lesson_number": 142,
+      "diagram_number": 2,
+      "title": "병무사범 예방·단속 심의사항",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|본법|83의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 229,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-142/diagrams/MS-142-D02-editorial-v1.svg",
+          "bytes": 7401,
+          "sha256": "c1ac5f6eb6cb61e77e18eb4dae8862f21b671b7b6523b39f1f7c35a2ff43ca06"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-142/diagrams/MS-142-D02-editorial-v1.webp",
+          "bytes": 47160,
+          "sha256": "b373cf2cdcbc03d2617ffac15e482c3286bbb4d35af2e266a83b8857f4e08d98"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-142",
+        "title": "병무사범 예방·단속 심의사항",
+        "subtitle": "국가기관·지자체의 장과 고용주는 적극 협조",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|본법|83의2"
+        ],
+        "sections": [
+          {
+            "heading": "기피·복무 위반",
+            "items": [
+              {
+                "label": "병역기피·면탈",
+                "text": "예방과 단속",
+                "ref": "법 제83조의2제1항제1호"
+              },
+              {
+                "label": "행방불명",
+                "text": "병역의무자 중 행방불명자 조사 및 처리",
+                "ref": "법 제83조의2제1항제2호"
+              },
+              {
+                "label": "전문·산업기능",
+                "text": "편입·복무의무 위반 등의 단속 및 점검",
+                "ref": "법 제83조의2제1항제3호"
+              }
+            ]
+          },
+          {
+            "heading": "고용·행정",
+            "items": [
+              {
+                "label": "고용금지·복직보장",
+                "text": "위반 등의 단속 및 지도",
+                "ref": "법 제83조의2제1항제4호"
+              },
+              {
+                "label": "등록 사항",
+                "text": "병역의무와 관련되는 가족관계등록·주민등록 사항",
+                "ref": "법 제83조의2제1항제5호"
+              },
+              {
+                "label": "그 밖의 사항",
+                "text": "병무사범 예방·단속에 관한 사항",
+                "ref": "법 제83조의2제1항제6호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제83조의2, 병무사범방지대책위원회",
+      "main_article": "병역법 제83조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|83의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0083&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

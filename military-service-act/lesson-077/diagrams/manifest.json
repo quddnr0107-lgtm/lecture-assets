@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-077",
+  "lecture_title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-077-D01-editorial-v1",
+      "lecture_id": "MS-077",
+      "lesson_number": 77,
+      "diagram_number": 1,
+      "title": "전문연구·산업기능 편입취소",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|41",
+        "병역법|본법|40"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 131,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D01-editorial-v1.svg",
+          "bytes": 7889,
+          "sha256": "7d63f21c14544d102342c2c312b0013597ebaff955731d81d519ee2d868d1735"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D01-editorial-v1.webp",
+          "bytes": 66304,
+          "sha256": "45439e25a90de7d0c26bb074fc75294f5d768af6d28e016aa6d1e08f97492051"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-077",
+        "title": "전문연구·산업기능 편입취소",
+        "subtitle": "취소 원칙과 유보·연장 예외",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|41",
+          "병역법|본법|40"
+        ],
+        "sections": [
+          {
+            "heading": "취소하여야 한다",
+            "items": [
+              {
+                "label": "관할 지방병무청장",
+                "text": "부정 편입·전직, 연령 내 복무 불가, 법정 신상변동 등 취소 사유 발생 시 편입을 취소한다.",
+                "ref": "법 제41조제1항"
+              },
+              {
+                "label": "무단결근 8일 이상",
+                "text": "통틀어 8일 이상 무단결근은 제40조제3호를 통해 편입취소 사유가 된다.",
+                "ref": "법 제40조제3호·제41조제1항제4호"
+              }
+            ]
+          },
+          {
+            "heading": "법정 예외",
+            "items": [
+              {
+                "label": "해고 다툼 계류",
+                "text": "노동위원회 구제신청 또는 해고효력 소송이 계류 중이면 결과 확정까지 취소를 유보할 수 있다.",
+                "ref": "법 제41조제1항 단서"
+              },
+              {
+                "label": "미복무의 연장",
+                "text": "해당 분야 미복무라도 대통령령상 사유이면 취소하지 않고 미복무기간만큼 연장할 수 있다.",
+                "ref": "법 제41조제1항 단서"
+              }
+            ]
+          }
+        ],
+        "takeaway": "통틀어 8일 미만 무단결근은 해당 기간의 5배를 연장하여 복무하게 하여야 한다."
+      },
+      "lecture_title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
+      "main_article": "병역법 제41조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|41",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0041&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|본법|40",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0040&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-077-D02-editorial-v1",
+      "lecture_id": "MS-077",
+      "lesson_number": 77,
+      "diagram_number": 2,
+      "title": "부정 편입과 부정 전직의 차이",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|41"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 132,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D02-editorial-v1.svg",
+          "bytes": 7168,
+          "sha256": "3f0c2c76122056a73eac3a6238a79e63f2582fb1e71ee470c65ae7e31f6aa10a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D02-editorial-v1.webp",
+          "bytes": 58006,
+          "sha256": "336ad0f2c986b30a56e789899ff3b13c244b0d19f61339337f057db7955da4e7"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-077",
+        "title": "부정 편입과 부정 전직의 차이",
+        "subtitle": "편입취소 후 복무기간 계산",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|41"
+        ],
+        "sections": [
+          {
+            "heading": "부정하게 편입",
+            "items": [
+              {
+                "label": "해당 사유",
+                "text": "거짓 자료로 혈족 제한을 위반한 편입 또는 금품 등 부정한 방법의 편입.",
+                "ref": "법 제41조제3항제1호"
+              },
+              {
+                "label": "교육기간만 공제",
+                "text": "편입 전 신분의 복무기간에서 군사교육을 받은 기간을 뺀 기간을 복무한다.",
+                "ref": "법 제41조제3항제1호"
+              }
+            ]
+          },
+          {
+            "heading": "부정 전직·그 밖의 취소",
+            "items": [
+              {
+                "label": "해당 사유",
+                "text": "부정한 전직 및 제1항제3~8호 사유로 인한 편입취소.",
+                "ref": "법 제41조제3항제2호"
+              },
+              {
+                "label": "남은 기간",
+                "text": "대통령령으로 정하는 기준에 따른 남은 복무기간을 복무한다.",
+                "ref": "법 제41조제3항제2호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "종전 신분으로 복귀하며, 현역 대상 중 남은 기간 6개월 미만은 사회복무요원으로 복무시킬 수 있다."
+      },
+      "lecture_title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
+      "main_article": "병역법 제41조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|41",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0041&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-126",
+  "lecture_title": "병역법 제77조의4, 공직자 등의 병적 관리 등",
+  "diagram_count": 3,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-126-D01-editorial-v1",
+      "lecture_id": "MS-126",
+      "lesson_number": 126,
+      "diagram_number": 1,
+      "title": "공직자 등 병적 별도 관리",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|본법|77의4"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 200,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-126/diagrams/MS-126-D01-editorial-v1.svg",
+          "bytes": 7559,
+          "sha256": "4503c88f342ede99e64470a1acb5a79c3953f66ea46b0f7b8746ca52a8e77a3a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-126/diagrams/MS-126-D01-editorial-v1.webp",
+          "bytes": 59010,
+          "sha256": "1ffc6a92f73b80dc18918bafee740a49502eedb4f9f40c410b46c1cb5b92b179"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-126",
+        "title": "공직자 등 병적 별도 관리",
+        "subtitle": "관리 대상과 관리기간",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|본법|77의4"
+        ],
+        "sections": [
+          {
+            "heading": "관리 대상",
+            "items": [
+              {
+                "label": "공직자·고소득자",
+                "text": "법정 병역사항 신고의무자 및 자녀, 최고·차상위 세율 납세의무자 및 자녀",
+                "ref": "법 제77조의4제1항제1호·제4호"
+              },
+              {
+                "label": "선수·대중문화예술인",
+                "text": "법정 선수등록·해외활동 요건에 해당하는 선수 및 용역계약 대중문화예술인",
+                "ref": "법 제77조의4제1항제2호·제3호"
+              }
+            ]
+          },
+          {
+            "heading": "관리기간",
+            "items": [
+              {
+                "label": "기본",
+                "text": "병역준비역 편입부터 복무 종료·전시근로역 편입·병역면제까지 관리 가능",
+                "ref": "법 제77조의4제1항"
+              },
+              {
+                "label": "추가 관리",
+                "text": "법정 전시근로역·면제 처분 후 치료 기록 확인 필요 시 처분일부터 3년간 관리 가능",
+                "ref": "법 제77조의4제5항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "외관상 명백한 신체장애 등 대통령령의 기준에 따라 추가 관리를 해제할 수 있음"
+      },
+      "lecture_title": "병역법 제77조의4, 공직자 등의 병적 관리 등",
+      "main_article": "병역법 제77조의4",
+      "source_articles": [
+        {
+          "key": "병역법|본법|77의4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=04&joNo=0077&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-126-D02-editorial-v1",
+      "lecture_id": "MS-126",
+      "lesson_number": 126,
+      "diagram_number": 2,
+      "title": "병적 관리의 14일 의무",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|77의4",
+        "병역법|시행령|155의4"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 201,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-126/diagrams/MS-126-D02-editorial-v1.svg",
+          "bytes": 7001,
+          "sha256": "93a1aa5f4fe1dfa4d14d03efae4dd5928a767400131874ebdbd3de2102d99a7a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-126/diagrams/MS-126-D02-editorial-v1.webp",
+          "bytes": 54668,
+          "sha256": "053f10110568670851f41cd257983e25482f6050733daf65c56ca0abb32f8e31"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-126",
+        "title": "병적 관리의 14일 의무",
+        "subtitle": "계약 변동 통보와 요청자료 제출",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|77의4",
+          "병역법|시행령|155의4"
+        ],
+        "sections": [
+          {
+            "heading": "계약 변동",
+            "items": [
+              {
+                "label": "대중문화예술사업자",
+                "text": "대중문화예술인과 계약을 새로 맺거나 계약이 종료된 경우",
+                "ref": "법 제77조의4제3항"
+              },
+              {
+                "label": "14일 이내",
+                "text": "사유 발생일부터 병무청장에게 변동사항 통보",
+                "ref": "법 제77조의4제3항"
+              }
+            ]
+          },
+          {
+            "heading": "요청받은 자료",
+            "items": [
+              {
+                "label": "기관·단체의 장",
+                "text": "병적 관리 대상·변동사항·질병·심신장애 확인을 위한 자료 요청",
+                "ref": "영 제155조의4제5항"
+              },
+              {
+                "label": "14일 이내",
+                "text": "요청받은 자료를 병무청장 또는 지방병무청장에게 제출",
+                "ref": "영 제155조의4제5항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "관리 정보·자료의 공개·누설·타인 제공 및 목적 외 사용 금지"
+      },
+      "lecture_title": "병역법 제77조의4, 공직자 등의 병적 관리 등",
+      "main_article": "병역법 제77조의4",
+      "source_articles": [
+        {
+          "key": "병역법|본법|77의4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=04&joNo=0077&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|155의4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=04&joNo=0155&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-126-D03-editorial-v1",
+      "lecture_id": "MS-126",
+      "lesson_number": 126,
+      "diagram_number": 3,
+      "title": "공정병역심의위원회",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|시행령|155의5"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 202,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-126/diagrams/MS-126-D03-editorial-v1.svg",
+          "bytes": 6519,
+          "sha256": "25e638d7704a65c63eb14e9c57485f8a39099e317a38d0243dbb7194adbca187"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-126/diagrams/MS-126-D03-editorial-v1.webp",
+          "bytes": 54786,
+          "sha256": "fc770349b4dff063bf681a25f0d6a861498c8c08e4f9a1c425d43b30b6384423"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-126",
+        "title": "공정병역심의위원회",
+        "subtitle": "필요할 경우 병무청장이 구성·운영",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|시행령|155의5"
+        ],
+        "sections": [
+          {
+            "heading": "구성·통지",
+            "items": [
+              {
+                "label": "7명 이내",
+                "text": "위원장 1명 포함. 위원장은 병무청 소속 국장급, 위원은 과장급",
+                "ref": "영 제155조의5제2항·제3항"
+              },
+              {
+                "label": "7일 전까지",
+                "text": "위원장이 회의 일시·장소·안건 통지. 긴급한 경우 제외",
+                "ref": "영 제155조의5제5항"
+              }
+            ]
+          },
+          {
+            "heading": "심의·의결",
+            "items": [
+              {
+                "label": "심의 사항",
+                "text": "대상자 선정, 병역처분·처분과정 적정성 등 공정한 병적 관리",
+                "ref": "영 제155조의5제1항"
+              },
+              {
+                "label": "회의 기준",
+                "text": "재적위원 과반수 출석으로 개의, 출석위원 과반수 찬성으로 의결",
+                "ref": "영 제155조의5제6항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제77조의4, 공직자 등의 병적 관리 등",
+      "main_article": "병역법 제77조의4",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|155의5",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=05&joNo=0155&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

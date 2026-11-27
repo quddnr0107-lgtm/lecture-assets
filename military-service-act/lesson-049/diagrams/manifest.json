@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-049",
+  "lecture_title": "병역법 제31조의5, 복무기관 내 괴롭힘의 금지",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-049-D01-editorial-v1",
+      "lecture_id": "MS-049",
+      "lesson_number": 49,
+      "diagram_number": 1,
+      "title": "복무기관 내 괴롭힘의 금지",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|31의5"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 87,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-049/diagrams/MS-049-D01-editorial-v1.svg",
+          "bytes": 6666,
+          "sha256": "85fd3b1d558df9044ef259ce4c83e87915d6d38593887e36706a63933df98aa5"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-049/diagrams/MS-049-D01-editorial-v1.webp",
+          "bytes": 49686,
+          "sha256": "0a9e02c1bb19cddfd4c3c1fece4e02690a1f6408ff494094c9645bac4cd7fab1"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-049",
+        "title": "복무기관 내 괴롭힘의 금지",
+        "subtitle": "우위를 이용하여 업무상 적정범위를 넘는 행위",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|31의5"
+        ],
+        "sections": [
+          {
+            "heading": "행위의 요건",
+            "items": [
+              {
+                "label": "행위자",
+                "text": "복무기관의 장 또는 소속 직원",
+                "ref": "법 제31조의5"
+              },
+              {
+                "label": "우위의 이용",
+                "text": "지위 또는 관계 등의 우위를 이용",
+                "ref": "법 제31조의5"
+              },
+              {
+                "label": "업무상 범위 초과",
+                "text": "업무상 적정범위를 넘어서는 행위",
+                "ref": "법 제31조의5"
+              }
+            ]
+          },
+          {
+            "heading": "결과 중 하나",
+            "items": [
+              {
+                "label": "신체적·정신적 고통",
+                "text": "사회복무요원에게 신체적·정신적 고통을 주는 행위",
+                "ref": "법 제31조의5"
+              },
+              {
+                "label": "근무환경 악화",
+                "text": "사회복무요원의 근무환경을 악화시키는 행위",
+                "ref": "법 제31조의5"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제31조의5, 복무기관 내 괴롭힘의 금지",
+      "main_article": "병역법 제31조의5",
+      "source_articles": [
+        {
+          "key": "병역법|본법|31의5",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=05&joNo=0031&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

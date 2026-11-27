@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-066",
+  "lecture_title": "병역법 제34조의6, 공익법무관의 편입",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-066-D01-editorial-v1",
+      "lecture_id": "MS-066",
+      "lesson_number": 66,
+      "diagram_number": 1,
+      "title": "공익법무관의 편입과 복무",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|34의6"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 118,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-066/diagrams/MS-066-D01-editorial-v1.svg",
+          "bytes": 7101,
+          "sha256": "bc3aa74ef07571e988985d002cf28046e7a44b6838cbd3505dafbb40c28fbe3e"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-066/diagrams/MS-066-D01-editorial-v1.webp",
+          "bytes": 52790,
+          "sha256": "0a573f8a7ea8cb82cbafc14963ea0d0148d533c0be09b220bfc05adc548cfcb5"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-066",
+        "title": "공익법무관의 편입과 복무",
+        "subtitle": "변호사 자격과 본인의 희망이 필요",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|34의6"
+        ],
+        "sections": [
+          {
+            "heading": "편입 판단",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "법정 대상자인 변호사 자격자가 원하면 공익법무관으로 편입할 수 있다.",
+                "ref": "법 제34조의6제1항"
+              },
+              {
+                "label": "편입 대상",
+                "text": "법무장교 미편입 지원자·법무사관후보생 또는 사회복무 소집 대상 보충역 중 법정 요건자.",
+                "ref": "법 제34조의6제1항"
+              }
+            ]
+          },
+          {
+            "heading": "기간과 병역",
+            "items": [
+              {
+                "label": "해당 분야 3년",
+                "text": "복무를 마치면 사회복무요원의 복무를 마친 것으로 본다.",
+                "ref": "법 제34조의6제2항"
+              },
+              {
+                "label": "교육기간 불산입",
+                "text": "군사교육소집 기간은 복무기간에 포함하지 않는다.",
+                "ref": "법 제34조의6제3항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "현역병입영 대상자가 편입되면 보충역에 편입한다."
+      },
+      "lecture_title": "병역법 제34조의6, 공익법무관의 편입",
+      "main_article": "병역법 제34조의6",
+      "source_articles": [
+        {
+          "key": "병역법|본법|34의6",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=06&joNo=0034&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

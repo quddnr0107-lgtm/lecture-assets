@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-065",
+  "lecture_title": "병역법 제34조의5, 청문",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-065-D01-editorial-v1",
+      "lecture_id": "MS-065",
+      "lesson_number": 65,
+      "diagram_number": 1,
+      "title": "신분 박탈 전 청문",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|본법|34의5"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 117,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-065/diagrams/MS-065-D01-editorial-v1.svg",
+          "bytes": 5397,
+          "sha256": "808f250fb156194bffb4ab6d7057583a6fa16883f06a7bc08a702c725c69e6e6"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-065/diagrams/MS-065-D01-editorial-v1.webp",
+          "bytes": 36678,
+          "sha256": "d3bd24f98ea940ed3ca7757f9be9dc8d34aba373c268012933c5bafc2e4b0755"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-065",
+        "title": "신분 박탈 전 청문",
+        "subtitle": "병역판정검사전담의사 신분 박탈의 선행 절차",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|본법|34의5"
+        ],
+        "sections": [
+          {
+            "heading": "판단 대상",
+            "items": [
+              {
+                "label": "법 제34조의3",
+                "text": "병역판정검사전담의사의 신분을 박탈하려는 경우.",
+                "ref": "법 제34조의5"
+              }
+            ]
+          },
+          {
+            "heading": "청문 실시",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "신분을 박탈하려면 청문을 하여야 한다.",
+                "ref": "법 제34조의5"
+              }
+            ]
+          },
+          {
+            "heading": "처분 단계",
+            "items": [
+              {
+                "label": "청문 후 판단",
+                "text": "청문을 거쳐 신분 박탈 여부를 판단한다.",
+                "ref": "법 제34조의5"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제34조의5, 청문",
+      "main_article": "병역법 제34조의5",
+      "source_articles": [
+        {
+          "key": "병역법|본법|34의5",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=05&joNo=0034&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

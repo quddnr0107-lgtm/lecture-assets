@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-164",
+  "lecture_title": "병역법 제95조, 과태료",
+  "diagram_count": 3,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-164-D01-editorial-v1",
+      "lecture_id": "MS-164",
+      "lesson_number": 164,
+      "diagram_number": 1,
+      "title": "병역법 과태료 금액 비교",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|95"
+      ],
+      "part": 1,
+      "parts": 2,
+      "content_index": 255,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-164/diagrams/MS-164-D01-editorial-v1.svg",
+          "bytes": 7188,
+          "sha256": "d29a31a2047c99caf825c7049162346c2b89abb28367e68fbf0795bbf09f66a6"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-164/diagrams/MS-164-D01-editorial-v1.webp",
+          "bytes": 60316,
+          "sha256": "8312386809f1efc99d13590cf124b6216732f3a1185f4ce82653d1ee07684ee4"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-164",
+        "title": "병역법 과태료 금액 비교",
+        "subtitle": "법정 상한과 대상 행위를 연결",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|95"
+        ],
+        "sections": [
+          {
+            "heading": "2천만·1천만원",
+            "items": [
+              {
+                "label": "2천만원 이하",
+                "text": "특정 전문연구요원 관리업체장(고용주 제외)이 해당 분야에 복무시키지 않거나 정당한 사유 없이 신상통보 위반",
+                "ref": "법 제95조제1항"
+              },
+              {
+                "label": "1천만원 이하",
+                "text": "복무기관장이 사회복무요원에게 복무기관 내 괴롭힘",
+                "ref": "법 제95조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "500만·300만·100만",
+            "items": [
+              {
+                "label": "500만원 이하",
+                "text": "법정 괴롭힘 조치 위반, 정당한 사유 없는 병적관리 자료 거부·변동통보 미이행",
+                "ref": "법 제95조제3항"
+              },
+              {
+                "label": "300만원 이하",
+                "text": "고용주가 정당한 사유 없이 제81조제3항 자료제출 요구·질문에 불응",
+                "ref": "법 제95조제4항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제95조, 과태료",
+      "main_article": "병역법 제95조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|95",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0095&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-164-D02-editorial-v1",
+      "lecture_id": "MS-164",
+      "lesson_number": 164,
+      "diagram_number": 2,
+      "title": "병역법 과태료 금액 비교",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|95"
+      ],
+      "part": 2,
+      "parts": 2,
+      "content_index": 255,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-164/diagrams/MS-164-D02-editorial-v1.svg",
+          "bytes": 3267,
+          "sha256": "9cc906f6f42bbb9da524b3558b7eca018aedbb1fc79b9f9edd4a7b1029d4359d"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-164/diagrams/MS-164-D02-editorial-v1.webp",
+          "bytes": 27394,
+          "sha256": "4fdbc0b3f084a1e9780fdbfeb8c8b74a408823167c9c7db4b6054286af673645"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-164",
+        "title": "병역법 과태료 금액 비교",
+        "subtitle": "법정 상한과 대상 행위를 연결",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|95"
+        ],
+        "sections": [
+          {
+            "heading": "500만·300만·100만",
+            "items": [
+              {
+                "label": "100만원 이하",
+                "text": "세대주등이 정당한 사유 없이 송달된 통지서를 미전달하거나 전달 지체",
+                "ref": "법 제95조제5항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제95조, 과태료",
+      "main_article": "병역법 제95조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|95",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0095&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-164-D03-editorial-v1",
+      "lecture_id": "MS-164",
+      "lesson_number": 164,
+      "diagram_number": 3,
+      "title": "과태료의 부과·징수 절차",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|본법|95",
+        "병역법|시행규칙|123"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 256,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-164/diagrams/MS-164-D03-editorial-v1.svg",
+          "bytes": 6746,
+          "sha256": "a8cae7a0f5e61940a846b17830162021b512941b2df0a6d6414f1380810633e2"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-164/diagrams/MS-164-D03-editorial-v1.webp",
+          "bytes": 47940,
+          "sha256": "20d2a281aa8bd90fa07e53d9a27ba8f6ea735c06b3a25b1b4c927d486a60e3c0"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-164",
+        "title": "과태료의 부과·징수 절차",
+        "subtitle": "병무청장 부과와 세무서장 위탁징수",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|본법|95",
+          "병역법|시행규칙|123"
+        ],
+        "sections": [
+          {
+            "heading": "부과·징수",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "대통령령에 따라 과태료를 부과·징수",
+                "ref": "법 제95조제6항"
+              }
+            ]
+          },
+          {
+            "heading": "대장 정리",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "부과하거나 징수한 내용을 과태료 부과 및 징수 대장에 기재·정리",
+                "ref": "규칙 제123조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "위탁징수",
+            "items": [
+              {
+                "label": "이의 없이 미납",
+                "text": "이의를 제기하지 않고 납부하지 않으면 관할 세무서장에게 위탁하여 징수",
+                "ref": "법 제95조제7항"
+              }
+            ]
+          },
+          {
+            "heading": "서류 송부",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "위탁징수 시 관련 사실관계 서류를 관할 세무서장에게 송부",
+                "ref": "규칙 제123조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제95조, 과태료",
+      "main_article": "병역법 제95조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|95",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0095&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행규칙|123",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0123&lsiSeq=291527&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-29",
+          "promulgation": "국방부령 제1235호"
+        }
+      ]
+    }
+  ]
+}

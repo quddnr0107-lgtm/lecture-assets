@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-017",
+  "lecture_title": "병역법 제13조, 적성의 분류·결정 등",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-017-D01-editorial-v1",
+      "lecture_id": "MS-017",
+      "lesson_number": 17,
+      "diagram_number": 1,
+      "title": "적성 결정과 병과 부여",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|본법|13",
+        "병역법|시행령|15"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 30,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-017/diagrams/MS-017-D01-editorial-v1.svg",
+          "bytes": 6173,
+          "sha256": "a83e2b03d5f6547906fbfdfc8057831ee164f0df091e47d826fff6873a87cfa4"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-017/diagrams/MS-017-D01-editorial-v1.webp",
+          "bytes": 48826,
+          "sha256": "ef2300d5d763a6050b4f4c485062cad8ab6a255ab90809ec2dd18d61e9e3c314"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-017",
+        "title": "적성 결정과 병과 부여",
+        "subtitle": "지방병무청장과 각 군 참모총장의 역할",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|본법|13",
+          "병역법|시행령|15"
+        ],
+        "sections": [
+          {
+            "heading": "대상 확인",
+            "items": [
+              {
+                "label": "신체등급 1~4급",
+                "text": "신체검사 결과 1~4급인 사람 — 현역병지원 신체검사 포함",
+                "ref": "법 제13조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "적성 분류·결정",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "자격·면허·전공분야 등을 고려하여 군복무에 필요한 적성 결정",
+                "ref": "법 제13조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "병과 부여",
+            "items": [
+              {
+                "label": "각 군 참모총장",
+                "text": "적성에 적합한 병과 부여. 군사특기로 세분할 수 있고 군사특기도 부여",
+                "ref": "법 제13조제1항·시행령 제15조제2항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "각 군 참모총장이 특별히 필요하다고 인정하면 병무청장에게 병과·군사특기 부여를 요청할 수 있습니다."
+      },
+      "lecture_title": "병역법 제13조, 적성의 분류·결정 등",
+      "main_article": "병역법 제13조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|13",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0013&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|15",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0015&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-017-D02-editorial-v1",
+      "lecture_id": "MS-017",
+      "lesson_number": 17,
+      "diagram_number": 2,
+      "title": "적성을 변경할 수 있는 때",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|시행령|16"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 31,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-017/diagrams/MS-017-D02-editorial-v1.svg",
+          "bytes": 6372,
+          "sha256": "b3eb39ba9219116696751ec2beac94a26f98c30267ebd69baab3a4143ac4a791"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-017/diagrams/MS-017-D02-editorial-v1.webp",
+          "bytes": 42020,
+          "sha256": "ac275ea73ade54151e56200d327c22bf0f470ad873be24b75c58aaa40c55c3a4"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-017",
+        "title": "적성을 변경할 수 있는 때",
+        "subtitle": "지방병무청장 또는 병무지청장의 재분류",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|시행령|16"
+        ],
+        "sections": [
+          {
+            "heading": "자격·면허의 변화",
+            "items": [
+              {
+                "label": "취득",
+                "text": "자격 또는 면허를 받은 경우 적성 변경 가능",
+                "ref": "시행령 제16조제1호"
+              },
+              {
+                "label": "취소",
+                "text": "자격 또는 면허가 취소된 경우 적성 변경 가능",
+                "ref": "시행령 제16조제1호"
+              }
+            ]
+          },
+          {
+            "heading": "인원·전공의 변화",
+            "items": [
+              {
+                "label": "입영인원 조정",
+                "text": "적성별 입영인원의 조정이 필요한 경우",
+                "ref": "시행령 제16조제2호"
+              },
+              {
+                "label": "전공학과 등",
+                "text": "전공학과 이수 등으로 적성 재분류가 필요한 경우",
+                "ref": "시행령 제16조제3호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제13조, 적성의 분류·결정 등",
+      "main_article": "병역법 제13조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|16",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0016&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

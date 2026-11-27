@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-130",
+  "lecture_title": "병역법 제79조, 여비 등의 국고부담",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-130-D01-editorial-v1",
+      "lecture_id": "MS-130",
+      "lesson_number": 130,
+      "diagram_number": 1,
+      "title": "여비 등 국고부담과 환수",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|79"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 207,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-130/diagrams/MS-130-D01-editorial-v1.svg",
+          "bytes": 6635,
+          "sha256": "1d21840b048877d19d38a66181e2539ba9c8c4f600ce8ba54b5b85e5c3738f13"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-130/diagrams/MS-130-D01-editorial-v1.webp",
+          "bytes": 52402,
+          "sha256": "a4aff129d188d19d5e67776b8a84caec17915627c55d78fe6dfc7505c37700a6"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-130",
+        "title": "여비 등 국고부담과 환수",
+        "subtitle": "지급 대상과 환수사유를 나누어 확인",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|79"
+        ],
+        "sections": [
+          {
+            "heading": "국고부담",
+            "items": [
+              {
+                "label": "검사 관련",
+                "text": "법정 검사 여비·진단서 및 보완서류 발급비용·위탁검사비",
+                "ref": "법 제79조제1항제1호·제2호"
+              },
+              {
+                "label": "전형·입영·귀가",
+                "text": "현역병 선발 전형 응시 여비, 징집·소집·지원 입영 및 귀가 여비",
+                "ref": "법 제79조제1항제3호·제4호"
+              }
+            ]
+          },
+          {
+            "heading": "전부 또는 일부 환수",
+            "items": [
+              {
+                "label": "부정·잘못 지급",
+                "text": "거짓·부정한 방법으로 받은 경우 또는 비용이 잘못 지급된 경우",
+                "ref": "법 제79조제3항제1호·제2호"
+              },
+              {
+                "label": "여비 수령 후 미입영",
+                "text": "입영통지 취소·입영일 연기·입영기피로 입영하지 않은 경우",
+                "ref": "법 제79조제3항제3호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제79조, 여비 등의 국고부담",
+      "main_article": "병역법 제79조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|79",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0079&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-130-D02-editorial-v1",
+      "lecture_id": "MS-130",
+      "lesson_number": 130,
+      "diagram_number": 2,
+      "title": "여비의 실비 지급과 반납기한",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|시행령|158",
+        "병역법|시행령|158의4"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 208,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-130/diagrams/MS-130-D02-editorial-v1.svg",
+          "bytes": 6508,
+          "sha256": "44e2d165091c83895070a26e47e467f56756be21c7caf10d5b95c5af6b79f169"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-130/diagrams/MS-130-D02-editorial-v1.webp",
+          "bytes": 49192,
+          "sha256": "34ba7f205f26fc9a736ed44acf1da31cd9f5b002f7984df0109a73082e1e2427"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-130",
+        "title": "여비의 실비 지급과 반납기한",
+        "subtitle": "예산 범위의 지급과 서면 환수 통지",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|시행령|158",
+          "병역법|시행령|158의4"
+        ],
+        "sections": [
+          {
+            "heading": "비용 지급",
+            "items": [
+              {
+                "label": "실비 기준",
+                "text": "여비·병무용진단서·보완서류 발급비용은 예산 범위에서 실비 지급",
+                "ref": "영 제158조제2항"
+              },
+              {
+                "label": "전형 응시 여비",
+                "text": "지출 규모·전형 횟수 등을 고려하여 지급 횟수 제한 가능",
+                "ref": "영 제158조제2항 단서"
+              }
+            ]
+          },
+          {
+            "heading": "환수 통지",
+            "items": [
+              {
+                "label": "서면 통지",
+                "text": "사유·발생사실·금액·반납기한·반납기관·이의신청방법 등 통지",
+                "ref": "영 제158조의4"
+              },
+              {
+                "label": "30일 이상",
+                "text": "반납기한은 통지일부터 30일 이상으로 설정",
+                "ref": "영 제158조의4"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제79조, 여비 등의 국고부담",
+      "main_article": "병역법 제79조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|158",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0158&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        },
+        {
+          "key": "병역법|시행령|158의4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=04&joNo=0158&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

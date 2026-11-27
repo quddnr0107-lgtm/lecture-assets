@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-147",
+  "lecture_title": "병역법 제87조, 병역판정검사의 기피 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-147-D01-editorial-v1",
+      "lecture_id": "MS-147",
+      "lesson_number": 147,
+      "diagram_number": 1,
+      "title": "검사 대리수검과 검사 기피",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|87"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 234,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-147/diagrams/MS-147-D01-editorial-v1.svg",
+          "bytes": 6033,
+          "sha256": "56e0b99526d9d0c79cba6a05ea64c2a1c820c5bd9b32680d7df95d7ccaa62432"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-147/diagrams/MS-147-D01-editorial-v1.webp",
+          "bytes": 44008,
+          "sha256": "0212d0a45c7b204d5e2164f897529e43d30dd6905bcc848d3a198cf8f468be67"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-147",
+        "title": "검사 대리수검과 검사 기피",
+        "subtitle": "병역판정·재병역판정·입영판정·신체·확인신체검사",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|87"
+        ],
+        "sections": [
+          {
+            "heading": "대리수검",
+            "items": [
+              {
+                "label": "다른 사람 대신 검사",
+                "text": "검사를 받을 사람을 대리하여 해당 검사를 받은 사람",
+                "ref": "법 제87조제1항"
+              },
+              {
+                "label": "법정형",
+                "text": "1년 이상 3년 이하의 징역",
+                "ref": "법 제87조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "본인의 검사 기피",
+            "items": [
+              {
+                "label": "정당한 사유 없음",
+                "text": "통지서를 받고 의무이행일에 해당 검사를 받지 않은 경우",
+                "ref": "법 제87조제3항"
+              },
+              {
+                "label": "법정형",
+                "text": "6개월 이하의 징역",
+                "ref": "법 제87조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제87조, 병역판정검사의 기피 등",
+      "main_article": "병역법 제87조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|87",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0087&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

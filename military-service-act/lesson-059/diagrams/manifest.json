@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-059",
+  "lecture_title": "병역법 제33조의10, 예술·체육요원의 연장복무 및 편입취소 등",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-059-D01-editorial-v1",
+      "lecture_id": "MS-059",
+      "lesson_number": 59,
+      "diagram_number": 1,
+      "title": "예술·체육요원 연장복무",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|33의10",
+        "병역법|시행령|68의18"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 109,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-059/diagrams/MS-059-D01-editorial-v1.svg",
+          "bytes": 7590,
+          "sha256": "d639f1763062c1048d7437c07b6af62a8b2b0bb554276ea6dfdf00e637441964"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-059/diagrams/MS-059-D01-editorial-v1.webp",
+          "bytes": 63552,
+          "sha256": "eec30084c81093c069a3c728990ba976b5e23cf9dde804f48bd4f33e72febcd2"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-059",
+        "title": "예술·체육요원 연장복무",
+        "subtitle": "미복무·경고·공익복무의 계산 단위",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|33의10",
+          "병역법|시행령|68의18"
+        ],
+        "sections": [
+          {
+            "heading": "기간 연장",
+            "items": [
+              {
+                "label": "미복무일수의 5배",
+                "text": "정당한 사유 없이 해당 분야에 복무하지 않은 일수의 5배를 연장한다.",
+                "ref": "법 제33조의10제1항"
+              },
+              {
+                "label": "경고 1회마다 5일",
+                "text": "법정 경고처분 횟수가 더해질 때마다 5일을 연장한다.",
+                "ref": "법 제33조의10제2항"
+              }
+            ]
+          },
+          {
+            "heading": "공익복무 시간",
+            "items": [
+              {
+                "label": "미달·허위의 2배",
+                "text": "분기 기준 미달시간 또는 허위 제출시간의 2배만큼 공익복무 시간을 연장한다.",
+                "ref": "법 제33조의10제3항·영 제68조의18제2항"
+              },
+              {
+                "label": "완료까지 연장",
+                "text": "의무복무기간까지 공익복무를 마치지 못하면 모두 마칠 때까지 의무복무기간을 연장한다.",
+                "ref": "법 제33조의10제3항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "제89조의2제1호 또는 제89조의3에 따른 형 선고에는 해당 항의 기간 연장 예외가 적용된다."
+      },
+      "lecture_title": "병역법 제33조의10, 예술·체육요원의 연장복무 및 편입취소 등",
+      "main_article": "병역법 제33조의10",
+      "source_articles": [
+        {
+          "key": "병역법|본법|33의10",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=10&joNo=0033&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|68의18",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=18&joNo=0068&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-059-D02-editorial-v1",
+      "lecture_id": "MS-059",
+      "lesson_number": 59,
+      "diagram_number": 2,
+      "title": "편입취소 후의 복무",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|33의10"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 110,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-059/diagrams/MS-059-D02-editorial-v1.svg",
+          "bytes": 7448,
+          "sha256": "2abae5d11a7875d8b3d595918f7e62d83a9108545db43d43816259bcab31b4ac"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-059/diagrams/MS-059-D02-editorial-v1.webp",
+          "bytes": 62308,
+          "sha256": "c4bfda5b9c728c889f29914ab6c29931747bc206cfce4d256a442a5d6e7aec6f"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-059",
+        "title": "편입취소 후의 복무",
+        "subtitle": "취소 사유에 따라 남은 복무기간이 달라진다",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|33의10"
+        ],
+        "sections": [
+          {
+            "heading": "취소의 효과",
+            "items": [
+              {
+                "label": "재편입 불가",
+                "text": "법 제33조의10제4항에 따라 취소되면 다시 예술·체육요원으로 편입될 수 없다.",
+                "ref": "법 제33조의10"
+              },
+              {
+                "label": "종전 신분 복귀",
+                "text": "편입되기 전 신분으로 복귀하여 현역병으로 입영하거나 사회복무요원으로 소집한다.",
+                "ref": "법 제33조의10제5항"
+              }
+            ]
+          },
+          {
+            "heading": "복무기간 계산",
+            "items": [
+              {
+                "label": "금품 등 부정 편입",
+                "text": "종전 신분의 복무기간에서 군사교육을 받은 기간만 뺀 기간을 복무한다.",
+                "ref": "법 제33조의10제5항제2호"
+              },
+              {
+                "label": "그 밖의 취소 사유",
+                "text": "제4항제1~3호·제5~7호는 대통령령 기준의 남은 복무기간을 복무한다.",
+                "ref": "법 제33조의10제5항제1호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "현역 입영 대상 중 남은 기간이 6개월 미만이면 사회복무요원으로 복무하게 할 수 있다."
+      },
+      "lecture_title": "병역법 제33조의10, 예술·체육요원의 연장복무 및 편입취소 등",
+      "main_article": "병역법 제33조의10",
+      "source_articles": [
+        {
+          "key": "병역법|본법|33의10",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=10&joNo=0033&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

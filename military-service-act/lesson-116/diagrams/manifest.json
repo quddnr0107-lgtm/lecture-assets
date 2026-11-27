@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-116",
+  "lecture_title": "병역법 제74조의4, 병력동원소집등 관련 직장 보장",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-116-D01-editorial-v1",
+      "lecture_id": "MS-116",
+      "lesson_number": 116,
+      "diagram_number": 1,
+      "title": "병력동원소집등과 직장 보장",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|74의4"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 183,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-116/diagrams/MS-116-D01-editorial-v1.svg",
+          "bytes": 6186,
+          "sha256": "e30472b23a7f6d45d29ddc795f4869c322e0706297dec0c1b5d4a0d2c9ca3709"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-116/diagrams/MS-116-D01-editorial-v1.webp",
+          "bytes": 39922,
+          "sha256": "aff8513a14868c4b9db8747d92aabec16b1926c7217ee730e214c21a847cc5a4"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-116",
+        "title": "병력동원소집등과 직장 보장",
+        "subtitle": "국가기관·지방자치단체의 장 또는 고용주",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|74의4"
+        ],
+        "sections": [
+          {
+            "heading": "적용 요건",
+            "items": [
+              {
+                "label": "대상",
+                "text": "소속 공무원 또는 소속 임직원",
+                "ref": "법 제74조의4"
+              },
+              {
+                "label": "의무 이행",
+                "text": "병력동원소집등에 응하여 그 의무를 이행할 때",
+                "ref": "법 제74조의4"
+              }
+            ]
+          },
+          {
+            "heading": "금지되는 처우",
+            "items": [
+              {
+                "label": "휴무 처리",
+                "text": "소집된 기간 또는 검사일을 휴무로 처리하지 못함",
+                "ref": "법 제74조의4"
+              },
+              {
+                "label": "불이익",
+                "text": "병력동원소집등을 이유로 불리하게 처우하지 못함",
+                "ref": "법 제74조의4"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제74조의4, 병력동원소집등 관련 직장 보장",
+      "main_article": "병역법 제74조의4",
+      "source_articles": [
+        {
+          "key": "병역법|본법|74의4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=04&joNo=0074&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

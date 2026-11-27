@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-112",
+  "lecture_title": "병역법 제73조, 복학보장 및 군복무 중 학점취득 인정",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-112-D01-editorial-v1",
+      "lecture_id": "MS-112",
+      "lesson_number": 112,
+      "diagram_number": 1,
+      "title": "군복무 전후의 휴학과 복학",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|73"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 177,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-112/diagrams/MS-112-D01-editorial-v1.svg",
+          "bytes": 6440,
+          "sha256": "d5430b51e6c456fc96c6e25901e197668c7056f3c219ecb1a9f485449c342cb3"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-112/diagrams/MS-112-D01-editorial-v1.webp",
+          "bytes": 45674,
+          "sha256": "03f94dd4aaf173caa3831eb722b89ea558e2a64f5cdddd56d482be3fe507e164"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-112",
+        "title": "군복무 전후의 휴학과 복학",
+        "subtitle": "고등학교 이상 학교의 장이 보장할 사항",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|73"
+        ],
+        "sections": [
+          {
+            "heading": "입영·복무 시작",
+            "items": [
+              {
+                "label": "대상 학생",
+                "text": "징집·소집·지원 입영 또는 승선근무예비역·보충역·대체복무요원 복무",
+                "ref": "법 제73조제1항"
+              },
+              {
+                "label": "휴학 시점",
+                "text": "입영 또는 복무와 동시에 휴학하게 하여야 함",
+                "ref": "법 제73조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "복무를 마친 뒤",
+            "items": [
+              {
+                "label": "복학 희망",
+                "text": "본인이 원하면 복학시켜야 함",
+                "ref": "법 제73조제1항"
+              },
+              {
+                "label": "등록기간 경과",
+                "text": "학사일정에 지장이 없고 본인이 원하면 복학시켜야 함",
+                "ref": "법 제73조제1항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제73조, 복학보장 및 군복무 중 학점취득 인정",
+      "main_article": "병역법 제73조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|73",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0073&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-112-D02-editorial-v1",
+      "lecture_id": "MS-112",
+      "lesson_number": 112,
+      "diagram_number": 2,
+      "title": "군복무 중 원격수업과 학점",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|73"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 178,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-112/diagrams/MS-112-D02-editorial-v1.svg",
+          "bytes": 6755,
+          "sha256": "a096bd4ecd98795e61d80f405368cbf25ba615366df29aeed5a361c981427026"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-112/diagrams/MS-112-D02-editorial-v1.webp",
+          "bytes": 52422,
+          "sha256": "5bbaafde855c6f3f0842a3e7775b8e72e4a0d7641a3642701ec1768fcf109db4"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-112",
+        "title": "군복무 중 원격수업과 학점",
+        "subtitle": "학교의 등록 허용과 복무기관의 지원",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|73"
+        ],
+        "sections": [
+          {
+            "heading": "학교의 장",
+            "items": [
+              {
+                "label": "대상 학교",
+                "text": "고등학교 및 동등 학력 인정 교육시설은 제외",
+                "ref": "법 제73조제2항"
+              },
+              {
+                "label": "등록 허용",
+                "text": "입영·복무로 휴학 중이면 학칙에 따라 원격수업 등록을 허용할 수 있음",
+                "ref": "법 제73조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "입영부대·복무기관",
+            "items": [
+              {
+                "label": "수강 보장",
+                "text": "징집·지원 복무로 휴학 중이고 등록이 허용되면, 복무에 지장 없는 범위에서 수강하도록 함",
+                "ref": "법 제73조제3항"
+              },
+              {
+                "label": "시설 마련",
+                "text": "원격수업에 필요한 통신장비·시설을 갖추도록 노력하여야 함",
+                "ref": "법 제73조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제73조, 복학보장 및 군복무 중 학점취득 인정",
+      "main_article": "병역법 제73조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|73",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0073&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

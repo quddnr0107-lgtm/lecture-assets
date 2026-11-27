@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-115",
+  "lecture_title": "병역법 제74조의3, 병력동원소집등 관련 학업 보장",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-115-D01-editorial-v1",
+      "lecture_id": "MS-115",
+      "lesson_number": 115,
+      "diagram_number": 1,
+      "title": "병력동원소집등과 학업 보장",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|본법|74의3"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 182,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-115/diagrams/MS-115-D01-editorial-v1.svg",
+          "bytes": 6838,
+          "sha256": "c336d6d3f0955ddb70c3d640327a30eee11a6d4a5821593653197d36a6288163"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-115/diagrams/MS-115-D01-editorial-v1.webp",
+          "bytes": 51694,
+          "sha256": "d8004456f5b0ea9c69fea6583f3e7f53c98d355e488d91c317dcbc11ca1e82e3"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-115",
+        "title": "병력동원소집등과 학업 보장",
+        "subtitle": "고등학교 이상 학교의 학생에게 적용",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|본법|74의3"
+        ],
+        "sections": [
+          {
+            "heading": "보장 대상",
+            "items": [
+              {
+                "label": "소집·점검",
+                "text": "병력동원소집·훈련소집·전시근로소집·점검 및 예비군대체복무 소집",
+                "ref": "법 제74조의3제1호·제2호"
+              },
+              {
+                "label": "검사",
+                "text": "병역판정·재병역판정·입영판정·현역병지원·확인신체·재신체검사·재검사",
+                "ref": "법 제74조의3제3호"
+              }
+            ]
+          },
+          {
+            "heading": "학교장의 금지행위",
+            "items": [
+              {
+                "label": "출결",
+                "text": "소집된 기간 또는 검사일을 결석으로 처리하지 못함",
+                "ref": "법 제74조의3"
+              },
+              {
+                "label": "처우",
+                "text": "병력동원소집등을 이유로 불리하게 처우하지 못함",
+                "ref": "법 제74조의3"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제74조의3, 병력동원소집등 관련 학업 보장",
+      "main_article": "병역법 제74조의3",
+      "source_articles": [
+        {
+          "key": "병역법|본법|74의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0074&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

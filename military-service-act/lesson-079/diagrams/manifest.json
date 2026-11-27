@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-079",
+  "lecture_title": "병역법 제43조, 운영계획의 수립 및 실태조사 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-079-D01-editorial-v1",
+      "lecture_id": "MS-079",
+      "lesson_number": 79,
+      "diagram_number": 1,
+      "title": "운영계획과 실태조사의 주체",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|43"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 134,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-079/diagrams/MS-079-D01-editorial-v1.svg",
+          "bytes": 7320,
+          "sha256": "a80b28e1407d06ba81bdc981c5c008f11c830b1f9a718ce01393401d77c0e689"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-079/diagrams/MS-079-D01-editorial-v1.webp",
+          "bytes": 62040,
+          "sha256": "1e21e20597d0d28cc4ab34bc6ba2aa8bfc856af3e1e2e88a1facb880178b8426"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-079",
+        "title": "운영계획과 실태조사의 주체",
+        "subtitle": "수립 의무와 조사 권한을 구분",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|43"
+        ],
+        "sections": [
+          {
+            "heading": "매년 운영계획",
+            "items": [
+              {
+                "label": "관계 중앙행정기관장",
+                "text": "전문연구·산업기능요원 제도의 체계적 운영을 위해 매년 운영계획을 수립·시행하여야 한다.",
+                "ref": "법 제43조제1항"
+              },
+              {
+                "label": "대상 제도",
+                "text": "전문연구요원 및 산업기능요원 제도.",
+                "ref": "법 제43조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "실태조사 권한",
+            "items": [
+              {
+                "label": "지방병무청장 등",
+                "text": "사회복무·예술체육·전문연구·산업기능요원 복무기관·업체 등의 복무·관리를 조사할 수 있다.",
+                "ref": "법 제43조제2항"
+              },
+              {
+                "label": "병무청장 합동 조사",
+                "text": "관계 중앙행정기관장과 합동으로 공중보건의사·공익법무관·공중방역수의사·대체복무요원을 조사할 수 있다.",
+                "ref": "법 제43조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제43조, 운영계획의 수립 및 실태조사 등",
+      "main_article": "병역법 제43조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|43",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0043&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

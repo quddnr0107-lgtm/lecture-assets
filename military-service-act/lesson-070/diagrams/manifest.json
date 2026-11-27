@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-070",
+  "lecture_title": "병역법 제35조의3, 공중방역수의사의 신상변동 통보 및 처리",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-070-D01-editorial-v1",
+      "lecture_id": "MS-070",
+      "lesson_number": 70,
+      "diagram_number": 1,
+      "title": "공중방역수의사의 신상변동",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|35의3"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 122,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-070/diagrams/MS-070-D01-editorial-v1.svg",
+          "bytes": 7207,
+          "sha256": "50bd2fce8de8c81576b5604be8c56568e99ddcf19b01d87e9e26b6246b656385"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-070/diagrams/MS-070-D01-editorial-v1.webp",
+          "bytes": 59326,
+          "sha256": "3f6294ad12b1b6b2dceb24420f23d3005852c10a00e9e6c4565f86da04277a01"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-070",
+        "title": "공중방역수의사의 신상변동",
+        "subtitle": "농림축산식품부장관이 병무청장에게 통보",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|35의3"
+        ],
+        "sections": [
+          {
+            "heading": "신상변동의 통보",
+            "items": [
+              {
+                "label": "사유 발생일부터",
+                "text": "14일 이내 병무청장에게 통보하여야 한다.",
+                "ref": "법 제35조의3제1항"
+              },
+              {
+                "label": "취소 사유",
+                "text": "면허 취소·효력 정지, 정당한 사유 없는 교육 불참, 미임용, 신분 박탈·상실 또는 법정 결격사유.",
+                "ref": "법 제35조의3제1항제1~5호"
+              }
+            ]
+          },
+          {
+            "heading": "병무청장의 처리",
+            "items": [
+              {
+                "label": "편입취소·복귀",
+                "text": "제1항제1~5호이면 취소 후 종전 신분으로 복귀해 남은 기간을 복무한다.",
+                "ref": "법 제35조의3제2항"
+              },
+              {
+                "label": "통틀어 7일 이내",
+                "text": "정당한 사유 없는 근무기관·지역 이탈 또는 미복무는 해당 일수의 5배 연장한다.",
+                "ref": "법 제35조의3제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제35조의3, 공중방역수의사의 신상변동 통보 및 처리",
+      "main_article": "병역법 제35조의3",
+      "source_articles": [
+        {
+          "key": "병역법|본법|35의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0035&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

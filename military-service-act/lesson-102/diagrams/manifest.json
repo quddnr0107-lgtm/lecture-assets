@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-102",
+  "lecture_title": "병역법 제65조, 병역처분 변경 등",
+  "diagram_count": 3,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-102-D01-editorial-v1",
+      "lecture_id": "MS-102",
+      "lesson_number": 102,
+      "diagram_number": 1,
+      "title": "병역처분 변경의 기본 구조",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|65"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 162,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-102/diagrams/MS-102-D01-editorial-v1.svg",
+          "bytes": 7504,
+          "sha256": "2702e4de4e8eea9e996df43b3457164d6450063541bd2cd95600bdf886beac1a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-102/diagrams/MS-102-D01-editorial-v1.webp",
+          "bytes": 63256,
+          "sha256": "ec4d060b66d2acfdf763b97514163ff79102156a2d3d8e246a419c188c9658c6"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-102",
+        "title": "병역처분 변경의 기본 구조",
+        "subtitle": "현역병·승선근무예비역·보충역의 사유별 처분",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|65"
+        ],
+        "sections": [
+          {
+            "heading": "전상·공상·질병 등",
+            "items": [
+              {
+                "label": "신체검사를 거쳐",
+                "text": "병역을 감당할 수 없으면 보충역·전시근로역 편입 또는 병역면제 처분을 할 수 있다.",
+                "ref": "법 제65조제1항제1호"
+              },
+              {
+                "label": "대상 범위",
+                "text": "현역병에는 상근예비역·전환복무 중인 사람과 현역병입영 대상자가 포함된다.",
+                "ref": "법 제65조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "수형·귀화 등",
+            "items": [
+              {
+                "label": "보충·전시근로역",
+                "text": "대통령령상 수형자 또는 귀화 등 법정 사유로 부적합한 사람은 보충역·전시근로역 편입 가능.",
+                "ref": "법 제65조제1항제2·3호"
+              },
+              {
+                "label": "일부 범죄 제외",
+                "text": "수형 사유의 변경에는 법 제65조제1항제2호 단서에서 열거한 병역범죄자를 제외한다.",
+                "ref": "법 제65조제1항제2호 단서"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제65조, 병역처분 변경 등",
+      "main_article": "병역법 제65조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|65",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0065&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-102-D02-editorial-v1",
+      "lecture_id": "MS-102",
+      "lesson_number": 102,
+      "diagram_number": 2,
+      "title": "가족 국외이주와 자녀 출산",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|65"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 163,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-102/diagrams/MS-102-D02-editorial-v1.svg",
+          "bytes": 7355,
+          "sha256": "f1b021713d24d309374173cef86562d176b633446b1be9750e8ac7ab87e4f136"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-102/diagrams/MS-102-D02-editorial-v1.webp",
+          "bytes": 61046,
+          "sha256": "7dfdc687369f8cd4c092f3a0ab0b3089a4c4a4b6c0c8e3724bab21b2cfc1d8bb"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-102",
+        "title": "가족 국외이주와 자녀 출산",
+        "subtitle": "복무 중인 사람에게 적용하는 병역처분 변경",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|65"
+        ],
+        "sections": [
+          {
+            "heading": "가족과 국외이주",
+            "items": [
+              {
+                "label": "복무 중인 대상자",
+                "text": "현역병·승선근무예비역·보충역은 법정 요건에 따라 보충역 편입 또는 사회복무 소집해제 가능.",
+                "ref": "법 제65조제2항"
+              },
+              {
+                "label": "영주귀국 등",
+                "text": "국내 영주 목적 귀국 등 대통령령상 사유가 생기면 그 처분을 취소하고 병역의무를 부과할 수 있다.",
+                "ref": "법 제65조제6항"
+              }
+            ]
+          },
+          {
+            "heading": "자녀 출산",
+            "items": [
+              {
+                "label": "상근예비역 희망",
+                "text": "복무 중인 현역병이 자녀 출산으로 상근예비역 복무를 원하면 대통령령에 따라 예비역 편입 가능.",
+                "ref": "법 제65조제3항"
+              },
+              {
+                "label": "전환복무 포함",
+                "text": "제3항의 현역병에는 제25조에 따라 전환복무 중인 사람을 포함한다.",
+                "ref": "법 제65조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제65조, 병역처분 변경 등",
+      "main_article": "병역법 제65조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|65",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0065&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-102-D03-editorial-v1",
+      "lecture_id": "MS-102",
+      "lesson_number": 102,
+      "diagram_number": 3,
+      "title": "사회복무 소집 대상자의 변경",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|65"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 164,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-102/diagrams/MS-102-D03-editorial-v1.svg",
+          "bytes": 7514,
+          "sha256": "49ba67391fe1ccb2eb5f31f7aa267cd13ed5d272173aa8bbc9ef4af8858ea573"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-102/diagrams/MS-102-D03-editorial-v1.webp",
+          "bytes": 61422,
+          "sha256": "d9ef502b3151ac4af9dda0e117e1cb7353267737cab52430f302de6ddf519302"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-102",
+        "title": "사회복무 소집 대상자의 변경",
+        "subtitle": "선원·배정 초과·학력 변동의 갈래",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|65"
+        ],
+        "sections": [
+          {
+            "heading": "국외 왕래 선원",
+            "items": [
+              {
+                "label": "3년 이상 연기",
+                "text": "사회복무 소집 대상 보충역 중 법정 기산일부터 3년 이상 소집이 연기된 국외 왕래 선박 선원.",
+                "ref": "법 제65조제7항"
+              },
+              {
+                "label": "군사교육소집",
+                "text": "지방병무청장이 군사교육소집을 하며, 마치면 사회복무요원 복무를 마친 것으로 본다.",
+                "ref": "법 제65조제7항"
+              }
+            ]
+          },
+          {
+            "heading": "수급·학력 변화",
+            "items": [
+              {
+                "label": "배정인원보다 많음",
+                "text": "학력·보충역 편입연도 등을 고려해 대통령령상 기준에 따라 일부를 전시근로역에 편입할 수 있다.",
+                "ref": "법 제65조제9항"
+              },
+              {
+                "label": "학력 변동",
+                "text": "법정 기간 내 학력이 변동되면 그 해 병역처분기준에 따라 병역처분을 변경할 수 있다.",
+                "ref": "법 제65조제10항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제65조, 병역처분 변경 등",
+      "main_article": "병역법 제65조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|65",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0065&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

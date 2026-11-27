@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-047",
+  "lecture_title": "병역법 제31조의3, 사회복무요원의 분할복무",
+  "diagram_count": 3,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-047-D01-editorial-v1",
+      "lecture_id": "MS-047",
+      "lesson_number": 47,
+      "diagram_number": 1,
+      "title": "사회복무요원의 분할복무",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|31의3",
+        "병역법|시행령|65"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 84,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-047/diagrams/MS-047-D01-editorial-v1.svg",
+          "bytes": 7793,
+          "sha256": "0e2afa36b70a75c46b3c2ad5ed1e1ab30c89490dc86f0d3ed1995d064a68c280"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-047/diagrams/MS-047-D01-editorial-v1.webp",
+          "bytes": 60884,
+          "sha256": "18403b4deeb263678ff0dfb043384375e269db9c287dc9a1235743087b033913"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-047",
+        "title": "사회복무요원의 분할복무",
+        "subtitle": "지방병무청장이 일정기간 중단 후 다시 복무하게 할 수 있음",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|31의3",
+          "병역법|시행령|65"
+        ],
+        "sections": [
+          {
+            "heading": "본인 질병치료",
+            "items": [
+              {
+                "label": "구체적 요건",
+                "text": "1개월 이상 본인의 질병치료가 필요한 경우",
+                "ref": "시행령 제65조제1항제1호"
+              },
+              {
+                "label": "통틀어 2년",
+                "text": "질병치료에 따른 복무중단기간의 원칙적 상한",
+                "ref": "법 제31조의3제2항제1호"
+              },
+              {
+                "label": "추가 중단 가능",
+                "text": "지방병무청장·병무지청장이 입원·거동 불편 등으로 복무 곤란을 인정하면 치료기간만큼 추가",
+                "ref": "법 제31조의3제2항제1호"
+              }
+            ]
+          },
+          {
+            "heading": "가족·가사사정",
+            "items": [
+              {
+                "label": "해당 사유",
+                "text": "가족 간병 또는 재난·그 밖의 가사사정으로 본인의 지원이 필요한 경우",
+                "ref": "법 제31조의3제1항제2호·제3호"
+              },
+              {
+                "label": "통틀어 6개월",
+                "text": "가족 간병과 재난·가사사정에 따른 복무중단기간의 상한",
+                "ref": "법 제31조의3제2항제2호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제31조의3, 사회복무요원의 분할복무",
+      "main_article": "병역법 제31조의3",
+      "source_articles": [
+        {
+          "key": "병역법|본법|31의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0031&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|65",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0065&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-047-D02-editorial-v1",
+      "lecture_id": "MS-047",
+      "lesson_number": 47,
+      "diagram_number": 2,
+      "title": "분할복무 신청과 재복무",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|시행령|65"
+      ],
+      "part": 1,
+      "parts": 2,
+      "content_index": 85,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-047/diagrams/MS-047-D02-editorial-v1.svg",
+          "bytes": 6125,
+          "sha256": "a64d8c3c5d591d6b405c96a8035c45458b547d6ab0bfef99a232b3cfbf2ce2a6"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-047/diagrams/MS-047-D02-editorial-v1.webp",
+          "bytes": 48838,
+          "sha256": "a3b293405762577fb55fb32e40fecd0857b5f09c8196be1b4a697be575b9c18e"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-047",
+        "title": "분할복무 신청과 재복무",
+        "subtitle": "복무기관을 거쳐 지방병무청장이 결정",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|시행령|65"
+        ],
+        "sections": [
+          {
+            "heading": "신청",
+            "items": [
+              {
+                "label": "사회복무요원",
+                "text": "분할복무 사유가 있으면 복무기관의 장에게 신청서 제출 가능",
+                "ref": "시행령 제65조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "송부",
+            "items": [
+              {
+                "label": "복무기관의 장",
+                "text": "신청서를 지체 없이 지방병무청장에게 송부하여야 함",
+                "ref": "시행령 제65조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "결정·통지",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "사유·기간 등을 확인하여 중단 여부·기간 결정 후 복무기관장을 거쳐 통지서 교부",
+                "ref": "시행령 제65조제3항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "만료 전 재복무를 원하면 기관장이 즉시 관할청에 알리고, 관할청은 중단을 취소하여 기관장에게 통보."
+      },
+      "lecture_title": "병역법 제31조의3, 사회복무요원의 분할복무",
+      "main_article": "병역법 제31조의3",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|65",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0065&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-047-D03-editorial-v1",
+      "lecture_id": "MS-047",
+      "lesson_number": 47,
+      "diagram_number": 3,
+      "title": "분할복무 신청과 재복무",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|시행령|65"
+      ],
+      "part": 2,
+      "parts": 2,
+      "content_index": 85,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-047/diagrams/MS-047-D03-editorial-v1.svg",
+          "bytes": 3869,
+          "sha256": "3e1b83b557f65d72d0f7b56ca2083ca8b459b3751b158cbb9a0bb8a6dcb57592"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-047/diagrams/MS-047-D03-editorial-v1.webp",
+          "bytes": 31594,
+          "sha256": "8d9195a700c9fa270421c2c4f5b641894f5954a500dce1e071059510b073455e"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-047",
+        "title": "분할복무 신청과 재복무",
+        "subtitle": "복무기관을 거쳐 지방병무청장이 결정",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|시행령|65"
+        ],
+        "sections": [
+          {
+            "heading": "종료일의 다음 날",
+            "items": [
+              {
+                "label": "사회복무요원",
+                "text": "복무기관의 장에게 재복무 신고 후 의무복무기간에서 이미 복무한 기간을 뺀 나머지 복무",
+                "ref": "시행령 제65조제4항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "만료 전 재복무를 원하면 기관장이 즉시 관할청에 알리고, 관할청은 중단을 취소하여 기관장에게 통보."
+      },
+      "lecture_title": "병역법 제31조의3, 사회복무요원의 분할복무",
+      "main_article": "병역법 제31조의3",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|65",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0065&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

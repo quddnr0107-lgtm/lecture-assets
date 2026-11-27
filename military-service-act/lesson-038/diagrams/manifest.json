@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-038",
+  "lecture_title": "병역법 제23조의6, 해운업체등의 장의 서약서 제출 등",
+  "diagram_count": 4,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-038-D01-editorial-v1",
+      "lecture_id": "MS-038",
+      "lesson_number": 38,
+      "diagram_number": 1,
+      "title": "해운업체등의 서약과 고지",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|23의6",
+        "병역법|시행령|40의10"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 67,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-038/diagrams/MS-038-D01-editorial-v1.svg",
+          "bytes": 6773,
+          "sha256": "ac50064ad173016e180cd5ff3d8b5c063bed142db225c548cf1811c8f4deffce"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-038/diagrams/MS-038-D01-editorial-v1.webp",
+          "bytes": 55170,
+          "sha256": "850bc674b73df7090e043d01e89afb531e573b2a7dfd50c01403bf260ad9320e"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-038",
+        "title": "해운업체등의 서약과 고지",
+        "subtitle": "근로조건 이행 서약서를 관할 지방병무청장에게 제출",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|23의6",
+          "병역법|시행령|40의10"
+        ],
+        "sections": [
+          {
+            "heading": "서약서 작성·제출",
+            "items": [
+              {
+                "label": "서약 내용",
+                "text": "약정한 근로조건을 성실히 이행하겠다는 서약서 작성 후 제출하여야 함",
+                "ref": "법 제23조의6제1항"
+              },
+              {
+                "label": "기재 사항",
+                "text": "복무할 업무·근로시간·휴가·임금 지급방법 등의 근로조건 기재",
+                "ref": "시행령 제40조의10"
+              }
+            ]
+          },
+          {
+            "heading": "승선근무예비역에게 고지",
+            "items": [
+              {
+                "label": "근로조건상 권리",
+                "text": "서약서 작성 시 근로조건에 따른 권리를 알려야 함",
+                "ref": "법 제23조의6제2항"
+              },
+              {
+                "label": "침해 시 신고방법",
+                "text": "권리가 침해된 경우의 신고방법 등을 알려야 함",
+                "ref": "법 제23조의6제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제23조의6, 해운업체등의 장의 서약서 제출 등",
+      "main_article": "병역법 제23조의6",
+      "source_articles": [
+        {
+          "key": "병역법|본법|23의6",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=06&joNo=0023&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|40의10",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=10&joNo=0040&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-038-D02-editorial-v1",
+      "lecture_id": "MS-038",
+      "lesson_number": 38,
+      "diagram_number": 2,
+      "title": "승선근무 인원의 통보·배정",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|시행령|40의2"
+      ],
+      "part": 1,
+      "parts": 2,
+      "content_index": 68,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-038/diagrams/MS-038-D02-editorial-v1.svg",
+          "bytes": 6049,
+          "sha256": "46f7fb54234c5e272648e4b616607cbc9d59e7bb85f3495f78c8195b1cc7fee0"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-038/diagrams/MS-038-D02-editorial-v1.webp",
+          "bytes": 51106,
+          "sha256": "c60c224a73d139674cfdbfe3df64211497d195e49591f1a3231d6c6ae688317b"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-038",
+        "title": "승선근무 인원의 통보·배정",
+        "subtitle": "다음 해 필요인원은 6월과 7월에 순차 통보",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|시행령|40의2"
+        ],
+        "sections": [
+          {
+            "heading": "6월 30일까지",
+            "items": [
+              {
+                "label": "해운업체등의 장",
+                "text": "법정 선박을 보유·관리하는 해당 업체가 다음 해 필요인원을 해양수산부장관에게 통보",
+                "ref": "시행령 제40조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "7월 31일까지",
+            "items": [
+              {
+                "label": "해양수산부장관",
+                "text": "업체로부터 통보받은 필요인원을 병무청장에게 통보",
+                "ref": "시행령 제40조의2제2항"
+              }
+            ]
+          },
+          {
+            "heading": "편입인원·업체별 배정",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "군 충원에 지장 없는 범위에서 해양수산부장관과 협의 후 편입인원 결정·업체별 배정",
+                "ref": "시행령 제40조의2제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제23조의6, 해운업체등의 장의 서약서 제출 등",
+      "main_article": "병역법 제23조의6",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|40의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0040&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-038-D03-editorial-v1",
+      "lecture_id": "MS-038",
+      "lesson_number": 38,
+      "diagram_number": 3,
+      "title": "승선근무 인원의 통보·배정",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|시행령|40의2"
+      ],
+      "part": 2,
+      "parts": 2,
+      "content_index": 68,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-038/diagrams/MS-038-D03-editorial-v1.svg",
+          "bytes": 3463,
+          "sha256": "aac388c58703a97cd4cd90730c535304c31c5fdd6f5ad2ebbb9c7e30f88b80e8"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-038/diagrams/MS-038-D03-editorial-v1.webp",
+          "bytes": 28586,
+          "sha256": "6e3c563d3bf20e6df91b099a7b5e4969a91a1c9402eb5e571e49cb37591c94d6"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-038",
+        "title": "승선근무 인원의 통보·배정",
+        "subtitle": "다음 해 필요인원은 6월과 7월에 순차 통보",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|시행령|40의2"
+        ],
+        "sections": [
+          {
+            "heading": "배정 결과 통보",
+            "items": [
+              {
+                "label": "관할청을 거쳐",
+                "text": "병무청장이 관할 지방병무청장을 거쳐 업체의 장에게 다음 해 배정인원 통보",
+                "ref": "시행령 제40조의2제4항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제23조의6, 해운업체등의 장의 서약서 제출 등",
+      "main_article": "병역법 제23조의6",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|40의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0040&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-038-D04-editorial-v1",
+      "lecture_id": "MS-038",
+      "lesson_number": 38,
+      "diagram_number": 4,
+      "title": "승선근무예비역 편입원서",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|시행령|40의3"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 69,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-038/diagrams/MS-038-D04-editorial-v1.svg",
+          "bytes": 6503,
+          "sha256": "be121c00f8f3820bdb3dc80c7d79910979d76cfc78ddc642b335888093337dbf"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-038/diagrams/MS-038-D04-editorial-v1.webp",
+          "bytes": 58588,
+          "sha256": "988c208ab89ae340703c63bcd974fdaba17473acac4e20d18fe436c687cc1b69"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-038",
+        "title": "승선근무예비역 편입원서",
+        "subtitle": "지원자 제출 → 업체 추천 → 관할청 결정",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|시행령|40의3"
+        ],
+        "sections": [
+          {
+            "heading": "지원자",
+            "items": [
+              {
+                "label": "업체장에게 제출",
+                "text": "편입원서에 성실복무 서약서와 국방부령이 정한 서류를 첨부하여 제출",
+                "ref": "시행령 제40조의3제2항"
+              }
+            ]
+          },
+          {
+            "heading": "해운업체등의 장",
+            "items": [
+              {
+                "label": "추천·서류 제출",
+                "text": "배정인원 내 추천 결정 후 원서 접수일부터 7일 이내 관할청에 제출. 입영통지자는 입영일 5일 전까지",
+                "ref": "시행령 제40조의3제3항"
+              }
+            ]
+          },
+          {
+            "heading": "관할 지방병무청장",
+            "items": [
+              {
+                "label": "확인·편입 결정",
+                "text": "편입자격·배정인원 등을 확인하여 결정하고 업체장을 거쳐 추천 대상자에게 통보",
+                "ref": "시행령 제40조의3제4항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "편입 후 승선한 때부터 소집 간주. 이미 해당 선박에 승선한 사람은 편입 결정일부터 소집 간주."
+      },
+      "lecture_title": "병역법 제23조의6, 해운업체등의 장의 서약서 제출 등",
+      "main_article": "병역법 제23조의6",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|40의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0040&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

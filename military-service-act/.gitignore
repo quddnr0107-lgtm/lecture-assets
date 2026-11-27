@@ -1,0 +1,4 @@
+# PNG rasterizations are optional local review intermediates.
+# The published formats are editable SVG and lossless WebP.
+lesson-*/diagrams/*-editorial-v1.png
+tools/__pycache__/

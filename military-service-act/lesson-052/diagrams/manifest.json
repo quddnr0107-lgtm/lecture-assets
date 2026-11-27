@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-052",
+  "lecture_title": "병역법 제32조의2, 수사기관의 수사 개시ㆍ종료 통보 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-052-D01-editorial-v1",
+      "lecture_id": "MS-052",
+      "lesson_number": 52,
+      "diagram_number": 1,
+      "title": "사회복무요원 수사 통보",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|32의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 94,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-052/diagrams/MS-052-D01-editorial-v1.svg",
+          "bytes": 6762,
+          "sha256": "f40140d741d32c7dfd667ba9bedd6d0bb91527fa3d46b62a233de1b8a5d3c515"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-052/diagrams/MS-052-D01-editorial-v1.webp",
+          "bytes": 53118,
+          "sha256": "26b20ced9060800c5efc17bc963804689f4b49ffb14a560063674ba8b547a5a0"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-052",
+        "title": "사회복무요원 수사 통보",
+        "subtitle": "법 제29조제4항 각 호의 범죄에 관한 통보",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|32의2"
+        ],
+        "sections": [
+          {
+            "heading": "통보할 때",
+            "items": [
+              {
+                "label": "수사를 시작한 때",
+                "text": "공소청과 수사기관이 해당 범죄에 대한 수사를 시작한 때",
+                "ref": "법 제32조의2제1항"
+              },
+              {
+                "label": "수사를 마친 때",
+                "text": "수사를 마친 때 — 공소청은 공소제기 여부를 결정한 때",
+                "ref": "법 제32조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "10일 이내",
+            "items": [
+              {
+                "label": "통보 대상",
+                "text": "복무기관의 장 및 지방병무청장·병무지청장에게 해당 사실과 결과를 통보하여야 함",
+                "ref": "법 제32조의2제1항"
+              },
+              {
+                "label": "활용 가능",
+                "text": "통보받은 기관장·관할청은 임무부여 등 복무관리에 활용할 수 있음",
+                "ref": "법 제32조의2제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제32조의2, 수사기관의 수사 개시ㆍ종료 통보 등",
+      "main_article": "병역법 제32조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|32의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0032&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

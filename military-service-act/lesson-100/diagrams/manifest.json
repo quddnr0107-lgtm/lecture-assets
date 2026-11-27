@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-100",
+  "lecture_title": "병역법 제63조의2, 가사사정으로 인한 대체역의 소집해제 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-100-D01-editorial-v1",
+      "lecture_id": "MS-100",
+      "lesson_number": 100,
+      "diagram_number": 1,
+      "title": "대체역의 가사사정 처리",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|63의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 160,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-100/diagrams/MS-100-D01-editorial-v1.svg",
+          "bytes": 7174,
+          "sha256": "be2e62ec79abfd1da03ba4a7133fbc8fdb97181089321ae8c1e75dd490e06962"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-100/diagrams/MS-100-D01-editorial-v1.webp",
+          "bytes": 49666,
+          "sha256": "b76687841d62b63066cd3218825bd4ad38e8b4550523b816c6511f4739c5ff52"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-100",
+        "title": "대체역의 가사사정 처리",
+        "subtitle": "소집 전·복무 중의 생계유지곤란",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|63의2"
+        ],
+        "sections": [
+          {
+            "heading": "가족의 생계",
+            "items": [
+              {
+                "label": "소집 전",
+                "text": "본인이 아니면 가족 생계를 유지할 수 없는 대체역은 원하면 대체복무 소집을 면제할 수 있다.",
+                "ref": "법 제63조의2제1항"
+              },
+              {
+                "label": "복무 중",
+                "text": "같은 생계유지곤란 사유의 대체복무요원은 원하면 소집을 해제할 수 있다.",
+                "ref": "법 제63조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "전사·순직 등 가족",
+            "items": [
+              {
+                "label": "복무기간 6개월",
+                "text": "제62조제1항제2호 사유의 대체복무요원은 원하면 복무기간을 6개월로 단축할 수 있다.",
+                "ref": "법 제63조의2제2항"
+              },
+              {
+                "label": "복무를 마친 뒤",
+                "text": "단축된 복무기간을 마친 사람은 소집을 해제한다.",
+                "ref": "법 제63조의2제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제63조의2, 가사사정으로 인한 대체역의 소집해제 등",
+      "main_article": "병역법 제63조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|63의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0063&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

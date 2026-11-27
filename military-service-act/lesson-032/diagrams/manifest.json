@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-032",
+  "lecture_title": "병역법 제22조, 상근예비역소집 대상자의 입영 및 소집",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-032-D01-editorial-v1",
+      "lecture_id": "MS-032",
+      "lesson_number": 32,
+      "diagram_number": 1,
+      "title": "상근예비역 입영에서 소집까지",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|본법|22"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 56,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-032/diagrams/MS-032-D01-editorial-v1.svg",
+          "bytes": 6224,
+          "sha256": "48d6351af820feb2d72af64332062a60fe87ae56d5dd4635d895c1cef9c4c65f"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-032/diagrams/MS-032-D01-editorial-v1.webp",
+          "bytes": 48420,
+          "sha256": "c332169603c72278fbd0feea934784353e3bdb7a63aa896b15c71d616d28b7ca"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-032",
+        "title": "상근예비역 입영에서 소집까지",
+        "subtitle": "현역 복무 종료 다음 날 편입과 소집이 이어짐",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|본법|22"
+        ],
+        "sections": [
+          {
+            "heading": "현역병 입영",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "거주지별 필요인원에 따라 상근예비역소집 대상자를 현역병으로 입영시킴",
+                "ref": "법 제22조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "예비역 편입",
+            "items": [
+              {
+                "label": "각 군 참모총장",
+                "text": "법 제21조제1항의 현역 복무기간을 마친 다음 날 예비역에 편입시켜야 함",
+                "ref": "법 제22조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "상근예비역 소집",
+            "items": [
+              {
+                "label": "각 군 참모총장",
+                "text": "예비역으로 편입된 날부터 소집하여야 함 — 법 제65조제3항의 예비역 편입자 포함",
+                "ref": "법 제22조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제22조, 상근예비역소집 대상자의 입영 및 소집",
+      "main_article": "병역법 제22조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|22",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0022&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-032-D02-editorial-v1",
+      "lecture_id": "MS-032",
+      "lesson_number": 32,
+      "diagram_number": 2,
+      "title": "상근예비역 입영계획 기한",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|시행령|31"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 57,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-032/diagrams/MS-032-D02-editorial-v1.svg",
+          "bytes": 7602,
+          "sha256": "1d927a3bf406b0620fc900965cd3f1374d3b55345cd6ffff6e728f1c8521f12a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-032/diagrams/MS-032-D02-editorial-v1.webp",
+          "bytes": 67220,
+          "sha256": "56b6b44e8ca2d9cbc0fe252f021e55b364fd53488d9542bacd29c660a6e879f6"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-032",
+        "title": "상근예비역 입영계획 기한",
+        "subtitle": "충원·입영계획과 지역별 필요인원 통보",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|시행령|31"
+        ],
+        "sections": [
+          {
+            "heading": "각 군 참모총장",
+            "items": [
+              {
+                "label": "9월 30일까지",
+                "text": "다음 해 충원 계획서를 병무청장과 입영·소집부대의 장에게 송부",
+                "ref": "시행령 제31조제1항"
+              },
+              {
+                "label": "변경은 75일 전",
+                "text": "입영일 75일 전까지 변경 계획서 송부",
+                "ref": "시행령 제31조제1항"
+              },
+              {
+                "label": "정원조정",
+                "text": "정원조정이 필요하면 국방부장관 승인 필요",
+                "ref": "시행령 제31조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "배분·지역별 통보",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "입영 계획서를 지체 없이 각 군 참모총장·지방병무청장에게 송부. 변경은 입영일 60일 전까지",
+                "ref": "시행령 제31조제2항"
+              },
+              {
+                "label": "소집부대의 장",
+                "text": "지역별 필요인원을 10월 31일까지 지방병무청장에게 통보. 변경은 입영일 60일 전까지",
+                "ref": "시행령 제31조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제22조, 상근예비역소집 대상자의 입영 및 소집",
+      "main_article": "병역법 제22조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|31",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0031&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

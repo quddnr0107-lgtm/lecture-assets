@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-121",
+  "lecture_title": "병역법 제75조의3, 보험가입 등",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-121-D01-editorial-v1",
+      "lecture_id": "MS-121",
+      "lesson_number": 121,
+      "diagram_number": 1,
+      "title": "치료 지원을 위한 보험가입",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|75의3"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 191,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-121/diagrams/MS-121-D01-editorial-v1.svg",
+          "bytes": 6629,
+          "sha256": "98de749d2b78c3268cc26072626897130dcf9a099aad4c76ccdbf71f84bcbaa9"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-121/diagrams/MS-121-D01-editorial-v1.webp",
+          "bytes": 49712,
+          "sha256": "eb27cf8a38a2664a16878a9839c7e63e60b18ed1756827148dfbebfc480f7499"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-121",
+        "title": "치료 지원을 위한 보험가입",
+        "subtitle": "가입 주체와 대상에 따른 두 갈래",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|75의3"
+        ],
+        "sections": [
+          {
+            "heading": "국가·지자체·공공단체",
+            "items": [
+              {
+                "label": "목적",
+                "text": "제75조제4항 치료비 또는 제75조의2제1항 재해보상금 지급용 보험 가입 가능",
+                "ref": "법 제75조의3제1항"
+              },
+              {
+                "label": "대상 연결",
+                "text": "사회복무요원·대체복무요원의 공상 치료 및 재해보상",
+                "ref": "법 제75조의3제1항"
+              }
+            ]
+          },
+          {
+            "heading": "국방부장관",
+            "items": [
+              {
+                "label": "대상",
+                "text": "상근예비역 및 현역병",
+                "ref": "법 제75조의3제2항"
+              },
+              {
+                "label": "목적",
+                "text": "복무기간 중 교육훈련·업무수행 등의 질병·상해 치료 지원용 보험 가입 가능",
+                "ref": "법 제75조의3제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제75조의3, 보험가입 등",
+      "main_article": "병역법 제75조의3",
+      "source_articles": [
+        {
+          "key": "병역법|본법|75의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0075&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-121-D02-editorial-v1",
+      "lecture_id": "MS-121",
+      "lesson_number": 121,
+      "diagram_number": 2,
+      "title": "보상심의위원회 구성과 의결",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|시행령|153의5"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 192,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-121/diagrams/MS-121-D02-editorial-v1.svg",
+          "bytes": 6193,
+          "sha256": "3608a113c4261cfa3587cb76faea4fa36f348324df1c806f85079e165fed30a7"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-121/diagrams/MS-121-D02-editorial-v1.webp",
+          "bytes": 47708,
+          "sha256": "02c5a0e32f57896d16603f4e9c7872dad4fb0ca0b6871174e92f58244c9e0264"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-121",
+        "title": "보상심의위원회 구성과 의결",
+        "subtitle": "장애보상금 청구의 장애등급 심의",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|시행령|153의5"
+        ],
+        "sections": [
+          {
+            "heading": "구성",
+            "items": [
+              {
+                "label": "5명 이상 10명 이하",
+                "text": "위원장 1명을 포함. 필요할 때 각 지방병무청장 소속으로 구성",
+                "ref": "영 제153조의5제1항·제2항"
+              },
+              {
+                "label": "위원장·위원",
+                "text": "위원장 지방병무청장. 의사·치과의사·한의사 및 소속 공무원 중 위촉·지명",
+                "ref": "영 제153조의5제3항·제4항"
+              }
+            ]
+          },
+          {
+            "heading": "회의",
+            "items": [
+              {
+                "label": "개의",
+                "text": "재적위원 과반수 출석",
+                "ref": "영 제153조의5제5항"
+              },
+              {
+                "label": "의결",
+                "text": "출석위원 과반수 찬성",
+                "ref": "영 제153조의5제5항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제75조의3, 보험가입 등",
+      "main_article": "병역법 제75조의3",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|153의5",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=05&joNo=0153&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

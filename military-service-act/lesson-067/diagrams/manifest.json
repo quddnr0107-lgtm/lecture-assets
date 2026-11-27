@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-067",
+  "lecture_title": "병역법 제34조의7, 공중방역수의사의 편입",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-067-D01-editorial-v1",
+      "lecture_id": "MS-067",
+      "lesson_number": 67,
+      "diagram_number": 1,
+      "title": "공중방역수의사의 편입과 복무",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|34의7"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 119,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-067/diagrams/MS-067-D01-editorial-v1.svg",
+          "bytes": 7141,
+          "sha256": "47f2de2018293e6bf9afccd9c216e37f8f48e114aa0f94faa2cb907af96e6829"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-067/diagrams/MS-067-D01-editorial-v1.webp",
+          "bytes": 55916,
+          "sha256": "b0ec8ee2f352b38ed94097a26e07a1769b23812a685302257f632f98d5b9d353"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-067",
+        "title": "공중방역수의사의 편입과 복무",
+        "subtitle": "수의사 자격과 본인의 희망이 필요",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|34의7"
+        ],
+        "sections": [
+          {
+            "heading": "편입 판단",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "법정 대상자인 수의사 자격자가 원하면 공중방역수의사로 편입시킬 수 있다.",
+                "ref": "법 제34조의7제1항"
+              },
+              {
+                "label": "편입 대상",
+                "text": "수의장교 미편입 지원자·수의사관후보생 또는 사회복무 소집 대상 보충역 중 법정 요건자.",
+                "ref": "법 제34조의7제1항"
+              }
+            ]
+          },
+          {
+            "heading": "기간과 병역",
+            "items": [
+              {
+                "label": "해당 분야 3년",
+                "text": "복무를 마치면 사회복무요원의 복무를 마친 것으로 본다.",
+                "ref": "법 제34조의7제2항"
+              },
+              {
+                "label": "교육기간 불산입",
+                "text": "군사교육소집 기간은 3년의 복무기간에 포함하지 않는다.",
+                "ref": "법 제34조의7제3항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "현역병입영 대상자가 편입되면 보충역에 편입한다."
+      },
+      "lecture_title": "병역법 제34조의7, 공중방역수의사의 편입",
+      "main_article": "병역법 제34조의7",
+      "source_articles": [
+        {
+          "key": "병역법|본법|34의7",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=07&joNo=0034&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

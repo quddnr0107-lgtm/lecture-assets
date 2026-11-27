@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-014",
+  "lecture_title": "병역법 제11조의2, 자료의 제출 요구 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-014-D01-editorial-v1",
+      "lecture_id": "MS-014",
+      "lesson_number": 14,
+      "diagram_number": 1,
+      "title": "병역판정검사 자료 제출",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|11의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 26,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-014/diagrams/MS-014-D01-editorial-v1.svg",
+          "bytes": 7700,
+          "sha256": "5cf59342a38ea3acc952abdd44af55226eb23ac28cffaaa7f6387cbaf9af9a2f"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-014/diagrams/MS-014-D01-editorial-v1.webp",
+          "bytes": 58152,
+          "sha256": "56965499330600ca401f50326cc672139882c37b306993e848460e911f0c59b7"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-014",
+        "title": "병역판정검사 자료 제출",
+        "subtitle": "제출 요구의 요건과 목적 외 사용 금지",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|11의2"
+        ],
+        "sections": [
+          {
+            "heading": "자료 제출 요구",
+            "items": [
+              {
+                "label": "요구 주체·요건",
+                "text": "지방병무청장은 전담의사·전문의사·파견 군의관 등이 질병·심신장애 확인에 필요하다고 인정하면 요구 가능",
+                "ref": "법 제11조의2제1항"
+              },
+              {
+                "label": "요구 상대",
+                "text": "의료기관의 장, 국민건강보험공단의 장, 학교의 장 등",
+                "ref": "법 제11조의2제1항"
+              },
+              {
+                "label": "요구 자료",
+                "text": "진료·치료 관련 기록, 학교생활기록부, 학생건강기록부 등",
+                "ref": "법 제11조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "응답과 보호",
+            "items": [
+              {
+                "label": "제출 의무",
+                "text": "특별한 사유가 없으면 요구에 따라야 함",
+                "ref": "법 제11조의2제1항"
+              },
+              {
+                "label": "목적 외 사용 금지",
+                "text": "누구든지 취득한 정보·자료를 공개·누설·제공하는 등 병역판정검사 외 목적으로 사용 금지",
+                "ref": "법 제11조의2제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제11조의2, 자료의 제출 요구 등",
+      "main_article": "병역법 제11조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|11의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0011&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

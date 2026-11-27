@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-149",
+  "lecture_title": "병역법 제88조, 입영의 기피 등",
+  "diagram_count": 3,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-149-D01-editorial-v1",
+      "lecture_id": "MS-149",
+      "lesson_number": 149,
+      "diagram_number": 1,
+      "title": "입영·소집 기피의 3일과 2일",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|88"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 236,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D01-editorial-v1.svg",
+          "bytes": 6889,
+          "sha256": "7a1008253a7e48e918fc202295ffbb71755d783c9227b96ade221ec50817d4c0"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D01-editorial-v1.webp",
+          "bytes": 38706,
+          "sha256": "ed188c5310686f432c22891fc95be194cc653eca072c2cda5f5707cf45663f46"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-149",
+        "title": "입영·소집 기피의 3일과 2일",
+        "subtitle": "통지서 수령 후 정당한 사유 없이 기간이 지나도 불응",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|88"
+        ],
+        "sections": [
+          {
+            "heading": "3일",
+            "items": [
+              {
+                "label": "현역입영",
+                "text": "입영일부터 3일 경과",
+                "ref": "법 제88조제1항제1호"
+              },
+              {
+                "label": "사회·대체복무요원",
+                "text": "소집일부터 3일 경과",
+                "ref": "법 제88조제1항제2호"
+              },
+              {
+                "label": "군사교육소집",
+                "text": "소집일부터 3일 경과",
+                "ref": "법 제88조제1항제3호"
+              }
+            ]
+          },
+          {
+            "heading": "2일",
+            "items": [
+              {
+                "label": "병력동원소집",
+                "text": "소집일부터 2일 경과",
+                "ref": "법 제88조제1항제4호"
+              },
+              {
+                "label": "전시근로소집",
+                "text": "소집일부터 2일 경과",
+                "ref": "법 제88조제1항제4호"
+              },
+              {
+                "label": "법정형",
+                "text": "해당 기간이 지나도 입영·소집에 불응하면 3년 이하의 징역",
+                "ref": "법 제88조제1항 본문"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제88조, 입영의 기피 등",
+      "main_article": "병역법 제88조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|88",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0088&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-149-D02-editorial-v1",
+      "lecture_id": "MS-149",
+      "lesson_number": 149,
+      "diagram_number": 2,
+      "title": "대리입영과 전시근로 점검",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|88"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 237,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D02-editorial-v1.svg",
+          "bytes": 6024,
+          "sha256": "cd793bb88bfd3ca33731c58a7f087f4b9e4d7ec0c5b232159dfdee026de9528d"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D02-editorial-v1.webp",
+          "bytes": 41680,
+          "sha256": "797fcdc3ae3457d2a48e5f05e92d69958623b9deca95babace12948e579f84bc"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-149",
+        "title": "대리입영과 전시근로 점검",
+        "subtitle": "입영·소집과 점검 대리출석의 형을 구별",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|88"
+        ],
+        "sections": [
+          {
+            "heading": "대리입영·대리소집",
+            "items": [
+              {
+                "label": "행위",
+                "text": "통지서를 받은 입영·소집 대상자를 대리하여 입영하거나 소집에 응함",
+                "ref": "법 제88조제2항 본문"
+              },
+              {
+                "label": "법정형",
+                "text": "1년 이상 3년 이하의 징역",
+                "ref": "법 제88조제2항 본문"
+              }
+            ]
+          },
+          {
+            "heading": "전시근로 점검 대리",
+            "items": [
+              {
+                "label": "행위",
+                "text": "제53조제2항에 따라 점검받을 사람을 대리하여 출석",
+                "ref": "법 제88조제2항 단서"
+              },
+              {
+                "label": "법정형",
+                "text": "1년 이하의 징역",
+                "ref": "법 제88조제2항 단서"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제88조, 입영의 기피 등",
+      "main_article": "병역법 제88조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|88",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0088&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-149-D03-editorial-v1",
+      "lecture_id": "MS-149",
+      "lesson_number": 149,
+      "diagram_number": 3,
+      "title": "전시근로소집 대비 점검 불참",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|88"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 238,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D03-editorial-v1.svg",
+          "bytes": 5715,
+          "sha256": "7f082f920f5a0cdc03a29658de58e18c79dc0da3f2aa8612a952a4d5803a30ca"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D03-editorial-v1.webp",
+          "bytes": 43382,
+          "sha256": "c787bbf558f1be70254dce6c63c1a0c5bb1b4944a3cce1a92928e6720a862e82"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-149",
+        "title": "전시근로소집 대비 점검 불참",
+        "subtitle": "입영 지연기간 규정과 다른 단서 규정",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|88"
+        ],
+        "sections": [
+          {
+            "heading": "점검 불참 요건",
+            "items": [
+              {
+                "label": "통지서 수령",
+                "text": "제53조제2항에 따른 전시근로소집 대비 점검통지서를 받은 사람",
+                "ref": "법 제88조제1항 단서"
+              },
+              {
+                "label": "불참",
+                "text": "정당한 사유 없이 지정된 일시의 점검에 참석하지 않은 경우",
+                "ref": "법 제88조제1항 단서"
+              }
+            ]
+          },
+          {
+            "heading": "법정형",
+            "items": [
+              {
+                "label": "징역·벌금·구류",
+                "text": "6개월 이하의 징역이나 500만원 이하의 벌금 또는 구류",
+                "ref": "법 제88조제1항 단서"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제88조, 입영의 기피 등",
+      "main_article": "병역법 제88조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|88",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0088&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

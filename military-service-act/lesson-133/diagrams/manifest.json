@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-133",
+  "lecture_title": "병역법 제80조의2, 가족관계등록 전산정보의 공동이용",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-133-D01-editorial-v1",
+      "lecture_id": "MS-133",
+      "lesson_number": 133,
+      "diagram_number": 1,
+      "title": "가족관계 전산정보 공동이용",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|본법|80의2",
+        "병역법|시행령|158의3"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 211,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-133/diagrams/MS-133-D01-editorial-v1.svg",
+          "bytes": 7063,
+          "sha256": "4a20e9c456cce51155b2be64b0c4ff1c76de5b81ed55ec03c68b8bbf7bbc9360"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-133/diagrams/MS-133-D01-editorial-v1.webp",
+          "bytes": 61422,
+          "sha256": "2841a8c9ff44682208bdfbe2df5058be87158399cc23291b5fdcb34b3c18d6fa"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-133",
+        "title": "가족관계 전산정보 공동이용",
+        "subtitle": "병무청장·지방병무청장·병무지청장의 권한",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|본법|80의2",
+          "병역법|시행령|158의3"
+        ],
+        "sections": [
+          {
+            "heading": "선발·병적·처분",
+            "items": [
+              {
+                "label": "선발·관리",
+                "text": "상근예비역 선발·취소, 병적관리, 현역병 지원·선발, 후보생 편입 등",
+                "ref": "영 제158조의3제1호~제4호"
+              },
+              {
+                "label": "연기·변경",
+                "text": "입영일 연기, 가사사정 편입, 병역면제, 병역처분변경, 수형자 처분 등",
+                "ref": "영 제158조의3제5호~제9호"
+              }
+            ]
+          },
+          {
+            "heading": "여행·선양",
+            "items": [
+              {
+                "label": "국외여행",
+                "text": "국외여행허가 및 국외여행기간 연장허가",
+                "ref": "영 제158조의3제10호·제11호"
+              },
+              {
+                "label": "병역 선양",
+                "text": "병역의무 이행자 선양사업 및 병역명문가 선정 등",
+                "ref": "영 제158조의3제12호·제13호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "대통령령으로 정한 병무행정 사무를 위해 전자정부법에 따라 공동이용 가능"
+      },
+      "lecture_title": "병역법 제80조의2, 가족관계등록 전산정보의 공동이용",
+      "main_article": "병역법 제80조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|80의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0080&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|158의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0158&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

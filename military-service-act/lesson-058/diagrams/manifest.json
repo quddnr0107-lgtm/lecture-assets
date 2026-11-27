@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-058",
+  "lecture_title": "병역법 제33조의9, 예술·체육요원의 신상변동 통보",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-058-D01-editorial-v1",
+      "lecture_id": "MS-058",
+      "lesson_number": 58,
+      "diagram_number": 1,
+      "title": "예술·체육요원 신상변동 통보",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|33의9",
+        "병역법|시행령|68의17"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 108,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-058/diagrams/MS-058-D01-editorial-v1.svg",
+          "bytes": 6388,
+          "sha256": "5aa8790e45bcc173ff438fa3019c53b79baff71ebf50a2e1ada8a4a3a674e885"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-058/diagrams/MS-058-D01-editorial-v1.webp",
+          "bytes": 47958,
+          "sha256": "e8ecd0292040a85f4aabff8fe233693bae8831fd60dae43096eafd69a995c3ac"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-058",
+        "title": "예술·체육요원 신상변동 통보",
+        "subtitle": "해당 분야 미복무와 편입취소 사유를 구분",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|33의9",
+          "병역법|시행령|68의17"
+        ],
+        "sections": [
+          {
+            "heading": "해당 분야 미복무",
+            "items": [
+              {
+                "label": "통보 주체·상대",
+                "text": "문화체육관광부장관 → 병무청장",
+                "ref": "법 제33조의9"
+              },
+              {
+                "label": "14일 이내",
+                "text": "해당 분야에 복무하지 않은 사유가 발생한 날부터 14일 이내 그 사실을 통보한다.",
+                "ref": "법 제33조의9"
+              }
+            ]
+          },
+          {
+            "heading": "편입취소 사유 발생",
+            "items": [
+              {
+                "label": "통보 주체·상대",
+                "text": "문화체육관광부장관 → 지방병무청장",
+                "ref": "영 제68조의17제3항"
+              },
+              {
+                "label": "지체 없이",
+                "text": "법 제33조의10제4항 각 호의 사유가 발생하면 지체 없이 통보한다.",
+                "ref": "영 제68조의17제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제33조의9, 예술·체육요원의 신상변동 통보",
+      "main_article": "병역법 제33조의9",
+      "source_articles": [
+        {
+          "key": "병역법|본법|33의9",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=09&joNo=0033&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|68의17",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=17&joNo=0068&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

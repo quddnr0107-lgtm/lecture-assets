@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-122",
+  "lecture_title": "병역법 제76조, 병역의무 불이행자에 대한 제재",
+  "diagram_count": 4,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-122-D01-editorial-v1",
+      "lecture_id": "MS-122",
+      "lesson_number": 122,
+      "diagram_number": 1,
+      "title": "병역의무 불이행자 제재",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|76"
+      ],
+      "part": 1,
+      "parts": 2,
+      "content_index": 193,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-122/diagrams/MS-122-D01-editorial-v1.svg",
+          "bytes": 6835,
+          "sha256": "5d568d929e46b8ec667e9019bdaf3757f2ef35b43b1a8f7bda0bf71fe0162c4a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-122/diagrams/MS-122-D01-editorial-v1.webp",
+          "bytes": 52106,
+          "sha256": "a85d005dd99c82d605393fdb13fdf1cb7d615248cf94a2e67570f2034667d2e2"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-122",
+        "title": "병역의무 불이행자 제재",
+        "subtitle": "검사·징집·소집 기피 및 복무이탈",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|76"
+        ],
+        "sections": [
+          {
+            "heading": "채용·재직",
+            "items": [
+              {
+                "label": "제재 대상",
+                "text": "병역판정·재병역판정·확인신체검사 기피, 징집·소집 기피 및 법정 복무이탈",
+                "ref": "법 제76조제1항"
+              },
+              {
+                "label": "임용·채용",
+                "text": "공무원 또는 임직원으로 임용·채용할 수 없음",
+                "ref": "법 제76조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "관허업",
+            "items": [
+              {
+                "label": "새 특허등",
+                "text": "국가기관·지자체의 장은 특허·허가·인가·면허·등록·지정 등을 해서는 안 됨",
+                "ref": "법 제76조제2항"
+              },
+              {
+                "label": "기존 특허등",
+                "text": "이미 받은 특허등은 취소하여야 함",
+                "ref": "법 제76조제2항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "국외여행허가 위반자는 40세까지 준용하되 귀국하여 병역의무를 마친 경우 제외"
+      },
+      "lecture_title": "병역법 제76조, 병역의무 불이행자에 대한 제재",
+      "main_article": "병역법 제76조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|76",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0076&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-122-D02-editorial-v1",
+      "lecture_id": "MS-122",
+      "lesson_number": 122,
+      "diagram_number": 2,
+      "title": "병역의무 불이행자 제재",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|76"
+      ],
+      "part": 2,
+      "parts": 2,
+      "content_index": 193,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-122/diagrams/MS-122-D02-editorial-v1.svg",
+          "bytes": 3553,
+          "sha256": "0b68f95e1fc265b9b7349ce353c5d67f0f279162e96792fd5c99b729a3d20dfb"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-122/diagrams/MS-122-D02-editorial-v1.webp",
+          "bytes": 28536,
+          "sha256": "d7322902527fc9cefb1ca95972548cf540489379238d5196717dd2595bd5a0b5"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-122",
+        "title": "병역의무 불이행자 제재",
+        "subtitle": "검사·징집·소집 기피 및 복무이탈",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|76"
+        ],
+        "sections": [
+          {
+            "heading": "채용·재직",
+            "items": [
+              {
+                "label": "재직 중",
+                "text": "국가기관·지자체의 장 또는 고용주는 해직하여야 함",
+                "ref": "법 제76조제1항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "국외여행허가 위반자는 40세까지 준용하되 귀국하여 병역의무를 마친 경우 제외"
+      },
+      "lecture_title": "병역법 제76조, 병역의무 불이행자에 대한 제재",
+      "main_article": "병역법 제76조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|76",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0076&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-122-D03-editorial-v1",
+      "lecture_id": "MS-122",
+      "lesson_number": 122,
+      "diagram_number": 3,
+      "title": "채용·관허업 전 병적 확인",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|시행령|154"
+      ],
+      "part": 1,
+      "parts": 2,
+      "content_index": 194,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-122/diagrams/MS-122-D03-editorial-v1.svg",
+          "bytes": 5760,
+          "sha256": "3ff9db556d690c38ea8f8e5789ea9d9a8b1170f6648ab6d91e2118928f8e1099"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-122/diagrams/MS-122-D03-editorial-v1.webp",
+          "bytes": 44234,
+          "sha256": "a5cf621636c37db24e423850a3486049733d7741f16e84995ac113db45f605ce"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-122",
+        "title": "채용·관허업 전 병적 확인",
+        "subtitle": "행정정보 공동이용과 대체 확인 방법",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|시행령|154"
+        ],
+        "sections": [
+          {
+            "heading": "먼저 확인",
+            "items": [
+              {
+                "label": "기관장·고용주",
+                "text": "병역기피 또는 군복무·사회복무·대체복무 등의 복무이탈 사실 여부 확인",
+                "ref": "영 제154조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "공동이용",
+            "items": [
+              {
+                "label": "확인 가능한 경우",
+                "text": "행정정보 공동이용으로 병적증명서 확인",
+                "ref": "영 제154조제1항제1호"
+              }
+            ]
+          },
+          {
+            "heading": "조회·서류 제출",
+            "items": [
+              {
+                "label": "불가·부동의",
+                "text": "지방병무청장에게 병적조회 또는 병역증·전역증·병적증명서 제출로 확인",
+                "ref": "영 제154조제1항제2호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제76조, 병역의무 불이행자에 대한 제재",
+      "main_article": "병역법 제76조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|154",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0154&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-122-D04-editorial-v1",
+      "lecture_id": "MS-122",
+      "lesson_number": 122,
+      "diagram_number": 4,
+      "title": "채용·관허업 전 병적 확인",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|시행령|154"
+      ],
+      "part": 2,
+      "parts": 2,
+      "content_index": 194,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-122/diagrams/MS-122-D04-editorial-v1.svg",
+          "bytes": 3428,
+          "sha256": "ccf51529033c314014c9e18d36fe47d08a3557729aae2a38fecd65a33d79d7e2"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-122/diagrams/MS-122-D04-editorial-v1.webp",
+          "bytes": 25526,
+          "sha256": "4d89de54f61684b7cf97e0307b8822e00ff35c0ed409fa783640a020f93658dc"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-122",
+        "title": "채용·관허업 전 병적 확인",
+        "subtitle": "행정정보 공동이용과 대체 확인 방법",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|시행령|154"
+        ],
+        "sections": [
+          {
+            "heading": "별도 보관",
+            "items": [
+              {
+                "label": "조회·서류 방식",
+                "text": "이 방법으로 확인한 경우 소속 공무원·임직원의 병역관계 서류 별도 관리",
+                "ref": "영 제154조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제76조, 병역의무 불이행자에 대한 제재",
+      "main_article": "병역법 제76조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|154",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0154&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

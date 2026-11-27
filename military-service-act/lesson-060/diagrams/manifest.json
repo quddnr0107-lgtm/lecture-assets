@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-060",
+  "lecture_title": "병역법 제33조의11, 예술ㆍ체육요원의 복무기본교육 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-060-D01-editorial-v1",
+      "lecture_id": "MS-060",
+      "lesson_number": 60,
+      "diagram_number": 1,
+      "title": "예술·체육요원 교육의 주체",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|33의11",
+        "병역법|시행령|68의20"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 111,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-060/diagrams/MS-060-D01-editorial-v1.svg",
+          "bytes": 6937,
+          "sha256": "ec6f92748a5452d2de74de27242d095bf5d88f606e1f10bdd89b712e3f213eed"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-060/diagrams/MS-060-D01-editorial-v1.webp",
+          "bytes": 56790,
+          "sha256": "d9aeed15755a42e9d65e627e49d358306f052d3109ef91859d90a14675b4c2ec"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-060",
+        "title": "예술·체육요원 교육의 주체",
+        "subtitle": "복무기본교육과 직무교육의 담당을 구분",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|33의11",
+          "병역법|시행령|68의20"
+        ],
+        "sections": [
+          {
+            "heading": "교육 담당",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "복무기본교육을 실시하여야 한다.",
+                "ref": "법 제33조의11제1항"
+              },
+              {
+                "label": "문체부장관",
+                "text": "해당 분야 복무·공익복무에 필요한 직무교육을 실시하여야 한다.",
+                "ref": "법 제33조의11제2항"
+              }
+            ]
+          },
+          {
+            "heading": "실시 기준",
+            "items": [
+              {
+                "label": "각각 1회 이상",
+                "text": "복무기본교육과 직무교육을 각각 1회 이상 실시한다.",
+                "ref": "영 제68조의20제1항"
+              },
+              {
+                "label": "최초 3개월 이내",
+                "text": "편입일부터 3개월 이내 최초 교육. 적법하게 연기된 경우에는 별도 정한 기간을 적용한다.",
+                "ref": "영 제68조의20제2항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "교육 통지서는 교육일 14일 전까지 보내고, 공익복무 기관장은 복무관리 담당직원을 지정한다."
+      },
+      "lecture_title": "병역법 제33조의11, 예술ㆍ체육요원의 복무기본교육 등",
+      "main_article": "병역법 제33조의11",
+      "source_articles": [
+        {
+          "key": "병역법|본법|33의11",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=11&joNo=0033&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|68의20",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=20&joNo=0068&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

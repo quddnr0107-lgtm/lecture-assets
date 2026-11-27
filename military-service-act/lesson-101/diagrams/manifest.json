@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-101",
+  "lecture_title": "병역법 제64조, 병역준비역의 병역면제 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-101-D01-editorial-v1",
+      "lecture_id": "MS-101",
+      "lesson_number": 101,
+      "diagram_number": 1,
+      "title": "병역준비역의 검사 없는 처분",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|64"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 161,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-101/diagrams/MS-101-D01-editorial-v1.svg",
+          "bytes": 7158,
+          "sha256": "69d815de10750e613e5329794cf6ad02ee14ae60ee1954dbbe08320e810afced"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-101/diagrams/MS-101-D01-editorial-v1.webp",
+          "bytes": 55660,
+          "sha256": "79dca49f1ee5cd7fec08d35d01be9216552c7320c4f92d76b3d4dc5a53e0530b"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-101",
+        "title": "병역준비역의 검사 없는 처분",
+        "subtitle": "원할 경우 지방병무청장이 할 수 있는 처분",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|64"
+        ],
+        "sections": [
+          {
+            "heading": "병역면제 가능",
+            "items": [
+              {
+                "label": "감당 불가·6급",
+                "text": "전신기형·질병·심신장애 등으로 병역을 감당할 수 없고 신체등급 6급에 해당하는 사람.",
+                "ref": "법 제64조제1항제1호"
+              },
+              {
+                "label": "이북지역 이주자",
+                "text": "군사분계선 이북지역에서 이주하여 온 사람.",
+                "ref": "법 제64조제1항제2호"
+              }
+            ]
+          },
+          {
+            "heading": "전시근로역 편입 가능",
+            "items": [
+              {
+                "label": "감당 불가·5급",
+                "text": "제1항제1호에 해당하면서 신체등급 5급에 해당하는 사람.",
+                "ref": "법 제64조제1항"
+              },
+              {
+                "label": "수형 등 법정 사유",
+                "text": "제65조제1항제2호 및 제3호의 사유에 해당하는 사람.",
+                "ref": "법 제64조제1항제3호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "제1호 처분 후 19세 이전 장애상태가 변해 법정 사유가 생기면 처분취소·병역판정검사 가능."
+      },
+      "lecture_title": "병역법 제64조, 병역준비역의 병역면제 등",
+      "main_article": "병역법 제64조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|64",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0064&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

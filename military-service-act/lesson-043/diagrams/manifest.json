@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-043",
+  "lecture_title": "병역법 제29조, 사회복무요원의 소집 등",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-043-D01-editorial-v1",
+      "lecture_id": "MS-043",
+      "lesson_number": 43,
+      "diagram_number": 1,
+      "title": "사회복무요원의 소집과 교육",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|29"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 77,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-043/diagrams/MS-043-D01-editorial-v1.svg",
+          "bytes": 7638,
+          "sha256": "2c6ffbb6dee69decdf2905f9d10e589baa213bdd88239a90779e0e15f38756ca"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-043/diagrams/MS-043-D01-editorial-v1.webp",
+          "bytes": 60018,
+          "sha256": "e62ccefb8da3ce955bb9f5993136efa92d7eb643de501adf82a268f1e7be08c2"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-043",
+        "title": "사회복무요원의 소집과 교육",
+        "subtitle": "복무기관을 정하여 소집하고 군사교육기간을 산입",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|29"
+        ],
+        "sections": [
+          {
+            "heading": "소집",
+            "items": [
+              {
+                "label": "원칙",
+                "text": "지방병무청장이 소집순서가 결정된 사람의 복무기관을 정하여 소집",
+                "ref": "법 제29조제1항"
+              },
+              {
+                "label": "사회복지시설 선발자",
+                "text": "법 제26조제4항 선발자는 복무기관과 복무분야를 정하여 따로 소집 가능",
+                "ref": "법 제29조제1항"
+              },
+              {
+                "label": "법정 별도 소집",
+                "text": "병무청장은 연기사유 소멸자 등 대통령령상 대상자를 지방병무청장이 따로 소집하게 할 수 있음",
+                "ref": "법 제29조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "군사교육소집",
+            "items": [
+              {
+                "label": "교육 실시",
+                "text": "소집된 사람에게 법 제55조에 따른 군사교육소집 실시",
+                "ref": "법 제29조제3항"
+              },
+              {
+                "label": "기간 산입",
+                "text": "군사교육소집 기간은 사회복무요원 복무기간에 산입",
+                "ref": "법 제29조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제29조, 사회복무요원의 소집 등",
+      "main_article": "병역법 제29조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|29",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0029&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-043-D02-editorial-v1",
+      "lecture_id": "MS-043",
+      "lesson_number": 43,
+      "diagram_number": 2,
+      "title": "형 선고 관련 정보의 제공",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|본법|29"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 78,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-043/diagrams/MS-043-D02-editorial-v1.svg",
+          "bytes": 8278,
+          "sha256": "84754f899307a7683746033e6e19379dd8d08675ec954f083bb556d5a1e8fa34"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-043/diagrams/MS-043-D02-editorial-v1.webp",
+          "bytes": 74434,
+          "sha256": "c354df1973d91bc15d0d110820b0a61a91733d612ae71901b12d83b954966623"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-043",
+        "title": "형 선고 관련 정보의 제공",
+        "subtitle": "지방병무청장이 임무 부여를 위해 복무기관장에게 제공 가능",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|본법|29"
+        ],
+        "sections": [
+          {
+            "heading": "법정 범죄의 형 선고",
+            "items": [
+              {
+                "label": "아동·청소년 관련",
+                "text": "아동·청소년성보호법 제2조제2호·제3호·제3호의2의 범죄",
+                "ref": "법 제29조제4항제1호"
+              },
+              {
+                "label": "개인정보 관련",
+                "text": "개인정보 보호법 제70조부터 제73조까지의 범죄",
+                "ref": "법 제29조제4항제2호"
+              },
+              {
+                "label": "특정강력범죄",
+                "text": "특정강력범죄의 처벌에 관한 특례법 제2조의 범죄",
+                "ref": "법 제29조제4항제3호"
+              }
+            ]
+          },
+          {
+            "heading": "추가 대상·제공 기준",
+            "items": [
+              {
+                "label": "상해·폭행·협박",
+                "text": "형법 제257조·제258조·제258조의2·제259~265조 및 제283~286조의 죄",
+                "ref": "법 제29조제4항제4호"
+              },
+              {
+                "label": "마약류 관련",
+                "text": "마약류관리법 제58조·제58조의2·제59~64조·제65조의2의 범죄",
+                "ref": "법 제29조제4항제5호"
+              },
+              {
+                "label": "절차·정보 범위",
+                "text": "정보 제공 절차 및 제공되는 정보의 범위는 병무청장이 정함",
+                "ref": "법 제29조제4항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제29조, 사회복무요원의 소집 등",
+      "main_article": "병역법 제29조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|29",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0029&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

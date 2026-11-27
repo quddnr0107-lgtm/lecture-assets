@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-110",
+  "lecture_title": "병역법 제71조, 입영의무 등의 감면",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-110-D01-editorial-v1",
+      "lecture_id": "MS-110",
+      "lesson_number": 110,
+      "diagram_number": 1,
+      "title": "입영·소집 의무면제의 연령",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|71"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 175,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-110/diagrams/MS-110-D01-editorial-v1.svg",
+          "bytes": 7877,
+          "sha256": "e0fbbe67e8b84377b59bf097519eb03898c8d476f092d2c6d7ea35553f87d248"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-110/diagrams/MS-110-D01-editorial-v1.webp",
+          "bytes": 67104,
+          "sha256": "b41be07cba63ff62034fd6f277f3a5790bff067c7c3cc2a5af7dde91f5e3799c"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-110",
+        "title": "입영·소집 의무면제의 연령",
+        "subtitle": "원칙 36세, 법정 예외 38세",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|71"
+        ],
+        "sections": [
+          {
+            "heading": "36세부터 면제",
+            "items": [
+              {
+                "label": "해당 의무",
+                "text": "병역판정·재병역판정·확인신체검사, 현역병입영, 사회복무·대체복무 소집 의무.",
+                "ref": "법 제71조제1항"
+              },
+              {
+                "label": "전시근로역 편입",
+                "text": "의무가 면제되면 전시근로역 편입. 대체복무요원 소집 의무 면제자는 제외한다.",
+                "ref": "법 제71조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "38세부터 면제",
+            "items": [
+              {
+                "label": "제1항 단서 대상",
+                "text": "기피·행방불명, 법정 편입취소·후보생 제적, 국외체재 연기 등 열거 사유에 해당하는 사람.",
+                "ref": "법 제71조제1항제1~12호"
+              },
+              {
+                "label": "36세 이상 현역 대상",
+                "text": "제1항 단서로 현역병 입영을 해야 할 사람 중 36세 이상은 사회복무요원으로 복무하게 할 수 있다.",
+                "ref": "법 제71조제2항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "예술·체육요원이 제33조의10제4항제1·2호로 편입취소된 경우에는 제71조제1항을 적용하지 않는다."
+      },
+      "lecture_title": "병역법 제71조, 입영의무 등의 감면",
+      "main_article": "병역법 제71조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|71",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0071&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

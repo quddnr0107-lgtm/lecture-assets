@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-069",
+  "lecture_title": "병역법 제35조의2, 공익법무관의 신상변동 통보 및 처리",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-069-D01-editorial-v1",
+      "lecture_id": "MS-069",
+      "lesson_number": 69,
+      "diagram_number": 1,
+      "title": "공익법무관의 신상변동",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|35의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 121,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-069/diagrams/MS-069-D01-editorial-v1.svg",
+          "bytes": 7181,
+          "sha256": "496008145970e8b029a7d47bdfbb1eecd839f9ae47dfc81d5e4e5801b5c35fbb"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-069/diagrams/MS-069-D01-editorial-v1.webp",
+          "bytes": 61634,
+          "sha256": "edef7d05a7bf01a8e55c753209c8caba377e2d985b7faa3bb2e38e4f1b037897"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-069",
+        "title": "공익법무관의 신상변동",
+        "subtitle": "법무부장관의 통보와 병무청장의 처리",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|35의2"
+        ],
+        "sections": [
+          {
+            "heading": "14일 이내 통보",
+            "items": [
+              {
+                "label": "법무부장관",
+                "text": "법정 신상변동이 생기면 병무청장에게 통보하여야 한다.",
+                "ref": "법 제35조의2제1항"
+              },
+              {
+                "label": "취소 대상",
+                "text": "정당한 사유 없는 직무교육 불참, 미임명, 법정 사유의 신분 박탈 또는 상실, 법정 범위의 공무원 결격사유.",
+                "ref": "법 제35조의2제1·2항"
+              }
+            ]
+          },
+          {
+            "heading": "취소와 연장",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "제1항제1~3호·제5호 해당 시 편입을 취소한다.",
+                "ref": "법 제35조의2제2항"
+              },
+              {
+                "label": "통틀어 7일 이내",
+                "text": "정당한 사유 없는 직장 이탈·미복무는 해당 일수의 5배 연장근무한다.",
+                "ref": "법 제35조의2제2항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "편입취소 후 종전 신분으로 복귀하여 남은 기간을 현역병 또는 사회복무요원으로 복무한다."
+      },
+      "lecture_title": "병역법 제35조의2, 공익법무관의 신상변동 통보 및 처리",
+      "main_article": "병역법 제35조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|35의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0035&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-107",
+  "lecture_title": "병역법 제69조, 거주지이동 신고 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-107-D01-editorial-v1",
+      "lecture_id": "MS-107",
+      "lesson_number": 107,
+      "diagram_number": 1,
+      "title": "거주지이동 신고와 자료 통보",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|69"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 170,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-107/diagrams/MS-107-D01-editorial-v1.svg",
+          "bytes": 6948,
+          "sha256": "ccb88d206af457de85bd0227f52961c5bab18ce93ee6dd2fb54dfbb9c6afe3a6"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-107/diagrams/MS-107-D01-editorial-v1.webp",
+          "bytes": 54922,
+          "sha256": "de0058bc1e90b3b0480b5a3b2892ff10ae288957bc6c9731b61d2e7556e063c0"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-107",
+        "title": "거주지이동 신고와 자료 통보",
+        "subtitle": "의무자의 신고와 행정기관 사이의 통보",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|69"
+        ],
+        "sections": [
+          {
+            "heading": "병역의무자",
+            "items": [
+              {
+                "label": "전입신고",
+                "text": "거주지를 이동하면 14일 이내 주민등록법에 따라 전입신고를 하여야 한다.",
+                "ref": "법 제69조제1항"
+              },
+              {
+                "label": "현역·대체복무 제외",
+                "text": "이 조의 병역의무자에서는 현역 및 대체복무요원을 제외한다.",
+                "ref": "법 제69조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "행정안전부장관",
+            "items": [
+              {
+                "label": "병무청장에게",
+                "text": "병역의무자의 관리를 위해 거주지이동 등 신상변동사항을 병무청장에게 통보한다.",
+                "ref": "법 제69조제2항"
+              },
+              {
+                "label": "통보 절차",
+                "text": "자료 통보에 필요한 절차 등은 대통령령으로 정한다.",
+                "ref": "법 제69조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제69조, 거주지이동 신고 등",
+      "main_article": "병역법 제69조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|69",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0069&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

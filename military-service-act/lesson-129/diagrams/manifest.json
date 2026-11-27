@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-129",
+  "lecture_title": "병역법 제78조, 병무행정사무의 위임",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-129-D01-editorial-v1",
+      "lecture_id": "MS-129",
+      "lesson_number": 129,
+      "diagram_number": 1,
+      "title": "병무행정 권한의 위임",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|78"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 205,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-129/diagrams/MS-129-D01-editorial-v1.svg",
+          "bytes": 6763,
+          "sha256": "59f5ccb2fed4e4bda24bff6760de4dbed0adc7ea1e819dbdf9b769b366be9a9d"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-129/diagrams/MS-129-D01-editorial-v1.webp",
+          "bytes": 47670,
+          "sha256": "6c25cff637192e87354a554a96d1cbe1fa9cb945dd70006291a92e06158d1007"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-129",
+        "title": "병무행정 권한의 위임",
+        "subtitle": "대통령령에 따라 권한을 위임할 수 있음",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|78"
+        ],
+        "sections": [
+          {
+            "heading": "국내 기관 위임",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "제78조제1항의 열거된 권한을 지방병무청장 또는 그 소속기관장에게 위임 가능",
+                "ref": "법 제78조제1항"
+              },
+              {
+                "label": "지방병무청장",
+                "text": "이 법에 따른 권한 일부를 소속기관장에게 위임 가능",
+                "ref": "법 제78조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "재외공관장 위임",
+            "items": [
+              {
+                "label": "병무청장의 권한",
+                "text": "제70조제3항에 따른 권한 일부를 재외공관장에게 위임 가능",
+                "ref": "법 제78조제3항"
+              },
+              {
+                "label": "지방병무청장의 권한",
+                "text": "제60조제1항제2호에 따른 권한 일부를 재외공관장에게 위임 가능",
+                "ref": "법 제78조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제78조, 병무행정사무의 위임",
+      "main_article": "병역법 제78조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|78",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0078&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-129-D02-editorial-v1",
+      "lecture_id": "MS-129",
+      "lesson_number": 129,
+      "diagram_number": 2,
+      "title": "현역병 선발과 재외공관 위임",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|시행령|156"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 206,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-129/diagrams/MS-129-D02-editorial-v1.svg",
+          "bytes": 6767,
+          "sha256": "24c73545e213c73e9186d9074876a916bbdb63c6446c5c5bce41af913ccaee96"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-129/diagrams/MS-129-D02-editorial-v1.webp",
+          "bytes": 54400,
+          "sha256": "cc6305bf56417fb61ae3eb89694dba9500b3aea4248ab87a1e7aa27c4fd0ce57"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-129",
+        "title": "현역병 선발과 재외공관 위임",
+        "subtitle": "위임되는 업무의 범위에 주의",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|시행령|156"
+        ],
+        "sections": [
+          {
+            "heading": "지방병무청장·지청장",
+            "items": [
+              {
+                "label": "선발 전형",
+                "text": "신체·체력검사, 면접·실기·필기·서류심사 등. 선발 결정권은 제외",
+                "ref": "영 제156조제1항제1호"
+              },
+              {
+                "label": "그 밖의 위임",
+                "text": "선발취소 허가, 국외여행허가, 과태료 부과·징수 등",
+                "ref": "영 제156조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "재외공관장",
+            "items": [
+              {
+                "label": "국외 자원 관리",
+                "text": "병역의무자 조사·관리, 연장허가 신청 접수·송부·결과 통보, 귀국조치 등",
+                "ref": "영 제156조제3항"
+              },
+              {
+                "label": "병무 담당직원",
+                "text": "소속 공무원 중 지정. 지정하거나 교체하면 병무청장에게 통보",
+                "ref": "영 제156조제4항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제78조, 병무행정사무의 위임",
+      "main_article": "병역법 제78조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|156",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0156&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

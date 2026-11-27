@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-118",
+  "lecture_title": "병역법 제74조의6, 불이익처우의 시정",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-118-D01-editorial-v1",
+      "lecture_id": "MS-118",
+      "lesson_number": 118,
+      "diagram_number": 1,
+      "title": "불리한 처우의 시정 창구",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|74의6"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 185,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-118/diagrams/MS-118-D01-editorial-v1.svg",
+          "bytes": 5806,
+          "sha256": "7f1aa1219ba5a4b28222120ca8f775932487125fb6c16c2d6fba974326693653"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-118/diagrams/MS-118-D01-editorial-v1.webp",
+          "bytes": 36410,
+          "sha256": "5880c7d6ad3fcc0424db0338106ee9a44155aa21eddec83dd0a23b9af48caae7"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-118",
+        "title": "불리한 처우의 시정 창구",
+        "subtitle": "학업·직장 보장 위반의 신고와 처리",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|74의6"
+        ],
+        "sections": [
+          {
+            "heading": "시정할 사항",
+            "items": [
+              {
+                "label": "학업 보장",
+                "text": "제74조의3에 따른 불리한 처우",
+                "ref": "법 제74조의6"
+              },
+              {
+                "label": "직장 보장",
+                "text": "제74조의4에 따른 불리한 처우",
+                "ref": "법 제74조의6"
+              }
+            ]
+          },
+          {
+            "heading": "준용과 담당",
+            "items": [
+              {
+                "label": "준용 조문",
+                "text": "예비군법 제10조의4를 준용",
+                "ref": "법 제74조의6"
+              },
+              {
+                "label": "신고·처리",
+                "text": "예비군법 제10조의5에 따른 예비군권익보장센터가 할 수 있음",
+                "ref": "법 제74조의6"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제74조의6, 불이익처우의 시정",
+      "main_article": "병역법 제74조의6",
+      "source_articles": [
+        {
+          "key": "병역법|본법|74의6",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=06&joNo=0074&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

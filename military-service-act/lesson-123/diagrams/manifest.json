@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-123",
+  "lecture_title": "병역법 제77조, 병무행정의 주관",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-123-D01-editorial-v1",
+      "lecture_id": "MS-123",
+      "lesson_number": 123,
+      "diagram_number": 1,
+      "title": "병무행정 주관과 처분 통제",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|본법|77",
+        "병역법|시행규칙|114"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 195,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-123/diagrams/MS-123-D01-editorial-v1.svg",
+          "bytes": 6341,
+          "sha256": "14ca5481a798595cc5c1ef9229085df6eeaddb513b50f2b972792383889b74ba"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-123/diagrams/MS-123-D01-editorial-v1.webp",
+          "bytes": 46582,
+          "sha256": "efe7a70f0c0e5ca38bbb603ac18cc3006f70e0949448da1d369df3ff61aab08d"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-123",
+        "title": "병무행정 주관과 처분 통제",
+        "subtitle": "병무청장의 관장·중지·취소 권한",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|본법|77",
+          "병역법|시행규칙|114"
+        ],
+        "sections": [
+          {
+            "heading": "주관",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "징집·소집과 그 밖의 병무행정을 관장",
+                "ref": "법 제77조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "명령·처분 통제",
+            "items": [
+              {
+                "label": "위법·부당 인정",
+                "text": "지방병무청장의 명령이나 처분을 중지 또는 취소할 수 있음",
+                "ref": "법 제77조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "지체 없이 통보",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "중지·취소 사실을 지방병무청장에게 통보",
+                "ref": "규칙 제114조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "지체 없이 통지",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "통보받은 사실을 해당 병역의무자에게 통지",
+                "ref": "규칙 제114조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제77조, 병무행정의 주관",
+      "main_article": "병역법 제77조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|77",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0077&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행규칙|114",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0114&lsiSeq=291527&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-29",
+          "promulgation": "국방부령 제1235호"
+        }
+      ]
+    }
+  ]
+}

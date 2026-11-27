@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-033",
+  "lecture_title": "병역법 제23조, 상근예비역의 복무",
+  "diagram_count": 3,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-033-D01-editorial-v1",
+      "lecture_id": "MS-033",
+      "lesson_number": 33,
+      "diagram_number": 1,
+      "title": "상근예비역의 복무기간",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|23",
+        "병역법|시행령|37"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 58,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-033/diagrams/MS-033-D01-editorial-v1.svg",
+          "bytes": 7999,
+          "sha256": "b9d2e543c98f88131aadf365420e0444e925016ff9ea838c3b875161b8b979ff"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-033/diagrams/MS-033-D01-editorial-v1.webp",
+          "bytes": 62186,
+          "sha256": "f9f9530e292e4460436d70126d7185065e2d6e291797cf99d04e4e89dd52c155"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-033",
+        "title": "상근예비역의 복무기간",
+        "subtitle": "법률의 한도와 시행령의 기간을 구별",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|23",
+          "병역법|시행령|37"
+        ],
+        "sections": [
+          {
+            "heading": "복무기간의 기준",
+            "items": [
+              {
+                "label": "법률상 한도",
+                "text": "상근예비역 복무기간은 2년 6개월 이내",
+                "ref": "법 제23조제1항"
+              },
+              {
+                "label": "시행령상 기간",
+                "text": "복무기간은 2년",
+                "ref": "시행령 제37조제2항"
+              },
+              {
+                "label": "6개월 범위 단축",
+                "text": "현역병 기간 단축 등으로 국방부장관이 필요하다고 인정하면 단축 가능",
+                "ref": "시행령 제37조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "계산과 완료 효과",
+            "items": [
+              {
+                "label": "현역기간 산입",
+                "text": "법 제21조제1항의 현역기간 및 제65조제3항 예비역 편입 전 현역병·전환복무 기간 산입",
+                "ref": "법 제23조제1항"
+              },
+              {
+                "label": "산입 제외",
+                "text": "형의 집행일수·군기교육처분일수·복무이탈일수는 산입하지 않음",
+                "ref": "법 제23조제6항"
+              },
+              {
+                "label": "복무 완료",
+                "text": "징집에 의하여 입영한 현역병의 복무기간을 마친 것으로 봄",
+                "ref": "법 제23조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제23조, 상근예비역의 복무",
+      "main_article": "병역법 제23조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|23",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0023&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|37",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0037&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-033-D02-editorial-v1",
+      "lecture_id": "MS-033",
+      "lesson_number": 33,
+      "diagram_number": 2,
+      "title": "상근예비역의 파견과 거주",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|23",
+        "병역법|시행령|38",
+        "병역법|시행령|39"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 59,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-033/diagrams/MS-033-D02-editorial-v1.svg",
+          "bytes": 7647,
+          "sha256": "aae9df372214caee56fd9167fc56882a57325335b84dadf95a6e3af5e5265b79"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-033/diagrams/MS-033-D02-editorial-v1.webp",
+          "bytes": 56894,
+          "sha256": "890e14d5742046f08bb6ecb4718e8431643d17d344a428c0f757cf33ea9ea135"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-033",
+        "title": "상근예비역의 파견과 거주",
+        "subtitle": "지역방위업무 수행부대 또는 지원기관에서 근무",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|23",
+          "병역법|시행령|38",
+          "병역법|시행령|39"
+        ],
+        "sections": [
+          {
+            "heading": "파견·지휘",
+            "items": [
+              {
+                "label": "파견 주체",
+                "text": "각 군 참모총장이 지역방위업무 수행부대 또는 지원기관에 파견하여 근무하게 함",
+                "ref": "법 제23조제4항"
+              },
+              {
+                "label": "군부대 외 기관",
+                "text": "각 군 참모총장이 군부대 외 기관에 파견하려면 국방부장관 승인 필요",
+                "ref": "시행령 제38조"
+              },
+              {
+                "label": "지휘·감독",
+                "text": "군부대 외 파견 시 복무형태에 따라 소속부대장이나 해당 기관의 장이 담당",
+                "ref": "시행령 제39조"
+              }
+            ]
+          },
+          {
+            "heading": "거주·급식 등",
+            "items": [
+              {
+                "label": "군부대 밖 거주",
+                "text": "국방부장관은 군부대 밖에서 거주하게 할 수 있음",
+                "ref": "법 제23조제5항"
+              },
+              {
+                "label": "급식·실비",
+                "text": "국방부장관은 예산의 범위에서 급식 또는 실비 지급 등을 할 수 있음",
+                "ref": "법 제23조제5항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제23조, 상근예비역의 복무",
+      "main_article": "병역법 제23조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|23",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0023&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|38",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0038&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        },
+        {
+          "key": "병역법|시행령|39",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0039&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-033-D03-editorial-v1",
+      "lecture_id": "MS-033",
+      "lesson_number": 33,
+      "diagram_number": 3,
+      "title": "상근예비역의 소집해제",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|시행령|40",
+        "병역법|시행규칙|34"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 60,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-033/diagrams/MS-033-D03-editorial-v1.svg",
+          "bytes": 8656,
+          "sha256": "d5181dd85f407ea823bcdb8cddd04648f0954fc24a3e379bec625ad6ba496d25"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-033/diagrams/MS-033-D03-editorial-v1.webp",
+          "bytes": 68680,
+          "sha256": "ddaf1528c1603875e481a14c16d989a0cc742d5836a78a5862ed82cd0d0a9ca5"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-033",
+        "title": "상근예비역의 소집해제",
+        "subtitle": "각 군 참모총장의 해제 사유와 처리기한",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|시행령|40",
+          "병역법|시행규칙|34"
+        ],
+        "sections": [
+          {
+            "heading": "소집해제 사유",
+            "items": [
+              {
+                "label": "복무기간 만료",
+                "text": "시행령 제37조제2항의 복무기간이 만료된 경우",
+                "ref": "시행령 제40조제1항제1호"
+              },
+              {
+                "label": "현역병으로 전역",
+                "text": "법 제83조제1항제2호에 따라 현역병으로 전역된 경우",
+                "ref": "시행령 제40조제1항제2호"
+              },
+              {
+                "label": "정원조정 등",
+                "text": "국방부장관이 소집 불필요를 인정하여 지역·대상 범위를 정해 해제를 명한 경우",
+                "ref": "시행령 제40조제1항제3호"
+              }
+            ]
+          },
+          {
+            "heading": "해제 처리",
+            "items": [
+              {
+                "label": "만료일 10일 전",
+                "text": "복무기간 만료일 10일 전까지 복무 부대·기관장에게 해제명령서 송부",
+                "ref": "시행규칙 제34조제1항"
+              },
+              {
+                "label": "해제명령 취소",
+                "text": "명령받은 사람이 만료 전 범죄로 구속되거나 복무이탈하면 해제명령 취소",
+                "ref": "시행규칙 제34조제1항"
+              },
+              {
+                "label": "복무 완료 간주",
+                "text": "정원조정 등 제3호로 소집해제된 사람은 상근예비역 복무를 마친 것으로 봄",
+                "ref": "시행령 제40조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제23조, 상근예비역의 복무",
+      "main_article": "병역법 제23조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|40",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0040&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        },
+        {
+          "key": "병역법|시행규칙|34",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0034&lsiSeq=291527&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-29",
+          "promulgation": "국방부령 제1235호"
+        }
+      ]
+    }
+  ]
+}

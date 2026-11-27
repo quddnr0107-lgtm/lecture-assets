@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-029",
+  "lecture_title": "병역법 제20조의4, 학교생활기록부의 제출요구 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-029-D01-editorial-v1",
+      "lecture_id": "MS-029",
+      "lesson_number": 29,
+      "diagram_number": 1,
+      "title": "지원자의 학교생활기록부",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|20의4"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 51,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-029/diagrams/MS-029-D01-editorial-v1.svg",
+          "bytes": 7040,
+          "sha256": "80c364f687633726a8edee923e2fbb66509f6f4458fcc21ec8263f00d4d2f0a9"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-029/diagrams/MS-029-D01-editorial-v1.webp",
+          "bytes": 57618,
+          "sha256": "7b27790188ccdafc5798ad94c78094ddf64e2724098eb8ad482dcf07df7c6e79"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-029",
+        "title": "지원자의 학교생활기록부",
+        "subtitle": "지원자 동의를 받아 정보시스템으로 제출 요구",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|20의4"
+        ],
+        "sections": [
+          {
+            "heading": "병무청장의 요구",
+            "items": [
+              {
+                "label": "목적·대상",
+                "text": "현역병·임기제부사관 복무 지원자의 전형·선발을 위한 최종학교 학교생활기록부",
+                "ref": "법 제20조의4제1항"
+              },
+              {
+                "label": "동의와 제출 경로",
+                "text": "지원자 동의를 받아 학교의 장에게 정보시스템을 통한 제출 요구 가능",
+                "ref": "법 제20조의4제1항"
+              }
+            ]
+          },
+          {
+            "heading": "제출 의무·자료 보호",
+            "items": [
+              {
+                "label": "제출 의무",
+                "text": "요구받은 사람은 특별한 사유가 없으면 따라야 함",
+                "ref": "법 제20조의4제1항"
+              },
+              {
+                "label": "목적 외 사용 금지",
+                "text": "누구든지 공개·누설·제공하는 등 현역병 선발을 위한 전형 외 목적으로 사용 금지",
+                "ref": "법 제20조의4제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제20조의4, 학교생활기록부의 제출요구 등",
+      "main_article": "병역법 제20조의4",
+      "source_articles": [
+        {
+          "key": "병역법|본법|20의4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=04&joNo=0020&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

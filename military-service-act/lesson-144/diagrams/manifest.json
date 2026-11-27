@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-144",
+  "lecture_title": "병역법 제84조, 신상변동 통보 불이행 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-144-D01-editorial-v1",
+      "lecture_id": "MS-144",
+      "lesson_number": 144,
+      "diagram_number": 1,
+      "title": "신상변동 통보와 전입신고 위반",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|84"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 231,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-144/diagrams/MS-144-D01-editorial-v1.svg",
+          "bytes": 6442,
+          "sha256": "0e12b48c9b59f97fd62c425a8b2dc7ad9653d229b902283cab85b5b23b70cccb"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-144/diagrams/MS-144-D01-editorial-v1.webp",
+          "bytes": 48802,
+          "sha256": "5f27170c900246cb0e45d798ff81fbeaba9c153de5fd16a6677ee5caa344730f"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-144",
+        "title": "신상변동 통보와 전입신고 위반",
+        "subtitle": "정당한 사유 없는 불이행 또는 거짓 통보·신고",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|84"
+        ],
+        "sections": [
+          {
+            "heading": "기관·고용주의 통보",
+            "items": [
+              {
+                "label": "신상변동 통보",
+                "text": "고용주 또는 공공단체·사회복지시설장이 법정 신상변동 통보를 위반",
+                "ref": "법 제84조제1항"
+              },
+              {
+                "label": "법정형",
+                "text": "6개월 이하의 징역 또는 2천만원 이하의 벌금",
+                "ref": "법 제84조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "본인의 전입신고",
+            "items": [
+              {
+                "label": "전입신고",
+                "text": "제69조제1항 전입신고를 하지 않거나 거짓으로 신고",
+                "ref": "법 제84조제2항"
+              },
+              {
+                "label": "법정형",
+                "text": "200만원 이하의 벌금 또는 구류",
+                "ref": "법 제84조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제84조, 신상변동 통보 불이행 등",
+      "main_article": "병역법 제84조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|84",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0084&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

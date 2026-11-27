@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-156",
+  "lecture_title": "병역법 제90조의2, 예비군대체복무 소집된 사람의 복무의무 위반",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-156-D01-editorial-v1",
+      "lecture_id": "MS-156",
+      "lesson_number": 156,
+      "diagram_number": 1,
+      "title": "예비군대체복무의 복무의무 위반",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|본법|90의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 246,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-156/diagrams/MS-156-D01-editorial-v1.svg",
+          "bytes": 6727,
+          "sha256": "dbe07e2eb009ac7bc565f8ef2b80d69617905ff1b2625d6d24c45c9ab692dfdb"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-156/diagrams/MS-156-D01-editorial-v1.webp",
+          "bytes": 52052,
+          "sha256": "b7961c5234bd82ff63c87a8b67817ed3e5788a45d084fefaddf8a9a0775e5939"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-156",
+        "title": "예비군대체복무의 복무의무 위반",
+        "subtitle": "예비군대체복무로 소집된 사람에게 적용",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|본법|90의2"
+        ],
+        "sections": [
+          {
+            "heading": "이탈·업무 불이행",
+            "items": [
+              {
+                "label": "복무·근무장소 이탈",
+                "text": "정당한 사유 없는 복무이탈 또는 허가 없는 무단 근무장소 이탈",
+                "ref": "법 제90조의2제1호"
+              },
+              {
+                "label": "업무 불이행·지연",
+                "text": "정당한 사유 없이 맡은 대체업무를 수행하지 않거나 지연",
+                "ref": "법 제90조의2제4호"
+              }
+            ]
+          },
+          {
+            "heading": "방해·정치운동",
+            "items": [
+              {
+                "label": "근무 방해·태만 선동",
+                "text": "다른 사람의 근무를 방해하거나 근무태만 선동",
+                "ref": "법 제90조의2제2호"
+              },
+              {
+                "label": "정치운동",
+                "text": "복무 중 조직적인 정치운동에 관여",
+                "ref": "법 제90조의2제3호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "1년 이하의 징역, 1천만원 이하의 벌금, 구류 또는 과료"
+      },
+      "lecture_title": "병역법 제90조의2, 예비군대체복무 소집된 사람의 복무의무 위반",
+      "main_article": "병역법 제90조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|90의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0090&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

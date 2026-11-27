@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-083",
+  "lecture_title": "병역법 제47조, 병력동원소집 입영신체검사 및 귀가",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-083-D01-editorial-v1",
+      "lecture_id": "MS-083",
+      "lesson_number": 83,
+      "diagram_number": 1,
+      "title": "병력동원소집 검사와 귀가",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|47"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 139,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-083/diagrams/MS-083-D01-editorial-v1.svg",
+          "bytes": 6827,
+          "sha256": "69d81fe9b7e5cc01efcb1b368e505a7891fc9ccd2d70808d24fe386ab6c3ad64"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-083/diagrams/MS-083-D01-editorial-v1.webp",
+          "bytes": 54480,
+          "sha256": "ef20fe11941a93e5390619e7359f8beb26bbdd531faf736f56ca141f1e31cabc"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-083",
+        "title": "병력동원소집 검사와 귀가",
+        "subtitle": "입영부대장의 검사·귀가, 지방병무청장의 후속처리",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|47"
+        ],
+        "sections": [
+          {
+            "heading": "입영부대의 장",
+            "items": [
+              {
+                "label": "입영일부터 2일",
+                "text": "입영한 날부터 2일 이내에 신체검사를 하여야 한다.",
+                "ref": "법 제47조제1항"
+              },
+              {
+                "label": "귀가시킬 수 있음",
+                "text": "복무 부적합 또는 15일 이상 치유가 필요하면 신체등급 또는 치유기간을 명시하여 귀가시킬 수 있다.",
+                "ref": "법 제47조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "지방병무청장",
+            "items": [
+              {
+                "label": "신체등급 명시자",
+                "text": "복무를 감당할 수 없는 사람은 보충역·전시근로역 또는 병역면제 처분을 한다.",
+                "ref": "법 제47조제3항"
+              },
+              {
+                "label": "치유기간 명시자",
+                "text": "재소집하거나 재검사를 할 수 있다.",
+                "ref": "법 제47조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제47조, 병력동원소집 입영신체검사 및 귀가",
+      "main_article": "병역법 제47조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|47",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0047&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

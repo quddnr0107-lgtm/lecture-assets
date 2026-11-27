@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-071",
+  "lecture_title": "병역법 제36조, 병역지정업체의 선정 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-071-D01-editorial-v1",
+      "lecture_id": "MS-071",
+      "lesson_number": 71,
+      "diagram_number": 1,
+      "title": "병역지정업체와 인원의 결정",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|36"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 123,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-071/diagrams/MS-071-D01-editorial-v1.svg",
+          "bytes": 7619,
+          "sha256": "797b28579716fea3d80b72aeb5c160c3c5c617ca10311d5d2457f71323cb476a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-071/diagrams/MS-071-D01-editorial-v1.webp",
+          "bytes": 68364,
+          "sha256": "39ce167893613d5a0ae4d4b91642921bb52c868ca26eaa8cf36ee84ae10e929e"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-071",
+        "title": "병역지정업체와 인원의 결정",
+        "subtitle": "업체 선정과 개인 편입의 주체가 다르다",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|36"
+        ],
+        "sections": [
+          {
+            "heading": "병무청장",
+            "items": [
+              {
+                "label": "업체 선정",
+                "text": "연구기관·기간산업체·방위산업체 중 법정 기준에 따라 선정한다. 농업회사법인·사후관리업체 제외.",
+                "ref": "법 제36조제1항"
+              },
+              {
+                "label": "인원 결정",
+                "text": "군 충원에 지장 없는 범위에서 편입 인원과 업체별 배정인원을 결정한다.",
+                "ref": "법 제36조제4항"
+              }
+            ]
+          },
+          {
+            "heading": "관할 지방병무청장",
+            "items": [
+              {
+                "label": "개인 편입",
+                "text": "법정 대상자 중 원칙적으로 35세까지 의무복무를 마칠 수 있는 사람을 편입시킬 수 있다.",
+                "ref": "법 제36조제5항"
+              },
+              {
+                "label": "37세 예외",
+                "text": "법 제37조제1항제3호 대상자는 37세까지 의무복무를 마칠 수 있어야 한다.",
+                "ref": "법 제36조제5항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "산업기능요원 인원·업체별 배정은 합리적 이유 없이 학력·출신학교 등으로 차별할 수 없다."
+      },
+      "lecture_title": "병역법 제36조, 병역지정업체의 선정 등",
+      "main_article": "병역법 제36조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|36",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0036&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

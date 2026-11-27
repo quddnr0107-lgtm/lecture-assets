@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-027",
+  "lecture_title": "병역법 제20조의2, 임기제부사관제의 운영",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-027-D01-editorial-v1",
+      "lecture_id": "MS-027",
+      "lesson_number": 27,
+      "diagram_number": 1,
+      "title": "임기제부사관의 선발과 복무",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|20의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 49,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-027/diagrams/MS-027-D01-editorial-v1.svg",
+          "bytes": 8223,
+          "sha256": "0343ccb72ca06e79f13af758e4924672cf2f1203177ed9445a59ae6ae44012d7"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-027/diagrams/MS-027-D01-editorial-v1.webp",
+          "bytes": 61810,
+          "sha256": "758af5f3670b574f465b4c93d628b5011d04b8883f2263cd8dabcc9992556970"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-027",
+        "title": "임기제부사관의 선발과 복무",
+        "subtitle": "본인의 지원으로 현역병 복무를 마친 뒤 복무",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|20의2"
+        ],
+        "sections": [
+          {
+            "heading": "지원·선발",
+            "items": [
+              {
+                "label": "선발 주체",
+                "text": "병무청장이나 각 군 참모총장은 우수 숙련인력 확보에 필요하면 선발 가능",
+                "ref": "법 제20조의2제1항"
+              },
+              {
+                "label": "대상",
+                "text": "병역준비역 편입자 또는 현역병 복무 중인 사람",
+                "ref": "법 제20조의2제2항"
+              },
+              {
+                "label": "지원에 의한 선발",
+                "text": "본인의 지원에 의하여 선발",
+                "ref": "법 제20조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "임기·복무 중단",
+            "items": [
+              {
+                "label": "임기 4년 범위",
+                "text": "현역병 복무를 마친 후 4년의 범위에서 정한 기간을 임기로 부사관 복무",
+                "ref": "법 제20조의2제1항"
+              },
+              {
+                "label": "복무 중단",
+                "text": "각 군 참모총장이 질병·심신장애 등 법정 사유로 현역복무 부적합을 인정한 경우만 허가 가능",
+                "ref": "법 제20조의2제5항"
+              },
+              {
+                "label": "보수 지급",
+                "text": "대통령령으로 정하는 바에 따라 보수 지급",
+                "ref": "법 제20조의2제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제20조의2, 임기제부사관제의 운영",
+      "main_article": "병역법 제20조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|20의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0020&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

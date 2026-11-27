@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-087",
+  "lecture_title": "병역법 제51조, 병력동원훈련소집 입영신체검사 및 귀가",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-087-D01-editorial-v1",
+      "lecture_id": "MS-087",
+      "lesson_number": 87,
+      "diagram_number": 1,
+      "title": "동원훈련 입영검사와 귀가",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|본법|51"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 144,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-087/diagrams/MS-087-D01-editorial-v1.svg",
+          "bytes": 5728,
+          "sha256": "0f3be67738f0fd866ec95738dc4c6089dcf0fbc4b0a609b5c97aea71becfefa4"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-087/diagrams/MS-087-D01-editorial-v1.webp",
+          "bytes": 41064,
+          "sha256": "cb9589226fcd5eda380fd020a1bd51dcb15363d97f503cb281daffaf1a212915"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-087",
+        "title": "동원훈련 입영검사와 귀가",
+        "subtitle": "동원소집의 귀가 후 처리와 구분",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|본법|51"
+        ],
+        "sections": [
+          {
+            "heading": "입영 후 검사",
+            "items": [
+              {
+                "label": "입영부대의 장",
+                "text": "입영한 날부터 2일 이내 신체검사를 하여야 한다.",
+                "ref": "법 제51조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "귀가 판단",
+            "items": [
+              {
+                "label": "훈련 곤란",
+                "text": "질병 또는 심신장애로 병력동원훈련이 곤란하다고 인정되면 귀가시킬 수 있다.",
+                "ref": "법 제51조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "후속 처리",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "재소집하거나 그 해의 병력동원훈련소집을 면제할 수 있다.",
+                "ref": "법 제51조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제51조, 병력동원훈련소집 입영신체검사 및 귀가",
+      "main_article": "병역법 제51조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|51",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0051&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

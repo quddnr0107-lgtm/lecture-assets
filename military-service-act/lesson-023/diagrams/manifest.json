@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-023",
+  "lecture_title": "병역법 제16조, 현역병입영",
+  "diagram_count": 3,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-023-D01-editorial-v1",
+      "lecture_id": "MS-023",
+      "lesson_number": 23,
+      "diagram_number": 1,
+      "title": "현역병의 입영 시기와 지역",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|16"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 41,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-023/diagrams/MS-023-D01-editorial-v1.svg",
+          "bytes": 7811,
+          "sha256": "7ea75ad307c62bc40263931972efdd58e5817616637d6e9238e00db42031ae10"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-023/diagrams/MS-023-D01-editorial-v1.webp",
+          "bytes": 63626,
+          "sha256": "3bba67c3317f531edbf2b531d370fe331a3add2039946dd3cd5b165ddda4a89b"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-023",
+        "title": "현역병의 입영 시기와 지역",
+        "subtitle": "병무청장 또는 지방병무청장이 입영하게 함",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|16"
+        ],
+        "sections": [
+          {
+            "heading": "입영 시기",
+            "items": [
+              {
+                "label": "원칙",
+                "text": "징집순서가 정해지면 병역판정검사를 받은 해 또는 다음 해에 입영",
+                "ref": "법 제16조제1항"
+              },
+              {
+                "label": "자질의 균형",
+                "text": "군별·적성별로 입영할 사람 간 자질의 균형을 유지하여야 함",
+                "ref": "법 제16조제1항"
+              },
+              {
+                "label": "별도 입영",
+                "text": "입영연기 사유가 소멸되는 사람 등 대통령령이 정한 사람은 따로 입영시킬 수 있음",
+                "ref": "법 제16조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "거주지를 옮겼다면",
+            "items": [
+              {
+                "label": "원칙",
+                "text": "현역입영 처분 후 징집순서가 결정되면 다른 시·군·구로 이사해도 검사 당시 시·군·구에서 입영",
+                "ref": "법 제16조제3항"
+              },
+              {
+                "label": "예외",
+                "text": "법 제60조제2항에 따라 입영이 연기된 사람은 위 원칙의 예외",
+                "ref": "법 제16조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제16조, 현역병입영",
+      "main_article": "병역법 제16조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|16",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0016&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-023-D02-editorial-v1",
+      "lecture_id": "MS-023",
+      "lesson_number": 23,
+      "diagram_number": 2,
+      "title": "현역병 입영계획의 작성",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|시행령|19"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 42,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-023/diagrams/MS-023-D02-editorial-v1.svg",
+          "bytes": 6414,
+          "sha256": "1f1676b11e6ddf0451d825185edb26c49c62ba185473f4c86eb470d2ed14f2a1"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-023/diagrams/MS-023-D02-editorial-v1.webp",
+          "bytes": 56344,
+          "sha256": "ba0bf346ef67d5acfab5ad13c62f5787151c6f326894ea7c1b3dfdee750ee58a"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-023",
+        "title": "현역병 입영계획의 작성",
+        "subtitle": "각 군 → 병무청 → 지방병무청",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|시행령|19"
+        ],
+        "sections": [
+          {
+            "heading": "충원 계획서",
+            "items": [
+              {
+                "label": "각 군 참모총장",
+                "text": "다음 해 입영부대별·입영일별·적성별 인원을 매년 9월 30일까지 병무청장에게 송부",
+                "ref": "시행령 제19조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "입영 계획서",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "입영부대별·입영일별·적성별 인원을 배분하여 각 군 참모총장과 지방병무청장에게 송부",
+                "ref": "시행령 제19조제3항"
+              }
+            ]
+          },
+          {
+            "heading": "집행 계획서",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "시·군·구별 입영일·집결지를 정하여 병무청장에게 보고하고 입영부대의 장에게 송부",
+                "ref": "시행령 제19조제4항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "각 군이 이미 보낸 충원 계획을 변경하려면 입영일 60일 전까지 통보합니다."
+      },
+      "lecture_title": "병역법 제16조, 현역병입영",
+      "main_article": "병역법 제16조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|19",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0019&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-023-D03-editorial-v1",
+      "lecture_id": "MS-023",
+      "lesson_number": 23,
+      "diagram_number": 3,
+      "title": "입영 통지와 지연입영",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|시행령|21",
+        "병역법|시행령|24"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 43,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-023/diagrams/MS-023-D03-editorial-v1.svg",
+          "bytes": 8430,
+          "sha256": "d0ae198cac63b85d593c98ed62f51717d7e3748b6b2a440a3f791ce4093aa946"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-023/diagrams/MS-023-D03-editorial-v1.webp",
+          "bytes": 70116,
+          "sha256": "d6a1eee4d172fb5534f2be760594058a29486a1522ff3530a1332fb2cd525613"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-023",
+        "title": "입영 통지와 지연입영",
+        "subtitle": "30일·7일·전날의 송달기한과 3일의 지연입영",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|시행령|21",
+          "병역법|시행령|24"
+        ],
+        "sections": [
+          {
+            "heading": "입영 통지서 송달",
+            "items": [
+              {
+                "label": "원칙 30일 전",
+                "text": "지방병무청장이 입영일 30일 전까지 본인에게 송달",
+                "ref": "시행령 제21조제1항"
+              },
+              {
+                "label": "별도 대상 7일 전",
+                "text": "시행령 제20조의 별도 입영 대상자는 입영일 7일 전까지",
+                "ref": "시행령 제21조제2항"
+              },
+              {
+                "label": "면제 우려 시 전날",
+                "text": "법 제71조제1항에 따른 입영의무 면제가 우려되면 입영일 전날까지 송달 가능",
+                "ref": "시행령 제21조제3항"
+              }
+            ]
+          },
+          {
+            "heading": "지연입영",
+            "items": [
+              {
+                "label": "부득이한 사유",
+                "text": "천재지변·교통 두절·송달 지연 등으로 입영일에 입영할 수 없는 경우",
+                "ref": "시행령 제24조제1항"
+              },
+              {
+                "label": "입영일부터 3일",
+                "text": "입영일부터 3일 이내에 입영 가능",
+                "ref": "시행령 제24조제1항"
+              },
+              {
+                "label": "신고·입영",
+                "text": "지방병무청장에게 신고 후 신고입영일에 입영. 부득이하면 전신·전화 등으로 신고 가능",
+                "ref": "시행령 제24조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제16조, 현역병입영",
+      "main_article": "병역법 제16조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|21",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0021&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        },
+        {
+          "key": "병역법|시행령|24",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0024&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

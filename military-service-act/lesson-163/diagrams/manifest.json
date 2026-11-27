@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-163",
+  "lecture_title": "병역법 제94조, 국외여행허가 의무 위반",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-163-D01-editorial-v1",
+      "lecture_id": "MS-163",
+      "lesson_number": 163,
+      "diagram_number": 1,
+      "title": "국외여행허가 위반의 처벌",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|94"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 254,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-163/diagrams/MS-163-D01-editorial-v1.svg",
+          "bytes": 6063,
+          "sha256": "046e54b4c9a6ecaab608b8bc8ea015666af0b73105e5fac0d88a63472dfdc18e"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-163/diagrams/MS-163-D01-editorial-v1.webp",
+          "bytes": 43958,
+          "sha256": "5674368466b77d0bf9862e33467e0d0aaabf05fa98ed36ac1e27f7bc1705f890"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-163",
+        "title": "국외여행허가 위반의 처벌",
+        "subtitle": "병역기피·감면 목적의 유무에 따른 형",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|94"
+        ],
+        "sections": [
+          {
+            "heading": "기피·감면 목적",
+            "items": [
+              {
+                "label": "위반행위",
+                "text": "병역기피·감면 목적으로 무허가 출국·국외체류. 귀국명령 위반 포함",
+                "ref": "법 제94조제1항"
+              },
+              {
+                "label": "법정형",
+                "text": "1년 이상 5년 이하의 징역",
+                "ref": "법 제94조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "그 밖의 허가 위반",
+            "items": [
+              {
+                "label": "위반행위",
+                "text": "무허가 출국·국외체류 또는 정당한 사유 없는 미귀국. 귀국명령 위반 포함",
+                "ref": "법 제94조제2항"
+              },
+              {
+                "label": "법정형",
+                "text": "3년 이하의 징역",
+                "ref": "법 제94조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제94조, 국외여행허가 의무 위반",
+      "main_article": "병역법 제94조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|94",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0094&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

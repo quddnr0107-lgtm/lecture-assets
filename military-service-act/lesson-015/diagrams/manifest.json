@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-015",
+  "lecture_title": "병역법 제12조, 신체등급의 판정",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-015-D01-editorial-v1",
+      "lecture_id": "MS-015",
+      "lesson_number": 15,
+      "diagram_number": 1,
+      "title": "신체등급 1급부터 7급",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|12"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 27,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-015/diagrams/MS-015-D01-editorial-v1.svg",
+          "bytes": 7010,
+          "sha256": "655d276a7e475c922a0467fa972dd1f18d93cad7968dbc1e09108a8799172c41"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-015/diagrams/MS-015-D01-editorial-v1.webp",
+          "bytes": 53156,
+          "sha256": "dda4b6baeafae76b61e74a41a2659d13c7756bc698fe4d04a428b429e2e82d26"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-015",
+        "title": "신체등급 1급부터 7급",
+        "subtitle": "신체검사를 한 의사가 복무 가능 정도를 판정",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|12"
+        ],
+        "sections": [
+          {
+            "heading": "복무 가능 범위",
+            "items": [
+              {
+                "label": "1~4급",
+                "text": "신체·심리상태가 건강하여 현역 또는 보충역 복무 가능 — 그 정도에 따라 등급 판정",
+                "ref": "법 제12조제1항제1호"
+              },
+              {
+                "label": "5급",
+                "text": "현역·보충역 복무는 할 수 없으나 전시근로역 복무 가능",
+                "ref": "법 제12조제1항제2호"
+              }
+            ]
+          },
+          {
+            "heading": "병역 감당·판정 곤란",
+            "items": [
+              {
+                "label": "6급",
+                "text": "질병이나 심신장애로 병역을 감당할 수 없음",
+                "ref": "법 제12조제1항제3호"
+              },
+              {
+                "label": "7급",
+                "text": "질병이나 심신장애로 1~6급 해당 여부의 판정이 어려움",
+                "ref": "법 제12조제1항제4호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "판정자는 검사한 병역판정검사전담의사·전문의사 또는 법 제12조의2에 따른 군의관입니다."
+      },
+      "lecture_title": "병역법 제12조, 신체등급의 판정",
+      "main_article": "병역법 제12조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|12",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0012&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-015-D02-editorial-v1",
+      "lecture_id": "MS-015",
+      "lesson_number": 15,
+      "diagram_number": 2,
+      "title": "7급 재검사와 판정 기준",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|12"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 28,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-015/diagrams/MS-015-D02-editorial-v1.svg",
+          "bytes": 8276,
+          "sha256": "eafb30f7784f24d7e796bcacd6e646509b7ce2db3196b60e43e971383ef9df27"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-015/diagrams/MS-015-D02-editorial-v1.webp",
+          "bytes": 61706,
+          "sha256": "5a1b788e9ace923e8b2a8bb5ad9c7f33be3da4dda1d34d7bab7b794421471e83"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-015",
+        "title": "7급 재검사와 판정 기준",
+        "subtitle": "재검사 기한·제외 대상·심의기관",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|12"
+        ],
+        "sections": [
+          {
+            "heading": "7급 재검사",
+            "items": [
+              {
+                "label": "실시 의무",
+                "text": "지방병무청장이 치유기간을 고려하여 다시 신체검사를 받게 하여야 함",
+                "ref": "법 제12조제3항"
+              },
+              {
+                "label": "2년 이내",
+                "text": "7급 판정을 받은 날부터 2년 이내에 다시 검사",
+                "ref": "법 제12조제3항"
+              },
+              {
+                "label": "제외 대상",
+                "text": "현역병지원 신체검사를 받은 18세인 사람은 제외",
+                "ref": "법 제12조제3항"
+              }
+            ]
+          },
+          {
+            "heading": "기준과 심의",
+            "items": [
+              {
+                "label": "판정기준",
+                "text": "신체등급 판정기준은 국방부령으로 정함",
+                "ref": "법 제12조제4항"
+              },
+              {
+                "label": "심의위원회",
+                "text": "병무청·지방병무청·판정 담당 소속기관에 신체등급판정 심의위원회를 둘 수 있음",
+                "ref": "법 제12조제2항"
+              },
+              {
+                "label": "구성·운영",
+                "text": "심의위원회의 구성·운영 등에 필요한 사항은 병무청장이 정함",
+                "ref": "법 제12조제5항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제12조, 신체등급의 판정",
+      "main_article": "병역법 제12조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|12",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0012&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

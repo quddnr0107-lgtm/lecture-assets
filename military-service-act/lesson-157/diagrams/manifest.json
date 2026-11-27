@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-157",
+  "lecture_title": "병역법 제91조, 허위증명서 등의 발급",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-157-D01-editorial-v1",
+      "lecture_id": "MS-157",
+      "lesson_number": 157,
+      "diagram_number": 1,
+      "title": "병역 관련 허위증명서 발급",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|91"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 247,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-157/diagrams/MS-157-D01-editorial-v1.svg",
+          "bytes": 6140,
+          "sha256": "fd0f9741d350ab0913a551c866f3dc90b3bb3e835a5636704da30777035aeb73"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-157/diagrams/MS-157-D01-editorial-v1.webp",
+          "bytes": 40860,
+          "sha256": "f31b7d0e3510960a56d24e9cec7fba1f2ce996688f9a5fe0e8b09bf46758059c"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-157",
+        "title": "병역 관련 허위증명서 발급",
+        "subtitle": "공무원·의사·치과의사의 목적과 행위",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|91"
+        ],
+        "sections": [
+          {
+            "heading": "성립 요건",
+            "items": [
+              {
+                "label": "목적",
+                "text": "병역의무 연기·면제 또는 이 법상 복무기간 단축 목적",
+                "ref": "법 제91조"
+              },
+              {
+                "label": "행위",
+                "text": "공무원·의사·치과의사가 거짓 서류·증명서·진단서 발급",
+                "ref": "법 제91조"
+              }
+            ]
+          },
+          {
+            "heading": "처벌",
+            "items": [
+              {
+                "label": "징역",
+                "text": "1년 이상 10년 이하의 징역",
+                "ref": "법 제91조"
+              },
+              {
+                "label": "자격정지 병과 가능",
+                "text": "10년 이하의 자격정지를 함께 과할 수 있음",
+                "ref": "법 제91조"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제91조, 허위증명서 등의 발급",
+      "main_article": "병역법 제91조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|91",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0091&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

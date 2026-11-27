@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-091",
+  "lecture_title": "병역법 제55조, 군사교육소집 대상 등",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-091-D01-editorial-v1",
+      "lecture_id": "MS-091",
+      "lesson_number": 91,
+      "diagram_number": 1,
+      "title": "군사교육소집의 두 기간",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|55"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 149,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-091/diagrams/MS-091-D01-editorial-v1.svg",
+          "bytes": 7078,
+          "sha256": "5bfc8cf565713954590ff477aecafba33e12aa9ace34ab1bca71c2590d23aa3d"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-091/diagrams/MS-091-D01-editorial-v1.webp",
+          "bytes": 55136,
+          "sha256": "9a8eb45e3a8dd7d9bbf42dadb84f41c509a597079a212169045a39e63f63a67f"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-091",
+        "title": "군사교육소집의 두 기간",
+        "subtitle": "군사교육과 진급·임용 자격 부여",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|55"
+        ],
+        "sections": [
+          {
+            "heading": "일반 군사교육",
+            "items": [
+              {
+                "label": "보충역·승선근무예비역",
+                "text": "군사교육을 위하여 60일 이내로 실시할 수 있다.",
+                "ref": "법 제55조제1항"
+              },
+              {
+                "label": "전시근로역",
+                "text": "군사교육이 필요한 경우 소집할 수 있다.",
+                "ref": "법 제55조제1항 단서"
+              }
+            ]
+          },
+          {
+            "heading": "진급·임용 자격",
+            "items": [
+              {
+                "label": "예비·보충·전시근로역",
+                "text": "국방상 필요하면 진급 또는 장교·부사관 임용 자격 부여를 위해 소집할 수 있다.",
+                "ref": "법 제55조제2항"
+              },
+              {
+                "label": "120일 이내",
+                "text": "진급·임용 자격을 위한 군사교육소집의 법정 기간 한도.",
+                "ref": "법 제55조제2항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "보충역은 신체등급·학력·연령 등 자질에 따라 군사교육소집을 실시하지 않을 수 있다."
+      },
+      "lecture_title": "병역법 제55조, 군사교육소집 대상 등",
+      "main_article": "병역법 제55조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|55",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0055&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-091-D02-editorial-v1",
+      "lecture_id": "MS-091",
+      "lesson_number": 91,
+      "diagram_number": 2,
+      "title": "보충역 군사교육소집 시기",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|시행령|107"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 150,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-091/diagrams/MS-091-D02-editorial-v1.svg",
+          "bytes": 7321,
+          "sha256": "02307a93cea4066907e29ddc20d5c0a66903abcbc98241a2a86a71aac01c97e0"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-091/diagrams/MS-091-D02-editorial-v1.webp",
+          "bytes": 61876,
+          "sha256": "22a220eeb684d23d5bac1ce5cdba6232e88aba05f80dd2ba1b25bcfea9c6617e"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-091",
+        "title": "보충역 군사교육소집 시기",
+        "subtitle": "복무 유형에 따라 교육하는 때가 다르다",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|시행령|107"
+        ],
+        "sections": [
+          {
+            "heading": "소집·편입 초기",
+            "items": [
+              {
+                "label": "사회복무요원",
+                "text": "소집과 동시에 실시. 부득이한 경우 소집일부터 1년 이내에 실시한다.",
+                "ref": "영 제107조제1호"
+              },
+              {
+                "label": "예술·체육요원",
+                "text": "편입일부터 1년 이내에 실시한다.",
+                "ref": "영 제107조제1호의3"
+              }
+            ]
+          },
+          {
+            "heading": "배치 전·복무 중",
+            "items": [
+              {
+                "label": "의사·법무관·수의사",
+                "text": "공중보건·전담의사·공익법무관·공중방역수의사는 복무기관 배치 전. 공익상 필요 시 협의해 배치 후 가능.",
+                "ref": "영 제107조제2호"
+              },
+              {
+                "label": "전문연구·산업기능",
+                "text": "의무복무기간 중 실시. 국외근무·승선 등으로 불가능하면 그 사유가 없어진 때 실시한다.",
+                "ref": "영 제107조제3호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "사회복무·예술체육요원의 기이수자 등에는 시행령이 정한 재교육 제외 규정을 적용한다."
+      },
+      "lecture_title": "병역법 제55조, 군사교육소집 대상 등",
+      "main_article": "병역법 제55조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|107",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0107&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-161",
+  "lecture_title": "병역법 제93조, 고용금지 및 복직보장 위반 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-161-D01-editorial-v1",
+      "lecture_id": "MS-161",
+      "lesson_number": 161,
+      "diagram_number": 1,
+      "title": "고용금지·복학·복직보장 위반",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|93"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 252,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-161/diagrams/MS-161-D01-editorial-v1.svg",
+          "bytes": 7387,
+          "sha256": "9b44683bc08a9882a0d6c70247d6c47fd14407ef0de0b7807d529844cfbeed1d"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-161/diagrams/MS-161-D01-editorial-v1.webp",
+          "bytes": 60616,
+          "sha256": "e21d93c2b6489b8e9d84201cb4612c09f04c824556ed7d7fb71f1c92a3ed8eec"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-161",
+        "title": "고용금지·복학·복직보장 위반",
+        "subtitle": "위반행위에 따라 벌금의 하한을 구별",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|93"
+        ],
+        "sections": [
+          {
+            "heading": "채용·복학·복직",
+            "items": [
+              {
+                "label": "고용금지 위반",
+                "text": "고용주가 제76조제1항·제5항 대상자를 채용하거나 해직하지 않음",
+                "ref": "법 제93조제1항"
+              },
+              {
+                "label": "복학·복직 거부",
+                "text": "학교장·고용주가 정당한 사유 없이 복학 또는 복직 거부",
+                "ref": "법 제93조제2항"
+              },
+              {
+                "label": "같은 법정형",
+                "text": "6개월 이하 징역 또는 200만원 이상 2천만원 이하 벌금",
+                "ref": "법 제93조제1항·제2항"
+              }
+            ]
+          },
+          {
+            "heading": "근무기간·불리한 처우",
+            "items": [
+              {
+                "label": "고용주의 위반",
+                "text": "정당한 사유 없이 의무복무기간 미산정 또는 병역이행을 이유로 불리한 처우",
+                "ref": "법 제93조제3항"
+              },
+              {
+                "label": "법정형",
+                "text": "300만원 이상 3천만원 이하의 벌금",
+                "ref": "법 제93조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제93조, 고용금지 및 복직보장 위반 등",
+      "main_article": "병역법 제93조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|93",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0093&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

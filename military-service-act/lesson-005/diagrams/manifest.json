@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-005",
+  "lecture_title": "병역법 제5조, 병역의 종류",
+  "diagram_count": 3,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-005-D01-editorial-v1",
+      "lecture_id": "MS-005",
+      "lesson_number": 5,
+      "diagram_number": 1,
+      "title": "병역의 여섯 가지 종류",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|본법|5"
+      ],
+      "part": 1,
+      "parts": 2,
+      "content_index": 7,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-005/diagrams/MS-005-D01-editorial-v1.svg",
+          "bytes": 7265,
+          "sha256": "38be8ad0e8d5d4ff4a86a60affa20dca680217683529d961f3b786036f9ad2d2"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-005/diagrams/MS-005-D01-editorial-v1.webp",
+          "bytes": 56410,
+          "sha256": "68e2ba972c07e760f42385ba39675947347734887d218fb51230d319e56ced09"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-005",
+        "title": "병역의 여섯 가지 종류",
+        "subtitle": "현역·예비역·보충역·병역준비역·전시근로역·대체역",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|본법|5"
+        ],
+        "sections": [
+          {
+            "heading": "현역·예비역·보충역",
+            "items": [
+              {
+                "label": "현역",
+                "text": "징집·지원 입영병 및 병역법·군인사법에 따라 현역으로 임용·선발된 장교·준사관·부사관·군간부후보생",
+                "ref": "법 제5조제1항제1호"
+              },
+              {
+                "label": "예비역",
+                "text": "현역을 마친 사람 및 그 밖에 병역법에 따라 예비역에 편입된 사람",
+                "ref": "법 제5조제1항제2호"
+              }
+            ]
+          },
+          {
+            "heading": "그 밖의 역종",
+            "items": [
+              {
+                "label": "병역준비역",
+                "text": "병역의무자로서 현역·예비역·보충역·전시근로역·대체역이 아닌 사람",
+                "ref": "법 제5조제1항제4호"
+              },
+              {
+                "label": "전시근로역",
+                "text": "현역·보충역 복무는 불가하나 전시근로소집 군사지원업무를 감당할 수 있다고 결정된 사람 등",
+                "ref": "법 제5조제1항제5호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제5조, 병역의 종류",
+      "main_article": "병역법 제5조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|5",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0005&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-005-D02-editorial-v1",
+      "lecture_id": "MS-005",
+      "lesson_number": 5,
+      "diagram_number": 2,
+      "title": "병역의 여섯 가지 종류",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|본법|5"
+      ],
+      "part": 2,
+      "parts": 2,
+      "content_index": 7,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-005/diagrams/MS-005-D02-editorial-v1.svg",
+          "bytes": 5557,
+          "sha256": "392d3ebd0442bc2a392dd21f50a1c42723a95496484422bf99519ba1a54f273f"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-005/diagrams/MS-005-D02-editorial-v1.webp",
+          "bytes": 42388,
+          "sha256": "d6910ff1270a0551a4cd8f5e9e32cfec0976b97364f5838f80020609f47e02a2"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-005",
+        "title": "병역의 여섯 가지 종류",
+        "subtitle": "현역·예비역·보충역·병역준비역·전시근로역·대체역",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|본법|5"
+        ],
+        "sections": [
+          {
+            "heading": "현역·예비역·보충역",
+            "items": [
+              {
+                "label": "보충역",
+                "text": "현역복무 가능자 중 병력수급상 현역입영 비대상자, 법정 보충역 복무·완료자 등",
+                "ref": "법 제5조제1항제3호"
+              }
+            ]
+          },
+          {
+            "heading": "그 밖의 역종",
+            "items": [
+              {
+                "label": "대체역",
+                "text": "양심의 자유를 이유로 현역·보충역·예비역 복무를 대신하여 병역을 이행하도록 대체역법에 따라 편입된 사람",
+                "ref": "법 제5조제1항제6호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제5조, 병역의 종류",
+      "main_article": "병역법 제5조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|5",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0005&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-005-D03-editorial-v1",
+      "lecture_id": "MS-005",
+      "lesson_number": 5,
+      "diagram_number": 3,
+      "title": "역종별 신분과 병적 관리",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|5",
+        "병역법|시행령|2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 8,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-005/diagrams/MS-005-D03-editorial-v1.svg",
+          "bytes": 7679,
+          "sha256": "487a34341eb60aff209c8818014ca2d0f988ec96dfff58f0c400dd6956601e36"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-005/diagrams/MS-005-D03-editorial-v1.webp",
+          "bytes": 55348,
+          "sha256": "4657d4bee7cd6bbb5ca88b3c09a94e6490635894eb243c9c3af7f13995a534c4"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-005",
+        "title": "역종별 신분과 병적 관리",
+        "subtitle": "신분 구분과 병적관리기관을 함께 확인",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|5",
+          "병역법|시행령|2"
+        ],
+        "sections": [
+          {
+            "heading": "역종별 신분",
+            "items": [
+              {
+                "label": "예비역·보충역",
+                "text": "각각 장교·준사관·부사관 또는 병으로 구분",
+                "ref": "법 제5조제2항"
+              },
+              {
+                "label": "전시근로역",
+                "text": "부사관 또는 병으로 구분",
+                "ref": "법 제5조제2항"
+              },
+              {
+                "label": "병적 편입",
+                "text": "각각 그 병역의 병적에 편입",
+                "ref": "법 제5조제3항"
+              }
+            ]
+          },
+          {
+            "heading": "병적관리기관",
+            "items": [
+              {
+                "label": "군 입영·상근소집",
+                "text": "해당 군 참모총장 — 해병대는 해병대사령관",
+                "ref": "시행령 제2조제1항제1호"
+              },
+              {
+                "label": "전환복무 중",
+                "text": "경찰청장·소방청장 또는 해양경찰청장",
+                "ref": "시행령 제2조제1항제2호"
+              },
+              {
+                "label": "그 밖의 해당 역",
+                "text": "병역준비역·전시근로역·예비역·보충역·대체역은 거주지 지방병무청장 또는 병무지청장",
+                "ref": "시행령 제2조제1항제3호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제5조, 병역의 종류",
+      "main_article": "병역법 제5조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|5",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0005&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0002&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-041",
+  "lecture_title": "병역법 제27조, 사회복무요원의 배정인원 등 결정",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-041-D01-editorial-v1",
+      "lecture_id": "MS-041",
+      "lesson_number": 41,
+      "diagram_number": 1,
+      "title": "사회복무요원 인원 배정",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|본법|27",
+        "병역법|시행령|48",
+        "병역법|시행령|49"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 75,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-041/diagrams/MS-041-D01-editorial-v1.svg",
+          "bytes": 6397,
+          "sha256": "47e960a8e97d29ae4e36b7bce464ac394c98d88487865a498055768d6147af6d"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-041/diagrams/MS-041-D01-editorial-v1.webp",
+          "bytes": 54676,
+          "sha256": "73e78a7200b099a716ae9b7e495af2f959d9c273459e2b2447c8a43993c54a5a"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-041",
+        "title": "사회복무요원 인원 배정",
+        "subtitle": "다음 해 필요인원의 요청·결정·결과 통보",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|본법|27",
+          "병역법|시행령|48",
+          "병역법|시행령|49"
+        ],
+        "sections": [
+          {
+            "heading": "2월 말일까지",
+            "items": [
+              {
+                "label": "복무기관의 장",
+                "text": "다음 해 필요인원 배정을 지방병무청장에게 요청하고 사회복무요원 활용 계획서 제출",
+                "ref": "시행령 제48조제1항·제2항"
+              }
+            ]
+          },
+          {
+            "heading": "3월 31일까지",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "공익상 필요성·근무조건 등을 조사하여 기관·분야·형태별 배정인원 결정 후 병무청장에게 보고",
+                "ref": "법 제27조제1항·시행령 제49조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "4월 20일까지",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "배정 결과를 복무기관의 장에게 통보",
+                "ref": "시행령 제49조제1항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "사회복지시설은 특별자치시장·특별자치도지사·시장·군수·자치구청장이 배정을 요청합니다."
+      },
+      "lecture_title": "병역법 제27조, 사회복무요원의 배정인원 등 결정",
+      "main_article": "병역법 제27조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|27",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0027&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|48",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0048&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        },
+        {
+          "key": "병역법|시행령|49",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0049&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

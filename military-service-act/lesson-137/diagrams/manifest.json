@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-137",
+  "lecture_title": "병역법 제82조, 병역의무 이행의 장려",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-137-D01-editorial-v1",
+      "lecture_id": "MS-137",
+      "lesson_number": 137,
+      "diagram_number": 1,
+      "title": "자발적 병역의무 이행의 장려",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|본법|82"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 218,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-137/diagrams/MS-137-D01-editorial-v1.svg",
+          "bytes": 5608,
+          "sha256": "704f54f01b13c3be352af072af7ecac013658006196f0921e2b2c139901c0ded"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-137/diagrams/MS-137-D01-editorial-v1.webp",
+          "bytes": 39644,
+          "sha256": "61c4f79c24d4a81ff70f37856e06d69785d1d3a386c7210211d8fe00e8f75d1d"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-137",
+        "title": "자발적 병역의무 이행의 장려",
+        "subtitle": "병무청장이 할 수 있는 홍보·교육·선양사업",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|본법|82"
+        ],
+        "sections": [
+          {
+            "heading": "목적",
+            "items": [
+              {
+                "label": "사회분위기 조성",
+                "text": "자발적으로 병역의무를 이행하는 사회분위기 조성",
+                "ref": "법 제82조"
+              }
+            ]
+          },
+          {
+            "heading": "사업",
+            "items": [
+              {
+                "label": "홍보·교육",
+                "text": "자발적 병역의무 이행을 위한 홍보 및 교육 실시 가능",
+                "ref": "법 제82조"
+              },
+              {
+                "label": "선양",
+                "text": "병역의무를 이행한 사람을 선양하는 사업 등 실시 가능",
+                "ref": "법 제82조"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제82조, 병역의무 이행의 장려",
+      "main_article": "병역법 제82조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|82",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0082&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

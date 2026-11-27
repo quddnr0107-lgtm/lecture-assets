@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-124",
+  "lecture_title": "병역법 제77조의2, 확인신체검사 등",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-124-D01-editorial-v1",
+      "lecture_id": "MS-124",
+      "lesson_number": 124,
+      "diagram_number": 1,
+      "title": "확인신체검사의 대상과 절차",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|본법|77의2",
+        "병역법|시행령|155의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 196,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-124/diagrams/MS-124-D01-editorial-v1.svg",
+          "bytes": 6851,
+          "sha256": "cfb2512d19547b23da305f6c73175d3ea939b15a806668f15ca1cb3a50fa2081"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-124/diagrams/MS-124-D01-editorial-v1.webp",
+          "bytes": 53344,
+          "sha256": "abe44fee34350f9d4323875da603e62d97deaaa977b70ba0ac11b7349ee1b0d7"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-124",
+        "title": "확인신체검사의 대상과 절차",
+        "subtitle": "감면 목적의 속임수 등 법정 사유를 조사",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|본법|77의2",
+          "병역법|시행령|155의2"
+        ],
+        "sections": [
+          {
+            "heading": "대상 확인",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "질병·심신장애 4~7급 처분자 또는 법정 병역처분변경·면제자",
+                "ref": "법 제77조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "사실 조사",
+            "items": [
+              {
+                "label": "기록·면담",
+                "text": "감면 목적 속임수 등 영 제155조의2제1항 사유가 있으면 사실관계 조사",
+                "ref": "영 제155조의2제1항·제2항"
+              }
+            ]
+          },
+          {
+            "heading": "검사 실시",
+            "items": [
+              {
+                "label": "필요 인정",
+                "text": "확인신체검사가 필요하다고 인정되면 실시하여야 함",
+                "ref": "영 제155조의2제2항"
+              }
+            ]
+          },
+          {
+            "heading": "판정·소명",
+            "items": [
+              {
+                "label": "당시 기준 적용",
+                "text": "병역처분 당시 신체등급 기준 적용. 의심자에게 소명기회, 인정 시 고발",
+                "ref": "영 제155조의2제4항·제5항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제77조의2, 확인신체검사 등",
+      "main_article": "병역법 제77조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|77의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0077&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|155의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0155&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-124-D02-editorial-v1",
+      "lecture_id": "MS-124",
+      "lesson_number": 124,
+      "diagram_number": 2,
+      "title": "확인신체검사 통지와 정보 보호",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|77의2",
+        "병역법|시행령|155의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 197,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-124/diagrams/MS-124-D02-editorial-v1.svg",
+          "bytes": 6408,
+          "sha256": "fb3ada5f4c3f66c92c477ca40d704ee82d90f677bb7223dc57eee8a4f0df16df"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-124/diagrams/MS-124-D02-editorial-v1.webp",
+          "bytes": 51036,
+          "sha256": "f64aa61f358702601c71be00685dd0635304858aa66326060ee94f7b5a2083dd"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-124",
+        "title": "확인신체검사 통지와 정보 보호",
+        "subtitle": "30일 원칙과 7일 예외",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|77의2",
+          "병역법|시행령|155의2"
+        ],
+        "sections": [
+          {
+            "heading": "통지서 송달",
+            "items": [
+              {
+                "label": "검사일 30일 전까지",
+                "text": "본인에게 확인신체검사 통지서 송달",
+                "ref": "영 제155조의2제3항"
+              },
+              {
+                "label": "검사일 7일 전까지",
+                "text": "병역면탈 증거 인멸 또는 도주 우려가 있는 경우",
+                "ref": "영 제155조의2제3항 단서"
+              }
+            ]
+          },
+          {
+            "heading": "자료·처분",
+            "items": [
+              {
+                "label": "정보 사용 제한",
+                "text": "취득한 정보·자료의 공개·누설·제공 및 확인신체검사 외 목적 사용 금지",
+                "ref": "법 제77조의2제3항"
+              },
+              {
+                "label": "잘못된 병역처분",
+                "text": "검사 결과 잘못되었다고 판단하면 대통령령에 따라 처분 변경 의무",
+                "ref": "법 제77조의2제4항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제77조의2, 확인신체검사 등",
+      "main_article": "병역법 제77조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|77의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0077&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|155의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0155&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

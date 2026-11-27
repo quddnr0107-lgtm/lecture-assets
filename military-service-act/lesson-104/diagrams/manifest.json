@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-104",
+  "lecture_title": "병역법 제66조, 장교 등의 보충역 편입 및 취소",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-104-D01-editorial-v1",
+      "lecture_id": "MS-104",
+      "lesson_number": 104,
+      "diagram_number": 1,
+      "title": "장교 등 보충역 편입과 취소",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|66"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 166,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-104/diagrams/MS-104-D01-editorial-v1.svg",
+          "bytes": 7568,
+          "sha256": "3c2e7ac4de461643a738a031e933116d0f72fff55425d897beeb702cf433de7a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-104/diagrams/MS-104-D01-editorial-v1.webp",
+          "bytes": 63370,
+          "sha256": "93692019d82f1e44ef7c0761633f37addadb1680d7d96b4916dd6f477a2ce77a"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-104",
+        "title": "장교 등 보충역 편입과 취소",
+        "subtitle": "편입 사유 소멸 후에도 자동 복귀하지 않는다",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|66"
+        ],
+        "sections": [
+          {
+            "heading": "보충역 편입",
+            "items": [
+              {
+                "label": "임용결격·신분상실",
+                "text": "현역·예비역 장교·준사관·부사관이 임용결격으로 제적 또는 신분상실되면 보충역에 편입한다.",
+                "ref": "법 제66조제1항"
+              },
+              {
+                "label": "특수병과 예비역장교",
+                "text": "의무·법무·군종·수의 예비역장교가 자격상실·면허취소되면 신분을 상실하고 보충역에 편입한다.",
+                "ref": "법 제66조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "편입처분 취소",
+            "items": [
+              {
+                "label": "사유 소멸·본인 희망",
+                "text": "사유가 소멸하고 사상·품행·체력의 법정 요건을 갖추면 본인이 원할 경우 취소할 수 있다.",
+                "ref": "법 제66조제3항"
+              },
+              {
+                "label": "소급효 없음",
+                "text": "취소처분의 효력은 소급하지 않는다. 퇴역·면역 대상자는 체력 요건의 예외이다.",
+                "ref": "법 제66조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제66조, 장교 등의 보충역 편입 및 취소",
+      "main_article": "병역법 제66조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|66",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0066&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-104-D02-editorial-v1",
+      "lecture_id": "MS-104",
+      "lesson_number": 104,
+      "diagram_number": 2,
+      "title": "보충역 편입 취소 후 신분",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|66"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 167,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-104/diagrams/MS-104-D02-editorial-v1.svg",
+          "bytes": 6718,
+          "sha256": "2e24dd752923f781baab50f85d45a8a0f3d9a93f99809c5891b6a969b5366772"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-104/diagrams/MS-104-D02-editorial-v1.webp",
+          "bytes": 50710,
+          "sha256": "bbf287455e5159b02ac53c873d83f2d3c8105a1c64193c61ff06a7fe2a16a323"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-104",
+        "title": "보충역 편입 취소 후 신분",
+        "subtitle": "취소된 날의 종전 계급 연령정년을 기준",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|66"
+        ],
+        "sections": [
+          {
+            "heading": "예비역 편입",
+            "items": [
+              {
+                "label": "연령정년 미초과",
+                "text": "보충역 편입 당시 계급이 취소된 날에 군인사법상 연령정년을 초과하지 않은 사람.",
+                "ref": "법 제66조제4항"
+              },
+              {
+                "label": "그 계급의 예비역",
+                "text": "위 요건에 해당하면 그 계급의 예비역에 편입한다.",
+                "ref": "법 제66조제4항"
+              }
+            ]
+          },
+          {
+            "heading": "퇴역",
+            "items": [
+              {
+                "label": "심신장애",
+                "text": "심신장애로 예비역을 감당할 수 없는 사람은 퇴역시킨다.",
+                "ref": "법 제66조제4항"
+              },
+              {
+                "label": "연령정년 초과",
+                "text": "취소된 날 종전 계급의 연령정년을 초과한 사람은 퇴역시킨다.",
+                "ref": "법 제66조제4항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제66조, 장교 등의 보충역 편입 및 취소",
+      "main_article": "병역법 제66조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|66",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0066&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

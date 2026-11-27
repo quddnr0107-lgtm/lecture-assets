@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-076",
+  "lecture_title": "병역법 제40조, 전문연구요원과 산업기능요원의 신상변동 통보",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-076-D01-editorial-v1",
+      "lecture_id": "MS-076",
+      "lesson_number": 76,
+      "diagram_number": 1,
+      "title": "전문연구·산업기능 신상변동 통보",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|40"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 130,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-076/diagrams/MS-076-D01-editorial-v1.svg",
+          "bytes": 7467,
+          "sha256": "ee89627920393ebc3a93694ef6c7ec67a0cdbf9e2c281b3fdb09f8a3ea84387f"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-076/diagrams/MS-076-D01-editorial-v1.webp",
+          "bytes": 60220,
+          "sha256": "383711dd853c5fae62da0cf4ea191be5495c0d556fe0d564cfbad24a1fb58351"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-076",
+        "title": "전문연구·산업기능 신상변동 통보",
+        "subtitle": "통보 주체와 경유 절차를 함께 확인",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|40"
+        ],
+        "sections": [
+          {
+            "heading": "통보의 기본",
+            "items": [
+              {
+                "label": "14일 이내",
+                "text": "업체장 등 법정 통보 주체는 신상변동을 관할 지방병무청장에게 통보한다.",
+                "ref": "법 제40조"
+              },
+              {
+                "label": "농업 분야 경유",
+                "text": "농업 분야 고용 업체장은 관할 특별자치시장·특별자치도지사·시장·군수·구청장을 거친다.",
+                "ref": "법 제40조 단서"
+              }
+            ]
+          },
+          {
+            "heading": "주요 통보 사유",
+            "items": [
+              {
+                "label": "신분·근무의 변동",
+                "text": "해고·퇴직, 해당 분야 미복무, 통틀어 8일 이상 무단결근, 휴직·정직·전입 등.",
+                "ref": "법 제40조제1~5호"
+              },
+              {
+                "label": "업체·학위의 변동",
+                "text": "업체 휴업·영업정지·직장폐쇄·폐업, 박사과정 휴학·제적·학위 포기·기한 내 미취득 등.",
+                "ref": "법 제40조제6~8호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제40조, 전문연구요원과 산업기능요원의 신상변동 통보",
+      "main_article": "병역법 제40조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|40",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0040&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

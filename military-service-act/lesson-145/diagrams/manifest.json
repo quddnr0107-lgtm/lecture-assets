@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-145",
+  "lecture_title": "병역법 제85조, 병역의무부과 통지서 수령 거부",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-145-D01-editorial-v1",
+      "lecture_id": "MS-145",
+      "lesson_number": 145,
+      "diagram_number": 1,
+      "title": "병역의무부과 통지서 수령 거부",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|85"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 232,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-145/diagrams/MS-145-D01-editorial-v1.svg",
+          "bytes": 5416,
+          "sha256": "2e86bfc2e7201913b8d33926f775cb67bc619866f8cd8fa2fc06a20f2ecc5f32"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-145/diagrams/MS-145-D01-editorial-v1.webp",
+          "bytes": 38718,
+          "sha256": "3422b5b231a3e716218efef10823b702727f74e79070399915af7869f507aab4"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-145",
+        "title": "병역의무부과 통지서 수령 거부",
+        "subtitle": "정당한 사유 없는 수령 거부의 처벌",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|85"
+        ],
+        "sections": [
+          {
+            "heading": "성립 요건",
+            "items": [
+              {
+                "label": "행위자·대상",
+                "text": "병역의무자가 제6조에 따라 송달된 병역의무부과 통지서를 수령 거부",
+                "ref": "법 제85조"
+              },
+              {
+                "label": "사유",
+                "text": "정당한 사유가 없는 경우",
+                "ref": "법 제85조"
+              }
+            ]
+          },
+          {
+            "heading": "법정형",
+            "items": [
+              {
+                "label": "징역 또는 벌금",
+                "text": "6개월 이하의 징역 또는 500만원 이하의 벌금",
+                "ref": "법 제85조"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제85조, 병역의무부과 통지서 수령 거부",
+      "main_article": "병역법 제85조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|85",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0085&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

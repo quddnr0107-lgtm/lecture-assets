@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-160",
+  "lecture_title": "병역법 제92조의2, 복무기관의 복무관리 위반",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-160-D01-editorial-v1",
+      "lecture_id": "MS-160",
+      "lesson_number": 160,
+      "diagram_number": 1,
+      "title": "사회복무요원의 공익 외 복무",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|92의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 251,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-160/diagrams/MS-160-D01-editorial-v1.svg",
+          "bytes": 5632,
+          "sha256": "82f3fe3b60799828056cbc9db9c1781f830bbd32d5714034bffbf4394b2d31a2"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-160/diagrams/MS-160-D01-editorial-v1.webp",
+          "bytes": 39970,
+          "sha256": "ce8576bbe0ccfdfaea2bfec1fa4fb22502b93533ff4cbc3d3be43d84d91f9c9f"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-160",
+        "title": "사회복무요원의 공익 외 복무",
+        "subtitle": "복무기관의 복무관리 위반",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|92의2"
+        ],
+        "sections": [
+          {
+            "heading": "성립 요건",
+            "items": [
+              {
+                "label": "행위자",
+                "text": "공공단체 또는 사회복지시설의 장. 법인 대표자 포함",
+                "ref": "법 제92조의2"
+              },
+              {
+                "label": "위반행위",
+                "text": "정당한 사유 없이 사회복무요원을 공익목적 외 분야에 복무하게 함",
+                "ref": "법 제92조의2"
+              }
+            ]
+          },
+          {
+            "heading": "법정형",
+            "items": [
+              {
+                "label": "징역 또는 벌금",
+                "text": "6개월 이하의 징역 또는 2천만원 이하의 벌금",
+                "ref": "법 제92조의2"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제92조의2, 복무기관의 복무관리 위반",
+      "main_article": "병역법 제92조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|92의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0092&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

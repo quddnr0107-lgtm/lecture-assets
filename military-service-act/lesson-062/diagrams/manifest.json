@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-062",
+  "lecture_title": "병역법 제34조의2, 병역판정검사전담의사의 신분 및 보수 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-062-D01-editorial-v1",
+      "lecture_id": "MS-062",
+      "lesson_number": 62,
+      "diagram_number": 1,
+      "title": "병역판정검사전담의사의 신분",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|34의2",
+        "병역법|시행령|69의3"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 113,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-062/diagrams/MS-062-D01-editorial-v1.svg",
+          "bytes": 7187,
+          "sha256": "a5cc03d2bd7f7283622953784c87faa13a39ed3af877c858dde47e2cd1ce6e1b"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-062/diagrams/MS-062-D01-editorial-v1.webp",
+          "bytes": 56748,
+          "sha256": "3b67d17bd0b43da661de404b09b7b297a6e80f5e194e99c2ecbd77ace3a69a96"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-062",
+        "title": "병역판정검사전담의사의 신분",
+        "subtitle": "소속·보수·지휘감독과 교육·수련",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|34의2",
+          "병역법|시행령|69의3"
+        ],
+        "sections": [
+          {
+            "heading": "신분과 감독",
+            "items": [
+              {
+                "label": "병무청 소속",
+                "text": "국가공무원법상 임기제공무원. 군인보수의 범위에서 보수·여비 등을 지급한다.",
+                "ref": "법 제34조의2제1항"
+              },
+              {
+                "label": "병무청장",
+                "text": "복무를 지휘·감독하며 허가 또는 정당한 사유 없는 근무지 이탈은 금지된다.",
+                "ref": "법 제34조의2제4·5항"
+              }
+            ]
+          },
+          {
+            "heading": "직무교육·수련",
+            "items": [
+              {
+                "label": "직무교육 1개월",
+                "text": "병무청장은 1개월의 범위에서 직무교육을 실시한다.",
+                "ref": "영 제69조의3제1항"
+              },
+              {
+                "label": "수련 3개월",
+                "text": "병역판정검사를 하지 않는 기간 중 3개월 범위에서 군병원·지정병원 수련을 실시할 수 있다.",
+                "ref": "법 제34조의2제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제34조의2, 병역판정검사전담의사의 신분 및 보수 등",
+      "main_article": "병역법 제34조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|34의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0034&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|69의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0069&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

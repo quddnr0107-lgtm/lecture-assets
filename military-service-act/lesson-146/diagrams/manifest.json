@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-146",
+  "lecture_title": "병역법 제86조, 도망·신체손상 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-146-D01-editorial-v1",
+      "lecture_id": "MS-146",
+      "lesson_number": 146,
+      "diagram_number": 1,
+      "title": "병역기피·감면 목적의 면탈행위",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|86"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 233,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-146/diagrams/MS-146-D01-editorial-v1.svg",
+          "bytes": 5120,
+          "sha256": "7fa9cc3bc56218011dbdf9adc231f45378f7d76562c19487d00370f0fab06021"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-146/diagrams/MS-146-D01-editorial-v1.webp",
+          "bytes": 34150,
+          "sha256": "14ada4e55064cbe27aee842a8b559035e6199c859d114dd170e2260f43673026"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-146",
+        "title": "병역기피·감면 목적의 면탈행위",
+        "subtitle": "목적과 행위가 함께 규정된 범죄",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|86"
+        ],
+        "sections": [
+          {
+            "heading": "목적·행위",
+            "items": [
+              {
+                "label": "목적",
+                "text": "병역의무를 기피하거나 감면받을 목적",
+                "ref": "법 제86조"
+              },
+              {
+                "label": "행위",
+                "text": "도망·행방 은폐 또는 신체손상·속임수",
+                "ref": "법 제86조"
+              }
+            ]
+          },
+          {
+            "heading": "법정형",
+            "items": [
+              {
+                "label": "1년 이상 5년 이하",
+                "text": "징역에 처함",
+                "ref": "법 제86조"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제86조, 도망·신체손상 등",
+      "main_article": "병역법 제86조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|86",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0086&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

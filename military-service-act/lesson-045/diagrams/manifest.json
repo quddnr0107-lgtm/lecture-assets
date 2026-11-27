@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-045",
+  "lecture_title": "병역법 제31조, 사회복무요원의 복무 및 보수 등",
+  "diagram_count": 3,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-045-D01-editorial-v1",
+      "lecture_id": "MS-045",
+      "lesson_number": 45,
+      "diagram_number": 1,
+      "title": "사회복무요원의 복무와 보수",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|31"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 80,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-045/diagrams/MS-045-D01-editorial-v1.svg",
+          "bytes": 8312,
+          "sha256": "8983ac93710885bcce434e0b35eb801f9e21236dc39275ca66db8e3b4183c924"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-045/diagrams/MS-045-D01-editorial-v1.webp",
+          "bytes": 63350,
+          "sha256": "1f0bb181141dd963fe792b9a827c50664774ee9727ff644089ac95c334819d02"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-045",
+        "title": "사회복무요원의 복무와 보수",
+        "subtitle": "복무분야 지정·사전 협의·근무형태·보수 지급",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|31"
+        ],
+        "sections": [
+          {
+            "heading": "복무분야와 직무",
+            "items": [
+              {
+                "label": "복무분야 지정",
+                "text": "배정받은 기관의 장은 복무분야를 지정하여 복무하게 하여야 함",
+                "ref": "법 제31조제1항"
+              },
+              {
+                "label": "관할청 사전 협의",
+                "text": "분야를 지정하거나 변경할 때 미리 관할 지방병무청장과 협의하여야 함",
+                "ref": "법 제31조제2항"
+              },
+              {
+                "label": "직무상 행위",
+                "text": "사회복무요원의 직무상 행위는 공무수행으로 봄",
+                "ref": "법 제31조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "근무형태와 보수",
+            "items": [
+              {
+                "label": "출퇴근 원칙",
+                "text": "출퇴근 근무하며 소속기관장의 지휘·감독을 받음",
+                "ref": "법 제31조제4항"
+              },
+              {
+                "label": "합숙 가능",
+                "text": "출퇴근 곤란 또는 업무수행 특수성 등으로 필요한 경우 합숙근무 가능",
+                "ref": "법 제31조제4항"
+              },
+              {
+                "label": "보수·여비",
+                "text": "국가·지자체·공공단체장이 지급하여야 함. 사회서비스업무는 국고 부담 가능",
+                "ref": "법 제31조제5항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제31조, 사회복무요원의 복무 및 보수 등",
+      "main_article": "병역법 제31조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|31",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0031&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-045-D02-editorial-v1",
+      "lecture_id": "MS-045",
+      "lesson_number": 45,
+      "diagram_number": 2,
+      "title": "사회복무요원의 보수 단계",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|시행령|62"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 81,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-045/diagrams/MS-045-D02-editorial-v1.svg",
+          "bytes": 7425,
+          "sha256": "7ea0687f0006441d50fa1d46e35462dea88480df63321b00c125a3c18db89287"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-045/diagrams/MS-045-D02-editorial-v1.webp",
+          "bytes": 60342,
+          "sha256": "43ff9f10528e265c11acab2ae1b4dd4524c1f1436dc9b540023f326e45b4462d"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-045",
+        "title": "사회복무요원의 보수 단계",
+        "subtitle": "소집월부터 계산하는 현역병 봉급 해당 보수",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|시행령|62"
+        ],
+        "sections": [
+          {
+            "heading": "소집월부터 8개월까지",
+            "items": [
+              {
+                "label": "1~2개월",
+                "text": "이등병의 보수",
+                "ref": "시행령 제62조제1항제1호"
+              },
+              {
+                "label": "3~8개월",
+                "text": "일등병의 보수",
+                "ref": "시행령 제62조제1항제2호"
+              },
+              {
+                "label": "별도 실비",
+                "text": "보수 외에 직무수행 여비·급식비 등 실비를 지급하여야 함",
+                "ref": "시행령 제62조제3항"
+              }
+            ]
+          },
+          {
+            "heading": "9개월부터",
+            "items": [
+              {
+                "label": "9~14개월",
+                "text": "상등병의 보수",
+                "ref": "시행령 제62조제1항제3호"
+              },
+              {
+                "label": "15개월 이상",
+                "text": "병장의 보수",
+                "ref": "시행령 제62조제1항제4호"
+              },
+              {
+                "label": "합숙근무",
+                "text": "합숙에 따른 숙식과 일상용품을 제공하여야 함",
+                "ref": "시행령 제62조제3항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "법정 편입취소자·퇴교자 등은 시행령 제62조제2항의 기간을 보수 산정 기준기간에 합산합니다."
+      },
+      "lecture_title": "병역법 제31조, 사회복무요원의 복무 및 보수 등",
+      "main_article": "병역법 제31조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|62",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0062&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-045-D03-editorial-v1",
+      "lecture_id": "MS-045",
+      "lesson_number": 45,
+      "diagram_number": 3,
+      "title": "출퇴근 곤란 지역의 범위",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|시행령|61"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 82,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-045/diagrams/MS-045-D03-editorial-v1.svg",
+          "bytes": 6553,
+          "sha256": "63e750427d053879c340b722f0c0181dd52171c50d59dd76a5bfbf414f83d0a8"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-045/diagrams/MS-045-D03-editorial-v1.webp",
+          "bytes": 49908,
+          "sha256": "ef18035256fddd98a7629323257ac518da61d32fb85dfd6c5df8422a921ec543"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-045",
+        "title": "출퇴근 곤란 지역의 범위",
+        "subtitle": "편도 8㎞ 초과와 왕복 3시간 이상을 구별",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|시행령|61"
+        ],
+        "sections": [
+          {
+            "heading": "선편·차량이 없는 경우",
+            "items": [
+              {
+                "label": "낙도지역",
+                "text": "정기선편을 이용하여 출퇴근할 수 없는 낙도지역",
+                "ref": "시행령 제61조제1호"
+              },
+              {
+                "label": "도보 편도 8㎞ 초과",
+                "text": "정기노선 차량이 없어 도보로 출퇴근하는 거리 기준",
+                "ref": "시행령 제61조제2호"
+              }
+            ]
+          },
+          {
+            "heading": "교통 이용시간 등",
+            "items": [
+              {
+                "label": "왕복 3시간 이상",
+                "text": "정기노선 차량 및 선박을 이용하여 출퇴근하는 데 걸리는 시간 기준",
+                "ref": "시행령 제61조제3호"
+              },
+              {
+                "label": "그 밖의 지역",
+                "text": "병무청장이 출퇴근 근무가 곤란하다고 인정하는 지역",
+                "ref": "시행령 제61조제4호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제31조, 사회복무요원의 복무 및 보수 등",
+      "main_article": "병역법 제31조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|61",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0061&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

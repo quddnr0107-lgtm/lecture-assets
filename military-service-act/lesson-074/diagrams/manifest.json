@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-074",
+  "lecture_title": "병역법 제38조의2, 전문연구요원 및 산업기능요원 편입 등의 제한",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-074-D01-editorial-v1",
+      "lecture_id": "MS-074",
+      "lesson_number": 74,
+      "diagram_number": 1,
+      "title": "대표이사와 4촌 이내 혈족",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|38의2",
+        "병역법|시행령|81의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 127,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-074/diagrams/MS-074-D01-editorial-v1.svg",
+          "bytes": 7083,
+          "sha256": "398928a7fdb3033417ffc62e2fae7e33061f651601c6da4beb06aec79ca0ac2f"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-074/diagrams/MS-074-D01-editorial-v1.webp",
+          "bytes": 59374,
+          "sha256": "27c26cc0d17bad977b7b2a7d4b49f24cd7e86a834b334c9f004a6aa7ab3f14bb"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-074",
+        "title": "대표이사와 4촌 이내 혈족",
+        "subtitle": "전문연구요원·산업기능요원의 편입·전직 제한",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|38의2",
+          "병역법|시행령|81의2"
+        ],
+        "sections": [
+          {
+            "heading": "제한 대상",
+            "items": [
+              {
+                "label": "혈족 4촌 이내",
+                "text": "병역지정업체 대표이사의 4촌 이내 혈족에 해당하는 사람.",
+                "ref": "법 제38조의2"
+              },
+              {
+                "label": "기업부설 연구기관",
+                "text": "기업부설 연구기관이면 모기업의 대표이사를 기준으로 판단한다.",
+                "ref": "법 제38조의2"
+              }
+            ]
+          },
+          {
+            "heading": "제한과 확인",
+            "items": [
+              {
+                "label": "편입·전직 불가",
+                "text": "그 병역지정업체에 전문연구요원·산업기능요원 편입 또는 법정 전직을 할 수 없다.",
+                "ref": "법 제38조의2"
+              },
+              {
+                "label": "업체장의 확인",
+                "text": "업체장은 제한대상자인지 확인하고, 해당하지 않는 사람의 신청서만 관할 지방병무청장에게 제출한다.",
+                "ref": "영 제81조의2제1·2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제38조의2, 전문연구요원 및 산업기능요원 편입 등의 제한",
+      "main_article": "병역법 제38조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|38의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0038&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|81의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0081&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

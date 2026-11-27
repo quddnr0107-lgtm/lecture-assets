@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-061",
+  "lecture_title": "병역법 제34조, 공중보건의사 등의 편입",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-061-D01-editorial-v1",
+      "lecture_id": "MS-061",
+      "lesson_number": 61,
+      "diagram_number": 1,
+      "title": "공중보건의사·전담의사 편입",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|34"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 112,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-061/diagrams/MS-061-D01-editorial-v1.svg",
+          "bytes": 7073,
+          "sha256": "98310075f9f83d550fd2d44f29177853c7b968bf60fb93f44ec534c47e26f674"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-061/diagrams/MS-061-D01-editorial-v1.webp",
+          "bytes": 53996,
+          "sha256": "03b0102ec05dbdc9a3e8edf9292714a14fa8b34b970cef9b00dc1edb1dd93d23"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-061",
+        "title": "공중보건의사·전담의사 편입",
+        "subtitle": "자격·편입 결정·기간 계산",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|34"
+        ],
+        "sections": [
+          {
+            "heading": "편입 요건",
+            "items": [
+              {
+                "label": "자격과 희망",
+                "text": "법정 대상자 중 의사·치과의사·한의사 자격자가 원하면 병무청장이 편입할 수 있다.",
+                "ref": "법 제34조제1항"
+              },
+              {
+                "label": "전담의사 제외",
+                "text": "병역판정검사전담의사에는 한의사 자격자를 제외한다.",
+                "ref": "법 제34조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "복무 계산",
+            "items": [
+              {
+                "label": "해당 분야 3년",
+                "text": "3년간 복무하고 마치면 사회복무요원 복무를 마친 것으로 본다.",
+                "ref": "법 제34조제2항"
+              },
+              {
+                "label": "교육기간 불산입",
+                "text": "군사교육소집을 하되 그 기간은 복무기간에 포함하지 않는다.",
+                "ref": "법 제34조제3항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "현역병입영 대상자가 편입되면 보충역에 편입한다."
+      },
+      "lecture_title": "병역법 제34조, 공중보건의사 등의 편입",
+      "main_article": "병역법 제34조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|34",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0034&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

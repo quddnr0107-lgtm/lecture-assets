@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-016",
+  "lecture_title": "병역법 제12조의2, 군의관의 파견",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-016-D01-editorial-v1",
+      "lecture_id": "MS-016",
+      "lesson_number": 16,
+      "diagram_number": 1,
+      "title": "군의관 파견의 요청과 의무",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|본법|12의2",
+        "병역법|시행령|13의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 29,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-016/diagrams/MS-016-D01-editorial-v1.svg",
+          "bytes": 5794,
+          "sha256": "eda00a167eb4d9d97f4a4b2481fd6fe7833e0d8a46291531b0fc7749f003be1c"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-016/diagrams/MS-016-D01-editorial-v1.webp",
+          "bytes": 46260,
+          "sha256": "2be03470ec09984c8c1e523f4f47f6b51d161b2a224c696c03b44f2fdb43f878"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-016",
+        "title": "군의관 파견의 요청과 의무",
+        "subtitle": "병무청장의 요청과 국방부장관의 파견",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|본법|12의2",
+          "병역법|시행령|13의2"
+        ],
+        "sections": [
+          {
+            "heading": "파견 요청 요건",
+            "items": [
+              {
+                "label": "업무 수행 곤란",
+                "text": "병역판정검사전담의사·전문의사만으로 신체검사업무 등을 수행하기 어렵다고 병무청장이 인정",
+                "ref": "법 제12조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "병무청장",
+            "items": [
+              {
+                "label": "요청할 수 있음",
+                "text": "신체검사에 필요한 전문분야별 군의관의 파견을 국방부장관에게 요청",
+                "ref": "시행령 제13조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "국방부장관",
+            "items": [
+              {
+                "label": "파견하여야 함",
+                "text": "요청을 받은 경우 군의관을 파견",
+                "ref": "시행령 제13조의2제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제12조의2, 군의관의 파견",
+      "main_article": "병역법 제12조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|12의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0012&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|13의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0013&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-135",
+  "lecture_title": "병역법 제81조의2, 병역의무 기피자의 인적사항 등의 공개",
+  "diagram_count": 3,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-135-D01-editorial-v1",
+      "lecture_id": "MS-135",
+      "lesson_number": 135,
+      "diagram_number": 1,
+      "title": "병역의무 기피자 공개 절차",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|본법|81의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 214,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-135/diagrams/MS-135-D01-editorial-v1.svg",
+          "bytes": 6585,
+          "sha256": "284200ecc933ab10d9626bbcd6e579eefeca782f95778b661d0fb08302202fdb"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-135/diagrams/MS-135-D01-editorial-v1.webp",
+          "bytes": 51658,
+          "sha256": "9fe721b9857c757f53055a7eccbc7d83ca42a2497a56a9306ec08f8710fe9b57"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-135",
+        "title": "병역의무 기피자 공개 절차",
+        "subtitle": "잠정 대상 통지 후 6개월을 두고 재심의",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|본법|81의2"
+        ],
+        "sections": [
+          {
+            "heading": "잠정 대상 심의",
+            "items": [
+              {
+                "label": "공개심의위원회",
+                "text": "관할 지방병무청에 두는 위원회가 공개 여부 심의",
+                "ref": "법 제81조의2제2항"
+              }
+            ]
+          },
+          {
+            "heading": "통지·소명",
+            "items": [
+              {
+                "label": "관할 지방병무청장",
+                "text": "잠정 공개 대상자에게 통지하고 소명기회 부여",
+                "ref": "법 제81조의2제3항"
+              }
+            ]
+          },
+          {
+            "heading": "6개월 경과",
+            "items": [
+              {
+                "label": "위원회 재심의",
+                "text": "통지일부터 6개월 후 병역의무 이행 상황을 고려하여 공개 여부 재심의",
+                "ref": "법 제81조의2제3항"
+              }
+            ]
+          },
+          {
+            "heading": "대상 결정",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "재심의 후 공개 대상자 결정",
+                "ref": "법 제81조의2제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제81조의2, 병역의무 기피자의 인적사항 등의 공개",
+      "main_article": "병역법 제81조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|81의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0081&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-135-D02-editorial-v1",
+      "lecture_id": "MS-135",
+      "lesson_number": 135,
+      "diagram_number": 2,
+      "title": "공개 내용과 공개 제외 사유",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|81의2",
+        "병역법|시행령|160"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 215,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-135/diagrams/MS-135-D02-editorial-v1.svg",
+          "bytes": 6925,
+          "sha256": "011ba287e4e8a844a8b5eb25aa1ede0908ebb470ee0bf5561b9f630761b013b3"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-135/diagrams/MS-135-D02-editorial-v1.webp",
+          "bytes": 54884,
+          "sha256": "349d8fc5ced9f2f11c8dd99af292a8f0b17e9c4cc52a624b755817679341ea63"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-135",
+        "title": "공개 내용과 공개 제외 사유",
+        "subtitle": "병무청·관할 지방병무청 홈페이지 게시",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|81의2",
+          "병역법|시행령|160"
+        ],
+        "sections": [
+          {
+            "heading": "공개 항목",
+            "items": [
+              {
+                "label": "인적사항",
+                "text": "성명·연령·주소는 도로명과 건물번호까지",
+                "ref": "영 제160조제3항제1호"
+              },
+              {
+                "label": "기피 사항",
+                "text": "기피일자·기피요지·법 위반 조항. 국외여행 기피자는 허가신청 당시 여행국",
+                "ref": "영 제160조제3항"
+              }
+            ]
+          },
+          {
+            "heading": "제외·삭제",
+            "items": [
+              {
+                "label": "공개 제외",
+                "text": "위원회가 질병·수감·천재지변 등 부득이한 이행 곤란 또는 공개 부적절·실익 없음을 인정",
+                "ref": "영 제160조제1항"
+              },
+              {
+                "label": "게시 후 삭제",
+                "text": "병역의무 이행 등으로 공개 실익이 없어지면 인적사항등 삭제 의무",
+                "ref": "영 제160조제5항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제81조의2, 병역의무 기피자의 인적사항 등의 공개",
+      "main_article": "병역법 제81조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|81의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0081&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|160",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0160&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-135-D03-editorial-v1",
+      "lecture_id": "MS-135",
+      "lesson_number": 135,
+      "diagram_number": 3,
+      "title": "병역의무기피공개심의위원회",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|시행령|161"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 216,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-135/diagrams/MS-135-D03-editorial-v1.svg",
+          "bytes": 6218,
+          "sha256": "d53337b07b76de37f6a5ef4010de6cc6b50e51c424349f0914afceeee930699a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-135/diagrams/MS-135-D03-editorial-v1.webp",
+          "bytes": 47990,
+          "sha256": "c10ea7a138499f5654f26fab8b263604d51fa284ed2d208df00d595043a6745c"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-135",
+        "title": "병역의무기피공개심의위원회",
+        "subtitle": "위원장 1명과 위원 10명",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|시행령|161"
+        ],
+        "sections": [
+          {
+            "heading": "11명 구성",
+            "items": [
+              {
+                "label": "위원장 1명",
+                "text": "관할 지방병무청 병역판정관 또는 징집·소집 담당 과장급 중 지명",
+                "ref": "영 제161조제1항·제2항"
+              },
+              {
+                "label": "위원 10명",
+                "text": "소속 공무원 4명 + 학식·경험이 풍부한 위촉위원 6명",
+                "ref": "영 제161조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "임기·회의",
+            "items": [
+              {
+                "label": "위촉위원 2년",
+                "text": "민간 위촉위원의 임기는 2년",
+                "ref": "영 제161조제3항"
+              },
+              {
+                "label": "의결 기준",
+                "text": "재적위원 과반수 출석, 출석위원 과반수 찬성",
+                "ref": "영 제161조제4항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제81조의2, 병역의무 기피자의 인적사항 등의 공개",
+      "main_article": "병역법 제81조의2",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|161",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0161&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

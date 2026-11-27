@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-002",
+  "lecture_title": "병역법 제2조, 정의 등",
+  "diagram_count": 3,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-002-D01-editorial-v1",
+      "lecture_id": "MS-002",
+      "lesson_number": 2,
+      "diagram_number": 1,
+      "title": "징집·소집·입영의 구별",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 1,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-002/diagrams/MS-002-D01-editorial-v1.svg",
+          "bytes": 6774,
+          "sha256": "2d59466a0f89da3bb03695e1b8b92c8cdcb3e1ad5a8387e1a6921a57ecb7a7b5"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-002/diagrams/MS-002-D01-editorial-v1.webp",
+          "bytes": 48546,
+          "sha256": "2f3a469827a798678cb801d63206d2edf645d70406488095f29a1ac2ae741e62"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-002",
+        "title": "징집·소집·입영의 구별",
+        "subtitle": "의무를 부과하는 행위와 군부대에 들어가는 행위",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|2"
+        ],
+        "sections": [
+          {
+            "heading": "의무의 부과",
+            "items": [
+              {
+                "label": "징집",
+                "text": "국가가 병역의무자에게 현역에 복무할 의무를 부과",
+                "ref": "법 제2조제1항제1호"
+              },
+              {
+                "label": "소집",
+                "text": "국가가 예비역·보충역·전시근로역·대체역에 현역 복무 외 군복무의무 또는 공익 분야 복무의무를 부과",
+                "ref": "법 제2조제1항제2호"
+              }
+            ]
+          },
+          {
+            "heading": "입영",
+            "items": [
+              {
+                "label": "계기",
+                "text": "징집·소집 또는 지원에 의함",
+                "ref": "법 제2조제1항제3호"
+              },
+              {
+                "label": "행위",
+                "text": "병역의무자가 군부대에 들어가는 것",
+                "ref": "법 제2조제1항제3호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "소집 대상에는 지원하여 현역에 복무한 여성 중 해당 역에 속하는 사람도 포함됩니다."
+      },
+      "lecture_title": "병역법 제2조, 정의 등",
+      "main_article": "병역법 제2조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0002&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-002-D02-editorial-v1",
+      "lecture_id": "MS-002",
+      "lesson_number": 2,
+      "diagram_number": 2,
+      "title": "병역 연령의 계산",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 2,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-002/diagrams/MS-002-D02-editorial-v1.svg",
+          "bytes": 5448,
+          "sha256": "12e96cd550a15725714f0b6ff95afab2134cc4d8fe1ad9abf5ead20dca9c9567"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-002/diagrams/MS-002-D02-editorial-v1.webp",
+          "bytes": 29790,
+          "sha256": "e09ad8a9acfd180787de2f2fe111101acdf371a8b84f0e39e036918aa916fd07"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-002",
+        "title": "병역 연령의 계산",
+        "subtitle": "병역의무 이행시기를 연령으로 표시한 경우",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|2"
+        ],
+        "sections": [
+          {
+            "heading": "○○세부터",
+            "items": [
+              {
+                "label": "기준 연도",
+                "text": "그 연령이 되는 해",
+                "ref": "법 제2조제2항"
+              },
+              {
+                "label": "시작일",
+                "text": "해당 연도의 1월 1일부터",
+                "ref": "법 제2조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "○○세까지",
+            "items": [
+              {
+                "label": "기준 연도",
+                "text": "그 연령이 되는 해",
+                "ref": "법 제2조제2항"
+              },
+              {
+                "label": "종료일",
+                "text": "해당 연도의 12월 31일까지",
+                "ref": "법 제2조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제2조, 정의 등",
+      "main_article": "병역법 제2조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0002&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-002-D03-editorial-v1",
+      "lecture_id": "MS-002",
+      "lesson_number": 2,
+      "diagram_number": 3,
+      "title": "상근예비역과 전환복무",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 3,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-002/diagrams/MS-002-D03-editorial-v1.svg",
+          "bytes": 6477,
+          "sha256": "bb5bd6280dad72e5c19f1fdd058981bd789e2c80a6581e8dc259ea63aa602336"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-002/diagrams/MS-002-D03-editorial-v1.webp",
+          "bytes": 46412,
+          "sha256": "815ad389e734b7f24db47205c2784fa994cd2b5062c20b74d11cf6efefd7f62c"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-002",
+        "title": "상근예비역과 전환복무",
+        "subtitle": "복무 경로와 신분 변화의 차이",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|2"
+        ],
+        "sections": [
+          {
+            "heading": "상근예비역",
+            "items": [
+              {
+                "label": "입영·편입",
+                "text": "징집으로 현역병 입영 → 일정기간 현역병 복무 → 예비역 편입",
+                "ref": "법 제2조제1항제8호"
+              },
+              {
+                "label": "소집 목적",
+                "text": "지역방위와 이와 관련된 업무를 지원하기 위하여 소집되어 복무",
+                "ref": "법 제2조제1항제8호"
+              }
+            ]
+          },
+          {
+            "heading": "전환복무",
+            "items": [
+              {
+                "label": "대상",
+                "text": "현역병으로 복무 중인 사람",
+                "ref": "법 제2조제1항제7호"
+              },
+              {
+                "label": "신분 전환",
+                "text": "의무경찰대원 또는 의무소방원의 임무에 복무하도록 군인 신분을 다른 신분으로 전환",
+                "ref": "법 제2조제1항제7호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제2조, 정의 등",
+      "main_article": "병역법 제2조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0002&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

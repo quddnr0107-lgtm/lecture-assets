@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-151",
+  "lecture_title": "병역법 제89조, 사회복무요원 등의 대리복무",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-151-D01-editorial-v1",
+      "lecture_id": "MS-151",
+      "lesson_number": 151,
+      "diagram_number": 1,
+      "title": "사회복무요원 등의 대리복무",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|89"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 240,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-151/diagrams/MS-151-D01-editorial-v1.svg",
+          "bytes": 5216,
+          "sha256": "556685e60e7e91562852d935e73f9c1c8a720acea386431ca2be63ea85be1ee5"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-151/diagrams/MS-151-D01-editorial-v1.webp",
+          "bytes": 33884,
+          "sha256": "77374b400a617d36a2c92df98d0ebc0f0bde7cae9406e55ffa852c198d4d600c"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-151",
+        "title": "사회복무요원 등의 대리복무",
+        "subtitle": "복무할 사람을 대신하여 실제 복무한 사람",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|89"
+        ],
+        "sections": [
+          {
+            "heading": "대리복무 대상",
+            "items": [
+              {
+                "label": "세 복무 유형",
+                "text": "사회복무요원·예술·체육요원·대체복무요원으로 복무할 사람",
+                "ref": "법 제89조"
+              },
+              {
+                "label": "처벌 대상",
+                "text": "그 사람을 대리하여 복무한 사람",
+                "ref": "법 제89조"
+              }
+            ]
+          },
+          {
+            "heading": "법정형",
+            "items": [
+              {
+                "label": "1년 이상 3년 이하",
+                "text": "징역에 처함",
+                "ref": "법 제89조"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제89조, 사회복무요원 등의 대리복무",
+      "main_article": "병역법 제89조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|89",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0089&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

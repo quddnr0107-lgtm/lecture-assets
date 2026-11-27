@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-125",
+  "lecture_title": "병역법 제77조의3, 국민건강보험료의 정부지원",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-125-D01-editorial-v1",
+      "lecture_id": "MS-125",
+      "lesson_number": 125,
+      "diagram_number": 1,
+      "title": "건강보험료 지원 대상과 기간",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|77의3",
+        "병역법|시행령|155의3"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 198,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-125/diagrams/MS-125-D01-editorial-v1.svg",
+          "bytes": 6530,
+          "sha256": "d30e978f82ca1a06d89af096f4b3e9dfdf996c412288cf1118b25d26d7f38991"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-125/diagrams/MS-125-D01-editorial-v1.webp",
+          "bytes": 49248,
+          "sha256": "250286850be34c83b2f62dd4bb3365fee07eccd52516991f6c012a94311ca221"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-125",
+        "title": "건강보험료 지원 대상과 기간",
+        "subtitle": "상근예비역·사회복무요원·대체복무요원",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|77의3",
+          "병역법|시행령|155의3"
+        ],
+        "sections": [
+          {
+            "heading": "가입자별 범위",
+            "items": [
+              {
+                "label": "직장가입자",
+                "text": "휴직 등으로 보수 전부·일부가 지급되지 않는 가입자의 보수월액보험료",
+                "ref": "법 제77조의3제1항제1호·제2항제1호"
+              },
+              {
+                "label": "지역가입자",
+                "text": "해당 요원의 지역가입자 월별 보험료",
+                "ref": "법 제77조의3제1항제2호·제2항제2호"
+              }
+            ]
+          },
+          {
+            "heading": "기간·지급",
+            "items": [
+              {
+                "label": "기본 지원기간",
+                "text": "소집된 날부터 해제되는 날까지 지원할 수 있음",
+                "ref": "법 제77조의3제2항"
+              },
+              {
+                "label": "지급 방식",
+                "text": "매월 지급. 납입고지 유예 등 정해진 사유는 일시금 지급 가능",
+                "ref": "영 제155조의3제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제77조의3, 국민건강보험료의 정부지원",
+      "main_article": "병역법 제77조의3",
+      "source_articles": [
+        {
+          "key": "병역법|본법|77의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0077&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|155의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0155&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-125-D02-editorial-v1",
+      "lecture_id": "MS-125",
+      "lesson_number": 125,
+      "diagram_number": 2,
+      "title": "보험료 지원에서 제외되는 기간",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|시행령|155의3"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 199,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-125/diagrams/MS-125-D02-editorial-v1.svg",
+          "bytes": 6508,
+          "sha256": "0fcd0293f2e2dce5ecba2716eddf8eb57492c193df503e7c379e4e130ce6e333"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-125/diagrams/MS-125-D02-editorial-v1.webp",
+          "bytes": 43850,
+          "sha256": "d8bfa379544081302a64cb7c85d8b4368b6e37189f4b68b6d8ebfdcfddbbbd9d"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-125",
+        "title": "보험료 지원에서 제외되는 기간",
+        "subtitle": "복무 형태별 제외기간을 구별",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|시행령|155의3"
+        ],
+        "sections": [
+          {
+            "heading": "상근예비역",
+            "items": [
+              {
+                "label": "현역복무",
+                "text": "상근예비역 소집 전 현역복무기간 제외",
+                "ref": "영 제155조의3제1항제1호가목"
+              },
+              {
+                "label": "미산입 기간",
+                "text": "법 제23조제6항에 따라 복무기간에 산입하지 않는 기간 제외",
+                "ref": "영 제155조의3제1항제1호나목"
+              }
+            ]
+          },
+          {
+            "heading": "사회·대체복무",
+            "items": [
+              {
+                "label": "사회복무요원",
+                "text": "군사교육소집·복무기간 미산입·분할복무 중단 기간 제외",
+                "ref": "영 제155조의3제1항제2호"
+              },
+              {
+                "label": "대체복무요원",
+                "text": "대체역법 제18조제2항의 복무기간 미산입 기간 제외",
+                "ref": "영 제155조의3제1항제3호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제77조의3, 국민건강보험료의 정부지원",
+      "main_article": "병역법 제77조의3",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|155의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0155&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

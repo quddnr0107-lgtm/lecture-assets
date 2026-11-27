@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-053",
+  "lecture_title": "병역법 제32조의3, 사회복무요원의 정치 운동 금지",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-053-D01-editorial-v1",
+      "lecture_id": "MS-053",
+      "lesson_number": 53,
+      "diagram_number": 1,
+      "title": "사회복무요원의 정치운동 금지",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|32의3"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 95,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-053/diagrams/MS-053-D01-editorial-v1.svg",
+          "bytes": 6359,
+          "sha256": "e52dc9adde48abcede72001b6493870a04347743b288fd0606d75c73b03cba71"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-053/diagrams/MS-053-D01-editorial-v1.webp",
+          "bytes": 52234,
+          "sha256": "7b6680e48642e13ad7211c72fb02c8aea430224f6632c9735c410bbc2d84b648"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-053",
+        "title": "사회복무요원의 정치운동 금지",
+        "subtitle": "정당 관여·가입과 다른 요원에 대한 요구를 금지",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|32의3"
+        ],
+        "sections": [
+          {
+            "heading": "정당 관련 금지",
+            "items": [
+              {
+                "label": "결성 관여",
+                "text": "정당의 결성에 관여할 수 없음",
+                "ref": "법 제32조의3제1항"
+              },
+              {
+                "label": "정당 가입",
+                "text": "정당에 가입할 수 없음",
+                "ref": "법 제32조의3제1항"
+              }
+            ]
+          },
+          {
+            "heading": "다른 요원에 대한 금지",
+            "items": [
+              {
+                "label": "위반행위 요구",
+                "text": "다른 사회복무요원에게 제1항·제2항에 위배되는 행위를 하도록 요구 금지",
+                "ref": "법 제32조의3제3항"
+              },
+              {
+                "label": "이익·불이익 약속",
+                "text": "정치적 행위의 보상·보복으로 이익 또는 불이익을 약속하는 행위 금지",
+                "ref": "법 제32조의3제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제32조의3, 사회복무요원의 정치 운동 금지",
+      "main_article": "병역법 제32조의3",
+      "source_articles": [
+        {
+          "key": "병역법|본법|32의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0032&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-053-D02-editorial-v1",
+      "lecture_id": "MS-053",
+      "lesson_number": 53,
+      "diagram_number": 2,
+      "title": "선거와 관련하여 금지되는 행위",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|본법|32의3"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 96,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-053/diagrams/MS-053-D02-editorial-v1.svg",
+          "bytes": 7409,
+          "sha256": "eccb2c3315115d816bbcf2abaa4d0c2830a09d78108f06eee2e564b0524a28c0"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-053/diagrams/MS-053-D02-editorial-v1.webp",
+          "bytes": 58588,
+          "sha256": "a867716c19e046fefb895c4864b99cc8b063c1ac9bf5f78f83335473ae108cd3"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-053",
+        "title": "선거와 관련하여 금지되는 행위",
+        "subtitle": "특정 정당 또는 특정인을 지지·반대하기 위한 행위",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|본법|32의3"
+        ],
+        "sections": [
+          {
+            "heading": "권유·서명·게시",
+            "items": [
+              {
+                "label": "투표 권유 운동",
+                "text": "투표를 하거나 하지 않도록 권유 운동을 하는 것",
+                "ref": "법 제32조의3제2항제1호"
+              },
+              {
+                "label": "서명 운동",
+                "text": "서명 운동을 기도·주재하거나 권유하는 것",
+                "ref": "법 제32조의3제2항제2호"
+              },
+              {
+                "label": "문서·도서 게시",
+                "text": "문서나 도서를 공공시설 등에 게시하거나 게시하게 하는 것",
+                "ref": "법 제32조의3제2항제3호"
+              }
+            ]
+          },
+          {
+            "heading": "자금·정당 가입",
+            "items": [
+              {
+                "label": "기부금·공공자금",
+                "text": "기부금 모집 또는 모집하게 하기, 공공자금 이용 또는 이용하게 하기",
+                "ref": "법 제32조의3제2항제4호"
+              },
+              {
+                "label": "정당 가입 권유",
+                "text": "타인의 정당 가입 또는 불가입을 권유하는 운동",
+                "ref": "법 제32조의3제2항제5호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제32조의3, 사회복무요원의 정치 운동 금지",
+      "main_article": "병역법 제32조의3",
+      "source_articles": [
+        {
+          "key": "병역법|본법|32의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0032&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

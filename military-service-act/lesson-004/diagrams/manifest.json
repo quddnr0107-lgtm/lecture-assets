@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-004",
+  "lecture_title": "병역법 제4조, 다른 법률과의 관계",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-004-D01-editorial-v1",
+      "lecture_id": "MS-004",
+      "lesson_number": 4,
+      "diagram_number": 1,
+      "title": "다른 법률과의 적용 관계",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|4"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 6,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-004/diagrams/MS-004-D01-editorial-v1.svg",
+          "bytes": 6357,
+          "sha256": "099099fd0d470c30ddf14487cb8a716ff6a61ba910e312fe4e3b337c55f79dbb"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-004/diagrams/MS-004-D01-editorial-v1.webp",
+          "bytes": 38438,
+          "sha256": "797f6f4e914d2489c9facabd8dae92888679cbb84348768a521d10dd99026b26"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-004",
+        "title": "다른 법률과의 적용 관계",
+        "subtitle": "복무 일반과 대체역의 편입·복무",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|4"
+        ],
+        "sections": [
+          {
+            "heading": "복무 등에 관한 사항",
+            "items": [
+              {
+                "label": "적용 대상",
+                "text": "징집·소집되거나 지원에 의하여 입영한 사람",
+                "ref": "법 제4조제1항"
+              },
+              {
+                "label": "적용 법률",
+                "text": "병역법에서 규정한 것을 제외하고는 군인사법 적용",
+                "ref": "법 제4조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "대체역",
+            "items": [
+              {
+                "label": "규정 범위",
+                "text": "대체역의 편입 및 복무 등에 필요한 사항",
+                "ref": "법 제4조제2항"
+              },
+              {
+                "label": "적용 법률",
+                "text": "「대체역의 편입 및 복무 등에 관한 법률」에 따름",
+                "ref": "법 제4조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제4조, 다른 법률과의 관계",
+      "main_article": "병역법 제4조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0004&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

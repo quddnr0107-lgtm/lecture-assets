@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-037",
+  "lecture_title": "병역법 제23조의5, 승선근무예비역의 실태조사 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-037-D01-editorial-v1",
+      "lecture_id": "MS-037",
+      "lesson_number": 37,
+      "diagram_number": 1,
+      "title": "승선근무 실태조사와 조치",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|23의5"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 66,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-037/diagrams/MS-037-D01-editorial-v1.svg",
+          "bytes": 8204,
+          "sha256": "5e403ebe9448220bd1cfdd940496daeca415428f9d42fa2761b770fb9e5216c0"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-037/diagrams/MS-037-D01-editorial-v1.webp",
+          "bytes": 70194,
+          "sha256": "30921852cbf62ed35c9397d9986d1bc9082a14bb1f6f67b2081fb47f135d5436"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-037",
+        "title": "승선근무 실태조사와 조치",
+        "subtitle": "매년 운영계획·연 1회 이상 실태조사",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|23의5"
+        ],
+        "sections": [
+          {
+            "heading": "계획·실태조사",
+            "items": [
+              {
+                "label": "해양수산부장관",
+                "text": "제도의 체계적 운영을 위해 매년 운영계획을 수립·시행하여야 함",
+                "ref": "법 제23조의5제1항"
+              },
+              {
+                "label": "관할 지방병무청장",
+                "text": "업체와 승선근무예비역에 대해 복무관리·인권침해 등 실태조사를 연 1회 이상 실시",
+                "ref": "법 제23조의5제2항"
+              },
+              {
+                "label": "해외 근무 등",
+                "text": "실태조사가 어려우면 정보통신망 등을 이용하여 조사 가능",
+                "ref": "법 제23조의5제2항"
+              }
+            ]
+          },
+          {
+            "heading": "조사 결과에 따른 조치",
+            "items": [
+              {
+                "label": "업체 이동",
+                "text": "관할청은 법정 확인 결과 인권침해를 인정하면 다른 업체로 이동하여 승선근무하게 할 수 있음",
+                "ref": "법 제23조의5제3항"
+              },
+              {
+                "label": "다음 해 배정 제한",
+                "text": "병무청장은 조사 결과 복무관리 부실·인권침해 등이 발생한 업체의 인원을 배정하지 않거나 제한 가능",
+                "ref": "법 제23조의5제4항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제23조의5, 승선근무예비역의 실태조사 등",
+      "main_article": "병역법 제23조의5",
+      "source_articles": [
+        {
+          "key": "병역법|본법|23의5",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=05&joNo=0023&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

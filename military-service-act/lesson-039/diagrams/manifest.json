@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-039",
+  "lecture_title": "병역법 제25조, 추천에 의한 전환복무",
+  "diagram_count": 4,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-039-D01-editorial-v1",
+      "lecture_id": "MS-039",
+      "lesson_number": 39,
+      "diagram_number": 1,
+      "title": "추천에 의한 전환복무",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|본법|25"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 70,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-039/diagrams/MS-039-D01-editorial-v1.svg",
+          "bytes": 7061,
+          "sha256": "08b16e39909472a9b7fce8cc6442a5ac9becc120b4115ff7902ecc49b56fc309"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-039/diagrams/MS-039-D01-editorial-v1.webp",
+          "bytes": 55716,
+          "sha256": "24e763fb45bb4168b8110774a4c17225820ebba039e6986fc43dde38e223216d"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-039",
+        "title": "추천에 의한 전환복무",
+        "subtitle": "법에 규정된 추천·입영·군사교육·전환의 절차",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|본법|25"
+        ],
+        "sections": [
+          {
+            "heading": "임용예정자 등의 추천",
+            "items": [
+              {
+                "label": "각 기관의 장",
+                "text": "소방청장은 의무소방원, 경찰청장·해양경찰청장은 의무경찰 임용예정자 등을 국방부장관에게 추천",
+                "ref": "법 제25조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "현역병으로 입영",
+            "items": [
+              {
+                "label": "국방부장관",
+                "text": "추천받은 사람을 현역병지원자로 보아 지방병무청장이 입영하게 함",
+                "ref": "법 제25조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "군사교육 후 전환",
+            "items": [
+              {
+                "label": "전환복무 가능",
+                "text": "정하여진 군사교육을 마치게 한 후 전환복무시킬 수 있음",
+                "ref": "법 제25조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "복무를 마친 뒤",
+            "items": [
+              {
+                "label": "국방부장관",
+                "text": "전환복무를 해제하고 예비역에 편입",
+                "ref": "법 제25조제5항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제25조, 추천에 의한 전환복무",
+      "main_article": "병역법 제25조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|25",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0025&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-039-D02-editorial-v1",
+      "lecture_id": "MS-039",
+      "lesson_number": 39,
+      "diagram_number": 2,
+      "title": "전환복무기간과 연장",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|25"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 71,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-039/diagrams/MS-039-D02-editorial-v1.svg",
+          "bytes": 7277,
+          "sha256": "52e08b82ab1107f6ff4e44f3c5b5f1b589317fec5f34926f0b1899ad1e30ea50"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-039/diagrams/MS-039-D02-editorial-v1.webp",
+          "bytes": 56912,
+          "sha256": "6446062ea81de6b543bda86f46296b34aed0d8c6f809687085bfe61eb2cc8887"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-039",
+        "title": "전환복무기간과 연장",
+        "subtitle": "입영일부터 계산하며 현역병 복무기간과 같음",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|25"
+        ],
+        "sections": [
+          {
+            "heading": "복무기간",
+            "items": [
+              {
+                "label": "기산일·기간",
+                "text": "입영한 날부터 기산하여 현역병 복무기간과 같은 기간 복무",
+                "ref": "법 제25조제2항"
+              },
+              {
+                "label": "현역 복무로 간주",
+                "text": "전환복무기간과 연장된 전환복무기간 모두 현역병으로 복무한 기간으로 봄",
+                "ref": "법 제25조제4항"
+              }
+            ]
+          },
+          {
+            "heading": "6개월 범위 연장",
+            "items": [
+              {
+                "label": "연장 주체",
+                "text": "경찰청장·소방청장 또는 해양경찰청장",
+                "ref": "법 제25조제3항"
+              },
+              {
+                "label": "연장 사유",
+                "text": "전시·사변에 준하는 사태, 특별재난지역 선포 또는 전환복무 자원 충원 곤란",
+                "ref": "법 제25조제3항"
+              },
+              {
+                "label": "필수 절차",
+                "text": "국방부장관과 협의하고 국무회의 심의를 거쳐 대통령의 승인을 받아야 함",
+                "ref": "법 제25조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제25조, 추천에 의한 전환복무",
+      "main_article": "병역법 제25조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|25",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0025&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-039-D03-editorial-v1",
+      "lecture_id": "MS-039",
+      "lesson_number": 39,
+      "diagram_number": 3,
+      "title": "전환복무 추천의 일정",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|시행령|43"
+      ],
+      "part": 1,
+      "parts": 2,
+      "content_index": 72,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-039/diagrams/MS-039-D03-editorial-v1.svg",
+          "bytes": 6096,
+          "sha256": "f7f994e09ee15d838d160e22f586b3df694e040580bdc97531471ec147db26e6"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-039/diagrams/MS-039-D03-editorial-v1.webp",
+          "bytes": 52560,
+          "sha256": "8c60c6c2880883b5933d924a90d6d51c14051682137feb68defe896bf1e444e8"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-039",
+        "title": "전환복무 추천의 일정",
+        "subtitle": "추천 배정 요청에서 본인 입영통지까지",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|시행령|43"
+        ],
+        "sections": [
+          {
+            "heading": "2월 말일까지",
+            "items": [
+              {
+                "label": "각 기관의 장",
+                "text": "경찰청장·소방청장·해양경찰청장이 다음 해 추천인원의 배정을 국방부장관에게 요청",
+                "ref": "시행령 제43조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "입영일 50일 전",
+            "items": [
+              {
+                "label": "추천 명단 송부",
+                "text": "각 기관의 장이 추천할 사람의 명단을 병무청장에게 송부",
+                "ref": "시행령 제43조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "입영일 45일 전",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "추천 명단을 지방병무청장에게 송부",
+                "ref": "시행령 제43조제3항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "경찰대학 졸업예정자로 의무경찰대에 복무할 사람의 추천 명단은 졸업하는 해 1월 15일까지 송부."
+      },
+      "lecture_title": "병역법 제25조, 추천에 의한 전환복무",
+      "main_article": "병역법 제25조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|43",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0043&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-039-D04-editorial-v1",
+      "lecture_id": "MS-039",
+      "lesson_number": 39,
+      "diagram_number": 4,
+      "title": "전환복무 추천의 일정",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|시행령|43"
+      ],
+      "part": 2,
+      "parts": 2,
+      "content_index": 72,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-039/diagrams/MS-039-D04-editorial-v1.svg",
+          "bytes": 3554,
+          "sha256": "57fbde3cafb1c19e111bf98c8b087f41b5fde9ca3119148a001f829beb1c306a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-039/diagrams/MS-039-D04-editorial-v1.webp",
+          "bytes": 31882,
+          "sha256": "03c1eb09439bf3a1b791a3c752fb5b113c4ac411a02647fd0c7c7d68bb0a6761"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-039",
+        "title": "전환복무 추천의 일정",
+        "subtitle": "추천 배정 요청에서 본인 입영통지까지",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|시행령|43"
+        ],
+        "sections": [
+          {
+            "heading": "입영일 30일 전",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "본인에게 현역병입영 통지서를 송달",
+                "ref": "시행령 제43조제3항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "경찰대학 졸업예정자로 의무경찰대에 복무할 사람의 추천 명단은 졸업하는 해 1월 15일까지 송부."
+      },
+      "lecture_title": "병역법 제25조, 추천에 의한 전환복무",
+      "main_article": "병역법 제25조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|43",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0043&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

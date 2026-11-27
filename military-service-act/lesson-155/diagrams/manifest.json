@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-155",
+  "lecture_title": "병역법 제90조, 병력동원훈련소집 등의 기피",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-155-D01-editorial-v1",
+      "lecture_id": "MS-155",
+      "lesson_number": 155,
+      "diagram_number": 1,
+      "title": "병력동원훈련소집등 기피와 대리",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|90"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 245,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-155/diagrams/MS-155-D01-editorial-v1.svg",
+          "bytes": 6445,
+          "sha256": "0ce0fa3a8c4644725c9cc1b1d4382ce8b516dc7b99bc8ab0fe2a940f5f9034a6"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-155/diagrams/MS-155-D01-editorial-v1.webp",
+          "bytes": 42352,
+          "sha256": "505329ef0bcf09eb0967580cce929705dee298ef2b2033c8204175e0dcfcf1c9"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-155",
+        "title": "병력동원훈련소집등 기피와 대리",
+        "subtitle": "병력동원훈련소집·점검 및 예비군대체복무 소집",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|90"
+        ],
+        "sections": [
+          {
+            "heading": "본인의 불참",
+            "items": [
+              {
+                "label": "요건",
+                "text": "통지서를 받고 정당한 사유 없이 지정 일시에 입영·점검·소집에 불응",
+                "ref": "법 제90조제1항"
+              },
+              {
+                "label": "법정형",
+                "text": "1년 이하의 징역 또는 1천만원 이하의 벌금이나 구류",
+                "ref": "법 제90조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "다른 사람의 대리",
+            "items": [
+              {
+                "label": "요건",
+                "text": "통지서를 받은 사람을 대리하여 입영·점검 또는 예비군대체복무 소집에 응함",
+                "ref": "법 제90조제2항"
+              },
+              {
+                "label": "법정형",
+                "text": "2년 이하의 징역",
+                "ref": "법 제90조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제90조, 병력동원훈련소집 등의 기피",
+      "main_article": "병역법 제90조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|90",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0090&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

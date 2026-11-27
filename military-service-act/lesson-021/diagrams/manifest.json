@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-021",
+  "lecture_title": "병역법 제14조의3, 입영판정검사",
+  "diagram_count": 4,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-021-D01-editorial-v1",
+      "lecture_id": "MS-021",
+      "lesson_number": 21,
+      "diagram_number": 1,
+      "title": "입영판정검사의 대상과 내용",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|14의3"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 37,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-021/diagrams/MS-021-D01-editorial-v1.svg",
+          "bytes": 7676,
+          "sha256": "b5eb4e4ef67fd10f4ad35632e3aa73c42c964614d1c73637fe4d670fe2961073"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-021/diagrams/MS-021-D01-editorial-v1.webp",
+          "bytes": 58656,
+          "sha256": "8697e6ce7feb478849accfd210530cee97c9a9d0bf9081a1f84cd76023245ffb"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-021",
+        "title": "입영판정검사의 대상과 내용",
+        "subtitle": "지방병무청장이 입영 전에 검사하고 통지",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|14의3"
+        ],
+        "sections": [
+          {
+            "heading": "검사 대상",
+            "items": [
+              {
+                "label": "통지서를 받은 사람",
+                "text": "현역병입영 또는 군사교육소집 통지서를 교부받은 사람",
+                "ref": "법 제14조의3제1항"
+              },
+              {
+                "label": "제외 대상",
+                "text": "법 제55조제1항 단서 또는 제2항의 군사교육소집 대상자는 제외",
+                "ref": "법 제14조의3제1항"
+              },
+              {
+                "label": "검사 의무",
+                "text": "통지받은 사람은 지방병무청장이 지정한 일시·장소에서 검사받아야 함",
+                "ref": "법 제14조의3제2항"
+              }
+            ]
+          },
+          {
+            "heading": "세 가지 검사",
+            "items": [
+              {
+                "label": "신체검사",
+                "text": "신체검사 실시",
+                "ref": "법 제14조의3제1항제1호"
+              },
+              {
+                "label": "심리검사",
+                "text": "심리검사 실시",
+                "ref": "법 제14조의3제1항제2호"
+              },
+              {
+                "label": "마약류 검사",
+                "text": "마약류의 투약·흡연·섭취 여부에 관한 검사 실시",
+                "ref": "법 제14조의3제1항제3호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제14조의3, 입영판정검사",
+      "main_article": "병역법 제14조의3",
+      "source_articles": [
+        {
+          "key": "병역법|본법|14의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0014&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-021-D02-editorial-v1",
+      "lecture_id": "MS-021",
+      "lesson_number": 21,
+      "diagram_number": 2,
+      "title": "입영판정검사의 결과 처리",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|14의3",
+        "병역법|시행령|18의5"
+      ],
+      "part": 1,
+      "parts": 2,
+      "content_index": 38,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-021/diagrams/MS-021-D02-editorial-v1.svg",
+          "bytes": 7533,
+          "sha256": "439d0f974ccf1bdf33b16cffd099006fd98d5432b4b9b06762966cd72b8cedcc"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-021/diagrams/MS-021-D02-editorial-v1.webp",
+          "bytes": 61466,
+          "sha256": "38442c5a31a6908bac10fd017a5395a16d4cef8565f5fefb9e61088523da69fd"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-021",
+        "title": "입영판정검사의 결과 처리",
+        "subtitle": "병역처분 변경과 입영부대 검사 요청",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|14의3",
+          "병역법|시행령|18의5"
+        ],
+        "sections": [
+          {
+            "heading": "검사 결과",
+            "items": [
+              {
+                "label": "복무·교육 부적합",
+                "text": "신체·심리상태가 현역 복무 또는 군사교육에 부적합하면 신체등급·병역처분 변경 가능",
+                "ref": "법 제14조의3제3항"
+              },
+              {
+                "label": "치료기간 필요",
+                "text": "질병·심신장애로 치료기간이 필요하면 재검사 후 신체등급에 따라 병역처분 변경 가능",
+                "ref": "법 제14조의3제4항"
+              }
+            ]
+          },
+          {
+            "heading": "입영부대 검사 요청",
+            "items": [
+              {
+                "label": "병무청장의 요청",
+                "text": "수용 능력 초과 등 법정 사유로 실시 곤란하다고 인정하면 국방부장관에게 입영신체검사 요청 가능",
+                "ref": "법 제14조의3제7항"
+              },
+              {
+                "label": "국방부장관의 의무",
+                "text": "요청받으면 입영부대의 장이 입영신체검사하도록 하여야 함 — 마약류 검사 포함",
+                "ref": "법 제14조의3제7항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제14조의3, 입영판정검사",
+      "main_article": "병역법 제14조의3",
+      "source_articles": [
+        {
+          "key": "병역법|본법|14의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0014&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|18의5",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=05&joNo=0018&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-021-D03-editorial-v1",
+      "lecture_id": "MS-021",
+      "lesson_number": 21,
+      "diagram_number": 3,
+      "title": "입영판정검사의 결과 처리",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|14의3",
+        "병역법|시행령|18의5"
+      ],
+      "part": 2,
+      "parts": 2,
+      "content_index": 38,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-021/diagrams/MS-021-D03-editorial-v1.svg",
+          "bytes": 3294,
+          "sha256": "f88ed4eb5f5f8aabc22994df11cc642057aaea3dec6a829b2b5598f5cc5aeec5"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-021/diagrams/MS-021-D03-editorial-v1.webp",
+          "bytes": 28982,
+          "sha256": "9508ce82049b656aca05e8d60b4b02cf6320e71da7b99623007a8da740966022"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-021",
+        "title": "입영판정검사의 결과 처리",
+        "subtitle": "병역처분 변경과 입영부대 검사 요청",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|14의3",
+          "병역법|시행령|18의5"
+        ],
+        "sections": [
+          {
+            "heading": "검사 결과",
+            "items": [
+              {
+                "label": "군사교육 대상자",
+                "text": "현역병입영 기준에 해당하는 등급이 나와도 종전 병역처분은 변경하지 않음",
+                "ref": "시행령 제18조의5제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제14조의3, 입영판정검사",
+      "main_article": "병역법 제14조의3",
+      "source_articles": [
+        {
+          "key": "병역법|본법|14의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0014&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|18의5",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=05&joNo=0018&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-021-D04-editorial-v1",
+      "lecture_id": "MS-021",
+      "lesson_number": 21,
+      "diagram_number": 4,
+      "title": "입영판정검사의 시기·연기",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|시행령|18의3",
+        "병역법|시행령|18의6",
+        "병역법|시행령|18의7"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 39,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-021/diagrams/MS-021-D04-editorial-v1.svg",
+          "bytes": 7633,
+          "sha256": "40edefbe544e83eb370871de72da8bc737c1bcf3fdfcb8a078f0d8cccaf7624c"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-021/diagrams/MS-021-D04-editorial-v1.webp",
+          "bytes": 64450,
+          "sha256": "9ffe60104c1563a76f84c861e8b6b39e7982f710506f9ba310f0fd9becb83acf"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-021",
+        "title": "입영판정검사의 시기·연기",
+        "subtitle": "입영 전 30일과 최근 검사 후 6개월",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|시행령|18의3",
+          "병역법|시행령|18의6",
+          "병역법|시행령|18의7"
+        ],
+        "sections": [
+          {
+            "heading": "검사 시기·제외",
+            "items": [
+              {
+                "label": "입영 전 30일",
+                "text": "입영일 30일 전부터 입영일 전일까지 실시",
+                "ref": "시행령 제18조의3제1항"
+              },
+              {
+                "label": "6개월 미경과",
+                "text": "병역판정·재병역판정·입영판정검사 또는 현역병지원 신체검사를 받은 날부터 6개월 미경과자는 제외",
+                "ref": "시행령 제18조의7제1호"
+              },
+              {
+                "label": "본인이 원하면",
+                "text": "최근 검사에 따른 제외자가 입영판정검사를 원하면 실시할 수 있음",
+                "ref": "시행령 제18조의3제4항"
+              }
+            ]
+          },
+          {
+            "heading": "검사 연기",
+            "items": [
+              {
+                "label": "연기 조건",
+                "text": "시행령 제129조제1항 사유가 있고 입영 전에 해소되어 검사 후 입영할 수 있는 사람",
+                "ref": "시행령 제18조의6제1항"
+              },
+              {
+                "label": "검사일 전일까지",
+                "text": "연기원서를 지방병무청장에게 제출",
+                "ref": "시행령 제18조의6제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제14조의3, 입영판정검사",
+      "main_article": "병역법 제14조의3",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|18의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0018&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        },
+        {
+          "key": "병역법|시행령|18의6",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=06&joNo=0018&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        },
+        {
+          "key": "병역법|시행령|18의7",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=07&joNo=0018&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

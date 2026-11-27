@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-150",
+  "lecture_title": "병역법 제88조의2, 대체역 편입의 허위",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-150-D01-editorial-v1",
+      "lecture_id": "MS-150",
+      "lesson_number": 150,
+      "diagram_number": 1,
+      "title": "거짓으로 대체역 편입을 시도한 경우",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|88의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 239,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-150/diagrams/MS-150-D01-editorial-v1.svg",
+          "bytes": 5158,
+          "sha256": "f7d18eb13c0272443cc42aa327f5a5a1613f5a9a294dd2fc00e3a36f4692ed50"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-150/diagrams/MS-150-D01-editorial-v1.webp",
+          "bytes": 35248,
+          "sha256": "33473d5392fc978283b0469f60027c6e981459c53b53e480462a34ed1cb7d143"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-150",
+        "title": "거짓으로 대체역 편입을 시도한 경우",
+        "subtitle": "본인의 대체역 편입 목적을 요건으로 함",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|88의2"
+        ],
+        "sections": [
+          {
+            "heading": "목적·행위",
+            "items": [
+              {
+                "label": "목적",
+                "text": "대체역으로 편입될 목적",
+                "ref": "법 제88조의2"
+              },
+              {
+                "label": "행위",
+                "text": "서류를 거짓으로 작성하여 제출하거나 거짓으로 진술",
+                "ref": "법 제88조의2"
+              }
+            ]
+          },
+          {
+            "heading": "법정형",
+            "items": [
+              {
+                "label": "1년 이상 5년 이하",
+                "text": "징역에 처함",
+                "ref": "법 제88조의2"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제88조의2, 대체역 편입의 허위",
+      "main_article": "병역법 제88조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|88의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0088&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-031",
+  "lecture_title": "병역법 제21조의2, 승선근무예비역의 편입 등",
+  "diagram_count": 3,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-031-D01-editorial-v1",
+      "lecture_id": "MS-031",
+      "lesson_number": 31,
+      "diagram_number": 1,
+      "title": "승선근무예비역의 편입",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|21의2"
+      ],
+      "part": 1,
+      "parts": 2,
+      "content_index": 54,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-031/diagrams/MS-031-D01-editorial-v1.svg",
+          "bytes": 7364,
+          "sha256": "7caea5f3c20039a7e1d83212a5e5bcfd3f2c4010ac2bcbefcc5029e542a2a106"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-031/diagrams/MS-031-D01-editorial-v1.webp",
+          "bytes": 60330,
+          "sha256": "d567bffb342598337af73c42230caa5e19acaa430c4d3688078b851e34757f37"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-031",
+        "title": "승선근무예비역의 편입",
+        "subtitle": "항해사·기관사 면허와 지원을 공통 요건으로 확인",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|21의2"
+        ],
+        "sections": [
+          {
+            "heading": "공통 요건",
+            "items": [
+              {
+                "label": "면허",
+                "text": "선박직원법에 따른 항해사·기관사 면허 보유",
+                "ref": "법 제21조의2제1항"
+              },
+              {
+                "label": "지원",
+                "text": "각 편입 경로에 해당하는 사람이 지원하여 편입 가능",
+                "ref": "법 제21조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "편입 경로·병적",
+            "items": [
+              {
+                "label": "예비역 장교",
+                "text": "고교 이상 학교의 해군 학군 사관후보생 과정 수료 후 현역 장교 병적에 편입되지 않은 사람",
+                "ref": "법 제21조의2제1항제1호·제2항제1호"
+              },
+              {
+                "label": "예비역 부사관",
+                "text": "고교 이상 학교의 해군 학군 부사관후보생 과정 수료 후 현역 부사관 병적에 편입되지 않은 사람",
+                "ref": "법 제21조의2제1항제1호·제2항제2호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "병무청장은 군 충원에 지장이 없는 범위에서 편입인원과 업체별 배정인원을 결정합니다."
+      },
+      "lecture_title": "병역법 제21조의2, 승선근무예비역의 편입 등",
+      "main_article": "병역법 제21조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|21의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0021&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-031-D02-editorial-v1",
+      "lecture_id": "MS-031",
+      "lesson_number": 31,
+      "diagram_number": 2,
+      "title": "승선근무예비역의 편입",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|21의2"
+      ],
+      "part": 2,
+      "parts": 2,
+      "content_index": 54,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-031/diagrams/MS-031-D02-editorial-v1.svg",
+          "bytes": 3721,
+          "sha256": "a740a3caa4f255761d48a7e34e919d828c5837a3162f3d796ba7e8bcfdc9eb9c"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-031/diagrams/MS-031-D02-editorial-v1.webp",
+          "bytes": 36192,
+          "sha256": "d97f3dcf2b30c2326c24a8092ad63b17cba453f66a9b5ed3bb940e94b5c0913b"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-031",
+        "title": "승선근무예비역의 편입",
+        "subtitle": "항해사·기관사 면허와 지원을 공통 요건으로 확인",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|21의2"
+        ],
+        "sections": [
+          {
+            "heading": "편입 경로·병적",
+            "items": [
+              {
+                "label": "예비역 병",
+                "text": "현역병입영 대상자로서 해양수산부장관이 지정한 교육기관의 정규교육과정을 마친 사람",
+                "ref": "법 제21조의2제1항제2호·제2항제3호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "병무청장은 군 충원에 지장이 없는 범위에서 편입인원과 업체별 배정인원을 결정합니다."
+      },
+      "lecture_title": "병역법 제21조의2, 승선근무예비역의 편입 등",
+      "main_article": "병역법 제21조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|21의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0021&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-031-D03-editorial-v1",
+      "lecture_id": "MS-031",
+      "lesson_number": 31,
+      "diagram_number": 3,
+      "title": "승선근무예비역 군사교육",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|시행령|113의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 55,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-031/diagrams/MS-031-D03-editorial-v1.svg",
+          "bytes": 6312,
+          "sha256": "0147d985ac669f75fc46a75ade677373c298800afda381f8fe692b68fd95bb7a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-031/diagrams/MS-031-D03-editorial-v1.webp",
+          "bytes": 51182,
+          "sha256": "9c8e12c6bde27a0ab0b7e1dc3569bdbef1cf002f060b82ea592ea2595b5b4a1e"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-031",
+        "title": "승선근무예비역 군사교육",
+        "subtitle": "법 제21조의2제1항제2호 경로로 편입된 사람",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|시행령|113의2"
+        ],
+        "sections": [
+          {
+            "heading": "군사교육 시점",
+            "items": [
+              {
+                "label": "원칙",
+                "text": "편입 후 최초 승선근무를 하기 전에 군사교육소집 실시",
+                "ref": "시행령 제113조의2제1항"
+              },
+              {
+                "label": "이미 승선 중",
+                "text": "시행령 제40조의2제1항의 선박에서 이미 근무 중이면 하선한 때 실시",
+                "ref": "시행령 제113조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "통지서 송달",
+            "items": [
+              {
+                "label": "관할 지방병무청장",
+                "text": "본인에게 군사교육소집 통지서를 송달",
+                "ref": "시행령 제113조의2제3항"
+              },
+              {
+                "label": "30일 전까지",
+                "text": "군사교육소집 30일 전까지 송달하여야 함",
+                "ref": "시행령 제113조의2제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제21조의2, 승선근무예비역의 편입 등",
+      "main_article": "병역법 제21조의2",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|113의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0113&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

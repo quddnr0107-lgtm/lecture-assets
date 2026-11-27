@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-018",
+  "lecture_title": "병역법 제13조의2, 자격·면허 등 자료의 제출 요구 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-018-D01-editorial-v1",
+      "lecture_id": "MS-018",
+      "lesson_number": 18,
+      "diagram_number": 1,
+      "title": "자격·면허 자료의 제출",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|13의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 32,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-018/diagrams/MS-018-D01-editorial-v1.svg",
+          "bytes": 7678,
+          "sha256": "3d7b718c6ce5e6460c1129cec2ad159705a1dc49d0bb939379ba913b2d4030c2"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-018/diagrams/MS-018-D01-editorial-v1.webp",
+          "bytes": 62880,
+          "sha256": "00672b9c39c3c36cb9d930334078ce09e979be6cd70288c21bf0c5084baf026f"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-018",
+        "title": "자격·면허 자료의 제출",
+        "subtitle": "적성 분류·결정을 위한 자료 요구와 보호",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|13의2"
+        ],
+        "sections": [
+          {
+            "heading": "지방병무청장의 요구",
+            "items": [
+              {
+                "label": "목적·대상",
+                "text": "적성 분류·결정과 관련하여 병역판정검사 대상자의 자격·면허 취득·취소 자료 요구 가능",
+                "ref": "법 제13조의2제1항"
+              },
+              {
+                "label": "국가·공공기관",
+                "text": "국가기관·지방자치단체 및 법정 공공기관의 장에게 요구",
+                "ref": "법 제13조의2제1항제1호·제2호"
+              },
+              {
+                "label": "공인 민간자격",
+                "text": "주무부장관이 공인한 민간자격을 관리하는 법인에게 요구",
+                "ref": "법 제13조의2제1항제3호"
+              }
+            ]
+          },
+          {
+            "heading": "자료 제공·이용",
+            "items": [
+              {
+                "label": "응할 의무",
+                "text": "요구받은 자는 특별한 사유가 없으면 따라야 함",
+                "ref": "법 제13조의2제1항"
+              },
+              {
+                "label": "목적 외 사용 금지",
+                "text": "누구든지 공개·누설·제공하는 등 적성 분류·결정 외 목적으로 사용 금지",
+                "ref": "법 제13조의2제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제13조의2, 자격·면허 등 자료의 제출 요구 등",
+      "main_article": "병역법 제13조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|13의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0013&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

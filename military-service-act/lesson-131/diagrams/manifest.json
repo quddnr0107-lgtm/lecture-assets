@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-131",
+  "lecture_title": "병역법 제79조의2, 적금의 정부지원",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-131-D01-editorial-v1",
+      "lecture_id": "MS-131",
+      "lesson_number": 131,
+      "diagram_number": 1,
+      "title": "장병내일준비적금의 정부지원",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|79의2",
+        "병역법|시행령|158의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 209,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-131/diagrams/MS-131-D01-editorial-v1.svg",
+          "bytes": 6580,
+          "sha256": "ca0d7ffa712ad704ba0fcd6e51be10f7d01a639681aea4a96859242d24a2fa5d"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-131/diagrams/MS-131-D01-editorial-v1.webp",
+          "bytes": 53478,
+          "sha256": "95970515201e69fa802142d2cce0c0f5533202be30ab19b686022c5c19fefe37"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-131",
+        "title": "장병내일준비적금의 정부지원",
+        "subtitle": "지원 대상과 만기 요건",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|79의2",
+          "병역법|시행령|158의2"
+        ],
+        "sections": [
+          {
+            "heading": "지원 대상·액수",
+            "items": [
+              {
+                "label": "가입 대상",
+                "text": "현역병·상근예비역·사회복무요원·대체복무요원 및 전환복무자",
+                "ref": "법 제79조의2제1항"
+              },
+              {
+                "label": "입금액의 100%",
+                "text": "입금일부터 만기일 전날까지 입금액의 100%에 해당하는 재정지원금",
+                "ref": "영 제158조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "만기·중도해지",
+            "items": [
+              {
+                "label": "만기 전 전역",
+                "text": "계약 만기 전에 전역하는 경우 복무기간 종료일을 만기일로 봄",
+                "ref": "영 제158조의2제1항"
+              },
+              {
+                "label": "중도해지",
+                "text": "계약 만기일 전에 해지하면 재정지원금을 지원하지 않음",
+                "ref": "영 제158조의2제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제79조의2, 적금의 정부지원",
+      "main_article": "병역법 제79조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|79의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0079&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|158의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0158&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

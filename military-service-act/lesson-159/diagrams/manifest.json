@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-159",
+  "lecture_title": "병역법 제92조, 전문연구요원 등의 편입 및 복무의무위반 등",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-159-D01-editorial-v1",
+      "lecture_id": "MS-159",
+      "lesson_number": 159,
+      "diagram_number": 1,
+      "title": "편입·복무위반과 후순위 부정",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|92"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 249,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-159/diagrams/MS-159-D01-editorial-v1.svg",
+          "bytes": 6270,
+          "sha256": "fc2a6e8cefe1d7b97d92466a5a25e8d540d63022dd02d8e4ae3c1fff90dfa081"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-159/diagrams/MS-159-D01-editorial-v1.webp",
+          "bytes": 48720,
+          "sha256": "7c21fbb2fcbe0cde86f0f6814adddd1ab3a6ae7cff6bca135ae205d7f9f8048b"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-159",
+        "title": "편입·복무위반과 후순위 부정",
+        "subtitle": "전문연구요원·산업기능요원 관련 처벌",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|92"
+        ],
+        "sections": [
+          {
+            "heading": "고용주의 복무위반",
+            "items": [
+              {
+                "label": "위반행위",
+                "text": "대표이사 4촌 이내 혈족의 편입·전직 또는 지정업체 해당 분야 미복무",
+                "ref": "법 제92조제1항"
+              },
+              {
+                "label": "법정형",
+                "text": "200만원 이상 2천만원 이하의 벌금",
+                "ref": "법 제92조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "소집 후순위 부정",
+            "items": [
+              {
+                "label": "행위자·행위",
+                "text": "고용주 또는 국가기능검정·면허사무 취급자의 제67조 후순위 조정 부정행위",
+                "ref": "법 제92조제2항"
+              },
+              {
+                "label": "법정형",
+                "text": "3년 이하의 징역",
+                "ref": "법 제92조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제92조, 전문연구요원 등의 편입 및 복무의무위반 등",
+      "main_article": "병역법 제92조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|92",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0092&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-159-D02-editorial-v1",
+      "lecture_id": "MS-159",
+      "lesson_number": 159,
+      "diagram_number": 2,
+      "title": "편입 청탁과 금품 수수의 처벌",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|92"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 250,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-159/diagrams/MS-159-D02-editorial-v1.svg",
+          "bytes": 6641,
+          "sha256": "bc9610b2bd7c128b8fd49f15806ec841e8da5bc81fe4ffa8c5121247aaecf4ea"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-159/diagrams/MS-159-D02-editorial-v1.webp",
+          "bytes": 53658,
+          "sha256": "f07887da5e24fe89a31ffd5e7224baa5c6c049f71d908e8aaf622ba17bbc2563"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-159",
+        "title": "편입 청탁과 금품 수수의 처벌",
+        "subtitle": "특정인이 전문연구·산업기능요원으로 복무하도록 하는 청탁",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|92"
+        ],
+        "sections": [
+          {
+            "heading": "청탁 대가 취득",
+            "items": [
+              {
+                "label": "병역지정업체의 장",
+                "text": "편입 청탁을 받고 금품·재산상 이익 취득 등 부정행위: 3년 이하 징역",
+                "ref": "법 제92조제3항"
+              },
+              {
+                "label": "업체의 장 아닌 사람",
+                "text": "같은 목적의 청탁·이익 취득 등: 3년 이하 징역 또는 3천만원 이하 벌금",
+                "ref": "법 제92조제4항"
+              }
+            ]
+          },
+          {
+            "heading": "제공·몰수",
+            "items": [
+              {
+                "label": "금품 제공자",
+                "text": "제3항·제4항의 금품·이익 제공: 1년 이하 징역 또는 1천만원 이하 벌금",
+                "ref": "법 제92조제5항"
+              },
+              {
+                "label": "취득한 이익",
+                "text": "몰수. 몰수할 수 없는 경우 그 가액 추징",
+                "ref": "법 제92조제6항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제92조, 전문연구요원 등의 편입 및 복무의무위반 등",
+      "main_article": "병역법 제92조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|92",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0092&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-136",
+  "lecture_title": "병역법 제81조의3, 병역의무 기피ㆍ감면 등 관련 정보의 게시ㆍ유통금지",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-136-D01-editorial-v1",
+      "lecture_id": "MS-136",
+      "lesson_number": 136,
+      "diagram_number": 1,
+      "title": "병역면탈 조장정보의 게시 금지",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|81의3",
+        "병역법|시행령|162"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 217,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-136/diagrams/MS-136-D01-editorial-v1.svg",
+          "bytes": 6540,
+          "sha256": "b432298a5cca7245eadb8a352aa51e70caa0be174b2a7795da19d2d4dfabbf00"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-136/diagrams/MS-136-D01-editorial-v1.webp",
+          "bytes": 51312,
+          "sha256": "0cb2716a048132ccfb33f7078a5ec29cf3798e6c89d99bbde2f8d06db18b959e"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-136",
+        "title": "병역면탈 조장정보의 게시 금지",
+        "subtitle": "누구든지 정보통신망을 통한 게시·유통 금지",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|81의3",
+          "병역법|시행령|162"
+        ],
+        "sections": [
+          {
+            "heading": "조장 대상 행위",
+            "items": [
+              {
+                "label": "제86조",
+                "text": "병역의무 기피·감면 목적의 도망·은신·신체손상·속임수",
+                "ref": "법 제81조의3제1항"
+              },
+              {
+                "label": "제87조제1항",
+                "text": "다른 사람을 대신하여 법정 신체검사를 받는 행위",
+                "ref": "법 제81조의3제1항"
+              }
+            ]
+          },
+          {
+            "heading": "금지 정보의 종류",
+            "items": [
+              {
+                "label": "실행 방법",
+                "text": "해당 행위의 구체적인 실행 방법이 포함된 정보",
+                "ref": "영 제162조제1항제1호"
+              },
+              {
+                "label": "연락 수단·방법",
+                "text": "그 정보를 전달하거나 전달받기 위한 연락수단·연락방법 포함 정보",
+                "ref": "영 제162조제1항제2호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제81조의3, 병역의무 기피ㆍ감면 등 관련 정보의 게시ㆍ유통금지",
+      "main_article": "병역법 제81조의3",
+      "source_articles": [
+        {
+          "key": "병역법|본법|81의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0081&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|162",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0162&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

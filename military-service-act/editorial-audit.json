@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "checked_date_kst": "2026-11-27",
+  "coverage": {
+    "expected_lectures": 166,
+    "actual_lectures": 166,
+    "missing_lectures": [],
+    "content_diagrams": 259,
+    "rendered_diagrams": 283,
+    "vector_files": 283,
+    "lossless_webp_files": 283
+  },
+  "layout": {
+    "canvas": [
+      1600,
+      1120
+    ],
+    "body_font_minimum_px": 36,
+    "word_wrapping": "어절 단위; 긴 문장은 장 분리",
+    "font": "Noto Sans CJK KR",
+    "text_bounds_errors": 0,
+    "raster_dimensions_checked": true
+  },
+  "sources": [
+    {
+      "kind": "본법",
+      "title": "병역법",
+      "effective_date": "2026-12-10",
+      "promulgation": "법률 제21769호",
+      "lsiSeq": "286755",
+      "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=286755",
+      "response_sha256": "45051b577f0860a30c60dc1652e86d78612abc00d453cd03bcc40b1b22bad34f",
+      "article_count": 174,
+      "retrieved_date_kst": "2026-11-27"
+    },
+    {
+      "kind": "시행령",
+      "title": "병역법 시행령",
+      "effective_date": "2026-10-02",
+      "promulgation": "대통령령 제36728호",
+      "lsiSeq": "290421",
+      "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290421",
+      "response_sha256": "ce2f2f713a56eafc2d87765c1102de3c7f931e950f42710b45d58653af912461",
+      "article_count": 286,
+      "retrieved_date_kst": "2026-11-27"
+    },
+    {
+      "kind": "시행규칙",
+      "title": "병역법 시행규칙",
+      "effective_date": "2026-10-29",
+      "promulgation": "국방부령 제1235호",
+      "lsiSeq": "291527",
+      "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=291527",
+      "response_sha256": "9eb08229a47122f4d51caf6e6784253d05ec2e5e359a3fa0861e8f1971d34e0d",
+      "article_count": 178,
+      "retrieved_date_kst": "2026-11-27"
+    }
+  ],
+  "review_records": [
+    {
+      "record": "review-001-055.json",
+      "sha256": "1bdfe78c46985516678948564b0e5164fabab405c27bf2fc3a26fb1857ea6bd1"
+    },
+    {
+      "record": "review-056-110.json",
+      "sha256": "34bfedc1b033c541cdf133d65be6b2f5c421e74386c8c0fd62df3c23d8a35cec"
+    },
+    {
+      "record": "review-111-166.json",
+      "sha256": "e88781fc351dc8211a6fd4a00ecd858f0578db8b9fa1aa0cdffd2cee74f14b6a"
+    },
+    {
+      "record": "peer-review-056-110.json",
+      "sha256": "ec3676f83f68e99e13750e819443a6feef8570753489848e2c51b62ee9e9a902"
+    },
+    {
+      "record": "peer-review-111-166.json",
+      "sha256": "800f5f2ab7eae0d15aff799d98338f0c95db76b06b40f8a95b156fdfbb91f0d3"
+    }
+  ],
+  "corrected_during_review": [
+    "제33조의7제1항제1호 현역병입영 대상자 누락 복원",
+    "제88조 점검 불참·대리출석 단서의 원래 조문 귀속 복원",
+    "제73조제3항 원격수업 보장의 대상 한정 복원",
+    "제34조의3제7호 신분 유지 부적당 조건 복원",
+    "제35조의2·제35조의3 교육 불참의 정당한 사유 없는 조건 복원",
+    "제41조 복무기간 단축의 사유·사전 승인·조정 순서 확인"
+  ],
+  "asset_sizes": {
+    "webp_min_bytes": 25526,
+    "webp_median_bytes": 53884,
+    "webp_max_bytes": 74434,
+    "webp_total_bytes": 14816786,
+    "all_formats_total_bytes": 16709554
+  },
+  "limitations": [
+    "핵심 구조를 요약한 강의 보조 도식으로, 강의 대본 전체나 모든 항·호의 전문은 포함하지 않음",
+    "공포 확인일 이후 추가 개정 시 관련 도식을 다시 대조해야 함",
+    "사이트 재생 시점·영상 자막 타이밍은 이 자산 작업에 포함되지 않음"
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-054",
+  "lecture_title": "병역법 제33조, 사회복무요원의 연장복무 등",
+  "diagram_count": 4,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-054-D01-editorial-v1",
+      "lecture_id": "MS-054",
+      "lesson_number": 54,
+      "diagram_number": 1,
+      "title": "복무이탈 5배·경고 5일",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|33"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 97,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-054/diagrams/MS-054-D01-editorial-v1.svg",
+          "bytes": 8728,
+          "sha256": "588ce28132871d620ea77ef25db9b952e9ee3d8a903f25d073e02f9159c8248b"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-054/diagrams/MS-054-D01-editorial-v1.webp",
+          "bytes": 62522,
+          "sha256": "23607f58851bd3251c90e4a6ac7de9ae6e0aab4089821d9af13f6cf6a76cdf1f"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-054",
+        "title": "복무이탈 5배·경고 5일",
+        "subtitle": "연장복무의 기준과 적용 제외",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|33"
+        ],
+        "sections": [
+          {
+            "heading": "정당한 사유 없는 이탈",
+            "items": [
+              {
+                "label": "이탈일수의 5배",
+                "text": "복무이탈일수의 5배 기간을 연장하여 복무하게 함",
+                "ref": "법 제33조제1항"
+              },
+              {
+                "label": "연장 제외",
+                "text": "법 제89조의2제1호에 해당하는 사람은 복무기간을 연장하지 않음",
+                "ref": "법 제33조제1항"
+              },
+              {
+                "label": "형 선고 후 복무",
+                "text": "법 제89조의2제1호 또는 제89조의3에 따라 형을 선고받으면 남은 기간을 사회복무요원으로 복무",
+                "ref": "법 제33조제4항"
+              }
+            ]
+          },
+          {
+            "heading": "법정 사유의 경고처분",
+            "items": [
+              {
+                "label": "경고마다 5일",
+                "text": "제2항의 사유로 경고처분하며 횟수가 더해질 때마다 5일 연장",
+                "ref": "법 제33조제2항"
+              },
+              {
+                "label": "연장 제외",
+                "text": "법 제89조의3 각 호에 해당하는 사람은 복무기간을 연장하지 않음",
+                "ref": "법 제33조제2항"
+              },
+              {
+                "label": "소집하지 않는 예외",
+                "text": "형 선고자 중 법 제65조제1항제2호·제3호에 해당하면 사회복무요원으로 소집하지 않음",
+                "ref": "법 제33조제4항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제33조, 사회복무요원의 연장복무 등",
+      "main_article": "병역법 제33조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|33",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0033&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-054-D02-editorial-v1",
+      "lecture_id": "MS-054",
+      "lesson_number": 54,
+      "diagram_number": 2,
+      "title": "경고처분의 주요 사유",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|본법|33"
+      ],
+      "part": 1,
+      "parts": 2,
+      "content_index": 98,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-054/diagrams/MS-054-D02-editorial-v1.svg",
+          "bytes": 7420,
+          "sha256": "ebaa4364b192cb8706408f6edc922721fef362c51723ff3c868462d4fcba7957"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-054/diagrams/MS-054-D02-editorial-v1.webp",
+          "bytes": 57438,
+          "sha256": "79534f3300941bf97a216a2551e954dbf89f6b982cecf451176b9cffaeca1b2f"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-054",
+        "title": "경고처분의 주요 사유",
+        "subtitle": "사회복무요원의 법정 의무위반을 구분",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|본법|33"
+        ],
+        "sections": [
+          {
+            "heading": "타인·권한 관련",
+            "items": [
+              {
+                "label": "근무 방해·선동",
+                "text": "다른 사람의 근무 방해 또는 근무태만 선동",
+                "ref": "법 제33조제2항제1호"
+              },
+              {
+                "label": "정치운동",
+                "text": "법 제32조의3의 정치운동 금지 위반",
+                "ref": "법 제33조제2항제2호"
+              },
+              {
+                "label": "무권한 정보 검색",
+                "text": "정당한 권한 없이 다른 사람의 정보를 검색하거나 열람",
+                "ref": "법 제33조제2항제6호"
+              }
+            ]
+          },
+          {
+            "heading": "가혹행위·복무질서",
+            "items": [
+              {
+                "label": "가혹행위·폭력",
+                "text": "다른 요원에 대한 가혹행위 또는 서비스 이용자에 대한 신체적·정서적·성적 폭력이나 가혹행위",
+                "ref": "법 제33조제2항제3호·제3호의2"
+              },
+              {
+                "label": "영리·무단 겸직",
+                "text": "복무 관련 영리행위 또는 기관장의 허가 없는 다른 직무 겸직",
+                "ref": "법 제33조제2항제4호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제33조, 사회복무요원의 연장복무 등",
+      "main_article": "병역법 제33조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|33",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0033&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-054-D03-editorial-v1",
+      "lecture_id": "MS-054",
+      "lesson_number": 54,
+      "diagram_number": 3,
+      "title": "경고처분의 주요 사유",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|본법|33"
+      ],
+      "part": 2,
+      "parts": 2,
+      "content_index": 98,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-054/diagrams/MS-054-D03-editorial-v1.svg",
+          "bytes": 3342,
+          "sha256": "563a30972cb3fa95deb4389a9a7fa35f8fd31809051e4073fbc8bc084b1945b4"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-054/diagrams/MS-054-D03-editorial-v1.webp",
+          "bytes": 27898,
+          "sha256": "dc5111dd53269ee4380b2858004e49fe9001a981cbc94e3b26d5477eb03fce6e"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-054",
+        "title": "경고처분의 주요 사유",
+        "subtitle": "사회복무요원의 법정 의무위반을 구분",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|본법|33"
+        ],
+        "sections": [
+          {
+            "heading": "가혹행위·복무질서",
+            "items": [
+              {
+                "label": "기강 문란·태만",
+                "text": "근무 중 음주·도박·풍기문란 등 또는 정당한 사유 없는 임무 미수행·지연 등 법정 사유",
+                "ref": "법 제33조제2항제5호·제7호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제33조, 사회복무요원의 연장복무 등",
+      "main_article": "병역법 제33조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|33",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0033&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-054-D04-editorial-v1",
+      "lecture_id": "MS-054",
+      "lesson_number": 54,
+      "diagram_number": 4,
+      "title": "임무수행 태만 등의 범위",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|시행령|65의6"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 99,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-054/diagrams/MS-054-D04-editorial-v1.svg",
+          "bytes": 6715,
+          "sha256": "38abac1fdfa1cff6e0869d9ab8a0c41e6635500488f5eeb788659c3f9e660f9c"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-054/diagrams/MS-054-D04-editorial-v1.webp",
+          "bytes": 50058,
+          "sha256": "1f4a5629dfaf56572266f25db2d6ec3b4fa0f25d04bad5c3831d3956987e9ec5"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-054",
+        "title": "임무수행 태만 등의 범위",
+        "subtitle": "시행령 제65조의6의 경고처분 사유",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|시행령|65의6"
+        ],
+        "sections": [
+          {
+            "heading": "출근·근무지",
+            "items": [
+              {
+                "label": "지각",
+                "text": "정당한 사유 없이 일과 시작시간 후 출근한 경우",
+                "ref": "시행령 제65조의6제1호"
+              },
+              {
+                "label": "무단 조퇴·이탈",
+                "text": "허가 없이 무단으로 조퇴하거나 근무지를 이탈한 경우",
+                "ref": "시행령 제65조의6제2호"
+              }
+            ]
+          },
+          {
+            "heading": "수학·교육",
+            "items": [
+              {
+                "label": "학교 수학",
+                "text": "초·중등교육법·고등교육법 등에 따른 학교 수학. 근무시간 후 방송통신·원격수업은 제외",
+                "ref": "시행령 제65조의6제4호"
+              },
+              {
+                "label": "교육 태만",
+                "text": "복무기본·직무·복무지도교육 중 대리참석, 무단 지각·결석 등",
+                "ref": "시행령 제65조의6제5호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제33조, 사회복무요원의 연장복무 등",
+      "main_article": "병역법 제33조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|65의6",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=06&joNo=0065&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

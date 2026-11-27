@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-001",
+  "lecture_title": "병역법 제1조, 목적",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-001-D01-editorial-v1",
+      "lecture_id": "MS-001",
+      "lesson_number": 1,
+      "diagram_number": 1,
+      "title": "병역법령의 목적",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|본법|1",
+        "병역법|시행령|1",
+        "병역법|시행규칙|1"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 0,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-001/diagrams/MS-001-D01-editorial-v1.svg",
+          "bytes": 5907,
+          "sha256": "8cde55d93d0f400746639367f0ab74fe876cdb7819fbf72eecf1c58a27015194"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-001/diagrams/MS-001-D01-editorial-v1.webp",
+          "bytes": 39314,
+          "sha256": "0f638df1361aba64530c92f2487e4afa7136592af6135e164b495d1fb58a79da"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-001",
+        "title": "병역법령의 목적",
+        "subtitle": "법률에서 시행령·시행규칙으로 이어지는 규정 체계",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|본법|1",
+          "병역법|시행령|1",
+          "병역법|시행규칙|1"
+        ],
+        "sections": [
+          {
+            "heading": "병역법",
+            "items": [
+              {
+                "label": "대상",
+                "text": "대한민국 국민",
+                "ref": "법 제1조"
+              },
+              {
+                "label": "규정 사항",
+                "text": "국민의 병역의무에 관한 사항",
+                "ref": "법 제1조"
+              }
+            ]
+          },
+          {
+            "heading": "하위 법령",
+            "items": [
+              {
+                "label": "시행령",
+                "text": "병역법에서 위임된 사항과 그 시행에 필요한 사항",
+                "ref": "시행령 제1조"
+              },
+              {
+                "label": "시행규칙",
+                "text": "병역법 및 시행령에서 위임된 사항과 그 시행에 필요한 사항",
+                "ref": "시행규칙 제1조"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제1조, 목적",
+      "main_article": "병역법 제1조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|1",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0001&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|1",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0001&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        },
+        {
+          "key": "병역법|시행규칙|1",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0001&lsiSeq=291527&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-29",
+          "promulgation": "국방부령 제1235호"
+        }
+      ]
+    }
+  ]
+}

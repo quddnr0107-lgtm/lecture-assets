@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-143",
+  "lecture_title": "병역법 제83조의3, 병역증·전역증 소지의무",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-143-D01-editorial-v1",
+      "lecture_id": "MS-143",
+      "lesson_number": 143,
+      "diagram_number": 1,
+      "title": "병역증·전역증 소지의무",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|83의3"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 230,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-143/diagrams/MS-143-D01-editorial-v1.svg",
+          "bytes": 5159,
+          "sha256": "af2dd349612be8fc5b4321b1fe820cdd0bd616cd21bfc11d1e4b102cf58edec8"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-143/diagrams/MS-143-D01-editorial-v1.webp",
+          "bytes": 36284,
+          "sha256": "df9a47a8aa2f442890326a0d53befe9bc291fd1eb81d3198dacd224b4b44d08b"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-143",
+        "title": "병역증·전역증 소지의무",
+        "subtitle": "전시·사변 또는 동원령이 선포된 때",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|83의3"
+        ],
+        "sections": [
+          {
+            "heading": "적용 조건",
+            "items": [
+              {
+                "label": "선포 시",
+                "text": "전시·사변이나 동원령이 선포되면 적용",
+                "ref": "법 제83조의3"
+              },
+              {
+                "label": "의무 주체",
+                "text": "병역의무자",
+                "ref": "법 제83조의3"
+              }
+            ]
+          },
+          {
+            "heading": "소지할 증서",
+            "items": [
+              {
+                "label": "병역증 또는 전역증",
+                "text": "둘 중 해당 증서를 지니고 다녀야 함",
+                "ref": "법 제83조의3"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제83조의3, 병역증·전역증 소지의무",
+      "main_article": "병역법 제83조의3",
+      "source_articles": [
+        {
+          "key": "병역법|본법|83의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0083&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-099",
+  "lecture_title": "병역법 제63조, 가사사정으로 인한 전역 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-099-D01-editorial-v1",
+      "lecture_id": "MS-099",
+      "lesson_number": 99,
+      "diagram_number": 1,
+      "title": "복무 중 가사사정의 처리",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|63"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 159,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-099/diagrams/MS-099-D01-editorial-v1.svg",
+          "bytes": 7229,
+          "sha256": "d4f4cf2daff883b677c7f431efb31000a2699a06a76d1777011f166a5b74cb1a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-099/diagrams/MS-099-D01-editorial-v1.webp",
+          "bytes": 57136,
+          "sha256": "7e06ed51338f517decc0b5da1cd967001a6fb7b657fee0c07afa439fb8e202b8"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-099",
+        "title": "복무 중 가사사정의 처리",
+        "subtitle": "복무 신분과 가족 사유별로 구분",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|63"
+        ],
+        "sections": [
+          {
+            "heading": "생계유지곤란",
+            "items": [
+              {
+                "label": "현역병",
+                "text": "본인이 아니면 가족 생계를 유지할 수 없는 현역병은 원하면 전시근로역에 편입할 수 있다.",
+                "ref": "법 제63조제1항"
+              },
+              {
+                "label": "동원·전시근로소집 병",
+                "text": "원하면 전시근로역 편입, 소집해제 또는 연기 가능. 소집 통지서를 받은 사람도 포함한다.",
+                "ref": "법 제63조제3항"
+              }
+            ]
+          },
+          {
+            "heading": "전사·순직 등 가족",
+            "items": [
+              {
+                "label": "복무기간 6개월",
+                "text": "법 제62조제1항제2호에 해당하는 현역병·사회복무요원은 원하면 복무기간을 6개월로 단축 가능.",
+                "ref": "법 제63조제2항"
+              },
+              {
+                "label": "기간을 마친 뒤",
+                "text": "보충역에 편입하거나 소집을 해제한다.",
+                "ref": "법 제63조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제63조, 가사사정으로 인한 전역 등",
+      "main_article": "병역법 제63조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|63",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0063&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

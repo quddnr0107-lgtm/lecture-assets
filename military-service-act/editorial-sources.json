@@ -1,0 +1,41 @@
+{
+  "checked_date_kst": "2026-11-27",
+  "requested_study_cutoff": "2027-02-02",
+  "sources": [
+    {
+      "kind": "본법",
+      "title": "병역법",
+      "effective_date": "2026-12-10",
+      "promulgation": "법률 제21769호",
+      "lsiSeq": "286755",
+      "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=286755",
+      "response_sha256": "45051b577f0860a30c60dc1652e86d78612abc00d453cd03bcc40b1b22bad34f",
+      "article_count": 174,
+      "retrieved_date_kst": "2026-11-27"
+    },
+    {
+      "kind": "시행령",
+      "title": "병역법 시행령",
+      "effective_date": "2026-10-02",
+      "promulgation": "대통령령 제36728호",
+      "lsiSeq": "290421",
+      "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290421",
+      "response_sha256": "ce2f2f713a56eafc2d87765c1102de3c7f931e950f42710b45d58653af912461",
+      "article_count": 286,
+      "retrieved_date_kst": "2026-11-27"
+    },
+    {
+      "kind": "시행규칙",
+      "title": "병역법 시행규칙",
+      "effective_date": "2026-10-29",
+      "promulgation": "국방부령 제1235호",
+      "lsiSeq": "291527",
+      "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=291527",
+      "response_sha256": "9eb08229a47122f4d51caf6e6784253d05ec2e5e359a3fa0861e8f1971d34e0d",
+      "article_count": 178,
+      "retrieved_date_kst": "2026-11-27"
+    }
+  ],
+  "source_rule": "공식 법령의 조문 번호와 문언으로 확인. 본법의 소실 항목 및 잘못 귀속된 단서는 공식 전문으로 복원.",
+  "text_source_sha256": "880277f5aa3283a34db248ab9c533ae974b75a05f57833e0216816187dfaf4f7"
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-128",
+  "lecture_title": "병역법 제77조의6, 병역판정검사 결과 등의 공개",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-128-D01-editorial-v1",
+      "lecture_id": "MS-128",
+      "lesson_number": 128,
+      "diagram_number": 1,
+      "title": "병역판정검사 통계 공개",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|77의6"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 204,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-128/diagrams/MS-128-D01-editorial-v1.svg",
+          "bytes": 6321,
+          "sha256": "14222814b56a40334bd413908a2351a6302032974988fc16372a8356bbab9d40"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-128/diagrams/MS-128-D01-editorial-v1.webp",
+          "bytes": 52552,
+          "sha256": "3491b5f341acbdcdf26970a37d1536366a0577cb203daf9f93d2c05439e5839b"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-128",
+        "title": "병역판정검사 통계 공개",
+        "subtitle": "병무청장이 매년 6월 30일까지 공개",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|77의6"
+        ],
+        "sections": [
+          {
+            "heading": "전년도 통계",
+            "items": [
+              {
+                "label": "검사·처분",
+                "text": "병역판정검사 결과와 병역처분 결과",
+                "ref": "법 제77조의6제1항"
+              },
+              {
+                "label": "인원 구분",
+                "text": "대상자·수검자 수, 신체등급별 판정자·처분 인원",
+                "ref": "법 제77조의6제2항제1호~제4호"
+              }
+            ]
+          },
+          {
+            "heading": "연도별 현황",
+            "items": [
+              {
+                "label": "이행·변경",
+                "text": "병역판정검사를 받은 사람의 병역의무 이행 및 처분변경 현황",
+                "ref": "법 제77조의6제2항제5호·제6호"
+              },
+              {
+                "label": "사유별 인원",
+                "text": "대상자 중 사유별 전시근로역·대체역 처분자 및 병역면제자 수",
+                "ref": "법 제77조의6제2항제7호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제77조의6, 병역판정검사 결과 등의 공개",
+      "main_article": "병역법 제77조의6",
+      "source_articles": [
+        {
+          "key": "병역법|본법|77의6",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=06&joNo=0077&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

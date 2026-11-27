@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-009",
+  "lecture_title": "병역법 제7조, 병역증·전역증",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-009-D01-editorial-v1",
+      "lecture_id": "MS-009",
+      "lesson_number": 9,
+      "diagram_number": 1,
+      "title": "병역증과 전역증의 교부",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|7",
+        "병역법|시행령|5"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 16,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-009/diagrams/MS-009-D01-editorial-v1.svg",
+          "bytes": 7045,
+          "sha256": "fed90dbddc811725b845a2b4da8b620de10a2732973471b2129de6bf07af0b54"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-009/diagrams/MS-009-D01-editorial-v1.webp",
+          "bytes": 50990,
+          "sha256": "8a91b97b39cacfb4695f82242997f286dbadeeafdbaaf0a60072b02f4847082e"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-009",
+        "title": "병역증과 전역증의 교부",
+        "subtitle": "누가 누구에게 발급하는지 구분",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|7",
+          "병역법|시행령|5"
+        ],
+        "sections": [
+          {
+            "heading": "병역증",
+            "items": [
+              {
+                "label": "교부 주체",
+                "text": "거주지 지방병무청장",
+                "ref": "법 제7조제1항"
+              },
+              {
+                "label": "교부 대상",
+                "text": "병역판정검사를 받고 병역처분을 받은 사람",
+                "ref": "시행령 제5조제1항"
+              },
+              {
+                "label": "포함 대상",
+                "text": "법 제64조제1항에 따라 검사 없이 병역처분을 받은 사람도 포함",
+                "ref": "시행령 제5조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "전역증·재교부",
+            "items": [
+              {
+                "label": "전역증 교부",
+                "text": "소속부대장이 전역하는 사람에게 교부",
+                "ref": "법 제7조제1항"
+              },
+              {
+                "label": "분실·훼손",
+                "text": "병역증·전역증을 잃어버리거나 못쓰게 되면 본인 신청으로 지방병무청장이 재교부 가능",
+                "ref": "시행령 제5조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제7조, 병역증·전역증",
+      "main_article": "병역법 제7조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|7",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0007&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|5",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0005&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-009-D02-editorial-v1",
+      "lecture_id": "MS-009",
+      "lesson_number": 9,
+      "diagram_number": 2,
+      "title": "병적 조회와 증명서 발급",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|시행규칙|7",
+        "병역법|시행규칙|8"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 17,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-009/diagrams/MS-009-D02-editorial-v1.svg",
+          "bytes": 6573,
+          "sha256": "e1c8a1697f3ff826ddcdd7902e17e5bb62515374eb1b2231a0689c050636fe44"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-009/diagrams/MS-009-D02-editorial-v1.webp",
+          "bytes": 52338,
+          "sha256": "f75b1450a767e1c1f90d0e83009bed80b79ee005994df519256c03783161e65f"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-009",
+        "title": "병적 조회와 증명서 발급",
+        "subtitle": "조회 회신기한과 증명 신청 절차",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|시행규칙|7",
+          "병역법|시행규칙|8"
+        ],
+        "sections": [
+          {
+            "heading": "병적 조회",
+            "items": [
+              {
+                "label": "조회할 수 있는 때",
+                "text": "지방병무청장이 군복무를 마친 사람의 병적 확인이 필요한 경우",
+                "ref": "시행규칙 제7조제1항"
+              },
+              {
+                "label": "조회 상대·회신",
+                "text": "각 군 참모총장 또는 복무한 부대의 장은 확인하여 10일 이내 통보",
+                "ref": "시행규칙 제7조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "병적증명서 신청",
+            "items": [
+              {
+                "label": "신청 기관",
+                "text": "신청서를 지방병무청장에게 제출",
+                "ref": "시행규칙 제8조제1항"
+              },
+              {
+                "label": "대리 위임장",
+                "text": "대리인이 발급대상자의 직계존비속·형제자매·배우자가 아닌 경우 위임장 1부 첨부",
+                "ref": "시행규칙 제8조제1항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제7조, 병역증·전역증",
+      "main_article": "병역법 제7조",
+      "source_articles": [
+        {
+          "key": "병역법|시행규칙|7",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0007&lsiSeq=291527&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-29",
+          "promulgation": "국방부령 제1235호"
+        },
+        {
+          "key": "병역법|시행규칙|8",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0008&lsiSeq=291527&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-29",
+          "promulgation": "국방부령 제1235호"
+        }
+      ]
+    }
+  ]
+}

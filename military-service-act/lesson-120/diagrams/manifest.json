@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-120",
+  "lecture_title": "병역법 제75조의2, 재해 등에 대한 보상",
+  "diagram_count": 3,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-120-D01-editorial-v1",
+      "lecture_id": "MS-120",
+      "lesson_number": 120,
+      "diagram_number": 1,
+      "title": "재해보상과 휴업보상의 구분",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|75의2",
+        "병역법|시행령|153의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 189,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-120/diagrams/MS-120-D01-editorial-v1.svg",
+          "bytes": 8524,
+          "sha256": "d7774090f5d3d129aea782dada711c9739873d4b68ec8a5115b32b06ccf49eb1"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-120/diagrams/MS-120-D01-editorial-v1.webp",
+          "bytes": 67776,
+          "sha256": "6bf991939343da264ea6f71292735136ca628e7df4ee27127c75b9b9b3edd1c3"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-120",
+        "title": "재해보상과 휴업보상의 구분",
+        "subtitle": "대상·비용 부담·중복 지급 조정",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|75의2",
+          "병역법|시행령|153의2"
+        ],
+        "sections": [
+          {
+            "heading": "사회·대체복무",
+            "items": [
+              {
+                "label": "재해보상금",
+                "text": "복무 중 순직·공상·공무상 질병에 사망보상금 또는 장애보상금 지급",
+                "ref": "법 제75조의2제1항·영 제153조의2제1항"
+              },
+              {
+                "label": "비용 부담",
+                "text": "복무기관이 속한 국가·지방자치단체·공공단체가 부담",
+                "ref": "영 제153조의2제2항"
+              },
+              {
+                "label": "중복 지급 조정",
+                "text": "다른 법령에 따라 국가·지자체·공공단체가 부담한 같은 종류 보상금 상당액 공제",
+                "ref": "법 제75조의2제1항 단서"
+              }
+            ]
+          },
+          {
+            "heading": "병력동원소집등",
+            "items": [
+              {
+                "label": "재해보상금",
+                "text": "임무·훈련 중 부상 또는 사망한 사람에게 지급",
+                "ref": "법 제75조의2제4항"
+              },
+              {
+                "label": "휴업보상금",
+                "text": "치료로 생업에 종사하지 못한 기간 지급. 예비군법 제8조의2 준용",
+                "ref": "법 제75조의2제4항·제5항"
+              },
+              {
+                "label": "중복 지급 조정",
+                "text": "다른 법률에 따라 국가·지자체가 부담한 같은 종류 보상금 상당액 공제",
+                "ref": "법 제75조의2제4항 단서"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제75조의2, 재해 등에 대한 보상",
+      "main_article": "병역법 제75조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|75의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0075&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|153의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0153&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-120-D02-editorial-v1",
+      "lecture_id": "MS-120",
+      "lesson_number": 120,
+      "diagram_number": 2,
+      "title": "장애보상금 지급 절차",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|시행령|153의4"
+      ],
+      "part": 1,
+      "parts": 2,
+      "content_index": 190,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-120/diagrams/MS-120-D02-editorial-v1.svg",
+          "bytes": 6350,
+          "sha256": "8af6374c4cbb48a62dc8fe429958e6bf4254ad7478a6006f1a2169b13c74706a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-120/diagrams/MS-120-D02-editorial-v1.webp",
+          "bytes": 52608,
+          "sha256": "7b70d682d690e834b155d3cf291dd8f308b12bdaaed2f46d10ff1ba16e99c02b"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-120",
+        "title": "장애보상금 지급 절차",
+        "subtitle": "사회복무요원·대체복무요원의 공상·공무상 질병",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|시행령|153의4"
+        ],
+        "sections": [
+          {
+            "heading": "청구·확인",
+            "items": [
+              {
+                "label": "복무기관의 장",
+                "text": "청구를 받아 공상·공무상 질병 여부를 확인하고 지방병무청장에게 등급 요청",
+                "ref": "영 제153조의4제3항"
+              }
+            ]
+          },
+          {
+            "heading": "신체검사",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "검사장 또는 지정 군병원 등에 검사 의뢰. 비용은 복무기관의 장이 부담",
+                "ref": "영 제153조의4제4항"
+              }
+            ]
+          },
+          {
+            "heading": "등급 결정",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "보상심의위원회 심의 후 등급 결정, 청구인·복무기관에 지체 없이 통보",
+                "ref": "영 제153조의4제5항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "장애보상 후 같은 공상·질병으로 사망하면 사망보상금에서 기존 장애보상금 공제"
+      },
+      "lecture_title": "병역법 제75조의2, 재해 등에 대한 보상",
+      "main_article": "병역법 제75조의2",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|153의4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=04&joNo=0153&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-120-D03-editorial-v1",
+      "lecture_id": "MS-120",
+      "lesson_number": 120,
+      "diagram_number": 3,
+      "title": "장애보상금 지급 절차",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|시행령|153의4"
+      ],
+      "part": 2,
+      "parts": 2,
+      "content_index": 190,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-120/diagrams/MS-120-D03-editorial-v1.svg",
+          "bytes": 3554,
+          "sha256": "f690d99cd57d4cbd2b564bce8fe387969b71fd502d0675e5b65052c724c1da7a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-120/diagrams/MS-120-D03-editorial-v1.webp",
+          "bytes": 29170,
+          "sha256": "3dae842db9f1f7cdd93d13d8ee6b3c68254c65795c9ccca26e584325c7f411fc"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-120",
+        "title": "장애보상금 지급 절차",
+        "subtitle": "사회복무요원·대체복무요원의 공상·공무상 질병",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|시행령|153의4"
+        ],
+        "sections": [
+          {
+            "heading": "보상금 지급",
+            "items": [
+              {
+                "label": "복무기관의 장",
+                "text": "통보받은 신체장애등급에 따라 지급",
+                "ref": "영 제153조의4제6항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "장애보상 후 같은 공상·질병으로 사망하면 사망보상금에서 기존 장애보상금 공제"
+      },
+      "lecture_title": "병역법 제75조의2, 재해 등에 대한 보상",
+      "main_article": "병역법 제75조의2",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|153의4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=04&joNo=0153&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

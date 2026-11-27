@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-035",
+  "lecture_title": "병역법 제23조의3, 승선근무예비역의 신상변동 통보",
+  "diagram_count": 4,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-035-D01-editorial-v1",
+      "lecture_id": "MS-035",
+      "lesson_number": 35,
+      "diagram_number": 1,
+      "title": "승선근무 신상변동 통보",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|본법|23의3"
+      ],
+      "part": 1,
+      "parts": 2,
+      "content_index": 63,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-035/diagrams/MS-035-D01-editorial-v1.svg",
+          "bytes": 7714,
+          "sha256": "22b1f7fd1243b764966d9c6e737ac0a8715d78071369405fb6e074200177c459"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-035/diagrams/MS-035-D01-editorial-v1.webp",
+          "bytes": 62264,
+          "sha256": "67f7bcb9a70957fa4f960be80d501c4feb8f661f825eff4d8062a1b4d3a4331a"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-035",
+        "title": "승선근무 신상변동 통보",
+        "subtitle": "업체장은 사유 발생일부터 14일 이내 관할청에 통보",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|본법|23의3"
+        ],
+        "sections": [
+          {
+            "heading": "개인 변동",
+            "items": [
+              {
+                "label": "해고·퇴직",
+                "text": "승선하여 복무하던 업체에서 해고되거나 퇴직한 경우",
+                "ref": "법 제23조의3제1호"
+              },
+              {
+                "label": "승선·하선",
+                "text": "승선하거나 하선한 경우",
+                "ref": "법 제23조의3제2호"
+              },
+              {
+                "label": "면허 취소·정지",
+                "text": "항해사·기관사 면허가 취소되거나 정지된 경우",
+                "ref": "법 제23조의3제3호"
+              }
+            ]
+          },
+          {
+            "heading": "완료기한·업체 변동",
+            "items": [
+              {
+                "label": "기간 내 완료 불가",
+                "text": "편입일부터 5년 이내 또는 30세까지 3년간의 승선근무기간을 마칠 수 없는 경우",
+                "ref": "법 제23조의3제5호·제6호"
+              },
+              {
+                "label": "업체 운영 중단",
+                "text": "복무업체가 휴업·영업정지·직장폐쇄 또는 폐업한 경우",
+                "ref": "법 제23조의3제7호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "관할청은 업체의 주된 사무소 소재지를 관할하는 지방병무청장 또는 병무지청장입니다."
+      },
+      "lecture_title": "병역법 제23조의3, 승선근무예비역의 신상변동 통보",
+      "main_article": "병역법 제23조의3",
+      "source_articles": [
+        {
+          "key": "병역법|본법|23의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0023&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-035-D02-editorial-v1",
+      "lecture_id": "MS-035",
+      "lesson_number": 35,
+      "diagram_number": 2,
+      "title": "승선근무 신상변동 통보",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|본법|23의3"
+      ],
+      "part": 2,
+      "parts": 2,
+      "content_index": 63,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-035/diagrams/MS-035-D02-editorial-v1.svg",
+          "bytes": 3599,
+          "sha256": "d992a3560c866c1dd79a7ad7b59ac2afe0c15dc72889160f5694c73570a7d93a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-035/diagrams/MS-035-D02-editorial-v1.webp",
+          "bytes": 30546,
+          "sha256": "6ee6b17bffe0f73d89f9e0bddc1a8001e9c19a6785437cce71857ea32947dffd"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-035",
+        "title": "승선근무 신상변동 통보",
+        "subtitle": "업체장은 사유 발생일부터 14일 이내 관할청에 통보",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|본법|23의3"
+        ],
+        "sections": [
+          {
+            "heading": "개인 변동",
+            "items": [
+              {
+                "label": "편입취소 희망",
+                "text": "본인이 승선근무예비역 편입취소를 원하는 경우",
+                "ref": "법 제23조의3제4호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "관할청은 업체의 주된 사무소 소재지를 관할하는 지방병무청장 또는 병무지청장입니다."
+      },
+      "lecture_title": "병역법 제23조의3, 승선근무예비역의 신상변동 통보",
+      "main_article": "병역법 제23조의3",
+      "source_articles": [
+        {
+          "key": "병역법|본법|23의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0023&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-035-D03-editorial-v1",
+      "lecture_id": "MS-035",
+      "lesson_number": 35,
+      "diagram_number": 3,
+      "title": "시행령의 추가 신상변동",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|본법|23의3",
+        "병역법|시행령|40의6"
+      ],
+      "part": 1,
+      "parts": 2,
+      "content_index": 64,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-035/diagrams/MS-035-D03-editorial-v1.svg",
+          "bytes": 7766,
+          "sha256": "755fa4ca81eab072ffa4fd89615b8370b9e730064b428d492bce52941df753cf"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-035/diagrams/MS-035-D03-editorial-v1.webp",
+          "bytes": 61282,
+          "sha256": "fb9d2d0a10d4eab5be92df47bc526d299be63c73f7cca7060ca5e6ff05cfbdb9"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-035",
+        "title": "시행령의 추가 신상변동",
+        "subtitle": "법 제23조의3제8호에 따른 추가 통보사유",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|본법|23의3",
+          "병역법|시행령|40의6"
+        ],
+        "sections": [
+          {
+            "heading": "업체·근무지 변동",
+            "items": [
+              {
+                "label": "명칭·소재지",
+                "text": "업체의 명칭 변경 또는 소재지 이전",
+                "ref": "시행령 제40조의6제1항제1호"
+              },
+              {
+                "label": "선박 미보유",
+                "text": "감선 등으로 시행령 제40조의2제1항의 선박을 보유하지 않게 된 경우",
+                "ref": "시행령 제40조의6제1항제2호"
+              },
+              {
+                "label": "업체 이동",
+                "text": "시행령 제40조의4제2항에 따라 이동하여 근무하는 경우",
+                "ref": "시행령 제40조의6제1항제3호"
+              }
+            ]
+          },
+          {
+            "heading": "복무 중 변동",
+            "items": [
+              {
+                "label": "휴가",
+                "text": "시행령 제40조의4제5항에 따른 휴가를 준 경우",
+                "ref": "시행령 제40조의6제1항제4호"
+              },
+              {
+                "label": "영리활동 등 위반",
+                "text": "복무 중 영리업무·겸직 금지 또는 비산입기간 중 선원 영리활동 금지를 위반한 경우",
+                "ref": "시행령 제40조의6제1항제5호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "명칭·소재지 변경, 법정 선박 미보유, 휴업 등 업체변동 통보는 관할청이 7일 내 병무청장에게 보고."
+      },
+      "lecture_title": "병역법 제23조의3, 승선근무예비역의 신상변동 통보",
+      "main_article": "병역법 제23조의3",
+      "source_articles": [
+        {
+          "key": "병역법|본법|23의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0023&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|40의6",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=06&joNo=0040&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-035-D04-editorial-v1",
+      "lecture_id": "MS-035",
+      "lesson_number": 35,
+      "diagram_number": 4,
+      "title": "시행령의 추가 신상변동",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|본법|23의3",
+        "병역법|시행령|40의6"
+      ],
+      "part": 2,
+      "parts": 2,
+      "content_index": 64,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-035/diagrams/MS-035-D04-editorial-v1.svg",
+          "bytes": 3613,
+          "sha256": "acf031d848c577b6bbea41cbf69c67b045d72ced56c5a438636b084f2c2d7d41"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-035/diagrams/MS-035-D04-editorial-v1.webp",
+          "bytes": 32748,
+          "sha256": "44474547ac77954c21a15d0b32f80d10b391a4dedefcd9cc00ecbb1023c6ce56"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-035",
+        "title": "시행령의 추가 신상변동",
+        "subtitle": "법 제23조의3제8호에 따른 추가 통보사유",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|본법|23의3",
+          "병역법|시행령|40의6"
+        ],
+        "sections": [
+          {
+            "heading": "복무 중 변동",
+            "items": [
+              {
+                "label": "업무상 휴직",
+                "text": "선원법상 업무상 부상·질병·장애로 휴직하는 경우",
+                "ref": "시행령 제40조의6제1항제6호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "명칭·소재지 변경, 법정 선박 미보유, 휴업 등 업체변동 통보는 관할청이 7일 내 병무청장에게 보고."
+      },
+      "lecture_title": "병역법 제23조의3, 승선근무예비역의 신상변동 통보",
+      "main_article": "병역법 제23조의3",
+      "source_articles": [
+        {
+          "key": "병역법|본법|23의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0023&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|40의6",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=06&joNo=0040&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

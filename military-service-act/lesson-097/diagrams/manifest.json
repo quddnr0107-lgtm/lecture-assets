@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-097",
+  "lecture_title": "병역법 제61조, 의무이행일의 연기",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-097-D01-editorial-v1",
+      "lecture_id": "MS-097",
+      "lesson_number": 97,
+      "diagram_number": 1,
+      "title": "의무이행일 연기의 두 방식",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|61"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 157,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-097/diagrams/MS-097-D01-editorial-v1.svg",
+          "bytes": 7582,
+          "sha256": "f841c31c93407466ae566e6c3969e9e46060ad093c9e413bdb8bc022960b0929"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-097/diagrams/MS-097-D01-editorial-v1.webp",
+          "bytes": 67094,
+          "sha256": "8c355f7bfc8ddda524a25e133d55f567beda8d611c50648bab193fd520fcefd3"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-097",
+        "title": "의무이행일 연기의 두 방식",
+        "subtitle": "본인의 희망과 지방병무청장의 직권",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|61"
+        ],
+        "sections": [
+          {
+            "heading": "본인이 원하는 연기",
+            "items": [
+              {
+                "label": "통지 수령·예정자",
+                "text": "법정 질병·심신장애·재난·취업 등으로 정해진 날 의무를 이행하기 어려운 사람이 대상이다.",
+                "ref": "법 제61조제1항"
+              },
+              {
+                "label": "30세 초과 불가",
+                "text": "검사·재검사·현역입영·사회복무 및 대체복무 소집 대상자의 의무이행일 연기는 30세를 넘을 수 없다.",
+                "ref": "법 제61조제1항 단서"
+              }
+            ]
+          },
+          {
+            "heading": "직권으로 하는 연기",
+            "items": [
+              {
+                "label": "사유 해소 시까지",
+                "text": "행방불명, 재난 등 신청 곤란, 법정 수사기관 등의 요청 사유이면 지방병무청장이 직권 연기 가능.",
+                "ref": "법 제61조제3항"
+              },
+              {
+                "label": "수사 요청은 1년",
+                "text": "제3항제3호의 수사기관 등의 요청에 따른 연기기간은 1년을 초과할 수 없다.",
+                "ref": "법 제61조제3항 단서"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제61조, 의무이행일의 연기",
+      "main_article": "병역법 제61조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|61",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0061&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

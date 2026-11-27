@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-106",
+  "lecture_title": "병역법 제68조, 병역의무의 연기 및 감면의 제한",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-106-D01-editorial-v1",
+      "lecture_id": "MS-106",
+      "lesson_number": 106,
+      "diagram_number": 1,
+      "title": "병역의무 연기·감면의 제한",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|68"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 169,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-106/diagrams/MS-106-D01-editorial-v1.svg",
+          "bytes": 7417,
+          "sha256": "39e77aea2a5bb3dc31aff3a76e57e9d7ae4218c1ddcdc30d7a088b51df79eecc"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-106/diagrams/MS-106-D01-editorial-v1.webp",
+          "bytes": 62846,
+          "sha256": "e9b2015101d638aff2668c22dc41d86ba78a05b15c4c3c1aeb296f82cdb16acf"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-106",
+        "title": "병역의무 연기·감면의 제한",
+        "subtitle": "법정 위반자와 고의로 사유를 만든 사람",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|68"
+        ],
+        "sections": [
+          {
+            "heading": "제한 대상",
+            "items": [
+              {
+                "label": "병역범죄·복무이탈",
+                "text": "제86~88조 또는 제94조의 죄를 지은 사람, 징집·소집 후 복무이탈자.",
+                "ref": "법 제68조"
+              },
+              {
+                "label": "고의로 사유 발생",
+                "text": "병역의무의 연기 또는 감면사유를 고의로 발생하게 한 사람.",
+                "ref": "법 제68조"
+              }
+            ]
+          },
+          {
+            "heading": "제한되는 처분",
+            "items": [
+              {
+                "label": "편입·연기",
+                "text": "승선근무·예술체육·전문연구·산업기능 편입 및 제68조제2호에 열거한 검사·징집·소집 연기.",
+                "ref": "법 제68조제1·2호"
+              },
+              {
+                "label": "가사사정 처분",
+                "text": "제62조의 편입, 제63조의 복무단축, 제63조의2의 대체역 소집면제·해제·복무단축.",
+                "ref": "법 제68조제3~5호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "생계유지곤란자는 고의로 그 사유를 발생시킨 경우가 아니면 제한의 예외이다."
+      },
+      "lecture_title": "병역법 제68조, 병역의무의 연기 및 감면의 제한",
+      "main_article": "병역법 제68조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|68",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0068&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

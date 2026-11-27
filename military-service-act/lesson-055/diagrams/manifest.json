@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-055",
+  "lecture_title": "병역법 제33조의2, 복무기본교육 및 직무교육 등",
+  "diagram_count": 5,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-055-D01-editorial-v1",
+      "lecture_id": "MS-055",
+      "lesson_number": 55,
+      "diagram_number": 1,
+      "title": "사회복무요원 교육의 구분",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|33의2",
+        "병역법|시행령|67"
+      ],
+      "part": 1,
+      "parts": 2,
+      "content_index": 100,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-055/diagrams/MS-055-D01-editorial-v1.svg",
+          "bytes": 7102,
+          "sha256": "ab8d461248ef00881560db2b42ab6ecd2a869ccc8771ac8e9a4b2e04981a51d9"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-055/diagrams/MS-055-D01-editorial-v1.webp",
+          "bytes": 60766,
+          "sha256": "6b8d430cf46cf20b398a3b62da57c0c5a304b0dd73bbf170920ee482a6544fcf"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-055",
+        "title": "사회복무요원 교육의 구분",
+        "subtitle": "복무기본교육·직무교육·복무지도교육",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|33의2",
+          "병역법|시행령|67"
+        ],
+        "sections": [
+          {
+            "heading": "기본교육과 직무교육",
+            "items": [
+              {
+                "label": "복무기본교육",
+                "text": "공무수행자의 정신자세 확립을 위해 병무청장·지방병무청장이 실시할 수 있음",
+                "ref": "법 제33조의2제1항"
+              },
+              {
+                "label": "직무교육",
+                "text": "담당직무 수행능력 배양을 위해 관계 중앙행정기관장이 실시하여야 함",
+                "ref": "법 제33조의2제2항"
+              }
+            ]
+          },
+          {
+            "heading": "복무지도교육",
+            "items": [
+              {
+                "label": "실시 주체·요건",
+                "text": "병무청장이 필요하다고 인정한 법정 대상자에게 병무청장·지방병무청장이 실시할 수 있음",
+                "ref": "법 제33조의2제3항"
+              },
+              {
+                "label": "위반행위 관련",
+                "text": "정당한 사유 없는 복무이탈 또는 법 제33조제2항의 경고처분 사유에 해당",
+                "ref": "법 제33조의2제3항제1호·제2호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제33조의2, 복무기본교육 및 직무교육 등",
+      "main_article": "병역법 제33조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|33의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0033&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|67",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0067&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-055-D02-editorial-v1",
+      "lecture_id": "MS-055",
+      "lesson_number": 55,
+      "diagram_number": 2,
+      "title": "사회복무요원 교육의 구분",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|33의2",
+        "병역법|시행령|67"
+      ],
+      "part": 2,
+      "parts": 2,
+      "content_index": 100,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-055/diagrams/MS-055-D02-editorial-v1.svg",
+          "bytes": 5396,
+          "sha256": "554aaabff49a30afd8b125d296311b65bc6776b2f9ce1eb235a551a59db809b8"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-055/diagrams/MS-055-D02-editorial-v1.webp",
+          "bytes": 41582,
+          "sha256": "56b96863c27e282620735702b3c9d29b0024d636f57c92dc87b93f8f819c2812"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-055",
+        "title": "사회복무요원 교육의 구분",
+        "subtitle": "복무기본교육·직무교육·복무지도교육",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|33의2",
+          "병역법|시행령|67"
+        ],
+        "sections": [
+          {
+            "heading": "기본교육과 직무교육",
+            "items": [
+              {
+                "label": "직무교육의 예외",
+                "text": "실시 곤란 시 병무청장과 협의하여 병무청장·지방병무청장이 실시할 수 있음",
+                "ref": "법 제33조의2제2항"
+              }
+            ]
+          },
+          {
+            "heading": "복무지도교육",
+            "items": [
+              {
+                "label": "추가 법정 사유",
+                "text": "앞의 사유 외 벌금 이상 형 선고 후 복무 중이거나 군 복무 적응 곤란으로 보충역 변경",
+                "ref": "법 제33조의2제3항제3호·시행령 제67조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제33조의2, 복무기본교육 및 직무교육 등",
+      "main_article": "병역법 제33조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|33의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0033&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|67",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0067&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-055-D03-editorial-v1",
+      "lecture_id": "MS-055",
+      "lesson_number": 55,
+      "diagram_number": 3,
+      "title": "사회복무 교육의 횟수·기간",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|시행령|67"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 101,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-055/diagrams/MS-055-D03-editorial-v1.svg",
+          "bytes": 7732,
+          "sha256": "d3724f369711795e0eac264e670390d75df4ce3f05259c708658e2b6447c1539"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-055/diagrams/MS-055-D03-editorial-v1.webp",
+          "bytes": 59158,
+          "sha256": "0e5194e915abc5ea9dfdbe39353e76edc7c4e2ccd2246f752fb2f75f3e333a26"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-055",
+        "title": "사회복무 교육의 횟수·기간",
+        "subtitle": "최초교육 3개월 이내, 교육기간 30일·15일 이내",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|시행령|67"
+        ],
+        "sections": [
+          {
+            "heading": "횟수와 최초교육",
+            "items": [
+              {
+                "label": "각각 1회 이상",
+                "text": "복무기본교육 및 직무교육은 각각 1회 이상 실시하여야 함",
+                "ref": "시행령 제67조제1항"
+              },
+              {
+                "label": "소집일부터 3개월",
+                "text": "최초 복무기본교육·직무교육은 사회복무요원 소집일부터 3개월 이내",
+                "ref": "시행령 제67조제1항"
+              },
+              {
+                "label": "군사교육을 했다면",
+                "text": "군사교육소집을 한 경우 그 소집을 해제한 날부터 3개월 이내",
+                "ref": "시행령 제67조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "교육기간",
+            "items": [
+              {
+                "label": "30일 이내",
+                "text": "복무기본교육 및 법 제33조의2제2항 본문의 직무교육",
+                "ref": "시행령 제67조제3항"
+              },
+              {
+                "label": "15일 이내",
+                "text": "복무지도교육",
+                "ref": "시행령 제67조제3항"
+              },
+              {
+                "label": "복무기간에 산입",
+                "text": "각 교육기간은 복무기간에 산입",
+                "ref": "시행령 제67조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제33조의2, 복무기본교육 및 직무교육 등",
+      "main_article": "병역법 제33조의2",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|67",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0067&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-055-D04-editorial-v1",
+      "lecture_id": "MS-055",
+      "lesson_number": 55,
+      "diagram_number": 4,
+      "title": "교육 통지와 교육일 연기",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|시행령|68"
+      ],
+      "part": 1,
+      "parts": 2,
+      "content_index": 102,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-055/diagrams/MS-055-D04-editorial-v1.svg",
+          "bytes": 7405,
+          "sha256": "0b4d833b0d538b765f4c6ef55145fe68c5e85db827c93218bccee43e1434b3cb"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-055/diagrams/MS-055-D04-editorial-v1.webp",
+          "bytes": 62180,
+          "sha256": "58f2d5f58732f32dc27dcedfe69f59475f593cd8d44257dbbe25352256ffde74"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-055",
+        "title": "교육 통지와 교육일 연기",
+        "subtitle": "법정 사유가 있으면 신청에 따라 사유 소멸 시까지 연기 가능",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|시행령|68"
+        ],
+        "sections": [
+          {
+            "heading": "교육 통지서",
+            "items": [
+              {
+                "label": "교육일 14일 전",
+                "text": "병무청장·지방병무청장·관계 중앙행정기관장이 교육일 14일 전까지 발송",
+                "ref": "시행령 제68조제1항"
+              },
+              {
+                "label": "보내는 방법",
+                "text": "직접·복무기관장을 통한 교부, 우편 또는 사전 동의를 받은 전자송달",
+                "ref": "시행령 제68조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "교육일 연기 사유",
+            "items": [
+              {
+                "label": "본인 질병·장애",
+                "text": "질병·심신장애로 교육을 충실하게 이행하기 어려운 경우",
+                "ref": "시행령 제68조제2항제1호"
+              },
+              {
+                "label": "가족 위독·사망",
+                "text": "직계존비속·배우자·형제자매·같은 세대 가족의 위독·사망으로 본인 외 간호·장례 등 가사정리 곤란",
+                "ref": "시행령 제68조제2항제2호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "교육여비는 예산의 범위에서 실비로 지급하여야 합니다."
+      },
+      "lecture_title": "병역법 제33조의2, 복무기본교육 및 직무교육 등",
+      "main_article": "병역법 제33조의2",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|68",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0068&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-055-D05-editorial-v1",
+      "lecture_id": "MS-055",
+      "lesson_number": 55,
+      "diagram_number": 5,
+      "title": "교육 통지와 교육일 연기",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|시행령|68"
+      ],
+      "part": 2,
+      "parts": 2,
+      "content_index": 102,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-055/diagrams/MS-055-D05-editorial-v1.svg",
+          "bytes": 4247,
+          "sha256": "470a4e876c4880507448de2930db150f90ad615b958c72667fbf9bf1b2c07f73"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-055/diagrams/MS-055-D05-editorial-v1.webp",
+          "bytes": 35700,
+          "sha256": "e9f5726f50d0073529d2f3ffb66d67c9167a825f2679f94db0271d6fc2cf1292"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-055",
+        "title": "교육 통지와 교육일 연기",
+        "subtitle": "법정 사유가 있으면 신청에 따라 사유 소멸 시까지 연기 가능",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|시행령|68"
+        ],
+        "sections": [
+          {
+            "heading": "교육일 연기 사유",
+            "items": [
+              {
+                "label": "재난",
+                "text": "천재지변·그 밖의 재난으로 본인이 아니면 처리하기 어려운 경우",
+                "ref": "시행령 제68조제2항제3호"
+              },
+              {
+                "label": "그 밖의 사유",
+                "text": "그 밖에 부득이한 사유로 교육받기 어려운 경우",
+                "ref": "시행령 제68조제2항제4호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "교육여비는 예산의 범위에서 실비로 지급하여야 합니다."
+      },
+      "lecture_title": "병역법 제33조의2, 복무기본교육 및 직무교육 등",
+      "main_article": "병역법 제33조의2",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|68",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0068&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

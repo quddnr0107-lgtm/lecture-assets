@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-030",
+  "lecture_title": "병역법 제21조, 상근예비역소집의 대상 및 선발",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-030-D01-editorial-v1",
+      "lecture_id": "MS-030",
+      "lesson_number": 30,
+      "diagram_number": 1,
+      "title": "상근예비역소집 대상과 선발",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|21",
+        "병역법|시행령|33"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 52,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-030/diagrams/MS-030-D01-editorial-v1.svg",
+          "bytes": 8063,
+          "sha256": "9c5b9c3a98334a63feaaf5287fa9730e295f6ef023fd88828a7846ea673e31cb"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-030/diagrams/MS-030-D01-editorial-v1.webp",
+          "bytes": 63958,
+          "sha256": "56f5191fcba0b4593c46456a78445187c1fe818ba3a9516875390be5cc24b55e"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-030",
+        "title": "상근예비역소집 대상과 선발",
+        "subtitle": "현역 복무를 거친 예비역과 법정 편입자",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|21",
+          "병역법|시행령|33"
+        ],
+        "sections": [
+          {
+            "heading": "소집 대상",
+            "items": [
+              {
+                "label": "현역 복무 후 편입",
+                "text": "상근예비역소집 대상으로 징집 입영하여 1년 범위의 법정 현역 복무기간을 마치고 예비역에 편입된 사람",
+                "ref": "법 제21조제1항"
+              },
+              {
+                "label": "그 밖의 편입자",
+                "text": "법 제65조제3항에 따라 예비역에 편입된 사람",
+                "ref": "법 제21조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "선발과 입영순서",
+            "items": [
+              {
+                "label": "선발 주체·단위",
+                "text": "지방병무청장이 현역병 입영 대상자 중 징집에 의하여 거주지별로 선발",
+                "ref": "법 제21조제2항"
+              },
+              {
+                "label": "선발 기준",
+                "text": "거주지·신체등급·학력·연령 등 자질을 고려하여 병무청장이 정함",
+                "ref": "법 제21조제3항"
+              },
+              {
+                "label": "입영순서",
+                "text": "지방병무청장이 시·구·읍·면별 결정. 도농복합시는 읍·면별, 동은 동 지역 전체로 결정",
+                "ref": "시행령 제33조제1항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제21조, 상근예비역소집의 대상 및 선발",
+      "main_article": "병역법 제21조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|21",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0021&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|33",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0033&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-030-D02-editorial-v1",
+      "lecture_id": "MS-030",
+      "lesson_number": 30,
+      "diagram_number": 2,
+      "title": "상근예비역 선발의 취소",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|21",
+        "병역법|시행령|32"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 53,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-030/diagrams/MS-030-D02-editorial-v1.svg",
+          "bytes": 7024,
+          "sha256": "ab526650ac31667ed64a6326a398ac5b21743f6b8bdf4f1d96ada67fc1fc93fc"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-030/diagrams/MS-030-D02-editorial-v1.webp",
+          "bytes": 55504,
+          "sha256": "cc9196d59900c49f46ada9a23dbd222e98f5d98c8081129789c3f243ddab842a"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-030",
+        "title": "상근예비역 선발의 취소",
+        "subtitle": "현역병 입영 전후에 따라 취소 주체를 구별",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|21",
+          "병역법|시행령|32"
+        ],
+        "sections": [
+          {
+            "heading": "현역병 입영 전",
+            "items": [
+              {
+                "label": "취소 사유",
+                "text": "신상변동 등으로 처음 선발된 지역에서 상근예비역으로 근무할 수 없는 경우",
+                "ref": "법 제21조제4항"
+              },
+              {
+                "label": "취소 주체",
+                "text": "지방병무청장이 선발을 취소할 수 있음",
+                "ref": "법 제21조제4항"
+              },
+              {
+                "label": "요건·절차",
+                "text": "병무청장이 정함",
+                "ref": "법 제21조제5항"
+              }
+            ]
+          },
+          {
+            "heading": "현역병 입영 후",
+            "items": [
+              {
+                "label": "취소 주체",
+                "text": "현역병으로 입영한 후 선발 취소는 각 군 참모총장이 함",
+                "ref": "법 제21조제4항"
+              },
+              {
+                "label": "요건·절차",
+                "text": "각 군 참모총장이 정함",
+                "ref": "법 제21조제5항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "지방병무청장은 선발하거나 선발을 취소한 사실을 본인에게 지체 없이 통지합니다."
+      },
+      "lecture_title": "병역법 제21조, 상근예비역소집의 대상 및 선발",
+      "main_article": "병역법 제21조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|21",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0021&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|32",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0032&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

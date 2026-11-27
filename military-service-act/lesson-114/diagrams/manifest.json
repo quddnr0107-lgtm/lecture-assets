@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-114",
+  "lecture_title": "병역법 제74조의2, 채용 시의 우대 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-114-D01-editorial-v1",
+      "lecture_id": "MS-114",
+      "lesson_number": 114,
+      "diagram_number": 1,
+      "title": "채용시험 응시상한연령 연장",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|74의2",
+        "병역법|시행령|151의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 181,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-114/diagrams/MS-114-D01-editorial-v1.svg",
+          "bytes": 6808,
+          "sha256": "8190e15e82e7bcbccfa26d5ea6dd3ff17eb593bc4bd4deaca367e79b4ea334e9"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-114/diagrams/MS-114-D01-editorial-v1.webp",
+          "bytes": 44600,
+          "sha256": "220b90e988f2d71ae3e306c6af1d318fde92a8f2292f6777a00afbbb34cd161e"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-114",
+        "title": "채용시험 응시상한연령 연장",
+        "subtitle": "취업지원 실시기관의 채용시험 기준",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|74의2",
+          "병역법|시행령|151의2"
+        ],
+        "sections": [
+          {
+            "heading": "복무기간별 연장",
+            "items": [
+              {
+                "label": "2년 이상",
+                "text": "응시상한연령 3세 연장",
+                "ref": "영 제151조의2제1호"
+              },
+              {
+                "label": "1년 이상 2년 미만",
+                "text": "응시상한연령 2세 연장",
+                "ref": "영 제151조의2제2호"
+              },
+              {
+                "label": "1년 미만",
+                "text": "응시상한연령 1세 연장",
+                "ref": "영 제151조의2제3호"
+              }
+            ]
+          },
+          {
+            "heading": "대상과 시점",
+            "items": [
+              {
+                "label": "대상",
+                "text": "승선근무예비역·보충역·대체복무요원 복무 완료자. 사회복무요원 제외",
+                "ref": "법 제74조의2제1항"
+              },
+              {
+                "label": "복무 중 응시",
+                "text": "복무 만료 예정일 전 6개월 이내에는 복무를 마친 사람으로 봄",
+                "ref": "법 제74조의2제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제74조의2, 채용 시의 우대 등",
+      "main_article": "병역법 제74조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|74의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0074&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|151의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0151&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

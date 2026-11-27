@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-113",
+  "lecture_title": "병역법 제74조, 복직보장 등",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-113-D01-editorial-v1",
+      "lecture_id": "MS-113",
+      "lesson_number": 113,
+      "diagram_number": 1,
+      "title": "복직보장의 원칙과 예외",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|74",
+        "병역법|시행령|150"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 179,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-113/diagrams/MS-113-D01-editorial-v1.svg",
+          "bytes": 7507,
+          "sha256": "4f66fcf3556dbeb110d3b0c6836bfc0b36328258badddc3fa0b61ef393bfd988"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-113/diagrams/MS-113-D01-editorial-v1.webp",
+          "bytes": 52968,
+          "sha256": "93ce5b3b53c3d645e5aa78e846d90eef710347b07bfc4eaa42f51789dada4909"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-113",
+        "title": "복직보장의 원칙과 예외",
+        "subtitle": "국가기관·지방자치단체의 장 또는 고용주",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|74",
+          "병역법|시행령|150"
+        ],
+        "sections": [
+          {
+            "heading": "휴직 → 복직",
+            "items": [
+              {
+                "label": "복무 시작",
+                "text": "입영하거나 승선근무예비역·보충역·대체복무요원 복무 시 휴직",
+                "ref": "법 제74조제1항"
+              },
+              {
+                "label": "복무 종료",
+                "text": "복무를 마치면 복직시켜야 함",
+                "ref": "법 제74조제1항"
+              },
+              {
+                "label": "본인의 신고",
+                "text": "통지서 수령 및 전역·소집해제·복무만료·면제 시 소속기관 등에 신고",
+                "ref": "영 제150조"
+              }
+            ]
+          },
+          {
+            "heading": "적용에서 제외",
+            "items": [
+              {
+                "label": "재직하며 복무",
+                "text": "해당 기관에 재직하면서 승선근무예비역·보충역 복무를 하는 사람",
+                "ref": "법 제74조제1항"
+              },
+              {
+                "label": "복무 중 범죄",
+                "text": "범죄행위로 제적·전역 또는 소집해제된 경우 복직보장 예외",
+                "ref": "법 제74조제1항 단서"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제74조, 복직보장 등",
+      "main_article": "병역법 제74조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|74",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0074&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|150",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0150&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-113-D02-editorial-v1",
+      "lecture_id": "MS-113",
+      "lesson_number": 113,
+      "diagram_number": 2,
+      "title": "복무기간의 근무기간 산정",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|74",
+        "병역법|시행령|151"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 180,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-113/diagrams/MS-113-D02-editorial-v1.svg",
+          "bytes": 6848,
+          "sha256": "ee6a5b5e4c6ef3236616ca78e479ba37ba21f710084bc9c1775773eb6e73bb74"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-113/diagrams/MS-113-D02-editorial-v1.webp",
+          "bytes": 50294,
+          "sha256": "a2c00c087c0d17c64185e5472fe2d42ab1d766e8968281c745aeb3c875561b39"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-113",
+        "title": "복무기간의 근무기간 산정",
+        "subtitle": "승진·보수·불리한 처우를 구별",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|74",
+          "병역법|시행령|151"
+        ],
+        "sections": [
+          {
+            "heading": "승진과 보수",
+            "items": [
+              {
+                "label": "승진 산정",
+                "text": "휴직자의 의무복무기간은 실제근무기간으로 산정하여야 함",
+                "ref": "법 제74조제2항"
+              },
+              {
+                "label": "보수 지급",
+                "text": "복무 전 보수와 군·의무복무기관 보수의 차액 범위에서 지급 가능",
+                "ref": "법 제74조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "18개월 기준",
+            "items": [
+              {
+                "label": "적용 대상",
+                "text": "승선근무예비역·보충역·대체복무요원의 의무복무를 마친 사람",
+                "ref": "영 제151조"
+              },
+              {
+                "label": "산정 기간",
+                "text": "18개월. 복무기간이 그보다 짧으면 실제복무기간",
+                "ref": "영 제151조"
+              }
+            ]
+          }
+        ],
+        "takeaway": "이행 예정·완료에 불이익 금지. 이행 중은 재직 승선근무예비역·보충역에 한정"
+      },
+      "lecture_title": "병역법 제74조, 복직보장 등",
+      "main_article": "병역법 제74조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|74",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0074&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|151",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0151&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

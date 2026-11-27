@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-057",
+  "lecture_title": "병역법 제33조의8, 예술·체육요원의 의무복무기간 등",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-057-D01-editorial-v1",
+      "lecture_id": "MS-057",
+      "lesson_number": 57,
+      "diagram_number": 1,
+      "title": "예술·체육요원의 의무복무",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|33의8"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 106,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-057/diagrams/MS-057-D01-editorial-v1.svg",
+          "bytes": 7056,
+          "sha256": "6ea38af1eb5bb1753a9623a4f13ddc5a9d0ead45b586cf9cd678dfb5eb748407"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-057/diagrams/MS-057-D01-editorial-v1.webp",
+          "bytes": 50274,
+          "sha256": "d420e5e7da29b8739e155ff190f0828e530fc5b5d0f4d2a5b3e98e1c9736c31c"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-057",
+        "title": "예술·체육요원의 의무복무",
+        "subtitle": "기간 계산과 공익복무를 함께 확인",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|33의8"
+        ],
+        "sections": [
+          {
+            "heading": "2년 10개월",
+            "items": [
+              {
+                "label": "복무 완료",
+                "text": "의무복무기간을 마치면 사회복무요원의 복무를 마친 것으로 본다.",
+                "ref": "법 제33조의8제1항"
+              },
+              {
+                "label": "기간 산입",
+                "text": "군사교육소집 기간은 의무복무기간에 포함한다.",
+                "ref": "법 제33조의8제2항"
+              }
+            ]
+          },
+          {
+            "heading": "기간·관리 원칙",
+            "items": [
+              {
+                "label": "산입 제외",
+                "text": "징역·금고·구류 집행일수와 해당 분야에 복무하지 않은 일수는 포함하지 않는다.",
+                "ref": "법 제33조의8제3항"
+              },
+              {
+                "label": "지휘·감독",
+                "text": "특기계발 및 의무복무는 문화체육관광부장관의 지휘·감독을 받는다.",
+                "ref": "법 제33조의8제4항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제33조의8, 예술·체육요원의 의무복무기간 등",
+      "main_article": "병역법 제33조의8",
+      "source_articles": [
+        {
+          "key": "병역법|본법|33의8",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=08&joNo=0033&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-057-D02-editorial-v1",
+      "lecture_id": "MS-057",
+      "lesson_number": 57,
+      "diagram_number": 2,
+      "title": "공익복무의 숫자와 기한",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|33의8",
+        "병역법|시행령|68의12"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 107,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-057/diagrams/MS-057-D02-editorial-v1.svg",
+          "bytes": 7331,
+          "sha256": "3af5fe7f1cbc69afae2fbe84e8c92a1f571874438b97ab3ba8a0e967e4865884"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-057/diagrams/MS-057-D02-editorial-v1.webp",
+          "bytes": 61298,
+          "sha256": "c69256bb352e2ea7a0f7d9001f2117f00e2f3c2c5fba6b847efbacf68c7fdc1c"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-057",
+        "title": "공익복무의 숫자와 기한",
+        "subtitle": "예술·체육 특기를 활용한 공익 업무",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|33의8",
+          "병역법|시행령|68의12"
+        ],
+        "sections": [
+          {
+            "heading": "복무 시간",
+            "items": [
+              {
+                "label": "총 544시간",
+                "text": "의무복무기간 중 총 544시간. 복무기간 단축 시 단축 1개월마다 16시간 공제.",
+                "ref": "영 제68조의12제1항"
+              },
+              {
+                "label": "분기별 24시간",
+                "text": "분기마다 최소 24시간의 공익복무 기준을 충족해야 한다.",
+                "ref": "영 제68조의12제4항"
+              }
+            ]
+          },
+          {
+            "heading": "문체부장관의 관리",
+            "items": [
+              {
+                "label": "1월 31일까지",
+                "text": "매년 공익복무의 일정·장소 등을 포함한 연간 운영계획을 수립한다.",
+                "ref": "영 제68조의12제5항"
+              },
+              {
+                "label": "다음 달 20일까지",
+                "text": "공익복무를 실시한 달의 다음 달 20일까지 개인별 실적을 병무청장에게 통보한다.",
+                "ref": "영 제68조의12제6항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "단축기간의 15일 이상은 1개월로 계산하고, 15일 미만은 산입하지 않는다."
+      },
+      "lecture_title": "병역법 제33조의8, 예술·체육요원의 의무복무기간 등",
+      "main_article": "병역법 제33조의8",
+      "source_articles": [
+        {
+          "key": "병역법|본법|33의8",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=08&joNo=0033&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|68의12",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=12&joNo=0068&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

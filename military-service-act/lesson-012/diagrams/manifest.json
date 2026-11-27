@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-012",
+  "lecture_title": "병역법 제10조, 병역판정검사 대상자의 조사",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-012-D01-editorial-v1",
+      "lecture_id": "MS-012",
+      "lesson_number": 12,
+      "diagram_number": 1,
+      "title": "병역판정검사 대상자 조사",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|10",
+        "병역법|시행령|8"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 21,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-012/diagrams/MS-012-D01-editorial-v1.svg",
+          "bytes": 7228,
+          "sha256": "1d1187aee640b17aee9edd15a339f409d2159cc7501ab4a06a853b0e0edf3681"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-012/diagrams/MS-012-D01-editorial-v1.webp",
+          "bytes": 59542,
+          "sha256": "345b4977c502f8ea40e2eb18e9c65412a98f00327a9e8055998440750c1ec511"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-012",
+        "title": "병역판정검사 대상자 조사",
+        "subtitle": "지방병무청장이 조사하고 데이터베이스를 작성",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|10",
+          "병역법|시행령|8"
+        ],
+        "sections": [
+          {
+            "heading": "조사 대상·업무",
+            "items": [
+              {
+                "label": "다음 해 검사 대상",
+                "text": "매년 다음 해 병역판정검사를 받아야 할 사람을 조사",
+                "ref": "법 제10조제1항"
+              },
+              {
+                "label": "주민등록 오류 등",
+                "text": "기재 내용이 명백히 잘못되거나 정정된 사람 중 검사 대상자도 조사",
+                "ref": "법 제10조제1항"
+              },
+              {
+                "label": "데이터베이스",
+                "text": "병적 데이터베이스를 작성하여 병역판정검사를 받게 하여야 함",
+                "ref": "법 제10조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "조사 일정",
+            "items": [
+              {
+                "label": "9월 15일까지",
+                "text": "지방병무청장이 조사 후 결과 입력·정리, 대상자 현황서 작성·관리",
+                "ref": "시행령 제8조제1항"
+              },
+              {
+                "label": "9월 30일까지",
+                "text": "대상자 현황서를 병무청장에게 제출",
+                "ref": "시행령 제8조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제10조, 병역판정검사 대상자의 조사",
+      "main_article": "병역법 제10조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|10",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0010&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|8",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0008&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-012-D02-editorial-v1",
+      "lecture_id": "MS-012",
+      "lesson_number": 12,
+      "diagram_number": 2,
+      "title": "군 필요인원 통보 일정",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|시행령|10"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 22,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-012/diagrams/MS-012-D02-editorial-v1.svg",
+          "bytes": 5850,
+          "sha256": "2a418b9f342fc2f1b3aa75c12beb6321192c930fc6297048ba2f13a59cca27e8"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-012/diagrams/MS-012-D02-editorial-v1.webp",
+          "bytes": 47416,
+          "sha256": "11097402f50355e7a783dc7766f39dee15d494aee5f03c788129337e565f8071"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-012",
+        "title": "군 필요인원 통보 일정",
+        "subtitle": "다음 다음 해 필요인원과 다음 해 검사기준의 연결",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|시행령|10"
+        ],
+        "sections": [
+          {
+            "heading": "10월 31일까지",
+            "items": [
+              {
+                "label": "각 군 참모총장",
+                "text": "다음 다음 해 징집 입영할 사람의 적성별 필요인원을 병무청장에게 통보",
+                "ref": "시행령 제10조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "통보를 받은 뒤",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "다음 해 검사에서 처분할 현역입영·보충역 편입 기준을 결정하고 시·도별·적성별 입영인원 배분",
+                "ref": "시행령 제10조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "12월 31일까지",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "현역병입영 및 보충역 편입 기준을 각 군 참모총장에게 통보",
+                "ref": "시행령 제10조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제10조, 병역판정검사 대상자의 조사",
+      "main_article": "병역법 제10조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|10",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0010&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

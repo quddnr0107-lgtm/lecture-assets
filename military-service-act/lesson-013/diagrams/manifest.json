@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-013",
+  "lecture_title": "병역법 제11조, 병역판정검사",
+  "diagram_count": 3,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-013-D01-editorial-v1",
+      "lecture_id": "MS-013",
+      "lesson_number": 13,
+      "diagram_number": 1,
+      "title": "병역판정검사의 시기",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|11"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 23,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-013/diagrams/MS-013-D01-editorial-v1.svg",
+          "bytes": 7642,
+          "sha256": "3e208dca38df025bb70bb388cdb944f393e04ef40566e26b5b8b0a9b02a16f83"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-013/diagrams/MS-013-D01-editorial-v1.webp",
+          "bytes": 61238,
+          "sha256": "c88b068cf9e862be027594640e0bffd35cc0c7c0fb5bcf95c270b3041639ed9e"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-013",
+        "title": "병역판정검사의 시기",
+        "subtitle": "19세 원칙과 예외·검사 간주의 범위",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|11"
+        ],
+        "sections": [
+          {
+            "heading": "검사받는 해",
+            "items": [
+              {
+                "label": "원칙 19세",
+                "text": "지방병무청장이 지정한 일시·장소에서 검사받아야 함",
+                "ref": "법 제11조제1항"
+              },
+              {
+                "label": "일부는 20세",
+                "text": "군 필요인원·병역자원 수급 상황 등을 고려하여 일부는 20세에 검사하게 할 수 있음",
+                "ref": "법 제11조제1항"
+              },
+              {
+                "label": "미수검·연기 종료",
+                "text": "받지 않은 사람과 연기사유가 소멸된 사람은 그 해 또는 다음 해에 검사",
+                "ref": "법 제11조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "검사받은 것으로 간주",
+            "items": [
+              {
+                "label": "현역병지원 검사",
+                "text": "병역판정검사 미수검자가 병무청장의 현역병지원 신체검사를 받은 경우",
+                "ref": "법 제11조제6항"
+              },
+              {
+                "label": "18세의 제한",
+                "text": "18세는 신체등급 5급이나 6급으로 판정된 경우에만 해당",
+                "ref": "법 제11조제6항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제11조, 병역판정검사",
+      "main_article": "병역법 제11조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|11",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0011&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-013-D02-editorial-v1",
+      "lecture_id": "MS-013",
+      "lesson_number": 13,
+      "diagram_number": 2,
+      "title": "신체검사와 심리검사",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|11"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 24,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-013/diagrams/MS-013-D02-editorial-v1.svg",
+          "bytes": 8221,
+          "sha256": "f97722005707aec553558a34cdad890e50acb6c47b2ec08ff9e602deaa75f866"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-013/diagrams/MS-013-D02-editorial-v1.webp",
+          "bytes": 52268,
+          "sha256": "26c06555257c6f24f922ebb2e04f33cd73984cf4e49cb9cfcaf80c3a915db325"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-013",
+        "title": "신체검사와 심리검사",
+        "subtitle": "두 검사로 병역을 감당할 수 있는지 판정",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|11"
+        ],
+        "sections": [
+          {
+            "heading": "신체검사",
+            "items": [
+              {
+                "label": "검사 범위",
+                "text": "외과·내과 등 신체의 모든 부위를 검사하여야 함",
+                "ref": "법 제11조제4항"
+              },
+              {
+                "label": "추가 검사",
+                "text": "필요한 경우 임상병리검사·방사선촬영 등을 할 수 있음",
+                "ref": "법 제11조제4항"
+              },
+              {
+                "label": "의료기관 위탁",
+                "text": "질병·심신장애의 정도 확인이 곤란하면 대통령령에 따라 위탁 가능",
+                "ref": "법 제11조제4항"
+              }
+            ]
+          },
+          {
+            "heading": "심리검사",
+            "items": [
+              {
+                "label": "평가 방법",
+                "text": "언행관찰·면담 또는 서면검사 등으로 정서·성격 등을 평가하여야 함",
+                "ref": "법 제11조제5항"
+              },
+              {
+                "label": "정밀심리검사",
+                "text": "필요한 경우 정신적·심리적 상태 등의 구체적 확인을 위해 실시 가능",
+                "ref": "법 제11조제5항"
+              },
+              {
+                "label": "의료기관 위탁",
+                "text": "질병·심신장애의 정도 확인이 곤란하면 대통령령에 따라 위탁 가능",
+                "ref": "법 제11조제5항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제11조, 병역판정검사",
+      "main_article": "병역법 제11조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|11",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0011&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-013-D03-editorial-v1",
+      "lecture_id": "MS-013",
+      "lesson_number": 13,
+      "diagram_number": 3,
+      "title": "병역판정검사 처리기한",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|시행규칙|14",
+        "병역법|시행규칙|15",
+        "병역법|시행령|18"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 25,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-013/diagrams/MS-013-D03-editorial-v1.svg",
+          "bytes": 6800,
+          "sha256": "6be047796b05693603c82af14603dac00e624778aeabd54dd82cd61c197d8e1c"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-013/diagrams/MS-013-D03-editorial-v1.webp",
+          "bytes": 57214,
+          "sha256": "41b28158cc1df15a03bb555ea16f1aba45fc2e1d45568c965f82ca630e0a3f7f"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-013",
+        "title": "병역판정검사 처리기한",
+        "subtitle": "우선 검사 신청·결과 통보·종결업무",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|시행규칙|14",
+          "병역법|시행규칙|15",
+          "병역법|시행령|18"
+        ],
+        "sections": [
+          {
+            "heading": "신청과 통보",
+            "items": [
+              {
+                "label": "희망 검사일 전날",
+                "text": "우선 병역판정검사 신청서와 사유 증명서류를 지방병무청장에게 제출",
+                "ref": "시행규칙 제15조"
+              },
+              {
+                "label": "검사일부터 10일",
+                "text": "군병원장은 검사 결과를 기재한 병적기록표 등으로 요청한 지방병무청장에게 통보",
+                "ref": "시행규칙 제14조"
+              }
+            ]
+          },
+          {
+            "heading": "종결업무",
+            "items": [
+              {
+                "label": "대상 업무",
+                "text": "현역병입영 대상자·보충역 편입자 명부 작성 등 검사 종결에 필요한 업무",
+                "ref": "시행령 제18조제1항"
+              },
+              {
+                "label": "2개월 이내",
+                "text": "병역판정검사 기간이 끝난 날부터 2개월 이내에 마쳐야 함",
+                "ref": "시행령 제18조제1항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제11조, 병역판정검사",
+      "main_article": "병역법 제11조",
+      "source_articles": [
+        {
+          "key": "병역법|시행규칙|14",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0014&lsiSeq=291527&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-29",
+          "promulgation": "국방부령 제1235호"
+        },
+        {
+          "key": "병역법|시행규칙|15",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0015&lsiSeq=291527&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-29",
+          "promulgation": "국방부령 제1235호"
+        },
+        {
+          "key": "병역법|시행령|18",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0018&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

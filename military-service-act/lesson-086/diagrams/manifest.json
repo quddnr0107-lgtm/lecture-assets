@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-086",
+  "lecture_title": "병역법 제50조, 병력동원훈련소집",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-086-D01-editorial-v1",
+      "lecture_id": "MS-086",
+      "lesson_number": 86,
+      "diagram_number": 1,
+      "title": "병력동원훈련소집의 주체",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|50"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 142,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-086/diagrams/MS-086-D01-editorial-v1.svg",
+          "bytes": 6630,
+          "sha256": "d8fc8c83a075a3b3b2f313d6bf66ea870dd85005040dce7b3b1de8766a2f1881"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-086/diagrams/MS-086-D01-editorial-v1.webp",
+          "bytes": 56168,
+          "sha256": "fbcd4ed3bf93fe8f503f311765ef5d8d8a09349d3ebe5c225030c23643455d05"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-086",
+        "title": "병력동원훈련소집의 주체",
+        "subtitle": "일반 대상자와 상비예비군을 구분",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|50"
+        ],
+        "sections": [
+          {
+            "heading": "일반 대상자",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "병력동원소집 대상자로 지정된 사람에 대하여 병력동원훈련소집을 한다.",
+                "ref": "법 제50조제1항"
+              },
+              {
+                "label": "지정 일시·장소",
+                "text": "소집 통지서를 받은 사람은 지정된 일시·장소에 입영하여야 한다.",
+                "ref": "법 제50조제3항"
+              }
+            ]
+          },
+          {
+            "heading": "상비예비군·사전 통지",
+            "items": [
+              {
+                "label": "입영부대의 장",
+                "text": "상비예비군은 입영부대의 장이 병력동원훈련소집을 한다.",
+                "ref": "법 제50조제1항 단서"
+              },
+              {
+                "label": "병무청장",
+                "text": "필요하면 지방병무청장에게 통지서를 미리 송달하게 할 수 있다.",
+                "ref": "법 제50조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제50조, 병력동원훈련소집",
+      "main_article": "병역법 제50조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|50",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0050&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-086-D02-editorial-v1",
+      "lecture_id": "MS-086",
+      "lesson_number": 86,
+      "diagram_number": 2,
+      "title": "동원훈련 통지서의 송달 기한",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|시행령|101"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 143,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-086/diagrams/MS-086-D02-editorial-v1.svg",
+          "bytes": 7289,
+          "sha256": "e0f1b4425373fd422a5686745abbbc76a891f1f3c80a8e71b5255b450a03dfd0"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-086/diagrams/MS-086-D02-editorial-v1.webp",
+          "bytes": 62624,
+          "sha256": "470a4eb37de7fad60e38d0f6d6b427ee898f385fe29c48367f9ada3b1e66e8af"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-086",
+        "title": "동원훈련 통지서의 송달 기한",
+        "subtitle": "사전 입영일 지정 여부에 따른 차이",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|시행령|101"
+        ],
+        "sections": [
+          {
+            "heading": "원칙 7일 전까지",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "소집 통지서를 입영일 7일 전까지 본인에게 송달하여야 한다.",
+                "ref": "영 제101조제1항"
+              },
+              {
+                "label": "이사 후에도 입영",
+                "text": "통지서를 받고 이사한 경우에도 원칙적으로 지정되거나 공고된 바에 따라 입영한다.",
+                "ref": "영 제101조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "예외 전날까지",
+            "items": [
+              {
+                "label": "사전 날짜 미지정",
+                "text": "운영계획서 등에 사전 입영일을 지정하지 않고 실시하는 훈련소집 등은 전날까지 송달 가능.",
+                "ref": "영 제101조제3항"
+              },
+              {
+                "label": "전 가족 이사 특례",
+                "text": "같은 세대의 전 가족과 이사한 법정 대상자는 입영부대·일시를 다시 지정할 수 있다.",
+                "ref": "영 제101조제2항 단서"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제50조, 병력동원훈련소집",
+      "main_article": "병역법 제50조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|101",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0101&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

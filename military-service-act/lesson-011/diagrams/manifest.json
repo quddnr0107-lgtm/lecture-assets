@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-011",
+  "lecture_title": "병역법 제9조, 병역준비역 편입자의 조사",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-011-D01-editorial-v1",
+      "lecture_id": "MS-011",
+      "lesson_number": 11,
+      "diagram_number": 1,
+      "title": "병역준비역 조사자료",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|9"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 19,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-011/diagrams/MS-011-D01-editorial-v1.svg",
+          "bytes": 7550,
+          "sha256": "666130639a02c16106a33ff15f564eaa14329dda4ceab82a3f68ca7ce902306d"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-011/diagrams/MS-011-D01-editorial-v1.webp",
+          "bytes": 59472,
+          "sha256": "b93c340535c23b130f814e8564aee03c07ee37ebf454fa24113d35b74fd7790d"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-011",
+        "title": "병역준비역 조사자료",
+        "subtitle": "주민등록·가족관계등록·국적변동 자료의 제공 주체",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|9"
+        ],
+        "sections": [
+          {
+            "heading": "정기 통보",
+            "items": [
+              {
+                "label": "행정안전부장관",
+                "text": "매년 18세가 되는 남성의 주민등록 정보화자료를 병무청장에게 통보하여야 함",
+                "ref": "법 제9조제1항"
+              },
+              {
+                "label": "자료의 목적",
+                "text": "병역준비역 편입자의 조사에 필요한 자료",
+                "ref": "법 제9조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "병무청장의 요청",
+            "items": [
+              {
+                "label": "법원행정처장",
+                "text": "매년 18세가 되는 남성의 가족관계등록 정보화자료 요청 가능",
+                "ref": "법 제9조제2항제1호"
+              },
+              {
+                "label": "법무부장관",
+                "text": "국적 이탈·상실 등 대통령령이 정한 국적변동 자료 요청 가능",
+                "ref": "법 제9조제2항제2호"
+              },
+              {
+                "label": "협조 의무",
+                "text": "요청받은 기관의 장은 특별한 사유가 없으면 요청에 따라야 함",
+                "ref": "법 제9조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제9조, 병역준비역 편입자의 조사",
+      "main_article": "병역법 제9조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|9",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0009&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-011-D02-editorial-v1",
+      "lecture_id": "MS-011",
+      "lesson_number": 11,
+      "diagram_number": 2,
+      "title": "편입자 조사 시점과 범위",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|시행령|7"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 20,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-011/diagrams/MS-011-D02-editorial-v1.svg",
+          "bytes": 7210,
+          "sha256": "2e082717aa87a8487ce7ba5e5635131df99fb65d14b1d92bc48142fe25e4cecf"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-011/diagrams/MS-011-D02-editorial-v1.webp",
+          "bytes": 59068,
+          "sha256": "ae269a4ec1af0a783db1b714f4bbfa007b463d382584a79d4cfb3bde0093c4a3"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-011",
+        "title": "편입자 조사 시점과 범위",
+        "subtitle": "다음 해 18세와 국적변동 18~40세를 구별",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|시행령|7"
+        ],
+        "sections": [
+          {
+            "heading": "매년 6월 30일까지",
+            "items": [
+              {
+                "label": "주민등록 자료",
+                "text": "다음 해 18세가 되는 사람의 자료를 행정안전부장관이 병무청장에게 통보",
+                "ref": "시행령 제7조제1항"
+              },
+              {
+                "label": "가족관계 자료",
+                "text": "같은 대상의 자료를 병무청장이 법원행정처장으로부터 받아 주민등록 자료와 대조",
+                "ref": "시행령 제7조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "조사 후 병적 관리",
+            "items": [
+              {
+                "label": "국적변동 범위",
+                "text": "시행령이 정한 국적 취득·재취득·상실 등에 해당하는 18세 이상 40세 이하 남성",
+                "ref": "시행령 제7조제3항"
+              },
+              {
+                "label": "지방병무청장",
+                "text": "자료를 받아 다음 해 18세가 되는 사람을 병역준비역 편입 대상자로 관리",
+                "ref": "시행령 제7조제5항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제9조, 병역준비역 편입자의 조사",
+      "main_article": "병역법 제9조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|7",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0007&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

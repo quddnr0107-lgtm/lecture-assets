@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-117",
+  "lecture_title": "병역법 제74조의5, 상비예비군의 휴무 등 처리",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-117-D01-editorial-v1",
+      "lecture_id": "MS-117",
+      "lesson_number": 117,
+      "diagram_number": 1,
+      "title": "상비예비군의 30일 기준",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|74의5"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 184,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-117/diagrams/MS-117-D01-editorial-v1.svg",
+          "bytes": 6567,
+          "sha256": "ace1a97573781d0acca7d530e6424f58234dc0c1da74d0d1aaa363b02d88536b"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-117/diagrams/MS-117-D01-editorial-v1.webp",
+          "bytes": 48272,
+          "sha256": "3201cce828bc17a8b620efeace6a7f0184f7fe31b09b930586d85b8ca243060e"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-117",
+        "title": "상비예비군의 30일 기준",
+        "subtitle": "연간 훈련 소집기간 중 초과분에 관한 특례",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|74의5"
+        ],
+        "sections": [
+          {
+            "heading": "적용 대상·기준",
+            "items": [
+              {
+                "label": "상비예비군",
+                "text": "예비군법 제3조의3에 따라 선발된 사람",
+                "ref": "법 제74조의5"
+              },
+              {
+                "label": "대상 기간",
+                "text": "훈련 소집기간 중 연간 30일을 초과한 기간",
+                "ref": "법 제74조의5"
+              }
+            ]
+          },
+          {
+            "heading": "학업·직장 보장",
+            "items": [
+              {
+                "label": "적용 특례",
+                "text": "초과기간에는 제74조의3 및 제74조의4를 적용하지 아니할 수 있음",
+                "ref": "법 제74조의5"
+              },
+              {
+                "label": "재량 규정",
+                "text": "30일 초과분에 관한 적용 제외가 가능하다는 규정",
+                "ref": "법 제74조의5"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제74조의5, 상비예비군의 휴무 등 처리",
+      "main_article": "병역법 제74조의5",
+      "source_articles": [
+        {
+          "key": "병역법|본법|74의5",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=05&joNo=0074&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

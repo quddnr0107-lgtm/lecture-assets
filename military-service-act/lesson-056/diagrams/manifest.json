@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-056",
+  "lecture_title": "병역법 제33조의7, 예술·체육요원의 편입",
+  "diagram_count": 3,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-056-D01-editorial-v1",
+      "lecture_id": "MS-056",
+      "lesson_number": 56,
+      "diagram_number": 1,
+      "title": "예술·체육요원 편입의 흐름",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|본법|33의7",
+        "병역법|시행령|68의11"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 103,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-056/diagrams/MS-056-D01-editorial-v1.svg",
+          "bytes": 6249,
+          "sha256": "6fc815eda5e09f8e15b5cc8c6e50a368c5119c9be3b5825ace34876231e69f5f"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-056/diagrams/MS-056-D01-editorial-v1.webp",
+          "bytes": 50186,
+          "sha256": "2a5321ae8c9b224ca5c98e867e28b63c046196ea0c080c5d2f89ca2a24d6c736"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-056",
+        "title": "예술·체육요원 편입의 흐름",
+        "subtitle": "특기 요건과 추천을 거쳐 병무청장이 편입",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|본법|33의7",
+          "병역법|시행령|68의11"
+        ],
+        "sections": [
+          {
+            "heading": "추천 신청",
+            "items": [
+              {
+                "label": "희망자",
+                "text": "추천원서와 입상 확인서 등 필요한 서류를 문화체육관광부장관에게 제출한다.",
+                "ref": "영 제68조의11제2항"
+              }
+            ]
+          },
+          {
+            "heading": "추천 통보",
+            "items": [
+              {
+                "label": "14일 이내",
+                "text": "문화체육관광부장관은 원서를 받은 날부터 14일 이내 추천자 명단을 병무청장에게 통보한다.",
+                "ref": "영 제68조의11제3항"
+              }
+            ]
+          },
+          {
+            "heading": "편입 결정",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "법정 대상자 중 예술·체육 특기를 갖추고 추천받은 사람을 예술·체육요원으로 편입할 수 있다.",
+                "ref": "법 제33조의7제1항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제33조의7, 예술·체육요원의 편입",
+      "main_article": "병역법 제33조의7",
+      "source_articles": [
+        {
+          "key": "병역법|본법|33의7",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=07&joNo=0033&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|68의11",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=11&joNo=0068&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-056-D02-editorial-v1",
+      "lecture_id": "MS-056",
+      "lesson_number": 56,
+      "diagram_number": 2,
+      "title": "예술·체육 특기 요건",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|시행령|68의11"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 104,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-056/diagrams/MS-056-D02-editorial-v1.svg",
+          "bytes": 6784,
+          "sha256": "69ff1e4c28fce1669cff03657b6af9de4b06c18661271de98801f7587458626c"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-056/diagrams/MS-056-D02-editorial-v1.webp",
+          "bytes": 53884,
+          "sha256": "56df1991e8d0d9230cee14dddfd77ef41a8019e7e0399d4aaaa42f5cfc7d221b"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-056",
+        "title": "예술·체육 특기 요건",
+        "subtitle": "대회별 순위와 분야별 자격을 구분",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|시행령|68의11"
+        ],
+        "sections": [
+          {
+            "heading": "체육 분야",
+            "items": [
+              {
+                "label": "올림픽",
+                "text": "3위 이상 입상",
+                "ref": "영 제68조의11제1항제4호"
+              },
+              {
+                "label": "아시아경기대회",
+                "text": "1위 입상",
+                "ref": "영 제68조의11제1항제5호"
+              }
+            ]
+          },
+          {
+            "heading": "예술 분야의 기준",
+            "items": [
+              {
+                "label": "국내 경연",
+                "text": "국제대회가 없는 분야의 지정 국내대회에서 1위 중 최고 성적. 동순위 등은 추천기준 적용.",
+                "ref": "영 제68조의11제1항제2호"
+              },
+              {
+                "label": "국가무형유산",
+                "text": "지정 분야에서 5년 이상 전수교육을 받고 병무청장이 정하는 분야의 자격 취득.",
+                "ref": "영 제68조의11제1항제3호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "국제예술경연대회는 별도의 순위·인원·동순위 기준을 함께 확인한다."
+      },
+      "lecture_title": "병역법 제33조의7, 예술·체육요원의 편입",
+      "main_article": "병역법 제33조의7",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|68의11",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=11&joNo=0068&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-056-D03-editorial-v1",
+      "lecture_id": "MS-056",
+      "lesson_number": 56,
+      "diagram_number": 3,
+      "title": "예술·체육요원 편입 대상",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|33의7"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 105,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-056/diagrams/MS-056-D03-editorial-v1.svg",
+          "bytes": 6943,
+          "sha256": "35259cee3dbec9dafe105ed12a092de80ae77215beed92168fd1307fcb8833c7"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-056/diagrams/MS-056-D03-editorial-v1.webp",
+          "bytes": 58448,
+          "sha256": "d2870354d83e4b39ac90fb433a7df9605f9e201f94ed268b9d3a894a54320626"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-056",
+        "title": "예술·체육요원 편입 대상",
+        "subtitle": "법정 신분 요건과 특기·추천 요건을 함께 충족",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|33의7"
+        ],
+        "sections": [
+          {
+            "heading": "현역·승선근무 계열",
+            "items": [
+              {
+                "label": "입영 대상자",
+                "text": "현역병입영 대상자.",
+                "ref": "법 제33조의7제1항제1호"
+              },
+              {
+                "label": "복무 중인 사람",
+                "text": "현역병(상근예비역·전환복무 포함) 또는 승선근무예비역으로 복무 중인 사람.",
+                "ref": "법 제33조의7제1항제2·3호"
+              }
+            ]
+          },
+          {
+            "heading": "보충역 계열",
+            "items": [
+              {
+                "label": "소집 대상자",
+                "text": "사회복무요원 소집 대상인 보충역.",
+                "ref": "법 제33조의7제1항제4호"
+              },
+              {
+                "label": "복무 중인 보충역",
+                "text": "사회복무·공중보건·전담의사·공익법무관·공중방역수의사·전문연구·산업기능요원 복무자.",
+                "ref": "법 제33조의7제1항제5호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "제1항제1~3호 대상자가 예술·체육요원으로 편입되면 보충역에 편입한다."
+      },
+      "lecture_title": "병역법 제33조의7, 예술·체육요원의 편입",
+      "main_article": "병역법 제33조의7",
+      "source_articles": [
+        {
+          "key": "병역법|본법|33의7",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=07&joNo=0033&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

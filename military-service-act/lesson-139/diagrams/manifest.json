@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-139",
+  "lecture_title": "병역법 제82조의4, 병역명문가 포상 및 예우",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-139-D01-editorial-v1",
+      "lecture_id": "MS-139",
+      "lesson_number": 139,
+      "diagram_number": 1,
+      "title": "병역명문가의 포상과 예우",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|82의4",
+        "병역법|시행령|163의3"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 222,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-139/diagrams/MS-139-D01-editorial-v1.svg",
+          "bytes": 6376,
+          "sha256": "b63224bf2a7c1bb3f74f8e5c3e963d82c2129b08286e003870b91995314fae43"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-139/diagrams/MS-139-D01-editorial-v1.webp",
+          "bytes": 51462,
+          "sha256": "29739d35d87be360909a0b44377f3bb81937aab2a4e164d432cc65dcb1d7b355"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-139",
+        "title": "병역명문가의 포상과 예우",
+        "subtitle": "병무청장 또는 지방병무청장·병무지청장",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|82의4",
+          "병역법|시행령|163의3"
+        ],
+        "sections": [
+          {
+            "heading": "포상 기준",
+            "items": [
+              {
+                "label": "병역이행자 수",
+                "text": "해당 가문의 병역이행자 수를 고려",
+                "ref": "영 제163조의3제1항제1호"
+              },
+              {
+                "label": "귀감의 정도",
+                "text": "해당 가문의 이행 사례가 다른 사람에게 귀감이 되는 정도를 고려",
+                "ref": "영 제163조의3제1항제2호"
+              }
+            ]
+          },
+          {
+            "heading": "지원 방식",
+            "items": [
+              {
+                "label": "포상",
+                "text": "예산 범위에서 포상금 지급 가능, 부상 및 증서를 함께 수여 가능",
+                "ref": "영 제163조의3제3항"
+              },
+              {
+                "label": "예우 협조",
+                "text": "국가기관·지자체·공공기관·민간단체 등의 장에게 지원·협조 요청 가능",
+                "ref": "법 제82조의4제1항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제82조의4, 병역명문가 포상 및 예우",
+      "main_article": "병역법 제82조의4",
+      "source_articles": [
+        {
+          "key": "병역법|본법|82의4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=04&joNo=0082&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|163의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0163&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

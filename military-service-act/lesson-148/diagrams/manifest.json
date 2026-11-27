@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-148",
+  "lecture_title": "병역법 제87조의2, 병역의무 기피ㆍ감면 등 관련 정보의 게시ㆍ유통금지 위반",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-148-D01-editorial-v1",
+      "lecture_id": "MS-148",
+      "lesson_number": 148,
+      "diagram_number": 1,
+      "title": "병역면탈 조장정보의 게시·유통",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|87의2",
+        "병역법|본법|81의3"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 235,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-148/diagrams/MS-148-D01-editorial-v1.svg",
+          "bytes": 4997,
+          "sha256": "6bfb3d6535ca32f9deee92fff2efb2cd5bd1b629aa8eb3fd5ac0231dc8e383ec"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-148/diagrams/MS-148-D01-editorial-v1.webp",
+          "bytes": 37086,
+          "sha256": "990dbc7f8bfeec42625868f77bee24e3ce0f43d752feef48274e51672a77eb39"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-148",
+        "title": "병역면탈 조장정보의 게시·유통",
+        "subtitle": "제81조의3제1항 위반의 법정형",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|87의2",
+          "병역법|본법|81의3"
+        ],
+        "sections": [
+          {
+            "heading": "금지 위반",
+            "items": [
+              {
+                "label": "행위",
+                "text": "정보통신망을 통한 병역면탈·대리수검 조장정보의 게시·유통",
+                "ref": "법 제87조의2·제81조의3제1항"
+              }
+            ]
+          },
+          {
+            "heading": "법정형",
+            "items": [
+              {
+                "label": "징역 또는 벌금",
+                "text": "2년 이하의 징역 또는 2천만원 이하의 벌금",
+                "ref": "법 제87조의2"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제87조의2, 병역의무 기피ㆍ감면 등 관련 정보의 게시ㆍ유통금지 위반",
+      "main_article": "병역법 제87조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|87의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0087&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|본법|81의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0081&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

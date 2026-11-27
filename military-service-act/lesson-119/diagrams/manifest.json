@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-119",
+  "lecture_title": "병역법 제75조, 보상 및 치료",
+  "diagram_count": 3,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-119-D01-editorial-v1",
+      "lecture_id": "MS-119",
+      "lesson_number": 119,
+      "diagram_number": 1,
+      "title": "보상 대상과 임무 중 이동",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|75"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 186,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-119/diagrams/MS-119-D01-editorial-v1.svg",
+          "bytes": 7478,
+          "sha256": "3bbc4cf4b8e888844998312b3c328f72296619843b2ff2b1f3fe6de395b11bb9"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-119/diagrams/MS-119-D01-editorial-v1.webp",
+          "bytes": 56990,
+          "sha256": "36de42a9afb1d3ab7e2113274542e226e3456ce380491934560ba4bdeaba1910"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-119",
+        "title": "보상 대상과 임무 중 이동",
+        "subtitle": "임무·훈련과 이동·귀가 중 사고의 범위",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|75"
+        ],
+        "sections": [
+          {
+            "heading": "군복무·동원",
+            "items": [
+              {
+                "label": "군복무",
+                "text": "전사·순직자의 유족과 전상·공상·공무상 질병으로 전역·면제된 사람 등",
+                "ref": "법 제75조제1항제1호"
+              },
+              {
+                "label": "동원소집등",
+                "text": "임무·훈련 중 부상·사망한 사람 및 가족. 예비군대체복무는 제2항 적용",
+                "ref": "법 제75조제1항제2호"
+              }
+            ]
+          },
+          {
+            "heading": "사회·대체복무",
+            "items": [
+              {
+                "label": "순직·공상",
+                "text": "사회복무·대체복무 및 예비군대체복무의 순직 유족·공상 소집해제자 등",
+                "ref": "법 제75조제2항"
+              },
+              {
+                "label": "이동 범위",
+                "text": "동원소집등·예비군대체복무는 지정장소 이동 중 및 해제 후 귀가 중 포함",
+                "ref": "법 제75조제1항·제2항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "국가유공자법 또는 보훈보상대상자법이 정하는 바에 따라 보상 가능"
+      },
+      "lecture_title": "병역법 제75조, 보상 및 치료",
+      "main_article": "병역법 제75조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|75",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0075&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-119-D02-editorial-v1",
+      "lecture_id": "MS-119",
+      "lesson_number": 119,
+      "diagram_number": 2,
+      "title": "공상 치료와 검사 중 부상",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|75"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 187,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-119/diagrams/MS-119-D02-editorial-v1.svg",
+          "bytes": 6947,
+          "sha256": "e9a7c567ef62d3eaa96dd5dce837058b15fea325acc0dbab1129981d2bb04cd1"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-119/diagrams/MS-119-D02-editorial-v1.webp",
+          "bytes": 57128,
+          "sha256": "15d39518dbda0bf8bdcb2a21908bfa573e7a624299b3df3e96a001abf899b533"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-119",
+        "title": "공상 치료와 검사 중 부상",
+        "subtitle": "치료의 근거와 국가 부담의 범위",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|75"
+        ],
+        "sections": [
+          {
+            "heading": "복무 중 공상·질병",
+            "items": [
+              {
+                "label": "사회·대체복무",
+                "text": "국가·지자체·공공단체 등의 부담으로 공상·공무상 질병 치료",
+                "ref": "법 제75조제4항"
+              },
+              {
+                "label": "군사교육",
+                "text": "군사교육소집·학생군사교육이 직접 원인인 사망·부상에도 준용",
+                "ref": "법 제75조제5항"
+              }
+            ]
+          },
+          {
+            "heading": "국가 부담 치료 가능",
+            "items": [
+              {
+                "label": "검사·입영",
+                "text": "검사가 직접 원인인 치료 필요자 및 징집·소집 입영 중 부상자",
+                "ref": "법 제75조제6항제1호·제2호"
+              },
+              {
+                "label": "검사 전후 이동",
+                "text": "지정장소로 직접 이동 중 또는 검사 후 지체 없이 귀가 중 부상자",
+                "ref": "법 제75조제6항제4호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "동원소집등 임무·훈련 중 부상자는 예비군법 제9조 준용"
+      },
+      "lecture_title": "병역법 제75조, 보상 및 치료",
+      "main_article": "병역법 제75조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|75",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0075&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-119-D03-editorial-v1",
+      "lecture_id": "MS-119",
+      "lesson_number": 119,
+      "diagram_number": 3,
+      "title": "치료비 부담과 보상 신청",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|시행령|153",
+        "병역법|시행규칙|113"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 188,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-119/diagrams/MS-119-D03-editorial-v1.svg",
+          "bytes": 6305,
+          "sha256": "5f20b0ee597e59d8748e2abda5c69905a3b6e634ea344c1a1c4b2d6ccc8371be"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-119/diagrams/MS-119-D03-editorial-v1.webp",
+          "bytes": 46640,
+          "sha256": "05b44604d4fdfbd53d593c2509ecd21bf15c10b9e38571ca679c357a81b11d65"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-119",
+        "title": "치료비 부담과 보상 신청",
+        "subtitle": "사회복무요원·대체복무요원의 치료 절차",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|시행령|153",
+          "병역법|시행규칙|113"
+        ],
+        "sections": [
+          {
+            "heading": "치료 신청",
+            "items": [
+              {
+                "label": "본인",
+                "text": "부상·질병확인서를 첨부한 치료 신청서를 인근 공공의료기관에 제출",
+                "ref": "영 제153조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "치료 조치",
+            "items": [
+              {
+                "label": "의료기관의 장",
+                "text": "지체 없이 치료에 필요한 조치. 시설·기술 부족 등은 협의 후 민간 지정",
+                "ref": "영 제153조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "비용 부담",
+            "items": [
+              {
+                "label": "복무기관의 장",
+                "text": "치료비용 부담. 본인이 이미 지급했다면 치료일부터 최대 3년간의 치료비 보상",
+                "ref": "영 제153조제5항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "국가유공자·보훈보상대상자 등록 결정 또는 제대군인법상 의료지원 수령 시 예외"
+      },
+      "lecture_title": "병역법 제75조, 보상 및 치료",
+      "main_article": "병역법 제75조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|153",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0153&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        },
+        {
+          "key": "병역법|시행규칙|113",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0113&lsiSeq=291527&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-29",
+          "promulgation": "국방부령 제1235호"
+        }
+      ]
+    }
+  ]
+}

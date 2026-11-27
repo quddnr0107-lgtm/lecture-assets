@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-108",
+  "lecture_title": "병역법 제69조의2, 병역처분사항 등의 통보",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-108-D01-editorial-v1",
+      "lecture_id": "MS-108",
+      "lesson_number": 108,
+      "diagram_number": 1,
+      "title": "병역처분사항 등의 통보",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|69의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 171,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-108/diagrams/MS-108-D01-editorial-v1.svg",
+          "bytes": 6263,
+          "sha256": "24ef65d625c4b2429f9839f6b57fac5482e486e6acb18b3fe919a4a3d7e5be61"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-108/diagrams/MS-108-D01-editorial-v1.webp",
+          "bytes": 46508,
+          "sha256": "f97deef5139069d3b3d060cab630cfbbf9d0f9bf16b976d46ac24ce82e008c69"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-108",
+        "title": "병역처분사항 등의 통보",
+        "subtitle": "주민등록표 정리에 필요한 병역 자료",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|69의2"
+        ],
+        "sections": [
+          {
+            "heading": "누가 누구에게",
+            "items": [
+              {
+                "label": "통보 주체",
+                "text": "병무청장이 자료를 통보하여야 한다.",
+                "ref": "법 제69조의2제1항"
+              },
+              {
+                "label": "받는 기관",
+                "text": "행정안전부장관에게 통보한다.",
+                "ref": "법 제69조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "무엇을 통보하나",
+            "items": [
+              {
+                "label": "병역처분사항",
+                "text": "최초 처분과 변경처분사항을 모두 포함한다.",
+                "ref": "법 제69조의2제1항"
+              },
+              {
+                "label": "입영·전역·소집해제",
+                "text": "주민등록표 정리에 필요한 신상변동사항에 관한 자료를 통보한다.",
+                "ref": "법 제69조의2제1항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제69조의2, 병역처분사항 등의 통보",
+      "main_article": "병역법 제69조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|69의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0069&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

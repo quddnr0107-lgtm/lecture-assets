@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-138",
+  "lecture_title": "병역법 제82조의3, 병역명문가 선정 등",
+  "diagram_count": 3,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-138-D01-editorial-v1",
+      "lecture_id": "MS-138",
+      "lesson_number": 138,
+      "diagram_number": 1,
+      "title": "병역명문가 선정의 기본 요건",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|82의3",
+        "병역법|시행령|163"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 219,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-138/diagrams/MS-138-D01-editorial-v1.svg",
+          "bytes": 7343,
+          "sha256": "cd4893cb04ecfbfe93c1f1598c3d7d36cb9900de5419584c4521035af287a6eb"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-138/diagrams/MS-138-D01-editorial-v1.webp",
+          "bytes": 58562,
+          "sha256": "13789406d6a1430c3eb242f602d0df3a8c08a720a5f4d1d70c4005790ae856a8"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-138",
+        "title": "병역명문가 선정의 기본 요건",
+        "subtitle": "3대의 성실한 현역복무 등",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|82의3",
+          "병역법|시행령|163"
+        ],
+        "sections": [
+          {
+            "heading": "선정 대상",
+            "items": [
+              {
+                "label": "3대의 범위",
+                "text": "1대부터 3대까지 직계비속 남성 모두가 법정 현역복무 등을 성실히 마친 가문",
+                "ref": "법 제82조의3제1항"
+              },
+              {
+                "label": "여성 포함 특례",
+                "text": "3대째 남성이 없고 군인사법상 군 의무복무기간을 마친 여성이 있는 가문 포함",
+                "ref": "법 제82조의3제1항 단서"
+              }
+            ]
+          },
+          {
+            "heading": "제외·취소",
+            "items": [
+              {
+                "label": "선정 제외",
+                "text": "법정 기피·면탈죄 유죄확정 등 대통령령의 제외사유에 해당하는 사람이 있으면 제외",
+                "ref": "법 제82조의3제2항·영 제163조제2항"
+              },
+              {
+                "label": "선정 취소",
+                "text": "이미 선정된 가문에 제외사유 해당자가 있으면 선정을 취소할 수 있음",
+                "ref": "법 제82조의3제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제82조의3, 병역명문가 선정 등",
+      "main_article": "병역법 제82조의3",
+      "source_articles": [
+        {
+          "key": "병역법|본법|82의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0082&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|163",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0163&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-138-D02-editorial-v1",
+      "lecture_id": "MS-138",
+      "lesson_number": 138,
+      "diagram_number": 2,
+      "title": "병역명문가 신청과 결과 통지",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|시행령|163의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 220,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-138/diagrams/MS-138-D02-editorial-v1.svg",
+          "bytes": 5713,
+          "sha256": "ec36b9f46e28fb732f603cab66803d2e665fc3b52997be703d7b083f149b4d68"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-138/diagrams/MS-138-D02-editorial-v1.webp",
+          "bytes": 43754,
+          "sha256": "97fde90e3ac979fe83d4375714b53b3b42abf0348c5dee4df8a9d10de6b6ad99"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-138",
+        "title": "병역명문가 신청과 결과 통지",
+        "subtitle": "병무청장에게 신청하고 선정 후 14일 이내 통지",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|시행령|163의2"
+        ],
+        "sections": [
+          {
+            "heading": "신청",
+            "items": [
+              {
+                "label": "신청인",
+                "text": "병역명문가 신청서를 병무청장에게 제출. 전자문서 포함",
+                "ref": "영 제163조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "검토·심의",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "선정·제외·취소 판단에 필요하면 심사위원회 심의를 거칠 수 있음",
+                "ref": "영 제163조의2제2항"
+              }
+            ]
+          },
+          {
+            "heading": "선정 통지",
+            "items": [
+              {
+                "label": "14일 이내",
+                "text": "병역명문가로 선정하면 14일 이내 신청인에게 결과 통지 의무",
+                "ref": "영 제163조의2제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제82조의3, 병역명문가 선정 등",
+      "main_article": "병역법 제82조의3",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|163의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0163&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-138-D03-editorial-v1",
+      "lecture_id": "MS-138",
+      "lesson_number": 138,
+      "diagram_number": 3,
+      "title": "병역명문가 심사위원회",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|시행령|163의4"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 221,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-138/diagrams/MS-138-D03-editorial-v1.svg",
+          "bytes": 6189,
+          "sha256": "2094960c0ce864bd9017351107c167839c7f65c22f7626822c35c3e16aab851d"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-138/diagrams/MS-138-D03-editorial-v1.webp",
+          "bytes": 48488,
+          "sha256": "5a42345c1e409b8dfef700dea1a64b12f14123986df0ebdb4b1b5c9606161e3d"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-138",
+        "title": "병역명문가 심사위원회",
+        "subtitle": "병무청에 두는 위원회의 구성",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|시행령|163의4"
+        ],
+        "sections": [
+          {
+            "heading": "위원 구성",
+            "items": [
+              {
+                "label": "5명 이상 7명 이내",
+                "text": "위원장 1명을 포함. 위원장은 위원 중에서 호선",
+                "ref": "영 제163조의4제2항·제3항"
+              },
+              {
+                "label": "2년 임기",
+                "text": "병무청장이 학식·경험 있는 사람을 위촉. 한 차례만 연임 가능",
+                "ref": "영 제163조의4제4항·제5항"
+              }
+            ]
+          },
+          {
+            "heading": "운영",
+            "items": [
+              {
+                "label": "회의 기준",
+                "text": "재적위원 과반수 출석, 출석위원 과반수 찬성",
+                "ref": "영 제163조의4제6항"
+              },
+              {
+                "label": "존속기한",
+                "text": "2029년 4월 30일까지 존속",
+                "ref": "영 제163조의4제8항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제82조의3, 병역명문가 선정 등",
+      "main_article": "병역법 제82조의3",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|163의4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=04&joNo=0163&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

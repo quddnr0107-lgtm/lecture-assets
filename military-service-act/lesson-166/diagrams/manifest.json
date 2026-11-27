@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-166",
+  "lecture_title": "병역법 제97조, 전시 등에서의 형의 가중",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-166-D01-editorial-v1",
+      "lecture_id": "MS-166",
+      "lesson_number": 166,
+      "diagram_number": 1,
+      "title": "전시의 형 가중과 입영기피 특례",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|97"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 258,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-166/diagrams/MS-166-D01-editorial-v1.svg",
+          "bytes": 6083,
+          "sha256": "e185892206d9d7763d31833e51e19b1b0064f28cc9c6e7803b704d63fa546b94"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-166/diagrams/MS-166-D01-editorial-v1.webp",
+          "bytes": 45672,
+          "sha256": "970b9f862cb98bb4a739aaf6ef5c28e2e39c465ad756b5ae246e12a67196864c"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-166",
+        "title": "전시의 형 가중과 입영기피 특례",
+        "subtitle": "전시·사변 또는 동원령 선포 시 범한 죄",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|97"
+        ],
+        "sections": [
+          {
+            "heading": "원칙",
+            "items": [
+              {
+                "label": "가중 대상",
+                "text": "이 법에 규정된 죄를 지은 사람",
+                "ref": "법 제97조 본문"
+              },
+              {
+                "label": "장기의 2분의 1까지",
+                "text": "각 조문에서 정한 형의 기간 중 장기의 2분의 1까지 가중",
+                "ref": "법 제97조 본문"
+              }
+            ]
+          },
+          {
+            "heading": "입영기피 본문 특례",
+            "items": [
+              {
+                "label": "제88조제1항 본문",
+                "text": "전시·사변 또는 동원령 선포 시 해당 입영·소집 기피죄를 범한 경우",
+                "ref": "법 제97조 단서"
+              },
+              {
+                "label": "7년 이하",
+                "text": "징역에 처함",
+                "ref": "법 제97조 단서"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제97조, 전시 등에서의 형의 가중",
+      "main_article": "병역법 제97조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|97",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0097&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

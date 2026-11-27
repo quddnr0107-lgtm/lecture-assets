@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-028",
+  "lecture_title": "병역법 제20조의3, 임기제부사관 전문인력 양성기관의 지정 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-028-D01-editorial-v1",
+      "lecture_id": "MS-028",
+      "lesson_number": 28,
+      "diagram_number": 1,
+      "title": "임기제부사관 양성기관",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|20의3",
+        "병역법|시행령|29의3"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 50,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-028/diagrams/MS-028-D01-editorial-v1.svg",
+          "bytes": 8204,
+          "sha256": "4d5a1b3bfda9740d279f94f097525ef72eb316009a50dd3c6be17ce1da8d1dcf"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-028/diagrams/MS-028-D01-editorial-v1.webp",
+          "bytes": 67594,
+          "sha256": "f161e202d0080d820ef8c8f1bfd0b8802a8a80fa2bd8fff91a17ed0f8e79c859"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-028",
+        "title": "임기제부사관 양성기관",
+        "subtitle": "국방부장관의 지정·지원·평가와 지정 취소",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|20의3",
+          "병역법|시행령|29의3"
+        ],
+        "sections": [
+          {
+            "heading": "지정과 운영",
+            "items": [
+              {
+                "label": "지정 대상",
+                "text": "특정분야 인재양성 교육을 전문적으로 실시하는 초·중등교육법상 고등학교를 지정 가능",
+                "ref": "법 제20조의3제1항"
+              },
+              {
+                "label": "비용 지원",
+                "text": "교육·훈련 등에 필요한 비용의 전부 또는 일부를 지원할 수 있음",
+                "ref": "법 제20조의3제2항"
+              },
+              {
+                "label": "운영성과 평가",
+                "text": "대통령령으로 정하는 바에 따라 평가할 수 있음",
+                "ref": "법 제20조의3제3항"
+              }
+            ]
+          },
+          {
+            "heading": "지정 취소",
+            "items": [
+              {
+                "label": "거짓·부정 지정",
+                "text": "지정을 취소하여야 함",
+                "ref": "법 제20조의3제4항제1호"
+              },
+              {
+                "label": "평가 기준 미달",
+                "text": "평점평균 2년 연속 80점 미만이고 국방부장관이 사업수행 곤란 판단 시 취소 가능",
+                "ref": "법 제20조의3제4항제2호·시행령 제29조의3제3항"
+              },
+              {
+                "label": "청문 의무",
+                "text": "지정을 취소하려면 청문을 하여야 함",
+                "ref": "법 제20조의3제5항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제20조의3, 임기제부사관 전문인력 양성기관의 지정 등",
+      "main_article": "병역법 제20조의3",
+      "source_articles": [
+        {
+          "key": "병역법|본법|20의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0020&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|29의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0029&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

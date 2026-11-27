@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-105",
+  "lecture_title": "병역법 제67조, 병력동원소집 또는 전시근로소집 순위의 후순위 조정",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-105-D01-editorial-v1",
+      "lecture_id": "MS-105",
+      "lesson_number": 105,
+      "diagram_number": 1,
+      "title": "동원·전시근로소집 후순위 조정",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|67"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 168,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-105/diagrams/MS-105-D01-editorial-v1.svg",
+          "bytes": 7297,
+          "sha256": "7b518a77560ec7a5801896857627d70b83b1fada06557c7a8bb3d58c974c1b02"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-105/diagrams/MS-105-D01-editorial-v1.webp",
+          "bytes": 61030,
+          "sha256": "a8540e81ae030f4309f22d84727baa0be64d0df1445804bd5f936346158f7024"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-105",
+        "title": "동원·전시근로소집 후순위 조정",
+        "subtitle": "국가동원기능 수행에 특별히 필요한 사람",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|67"
+        ],
+        "sections": [
+          {
+            "heading": "후순위로 조정 가능",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "국가기관·방위산업체 등에서 전시 국가동원기능을 수행하는 법정 대상자를 후순위로 조정할 수 있다.",
+                "ref": "법 제67조제1항"
+              },
+              {
+                "label": "두 소집 대상",
+                "text": "병력동원소집 또는 전시근로소집 대상자 중 특별히 필요하다고 인정되는 사람.",
+                "ref": "법 제67조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "대상에서 제외되면",
+            "items": [
+              {
+                "label": "고용주의 통보",
+                "text": "퇴직·보직변경 등으로 제외되면 고용주는 관할 지방병무청장에게 통보하여야 한다.",
+                "ref": "법 제67조제2항"
+              },
+              {
+                "label": "14일 이내",
+                "text": "인사관리 담당자를 포함한 고용주에게 14일 이내 통보 의무가 있다.",
+                "ref": "법 제67조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제67조, 병력동원소집 또는 전시근로소집 순위의 후순위 조정",
+      "main_article": "병역법 제67조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|67",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0067&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-095",
+  "lecture_title": "병역법 제59조, 5급 공개경쟁 채용시험 합격자 등의 기본병과장교 병적 편입",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-095-D01-editorial-v1",
+      "lecture_id": "MS-095",
+      "lesson_number": 95,
+      "diagram_number": 1,
+      "title": "기본병과 현역장교 편입",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|59"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 155,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-095/diagrams/MS-095-D01-editorial-v1.svg",
+          "bytes": 7621,
+          "sha256": "8752359f2c062a662e1fd0f1e3a413ebf31189859bab77ef7dd3fe564d41525e"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-095/diagrams/MS-095-D01-editorial-v1.webp",
+          "bytes": 65290,
+          "sha256": "5aa3beb477644359585ec3d29dbc9af8cd830ffad6fa213b6020e9e6bbae2abf"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-095",
+        "title": "기본병과 현역장교 편입",
+        "subtitle": "현역병입영 대상자가 원할 경우",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|59"
+        ],
+        "sections": [
+          {
+            "heading": "법무 분야 미편입자",
+            "items": [
+              {
+                "label": "법정 자격·과정",
+                "text": "판사·검사·변호사 자격자 또는 법정 법무사관후보생과정 수료자 중 법무장교 미편입자.",
+                "ref": "법 제59조제1호"
+              },
+              {
+                "label": "기본병과로 편입",
+                "text": "법정 요건을 갖추고 본인이 원하면 기본병과 현역장교 병적에 편입할 수 있다.",
+                "ref": "법 제59조"
+              }
+            ]
+          },
+          {
+            "heading": "29세까지 편입",
+            "items": [
+              {
+                "label": "국가·지방 5급 공채",
+                "text": "국가 5급 공개경쟁 채용시험 또는 지방 5급 공개경쟁 임용시험 합격자.",
+                "ref": "법 제59조제2·3호"
+              },
+              {
+                "label": "외무공무원 5등급",
+                "text": "외무공무원법 제10조제1항 단서에 따라 5등급 외무공무원으로 채용이 결정된 사람.",
+                "ref": "법 제59조제4호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "29세 제한은 법 제59조제2호부터 제4호까지의 대상자에게 적용된다."
+      },
+      "lecture_title": "병역법 제59조, 5급 공개경쟁 채용시험 합격자 등의 기본병과장교 병적 편입",
+      "main_article": "병역법 제59조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|59",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0059&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

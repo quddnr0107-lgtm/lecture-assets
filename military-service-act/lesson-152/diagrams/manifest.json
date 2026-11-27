@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-152",
+  "lecture_title": "병역법 제89조의2, 사회복무요원 등의 복무이탈",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-152-D01-editorial-v1",
+      "lecture_id": "MS-152",
+      "lesson_number": 152,
+      "diagram_number": 1,
+      "title": "사회복무요원 등의 복무이탈",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|본법|89의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 241,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-152/diagrams/MS-152-D01-editorial-v1.svg",
+          "bytes": 6649,
+          "sha256": "9e070a626b016b8f73f195e7e46acc7e6d9a9d167afbeb93064b4a1f7f264e46"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-152/diagrams/MS-152-D01-editorial-v1.webp",
+          "bytes": 49000,
+          "sha256": "5efd25a7d7527b41671917dbaaf9a5c67797bc3a0925fbff3aef4ef32fe86dc3"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-152",
+        "title": "사회복무요원 등의 복무이탈",
+        "subtitle": "정당한 사유 없이 통틀어 8일 이상",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|본법|89의2"
+        ],
+        "sections": [
+          {
+            "heading": "복무·근무지역",
+            "items": [
+              {
+                "label": "사회·예술체육·대체복무",
+                "text": "복무를 이탈하거나 해당 분야에 복무하지 않은 경우",
+                "ref": "법 제89조의2제1호"
+              },
+              {
+                "label": "공중보건·검사전담의사",
+                "text": "근무지역 이탈 또는 해당 분야 업무 미복무",
+                "ref": "법 제89조의2제2호"
+              }
+            ]
+          },
+          {
+            "heading": "직장·기관",
+            "items": [
+              {
+                "label": "공익법무관",
+                "text": "직장 이탈 또는 해당 분야 업무 미복무",
+                "ref": "법 제89조의2제3호"
+              },
+              {
+                "label": "공중방역수의사",
+                "text": "근무기관·근무지역 이탈 또는 해당 분야 업무 미복무",
+                "ref": "법 제89조의2제4호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "각 호의 요건에 해당하면 3년 이하의 징역"
+      },
+      "lecture_title": "병역법 제89조의2, 사회복무요원 등의 복무이탈",
+      "main_article": "병역법 제89조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|89의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0089&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-152-D02-editorial-v1",
+      "lecture_id": "MS-152",
+      "lesson_number": 152,
+      "diagram_number": 2,
+      "title": "전문·산업기능요원의 복무위반",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|89의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 242,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-152/diagrams/MS-152-D02-editorial-v1.svg",
+          "bytes": 6820,
+          "sha256": "4bac436919d21b5100d14803d0bed4e92858a9935e268cfdbb8f289998ffed30"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-152/diagrams/MS-152-D02-editorial-v1.webp",
+          "bytes": 54296,
+          "sha256": "85588149ab469d61be6a871a81b40b87110d53f301b7eee2b8cfa063a6410d3d"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-152",
+        "title": "전문·산업기능요원의 복무위반",
+        "subtitle": "복무위반에 따른 편입취소를 요건으로 함",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|89의2"
+        ],
+        "sections": [
+          {
+            "heading": "해당 분야 미복무",
+            "items": [
+              {
+                "label": "행위",
+                "text": "편입 당시 병역지정업체의 해당 분야에 복무하지 않음",
+                "ref": "법 제89조의2제5호"
+              },
+              {
+                "label": "취소 요건",
+                "text": "그 사유로 전문연구요원·산업기능요원 편입이 취소된 사람",
+                "ref": "법 제89조의2제5호"
+              }
+            ]
+          },
+          {
+            "heading": "통틀어 8일 무단결근",
+            "items": [
+              {
+                "label": "행위·취소",
+                "text": "의무복무기간 중 통틀어 8일 이상 무단결근하여 편입이 취소된 사람",
+                "ref": "법 제89조의2제5호"
+              },
+              {
+                "label": "법정형",
+                "text": "두 경우 모두 3년 이하의 징역",
+                "ref": "법 제89조의2"
+              }
+            ]
+          }
+        ],
+        "takeaway": "적법하게 병역지정업체를 옮긴 경우에는 옮긴 후의 업체 기준"
+      },
+      "lecture_title": "병역법 제89조의2, 사회복무요원 등의 복무이탈",
+      "main_article": "병역법 제89조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|89의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0089&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-046",
+  "lecture_title": "병역법 제31조의2, 사회복무요원 복무 관리ㆍ감독 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-046-D01-editorial-v1",
+      "lecture_id": "MS-046",
+      "lesson_number": 46,
+      "diagram_number": 1,
+      "title": "사회복무 관리·감독의 주체",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|31의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 83,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-046/diagrams/MS-046-D01-editorial-v1.svg",
+          "bytes": 7270,
+          "sha256": "d9b29ca7082da3760dc8ad39c0315046101edd19b2aad8d0461c426a3687b5d0"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-046/diagrams/MS-046-D01-editorial-v1.webp",
+          "bytes": 60510,
+          "sha256": "41d4205c47c1930a9a3da55f631253fcdc9284f61df2fe5f87ac41a2756defa6"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-046",
+        "title": "사회복무 관리·감독의 주체",
+        "subtitle": "담당직원 지정 의무와 병무청장의 관리 기능",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|31의2"
+        ],
+        "sections": [
+          {
+            "heading": "복무관리 담당직원",
+            "items": [
+              {
+                "label": "기관장의 지정 의무",
+                "text": "복무하는 국가기관·지자체·공공단체·사회복지시설의 장이 담당직원을 지정하여야 함",
+                "ref": "법 제31조의2제1항"
+              },
+              {
+                "label": "사회복지시설 예외",
+                "text": "지방병무청장이 소속 직원 중 담당직원을 지정할 수 있음",
+                "ref": "법 제31조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "병무청장의 관리",
+            "items": [
+              {
+                "label": "전자적 복무관리",
+                "text": "출퇴근·휴가·결근·지각·조퇴 등을 관리할 정보시스템을 구축·운영할 수 있음",
+                "ref": "법 제31조의2제2항"
+              },
+              {
+                "label": "관리·감독과 협조",
+                "text": "대통령령에 따라 관리·감독할 수 있으며 복무기관의 장은 협조하여야 함",
+                "ref": "법 제31조의2제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제31조의2, 사회복무요원 복무 관리ㆍ감독 등",
+      "main_article": "병역법 제31조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|31의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0031&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

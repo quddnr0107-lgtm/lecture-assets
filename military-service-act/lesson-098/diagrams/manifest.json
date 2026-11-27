@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-098",
+  "lecture_title": "병역법 제62조, 가사사정으로 인한 전시근로역 편입 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-098-D01-editorial-v1",
+      "lecture_id": "MS-098",
+      "lesson_number": 98,
+      "diagram_number": 1,
+      "title": "가사사정에 따른 병역처분",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|62"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 158,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-098/diagrams/MS-098-D01-editorial-v1.svg",
+          "bytes": 7481,
+          "sha256": "c69835f8da6b56f958932a4bc16bcd20b92fa45cd5d9de7b06d37ba40ccfe3f9"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-098/diagrams/MS-098-D01-editorial-v1.webp",
+          "bytes": 66060,
+          "sha256": "9e641245b181b045130297d7b6f2e1919695ad699c8baee54bdf56e4c74840b4"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-098",
+        "title": "가사사정에 따른 병역처분",
+        "subtitle": "생계유지곤란과 전사·순직 등 가족 사유",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|62"
+        ],
+        "sections": [
+          {
+            "heading": "가족의 생계",
+            "items": [
+              {
+                "label": "현역병입영 대상자",
+                "text": "본인이 아니면 가족 생계를 유지할 수 없고 원하면 전시근로역으로 처분할 수 있다.",
+                "ref": "법 제62조제1항제1호"
+              },
+              {
+                "label": "보충역",
+                "text": "같은 생계유지곤란 사유가 있고 원하면 전시근로역에 편입할 수 있다.",
+                "ref": "법 제62조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "전사·순직 등 가족",
+            "items": [
+              {
+                "label": "가족 사유의 범위",
+                "text": "부모·배우자·형제자매 중 전사자·순직자 또는 전상·공상으로 인한 장애인이 있는 경우의 1명.",
+                "ref": "법 제62조제1항제2호"
+              },
+              {
+                "label": "보충역 처분",
+                "text": "위 사유가 있는 현역병입영 대상자는 원하면 보충역으로 처분할 수 있다.",
+                "ref": "법 제62조제1항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "가족 범위·생계유지곤란 기준·출원시기 및 전사자·장애인 등의 범위는 대통령령에서 정한다."
+      },
+      "lecture_title": "병역법 제62조, 가사사정으로 인한 전시근로역 편입 등",
+      "main_article": "병역법 제62조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|62",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0062&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

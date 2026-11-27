@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-003",
+  "lecture_title": "병역법 제3조, 병역의무",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-003-D01-editorial-v1",
+      "lecture_id": "MS-003",
+      "lesson_number": 3,
+      "diagram_number": 1,
+      "title": "병역의무와 지원복무",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|3"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 4,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-003/diagrams/MS-003-D01-editorial-v1.svg",
+          "bytes": 6702,
+          "sha256": "690cb2bf12eca4dbae02929933304784653b31ffbaabe0574b5dfaed45e4c26d"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-003/diagrams/MS-003-D01-editorial-v1.webp",
+          "bytes": 50406,
+          "sha256": "65f97c59a7b22936cd0f6bdc6957825cdaa36afa069f46f7d892e411d6f57392"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-003",
+        "title": "병역의무와 지원복무",
+        "subtitle": "대한민국 국민인 남성의 의무와 여성의 지원",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|3"
+        ],
+        "sections": [
+          {
+            "heading": "남성의 병역의무",
+            "items": [
+              {
+                "label": "대상·근거",
+                "text": "대한민국 국민인 남성은 헌법과 병역법에 따라 병역의무를 성실히 수행",
+                "ref": "법 제3조제1항"
+              },
+              {
+                "label": "특례",
+                "text": "병역법에 따르지 않고는 병역의무에 대한 특례를 규정할 수 없음",
+                "ref": "법 제3조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "여성의 지원복무",
+            "items": [
+              {
+                "label": "복무 범위",
+                "text": "지원에 의하여 현역 및 예비역으로만 복무할 수 있음",
+                "ref": "법 제3조제1항"
+              },
+              {
+                "label": "공통 원칙",
+                "text": "병역의무 및 지원은 인종·피부색 등을 이유로 차별하여서는 안 됨",
+                "ref": "법 제3조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제3조, 병역의무",
+      "main_article": "병역법 제3조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0003&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-003-D02-editorial-v1",
+      "lecture_id": "MS-003",
+      "lesson_number": 3,
+      "diagram_number": 2,
+      "title": "형 선고와 병적 제적",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|3",
+        "병역법|시행규칙|4"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 5,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-003/diagrams/MS-003-D02-editorial-v1.svg",
+          "bytes": 6000,
+          "sha256": "7ab305e1723f1c997a80b2eb0867d8c6b29c6c43fe0f82fedc5c63d724ded84e"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-003/diagrams/MS-003-D02-editorial-v1.webp",
+          "bytes": 41814,
+          "sha256": "56c9131c8965fb08ad30192718ce33fbbd52445eb8fb280cd671374966679acf"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-003",
+        "title": "형 선고와 병적 제적",
+        "subtitle": "복무 제한 요건과 제적처분 주체",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|3",
+          "병역법|시행규칙|4"
+        ],
+        "sections": [
+          {
+            "heading": "복무 제한",
+            "items": [
+              {
+                "label": "형 선고",
+                "text": "사형, 무기 또는 6년 이상의 징역이나 금고를 선고받은 병역의무자",
+                "ref": "법 제3조제4항"
+              },
+              {
+                "label": "법적 효과",
+                "text": "병역에 복무할 수 없으며 병적에서 제적",
+                "ref": "법 제3조제4항"
+              }
+            ]
+          },
+          {
+            "heading": "제적처분 주체",
+            "items": [
+              {
+                "label": "군복무 중",
+                "text": "각 군 참모총장(전환복무자 포함)",
+                "ref": "시행규칙 제4조"
+              },
+              {
+                "label": "그 밖의 사람",
+                "text": "거주지 지방병무청장·병무지청장",
+                "ref": "시행규칙 제4조"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제3조, 병역의무",
+      "main_article": "병역법 제3조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0003&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행규칙|4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0004&lsiSeq=291527&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-29",
+          "promulgation": "국방부령 제1235호"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-141",
+  "lecture_title": "병역법 제83조, 전시특례",
+  "diagram_count": 4,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-141-D01-editorial-v1",
+      "lecture_id": "MS-141",
+      "lesson_number": 141,
+      "diagram_number": 1,
+      "title": "전시특례의 핵심 연령·기한",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|83"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 224,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-141/diagrams/MS-141-D01-editorial-v1.svg",
+          "bytes": 7789,
+          "sha256": "c03b15ebe2bf50999dc8a5ba09d35f0d7e0204b5d99c7a086efe78915c4ee381"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-141/diagrams/MS-141-D01-editorial-v1.webp",
+          "bytes": 64234,
+          "sha256": "deef7d9a7a1ce7920b262541d599e5b897ef299ccb7eea1c41a08c49a41f6517"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-141",
+        "title": "전시특례의 핵심 연령·기한",
+        "subtitle": "전시·사변 또는 동원령 선포 시의 조치",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|83"
+        ],
+        "sections": [
+          {
+            "heading": "국방부장관",
+            "items": [
+              {
+                "label": "45세까지",
+                "text": "현역·예비역·보충역의 병, 전시근로역·대체역의 병역의무기간 연장 가능",
+                "ref": "법 제83조제1항제9호"
+              },
+              {
+                "label": "40세 이하",
+                "text": "법정 승선근무예비역·특정 산업기능요원 복무완료자 등의 예비역간부 편입",
+                "ref": "법 제83조제1항제3호·제6호·제7호"
+              }
+            ]
+          },
+          {
+            "heading": "병무청장",
+            "items": [
+              {
+                "label": "7일 이내",
+                "text": "거주지이동 신고기간 단축 가능",
+                "ref": "법 제83조제2항제7호"
+              },
+              {
+                "label": "18세부터 45세",
+                "text": "예비역·보충역·병역준비역·전시근로역·대체역의 국외여행허가 대상 변경",
+                "ref": "법 제83조제2항제8호"
+              },
+              {
+                "label": "37세까지",
+                "text": "병역판정·재병역판정·확인신체검사 및 현역병입영 의무 연장 가능",
+                "ref": "법 제83조제2항제9호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "수산·해운 산업기능요원 출신의 예비역간부 편입은 국방상 필요한 경우에도 가능"
+      },
+      "lecture_title": "병역법 제83조, 전시특례",
+      "main_article": "병역법 제83조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|83",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0083&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-141-D02-editorial-v1",
+      "lecture_id": "MS-141",
+      "lesson_number": 141,
+      "diagram_number": 2,
+      "title": "전시특례 조치의 주체 구별",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|83"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 225,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-141/diagrams/MS-141-D02-editorial-v1.svg",
+          "bytes": 8480,
+          "sha256": "3a7b27ee3028b659079d970dc372b0f2a8780a21756d9f61fbe50ec5d9b5f8a2"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-141/diagrams/MS-141-D02-editorial-v1.webp",
+          "bytes": 66886,
+          "sha256": "6102550bb6540885243b2ec0ce765f931b5a749350569c23d893e11639929991"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-141",
+        "title": "전시특례 조치의 주체 구별",
+        "subtitle": "국방부장관과 병무청장의 대표 조치",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|83"
+        ],
+        "sections": [
+          {
+            "heading": "국방부장관",
+            "items": [
+              {
+                "label": "복무·신분",
+                "text": "현역병 복무기간 연장, 상근예비역소집 대상자 전역정지·소집된 사람의 현역병 전역",
+                "ref": "법 제83조제1항제1호·제2호"
+              },
+              {
+                "label": "전환·편입",
+                "text": "전환복무 정지·해제 및 법정 공중보건의사 등 편입정지·소집대상 전환",
+                "ref": "법 제83조제1항제4호·제5호"
+              },
+              {
+                "label": "대체역·처분",
+                "text": "대체역 편입절차·소집 정지, 병역처분변경·제적 정지 가능",
+                "ref": "법 제83조제1항제7호의2·제8호"
+              }
+            ]
+          },
+          {
+            "heading": "병무청장",
+            "items": [
+              {
+                "label": "검사·송달",
+                "text": "통지서 송달을 공고로 갈음, 검사연령 변경·심리검사 생략 등",
+                "ref": "법 제83조제2항제1호·제2호"
+              },
+              {
+                "label": "소집·연기",
+                "text": "사회복무 등 소집·편입 정지, 검사·징집·소집 연기 정지·제한",
+                "ref": "법 제83조제2항제4호~제6호"
+              },
+              {
+                "label": "국외체재",
+                "text": "귀국명령 및 선포 전에 허가한 국외여행허가 취소 가능",
+                "ref": "법 제83조제2항제10호·제11호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제83조, 전시특례",
+      "main_article": "병역법 제83조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|83",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0083&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-141-D03-editorial-v1",
+      "lecture_id": "MS-141",
+      "lesson_number": 141,
+      "diagram_number": 3,
+      "title": "전시업무를 위한 평시 준비",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|83",
+        "병역법|시행령|169"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 226,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-141/diagrams/MS-141-D03-editorial-v1.svg",
+          "bytes": 8396,
+          "sha256": "293e92a306d6640fc6986c1ac989593ea61e50456b2adfca47e628e6fc2b86b0"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-141/diagrams/MS-141-D03-editorial-v1.webp",
+          "bytes": 63960,
+          "sha256": "1f7b4c5f30657ebba6c9e92dd96b9b91f8711af03efe7b657f18ba05bd46f93a"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-141",
+        "title": "전시업무를 위한 평시 준비",
+        "subtitle": "지자체 병무담당 직원과 지방병무청장의 교육",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|83",
+          "병역법|시행령|169"
+        ],
+        "sections": [
+          {
+            "heading": "지방자치단체",
+            "items": [
+              {
+                "label": "평시 임명",
+                "text": "전담 병무담당 직원은 평시 임명. 시·도지사는 차량·급식·수용시설 지원업무 한정",
+                "ref": "법 제83조제5항"
+              },
+              {
+                "label": "업무 지원",
+                "text": "통지서 교부·입영 독려·기피자 단속지원·차량·급식·시설지원 등",
+                "ref": "법 제83조제3항"
+              },
+              {
+                "label": "비용",
+                "text": "위임 전시업무 수행 및 병무담당 직원 경비는 국고부담",
+                "ref": "법 제83조제9항"
+              }
+            ]
+          },
+          {
+            "heading": "교육·점검",
+            "items": [
+              {
+                "label": "평시 교육",
+                "text": "지방병무청장이 평시 전시업무 수행능력 교육 실시 의무",
+                "ref": "법 제83조제6항"
+              },
+              {
+                "label": "매년 3시간 이상",
+                "text": "병무담당 직원은 전시업무교육을 매년 3시간 이상 이수",
+                "ref": "영 제169조제9항"
+              },
+              {
+                "label": "연 1회 정기점검",
+                "text": "병무청장은 교육 이수 여부 정기점검, 필요 시 수시점검 가능",
+                "ref": "영 제169조제12항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제83조, 전시특례",
+      "main_article": "병역법 제83조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|83",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0083&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|169",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0169&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-141-D04-editorial-v1",
+      "lecture_id": "MS-141",
+      "lesson_number": 141,
+      "diagram_number": 4,
+      "title": "전시 통지서를 공고로 갈음",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|시행령|169"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 227,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-141/diagrams/MS-141-D04-editorial-v1.svg",
+          "bytes": 6083,
+          "sha256": "259eae173ef667c8d528e64d8d31bb7f9c34633813ee1a8888808e02ff1fd071"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-141/diagrams/MS-141-D04-editorial-v1.webp",
+          "bytes": 39624,
+          "sha256": "a9e84dca4f745d22a8ebebcac3926ffb6597dc26c2321d4bb235723e56e9a7fe"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-141",
+        "title": "전시 통지서를 공고로 갈음",
+        "subtitle": "본인임을 알 수 있도록 성명·주소 등 포함",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|시행령|169"
+        ],
+        "sections": [
+          {
+            "heading": "신문 공고",
+            "items": [
+              {
+                "label": "2개 이상의 일간신문",
+                "text": "송달을 신문 공고로 갈음하는 경우의 매체 기준",
+                "ref": "영 제169조제2항제1호"
+              },
+              {
+                "label": "두 차례 이상",
+                "text": "신문 공고는 두 차례 이상 실시",
+                "ref": "영 제169조제2항제1호"
+              }
+            ]
+          },
+          {
+            "heading": "방송 공고",
+            "items": [
+              {
+                "label": "공영·민영 함께",
+                "text": "국영·공영 TV 또는 라디오와 1개 이상 민영 TV 또는 라디오",
+                "ref": "영 제169조제2항제2호"
+              },
+              {
+                "label": "두 차례 이상",
+                "text": "방송 공고도 두 차례 이상 실시",
+                "ref": "영 제169조제2항제2호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제83조, 전시특례",
+      "main_article": "병역법 제83조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|169",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0169&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

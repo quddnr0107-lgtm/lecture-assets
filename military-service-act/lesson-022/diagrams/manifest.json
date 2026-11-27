@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-022",
+  "lecture_title": "병역법 제15조, 현역병 징집순서의 결정",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-022-D01-editorial-v1",
+      "lecture_id": "MS-022",
+      "lesson_number": 22,
+      "diagram_number": 1,
+      "title": "현역병 징집순서의 결정",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|15",
+        "병역법|시행규칙|17"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 40,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-022/diagrams/MS-022-D01-editorial-v1.svg",
+          "bytes": 6570,
+          "sha256": "9293ef3418c493e9177d8d93a3266c1ac4b43c55ca894e3a123051da4563d5a2"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-022/diagrams/MS-022-D01-editorial-v1.webp",
+          "bytes": 49710,
+          "sha256": "f79e47f09269c757e6f34c0bd72549d164f7bb7c3dd3ee13f99f55296c4ea6db"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-022",
+        "title": "현역병 징집순서의 결정",
+        "subtitle": "순서를 정하는 주체와 기준을 정하는 주체",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|15",
+          "병역법|시행규칙|17"
+        ],
+        "sections": [
+          {
+            "heading": "지방병무청장",
+            "items": [
+              {
+                "label": "대상·단위",
+                "text": "검사 결과 현역병입영 대상자로 처분된 사람의 징집순서를 시·군·구별로 결정",
+                "ref": "법 제15조제1항"
+              },
+              {
+                "label": "명부 작성",
+                "text": "징집순서를 정하면 현역병입영 대상자 명부를 작성·보관",
+                "ref": "시행규칙 제17조"
+              }
+            ]
+          },
+          {
+            "heading": "병무청장",
+            "items": [
+              {
+                "label": "기준 결정",
+                "text": "징집순서 결정의 기준을 정함",
+                "ref": "법 제15조제2항"
+              },
+              {
+                "label": "고려 요소",
+                "text": "신체등급·학력·연령 등 자질을 고려",
+                "ref": "법 제15조제2항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "이 조의 시는 구가 설치되지 않은 시를 말합니다."
+      },
+      "lecture_title": "병역법 제15조, 현역병 징집순서의 결정",
+      "main_article": "병역법 제15조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|15",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0015&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행규칙|17",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0017&lsiSeq=291527&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-29",
+          "promulgation": "국방부령 제1235호"
+        }
+      ]
+    }
+  ]
+}

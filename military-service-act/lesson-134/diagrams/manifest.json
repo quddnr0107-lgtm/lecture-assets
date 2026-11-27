@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-134",
+  "lecture_title": "병역법 제81조, 병무사범의 예방 및 단속",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-134-D01-editorial-v1",
+      "lecture_id": "MS-134",
+      "lesson_number": 134,
+      "diagram_number": 1,
+      "title": "병무사범 예방·단속의 자료",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|81",
+        "병역법|시행령|159"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 212,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-134/diagrams/MS-134-D01-editorial-v1.svg",
+          "bytes": 6943,
+          "sha256": "f6dee9c8d8a7b10045667a936f70aec0600a212498ad34646117f62cba62d7f9"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-134/diagrams/MS-134-D01-editorial-v1.webp",
+          "bytes": 52924,
+          "sha256": "1aa28df2345bf6b291f7cb9f52f7af2a0860f78fa4dd40558f75a0374a8d6965"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-134",
+        "title": "병무사범 예방·단속의 자료",
+        "subtitle": "자료 수집 권한과 목적 외 사용 금지",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|81",
+          "병역법|시행령|159"
+        ],
+        "sections": [
+          {
+            "heading": "조사 권한",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "필요하다고 인정하면 이행사항 확인·점검 및 위반사실 확인자료 수집 가능",
+                "ref": "법 제81조제1항"
+              },
+              {
+                "label": "기관·고용주",
+                "text": "공공기관 등에는 자료 제공 요청, 고용주에게는 자료 제출 요구·사실 질문",
+                "ref": "법 제81조제2항·제3항"
+              }
+            ]
+          },
+          {
+            "heading": "협조·사용 제한",
+            "items": [
+              {
+                "label": "기관의 협조",
+                "text": "자료 요청을 받은 기관장은 특별한 사유가 없으면 따라야 함",
+                "ref": "법 제81조제2항"
+              },
+              {
+                "label": "목적 제한",
+                "text": "취득자료를 예방·단속 외 목적으로 사용하거나 다른 기관에 제공 금지",
+                "ref": "법 제81조제4항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제81조, 병무사범의 예방 및 단속",
+      "main_article": "병역법 제81조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|81",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0081&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|159",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0159&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-134-D02-editorial-v1",
+      "lecture_id": "MS-134",
+      "lesson_number": 134,
+      "diagram_number": 2,
+      "title": "행방불명자 조사와 고발 보고",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|시행령|164",
+        "병역법|시행령|165",
+        "병역법|시행규칙|116",
+        "병역법|시행규칙|117"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 213,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-134/diagrams/MS-134-D02-editorial-v1.svg",
+          "bytes": 6698,
+          "sha256": "ea768cd0b8e9c162266a3e46c45e834201c897925a1539859fd698cf5849dc12"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-134/diagrams/MS-134-D02-editorial-v1.webp",
+          "bytes": 50266,
+          "sha256": "e1a82534040beaeb6a39a45c21b92ff8877c756c0d00bd4dcec9c752d8af2111"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-134",
+        "title": "행방불명자 조사와 고발 보고",
+        "subtitle": "소재 조사와 정기 보고의 기한",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|시행령|164",
+          "병역법|시행령|165",
+          "병역법|시행규칙|116",
+          "병역법|시행규칙|117"
+        ],
+        "sections": [
+          {
+            "heading": "소재 조사",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "행방불명으로 통지서 교부 불가능 시 소재 조사 의무",
+                "ref": "영 제164조제1항"
+              },
+              {
+                "label": "30일 이내",
+                "text": "경찰관서가 조사 의뢰를 받으면 조사결과 통보",
+                "ref": "영 제164조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "고발·보고",
+            "items": [
+              {
+                "label": "지체 없이",
+                "text": "정당한 사유 없는 검사·징집·소집 기피 등은 관할 수사기관에 고발",
+                "ref": "영 제165조제1항"
+              },
+              {
+                "label": "다음 달 10일까지",
+                "text": "지방병무청장은 분기별 기피자·행방불명자·복무이탈자 현황을 종합 보고",
+                "ref": "규칙 제116조제3항·제117조제6항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제81조, 병무사범의 예방 및 단속",
+      "main_article": "병역법 제81조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|164",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0164&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        },
+        {
+          "key": "병역법|시행령|165",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0165&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        },
+        {
+          "key": "병역법|시행규칙|116",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0116&lsiSeq=291527&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-29",
+          "promulgation": "국방부령 제1235호"
+        },
+        {
+          "key": "병역법|시행규칙|117",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0117&lsiSeq=291527&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-29",
+          "promulgation": "국방부령 제1235호"
+        }
+      ]
+    }
+  ]
+}

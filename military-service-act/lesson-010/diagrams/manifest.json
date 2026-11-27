@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-010",
+  "lecture_title": "병역법 제8조, 병역준비역 편입",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-010-D01-editorial-v1",
+      "lecture_id": "MS-010",
+      "lesson_number": 10,
+      "diagram_number": 1,
+      "title": "병역준비역에 편입되는 때",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|8"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 18,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-010/diagrams/MS-010-D01-editorial-v1.svg",
+          "bytes": 5353,
+          "sha256": "e918580289d3ac76742262a9c960d1db7442888ac64943d31ec0e03fe7ab81a8"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-010/diagrams/MS-010-D01-editorial-v1.webp",
+          "bytes": 30896,
+          "sha256": "30cd84afa69baca1c7a27bd7e6b35489d43d39018a7986a701225551e2eac4ca"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-010",
+        "title": "병역준비역에 편입되는 때",
+        "subtitle": "국적·성별·연령·역종의 네 요소",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|8"
+        ],
+        "sections": [
+          {
+            "heading": "편입 대상",
+            "items": [
+              {
+                "label": "국적",
+                "text": "대한민국 국민",
+                "ref": "법 제8조"
+              },
+              {
+                "label": "성별",
+                "text": "남성",
+                "ref": "법 제8조"
+              }
+            ]
+          },
+          {
+            "heading": "편입 시점·역종",
+            "items": [
+              {
+                "label": "언제부터",
+                "text": "18세부터",
+                "ref": "법 제8조"
+              },
+              {
+                "label": "어느 병역으로",
+                "text": "병역준비역으로 편입",
+                "ref": "법 제8조"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제8조, 병역준비역 편입",
+      "main_article": "병역법 제8조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|8",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0008&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

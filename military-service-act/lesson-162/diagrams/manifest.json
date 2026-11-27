@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-162",
+  "lecture_title": "병역법 제93조의2, 병력동원소집등 관련 학업 및 직장 보장의 위반",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-162-D01-editorial-v1",
+      "lecture_id": "MS-162",
+      "lesson_number": 162,
+      "diagram_number": 1,
+      "title": "동원소집등 학업·직장 보장 위반",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|93의2"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 253,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-162/diagrams/MS-162-D01-editorial-v1.svg",
+          "bytes": 5673,
+          "sha256": "63cdf9e9819f0213fdd5781fbe536cc79344e2bcccd2498b93616300c6cf48c1"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-162/diagrams/MS-162-D01-editorial-v1.webp",
+          "bytes": 43322,
+          "sha256": "47baca5d2b70eb66dd8e9b65aeefee71dbde913f02f5abf71e85320e2d38bb6a"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-162",
+        "title": "동원소집등 학업·직장 보장 위반",
+        "subtitle": "학교의 장 또는 고용주 등의 불리한 처우",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|93의2"
+        ],
+        "sections": [
+          {
+            "heading": "위반 요건",
+            "items": [
+              {
+                "label": "보장 규정",
+                "text": "제74조의3 학업보장 또는 제74조의4 직장보장 위반",
+                "ref": "법 제93조의2"
+              },
+              {
+                "label": "정당한 사유 없음",
+                "text": "학교장 또는 고용주 등이 정당한 사유 없이 불리한 처우를 한 경우",
+                "ref": "법 제93조의2"
+              }
+            ]
+          },
+          {
+            "heading": "법정형",
+            "items": [
+              {
+                "label": "징역 또는 벌금",
+                "text": "2년 이하의 징역 또는 2천만원 이하의 벌금",
+                "ref": "법 제93조의2"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제93조의2, 병력동원소집등 관련 학업 및 직장 보장의 위반",
+      "main_article": "병역법 제93조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|93의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0093&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

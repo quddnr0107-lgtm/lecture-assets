@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-024",
+  "lecture_title": "병역법 제18조, 현역의 복무",
+  "diagram_count": 4,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-024-D01-editorial-v1",
+      "lecture_id": "MS-024",
+      "lesson_number": 24,
+      "diagram_number": 1,
+      "title": "현역병 복무기간의 법정 기준",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|18",
+        "병역법|시행령|27"
+      ],
+      "part": 1,
+      "parts": 2,
+      "content_index": 44,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-024/diagrams/MS-024-D01-editorial-v1.svg",
+          "bytes": 7220,
+          "sha256": "7a28b3386d26bd34e5681205d643df108adef008dbc1680d67b9d5801e20997a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-024/diagrams/MS-024-D01-editorial-v1.webp",
+          "bytes": 53374,
+          "sha256": "167cda77354a9ceab09712f4b90716a0d4fd3618e951691ab5e932fe42073076"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-024",
+        "title": "현역병 복무기간의 법정 기준",
+        "subtitle": "병역법 제18조의 기간과 복무기간 계산",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|18",
+          "병역법|시행령|27"
+        ],
+        "sections": [
+          {
+            "heading": "법에 규정된 기간",
+            "items": [
+              {
+                "label": "육군 2년",
+                "text": "육군 현역병의 법정 복무기간",
+                "ref": "법 제18조제2항제1호"
+              },
+              {
+                "label": "해군 2년 2개월",
+                "text": "해병은 2년",
+                "ref": "법 제18조제2항제2호"
+              },
+              {
+                "label": "공군 2년 3개월",
+                "text": "공군 현역병의 법정 복무기간",
+                "ref": "법 제18조제2항제3호"
+              }
+            ]
+          },
+          {
+            "heading": "복무·계산 원칙",
+            "items": [
+              {
+                "label": "입영일부터",
+                "text": "입영일부터 군부대에서 복무. 국방부장관이 허가하면 군부대 밖 거주 가능",
+                "ref": "법 제18조제1항"
+              },
+              {
+                "label": "산입하지 않는 기간",
+                "text": "징역·금고·구류의 집행일수, 군기교육처분일수, 복무이탈일수",
+                "ref": "법 제18조제3항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "법정 기준 기간을 표시한 도식이며, 복무기간 조정은 법 제19조에서 정합니다."
+      },
+      "lecture_title": "병역법 제18조, 현역의 복무",
+      "main_article": "병역법 제18조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|18",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0018&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|27",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0027&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-024-D02-editorial-v1",
+      "lecture_id": "MS-024",
+      "lesson_number": 24,
+      "diagram_number": 2,
+      "title": "현역병 복무기간의 법정 기준",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|18",
+        "병역법|시행령|27"
+      ],
+      "part": 2,
+      "parts": 2,
+      "content_index": 44,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-024/diagrams/MS-024-D02-editorial-v1.svg",
+          "bytes": 3647,
+          "sha256": "f17812b18a87983f7214311989a367c884ea23be8a8a809006c126b6ca66e783"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-024/diagrams/MS-024-D02-editorial-v1.webp",
+          "bytes": 30698,
+          "sha256": "0bb8af16714e128fc6d197f3a52272c5cac39e1eaf7e642e4346b05d90d41c17"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-024",
+        "title": "현역병 복무기간의 법정 기준",
+        "subtitle": "병역법 제18조의 기간과 복무기간 계산",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|18",
+          "병역법|시행령|27"
+        ],
+        "sections": [
+          {
+            "heading": "복무·계산 원칙",
+            "items": [
+              {
+                "label": "귀가 후 재입영",
+                "text": "현역병으로 다시 입영하면 귀가 전 입영부대에서 복무한 기간은 산입",
+                "ref": "시행령 제27조제2항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "법정 기준 기간을 표시한 도식이며, 복무기간 조정은 법 제19조에서 정합니다."
+      },
+      "lecture_title": "병역법 제18조, 현역의 복무",
+      "main_article": "병역법 제18조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|18",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0018&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|27",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0027&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-024-D03-editorial-v1",
+      "lecture_id": "MS-024",
+      "lesson_number": 24,
+      "diagram_number": 3,
+      "title": "현역병 전역 보류의 기간",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|18"
+      ],
+      "part": 1,
+      "parts": 2,
+      "content_index": 45,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-024/diagrams/MS-024-D03-editorial-v1.svg",
+          "bytes": 8034,
+          "sha256": "08d23053b746c7e825b9cf55d6fb89020821f911bbe5be056e78b4fb69c19c3d"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-024/diagrams/MS-024-D03-editorial-v1.webp",
+          "bytes": 65926,
+          "sha256": "c22f6d977b114a74b3cdce2a0b6a44ab5f5d42b9ef93a044ca529fc3790186a8"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-024",
+        "title": "현역병 전역 보류의 기간",
+        "subtitle": "입원치료와 작전·훈련·연습에 따른 보류",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|18"
+        ],
+        "sections": [
+          {
+            "heading": "계속 입원치료",
+            "items": [
+              {
+                "label": "보류 요건",
+                "text": "전상·공상·공무상 질병으로 의학적으로 계속 입원치료가 필요하고 본인이 원하는 경우",
+                "ref": "법 제18조제4항제2호"
+              },
+              {
+                "label": "6개월과 연장",
+                "text": "만료일 이후 6개월 이내. 계속 입원 필요 소견이 있으면 6개월 이하 단위로 계속 연장 가능",
+                "ref": "법 제18조제5항"
+              }
+            ]
+          },
+          {
+            "heading": "작전·훈련·연습",
+            "items": [
+              {
+                "label": "보류 요건",
+                "text": "중요한 작전이나 훈련·연습 등의 수행으로 본인이 원하는 경우",
+                "ref": "법 제18조제4항제3호"
+              },
+              {
+                "label": "3개월 이내",
+                "text": "의무복무 만료일 이후 3개월 이내",
+                "ref": "법 제18조제6항"
+              },
+              {
+                "label": "통지·즉시 전역",
+                "text": "기간·사유를 본인에게 통지하고 사유가 없어지는 즉시 전역조치",
+                "ref": "법 제18조제6항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "형사사건 구속 중 복무가 끝나 석방 후 전역조치에 필요한 경우에도 전역을 보류할 수 있습니다."
+      },
+      "lecture_title": "병역법 제18조, 현역의 복무",
+      "main_article": "병역법 제18조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|18",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0018&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-024-D04-editorial-v1",
+      "lecture_id": "MS-024",
+      "lesson_number": 24,
+      "diagram_number": 4,
+      "title": "현역병 전역 보류의 기간",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|18"
+      ],
+      "part": 2,
+      "parts": 2,
+      "content_index": 45,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-024/diagrams/MS-024-D04-editorial-v1.svg",
+          "bytes": 3642,
+          "sha256": "334550afceb0b04305be0dc1fc7e9997dcec6ef9065c5f119a414011bbb86dbe"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-024/diagrams/MS-024-D04-editorial-v1.webp",
+          "bytes": 32234,
+          "sha256": "3384db537d4ee8685bc313c66947e5e30eb199ee6d2e8c10fdcc2ea2baf9e34c"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-024",
+        "title": "현역병 전역 보류의 기간",
+        "subtitle": "입원치료와 작전·훈련·연습에 따른 보류",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|18"
+        ],
+        "sections": [
+          {
+            "heading": "계속 입원치료",
+            "items": [
+              {
+                "label": "전역하여야 할 때",
+                "text": "의사의 치료중지 판정 또는 본인이 다시 전역을 희망한 경우",
+                "ref": "법 제18조제5항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "형사사건 구속 중 복무가 끝나 석방 후 전역조치에 필요한 경우에도 전역을 보류할 수 있습니다."
+      },
+      "lecture_title": "병역법 제18조, 현역의 복무",
+      "main_article": "병역법 제18조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|18",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0018&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

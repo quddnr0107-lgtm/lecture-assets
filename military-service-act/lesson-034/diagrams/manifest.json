@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-034",
+  "lecture_title": "병역법 제23조의2, 승선근무예비역의 복무",
+  "diagram_count": 3,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-034-D01-editorial-v1",
+      "lecture_id": "MS-034",
+      "lesson_number": 34,
+      "diagram_number": 1,
+      "title": "승선근무 3년과 편입 후 5년",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|23의2",
+        "병역법|시행령|40의4"
+      ],
+      "part": 1,
+      "parts": 2,
+      "content_index": 61,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-034/diagrams/MS-034-D01-editorial-v1.svg",
+          "bytes": 7746,
+          "sha256": "976f331f62f1d5591c1e4e59ca710657661b589f7d4619ea6595865ebe7c3d7e"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-034/diagrams/MS-034-D01-editorial-v1.webp",
+          "bytes": 58828,
+          "sha256": "9edf9769e8f266fb5267a070a0bc3b16daf7a0d7e90b6d6a34d6e2991f000a99"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-034",
+        "title": "승선근무 3년과 편입 후 5년",
+        "subtitle": "의무복무기간·완료기한·군사교육기간 산입",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|23의2",
+          "병역법|시행령|40의4"
+        ],
+        "sections": [
+          {
+            "heading": "승선근무 의무",
+            "items": [
+              {
+                "label": "3년간 복무",
+                "text": "항해사·기관사로서 3년간 승선근무하여야 함",
+                "ref": "법 제23조의2제1항"
+              },
+              {
+                "label": "5년 이내 완료",
+                "text": "승선근무예비역에 편입된 날부터 5년 이내에 3년간 승선근무",
+                "ref": "시행령 제40조의4제1항"
+              },
+              {
+                "label": "완료 효과",
+                "text": "승선근무기간을 마치면 현역 복무를 마친 것으로 봄",
+                "ref": "법 제23조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "요건과 절차",
+            "items": [
+              {
+                "label": "선박 규모",
+                "text": "해운업 분야 총톤수 500톤 이상, 수산업 분야 총톤수 100톤 이상인 법정 업체의 선박",
+                "ref": "시행령 제40조의4제1항"
+              },
+              {
+                "label": "군사교육 산입",
+                "text": "법 제21조의2제1항제2호 편입자의 군사교육소집 기간은 승선근무기간에 산입",
+                "ref": "법 제23조의2제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제23조의2, 승선근무예비역의 복무",
+      "main_article": "병역법 제23조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|23의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0023&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|40의4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=04&joNo=0040&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-034-D02-editorial-v1",
+      "lecture_id": "MS-034",
+      "lesson_number": 34,
+      "diagram_number": 2,
+      "title": "승선근무 3년과 편입 후 5년",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|23의2",
+        "병역법|시행령|40의4"
+      ],
+      "part": 2,
+      "parts": 2,
+      "content_index": 61,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-034/diagrams/MS-034-D02-editorial-v1.svg",
+          "bytes": 3338,
+          "sha256": "c125b3c612d687e7709e8768daaeeafb3443642ef99196610214051fee068546"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-034/diagrams/MS-034-D02-editorial-v1.webp",
+          "bytes": 27950,
+          "sha256": "933e00b8b0a7b127c8a87ec2e8b396f143f4bdcc9812b2eb56849fb5ced731fb"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-034",
+        "title": "승선근무 3년과 편입 후 5년",
+        "subtitle": "의무복무기간·완료기한·군사교육기간 산입",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|23의2",
+          "병역법|시행령|40의4"
+        ],
+        "sections": [
+          {
+            "heading": "요건과 절차",
+            "items": [
+              {
+                "label": "성실복무 서약",
+                "text": "편입될 사람은 의무복무 중 성실히 복무하겠다는 서약서를 관할 지방병무청장에게 제출",
+                "ref": "법 제23조의2제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제23조의2, 승선근무예비역의 복무",
+      "main_article": "병역법 제23조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|23의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0023&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|40의4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=04&joNo=0040&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-034-D03-editorial-v1",
+      "lecture_id": "MS-034",
+      "lesson_number": 34,
+      "diagram_number": 3,
+      "title": "승선근무기간의 계산",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|시행령|40의4"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 62,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-034/diagrams/MS-034-D03-editorial-v1.svg",
+          "bytes": 8620,
+          "sha256": "7428d9d39db4a87f24c425e431f2b0ab5c2ceb795e595ee171133f16680ecdf4"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-034/diagrams/MS-034-D03-editorial-v1.webp",
+          "bytes": 73772,
+          "sha256": "3e3d17af8c7a00b4616b701f526c78c8d3d1180fd4305206c9ff989ae3a3c21c"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-034",
+        "title": "승선근무기간의 계산",
+        "subtitle": "통상 산입과 부득이한 비인정 선박 승선의 예외",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|시행령|40의4"
+        ],
+        "sections": [
+          {
+            "heading": "승선근무기간 산입",
+            "items": [
+              {
+                "label": "승선일부터 하선일",
+                "text": "공인된 선원명부 등의 승선일부터 하선일까지. 업체 이동 시 각 업체 기간 합산",
+                "ref": "시행령 제40조의4제4항"
+              },
+              {
+                "label": "법정 휴가",
+                "text": "선원법 규정을 준용한 휴가일수는 산입",
+                "ref": "시행령 제40조의4제5항"
+              },
+              {
+                "label": "업무상 휴직",
+                "text": "선원법 제94조제1항·제97조의 업무상 부상·질병·장애에 따른 휴직기간 산입",
+                "ref": "시행령 제40조의4제6항"
+              }
+            ]
+          },
+          {
+            "heading": "비인정 선박의 예외",
+            "items": [
+              {
+                "label": "업체장 등의 지시",
+                "text": "업체장 또는 복무관리 담당자의 지시로 부득이하게 인정 불가 선박에 승선한 경우",
+                "ref": "시행령 제40조의4제9항"
+              },
+              {
+                "label": "30일 이내 신고",
+                "text": "승선일부터 30일 이내 관할 지방병무청장에게 그 사실 신고",
+                "ref": "시행령 제40조의4제9항"
+              },
+              {
+                "label": "확인 후 산입 가능",
+                "text": "관할청이 사실 확인 후 승선일부터 신고일까지 중 실제 승선기간을 산입할 수 있음",
+                "ref": "시행령 제40조의4제9항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제23조의2, 승선근무예비역의 복무",
+      "main_article": "병역법 제23조의2",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|40의4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=04&joNo=0040&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

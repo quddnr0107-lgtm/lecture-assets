@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-093",
+  "lecture_title": "병역법 제57조, 학생군사교육 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-093-D01-editorial-v1",
+      "lecture_id": "MS-093",
+      "lesson_number": 93,
+      "diagram_number": 1,
+      "title": "학생군사교육과 학군 과정",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|57"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 152,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-093/diagrams/MS-093-D01-editorial-v1.svg",
+          "bytes": 7422,
+          "sha256": "d5a56dc642f931d5624d30097118123be2b86687dc98e3a61451edc15b36b123"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-093/diagrams/MS-093-D01-editorial-v1.webp",
+          "bytes": 58918,
+          "sha256": "4bd2dc44b9e57daa6ab6a3a1761658026fd92932d28cc8dba258fef5044bb9e6"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-093",
+        "title": "학생군사교육과 학군 과정",
+        "subtitle": "고등학교 이상 학교 학생에 대한 제도",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|57"
+        ],
+        "sections": [
+          {
+            "heading": "일반군사교육",
+            "items": [
+              {
+                "label": "실시할 수 있음",
+                "text": "고등학교 이상의 학교 학생에게 대통령령에 따라 일반군사교육을 할 수 있다.",
+                "ref": "법 제57조제1항"
+              },
+              {
+                "label": "복무기간 단축",
+                "text": "교육을 받은 사람의 현역병 또는 사회복무요원 복무기간을 단축할 수 있다.",
+                "ref": "법 제57조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "학군 후보생 과정",
+            "items": [
+              {
+                "label": "사관·부사관후보생",
+                "text": "고등학교 이상 학교에 과정을 둘 수 있고, 수료자는 현역 장교·부사관 병적에 편입할 수 있다.",
+                "ref": "법 제57조제2항"
+              },
+              {
+                "label": "지원자 신체검사",
+                "text": "군병원 또는 각 군 참모총장이 지정하는 병원에서 신체검사를 받아야 한다.",
+                "ref": "법 제57조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제57조, 학생군사교육 등",
+      "main_article": "병역법 제57조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|57",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0057&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

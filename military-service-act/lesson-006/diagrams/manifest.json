@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-006",
+  "lecture_title": "병역법 제5조의2, 병역에 관한 신고ㆍ출원",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-006-D01-editorial-v1",
+      "lecture_id": "MS-006",
+      "lesson_number": 6,
+      "diagram_number": 1,
+      "title": "병역 신고·출원의 방법",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|5의2",
+        "병역법|시행령|3"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 9,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-006/diagrams/MS-006-D01-editorial-v1.svg",
+          "bytes": 6271,
+          "sha256": "7f74ec8d0ce994ab38c99106e84ce1ce611851184a4447599541aaea981f0cb8"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-006/diagrams/MS-006-D01-editorial-v1.webp",
+          "bytes": 46536,
+          "sha256": "fe0498fa2103e4e876fe4afafc938fc3cb33f46428cc6f7fbfc3446d6f754a2c"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-006",
+        "title": "병역 신고·출원의 방법",
+        "subtitle": "문서 원칙과 대리 신고가 가능한 경우",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|5의2",
+          "병역법|시행령|3"
+        ],
+        "sections": [
+          {
+            "heading": "신고·출원 방식",
+            "items": [
+              {
+                "label": "원칙",
+                "text": "문서로 하여야 하며 전자문서도 포함",
+                "ref": "법 제5조의2제1항"
+              },
+              {
+                "label": "예외",
+                "text": "병무청장이 정하는 경우 정보통신망·구술·전화·전신·팩스 이용 가능",
+                "ref": "법 제5조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "대리 신고·출원",
+            "items": [
+              {
+                "label": "허용 요건",
+                "text": "질병이나 그 밖의 부득이한 사유로 본인이 직접 할 수 없는 경우",
+                "ref": "법 제5조의2제2항"
+              },
+              {
+                "label": "대리인 범위",
+                "text": "법정대리인, 세대주, 가족 중 성년자",
+                "ref": "시행령 제3조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제5조의2, 병역에 관한 신고ㆍ출원",
+      "main_article": "병역법 제5조의2",
+      "source_articles": [
+        {
+          "key": "병역법|본법|5의2",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0005&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0003&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    },
+    {
+      "id": "MS-006-D02-editorial-v1",
+      "lecture_id": "MS-006",
+      "lesson_number": 6,
+      "diagram_number": 2,
+      "title": "대리 신고의 확인 서류",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|시행령|3"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 10,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-006/diagrams/MS-006-D02-editorial-v1.svg",
+          "bytes": 6630,
+          "sha256": "4b1a59061bb94425a029f65ad4eff36ccf153abe028ab2b9fdf60cc57af0db3d"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-006/diagrams/MS-006-D02-editorial-v1.webp",
+          "bytes": 48772,
+          "sha256": "cad0918ee890c492603f7301490c6380362a90fbdea58ee46bc109a1343806a7"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-006",
+        "title": "대리 신고의 확인 서류",
+        "subtitle": "대리인은 첨부서류와 본인 신분증을 준비",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|시행령|3"
+        ],
+        "sections": [
+          {
+            "heading": "위임·관계 확인",
+            "items": [
+              {
+                "label": "본인 서류",
+                "text": "병역의무자의 신분증 사본 및 위임장 첨부",
+                "ref": "시행령 제3조제3항제1호"
+              },
+              {
+                "label": "대리인 관계",
+                "text": "대리인등임을 증명할 수 있는 서류 첨부",
+                "ref": "시행령 제3조제3항제2호"
+              }
+            ]
+          },
+          {
+            "heading": "사유·신원 확인",
+            "items": [
+              {
+                "label": "대리 사유",
+                "text": "질병 또는 시행령 제3조제1항의 부득이한 사유에 해당함을 증명하는 서류 첨부",
+                "ref": "시행령 제3조제3항제3호"
+              },
+              {
+                "label": "대리인 신원",
+                "text": "주민등록증·운전면허증·여권 등 대리인의 신분증 제시",
+                "ref": "시행령 제3조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제5조의2, 병역에 관한 신고ㆍ출원",
+      "main_article": "병역법 제5조의2",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0003&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

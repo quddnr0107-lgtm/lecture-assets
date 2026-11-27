@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-044",
+  "lecture_title": "병역법 제30조, 사회복무요원의 복무기간 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-044-D01-editorial-v1",
+      "lecture_id": "MS-044",
+      "lesson_number": 44,
+      "diagram_number": 1,
+      "title": "사회복무요원 복무기간 기준",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|30"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 79,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-044/diagrams/MS-044-D01-editorial-v1.svg",
+          "bytes": 6837,
+          "sha256": "9fa9a92ff09fc15aaaa1c52725bb1e613b5abbbbfd461bcd9e83a93e3692c71c"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-044/diagrams/MS-044-D01-editorial-v1.webp",
+          "bytes": 53432,
+          "sha256": "0c4c0ec179bd3627fde0ff3ae6db2764adf890bb427a6b68097923abbaa59dd7"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-044",
+        "title": "사회복무요원 복무기간 기준",
+        "subtitle": "병역법 제30조의 법정 기간과 산입 제외",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|30"
+        ],
+        "sections": [
+          {
+            "heading": "기간과 해제 보류",
+            "items": [
+              {
+                "label": "법정 복무기간",
+                "text": "사회복무요원의 복무기간은 2년 2개월",
+                "ref": "법 제30조제1항"
+              },
+              {
+                "label": "소집해제 보류",
+                "text": "현역병 전역 보류 중 법 제18조제4항제1호의 형사사건 구속 관련 규정을 준용",
+                "ref": "법 제30조제3항"
+              }
+            ]
+          },
+          {
+            "heading": "산입하지 않는 일수",
+            "items": [
+              {
+                "label": "형의 집행일수",
+                "text": "징역·금고 또는 구류의 형을 받은 경우 그 집행일수",
+                "ref": "법 제30조제2항"
+              },
+              {
+                "label": "복무이탈일수",
+                "text": "복무를 이탈한 경우 그 이탈일수",
+                "ref": "법 제30조제2항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "복무기간 계산·소집해제 등 복무에 필요한 사항은 대통령령으로 정합니다."
+      },
+      "lecture_title": "병역법 제30조, 사회복무요원의 복무기간 등",
+      "main_article": "병역법 제30조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|30",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0030&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

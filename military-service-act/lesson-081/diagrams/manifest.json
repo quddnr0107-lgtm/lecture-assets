@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-081",
+  "lecture_title": "병역법 제45조, 병력동원소집 대상자의 지정",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-081-D01-editorial-v1",
+      "lecture_id": "MS-081",
+      "lesson_number": 81,
+      "diagram_number": 1,
+      "title": "병력동원소집 대상자의 지정",
+      "layout": "flow",
+      "source_keys": [
+        "병역법|본법|45",
+        "병역법|시행령|95"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 137,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-081/diagrams/MS-081-D01-editorial-v1.svg",
+          "bytes": 5775,
+          "sha256": "06f77a60883b8907decbea6363a0f9951082d097ccd2b0444344b93cac8f0b7f"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-081/diagrams/MS-081-D01-editorial-v1.webp",
+          "bytes": 44692,
+          "sha256": "c5bc233f8a07d7568746bc3d69d763b1f1fa1bd2e6f93c0048e526e6ac87e3a8"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-081",
+        "title": "병력동원소집 대상자의 지정",
+        "subtitle": "누가 누구를 어떤 기준으로 지정하는가",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|본법|45",
+          "병역법|시행령|95"
+        ],
+        "sections": [
+          {
+            "heading": "지정 주체",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "병력동원소집 대상자 중 입영부대별로 소집할 사람을 지정하여야 한다.",
+                "ref": "법 제45조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "지정 고려사항",
+            "items": [
+              {
+                "label": "부대의 소요",
+                "text": "지역별 대상자 중 계급·병과·군사특기 등 입영부대의 소요를 고려하여 지정한다.",
+                "ref": "영 제95조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "세부 기준",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "역종별 지정순서·지정범위 등 필요한 사항을 정한다.",
+                "ref": "영 제95조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제45조, 병력동원소집 대상자의 지정",
+      "main_article": "병역법 제45조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|45",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0045&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|95",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0095&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

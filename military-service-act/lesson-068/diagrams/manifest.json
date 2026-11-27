@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-068",
+  "lecture_title": "병역법 제35조, 공중보건의사 등의 신상변동 통보 및 처리",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-068-D01-editorial-v1",
+      "lecture_id": "MS-068",
+      "lesson_number": 68,
+      "diagram_number": 1,
+      "title": "공중보건의사 등의 신상변동",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|35"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 120,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-068/diagrams/MS-068-D01-editorial-v1.svg",
+          "bytes": 7347,
+          "sha256": "4d2cde7615a4768dc1f9c277b6d610c387aa981cb1499d6b558921a26d059073"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-068/diagrams/MS-068-D01-editorial-v1.webp",
+          "bytes": 51496,
+          "sha256": "616274770a5f78d15f77c8e879932f169f08dadcd4404c2af4f0bcc00f8e218f"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-068",
+        "title": "공중보건의사 등의 신상변동",
+        "subtitle": "통보와 처리를 담당하는 주체를 구분",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|35"
+        ],
+        "sections": [
+          {
+            "heading": "신상변동 통보",
+            "items": [
+              {
+                "label": "14일 이내",
+                "text": "보건복지부장관 또는 지방병무청장이 법정 변동 사실을 병무청장에게 통보한다.",
+                "ref": "법 제35조제1항"
+              },
+              {
+                "label": "통보 대상",
+                "text": "공중보건의사 또는 병역판정검사전담의사의 면허·교육·미복무·결격사유 변동.",
+                "ref": "법 제35조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "병무청장의 처리",
+            "items": [
+              {
+                "label": "8일 이상 등",
+                "text": "정당한 사유 없는 통틀어 8일 이상 이탈·미복무 등 법정 취소사유이면 편입 취소.",
+                "ref": "법 제35조제2항"
+              },
+              {
+                "label": "7일 이내",
+                "text": "정당한 사유 없는 통틀어 7일 이내 이탈·미복무는 해당 일수의 5배 연장근무.",
+                "ref": "법 제35조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제35조, 공중보건의사 등의 신상변동 통보 및 처리",
+      "main_article": "병역법 제35조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|35",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0035&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

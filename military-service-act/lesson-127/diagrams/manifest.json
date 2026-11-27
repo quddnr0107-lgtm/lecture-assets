@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-127",
+  "lecture_title": "병역법 제77조의5, 병역 정보의 기록·관리 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-127-D01-editorial-v1",
+      "lecture_id": "MS-127",
+      "lesson_number": 127,
+      "diagram_number": 1,
+      "title": "병역 정보의 기록과 증명",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|77의5",
+        "병역법|시행령|155의6",
+        "병역법|시행령|155의7"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 203,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-127/diagrams/MS-127-D01-editorial-v1.svg",
+          "bytes": 6798,
+          "sha256": "36396fd24475fd852b594b238d6f6f6a57c4e4e3f77f4adf59434aaabfb8add7"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-127/diagrams/MS-127-D01-editorial-v1.webp",
+          "bytes": 54100,
+          "sha256": "1acd3e8df0842f9dfb800b15ea06fa2ce49129c3470ec572b2e61c98d18523ee"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-127",
+        "title": "병역 정보의 기록과 증명",
+        "subtitle": "행정기관의 관리 의무와 정보 주체의 신청",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|77의5",
+          "병역법|시행령|155의6",
+          "병역법|시행령|155의7"
+        ],
+        "sections": [
+          {
+            "heading": "기록·관리",
+            "items": [
+              {
+                "label": "병무청장·지방병무청장",
+                "text": "병역준비역 편입·검사·복무·입영·면제, 복무 완료자의 복무·교육·수련 기록 관리",
+                "ref": "법 제77조의5제1항"
+              },
+              {
+                "label": "전자정보처리",
+                "text": "병무청장은 체계적 기록·관리 프로그램을 구축·운영하여야 함",
+                "ref": "법 제77조의5제2항"
+              }
+            ]
+          },
+          {
+            "heading": "확인·증명",
+            "items": [
+              {
+                "label": "정보 주체",
+                "text": "자신의 병역 정보 확인·증명을 지방병무청장에게 신청 가능",
+                "ref": "영 제155조의7제1항"
+              },
+              {
+                "label": "발급 의무",
+                "text": "신청을 받으면 병적증명서 또는 병적기록표를 발급하여야 함",
+                "ref": "영 제155조의7제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제77조의5, 병역 정보의 기록·관리 등",
+      "main_article": "병역법 제77조의5",
+      "source_articles": [
+        {
+          "key": "병역법|본법|77의5",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=05&joNo=0077&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|155의6",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=06&joNo=0155&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        },
+        {
+          "key": "병역법|시행령|155의7",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=07&joNo=0155&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

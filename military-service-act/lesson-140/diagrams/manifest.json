@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-140",
+  "lecture_title": "병역법 제82조의5, 병역의무 이행 준비 등의 지원",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-140-D01-editorial-v1",
+      "lecture_id": "MS-140",
+      "lesson_number": 140,
+      "diagram_number": 1,
+      "title": "병역의무 이행 준비 지원",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|본법|82의5",
+        "병역법|시행령|163의5"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 223,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-140/diagrams/MS-140-D01-editorial-v1.svg",
+          "bytes": 6634,
+          "sha256": "030a31a8d40e1f13e29f3605379ae95d77f54209a4e497fa8bf82609b60a04a4"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-140/diagrams/MS-140-D01-editorial-v1.webp",
+          "bytes": 56322,
+          "sha256": "a2baea8774871306508b2c26ee6e9225f6ecd4286153c941ebaaf8e2c96d181f"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-140",
+        "title": "병역의무 이행 준비 지원",
+        "subtitle": "전공·적성을 고려한 지원시설의 업무",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|본법|82의5",
+          "병역법|시행령|163의5"
+        ],
+        "sections": [
+          {
+            "heading": "지원 주체",
+            "items": [
+              {
+                "label": "병무청장·지방병무청장",
+                "text": "병무지청장 포함. 병역의무 이행 준비 등을 지원할 수 있음",
+                "ref": "법 제82조의5제1항"
+              },
+              {
+                "label": "지원시설",
+                "text": "지방병무청장은 상담·교육·정보제공 등에 필요한 시설 설치·운영 가능",
+                "ref": "법 제82조의5제2항"
+              }
+            ]
+          },
+          {
+            "heading": "시설의 주요 업무",
+            "items": [
+              {
+                "label": "상담·교육",
+                "text": "군 특기 추천·병역진로설계 상담 및 병역의무 이행 절차·방법 교육",
+                "ref": "영 제163조의5제1항제1호·제2호"
+              },
+              {
+                "label": "정보제공",
+                "text": "군복무 적응에 필요한 군생활·자기계발 관련 정보제공 등",
+                "ref": "영 제163조의5제1항제3호·제4호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제82조의5, 병역의무 이행 준비 등의 지원",
+      "main_article": "병역법 제82조의5",
+      "source_articles": [
+        {
+          "key": "병역법|본법|82의5",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=05&joNo=0082&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|163의5",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=05&joNo=0163&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-082",
+  "lecture_title": "병역법 제46조, 병력동원소집",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-082-D01-editorial-v1",
+      "lecture_id": "MS-082",
+      "lesson_number": 82,
+      "diagram_number": 1,
+      "title": "병력동원소집 통지와 입영",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|46",
+        "병역법|시행령|96"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 138,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-082/diagrams/MS-082-D01-editorial-v1.svg",
+          "bytes": 7168,
+          "sha256": "c6037bb77557959273d07057af4ecfb09b84b82540dc5bd08d557e565d7dc576"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-082/diagrams/MS-082-D01-editorial-v1.webp",
+          "bytes": 55882,
+          "sha256": "c4f8241d2f09c209023c7a0502c3b4dab16ae0f302f0e98dddd2c0707e3000f1"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-082",
+        "title": "병력동원소집 통지와 입영",
+        "subtitle": "긴급사태에 대비한 사전 송달",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|46",
+          "병역법|시행령|96"
+        ],
+        "sections": [
+          {
+            "heading": "소집 실시",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "전시·사변 또는 이에 준하는 국가비상사태에 지정된 대상자에 대하여 소집한다.",
+                "ref": "법 제46조제1항"
+              },
+              {
+                "label": "본인에게 송달",
+                "text": "병력동원소집 통지서를 본인에게 송달하여야 한다.",
+                "ref": "영 제96조"
+              }
+            ]
+          },
+          {
+            "heading": "사전 통지의 특례",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "긴급사태에 대비하여 지방병무청장으로 하여금 통지서를 미리 송달하게 할 수 있다.",
+                "ref": "법 제46조제2항"
+              },
+              {
+                "label": "공고한 일시 입영",
+                "text": "미리 통지받은 사람은 병무청장이 신문·텔레비전·라디오로 공고하는 일시에 입영한다.",
+                "ref": "법 제46조제2항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제46조, 병력동원소집",
+      "main_article": "병역법 제46조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|46",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0046&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|96",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0096&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

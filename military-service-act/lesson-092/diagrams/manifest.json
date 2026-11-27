@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-092",
+  "lecture_title": "병역법 제56조, 입영신체검사 및 복무 등",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-092-D01-editorial-v1",
+      "lecture_id": "MS-092",
+      "lesson_number": 92,
+      "diagram_number": 1,
+      "title": "군사교육소집의 검사와 복무",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|56"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 151,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-092/diagrams/MS-092-D01-editorial-v1.svg",
+          "bytes": 6917,
+          "sha256": "4a5a8612cdab4078c5c246d2492d3ee1924932253b1eb54199f56d6d5726dfdd"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-092/diagrams/MS-092-D01-editorial-v1.webp",
+          "bytes": 54704,
+          "sha256": "178aa061563542d03763672e388280fa5c553c7cb4714508c51cd64cf139dfb7"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-092",
+        "title": "군사교육소집의 검사와 복무",
+        "subtitle": "준용 대상과 치유기간의 치환",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|56"
+        ],
+        "sections": [
+          {
+            "heading": "특정 대상의 검사",
+            "items": [
+              {
+                "label": "적용 대상",
+                "text": "제55조제1항 단서 또는 제2항에 따라 소집된 예비역·보충역·전시근로역.",
+                "ref": "법 제56조제2항"
+              },
+              {
+                "label": "병력동원 규정 준용",
+                "text": "입영신체검사·귀가에는 법 제47조를 준용한다.",
+                "ref": "법 제56조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "치환·처우",
+            "items": [
+              {
+                "label": "7일 이상 치유",
+                "text": "준용되는 제47조의 15일 이상 치유기간을 7일 이상 치유기간으로 본다.",
+                "ref": "법 제56조제2항"
+              },
+              {
+                "label": "현역과 같이",
+                "text": "군사교육소집으로 입영한 사람의 복무와 처우는 현역의 경우와 같이 한다.",
+                "ref": "법 제56조제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제56조, 입영신체검사 및 복무 등",
+      "main_article": "병역법 제56조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|56",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0056&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

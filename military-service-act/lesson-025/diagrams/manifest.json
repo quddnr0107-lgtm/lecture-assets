@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-025",
+  "lecture_title": "병역법 제19조, 현역 복무기간의 조정",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-025-D01-editorial-v1",
+      "lecture_id": "MS-025",
+      "lesson_number": 25,
+      "diagram_number": 1,
+      "title": "현역 복무기간의 조정",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|19"
+      ],
+      "part": 1,
+      "parts": 2,
+      "content_index": 46,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-025/diagrams/MS-025-D01-editorial-v1.svg",
+          "bytes": 7767,
+          "sha256": "0706b105a56a0655fce93ae0e61b063035c6851142677063319b2823c68bbf78"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-025/diagrams/MS-025-D01-editorial-v1.webp",
+          "bytes": 62980,
+          "sha256": "72385a58d163d0b9d929768026e5c70332cbac0598ebe9b6b678cb9c8cc81cbb"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-025",
+        "title": "현역 복무기간의 조정",
+        "subtitle": "국방부장관이 조정할 수 있는 사유와 한도",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|19"
+        ],
+        "sections": [
+          {
+            "heading": "6개월 이내",
+            "items": [
+              {
+                "label": "연장할 수 있는 때",
+                "text": "전시·사변 준하는 사태, 특별재난지역 선포, 부대 증편·창설 또는 병역자원 부족으로 충원 곤란",
+                "ref": "법 제19조제1항제1호"
+              },
+              {
+                "label": "단축할 수 있는 때",
+                "text": "정원 조정 또는 병 지원율 저하로 복무기간 조정이 필요한 경우",
+                "ref": "법 제19조제1항제3호"
+              }
+            ]
+          },
+          {
+            "heading": "3개월 이내 연장",
+            "items": [
+              {
+                "label": "해당 사유",
+                "text": "항해 중이거나 파병 중인 경우",
+                "ref": "법 제19조제1항제2호"
+              },
+              {
+                "label": "본인 통지",
+                "text": "연장기간과 사유를 본인에게 통지하여야 함",
+                "ref": "법 제19조제2항"
+              },
+              {
+                "label": "즉시 해제",
+                "text": "연장사유가 없어지면 즉시 복무기간 연장조치를 해제하여야 함",
+                "ref": "법 제19조제2항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "6개월 조정은 국회 소관 상임위에 사전 보고. 전시·사변·특별재난지역 선포 등은 추후 보고 가능."
+      },
+      "lecture_title": "병역법 제19조, 현역 복무기간의 조정",
+      "main_article": "병역법 제19조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|19",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0019&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-025-D02-editorial-v1",
+      "lecture_id": "MS-025",
+      "lesson_number": 25,
+      "diagram_number": 2,
+      "title": "현역 복무기간의 조정",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|19"
+      ],
+      "part": 2,
+      "parts": 2,
+      "content_index": 46,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-025/diagrams/MS-025-D02-editorial-v1.svg",
+          "bytes": 3593,
+          "sha256": "c2ddb5c6b18c906bef58cb5cc47725960df94526808726a55e93991ebcbc9330"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-025/diagrams/MS-025-D02-editorial-v1.webp",
+          "bytes": 29820,
+          "sha256": "cd27e14fb5669a04d87420c7c90991c6edc5f67f0c5c2c5e0baffed2228b4eb9"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-025",
+        "title": "현역 복무기간의 조정",
+        "subtitle": "국방부장관이 조정할 수 있는 사유와 한도",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|19"
+        ],
+        "sections": [
+          {
+            "heading": "6개월 이내",
+            "items": [
+              {
+                "label": "사전 승인",
+                "text": "미리 국무회의 심의를 거쳐 대통령의 승인을 받아야 함",
+                "ref": "법 제19조제1항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "6개월 조정은 국회 소관 상임위에 사전 보고. 전시·사변·특별재난지역 선포 등은 추후 보고 가능."
+      },
+      "lecture_title": "병역법 제19조, 현역 복무기간의 조정",
+      "main_article": "병역법 제19조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|19",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0019&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

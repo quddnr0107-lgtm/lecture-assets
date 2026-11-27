@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-040",
+  "lecture_title": "병역법 제26조, 사회복무요원의 업무 및 소집 대상",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-040-D01-editorial-v1",
+      "lecture_id": "MS-040",
+      "lesson_number": 40,
+      "diagram_number": 1,
+      "title": "사회복무요원이 지원하는 업무",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|26"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 73,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-040/diagrams/MS-040-D01-editorial-v1.svg",
+          "bytes": 6850,
+          "sha256": "63eca9aeb4850151eda359d970abe1e6701b4a6417d7ae97e20d819094a8a1c1"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-040/diagrams/MS-040-D01-editorial-v1.webp",
+          "bytes": 47604,
+          "sha256": "eb66dfe333345184ffcf7a66a6863ac37a6d2dd67f7d15153652609170216d42"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-040",
+        "title": "사회복무요원이 지원하는 업무",
+        "subtitle": "사회서비스업무와 행정업무의 기관 범위",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|26"
+        ],
+        "sections": [
+          {
+            "heading": "사회서비스 지원",
+            "items": [
+              {
+                "label": "기관 범위",
+                "text": "국가기관·지방자치단체·공공단체 및 사회복지시설",
+                "ref": "법 제26조제1항제1호"
+              },
+              {
+                "label": "업무 범위",
+                "text": "공익목적에 필요한 사회복지·보건의료·교육문화·환경안전 등의 사회서비스 지원",
+                "ref": "법 제26조제1항제1호"
+              }
+            ]
+          },
+          {
+            "heading": "행정업무 지원",
+            "items": [
+              {
+                "label": "기관 범위",
+                "text": "국가기관·지방자치단체·공공단체",
+                "ref": "법 제26조제1항제2호"
+              },
+              {
+                "label": "업무 범위",
+                "text": "공익목적에 필요한 행정업무 등의 지원",
+                "ref": "법 제26조제1항제2호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "사회복지시설 복무자는 지방병무청장이 선발하며, 선발 기준·절차는 병무청장이 정합니다."
+      },
+      "lecture_title": "병역법 제26조, 사회복무요원의 업무 및 소집 대상",
+      "main_article": "병역법 제26조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|26",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0026&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-040-D02-editorial-v1",
+      "lecture_id": "MS-040",
+      "lesson_number": 40,
+      "diagram_number": 2,
+      "title": "사회복무요원의 복무분야",
+      "layout": "groups",
+      "source_keys": [
+        "병역법|시행령|47의3"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 74,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-040/diagrams/MS-040-D02-editorial-v1.svg",
+          "bytes": 7327,
+          "sha256": "8b28ba23a16b1366400ce50f36ee9ba9eeea2af06c351a1f3d213a9890c8a448"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-040/diagrams/MS-040-D02-editorial-v1.webp",
+          "bytes": 59198,
+          "sha256": "2cad0de6b2975c3c8393ee75bbce31dee3ca04bde6cf8ba18d09b44581130451"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-040",
+        "title": "사회복무요원의 복무분야",
+        "subtitle": "시행령이 분류한 다섯 업무 영역",
+        "layout": "groups",
+        "source_keys": [
+          "병역법|시행령|47의3"
+        ],
+        "sections": [
+          {
+            "heading": "복지·보건의료",
+            "items": [
+              {
+                "label": "사회복지",
+                "text": "사회복지시설 운영, 지방자치단체 사회복지업무 지원 등",
+                "ref": "시행령 제47조의3제1항제1호"
+              },
+              {
+                "label": "보건·의료",
+                "text": "방역·식품위생 등 국민건강 보호·증진, 응급구조·환자이동 등 환자구호 지원",
+                "ref": "시행령 제47조의3제1항제2호"
+              }
+            ]
+          },
+          {
+            "heading": "교육·환경·행정",
+            "items": [
+              {
+                "label": "교육·문화",
+                "text": "학습 지원, 장애유아·장애학생 활동 지원, 궁·능 등 국가유산 관리 지원",
+                "ref": "시행령 제47조의3제1항제3호"
+              },
+              {
+                "label": "환경·안전",
+                "text": "환경 보호·감시, 재난 안전관리, 행정기관 경비 지원 등",
+                "ref": "시행령 제47조의3제1항제4호"
+              },
+              {
+                "label": "행정",
+                "text": "일반행정 지원 등",
+                "ref": "시행령 제47조의3제1항제5호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제26조, 사회복무요원의 업무 및 소집 대상",
+      "main_article": "병역법 제26조",
+      "source_articles": [
+        {
+          "key": "병역법|시행령|47의3",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0047&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

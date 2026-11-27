@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-048",
+  "lecture_title": "병역법 제31조의4, 사회복무요원의 성실의무",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-048-D01-editorial-v1",
+      "lecture_id": "MS-048",
+      "lesson_number": 48,
+      "diagram_number": 1,
+      "title": "사회복무요원의 성실의무",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|31의4"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 86,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-048/diagrams/MS-048-D01-editorial-v1.svg",
+          "bytes": 5518,
+          "sha256": "8143c2d04cf5ae0b14d9b8ed1e919be518847a801247bcefbe1c1cf8c0797d45"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-048/diagrams/MS-048-D01-editorial-v1.webp",
+          "bytes": 37208,
+          "sha256": "a17b4ecf25b289d606bf52d0e993d16e5218e7bfbb4bf7b067153f4ac3f364fc"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-048",
+        "title": "사회복무요원의 성실의무",
+        "subtitle": "직무상 명령 준수와 성실한 직무 수행",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|31의4"
+        ],
+        "sections": [
+          {
+            "heading": "명령 준수",
+            "items": [
+              {
+                "label": "명령의 범위",
+                "text": "직무상 명령",
+                "ref": "법 제31조의4"
+              },
+              {
+                "label": "준수 의무",
+                "text": "직무상 명령을 준수하여야 함",
+                "ref": "법 제31조의4"
+              }
+            ]
+          },
+          {
+            "heading": "직무 수행",
+            "items": [
+              {
+                "label": "수행 대상",
+                "text": "사회복무요원의 직무",
+                "ref": "법 제31조의4"
+              },
+              {
+                "label": "성실 의무",
+                "text": "성실하게 그 직무를 수행하여야 함",
+                "ref": "법 제31조의4"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제31조의4, 사회복무요원의 성실의무",
+      "main_article": "병역법 제31조의4",
+      "source_articles": [
+        {
+          "key": "병역법|본법|31의4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=04&joNo=0031&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-165",
+  "lecture_title": "병역법 제96조, 양벌규정",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-165-D01-editorial-v1",
+      "lecture_id": "MS-165",
+      "lesson_number": 165,
+      "diagram_number": 1,
+      "title": "양벌규정과 법인의 면책",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|96"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 257,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-165/diagrams/MS-165-D01-editorial-v1.svg",
+          "bytes": 6543,
+          "sha256": "264ee3e3275ab2f6c515077ce3f15209f5a976728874616a0ffcf06186ded007"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-165/diagrams/MS-165-D01-editorial-v1.webp",
+          "bytes": 55236,
+          "sha256": "59ed703be14e3054be39b3fef9447e06bc7472a77197fd3567e044668cab77a8"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-165",
+        "title": "양벌규정과 법인의 면책",
+        "subtitle": "행위자 처벌 외에 법인에도 벌금",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|96"
+        ],
+        "sections": [
+          {
+            "heading": "법인의 업무 관련",
+            "items": [
+              {
+                "label": "적용 위반",
+                "text": "고용주·업체장: 제84조제1항제1호, 제92조제1~3항, 제93조 위반",
+                "ref": "법 제96조제1호"
+              },
+              {
+                "label": "공공·사회복지기관장",
+                "text": "제84조제1항제2호 또는 제92조의2 위반",
+                "ref": "법 제96조제2호"
+              }
+            ]
+          },
+          {
+            "heading": "법인의 형·예외",
+            "items": [
+              {
+                "label": "법인 벌금",
+                "text": "행위자를 벌하는 외에 법인도 300만원 이상 3천만원 이하 벌금",
+                "ref": "법 제96조 본문"
+              },
+              {
+                "label": "면책 사유",
+                "text": "위반 방지를 위해 해당 업무에 상당한 주의와 감독을 게을리하지 않은 법인",
+                "ref": "법 제96조 단서"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제96조, 양벌규정",
+      "main_article": "병역법 제96조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|96",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0096&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}

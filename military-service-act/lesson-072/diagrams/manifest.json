@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-072",
+  "lecture_title": "병역법 제37조, 전문연구요원 편입 대상",
+  "diagram_count": 2,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-072-D01-editorial-v1",
+      "lecture_id": "MS-072",
+      "lesson_number": 72,
+      "diagram_number": 1,
+      "title": "전문연구요원 편입 대상",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|37"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 124,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-072/diagrams/MS-072-D01-editorial-v1.svg",
+          "bytes": 7258,
+          "sha256": "da480d30ed37366d3318bb4534676133be37ec6adcd4d3d3e8a4dd949b745989"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-072/diagrams/MS-072-D01-editorial-v1.webp",
+          "bytes": 58790,
+          "sha256": "0a7ab6ae4b1888f47efa9c7143a3bfffd6c0e2db4b2171e82283bd2d971cb8b5"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-072",
+        "title": "전문연구요원 편입 대상",
+        "subtitle": "연구기관 근무와 박사과정 수료의 갈래",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|37"
+        ],
+        "sections": [
+          {
+            "heading": "연구기관 근무",
+            "items": [
+              {
+                "label": "석사 이상",
+                "text": "석사 이상 학위 취득자 등이 병역지정 연구기관에 복무하고 원하면 편입할 수 있다.",
+                "ref": "법 제37조제1항제1호"
+              },
+              {
+                "label": "학사 특례",
+                "text": "사회복무 소집 대상 보충역 중 자연계 학사로 지정 중소기업부설 연구기관에 복무하는 사람 포함.",
+                "ref": "법 제37조제1항제1호"
+              }
+            ]
+          },
+          {
+            "heading": "박사과정 수료",
+            "items": [
+              {
+                "label": "자연계대학원",
+                "text": "병역지정 자연계대학원에서 박사학위 과정을 수료한 사람.",
+                "ref": "법 제37조제1항제2호"
+              },
+              {
+                "label": "의료 자격자",
+                "text": "의사·치과의사·한의사가 정해진 군전공의 과정을 마치고 지정 자연계대학원 박사과정을 수료.",
+                "ref": "법 제37조제1항제3호"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제37조, 전문연구요원 편입 대상",
+      "main_article": "병역법 제37조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|37",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0037&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    },
+    {
+      "id": "MS-072-D02-editorial-v1",
+      "lecture_id": "MS-072",
+      "lesson_number": 72,
+      "diagram_number": 2,
+      "title": "박사학위 취득 기한과 유예",
+      "layout": "numbers",
+      "source_keys": [
+        "병역법|본법|37",
+        "병역법|시행령|78의4"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 125,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-072/diagrams/MS-072-D02-editorial-v1.svg",
+          "bytes": 6958,
+          "sha256": "0ef15d59bc0431ceffecf38a42b7715eb09f920897f36d4ca15c6064959ec116"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-072/diagrams/MS-072-D02-editorial-v1.webp",
+          "bytes": 54258,
+          "sha256": "5cadf048f5ea3ed69eb5eb3bffb16a1843c242c73a0d75decb44c05571f6fe88"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-072",
+        "title": "박사학위 취득 기한과 유예",
+        "subtitle": "박사과정 전문연구요원의 기간 계산",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|37",
+          "병역법|시행령|78의4"
+        ],
+        "sections": [
+          {
+            "heading": "편입일부터 2년",
+            "items": [
+              {
+                "label": "학위 취득 의무",
+                "text": "편입된 날부터 2년 이내에 박사학위를 취득하여야 한다.",
+                "ref": "법 제37조제3항"
+              },
+              {
+                "label": "취득 간주",
+                "text": "학칙상 박사과정 완료와 학위 수여 예정 증명문서를 갖추고 병무청장 확인을 거쳐야 한다.",
+                "ref": "영 제78조의4제1항"
+              }
+            ]
+          },
+          {
+            "heading": "3년 범위의 유예",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "2년 이내 미취득 시 대통령령에 따라 3년 범위에서 취득 유예기간을 부여할 수 있다.",
+                "ref": "법 제37조제4항"
+              },
+              {
+                "label": "복무기간 불산입",
+                "text": "유예기간은 의무복무기간에 포함하지 않는다.",
+                "ref": "법 제37조제5항"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제37조, 전문연구요원 편입 대상",
+      "main_article": "병역법 제37조",
+      "source_articles": [
+        {
+          "key": "병역법|본법|37",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0037&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        },
+        {
+          "key": "병역법|시행령|78의4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=04&joNo=0078&lsiSeq=290421&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-10-02",
+          "promulgation": "대통령령 제36728호"
+        }
+      ]
+    }
+  ]
+}

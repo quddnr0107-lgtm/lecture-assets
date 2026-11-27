@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "subject": "military-service-act",
+  "lecture_id": "MS-154",
+  "lecture_title": "병역법 제89조의4, 사회복무요원의 개인정보 유출 또는 이용",
+  "diagram_count": 1,
+  "canvas": [
+    1600,
+    1120
+  ],
+  "items": [
+    {
+      "id": "MS-154-D01-editorial-v1",
+      "lecture_id": "MS-154",
+      "lesson_number": 154,
+      "diagram_number": 1,
+      "title": "사회복무요원의 개인정보 유출",
+      "layout": "compare",
+      "source_keys": [
+        "병역법|본법|89의4"
+      ],
+      "part": 1,
+      "parts": 1,
+      "content_index": 244,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-154/diagrams/MS-154-D01-editorial-v1.svg",
+          "bytes": 5425,
+          "sha256": "afeddda9c8d22a33e90f256f60c1afcecdc4ab5e44cedb3f60dab981c2811a25"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-154/diagrams/MS-154-D01-editorial-v1.webp",
+          "bytes": 38524,
+          "sha256": "101aa40809d6cff68536c2aad784d25ff74454bd64c0078e4d7158c2c34bd430"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-154",
+        "title": "사회복무요원의 개인정보 유출",
+        "subtitle": "복무 중 취득한 다른 사람의 정보",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|89의4"
+        ],
+        "sections": [
+          {
+            "heading": "위반행위",
+            "items": [
+              {
+                "label": "행위자·정보",
+                "text": "사회복무요원이 복무 중 취득한 다른 사람의 정보",
+                "ref": "법 제89조의4"
+              },
+              {
+                "label": "무단 유출·이용",
+                "text": "권한 없이 유출하거나 이용한 경우",
+                "ref": "법 제89조의4"
+              }
+            ]
+          },
+          {
+            "heading": "법정형",
+            "items": [
+              {
+                "label": "징역 또는 벌금",
+                "text": "5년 이하의 징역 또는 5천만원 이하의 벌금",
+                "ref": "법 제89조의4"
+              }
+            ]
+          }
+        ]
+      },
+      "lecture_title": "병역법 제89조의4, 사회복무요원의 개인정보 유출 또는 이용",
+      "main_article": "병역법 제89조의4",
+      "source_articles": [
+        {
+          "key": "병역법|본법|89의4",
+          "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=04&joNo=0089&lsiSeq=286755&urlMode=lsScJoRltInfoR",
+          "effective_date": "2026-12-10",
+          "promulgation": "법률 제21769호"
+        }
+      ]
+    }
+  ]
+}
