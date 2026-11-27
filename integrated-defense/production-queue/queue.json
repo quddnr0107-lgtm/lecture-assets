@@ -3,7 +3,7 @@
   "subject": "integrated-defense",
   "created_at_kst": "2026-11-27T10:25:01+09:00",
   "updated_at_kst": "2026-11-27T12:49:22.093Z",
-  "status": "rendering_layout_fix",
+  "status": "review_pending",
   "approved_style": "07-notion-editorial",
   "baseline": {
     "lessons": 25,
@@ -655,7 +655,7 @@
       "lecture_id": "TB-013",
       "title": "13강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -676,11 +676,7 @@
       "outputs": [
         "integrated-defense/lesson-013/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-review-20261127T1248Z",
-        "started_at": "2026-11-27T12:49:22.093Z",
-        "expires_at": "2026-11-27T13:49:22.093Z"
-      },
+      "lease": null,
       "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "직전 재생성 실패(lease ID 불일치), 모바일 방향 표현 재생성 재시도.",
@@ -777,7 +773,7 @@
       "lecture_id": "TB-016",
       "title": "16강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -800,11 +796,7 @@
       "outputs": [
         "integrated-defense/lesson-016/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-review-20261127T1248Z",
-        "started_at": "2026-11-27T12:49:22.093Z",
-        "expires_at": "2026-11-27T13:49:22.093Z"
-      },
+      "lease": null,
       "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "직전 재생성 실패(lease ID 불일치), 근거 전용 페이지 재균형 재시도.",
@@ -821,7 +813,7 @@
       "lecture_id": "TB-017",
       "title": "17강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -842,11 +834,7 @@
       "outputs": [
         "integrated-defense/lesson-017/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-review-20261127T1248Z",
-        "started_at": "2026-11-27T12:49:22.093Z",
-        "expires_at": "2026-11-27T13:49:22.093Z"
-      },
+      "lease": null,
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "실제 WebP 검수에서 마지막 페이지가 근거만 포함됨. 기존 내용 그대로 페이지 재균형 필요."
@@ -858,7 +846,7 @@
       "lecture_id": "TB-018",
       "title": "18강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -879,11 +867,7 @@
       "outputs": [
         "integrated-defense/lesson-018/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-review-20261127T1248Z",
-        "started_at": "2026-11-27T12:49:22.093Z",
-        "expires_at": "2026-11-27T13:49:22.093Z"
-      },
+      "lease": null,
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "실제 WebP 검수에서 마지막 페이지가 근거만 포함됨. 기존 내용 그대로 페이지 재균형 필요."
@@ -895,7 +879,7 @@
       "lecture_id": "TB-019",
       "title": "19강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "reserved",
+      "status": "rendered_pending_visual",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -915,11 +899,7 @@
       "outputs": [
         "integrated-defense/lesson-019/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-review-20261127T1248Z",
-        "started_at": "2026-11-27T12:49:22.093Z",
-        "expires_at": "2026-11-27T13:49:22.093Z"
-      },
+      "lease": null,
       "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "실제 WebP 검수에서 마지막 페이지가 근거만 포함됨. 기존 내용 그대로 페이지 재균형 필요."
@@ -1209,7 +1189,7 @@
     "status": "matched_existing_script",
     "checked_at_kst": "2026-11-27T12:02:16+09:00"
   },
-  "last_render_run": "tb-exam80-review-20261127T114833743Z-repair",
+  "last_render_run": "tb-exam80-review-20261127T1248Z",
   "last_verified_commit": "86a2c9a9b04865397c10ed93de395d7102a4aaaf",
   "progress": {
     "jobs_done": 20,

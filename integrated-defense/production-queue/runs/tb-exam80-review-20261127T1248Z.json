@@ -1,0 +1,1459 @@
+{
+  "run_id": "tb-exam80-review-20261127T1248Z",
+  "exam_number": 80,
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "input_commit": "306065a8af7df014b8089bcf012f3b7b9f7cf0f6",
+  "desktop_verified_lessons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "rendered_lessons": [
+    13,
+    16,
+    17,
+    18,
+    19
+  ],
+  "rendered_pages": 31,
+  "failures": {},
+  "visual_review": "pending",
+  "status": "rendered_pending_visual",
+  "files": [
+    {
+      "source_id": "TB-017-D01",
+      "lesson": 17,
+      "page": 1,
+      "page_count": 2,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-017/diagrams/notion-v1/mobile/TB-017-D01-M01.svg",
+          "bytes": 4770,
+          "sha256": "8957d0706a941698b30194bdd853a5ced2d08d276305b9768dbe6fe2e2be70cf",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-017/diagrams/notion-v1/mobile/TB-017-D01-M01.png",
+          "bytes": 156958,
+          "sha256": "2a2b742e419e8f2ac68d92de0ac24782f31b96ea8cb2af6148c4790e3201ad02",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-017/diagrams/notion-v1/mobile/TB-017-D01-M01.webp",
+          "bytes": 82504,
+          "sha256": "03692330cfeedd1ab11f46a5c3a15688be55fc565a8740eb3cd712e58de5b511",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제16조제1항·제2항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "5ac89340acf9cf3c5aae644dc874bfa45c564289b8d0fd7b7d5db07270fb5433",
+      "script_sha256": "0f7b3bb7462af83ee4afde92e1cb14263656c3a5926edefd6b658296a459d481"
+    },
+    {
+      "source_id": "TB-017-D01",
+      "lesson": 17,
+      "page": 2,
+      "page_count": 2,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-017/diagrams/notion-v1/mobile/TB-017-D01-M02.svg",
+          "bytes": 3605,
+          "sha256": "bff9f5af90149806cf2cce4f062dda9d0785c15f24888eb13884b76dc5b9caa8",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-017/diagrams/notion-v1/mobile/TB-017-D01-M02.png",
+          "bytes": 127457,
+          "sha256": "eb3475286bf16efaa6f5fe60670990eff3734b22b532a852849007a5b0b7bcb4",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-017/diagrams/notion-v1/mobile/TB-017-D01-M02.webp",
+          "bytes": 69230,
+          "sha256": "438c17e0b0bdc4cf67243280c1e84f22d29f5b80e68d8f4b6cf176631ebe0b5b",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제16조제1항·제2항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "5ac89340acf9cf3c5aae644dc874bfa45c564289b8d0fd7b7d5db07270fb5433",
+      "script_sha256": "0f7b3bb7462af83ee4afde92e1cb14263656c3a5926edefd6b658296a459d481"
+    },
+    {
+      "source_id": "TB-017-D02",
+      "lesson": 17,
+      "page": 1,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-017/diagrams/notion-v1/mobile/TB-017-D02-M01.svg",
+          "bytes": 4180,
+          "sha256": "6594efb948078757fc127e76a0709aa8f30a267577e4e8bc945f1b1f24e54966",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-017/diagrams/notion-v1/mobile/TB-017-D02-M01.png",
+          "bytes": 141748,
+          "sha256": "dec0b389cf43f8b80ba46d7a4baa56a9bf566629f3f1c3c8494d9060dd4dcc45",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-017/diagrams/notion-v1/mobile/TB-017-D02-M01.webp",
+          "bytes": 73572,
+          "sha256": "078f336e181519c3fd1f3c714c0ddac1cd776b095b8aeb3dd0f87f6728e63559",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제16조제2항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제27조제1항~제3항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "968ce16bfeb42d3516dd0e68eede61ba8352b5a1552212cb9ba6485e690a4744",
+      "script_sha256": "0f7b3bb7462af83ee4afde92e1cb14263656c3a5926edefd6b658296a459d481"
+    },
+    {
+      "source_id": "TB-017-D02",
+      "lesson": 17,
+      "page": 2,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-017/diagrams/notion-v1/mobile/TB-017-D02-M02.svg",
+          "bytes": 2984,
+          "sha256": "c08d0544565f608f7fd2eb8d8e2be4df32121d3ba49768ca5b2f6833221ab506",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-017/diagrams/notion-v1/mobile/TB-017-D02-M02.png",
+          "bytes": 95665,
+          "sha256": "644d7a7d69efad5a1c3739c117df772bb3f3c16875aec276076c32411c5a4457",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-017/diagrams/notion-v1/mobile/TB-017-D02-M02.webp",
+          "bytes": 50850,
+          "sha256": "72fe735d48ae3e635d5dc785e6ca44afc3c7d1f841b5281bf0322db13f5cd9dd",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제16조제2항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제27조제1항~제3항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "968ce16bfeb42d3516dd0e68eede61ba8352b5a1552212cb9ba6485e690a4744",
+      "script_sha256": "0f7b3bb7462af83ee4afde92e1cb14263656c3a5926edefd6b658296a459d481"
+    },
+    {
+      "source_id": "TB-017-D02",
+      "lesson": 17,
+      "page": 3,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-017/diagrams/notion-v1/mobile/TB-017-D02-M03.svg",
+          "bytes": 2933,
+          "sha256": "e4c10de561b06a0990803128ca3c121f126f9b0a1b7f61bc6c7680627ac49290",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-017/diagrams/notion-v1/mobile/TB-017-D02-M03.png",
+          "bytes": 106390,
+          "sha256": "e1bfe31f46be48e31b5e5c92b1381335d27c0fd56e426b1231fb17b086352604",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-017/diagrams/notion-v1/mobile/TB-017-D02-M03.webp",
+          "bytes": 58766,
+          "sha256": "12807c86829db5e7207cba17914086286bbeb12da8194fb17124560bdbadf228",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제16조제2항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제27조제1항~제3항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "968ce16bfeb42d3516dd0e68eede61ba8352b5a1552212cb9ba6485e690a4744",
+      "script_sha256": "0f7b3bb7462af83ee4afde92e1cb14263656c3a5926edefd6b658296a459d481"
+    },
+    {
+      "source_id": "TB-013-D01",
+      "lesson": 13,
+      "page": 1,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-013/diagrams/notion-v1/mobile/TB-013-D01-M01.svg",
+          "bytes": 4352,
+          "sha256": "09cecfff67c7d8a4690d775c56942070270d67f2f09875dc5c605f762f491a11",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-013/diagrams/notion-v1/mobile/TB-013-D01-M01.png",
+          "bytes": 141552,
+          "sha256": "dd7752e04efca2efd2e81b1a65649a1b6e9630ff75c96ee68487fb4ab9cda4b8",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-013/diagrams/notion-v1/mobile/TB-013-D01-M01.webp",
+          "bytes": 76874,
+          "sha256": "cdfb99cdf027135eb7a3702f3477c83926f691a11ad00fcb4eea0dd095d9dda1",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1021980027",
+          "basis": "통합방위법 제12조제1항~제5항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "db9f5c8d71a1bbe589f6a77ac7d23d31d8c5fea62369ba4cb971f29eacab78b0",
+      "script_sha256": "404a9835f5c00a4b50e1ac4e1f586cc81e6be121241cc1506e1e206cab2377ba"
+    },
+    {
+      "source_id": "TB-013-D01",
+      "lesson": 13,
+      "page": 2,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-013/diagrams/notion-v1/mobile/TB-013-D01-M02.svg",
+          "bytes": 4714,
+          "sha256": "a8e5049e49b5510530cefc73c8f64f32c20db91bca8424bb9f9db0f98ee0f26a",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-013/diagrams/notion-v1/mobile/TB-013-D01-M02.png",
+          "bytes": 163622,
+          "sha256": "d81622049f45f3c5e4d0454ceb17900900b28d1d439cad6d104e91283f9c3831",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-013/diagrams/notion-v1/mobile/TB-013-D01-M02.webp",
+          "bytes": 94308,
+          "sha256": "08153eede6dfc50c36e41c236a5d430828890af99d0bf91ee2f8ea4dbbd685e7",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1021980027",
+          "basis": "통합방위법 제12조제1항~제5항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "db9f5c8d71a1bbe589f6a77ac7d23d31d8c5fea62369ba4cb971f29eacab78b0",
+      "script_sha256": "404a9835f5c00a4b50e1ac4e1f586cc81e6be121241cc1506e1e206cab2377ba"
+    },
+    {
+      "source_id": "TB-013-D01",
+      "lesson": 13,
+      "page": 3,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-013/diagrams/notion-v1/mobile/TB-013-D01-M03.svg",
+          "bytes": 2888,
+          "sha256": "b151c8188b99573ca91f2ca4c6d4d52a44e3211f9cc0d81f8d329e58c67d1fd9",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-013/diagrams/notion-v1/mobile/TB-013-D01-M03.png",
+          "bytes": 105732,
+          "sha256": "fb8c53ad834d8a0d77625afb53f2a22908042581d43cfda8c6d9f4cc98324870",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-013/diagrams/notion-v1/mobile/TB-013-D01-M03.webp",
+          "bytes": 61102,
+          "sha256": "99164d5f77c58d2ea5f08cdb28632b0cc24d6ce5741263caf8eba25bcbdab958",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1021980027",
+          "basis": "통합방위법 제12조제1항~제5항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "db9f5c8d71a1bbe589f6a77ac7d23d31d8c5fea62369ba4cb971f29eacab78b0",
+      "script_sha256": "404a9835f5c00a4b50e1ac4e1f586cc81e6be121241cc1506e1e206cab2377ba"
+    },
+    {
+      "source_id": "TB-013-D02",
+      "lesson": 13,
+      "page": 1,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-013/diagrams/notion-v1/mobile/TB-013-D02-M01.svg",
+          "bytes": 4363,
+          "sha256": "af18588c818f763f06b4443033f4dd8b4ce3d20525033c9f04c8e19ac724bd14",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-013/diagrams/notion-v1/mobile/TB-013-D02-M01.png",
+          "bytes": 143587,
+          "sha256": "c74ad60f4c46f2385ad45d087346eb05f8d65b7d90f06a19c2728cff4f5d9e88",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-013/diagrams/notion-v1/mobile/TB-013-D02-M01.webp",
+          "bytes": 77600,
+          "sha256": "6c4cc9ebeddbdf718ad840ae3b595b86d1f2af4714f12b57edc9fe5e933a7e83",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1021980027",
+          "basis": "통합방위법 제12조제6항~제8항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제24조제1항·제2항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "8b4630cf770e851990545767071b1ff475d1e37db470ddee65c91d1f6c9e88f8",
+      "script_sha256": "404a9835f5c00a4b50e1ac4e1f586cc81e6be121241cc1506e1e206cab2377ba"
+    },
+    {
+      "source_id": "TB-013-D02",
+      "lesson": 13,
+      "page": 2,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-013/diagrams/notion-v1/mobile/TB-013-D02-M02.svg",
+          "bytes": 4668,
+          "sha256": "2fa9a17aef54c7932a528c0e07554055393326bf57e1479b757ffb7cd07fdc82",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-013/diagrams/notion-v1/mobile/TB-013-D02-M02.png",
+          "bytes": 174939,
+          "sha256": "a1efbb8f711771a8a27de6d8f0a78893656fa84cfe467f487ff46213a5d75108",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-013/diagrams/notion-v1/mobile/TB-013-D02-M02.webp",
+          "bytes": 94792,
+          "sha256": "f7ad0f5265bfa56cda39109a1938855c7cf3b818ce1f5e571fc81a9434b1e191",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1021980027",
+          "basis": "통합방위법 제12조제6항~제8항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제24조제1항·제2항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "8b4630cf770e851990545767071b1ff475d1e37db470ddee65c91d1f6c9e88f8",
+      "script_sha256": "404a9835f5c00a4b50e1ac4e1f586cc81e6be121241cc1506e1e206cab2377ba"
+    },
+    {
+      "source_id": "TB-013-D02",
+      "lesson": 13,
+      "page": 3,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-013/diagrams/notion-v1/mobile/TB-013-D02-M03.svg",
+          "bytes": 2884,
+          "sha256": "569c4a2c9c007a6fb91c34c3281b80b7dfd5b96506f8d5baa0409515c1b9dd5b",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-013/diagrams/notion-v1/mobile/TB-013-D02-M03.png",
+          "bytes": 116775,
+          "sha256": "3b9d87c94724295ead3195d7ba977138648a970f398af7aac19496c63bf39dde",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-013/diagrams/notion-v1/mobile/TB-013-D02-M03.webp",
+          "bytes": 65308,
+          "sha256": "ddab79764b70d5dd546298c9f56fb6be335d2dba413003749361b4315e22d08f",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1021980027",
+          "basis": "통합방위법 제12조제6항~제8항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제24조제1항·제2항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "8b4630cf770e851990545767071b1ff475d1e37db470ddee65c91d1f6c9e88f8",
+      "script_sha256": "404a9835f5c00a4b50e1ac4e1f586cc81e6be121241cc1506e1e206cab2377ba"
+    },
+    {
+      "source_id": "TB-019-D01",
+      "lesson": 19,
+      "page": 1,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-019/diagrams/notion-v1/mobile/TB-019-D01-M01.svg",
+          "bytes": 4569,
+          "sha256": "9d3816bb68ada1c142e91135ffae317711048a1e0c6f6b1b926f9c14fbbe7123",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-019/diagrams/notion-v1/mobile/TB-019-D01-M01.png",
+          "bytes": 167582,
+          "sha256": "eb5dbebf764e1bc85811e064b1059b1ba79cbc22616d2e96df559e8f39dbed7f",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-019/diagrams/notion-v1/mobile/TB-019-D01-M01.webp",
+          "bytes": 90670,
+          "sha256": "11b4beb68fda9a0248cd538b32cf9545ecc391eff8bed2f7347d9374d6a6804e",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제18조제1항·제2항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제31조제2항~제5항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "96b98df06732775390d7ce791b60a3a6d7319e8809e61931e1339f74f5376756",
+      "script_sha256": "98017bb359b1b8c317771d60a48b7e2c08f8847278b6ff1d1ceb63647315b979"
+    },
+    {
+      "source_id": "TB-019-D01",
+      "lesson": 19,
+      "page": 2,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-019/diagrams/notion-v1/mobile/TB-019-D01-M02.svg",
+          "bytes": 3161,
+          "sha256": "f74ca8a732f156bbaf85a70ae078f1cd644e0c94479afb992cecd21d2209c6f8",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-019/diagrams/notion-v1/mobile/TB-019-D01-M02.png",
+          "bytes": 105932,
+          "sha256": "fb75a33e79bdab75be94f2b1f2f1a6107ccd22365675d9d5446ed98ba66d950a",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-019/diagrams/notion-v1/mobile/TB-019-D01-M02.webp",
+          "bytes": 57410,
+          "sha256": "99bd4c6d11b83e27bfd2ebf3952487f4fbfa3ab677007804aa4c7fe584bfda2c",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제18조제1항·제2항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제31조제2항~제5항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "96b98df06732775390d7ce791b60a3a6d7319e8809e61931e1339f74f5376756",
+      "script_sha256": "98017bb359b1b8c317771d60a48b7e2c08f8847278b6ff1d1ceb63647315b979"
+    },
+    {
+      "source_id": "TB-019-D01",
+      "lesson": 19,
+      "page": 3,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-019/diagrams/notion-v1/mobile/TB-019-D01-M03.svg",
+          "bytes": 3133,
+          "sha256": "3c6a815753602d3046d2979cf7e4f191d88fa6781df98de3219c2197c3bf7576",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-019/diagrams/notion-v1/mobile/TB-019-D01-M03.png",
+          "bytes": 118475,
+          "sha256": "133b2e9a668998404191897e10f3333e4afbf1ee8cd01a38aecd86aadb4442f8",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-019/diagrams/notion-v1/mobile/TB-019-D01-M03.webp",
+          "bytes": 65622,
+          "sha256": "d9a9f93d1a34fc31f1077bf41c6da85e3fd3b115ccc2c01ae63020774922cb7f",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제18조제1항·제2항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제31조제2항~제5항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "96b98df06732775390d7ce791b60a3a6d7319e8809e61931e1339f74f5376756",
+      "script_sha256": "98017bb359b1b8c317771d60a48b7e2c08f8847278b6ff1d1ceb63647315b979"
+    },
+    {
+      "source_id": "TB-016-D01",
+      "lesson": 16,
+      "page": 1,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D01-M01.svg",
+          "bytes": 4286,
+          "sha256": "262da14cccda7681c165e3f9936b2b226a63dad28857f118d0f83f6cd42d14a3",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D01-M01.png",
+          "bytes": 140983,
+          "sha256": "2840806e58e113e410cf6977837a9951c25b47aac872860d8156684659180e8f",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D01-M01.webp",
+          "bytes": 75250,
+          "sha256": "12948ae9b8b6fc652ca9873e1587aaac47e7896f4766bfe7aa01b46e658b5679",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1029461673",
+          "basis": "통합방위법 제15조제1항~제4항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "84e13c0b144adf5f1a358e1849e07d4f07704d96cab1af3d8265d801991772c9",
+      "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+    },
+    {
+      "source_id": "TB-016-D01",
+      "lesson": 16,
+      "page": 2,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D01-M02.svg",
+          "bytes": 4412,
+          "sha256": "f69c87037446dea651ad10a846431ce05001a7405b6adc39189a16395c4287e9",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D01-M02.png",
+          "bytes": 173065,
+          "sha256": "da64e06432605f06b8c42c989b645f55bad5ff1cd964e230a72164558cbf0e37",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D01-M02.webp",
+          "bytes": 93216,
+          "sha256": "9f42f4480203c540054d70cfe92162eab96ee944a1b697f1379e4a9fdc98cc9f",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1029461673",
+          "basis": "통합방위법 제15조제1항~제4항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "84e13c0b144adf5f1a358e1849e07d4f07704d96cab1af3d8265d801991772c9",
+      "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+    },
+    {
+      "source_id": "TB-016-D01",
+      "lesson": 16,
+      "page": 3,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D01-M03.svg",
+          "bytes": 2359,
+          "sha256": "64b5105feae9cf668edee2f760cad257bac2c49429d746ec65fdef0e9a7ad43c",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D01-M03.png",
+          "bytes": 86402,
+          "sha256": "6880c65ad737b24ce43141220d16704c2739a42d7e85a682958d79eb6f063493",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D01-M03.webp",
+          "bytes": 46476,
+          "sha256": "56645d79ee8c56d6460e3901fd35ad3ed771148065a9f8d6c058287184a2d9ca",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1029461673",
+          "basis": "통합방위법 제15조제1항~제4항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "84e13c0b144adf5f1a358e1849e07d4f07704d96cab1af3d8265d801991772c9",
+      "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+    },
+    {
+      "source_id": "TB-016-D02",
+      "lesson": 16,
+      "page": 1,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D02-M01.svg",
+          "bytes": 4798,
+          "sha256": "205f54331f62b9c0e881328f4f6f4838d3a21958ba8111ce7de9400992442447",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D02-M01.png",
+          "bytes": 161979,
+          "sha256": "116e3b6cd2221bb3c9f0a91007eefc75f1dfd8f69a7ccff5f9c5773e37b7a587",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D02-M01.webp",
+          "bytes": 88874,
+          "sha256": "1973b856ceab99d59eb7c184e1a1127dc4af2c627df6b9496cc7dc092e4c38de",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lspttninfSeq=64943",
+          "basis": "통합방위법 시행령 제25조제1항·제4항·제5항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "a4e126b80b4f9c7c6a656bfb55a1318292e99f9bcf926caacdef74efa853cb70",
+      "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+    },
+    {
+      "source_id": "TB-016-D02",
+      "lesson": 16,
+      "page": 2,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D02-M02.svg",
+          "bytes": 3567,
+          "sha256": "8a5de39cf3da49ef4f798d9554f0dc45448e724cfef63a02952e998ecff58848",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D02-M02.png",
+          "bytes": 132524,
+          "sha256": "ae4306ba54615e841a6cdd4a727966058660c3cc547067979c424781fd6e7fce",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D02-M02.webp",
+          "bytes": 78816,
+          "sha256": "0558d9dd7191bb7f1d02360061fe3b9e27fc89f6875355a803ba6fee2aa85c01",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lspttninfSeq=64943",
+          "basis": "통합방위법 시행령 제25조제1항·제4항·제5항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "a4e126b80b4f9c7c6a656bfb55a1318292e99f9bcf926caacdef74efa853cb70",
+      "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+    },
+    {
+      "source_id": "TB-016-D02",
+      "lesson": 16,
+      "page": 3,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D02-M03.svg",
+          "bytes": 3076,
+          "sha256": "6acc888e74a7103c4a55c7131248465ae7e8c65b4af1f3d74833885a22bc08f4",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D02-M03.png",
+          "bytes": 132704,
+          "sha256": "3a47be2b63c96f0c85f6049b0a2d6b5b33ce144f266c497769929f60dd84d2b5",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D02-M03.webp",
+          "bytes": 73508,
+          "sha256": "37c57cd379c644de6bb23f2cf29600f3c70ef31dd7e27f811af9a572317b36b9",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lspttninfSeq=64943",
+          "basis": "통합방위법 시행령 제25조제1항·제4항·제5항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "a4e126b80b4f9c7c6a656bfb55a1318292e99f9bcf926caacdef74efa853cb70",
+      "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+    },
+    {
+      "source_id": "TB-016-D03",
+      "lesson": 16,
+      "page": 1,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D03-M01.svg",
+          "bytes": 4161,
+          "sha256": "61f599c86ddd583c84a6212e0732580c67f19e05a2eaa7c74f7b03c5ec501a8b",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D03-M01.png",
+          "bytes": 154315,
+          "sha256": "8b67416f57978d94a9f97942048d692359d2a833e87662f6b9fbe740b74826b9",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D03-M01.webp",
+          "bytes": 82088,
+          "sha256": "7d7825bf47664c351006110ac0f90b2a26c3e36ce54b59c4d201a8dc5b24782a",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제15조제3항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제25조제2항·제3항·제6항·제7항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "884d2b2c66cfea1c4860625e0f75e706604be6cc5246954e8d3179f7c7ab5cb1",
+      "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+    },
+    {
+      "source_id": "TB-016-D03",
+      "lesson": 16,
+      "page": 2,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D03-M02.svg",
+          "bytes": 4496,
+          "sha256": "f4b23f1518ca1caa8253bed93255171a07920deb9cbc6e57c13cbe4bb73326e7",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D03-M02.png",
+          "bytes": 169325,
+          "sha256": "f38c31b3dcd92ea18d3c4016aa2d4aba8d342d08e7f46e9f75cc90d7da819132",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D03-M02.webp",
+          "bytes": 93304,
+          "sha256": "ebb43dcd33bdf738fe8faf763abd8a3e93792091f8dc7152f50d9ea91f3bd1fb",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제15조제3항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제25조제2항·제3항·제6항·제7항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "884d2b2c66cfea1c4860625e0f75e706604be6cc5246954e8d3179f7c7ab5cb1",
+      "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+    },
+    {
+      "source_id": "TB-016-D03",
+      "lesson": 16,
+      "page": 3,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D03-M03.svg",
+          "bytes": 3033,
+          "sha256": "8fe9656a4c92b95660dd027c65e86f2f30b26f0846b2920f09c8d40d709bd735",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D03-M03.png",
+          "bytes": 122105,
+          "sha256": "4f164ad7e2d73ee0560772ce2d9fe5e79ad57b21e5c5ae487b37334cf2633fa1",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D03-M03.webp",
+          "bytes": 68724,
+          "sha256": "e3e734cda93ac8d17170a02ad5e2c7fff4fed0283db31d2c50fd0193ce13d9ca",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제15조제3항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제25조제2항·제3항·제6항·제7항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "884d2b2c66cfea1c4860625e0f75e706604be6cc5246954e8d3179f7c7ab5cb1",
+      "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+    },
+    {
+      "source_id": "TB-016-D04",
+      "lesson": 16,
+      "page": 1,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D04-M01.svg",
+          "bytes": 4187,
+          "sha256": "0b14f32dca73e473136e19591423aa21b8037c321daf68c491171746a5d558b4",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D04-M01.png",
+          "bytes": 153183,
+          "sha256": "07a58082d42d090c4379e19f808707e0fe125ead0ce04c4100976f7369bbae10",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D04-M01.webp",
+          "bytes": 81834,
+          "sha256": "a1316a289f9835e2d5b5e048722ebc83ed20c9ac2998234dca4a89c190c2ffe5",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제15조제5항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제26조제1항~제4항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "54e10c6b7b4cf3b45c1c10f30e2be2967c2b9b45bd79ba48c5b6e135e562f804",
+      "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+    },
+    {
+      "source_id": "TB-016-D04",
+      "lesson": 16,
+      "page": 2,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D04-M02.svg",
+          "bytes": 4481,
+          "sha256": "6fd3df392860672c7347edb7537561315f16a12e2aef878795ae218d99a135c4",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D04-M02.png",
+          "bytes": 177421,
+          "sha256": "c39f9678e4e2f9ad1f435f078b55131edd7407fa1b27d28de190149f5071a608",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D04-M02.webp",
+          "bytes": 95232,
+          "sha256": "7c624bfaa01974b2cce4cb9a720b738386e6ec9c663777fb1e680a0c6a28cfac",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제15조제5항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제26조제1항~제4항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "54e10c6b7b4cf3b45c1c10f30e2be2967c2b9b45bd79ba48c5b6e135e562f804",
+      "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+    },
+    {
+      "source_id": "TB-016-D04",
+      "lesson": 16,
+      "page": 3,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D04-M03.svg",
+          "bytes": 2557,
+          "sha256": "0e7507ab9a48ad73e4e4840f3f0259e0313cee99c92bffb673dfefcf1f2d6f5d",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D04-M03.png",
+          "bytes": 104667,
+          "sha256": "cd571d6ae5b5a4e03116412ca5936e86de1028a3b9d26e958c5ea3e9ffbc069a",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-016/diagrams/notion-v1/mobile/TB-016-D04-M03.webp",
+          "bytes": 55702,
+          "sha256": "8f2e097d3155c2ebc2b71f82d7181a9a061124e762819b5c41ad3b389f482292",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제15조제5항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제26조제1항~제4항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "54e10c6b7b4cf3b45c1c10f30e2be2967c2b9b45bd79ba48c5b6e135e562f804",
+      "script_sha256": "1c209ff8f650b6e7319f4d98b63062cddc45adfeac0920382f641b28772884e9"
+    },
+    {
+      "source_id": "TB-018-D01",
+      "lesson": 18,
+      "page": 1,
+      "page_count": 2,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-018/diagrams/notion-v1/mobile/TB-018-D01-M01.svg",
+          "bytes": 4758,
+          "sha256": "0209c78da19c5e68f8647ad447259d7f4e3afea63d58fe97490613522d9f1d3b",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-018/diagrams/notion-v1/mobile/TB-018-D01-M01.png",
+          "bytes": 166921,
+          "sha256": "c075859d5682e0b8c465b41cffa7b9edbe1d402581d75f45fb3b9407056265cd",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-018/diagrams/notion-v1/mobile/TB-018-D01-M01.webp",
+          "bytes": 86110,
+          "sha256": "7ea0eb9a08983097a5dd78b2e1807c1c3faed5c6556534d99573713de650dbee",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제17조제1항~제3항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제29조제1항~제4항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "9a110962a5925d161919952a05e01235753f7ee832c8d4eca9b945d5cef35601",
+      "script_sha256": "ae658eab0186763a0bb477a9d230347d3a1d2c4c26674a09166b6bb88ea1d38f"
+    },
+    {
+      "source_id": "TB-018-D01",
+      "lesson": 18,
+      "page": 2,
+      "page_count": 2,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-018/diagrams/notion-v1/mobile/TB-018-D01-M02.svg",
+          "bytes": 3944,
+          "sha256": "6973735602e6b98210c7cdd7d129acb09d28bf2cefa622c8ed18255cb94b2820",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-018/diagrams/notion-v1/mobile/TB-018-D01-M02.png",
+          "bytes": 149700,
+          "sha256": "1a50cc5fe6387e1d731e5f5572239467e3bd9c9379f8335a21246b84146bb7ee",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-018/diagrams/notion-v1/mobile/TB-018-D01-M02.webp",
+          "bytes": 80658,
+          "sha256": "8d8edb3c060e9d0f7271fa6f5b3d8f054c4ad3faa3aa160a1f25409f2368c3e1",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제17조제1항~제3항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제29조제1항~제4항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "9a110962a5925d161919952a05e01235753f7ee832c8d4eca9b945d5cef35601",
+      "script_sha256": "ae658eab0186763a0bb477a9d230347d3a1d2c4c26674a09166b6bb88ea1d38f"
+    },
+    {
+      "source_id": "TB-018-D02",
+      "lesson": 18,
+      "page": 1,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-018/diagrams/notion-v1/mobile/TB-018-D02-M01.svg",
+          "bytes": 4331,
+          "sha256": "a908ca8ea974d8296598d13d39c2d57723c9ab8809fcc9878c17e304f7d45030",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-018/diagrams/notion-v1/mobile/TB-018-D02-M01.png",
+          "bytes": 139208,
+          "sha256": "3b5ea25efbfe9e2ea0ec05f6add7d8f419a9f0e6f7584deb4f536700b5be64cc",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-018/diagrams/notion-v1/mobile/TB-018-D02-M01.webp",
+          "bytes": 72928,
+          "sha256": "ae78052f4b861cce9442005cd0d0d5033960e6aae56c318081eca61d561bdaaf",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제17조제2항·제3항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제28조제1호~제9호, 제30조제1항~제3항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "66b13a9a021841fb73691582a7fab03d22af5f4339a692c8bce9b084180259e4",
+      "script_sha256": "ae658eab0186763a0bb477a9d230347d3a1d2c4c26674a09166b6bb88ea1d38f"
+    },
+    {
+      "source_id": "TB-018-D02",
+      "lesson": 18,
+      "page": 2,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-018/diagrams/notion-v1/mobile/TB-018-D02-M02.svg",
+          "bytes": 3200,
+          "sha256": "667729b5e4882467cd89b6b38daa984e2186d648b3863714eb09a0a3c0c099d9",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-018/diagrams/notion-v1/mobile/TB-018-D02-M02.png",
+          "bytes": 112813,
+          "sha256": "cd20af79dbc80b299db442b6c55bb064f4e2e7d468133f1a08cd0d0daabf3d41",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-018/diagrams/notion-v1/mobile/TB-018-D02-M02.webp",
+          "bytes": 61896,
+          "sha256": "8fbc83aa0902c4951a8faae1ec809c2786fead6f0d6e5d7665098b8a2341b081",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제17조제2항·제3항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제28조제1호~제9호, 제30조제1항~제3항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "66b13a9a021841fb73691582a7fab03d22af5f4339a692c8bce9b084180259e4",
+      "script_sha256": "ae658eab0186763a0bb477a9d230347d3a1d2c4c26674a09166b6bb88ea1d38f"
+    },
+    {
+      "source_id": "TB-018-D02",
+      "lesson": 18,
+      "page": 3,
+      "page_count": 3,
+      "files": {
+        "svg": {
+          "path": "integrated-defense/lesson-018/diagrams/notion-v1/mobile/TB-018-D02-M03.svg",
+          "bytes": 3243,
+          "sha256": "f593b0ca8d4e57121d17a45f3104b0df51f07922d11eb774d23d84e5e64fad8d",
+          "width": 1080,
+          "height": 1800
+        },
+        "png": {
+          "path": "integrated-defense/lesson-018/diagrams/notion-v1/mobile/TB-018-D02-M03.png",
+          "bytes": 123335,
+          "sha256": "a1a13cd05beb02746f414b2828288d05eab7676b00a7f1736caaf5bf636ac9d4",
+          "width": 1080,
+          "height": 1800
+        },
+        "webp": {
+          "path": "integrated-defense/lesson-018/diagrams/notion-v1/mobile/TB-018-D02-M03.webp",
+          "bytes": 67398,
+          "sha256": "6ebe17e0a7f983e4f1e6711026c4eb98858e30eb9fd0ea295066a75649a900ca",
+          "width": 1080,
+          "height": 1800
+        }
+      },
+      "sources": [
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20251001&lsiSeq=276315",
+          "basis": "통합방위법 제17조제2항·제3항"
+        },
+        {
+          "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290507",
+          "basis": "통합방위법 시행령 제28조제1호~제9호, 제30조제1항~제3항"
+        }
+      ],
+      "qa": {
+        "text_bounds": true,
+        "no_text_overlap": true,
+        "min_body_px_at_390": 15.166666666666666
+      },
+      "exam_number": 80,
+      "diagram_content_sha256": "66b13a9a021841fb73691582a7fab03d22af5f4339a692c8bce9b084180259e4",
+      "script_sha256": "ae658eab0186763a0bb477a9d230347d3a1d2c4c26674a09166b6bb88ea1d38f"
+    }
+  ]
+}
