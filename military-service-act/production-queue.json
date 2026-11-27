@@ -88,7 +88,17 @@
     "parallelism": "maximum_actual_available",
     "worker_limit": "현재 런타임에서 실제로 허용되는 가용 슬롯 수",
     "coordinator": "single_writer",
-    "coordinator_lease": null,
+    "coordinator_lease": {
+      "lease_id": "exam80-g2-ms048-049-20261128-0143",
+      "generation": 2,
+      "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+      "acquired_at": "2026-11-28T01:43:33+09:00",
+      "expires_at": "2026-11-28T03:00:00+09:00",
+      "lecture_ids": [
+        "MS-048",
+        "MS-049"
+      ]
+    },
     "priority_lectures": [
       "MS-077",
       "MS-094",
@@ -1403,7 +1413,7 @@
       "title": "병역법 제31조의4, 사회복무요원의 성실의무",
       "priority": 2,
       "generation": 2,
-      "status": "pending",
+      "status": "ready_to_publish",
       "script_alignment_status": "script_alignment_pending",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_31의4.txt",
@@ -1413,7 +1423,18 @@
         "MS-048-D01-editorial-v1"
       ],
       "full_script_read": false,
-      "lease": null,
+      "lease": {
+        "lease_id": "exam80-g2-ms048-049-20261128-0143",
+        "generation": 2,
+        "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+        "acquired_at": "2026-11-28T01:43:33+09:00",
+        "expires_at": "2026-11-28T03:00:00+09:00",
+        "lecture_ids": [
+          "MS-048",
+          "MS-049"
+        ],
+        "lecture_id": "MS-048"
+      },
       "checkpoint": 0,
       "evidence_refs": [],
       "outcome": null,
@@ -1426,7 +1447,7 @@
       "title": "병역법 제31조의5, 복무기관 내 괴롭힘의 금지",
       "priority": 2,
       "generation": 2,
-      "status": "pending",
+      "status": "ready_to_publish",
       "script_alignment_status": "script_alignment_pending",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_31의5.txt",
@@ -1436,7 +1457,18 @@
         "MS-049-D01-editorial-v1"
       ],
       "full_script_read": false,
-      "lease": null,
+      "lease": {
+        "lease_id": "exam80-g2-ms048-049-20261128-0143",
+        "generation": 2,
+        "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+        "acquired_at": "2026-11-28T01:43:33+09:00",
+        "expires_at": "2026-11-28T03:00:00+09:00",
+        "lecture_ids": [
+          "MS-048",
+          "MS-049"
+        ],
+        "lecture_id": "MS-049"
+      },
       "checkpoint": 0,
       "evidence_refs": [],
       "outcome": null,
