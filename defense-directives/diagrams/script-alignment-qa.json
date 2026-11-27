@@ -6,7 +6,7 @@
     "cutoff_date": "2027-02-02",
     "cutoff_kind": "existing_user_specified_exam80_basis"
   },
-  "checked_at": "2026-11-27T20:30:00+09:00",
+  "checked_at": "2026-11-27T22:29:06+09:00",
   "source_commit": "2d696ecb8a2805b0bc42df8ce5754ae91914371d",
   "script_bindings_verified": 78,
   "diagram_corrections": [
@@ -75,8 +75,8 @@
       "full_lesson_coverage_review": "pending"
     }
   ],
-  "full_lecture_coverage_reviews_completed": 32,
-  "remaining_full_lecture_reviews": 46,
+  "full_lecture_coverage_reviews_completed": 33,
+  "remaining_full_lecture_reviews": 45,
   "new_diagrams": 30,
   "revised_diagrams": 49,
   "priority_script_comparison": {
@@ -422,7 +422,7 @@
       "DR-045-existing-script-arrears-rates"
     ]
   },
-  "visual_review": "이번 변경 PNG 14장 직접 확인: 겹침·잘림·누락 없음; manifest 및 렌더 검증 확인",
+  "visual_review": "실제 PNG 17장 직접 확인: 글자 깨짐·겹침·잘림 없음. 기존 렌더 검증의 PNG/WebP 픽셀 일치와 manifest 출력 해시 대조. 내용 정밀 수정 3건 별도 등록.",
   "targeted_render_runs": [
     {
       "run_id": "dr-20261127-122552",
@@ -16643,7 +16643,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-002/diagrams/DR-002-D01-editorial-v1.svg",
@@ -16858,7 +16858,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-002/diagrams/DR-002-D03-editorial-v1.svg",
@@ -17109,7 +17109,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-002/diagrams/DR-002-D04-editorial-v1.svg",
@@ -17324,7 +17324,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-002/diagrams/DR-002-D05-editorial-v1.svg",
@@ -17549,7 +17549,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-009/diagrams/DR-009-D06-editorial-v1.svg",
@@ -17753,7 +17753,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-009/diagrams/DR-009-D07-editorial-v1.svg",
@@ -17984,7 +17984,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-009/diagrams/DR-009-D08-editorial-v1.svg",
@@ -18208,7 +18208,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-009/diagrams/DR-009-D09-editorial-v1.svg",
@@ -18407,7 +18407,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-067/diagrams/DR-067-D01-editorial-v1.svg",
@@ -18600,7 +18600,7 @@
             {
               "text": "처리",
               "x": 1034,
-              "y": 720.0,
+              "y": 720,
               "width": 66,
               "height": 35,
               "fontSize": 36,
@@ -18678,7 +18678,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-067/diagrams/DR-067-D04-editorial-v1.svg",
@@ -18781,7 +18781,7 @@
             {
               "text": "일시귀국",
               "x": 144,
-              "y": 689.0,
+              "y": 689,
               "width": 85,
               "height": 23,
               "fontSize": 23,
@@ -18790,7 +18790,7 @@
             {
               "text": "국내 체류가 14일 이내면 국외기간 합산",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 585,
               "height": 35,
               "fontSize": 36,
@@ -18939,7 +18939,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-067/diagrams/DR-067-D06-editorial-v1.svg",
@@ -19173,7 +19173,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-067/diagrams/DR-067-D07-editorial-v1.svg",
@@ -19389,7 +19389,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-067/diagrams/DR-067-D08-editorial-v1.svg",
@@ -19616,7 +19616,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-076/diagrams/DR-076-D02-editorial-v1.svg",
@@ -19842,7 +19842,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-076/diagrams/DR-076-D03-editorial-v1.svg",
@@ -20079,7 +20079,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-063/diagrams/DR-063-D01-editorial-v1.svg",
@@ -20332,7 +20332,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-021/diagrams/DR-021-D01-editorial-v1.svg",
@@ -20453,7 +20453,7 @@
             {
               "text": "대책 협조",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 143,
               "height": 34,
               "fontSize": 36,
@@ -20587,7 +20587,8 @@
             }
           ]
         }
-      ]
+      ],
+      "visual_review": "passed"
     }
   ],
   "script_conflicts": [
@@ -20794,6 +20795,85 @@
       ],
       "render_commit": "3a02c0ceb809c8d92a3d5f61baae03cdc8b44eb8",
       "remaining_reviews": 46
+    },
+    {
+      "run_id": "dr-20261127-222906-script",
+      "completed_lessons": [
+        "DR-063"
+      ],
+      "visual_reviewed": [
+        "DR-002-D01",
+        "DR-002-D03",
+        "DR-002-D04",
+        "DR-002-D05",
+        "DR-009-D06",
+        "DR-009-D07",
+        "DR-009-D08",
+        "DR-009-D09",
+        "DR-067-D01",
+        "DR-067-D04",
+        "DR-067-D06",
+        "DR-067-D07",
+        "DR-067-D08",
+        "DR-076-D02",
+        "DR-076-D03",
+        "DR-063-D01",
+        "DR-021-D01"
+      ],
+      "render_commit": "a2e22e8e0620b233a913131abfcf897b8cd8ebd3",
+      "remaining_reviews": 45,
+      "partial_reviews": [
+        "DR-002",
+        "DR-009",
+        "DR-067",
+        "DR-021",
+        "DR-076"
+      ],
+      "precision_followups": [
+        {
+          "lesson_id": "DR-021",
+          "diagram_id": "DR-021-D01",
+          "lines": [
+            19,
+            47,
+            58,
+            166,
+            168
+          ],
+          "objective": "필요시 지시 및 추가 편성 대상자·대상지역·필요사항의 시험 핵심 표현",
+          "finding": "도식에 필요시가 없고 공고 대상을 축약하여 원고의 명시적인 낱말 구분을 보존하지 못함",
+          "change": "국방부장관 항목에 필요시 추가 편성 지시, 각주에 추가 편성 대상자·대상지역·필요사항 명시"
+        },
+        {
+          "lesson_id": "DR-076",
+          "diagram_id": "DR-076-D03",
+          "lines": [
+            126,
+            130,
+            155
+          ],
+          "objective": "가산금과 중가산금의 명칭 및 기산",
+          "finding": "최초·매월 수치는 맞으나 매월 항목이 가산금으로만 묶여 원고의 중가산금 구분 누락",
+          "change": "최초 가산금 / 매월 중가산금으로 명칭 구분"
+        },
+        {
+          "lesson_id": "DR-076",
+          "diagram_id": "DR-076-D01",
+          "lines": [
+            19,
+            58,
+            68,
+            82,
+            96,
+            148,
+            150,
+            151
+          ],
+          "objective": "위반 근거와 산정 주체·절차의 명확한 구분",
+          "finding": "제1항의 위반 조문 및 제2항 금액 산정 주체가 명시되지 않음",
+          "change": "예비군법 제6조의2제4항·제10조의2 위반과 수임군부대장 산정 주체 명시"
+        }
+      ]
     }
   ]
 }
