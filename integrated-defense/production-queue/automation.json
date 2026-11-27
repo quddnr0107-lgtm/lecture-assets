@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "title": "통합방위법 도식 계속 제작",
+  "requested_interval_hours": 1,
+  "timezone": "Asia/Seoul",
+  "status": "not_scheduled",
+  "reason": "scheduling_capacity_unavailable",
+  "automation_id": null,
+  "updated_at_kst": "2026-11-27T10:28:29+09:00",
+  "request": "automation-request.json",
+  "note": "예약 생성 성공 확인 전에는 실행 중으로 표시하지 않는다."
+}
