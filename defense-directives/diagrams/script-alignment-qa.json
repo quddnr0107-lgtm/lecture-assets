@@ -6,7 +6,7 @@
     "cutoff_date": "2027-02-02",
     "cutoff_kind": "existing_user_specified_exam80_basis"
   },
-  "checked_at": "2026-11-27T11:59:19+09:00",
+  "checked_at": "2026-11-27T14:25:00+09:00",
   "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
   "script_bindings_verified": 78,
   "diagram_corrections": [
@@ -78,7 +78,7 @@
   "full_lecture_coverage_reviews_completed": 4,
   "remaining_full_lecture_reviews": 74,
   "new_diagrams": 6,
-  "revised_diagrams": 3,
+  "revised_diagrams": 8,
   "priority_script_comparison": {
     "schema_version": 1,
     "created_at": "2026-11-27T11:59:01+09:00",
@@ -422,15 +422,7 @@
       "DR-045-existing-script-arrears-rates"
     ]
   },
-  "visual_review": {
-    "diagrams": [
-      "DR-036-D01",
-      "DR-041-D01",
-      "DR-060-D06"
-    ],
-    "result": "passed",
-    "overlap_or_clipping_observed": false
-  },
+  "visual_review": "8 published PNGs from recovery batch individually viewed and passed.",
   "targeted_render_runs": [
     {
       "run_id": "dr-20261127-122552",
@@ -1111,7 +1103,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published PNG visually checked; no clipping, overlap, missing glyphs or numerical mismatch; lossless pixel equality verified by workflow.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-001/diagrams/DR-001-D01-editorial-v1.svg",
@@ -1301,7 +1293,9 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "png_git_blob": "4021f9da4efa17dafd254e05beda6bdecbeaa616",
+          "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625"
         },
         {
           "id": "DR-060-D02",
@@ -1315,7 +1309,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published PNG visually checked; no clipping, overlap, missing glyphs or numerical mismatch; lossless pixel equality verified by workflow.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-060/diagrams/DR-060-D02-editorial-v1.svg",
@@ -1559,7 +1553,9 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "png_git_blob": "21c76388048982f1284832b3dab86895c96a5382",
+          "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625"
         },
         {
           "id": "DR-060-D03",
@@ -1576,7 +1572,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published PNG visually checked; no clipping, overlap, missing glyphs or numerical mismatch; lossless pixel equality verified by workflow.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-060/diagrams/DR-060-D03-editorial-v1.svg",
@@ -1811,7 +1807,9 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "png_git_blob": "08ec415f2b39ee554d828c5b57a4741263fcc7e4",
+          "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625"
         },
         {
           "id": "DR-060-D06",
@@ -1825,7 +1823,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published PNG visually checked; no clipping, overlap, missing glyphs or numerical mismatch; lossless pixel equality verified by workflow.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-060/diagrams/DR-060-D06-editorial-v1.svg",
@@ -2015,7 +2013,9 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "png_git_blob": "9e22c5f3904db54ed792faddc0d0befea73569db",
+          "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625"
         },
         {
           "id": "DR-060-D07",
@@ -2035,7 +2035,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published PNG visually checked; no clipping, overlap, missing glyphs or numerical mismatch; lossless pixel equality verified by workflow.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-060/diagrams/DR-060-D07-editorial-v1.svg",
@@ -2261,7 +2261,9 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "png_git_blob": "cd54006203e7a9c457e0db2fddccb913aab5f58f",
+          "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625"
         },
         {
           "id": "DR-078-D02",
@@ -2278,7 +2280,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published PNG visually checked; no clipping, overlap, missing glyphs or numerical mismatch; lossless pixel equality verified by workflow.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-078/diagrams/DR-078-D02-editorial-v1.svg",
@@ -2504,7 +2506,9 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "png_git_blob": "9d04ea564612df929164fdbff2bdb3eeace76795",
+          "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625"
         },
         {
           "id": "DR-078-D05",
@@ -2523,7 +2527,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published PNG visually checked; no clipping, overlap, missing glyphs or numerical mismatch; lossless pixel equality verified by workflow.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-078/diagrams/DR-078-D05-editorial-v1.svg",
@@ -2740,7 +2744,9 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "png_git_blob": "068e13c02acbd6fa3c9e6e9ac770f86202b02958",
+          "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625"
         },
         {
           "id": "DR-078-D06",
@@ -2757,7 +2763,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "Published PNG visually checked; no clipping, overlap, missing glyphs or numerical mismatch; lossless pixel equality verified by workflow.",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-078/diagrams/DR-078-D06-editorial-v1.svg",
@@ -2983,7 +2989,9 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "png_git_blob": "c99a8972b999d7ee1ca52a8b995202ef06a79991",
+          "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625"
         }
       ]
     }

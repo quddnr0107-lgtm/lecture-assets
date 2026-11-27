@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-27T14:22:19+09:00",
+  "updated_at": "2026-11-27T14:25:00+09:00",
   "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
     "status": "files_completed",
@@ -68,11 +68,11 @@
   "state": {
     "active_run": null,
     "last_successful_run": {
-      "id": "dr-20261127-122552",
-      "render_commit": "1461f9684813c17ac8c3ff2a21d782170e3e2c37",
+      "id": "dr-20261127-142219-recovery",
+      "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625",
       "new_diagrams": 3,
-      "revised_diagrams": 0,
-      "completed_reviews": 4,
+      "revised_diagrams": 5,
+      "completed_reviews": 0,
       "visual_qa": "passed"
     },
     "coverage_reviews_total": 78,
@@ -80,7 +80,7 @@
     "coverage_reviews_completed": 4,
     "confirmed_production_jobs": 11,
     "diagrams_added_after_baseline": 6,
-    "diagrams_revised_after_baseline": 3,
+    "diagrams_revised_after_baseline": 8,
     "script_bindings_verified": 78,
     "last_correction": {
       "updated_at": "2026-11-27T11:59:19+09:00",
@@ -94,8 +94,8 @@
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
     "production_jobs_queued": 0,
-    "production_jobs_qa": 8,
-    "production_jobs_completed": 3
+    "production_jobs_qa": 0,
+    "production_jobs_completed": 11
   },
   "jobs": [
     {
@@ -2621,7 +2621,7 @@
       ],
       "script_ref": "DR-001",
       "design_version": "editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-001/diagrams/DR-001-D01-editorial-v1.svg",
@@ -2659,7 +2659,10 @@
       "diagram_id": "DR-001-D01",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "Published PNG visually checked; no clipping, overlap, missing glyphs or numerical mismatch; lossless pixel equality verified by workflow.",
+      "completed_at": "2026-11-27T14:25:00+09:00",
+      "png_git_blob": "4021f9da4efa17dafd254e05beda6bdecbeaa616",
+      "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625"
     },
     {
       "id": "DR-060-exam80-D02-revision",
@@ -2675,7 +2678,7 @@
       ],
       "script_ref": "DR-060",
       "design_version": "editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-060/diagrams/DR-060-D02-editorial-v1.svg",
@@ -2709,7 +2712,10 @@
       "diagram_id": "DR-060-D02",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "Published PNG visually checked; no clipping, overlap, missing glyphs or numerical mismatch; lossless pixel equality verified by workflow.",
+      "completed_at": "2026-11-27T14:25:00+09:00",
+      "png_git_blob": "21c76388048982f1284832b3dab86895c96a5382",
+      "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625"
     },
     {
       "id": "DR-060-exam80-D03-revision",
@@ -2725,7 +2731,7 @@
       ],
       "script_ref": "DR-060",
       "design_version": "editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-060/diagrams/DR-060-D03-editorial-v1.svg",
@@ -2762,7 +2768,10 @@
       "diagram_id": "DR-060-D03",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "Published PNG visually checked; no clipping, overlap, missing glyphs or numerical mismatch; lossless pixel equality verified by workflow.",
+      "completed_at": "2026-11-27T14:25:00+09:00",
+      "png_git_blob": "08ec415f2b39ee554d828c5b57a4741263fcc7e4",
+      "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625"
     },
     {
       "id": "DR-060-exam80-D06-revision",
@@ -2777,7 +2786,7 @@
       ],
       "script_ref": "DR-060",
       "design_version": "editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-060/diagrams/DR-060-D06-editorial-v1.svg",
@@ -2811,7 +2820,10 @@
       "diagram_id": "DR-060-D06",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "Published PNG visually checked; no clipping, overlap, missing glyphs or numerical mismatch; lossless pixel equality verified by workflow.",
+      "completed_at": "2026-11-27T14:25:00+09:00",
+      "png_git_blob": "9e22c5f3904db54ed792faddc0d0befea73569db",
+      "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625"
     },
     {
       "id": "DR-060-exam80-supplement-4-new",
@@ -2827,7 +2839,7 @@
       ],
       "script_ref": "DR-060",
       "design_version": "editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-060/diagrams/DR-060-D07-editorial-v1.svg",
@@ -2867,7 +2879,10 @@
       "diagram_id": "DR-060-D07",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "Published PNG visually checked; no clipping, overlap, missing glyphs or numerical mismatch; lossless pixel equality verified by workflow.",
+      "completed_at": "2026-11-27T14:25:00+09:00",
+      "png_git_blob": "cd54006203e7a9c457e0db2fddccb913aab5f58f",
+      "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625"
     },
     {
       "id": "DR-078-exam80-D02-revision",
@@ -2883,7 +2898,7 @@
       ],
       "script_ref": "DR-078",
       "design_version": "editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-078/diagrams/DR-078-D02-editorial-v1.svg",
@@ -2920,7 +2935,10 @@
       "diagram_id": "DR-078-D02",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "Published PNG visually checked; no clipping, overlap, missing glyphs or numerical mismatch; lossless pixel equality verified by workflow.",
+      "completed_at": "2026-11-27T14:25:00+09:00",
+      "png_git_blob": "9d04ea564612df929164fdbff2bdb3eeace76795",
+      "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625"
     },
     {
       "id": "DR-078-exam80-supplement-6-new",
@@ -2936,7 +2954,7 @@
       ],
       "script_ref": "DR-078",
       "design_version": "editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-078/diagrams/DR-078-D05-editorial-v1.svg",
@@ -2975,7 +2993,10 @@
       "diagram_id": "DR-078-D05",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "Published PNG visually checked; no clipping, overlap, missing glyphs or numerical mismatch; lossless pixel equality verified by workflow.",
+      "completed_at": "2026-11-27T14:25:00+09:00",
+      "png_git_blob": "068e13c02acbd6fa3c9e6e9ac770f86202b02958",
+      "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625"
     },
     {
       "id": "DR-078-exam80-supplement-7-new",
@@ -2991,7 +3012,7 @@
       ],
       "script_ref": "DR-078",
       "design_version": "editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-078/diagrams/DR-078-D06-editorial-v1.svg",
@@ -3028,7 +3049,10 @@
       "diagram_id": "DR-078-D06",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "Published PNG visually checked; no clipping, overlap, missing glyphs or numerical mismatch; lossless pixel equality verified by workflow.",
+      "completed_at": "2026-11-27T14:25:00+09:00",
+      "png_git_blob": "c99a8972b999d7ee1ca52a8b995202ef06a79991",
+      "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625"
     }
   ],
   "runs": [
@@ -3067,7 +3091,7 @@
     },
     {
       "id": "dr-20261127-142219-recovery",
-      "status": "rendered_pending_visual_qa",
+      "status": "completed",
       "new_diagrams": 3,
       "revised_diagrams": 5,
       "completed_reviews": 0,
@@ -3080,7 +3104,12 @@
         "DR-078-D02",
         "DR-078-D05",
         "DR-078-D06"
-      ]
+      ],
+      "render_commit": "f38e64d6422ce7d615283a36ba44e943f9c97625",
+      "workflow_run_id": 45945464449,
+      "visual_qa": "passed",
+      "remaining_reviews": 74,
+      "remaining_production": 0
     }
   ],
   "exam": {
