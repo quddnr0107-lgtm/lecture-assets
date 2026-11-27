@@ -1,6 +1,6 @@
 # DR-062 · 예비군 교육훈련 훈령 제18조, 훈련 후 행정처리
 
-도식 **10장** · 1600 × 1120 · 흑백 편집형 디자인
+도식 **11장** · 1600 × 1120 · 흑백 편집형 디자인
 
 [훈령 전체 목록](../../README.md) · [전체 매니페스트](../../diagrams-manifest.json)
 
@@ -90,6 +90,15 @@
 [WebP](DR-062-D10-editorial-v1.webp) · [PNG](DR-062-D10-editorial-v1.png) · [SVG 원본](DR-062-D10-editorial-v1.svg)
 
 ![간부·공군 입영훈련 처리](DR-062-D10-editorial-v1.webp)
+
+근거: [교육훈련 훈령 제18조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J18-0:0) · 국방부훈령 제3216호
+
+
+## DR-062-D11 · 인도인접과 전입자 훈련 처리
+
+[WebP](DR-062-D11-editorial-v1.webp) · [PNG](DR-062-D11-editorial-v1.png) · [SVG 원본](DR-062-D11-editorial-v1.svg)
+
+![인도인접과 전입자 훈련 처리](DR-062-D11-editorial-v1.webp)
 
 근거: [교육훈련 훈령 제18조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J18-0:0) · 국방부훈령 제3216호
 

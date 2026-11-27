@@ -11,3 +11,4 @@
 ![교육훈련 훈령의 적용범위](DR-046-D01-editorial-v1.webp)
 
 근거: [교육훈련 훈령 제3조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J3-0:0) · 국방부훈령 제3216호
+

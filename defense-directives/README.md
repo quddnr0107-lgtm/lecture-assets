@@ -1,6 +1,6 @@
 # 훈령 강의 도식
 
-**78강 전체 · 201장**. 무한회독 강의용 도식입니다. 사용자가 선택한 흰 종이 바탕, 검은 글자, 얇은 구분선, 손으로 그은 괄호와 동그라미 디자인을 적용했습니다.
+**78강 전체 · 207장**. 무한회독 강의용 도식입니다. 사용자가 선택한 흰 종이 바탕, 검은 글자, 얇은 구분선, 손으로 그은 괄호와 동그라미 디자인을 적용했습니다.
 
 ## 바로 보기
 
@@ -15,9 +15,9 @@
 
 | 형식 | 용도 | 전체 용량 |
 |---|---|---:|
-| WEBP | 사이트·강의 화면 삽입 / 무손실 압축 | 8.44 MiB |
-| PNG | 영상 편집·발표 자료 삽입 | 27.76 MiB |
-| SVG | 확대·문구 편집용 벡터 원본 | 1.09 MiB |
+| WEBP | 사이트·강의 화면 삽입 / 무손실 압축 | 8.74 MiB |
+| PNG | 영상 편집·발표 자료 삽입 | 28.74 MiB |
+| SVG | 확대·문구 편집용 벡터 원본 | 1.12 MiB |
 
 모든 도식은 1600 × 1120 비율입니다. SVG의 지정 서체는 Noto Sans CJK KR이며, PNG·WebP에는 글자가 이미지로 고정되어 있습니다.
 
@@ -76,7 +76,7 @@
 | [DR-039](lesson-039/diagrams/) | 시설 | 2장 |
 | [DR-040](lesson-040/diagrams/) | 관리전환 | 1장 |
 | [DR-041](lesson-041/diagrams/) | 감시장비 등 | 1장 |
-| [DR-042](lesson-042/diagrams/) | 재검토 기한 | 1장 |
+| [DR-042](lesson-042/diagrams/) | 재검토 기한 | 3장 |
 | [DR-043](lesson-043/diagrams/) | 목적 | 1장 |
 | [DR-044](lesson-044/diagrams/) | 정의 | 3장 |
 | [DR-045](lesson-045/diagrams/) | 과태료 부과 서식 해설 | 4장 |
@@ -84,7 +84,7 @@
 | [DR-047](lesson-047/diagrams/) | 상비예비군 제도 | 2장 |
 | [DR-048](lesson-048/diagrams/) | 예비군훈련의 목적 | 1장 |
 | [DR-049](lesson-049/diagrams/) | 예비군훈련의 중점 | 2장 |
-| [DR-050](lesson-050/diagrams/) | 예비군훈련 체계 | 1장 |
+| [DR-050](lesson-050/diagrams/) | 예비군훈련 체계 | 3장 |
 | [DR-051](lesson-051/diagrams/) | 각 관의 임무 | 2장 |
 | [DR-052](lesson-052/diagrams/) | 훈련대상 및 시간 | 2장 |
 | [DR-053](lesson-053/diagrams/) | 훈련시기 | 1장 |
@@ -96,7 +96,7 @@
 | [DR-059](lesson-059/diagrams/) | 간부교육 | 2장 |
 | [DR-060](lesson-060/diagrams/) | 기타훈련 | 7장 |
 | [DR-061](lesson-061/diagrams/) | 훈련관리 | 2장 |
-| [DR-062](lesson-062/diagrams/) | 훈련 후 행정처리 | 10장 |
+| [DR-062](lesson-062/diagrams/) | 훈련 후 행정처리 | 11장 |
 | [DR-063](lesson-063/diagrams/) | 훈련일정 자율선택 | 1장 |
 | [DR-064](lesson-064/diagrams/) | 전국단위훈련 | 2장 |
 | [DR-065](lesson-065/diagrams/) | 휴일예비군훈련 | 2장 |
@@ -112,7 +112,7 @@
 | [DR-075](lesson-075/diagrams/) | 기타 | 3장 |
 | [DR-076](lesson-076/diagrams/) | 과태료 | 1장 |
 | [DR-077](lesson-077/diagrams/) | 재검토기한 | 1장 |
-| [DR-078](lesson-078/diagrams/) | 예비군훈련 보류의 해소와 관리 | 6장 |
+| [DR-078](lesson-078/diagrams/) | 예비군훈련 보류의 해소와 관리 | 7장 |
 
 ## 관리 자료
 
