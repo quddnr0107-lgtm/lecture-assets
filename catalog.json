@@ -1,6 +1,528 @@
 [
   {
     "subject": "defense-directives",
+    "lesson": 1,
+    "photo": "defense-directives/lesson-001/dr001-directive-purpose-briefing.webp",
+    "sha256": "c46d01cfe667fa22e22edae83f84fd61f29bf6755a277eb36b69d5d829e7f65d",
+    "bytes": 43656,
+    "gitBlob": "e87b496fb60756f2694cd4fe0d0e6555cf5c0c19",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 1,
+    "photo": "defense-directives/lesson-001/dr001-education-office-plans-school.webp",
+    "sha256": "de4c13c3918ddf3ef831997de63440eda828bf80b71448ca321f6a168b57206b",
+    "bytes": 49854,
+    "gitBlob": "076fbd16e888a724b3d18dfd8039323b40f45df4",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 1,
+    "photo": "defense-directives/lesson-001/dr001-teacher-takes-class-attendance.webp",
+    "sha256": "6b5bcb76ca60eb2cd4ab0fcd6ee17fe98de97b72d8583f3d0d07fe7f3823acfe",
+    "bytes": 49786,
+    "gitBlob": "5884111d138787acc4f973c5ca27a180fbabddec",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 2,
+    "photo": "defense-directives/lesson-002/dr002-apartment-guard-at-residential-entrance.webp",
+    "sha256": "44fe0c0c1ff4ab7ac17517c17da4537e33660572333d900bbcf2b4ffbd82bdd0",
+    "bytes": 49922,
+    "gitBlob": "1f083a5658deebd04f91688aa06d1087f1ab8c62",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 2,
+    "photo": "defense-directives/lesson-002/dr002-firefighter-boards-engine-for-dispatch.webp",
+    "sha256": "e44fa3774038afc9c51669957180b57e238d52f40096d7f17c0e42753278e120",
+    "bytes": 49474,
+    "gitBlob": "37025d00b4e6642c8aae4c729f8993c9e0dcebed",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 2,
+    "photo": "defense-directives/lesson-002/dr002-nonmember-volunteers-for-neighborhood-baseball.webp",
+    "sha256": "4b3f35c5bdfbe9afab0eebd27c824f2101fff8fbfe1ccdcd2daf512df692a70b",
+    "bytes": 49532,
+    "gitBlob": "abc261ee423416882c34b990eeb4f9da0fa3e73a",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 2,
+    "photo": "defense-directives/lesson-002/dr002-pe-teacher-assigns-selected-people-to-teams.webp",
+    "sha256": "026d34bda28b8f7e505fb1751dc88b6ac6c9a7d287a4df6a854016c68bbe6a35",
+    "bytes": 49118,
+    "gitBlob": "5c0f59c3b155b246423e3ffd883dae58f83bc5ee",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 2,
+    "photo": "defense-directives/lesson-002/dr002-school-issues-graduation-certificate.webp",
+    "sha256": "32f294138e42cc2e29000042d494e86f2766303302e9cd0c78ab7287a518ee54",
+    "bytes": 48240,
+    "gitBlob": "c40410e24995faf4e27f53155ea1d6bd8d527c83",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 2,
+    "photo": "defense-directives/lesson-002/dr002-teacher-selects-eligible-sports-roster.webp",
+    "sha256": "508264d3d695be57b17e6f0dbc5610dab2096f3d9a55794ad7f2d9b66dd07186",
+    "bytes": 48598,
+    "gitBlob": "a38a4f0b2d679eb2b401efce81b53e1a347ddde3",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 2,
+    "photo": "defense-directives/lesson-002/dr002-veteran-player-joins-separate-selected-team.webp",
+    "sha256": "b6194aeefadd41e3f106b89af5eddf380f88e2d4c343a675f0d7ab3ab00a5b39",
+    "bytes": 49738,
+    "gitBlob": "eb033b3e06eb1528d498ce4bfd976fbc4efb1fcc",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 2,
+    "photo": "defense-directives/lesson-002/dr002-workplace-guard-at-company-entrance.webp",
+    "sha256": "1d132fa1f7c309a725fda7d25af77a2a79587cf93bfbdbad5e563da7a7b8f7a9",
+    "bytes": 49310,
+    "gitBlob": "c0efd3385477a76132e47211f236f81da6c8532b",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 3,
+    "photo": "defense-directives/lesson-003/dr003-pool-snack-customer-stays-out-of-water.webp",
+    "sha256": "48323f8dab5a7144e532f9e4a4763bb8926b9e405a99f520308d1001b14cd329",
+    "bytes": 49496,
+    "gitBlob": "d0d898b580af240c170e1756679c79425c1ba9ba",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 3,
+    "photo": "defense-directives/lesson-003/dr003-scope-sorting.webp",
+    "sha256": "e1831c59a44a457ae04875ce1ab7fc9354c1bad17a4213c9cb00c97160151b94",
+    "bytes": 41022,
+    "gitBlob": "aac7b0cc8fe3c3df5c33931fb1e2a1242540473b",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 3,
+    "photo": "defense-directives/lesson-003/dr003-swimmer-puts-cap-before-entering-water.webp",
+    "sha256": "a0c36f8b33322db4b6c96d352d071e5170e4b1349c3febbee30eda17795ba3ac",
+    "bytes": 49772,
+    "gitBlob": "3d0a84789636210c9cd3c0fb8efd84bcaa9d8c0d",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 4,
+    "photo": "defense-directives/lesson-004/dr004-class-representative-holds-owned-football.webp",
+    "sha256": "f9acb7a85a54efc3e191a6905d6c48279b0312fbc4f53d44b4c44cc52bd66c10",
+    "bytes": 49890,
+    "gitBlob": "71641d73561da67e621a0079aa66e41aee3c8a99",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 4,
+    "photo": "defense-directives/lesson-004/dr004-class-representative-temporarily-lends-football.webp",
+    "sha256": "e16012d4110d50c9fc9aa3ee2e7a2bf528a5fc23338b2419bb2eaca13af398d5",
+    "bytes": 49116,
+    "gitBlob": "eaf6ddd25718477dd2766d3781ccccc99eeb0483",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 4,
+    "photo": "defense-directives/lesson-004/dr004-club-owner-appoints-baseball-manager.webp",
+    "sha256": "f22608bb5cd02df9cfbfb4a42005354f7e3043abf715856df38433e000520f9a",
+    "bytes": 49048,
+    "gitBlob": "80dd90118b3acf2559b831f919ddb31c4e3be5fc",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 4,
+    "photo": "defense-directives/lesson-004/dr004-coach-aligns-player-roster-with-school-office.webp",
+    "sha256": "31d9dc226436fc9f6441f71d6ce460156ee884ec36069172bba8eac0fbbdc779",
+    "bytes": 49852,
+    "gitBlob": "06b3a8e274672403514f9136fb0696a337326b9b",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 4,
+    "photo": "defense-directives/lesson-004/dr004-coach-coordinates-ground-use-with-town-office.webp",
+    "sha256": "13a8419a0dac41eb5e19283db41cde120870f8d80877e028afb613625025944e",
+    "bytes": 49976,
+    "gitBlob": "dad92d29439f63270e9e38152bca40de53564c8e",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 5,
+    "photo": "defense-directives/lesson-005/dr005-boundary-check-review.webp",
+    "sha256": "1eda0cacdd676dc61e758cef2453c1e14964d013d96f9e07c8ff0fce13ee0e19",
+    "bytes": 31622,
+    "gitBlob": "6791e39c747caa3aac0107fc37834bc62bf29402",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 5,
+    "photo": "defense-directives/lesson-005/dr005-neighbor-waters-entrusted-houseplant.webp",
+    "sha256": "1bd95dc2f993f6c287b83223a276b5d7cd0a5f89941e43a3be41252eaaf04ccc",
+    "bytes": 49504,
+    "gitBlob": "c759edf853233423c8578e4293563f159c21eba2",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 5,
+    "photo": "defense-directives/lesson-005/dr005-overlap-check-two-views.webp",
+    "sha256": "6377682bcca76ba5508065233983a0a4832ce1a3917eb3da566c3f00e8474808",
+    "bytes": 33328,
+    "gitBlob": "988be7f6d5b218e9556664f3d980bfe55b19749c",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 5,
+    "photo": "defense-directives/lesson-005/dr005-owner-inspects-houseplant-after-return.webp",
+    "sha256": "cc7db946b566993a984e9edb01c56a1463618786744b83e34b1de64b44dc4465",
+    "bytes": 49736,
+    "gitBlob": "147dba90fbcceda020c2efb69db2a608d34d96cd",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 5,
+    "photo": "defense-directives/lesson-005/dr005-role-matrix-matching.webp",
+    "sha256": "06bb5bbe2c42dd5493caef6cae5cb963f7137635b46a541022856facb16e6cc9",
+    "bytes": 27384,
+    "gitBlob": "6cc7d89d2bb4a76b8f4ed64b1be6fb67cd45b614",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 5,
+    "photo": "defense-directives/lesson-005/dr005-role-workflow-assignment.webp",
+    "sha256": "31e8efd26ac9c0a406516f691e4d04617196dad95a9c6570adf47d57d4bdcc8f",
+    "bytes": 48826,
+    "gitBlob": "9fa2e75d381c122766fc19c4eeb9e8b6a958fdcf",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 5,
+    "photo": "defense-directives/lesson-005/dr005-separate-outputs-contrast.webp",
+    "sha256": "4ddcb48d1857458691f7e507cbbd22832b76b50b3d0fef3bd5e5c9020e3bd06b",
+    "bytes": 46996,
+    "gitBlob": "549ac36488797b7fd3f46335d952f983ff20861c",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 6,
+    "photo": "defense-directives/lesson-006/dr006-clothing-shop-borrows-tailor-measuring-tape.webp",
+    "sha256": "6a0975766c5b4ba604c8aa202b6937fc0978295a90717c53773fa3744885bdff",
+    "bytes": 49584,
+    "gitBlob": "d65802233c4cbeda0995d3484c13e7fdca4b95c9",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 6,
+    "photo": "defense-directives/lesson-006/dr006-different-runners-receive-same-finish-medal.webp",
+    "sha256": "fea1f2faa056ae04e91e721e68f65618a84999af34f39628bed59b1ae94d3b08",
+    "bytes": 49608,
+    "gitBlob": "bcfe0c9f67b4ce81e2f33f14aac677c4685945fe",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 7,
+    "photo": "defense-directives/lesson-007/dr007-restaurant-owner-submits-opening-application.webp",
+    "sha256": "b7f370e161306ad120fc5dcda59062a66a4fc4cf576e71fb8c412776e3522946",
+    "bytes": 49728,
+    "gitBlob": "fb5fcf92772b680461715a0a64d4de45acbfacd5",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 7,
+    "photo": "defense-directives/lesson-007/dr007-year-head-carries-plan-to-principal.webp",
+    "sha256": "daf5bc808bdce5506208923761ebc3ff057f39bda12d56c03170a44cdff58b3e",
+    "bytes": 49784,
+    "gitBlob": "b53fdd830c7301bfed3c1a16d291aa3b8fa939e9",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 8,
+    "photo": "defense-directives/lesson-008/dr008-neighbor-coach-fills-missing-leader-role.webp",
+    "sha256": "4bee5e224838e57c136845b7455b205dce787bce330f8a8cb139db90b8940e0d",
+    "bytes": 49740,
+    "gitBlob": "036420ab502257d467842bea8df98b22f668d4d5",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 8,
+    "photo": "defense-directives/lesson-008/dr008-skilled-festival-volunteer-adjusts-audio-console.webp",
+    "sha256": "856861072f93363e49e825c59921c2138c5c3b1edac229396fea44119ce03abb",
+    "bytes": 49886,
+    "gitBlob": "e489a888d03b6a8f9b35d275ef97d8e310c61acb",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 9,
+    "photo": "defense-directives/lesson-009/dr-009-manuscript-civilian-analogy.webp",
+    "sha256": "9847769dfae0dc71e94a01bc9e17886dcfc4a058a33f853c485f0d20f1b8c7e3",
+    "bytes": 49042,
+    "gitBlob": "82687eb86dc9c7cb5883807f45ee451c04479d74",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 9,
+    "photo": "defense-directives/lesson-009/dr009-record-grouping.webp",
+    "sha256": "76c6c512e7f2ebd7ac262a514b511c9f89b7fd6b4e06e7237fd3c195e15308a2",
+    "bytes": 49122,
+    "gitBlob": "d97cd486473d8322710896d82ec5f6d1dd26953a",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 10,
+    "photo": "defense-directives/lesson-010/dr010-archive-v1.webp",
+    "sha256": "ed69aaddede51e9d83205322630866a00d454d5f05f5add191d377a112d79269",
+    "bytes": 33978,
+    "gitBlob": "840c3f2cdf2c4861843ff55df3b1e2d59c822771",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 10,
+    "photo": "defense-directives/lesson-010/dr010-new-group-first-meeting.webp",
+    "sha256": "06a5bc02e420434f3c2c8314e792478e1d0c6c2126bbe3cfd78a24e6d2a800fa",
+    "bytes": 46958,
+    "gitBlob": "cc4d98b1400074a27145c7a472441d4198dea791",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 11,
+    "photo": "defense-directives/lesson-011/dr-011-manuscript-civilian-analogy.webp",
+    "sha256": "d5bdf3ede5b869086901f0128a8145e32d31119bc938633221c2929b41cd6742",
+    "bytes": 49290,
+    "gitBlob": "58b3edf983c09d524a16aa2d99175999bcfe78d7",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 11,
+    "photo": "defense-directives/lesson-011/dr011-designation-exit-token.webp",
+    "sha256": "88d79a350da7097ed8f377b8b6ddbcf3702c90df9f3c8ac74ffc9e771f774699",
+    "bytes": 47408,
+    "gitBlob": "40c4565b451a63a60f56a23f01929cc91957999e",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 11,
+    "photo": "defense-directives/lesson-011/dr011-handoff-v1.webp",
+    "sha256": "92eff7ec3f6f4b7077e4a46cc04a3714c0f711cbeba254729cb067b1d736d768",
+    "bytes": 33420,
+    "gitBlob": "4b21d13907f4935f2ce0f0c12b66d00538de88fa",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 12,
+    "photo": "defense-directives/lesson-012/dr012-hiker-checks-summit-direction-arrow.webp",
+    "sha256": "8e6a03671e141fff3793bf377468acea7daede44f8b1cc5c4f8fb2258c92c2ff",
+    "bytes": 49730,
+    "gitBlob": "a163e44a449fa004d68482abfab21d33bd1b37e5",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 12,
+    "photo": "defense-directives/lesson-012/dr012-hiker-reads-todays-paper-route-map.webp",
+    "sha256": "bffcc8a3d08cc186178daa9745b04bd14a661ae57954826894708cc6ec5bd6fe",
+    "bytes": 49488,
+    "gitBlob": "a2b468d0197fb78a5eaa50c850e0b0cb9607a83c",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 12,
+    "photo": "defense-directives/lesson-012/dr012-planning-calendar-overhead.webp",
+    "sha256": "06c9103553400af65ed6cfeea7337444491d3a65fbd8f4d2340d8a4c6c8c6bbc",
+    "bytes": 45074,
+    "gitBlob": "a5ec7e8054f86d8e1e5428f342d5c32cbb705762",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 13,
+    "photo": "defense-directives/lesson-013/dr-013-manuscript-civilian-analogy.webp",
+    "sha256": "0b971c3b85ecdf3b36504c5348d91cd638e35bee6341699ab4ea0d4f5e5c914d",
+    "bytes": 49486,
+    "gitBlob": "dd6b554ef2512faa4ffe4f8f31aa1e91e1386116",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 13,
+    "photo": "defense-directives/lesson-013/dr013-organization-principles-separate-groups.webp",
+    "sha256": "271d53747642b11b24173b026e845075d0e6456d573caf62ffead36e913b0a2d",
+    "bytes": 47600,
+    "gitBlob": "d0ff00ed71cac269ac8ddf0974fd80a884b0410a",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 14,
+    "photo": "defense-directives/lesson-014/dr014-bank-worker-attends-evening-graduate-class.webp",
+    "sha256": "1642ae4508316bf9a66a6edeb11dc3effd8298451aa956f5ecdb97c7cbd3fea8",
+    "bytes": 49882,
+    "gitBlob": "af85a89a5966ff8a661e489fc5728b372bc41f0a",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 14,
+    "photo": "defense-directives/lesson-014/dr014-expired-student-discount-redirects-to-general-queue.webp",
+    "sha256": "3949b348bf231fc33e0fec3dca47dfaced40553ecdac7d4fe2620b0f215a4065",
+    "bytes": 49886,
+    "gitBlob": "1599bd22afad57713aaf6290699abd3d659f00d2",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 15,
+    "photo": "defense-directives/lesson-015/dr-015-manuscript-civilian-analogy.webp",
+    "sha256": "94ddf9c27bf81d002c36f519340e1a9d3def3cd8bbd31f7ecccadafef56691f6",
+    "bytes": 49642,
+    "gitBlob": "cb1903a1ec8ab4bf0d06bba8728fc507fa6fa105",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 15,
+    "photo": "defense-directives/lesson-015/dr015-closing-group-room.webp",
+    "sha256": "96774c9a0655aac1a858f11f96a938cde4c82a61115c36dd3d5d27e92a80b6ca",
+    "bytes": 34142,
+    "gitBlob": "7354f773db7be304596ae040f483aa1c1f48c866",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 16,
+    "photo": "defense-directives/lesson-016/dr-016-manuscript-civilian-analogy.webp",
+    "sha256": "85198f85d7ca7a4d7cefc662726868b1a605269a179b1450ad442450fde20e8e",
+    "bytes": 49568,
+    "gitBlob": "d79cae5926869b994f31e088d0367d937bf9a649",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 16,
+    "photo": "defense-directives/lesson-016/dr016-applicant-criteria-review.webp",
+    "sha256": "dde11b0c1b65acef0dfb8027ac8550d955dc73052d948caa99e6aaa8389bb42b",
+    "bytes": 46472,
+    "gitBlob": "be873d5dabf951d87621cd04215841a3b198afd9",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 16,
+    "photo": "defense-directives/lesson-016/dr016-information-desk-before-applying.webp",
+    "sha256": "6e6207a99cf04e2f3416cd48b23a7ad9595ed5334eb78a13039d1993bdd815cf",
+    "bytes": 49170,
+    "gitBlob": "dbde560e4975433b2fdfb7a5f3609b74d6e34e53",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 17,
+    "photo": "defense-directives/lesson-017/dr-017-manuscript-civilian-analogy.webp",
+    "sha256": "303b1cdf8ad6471c1b499721b6d1fee2f5195a888d4e7c3b3d44cbd2a2f8bef8",
+    "bytes": 49800,
+    "gitBlob": "a541f8d9e2e32f04488c88b059b6f3b9d4b01fe5",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 17,
+    "photo": "defense-directives/lesson-017/dr017-application-review.webp",
+    "sha256": "7193098d2d76cc8d3777c4462a8224de4ff0fd83fa3f0b73edbb5387289f658b",
+    "bytes": 38286,
+    "gitBlob": "280c7d94114aa55db83a4baed23a5aad4534456b",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 18,
+    "photo": "defense-directives/lesson-018/dr018-music-teacher-listens-to-choir-audition.webp",
+    "sha256": "ecb1e15d0762b6ff4110c1358d28495fd96e17fc18cd506011552486cedfbf80",
+    "bytes": 49334,
+    "gitBlob": "8be85e168c7018c6ce3ba08d07109e5a8df6ec46",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 18,
+    "photo": "defense-directives/lesson-018/dr018-women-reserve-orientation.webp",
+    "sha256": "0abfce1ffd9636f9cb05c01e372b7b5eff1f81d18c8c49696ce662883b4e9682",
+    "bytes": 40880,
+    "gitBlob": "028c7fbd72f02b1e24abfda53261190796d97070",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 19,
+    "photo": "defense-directives/lesson-019/dr019-couple-shows-refined-plan-to-parents.webp",
+    "sha256": "1d74378df565b9196534ca016d8d125fa526cb3dccd96ded3e2b18c0f6dcb410",
+    "bytes": 49586,
+    "gitBlob": "6c02d8b3261ca12f3780020f166a23a427f84e61",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 19,
+    "photo": "defense-directives/lesson-019/dr019-veteran-technicians-form-advisory-group.webp",
+    "sha256": "6c0144b7eb9f5d25b1ab30e2eceadf63696ab528d4fda15427daf19ad92e957a",
+    "bytes": 49426,
+    "gitBlob": "42a57ddc1e993ea2bd16c77b5a79f350eaab6980",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 19,
+    "photo": "defense-directives/lesson-019/dr019-wedding-planner-shows-plan-to-couple.webp",
+    "sha256": "ce6b673962c9baedce90c58e2b8735e59f334ebd4cacd665632d8aab1c44130b",
+    "bytes": 49432,
+    "gitBlob": "062ad718efb7212d110eedff8c51a00e3d9b6f2a",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
     "lesson": 20,
     "photo": "defense-directives/lesson-020/dr020-active-player-contrast.webp",
     "sha256": "c5cdfbea832ee6649d29cfdff0b2f6552e10a8ebe7c611b76e3809d4791d1146",
@@ -10,10 +532,28 @@
   {
     "subject": "defense-directives",
     "lesson": 20,
+    "photo": "defense-directives/lesson-020/dr020-additional-record-review.webp",
+    "sha256": "c31a2aeb92fc1312548707f07c2c0ffbf5403927fe7d5780aac0df8e214c01ef",
+    "bytes": 34722,
+    "gitBlob": "821065341ce60d120ca1ad1620d821eccf7527ed",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 20,
     "photo": "defense-directives/lesson-020/dr020-annual-pass.webp",
     "sha256": "39b9c3e406b2c82861fc5d2681ac4cb34478fcaad42abc0d8f8155428ab7956d",
     "bytes": 43946,
     "gitBlob": "fffa78ddba92472f68aa476ecb8d8c15a24c1539"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 20,
+    "photo": "defense-directives/lesson-020/dr020-coach-recalls-finished-players-from-locker-room.webp",
+    "sha256": "7bb0cc43d9a2ab69eb6743b1be7cc51b7326b0b3575f8f98933ab4ae409722e5",
+    "bytes": 49598,
+    "gitBlob": "8f6d06b49dc95620d4c3a7c010e247206cd31d54",
+    "reviewStatus": "archived"
   },
   {
     "subject": "defense-directives",
@@ -42,6 +582,24 @@
   {
     "subject": "defense-directives",
     "lesson": 21,
+    "photo": "defense-directives/lesson-021/dr021-adding-one-to-existing-group.webp",
+    "sha256": "59846a9a5206878ce98bd6d27878d2941226d37ce269271547d490717b7ed840",
+    "bytes": 48526,
+    "gitBlob": "0deff650c6e2abdefac7aa190c304bc6047df6cb",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 21,
+    "photo": "defense-directives/lesson-021/dr021-restaurant-opens-separate-group-seating-area.webp",
+    "sha256": "405f29b4f0871dd9ec2769523ef7d98bc6d54551cd9138475929fe8b597d374f",
+    "bytes": 48762,
+    "gitBlob": "c73a48479e782211a98c50f669f07d39a48dd480",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 21,
     "photo": "defense-directives/lesson-021/dr021-restaurant-waiter-adds-two-chairs.webp",
     "sha256": "640d78c06fcdf1fc212793f7d8be99c8096ad2081c9e48cc7dbfb1f532974e61",
     "bytes": 39670,
@@ -54,6 +612,15 @@
     "sha256": "62b1e02def67c9e3471cc9fb9f4b2a5631941ab8725ca02bf3d086b59355161d",
     "bytes": 47518,
     "gitBlob": "d74fc58fb8ae3343674419071d473124070c085a"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 21,
+    "photo": "defense-directives/lesson-021/dr021-school-office-prints-new-student-cards.webp",
+    "sha256": "fe62e20b60f7b9cfaf02f27368df963a7aaaba2fa17d527166bc3758537f1a4a",
+    "bytes": 48566,
+    "gitBlob": "240385e67c1cee2dc9921b929d3e12b81d2970da",
+    "reviewStatus": "archived"
   },
   {
     "subject": "defense-directives",
@@ -90,6 +657,15 @@
   {
     "subject": "defense-directives",
     "lesson": 22,
+    "photo": "defense-directives/lesson-022/dr-022-manuscript-civilian-analogy.webp",
+    "sha256": "d2dc9cca2fe6a8c8460b1176c92f0c483096c272dc7d0cdaeb5d621802e69aa8",
+    "bytes": 49990,
+    "gitBlob": "015a6160212fa910f7bd33df5e2787b1a9e5ebb7",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 22,
     "photo": "defense-directives/lesson-022/dr022-courier-one-carton-dispatch.webp",
     "sha256": "5b8e85ab88fc8a4b52be01ad60cb80ecd5258e4ca3d4a5ddaaab52c698779511",
     "bytes": 45120,
@@ -102,6 +678,15 @@
     "sha256": "dcd3d39eed8980d22ec26099b42d9dc84b6c20a9546ee4947a76b49c7189493e",
     "bytes": 39466,
     "gitBlob": "020d2d54060029a547a730e1ce876a93f325f9d0"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 22,
+    "photo": "defense-directives/lesson-022/dr022-new-organization-setup.webp",
+    "sha256": "cadce47fc4d82e6ff8cce891dd24841d6fff0612cf1116f417f27a90b5952730",
+    "bytes": 37274,
+    "gitBlob": "66552b373581e80ada4abbbf165e02f2a7fa000c",
+    "reviewStatus": "candidate"
   },
   {
     "subject": "defense-directives",
@@ -138,6 +723,15 @@
   {
     "subject": "defense-directives",
     "lesson": 23,
+    "photo": "defense-directives/lesson-023/dr-023-manuscript-civilian-analogy.webp",
+    "sha256": "745315a4fe3132d6712e497d8fe7cdaebcdef321944bb3b823782426952c5ac4",
+    "bytes": 49786,
+    "gitBlob": "c551d5f85dafd93f38540f4c20ce7d86d1b8bf87",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 23,
     "photo": "defense-directives/lesson-023/dr023-local-shop-report-desk.webp",
     "sha256": "66edb072e274b84e46a3c3c9cdb7831f0ffbf3377dcfe2c38822aa31e0ad5d39",
     "bytes": 36046,
@@ -162,6 +756,15 @@
   {
     "subject": "defense-directives",
     "lesson": 23,
+    "photo": "defense-directives/lesson-023/dr023-update-record-tab.webp",
+    "sha256": "de2ac9859c0e1140b3694cb295e19a59c4befe6697608e88b4293b26aee13f88",
+    "bytes": 47052,
+    "gitBlob": "6c60e9649ce7f010254862e23aef3bf97d7781b6",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 23,
     "photo": "defense-directives/lesson-023/dr023-vacant-old-address.webp",
     "sha256": "aeba23ea25be5f3612e839c1c0755a891d0a04caeae38873d5c2f8521bcb1caf",
     "bytes": 37472,
@@ -174,6 +777,15 @@
     "sha256": "1be491e00aa1ded8755a17e043c8e02808671d6d4b23af8087897c1d1655d59f",
     "bytes": 38710,
     "gitBlob": "d59f00f7b5ed76d633665d044d97c1842756fa40"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 24,
+    "photo": "defense-directives/lesson-024/dr-024-manuscript-civilian-analogy.webp",
+    "sha256": "b4c05bf4339762ee99d8a1f86042ec03be1b95a4535be404039e2fd106c6f4a8",
+    "bytes": 49828,
+    "gitBlob": "341d416125314e5ad26ef4d3729af7b3ab6ec150",
+    "reviewStatus": "archived"
   },
   {
     "subject": "defense-directives",
@@ -194,6 +806,15 @@
   {
     "subject": "defense-directives",
     "lesson": 24,
+    "photo": "defense-directives/lesson-024/dr024-move-between-neighborhoods.webp",
+    "sha256": "c120121bab56e2d0d6e00c48b39dceeee24c968a15a3980207da38bcdb9d7d50",
+    "bytes": 48184,
+    "gitBlob": "1e87026254b88da2fd09d41fdd6b6974edf60801",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 24,
     "photo": "defense-directives/lesson-024/dr024-move-booking-ahead.webp",
     "sha256": "a8407da6fc5a39e72164e16762f4e99e9c3092b6a905a62c5e0272fec68805c7",
     "bytes": 49692,
@@ -206,6 +827,24 @@
     "sha256": "73cd40353946c1d4c46b2cc5132959e07028a7bcdb2428c77662ebde3147da88",
     "bytes": 42072,
     "gitBlob": "2f57ab81fcb1d1ca9fbea2f6fcfdf80fe1413388"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 24,
+    "photo": "defense-directives/lesson-024/dr024-transfer-record.webp",
+    "sha256": "d7d690a8cbf3bc91f1bc0fe7a8741e6d9a1ad1d3c4248cfae6e91c57738630fa",
+    "bytes": 45856,
+    "gitBlob": "28743aaf925e120322fa4b8cea4c30a037d6d566",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 25,
+    "photo": "defense-directives/lesson-025/dr-025-manuscript-civilian-analogy.webp",
+    "sha256": "3798fd63bcc948c00cc1268a1f0ce0173a4ddefa5511e9d956728afcc7024394",
+    "bytes": 49780,
+    "gitBlob": "acc5eb5f9c7227f1625e197194201141bae8ee19",
+    "reviewStatus": "archived"
   },
   {
     "subject": "defense-directives",
@@ -249,6 +888,24 @@
   },
   {
     "subject": "defense-directives",
+    "lesson": 25,
+    "photo": "defense-directives/lesson-025/dr025-service-period-comparison.webp",
+    "sha256": "684947058b559b7e0a363ef109fed6736552cc31f63ae55adf5018f3be5d3542",
+    "bytes": 34634,
+    "gitBlob": "d484d1ac4cf65cf2797181a1b5a1faa608fdf3b3",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 26,
+    "photo": "defense-directives/lesson-026/dr-026-manuscript-civilian-analogy.webp",
+    "sha256": "dc0f08fdc407ea476160340d359a6c47794dbe522928c0286b4cec32ce11da5b",
+    "bytes": 49714,
+    "gitBlob": "33a8384430eec09d5d652766752b73591ed6170e",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
     "lesson": 26,
     "photo": "defense-directives/lesson-026/dr026-orientation-checkin.webp",
     "sha256": "e3eecb01eb8b8d0391cf239ebc1cfc3960953b64f304f04f825343cf2cdbf4d2",
@@ -266,10 +923,37 @@
   {
     "subject": "defense-directives",
     "lesson": 26,
+    "photo": "defense-directives/lesson-026/dr026-promotion-review-packet.webp",
+    "sha256": "121eb41e658e435d4423bfaf46d189f187f5bce4e255fd2f0ea3ea32ad64ee94",
+    "bytes": 28572,
+    "gitBlob": "f963e11845600e4c3e83595e3616e8c1b42fa925",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 26,
     "photo": "defense-directives/lesson-026/dr026-scholarship-notice-board.webp",
     "sha256": "fb2dd9bb3a9d513224d042210c3cb4e4a473ecd8eb209a8e4f7a4fd1e502d64b",
     "bytes": 37848,
     "gitBlob": "e5be840a49d0ff8bafc0341e5b88b00ef0e0c8b1"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 27,
+    "photo": "defense-directives/lesson-027/dr-027-manuscript-civilian-analogy.webp",
+    "sha256": "318903c3004d41246530b0ced27ca8850811fa8c922de2bbade855843c6b05f5",
+    "bytes": 49312,
+    "gitBlob": "785dc17db1d219ea4602c152517407dcd5e0ec2b",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 27,
+    "photo": "defense-directives/lesson-027/dr027-deferment-file-separation.webp",
+    "sha256": "2b7c9064e796b6002b8d05724cff02b5d59abf1f8c75070e6cad1feb1812ab3b",
+    "bytes": 41978,
+    "gitBlob": "00845aeb0e760cb579eff10bcfde689262ab86ba",
+    "reviewStatus": "candidate"
   },
   {
     "subject": "defense-directives",
@@ -314,10 +998,37 @@
   {
     "subject": "defense-directives",
     "lesson": 28,
+    "photo": "defense-directives/lesson-028/dr028-school-office-stores-purchased-sports-supplies.webp",
+    "sha256": "d118aed947b7670fdfa6e03e4a56b40d0751595942c7e2ae1661c3c315ba54da",
+    "bytes": 49980,
+    "gitBlob": "8ba38650384e238b0063dab497d751812c9a84a9",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 28,
     "photo": "defense-directives/lesson-028/dr028-soccer-coach-sideline.webp",
     "sha256": "ed7376becf4d3e3d725863e2092143e42259d649468c65483756243ecdde7631",
     "bytes": 49064,
     "gitBlob": "9ecf0b4632c47031fdb702af2d4939e4cb15afff"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 28,
+    "photo": "defense-directives/lesson-028/dr028-sports-teacher-counts-needed-balls-and-ropes.webp",
+    "sha256": "3bc41b42d053c35d7c411e98b5eb38a2b34f98f102b73317530d985bc6dcc36f",
+    "bytes": 49460,
+    "gitBlob": "577a0ca6e63636e41e21df0f0e5c4ffbf2265c00",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 29,
+    "photo": "defense-directives/lesson-029/dr-029-manuscript-civilian-analogy.webp",
+    "sha256": "baaa8537ea5ad19ee8cd265f902bce99220a7f876215324a032da398a22cb36e",
+    "bytes": 49278,
+    "gitBlob": "1504322a0ddc489e65515413949151e740064813",
+    "reviewStatus": "archived"
   },
   {
     "subject": "defense-directives",
@@ -342,6 +1053,15 @@
     "sha256": "56dd884831865d43e6c86a96cc1780458ab50b7daa255d955d184a38235cd566",
     "bytes": 49804,
     "gitBlob": "315fae2fedaa5cd1eba1b4eb674e0279c3465dd0"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 30,
+    "photo": "defense-directives/lesson-030/dr030-shop-owner-opens-food-shop-between-duty-days.webp",
+    "sha256": "6f317a90d3a71434887f52c97b8abea110f056dbdc8c2d73cc9a2d9bd6bba6dc",
+    "bytes": 49672,
+    "gitBlob": "f384c004e2e8d4ec6675292da3f985a704c8dfab",
+    "reviewStatus": "archived"
   },
   {
     "subject": "defense-directives",
@@ -385,6 +1105,33 @@
   },
   {
     "subject": "defense-directives",
+    "lesson": 31,
+    "photo": "defense-directives/lesson-031/dr031-school-office-delivers-approved-snacks-to-field.webp",
+    "sha256": "02b6567a70b703066dc110cc0ff1618c2550271bbf1d5bc270c210f5d917c356",
+    "bytes": 49658,
+    "gitBlob": "ade68f1bed884de69c516602be5fe5f709fa0ded",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 32,
+    "photo": "defense-directives/lesson-032/dr032-administration-audit.webp",
+    "sha256": "a914bd6b157c99354d48a867a183f865364f8d97ccdc2c642cc1236fa3c96001",
+    "bytes": 39380,
+    "gitBlob": "69e3ca5289f54a68e5b94d7b0aa491a717370abc",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 32,
+    "photo": "defense-directives/lesson-032/dr032-class-teacher-checks-classroom-locker.webp",
+    "sha256": "162ab2ceaa87e683bfd25dc996975fd63f200ca5765f3021ba10b2e31ee270dc",
+    "bytes": 48046,
+    "gitBlob": "672fcd9763380ed96cb1ca78a012f28534513e4e",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
     "lesson": 32,
     "photo": "defense-directives/lesson-032/dr032-followup-measurement.webp",
     "sha256": "bcb85abe5afad0dce8903469b6b3cf19f4d92e51e98be03798e5cb481892043a",
@@ -402,6 +1149,15 @@
   {
     "subject": "defense-directives",
     "lesson": 32,
+    "photo": "defense-directives/lesson-032/dr032-old-receipts-discarded-from-home-drawer.webp",
+    "sha256": "735d272bc71ead21b6f3cb979845c6df14db341a437288eb8abd5f75fb95cd52",
+    "bytes": 49640,
+    "gitBlob": "f7e37d011f7b467e821abed36881e5189667cb93",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 32,
     "photo": "defense-directives/lesson-032/dr032-school-date-scope-notice.webp",
     "sha256": "330a60d8eabf6559cb6421cc23561f5627e870c01edd54908a329c05afcd0b1a",
     "bytes": 38480,
@@ -414,6 +1170,15 @@
     "sha256": "797f756e991b48f4141991cddaaf97676681c2d6065b4b56db32054ad421176f",
     "bytes": 46234,
     "gitBlob": "a63841f6ee16af2256f32bfbe6b39753afa2b2b7"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 33,
+    "photo": "defense-directives/lesson-033/dr-033-manuscript-civilian-analogy.webp",
+    "sha256": "329ce7c097a4276f7f1ac10c49e65e54ddd7f0f9fb6821827d3570fed9bcda88",
+    "bytes": 49436,
+    "gitBlob": "c9d287ac6a51a942bb8f26eda137d83899f961b0",
+    "reviewStatus": "archived"
   },
   {
     "subject": "defense-directives",
@@ -449,6 +1214,24 @@
   },
   {
     "subject": "defense-directives",
+    "lesson": 33,
+    "photo": "defense-directives/lesson-033/dr033-review-case-neutral.webp",
+    "sha256": "93b0b50623fb1372f8eb88d95ff73dcbe2f8e5ecfa77a61c0e634c199266f16d",
+    "bytes": 42442,
+    "gitBlob": "4464720b137e1c2de3a0c895284c0f5ae093189e",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 34,
+    "photo": "defense-directives/lesson-034/dr-034-manuscript-civilian-analogy.webp",
+    "sha256": "8519f45cd23b1a7af0a1654b4f7b12325fdf585076751e98c4265fc901177753",
+    "bytes": 49066,
+    "gitBlob": "d8e4e6f6fd658649ead8aa80faa1a00973cd81b3",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
     "lesson": 34,
     "photo": "defense-directives/lesson-034/dr034-city-package-at-front-door.webp",
     "sha256": "eebb5c62f515ff2fe4ad3eb677b99194b32852b4e639fb6b8809b1b64ee4c4f1",
@@ -466,6 +1249,15 @@
   {
     "subject": "defense-directives",
     "lesson": 34,
+    "photo": "defense-directives/lesson-034/dr034-office-supply-request.webp",
+    "sha256": "31834116ec97bef8e2f76ed913f03ed1fe80079fa8a8fcaebf9b44feaeab13fd",
+    "bytes": 43782,
+    "gitBlob": "d29f4000e484f03f3056cc5f77bd268d02468d71",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 34,
     "photo": "defense-directives/lesson-034/dr034-separate-reference-sheet-replaced.webp",
     "sha256": "3eb026214f43b1b9b6d4356f1f7f2197d28a58c2db301d3d2ac0ae742cea970a",
     "bytes": 45106,
@@ -478,6 +1270,15 @@
     "sha256": "5cf332805e2be1bea5b5277177d0fc0f0a31a3d7138c8abf3de2418cbb0d893c",
     "bytes": 38314,
     "gitBlob": "544bd6d8f219d9bb83fe2592bf924676cc5ff1a9"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 35,
+    "photo": "defense-directives/lesson-035/dr035-airport-inspector-repacks-opened-suitcase.webp",
+    "sha256": "82ed6799c0c0eacee5b5fb36d849a4a6d66a825cfccc0116805e18b88fd67a7e",
+    "bytes": 49610,
+    "gitBlob": "7d906f59dd547701e0be498aa45c4a60d704761b",
+    "reviewStatus": "archived"
   },
   {
     "subject": "defense-directives",
@@ -502,6 +1303,15 @@
     "sha256": "55495b4646ff00d8b13702d6e8098e8a4cbafc2c8e899f0a9f0ad64a3828839c",
     "bytes": 45646,
     "gitBlob": "fd1eb6ccbad5e819c7e22e8429060f7e1e31fca0"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 36,
+    "photo": "defense-directives/lesson-036/dr036-broken-phone-handed-to-repair-center.webp",
+    "sha256": "e9b854f955e4d67f9ecf902c454c6b764f11ea2c7421d5c2b56d899353977423",
+    "bytes": 49952,
+    "gitBlob": "805da1ad0d5185b823467d803d7c83a60cbdc9ca",
+    "reviewStatus": "archived"
   },
   {
     "subject": "defense-directives",
@@ -546,6 +1356,24 @@
   {
     "subject": "defense-directives",
     "lesson": 37,
+    "photo": "defense-directives/lesson-037/dr037-family-airs-owned-camping-tent.webp",
+    "sha256": "bedd1cdad0cd32381c4ac8b82b04dcb4f75687253cc33450dc7e3d3e7ec0a10c",
+    "bytes": 49480,
+    "gitBlob": "dca0a07356fb81ab3e583894ec93a23ebaf78771",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 37,
+    "photo": "defense-directives/lesson-037/dr037-family-reserves-large-rental-car-before-camping.webp",
+    "sha256": "9e49f1dfaee95eda57c842fb461b75a7088898083a290d7e897aa6164df564b9",
+    "bytes": 49368,
+    "gitBlob": "bcc8e64a1454e0c438806f2b5ed698ff6ff48b31",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 37,
     "photo": "defense-directives/lesson-037/dr037-school-office-books-fieldtrip-bus.webp",
     "sha256": "1bfab8eed37d44cea0b9fdf3efaf214848968bca9c81766a4f2d9f3bb6955cd3",
     "bytes": 42746,
@@ -562,6 +1390,42 @@
   {
     "subject": "defense-directives",
     "lesson": 38,
+    "photo": "defense-directives/lesson-038/dr038-clothing-size-check.webp",
+    "sha256": "1b0b7145a2804b55932f84e71937e6dce2c4710f31181fba2cddd51290b7b66a",
+    "bytes": 36550,
+    "gitBlob": "dba0bb5f21fc6fa53463cfe9614258581ed581fc",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 38,
+    "photo": "defense-directives/lesson-038/dr038-firefighter-practices-putting-on-gloves.webp",
+    "sha256": "e74324344c97a317b141bee63203574b3b09e96319da7d99c64089027042ffa8",
+    "bytes": 49216,
+    "gitBlob": "6feec407ab64afefa3a9574be3d9788a1a8599c8",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 38,
+    "photo": "defense-directives/lesson-038/dr038-graduate-stores-retained-school-jacket.webp",
+    "sha256": "d9a1b4efb11f1147e64d1347459ce0a8958ac5f388d76536bbfb5541cdd969d9",
+    "bytes": 47866,
+    "gitBlob": "2057c3026814860f44ef6e132aa90a8e5f54a54e",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 38,
+    "photo": "defense-directives/lesson-038/dr038-marathon-volunteers-load-water-crates.webp",
+    "sha256": "9c44b93d73ec3c773fdad7a359054e1eb9d6c2f2b270d156ad9e681d470273a2",
+    "bytes": 49336,
+    "gitBlob": "c640d86fcf9f417f444a42fcec039afbc0c3c54a",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 38,
     "photo": "defense-directives/lesson-038/dr038-school-retreat-blankets.webp",
     "sha256": "b7372a6aed04db25e4041d36b04fcebc6ee534611c8a27994714c4c5884cbae8",
     "bytes": 39818,
@@ -570,10 +1434,37 @@
   {
     "subject": "defense-directives",
     "lesson": 39,
+    "photo": "defense-directives/lesson-039/dr-039-manuscript-civilian-analogy.webp",
+    "sha256": "443c8e07f7aa423d03e0d49fe7a55f2f465e13b8066e70f7b6a64c43f8dcc252",
+    "bytes": 49074,
+    "gitBlob": "db739f2e232adb070fb28199160c3c060bf7bb4a",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 39,
     "photo": "defense-directives/lesson-039/dr039-apartment-shared-extinguisher-cabinet.webp",
     "sha256": "3f68917c8581b23d0a7f87a949ddcf456c348a61a2a6defc61f4e1ee02e56d21",
     "bytes": 40054,
     "gitBlob": "3fb80b2c4fe8a2b20d862c4ab7996948ea7b7598"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 39,
+    "photo": "defense-directives/lesson-039/dr039-classroom-facility-admin.webp",
+    "sha256": "c474be3efda5cea3999da1e7b0ab54b87cf4cf48bcdee5afa3a326f497b554b0",
+    "bytes": 35016,
+    "gitBlob": "3441eab3a64bb655fb51d0b7134f6a0283c7098c",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 39,
+    "photo": "defense-directives/lesson-039/dr039-learning-room-prepared-use.webp",
+    "sha256": "2826438f4abbd60b71866b139897dde7c9725c94fade9a51a12dc7d18347556b",
+    "bytes": 47334,
+    "gitBlob": "c97050e113d728fe15130b29ba2b71d031ba84bc",
+    "reviewStatus": "candidate"
   },
   {
     "subject": "defense-directives",
@@ -590,6 +1481,24 @@
     "sha256": "c840d8c1734b2876a61075453c008887a54ddd8402a520c80b7b55207ada070c",
     "bytes": 40564,
     "gitBlob": "8509f974c7584565a6cb8f2697a8e7ef3d86cb68"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 40,
+    "photo": "defense-directives/lesson-040/dr-040-manuscript-civilian-analogy.webp",
+    "sha256": "6d10674bba919ddd2bcc532ab5e65df18a430e19162d74d3918e454b6ba4c566",
+    "bytes": 49026,
+    "gitBlob": "82d9f0a91c82aebe4922a09e9743238002f69630",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 40,
+    "photo": "defense-directives/lesson-040/dr040-asset-ledger-handoff.webp",
+    "sha256": "55f679851038907cb27e876a2ce72aa19728f8a4bbb55870f62325cb7a7770dd",
+    "bytes": 38398,
+    "gitBlob": "3eadc515e5e68cf2b2409e4d6e421a1e96baae91",
+    "reviewStatus": "candidate"
   },
   {
     "subject": "defense-directives",
@@ -634,10 +1543,37 @@
   {
     "subject": "defense-directives",
     "lesson": 41,
+    "photo": "defense-directives/lesson-041/dr041-librarian-tags-new-books-at-unpacking.webp",
+    "sha256": "b63c21ef72e2a566f73e1f58cc5115da8dfb8eaf4ca571a493186fd64f5f23c8",
+    "bytes": 49974,
+    "gitBlob": "44802d8c795f682f28b0dd4252dd78e424070096",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 41,
     "photo": "defense-directives/lesson-041/dr041-replace-artwork-catalog-insert.webp",
     "sha256": "e4219823d14d49bdf5737a513786a320b7caba2e191d199bd19bf39ef5c89850",
     "bytes": 35014,
     "gitBlob": "e2900286ff5e71b9bc3ab635a1e693008a9fedf4"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 41,
+    "photo": "defense-directives/lesson-041/dr041-school-technician-repairs-classroom-computer.webp",
+    "sha256": "ec4e9236c1d4709e540117f6f677657005468a8b7f423a63b3cb88ca1b49e84b",
+    "bytes": 48928,
+    "gitBlob": "bc6c5348ab5af8d4f89639d42e4a2ee8ad13e681",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 42,
+    "photo": "defense-directives/lesson-042/dr-042-manuscript-civilian-analogy.webp",
+    "sha256": "9900625094aeef69f2f85b944762accfeb24ff6413c65bb857767d55568602e4",
+    "bytes": 49766,
+    "gitBlob": "5369a19e3a560d3a7f3c24dddcb2bb544650069e",
+    "reviewStatus": "archived"
   },
   {
     "subject": "defense-directives",
@@ -646,6 +1582,15 @@
     "sha256": "9b9cfd7b0f15065ea0cca0d7406d65b10f6e6cda2abed34f56384fb3cd5b1d06",
     "bytes": 40166,
     "gitBlob": "6e801da3397aed96a1561e9f883330326346d506"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 42,
+    "photo": "defense-directives/lesson-042/dr042-review-calendar.webp",
+    "sha256": "93f8f1faf4756fdee00426f8196884f82cf6eb4688ce0b598c99cf3fc2bb7424",
+    "bytes": 36304,
+    "gitBlob": "d7f365379a59c98b018f5b729bff1a82ec958d68",
+    "reviewStatus": "candidate"
   },
   {
     "subject": "defense-directives",
@@ -674,6 +1619,15 @@
   {
     "subject": "defense-directives",
     "lesson": 43,
+    "photo": "defense-directives/lesson-043/dr043-baker-kneads-dough-to-common-manual.webp",
+    "sha256": "294ab03ee575521aadb9eb1a71ec49872f471a589683d0356c75894c9e5a203d",
+    "bytes": 49114,
+    "gitBlob": "c3a753cac16a4b99c11ed07f5e3dcdfab2f6c620",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 43,
     "photo": "defense-directives/lesson-043/dr043-two-handbooks-same-number.webp",
     "sha256": "79524cf8b663462824ede360055b6431513f658d8a97e89bf278e4651a52cf05",
     "bytes": 48492,
@@ -686,6 +1640,24 @@
     "sha256": "9408b8d433fb1e6679c464b681ee62b20ca99151ca7fda9709bb5130034f58ac",
     "bytes": 37640,
     "gitBlob": "e5824a290f326c4b655bef52b7deaab60af76eee"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 44,
+    "photo": "defense-directives/lesson-044/dr044-cold-learner-requests-later-physical-test.webp",
+    "sha256": "f32a7b0edecfe396c2d4e091c9bf2f0f2688f83bd7e7b9616fec2b443122fcbb",
+    "bytes": 48252,
+    "gitBlob": "0dd69e63ee94fb88b216105c3cd7728a581d2312",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 44,
+    "photo": "defense-directives/lesson-044/dr044-dishwasher-cleans-restaurant-plates.webp",
+    "sha256": "54a7a35be1f49a1976c199f71729d2f06679ccb4f84f372c00b0c02a82f42f41",
+    "bytes": 48334,
+    "gitBlob": "54609030a64e0e9e0ac714a669572a24c20d1afc",
+    "reviewStatus": "archived"
   },
   {
     "subject": "defense-directives",
@@ -722,6 +1694,24 @@
   {
     "subject": "defense-directives",
     "lesson": 45,
+    "photo": "defense-directives/lesson-045/dr-045-manuscript-civilian-analogy.webp",
+    "sha256": "551bbb31416e1bfc3c8beb5317271d3a477b439ef112ddd1828f6877433d83c0",
+    "bytes": 47998,
+    "gitBlob": "ccc42a0abe4f6c8ba9c86307929ef7f0cc565f87",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 45,
+    "photo": "defense-directives/lesson-045/dr045-form-field-review.webp",
+    "sha256": "367e4e1e4592ea222b0d882d99e035c43be06d83953c8ae2dc51d0f5d24cf97f",
+    "bytes": 33798,
+    "gitBlob": "9a80a5973fe142a84b1e0f3083072ff4e5866052",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 45,
     "photo": "defense-directives/lesson-045/dr045-independent-sports-video-review.webp",
     "sha256": "c0007bfc300e8080a73514180ae548e650e2c0678c74c30f5cdbfc52f37c4cab",
     "bytes": 43718,
@@ -742,6 +1732,24 @@
     "sha256": "ff793be97c206716aa14ef5fd56dc37d49661cef6ecc2d0d16d49f6a1b8793eb",
     "bytes": 29800,
     "gitBlob": "ee3464d4e0863abb0df594d230fa4f95b5717195"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 46,
+    "photo": "defense-directives/lesson-046/dr-046-manuscript-civilian-analogy.webp",
+    "sha256": "d26a1d82a7855b3c8b73bc7ec4b3f4cbbf1c2b941ca232f9fa28340151547595",
+    "bytes": 49606,
+    "gitBlob": "35765e7318ea4d19742d44a8ffef2c0c831c3f60",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 46,
+    "photo": "defense-directives/lesson-046/dr046-coverage-review-desk.webp",
+    "sha256": "eba5e103966d49930288c5969d477ab8c9818ba3d4497bc149521179983d34b6",
+    "bytes": 45678,
+    "gitBlob": "a5dcc412610689cb29b257b6ab6bcb1e983bfc62",
+    "reviewStatus": "candidate"
   },
   {
     "subject": "defense-directives",
@@ -778,6 +1786,24 @@
   {
     "subject": "defense-directives",
     "lesson": 47,
+    "photo": "defense-directives/lesson-047/dr047-individual-all-access-pass-handover.webp",
+    "sha256": "ab6d88670655dacebec85503defc70f2c8d687da3dc4499b30c35ad769141c69",
+    "bytes": 49900,
+    "gitBlob": "0ceae216f0aba8ab9b2ee3e6a95adf8e4daeabc0",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 47,
+    "photo": "defense-directives/lesson-047/dr047-restaurant-owner-recalls-former-worker.webp",
+    "sha256": "6d0173500d6559af5cda7e4b2c8f072b2a0e1334f02a8fd83b4a1e4361deec57",
+    "bytes": 49760,
+    "gitBlob": "0affbef189d70b7793c7e2a71082eb6864cc9c34",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 47,
     "photo": "defense-directives/lesson-047/dr047-visiting-instructor-one-off.webp",
     "sha256": "4d0e79e8e66a8128af4c1e156a99ee239c9406cd62cc6c2c2b6c71cf3af0dbf0",
     "bytes": 43598,
@@ -810,10 +1836,28 @@
   {
     "subject": "defense-directives",
     "lesson": 48,
+    "photo": "defense-directives/lesson-048/dr048-individual-football-control-practice.webp",
+    "sha256": "4362df3f9ba847d2372fb5e66dfd51300f44753359b3b38e8f9603f1e5a1ddb4",
+    "bytes": 49514,
+    "gitBlob": "e617b213f698602b96c92ca9e876a7e7aa191ceb",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 48,
     "photo": "defense-directives/lesson-048/dr048-school-emergency-practice-calm-day.webp",
     "sha256": "e734b8e40dc0217b0df2f367fda45475c78cf6d04ceac312eaad9b0354eae969",
     "bytes": 41098,
     "gitBlob": "d34faf216094aadcec002f3233d5992448df9f3d"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 48,
+    "photo": "defense-directives/lesson-048/dr048-team-football-passing-practice.webp",
+    "sha256": "813ceb27748c1540b922419eaf65cdbfaedf97f0ed1f4a00191eeca9033f623a",
+    "bytes": 49850,
+    "gitBlob": "f14b95a4b008d671a5158f592a2a9d76b212c684",
+    "reviewStatus": "archived"
   },
   {
     "subject": "defense-directives",
@@ -841,6 +1885,15 @@
   },
   {
     "subject": "defense-directives",
+    "lesson": 49,
+    "photo": "defense-directives/lesson-049/dr049-kitchen-unfolds-new-prep-table.webp",
+    "sha256": "b6288fe5bff0b3728d3c6cb5d8d6436e9f1b627d9be508eb9b122d63603b0a4f",
+    "bytes": 49914,
+    "gitBlob": "4302d3b8abd59aad4c3216f1bdbe032cc78b1855",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
     "lesson": 50,
     "photo": "defense-directives/lesson-050/dr050-align-a-school-calendar.webp",
     "sha256": "563fabfa11385585c4d10135830b9b24f16fd0c8f423145467b8a6ca47c42eaa",
@@ -858,10 +1911,73 @@
   {
     "subject": "defense-directives",
     "lesson": 50,
+    "photo": "defense-directives/lesson-050/dr050-education-inspector-observes-event.webp",
+    "sha256": "5775d0aac8915f4c009987ee8e339ebdba7a2b1c328fe55e6d613c920caab904",
+    "bytes": 49014,
+    "gitBlob": "9fa25380ed8c9d0b393744d147d80631a44c8d77",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 50,
+    "photo": "defense-directives/lesson-050/dr050-local-sports-teacher-runs-event.webp",
+    "sha256": "2055c7351cccebdd9c2a345c9f56b2f072276162c46ca6951c19b5b6363b03e4",
+    "bytes": 49598,
+    "gitBlob": "05d74248a15a15e640f7d20175d560faf5afa24f",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 50,
+    "photo": "defense-directives/lesson-050/dr050-regional-teacher-workshop-exception.webp",
+    "sha256": "354e874e58e833fa79f339fd908eac2af5827e5cba34472f0360b19f058062a2",
+    "bytes": 48670,
+    "gitBlob": "4d37cae2948a247aa90d75fcf288cadfc3b00f3e",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 50,
     "photo": "defense-directives/lesson-050/dr050-season-goal-guides-layers.webp",
     "sha256": "5eb40aff5a2ad03bee84883240309688a8f2ef42b936ff969148ec956838c526",
     "bytes": 37376,
     "gitBlob": "3d871a4ac2136e4b7e0ab3b4c1253e30d05459e7"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 51,
+    "photo": "defense-directives/lesson-051/dr-051-manuscript-civilian-analogy.webp",
+    "sha256": "a90ebc2013e48cbf666bba91ef2d169d7670a9870ad00d432a64e0399ebcb574",
+    "bytes": 49348,
+    "gitBlob": "47221449266d4c6928ff63cce508c7195fd6f7f3",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 51,
+    "photo": "defense-directives/lesson-051/dr051-role-responsibility-discussion.webp",
+    "sha256": "d01c2a0bf228fa06c354f1a76c355c3fb8edc1975af14ffdb9eafc8da7d92902",
+    "bytes": 49508,
+    "gitBlob": "6ea366111cfb81f7935497b6c7ed5c05e078c6e8",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 52,
+    "photo": "defense-directives/lesson-052/dr-052-manuscript-civilian-analogy.webp",
+    "sha256": "5764ef028fcc15273b572c27971845e6c297b88c5afc537fbb01e2779e67867e",
+    "bytes": 49636,
+    "gitBlob": "cf8b8a1ae7dcf2a0f2a7ec5909cfa11c8dabe3b3",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 52,
+    "photo": "defense-directives/lesson-052/dr052-duration-check.webp",
+    "sha256": "165edb1f257b7424d31ed2b0062467c224a733adc1d9a584220602ee14f398ef",
+    "bytes": 49956,
+    "gitBlob": "0a4b8892d7d018c171212421926869a370e37c21",
+    "reviewStatus": "candidate"
   },
   {
     "subject": "defense-directives",
@@ -870,6 +1986,15 @@
     "sha256": "f78d5a8ad29648657539110cb5c5df18f0d4e87d6f3490d1e32b0a992b3b7d65",
     "bytes": 43204,
     "gitBlob": "c9bea0a1f2140e0b5620d516d381e5d47048c14b"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 53,
+    "photo": "defense-directives/lesson-053/dr-053-manuscript-civilian-analogy.webp",
+    "sha256": "dc7dbf9358f83692393090bfad041d82a2287655c7bb4d1c90bb5f52b5a2a899",
+    "bytes": 49948,
+    "gitBlob": "0e6d973151aeb571cdb813df026f6a8bce5653a1",
+    "reviewStatus": "archived"
   },
   {
     "subject": "defense-directives",
@@ -889,6 +2014,24 @@
   },
   {
     "subject": "defense-directives",
+    "lesson": 53,
+    "photo": "defense-directives/lesson-053/dr053-training-calendar.webp",
+    "sha256": "f03cd32fb371251ac256f315922451e54017284791b6e9fc3a4b1c7c1d362e69",
+    "bytes": 34118,
+    "gitBlob": "1a2a01429691f3ec731b10182a2d335ad22dbff6",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 53,
+    "photo": "defense-directives/lesson-053/dr053-training-season-planning.webp",
+    "sha256": "510da126dabdbc855281c6711098e9b51e0b25f5e19b1e2d3b880f98ba3a3335",
+    "bytes": 44770,
+    "gitBlob": "e5dd265cc96cc687987aa3f66da9f1e61410333d",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
     "lesson": 54,
     "photo": "defense-directives/lesson-054/dr054-concert-tickets-open.webp",
     "sha256": "db6b2422ec1bab4124b3e39f83457fd2e7540d284fe46518136365601b9978fc",
@@ -905,11 +2048,47 @@
   },
   {
     "subject": "defense-directives",
+    "lesson": 54,
+    "photo": "defense-directives/lesson-054/dr054-training-notice-packaging.webp",
+    "sha256": "e51b3c20fbedab0cd132a0034831cf5b3d5f2ee6658ff554923ceed2fad24de7",
+    "bytes": 34200,
+    "gitBlob": "bf4508f491c6c9a29a6e5a4fb951847d11962887",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 55,
+    "photo": "defense-directives/lesson-055/dr055-civilian-remote-class-following-guidance.webp",
+    "sha256": "d41d13ef229e3542b7811f24f235cb6ae91119cc853ef9396d3ec0fe866d660b",
+    "bytes": 49362,
+    "gitBlob": "e9ab6d948ff975c4294c5c08f44c0e1ffed441be",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 55,
+    "photo": "defense-directives/lesson-055/dr055-destination-park-opening-gate.webp",
+    "sha256": "5591de7afe832086c67bf36980a7cdfe5a8696d79ca84c06e3cba8d2b4bbbff0",
+    "bytes": 49312,
+    "gitBlob": "11256feebf75e862f1f4919591ad4e96fcfb2c82",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
     "lesson": 55,
     "photo": "defense-directives/lesson-055/dr055-flex-time-approval.webp",
     "sha256": "86ed0f46733cd26fb2be2bfd811e8e1318665a179a070aa4e6822f7807d5cc9c",
     "bytes": 41782,
     "gitBlob": "c695c8a552f5b882a21474dfeb2ef6d88808c840"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 55,
+    "photo": "defense-directives/lesson-055/dr055-jump-rope-performance-assessment.webp",
+    "sha256": "057f4deccef415d855fc198cfee4f2044d2238d8339b0f45d587649160f2a8c2",
+    "bytes": 48134,
+    "gitBlob": "63674593bda8c633f06857a41871ac53f0f4921f",
+    "reviewStatus": "archived"
   },
   {
     "subject": "defense-directives",
@@ -922,10 +2101,37 @@
   {
     "subject": "defense-directives",
     "lesson": 55,
+    "photo": "defense-directives/lesson-055/dr055-parent-submits-flex-arrival-proof.webp",
+    "sha256": "4ff68c4583165793d144f481f004238ec0096aacc2e15efa6d03d21fe0d1d635",
+    "bytes": 49318,
+    "gitBlob": "f99d214f1491369217d153b1c27d6b0af6475457",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 55,
     "photo": "defense-directives/lesson-055/dr055-preopening-kitchen-inspection.webp",
     "sha256": "0318c48fbb7cdf8dca1aa3536ca15261158b929bb98265fdea2bafc6e3a1fea7",
     "bytes": 35488,
     "gitBlob": "456aeb2abd3a2d35bf529d33113ce2eec5b3f977"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 55,
+    "photo": "defense-directives/lesson-055/dr055-preopening-outside-kitchen-inspection.webp",
+    "sha256": "508a21ab81d878e30ad0aafe7a8c4a6a42bce670a83036a70580d18eadae5e59",
+    "bytes": 49846,
+    "gitBlob": "001ff33137b9c2c7765a7b717fceeb4c8f506326",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 56,
+    "photo": "defense-directives/lesson-056/dr-056-manuscript-civilian-analogy.webp",
+    "sha256": "afce847d0d2b41e3c97265cfb45246cb843916933026fde89fdbaf8d424893ea",
+    "bytes": 49678,
+    "gitBlob": "e75a10cfe5b84447fb9c34e657abb999dbd78ded",
+    "reviewStatus": "archived"
   },
   {
     "subject": "defense-directives",
@@ -945,6 +2151,15 @@
   },
   {
     "subject": "defense-directives",
+    "lesson": 56,
+    "photo": "defense-directives/lesson-056/dr056-common-class-subjects.webp",
+    "sha256": "3672e568b40f4bfe436e7ee591a4b5ab0c51444648b47c9824a7ddf471cdf8bf",
+    "bytes": 48398,
+    "gitBlob": "f342ae9e022b58b7423d4924349443fa4f83014a",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
     "lesson": 57,
     "photo": "defense-directives/lesson-057/dr057-bus-default-car-exception.webp",
     "sha256": "b0f74bfe76e20b5cf8005b96d02845bebef8c6617188edea5fd16de447228e44",
@@ -958,5 +2173,3074 @@
     "sha256": "303f931768991fb27e56ffc5020be44087a3662c2f5520edba16e907a6069e02",
     "bytes": 46996,
     "gitBlob": "aff73def7609a984e5d6d4affae1429c3d915bd9"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 57,
+    "photo": "defense-directives/lesson-057/dr057-student-ties-shoes-before-expected-drill.webp",
+    "sha256": "94580061ebf18a68d91af59a6fe3287f1e3a1cd04f39bc9d7f1bd538a7bcf2f8",
+    "bytes": 49256,
+    "gitBlob": "7f9f42b4d556de8eff9755cf9df009383720e659",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 58,
+    "photo": "defense-directives/lesson-058/dr-058-manuscript-civilian-analogy.webp",
+    "sha256": "947a393581f1efe495498f181403faddf46e1dce76e2347baaa05a689e3aed6a",
+    "bytes": 49096,
+    "gitBlob": "d6f37243a2e948fbb1ca34ce665627627225fa4c",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 59,
+    "photo": "defense-directives/lesson-059/dr-059-manuscript-civilian-analogy.webp",
+    "sha256": "566582f4735baef6167a913f9aa2741ae3df9d14ab6566a89db5e7a78306c0e8",
+    "bytes": 49670,
+    "gitBlob": "12b859f285d216c8dd83af1603d86b2e7583782b",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 59,
+    "photo": "defense-directives/lesson-059/dr059-leadership-class-discussion.webp",
+    "sha256": "36688abc39eafbad9fd0f3f1268104dcf2858978e06be133583801135053d459",
+    "bytes": 47412,
+    "gitBlob": "5e0c17fa36de6005f11bed6d357de9a31998f1b5",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 60,
+    "photo": "defense-directives/lesson-060/dr060-island-outdoor-class-continues.webp",
+    "sha256": "d014e2a5a692190f2e96bd56f14bdaece58f3d274b8ed17b2b1a3e1c3156090b",
+    "bytes": 49958,
+    "gitBlob": "a085aa7c0fce464acbe7b299b49683b6a774606a",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 61,
+    "photo": "defense-directives/lesson-061/dr061-overcrowded-restaurant-branch-redirect.webp",
+    "sha256": "5ebdf36917c8661147dce5a6659369e3315cff0efac76d297c3adc414117e4c8",
+    "bytes": 48818,
+    "gitBlob": "2877bb625baea21a3155bc302902dc3b3e9221e6",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 62,
+    "photo": "defense-directives/lesson-062/dr062-invigilator-finds-concealed-cheating-note-v2.webp",
+    "sha256": "72d413a8444072221df4aad813ee1ac877df5a40caf59ea72be2f6d0f48cbafb",
+    "bytes": 48602,
+    "gitBlob": "0aaaa1b444e899a21ca694f02473ea06a71dac82",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 62,
+    "photo": "defense-directives/lesson-062/dr062-post-session-record-close.webp",
+    "sha256": "2681205f142a71d5f430c5697f0530475068c48b8572d10bd1ec526c741683c8",
+    "bytes": 43210,
+    "gitBlob": "e4bb0c0f4f2bd35d2ed14b7877d7f5c7bde922ab",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 62,
+    "photo": "defense-directives/lesson-062/dr062-viewer-leaves-cinema-during-screening.webp",
+    "sha256": "2546520fc0d4334e965c6924070ad463705aa806f46a3af0e7e90986346adb54",
+    "bytes": 49270,
+    "gitBlob": "10af559a4a2eadc023f1082877df1521d5fd7afb",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 63,
+    "photo": "defense-directives/lesson-063/dr063-full-choir-rehearses-together.webp",
+    "sha256": "5bb291849783ad3da8277e3a3b279f6085a8432bd033f55213a8c3a321824e06",
+    "bytes": 49680,
+    "gitBlob": "de0f5769cfe2396f3f95d0192e466cf009d07327",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 63,
+    "photo": "defense-directives/lesson-063/dr063-self-service-calendar-selection.webp",
+    "sha256": "711498db996521073736ea0c3368c89fe5346f8d77182ac370af9b2e882b7351",
+    "bytes": 47458,
+    "gitBlob": "95ead28dcaa7d49f8562cdead8425aa6e6bd8828",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 64,
+    "photo": "defense-directives/lesson-064/dr-064-manuscript-civilian-analogy.webp",
+    "sha256": "f7b43c634ff6a7c4ecfd5b9d7eebef7a574e1ff5975fcb7577908d6a94cce0f0",
+    "bytes": 49616,
+    "gitBlob": "b8557abfda0fd9fb6b64fc9a9ec6da69e564f605",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 64,
+    "photo": "defense-directives/lesson-064/dr064-commuting-learners-converge-civic-annex.webp",
+    "sha256": "182f956b911d6df938108bb3e03b97439d1b04689d257c9b5860e40d1521df08",
+    "bytes": 48778,
+    "gitBlob": "d82b972e70c5e6f54f9ae9fba9cc70a1f67e1686",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 65,
+    "photo": "defense-directives/lesson-065/dr-065-manuscript-civilian-analogy.webp",
+    "sha256": "a9b420f4e5e38059ea685ce1889b2907bc2ba85e160acbeec58ad7a70e7a1ce4",
+    "bytes": 49148,
+    "gitBlob": "52cacb6aa132184bd553cb0cdf5380c1a29dba72",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 65,
+    "photo": "defense-directives/lesson-065/dr065-weekend-home-class-preparation.webp",
+    "sha256": "34c495d4d95f2c90316ac13deb5fa44d78c6d9d4136695668bd6350951981d26",
+    "bytes": 48650,
+    "gitBlob": "83b16d33b1cc56d1d71d355601ad2bf6d4a541a2",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 66,
+    "photo": "defense-directives/lesson-066/dr066-organizer-approves-planning-peg-change.webp",
+    "sha256": "0d4f18a25ad3bbd2f8a942f216bb94ebd9a7c86bb47994e857504eb2e7f2e271",
+    "bytes": 48882,
+    "gitBlob": "a156bca010359e71b80474c82af4ad60e4d5135f",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 66,
+    "photo": "defense-directives/lesson-066/dr066-principal-ends-sports-day-in-heavy-rain.webp",
+    "sha256": "02b8a5c7eac70fcc71a1de98989c74b914dfdae2629ad77b51aa64259a0e6bd2",
+    "bytes": 49806,
+    "gitBlob": "71411fdfcf44a565d8822bdaceccfb1ede8626ee",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 67,
+    "photo": "defense-directives/lesson-067/dr-067-manuscript-civilian-analogy.webp",
+    "sha256": "03fa1b0c4e509675f4f6e0a63ad18611fa4cabd5aadd5ff0f02465f440acb5e8",
+    "bytes": 49254,
+    "gitBlob": "00f2c68142e63eb301a4787afbdff345d1066af5",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 67,
+    "photo": "defense-directives/lesson-067/dr067-training-hold-reception.webp",
+    "sha256": "9428ea7efe048dca2e6d5603def74b34b9cb89e5a313d0eb75db412bd1711d2b",
+    "bytes": 49960,
+    "gitBlob": "906def4f8621af7993a0684d51517d34a720ecaa",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 68,
+    "photo": "defense-directives/lesson-068/dr068-bank-counter-paper-signing.webp",
+    "sha256": "7f31b4a95911c4cbf6b4e59c8497ebb3f974f2bff05e56c30d33f53ecf2ac671",
+    "bytes": 48466,
+    "gitBlob": "4460ecb364295f7fc6215bd179dff39456b5afef",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 68,
+    "photo": "defense-directives/lesson-068/dr068-employer-submits-prepared-document.webp",
+    "sha256": "8075b201932eb987b6c8dddf3866d452fc7e9343e229bd6607bb17dc6a88f6e0",
+    "bytes": 49218,
+    "gitBlob": "7b01cf74d7c3009bb62a203bd76892c507a7c0d8",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 68,
+    "photo": "defense-directives/lesson-068/dr068-self-notification-before-documents.webp",
+    "sha256": "eb7675fc635b954869b3edd3fe2a683376d5f38830dfcb350de77378c8e43786",
+    "bytes": 49486,
+    "gitBlob": "e5983031778fba35745539c27183137d1059f0f8",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 69,
+    "photo": "defense-directives/lesson-069/dr069-book-borrowing-use.webp",
+    "sha256": "e839e2064abcb6c0855b46cd9070dca039fa20770d837904f2e5f5a2ad9bb3ee",
+    "bytes": 49690,
+    "gitBlob": "3842b5bc8a2fe1f332097eb70f6ea9d89e7a94a3",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 69,
+    "photo": "defense-directives/lesson-069/dr069-book-condition-inspection.webp",
+    "sha256": "d25b06334af8e94299b2ea5f034135b7ec7af82f87a11f73639df58023fb284a",
+    "bytes": 48576,
+    "gitBlob": "ba701a852070c1969332bc7b813f90d3ff011c0a",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 69,
+    "photo": "defense-directives/lesson-069/dr069-gym-owner-rules-remain.webp",
+    "sha256": "39591c2e4cb07c1f30be650ef2832232c6866a8b3377621dc549e5df350f7700",
+    "bytes": 49848,
+    "gitBlob": "03b369c23d26989b5bbcac7cecab0f6d5ce374db",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 70,
+    "photo": "defense-directives/lesson-070/dr-070-manuscript-civilian-analogy.webp",
+    "sha256": "643c3965f606bca91e94a8f01217647e470779f20a91fd59aeeb698552a53ccc",
+    "bytes": 49790,
+    "gitBlob": "f92aa85c7d2309d7410a8cef15a11aa9b967aab3",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 71,
+    "photo": "defense-directives/lesson-071/dr071-before-opening-goal-safety.webp",
+    "sha256": "78488532235d86795c0e2d78a9526c039c7f877628e7c18cbb0ee27be26bd731",
+    "bytes": 49944,
+    "gitBlob": "3f8012af21f7196258383b9a3bcb1cbfe961d2e9",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 71,
+    "photo": "defense-directives/lesson-071/dr071-before-opening-staff-room-closed.webp",
+    "sha256": "b55ecdd11a7792c8fa9c2d5f27943295dcdaed25e71df6e4011c222af1b3bd55",
+    "bytes": 49466,
+    "gitBlob": "0d4e67b8672aa40dcf853c624297584864217a93",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 71,
+    "photo": "defense-directives/lesson-071/dr071-family-decides-multiyear-home-repair-plan.webp",
+    "sha256": "67b33b69c9676f05bf97d3e7a358a2d80e0628a353cbf5a05e6d5f4cd71bb8ea",
+    "bytes": 49958,
+    "gitBlob": "045f1ffedcfab235c499bcda50ee4d29b2ea037e",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 71,
+    "photo": "defense-directives/lesson-071/dr071-family-sets-aside-budget-for-planned-repair.webp",
+    "sha256": "f916bf5e1c4edc60c2cdc38fc2db081ea8333f0401ce9d6e2618ce847d4a1162",
+    "bytes": 48748,
+    "gitBlob": "a4b86fede8572388c4ff9fd96f6735dd30db2790",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 72,
+    "photo": "defense-directives/lesson-072/dr072-daytrip-packed-lunch-lawn.webp",
+    "sha256": "0fcab5a4afbc36f82e0a04894cf547583b937874064ebe07ed48a4050acf9b95",
+    "bytes": 49694,
+    "gitBlob": "a3080ae384380557c624cb231aacf76882c1fa5a",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 72,
+    "photo": "defense-directives/lesson-072/dr072-diner-completes-feedback-card.webp",
+    "sha256": "7c4ecbdb31ddf13e75fe67b12f68def8d9fb99cd58a86e0206d5bb02445f30cd",
+    "bytes": 49080,
+    "gitBlob": "0f2cbc0a54ff019e09210c090fd96d29b61d4727",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 72,
+    "photo": "defense-directives/lesson-072/dr072-meal-support-distribution.webp",
+    "sha256": "f10006576d1bc74154796f71fafb53a5e17bc46c032adce90526530ce00dc78b",
+    "bytes": 48322,
+    "gitBlob": "ba71cbf659ca2fae51d890437a9b8b231a5de4d5",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 72,
+    "photo": "defense-directives/lesson-072/dr072-overnight-dining-hall-meal.webp",
+    "sha256": "a64a1f2a0fc141bc3c2ff3b52f7acbc4fe3ddfe6cb017660635a6ef4f4d0ca33",
+    "bytes": 49092,
+    "gitBlob": "c20f9f8293c923ade0befd9969f22a0d4e60a4fd",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 72,
+    "photo": "defense-directives/lesson-072/dr072-owner-chef-improve-menu.webp",
+    "sha256": "aadf41d060b900414de851ff0e67acf14c4f7b78a9d924f011683e19eaae8ecf",
+    "bytes": 48892,
+    "gitBlob": "44a599225a24b08958f07b53a7a1af205bca5e6e",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 72,
+    "photo": "defense-directives/lesson-072/dr072-parent-chooses-fresh-cake-for-group.webp",
+    "sha256": "73106cfe89a26ffd23b2b62a866efc83067036045251c35daf04c6098fc2d92e",
+    "bytes": 49884,
+    "gitBlob": "86a191d79d6eedf1943e2d93be7b8d1794c86e61",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 73,
+    "photo": "defense-directives/lesson-073/dr073-cabin-crew-asks-for-doctor.webp",
+    "sha256": "3a36f1e19d45f9f57349c6b4bd24d7eb115b8397989dc24ee11d5b48e4d6a95b",
+    "bytes": 49864,
+    "gitBlob": "88cd7c1332bc71fa5d55f1d28376880f399c0ba2",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 73,
+    "photo": "defense-directives/lesson-073/dr073-marathon-evacuation-vehicle-ready.webp",
+    "sha256": "568a42ab3742a9b0eaa6c90ec57a058cc68971ddddffd34f64346333c07149a3",
+    "bytes": 48694,
+    "gitBlob": "d88709ae7c812ad774fb07627f610f45a76e0d56",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 73,
+    "photo": "defense-directives/lesson-073/dr073-marathon-prestart-health-screen.webp",
+    "sha256": "c3afff325d7b7aeb31834e561f4ea48b610b5f5fae0c596b99edd92e47d90b82",
+    "bytes": 49858,
+    "gitBlob": "fbb2a310b17aeeb7201507019f682855dc2d0a2c",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 73,
+    "photo": "defense-directives/lesson-073/dr073-park-facility-safety-team.webp",
+    "sha256": "69189808d9288855d4b5e18352287122f94f2468133282a1664d06b897256532",
+    "bytes": 49562,
+    "gitBlob": "18feda4ac5e0b32ccf03feb0ba45f5a7ee66d602",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 73,
+    "photo": "defense-directives/lesson-073/dr073-qualified-passenger-volunteers-help.webp",
+    "sha256": "21f6869686f5abc5bbfaa081b94f4f26f55644e8c41ca6417d91ecc576cd3976",
+    "bytes": 49278,
+    "gitBlob": "2803afa11ae27301cbb830501fdb07b150517a9b",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 73,
+    "photo": "defense-directives/lesson-073/dr073-ride-operator-checks-restraint.webp",
+    "sha256": "af7d24db0bb8a134e7d309dcf9f0a9f2623f5f375538a8d66d7a042e846b68a3",
+    "bytes": 49964,
+    "gitBlob": "81b98e7e9302f7d56a899bd2f4a1974ba241ae2c",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 73,
+    "photo": "defense-directives/lesson-073/dr073-shared-walkway-safety.webp",
+    "sha256": "de74a08b72a05f54b4a694c024d19d8411f425f3d8c363c4fc0f38024cb26bcb",
+    "bytes": 49902,
+    "gitBlob": "1ea417c687b614575f30fdc6b3ab2759adb90ac9",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 74,
+    "photo": "defense-directives/lesson-074/dr074-exam-supervisor-reviews-late-arrival-proof.webp",
+    "sha256": "678ba06f5172cd12456f8fdb514495aa8d13f663052110b8ff6276a881141177",
+    "bytes": 49208,
+    "gitBlob": "48da87e8fa640dee1c8160f28f708cf7e0bffd3a",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 74,
+    "photo": "defense-directives/lesson-074/dr074-inside-violation-guided-out.webp",
+    "sha256": "caadb5040c677d8355138d83cb4669e5ccba7a21525135c6d424dbe0ae29b6e2",
+    "bytes": 49536,
+    "gitBlob": "3f5c07b47c146f09c74b7a8b999a69f54962d462",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 74,
+    "photo": "defense-directives/lesson-074/dr074-library-explains-one-time-late-return-warning.webp",
+    "sha256": "d6cefdd95e432182070dedc812d17bf5a2e044295d7cbbe513feef29baff4282",
+    "bytes": 49414,
+    "gitBlob": "a67ef899b474fc98facc9b4206f30befd9e5a46c",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 74,
+    "photo": "defense-directives/lesson-074/dr074-unsafe-shoes-entry-refused.webp",
+    "sha256": "6a7f67d2fb15a66676d5ef69f71dff652a8197daa304aa6d43b54c7820eebf3d",
+    "bytes": 48796,
+    "gitBlob": "1147259c2d3cbc3bb85fe9ce299f7c09d27b57fd",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 75,
+    "photo": "defense-directives/lesson-075/dr075-lodging-staff-takes-over-final-guidance.webp",
+    "sha256": "5364f60965d68e80988af16a1a0c3dba4e9b2f01944bc3fc40aeaaaa09c35359",
+    "bytes": 49600,
+    "gitBlob": "1c184eb97038005ba4168738016f35bde6313cfd",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 75,
+    "photo": "defense-directives/lesson-075/dr075-newcomer-evacuation-route-orientation.webp",
+    "sha256": "b23d715c1ed145e91d0ba42d86b210788e634bb466c54c60f9b63977ce7264d3",
+    "bytes": 49694,
+    "gitBlob": "785102bd5f9dc4af97f61085e8062077eee591e4",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 75,
+    "photo": "defense-directives/lesson-075/dr075-organizer-inspects-rest-stop-before-trip.webp",
+    "sha256": "0606a0c8566fffbd2a0e84bcf6eca08ea73e05c13bea52c8f92071e69aa00768",
+    "bytes": 49834,
+    "gitBlob": "6a86b65c002dbcc144a82a678fc5feef364ba323",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 75,
+    "photo": "defense-directives/lesson-075/dr075-teacher-designates-one-responsible-passenger.webp",
+    "sha256": "fe8f18b7c70c02663afc09a4c8f07afed80421bdef5394d75067ad670e67210b",
+    "bytes": 49456,
+    "gitBlob": "3d8074d96a8bc7fbd55048f3b4427d45ec341760",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 76,
+    "photo": "defense-directives/lesson-076/dr-076-manuscript-civilian-analogy.webp",
+    "sha256": "b7bfe10c1381206cb1b71c34cfee646ebc6223191697382aa0dfc511f85e6dff",
+    "bytes": 49216,
+    "gitBlob": "227db256af3db45c5af55ce9df0c6d26a8ebfe08",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 77,
+    "photo": "defense-directives/lesson-077/dr077-car-underbody-periodic-inspection.webp",
+    "sha256": "a86a41b82e161fae368bae97fd54eecda54dbd6fa7c665457e769407648393ab",
+    "bytes": 48512,
+    "gitBlob": "3296151b93f786b02857fd0b47bec63ba89252dc",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 77,
+    "photo": "defense-directives/lesson-077/dr077-periodic-rule-review.webp",
+    "sha256": "b2854007595c27ccc844f5b80e8a36071d6a9244af4fc4b5bb57a04d9f8f1d2a",
+    "bytes": 47784,
+    "gitBlob": "89a5aca0bd38b055639324d24e7146a563d347fe",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "defense-directives",
+    "lesson": 78,
+    "photo": "defense-directives/lesson-078/dr-078-manuscript-civilian-analogy.webp",
+    "sha256": "e894fe978c0439b65e810f1cc4b92cdf5434dbaf6abcbee5edacb90419bf3f94",
+    "bytes": 49412,
+    "gitBlob": "efc1a67bc5b6763015d674e45d6d44e0c31e65e5",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 1,
+    "photo": "integrated-defense/lesson-001/tb001-subordinate-rule.webp",
+    "sha256": "bf185668ec2930b8c7bbc2e5e6d2664d9c8d2dc6ff6732f9d8b9bc7f3d925b72",
+    "bytes": 39342,
+    "gitBlob": "c03579dd0bb9f107f01af0d3c1a06e91f5c7d57d",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 3,
+    "photo": "integrated-defense/lesson-003/tb-003-central-attendance-review.webp",
+    "sha256": "3e41fefc44c1f673062ffdb158e8f2d923a89f2c8b41724354df73d283de5ce6",
+    "bytes": 46990,
+    "gitBlob": "78f90a0a4a3a90d5737ccbe7f9dc4dfb2190eeca",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 3,
+    "photo": "integrated-defense/lesson-003/tb-003-local-premeeting-prep.webp",
+    "sha256": "54968dcd2cf92a678c09afa2de49ba7c05b40ddbf976a1f46355061b4974d5a8",
+    "bytes": 49912,
+    "gitBlob": "6899f1db0234248c477689c0720ec08e535ea998",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 3,
+    "photo": "integrated-defense/lesson-003/tb-003-local-review-room.webp",
+    "sha256": "5e77fd7b51194d6d4d6e7a089ed38b828bd44ce17f9e3b072b516c5b31369bb3",
+    "bytes": 42856,
+    "gitBlob": "1afd3833407ab40aa124bc4db6b786591e4567f7",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 4,
+    "photo": "integrated-defense/lesson-004/tb-004-central-council-setup.webp",
+    "sha256": "a2a171040d5a72ab47b8f4b9c95b4ebc7b05416195a2712eed5fb9abef4be312",
+    "bytes": 40482,
+    "gitBlob": "7085b15e7d0cc8d438d9b59e80e97ee202e0dd6f",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 4,
+    "photo": "integrated-defense/lesson-004/tb-004-scope-desk.webp",
+    "sha256": "08983adca27f6dcef09b91f3688a5c9c9eef652a19d2381b702d0a459a1bb57a",
+    "bytes": 38280,
+    "gitBlob": "ba106dec8202e034308614444bf5a68b7b594db8",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 4,
+    "photo": "integrated-defense/lesson-004/tb004-central-policy-deliberation.webp",
+    "sha256": "5dfef33818870522763769e66aef15be091dcd66b73b20638aecdfb78035038d",
+    "bytes": 49960,
+    "gitBlob": "37496a80456e92bcf374d6cc0355d59f94a679f7",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 4,
+    "photo": "integrated-defense/lesson-004/tb004-council-procedure-guide.webp",
+    "sha256": "7f2b5141bac61f9b328fae4199ad3e8a020e72d97569bb4ad5eaf44882a0c608",
+    "bytes": 37774,
+    "gitBlob": "ba034a8ee82b306d2ae6abe9d81762c875479fb9",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 4,
+    "photo": "integrated-defense/lesson-004/tb004-deliberation-vs-decision.webp",
+    "sha256": "f7ae396353d130f8751c8ba5f5d197462ca097c0c35b84a6af022d2b6e987c3f",
+    "bytes": 35256,
+    "gitBlob": "0ae6c4a81a3a0034e2591754197dee8788f44a83",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 4,
+    "photo": "integrated-defense/lesson-004/tb004-office-remits-desk.webp",
+    "sha256": "c38253ec9afb7dcd78ecedda49af4e9300fbdf8abea06d74d8f4e3a51ef521bd",
+    "bytes": 33646,
+    "gitBlob": "3a5c954ca6659bf7101f1c10c6483f3fa7e6b809",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 4,
+    "photo": "integrated-defense/lesson-004/tb004-quorum-attendance-and-vote.webp",
+    "sha256": "9c8f3ff4b03174f65968505bb8d68b5007f19cf9f7ef45d439dfaa4554585723",
+    "bytes": 38212,
+    "gitBlob": "a5dec01c0f45d653d7ec9d57d6382e9339169532",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 5,
+    "photo": "integrated-defense/lesson-005/tb-005-provincial-council-formation.webp",
+    "sha256": "523c50b4d445c1f02fa478b31aa693470af64ef098b9fd2f6f4444dd453f93f5",
+    "bytes": 46424,
+    "gitBlob": "fa353803c4226e66db7a9639f4bcb79987b62cfb",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 5,
+    "photo": "integrated-defense/lesson-005/tb-005-working-committee-call.webp",
+    "sha256": "4b9dbefefa4ff20680f87712b250d43225808b0853bddfe89f6453bee5c42baf",
+    "bytes": 33720,
+    "gitBlob": "5924a354e5c1650072dc1e2fd5697d3bbf1b8179",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 5,
+    "photo": "integrated-defense/lesson-005/tb005-city-district-members.webp",
+    "sha256": "3df0b997b7d0c5bdb6579b023a078e4bb392bbde08398509b2fbe7942b98f3b6",
+    "bytes": 48996,
+    "gitBlob": "09a54e46c7d761c20a6a6d39913a73902070348e",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 5,
+    "photo": "integrated-defense/lesson-005/tb005-community-morale-relationship-v1.webp",
+    "sha256": "79ed34f874c965ce2ce86ffcd0e22d14c489c0df6d658c96e739bea4ba934ae5",
+    "bytes": 49666,
+    "gitBlob": "498d7265975b8f1bb8fdefac29e636f12ba7d975",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 5,
+    "photo": "integrated-defense/lesson-005/tb005-council-role-deliberation.webp",
+    "sha256": "e6056183e8b5c6417590e9feccaea9961d091543c003f3b3623bec74e20921d3",
+    "bytes": 47594,
+    "gitBlob": "2c7fa8322f99d6594a27c5fbc6f4f4ae259690c2",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 5,
+    "photo": "integrated-defense/lesson-005/tb005-local-ordinance-against-national-standard-v1.webp",
+    "sha256": "e313eb8937c4f229c0516faf7f352eb991c06a961a83fd6dc2ef95b95a6e3494",
+    "bytes": 48194,
+    "gitBlob": "4bdedb6fe4e3c51408f899889c72554a68dd35a3",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 5,
+    "photo": "integrated-defense/lesson-005/tb005-local-priorities-deliberation.webp",
+    "sha256": "95610f1eef866e954ab48c75acf7258300c4c831a5b24c41854721161f81be15",
+    "bytes": 49626,
+    "gitBlob": "19c8de51d43369f0b448891e4f8f036e3f186b4b",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 5,
+    "photo": "integrated-defense/lesson-005/tb005-merit-recommendation-preparation-v1.webp",
+    "sha256": "e5e4e8435ce68859b6ac29aec615c07c6ffc3ae26fe0c80b39fba3727719ba73",
+    "bytes": 49738,
+    "gitBlob": "bb50075661b77af60e09fc676bcaabc132c695c6",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 5,
+    "photo": "integrated-defense/lesson-005/tb005-multiagency-member-composition.webp",
+    "sha256": "78df55d87fd3f7f333f289cc1ff07326c7a98ff100a9144603b970b6a8489f95",
+    "bytes": 48804,
+    "gitBlob": "d0e6d3d90dd0ceecda00847523e5ed5f2977cb86",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 5,
+    "photo": "integrated-defense/lesson-005/tb005-regional-council-summary.webp",
+    "sha256": "fc3e2293f79d0e6d095f13767a4778029eb7f78c493b04474bf141617cd695c2",
+    "bytes": 40870,
+    "gitBlob": "f860e91e32d8757c6a28b4456e0db7fcf3f9bd27",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 5,
+    "photo": "integrated-defense/lesson-005/tb005-regional-exception-two-scales.webp",
+    "sha256": "9b0c83f29a5e6b262f5650cf10cba7f485ca1de7a608dce3314ac19ef9dac047",
+    "bytes": 43534,
+    "gitBlob": "f283508ac748bed85ed7e2218fb653903eb5f85f",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 5,
+    "photo": "integrated-defense/lesson-005/tb005-regular-extraordinary-call.webp",
+    "sha256": "1bcbb5fb915cbb654f90a74bb143bef4ea59d09313ad48df93f07d74866d7e9a",
+    "bytes": 49972,
+    "gitBlob": "791f1e5a409365c2470f5cc9bdb5bbde845b8283",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 5,
+    "photo": "integrated-defense/lesson-005/tb005-reserve-office-maintenance-v2.webp",
+    "sha256": "a0cd9ca2f655a8efac6448f3f884ef419222c50aef048b3c6d509b143f867ff1",
+    "bytes": 47932,
+    "gitBlob": "c9f78120100c9d3bd4cf1a41ccd6edd10a8b40c3",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 5,
+    "photo": "integrated-defense/lesson-005/tb005-resident-security-education-s05-left-v1.webp",
+    "sha256": "abe4e047c3f7b1f86eaf6638a747854b7a4c46a67cd51c24de295fefdc0336cd",
+    "bytes": 49784,
+    "gitBlob": "d33befe15aa9f39706969883710ba5f179906ac3",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 5,
+    "photo": "integrated-defense/lesson-005/tb005-staff-preliminary-check.webp",
+    "sha256": "be73a9d9da249d199f4bdf86b2d33a790cb5657227351a47e268b2fb69f64608",
+    "bytes": 49088,
+    "gitBlob": "9d803942cd84fb0a3035621ecf3efd1e0aa59089",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 5,
+    "photo": "integrated-defense/lesson-005/tb005-student-security-education-s05-right-v1.webp",
+    "sha256": "1673ab67c09ec46656775a2b43238ee969244e149441e514ed0b4e80e5415549",
+    "bytes": 49052,
+    "gitBlob": "2163de63201e496850aeb6d8be043ba092b8eea3",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 5,
+    "photo": "integrated-defense/lesson-005/tb005-support-role-processing.webp",
+    "sha256": "30a8307afac360e8c78b9deff55cb70d11729bd4e823162d2fb5d49ae21f2749",
+    "bytes": 47478,
+    "gitBlob": "77e383783d0344bd755cf7047cf12dee9930db09",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 5,
+    "photo": "integrated-defense/lesson-005/tb005-training-vehicle-support-v2.webp",
+    "sha256": "5f297b19c2531f294c40101611481b2aa8b1578abc22482d3b92761c2fb18ed2",
+    "bytes": 49196,
+    "gitBlob": "efb91e7659a3ad62268b772572d573b7148fbae1",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 5,
+    "photo": "integrated-defense/lesson-005/tb005-vulnerable-area-preparedness-admin-v1.webp",
+    "sha256": "6d9eb3cfea2df97d34e366cff42f6130c4ff861b8fbc2deb5d5095dbdcb1d2c9",
+    "bytes": 49940,
+    "gitBlob": "43f65483c07ba9584d0ff7a90da849bbe135f254",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 6,
+    "photo": "integrated-defense/lesson-006/tb-006-industrial-council-chair-composition.webp",
+    "sha256": "20b67fdc8bff803a4869e637db5276d415eecbbfc720107f88fe2030821ac0a4",
+    "bytes": 32176,
+    "gitBlob": "d11cbda80ebc73d3f31c337034f979c82964510e",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 6,
+    "photo": "integrated-defense/lesson-006/tb-006-industrial-office-rules-comparison.webp",
+    "sha256": "99cc175a71e0062911e3d9b7277f423ddd3557db6deee3882d7b164df7294851",
+    "bytes": 39950,
+    "gitBlob": "5516951579c2e91242b01962bb8ceee35de7859e",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 6,
+    "photo": "integrated-defense/lesson-006/tb006-combine-workplace-resource-folders-v1.webp",
+    "sha256": "3d0f321791a73c5a6b73f3b35b3de7a57cea0c11f2007b5fb288cd2c66eba5c3",
+    "bytes": 49680,
+    "gitBlob": "1c4e7dbf3a5f57ef87c991e069f126236efdb100",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 6,
+    "photo": "integrated-defense/lesson-006/tb006-workplace-council.webp",
+    "sha256": "890a804d32052258847a16fb23e3fa971f21ecacb644e856d7695d88f8ba307a",
+    "bytes": 46492,
+    "gitBlob": "ca2fa83fb7fa641e1bf6a8e3220cd7d235c58dce",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 6,
+    "photo": "integrated-defense/lesson-006/tb006-workplace-scope-sorting.webp",
+    "sha256": "17b5bfa2036c438078212512be67dfa46e2a723c50546a72855c56a7e68afd31",
+    "bytes": 47784,
+    "gitBlob": "0b2022b8edf609577228932f43a220108a959452",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 7,
+    "photo": "integrated-defense/lesson-007/tb-007-council-governance-summary.webp",
+    "sha256": "a79590b5336bbc3f517cdc7ff66398778a1cf1a2d671bb6d2dae985d78eff535",
+    "bytes": 49788,
+    "gitBlob": "39ce4b72f64a01ed4c80f4e92d97f1fcfd2e8e01",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 7,
+    "photo": "integrated-defense/lesson-007/tb-007-three-councils-review.webp",
+    "sha256": "401a87b799e63d06b2b18c14c68c5dee2ae48cadbee4090f1fd4103ff58bd3fd",
+    "bytes": 31906,
+    "gitBlob": "74e50518913ecf2096ec9292cc6482d752aa0148",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 7,
+    "photo": "integrated-defense/lesson-007/tb007-civil-coordination-meeting.webp",
+    "sha256": "4d2cfd6f332088e346c035dbeb5404a4aa9376ff53a9761dfed458d0fb5e1c77",
+    "bytes": 47724,
+    "gitBlob": "81f67dc238f10f82bd2a024b29c53ea494f98752",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 7,
+    "photo": "integrated-defense/lesson-007/tb007-councils-converge.webp",
+    "sha256": "a66c87797a7a10003447db54dc7aa644e6dab32ac9cdbe8819830779b59f9d96",
+    "bytes": 48828,
+    "gitBlob": "89ad1e03ae08076275eeaca1e9b6b2f2e4a39edf",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 7,
+    "photo": "integrated-defense/lesson-007/tb007-delegated-standard-check.webp",
+    "sha256": "c6aec76e286d64b3176170c53dbcc36b26f14073472f9fefb2aa6c4666e56ebd",
+    "bytes": 40332,
+    "gitBlob": "66b7751f4e8d2aefe85245454dd3bb821595f003",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 7,
+    "photo": "integrated-defense/lesson-007/tb007-equivalent-level-pairs.webp",
+    "sha256": "fa0b214bf93d6a24b7d418e87514b1fcef77c79d3d412da8a0a9508740b7d795",
+    "bytes": 48776,
+    "gitBlob": "e476d4f4439191a6beca7fca4b769033a4095047",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 7,
+    "photo": "integrated-defense/lesson-007/tb007-shared-meeting-option.webp",
+    "sha256": "c8b8877b4eb9717265c0d5a868227a5a7720a324ebd391239a7c11935a7b5995",
+    "bytes": 47642,
+    "gitBlob": "c2fdbef393a3b5605dac25c5b64d63df000ce368",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 8,
+    "photo": "integrated-defense/lesson-008/tb-008-administrative-responsibility-division.webp",
+    "sha256": "bc16ae6fe3b3edb74e0940c76dce4d0deae30cbe82af1fef2383d3cbefd1d3ee",
+    "bytes": 47218,
+    "gitBlob": "1754c508a171a58f55329d6835e0c66071cedd10",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 8,
+    "photo": "integrated-defense/lesson-008/tb-008-administrative-role-designation.webp",
+    "sha256": "70abbbafa76b46676cfedfc24ea69eefac023c58c8035ac8c26613f2e4c75fca",
+    "bytes": 48984,
+    "gitBlob": "a59d21edf30665ee939afe70e4a1920d749eaff0",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 8,
+    "photo": "integrated-defense/lesson-008/tb-008-award-recommendation-file.webp",
+    "sha256": "6d4498320bbe2eab34bf1722092d944d0d17d8e081bef565d1b00183a8b06b80",
+    "bytes": 22160,
+    "gitBlob": "cee843b0a5d0f43ae15d025f46854186a95b841f",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 8,
+    "photo": "integrated-defense/lesson-008/tb-008-headquarters-role-summary-review.webp",
+    "sha256": "3a38f016767305256fbdc2a12df481389233e5b44d94563f91be06a111f5f3c2",
+    "bytes": 36624,
+    "gitBlob": "4d1f7363f368701899c6ba81db9dd788fb6ab9f6",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 8,
+    "photo": "integrated-defense/lesson-008/tb-008-institutional-office-establishment.webp",
+    "sha256": "15224cd94b7f2973bdfb5fb36cf8cad2d850246444bdd4e3376ec822fe98e28f",
+    "bytes": 46518,
+    "gitBlob": "306692cb7ef52a18eb465af88a641bc8d68f1219",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 8,
+    "photo": "integrated-defense/lesson-008/tb-008-quarterly-meeting-planning.webp",
+    "sha256": "1a1cc5675644d04077ebb1c2303f6f99e259c55adb62aedb41c38e1001c7633e",
+    "bytes": 27960,
+    "gitBlob": "ac7ba7ed22486a50ffba8b3aa3dbb72ad02408f9",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 8,
+    "photo": "integrated-defense/lesson-008/tb-008-working-committee-chair.webp",
+    "sha256": "6671684c9dc69b0a2d995086e255f2992681320ccfbb44f7f9bfd91b36ec3231",
+    "bytes": 33786,
+    "gitBlob": "cdcef6474d25e2610c4aaa4cd0f96ec82672b060",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 8,
+    "photo": "integrated-defense/lesson-008/tb008-agency-work-schedule-coordination-v1.webp",
+    "sha256": "e1891d7fa60b018e8adf3c9dc7a611e45896f41fc2ffebcf85f0133a2abef46f",
+    "bytes": 49432,
+    "gitBlob": "74ad3fa5d8d27ea87bf119c1ba6b0d8bbac65143",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 8,
+    "photo": "integrated-defense/lesson-008/tb008-inspection-pulls-preparedness-folder-v1.webp",
+    "sha256": "b6263cdaf598f69dd0768ec0c3d6542be23d51dd2663bfb3fb5f5e333f4946f1",
+    "bytes": 49194,
+    "gitBlob": "fce67317391be435763af26fed3ae9b9074c4430",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 8,
+    "photo": "integrated-defense/lesson-008/tb008-working-committee-revision-draft-v1.webp",
+    "sha256": "8f116115ff8b4fbb50a6b33615d9b072b4d683d1441ba373c8dfd5c36335df56",
+    "bytes": 48456,
+    "gitBlob": "91213b081704f3798b04ab944b022d72a61e6559",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 9,
+    "photo": "integrated-defense/lesson-009/tb-009-district-responsibility-sorting.webp",
+    "sha256": "a1d27d1af689bc797a6d0798b7fba84e906cd3f2ba4daddf35357759431009cf",
+    "bytes": 49832,
+    "gitBlob": "dc35b46119a2333cb86c756adada39ef4db3739f",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 9,
+    "photo": "integrated-defense/lesson-009/tb-009-local-ordinance-standards.webp",
+    "sha256": "58366dee8725083a0db451326a80ba98874f0bafe971acde16fe0f242194b743",
+    "bytes": 48918,
+    "gitBlob": "7b1953376f96bce1f75957506c5f94d2914ef1b6",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 9,
+    "photo": "integrated-defense/lesson-009/tb-009-neighborhood-support-office.webp",
+    "sha256": "70224e629f79522567cb778c91eaad9fa2f6c05c2744eba698e1f9a3c609f753",
+    "bytes": 45442,
+    "gitBlob": "96b810bf3b2eabace076eb5cac30cc0eaa7be305",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 9,
+    "photo": "integrated-defense/lesson-009/tb-009-press-office-setup-support.webp",
+    "sha256": "8af93e7e192dad9bd518eb7eddda350003ac9a2b24f0d818cca791696dc757b1",
+    "bytes": 26056,
+    "gitBlob": "e620613f6b1c7f329c883c250b7859b41cfa5452",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 9,
+    "photo": "integrated-defense/lesson-009/tb009-local-press-room-setup-support-v1.webp",
+    "sha256": "881be484ebd98dbc6e23db317805f90fc890b2222b7daae3babff1aa26a71128",
+    "bytes": 47358,
+    "gitBlob": "fd6c757c9fadd5e3a98fe76f578d481b6cb0deef",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 10,
+    "photo": "integrated-defense/lesson-010/tb-010-agency-coordination.webp",
+    "sha256": "ed72d5ace312225d4ffde7e893e123c17510bcdcd3df73c158eb0bbaa21079f7",
+    "bytes": 48100,
+    "gitBlob": "663205e2ca9d994648769342f4f5080d2d678d16",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 10,
+    "photo": "integrated-defense/lesson-010/tb-010-temporary-admin-desk.webp",
+    "sha256": "a54703ab58687fd0a88498c57c02a90374a90b8a122a8b92f7b4e46275b51d05",
+    "bytes": 33988,
+    "gitBlob": "fe208c15eb630d24298e06e59add27ef1f010f4b",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 11,
+    "photo": "integrated-defense/lesson-011/tb-011-central-media-center-setup.webp",
+    "sha256": "6236cd2d9ae1daa04fcae8e7b8cace4a77ea51e9312beb71223161dc1551701f",
+    "bytes": 38698,
+    "gitBlob": "9a519185d31340d345b63c386a915a511cc7e2f0",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 11,
+    "photo": "integrated-defense/lesson-011/tb-011-local-media-center-setup.webp",
+    "sha256": "2160913c31914b9c2e1f9c6e7249ba9cff9e1ce16e3ff5e58cc1aa0bd7db4a74",
+    "bytes": 34230,
+    "gitBlob": "8faeca2dca299d3055bb6a625b165bc773c02ce7",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 11,
+    "photo": "integrated-defense/lesson-011/tb-011-temporary-interview-area.webp",
+    "sha256": "06e23036cc86495d027239740afea88ff243e79c5fc6dcb893a6dc9d3690e91e",
+    "bytes": 44340,
+    "gitBlob": "d7262deb9b321425efef39a9597be6fc1767781a",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 11,
+    "photo": "integrated-defense/lesson-011/tb011-briefing-through-press-headquarters-v1.webp",
+    "sha256": "6b16eba98801bbf7e213ec06728aca3fd557c32c8db9c03764a4b00b9083a3ee",
+    "bytes": 48292,
+    "gitBlob": "1ac52abdbf991ea4f0f76f46e8c8f4b710a70025",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 13,
+    "photo": "integrated-defense/lesson-013/tb-013-ministry-recommendation-folder.webp",
+    "sha256": "cb542b7741038ba4db3935d0ebf884bae4424eb5bae254e0daa467a42353861f",
+    "bytes": 38332,
+    "gitBlob": "7f0cbf9ad9b4d412fc57f8620f7346bedc5c7a5d",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 13,
+    "photo": "integrated-defense/lesson-013/tb-013-two-agency-draft-path.webp",
+    "sha256": "4f352dcb5ee1d3bbf9a9afcbfa8d8ccec4324e72de99c0e51e8e9a68ca67e66b",
+    "bytes": 42974,
+    "gitBlob": "d129bba187caa69d127d33722696618c061c79b0",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 13,
+    "photo": "integrated-defense/lesson-013/tb013-written-notice-to-local-authority-left-v1.webp",
+    "sha256": "ee4d65219f4a42e173d2d51135a97007fe82a8cbbcb03281f09b3523eeb6fbd3",
+    "bytes": 49796,
+    "gitBlob": "2f6469d3051bb5df4081ad8250677c89f844afa8",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 14,
+    "photo": "integrated-defense/lesson-014/tb014-assembly-recall-request.webp",
+    "sha256": "d79f8b5d45aa41609b48c0ae963b999d815ebb13d39d162c843be945f7573a21",
+    "bytes": 44566,
+    "gitBlob": "f7902576a1a3d58e455779d4384b678d3fc6aba2",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 14,
+    "photo": "integrated-defense/lesson-014/tb014-local-assembly-notice.webp",
+    "sha256": "5de617ea27633c7014e0811e90360586e733c71cc78c8c4d6c9abb1111b6ee68",
+    "bytes": 36424,
+    "gitBlob": "ecc1dfa4b27c861e9922486398397a49fa866caf",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 14,
+    "photo": "integrated-defense/lesson-014/tb014-national-notice-intake.webp",
+    "sha256": "fc391457adeaef69458a7bc6d304ebc6ab781830384a708ffd55ef1766fdb6d2",
+    "bytes": 47558,
+    "gitBlob": "d184ead3cb16b205bd699a0bc1d8123b31d706d5",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 14,
+    "photo": "integrated-defense/lesson-014/tb014-order-notice-sequence.webp",
+    "sha256": "b353f958237d7068174c15d613ced1c9a7c75f04a984f8ee868665c824d4dc6f",
+    "bytes": 26766,
+    "gitBlob": "87e7fd92b5bfe7e42fe83890c9b3f6813a2814e2",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 15,
+    "photo": "integrated-defense/lesson-015/tb015-national-lifting-notice.webp",
+    "sha256": "6fec11620920951a451fec207f5af0f6d36e705c30f7a6f387151723b5836b93",
+    "bytes": 29996,
+    "gitBlob": "4618f36dcbb7bc447d5f0221374d6e081c8d4968",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 15,
+    "photo": "integrated-defense/lesson-015/tb015-provincial-review.webp",
+    "sha256": "dd63969acaf1ed133faefa26f3c2f369380d0f0eb623bf159372a9bf1a70bf11",
+    "bytes": 48720,
+    "gitBlob": "54b1a6365dd14a172d11841e48d61ec793955080",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 15,
+    "photo": "integrated-defense/lesson-015/tb015-review-release-sequence.webp",
+    "sha256": "13aaba7aaf973988873b86b5e758db68bd0904a323995fead31acd8205c3ed37",
+    "bytes": 48028,
+    "gitBlob": "7c084094279f9dc32e3fff8a8d21141f6f93bae3",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 18,
+    "photo": "integrated-defense/lesson-018/tb018-community-loudspeaker-announcement-v1.webp",
+    "sha256": "8963122de24a90964818ae0e0cccd814d8e5e8335274e86d3d4db50245ed9412",
+    "bytes": 49580,
+    "gitBlob": "c622007f7cb0d33b7f2a5b142a444392b90927db",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 21,
+    "photo": "integrated-defense/lesson-021/tb021-principal-starts-school-drill-analogy.webp",
+    "sha256": "7f435e44da86dbf183985bcd441d73b0359eacdf6ccc908e7c6b9b55b58bd9be",
+    "bytes": 48796,
+    "gitBlob": "ee76afdeac731809165686f9f80b8716bfcaa82d",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 22,
+    "photo": "integrated-defense/lesson-022/tb022-moving-roles-agreement-analogy.webp",
+    "sha256": "92e563fdf265e4d05271d4aa6a2aced5ae014200623823a06c244f8f5d048d29",
+    "bytes": 49794,
+    "gitBlob": "2f3134bfd78b1fa10fc07ab8ec3b6ff72e31f98a",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 22,
+    "photo": "integrated-defense/lesson-022/tb022-owner-and-operator-shared-responsibility-analogy.webp",
+    "sha256": "5fa6b0af7aa76c199117fd14a294ada57d56450936358b381f3655efcab0a4c3",
+    "bytes": 49716,
+    "gitBlob": "97314cae70151174f58d59b7dfdf4913cd811240",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 22,
+    "photo": "integrated-defense/lesson-022/tb022-school-inspector-routine-check-analogy.webp",
+    "sha256": "eb8b10d4a39c19ab1275728b4524d85d6a9df111a23850d15eb1ef2e3e5762e2",
+    "bytes": 49760,
+    "gitBlob": "a332c8cc530d1f4427ed71e7c3ca94da159a88d0",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 23,
+    "photo": "integrated-defense/lesson-023/tb023-class-report-to-school-nurse-analogy.webp",
+    "sha256": "161bbb720ce591b334a9829d7b3ac67336c31e86c0d281d966d3eeca191189e8",
+    "bytes": 49064,
+    "gitBlob": "7e35ed2dfabbd1e7bd15bf5172e2cf342e1a40bf",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 23,
+    "photo": "integrated-defense/lesson-023/tb023-playground-resident-deliberation-analogy.webp",
+    "sha256": "ee7177d0c5763812cdc8e2c0402b1963acec9f515d830b7a2e94bfce8f047fdf",
+    "bytes": 48944,
+    "gitBlob": "1dc11749c0446a5f2ee5a4ded8243f91a04fd58e",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 23,
+    "photo": "integrated-defense/lesson-023/tb023-school-meal-within-standards-analogy.webp",
+    "sha256": "f082ab3fdbecaf589306efb5f512c8e9548d2154dfda491c83f0bc82515063da",
+    "bytes": 49718,
+    "gitBlob": "b77ec03dd32a5a80316b8a462e3bc6a536c97655",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 23,
+    "photo": "integrated-defense/lesson-023/tb023-two-complexes-shared-park-mediation-analogy.webp",
+    "sha256": "06bc37a4ed078a98114043b1177047740cbf3bfce6dbff0a80d290421dce96f2",
+    "bytes": 49548,
+    "gitBlob": "1e0e3bbe9c229fdc14dfa4c56ec81f9bbf9dd266",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 24,
+    "photo": "integrated-defense/lesson-024/tb-024-administrative-review-file.webp",
+    "sha256": "0bd2a21d7175bf2e317875869dc02ba6be8742b6e79bb376c70bcbcebf8f79eb",
+    "bytes": 39866,
+    "gitBlob": "1f7215cdec96ce3cec8d88af2ca4d3ec58d9b0c3",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 24,
+    "photo": "integrated-defense/lesson-024/tb024-admin-review-material-request.webp",
+    "sha256": "89151c3091a4dd9b5529785b7db2a231e39c95256b57f8ca325d8adeb82a4d31",
+    "bytes": 42738,
+    "gitBlob": "503e02f85c22d243242db8eccdab9ea143180d52",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 24,
+    "photo": "integrated-defense/lesson-024/tb024-committee-recommendation-review.webp",
+    "sha256": "a605f6278556d801a044c05e0d0ad5ad86c27b1bfe3db06dd8e26f582a84e474",
+    "bytes": 37366,
+    "gitBlob": "6f7d87bdf7031e6cd3c64b0ac3707f6060e75441",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "integrated-defense",
+    "lesson": 24,
+    "photo": "integrated-defense/lesson-024/tb024-personnel-notification-to-employer-v1.webp",
+    "sha256": "f7d6f41fb81f6b8b12cadf746243c0ad10f6cf67697f37f72e3b6b1802e6fe29",
+    "bytes": 49068,
+    "gitBlob": "4d3f949a413e55170bd03e2ee4255f8b6c1df513",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 5,
+    "photo": "military-service-act/lesson-005/ms005-field-day-active-runner.webp",
+    "sha256": "0054808e05716d5a0440ed0d071b1edd2d527e9a435caa107d5bd3c3539f1869",
+    "bytes": 49700,
+    "gitBlob": "1c050f058ab12551acfb7a2dc8c926d1b6a270fa",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 5,
+    "photo": "military-service-act/lesson-005/ms005-field-day-reserve-runner-waits.webp",
+    "sha256": "fb9e03ea787bd08902f5980bcfa487eae21ab49501252513f037d489741e83f1",
+    "bytes": 49960,
+    "gitBlob": "91a9435bf68ef32cc2a4da5c93586cfe52864c47",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 5,
+    "photo": "military-service-act/lesson-005/ms005-field-day-support-water-duty.webp",
+    "sha256": "840a9846591d6ef9dbae0998d7aeac7ca7adabdaeee27d36713357fa82adb5b2",
+    "bytes": 49088,
+    "gitBlob": "1159772ddd30d058be793bed696f957f6714d7f6",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 6,
+    "photo": "military-service-act/lesson-006/ms006-application-intake.webp",
+    "sha256": "8af7ae34d6949019d1e2ca7911b44757fdb4f4271ab827f7c5ebd02122258111",
+    "bytes": 31554,
+    "gitBlob": "9ed63451df3c6d3bdff654363c585ce5465c855a",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 7,
+    "photo": "military-service-act/lesson-007/ms007-notice-delivery.webp",
+    "sha256": "b76c140bb0e81304d3a97f36877d28d6ce41a6bc09adc04e4a06bef311ce44e5",
+    "bytes": 43340,
+    "gitBlob": "9770c42fbbbfed5fa8002fea01732b3678cdcea6",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 7,
+    "photo": "military-service-act/lesson-007/ms007-sealed-notice-doorstep.webp",
+    "sha256": "d80e6c06739623125f730038bbd73e4a0f2962f2c5d04fe06de7cd5de77589d6",
+    "bytes": 47566,
+    "gitBlob": "b0e8a639a970e7c66529b3f66e2526b1e3982df6",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 8,
+    "photo": "military-service-act/lesson-008/ms008-change-notice-check.webp",
+    "sha256": "26c82430578bc15258305f2a5dd208a40da6978cdf755977d29cc4585e06198a",
+    "bytes": 49410,
+    "gitBlob": "bf1ec45579576615730e9a29699c1599174b854f",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 9,
+    "photo": "military-service-act/lesson-009/ms009-id-pickup.webp",
+    "sha256": "ce7fac4f16b4b27aa323a4fd942816146906466be0bd64b012e18e2dc10ddf16",
+    "bytes": 23854,
+    "gitBlob": "4dffec4b0d17f8d9100c63e88ab6936c8e4354b3",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 10,
+    "photo": "military-service-act/lesson-010/ms010-registry-intake.webp",
+    "sha256": "cfb675f641647b6e01e9f2667015ca1e36a330220bfcba1746d681df1decf6fd",
+    "bytes": 27672,
+    "gitBlob": "5137186bef77cf1f82b8629f67f76e90386212a9",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 11,
+    "photo": "military-service-act/lesson-011/ms011-central-hub-receives-parcels-first.webp",
+    "sha256": "47d18bd61d5f00b0e0571115355c3503536accdba0fdc16120bb798de4ed677d",
+    "bytes": 49510,
+    "gitBlob": "eb263118f78077fc654028312a6f1b0fd1def2ea",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 11,
+    "photo": "military-service-act/lesson-011/ms011-regional-branch-receives-sorted-parcels.webp",
+    "sha256": "4cbeb35e82e8634780bde4737f11f8724c3145513f9e55daafd7ae3060a8732b",
+    "bytes": 49608,
+    "gitBlob": "fdc37df55b5f22cfd39917ea97d9f7e883b873d1",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 12,
+    "photo": "military-service-act/lesson-012/ms012-screening-roster-review.webp",
+    "sha256": "b5f85611bea2163307e249a24fa82b45374b53921f2a25e8ada61dd4a308d9de",
+    "bytes": 47252,
+    "gitBlob": "984d48a0ff005bfbd5f01335676b2f6e59133fae",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 13,
+    "photo": "military-service-act/lesson-013/ms013-neutral-examination-vision.webp",
+    "sha256": "ffdc78cdfd3208ae0b51e46d6cd41e90669479b096ee7f7a9c89e37972643180",
+    "bytes": 25248,
+    "gitBlob": "b41aff586b22cb88fd8127ed5cc1beca612c138c",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 13,
+    "photo": "military-service-act/lesson-013/ms013-screening-intake.webp",
+    "sha256": "278b3d6df1f37a8955ba974352034e03ece577e9f405a718369f51ced978f9dd",
+    "bytes": 26060,
+    "gitBlob": "e8276df5ee945ae04446390cee0e7ab517f10e0c",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 14,
+    "photo": "military-service-act/lesson-014/ms014-submit-records.webp",
+    "sha256": "15d86e3a1273c8d7b7a3e26f6e36096de7a4caef0235b24af431844c8918b72f",
+    "bytes": 48826,
+    "gitBlob": "b3f4df7064785e8bda82b9b8e364add7fbfe03ca",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 15,
+    "photo": "military-service-act/lesson-015/ms015-rating-record-review.webp",
+    "sha256": "18e1d79eb9722ddae7246ab10ddcec8fe0446f577b5c8f44ce5c59448524d913",
+    "bytes": 26648,
+    "gitBlob": "4d37ba21f3e591d701d91c4beb8c191ccc655c25",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 17,
+    "photo": "military-service-act/lesson-017/ms017-drawing-aptitude-demonstration.webp",
+    "sha256": "a2bbbc3f1a9971bf159acc6dba17cc9d74c48a2f4005ffd7a98de2388cbed76c",
+    "bytes": 49572,
+    "gitBlob": "b7945f77e94c5a4a25523e23199b1d4bcdd39d93",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 17,
+    "photo": "military-service-act/lesson-017/ms017-musical-aptitude-demonstration.webp",
+    "sha256": "a8f590df6163495af1bef9789e6bf85dc13618fc0a08d5a3179d10bd797a8813",
+    "bytes": 48966,
+    "gitBlob": "fc8842975d36a40092d0059af033d33d67a437b6",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 18,
+    "photo": "military-service-act/lesson-018/ms018-license-check.webp",
+    "sha256": "2969d6ca1eb276d1fbb2538b1c6dff4234a351bed7e167d16bb3c4a02a1c5ffa",
+    "bytes": 30868,
+    "gitBlob": "24edf237e1810974247948b06a348fcd8876f609",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 25,
+    "photo": "military-service-act/lesson-025/ms025-calendar-counter.webp",
+    "sha256": "bc0d6b34d8175ea861f1de43ccc702bbe03b835d79ce9ea554ba294732a6e1eb",
+    "bytes": 43878,
+    "gitBlob": "074db650c04b50701d980c194fb2f382b80b16f7",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 26,
+    "photo": "military-service-act/lesson-026/ms026-audition-selector-shows-score-board.webp",
+    "sha256": "3b97df6c6b8618acd33c4fc8a8b8c9ca3e14c0ce25a29dfe624c86f7bb81b8f2",
+    "bytes": 48264,
+    "gitBlob": "977c690c330fb16b4629f381eb0a6c453d3400df",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 28,
+    "photo": "military-service-act/lesson-028/ms028-classroom-assessment.webp",
+    "sha256": "b6537d1b127c637e9e99fcc749a830a39893904bb3373b858941c1fdd74e52fa",
+    "bytes": 32410,
+    "gitBlob": "a6ef50c5f7f017025e79cf8c553aa8251f12c494",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 29,
+    "photo": "military-service-act/lesson-029/ms029-school-record-request.webp",
+    "sha256": "6cc2269a3d58d715a4c4bc69072457940704fccd1de0784254d1442fa4e09d8f",
+    "bytes": 30004,
+    "gitBlob": "2982017b5912fb931f2a929f029901a36373e7ee",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 38,
+    "photo": "military-service-act/lesson-038/ms038-shipping-pledge.webp",
+    "sha256": "8e0727e30bdcb6bf02633b27f66206931f636a817b047e29ddd45814c4d9b3ab",
+    "bytes": 35310,
+    "gitBlob": "a60c71b1ce721e1e18b0a7d459888963d972d4a3",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 41,
+    "photo": "military-service-act/lesson-041/ms041-social-service-staffing.webp",
+    "sha256": "44d848b3fa9e41c1a454988858290a1b50a339088633c5d4c8f5b33b82fc18b8",
+    "bytes": 29816,
+    "gitBlob": "e4aecf2ea81bee43bb63320c60ed448b556bd1d3",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 46,
+    "photo": "military-service-act/lesson-046/ms046-social-service-supervision.webp",
+    "sha256": "2c26e7db1d5135a1998d9e4d1fc3d964d9483a1d7cfcf7a4601d3b9b2a20409b",
+    "bytes": 47594,
+    "gitBlob": "8190a08a487409b402cb19715432d67240e43689",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 47,
+    "photo": "military-service-act/lesson-047/ms047-separated-service-periods.webp",
+    "sha256": "418d016a2ab00409bca9beebdd1c3f4a33c713813fd2236fd0ce6637bdbd027d",
+    "bytes": 46816,
+    "gitBlob": "6e59ec7036043179b842bc4111efbb0a97fc5a69",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 49,
+    "photo": "military-service-act/lesson-049/ms049-respectful-workplace-conversation.webp",
+    "sha256": "f2cf8375cb9e730dfcbe9f054c972693ff927abacdee3aec7c3bbf81b450b784",
+    "bytes": 49122,
+    "gitBlob": "d855bb83df8a70e889bfa6040505d33bb8d1242f",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 50,
+    "photo": "military-service-act/lesson-050/ms050-workplace-resolution-consult.webp",
+    "sha256": "d090dd12c7c1acdbaa9308aff6f4bf0c5a9b1f5706f6765fdb1555455b9fa782",
+    "bytes": 42562,
+    "gitBlob": "a9eb849e61db1f8e71ff9c8af0e198b2db02e7ce",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 55,
+    "photo": "military-service-act/lesson-055/ms055-service-orientation-class.webp",
+    "sha256": "0fb7ec4ea2fbd0b36b764478ad77ddad94706cc9592af6a85040ecdf6c37c6f4",
+    "bytes": 47464,
+    "gitBlob": "12422e98fb19c72e648974e13bd539a7ad10205f",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 56,
+    "photo": "military-service-act/lesson-056/ms056-arts-athletic-intake.webp",
+    "sha256": "a5c7d7cd2cdbb27a6b189b931c35ce68b1f52a07f5b7e7c5899595c3d381d966",
+    "bytes": 46576,
+    "gitBlob": "605b5c7bbdd5968904e614d4b3dd39b3c8f1c158",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 60,
+    "photo": "military-service-act/lesson-060/ms060-theater-rehearsal-orientation.webp",
+    "sha256": "983b234eb3b8c32800fc3b3694154a3fc381ecb3a907fc9ead5d6e9aa3aea364",
+    "bytes": 49156,
+    "gitBlob": "a4d204604b164ce09251706102c2da44612a1b54",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 61,
+    "photo": "military-service-act/lesson-061/ms061-public-health-orientation.webp",
+    "sha256": "e646eb4e834d30189f437231091205c1896b3f0dae89dbf232521a3d9bfaabd0",
+    "bytes": 44976,
+    "gitBlob": "48b8a056af5a0765afccfbaf258cdcc8914320d8",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 65,
+    "photo": "military-service-act/lesson-065/ms065-administrative-hearing.webp",
+    "sha256": "2d3bbd12036dbdc7b297a3ed94627bd6512ceda83c916f6b76db0e39c3702b5e",
+    "bytes": 37788,
+    "gitBlob": "9c6761bb12f283efb1ff1eaa06a57cc20905e55d",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 66,
+    "photo": "military-service-act/lesson-066/ms066-legal-services-onboarding.webp",
+    "sha256": "371b1963a4940c449dc676278db35232a61657bc43722cd45a463883eb56d493",
+    "bytes": 46530,
+    "gitBlob": "72bee52c365d4f0011499a35d55a0e2451f67581",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 71,
+    "photo": "military-service-act/lesson-071/ms071-workplace-review.webp",
+    "sha256": "8ef9aa69de7be8ec090285337bdee75782663ef2616d769caa274db9a8196ce0",
+    "bytes": 46996,
+    "gitBlob": "d605b7f175449380bf326cb1847ed0b5ae80dc97",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 72,
+    "photo": "military-service-act/lesson-072/ms072-civilian-lab-research-setting.webp",
+    "sha256": "5e88fbcfd5f1af49f434619328e0e0592e000670d416c48fcb32e1b176d45d78",
+    "bytes": 49618,
+    "gitBlob": "329cdb789f7244a9ad3c454ef78caab0752adb00",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 73,
+    "photo": "military-service-act/lesson-073/ms073-civilian-workshop-technical-role.webp",
+    "sha256": "2d20e32a55dadd977c48db361e03763dad2edd9698292e9d6db5bc1e0f410518",
+    "bytes": 49346,
+    "gitBlob": "beb08224be5d0e869a19dfbc6a56c1c4c16aa228",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 93,
+    "photo": "military-service-act/lesson-093/ms093-student-classroom.webp",
+    "sha256": "9f402c0e509c87dd592739030aefb48d9db36988eec88ab806688c1375f5a5d4",
+    "bytes": 47764,
+    "gitBlob": "d431d0d3f1089ed886094c42d24172be29696e78",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 94,
+    "photo": "military-service-act/lesson-094/ms094-professional-file.webp",
+    "sha256": "cb412aead358e573f72d64032e1a8815497d1e10b12bfa42470a168cc22d036c",
+    "bytes": 44430,
+    "gitBlob": "c608e2d5794884832584406b92b5f2708804c5f6",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 96,
+    "photo": "military-service-act/lesson-096/ms096-rescheduling-counter.webp",
+    "sha256": "8dc6f897de0f8379f5b235d043c63ac29d478c08add4d6e2c3205547d8e93d62",
+    "bytes": 46294,
+    "gitBlob": "6b5bc4967a2f3d5b725b32b80b782083a84f0a9f",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 98,
+    "photo": "military-service-act/lesson-098/ms098-family-circumstances-filing.webp",
+    "sha256": "b4f908ba077f6588128c9b51bc4727e23f0028adcfeeadf1d16732324a924958",
+    "bytes": 48440,
+    "gitBlob": "a192b2ee99fddab2517c46f5ffd6b1b0df521179",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 100,
+    "photo": "military-service-act/lesson-100/ms100-service-release-request.webp",
+    "sha256": "643156e6e46fee63a78c4afe1449ef4f54f16106c5e38a7c17bb41f8761a4c14",
+    "bytes": 40850,
+    "gitBlob": "f445eec9580a77c245aa4f9cc85836cb0623bdde",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 102,
+    "photo": "military-service-act/lesson-102/ms102-administrative-record-revision.webp",
+    "sha256": "bbe6d87a25a7330394cabd4e518caedcbebb3e5e544b65f1207d50fbbe893162",
+    "bytes": 49354,
+    "gitBlob": "c9c6b3c448ded9ce8413c237d0861d2e92fc3a2a",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 107,
+    "photo": "military-service-act/lesson-107/ms107-moving-address-report.webp",
+    "sha256": "35a986940aba0a5ae5c42f47c5d24a5ac1027ae7f49757482cfbe4c102f04e08",
+    "bytes": 31318,
+    "gitBlob": "71744080ac8961fcd200e18c374b2b5e79b1c8d8",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 109,
+    "photo": "military-service-act/lesson-109/ms109-travel-permission-preparation.webp",
+    "sha256": "c6a0e9171ac2d7aad46f3c291576be63de393c6d45069e1027845c930ca1ac9b",
+    "bytes": 47942,
+    "gitBlob": "00e626a0c948f9dff122ceae150c994d2c82fd2e",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 112,
+    "photo": "military-service-act/lesson-112/ms112-return-to-study.webp",
+    "sha256": "aeaaad50b1e1f3f409285cd26614c23241dbd57a0a31c5394db30559703a6c10",
+    "bytes": 47520,
+    "gitBlob": "21e026dcfb3d225241b1b59693eb9a975b733c03",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 113,
+    "photo": "military-service-act/lesson-113/ms113-return-to-work.webp",
+    "sha256": "02b7369e64edc12d873907a9580b5cfad9c1ec0dae7b15de5881fa5afa1c6992",
+    "bytes": 40602,
+    "gitBlob": "460ac373c7c9f43d95c1fa10ea72a409b96e83f2",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 114,
+    "photo": "military-service-act/lesson-114/ms114-employment-interview.webp",
+    "sha256": "9b059709a194b6480624a6a976ab3cd2ae1c9d5d124ceb1e13ac7202d93e1c4a",
+    "bytes": 48878,
+    "gitBlob": "147c1b311abf2cf7405b38a3005628c3d43f0769",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 115,
+    "photo": "military-service-act/lesson-115/ms115-academic-continuity-study.webp",
+    "sha256": "49546348298175525da76f21a221c28b8909e3010da0000b66492e5e82bf3d22",
+    "bytes": 49542,
+    "gitBlob": "362405949fde6b6e1c59620ac76693e9b3c39db8",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 117,
+    "photo": "military-service-act/lesson-117/ms117-excess-period-discretion-discussion.webp",
+    "sha256": "a5abe89bb39877dd767de3db31d5ec956f340d8474b17c576218f78bb91d90e1",
+    "bytes": 49704,
+    "gitBlob": "6361b07460a2f548ad956c8bf91ff0ad213e7c1a",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 117,
+    "photo": "military-service-act/lesson-117/ms117-protected-period-schedule-review.webp",
+    "sha256": "8adeda7c04d6f8765788189897ee281b3b8e7cc0de12c8f56e71b5e49094f38a",
+    "bytes": 49314,
+    "gitBlob": "556707227200c833e2c895624524e71bc66e468f",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 118,
+    "photo": "military-service-act/lesson-118/ms118-workplace-assignment-correction.webp",
+    "sha256": "7aeaf6381a0095e973a3f74ee16e1c81b7c71b5697475c609318397629c281e2",
+    "bytes": 49166,
+    "gitBlob": "5a856b2a4a95b6f9f85dd68f16f35b267d92ebce",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 119,
+    "photo": "military-service-act/lesson-119/ms119-after-home-arrival-boundary.webp",
+    "sha256": "695e49c007a4b6723e490d71834b3adf5902847d15611a1223ee65c058f80118",
+    "bytes": 47118,
+    "gitBlob": "abbf9abf9a5e42e8c72ad451e3eb8f42558c70b7",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 119,
+    "photo": "military-service-act/lesson-119/ms119-designated-outbound-journey.webp",
+    "sha256": "aa2f12264b2f2b19583fab60b331216bf69216b6230351330fd6b25d60058192",
+    "bytes": 49716,
+    "gitBlob": "1abf20e133671aaa780032f6de7932a68a1a2282",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 119,
+    "photo": "military-service-act/lesson-119/ms119-released-homebound-journey.webp",
+    "sha256": "c9aa503d78b0ab2895d9b8435a49790e94d045110158ae7f3b150079e1df06c6",
+    "bytes": 49342,
+    "gitBlob": "827ad44d7af7029c00afe8321275759d2d3baa43",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 120,
+    "photo": "military-service-act/lesson-120/ms120-treatment-related-shop-closure.webp",
+    "sha256": "92407ea69e84c09bdde8b370d292b7f5e49c85ca3e15e79a9466359f2ae3c4c4",
+    "bytes": 49450,
+    "gitBlob": "bd97267101c9795c1a6b49d773d8d7b9b559fbc2",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 121,
+    "photo": "military-service-act/lesson-121/ms121-insurance-explainer.webp",
+    "sha256": "1bab1c722d3113f4d933a6a2c47f923bc35ece07ceb44908dac51ceff1ee5181",
+    "bytes": 47698,
+    "gitBlob": "1ed10f0fa5713bd59f16b198b82022543a391916",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 122,
+    "photo": "military-service-act/lesson-122/ms122-electronic-status-check-first.webp",
+    "sha256": "20043ab43467a19226d5cb3582e9e4b9d18d3a59bea12c1499dc19e34f0a92a6",
+    "bytes": 49132,
+    "gitBlob": "48cda806db2674bf0fa08a8d9c040cba8d1e4ff3",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 122,
+    "photo": "military-service-act/lesson-122/ms122-fallback-paper-record-separate-storage.webp",
+    "sha256": "4c847de8fea580ebff5551a7005601d5091c55356937eb3eecce9e59a0ceeda8",
+    "bytes": 48162,
+    "gitBlob": "0fd981af497841adaf2f169f1ab096e061a80023",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 125,
+    "photo": "military-service-act/lesson-125/ms125-health-premium-help.webp",
+    "sha256": "d447f4e6764b2402c2b049bd4946609deb3c8c684256667a882a2aaedf2bcc8e",
+    "bytes": 46176,
+    "gitBlob": "f37ca44bafb2843c6f8baaa0737741eea80168ce",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 130,
+    "photo": "military-service-act/lesson-130/ms130-cancelled-trip-unused-fare-return.webp",
+    "sha256": "6798c16d8b0c1c3dd8f9d8efcda7bad86c42a575bd428497eee63e2bac010951",
+    "bytes": 47344,
+    "gitBlob": "1e6e06d4cddb1c421ce59d065f48d9d3e8f747d3",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 130,
+    "photo": "military-service-act/lesson-130/ms130-travel-expense-documents.webp",
+    "sha256": "68efc113eb55363b7e84879360163445bc9afd18bfba89749bfa00b333178bcd",
+    "bytes": 38946,
+    "gitBlob": "f5e6fa0dcd95fbba4efb4c857bcec30e7a538867",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 131,
+    "photo": "military-service-act/lesson-131/ms131-savings-support-bank-consultation.webp",
+    "sha256": "3a5df5e28fca519a4b76f2450c42c4d2bcf2c6f0cd1e923806aa510793d8d6ed",
+    "bytes": 46552,
+    "gitBlob": "d2f405a9ba9907bcc5a06236646364117f3dad85",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 132,
+    "photo": "military-service-act/lesson-132/ms132-civic-cooperation.webp",
+    "sha256": "559cf24f77d93962f5ec0617358bb5bad25a743ec5ecbc3437d9f52e35dd0000",
+    "bytes": 48570,
+    "gitBlob": "acd19af20d0f33041150d4e41dcf35c6cafe9838",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 137,
+    "photo": "military-service-act/lesson-137/ms137-finish-line-completion-medal.webp",
+    "sha256": "cfd5d96264feb83100d91eb6387c2a5f1e0010208f1d44fd863627ff82862e07",
+    "bytes": 47932,
+    "gitBlob": "fb7a5e2b84baade24f05312b898b762b4f08c97e",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 137,
+    "photo": "military-service-act/lesson-137/ms137-pre-event-publicity-poster.webp",
+    "sha256": "fb0b1b1abe029e1abf8bbbd6d81fc34d9421bd787820740ab1d038b2adac5503",
+    "bytes": 49264,
+    "gitBlob": "4c2c3cd8851970186467280b5f4065ef6dd3216f",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 137,
+    "photo": "military-service-act/lesson-137/ms137-pre-event-warmup-education.webp",
+    "sha256": "44e1f06413e871499dc2a8796b94d176a45003ceb244b409862ef3416b143374",
+    "bytes": 49324,
+    "gitBlob": "fb50f3cbeb1ef8a3668561f749ebe928ccae3eaf",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 138,
+    "photo": "military-service-act/lesson-138/ms138-third-generation-daughter-keeps-restaurant.webp",
+    "sha256": "64a6fed470f3b8bbe580450138826209fd9198817ab70f8b15d368ba2def0950",
+    "bytes": 49690,
+    "gitBlob": "af5b18cc71a1eb84f9497855a0aac57d9dde7ebd",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 138,
+    "photo": "military-service-act/lesson-138/ms138-withdraw-restaurant-certification-sticker.webp",
+    "sha256": "126103d45d3ab4d4271961183c955f8b6c27947720665b3a07eb47efd58d9215",
+    "bytes": 49640,
+    "gitBlob": "340a198c2f7530ce9725492a8fc3143f0c3a7d32",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 139,
+    "photo": "military-service-act/lesson-139/ms139-service-honor-ceremonial-moment.webp",
+    "sha256": "770e9fcf8e49a15916b95213e68af481fb428df3c8ffda9319c421c4e57b15f7",
+    "bytes": 43530,
+    "gitBlob": "50f2a4b3acc4674d342ebbc3b43488e29e5a7a9e",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 140,
+    "photo": "military-service-act/lesson-140/ms140-public-service-orientation.webp",
+    "sha256": "313e7e2cf17b3be2880e8e3eb513ea4929a7531136835952d339ef24da259b3a",
+    "bytes": 46544,
+    "gitBlob": "f0cd4a1154e32e3ba747531bb892fd9f1a192c5d",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 142,
+    "photo": "military-service-act/lesson-142/ms142-committee-review.webp",
+    "sha256": "3ccf99327a1e0adde64471b022822fe302a8ee469c1cf7d1cacef575bbab3941",
+    "bytes": 48700,
+    "gitBlob": "58b5c75ea5d44515b24e063734bd17f75f0a6b2b",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 143,
+    "photo": "military-service-act/lesson-143/ms143-at-home-wristband-not-required.webp",
+    "sha256": "c5c94a65f5d6df83dfc221ad808b7c15bb9034cd2860893d9dc3c4f9d84a6bbc",
+    "bytes": 49212,
+    "gitBlob": "656f8b9db6fae170fee69a290d821b3ef4f2f2a9",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 143,
+    "photo": "military-service-act/lesson-143/ms143-in-ride-queue-wristband-worn.webp",
+    "sha256": "ac29cc4e5ef6b403dcec525b56e346ecf72db03b910581c2eecae521749c3083",
+    "bytes": 49782,
+    "gitBlob": "b3549a06eefb8a814d2e64e02c330b51afb66dd1",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 145,
+    "photo": "military-service-act/lesson-145/ms145-absent-recipient-courier-waits.webp",
+    "sha256": "87c47e684b07930e785baa9d2aae225fe196302263736b6c31f0be561fa97446",
+    "bytes": 48956,
+    "gitBlob": "da50eb49ab06bfb31fd862726503e56243e62fbe",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 145,
+    "photo": "military-service-act/lesson-145/ms145-present-recipient-refuses-delivery.webp",
+    "sha256": "229f40eed0de16814b1f087b521f7b6c40e9b16960e0a37d7259d6ec3dcafca5",
+    "bytes": 49330,
+    "gitBlob": "ee3f608c3cab0355ffa173991a7a6a4992c7f548",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 151,
+    "photo": "military-service-act/lesson-151/ms151-towed-car-cannot-pay-and-continue.webp",
+    "sha256": "2010de8d69a334b7a1ddd83a7dbe3d9690dfe5cda4e2b7effad7ba17acdcfb66",
+    "bytes": 49798,
+    "gitBlob": "6003347c56c24174e32f5b43b42156c86faefda1",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 152,
+    "photo": "military-service-act/lesson-152/ms152-veterinarian-farm-field-duty.webp",
+    "sha256": "df4056625cd0e61744cb0baed6f6c3678c91065b3871cea7b03a4a1e338c1b4f",
+    "bytes": 49788,
+    "gitBlob": "939d22823727b7ef597ce8bf03cdcc32cf918180",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 153,
+    "photo": "military-service-act/lesson-153/ms153-librarian-gives-quiet-warning.webp",
+    "sha256": "cce07c6b5afb084640e833d0e67c3135b6e31dc3d4e5b566299a7007d0b903b7",
+    "bytes": 49994,
+    "gitBlob": "59e925d00bd9a8ca1701f831c8046a5548afed99",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 153,
+    "photo": "military-service-act/lesson-153/ms153-repeated-disruption-entry-suspended.webp",
+    "sha256": "52bb733a0c8f2609ac046561617afe9b28a3c2e7da1bc5b9e08377aa9bad1eab",
+    "bytes": 49498,
+    "gitBlob": "0619f6bd50d5b8bb428e3b23b2b80d441d439be1",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 154,
+    "photo": "military-service-act/lesson-154/ms154-confidential-file-lock.webp",
+    "sha256": "b6271a3b1ec73b06d0dc5b873c8d06b708619e5cacc97c22692ea9147d8203d2",
+    "bytes": 37662,
+    "gitBlob": "3d3d5bb32ef3dd3633b3e5b4ab179fda75769047",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 158,
+    "photo": "military-service-act/lesson-158/ms158-authoritative-referee-whistle.webp",
+    "sha256": "069fd23fc65ca249c8900af1fd0f96d0392c5d55bb0b6bddb4df990550cbf781",
+    "bytes": 49854,
+    "gitBlob": "3dd0029bba5c139fb8c3d791c565e320bd0c92e1",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 158,
+    "photo": "military-service-act/lesson-158/ms158-ordinary-spectator-calls-from-stands.webp",
+    "sha256": "ea11d7ba2b036bc2928de76cf732f897cecb1338f857b2c889ffec7eaa9b4d8e",
+    "bytes": 49004,
+    "gitBlob": "1ca40b1d5c342941bc309a68162d5eb1244b090c",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 160,
+    "photo": "military-service-act/lesson-160/ms160-site-management-review.webp",
+    "sha256": "105b58687749f31d3f60ef172d931a32713d5f642ce8d42654bfec9ebf96b990",
+    "bytes": 46784,
+    "gitBlob": "398280e50822cfcfba11a57b5bfb89d526754256",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 161,
+    "photo": "military-service-act/lesson-161/ms161-employee-return.webp",
+    "sha256": "8356dab4879cb0ed49e79392b6c10e333fc3f71df16cd310ff2da6d252a66128",
+    "bytes": 49238,
+    "gitBlob": "243c1c8113d3a11ad4727a92ce4355930c379a7d",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "military-service-act",
+    "lesson": 164,
+    "photo": "military-service-act/lesson-164/ms164-administrative-fine-review.webp",
+    "sha256": "4cf496b7025ce534ae7180516140a866817d84695ec127dc1b6f7c39c535e98e",
+    "bytes": 48852,
+    "gitBlob": "ce8d6a4d676f56fa0538d5086f9b941d591664aa",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 1,
+    "photo": "reserve-forces-act/lesson-001/rl-001-delegated-detail.webp",
+    "sha256": "4f5fef1daab089e636869a7d20c4a67c352bdb89bae532edc505154aea9a2374",
+    "bytes": 36996,
+    "gitBlob": "a047aec02931071d6fdc1800065c3425a307d8a0",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 1,
+    "photo": "reserve-forces-act/lesson-001/rl-001-two-source-rule-v1.webp",
+    "sha256": "c945237901f5eb23f461302678ccbcb158e2cec2d611d34523c9ddaa549cdbaa",
+    "bytes": 41186,
+    "gitBlob": "eb1e1f7e415be95874cf8c2450ed34a0ded90526",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 3,
+    "photo": "reserve-forces-act/lesson-003/rl003-supplemental-service-period.webp",
+    "sha256": "4aafcc3d4496a305f31c669b554c2d403214ed4e8308202dfb7adbd4d73ead1b",
+    "bytes": 49484,
+    "gitBlob": "7f78572335f1102bffcebc9fda8c4b25e374e890",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 4,
+    "photo": "reserve-forces-act/lesson-004/rl004-leaver-record-envelope.webp",
+    "sha256": "514a255c85f76b78ed4ec5d0d276538f8b766bba02b7ff556942b6ed07a107c9",
+    "bytes": 42174,
+    "gitBlob": "a76338529ea479e8cf28321c60cb811afa3d6a91",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 4,
+    "photo": "reserve-forces-act/lesson-004/rl004-workplace-exit-local-record.webp",
+    "sha256": "10c2a718efb5237007a79bd15a405cdf59a25d0151d55a5d246706a8ca2ca17d",
+    "bytes": 45574,
+    "gitBlob": "4e703ee755fa1782ad7f8194350db7879d7471ec",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 5,
+    "photo": "reserve-forces-act/lesson-005/rl-005-selection-schedule.webp",
+    "sha256": "f144435609833beaf1920b0ee7abcc24d1b18be7f34a318357f4c0686e9c860f",
+    "bytes": 37730,
+    "gitBlob": "8d38a0f5d3b4f6dbc2d5e8ef1b46cf77206e223e",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 6,
+    "photo": "reserve-forces-act/lesson-006/rl-006-reserve-duty-overview-v1.webp",
+    "sha256": "7febaf26981e546a0a27ed8ae556f03b957897101f0d7a4a846dabb6be0c8c9e",
+    "bytes": 45924,
+    "gitBlob": "76ff64234198d243bbcfa3925b0cbcc8f06e082f",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 7,
+    "photo": "reserve-forces-act/lesson-007/rl007-essential-role-deferral-review.webp",
+    "sha256": "be607588db3fb64f33525263c1ea5a9e17cad549db0092dd922593276c0fe6e6",
+    "bytes": 42926,
+    "gitBlob": "a3e9aabb560125191d3455d4a6fd3e0f8ea15da9",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 9,
+    "photo": "reserve-forces-act/lesson-009/rl009-electronic-notice-flow.webp",
+    "sha256": "6ef6bb651f500b678514c4099354d766f450dfb66e071e232802286a3e1be37e",
+    "bytes": 49378,
+    "gitBlob": "3b8fa50eb8d9477dc748b4cb47843a16b5989dc5",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 9,
+    "photo": "reserve-forces-act/lesson-009/rl009-notice-date-tabs.webp",
+    "sha256": "e1e389c32e27ff0a18e5215d8346026da595e9be652c2079eb13cdaa2888ab64",
+    "bytes": 43802,
+    "gitBlob": "80a101672b763273dced6592427622f920cb2248",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 9,
+    "photo": "reserve-forces-act/lesson-009/rl009-notice-form-standard.webp",
+    "sha256": "4094fd5859759ea79b7f2a1c8abc9957f566953b9d9d1fb8f1bad2cdd9b2d5dc",
+    "bytes": 43546,
+    "gitBlob": "028233195eaf24d20fe7bd76efc3be0361f8a56a",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 9,
+    "photo": "reserve-forces-act/lesson-009/rl009-personal-advance-delivery.webp",
+    "sha256": "03d3fb346ff9c95e987edfd85fadb1b32ff6623d250009714b3ba1f894fe0ba5",
+    "bytes": 49548,
+    "gitBlob": "945254eeb5a096ac43f4f45d6936af2385aaec4c",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 10,
+    "photo": "reserve-forces-act/lesson-010/rl010-deferment-versus-postponement-documents-v1.webp",
+    "sha256": "8a23c5ae279e9cbe729cbf7206a7a8faf5a68e9e8f0dee7a958122acb7987ce3",
+    "bytes": 48690,
+    "gitBlob": "8cc7ec915b1fcdfc3b86fa1d34398f9f6b71b9f4",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 10,
+    "photo": "reserve-forces-act/lesson-010/rl010-deferral-application-submission.webp",
+    "sha256": "e2942ef9fce85c019dbfb304be69f856f2aa44c901943346e08c2d0df563e880",
+    "bytes": 41408,
+    "gitBlob": "8a7323cb9f2c7bdb986dc296b4bcb9cc201aaeb2",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 10,
+    "photo": "reserve-forces-act/lesson-010/rl010-medical-certificate-for-postponement-v1.webp",
+    "sha256": "720e2bca81ca2611f0ff4617c831695e0e7575ca5776f15b67e17982b8a7beea",
+    "bytes": 48834,
+    "gitBlob": "8cd4ccfb8a2a62c9d0311225dc4e16aeceecc22a",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 10,
+    "photo": "reserve-forces-act/lesson-010/rl010-periodic-restoration-roster-dispatch-v1.webp",
+    "sha256": "9b28c5bfc3cca763584d3fb37cf5e72afbe684769679e6db2df3be36b3d6c84b",
+    "bytes": 49762,
+    "gitBlob": "9ce59f3126a574e0b960dd2353013aedce563f79",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 10,
+    "photo": "reserve-forces-act/lesson-010/rl010-postponement-application-separate-form-v1.webp",
+    "sha256": "b160649ae251437fa133e23b23e2cf5e99a28f8052dcb4c07b6d2c4abf3e8eb3",
+    "bytes": 48424,
+    "gitBlob": "18ed028c17ab13de4fd22d40dee47222d16aab03",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 10,
+    "photo": "reserve-forces-act/lesson-010/rl010-proxy-application-when-unavailable-v2.webp",
+    "sha256": "613944825c0be94a900da44c54ea1692febd023a5bfe033107e3ced04e6bd542",
+    "bytes": 49022,
+    "gitBlob": "acd481e949e999093a82596ba5501dc0794cc0bc",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 10,
+    "photo": "reserve-forces-act/lesson-010/rl010-reporting-return-status.webp",
+    "sha256": "c8ae04b149ed54b474524f61aa63d02f6f4bcf76cb9cd5e6d53b7f84c6df00b1",
+    "bytes": 49582,
+    "gitBlob": "fa15f252b05af9191439dc33ae1a2b80579633e6",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 10,
+    "photo": "reserve-forces-act/lesson-010/rl010-roster-update-before-notification-v2.webp",
+    "sha256": "1720dea4eed4a4e5f700c0f425e908f6c488e9e4193948624de706adba542a87",
+    "bytes": 49196,
+    "gitBlob": "26a1565aac5a18498dfcc7224812c4ded09b2c84",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 10,
+    "photo": "reserve-forces-act/lesson-010/rl010-shared-information-check-v2.webp",
+    "sha256": "9a1d12c4df993ba4e36adf171a2649421a5d0fc84fa76d36d1d499f767e2bb51",
+    "bytes": 48956,
+    "gitBlob": "ce1bf5aaf082d9dc72ec10735419998a5af86b20",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 10,
+    "photo": "reserve-forces-act/lesson-010/rl010-supporting-documents-attachment-v2.webp",
+    "sha256": "2730549aa75815e08fc323b60bfa2a9b469ed846032274a05fc6b29d96023246",
+    "bytes": 49454,
+    "gitBlob": "3b6593444ba927de0aa9569444761e96716e9ebe",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 12,
+    "photo": "reserve-forces-act/lesson-012/rl012-add-outer-layer-when-cold-v1.webp",
+    "sha256": "1e081de88312f735e8dd96ed72c3ab0e83cb76c6f00ccf510883eaae5b671251",
+    "bytes": 49442,
+    "gitBlob": "3fcb815fce928bdcbc69ef28580da461d087fb70",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 12,
+    "photo": "reserve-forces-act/lesson-012/rl012-belt-as-uniform-accessory-v1.webp",
+    "sha256": "0345e727d431cd341f2f65b14f3ff67a5632d001625905afd3468978ae6ebc70",
+    "bytes": 49016,
+    "gitBlob": "61e1b23c9d338233d1c7c84446bfae692353456b",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 12,
+    "photo": "reserve-forces-act/lesson-012/rl012-neat-dress-and-appearance-v1.webp",
+    "sha256": "07c3f871aad8d9325a5c2c202c7eb0b33548afa631852fbbdb6744513737700f",
+    "bytes": 49036,
+    "gitBlob": "33e1203ec123329a80c496c3e3de212189aaa99e",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 13,
+    "photo": "reserve-forces-act/lesson-013/rl013-reconsideration-request.webp",
+    "sha256": "a332e396c5bce2e928d725a13c4975d00fe3a29d16d762c8e7d50792d561462a",
+    "bytes": 49022,
+    "gitBlob": "71af56ded67df87053c70cf3a3729e9be0a9eb67",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 13,
+    "photo": "reserve-forces-act/lesson-013/rl013-resident-notice-posting-before-action-v1.webp",
+    "sha256": "1992f6293f9d4fc2fdad64b99d4a97db97ec7cbf29d4dbebb9a9c8ba40d3ccbc",
+    "bytes": 49816,
+    "gitBlob": "4b1b69ac59cbdbd702551c4984d2aa12343ee554",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 14,
+    "photo": "reserve-forces-act/lesson-014/rl014-amount-rule-calibration.webp",
+    "sha256": "50e1abe4618a1df145549a25d0422e314c756d918c3fcaf22817c876489b40bc",
+    "bytes": 47500,
+    "gitBlob": "12176b0c40e50c73f601b8420f6dcdb2a5b3266b",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 14,
+    "photo": "reserve-forces-act/lesson-014/rl014-approved-payment-forwarding.webp",
+    "sha256": "dbd611362efbb23acf048bedb346091f6cb98f14fda196bc14d874cc3a55aa23",
+    "bytes": 48964,
+    "gitBlob": "836121deff799885c43c5735b02e5505ad7aa02e",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 14,
+    "photo": "reserve-forces-act/lesson-014/rl014-lost-work-calculation.webp",
+    "sha256": "bcbfacb25ab48b98636c7d1394d14f49c624c655d569d18501d1a223d8daed38",
+    "bytes": 49512,
+    "gitBlob": "96ad5ac79c74161d4defc7665453e7ac3581d905",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 14,
+    "photo": "reserve-forces-act/lesson-014/rl014-payment-procedure-sequence.webp",
+    "sha256": "6f404cf2270c9554122244cc6137c748b9d53e395775eb0762f887cc939ad8ec",
+    "bytes": 32140,
+    "gitBlob": "b34044c2a6342431e97340af25ecc68dcb82d544",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 14,
+    "photo": "reserve-forces-act/lesson-014/rl014-same-benefit-offset.webp",
+    "sha256": "0f93396d147f144b3574481dfcbfbfbb086362df307e0eee2f30efa5c9ad3bea",
+    "bytes": 47830,
+    "gitBlob": "0c4c81c783600ccbe8670f04e502ba7b52aefb51",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 14,
+    "photo": "reserve-forces-act/lesson-014/rl014-workleave-record-check.webp",
+    "sha256": "0b96f0a4176b67fcc3c91eeb56b6d85ce995967fc2fb3451dbba7e406fbf513c",
+    "bytes": 36500,
+    "gitBlob": "7a2e1f3cdd61be1157bc9f64c866badb68325ad7",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 15,
+    "photo": "reserve-forces-act/lesson-015/rl015-care-costs-accounting.webp",
+    "sha256": "c32859c3fc039d160a25f4720a195e7453da52f441ef61cfc3d8bfb9c04aa64b",
+    "bytes": 49086,
+    "gitBlob": "524d599f5f5464ddc2aeb25d8b409508e4b267f2",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 15,
+    "photo": "reserve-forces-act/lesson-015/rl015-care-versus-compensation.webp",
+    "sha256": "a00f5ecadb956f4147377d765e4d5f6e591789f8a6b2b6fedaf28bf09da83ec9",
+    "bytes": 48734,
+    "gitBlob": "ff3c37ded48aafd92ef4a4541aa1e3b5920fa6a3",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 15,
+    "photo": "reserve-forces-act/lesson-015/rl015-certificate-issuance-report.webp",
+    "sha256": "253c648307dce7d7e4ecce7fac076796a929cdad73ad6c8c813b1bbca57ef46c",
+    "bytes": 47214,
+    "gitBlob": "e05f7566c48caf886bf061de24f95ea6eef88634",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 15,
+    "photo": "reserve-forces-act/lesson-015/rl015-clinic-payment-notification.webp",
+    "sha256": "7d03decfcdc4fe873bcaffe8494410cbe1d2a68e1390936d68df46aa04e8b4cd",
+    "bytes": 47704,
+    "gitBlob": "edfbada6e8ca9571a4cbaa514b6b27e055d675d0",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 15,
+    "photo": "reserve-forces-act/lesson-015/rl015-paid-expense-reimbursement.webp",
+    "sha256": "18666c5ac9dcca69b9f55dd0fc24e6e44d04f571817053d2b48b631ea47dc95e",
+    "bytes": 49324,
+    "gitBlob": "4418a4d11bbd86385f6dd771f97c796b43d59a71",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 15,
+    "photo": "reserve-forces-act/lesson-015/rl015-treatment-period-confirmation.webp",
+    "sha256": "fd58ab4c931bca0516734160bb861575bf55ca047144e740b067ef223896fc6b",
+    "bytes": 49790,
+    "gitBlob": "2decef447f3914e75ae81faa9f52f7f5cb5cd1b8",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 16,
+    "photo": "reserve-forces-act/lesson-016/rl016-employer-responsibility.webp",
+    "sha256": "fc71caab018972f4bd77d764a8cab46adeb170fd671cd2792120b8527fc34d53",
+    "bytes": 48586,
+    "gitBlob": "5cfecbcfd58d9e1ccdfddc3ebd031869d5a33778",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 16,
+    "photo": "reserve-forces-act/lesson-016/rl016-no-adverse-roster.webp",
+    "sha256": "8d5eadd546e8a53927922701866dedd7dd59508e530b0895c90c0d2153afc38e",
+    "bytes": 43168,
+    "gitBlob": "a88d7c84691c887cadc683fe802644631125f045",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 16,
+    "photo": "reserve-forces-act/lesson-016/rl016-workday-restday-check.webp",
+    "sha256": "cc6bb1f880602d80827f527b9281e9051307fd73e94d2c0004902e16fac568eb",
+    "bytes": 48112,
+    "gitBlob": "3a3ecb5cec45ed43603f445dd2c9b7dfe5e0c85d",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 16,
+    "photo": "reserve-forces-act/lesson-016/rl016-workplace-protection-review.webp",
+    "sha256": "0b7b85fc84c4a5b769047d41f9c50f5f2cb44347306474450f9ad6b33c52331e",
+    "bytes": 49896,
+    "gitBlob": "961e37a7706914c4206cf914af40bef5727032d3",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 17,
+    "photo": "reserve-forces-act/lesson-017/rl017-protect-student-attendance-record-v1.webp",
+    "sha256": "0086a3d4c8a66712896b71ff68b9d7e8b62df42b3a3b8aceb6800018efa5c312",
+    "bytes": 49836,
+    "gitBlob": "4f296c2c35409560ebc15baf38025a67db184aac",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 17,
+    "photo": "reserve-forces-act/lesson-017/rl017-school-staff-duty.webp",
+    "sha256": "2ac9d2b64996cde1a30ebc1d6e6d9925023221d5e1b68ff8209022d10afef6a2",
+    "bytes": 49192,
+    "gitBlob": "e63ccfb1b86ecb0d84da49e21bd2f56fe627590e",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 17,
+    "photo": "reserve-forces-act/lesson-017/rl017-school-workplace-protection.webp",
+    "sha256": "4ea342e7736102dfe3d43d5604969f155f033bcbd9cb0e509632dc4cad347026",
+    "bytes": 49478,
+    "gitBlob": "78d68f2dae923063fd03beae994d6f7d1e372baa",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 17,
+    "photo": "reserve-forces-act/lesson-017/rl017-study-protection-versus-review.webp",
+    "sha256": "029f68c8d826579e7d9f7f67a5f84f07a241a8198364e19f34908ca2bcd27652",
+    "bytes": 48238,
+    "gitBlob": "c24e9145fb2b443da43d0a58240e566974af427f",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 18,
+    "photo": "reserve-forces-act/lesson-018/rl018-period-threshold-check.webp",
+    "sha256": "07940d218fa894786f2ab947d6e6531a810049bc491a26e4d89c11b9323de3ae",
+    "bytes": 42710,
+    "gitBlob": "aedf98bb734e8db036d134a7b607762fa4b1d8c7",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 19,
+    "photo": "reserve-forces-act/lesson-019/rl019-correct-record-and-submit-result-v1.webp",
+    "sha256": "e7982085a3573170925cd60ac077bd72189f998609999082986999c124618ecf",
+    "bytes": 49194,
+    "gitBlob": "03bd69129ea0f5760c61630678ef1b4fd935d807",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 19,
+    "photo": "reserve-forces-act/lesson-019/rl019-initial-rights-report.webp",
+    "sha256": "d6862141f53e8bccb8e32c272f27a06ed8e9e1aa2d1f02fc08beeaec6385e798",
+    "bytes": 49068,
+    "gitBlob": "648c6194938da54455d23563329c18924a8848be",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 19,
+    "photo": "reserve-forces-act/lesson-019/rl019-providing-requested-records.webp",
+    "sha256": "95191052c541a99888125db4f5501bc6634c0a9deffe30f2cd4149bec4e244ad",
+    "bytes": 42892,
+    "gitBlob": "5fafed857b442ccc8c62eaa11a1f1be63f05a1dc",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 19,
+    "photo": "reserve-forces-act/lesson-019/rl019-request-and-hear-relevant-opinion-v1.webp",
+    "sha256": "6d7a54b27d20e7a0a8d39366a320deb8b0c9fa20c90be99f356e9116fa54e469",
+    "bytes": 48898,
+    "gitBlob": "4639cdc0c28eba9bf525c4bfabb7180c8368f664",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 20,
+    "photo": "reserve-forces-act/lesson-020/rl020-center-operating-authority.webp",
+    "sha256": "f0dd506bad1e5f1b4e2c6dd5b0a5db09deb5e7658e5a81f6e9168affa31972ef",
+    "bytes": 49782,
+    "gitBlob": "98ed486fc5e14a17d9b7db327334fc7c22e89e4f",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 20,
+    "photo": "reserve-forces-act/lesson-020/rl020-rights-case-workflow.webp",
+    "sha256": "d43be798a9771ad8bb642ad7c6771372d0c019b848e56dbd96c46574cb30612e",
+    "bytes": 45866,
+    "gitBlob": "a56d41d1b3ac96baff6e79dd5815e167d71581a1",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 20,
+    "photo": "reserve-forces-act/lesson-020/rl020-rights-help-reception-counter.webp",
+    "sha256": "6e9e5ce5cdcf227993b3f5ede70cc2b15a80bedfd47a33363ec47e405ec1b746",
+    "bytes": 44084,
+    "gitBlob": "dade1c543dd0acb93679633e27dcee3027b5f3d4",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 21,
+    "photo": "reserve-forces-act/lesson-021/rl021-actual-expense-receipts.webp",
+    "sha256": "dd665cddf9193e7b22a2d4bfd5e90942a62527cdc162bd583380a8d48c18f11c",
+    "bytes": 48544,
+    "gitBlob": "b0706eb765ad416fc6b55e3fa834defed264fc41",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 21,
+    "photo": "reserve-forces-act/lesson-021/rl021-meal-provided-to-called-participant-v1.webp",
+    "sha256": "a3e12118c8e081f5244a57f306deda11de62f3bcb3615b0f443c59ca21424fab",
+    "bytes": 48918,
+    "gitBlob": "54b57c984f60db8cfeb47cff48f807a7112da83d",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 21,
+    "photo": "reserve-forces-act/lesson-021/rl021-reimbursement-categories.webp",
+    "sha256": "8b18e0409ca0d75794f430ed892f759335570e31b82185ca7a6af1ee561fd34b",
+    "bytes": 42414,
+    "gitBlob": "255a06c9822288d4a1c7d99ec8f848680eccd2e8",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 22,
+    "photo": "reserve-forces-act/lesson-022/rl022-accountability-review.webp",
+    "sha256": "c6ddc92929983a8827557aeae8b98d5a71a8eebcde13727d1bde6d7bedc43f43",
+    "bytes": 42076,
+    "gitBlob": "5323a8dd010669e726bcf727a944470ceafa777b",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 22,
+    "photo": "reserve-forces-act/lesson-022/rl022-authority-boundaries.webp",
+    "sha256": "efd479c74af04578152955aa2535d298709af6ff31f86037fe20fc239365501a",
+    "bytes": 38930,
+    "gitBlob": "3313f3f660fc9beda08643b248dded6429c9fd4c",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 23,
+    "photo": "reserve-forces-act/lesson-023/rl023-emergency-call-still-applies.webp",
+    "sha256": "14f29fb444f26f9836ea943506e1e1ec358c6d844aef6633691e19a43ad71328",
+    "bytes": 49640,
+    "gitBlob": "830397398e01f1ece0c15376ffd29545366eec6c",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 23,
+    "photo": "reserve-forces-act/lesson-023/rl023-other-ride-waits-during-current-ride.webp",
+    "sha256": "a4150cf48cdb897732980c13d0cff29a2d225821a6ec7eb1a9190a347258708f",
+    "bytes": 49592,
+    "gitBlob": "bd95f98ff3e7c0196cb814ebce31117a7574ae2c",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 24,
+    "photo": "reserve-forces-act/lesson-024/rl024-arriving-referee-takes-direction.webp",
+    "sha256": "a5cd56f0f96f853da865016c6bc1f1c7d020f4f47b81a12873ff40fc702284ab",
+    "bytes": 48558,
+    "gitBlob": "286ae44101ad89b7c343d6bf044299ea9ce764b5",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 24,
+    "photo": "reserve-forces-act/lesson-024/rl024-authority-owner-hands-copy-key.webp",
+    "sha256": "6d9bd32281368f2f77e97682a2d840bfa43087fe7694ee654c30290cc2210fb1",
+    "bytes": 49474,
+    "gitBlob": "8e540f833f2b2a88029e95d4157366100431b6ad",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 24,
+    "photo": "reserve-forces-act/lesson-024/rl024-courier-reports-to-dispatcher.webp",
+    "sha256": "c12526690d6a9758cf97732ccca5e535f12647ce6ed80657132243dd2100d1eb",
+    "bytes": 48354,
+    "gitBlob": "9fdff49efd32cb24d5a3d905582350fa13330d51",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 24,
+    "photo": "reserve-forces-act/lesson-024/rl024-interim-referee-before-arrival.webp",
+    "sha256": "911a7873ff90e09925078ef6abd5e7997baeccd880eae65b0ab02411115eae98",
+    "bytes": 48064,
+    "gitBlob": "cd4948918bab9ac28472d3c779c12e1b36077203",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 24,
+    "photo": "reserve-forces-act/lesson-024/rl024-moving-customer-directs-own-box.webp",
+    "sha256": "ab5ada540ede8d998b9c0f40410a52b67b2f3ed20ee5b7bda9e1301f010ccd48",
+    "bytes": 48028,
+    "gitBlob": "58da082a273c46f7503d8a014da9369101bd1f62",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 24,
+    "photo": "reserve-forces-act/lesson-024/rl024-release-visitors-without-delay.webp",
+    "sha256": "325a5b60df04f27cd77f0f80b35bcdea2fe3bc233b0f7301a11fc6134912de48",
+    "bytes": 49514,
+    "gitBlob": "1bff2712a489d0ecc0181705b66b13fac46eb6d9",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 25,
+    "photo": "reserve-forces-act/lesson-025/rl-025-quarterly-appointment-report-v1.webp",
+    "sha256": "ea3e5819b5586f453225fd3a58c2ff82e4d2c9f4b456140dbb89836516f74a77",
+    "bytes": 46830,
+    "gitBlob": "a3b3bbac3a119bcdd37059c6960bbaac6d04b0da",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 25,
+    "photo": "reserve-forces-act/lesson-025/rl025-forwarding-dismissal-recommendation.webp",
+    "sha256": "5521b944f0920b3ead837120161a889eaaffe8a078609704353466851b088e1d",
+    "bytes": 48988,
+    "gitBlob": "ed3f1e5ed0c4abc215e7d1935f1c3aeda505c982",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 25,
+    "photo": "reserve-forces-act/lesson-025/rl025-one-step-appointment-exception.webp",
+    "sha256": "2374e952e00da877b210a37e6856192b6809ab89470c51d0fd7cecc067e2913f",
+    "bytes": 49150,
+    "gitBlob": "bd8015dc6f88170a10dc601e4e1c8ebd565921a4",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 25,
+    "photo": "reserve-forces-act/lesson-025/rl025-use-existing-administration-landline-v1.webp",
+    "sha256": "c862bb1fc0f7b212b7a154aa58fd41b5b332e9878fb6a2cb146a1400c5c713c3",
+    "bytes": 49268,
+    "gitBlob": "d38a8475a55a0f89ce4793ca2d4023e56b8a414e",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 25,
+    "photo": "reserve-forces-act/lesson-025/rl025-verify-arriving-training-participant-v1.webp",
+    "sha256": "2d335c019ec014ed1f081df01847ed9cf057ecbd61e826ba608024ee3d908ef0",
+    "bytes": 48156,
+    "gitBlob": "1bc88bb366504cc4bd4939ac9571dad074b6844f",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 26,
+    "photo": "reserve-forces-act/lesson-026/rl026-attendance-and-voting.webp",
+    "sha256": "d4f09e4b8cd5e4900aa244525b4a2e63c4c891712d1e7d8d7375dd2b87d788d4",
+    "bytes": 49220,
+    "gitBlob": "3d8a25c2f1eabe44152d7fcf8476ac2001f3aff3",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 26,
+    "photo": "reserve-forces-act/lesson-026/rl026-chair-role-by-setting.webp",
+    "sha256": "76d5a777270f4e722d1f47ba77f4b81997e8878b50f1a7c86b885c8441893c8c",
+    "bytes": 49652,
+    "gitBlob": "43c650f49c9caf2b3822a1e96a1c81c5c1325cbe",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 26,
+    "photo": "reserve-forces-act/lesson-026/rl026-civic-committee-naming.webp",
+    "sha256": "25ebd0f9275cb38d1486bb16fbac16af4d921e043db0e46fc0af86791dd61baf",
+    "bytes": 49460,
+    "gitBlob": "b6d380f08a1d60be4d08ad7c3a9a3e93cdf9ad81",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 26,
+    "photo": "reserve-forces-act/lesson-026/rl026-classroom-furniture-maintenance-support-v1.webp",
+    "sha256": "ddcf3cc49633133ecf44322757ac9826500548a99b4972e31b1e25b3109c5bb6",
+    "bytes": 49310,
+    "gitBlob": "e7c6c6b7917f4739ec7259e17d2c7ec56837954b",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 26,
+    "photo": "reserve-forces-act/lesson-026/rl026-community-support-meal-deliberation.webp",
+    "sha256": "7538789714844d99c5b8d53276cd9a57f201250ed6b841dce640d4ab3dbb1249",
+    "bytes": 47558,
+    "gitBlob": "54bee2611806acfc7252db28c9a806796a860bf3",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 26,
+    "photo": "reserve-forces-act/lesson-026/rl026-deliver-nonweapon-office-supplies-v1.webp",
+    "sha256": "b5a937092ae92dc93f1e9d0326e7fc296f2017d78ca3a5c39b2b9b4dcfc2bcb0",
+    "bytes": 48482,
+    "gitBlob": "808bf0ba14f2d625e3c814c48cdd89db6e9fb30f",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 26,
+    "photo": "reserve-forces-act/lesson-026/rl026-designated-acting-chair.webp",
+    "sha256": "830f87a6d6cbae726941ebd0cf1cc0693dd3ac69d0b149a2409edb263df7f486",
+    "bytes": 49192,
+    "gitBlob": "4f18c4b2b6299716df26ae20d147e626c4ad39b0",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 26,
+    "photo": "reserve-forces-act/lesson-026/rl026-meeting-convening-planner.webp",
+    "sha256": "ca23c602c457233d778930a77c3f66073efb6bd6d85e36199afd35df33ca5bc1",
+    "bytes": 40698,
+    "gitBlob": "ae95f4bb3ccb3d7e8d7e40feafb2404bff043fbc",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 26,
+    "photo": "reserve-forces-act/lesson-026/rl026-office-maintenance.webp",
+    "sha256": "73f693911de705abb3cd1a46af299477b28a9d45179c3680bbaee9ce79322e78",
+    "bytes": 33788,
+    "gitBlob": "f9caede6a6419b2aedad12ab58a6cc95003e6604",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 26,
+    "photo": "reserve-forces-act/lesson-026/rl026-supplementary-meeting-rules.webp",
+    "sha256": "8459cb02212a8b89f0532787a3799f469986c6f5547934573fb4becee8c31827",
+    "bytes": 28962,
+    "gitBlob": "9d8b758ac19879628c74af12bd227c52ac65c171",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 27,
+    "photo": "reserve-forces-act/lesson-027/rl027-declined-personal-notice.webp",
+    "sha256": "4c7e3cbcc55f58abf0f292ab6ca423ab50b13c3bce480f1da777c592e3c40e7f",
+    "bytes": 48370,
+    "gitBlob": "a2bf7ebb9b9565483af962f6cb26db4b29bc695c",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 27,
+    "photo": "reserve-forces-act/lesson-027/rl027-equal-shift-accommodation.webp",
+    "sha256": "b6704cf8f968bd4c2a4e45d93b0b16a58a1f49e40942a5b255f11543fbf1f712",
+    "bytes": 49772,
+    "gitBlob": "fdd155f9342840c1d61cca420f137d75660cd66d",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 27,
+    "photo": "reserve-forces-act/lesson-027/rl027-home-proxy-notice-forward.webp",
+    "sha256": "59fe10d207a2a14ae46fca125f293aa68c6490af1e5c9b5742aa3e1c065e9ae1",
+    "bytes": 38756,
+    "gitBlob": "b8c743d7c71d64a5c3b457de7c0fc60e4663c390",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 27,
+    "photo": "reserve-forces-act/lesson-027/rl027-moving-status-intake.webp",
+    "sha256": "f01f495206747d3fadfd81bfb9f9f5d6094ae4b56d0f3dc5dff6ea0a23435275",
+    "bytes": 49634,
+    "gitBlob": "784dc63e959dc79c2241a1c41ec4ec3f858ec92e",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 28,
+    "photo": "reserve-forces-act/lesson-028/rl028-notice-forwarding.webp",
+    "sha256": "6379252c6658e175b4a60d8f14facb24c7d11fd54a51b025d46ab1644b32daad",
+    "bytes": 49086,
+    "gitBlob": "5dd14d8c29397ee6e4db2a7be896596829e51339",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 28,
+    "photo": "reserve-forces-act/lesson-028/rl028-schedule-reference-check.webp",
+    "sha256": "869c014fe2f64cd090253fd07b992eefbcf35ec9c15baa315024445de4c383e7",
+    "bytes": 36890,
+    "gitBlob": "a48ff7005fd79f72e7f09884bbcfdeb0b67de3a0",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 30,
+    "photo": "reserve-forces-act/lesson-030/rl-030-inspection-final-report-v1.webp",
+    "sha256": "51e424718f0b7622b57664179b59647b27add81a243a1e16ab581adf4446fa11",
+    "bytes": 47984,
+    "gitBlob": "982d33f6eb0f7fa9977e2f8e95bab40e5cacfabe",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 30,
+    "photo": "reserve-forces-act/lesson-030/rl030-audit-planned-and-special-review.webp",
+    "sha256": "e984bc3ed3308e9545ca7c841bbe2cfdc7108bfffffe48bcfbe37bf411cedacf",
+    "bytes": 47404,
+    "gitBlob": "68ddcdb2ba88220ce8ea992b0195b27fe5957331",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 30,
+    "photo": "reserve-forces-act/lesson-030/rl030-audit-team-lead-designation.webp",
+    "sha256": "6865bf4f09754efdd8ec5ee338724e9f2e42529e91948c72c7473ed6380ca338",
+    "bytes": 47324,
+    "gitBlob": "e1a29e9c67d604e016b07219308c3090756033ac",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 30,
+    "photo": "reserve-forces-act/lesson-030/rl030-correction-notice-office.webp",
+    "sha256": "a8cfaa7589398291da134ad46919dcc9bbc2928fccc961a06174444a56ed32a1",
+    "bytes": 38366,
+    "gitBlob": "8d9cfa770eabe129fba70a6609a5c0d3fdcb4857",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 30,
+    "photo": "reserve-forces-act/lesson-030/rl030-correction-verification-report.webp",
+    "sha256": "f146d7d064ef952f0cf9130237decdf6b2c7cd56611b84b1296c651697ac3215",
+    "bytes": 41590,
+    "gitBlob": "6072ab733ae210d69ed02be7dfff3d1143229f1d",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 30,
+    "photo": "reserve-forces-act/lesson-030/rl030-prepare-records-after-audit-advance-notice-v1.webp",
+    "sha256": "d9bfedcfa72bef38cf3ad1da9f38f5a46ed4b9a444e418565b86558a3913c990",
+    "bytes": 49912,
+    "gitBlob": "48c915f9626493daf7663ed3e34eca7e910bb10f",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 30,
+    "photo": "reserve-forces-act/lesson-030/rl030-recognition-folder-ceremony.webp",
+    "sha256": "1ca2c611c6b8925d75f980755d51326554425f1a5549944cf37a1a8c4c5995c4",
+    "bytes": 46924,
+    "gitBlob": "48780de60fe8ee23184e997303a4a89057466691",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 30,
+    "photo": "reserve-forces-act/lesson-030/rl030-routine-special-audit-two-files.webp",
+    "sha256": "4a23c300b5d68b8703976901ca4a2c7d223657d1767ac027ad889f943ab7927b",
+    "bytes": 46106,
+    "gitBlob": "a5968d9628874963c065910386ccfae5474085fd",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 31,
+    "photo": "reserve-forces-act/lesson-031/rl031-local-community-support.webp",
+    "sha256": "b4585c43125fda24de0619367ad32e6815725d55e1518f8036bd44a04e36ec17",
+    "bytes": 48528,
+    "gitBlob": "b1b60d839c1d66addeb7c45dd5f8254c12f53952",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 32,
+    "photo": "reserve-forces-act/lesson-032/rl032-check-expense-against-funded-purpose-v1.webp",
+    "sha256": "5282a4f51bd6dd0b21f8d6d5c1daae46d45ddb7d5f1e9d64a67a46d0ade4e71f",
+    "bytes": 49932,
+    "gitBlob": "2ac6830dbd59ab1b8c9cec85bda8d9c074ec71f8",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 32,
+    "photo": "reserve-forces-act/lesson-032/rl032-committee-appointment-classroom.webp",
+    "sha256": "bfb8508ed53b7ef7a44099d2664b0c244b594bc85cd0ceee659eb4de8cae516f",
+    "bytes": 48084,
+    "gitBlob": "0bb75dd6dc2c91ec3a34de1d0b57aaa9e4b0dff9",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 32,
+    "photo": "reserve-forces-act/lesson-032/rl032-community-project-ranking.webp",
+    "sha256": "f58650f233b5e39756e3ccc7a65fc0fd5110c4446cbc96f8d95e8bb119dfc992",
+    "bytes": 46562,
+    "gitBlob": "ccc0b0917379421e29561b521f21cd73eeee396c",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 32,
+    "photo": "reserve-forces-act/lesson-032/rl032-deadline-request-dropoff.webp",
+    "sha256": "23e8a2d1565cc978d3e6da3fe5d97ae8138c0d8556ed578b4a7b275e46825ab0",
+    "bytes": 47138,
+    "gitBlob": "e220c543fe86a8e354514592e8faa883270ae390",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 32,
+    "photo": "reserve-forces-act/lesson-032/rl032-may-submission-desk.webp",
+    "sha256": "d6b29e0ee88de4489e8b8fbb363d803386b1212d92d9785643e93166991c6763",
+    "bytes": 40638,
+    "gitBlob": "c92dbc04763b3c58bf45b25b81aa7f408b360c50",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 32,
+    "photo": "reserve-forces-act/lesson-032/rl032-separate-fund-ledger.webp",
+    "sha256": "c52e642f5e591b574a865954ada66657c73fb26c8809605a65579477dabc7013",
+    "bytes": 49814,
+    "gitBlob": "7ccaa04ed17ee0eebe84bdca4a7f24d69d7c34a1",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 33,
+    "photo": "reserve-forces-act/lesson-033/rl033-affiliate-tenant-briefing.webp",
+    "sha256": "16150fb9d1c113274f47d397d471722b96798e72d84376fc0b97af47d9ae0709",
+    "bytes": 48018,
+    "gitBlob": "255a4c5923f52d0e97b640a25ed1dc1dfc21ab4f",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 33,
+    "photo": "reserve-forces-act/lesson-033/rl033-annual-activity-milestones.webp",
+    "sha256": "2926117ded35bc102c8752d5efe2cf5b053191eb2413573daa8d644f9f9dc5b8",
+    "bytes": 24638,
+    "gitBlob": "e4dfa9d666d7689eab99aaaacdec3fc44a09e49c",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 33,
+    "photo": "reserve-forces-act/lesson-033/rl033-annual-workplace-planning-board.webp",
+    "sha256": "3991a3fae9f05f7af241ff822a21eddc9e1f89b790c74cc9621959307ceaf7d5",
+    "bytes": 49022,
+    "gitBlob": "73a6da5794c2dc2ac212c5b372013ebc77f3483d",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 33,
+    "photo": "reserve-forces-act/lesson-033/rl033-five-future-years-layout.webp",
+    "sha256": "5372717ba51a4c46710b25b1cbe567d16fcfdde3cc57db9574f2e5c92973947d",
+    "bytes": 48412,
+    "gitBlob": "6cf65deabb099e99ce46ef4c33a9f01cdcb17794",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 33,
+    "photo": "reserve-forces-act/lesson-033/rl033-immediate-plan-dispatch.webp",
+    "sha256": "8fc4696f4e3fda59713be180542a6449af73a186e70d40434ddb54978f8e316c",
+    "bytes": 41042,
+    "gitBlob": "d1e0446de3f94fce55fcfcc8d2c66a9245572b78",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 33,
+    "photo": "reserve-forces-act/lesson-033/rl033-wages-benefits-plan.webp",
+    "sha256": "74be5ce98760165df731b0da638ae6b0e0fc8ae0526ddf7bfa9ef68d84c429e7",
+    "bytes": 28240,
+    "gitBlob": "b57a44cb0276076bf74a587bed3e0568f3535639",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 33,
+    "photo": "reserve-forces-act/lesson-033/rl033-workplace-budget-ledger-table.webp",
+    "sha256": "447dd874168b7f69af71025c552847bfdef309a5e532cc2b81e2b048981504e5",
+    "bytes": 46920,
+    "gitBlob": "5533f141ff16395eee6a6c58fa62bbbcaf6b84db",
+    "reviewStatus": "candidate"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 34,
+    "photo": "reserve-forces-act/lesson-034/rl034-inspect-completed-support-project-v1.webp",
+    "sha256": "e73e98c57ab97a893d69e1b87fb0c0ff2931327d31c2658e00464651b9694fe5",
+    "bytes": 48296,
+    "gitBlob": "6816bf5718769496e4de5c6409f969caebd58e07",
+    "reviewStatus": "archived"
+  },
+  {
+    "subject": "reserve-forces-act",
+    "lesson": 34,
+    "photo": "reserve-forces-act/lesson-034/rl034-notifying-completed-result.webp",
+    "sha256": "2de59b983f77ee421a4ba7f7bb97d5399c771a839a80914231647c18c02d3338",
+    "bytes": 39516,
+    "gitBlob": "567f982ace3f8d3cd2c2cd009de18190652d5406",
+    "reviewStatus": "candidate"
   }
 ]
