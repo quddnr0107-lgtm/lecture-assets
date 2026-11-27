@@ -1,0 +1,27 @@
+{
+  "checked_date_kst": "2026-11-27",
+  "lessons": 25,
+  "diagrams": 49,
+  "image_files_checked": 147,
+  "visible_content_preserved": true,
+  "all_dimensions": [
+    1600,
+    1120
+  ],
+  "file_hashes_match": true,
+  "layout_bounds_errors": 0,
+  "text_overlap_errors": 0,
+  "gallery_relative_links_checked": 296,
+  "gallery_browser_runtime_tested": false,
+  "visual_review": "49개 전체 이미지 축소본 확인, 밀도 높은 도식 원본 확대 확인, 최종 수정본 재확인",
+  "law_basis": "법률 제21065호(시행2025-10-01), 대통령령 제36728호(시행2026-10-02)",
+  "legal_scope": "핵심 관계 요약. 지역별 조례·외부 행정규칙·비공개 작전지침은 범위 밖.",
+  "checks": [
+    "실제 강의 TB-001~TB-025와 조문 대응",
+    "모든 제목·노드·본문·표시 주석의 SVG 텍스트 보존",
+    "PNG·WebP 크기와 SHA-256",
+    "텍스트 경계·겹침",
+    "강의별 출처와 예외 표시",
+    "독립 비교와 절차 화살표 구분"
+  ]
+}

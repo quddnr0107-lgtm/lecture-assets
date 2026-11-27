@@ -5,7 +5,7 @@
   "subject": "integrated-defense",
   "lesson_number": 5,
   "lecture_id": "TB-005",
-  "status": "pending_user_selection",
+  "status": "selection_completed",
   "content": {
     "title": "지역협의회의 심의사항",
     "scope": "시·도와 시·군·구 지역협의회 비교",
@@ -55,7 +55,7 @@
       "description": "큰 숫자, 넓은 여백, 부드러운 면으로 정보의 중요도를 나눈 시안.",
       "theme": "light",
       "design_reference_url": "https://developer.apple.com/design/human-interface-guidelines/materials",
-      "status": "pending_user_selection",
+      "status": "not_selected",
       "files": {
         "svg": {
           "path": "01-apple-minimal.svg",
@@ -82,7 +82,7 @@
       "description": "파스텔 컨테이너와 플럼 강조, 공통 4개의 2×2 배치.",
       "theme": "light",
       "design_reference_url": "https://m3.material.io/styles/color/the-color-system/",
-      "status": "pending_user_selection",
+      "status": "not_selected",
       "files": {
         "svg": {
           "path": "02-google-material3.svg",
@@ -109,7 +109,7 @@
       "description": "두 협의회의 공통 심의와 시·도 한정 심의를 독립 연결선으로 구별.",
       "theme": "light",
       "design_reference_url": "https://fluent2.microsoft.design/design-principles",
-      "status": "pending_user_selection",
+      "status": "not_selected",
       "files": {
         "svg": {
           "path": "03-microsoft-fluent2.svg",
@@ -136,7 +136,7 @@
       "description": "엄격한 세로 3단, 검정 헤더와 코발트 강조 열.",
       "theme": "light",
       "design_reference_url": "https://www.carbondesignsystem.com/building-blocks/foundations/typography/overview",
-      "status": "pending_user_selection",
+      "status": "not_selected",
       "files": {
         "svg": {
           "path": "04-ibm-carbon.svg",
@@ -163,7 +163,7 @@
       "description": "네이비 바탕에 그라데이션 선과 곡선 분기, 하단 예외 영역.",
       "theme": "dark",
       "design_reference_url": "https://stripe.com/blog/connect-front-end-experience",
-      "status": "pending_user_selection",
+      "status": "not_selected",
       "files": {
         "svg": {
           "path": "05-stripe-gradient.svg",
@@ -190,7 +190,7 @@
       "description": "차콜 목록, 미세한 경계, 보라색 시·도 한정 영역.",
       "theme": "dark",
       "design_reference_url": "https://linear.app/now/behind-the-latest-design-refresh",
-      "status": "pending_user_selection",
+      "status": "not_selected",
       "files": {
         "svg": {
           "path": "06-linear-dark.svg",
@@ -217,7 +217,7 @@
       "description": "흰 종이 같은 바탕, 흑백, 손으로 그린 괄호와 밑줄.",
       "theme": "light",
       "design_reference_url": "https://www.notion.com/about",
-      "status": "pending_user_selection",
+      "status": "selected_by_user",
       "files": {
         "svg": {
           "path": "07-notion-editorial.svg",
@@ -244,7 +244,7 @@
       "description": "검정 격자와 흰색 예외 열로 구획을 선명하게 구분.",
       "theme": "dark",
       "design_reference_url": "https://vercel.com/geist/grid",
-      "status": "pending_user_selection",
+      "status": "not_selected",
       "files": {
         "svg": {
           "path": "08-vercel-geist.svg",
@@ -271,7 +271,7 @@
       "description": "코럴과 따뜻한 흰색, 수평 가지, 넓은 여백.",
       "theme": "light",
       "design_reference_url": "https://news.airbnb.com/airbnb-2025-summer-release/",
-      "status": "pending_user_selection",
+      "status": "not_selected",
       "files": {
         "svg": {
           "path": "09-airbnb-warm.svg",
@@ -298,7 +298,7 @@
       "description": "큰 제목과 4+2 캡슐, 둥근 목록, 선명한 블루 영역.",
       "theme": "light",
       "design_reference_url": "https://design.samsung.com/global/contents/one-ui-7/",
-      "status": "pending_user_selection",
+      "status": "not_selected",
       "files": {
         "svg": {
           "path": "10-samsung-one-ui.svg",
@@ -317,5 +317,8 @@
         }
       }
     }
-  ]
+  ],
+  "selected_style": "07-notion-editorial",
+  "selected_date_kst": "2026-11-27",
+  "production_index": "../../../notion-v1/"
 }

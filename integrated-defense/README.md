@@ -1,8 +1,25 @@
+# 통합방위법 강의 자료
+
+## 도식: 7번 선택 스타일 적용
+
+**25강 · 핵심 도식 49장 · SVG / PNG / WebP · 2026년 11월 27일**
+
+[전체 도식·강의별 목록](notion-v1/) · [파일·해시 목록](notion-v1/manifest.json) · [강의 연결표](notion-v1/lecture-map.json)
+
+사용자가 선택한 7번의 흑백 편집 스타일을 적용했습니다. 실제 강의 번호별 폴더의 `diagrams/notion-v1/`에 정리했으며, 각 폴더에 이미지와 내용·근거를 함께 담았습니다.
+
+[선택한 디자인 비교 시안](lesson-005/diagrams/style-studies-v2/07-notion-editorial.png) · [제작 기준](notion-v1/style-guide.md)
+
+각 강의의 핵심 관계를 요약한 자료입니다. 사진 카탈로그는 저장소의 별도 `catalog.json`을 사용합니다.
+
+<details>
+<summary>이전 도식 예시와 10종 비교 기록</summary>
+
 # 통합방위법 강의 도식 예시
 
 ## 최신 검토본: 회사 디자인 참고 시안 10종
 
-기존 시안의 디자인 개선 요청을 반영해 **통합방위법 5강의 같은 내용으로 10종**을 새로 만들었습니다. 현재는 사용자 스타일 선택 대기입니다.
+기존 시안의 디자인 개선 요청을 반영해 **통합방위법 5강의 같은 내용으로 10종**을 새로 만들었습니다. 7번 Notion 참고 편집형을 선택했습니다. 최신 제작본은 위의 25강 도식 목록에서 확인할 수 있습니다.
 
 **[10종 시안과 개별 원본 보기](lesson-005/diagrams/style-studies-v2/)**
 
@@ -73,3 +90,5 @@
 - `review-v1`: 사용자 검토 전 첫 버전
 
 메타데이터·파일 크기·SHA-256은 [diagrams-manifest.json](diagrams-manifest.json)에 기록했다.
+
+</details>
