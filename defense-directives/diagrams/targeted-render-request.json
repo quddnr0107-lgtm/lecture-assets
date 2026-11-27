@@ -1,77 +1,83 @@
 {
   "schema_version": 2,
   "exam": 80,
-  "run_id": "dr-20261128-002734-script",
+  "run_id": "dr-20261128-022512-script",
   "groups": [
     {
-      "lesson_id": "DR-021",
-      "expected_source_blob": "a8908c2960fbcdd6a7da0a671575452b3ec83bea",
-      "expected_script_sha256": "6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04",
+      "lesson_id": "DR-039",
+      "expected_source_blob": "d98d26de1fa85cd73b536e3b24bf4da21dbb07e7",
+      "expected_script_sha256": "019aa03dbaf12151e0b82e080e23c0b9fb7982084c0d157ed4d51d712aa42dc1",
       "existing_max": 2,
       "items": [
         {
-          "id": "DR-021-D02",
-          "job_id": "DR-021-D02-precision-002734",
+          "id": "DR-039-D01",
+          "job_id": "DR-039-D01-script-022512",
           "mode": "revision",
           "slide": {
-            "lessonId": "DR-021",
-            "articleKey": "1-21",
-            "title": "추가 편성의 자원·연령 구분",
-            "subtitle": "가용자원에 따라 통합 또는 별도 소대를 편성한다.",
+            "lessonId": "DR-039",
+            "articleKey": "1-50",
+            "title": "장비고와 무기·탄약고",
+            "subtitle": "설치위치·방호·건축예산의 기준을 구분한다.",
             "layout": "equal",
             "left": {
-              "title": "자원 규모별 편성",
-              "subtitle": "제5항",
+              "title": "장비고",
+              "subtitle": "해당 부대 내 또는 최기 지역",
               "items": [
                 {
-                  "label": "가용자원 부족 지역",
-                  "text": "기존 예비군소대에 통합 편성",
+                  "label": "제1항제1호 · 설치",
+                  "text": "예비군부대 내 또는 최기 지역에 설치하는 것이 원칙이다.",
                   "bold": false
                 },
                 {
-                  "label": "가용자원 충분 지역",
-                  "text": "별도 소대 편성",
+                  "label": "제1항제2호 · 방호",
+                  "text": "화재예방·도난방지를 포함한 방호대책을 강구한다.",
                   "bold": false
                 }
               ]
             },
             "right": {
-              "title": "별도 소대 편성 시",
-              "subtitle": "제6항",
+              "title": "무기·탄약고",
+              "subtitle": "건축예산과 설치 형태",
               "items": [
                 {
-                  "label": "제대 구분",
-                  "text": "35세 이하 / 36세 이상으로 구분",
+                  "label": "제2항제1호가) · 원칙",
+                  "text": "국방예산으로 건축하고 예비군 재산으로 등재한다.",
                   "bold": false
                 },
                 {
-                  "label": "지역예비군 동원 시",
-                  "text": "35세 이하 제대부터 순차 동원",
-                  "bold": false
+                  "label": "제2항제1호가) · 직장",
+                  "text": "직장 무기·탄약고는 해당 직장 자체 예산으로 건축한다.",
+                  "bold": true
+                },
+                {
+                  "label": "제2항제1호나) · 예비군 무기고",
+                  "text": "이동성·경제성 등을 고려하여 고정시설 외에 컨테이너 설치 가능",
+                  "bold": true
                 }
               ]
             },
-            "sourceArticle": "조직·편성 훈령 제21조",
+            "sourceArticle": "조직·편성 훈령 제50조",
             "sourceClauses": [
-              "제5항",
-              "제6항"
+              "제1항",
+              "제2항제1호"
             ],
-            "note": "",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J21-0:0",
+            "note": "시험 핵심: 직장 무기고로 한정하지 않으며, 이 조항은 탄약고를 명시하지 않는다.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J50-0:0",
             "sourceVersion": "국방부훈령 제3104호",
             "effectiveDate": "2025-11-14",
-            "scriptRef": "DR-021",
+            "scriptRef": "DR-039",
             "scriptEvidence": {
-              "source_git_blob": "a8908c2960fbcdd6a7da0a671575452b3ec83bea",
-              "source_sha256": "6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04",
+              "source_git_blob": "d98d26de1fa85cd73b536e3b24bf4da21dbb07e7",
+              "source_sha256": "019aa03dbaf12151e0b82e080e23c0b9fb7982084c0d157ed4d51d712aa42dc1",
               "lines": [
-                115,
-                127,
-                131,
-                133,
-                149,
-                175,
-                176
+                61,
+                67,
+                69,
+                71,
+                73,
+                77,
+                113,
+                121
               ]
             }
           }
@@ -79,246 +85,243 @@
       ]
     },
     {
-      "lesson_id": "DR-076",
-      "expected_source_blob": "899302aaf728a341ec23adad26262a73c91c6fe1",
-      "expected_script_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
+      "lesson_id": "DR-026",
+      "expected_source_blob": "a092efb5ca670b4aead58767bb8bab5d064f7ca7",
+      "expected_script_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854",
       "existing_max": 3,
       "items": [
         {
-          "id": "DR-076-D02",
-          "job_id": "DR-076-D02-precision-002734",
-          "mode": "revision",
+          "id": "DR-026-D04",
+          "job_id": "DR-026-D04-script-022512",
+          "mode": "new",
           "slide": {
-            "lessonId": "DR-076",
-            "articleKey": "2-32",
-            "title": "과태료 감경과 이의제기",
-            "subtitle": "별지 제5호·제6호 서식의 핵심 수치와 효과를 비교한다.",
-            "layout": "split",
-            "left": {
-              "title": "자진납부·감경",
-              "subtitle": "별지 제5호",
-              "items": [
-                {
-                  "label": "의견제출 기한 내 자진납부",
-                  "text": "100분의 20 범위 내 감경 가능",
-                  "bold": false
-                },
-                {
-                  "label": "질서위반행위규제법 시행령 해당",
-                  "text": "100분의 50 범위 내 감경 가능",
-                  "bold": false
-                },
-                {
-                  "label": "감경 자진납부",
-                  "text": "절차 종료, 의견제출·이의제기 불가",
-                  "bold": false
-                }
-              ]
-            },
-            "right": {
-              "title": "이의제기",
-              "subtitle": "별지 제6호",
-              "items": [
-                {
-                  "label": "기한",
-                  "text": "부과통지를 받은 날부터 60일 이내",
-                  "bold": false
-                },
-                {
-                  "label": "처리",
-                  "text": "법원의 과태료 재판",
-                  "bold": false
-                }
-              ]
-            },
-            "sourceArticle": "교육훈련 훈령 제32조",
-            "sourceClauses": [
-              "별지 제5호",
-              "별지 제6호"
-            ],
-            "note": "의견제출: 서면(전자문서 포함) 또는 구두.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J32-0:0",
-            "sourceVersion": "국방부훈령 제3216호",
-            "effectiveDate": "2026-10-14",
-            "scriptRef": "DR-076",
-            "scriptEvidence": {
-              "source_git_blob": "899302aaf728a341ec23adad26262a73c91c6fe1",
-              "source_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
-              "lines": [
-                96,
-                102,
-                104,
-                110,
-                118,
-                122,
-                124,
-                152,
-                153,
-                154
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "lesson_id": "DR-051",
-      "expected_source_blob": "b3625b807ba3cd51349b192039a5ad8b962621d3",
-      "expected_script_sha256": "298227f52d8160bc2c9b2de08f2f8c00270bfa7f06df3f27982b61ef717ee234",
-      "existing_max": 2,
-      "items": [
-        {
-          "id": "DR-051-D01",
-          "job_id": "DR-051-D01-precision-002734",
-          "mode": "revision",
-          "slide": {
-            "lessonId": "DR-051",
-            "articleKey": "2-7",
-            "title": "기본정책에서 각 군 지시까지",
-            "subtitle": "국방부장관이 정책을 수립하고 참모총장이 승인받아 구체화한다.",
+            "lessonId": "DR-026",
+            "articleKey": "1-26",
+            "title": "별표 19 · 계급별 진급 기준",
+            "subtitle": "진급 최저 복무기간과 만 나이 상한을 함께 기억한다.",
             "layout": "equal",
             "left": {
-              "title": "국방부장관",
-              "subtitle": "제1호",
+              "title": "부사관",
+              "subtitle": "최저 복무기간 / 연령",
               "items": [
                 {
-                  "label": "정책",
-                  "text": "예비군훈련 기본정책 수립",
-                  "bold": false
+                  "label": "하사 → 중사",
+                  "text": "7년 / 만 40세 이하",
+                  "bold": true
                 },
                 {
-                  "label": "훈령",
-                  "text": "교육훈련 훈령 작성·하달",
-                  "bold": false
-                },
-                {
-                  "label": "시행 관리",
-                  "text": "조정·통제·평가",
-                  "bold": false
+                  "label": "중사 → 상사",
+                  "text": "12년 / 만 45세 이하",
+                  "bold": true
                 }
               ]
             },
             "right": {
-              "title": "각 군 참모총장",
-              "subtitle": "제2호",
+              "title": "장교",
+              "subtitle": "최저 복무기간 / 연령",
               "items": [
                 {
-                  "label": "작성",
-                  "text": "훈령을 기초로 각 군 규정·지시 작성",
+                  "label": "소위 → 중위",
+                  "text": "2년 / 만 40세 이하",
                   "bold": false
                 },
                 {
-                  "label": "승인 후 하달",
-                  "text": "국방부장관 승인 후 예하부대에 하달",
+                  "label": "중위 → 대위",
+                  "text": "6년 / 만 40세 이하",
                   "bold": false
                 },
                 {
-                  "label": "시행 관리",
-                  "text": "조정·통제·평가",
+                  "label": "대위 → 소령",
+                  "text": "7년 / 만 42세 이하",
+                  "bold": false
+                },
+                {
+                  "label": "소령 → 중령",
+                  "text": "7년 / 만 45세 이하",
                   "bold": false
                 }
               ]
             },
-            "sourceArticle": "교육훈련 훈령 제7조",
+            "sourceArticle": "조직·편성 훈령 제26조",
             "sourceClauses": [
-              "제1호",
-              "제2호"
+              "제2항",
+              "별표 19"
             ],
-            "note": "해병대의 경우 해병대사령관. 작전사령관은 작성·승인 주체가 아니다.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J7-0:0",
-            "sourceVersion": "국방부훈령 제3216호",
-            "effectiveDate": "2026-10-14",
-            "scriptRef": "DR-051",
+            "note": "복무기간은 현역과 예비역 기간을 합산한다.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J26-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-026",
             "scriptEvidence": {
-              "source_git_blob": "b3625b807ba3cd51349b192039a5ad8b962621d3",
-              "source_sha256": "298227f52d8160bc2c9b2de08f2f8c00270bfa7f06df3f27982b61ef717ee234",
+              "source_git_blob": "a092efb5ca670b4aead58767bb8bab5d064f7ca7",
+              "source_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854",
               "lines": [
-                15,
-                19,
-                21,
-                27,
-                37,
-                45,
+                53,
+                56,
+                57,
+                60,
+                61,
+                62,
+                63,
+                65,
+                67,
+                71,
                 75,
-                76
+                181
               ]
             }
           }
         },
         {
-          "id": "DR-051-D02",
-          "job_id": "DR-051-D02-precision-002734",
-          "mode": "revision",
+          "id": "DR-026-D05",
+          "job_id": "DR-026-D05-script-022512",
+          "mode": "new",
           "slide": {
-            "lessonId": "DR-051",
-            "articleKey": "2-7",
-            "title": "작전사·수임군·국직의 임무",
-            "subtitle": "훈련업무 조정과 현장 계획·지원의 담당을 구분한다.",
-            "layout": "split",
+            "lessonId": "DR-026",
+            "articleKey": "1-26",
+            "title": "지시 · 지침 · 공고",
+            "subtitle": "당해 연도 문서 세 가지와 진급대상자교육의 연결",
+            "layout": "equal",
             "left": {
-              "title": "작전사·수임군",
-              "subtitle": "제3호·제4호",
+              "title": "문서별 역할",
+              "subtitle": "시험에서 바꿔 내는 세 표현",
               "items": [
                 {
-                  "label": "작전사령관(중간 지휘관리 제대의 장)",
-                  "text": "수임군부대의 훈련업무 조정·통제·평가",
+                  "label": "제2항 · 대상",
+                  "text": "예비역 간부 진급에 관한 지시",
+                  "bold": true
+                },
+                {
+                  "label": "제3항 · 선발 절차",
+                  "text": "선발지침",
+                  "bold": true
+                },
+                {
+                  "label": "제5항제1호 · 성적 기준",
+                  "text": "선발공고",
+                  "bold": true
+                }
+              ]
+            },
+            "right": {
+              "title": "진급대상자교육",
+              "subtitle": "제4항 → 제5항",
+              "items": [
+                {
+                  "label": "교육 대상",
+                  "text": "제2항 및 제3항에 따라 선발된 사람",
                   "bold": false
                 },
                 {
-                  "label": "수임군부대장",
-                  "text": "각 군 규정·지시에 기초하여 훈련계획 수립",
+                  "label": "진급명령",
+                  "text": "진급대상자교육 이수 및 공고 기준 이상의 성적",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "조직·편성 훈령 제26조",
+            "sourceClauses": [
+              "제2항",
+              "제3항",
+              "제4항",
+              "제5항제1호"
+            ],
+            "note": "대상은 지시, 선발 절차는 지침, 성적 기준은 공고.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J26-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-026",
+            "scriptEvidence": {
+              "source_git_blob": "a092efb5ca670b4aead58767bb8bab5d064f7ca7",
+              "source_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854",
+              "lines": [
+                27,
+                31,
+                35,
+                83,
+                85,
+                87,
+                89,
+                103,
+                105,
+                113,
+                182,
+                184,
+                185
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-026-D03",
+          "job_id": "DR-026-D03-script-022512",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-026",
+            "articleKey": "1-26",
+            "title": "진급명령과 병적정리",
+            "subtitle": "교육수료와 동시에 발령하고 명부 접수 뒤 30일 안에 병적을 정리한다.",
+            "layout": "equal",
+            "left": {
+              "title": "발령·임명장",
+              "subtitle": "제5항제2호",
+              "items": [
+                {
+                  "label": "발령 시점",
+                  "text": "진급대상자교육 수료와 동시",
                   "bold": false
                 },
                 {
-                  "label": "수임군부대장",
-                  "text": "훈련지원 및 조정·통제·감독·평가",
+                  "label": "장교 임명장",
+                  "text": "국방부장관이 수여",
+                  "bold": false
+                },
+                {
+                  "label": "부사관 임명장",
+                  "text": "각 군 참모총장이 수여",
                   "bold": false
                 }
               ]
             },
             "right": {
-              "title": "국방부 직할",
-              "subtitle": "제5호",
+              "title": "명부 송부·정리",
+              "subtitle": "제5항제3호·제4호",
               "items": [
                 {
-                  "label": "국직부대장",
-                  "text": "훈령을 기초로 부대 임무·여건 고려",
+                  "label": "진급발령자 명부",
+                  "text": "장교: 국방부→각 군·병무청 / 부사관: 각 군→병무청",
                   "bold": false
                 },
                 {
-                  "label": "부대훈련지시",
-                  "text": "예하부대 훈련 조정·통제·시행·평가를 반영하여 실시",
+                  "label": "지방병무청장 · 30일",
+                  "text": "명부 접수 후 30일 이내 병적정리",
                   "bold": false
+                },
+                {
+                  "label": "동원지정결과",
+                  "text": "국방부 및 각 군에 송부",
+                  "bold": true
                 }
               ]
             },
-            "sourceArticle": "교육훈련 훈령 제7조",
+            "sourceArticle": "조직·편성 훈령 제26조",
             "sourceClauses": [
-              "제3호",
-              "제4호",
-              "제5호"
+              "제5항"
             ],
-            "note": "국방부장관: 훈령 → 참모총장: 규정·지시 → 수임군부대장: 계획. 직할부대는 훈령에 직접 기초.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J7-0:0",
-            "sourceVersion": "국방부훈령 제3216호",
-            "effectiveDate": "2026-10-14",
-            "scriptRef": "DR-051",
+            "note": "",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J26-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-026",
             "scriptEvidence": {
-              "source_git_blob": "b3625b807ba3cd51349b192039a5ad8b962621d3",
-              "source_sha256": "298227f52d8160bc2c9b2de08f2f8c00270bfa7f06df3f27982b61ef717ee234",
+              "source_git_blob": "a092efb5ca670b4aead58767bb8bab5d064f7ca7",
+              "source_sha256": "06cc7de756cec08b880ee28fb70bf858adb93f164969a187b73245429376c854",
               "lines": [
-                41,
-                45,
-                49,
-                53,
-                55,
-                61,
-                65,
-                69,
-                77,
-                78,
-                79,
-                81
+                173,
+                175,
+                186,
+                187,
+                188
               ]
             }
           }
@@ -326,76 +329,222 @@
       ]
     },
     {
-      "lesson_id": "DR-070",
-      "expected_source_blob": "4a8ec51989af64d319c635c81e97e3abd2145839",
-      "expected_script_sha256": "8edf53a30a6f3b29468f5cadeaed29034c82833ea403f8345543c44e633b5c5e",
-      "existing_max": 1,
+      "lesson_id": "DR-012",
+      "expected_source_blob": "6983bc045cafa95a86311146b700668fcb6f79d6",
+      "expected_script_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
+      "existing_max": 3,
       "items": [
         {
-          "id": "DR-070-D01",
-          "job_id": "DR-070-D01-precision-002734",
-          "mode": "revision",
+          "id": "DR-012-D04",
+          "job_id": "DR-012-D04-script-022512",
+          "mode": "new",
           "slide": {
-            "lessonId": "DR-070",
-            "articleKey": "2-26",
-            "title": "교보재·탄약의 적용 규정",
-            "subtitle": "훈련 지원에 쓰는 교보재와 탄약은 각 군 규정에 따른다.",
-            "layout": "split",
+            "lessonId": "DR-012",
+            "articleKey": "1-12",
+            "title": "중기계획의 지침 · 연도계획의 근거",
+            "subtitle": "국방부장관이 지역예비군부대계획을 수립·시행한다.",
+            "layout": "equal",
             "left": {
-              "title": "지원 대상",
-              "subtitle": "제26조",
+              "title": "중기계획",
+              "subtitle": "향후 5년간 F+2~F+6",
               "items": [
                 {
-                  "label": "교육훈련 교보재",
-                  "text": "예비군훈련용 교보재",
+                  "label": "검토·조정",
+                  "text": "군무원 정원 범위 내 창설·해체 소요",
                   "bold": false
                 },
                 {
-                  "label": "탄약",
-                  "text": "예비군훈련용 탄약",
+                  "label": "결과",
+                  "text": "연도 계획·정원계획 수립에 필요한 지침 제공",
+                  "bold": true
+                }
+              ]
+            },
+            "right": {
+              "title": "연도계획",
+              "subtitle": "F+1년 시행",
+              "items": [
+                {
+                  "label": "기초 자료",
+                  "text": "중기계획의 기준연도 계획 + 각 군의 연도 요구서",
+                  "bold": false
+                },
+                {
+                  "label": "결과",
+                  "text": "부대계획 시행·정원계획 수립의 근거",
+                  "bold": true
+                }
+              ]
+            },
+            "sourceArticle": "조직·편성 훈령 제12조",
+            "sourceClauses": [
+              "본문",
+              "제1호가목",
+              "제2호가목"
+            ],
+            "note": "목적: 예비전력관리 군무원의 인력운영 효율성 제고. 대상은 지역예비군부대.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J12-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-012",
+            "scriptEvidence": {
+              "source_git_blob": "6983bc045cafa95a86311146b700668fcb6f79d6",
+              "source_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
+              "lines": [
+                15,
+                29,
+                37,
+                51,
+                73,
+                96,
+                102,
+                108,
+                110,
+                112,
+                118,
+                226,
+                227,
+                228,
+                230,
+                232
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-012-D05",
+          "job_id": "DR-012-D05-script-022512",
+          "mode": "new",
+          "slide": {
+            "lessonId": "DR-012",
+            "articleKey": "1-12",
+            "title": "별표 9 · 한 해의 계획 수립 순서",
+            "subtitle": "F년의 달력에서 연도계획과 중기계획이 만나는 달은 8월이다.",
+            "layout": "equal",
+            "left": {
+              "title": "연도계획",
+              "subtitle": "F+1년 대상",
+              "items": [
+                {
+                  "label": "2월",
+                  "text": "중기 예비군부대계획 작성지침",
+                  "bold": false
+                },
+                {
+                  "label": "6월",
+                  "text": "각 군 연도 계획 요구서",
+                  "bold": false
+                },
+                {
+                  "label": "8월",
+                  "text": "실무조정회의 후 연도 계획 확정",
+                  "bold": true
+                }
+              ]
+            },
+            "right": {
+              "title": "중기계획",
+              "subtitle": "F+2~F+6년 대상",
+              "items": [
+                {
+                  "label": "8월",
+                  "text": "각 군 중기 계획 요구서",
+                  "bold": true
+                },
+                {
+                  "label": "10월",
+                  "text": "중기 계획 안",
+                  "bold": false
+                },
+                {
+                  "label": "11월",
+                  "text": "중기 계획 확정",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "조직·편성 훈령 제12조",
+            "sourceClauses": [
+              "제4호",
+              "별표 9"
+            ],
+            "note": "확정·시행 협조: 조직총괄과 및 장비관리과.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J12-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-012",
+            "scriptEvidence": {
+              "source_git_blob": "6983bc045cafa95a86311146b700668fcb6f79d6",
+              "source_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
+              "lines": [
+                214,
+                216,
+                218,
+                231,
+                233
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-012-D03",
+          "job_id": "DR-012-D03-script-022512",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-012",
+            "articleKey": "1-12",
+            "title": "수시계획의 건의·확정 기한",
+            "subtitle": "통상 절차와 사전 예측이 제한되는 경우의 기한이 다르다.",
+            "layout": "equal",
+            "left": {
+              "title": "통상 절차",
+              "subtitle": "제3호나목",
+              "items": [
+                {
+                  "label": "승인 건의 · 7개월 전",
+                  "text": "수임군부대장 → 각 군 참모총장 경유 → 국방부장관",
+                  "bold": true
+                },
+                {
+                  "label": "확정 하달",
+                  "text": "국방부장관이 시행 5개월 전까지",
                   "bold": false
                 }
               ]
             },
             "right": {
-              "title": "준거 규정",
-              "subtitle": "각 군 규정",
+              "title": "예측 제한 사유",
+              "subtitle": "명예퇴직·의원면직·징계·사망 등",
               "items": [
                 {
-                  "label": "교육훈련지원규정",
-                  "text": "각 군 교육훈련지원규정 적용",
+                  "label": "승인 건의",
+                  "text": "시행 3개월 전까지",
                   "bold": false
                 },
                 {
-                  "label": "탄약규정",
-                  "text": "각 군 탄약규정 적용",
+                  "label": "확정 하달",
+                  "text": "시행 1개월 전까지 가능",
                   "bold": false
                 }
               ]
             },
-            "sourceArticle": "교육훈련 훈령 제26조",
+            "sourceArticle": "조직·편성 훈령 제12조",
             "sourceClauses": [
-              "제26조"
+              "제3호나목"
             ],
-            "note": "이 훈령은 수량·절차를 따로 정하지 않고 각 군 규정을 따른다.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J26-0:0",
-            "sourceVersion": "국방부훈령 제3216호",
-            "effectiveDate": "2026-10-14",
-            "scriptRef": "DR-070",
+            "note": "",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J12-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-012",
             "scriptEvidence": {
-              "source_git_blob": "4a8ec51989af64d319c635c81e97e3abd2145839",
-              "source_sha256": "8edf53a30a6f3b29468f5cadeaed29034c82833ea403f8345543c44e633b5c5e",
+              "source_git_blob": "6983bc045cafa95a86311146b700668fcb6f79d6",
+              "source_sha256": "3c3e7cd2d27bbe10516fe7aff8ad67b0321ed9758fc6a51750bc9aae4bcfa041",
               "lines": [
-                15,
-                19,
-                21,
-                23,
-                31,
-                33,
-                35,
-                39,
-                40,
-                41
+                195,
+                212,
+                235,
+                236
               ]
             }
           }
