@@ -42,7 +42,7 @@
       "kind": "renderer_setup",
       "title": "모바일 세로형 제작·검증 틀 준비",
       "priority": 0,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [],
       "acceptance_criteria": [
         "제80회 기존 스크립트와 일치한 content만 사용하며 내용 자체를 재작성하지 않는다.",
@@ -65,7 +65,13 @@
         "expires_at": "2026-11-27T03:46:52.222Z"
       },
       "recovery_note": "직전 예약 실행 및 렌더 작업은 종료됐으나 작업 완료 검수는 미완료. 사용자 지정 제80회 기존 원고 기준으로 검수 후 이어 처리.",
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "completed_evidence": {
+        "verified_commit": "b1e23f444518fb4511ed022579f6b39daeea216d",
+        "visual_report": "integrated-defense/production-queue/runs/tb-exam80-mobile-4fe6cdf7-visual-qa.json",
+        "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+        "output_type": "renderer"
+      }
     },
     {
       "id": "TB-003-SUP-01",
@@ -78,7 +84,7 @@
         "통합방위법 시행령 제3조"
       ],
       "priority": 1,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [],
       "acceptance_criteria": [
         "해당 강의의 기존 제80회 스크립트에서 참석 대상·위원 직위·기관명·숫자·조건을 직접 대조한다. 원고 밖 최신법 확장은 하지 않는다.",
@@ -99,7 +105,13 @@
         "expires_at": "2026-11-27T03:46:52.222Z"
       },
       "recovery_note": "직전 예약 실행 및 렌더 작업은 종료됐으나 작업 완료 검수는 미완료. 사용자 지정 제80회 기존 원고 기준으로 검수 후 이어 처리.",
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "completed_evidence": {
+        "verified_commit": "b1e23f444518fb4511ed022579f6b39daeea216d",
+        "visual_report": "integrated-defense/production-queue/runs/tb-exam80-mobile-4fe6cdf7-visual-qa.json",
+        "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+        "output_type": "desktop"
+      }
     },
     {
       "id": "TB-004-SUP-01",
@@ -113,7 +125,7 @@
         "통합방위법 시행령 제5조"
       ],
       "priority": 1,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [],
       "acceptance_criteria": [
         "해당 강의의 기존 제80회 스크립트에서 참석 대상·위원 직위·기관명·숫자·조건을 직접 대조한다. 원고 밖 최신법 확장은 하지 않는다.",
@@ -134,7 +146,13 @@
         "expires_at": "2026-11-27T03:46:52.222Z"
       },
       "recovery_note": "직전 예약 실행 및 렌더 작업은 종료됐으나 작업 완료 검수는 미완료. 사용자 지정 제80회 기존 원고 기준으로 검수 후 이어 처리.",
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "completed_evidence": {
+        "verified_commit": "b1e23f444518fb4511ed022579f6b39daeea216d",
+        "visual_report": "integrated-defense/production-queue/runs/tb-exam80-mobile-4fe6cdf7-visual-qa.json",
+        "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+        "output_type": "desktop"
+      }
     },
     {
       "id": "TB-005-SUP-01",
@@ -148,7 +166,7 @@
         "통합방위법 시행령 제8조제1항"
       ],
       "priority": 1,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [],
       "acceptance_criteria": [
         "해당 강의의 기존 제80회 스크립트에서 참석 대상·위원 직위·기관명·숫자·조건을 직접 대조한다. 원고 밖 최신법 확장은 하지 않는다.",
@@ -170,7 +188,13 @@
         "expires_at": "2026-11-27T03:46:52.222Z"
       },
       "recovery_note": "직전 예약 실행 및 렌더 작업은 종료됐으나 작업 완료 검수는 미완료. 사용자 지정 제80회 기존 원고 기준으로 검수 후 이어 처리.",
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "completed_evidence": {
+        "verified_commit": "b1e23f444518fb4511ed022579f6b39daeea216d",
+        "visual_report": "integrated-defense/production-queue/runs/tb-exam80-mobile-4fe6cdf7-visual-qa.json",
+        "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+        "output_type": "desktop"
+      }
     },
     {
       "id": "TB-001-MOBILE",
@@ -179,7 +203,7 @@
       "lecture_id": "TB-001",
       "title": "01강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -201,7 +225,13 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "completed_evidence": {
+        "verified_commit": "b1e23f444518fb4511ed022579f6b39daeea216d",
+        "visual_report": "integrated-defense/production-queue/runs/tb-exam80-mobile-4fe6cdf7-visual-qa.json",
+        "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+        "output_type": "mobile"
+      }
     },
     {
       "id": "TB-002-MOBILE",
@@ -234,7 +264,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
     {
       "id": "TB-003-MOBILE",
@@ -267,7 +298,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
     {
       "id": "TB-004-MOBILE",
@@ -300,7 +332,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
     {
       "id": "TB-005-MOBILE",
@@ -334,7 +367,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
     {
       "id": "TB-006-MOBILE",
@@ -366,7 +400,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
     {
       "id": "TB-007-MOBILE",
@@ -375,7 +410,7 @@
       "lecture_id": "TB-007",
       "title": "07강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -397,7 +432,13 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "completed_evidence": {
+        "verified_commit": "b1e23f444518fb4511ed022579f6b39daeea216d",
+        "visual_report": "integrated-defense/production-queue/runs/tb-exam80-mobile-4fe6cdf7-visual-qa.json",
+        "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+        "output_type": "mobile"
+      }
     },
     {
       "id": "TB-008-MOBILE",
@@ -430,7 +471,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
     {
       "id": "TB-009-MOBILE",
@@ -463,7 +505,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
     {
       "id": "TB-010-MOBILE",
@@ -494,7 +537,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
     {
       "id": "TB-011-MOBILE",
@@ -527,7 +571,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
     {
       "id": "TB-012-MOBILE",
@@ -559,7 +604,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
     {
       "id": "TB-013-MOBILE",
@@ -591,7 +637,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
     {
       "id": "TB-014-MOBILE",
@@ -600,7 +647,7 @@
       "lecture_id": "TB-014",
       "title": "14강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -622,7 +669,13 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "completed_evidence": {
+        "verified_commit": "b1e23f444518fb4511ed022579f6b39daeea216d",
+        "visual_report": "integrated-defense/production-queue/runs/tb-exam80-mobile-4fe6cdf7-visual-qa.json",
+        "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+        "output_type": "mobile"
+      }
     },
     {
       "id": "TB-015-MOBILE",
@@ -653,7 +706,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
     {
       "id": "TB-016-MOBILE",
@@ -687,7 +741,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
     {
       "id": "TB-017-MOBILE",
@@ -719,7 +774,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
     {
       "id": "TB-018-MOBILE",
@@ -751,7 +807,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
     {
       "id": "TB-019-MOBILE",
@@ -782,7 +839,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
     {
       "id": "TB-020-MOBILE",
@@ -791,7 +849,7 @@
       "lecture_id": "TB-020",
       "title": "20강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -813,7 +871,13 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "completed_evidence": {
+        "verified_commit": "b1e23f444518fb4511ed022579f6b39daeea216d",
+        "visual_report": "integrated-defense/production-queue/runs/tb-exam80-mobile-4fe6cdf7-visual-qa.json",
+        "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+        "output_type": "mobile"
+      }
     },
     {
       "id": "TB-021-MOBILE",
@@ -822,7 +886,7 @@
       "lecture_id": "TB-021",
       "title": "21강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "needs_layout_review",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -844,7 +908,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "마지막 페이지에 법령 근거만 남는 과도한 여백. 본문 크기 14px 이상 유지하며 페이지 균형을 조정하고 재검수."
     },
     {
       "id": "TB-022-MOBILE",
@@ -876,7 +941,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
     {
       "id": "TB-023-MOBILE",
@@ -909,7 +975,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
     {
       "id": "TB-024-MOBILE",
@@ -941,7 +1008,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
     {
       "id": "TB-025-MOBILE",
@@ -950,7 +1018,7 @@
       "lecture_id": "TB-025",
       "title": "25강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "needs_layout_review",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -972,7 +1040,8 @@
       ],
       "lease": null,
       "attempts": 1,
-      "source_policy": "EXAM80-SCRIPT-SOURCE.json"
+      "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+      "review_note": "마지막 페이지에 법령 근거만 남는 과도한 여백. 본문 크기 14px 이상 유지하며 페이지 균형을 조정하고 재검수."
     },
     {
       "id": "TB-FINAL-AUDIT",
@@ -1046,5 +1115,19 @@
     "status": "matched_existing_script",
     "checked_at_kst": "2026-11-27T12:02:16+09:00"
   },
-  "last_render_run": "tb-exam80-mobile-4fe6cdf7"
+  "last_render_run": "tb-exam80-mobile-4fe6cdf7",
+  "last_verified_commit": "b1e23f444518fb4511ed022579f6b39daeea216d",
+  "progress": {
+    "jobs_done": 8,
+    "jobs_remaining": 22,
+    "desktop_diagrams": 55,
+    "mobile_rendered_lessons": 25,
+    "mobile_rendered_pages": 137,
+    "mobile_verified_lessons": 4,
+    "mobile_verified_pages": 8,
+    "mobile_layout_review_lessons": [
+      21,
+      25
+    ]
+  }
 }

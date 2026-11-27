@@ -6,7 +6,7 @@
 
 사용자가 선택한 **07 Notion 참고 편집형**을 공통 스타일로 적용했다. 흰 종이 바탕, 흑백 글자, 얇은 선, 괄호와 밑줄을 사용한다. 도식별 내용에 맞춰 논리 흐름·비교·권한·조건을 다르게 구성했다.
 
-[갤러리](index.html) · [파일 목록·해시](manifest.json) · [강의 연결표](lecture-map.json) · [제작 기준](style-guide.md) · [검수 기록](verification.json)
+[모바일 도식 25강 목록](mobile-index.md) · [갤러리](index.html) · [파일 목록·해시](manifest.json) · [강의 연결표](lecture-map.json) · [제작 기준](style-guide.md) · [검수 기록](verification.json)
 
 ## 강의별 목록
 

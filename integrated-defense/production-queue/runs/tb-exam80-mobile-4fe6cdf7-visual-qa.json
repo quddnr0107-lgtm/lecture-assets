@@ -1,0 +1,54 @@
+{
+  "exam_number": 80,
+  "run_id": "tb-exam80-mobile-4fe6cdf7",
+  "verified_commit": "b1e23f444518fb4511ed022579f6b39daeea216d",
+  "failed_push_run": 45936193994,
+  "recovery_commit": "b1e23f444518fb4511ed022579f6b39daeea216d",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "source_blob_matches": 25,
+  "desktop_source_content_hash_matches": 55,
+  "desktop_supplement_visual_review": 6,
+  "mobile_rendered_lessons": 25,
+  "mobile_rendered_pages": 137,
+  "new_mobile_pages": 135,
+  "remote_files_size_verified": 411,
+  "renderer_file_sha256_verified": 411,
+  "layout_bounds_all_pass": true,
+  "visual_review": {
+    "passed_lessons": [
+      1,
+      7,
+      14,
+      20
+    ],
+    "passed_pages": 8,
+    "reviewed_with_issue_lessons": [
+      21,
+      25
+    ],
+    "reviewed_with_issue_pages": 4,
+    "issues": [
+      {
+        "lessons": [
+          21,
+          25
+        ],
+        "description": "법령 근거만 남는 마지막 페이지의 여백이 과도함. 내용 변경 없이 페이지 균형을 개선할 것."
+      }
+    ],
+    "remaining_unreviewed_lessons": 19,
+    "remaining_unreviewed_pages": 125
+  },
+  "queue_done_ids": [
+    "TB-MOBILE-SETUP",
+    "TB-003-SUP-01",
+    "TB-004-SUP-01",
+    "TB-005-SUP-01",
+    "TB-001-MOBILE",
+    "TB-007-MOBILE",
+    "TB-014-MOBILE",
+    "TB-020-MOBILE"
+  ],
+  "queue_remaining": 22,
+  "limitations": "모든 페이지의 수동 시각 확인은 아직 완료되지 않음. 기존 원고와 암호화 재생 payload의 동일성은 이번 범위가 아님."
+}
