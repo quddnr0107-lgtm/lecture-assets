@@ -88,7 +88,18 @@
     "parallelism": "maximum_actual_available",
     "worker_limit": "현재 런타임에서 실제로 허용되는 가용 슬롯 수",
     "coordinator": "single_writer",
-    "coordinator_lease": null,
+    "coordinator_lease": {
+      "owner": "generation2-coverage-review-20261128-0648",
+      "generation": 2,
+      "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+      "claimed_at": "2026-11-28T06:48:14+09:00",
+      "expires_at": "2026-11-28T07:40:00+09:00",
+      "lecture_ids": [
+        "MS-077",
+        "MS-018",
+        "MS-029"
+      ]
+    },
     "priority_lectures": [
       "MS-077",
       "MS-094",
@@ -690,7 +701,7 @@
       "title": "병역법 제13조의2, 자격·면허 등 자료의 제출 요구 등",
       "priority": 2,
       "generation": 2,
-      "status": "pending",
+      "status": "reviewing",
       "script_alignment_status": "script_alignment_pending",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_13의2.txt",
@@ -700,7 +711,18 @@
         "MS-018-D01-editorial-v1"
       ],
       "full_script_read": false,
-      "lease": null,
+      "lease": {
+        "owner": "generation2-coverage-review-20261128-0648",
+        "generation": 2,
+        "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+        "claimed_at": "2026-11-28T06:48:14+09:00",
+        "expires_at": "2026-11-28T07:40:00+09:00",
+        "lecture_ids": [
+          "MS-077",
+          "MS-018",
+          "MS-029"
+        ]
+      },
       "checkpoint": 0,
       "evidence_refs": [],
       "outcome": null,
@@ -956,7 +978,7 @@
       "title": "병역법 제20조의4, 학교생활기록부의 제출요구 등",
       "priority": 2,
       "generation": 2,
-      "status": "pending",
+      "status": "reviewing",
       "script_alignment_status": "script_alignment_pending",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_20의4.txt",
@@ -966,7 +988,18 @@
         "MS-029-D01-editorial-v1"
       ],
       "full_script_read": false,
-      "lease": null,
+      "lease": {
+        "owner": "generation2-coverage-review-20261128-0648",
+        "generation": 2,
+        "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+        "claimed_at": "2026-11-28T06:48:14+09:00",
+        "expires_at": "2026-11-28T07:40:00+09:00",
+        "lecture_ids": [
+          "MS-077",
+          "MS-018",
+          "MS-029"
+        ]
+      },
       "checkpoint": 0,
       "evidence_refs": [],
       "outcome": null,
@@ -2161,7 +2194,7 @@
       "title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
       "priority": 1,
       "generation": 2,
-      "status": "pending",
+      "status": "reviewing",
       "script_alignment_status": "script_alignment_pending",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_41.txt",
@@ -2172,7 +2205,18 @@
         "MS-077-D02-editorial-v1"
       ],
       "full_script_read": true,
-      "lease": null,
+      "lease": {
+        "owner": "generation2-coverage-review-20261128-0648",
+        "generation": 2,
+        "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+        "claimed_at": "2026-11-28T06:48:14+09:00",
+        "expires_at": "2026-11-28T07:40:00+09:00",
+        "lecture_ids": [
+          "MS-077",
+          "MS-018",
+          "MS-029"
+        ]
+      },
       "checkpoint": 8,
       "evidence_refs": [
         "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
