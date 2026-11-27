@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-28T05:27:05+09:00",
+  "updated_at": "2026-11-28T06:25:14+09:00",
   "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
     "status": "files_completed",
@@ -66,7 +66,19 @@
     ]
   },
   "state": {
-    "active_run": null,
+    "active_run": {
+      "id": "dr-20261128-062514-script",
+      "started_at": "2026-11-28T06:25:14+09:00",
+      "claimed_at": "2026-11-28T06:25:14+09:00",
+      "lease_expires_at": "2026-11-28T08:25:14+09:00",
+      "lesson_ids": [
+        "DR-064",
+        "DR-065",
+        "DR-072"
+      ],
+      "worker_count": 1,
+      "mode": "targeted_render"
+    },
     "last_successful_run": {
       "id": "dr-20261128-042219-script",
       "render_commit": "ba2cbd82dbb769a6769068ee90938c4d7e14dd8a",
@@ -96,7 +108,7 @@
     "production_jobs_queued": 0,
     "production_jobs_qa": 0,
     "production_jobs_completed": 103,
-    "production_jobs_running": 0
+    "production_jobs_running": 6
   },
   "jobs": [
     {
@@ -2051,12 +2063,30 @@
         "국방부훈령 제3216호"
       ],
       "output_directory": "defense-directives/lesson-064/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0",
+        "existing_svg_sha256": [
+          "90f25f3e704f0e8516bdf9299fc1407b27d3369a077534aec6c80deb37042649",
+          "e09416803bfc9790a7d7d603a001308c49ed9b1280162c511e563421db78353b"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "scope": "원고 1–148행과 기존 구조화 도식 D01·D02 대조",
+        "full_review_completed": false,
+        "source_sha256": "606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0",
+        "source_git_blob": "e014fc84c521b1e039b439633ad31b04ce97079f",
+        "uncovered_required_learning_objectives": [
+          "전국단위훈련 공시·신청 주체와 인터넷 기한 및 서식 구분",
+          "신청 정원 편성·확대 판단·축소 승인 주체 구분"
+        ],
+        "additional_diagrams_required": false,
+        "visual_qa": "기존 구조화 도식 텍스트 대조 완료, 수정 렌더 및 실물 검수 필요"
+      },
       "script_ref": "DR-064",
       "script_sha256": "606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0"
     },
@@ -2079,12 +2109,30 @@
         "국방부훈령 제3216호"
       ],
       "output_directory": "defense-directives/lesson-065/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d",
+        "existing_svg_sha256": [
+          "7bc0856ad58051ea9b7bf322b3e9945d9b1ce86ffbcd810bb57ec506e4b8f7a9",
+          "9893f10dbc6d507d6d2ce41a1f767651ba03b1a8f9da8caaf256b337cf6c1319"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "scope": "원고 1–157행과 기존 구조화 도식 D01·D02 대조",
+        "full_review_completed": false,
+        "source_sha256": "5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d",
+        "source_git_blob": "456f35c842315c21d936107fbcbf9d0085a09433",
+        "uncovered_required_learning_objectives": [
+          "휴일훈련 지정권자와 연간 공시·개별 공지 주체 구분",
+          "교관 구성과 조교 위로휴가 조건 비교"
+        ],
+        "additional_diagrams_required": false,
+        "visual_qa": "기존 구조화 도식 텍스트 대조 완료, 수정 렌더 및 실물 검수 필요"
+      },
       "script_ref": "DR-065",
       "script_sha256": "5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d"
     },
@@ -2107,12 +2155,30 @@
         "국방부훈령 제3216호"
       ],
       "output_directory": "defense-directives/lesson-072/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd",
+        "existing_svg_sha256": [
+          "7a2a40315eb49e10018da4121d3f333e48dcab0a26fcaf476d94451bb997da9c",
+          "20475fa8690bee378df82fd559734fd54f29989985609dd85033563fe140cf85"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "scope": "원고 1–146행과 기존 구조화 도식 D01·D02 대조",
+        "full_review_completed": false,
+        "source_sha256": "63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd",
+        "source_git_blob": "15eaf88c5f80c6834e82ed7d23e78ced45843029",
+        "uncovered_required_learning_objectives": [
+          "급식 방식과 대체 승인 및 급식비 중복 제한",
+          "도시락 업체 계약·품평회 구성 및 만족도 조사 주체 비교"
+        ],
+        "additional_diagrams_required": false,
+        "visual_qa": "기존 구조화 도식 텍스트 대조 완료, 수정 렌더 및 실물 검수 필요"
+      },
       "script_ref": "DR-072",
       "script_sha256": "63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd"
     },
@@ -8946,6 +9012,231 @@
       "visual_reviewed_at": "2026-11-28T05:27:05+09:00",
       "completed_at": "2026-11-28T05:27:05+09:00",
       "render_commit": "ba2cbd82dbb769a6769068ee90938c4d7e14dd8a"
+    },
+    {
+      "id": "DR-064-D01-script-062514",
+      "lesson_id": "DR-064",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-064-D01",
+      "learning_objective": "전국단위훈련 공시·신청 주체와 인터넷 기한 및 서식 구분",
+      "script_ref": "DR-064",
+      "script_section": "15,19,31,35,39,89,101,103,105,121",
+      "script_sha256": "606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-064|606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0|15,19,31,35,39,89,101,103,105,121|전국단위훈련 공시·신청 주체와 인터넷 기한 및 서식 구분|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-20.txt",
+          "source_git_blob": "e014fc84c521b1e039b439633ad31b04ce97079f",
+          "source_sha256": "606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0",
+          "line_numbers": [
+            15,
+            19,
+            31,
+            35,
+            39,
+            89,
+            101,
+            103,
+            105,
+            121
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-062514-script",
+      "claimed_at": "2026-11-28T06:25:14+09:00",
+      "lease_expires_at": "2026-11-28T08:25:14+09:00",
+      "finding": "기존 도식에 연간 공시 주체·별지3호 누락, 인터넷 기한과 방문신청 구분 불명확, 강의 외 작계 예외 주석 존재",
+      "required_change": "전국단위훈련 공시·신청 주체와 인터넷 기한 및 서식 구분"
+    },
+    {
+      "id": "DR-064-D02-script-062514",
+      "lesson_id": "DR-064",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-064-D02",
+      "learning_objective": "신청 정원 편성·확대 판단·축소 승인 주체 구분",
+      "script_ref": "DR-064",
+      "script_section": "57,59,77,79,81,83,85,131",
+      "script_sha256": "606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-064|606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0|57,59,77,79,81,83,85,131|신청 정원 편성·확대 판단·축소 승인 주체 구분|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-20.txt",
+          "source_git_blob": "e014fc84c521b1e039b439633ad31b04ce97079f",
+          "source_sha256": "606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0",
+          "line_numbers": [
+            57,
+            59,
+            77,
+            79,
+            81,
+            83,
+            85,
+            131
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-062514-script",
+      "claimed_at": "2026-11-28T06:25:14+09:00",
+      "lease_expires_at": "2026-11-28T08:25:14+09:00",
+      "finding": "비율 편성 주체 및 반영 주체 누락, 해병대 승인권자 조건 명확화",
+      "required_change": "신청 정원 편성·확대 판단·축소 승인 주체 구분"
+    },
+    {
+      "id": "DR-065-D01-script-062514",
+      "lesson_id": "DR-065",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-065-D01",
+      "learning_objective": "휴일훈련 지정권자와 연간 공시·개별 공지 주체 구분",
+      "script_ref": "DR-065",
+      "script_section": "17,25,37,41,43,53,61,77,79,81",
+      "script_sha256": "5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-065|5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d|17,25,37,41,43,53,61,77,79,81|휴일훈련 지정권자와 연간 공시·개별 공지 주체 구분|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-21.txt",
+          "source_git_blob": "456f35c842315c21d936107fbcbf9d0085a09433",
+          "source_sha256": "5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d",
+          "line_numbers": [
+            17,
+            25,
+            37,
+            41,
+            43,
+            53,
+            61,
+            77,
+            79,
+            81
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-062514-script",
+      "claimed_at": "2026-11-28T06:25:14+09:00",
+      "lease_expires_at": "2026-11-28T08:25:14+09:00",
+      "finding": "기존 도식에 부대 지정권자·연간 공시 주체·개별 공지 주체가 빠짐",
+      "required_change": "휴일훈련 지정권자와 연간 공시·개별 공지 주체 구분"
+    },
+    {
+      "id": "DR-065-D02-script-062514",
+      "lesson_id": "DR-065",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-065-D02",
+      "learning_objective": "교관 구성과 조교 위로휴가 조건 비교",
+      "script_ref": "DR-065",
+      "script_section": "61,85,95,101,107,113,117,125,137",
+      "script_sha256": "5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-065|5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d|61,85,95,101,107,113,117,125,137|교관 구성과 조교 위로휴가 조건 비교|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-21.txt",
+          "source_git_blob": "456f35c842315c21d936107fbcbf9d0085a09433",
+          "source_sha256": "5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d",
+          "line_numbers": [
+            61,
+            85,
+            95,
+            101,
+            107,
+            113,
+            117,
+            125,
+            137
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-062514-script",
+      "claimed_at": "2026-11-28T06:25:14+09:00",
+      "lease_expires_at": "2026-11-28T08:25:14+09:00",
+      "finding": "교관의 현역·예비군지휘관·군무원 구분 누락",
+      "required_change": "교관 구성과 조교 위로휴가 조건 비교"
+    },
+    {
+      "id": "DR-072-D01-script-062514",
+      "lesson_id": "DR-072",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-072-D01",
+      "learning_objective": "급식 방식과 대체 승인 및 급식비 중복 제한",
+      "script_ref": "DR-072",
+      "script_section": "19,29,43,93,95,109,129,135,136,140",
+      "script_sha256": "63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-072|63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd|19,29,43,93,95,109,129,135,136,140|급식 방식과 대체 승인 및 급식비 중복 제한|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-28.txt",
+          "source_git_blob": "15eaf88c5f80c6834e82ed7d23e78ced45843029",
+          "source_sha256": "63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd",
+          "line_numbers": [
+            19,
+            29,
+            43,
+            93,
+            95,
+            109,
+            129,
+            135,
+            136,
+            140
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-062514-script",
+      "claimed_at": "2026-11-28T06:25:14+09:00",
+      "lease_expires_at": "2026-11-28T08:25:14+09:00",
+      "finding": "대체 방식의 공급능력 부족 조건 및 원고 제27조 연계 설명 보완",
+      "required_change": "급식 방식과 대체 승인 및 급식비 중복 제한"
+    },
+    {
+      "id": "DR-072-D02-script-062514",
+      "lesson_id": "DR-072",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-072-D02",
+      "learning_objective": "도시락 업체 계약·품평회 구성 및 만족도 조사 주체 비교",
+      "script_ref": "DR-072",
+      "script_section": "49,65,69,79,81,85,113,119,123,127",
+      "script_sha256": "63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-072|63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd|49,65,69,79,81,85,113,119,123,127|도시락 업체 계약·품평회 구성 및 만족도 조사 주체 비교|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-28.txt",
+          "source_git_blob": "15eaf88c5f80c6834e82ed7d23e78ced45843029",
+          "source_sha256": "63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd",
+          "line_numbers": [
+            49,
+            65,
+            69,
+            79,
+            81,
+            85,
+            113,
+            119,
+            123,
+            127
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-062514-script",
+      "claimed_at": "2026-11-28T06:25:14+09:00",
+      "lease_expires_at": "2026-11-28T08:25:14+09:00",
+      "finding": "계약 준거·품평회 참여자·조사 대상 누락",
+      "required_change": "도시락 업체 계약·품평회 구성 및 만족도 조사 주체 비교"
     }
   ],
   "runs": [

@@ -1,94 +1,175 @@
 {
   "schema_version": 2,
   "exam": 80,
-  "run_id": "dr-20261128-042219-script",
+  "run_id": "dr-20261128-062514-script",
   "groups": [
     {
-      "lesson_id": "DR-036",
-      "expected_source_blob": "9d2b3d81243702eabe7c08977c9fae700d2d5b27",
-      "expected_script_sha256": "29cc2b99f7cf762516fcbc14d2f5f8a2b3d826042866b13031d1892cda8664d4",
-      "existing_max": 1,
+      "lesson_id": "DR-064",
+      "expected_source_blob": "e014fc84c521b1e039b439633ad31b04ce97079f",
+      "expected_script_sha256": "606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0",
+      "existing_max": 2,
       "items": [
         {
-          "id": "DR-036-D02",
-          "job_id": "DR-036-D02-script-042219",
-          "mode": "new",
+          "id": "DR-064-D01",
+          "job_id": "DR-064-D01-script-062514",
+          "mode": "revision",
           "slide": {
-            "lessonId": "DR-036",
-            "articleKey": "1-47",
-            "title": "별표 23 · 통신장비 보유기준",
-            "subtitle": "원고에서 설명한 네 장비와 부대별 보유기준을 비교한다.",
-            "layout": "equal",
+            "lessonId": "DR-064",
+            "articleKey": "2-20",
+            "title": "전국단위훈련의 신청과 입소",
+            "subtitle": "전국의 훈련장을 선택하되 사전 신청한 사람만 입소한다.",
+            "layout": "split",
             "left": {
-              "title": "지역대·기동대·중대본부",
-              "subtitle": "장비 순서: P-999K / PS-LTE / 핸드토키 / 체신전화기",
+              "title": "공시와 신청",
+              "subtitle": "제2항·제3항·제5항",
               "items": [
                 {
-                  "label": "지역대",
-                  "text": "2 / 1 / 3 / 없음",
+                  "label": "훈련부대",
+                  "text": "연간 계획을 홈페이지·앱에 공시",
                   "bold": false
                 },
                 {
-                  "label": "기동대",
-                  "text": "2 / 1 / 7 / 2",
+                  "label": "학급·일정 공시",
+                  "text": "훈련개시 30일 전 14시 전후 15분 이내부터 신청 가능",
                   "bold": true
                 },
                 {
-                  "label": "중대본부",
-                  "text": "2 / 1 / 2 / 1",
+                  "label": "인터넷 신청",
+                  "text": "훈련실시 3일 전까지 홈페이지·앱",
+                  "bold": true
+                },
+                {
+                  "label": "방문 신청",
+                  "text": "원소속 또는 인근 중대 · 별지 제3호 참고",
                   "bold": false
                 }
               ]
             },
             "right": {
-              "title": "소대·특전예비군",
-              "subtitle": "동일한 장비 순서 (단위: 대)",
+              "title": "대상·입소·불참",
+              "subtitle": "제1항·제6항·제7항",
               "items": [
                 {
-                  "label": "전방군단 지역 소대",
-                  "text": "1 / — / 5 / 1",
+                  "label": "대상",
+                  "text": "본인 희망 시 전국 훈련장",
                   "bold": false
                 },
                 {
-                  "label": "그 밖의 지역 소대",
-                  "text": "— / — / 5 / 1",
+                  "label": "제외",
+                  "text": "동원훈련Ⅰ형·작계훈련 / 간부·공군 병은 제13조제4항",
                   "bold": false
                 },
                 {
-                  "label": "특전예비군",
-                  "text": "— / — / 3 / —",
+                  "label": "입소",
+                  "text": "인터넷·방문 신청자에 한함",
+                  "bold": false
+                },
+                {
+                  "label": "신청 후 불참",
+                  "text": "소속 예비군중대가 차수 증가 후 차후 훈련 부과",
+                  "bold": true
+                }
+              ]
+            },
+            "sourceArticle": "교육훈련 훈령 제20조",
+            "sourceClauses": [
+              "제1항",
+              "제3항",
+              "제5항",
+              "제6항",
+              "제7항"
+            ],
+            "note": "별지 제3호: 이미 부과된 훈련이 없으면 해당 칸은 공란. 강의 원고 제20조 설명 기준.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J20-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-064",
+            "scriptEvidence": {
+              "source_git_blob": "e014fc84c521b1e039b439633ad31b04ce97079f",
+              "source_sha256": "606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0",
+              "lines": [
+                15,
+                19,
+                31,
+                35,
+                39,
+                89,
+                101,
+                103,
+                105,
+                121
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-064-D02",
+          "job_id": "DR-064-D02-script-062514",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-064",
+            "articleKey": "2-20",
+            "title": "전국단위훈련 신청 정원",
+            "subtitle": "원칙·확대·축소 승인권한을 구분한다.",
+            "layout": "equal",
+            "left": {
+              "title": "원칙과 확대",
+              "subtitle": "제4항 · 훈련담당부대 편성",
+              "items": [
+                {
+                  "label": "원칙",
+                  "text": "신청 가능범위 10% 이상",
+                  "bold": true
+                },
+                {
+                  "label": "확대 조건",
+                  "text": "훈련장 여건이 가용할 경우",
+                  "bold": false
+                },
+                {
+                  "label": "확대 판단",
+                  "text": "수임군부대장 판단으로 15~20% 수준",
+                  "bold": true
+                }
+              ]
+            },
+            "right": {
+              "title": "10% 미만 편성",
+              "subtitle": "자원과다 등 제한사항",
+              "items": [
+                {
+                  "label": "승인권자",
+                  "text": "각 군 참모총장 (해병대는 해병대사령관)",
+                  "bold": true
+                },
+                {
+                  "label": "문서 반영",
+                  "text": "각 수임군부대가 해당 연도 신청범위를 부대 예비군훈련지시 등에 반영",
                   "bold": false
                 }
               ]
             },
-            "sourceArticle": "조직·편성 훈령 제47조",
+            "sourceArticle": "교육훈련 훈령 제20조",
             "sourceClauses": [
-              "제4항",
-              "별표 23"
+              "제4항"
             ],
-            "note": "예비군기동대에 감시정찰반 편성 시 핸드토키 1대 추가. —는 원고에서 보유 수량을 제시하지 않은 항목.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J47-0:0",
-            "sourceVersion": "국방부훈령 제3104호",
-            "effectiveDate": "2025-11-14",
-            "scriptRef": "DR-036",
+            "note": "확대는 수임군부대장 판단, 10% 미만은 각 군 참모총장 승인.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J20-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-064",
             "scriptEvidence": {
-              "source_git_blob": "9d2b3d81243702eabe7c08977c9fae700d2d5b27",
-              "source_sha256": "29cc2b99f7cf762516fcbc14d2f5f8a2b3d826042866b13031d1892cda8664d4",
+              "source_git_blob": "e014fc84c521b1e039b439633ad31b04ce97079f",
+              "source_sha256": "606967536c6e3e52563126387159db1580f7c5e9e576fbea292057a362e99db0",
               "lines": [
-                103,
-                107,
-                109,
-                110,
-                111,
-                112,
-                113,
-                114,
-                116,
-                118,
-                120,
-                128,
-                139,
-                140
+                57,
+                59,
+                77,
+                79,
+                81,
+                83,
+                85,
+                131
               ]
             }
           }
@@ -96,86 +177,341 @@
       ]
     },
     {
-      "lesson_id": "DR-041",
-      "expected_source_blob": "fbb479ed9771ef4a7c0a8c2fa791ebbec4b6f128",
-      "expected_script_sha256": "7ef501d6ef126e02e0d3b0d5c9d56eb0d2f5b00f3b142e4f5afc304ff2bbd921",
-      "existing_max": 1,
+      "lesson_id": "DR-065",
+      "expected_source_blob": "456f35c842315c21d936107fbcbf9d0085a09433",
+      "expected_script_sha256": "5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d",
+      "existing_max": 2,
       "items": [
         {
-          "id": "DR-041-D02",
-          "job_id": "DR-041-D02-script-042219",
-          "mode": "new",
+          "id": "DR-065-D01",
+          "job_id": "DR-065-D01-script-062514",
+          "mode": "revision",
           "slide": {
-            "lessonId": "DR-041",
-            "articleKey": "1-52",
-            "title": "별표 25 · 보유기준의 세 가지 단서",
-            "subtitle": "보유기준의 추가·제외 조건과 정비방식을 구분한다.",
-            "layout": "equal",
+            "lessonId": "DR-065",
+            "articleKey": "2-21",
+            "title": "휴일훈련 적용 유형",
+            "subtitle": "수임군부대장이 부대여건을 고려하여 훈련부대를 지정한다.",
+            "layout": "split",
             "left": {
-              "title": "보유기준 단서",
-              "subtitle": "제3항 · 별표 25",
+              "title": "지정 및 적용 유형",
+              "subtitle": "제1항",
               "items": [
                 {
-                  "label": "대검",
-                  "text": "기동대 및 전방군단 주민이동지역 지역예비군 1인 1개 (권총 지급자 제외)",
-                  "bold": false
-                },
-                {
-                  "label": "감시정찰반",
-                  "text": "기동대 편성 시 드론·GPS·쌍안경·M1·M2 나침의 추가",
+                  "label": "지정",
+                  "text": "부대별 여건 고려, 수임군부대장 판단",
                   "bold": true
                 },
                 {
-                  "label": "기동대 전투력 보강",
-                  "text": "개인화기 조준경·레이저표적지시기·고성능확대경 추가",
+                  "label": "적용 유형 1·2",
+                  "text": "동원훈련Ⅱ형 / 기본훈련",
+                  "bold": false
+                },
+                {
+                  "label": "적용 유형 3",
+                  "text": "지역예비군훈련장에서 실시하는 작계훈련",
                   "bold": true
                 }
               ]
             },
             "right": {
-              "title": "정비 비교",
-              "subtitle": "제47조와 제52조",
+              "title": "연간 일정과 개별 신청",
+              "subtitle": "제2항·제3항",
               "items": [
                 {
-                  "label": "통신장비",
-                  "text": "부대정비 계단 초과 고장장비는 지원시설에 반납",
+                  "label": "수임군부대장",
+                  "text": "각 군 지침에 따라 부대별 연간 일자 편성, 연초 홈페이지·앱 공시",
+                  "bold": false
+                },
+                {
+                  "label": "훈련담당부대",
+                  "text": "훈련개시 30일 전 14시 전후 15분 이내 공지",
                   "bold": true
                 },
                 {
-                  "label": "감시장비",
-                  "text": "지원시설 정비 제한 품목은 육성지원예산으로 정비",
+                  "label": "신청 마감",
+                  "text": "홍보활동을 통해 3일 전까지 인터넷·방문 등 접수",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "교육훈련 훈령 제21조",
+            "sourceClauses": [
+              "제1항",
+              "제2항",
+              "제3항"
+            ],
+            "note": "휴일훈련의 적용 유형은 세 가지로 한정. 동원훈련Ⅰ형은 제외.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J21-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-065",
+            "scriptEvidence": {
+              "source_git_blob": "456f35c842315c21d936107fbcbf9d0085a09433",
+              "source_sha256": "5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d",
+              "lines": [
+                17,
+                25,
+                37,
+                41,
+                43,
+                53,
+                61,
+                77,
+                79,
+                81
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-065-D02",
+          "job_id": "DR-065-D02-script-062514",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-065",
+            "articleKey": "2-21",
+            "title": "휴일훈련 불참과 지원인력",
+            "subtitle": "신청자의 불참 처리와 참여 교관·조교에 대한 보상을 구분한다.",
+            "layout": "equal",
+            "left": {
+              "title": "신청 후 미참석",
+              "subtitle": "제3항",
+              "items": [
+                {
+                  "label": "대상",
+                  "text": "휴일훈련 신청 후 미참석 예비군",
+                  "bold": false
+                },
+                {
+                  "label": "처리",
+                  "text": "훈련차수를 추가하여 적용",
                   "bold": true
                 }
               ]
             },
-            "sourceArticle": "조직·편성 훈령 제52조",
+            "right": {
+              "title": "교관과 병 조교",
+              "subtitle": "제4항",
+              "items": [
+                {
+                  "label": "교관 구성",
+                  "text": "현역·예비군지휘관·군무원",
+                  "bold": true
+                },
+                {
+                  "label": "교관 지원",
+                  "text": "정해진 예산한도 내 시간 외 근무수당 또는 전투휴무",
+                  "bold": false
+                },
+                {
+                  "label": "병(조교)",
+                  "text": "휴가 승인권자 판단 하 위로휴가",
+                  "bold": true
+                }
+              ]
+            },
+            "sourceArticle": "교육훈련 훈령 제21조",
             "sourceClauses": [
-              "제2항제1호",
               "제3항",
-              "별표 25"
+              "제4항"
             ],
-            "note": "전투력 보강 단서의 마지막 품목은 고성능확대경이며 야간투시경이 아니다.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J52-0:0",
-            "sourceVersion": "국방부훈령 제3104호",
-            "effectiveDate": "2025-11-14",
-            "scriptRef": "DR-041",
+            "note": "위로휴가는 병(조교)에게 실시. 교관 지원과 구분.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J21-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-065",
             "scriptEvidence": {
-              "source_git_blob": "fbb479ed9771ef4a7c0a8c2fa791ebbec4b6f128",
-              "source_sha256": "7ef501d6ef126e02e0d3b0d5c9d56eb0d2f5b00f3b142e4f5afc304ff2bbd921",
+              "source_git_blob": "456f35c842315c21d936107fbcbf9d0085a09433",
+              "source_sha256": "5bb7c0efceff5846e796561960429d07b95196ceb9d30bab33249d84a67d212d",
               "lines": [
-                75,
-                77,
+                61,
+                85,
+                95,
+                101,
+                107,
+                113,
+                117,
+                125,
+                137
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson_id": "DR-072",
+      "expected_source_blob": "15eaf88c5f80c6834e82ed7d23e78ced45843029",
+      "expected_script_sha256": "63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd",
+      "existing_max": 2,
+      "items": [
+        {
+          "id": "DR-072-D01",
+          "job_id": "DR-072-D01-script-062514",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-072",
+            "articleKey": "2-28",
+            "title": "숙영급식과 도시락 급식",
+            "subtitle": "숙영 여부와 훈련유형에 따라 급식 기준이 달라진다.",
+            "layout": "equal",
+            "left": {
+              "title": "숙영훈련",
+              "subtitle": "제1항",
+              "items": [
+                {
+                  "label": "급식 방법",
+                  "text": "부대급식(영내자 급식)",
+                  "bold": false
+                },
+                {
+                  "label": "기준",
+                  "text": "현역장병과 동일한 기준",
+                  "bold": true
+                }
+              ]
+            },
+            "right": {
+              "title": "지역예비군훈련·Ⅱ형",
+              "subtitle": "제2항·제3항",
+              "items": [
+                {
+                  "label": "원칙",
+                  "text": "도시락 급식",
+                  "bold": false
+                },
+                {
+                  "label": "대체 조건",
+                  "text": "품질·안정성을 갖춘 업체의 공급능력 부족, 예비군 만족도 등",
+                  "bold": false
+                },
+                {
+                  "label": "대체 급식",
+                  "text": "전투식량·일반식당·부대급식·기타 방법",
+                  "bold": false
+                },
+                {
+                  "label": "승인",
+                  "text": "각 군 승인",
+                  "bold": true
+                }
+              ]
+            },
+            "sourceArticle": "교육훈련 훈령 제28조",
+            "sourceClauses": [
+              "제1항",
+              "제2항",
+              "제3항"
+            ],
+            "note": "제27조 연계: 급식지원을 받는 예비군에게 급식비를 별도로 지급하지 않는다.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J28-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-072",
+            "scriptEvidence": {
+              "source_git_blob": "15eaf88c5f80c6834e82ed7d23e78ced45843029",
+              "source_sha256": "63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd",
+              "lines": [
+                19,
+                29,
+                43,
+                93,
+                95,
+                109,
+                129,
+                135,
+                136,
+                140
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-072-D02",
+          "job_id": "DR-072-D02-script-062514",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-072",
+            "articleKey": "2-28",
+            "title": "도시락 업체 선정과 개선",
+            "subtitle": "품질·위생 검증과 훈련 후 만족도 관리를 연결한다.",
+            "layout": "split",
+            "left": {
+              "title": "업체 선정",
+              "subtitle": "제2항",
+              "items": [
+                {
+                  "label": "우선 고려",
+                  "text": "품질과 안정성 (가격 우선 아님)",
+                  "bold": true
+                },
+                {
+                  "label": "계약 준거",
+                  "text": "국가계약법 시행령 제18조·제43조",
+                  "bold": false
+                },
+                {
+                  "label": "HACCP",
+                  "text": "인증업체를 대상으로 하거나 우대 평가",
+                  "bold": false
+                },
+                {
+                  "label": "검증",
+                  "text": "품질·맛·위생 검증: 현장실사와 품평회",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "품평회와 개선",
+              "subtitle": "제2항제3호·제4항",
+              "items": [
+                {
+                  "label": "품평회 참가",
+                  "text": "전역임박장병·부대관계자·가용시 예비군",
+                  "bold": true
+                },
+                {
+                  "label": "훈련부대",
+                  "text": "지역예비군·동원훈련Ⅱ형 훈련부대가 조사",
+                  "bold": false
+                },
+                {
+                  "label": "조사 대상",
+                  "text": "예비군 만족도 (업체 만족도 아님)",
+                  "bold": true
+                },
+                {
+                  "label": "메뉴 개선",
+                  "text": "급식업체와 메뉴회의·간담회 등",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "교육훈련 훈령 제28조",
+            "sourceClauses": [
+              "제2항",
+              "제4항"
+            ],
+            "note": "업체 선정과 만족도 조사는 품질 향상을 위한 서로 다른 절차.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J28-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-072",
+            "scriptEvidence": {
+              "source_git_blob": "15eaf88c5f80c6834e82ed7d23e78ced45843029",
+              "source_sha256": "63ea5b330344d738bb9c108ef1099f36ca427fcc8eecf56ad8a1575e42ff94dd",
+              "lines": [
+                49,
+                65,
+                69,
                 79,
                 81,
-                87,
-                95,
-                97,
-                99,
-                101,
-                109,
+                85,
+                113,
                 119,
-                121,
-                122
+                123,
+                127
               ]
             }
           }
