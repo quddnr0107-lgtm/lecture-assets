@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "review_date_kst": "2026-11-27",
+  "method": "Official provision comparison, independent second review, then incorporation of all findings. Text is an instructional summary, not an exhaustive transcript of every provision.",
+  "ranges": [
+    {
+      "range": "dr001-026",
+      "lessons": 26,
+      "diagrams": 69,
+      "reviewed_all": true,
+      "findings_applied": 3,
+      "final_content_sha256": "c1626b0262355777c64308de400c8007f64444c0d05e69642485185d40a48d64",
+      "final_status": "passed_after_corrections"
+    },
+    {
+      "range": "dr027-042",
+      "lessons": 16,
+      "diagrams": 32,
+      "reviewed_all": true,
+      "findings_applied": 4,
+      "final_content_sha256": "91b5ab25ef33553ad5df1e6682bf01671ff108adfd1839337a4b2faa5729d2fa",
+      "final_status": "passed_after_corrections"
+    },
+    {
+      "range": "dr043-078",
+      "lessons": 36,
+      "diagrams": 89,
+      "reviewed_all": true,
+      "findings_applied": 12,
+      "final_content_sha256": "c4db4680bb40fa597c4edcf7475d8e607dffc9c2424968bcd87dfc5c05639aa2",
+      "final_status": "passed_after_corrections"
+    }
+  ],
+  "unresolved_findings": 0,
+  "official_sources": [
+    "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674",
+    "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712"
+  ]
+}
