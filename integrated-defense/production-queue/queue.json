@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject": "integrated-defense",
   "created_at_kst": "2026-11-27T10:25:01+09:00",
-  "updated_at_kst": "2026-11-27T16:55:00+09:00",
+  "updated_at_kst": "2026-11-27T08:49:21.125Z",
   "status": "review_pending",
   "approved_style": "07-notion-editorial",
   "baseline": {
@@ -378,8 +378,12 @@
       "outputs": [
         "integrated-defense/lesson-005/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 3,
+      "lease": {
+        "run_id": "tb-exam80-review-2026-11-27T08:49:21.125Z",
+        "started_at": "2026-11-27T08:49:21.125Z",
+        "expires_at": "2026-11-27T09:29:21.125Z"
+      },
+      "attempts": 4,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "D03 M03 근거 제목 중복 제거 후 재검수."
     },
@@ -411,8 +415,12 @@
       "outputs": [
         "integrated-defense/lesson-006/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 2,
+      "lease": {
+        "run_id": "tb-exam80-review-2026-11-27T08:49:21.125Z",
+        "started_at": "2026-11-27T08:49:21.125Z",
+        "expires_at": "2026-11-27T09:29:21.125Z"
+      },
+      "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "D02 M03 근거만 있는 페이지 재균형 후 재검수."
     },
@@ -482,8 +490,12 @@
       "outputs": [
         "integrated-defense/lesson-008/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 1,
+      "lease": {
+        "run_id": "tb-exam80-review-2026-11-27T08:49:21.125Z",
+        "started_at": "2026-11-27T08:49:21.125Z",
+        "expires_at": "2026-11-27T09:29:21.125Z"
+      },
+      "attempts": 2,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
       "review_note": "원격 파일 3종 및 크기·해시 자동 검증 완료. 실제 이미지 검수만 남음. 이상 없는 도식은 재생성하지 말 것."
     },
