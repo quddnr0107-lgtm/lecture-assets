@@ -1,0 +1,104 @@
+{
+  "lecture_id": "MS-156",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_90의2.txt",
+  "script_git_blob_sha": "b135345a7a888caea45b90e1c40600aebac0467c",
+  "script_sha256": "b42f489b484aa27db0df5629dbbf385263f16b946313db00621520858f32d630",
+  "full_script_read": true,
+  "script_line_count": 111,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        9,
+        33
+      ],
+      "topic": "소집에 응한 사람의 복무의무 위반과 네 가지 법정형",
+      "diagrams": [
+        "MS-156-D01-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        37,
+        49
+      ],
+      "topic": "정당한 사유 없는 복무이탈과 무허가 장소이탈",
+      "diagrams": [
+        "MS-156-D01-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        51,
+        61
+      ],
+      "topic": "다른 사람 근무 방해·태만 선동",
+      "diagrams": [
+        "MS-156-D01-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        63,
+        75
+      ],
+      "topic": "복무 중 조직적 정치운동",
+      "diagrams": [
+        "MS-156-D01-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        77,
+        106
+      ],
+      "topic": "정당한 사유 없는 업무 불이행·지연 및 정리",
+      "diagrams": [
+        "MS-156-D01-editorial-v1"
+      ]
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-156-D01-editorial-v1"
+  ],
+  "reviewed_published_diagram_ids": [
+    "MS-156-D01-editorial-v1"
+  ],
+  "decision": {
+    "outcome": "reuse_only",
+    "reason": "기존 도식은 네 가지 사유를 별개 항목으로 구분하고 정당한 사유·허가·복무 중·조직적 요건 및 네 법정형을 모두 표시한다. 도입부의 소집 불응과의 구분 및 반복 비유는 기존 제목·대상·각 항목으로 충분히 설명 가능하다."
+  },
+  "changed_artifacts_and_hashes": [],
+  "verified_published_assets": [
+    {
+      "id": "MS-156-D01-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-156/diagrams/MS-156-D01-editorial-v1.svg",
+          "bytes": 6727,
+          "sha256": "dbe07e2eb009ac7bc565f8ef2b80d69617905ff1b2625d6d24c45c9ab692dfdb",
+          "git_blob_sha": "22584abf41bbc7c3fcbbf7c4610c4d54f0f083f8"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-156/diagrams/MS-156-D01-editorial-v1.webp",
+          "bytes": 52052,
+          "sha256": "b7961c5234bd82ff63c87a8b67817ed3e5788a45d084fefaddf8a9a0775e5939",
+          "git_blob_sha": "1ec17a299d0f563bce3b3731e6762b7b8ae3f37b"
+        }
+      },
+      "visual_review": "실제 공개 WebP 화면 확인, 잘림·겹침 없음",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    }
+  ],
+  "previous_evidence_sha256": null,
+  "publication_commit_or_null": null,
+  "publication_parent": "3e78aa08fe1db42ce20c1937a4c28e5404cd192f",
+  "reviewed_date_kst": "2026-11-28",
+  "full_lecture_complete": true
+}

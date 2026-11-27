@@ -88,11 +88,7 @@
     "parallelism": "maximum_actual_available",
     "worker_limit": "현재 런타임에서 실제로 허용되는 가용 슬롯 수",
     "coordinator": "single_writer",
-    "coordinator_lease": {
-      "owner": "exam80-ms-review-20261128-0748",
-      "generation": 2,
-      "expires_at_kst": "2026-11-28T08:45:00+09:00"
-    },
+    "coordinator_lease": null,
     "priority_lectures": [
       "MS-077",
       "MS-094",
@@ -4235,8 +4231,8 @@
       "title": "병역법 제90조의2, 예비군대체복무 소집된 사람의 복무의무 위반",
       "priority": 2,
       "generation": 2,
-      "status": "claimed",
-      "script_alignment_status": "script_alignment_pending",
+      "status": "completed",
+      "script_alignment_status": "script_alignment_verified",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_90의2.txt",
         "script_git_blob_sha": "b135345a7a888caea45b90e1c40600aebac0467c"
@@ -4244,20 +4240,20 @@
       "existing_diagram_ids": [
         "MS-156-D01-editorial-v1"
       ],
-      "full_script_read": false,
-      "lease": {
-        "owner": "exam80-ms-review-20261128-0748",
-        "generation": 2,
-        "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
-        "claimed_at_kst": "2026-11-28T07:48:32+09:00",
-        "expires_at_kst": "2026-11-28T08:45:00+09:00"
-      },
-      "checkpoint": 0,
-      "evidence_refs": [],
-      "outcome": null,
+      "full_script_read": true,
+      "lease": null,
+      "checkpoint": 1,
+      "evidence_refs": [
+        "military-service-act/production-evidence/exam80-generation-2/MS-156/001-af0c7faf52471215c3c5c860501f7ea60ad114764d263e616eee34259bb50d8b.json"
+      ],
+      "outcome": "reuse_only",
       "changed_diagram_ids": [],
       "new_diagram_ids": [],
-      "previously_verified_existing_diagram_ids": []
+      "previously_verified_existing_diagram_ids": [
+        "MS-156-D01-editorial-v1"
+      ],
+      "script_fulltext_retrieved": true,
+      "evidence_sha256": "af0c7faf52471215c3c5c860501f7ea60ad114764d263e616eee34259bb50d8b"
     },
     {
       "lecture_id": "MS-157",
@@ -4303,8 +4299,8 @@
       "title": "병역법 제91조의2, 대체역의 허위증명서 등의 발급",
       "priority": 2,
       "generation": 2,
-      "status": "claimed",
-      "script_alignment_status": "script_alignment_pending",
+      "status": "completed",
+      "script_alignment_status": "script_alignment_verified",
       "source": {
         "path": "docs/merged-lectures/병역법/본법_91의2.txt",
         "script_git_blob_sha": "d8d4d53cbdc2ea3e84f2f0424443299ece93f1c8"
@@ -4312,20 +4308,20 @@
       "existing_diagram_ids": [
         "MS-158-D01-editorial-v1"
       ],
-      "full_script_read": false,
-      "lease": {
-        "owner": "exam80-ms-review-20261128-0748",
-        "generation": 2,
-        "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
-        "claimed_at_kst": "2026-11-28T07:48:32+09:00",
-        "expires_at_kst": "2026-11-28T08:45:00+09:00"
-      },
-      "checkpoint": 0,
-      "evidence_refs": [],
-      "outcome": null,
+      "full_script_read": true,
+      "lease": null,
+      "checkpoint": 1,
+      "evidence_refs": [
+        "military-service-act/production-evidence/exam80-generation-2/MS-158/001-3c7a4aaa776d8b6ce186aa913b2fcf205ec8ea7ea239f3d53e19776010726518.json"
+      ],
+      "outcome": "reuse_only",
       "changed_diagram_ids": [],
       "new_diagram_ids": [],
-      "previously_verified_existing_diagram_ids": []
+      "previously_verified_existing_diagram_ids": [
+        "MS-158-D01-editorial-v1"
+      ],
+      "script_fulltext_retrieved": true,
+      "evidence_sha256": "3c7a4aaa776d8b6ce186aa913b2fcf205ec8ea7ea239f3d53e19776010726518"
     },
     {
       "lecture_id": "MS-159",
@@ -4527,9 +4523,9 @@
   ],
   "existing_diagram_support_review": {
     "audit": "military-service-act/script-alignment-audit-exam80.json",
-    "verified_existing_pages": 23,
-    "pending_existing_pages": 260,
-    "scope": "기존 도식 원고 근거 확인 23장; 전체 핵심 도식 범위 대조 완료 17강."
+    "verified_existing_pages": 25,
+    "pending_existing_pages": 258,
+    "scope": "기존 도식 원고 근거 확인 25장; 전체 핵심 도식 범위 대조 완료 19강."
   },
   "last_partial_checkpoint": {
     "date_kst": "2026-11-27",
@@ -4549,15 +4545,15 @@
   "last_reuse_checkpoint": {
     "date_kst": "2026-11-28",
     "completed_lectures": [
-      "MS-018",
-      "MS-029"
+      "MS-156",
+      "MS-158"
     ],
     "evidence_refs": [
-      "military-service-act/production-evidence/exam80-generation-2/MS-018/001-91d008ac84e52feceb5c1141ef57ec61c807880303c7508338b68564628b70c0.json",
-      "military-service-act/production-evidence/exam80-generation-2/MS-029/001-67685e1a1de65c81d73c9b722681e123005b9db4fa985de32703bd35c3a88415.json"
+      "military-service-act/production-evidence/exam80-generation-2/MS-156/001-af0c7faf52471215c3c5c860501f7ea60ad114764d263e616eee34259bb50d8b.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-158/001-3c7a4aaa776d8b6ce186aa913b2fcf205ec8ea7ea239f3d53e19776010726518.json"
     ],
     "new_images": 0,
-    "publication_parent": "711a366fc529ac471e107f10fc44e4d9f7038416"
+    "publication_parent": "3e78aa08fe1db42ce20c1937a4c28e5404cd192f"
   },
   "last_draft_checkpoint": {
     "date_kst": "2026-11-28",
@@ -4590,19 +4586,17 @@
   "last_coverage_checkpoint": {
     "date_kst": "2026-11-28",
     "completed_lectures": [
-      "MS-077",
-      "MS-018",
-      "MS-029"
+      "MS-156",
+      "MS-158"
     ],
     "evidence_refs": [
-      "military-service-act/production-evidence/exam80-generation-2/MS-077/015-742e933cc5024d31bd23365ff3e5bfe2464d7ab57e5772066c96f5540315198c.json",
-      "military-service-act/production-evidence/exam80-generation-2/MS-018/001-91d008ac84e52feceb5c1141ef57ec61c807880303c7508338b68564628b70c0.json",
-      "military-service-act/production-evidence/exam80-generation-2/MS-029/001-67685e1a1de65c81d73c9b722681e123005b9db4fa985de32703bd35c3a88415.json"
+      "military-service-act/production-evidence/exam80-generation-2/MS-156/001-af0c7faf52471215c3c5c860501f7ea60ad114764d263e616eee34259bb50d8b.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-158/001-3c7a4aaa776d8b6ce186aa913b2fcf205ec8ea7ea239f3d53e19776010726518.json"
     ],
-    "reviewed_published_pages": 16,
+    "reviewed_published_pages": 2,
     "existing_newly_verified_pages": 2,
     "new_images": 0,
     "corrected_images": 0,
-    "publication_parent": "711a366fc529ac471e107f10fc44e4d9f7038416"
+    "publication_parent": "3e78aa08fe1db42ce20c1937a4c28e5404cd192f"
   }
 }

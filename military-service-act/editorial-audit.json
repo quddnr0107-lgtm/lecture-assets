@@ -105,13 +105,13 @@
     "fulltext_files_identity_verified": 166,
     "old_law_expansion_queue": "superseded",
     "replacement_queue_generation": 2,
-    "sample_script_aligned_pages": 23,
-    "remaining_script_alignment_pages": 260,
+    "sample_script_aligned_pages": 25,
+    "remaining_script_alignment_pages": 258,
     "past_law_review_is_not_full_script_alignment": true,
-    "completed_script_coverage_lectures": 17,
+    "completed_script_coverage_lectures": 19,
     "latest_reuse_evidence": [
-      "military-service-act/production-evidence/exam80-generation-2/MS-018/001-91d008ac84e52feceb5c1141ef57ec61c807880303c7508338b68564628b70c0.json",
-      "military-service-act/production-evidence/exam80-generation-2/MS-029/001-67685e1a1de65c81d73c9b722681e123005b9db4fa985de32703bd35c3a88415.json"
+      "military-service-act/production-evidence/exam80-generation-2/MS-156/001-af0c7faf52471215c3c5c860501f7ea60ad114764d263e616eee34259bb50d8b.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-158/001-3c7a4aaa776d8b6ce186aa913b2fcf205ec8ea7ea239f3d53e19776010726518.json"
     ]
   },
   "current_publication": {
@@ -119,8 +119,8 @@
     "concept_diagram_count": 292,
     "existing_pages": 283,
     "new_script_supplement_pages": 33,
-    "verified_existing_pages": 23,
-    "completed_lectures": 17,
+    "verified_existing_pages": 25,
+    "completed_lectures": 19,
     "evidence": [
       "military-service-act/production-evidence/exam80-generation-2/MS-065/014-publication-review.json",
       "military-service-act/production-evidence/exam80-generation-2/MS-109/014-publication-review.json"
@@ -129,19 +129,17 @@
   "latest_coverage_review": {
     "date_kst": "2026-11-28",
     "completed_lectures": [
-      "MS-077",
-      "MS-018",
-      "MS-029"
+      "MS-156",
+      "MS-158"
     ],
     "evidence_refs": [
-      "military-service-act/production-evidence/exam80-generation-2/MS-077/015-742e933cc5024d31bd23365ff3e5bfe2464d7ab57e5772066c96f5540315198c.json",
-      "military-service-act/production-evidence/exam80-generation-2/MS-018/001-91d008ac84e52feceb5c1141ef57ec61c807880303c7508338b68564628b70c0.json",
-      "military-service-act/production-evidence/exam80-generation-2/MS-029/001-67685e1a1de65c81d73c9b722681e123005b9db4fa985de32703bd35c3a88415.json"
+      "military-service-act/production-evidence/exam80-generation-2/MS-156/001-af0c7faf52471215c3c5c860501f7ea60ad114764d263e616eee34259bb50d8b.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-158/001-3c7a4aaa776d8b6ce186aa913b2fcf205ec8ea7ea239f3d53e19776010726518.json"
     ],
-    "reviewed_published_pages": 16,
+    "reviewed_published_pages": 2,
     "existing_newly_verified_pages": 2,
     "new_images": 0,
     "corrected_images": 0,
-    "publication_parent": "711a366fc529ac471e107f10fc44e4d9f7038416"
+    "publication_parent": "3e78aa08fe1db42ce20c1937a4c28e5404cd192f"
   }
 }

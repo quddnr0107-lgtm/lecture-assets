@@ -1,0 +1,94 @@
+{
+  "lecture_id": "MS-158",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_91의2.txt",
+  "script_git_blob_sha": "d8d4d53cbdc2ea3e84f2f0424443299ece93f1c8",
+  "script_sha256": "cb19e05d1be87a642481eb9a2f517cc801e42b5cdcafd3e9beaddedba98ad35b",
+  "full_script_read": true,
+  "script_line_count": 101,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        9,
+        31
+      ],
+      "topic": "타인 대체역 편입 목적과 자격자 등의 허위발급·진술",
+      "diagrams": [
+        "MS-158-D01-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        33,
+        57
+      ],
+      "topic": "1~10년 징역과 10년 이하 자격정지 재량 병과",
+      "diagrams": [
+        "MS-158-D01-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        59,
+        77
+      ],
+      "topic": "증인·참고인 등의 허위작성·진술 및 1~5년 징역 또는 3천만원 이하 벌금",
+      "diagrams": [
+        "MS-158-D01-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        79,
+        98
+      ],
+      "topic": "제91조와의 목적 대비, 발급/작성 및 형량 차이",
+      "diagrams": [
+        "MS-158-D01-editorial-v1"
+      ]
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-158-D01-editorial-v1"
+  ],
+  "reviewed_published_diagram_ids": [
+    "MS-158-D01-editorial-v1"
+  ],
+  "decision": {
+    "outcome": "reuse_only",
+    "reason": "두 열에 동일 목적, 자격자와 증인·참고인, 발급과 작성, 거짓 진술, 각 형량 및 자격정지 재량이 정확히 구분되어 있다. 제91조와의 목적 대비는 각 강의의 제목과 기존 도식으로 설명되며 반복 비유는 추가 제작하지 않는다."
+  },
+  "changed_artifacts_and_hashes": [],
+  "verified_published_assets": [
+    {
+      "id": "MS-158-D01-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-158/diagrams/MS-158-D01-editorial-v1.svg",
+          "bytes": 6522,
+          "sha256": "a7e328d26066c0d95b7baac839f9ee96542646be5823d3d179c71f9ebf0c3259",
+          "git_blob_sha": "3e67a821a855750c5b293c06decbac32b6eadb58"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-158/diagrams/MS-158-D01-editorial-v1.webp",
+          "bytes": 51940,
+          "sha256": "222c3883d63430b68e484a1a97a80510a4dcf9b5085a71443afd67cb83a635bd",
+          "git_blob_sha": "eb69e53f7bf0e9e74356ac39d9aeea9527c00767"
+        }
+      },
+      "visual_review": "실제 공개 WebP 화면 확인, 잘림·겹침 없음",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    }
+  ],
+  "previous_evidence_sha256": null,
+  "publication_commit_or_null": null,
+  "publication_parent": "3e78aa08fe1db42ce20c1937a4c28e5404cd192f",
+  "reviewed_date_kst": "2026-11-28",
+  "full_lecture_complete": true
+}
