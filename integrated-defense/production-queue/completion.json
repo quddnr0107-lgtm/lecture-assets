@@ -1,7 +1,7 @@
 {
   "run_id": "tb-exam80-20261128-0152-final",
   "exam_number": 80,
-  "status": "audit_pass_remote_verification_pending",
+  "status": "complete",
   "input_commit": "707de96788cac3926a17d254347b78b15f8401ee",
   "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
   "lesson_count": 25,
@@ -17,5 +17,17 @@
     "bytes": 40612061,
     "sha256": "66382b49ad53f88cfac33eeb4236254a536cd2b0efc6301a71296f40a92660ce",
     "entries": 638
+  },
+  "remote_verification": {
+    "workflow_run": 46037419179,
+    "workflow_conclusion": "success",
+    "verified_commit": "54e046d43fa8dc64507472e645b7ccc15246e296",
+    "asset_blobs_unchanged_from_audited_input": 576,
+    "remote_paths_and_sizes_matched": 576,
+    "pinned_source_blob_matches": 25,
+    "zip_git_blob_sha": "73a20a89bc0a47af20a3b7750b0f4089ee23bb00",
+    "zip_remote_bytes": 40612061,
+    "zip_sha256_method": "calculated and ZIP CRC checked in successful workflow before Git push; published Git blob and bytes confirmed remotely",
+    "index_rows": 25
   }
 }
