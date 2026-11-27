@@ -1,0 +1,115 @@
+{
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "reviewed_date_kst": "2026-11-27",
+  "lecture_id": "MS-094",
+  "source_path": "docs/merged-lectures/병역법/본법_58.txt",
+  "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+  "source_file_retrieved_and_blob_matched": true,
+  "reviewed_scope": "supplement claims and actual WebP only; full lecture coverage pending",
+  "previous_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-05-corrected-drafts.json",
+  "published_items": [
+    {
+      "id": "MS-094-D05-editorial-v1",
+      "draft_svg": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-094/candidate-application-deadlines-r2.svg",
+      "draft_webp": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-094/candidate-application-deadlines-r2.webp",
+      "svg_blob_sha": "812ebdd7e0f5a568b9d8d9a7b09567f05a540231",
+      "webp_blob_sha": "9ae6a6d55152b907ad61b07b4e66ea708274a185",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D05-editorial-v1.svg",
+          "bytes": 4734,
+          "sha256": "ef674ee079cfef72bee9559b6eefed738d6b201df51e4f1314e2a44dd8b618ef"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D05-editorial-v1.webp",
+          "bytes": 34792,
+          "sha256": "af639a94fa8cef3929c81cc8af1cf3a3d778cbdb5a797ba0aa94fef6a9db5681"
+        }
+      },
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "source_line_spans": [
+        [
+          124,
+          126
+        ]
+      ],
+      "review": "대상·기산 연도 및 2/10·3/31·5/31 일치",
+      "visual_review": "pass",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp": true
+    },
+    {
+      "id": "MS-094-D06-editorial-v1",
+      "draft_svg": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-094/candidate-selection-scoring-r2.svg",
+      "draft_webp": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-094/candidate-selection-scoring-r2.webp",
+      "svg_blob_sha": "c88ae0c4787f27bce2fd8b214fda08a653f48b02",
+      "webp_blob_sha": "7ced5643f655e810e81a8902a107ce0356d6c01f",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D06-editorial-v1.svg",
+          "bytes": 5322,
+          "sha256": "dcf3864131a0e42cfb3ffa636ded8cefd6f29a531618f93c1a8afb37c5f531d8"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D06-editorial-v1.webp",
+          "bytes": 37460,
+          "sha256": "7335b52f0c6d3bb49d45495d710cd4ddc5cf10d16ab9c446227afee0f858ed2e"
+        }
+      },
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "source_line_spans": [
+        [
+          128,
+          128
+        ]
+      ],
+      "review": "신체등급·분야별 점수·동점 기준·결격 일치",
+      "visual_review": "pass",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp": true
+    },
+    {
+      "id": "MS-094-D07-editorial-v1",
+      "draft_svg": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-094/candidate-demand-notification.svg",
+      "draft_webp": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-094/candidate-demand-notification.webp",
+      "svg_blob_sha": "82023614e5ab78c53d58d53f3239467cbe18520a",
+      "webp_blob_sha": "7967e7f0ab4150f67170e06862d511ac899f1c72",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D07-editorial-v1.svg",
+          "bytes": 3977,
+          "sha256": "70efde95b8402ef2da81f621cf2c712fe3486a83d828cb3023e7617abe61f1dc"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D07-editorial-v1.webp",
+          "bytes": 33916,
+          "sha256": "a27b8ced38969c8afe15b118ed1fd6a9d9e375e5605027d37fbf093518d84c4f"
+        }
+      },
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "source_line_spans": [
+        [
+          134,
+          146
+        ]
+      ],
+      "review": "4개 부처·5년/2년 기준·결정 주체 일치",
+      "visual_review": "pass",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp": true
+    }
+  ],
+  "full_lecture_complete": false,
+  "publication_parent": "dad67d12bd8b421ba54e01dca0b421bbfbe13a16"
+}

@@ -5,10 +5,10 @@
     "expected_lectures": 166,
     "actual_lectures": 166,
     "missing_lectures": [],
-    "content_diagrams": 259,
-    "rendered_diagrams": 283,
-    "vector_files": 283,
-    "lossless_webp_files": 283
+    "content_diagrams": 279,
+    "rendered_diagrams": 303,
+    "vector_files": 303,
+    "lossless_webp_files": 303
   },
   "layout": {
     "canvas": [
@@ -88,10 +88,10 @@
   ],
   "asset_sizes": {
     "webp_min_bytes": 25526,
-    "webp_median_bytes": 53884,
+    "webp_median_bytes": 53374,
     "webp_max_bytes": 74434,
-    "webp_total_bytes": 14816786,
-    "all_formats_total_bytes": 16709554
+    "webp_total_bytes": 15750438,
+    "all_formats_total_bytes": 17750136
   },
   "limitations": [
     "핵심 구조를 요약한 강의 보조 도식으로, 강의 대본 전체나 모든 항·호의 전문은 포함하지 않음",
@@ -116,15 +116,16 @@
     ]
   },
   "current_publication": {
-    "diagram_count": 296,
-    "concept_diagram_count": 272,
+    "diagram_count": 303,
+    "concept_diagram_count": 279,
     "existing_pages": 283,
-    "new_script_supplement_pages": 13,
+    "new_script_supplement_pages": 20,
     "verified_existing_pages": 13,
     "completed_lectures": 6,
     "evidence": [
-      "military-service-act/production-evidence/exam80-generation-2/MS-094/002-publication-review.json",
-      "military-service-act/production-evidence/exam80-generation-2/MS-109/002-publication-review.json"
+      "military-service-act/production-evidence/exam80-generation-2/MS-077/006-publication-review.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-094/006-publication-review.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-109/006-publication-review.json"
     ]
   }
 }

@@ -14892,6 +14892,98 @@
       }
     },
     {
+      "id": "MS-077-D12-editorial-v1",
+      "lecture_id": "MS-077",
+      "lesson_number": 77,
+      "diagram_number": 12,
+      "title": "군 필요인원 통보의 두 날짜",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 272,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D12-editorial-v1.svg",
+          "bytes": 5159,
+          "sha256": "ec8d84ee21eb2c613532faeca2d64b96ddf44fde40b95a37b3689c2e929616e4"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D12-editorial-v1.webp",
+          "bytes": 50898,
+          "sha256": "7a159eae26c8304d98c31c79b7627ba5d33160ace95eb8aedea122119c8e7ddd"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-077",
+        "title": "군 필요인원 통보의 두 날짜",
+        "subtitle": "시행령 제10조 · 군 필요인원과 병역처분 기준",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "10월 31일까지",
+            "items": [
+              {
+                "label": "각 군 참모총장 → 병무청장",
+                "text": "매년 다다음 해에 징집으로 현역병 입영할 사람의 적성별 필요인원 통보",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "12월 31일까지",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "다음 해 병역판정검사의 현역병입영·보충역 편입 처분 기준 결정",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "병무청장 → 지방병무청장",
+                "text": "시·도별·적성별 현역병입영 인원 배정",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "병무청장 → 각 군 참모총장",
+                "text": "정해진 기준을 통보",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "군의 필요인원 통보 10월 31일 / 병무청의 기준 통보 12월 31일",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            179,
+            183
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
+      "main_article": "병역법 제41조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-077",
+        "path": "docs/merged-lectures/병역법/본법_41.txt",
+        "git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-077/006-publication-review.json",
+        "source_line_spans": [
+          [
+            179,
+            183
+          ]
+        ]
+      }
+    },
+    {
       "id": "MS-078-D01-editorial-v1",
       "lecture_id": "MS-078",
       "lesson_number": 78,
@@ -17185,6 +17277,297 @@
       }
     },
     {
+      "id": "MS-094-D05-editorial-v1",
+      "lecture_id": "MS-094",
+      "lesson_number": 94,
+      "diagram_number": 5,
+      "title": "사관후보생 지원 기한",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 273,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D05-editorial-v1.svg",
+          "bytes": 4734,
+          "sha256": "ef674ee079cfef72bee9559b6eefed738d6b201df51e4f1314e2a44dd8b618ef"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D05-editorial-v1.webp",
+          "bytes": 34792,
+          "sha256": "af639a94fa8cef3929c81cc8af1cf3a3d778cbdb5a797ba0aa94fef6a9db5681"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "사관후보생 지원 기한",
+        "subtitle": "지원 분야에 따라 달라지는 날짜",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "의무·법무",
+            "items": [
+              {
+                "label": "의무",
+                "text": "군전공의요원으로 채용되는 해 2월 10일까지",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "법무",
+                "text": "사법연수원 입교 해 또는 법학전문대학원 2학년 해 3월 31일까지",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "수의·군종",
+            "items": [
+              {
+                "label": "수의",
+                "text": "수의과대학 본과 3학년 해 5월 31일까지",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "군종",
+                "text": "국방부장관이 정하는 절차",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "장교 지원 후 후보생 지원 → 장교 지원서 철회 간주",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            124,
+            126
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제58조, 의무·법무·군종·수의장교 등의 병적 편입",
+      "main_article": "병역법 제58조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-094",
+        "path": "docs/merged-lectures/병역법/본법_58.txt",
+        "git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-094/006-publication-review.json",
+        "source_line_spans": [
+          [
+            124,
+            126
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-094-D06-editorial-v1",
+      "lecture_id": "MS-094",
+      "lesson_number": 94,
+      "diagram_number": 6,
+      "title": "사관후보생 선발 점수",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 274,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D06-editorial-v1.svg",
+          "bytes": 5322,
+          "sha256": "dcf3864131a0e42cfb3ffa636ded8cefd6f29a531618f93c1a8afb37c5f531d8"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D06-editorial-v1.webp",
+          "bytes": 37460,
+          "sha256": "7335b52f0c6d3bb49d45495d710cd4ddc5cf10d16ab9c446227afee0f858ed2e"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "사관후보생 선발 점수",
+        "subtitle": "병무청장: 신체등급 환산점수 + 분야별 성적, 높은 순 선발",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "신체등급",
+            "items": [
+              {
+                "label": "1~3급",
+                "text": "100점",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "4급",
+                "text": "90점",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "동점 처리",
+                "text": "높은 신체등급 → 높은 성적 → 빠른 생년월일",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "분야별 성적",
+            "items": [
+              {
+                "label": "의무",
+                "text": "면허시험 성적",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "법무",
+                "text": "사법연수원생: 사법시험 성적 / 법학전문대학원생: 법학적성시험 50점 + 1학년 성적 50점",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "수의",
+                "text": "본과 1·2학년 평균 성적",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "군인사법상 임용 결격자는 제외",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            128,
+            128
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제58조, 의무·법무·군종·수의장교 등의 병적 편입",
+      "main_article": "병역법 제58조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-094",
+        "path": "docs/merged-lectures/병역법/본법_58.txt",
+        "git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-094/006-publication-review.json",
+        "source_line_spans": [
+          [
+            128,
+            128
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-094-D07-editorial-v1",
+      "lecture_id": "MS-094",
+      "lesson_number": 94,
+      "diagram_number": 7,
+      "title": "필요인원 통보의 기준",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 275,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D07-editorial-v1.svg",
+          "bytes": 3977,
+          "sha256": "70efde95b8402ef2da81f621cf2c712fe3486a83d828cb3023e7617abe61f1dc"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D07-editorial-v1.webp",
+          "bytes": 33916,
+          "sha256": "a27b8ced38969c8afe15b118ed1fd6a9d9e375e5605027d37fbf093518d84c4f"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "필요인원 통보의 기준",
+        "subtitle": "매년 1월 31일까지 → 병무청장",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "5년 후 필요인원",
+            "items": [
+              {
+                "label": "국방부장관",
+                "text": "의무 현역장교",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "보건복지부장관",
+                "text": "공중보건의사",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "2년 후 필요인원",
+            "items": [
+              {
+                "label": "국방부장관",
+                "text": "법무·수의 현역장교",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "법무부장관",
+                "text": "공익법무관",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "농림축산식품부장관",
+                "text": "공중방역수의사",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "병무청장: 충원율 등을 고려하여 결정",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            134,
+            146
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제58조, 의무·법무·군종·수의장교 등의 병적 편입",
+      "main_article": "병역법 제58조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-094",
+        "path": "docs/merged-lectures/병역법/본법_58.txt",
+        "git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-094/006-publication-review.json",
+        "source_line_spans": [
+          [
+            134,
+            146
+          ]
+        ]
+      }
+    },
+    {
       "id": "MS-095-D01-editorial-v1",
       "lecture_id": "MS-095",
       "lesson_number": 95,
@@ -19173,6 +19556,305 @@
           [
             153,
             171
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-109-D06-editorial-v1",
+      "lecture_id": "MS-109",
+      "lesson_number": 109,
+      "diagram_number": 6,
+      "title": "국외 유학 허가 연장",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 276,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D06-editorial-v1.svg",
+          "bytes": 4454,
+          "sha256": "d1e951baffb4ef7b38f4a13b39d80ee9c1c9b1106130150f6f73670d8a95bded"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D06-editorial-v1.webp",
+          "bytes": 36192,
+          "sha256": "a825afae412cb88ffe9e604c1fc0cc9d11468e7cbe56a6d24430c7814c92c2e8"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-109",
+        "title": "국외 유학 허가 연장",
+        "subtitle": "병무청장: 국외체재 목적·병역의무부과에 지장 없는 범위",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "일반 유학",
+            "items": [
+              {
+                "label": "기본",
+                "text": "학교별 제한연령까지",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "졸업·학위 취득 곤란",
+                "text": "제한연령 + 1년, 29세 이내에서 허가 가능",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "외국 대학원 박사과정",
+            "items": [
+              {
+                "label": "조건",
+                "text": "30세가 되는 해 6월 이전 박사학위 취득 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "연장 기한",
+                "text": "그 해 6월 30일까지 허가 가능",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "별도 일반 유학 허가 항목: 고등학교 수학 목적은 제외",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            171,
+            171
+          ],
+          [
+            195,
+            195
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제70조, 국외여행의 허가 및 취소",
+      "main_article": "병역법 제70조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-109",
+        "path": "docs/merged-lectures/병역법/본법_70.txt",
+        "git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-109/006-publication-review.json",
+        "source_line_spans": [
+          [
+            171,
+            171
+          ],
+          [
+            195,
+            195
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-109-D07-editorial-v1",
+      "lecture_id": "MS-109",
+      "lesson_number": 109,
+      "diagram_number": 7,
+      "title": "국외여행허가 취소 기준",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 277,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D07-editorial-v1.svg",
+          "bytes": 5423,
+          "sha256": "60a41ee94b500e282edbab099835a80497226de1bc71819c8e34c15ba92030e7"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D07-editorial-v1.webp",
+          "bytes": 43644,
+          "sha256": "e7185f8b474ce3e600dd4803942f1a879342754bf06877bbfbe6de6183e812a8"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-109",
+        "title": "국외여행허가 취소 기준",
+        "subtitle": "국외이주 목적과 그 밖의 목적 비교",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "국외이주 목적",
+            "items": [
+              {
+                "label": "국내 체류",
+                "text": "1년 중 통틀어 6개월 이상, 정해진 사유 60일 이내 제외",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "연기 후 미출국",
+                "text": "연기받은 날부터 1년 6개월 이내 정당한 사유 없이 미출국",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "취소 유예",
+                "text": "국내 6개월 이상 또는 영리활동: 한 번 3개월, 미출국 시 취소",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "그 밖의 목적",
+            "items": [
+              {
+                "label": "미출국",
+                "text": "허가받은 날부터 1년 이내 출국하지 않은 때",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "25세 이상",
+                "text": "허가기간 중 귀국하여 국내 계속 3개월 이상 체류",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "국외이주와 그 밖의 허가는 기산점·기간이 서로 다름",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            235,
+            247
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제70조, 국외여행의 허가 및 취소",
+      "main_article": "병역법 제70조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-109",
+        "path": "docs/merged-lectures/병역법/본법_70.txt",
+        "git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-109/006-publication-review.json",
+        "source_line_spans": [
+          [
+            235,
+            247
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-109-D08-editorial-v1",
+      "lecture_id": "MS-109",
+      "lesson_number": 109,
+      "diagram_number": 8,
+      "title": "국외 거주자의 허가 간주",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 278,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D08-editorial-v1.svg",
+          "bytes": 4823,
+          "sha256": "219bb5650001affc3bcdb8e120daf1c7fc4ad0faebbf74a5ee7e8563a42ed9e4"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D08-editorial-v1.webp",
+          "bytes": 33022,
+          "sha256": "942e2edf72a833525777bd4a241910e5d44537a1945024ae81ca582c6679efc3"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-109",
+        "title": "국외 거주자의 허가 간주",
+        "subtitle": "18세·25세·37세 기준",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "기본 요건",
+            "items": [
+              {
+                "label": "18세 전",
+                "text": "국외 거주 시작",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "25세 전",
+                "text": "본인 또는 부모 법정 사유",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "효과",
+                "text": "37세까지 허가 간주",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "제5호 요건",
+            "items": [
+              {
+                "label": "18세 전 출국",
+                "text": "국외 주재원이 아닌 부모와 동반",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "이후",
+                "text": "그 부모와 국외 계속 거주",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "확인",
+                "text": "연금가입 자료 요청 가능",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "취소 사유 해당 → 취소된 것으로 보아 병역의무 부과 가능",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            249,
+            267
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제70조, 국외여행의 허가 및 취소",
+      "main_article": "병역법 제70조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-109",
+        "path": "docs/merged-lectures/병역법/본법_70.txt",
+        "git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-109/006-publication-review.json",
+        "source_line_spans": [
+          [
+            249,
+            267
           ]
         ]
       }
@@ -27252,13 +27934,13 @@
     }
   ],
   "lesson_count": 166,
-  "diagram_count": 296,
+  "diagram_count": 303,
   "created_date_kst": "2026-11-27",
   "review_status": "existing_exam80_script_alignment_in_progress",
   "lecture_count": 166,
   "period": "27년 전반기",
   "requested_study_cutoff": "2027-02-02",
-  "source_basis_note": "제80회 기존 원고 기준. 기존 283장 중 13장 근거 확인, 270장 대조 대기. 전체 핵심 설명 검수 완료 6강. 77·94·109강 신규 보완 13장 공개, 전체 강의 검수는 계속.",
+  "source_basis_note": "제80회 기존 원고 기준. 기존 283장 중 13장 근거 확인, 270장 대조 대기. 전체 핵심 설명 검수 완료 6강. 77·94·109강 신규 보완 20장 공개, 전체 강의 검수는 계속.",
   "law_sources": [
     {
       "kind": "본법",
@@ -27300,10 +27982,10 @@
   ],
   "raster_encoding": "lossless WebP",
   "content_source": "military-service-act/editorial-content.json",
-  "content_source_sha256": "0e243fff5471e2acb210281a1bce6073d0b88b2bc0bf48fd2616c2f79e4b4ccf",
+  "content_source_sha256": "ec8bce7b6a6b61c685adb0b07770dda211a4b3fbbe4877f55dcd71995885063d",
   "playback_timing": "not_assigned",
   "scope": "military_service_act_all_166_lectures_core_diagrams",
-  "concept_diagram_count": 272,
+  "concept_diagram_count": 279,
   "previous_review_status": "content_and_layout_checked",
   "content_authority": "existing_exam80_lecture_scripts",
   "script_source_index": "military-service-act/script-sources-exam80.json",
@@ -27315,7 +27997,7 @@
     "complete_script_coverage_verified_lectures": 6,
     "audit": "military-service-act/script-alignment-audit-exam80.json",
     "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
-    "published_supplement_pages": 13,
-    "total_published_pages": 296
+    "published_supplement_pages": 20,
+    "total_published_pages": 303
   }
 }

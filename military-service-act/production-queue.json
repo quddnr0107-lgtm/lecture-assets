@@ -2079,10 +2079,11 @@
       ],
       "full_script_read": true,
       "lease": null,
-      "checkpoint": 4,
+      "checkpoint": 6,
       "evidence_refs": [
         "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
-        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-04-visual-review.json"
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-04-visual-review.json",
+        "military-service-act/production-evidence/exam80-generation-2/MS-077/006-publication-review.json"
       ],
       "outcome": null,
       "changed_diagram_ids": [],
@@ -2095,13 +2096,14 @@
         "MS-077-D08-editorial-v1",
         "MS-077-D09-editorial-v1",
         "MS-077-D10-editorial-v1",
-        "MS-077-D11-editorial-v1"
+        "MS-077-D11-editorial-v1",
+        "MS-077-D12-editorial-v1"
       ],
       "previously_verified_existing_diagram_ids": [
         "MS-077-D01-editorial-v1",
         "MS-077-D02-editorial-v1"
       ],
-      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-04-visual-review.json",
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/MS-077/006-publication-review.json",
       "draft_preview_paths": [
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-077/two-30-day-rules.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-077/transfer.svg",
@@ -2117,10 +2119,10 @@
       ],
       "script_fulltext_retrieved": true,
       "partial_publication": {
-        "published_supplements": 9,
-        "review_ref": "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
-        "published_asset_source_commit": "749313f4471a1125a3d97291b34bbba33a97cc47",
-        "remaining": "군 필요인원 통보 도식의 배정 주체 교정 및 강의 전체 누락 확인"
+        "published_supplements": 10,
+        "review_ref": "military-service-act/production-evidence/exam80-generation-2/MS-077/006-publication-review.json",
+        "published_asset_source_commit": "dad67d12bd8b421ba54e01dca0b421bbfbe13a16",
+        "remaining": "전체 원고 핵심 설명 누락 및 기존 도식 대응 최종 대조"
       }
     },
     {
@@ -2513,23 +2515,27 @@
       ],
       "full_script_read": false,
       "lease": null,
-      "checkpoint": 4,
+      "checkpoint": 6,
       "evidence_refs": [
         "military-service-act/production-evidence/exam80-generation-2/MS-094/002-publication-review.json",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-04-visual-review.json",
-        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-05-corrected-drafts.json"
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-05-corrected-drafts.json",
+        "military-service-act/production-evidence/exam80-generation-2/MS-094/006-publication-review.json"
       ],
       "outcome": null,
       "changed_diagram_ids": [],
       "new_diagram_ids": [
         "MS-094-D03-editorial-v1",
-        "MS-094-D04-editorial-v1"
+        "MS-094-D04-editorial-v1",
+        "MS-094-D05-editorial-v1",
+        "MS-094-D06-editorial-v1",
+        "MS-094-D07-editorial-v1"
       ],
       "previously_verified_existing_diagram_ids": [
         "MS-094-D01-editorial-v1",
         "MS-094-D02-editorial-v1"
       ],
-      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-05-corrected-drafts.json",
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/MS-094/006-publication-review.json",
       "draft_preview_paths": [
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-094/chaplain-committee.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-094/candidate-ages.svg",
@@ -2541,9 +2547,10 @@
       ],
       "script_fulltext_retrieved": true,
       "partial_publication": {
-        "published_supplements": 2,
-        "review_ref": "military-service-act/production-evidence/exam80-generation-2/MS-094/002-publication-review.json",
-        "remaining": "교정 초안 WebP 검수 및 강의 전체 핵심 설명 대조"
+        "published_supplements": 5,
+        "review_ref": "military-service-act/production-evidence/exam80-generation-2/MS-094/006-publication-review.json",
+        "remaining": "전체 원고 핵심 설명 누락 및 기존 도식 대응 최종 대조",
+        "published_asset_source_commit": "dad67d12bd8b421ba54e01dca0b421bbfbe13a16"
       }
     },
     {
@@ -2889,24 +2896,28 @@
       ],
       "full_script_read": false,
       "lease": null,
-      "checkpoint": 4,
+      "checkpoint": 6,
       "evidence_refs": [
         "military-service-act/production-evidence/exam80-generation-2/MS-109/002-publication-review.json",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-04-visual-review.json",
-        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-05-corrected-drafts.json"
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-05-corrected-drafts.json",
+        "military-service-act/production-evidence/exam80-generation-2/MS-109/006-publication-review.json"
       ],
       "outcome": null,
       "changed_diagram_ids": [],
       "new_diagram_ids": [
         "MS-109-D04-editorial-v1",
-        "MS-109-D05-editorial-v1"
+        "MS-109-D05-editorial-v1",
+        "MS-109-D06-editorial-v1",
+        "MS-109-D07-editorial-v1",
+        "MS-109-D08-editorial-v1"
       ],
       "previously_verified_existing_diagram_ids": [
         "MS-109-D01-editorial-v1",
         "MS-109-D02-editorial-v1",
         "MS-109-D03-editorial-v1"
       ],
-      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-05-corrected-drafts.json",
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/MS-109/006-publication-review.json",
       "draft_preview_paths": [
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-109/travel-application.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-109/travel-stay-purpose.svg",
@@ -2919,9 +2930,10 @@
       ],
       "script_fulltext_retrieved": true,
       "partial_publication": {
-        "published_supplements": 2,
-        "review_ref": "military-service-act/production-evidence/exam80-generation-2/MS-109/002-publication-review.json",
-        "remaining": "교정 초안 WebP 검수 및 강의 전체 핵심 설명 대조"
+        "published_supplements": 5,
+        "review_ref": "military-service-act/production-evidence/exam80-generation-2/MS-109/006-publication-review.json",
+        "remaining": "전체 원고 핵심 설명 누락 및 기존 도식 대응 최종 대조",
+        "published_asset_source_commit": "dad67d12bd8b421ba54e01dca0b421bbfbe13a16"
       }
     },
     {
@@ -4334,9 +4346,11 @@
       "MS-109"
     ],
     "checkpoint": [
-      "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-05-corrected-drafts.json"
+      "military-service-act/production-evidence/exam80-generation-2/MS-077/006-publication-review.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-094/006-publication-review.json",
+      "military-service-act/production-evidence/exam80-generation-2/MS-109/006-publication-review.json"
     ],
-    "published_supplements": 0,
+    "published_supplements": 7,
     "full_lecture_complete": false
   },
   "last_reuse_checkpoint": {

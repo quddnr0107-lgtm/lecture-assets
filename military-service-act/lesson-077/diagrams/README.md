@@ -1,6 +1,6 @@
 # MS-077 · 병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과
 
-흑백 편집형 도식 11장 · 1600×1120 · SVG / 무손실 WebP
+흑백 편집형 도식 12장 · 1600×1120 · SVG / 무손실 WebP
 
 ## 01. 전문연구·산업기능 편입취소
 
@@ -67,5 +67,11 @@
 ![편입취소자 처리와 잔여 복무](MS-077-D11-editorial-v1.webp)
 
 [강의용 WebP](MS-077-D11-editorial-v1.webp) · [편집용 SVG](MS-077-D11-editorial-v1.svg)
+
+## 12. 군 필요인원 통보의 두 날짜
+
+![군 필요인원 통보의 두 날짜](MS-077-D12-editorial-v1.webp)
+
+[강의용 WebP](MS-077-D12-editorial-v1.webp) · [편집용 SVG](MS-077-D12-editorial-v1.svg)
 
 [전체 병역법 도식 목차](../../README.md)

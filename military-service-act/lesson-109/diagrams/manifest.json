@@ -3,7 +3,7 @@
   "subject": "military-service-act",
   "lecture_id": "MS-109",
   "lecture_title": "병역법 제70조, 국외여행의 허가 및 취소",
-  "diagram_count": 5,
+  "diagram_count": 8,
   "canvas": [
     1600,
     1120
@@ -500,6 +500,305 @@
           ]
         ]
       }
+    },
+    {
+      "id": "MS-109-D06-editorial-v1",
+      "lecture_id": "MS-109",
+      "lesson_number": 109,
+      "diagram_number": 6,
+      "title": "국외 유학 허가 연장",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 276,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D06-editorial-v1.svg",
+          "bytes": 4454,
+          "sha256": "d1e951baffb4ef7b38f4a13b39d80ee9c1c9b1106130150f6f73670d8a95bded"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D06-editorial-v1.webp",
+          "bytes": 36192,
+          "sha256": "a825afae412cb88ffe9e604c1fc0cc9d11468e7cbe56a6d24430c7814c92c2e8"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-109",
+        "title": "국외 유학 허가 연장",
+        "subtitle": "병무청장: 국외체재 목적·병역의무부과에 지장 없는 범위",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "일반 유학",
+            "items": [
+              {
+                "label": "기본",
+                "text": "학교별 제한연령까지",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "졸업·학위 취득 곤란",
+                "text": "제한연령 + 1년, 29세 이내에서 허가 가능",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "외국 대학원 박사과정",
+            "items": [
+              {
+                "label": "조건",
+                "text": "30세가 되는 해 6월 이전 박사학위 취득 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "연장 기한",
+                "text": "그 해 6월 30일까지 허가 가능",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "별도 일반 유학 허가 항목: 고등학교 수학 목적은 제외",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            171,
+            171
+          ],
+          [
+            195,
+            195
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제70조, 국외여행의 허가 및 취소",
+      "main_article": "병역법 제70조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-109",
+        "path": "docs/merged-lectures/병역법/본법_70.txt",
+        "git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-109/006-publication-review.json",
+        "source_line_spans": [
+          [
+            171,
+            171
+          ],
+          [
+            195,
+            195
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-109-D07-editorial-v1",
+      "lecture_id": "MS-109",
+      "lesson_number": 109,
+      "diagram_number": 7,
+      "title": "국외여행허가 취소 기준",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 277,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D07-editorial-v1.svg",
+          "bytes": 5423,
+          "sha256": "60a41ee94b500e282edbab099835a80497226de1bc71819c8e34c15ba92030e7"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D07-editorial-v1.webp",
+          "bytes": 43644,
+          "sha256": "e7185f8b474ce3e600dd4803942f1a879342754bf06877bbfbe6de6183e812a8"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-109",
+        "title": "국외여행허가 취소 기준",
+        "subtitle": "국외이주 목적과 그 밖의 목적 비교",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "국외이주 목적",
+            "items": [
+              {
+                "label": "국내 체류",
+                "text": "1년 중 통틀어 6개월 이상, 정해진 사유 60일 이내 제외",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "연기 후 미출국",
+                "text": "연기받은 날부터 1년 6개월 이내 정당한 사유 없이 미출국",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "취소 유예",
+                "text": "국내 6개월 이상 또는 영리활동: 한 번 3개월, 미출국 시 취소",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "그 밖의 목적",
+            "items": [
+              {
+                "label": "미출국",
+                "text": "허가받은 날부터 1년 이내 출국하지 않은 때",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "25세 이상",
+                "text": "허가기간 중 귀국하여 국내 계속 3개월 이상 체류",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "국외이주와 그 밖의 허가는 기산점·기간이 서로 다름",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            235,
+            247
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제70조, 국외여행의 허가 및 취소",
+      "main_article": "병역법 제70조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-109",
+        "path": "docs/merged-lectures/병역법/본법_70.txt",
+        "git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-109/006-publication-review.json",
+        "source_line_spans": [
+          [
+            235,
+            247
+          ]
+        ]
+      }
+    },
+    {
+      "id": "MS-109-D08-editorial-v1",
+      "lecture_id": "MS-109",
+      "lesson_number": 109,
+      "diagram_number": 8,
+      "title": "국외 거주자의 허가 간주",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 278,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D08-editorial-v1.svg",
+          "bytes": 4823,
+          "sha256": "219bb5650001affc3bcdb8e120daf1c7fc4ad0faebbf74a5ee7e8563a42ed9e4"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D08-editorial-v1.webp",
+          "bytes": 33022,
+          "sha256": "942e2edf72a833525777bd4a241910e5d44537a1945024ae81ca582c6679efc3"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-109",
+        "title": "국외 거주자의 허가 간주",
+        "subtitle": "18세·25세·37세 기준",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "기본 요건",
+            "items": [
+              {
+                "label": "18세 전",
+                "text": "국외 거주 시작",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "25세 전",
+                "text": "본인 또는 부모 법정 사유",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "효과",
+                "text": "37세까지 허가 간주",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "제5호 요건",
+            "items": [
+              {
+                "label": "18세 전 출국",
+                "text": "국외 주재원이 아닌 부모와 동반",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "이후",
+                "text": "그 부모와 국외 계속 거주",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "확인",
+                "text": "연금가입 자료 요청 가능",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "취소 사유 해당 → 취소된 것으로 보아 병역의무 부과 가능",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            249,
+            267
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제70조, 국외여행의 허가 및 취소",
+      "main_article": "병역법 제70조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-109",
+        "path": "docs/merged-lectures/병역법/본법_70.txt",
+        "git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-109/006-publication-review.json",
+        "source_line_spans": [
+          [
+            249,
+            267
+          ]
+        ]
+      }
     }
   ],
   "content_authority": "existing_exam80_lecture_script",
@@ -511,7 +810,7 @@
     "verified_existing_pages": 3,
     "pending_existing_pages": 0,
     "complete_script_coverage": "pending",
-    "published_supplement_pages": 2,
+    "published_supplement_pages": 5,
     "full_lecture_complete": false
   }
 }

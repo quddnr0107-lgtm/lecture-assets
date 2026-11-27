@@ -3,7 +3,7 @@
   "subject": "military-service-act",
   "lecture_id": "MS-077",
   "lecture_title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
-  "diagram_count": 11,
+  "diagram_count": 12,
   "canvas": [
     1600,
     1120
@@ -1152,6 +1152,98 @@
           ]
         ]
       }
+    },
+    {
+      "id": "MS-077-D12-editorial-v1",
+      "lecture_id": "MS-077",
+      "lesson_number": 77,
+      "diagram_number": 12,
+      "title": "군 필요인원 통보의 두 날짜",
+      "layout": "compare",
+      "source_keys": [],
+      "part": 1,
+      "parts": 1,
+      "content_index": 272,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D12-editorial-v1.svg",
+          "bytes": 5159,
+          "sha256": "ec8d84ee21eb2c613532faeca2d64b96ddf44fde40b95a37b3689c2e929616e4"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D12-editorial-v1.webp",
+          "bytes": 50898,
+          "sha256": "7a159eae26c8304d98c31c79b7627ba5d33160ace95eb8aedea122119c8e7ddd"
+        }
+      },
+      "content": {
+        "lecture_id": "MS-077",
+        "title": "군 필요인원 통보의 두 날짜",
+        "subtitle": "시행령 제10조 · 군 필요인원과 병역처분 기준",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "10월 31일까지",
+            "items": [
+              {
+                "label": "각 군 참모총장 → 병무청장",
+                "text": "매년 다다음 해에 징집으로 현역병 입영할 사람의 적성별 필요인원 통보",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "12월 31일까지",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "다음 해 병역판정검사의 현역병입영·보충역 편입 처분 기준 결정",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "병무청장 → 지방병무청장",
+                "text": "시·도별·적성별 현역병입영 인원 배정",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "병무청장 → 각 군 참모총장",
+                "text": "정해진 기준을 통보",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "군의 필요인원 통보 10월 31일 / 병무청의 기준 통보 12월 31일",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            179,
+            183
+          ]
+        ]
+      },
+      "lecture_title": "병역법 제41조, 전문연구요원과 산업기능요원의 편입취소 및 의무부과",
+      "main_article": "병역법 제41조",
+      "source_articles": [],
+      "script_source": {
+        "index": "military-service-act/script-sources-exam80.json",
+        "lecture_id": "MS-077",
+        "path": "docs/merged-lectures/병역법/본법_41.txt",
+        "git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+        "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
+      },
+      "script_alignment": {
+        "status": "verified",
+        "scope": "script_supplement_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-077/006-publication-review.json",
+        "source_line_spans": [
+          [
+            179,
+            183
+          ]
+        ]
+      }
     }
   ],
   "content_authority": "existing_exam80_lecture_script",
@@ -1163,6 +1255,6 @@
     "verified_existing_pages": 2,
     "pending_existing_pages": 0,
     "complete_script_coverage": "pending",
-    "published_supplement_pages": 9
+    "published_supplement_pages": 10
   }
 }

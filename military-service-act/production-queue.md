@@ -57,3 +57,8 @@
 ## 후속 교정 체크포인트 05
 - 94강 2장·109강 3장 SVG 교정본 저장. 원고 267행의 취소 간주/병역의무 부과 재량을 다시 확인하여 109강의 기존 통과 초안도 교정 대상으로 변경.
 - 77강·94강 검수 통과 초안 각 1장은 정식 파일·목록 통합 대기. 교정본 5장은 WebP 렌더링 및 시각 검수 대기. 정식 공개 수 296장 유지. [근거](production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-05-corrected-drafts.json).
+
+## 후속 도식 정식 공개 체크포인트 06
+- 77강 1장, 94강 3장, 109강 3장: 원고 근거 재대조, 실제 WebP 화면 및 1600×1120 VP8L 헤더와 SHA-256 검증. 정식 파일·편집 데이터·강의별/전체 목록·갤러리·검수 기록 통합.
+- 기존 283장 + 신규 보완 20장 = 공개 303장. 전체 강의 검수 6강 완료, 160강 대기. 우선 3강의 전체 원고 설명 대응 검수는 아직 완료하지 않음.
+- 근거: [MS-077](production-evidence/exam80-generation-2/MS-077/006-publication-review.json) · [MS-094](production-evidence/exam80-generation-2/MS-094/006-publication-review.json) · [MS-109](production-evidence/exam80-generation-2/MS-109/006-publication-review.json).

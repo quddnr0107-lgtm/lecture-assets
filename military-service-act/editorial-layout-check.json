@@ -1857,6 +1857,90 @@
       "webp_sha256_verified": true,
       "bounds_valid": true,
       "method": "visual inspection and lossless WebP header, not new automated glyph metrics"
+    },
+    {
+      "id": "MS-077-D12-editorial-v1",
+      "visual_review": "public WebP rendered image inspected; no clipping or overlapping observed",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp_verified_by_header": true,
+      "webp_sha256_verified": true,
+      "bounds_valid": true,
+      "method": "visual inspection and VP8L header, not new automated glyph metrics"
+    },
+    {
+      "id": "MS-094-D05-editorial-v1",
+      "visual_review": "public WebP rendered image inspected; no clipping or overlapping observed",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp_verified_by_header": true,
+      "webp_sha256_verified": true,
+      "bounds_valid": true,
+      "method": "visual inspection and VP8L header, not new automated glyph metrics"
+    },
+    {
+      "id": "MS-094-D06-editorial-v1",
+      "visual_review": "public WebP rendered image inspected; no clipping or overlapping observed",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp_verified_by_header": true,
+      "webp_sha256_verified": true,
+      "bounds_valid": true,
+      "method": "visual inspection and VP8L header, not new automated glyph metrics"
+    },
+    {
+      "id": "MS-094-D07-editorial-v1",
+      "visual_review": "public WebP rendered image inspected; no clipping or overlapping observed",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp_verified_by_header": true,
+      "webp_sha256_verified": true,
+      "bounds_valid": true,
+      "method": "visual inspection and VP8L header, not new automated glyph metrics"
+    },
+    {
+      "id": "MS-109-D06-editorial-v1",
+      "visual_review": "public WebP rendered image inspected; no clipping or overlapping observed",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp_verified_by_header": true,
+      "webp_sha256_verified": true,
+      "bounds_valid": true,
+      "method": "visual inspection and VP8L header, not new automated glyph metrics"
+    },
+    {
+      "id": "MS-109-D07-editorial-v1",
+      "visual_review": "public WebP rendered image inspected; no clipping or overlapping observed",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp_verified_by_header": true,
+      "webp_sha256_verified": true,
+      "bounds_valid": true,
+      "method": "visual inspection and VP8L header, not new automated glyph metrics"
+    },
+    {
+      "id": "MS-109-D08-editorial-v1",
+      "visual_review": "public WebP rendered image inspected; no clipping or overlapping observed",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp_verified_by_header": true,
+      "webp_sha256_verified": true,
+      "bounds_valid": true,
+      "method": "visual inspection and VP8L header, not new automated glyph metrics"
     }
   ],
   "errors": []

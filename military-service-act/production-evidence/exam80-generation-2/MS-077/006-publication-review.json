@@ -1,0 +1,49 @@
+{
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "reviewed_date_kst": "2026-11-27",
+  "lecture_id": "MS-077",
+  "source_path": "docs/merged-lectures/병역법/본법_41.txt",
+  "script_git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+  "source_file_retrieved_and_blob_matched": true,
+  "reviewed_scope": "supplement claims and actual WebP only; full lecture coverage pending",
+  "previous_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-05-corrected-drafts.json",
+  "published_items": [
+    {
+      "id": "MS-077-D12-editorial-v1",
+      "draft_svg": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/military-demand-notification-corrected.svg",
+      "draft_webp": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/military-demand-notification-corrected.webp",
+      "svg_blob_sha": "c689eaea633a5590f48c80ece82fb5de02dbfa7f",
+      "webp_blob_sha": "399cb66882a04a3002980b9e3ee4c59eab272833",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D12-editorial-v1.svg",
+          "bytes": 5159,
+          "sha256": "ec8d84ee21eb2c613532faeca2d64b96ddf44fde40b95a37b3689c2e929616e4"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D12-editorial-v1.webp",
+          "bytes": 50898,
+          "sha256": "7a159eae26c8304d98c31c79b7627ba5d33160ace95eb8aedea122119c8e7ddd"
+        }
+      },
+      "script_git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+      "source_line_spans": [
+        [
+          179,
+          183
+        ]
+      ],
+      "review": "10월 31일/12월 31일 기한 및 배정·통보 주체 일치",
+      "visual_review": "pass",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp": true
+    }
+  ],
+  "full_lecture_complete": false,
+  "publication_parent": "dad67d12bd8b421ba54e01dca0b421bbfbe13a16"
+}

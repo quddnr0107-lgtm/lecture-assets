@@ -12123,5 +12123,368 @@
         171
       ]
     ]
+  },
+  {
+    "lecture_id": "MS-077",
+    "title": "군 필요인원 통보의 두 날짜",
+    "subtitle": "시행령 제10조 · 군 필요인원과 병역처분 기준",
+    "layout": "compare",
+    "source_keys": [],
+    "sections": [
+      {
+        "heading": "10월 31일까지",
+        "items": [
+          {
+            "label": "각 군 참모총장 → 병무청장",
+            "text": "매년 다다음 해에 징집으로 현역병 입영할 사람의 적성별 필요인원 통보",
+            "ref": "제80회 강의 원고"
+          }
+        ]
+      },
+      {
+        "heading": "12월 31일까지",
+        "items": [
+          {
+            "label": "병무청장",
+            "text": "다음 해 병역판정검사의 현역병입영·보충역 편입 처분 기준 결정",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "병무청장 → 지방병무청장",
+            "text": "시·도별·적성별 현역병입영 인원 배정",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "병무청장 → 각 군 참모총장",
+            "text": "정해진 기준을 통보",
+            "ref": "제80회 강의 원고"
+          }
+        ]
+      }
+    ],
+    "takeaway": "군의 필요인원 통보 10월 31일 / 병무청의 기준 통보 12월 31일",
+    "content_authority": "existing_exam80_lecture_script",
+    "script_line_spans": [
+      [
+        179,
+        183
+      ]
+    ]
+  },
+  {
+    "lecture_id": "MS-094",
+    "title": "사관후보생 지원 기한",
+    "subtitle": "지원 분야에 따라 달라지는 날짜",
+    "layout": "compare",
+    "source_keys": [],
+    "sections": [
+      {
+        "heading": "의무·법무",
+        "items": [
+          {
+            "label": "의무",
+            "text": "군전공의요원으로 채용되는 해 2월 10일까지",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "법무",
+            "text": "사법연수원 입교 해 또는 법학전문대학원 2학년 해 3월 31일까지",
+            "ref": "제80회 강의 원고"
+          }
+        ]
+      },
+      {
+        "heading": "수의·군종",
+        "items": [
+          {
+            "label": "수의",
+            "text": "수의과대학 본과 3학년 해 5월 31일까지",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "군종",
+            "text": "국방부장관이 정하는 절차",
+            "ref": "제80회 강의 원고"
+          }
+        ]
+      }
+    ],
+    "takeaway": "장교 지원 후 후보생 지원 → 장교 지원서 철회 간주",
+    "content_authority": "existing_exam80_lecture_script",
+    "script_line_spans": [
+      [
+        124,
+        126
+      ]
+    ]
+  },
+  {
+    "lecture_id": "MS-094",
+    "title": "사관후보생 선발 점수",
+    "subtitle": "병무청장: 신체등급 환산점수 + 분야별 성적, 높은 순 선발",
+    "layout": "compare",
+    "source_keys": [],
+    "sections": [
+      {
+        "heading": "신체등급",
+        "items": [
+          {
+            "label": "1~3급",
+            "text": "100점",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "4급",
+            "text": "90점",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "동점 처리",
+            "text": "높은 신체등급 → 높은 성적 → 빠른 생년월일",
+            "ref": "제80회 강의 원고"
+          }
+        ]
+      },
+      {
+        "heading": "분야별 성적",
+        "items": [
+          {
+            "label": "의무",
+            "text": "면허시험 성적",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "법무",
+            "text": "사법연수원생: 사법시험 성적 / 법학전문대학원생: 법학적성시험 50점 + 1학년 성적 50점",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "수의",
+            "text": "본과 1·2학년 평균 성적",
+            "ref": "제80회 강의 원고"
+          }
+        ]
+      }
+    ],
+    "takeaway": "군인사법상 임용 결격자는 제외",
+    "content_authority": "existing_exam80_lecture_script",
+    "script_line_spans": [
+      [
+        128,
+        128
+      ]
+    ]
+  },
+  {
+    "lecture_id": "MS-094",
+    "title": "필요인원 통보의 기준",
+    "subtitle": "매년 1월 31일까지 → 병무청장",
+    "layout": "compare",
+    "source_keys": [],
+    "sections": [
+      {
+        "heading": "5년 후 필요인원",
+        "items": [
+          {
+            "label": "국방부장관",
+            "text": "의무 현역장교",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "보건복지부장관",
+            "text": "공중보건의사",
+            "ref": "제80회 강의 원고"
+          }
+        ]
+      },
+      {
+        "heading": "2년 후 필요인원",
+        "items": [
+          {
+            "label": "국방부장관",
+            "text": "법무·수의 현역장교",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "법무부장관",
+            "text": "공익법무관",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "농림축산식품부장관",
+            "text": "공중방역수의사",
+            "ref": "제80회 강의 원고"
+          }
+        ]
+      }
+    ],
+    "takeaway": "병무청장: 충원율 등을 고려하여 결정",
+    "content_authority": "existing_exam80_lecture_script",
+    "script_line_spans": [
+      [
+        134,
+        146
+      ]
+    ]
+  },
+  {
+    "lecture_id": "MS-109",
+    "title": "국외 유학 허가 연장",
+    "subtitle": "병무청장: 국외체재 목적·병역의무부과에 지장 없는 범위",
+    "layout": "compare",
+    "source_keys": [],
+    "sections": [
+      {
+        "heading": "일반 유학",
+        "items": [
+          {
+            "label": "기본",
+            "text": "학교별 제한연령까지",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "졸업·학위 취득 곤란",
+            "text": "제한연령 + 1년, 29세 이내에서 허가 가능",
+            "ref": "제80회 강의 원고"
+          }
+        ]
+      },
+      {
+        "heading": "외국 대학원 박사과정",
+        "items": [
+          {
+            "label": "조건",
+            "text": "30세가 되는 해 6월 이전 박사학위 취득 가능",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "연장 기한",
+            "text": "그 해 6월 30일까지 허가 가능",
+            "ref": "제80회 강의 원고"
+          }
+        ]
+      }
+    ],
+    "takeaway": "별도 일반 유학 허가 항목: 고등학교 수학 목적은 제외",
+    "content_authority": "existing_exam80_lecture_script",
+    "script_line_spans": [
+      [
+        171,
+        171
+      ],
+      [
+        195,
+        195
+      ]
+    ]
+  },
+  {
+    "lecture_id": "MS-109",
+    "title": "국외여행허가 취소 기준",
+    "subtitle": "국외이주 목적과 그 밖의 목적 비교",
+    "layout": "compare",
+    "source_keys": [],
+    "sections": [
+      {
+        "heading": "국외이주 목적",
+        "items": [
+          {
+            "label": "국내 체류",
+            "text": "1년 중 통틀어 6개월 이상, 정해진 사유 60일 이내 제외",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "연기 후 미출국",
+            "text": "연기받은 날부터 1년 6개월 이내 정당한 사유 없이 미출국",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "취소 유예",
+            "text": "국내 6개월 이상 또는 영리활동: 한 번 3개월, 미출국 시 취소",
+            "ref": "제80회 강의 원고"
+          }
+        ]
+      },
+      {
+        "heading": "그 밖의 목적",
+        "items": [
+          {
+            "label": "미출국",
+            "text": "허가받은 날부터 1년 이내 출국하지 않은 때",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "25세 이상",
+            "text": "허가기간 중 귀국하여 국내 계속 3개월 이상 체류",
+            "ref": "제80회 강의 원고"
+          }
+        ]
+      }
+    ],
+    "takeaway": "국외이주와 그 밖의 허가는 기산점·기간이 서로 다름",
+    "content_authority": "existing_exam80_lecture_script",
+    "script_line_spans": [
+      [
+        235,
+        247
+      ]
+    ]
+  },
+  {
+    "lecture_id": "MS-109",
+    "title": "국외 거주자의 허가 간주",
+    "subtitle": "18세·25세·37세 기준",
+    "layout": "compare",
+    "source_keys": [],
+    "sections": [
+      {
+        "heading": "기본 요건",
+        "items": [
+          {
+            "label": "18세 전",
+            "text": "국외 거주 시작",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "25세 전",
+            "text": "본인 또는 부모 법정 사유",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "효과",
+            "text": "37세까지 허가 간주",
+            "ref": "제80회 강의 원고"
+          }
+        ]
+      },
+      {
+        "heading": "제5호 요건",
+        "items": [
+          {
+            "label": "18세 전 출국",
+            "text": "국외 주재원이 아닌 부모와 동반",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "이후",
+            "text": "그 부모와 국외 계속 거주",
+            "ref": "제80회 강의 원고"
+          },
+          {
+            "label": "확인",
+            "text": "연금가입 자료 요청 가능",
+            "ref": "제80회 강의 원고"
+          }
+        ]
+      }
+    ],
+    "takeaway": "취소 사유 해당 → 취소된 것으로 보아 병역의무 부과 가능",
+    "content_authority": "existing_exam80_lecture_script",
+    "script_line_spans": [
+      [
+        249,
+        267
+      ]
+    ]
   }
 ]

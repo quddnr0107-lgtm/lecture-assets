@@ -1,0 +1,119 @@
+{
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "reviewed_date_kst": "2026-11-27",
+  "lecture_id": "MS-109",
+  "source_path": "docs/merged-lectures/병역법/본법_70.txt",
+  "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+  "source_file_retrieved_and_blob_matched": true,
+  "reviewed_scope": "supplement claims and actual WebP only; full lecture coverage pending",
+  "previous_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-05-corrected-drafts.json",
+  "published_items": [
+    {
+      "id": "MS-109-D06-editorial-v1",
+      "draft_svg": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/study-travel-extension-r2.svg",
+      "draft_webp": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/study-travel-extension-r2.webp",
+      "svg_blob_sha": "de38fb78957a7ca11d5ad3ce151c153593b93b46",
+      "webp_blob_sha": "feb5ebac8b3c94462bdd30a6e8d28ecc1434ea74",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D06-editorial-v1.svg",
+          "bytes": 4454,
+          "sha256": "d1e951baffb4ef7b38f4a13b39d80ee9c1c9b1106130150f6f73670d8a95bded"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D06-editorial-v1.webp",
+          "bytes": 36192,
+          "sha256": "a825afae412cb88ffe9e604c1fc0cc9d11468e7cbe56a6d24430c7814c92c2e8"
+        }
+      },
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "source_line_spans": [
+        [
+          171,
+          171
+        ],
+        [
+          195,
+          195
+        ]
+      ],
+      "review": "제한연령·29세·30세 6월 기한 및 별도 유학 제외 일치",
+      "visual_review": "pass",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp": true
+    },
+    {
+      "id": "MS-109-D07-editorial-v1",
+      "draft_svg": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/travel-cancellation-numbers-r2.svg",
+      "draft_webp": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/travel-cancellation-numbers-r2.webp",
+      "svg_blob_sha": "004a98533baed159c8451e083e8bbf0df9668939",
+      "webp_blob_sha": "61f4ebfe47a423d8962641651fc3caf9eab46d10",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D07-editorial-v1.svg",
+          "bytes": 5423,
+          "sha256": "60a41ee94b500e282edbab099835a80497226de1bc71819c8e34c15ba92030e7"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D07-editorial-v1.webp",
+          "bytes": 43644,
+          "sha256": "e7185f8b474ce3e600dd4803942f1a879342754bf06877bbfbe6de6183e812a8"
+        }
+      },
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "source_line_spans": [
+        [
+          235,
+          247
+        ]
+      ],
+      "review": "국내 체류·출국 기산점·25세 요건·유예 1회 3개월 일치; 숫자 비교에 한정",
+      "visual_review": "pass",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp": true
+    },
+    {
+      "id": "MS-109-D08-editorial-v1",
+      "draft_svg": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/overseas-residence-special-r2.svg",
+      "draft_webp": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-109/overseas-residence-special-r2.webp",
+      "svg_blob_sha": "291af7a175e9f9d7f663ca1647c6c0688096e4ce",
+      "webp_blob_sha": "bc902186cc12aea74b92cab24f7158b27a9dd834",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D08-editorial-v1.svg",
+          "bytes": 4823,
+          "sha256": "219bb5650001affc3bcdb8e120daf1c7fc4ad0faebbf74a5ee7e8563a42ed9e4"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D08-editorial-v1.webp",
+          "bytes": 33022,
+          "sha256": "942e2edf72a833525777bd4a241910e5d44537a1945024ae81ca582c6679efc3"
+        }
+      },
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "source_line_spans": [
+        [
+          249,
+          267
+        ]
+      ],
+      "review": "18·25·37세 및 제5호 주재원 제외·취소 간주와 부과 재량 일치",
+      "visual_review": "pass",
+      "canvas": [
+        1600,
+        1120
+      ],
+      "lossless_webp": true
+    }
+  ],
+  "full_lecture_complete": false,
+  "publication_parent": "dad67d12bd8b421ba54e01dca0b421bbfbe13a16"
+}
