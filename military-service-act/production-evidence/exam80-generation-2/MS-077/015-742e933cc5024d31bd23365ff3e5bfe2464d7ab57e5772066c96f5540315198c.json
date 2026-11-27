@@ -1,0 +1,510 @@
+{
+  "lecture_id": "MS-077",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_41.txt",
+  "script_git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+  "script_sha256": "617f85b91800f4b7aeea48c0936bc53de869541452b338670e3b9bd527f63f1e",
+  "full_script_read": true,
+  "script_line_count": 212,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        9,
+        15
+      ],
+      "topic": "해당 분야 실제 복무와 제도 취지",
+      "diagrams": [
+        "MS-077-D01-editorial-v1",
+        "MS-077-D13-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        21,
+        46
+      ],
+      "topic": "취소 주체·8개 사유·35/37세",
+      "diagrams": [
+        "MS-077-D01-editorial-v1",
+        "MS-077-D03-editorial-v1",
+        "MS-077-D13-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        50,
+        89
+      ],
+      "topic": "해고 다툼·대표 지시 예외·연장·8일 경계",
+      "diagrams": [
+        "MS-077-D01-editorial-v1",
+        "MS-077-D03-editorial-v1",
+        "MS-077-D04-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        95,
+        125
+      ],
+      "topic": "종전 신분·부정 편입/전직·6개월 미만",
+      "diagrams": [
+        "MS-077-D02-editorial-v1",
+        "MS-077-D11-editorial-v1",
+        "MS-077-D14-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        129,
+        145
+      ],
+      "topic": "전직 사유·제외 대상·기한·신청·대기",
+      "diagrams": [
+        "MS-077-D05-editorial-v1",
+        "MS-077-D06-editorial-v1",
+        "MS-077-D07-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        147,
+        147
+      ],
+      "topic": "수학 제한과 예외",
+      "diagrams": [
+        "MS-077-D08-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        149,
+        155
+      ],
+      "topic": "복무기간 계산",
+      "diagrams": [
+        "MS-077-D09-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        157,
+        157
+      ],
+      "topic": "만료 절차",
+      "diagrams": [
+        "MS-077-D10-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        159,
+        169
+      ],
+      "topic": "두 30일·유보 및 연장",
+      "diagrams": [
+        "MS-077-D04-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        171,
+        175
+      ],
+      "topic": "병적 이관·잔여 복무 산식",
+      "diagrams": [
+        "MS-077-D11-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        177,
+        183
+      ],
+      "topic": "필요인원 통보와 배정",
+      "diagrams": [
+        "MS-077-D12-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        185,
+        209
+      ],
+      "topic": "두 대체복무 비교와 정리",
+      "diagrams": [
+        "MS-077-D01-editorial-v1",
+        "MS-077-D02-editorial-v1",
+        "MS-077-D03-editorial-v1",
+        "MS-077-D04-editorial-v1",
+        "MS-077-D05-editorial-v1",
+        "MS-077-D08-editorial-v1",
+        "MS-077-D10-editorial-v1",
+        "MS-077-D12-editorial-v1",
+        "MS-077-D14-editorial-v1"
+      ]
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-077-D01-editorial-v1",
+    "MS-077-D02-editorial-v1"
+  ],
+  "reviewed_published_diagram_ids": [
+    "MS-077-D01-editorial-v1",
+    "MS-077-D02-editorial-v1",
+    "MS-077-D03-editorial-v1",
+    "MS-077-D04-editorial-v1",
+    "MS-077-D05-editorial-v1",
+    "MS-077-D06-editorial-v1",
+    "MS-077-D07-editorial-v1",
+    "MS-077-D08-editorial-v1",
+    "MS-077-D09-editorial-v1",
+    "MS-077-D10-editorial-v1",
+    "MS-077-D11-editorial-v1",
+    "MS-077-D12-editorial-v1",
+    "MS-077-D13-editorial-v1",
+    "MS-077-D14-editorial-v1"
+  ],
+  "decision": {
+    "outcome": "corrected_and_added",
+    "reason": "기존 2장과 공개 보완 12장이 원고의 주요 흐름·조건·예외·수치·절차를 분담한다. 전직 승인 사유는 D05의 예시 및 D07의 직접 신청 사유로 핵심 관계를 제시한다. 제71조 연결(127행), 비유, 판례 및 반복 정리는 독립 도식이 필요하지 않다. 국외여행 허가의 세부 유형은 109강에서 다룬다."
+  },
+  "changed_artifacts_and_hashes": [],
+  "verified_published_assets": [
+    {
+      "id": "MS-077-D01-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D01-editorial-v1.svg",
+          "bytes": 7889,
+          "sha256": "7d63f21c14544d102342c2c312b0013597ebaff955731d81d519ee2d868d1735",
+          "git_blob_sha": "acf1197f3c72f6ac0fc8ab0c0dc2ff02218a86bd"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D01-editorial-v1.webp",
+          "bytes": 66304,
+          "sha256": "45439e25a90de7d0c26bb074fc75294f5d768af6d28e016aa6d1e08f97492051",
+          "git_blob_sha": "977d311bc64203b85c8d597ded83604f1cee508b"
+        }
+      },
+      "visual_review": "이번 공개 WebP 실제 화면 확인, 잘림·겹침 없음",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    {
+      "id": "MS-077-D02-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D02-editorial-v1.svg",
+          "bytes": 7168,
+          "sha256": "3f0c2c76122056a73eac3a6238a79e63f2582fb1e71ee470c65ae7e31f6aa10a",
+          "git_blob_sha": "363cf8e0e0c18df5b08453c6fcf78771539ad0c9"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D02-editorial-v1.webp",
+          "bytes": 58006,
+          "sha256": "336ad0f2c986b30a56e789899ff3b13c244b0d19f61339337f057db7955da4e7",
+          "git_blob_sha": "6acfe9b8106b7b78678aad40ab56d3c12b74855b"
+        }
+      },
+      "visual_review": "이번 공개 WebP 실제 화면 확인, 잘림·겹침 없음",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    {
+      "id": "MS-077-D03-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D03-editorial-v1.svg",
+          "bytes": 5701,
+          "sha256": "6d235034844fe5959141937e1f54cbae54df246ed500ad03ccdc3ec867f55678",
+          "git_blob_sha": "0666b5b55de5b48aa3f2f525a2b397c38f49a67d"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D03-editorial-v1.webp",
+          "bytes": 50270,
+          "sha256": "4bf8095f9e45a8f541d460dad1e287dc51653004fb48a60504beb9fadd6a280a",
+          "git_blob_sha": "8a8fa4c020a7ee09d18f94490d56a393aa21c163"
+        }
+      },
+      "visual_review": "이전 실제 WebP 검수 기록 재사용; 검수 당시와 현재 Git blob 일치",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    {
+      "id": "MS-077-D04-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D04-editorial-v1.svg",
+          "bytes": 5717,
+          "sha256": "1a20572a48bd1d7e082517a5c10cf3c18f649e0fb6f3f7535bc1121ca260ee7a",
+          "git_blob_sha": "860cf2a2f1514c84b7309ffb5bffdcade2c33248"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D04-editorial-v1.webp",
+          "bytes": 53658,
+          "sha256": "47d138ac01aad246fd19fdb177cc0b7ee75cfe6405c42aad30215b4543f721e4",
+          "git_blob_sha": "65a323fafec151778925f6555fd01ed8c61f9248"
+        }
+      },
+      "visual_review": "이전 실제 WebP 검수 기록 재사용; 검수 당시와 현재 Git blob 일치",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    {
+      "id": "MS-077-D05-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D05-editorial-v1.svg",
+          "bytes": 6029,
+          "sha256": "b48af05b42e23f0c1bfdef5b23ecd5bfac6d3995c6dc3e13b7a9d99d85292d4b",
+          "git_blob_sha": "76731decbb3663a32435e58a5bdb6f5a88340148"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D05-editorial-v1.webp",
+          "bytes": 55240,
+          "sha256": "13f83a6792c3b4b38f49d8b85a822863a39ecdb456f78df0439843732eb1e45e",
+          "git_blob_sha": "5f89a1aab2e537aa841a795c7206037d36616822"
+        }
+      },
+      "visual_review": "이전 실제 WebP 검수 기록 재사용; 검수 당시와 현재 Git blob 일치",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    {
+      "id": "MS-077-D06-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D06-editorial-v1.svg",
+          "bytes": 4570,
+          "sha256": "2ad708aeea73923393268cf52e0133169ff740810850c6093ed8763d5cfd3a5c",
+          "git_blob_sha": "a63f0205530a732959b27c70d5f01a4fd0ff5cc1"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D06-editorial-v1.webp",
+          "bytes": 42362,
+          "sha256": "dcc30e435fceefe7058111099da4c22a94f4ac7ef4aab571f39ae630f9c5846a",
+          "git_blob_sha": "d77205757f9cebf402742a4f5da712efd1293648"
+        }
+      },
+      "visual_review": "이전 실제 WebP 검수 기록 재사용; 검수 당시와 현재 Git blob 일치",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    {
+      "id": "MS-077-D07-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D07-editorial-v1.svg",
+          "bytes": 5987,
+          "sha256": "e4bf0472d719ec4b483a84828a96f24c8c133aa0d2edd8954cfef9887fb6a290",
+          "git_blob_sha": "c5967e6fb9b7e4f12136c7337970327996ea98e6"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D07-editorial-v1.webp",
+          "bytes": 60252,
+          "sha256": "a25d3bba22ad5febe02beb1265f00ef6ef3c02fdddc671851f1c9395a23a228f",
+          "git_blob_sha": "d685d5618b4a3e2192932e62bf4dce079303d908"
+        }
+      },
+      "visual_review": "이전 실제 WebP 검수 기록 재사용; 검수 당시와 현재 Git blob 일치",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    {
+      "id": "MS-077-D08-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D08-editorial-v1.svg",
+          "bytes": 6025,
+          "sha256": "cb253cca014206f8d7db83b502abcdd7c09293f6e025e38e74ab207341d23142",
+          "git_blob_sha": "3a91614c719b0e28de74b27a3a26af9a23c6e678"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D08-editorial-v1.webp",
+          "bytes": 50718,
+          "sha256": "19c013bcbf9eb8c5259cbc1fdc7c45026528d467aa3f345214f27873f2ab92d4",
+          "git_blob_sha": "227d2ddc7bb015a86ad50cd5322c2b88623ab257"
+        }
+      },
+      "visual_review": "이전 실제 WebP 검수 기록 재사용; 검수 당시와 현재 Git blob 일치",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    {
+      "id": "MS-077-D09-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D09-editorial-v1.svg",
+          "bytes": 6422,
+          "sha256": "2f63239b94ebb00a1524748cd9b3242484658e65005cedc7aea6184271c89073",
+          "git_blob_sha": "01b78af658c884f48b32e25794d98c4df16ffb96"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D09-editorial-v1.webp",
+          "bytes": 54710,
+          "sha256": "895db592cead884c4359bfba7d1acd287f46fc1e82759e6e3aadb95719759b79",
+          "git_blob_sha": "75681f22844472c4b463e1e73721a003cdb98c54"
+        }
+      },
+      "visual_review": "이전 실제 WebP 검수 기록 재사용; 검수 당시와 현재 Git blob 일치",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    {
+      "id": "MS-077-D10-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D10-editorial-v1.svg",
+          "bytes": 5437,
+          "sha256": "45cf2d66415e627725174165ff805840885c222c994189752ef6e659168a8603",
+          "git_blob_sha": "6627e7a841913e3e5f7d9ca50e302189f2cb55a8"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D10-editorial-v1.webp",
+          "bytes": 44076,
+          "sha256": "a6ed33fb4ea2e3d73df7061dfaea96e9ca2aa795afc2b68c931ae517b8d6cb7a",
+          "git_blob_sha": "5dec1ce9b5e4e8ce8da5e5e836b34ce0eccc7632"
+        }
+      },
+      "visual_review": "이전 실제 WebP 검수 기록 재사용; 검수 당시와 현재 Git blob 일치",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    {
+      "id": "MS-077-D11-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D11-editorial-v1.svg",
+          "bytes": 5954,
+          "sha256": "a390d16a179160a9929453a9562c378356db543e82800c4c2cf05f301971cd00",
+          "git_blob_sha": "7b59384c38cadd32811d0e6bde3941a10a72e811"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D11-editorial-v1.webp",
+          "bytes": 53144,
+          "sha256": "0b88deaf45878d2247c9caef6ed2283ff212b14ff3a8588649ca4e8857b26ddd",
+          "git_blob_sha": "ca1bad3c922eec4af27d9a8e91ec98b42c75acc2"
+        }
+      },
+      "visual_review": "이전 실제 WebP 검수 기록 재사용; 검수 당시와 현재 Git blob 일치",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    {
+      "id": "MS-077-D12-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D12-editorial-v1.svg",
+          "bytes": 5159,
+          "sha256": "ec8d84ee21eb2c613532faeca2d64b96ddf44fde40b95a37b3689c2e929616e4",
+          "git_blob_sha": "c689eaea633a5590f48c80ece82fb5de02dbfa7f"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D12-editorial-v1.webp",
+          "bytes": 50898,
+          "sha256": "7a159eae26c8304d98c31c79b7627ba5d33160ace95eb8aedea122119c8e7ddd",
+          "git_blob_sha": "399cb66882a04a3002980b9e3ee4c59eab272833"
+        }
+      },
+      "visual_review": "이전 실제 WebP 검수 기록 재사용; 검수 당시와 현재 Git blob 일치",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    {
+      "id": "MS-077-D13-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D13-editorial-v1.svg",
+          "bytes": 5913,
+          "sha256": "1717ca76802e016771df848033411e8dcbfc5137c2bf2ea6a0ade89ba713effb",
+          "git_blob_sha": "18c46a7099c26a16e0618bfce0ea89e52a58cf07"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D13-editorial-v1.webp",
+          "bytes": 53470,
+          "sha256": "3c05b3a843989495e36b66a9660b2cacf3759883269f8318e77023cae5a0cdc8",
+          "git_blob_sha": "3741537fbb82753f1c087da67bba93d6b1d201b8"
+        }
+      },
+      "visual_review": "이전 실제 WebP 검수 기록 재사용; 검수 당시와 현재 Git blob 일치",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    },
+    {
+      "id": "MS-077-D14-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D14-editorial-v1.svg",
+          "bytes": 5865,
+          "sha256": "d9c4a2c9ae14f9e8dfcb96a59f7cc789a8fb23eb95f7db1522f82125c33f351c",
+          "git_blob_sha": "6660eb5b21482da8b22c17fab1e70b0bf60f8be5"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D14-editorial-v1.webp",
+          "bytes": 48490,
+          "sha256": "410513ba0acd18bee30c4cc5309145452406fa3bfec1b77b9528bc78ed786aa5",
+          "git_blob_sha": "c71bcffee21c11411cb755e57d8f1134295824d5"
+        }
+      },
+      "visual_review": "이전 실제 WebP 검수 기록 재사용; 검수 당시와 현재 Git blob 일치",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    }
+  ],
+  "previous_evidence_sha256": "97c2a9a42badea412e2c1fb311f9e0314be15ba4ae0ad4d55be5ac2e64829a2f",
+  "publication_commit_or_null": null,
+  "publication_parent": "711a366fc529ac471e107f10fc44e4d9f7038416",
+  "reviewed_date_kst": "2026-11-28",
+  "full_lecture_complete": true,
+  "prior_publication_evidence": [
+    "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
+    "military-service-act/production-evidence/exam80-generation-2/MS-077/006-publication-review.json",
+    "military-service-act/production-evidence/exam80-generation-2/MS-077/008-publication-review.json"
+  ],
+  "asset_comparison_commit": "120e5243be741713d647bed40ca14e282d35b429"
+}

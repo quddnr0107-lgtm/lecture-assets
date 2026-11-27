@@ -1,0 +1,94 @@
+{
+  "lecture_id": "MS-018",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_13의2.txt",
+  "script_git_blob_sha": "99cc801483637047e65cd08b97ef09806935d990",
+  "script_sha256": "7e5e0be8836bc0364811ee75f354ac5b38860fa856f3afc5fb9381ff22608fce",
+  "full_script_read": true,
+  "script_line_count": 98,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        19,
+        35
+      ],
+      "topic": "요구 주체·목적·대상·취득/취소·응할 의무",
+      "diagrams": [
+        "MS-018-D01-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        37,
+        61
+      ],
+      "topic": "세 갈래 요구 상대·주무부장관 공인",
+      "diagrams": [
+        "MS-018-D01-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        65,
+        79
+      ],
+      "topic": "누구든지 목적 외 사용 금지",
+      "diagrams": [
+        "MS-018-D01-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        81,
+        95
+      ],
+      "topic": "별도 기간 규정 없음과 정리",
+      "diagrams": [
+        "MS-018-D01-editorial-v1"
+      ]
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-018-D01-editorial-v1"
+  ],
+  "reviewed_published_diagram_ids": [
+    "MS-018-D01-editorial-v1"
+  ],
+  "decision": {
+    "outcome": "reuse_only",
+    "reason": "기존 도식은 세 갈래 상대와 자료 보호를 구별하고 원고에서 강조한 공인 주체를 명시한다. 원고에 없는 기간을 추가하지 않았으며 비유와 반복 문장은 중복 제작하지 않는다."
+  },
+  "changed_artifacts_and_hashes": [],
+  "verified_published_assets": [
+    {
+      "id": "MS-018-D01-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-018/diagrams/MS-018-D01-editorial-v1.svg",
+          "bytes": 7678,
+          "sha256": "3d7b718c6ce5e6460c1129cec2ad159705a1dc49d0bb939379ba913b2d4030c2",
+          "git_blob_sha": "661fa675d58bfcd464ce8b8b67ad0ed5ac7f2579"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-018/diagrams/MS-018-D01-editorial-v1.webp",
+          "bytes": 62880,
+          "sha256": "00672b9c39c3c36cb9d930334078ce09e979be6cd70288c21bf0c5084baf026f",
+          "git_blob_sha": "ab3b913dc1704a656484bb381334dc454ee1e42f"
+        }
+      },
+      "visual_review": "이번 공개 WebP 실제 화면 확인, 잘림·겹침 없음",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    }
+  ],
+  "previous_evidence_sha256": null,
+  "publication_commit_or_null": null,
+  "publication_parent": "711a366fc529ac471e107f10fc44e4d9f7038416",
+  "reviewed_date_kst": "2026-11-28",
+  "full_lecture_complete": true
+}

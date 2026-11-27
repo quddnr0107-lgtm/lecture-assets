@@ -1,0 +1,94 @@
+{
+  "lecture_id": "MS-029",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_20의4.txt",
+  "script_git_blob_sha": "3fcf124978b2e10e357fa370b7cb8341ab010a4a",
+  "script_sha256": "d377d3066ca19c980b7ef5ba670d02d3f9a106b28bfce9ece337b8b1c37e9f0f",
+  "full_script_read": true,
+  "script_line_count": 101,
+  "script_topic_mapping": [
+    {
+      "lines": [
+        19,
+        45
+      ],
+      "topic": "요구 주체·동의·최종학교·정보시스템·전형 선발",
+      "diagrams": [
+        "MS-029-D01-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        47,
+        57
+      ],
+      "topic": "특별한 사유 없는 제출 의무",
+      "diagrams": [
+        "MS-029-D01-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        61,
+        81
+      ],
+      "topic": "누구든지 목적 외 사용 금지·권한과 보호 비교",
+      "diagrams": [
+        "MS-029-D01-editorial-v1"
+      ]
+    },
+    {
+      "lines": [
+        85,
+        98
+      ],
+      "topic": "핵심 정리",
+      "diagrams": [
+        "MS-029-D01-editorial-v1"
+      ]
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-029-D01-editorial-v1"
+  ],
+  "reviewed_published_diagram_ids": [
+    "MS-029-D01-editorial-v1"
+  ],
+  "decision": {
+    "outcome": "reuse_only",
+    "reason": "기존 도식이 최종학교·지원자 동의·정보시스템 및 자료 제출과 현역병 선발 전형 외 사용 금지를 모두 담는다. 비유와 후속 강의 안내는 중복 제작하지 않는다."
+  },
+  "changed_artifacts_and_hashes": [],
+  "verified_published_assets": [
+    {
+      "id": "MS-029-D01-editorial-v1",
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-029/diagrams/MS-029-D01-editorial-v1.svg",
+          "bytes": 7040,
+          "sha256": "80c364f687633726a8edee923e2fbb66509f6f4458fcc21ec8263f00d4d2f0a9",
+          "git_blob_sha": "8e3da1201b92be6900794e3d28053300b534811f"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-029/diagrams/MS-029-D01-editorial-v1.webp",
+          "bytes": 57618,
+          "sha256": "7b27790188ccdafc5798ad94c78094ddf64e2724098eb8ad482dcf07df7c6e79",
+          "git_blob_sha": "caffa87cd5d1e9c31c5fd0729e93caf7a513acfe"
+        }
+      },
+      "visual_review": "이번 공개 WebP 실제 화면 확인, 잘림·겹침 없음",
+      "lossless": true,
+      "dimensions": [
+        1600,
+        1120
+      ]
+    }
+  ],
+  "previous_evidence_sha256": null,
+  "publication_commit_or_null": null,
+  "publication_parent": "711a366fc529ac471e107f10fc44e4d9f7038416",
+  "reviewed_date_kst": "2026-11-28",
+  "full_lecture_complete": true
+}
