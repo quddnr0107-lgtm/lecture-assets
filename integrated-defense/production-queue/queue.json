@@ -2,7 +2,7 @@
   "schema_version": 1,
   "subject": "integrated-defense",
   "created_at_kst": "2026-11-27T10:25:01+09:00",
-  "updated_at_kst": "2026-11-27T14:45:34+09:00",
+  "updated_at_kst": "2026-11-27T14:47:00+09:00",
   "status": "review_pending",
   "approved_style": "07-notion-editorial",
   "baseline": {
@@ -240,7 +240,7 @@
       "lecture_id": "TB-002",
       "title": "02강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -262,14 +262,16 @@
       "outputs": [
         "integrated-defense/lesson-002/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-visual-20261127T054534Z",
-        "started_at": "2026-11-27T05:45:34Z",
-        "expires_at": "2026-11-27T06:05:34Z"
-      },
+      "lease": null,
       "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "법령 근거만 있는 마지막 페이지 발견. 기존 스크립트 내용은 보존하고 마지막 두 페이지의 배치를 균형 조정한다."
+      "review_note": "재생성 후 실제 WebP 전 페이지 검수 및 3종 원격 파일 SHA-256 일치.",
+      "completed_evidence": {
+        "verified_commit": "749313f4471a1125a3d97291b34bbba33a97cc47",
+        "visual_report": "integrated-defense/production-queue/runs/tb-exam80-visual-20261127T054534Z.json",
+        "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+        "output_type": "mobile"
+      }
     },
     {
       "id": "TB-003-MOBILE",
@@ -890,7 +892,7 @@
       "lecture_id": "TB-021",
       "title": "21강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -910,14 +912,16 @@
       "outputs": [
         "integrated-defense/lesson-021/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-visual-20261127T054534Z",
-        "started_at": "2026-11-27T05:45:34Z",
-        "expires_at": "2026-11-27T06:05:34Z"
-      },
+      "lease": null,
       "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "법령 근거만 있는 마지막 페이지 발견. 기존 스크립트 내용은 보존하고 마지막 두 페이지의 배치를 균형 조정한다."
+      "review_note": "재생성 후 실제 WebP 전 페이지 검수 및 3종 원격 파일 SHA-256 일치.",
+      "completed_evidence": {
+        "verified_commit": "749313f4471a1125a3d97291b34bbba33a97cc47",
+        "visual_report": "integrated-defense/production-queue/runs/tb-exam80-visual-20261127T054534Z.json",
+        "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+        "output_type": "mobile"
+      }
     },
     {
       "id": "TB-022-MOBILE",
@@ -1026,7 +1030,7 @@
       "lecture_id": "TB-025",
       "title": "25강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "done",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -1046,14 +1050,16 @@
       "outputs": [
         "integrated-defense/lesson-025/diagrams/notion-v1/mobile/"
       ],
-      "lease": {
-        "run_id": "tb-exam80-visual-20261127T054534Z",
-        "started_at": "2026-11-27T05:45:34Z",
-        "expires_at": "2026-11-27T06:05:34Z"
-      },
+      "lease": null,
       "attempts": 3,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "법령 근거만 있는 마지막 페이지 발견. 기존 스크립트 내용은 보존하고 마지막 두 페이지의 배치를 균형 조정한다."
+      "review_note": "재생성 후 실제 WebP 전 페이지 검수 및 3종 원격 파일 SHA-256 일치.",
+      "completed_evidence": {
+        "verified_commit": "749313f4471a1125a3d97291b34bbba33a97cc47",
+        "visual_report": "integrated-defense/production-queue/runs/tb-exam80-visual-20261127T054534Z.json",
+        "source_policy": "EXAM80-SCRIPT-SOURCE.json",
+        "output_type": "mobile"
+      }
     },
     {
       "id": "TB-FINAL-AUDIT",
@@ -1128,19 +1134,15 @@
     "checked_at_kst": "2026-11-27T12:02:16+09:00"
   },
   "last_render_run": "tb-visual-20261127045329",
-  "last_verified_commit": "b1e23f444518fb4511ed022579f6b39daeea216d",
+  "last_verified_commit": "749313f4471a1125a3d97291b34bbba33a97cc47",
   "progress": {
-    "jobs_done": 8,
-    "jobs_remaining": 22,
+    "jobs_done": 11,
+    "jobs_remaining": 19,
     "desktop_diagrams": 55,
     "mobile_rendered_lessons": 25,
     "mobile_rendered_pages": 137,
-    "mobile_verified_lessons": 4,
-    "mobile_verified_pages": 8,
-    "mobile_layout_review_lessons": [
-      2,
-      21,
-      25
-    ]
+    "mobile_verified_lessons": 7,
+    "mobile_verified_pages": 20,
+    "mobile_layout_review_lessons": []
   }
 }
