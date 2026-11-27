@@ -1,14 +1,12 @@
 {
-  "run_id": "tb-exam80-20261127T135012Z",
+  "run_id": "tb-exam80-20261127T144638Z-11-repair",
   "exam_number": 80,
   "source_basis": "EXAM80-SCRIPT-SOURCE.json",
   "lessons": [
-    22,
-    23,
-    24
+    11
   ],
   "worker_limit": 3,
   "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
-  "mode": "mobile-layout-repair",
-  "note": "Rebalance references-only last pages of lessons 22/23/24; preserve canonical content."
+  "mode": "desktop-mobile-script-repair",
+  "note": "Apply three pinned-script terminology corrections to TB-011-D01, render desktop and mobile, leave visual review pending."
 }

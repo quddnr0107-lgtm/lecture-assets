@@ -51,6 +51,9 @@ def main():
         assert job['status'] in ('running', 'reserved'), f'{n}: not reserved'
         assert lease.get('run_id') == req['run_id'], f'{n}: wrong lease owner'
         assert datetime.fromisoformat(lease['expires_at'].replace('Z','+00:00')) > datetime.now(timezone.utc), f'{n}: expired lease'
+    if req.get('mode') == 'desktop-mobile-script-repair':
+        from repair_exam80_11 import repair
+        repair(req)
     source=load(P/'EXAM80-SCRIPT-SOURCE.json'); align=load(N/'script-alignment.json')
     data=load(N/'content.json'); desktop=load(N/'manifest.json')
     assert source['exam_number']==align['exam_number']==80 and source['script_source_commit']==req['source_commit']

@@ -577,7 +577,7 @@
       "lecture_id": "TB-011",
       "title": "11강 도식 전체의 모바일 세로형 제작·검수",
       "priority": 2,
-      "status": "rendered_pending_visual",
+      "status": "reserved",
       "depends_on": [
         "TB-MOBILE-SETUP"
       ],
@@ -599,10 +599,14 @@
       "outputs": [
         "integrated-defense/lesson-011/diagrams/notion-v1/mobile/"
       ],
-      "lease": null,
-      "attempts": 4,
+      "lease": {
+        "run_id": "tb-exam80-20261127T144638Z-11-repair",
+        "started_at": "2026-11-27T14:46:38Z",
+        "expires_at": "2026-11-27T15:46:38Z"
+      },
+      "attempts": 5,
       "source_policy": "EXAM80-SCRIPT-SOURCE.json",
-      "review_note": "D01 원고 문구 3건 확정; 데스크톱·모바일 재생성 및 정합성 갱신 필요. integrated-defense/production-queue/runs/tb-exam80-20261127T135012Z-visual-qa.json",
+      "review_note": "고정 제80회 원고에 확인한 D01 문구 3건의 데스크톱·모바일 동시 재제작 예약. 독립 이미지 검수 전 완료 금지.",
       "repair_required": {
         "diagram_id": "TB-011-D01",
         "report": "integrated-defense/production-queue/runs/tb-exam80-20261127-1049-qa.json"
