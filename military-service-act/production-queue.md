@@ -67,3 +67,7 @@
 - MS-004: 기존 도식 재사용 완료. [근거](production-evidence/exam80-generation-2/MS-004/001-0fa030fc0065b6dfb76edd27d35d04515a845b646c33154a3d53d73a2d3ccabb.json)
 - MS-052: 기존 도식 재사용 완료. [근거](production-evidence/exam80-generation-2/MS-052/001-2840c8f383e3c0f908eb12f189b0e769537146a2c300e5c863fa9190d43e6f52.json)
 - 전체 8강 완료, 158강 대기. 이미지 추가·수정 없음.
+
+## 원고 범위 검수·도식 초안 체크포인트 07
+- 6장 SVG 초안 (5장 추가 후보, 1장 교정 후보). 기존 원고 전문·blob SHA 대조 후 저장. 렌더링 및 시각검수 전에는 정식 수량에 포함하지 않음.
+- [검수 근거 및 대상 ID](production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json) · 전체 8강 완료, 158강 대기. 기존 공개 303장 유지.

@@ -1,0 +1,621 @@
+{
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "reviewed_date_kst": "2026-11-27",
+  "previous_checkpoint": "military-service-act/production-evidence/exam80-generation-2/MS-077/006-publication-review.json",
+  "scope": "script-only draft preparation; no final asset changes",
+  "records": [
+    {
+      "lecture_id": "MS-077",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/cancellation-eight-grounds.svg",
+      "svg_sha256": "1717ca76802e016771df848033411e8dcbfc5137c2bf2ea6a0ade89ba713effb",
+      "svg_blob_sha": "18c46a7099c26a16e0618bfce0ea89e52a58cf07",
+      "script_git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+      "provisional_target_id": "MS-077-D13-editorial-v1",
+      "kind": "new",
+      "title": "편입취소 사유 여덟 가지",
+      "source_line_spans": [
+        [
+          21,
+          36
+        ],
+        [
+          50,
+          66
+        ]
+      ],
+      "reason": "원고가 여덟 취소사유를 구분하며 기존 D01은 일부 사유만 요약. 주체와 항목 범위를 완결한다.",
+      "script_path": "docs/merged-lectures/병역법/본법_41.txt",
+      "script_line_count": 212,
+      "full_script_read": true,
+      "content": {
+        "lecture_id": "MS-077",
+        "title": "편입취소 사유 여덟 가지",
+        "subtitle": "관할 지방병무청장 · 편입취소 의무",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "부정 · 연령 · 복무",
+            "items": [
+              {
+                "label": "제1·2호  부정",
+                "text": "제38조의2 위반 부정 편입·전직 금품 수수 등 부정 편입·전직 (제1호 해당 제외)",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제3호  연령",
+                "text": "35세까지 복무 완료 불가 법정 예외는 37세",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제4호  신상변동",
+                "text": "제40조 제1~4호 및 제7호",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "복무 · 국외",
+            "items": [
+              {
+                "label": "제5·6호  복무 불이행",
+                "text": "정당한 사유 없는 군사교육 미수 정해진 전직 기간 안에 미전직",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제7호  국외여행",
+                "text": "허가 없이 출국·체재 정당한 사유 없이 기간 내 미귀국",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제8호  귀국명령",
+                "text": "귀국명령 위반 후 미귀국",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "해고 다툼의 유보·업체 지시의 연장 예외는 별도 도식과 함께 확인",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            21,
+            36
+          ],
+          [
+            50,
+            66
+          ]
+        ]
+      },
+      "status": "svg_draft_requires_lossless_raster_and_visual_review",
+      "layout_preflight": "estimated width and vertical bounds only; visual check pending"
+    },
+    {
+      "lecture_id": "MS-077",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/art-sports-comparison.svg",
+      "svg_sha256": "d9c4a2c9ae14f9e8dfcb96a59f7cc789a8fb23eb95f7db1522f82125c33f351c",
+      "svg_blob_sha": "6660eb5b21482da8b22c17fab1e70b0bf60f8be5",
+      "script_git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+      "provisional_target_id": "MS-077-D14-editorial-v1",
+      "kind": "new",
+      "title": "두 대체복무의 편입취소 비교",
+      "source_line_spans": [
+        [
+          83,
+          85
+        ],
+        [
+          95,
+          125
+        ],
+        [
+          185,
+          189
+        ]
+      ],
+      "reason": "원고 말미의 두 제도 비교는 기존 도식에서 각각의 규칙만 표시되어 대조 학습용 한 장이 필요하다.",
+      "script_path": "docs/merged-lectures/병역법/본법_41.txt",
+      "script_line_count": 212,
+      "full_script_read": true,
+      "content": {
+        "lecture_id": "MS-077",
+        "title": "두 대체복무의 편입취소 비교",
+        "subtitle": "예술·체육요원 / 전문연구·산업기능요원",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "공통점",
+            "items": [
+              {
+                "label": "신분과 잔여 복무",
+                "text": "편입 전 신분으로 복귀 현역 대상 잔여 6개월 미만은 사회복무요원 소집 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "부정 편입",
+                "text": "원래 신분의 복무기간에서 군사교육 기간만 공제",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "그 밖의 취소",
+                "text": "대통령령 기준에 따른 남은 복무기간",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "차이점",
+            "items": [
+              {
+                "label": "예술·체육요원",
+                "text": "부정 편입과 그 밖의 취소 구분 해당 분야 미복무일의 5배 연장",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "전문연구·산업기능요원",
+                "text": "부정 전직은 남은 기간 적용 통틀어 8일 미만 무단결근 해당 기간의 5배 연장",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "부정 편입은 처음부터 / 부정 전직은 남은 기간",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            83,
+            85
+          ],
+          [
+            95,
+            125
+          ],
+          [
+            185,
+            189
+          ]
+        ]
+      },
+      "status": "svg_draft_requires_lossless_raster_and_visual_review",
+      "layout_preflight": "estimated width and vertical bounds only; visual check pending"
+    },
+    {
+      "lecture_id": "MS-077",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/transfer-scope-clarified.svg",
+      "svg_sha256": "b48af05b42e23f0c1bfdef5b23ecd5bfac6d3995c6dc3e13b7a9d99d85292d4b",
+      "svg_blob_sha": "76731decbb3663a32435e58a5bdb6f5a88340148",
+      "script_git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+      "provisional_target_id": "MS-077-D05-editorial-v1",
+      "kind": "correction",
+      "title": "전직의 사유와 기한",
+      "source_line_spans": [
+        [
+          129,
+          145
+        ],
+        [
+          203,
+          203
+        ]
+      ],
+      "reason": "원고 137행의 2회 한정 대상이 산업기능요원임을 명시하여 적용범위 혼동 방지. 기존 ID 유지.",
+      "script_path": "docs/merged-lectures/병역법/본법_41.txt",
+      "script_line_count": 212,
+      "full_script_read": true,
+      "content": {
+        "lecture_id": "MS-077",
+        "title": "전직의 사유와 기한",
+        "subtitle": "전문연구요원·산업기능요원",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "옮겨야 하는 경우",
+            "items": [
+              {
+                "label": "업체 사정",
+                "text": "폐업·선정취소 6개월 이상 휴업·영업정지 농업기계 사후관리업체 인정취소",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "원칙적 전직 기한",
+                "text": "사유 발생일 또는 승인일부터 3개월 이내",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "일부 예외",
+                "text": "14일 이내 전직",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "승인받아 옮기는 경우",
+            "items": [
+              {
+                "label": "편입 후 경과기간",
+                "text": "전문연구 1년 6개월 산업기능 6개월 산업기능만 통틀어 2회 한정",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "다른 승인 사유 예시",
+                "text": "임금체불 통틀어 3개월 이상 부당해고 확정·산업재해 등",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "같은 법인 내 전직",
+                "text": "신상변동 통보로 승인 갈음",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "경과기간을 이유로 하는 전직의 2회 한정은 산업기능요원에만 적용",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            129,
+            145
+          ],
+          [
+            203,
+            203
+          ]
+        ]
+      },
+      "status": "svg_draft_requires_lossless_raster_and_visual_review",
+      "layout_preflight": "estimated width and vertical bounds only; visual check pending"
+    },
+    {
+      "lecture_id": "MS-010",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-010/automatic-entry-calendar.svg",
+      "svg_sha256": "0ca72ff7662bc10a7f87f45d0a0b6b61332c8bcbea6d5d49ca09fcbbad70aa1b",
+      "svg_blob_sha": "88cf6b120786d576c876507fc37a14a6506929f3",
+      "script_git_blob_sha": "3212a7c3a553fd2344d7598ed127a3865932bca0",
+      "provisional_target_id": "MS-010-D02-editorial-v1",
+      "kind": "new",
+      "title": "병역준비역의 출발선",
+      "source_line_spans": [
+        [
+          15,
+          29
+        ],
+        [
+          31,
+          43
+        ],
+        [
+          45,
+          59
+        ],
+        [
+          67,
+          70
+        ]
+      ],
+      "reason": "원고 도입 퀴즈의 정답과 자동 편입의 핵심이 D01에 명시되지 않았다.",
+      "script_path": "docs/merged-lectures/병역법/본법_8.txt",
+      "script_line_count": 75,
+      "full_script_read": true,
+      "content": {
+        "lecture_id": "MS-010",
+        "title": "병역준비역의 출발선",
+        "subtitle": "18세부터 = 그해 1월 1일부터",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "같은 출생연도",
+            "items": [
+              {
+                "label": "1월 2일생",
+                "text": "18세가 되는 해의 1월 1일",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "12월 31일생",
+                "text": "18세가 되는 해의 1월 1일",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "시점의 기준",
+                "text": "생일이 아니라 출생연도 기준",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "자동 편입",
+            "items": [
+              {
+                "label": "대상",
+                "text": "대한민국 국민인 남성",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "절차",
+                "text": "신청·통지 없이 법에 따라 편입",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "역종의 출발점",
+                "text": "병역처분 전 준비 단계 병역판정검사 후 처분으로 이어짐",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "18세가 되는 해 1월 1일 · 생일과 관계없이 자동 편입",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            15,
+            29
+          ],
+          [
+            31,
+            43
+          ],
+          [
+            45,
+            59
+          ],
+          [
+            67,
+            70
+          ]
+        ]
+      },
+      "status": "svg_draft_requires_lossless_raster_and_visual_review",
+      "layout_preflight": "estimated width and vertical bounds only; visual check pending"
+    },
+    {
+      "lecture_id": "MS-117",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-117/three-day-counts.svg",
+      "svg_sha256": "6354ca971ab4c24d1fda1e641ed8f5c118348656ea985aa5b701f1fd304a30b6",
+      "svg_blob_sha": "d7b1d4feaa2a5e97513a18f8366c88fd610a9bd4",
+      "script_git_blob_sha": "5d781d1a08a60f8d47fe9d2aa2df5fcae4f8380e",
+      "provisional_target_id": "MS-117-D02-editorial-v1",
+      "kind": "new",
+      "title": "30일과 180일, 세 가지 기준",
+      "source_line_spans": [
+        [
+          13,
+          13
+        ],
+        [
+          27,
+          41
+        ],
+        [
+          43,
+          49
+        ],
+        [
+          57,
+          61
+        ]
+      ],
+      "reason": "원고 정리에서 180일 및 별개 시정 30일을 직접 비교하는데 기존 도식은 초과분 적용 특례만 담고 있다.",
+      "script_path": "docs/merged-lectures/병역법/본법_74의5.txt",
+      "script_line_count": 66,
+      "full_script_read": true,
+      "content": {
+        "lecture_id": "MS-117",
+        "title": "30일과 180일, 세 가지 기준",
+        "subtitle": "훈련 소집 한도 · 보호 범위 · 시정 기한",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "훈련 소집과 보호",
+            "items": [
+              {
+                "label": "제49조  연간 소집 한도",
+                "text": "원칙 30일 이내 상비예비군 180일 이내",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제74조의5  보호 범위",
+                "text": "연간 30일까지 보호 적용 30일 초과분은 적용 제외 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "재량",
+                "text": "30일 초과분도 보호할 수 있음",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "불이익처우 시정",
+            "items": [
+              {
+                "label": "제74조의6의 30일",
+                "text": "시정요구를 받은 날부터 30일 이내 이행",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "신고와 시정",
+                "text": "불이익처우 신고 국방부장관의 시정요구 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "숫자의 의미",
+                "text": "훈련일수와 시정기한은 다름",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "연간 30일은 보호의 범위 / 시정의 30일은 요구를 받은 뒤의 기한",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            13,
+            13
+          ],
+          [
+            27,
+            41
+          ],
+          [
+            43,
+            49
+          ],
+          [
+            57,
+            61
+          ]
+        ]
+      },
+      "status": "svg_draft_requires_lossless_raster_and_visual_review",
+      "layout_preflight": "estimated width and vertical bounds only; visual check pending"
+    },
+    {
+      "lecture_id": "MS-157",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-157/punishment-result-comparison.svg",
+      "svg_sha256": "603d9177e49c074a834778cf65938e83b4280d0920fe3126be9193a959a23849",
+      "svg_blob_sha": "86e11b9918d67e7ca4136f51297a108fc26d5896",
+      "script_git_blob_sha": "727888ecbcc939f6dc1053e1f20c2d216fd54182",
+      "provisional_target_id": "MS-157-D02-editorial-v1",
+      "kind": "new",
+      "title": "병역 면탈과 허위증명서 발급",
+      "source_line_spans": [
+        [
+          19,
+          29
+        ],
+        [
+          35,
+          49
+        ],
+        [
+          53,
+          75
+        ]
+      ],
+      "reason": "도입 퀴즈의 결과 불요 및 법 제86조와의 징역 상한 비교가 기존 D01에서 빠져 있다.",
+      "script_path": "docs/merged-lectures/병역법/본법_91.txt",
+      "script_line_count": 80,
+      "full_script_read": true,
+      "content": {
+        "lecture_id": "MS-157",
+        "title": "병역 면탈과 허위증명서 발급",
+        "subtitle": "징역 상한 5년과 10년의 구분",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "제86조  본인의 면탈",
+            "items": [
+              {
+                "label": "행위의 예",
+                "text": "도망·신체손상·속임수",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "목적",
+                "text": "병역의무 기피 또는 감면",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "징역",
+                "text": "1년 이상 5년 이하",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "제91조  허위증명서",
+            "items": [
+              {
+                "label": "주체와 행위",
+                "text": "공무원·의사·치과의사 거짓 서류·증명서·진단서 발급",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "목적과 결과",
+                "text": "연기·면제·복무기간 단축 목적 실제 면제 등 결과는 불필요",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "징역 및 자격정지",
+                "text": "1년 이상 10년 이하 징역 10년 이하 자격정지 병과 가능",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "제86조 5년 / 제91조 10년 · 실제 면제되지 않아도 발급으로 성립",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            19,
+            29
+          ],
+          [
+            35,
+            49
+          ],
+          [
+            53,
+            75
+          ]
+        ]
+      },
+      "status": "svg_draft_requires_lossless_raster_and_visual_review",
+      "layout_preflight": "estimated width and vertical bounds only; visual check pending"
+    }
+  ],
+  "publication_count": 0,
+  "full_lecture_complete": false,
+  "priority_77_mapping": {
+    "existing_coverage": [
+      {
+        "lines": [
+          21,
+          89
+        ],
+        "diagrams": [
+          "MS-077-D01-editorial-v1",
+          "MS-077-D03-editorial-v1",
+          "MS-077-D04-editorial-v1"
+        ]
+      },
+      {
+        "lines": [
+          95,
+          125
+        ],
+        "diagrams": [
+          "MS-077-D02-editorial-v1",
+          "MS-077-D11-editorial-v1"
+        ]
+      },
+      {
+        "lines": [
+          129,
+          175
+        ],
+        "diagrams": [
+          "MS-077-D05-editorial-v1",
+          "MS-077-D06-editorial-v1",
+          "MS-077-D07-editorial-v1",
+          "MS-077-D08-editorial-v1",
+          "MS-077-D09-editorial-v1",
+          "MS-077-D10-editorial-v1",
+          "MS-077-D11-editorial-v1"
+        ]
+      },
+      {
+        "lines": [
+          177,
+          183
+        ],
+        "diagrams": [
+          "MS-077-D12-editorial-v1"
+        ]
+      }
+    ],
+    "remaining": "여덟 취소사유와 예술·체육요원 비교의 추가, 전직 2회 대상 명시 후 시각검수·정식 반영. 127행 감면 연계 및 도입 비유는 맥락 설명."
+  }
+}

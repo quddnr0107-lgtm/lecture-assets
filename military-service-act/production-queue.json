@@ -479,14 +479,28 @@
       "existing_diagram_ids": [
         "MS-010-D01-editorial-v1"
       ],
-      "full_script_read": false,
+      "full_script_read": true,
       "lease": null,
-      "checkpoint": 0,
-      "evidence_refs": [],
+      "checkpoint": 7,
+      "evidence_refs": [
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json"
+      ],
       "outcome": null,
       "changed_diagram_ids": [],
       "new_diagram_ids": [],
-      "previously_verified_existing_diagram_ids": []
+      "previously_verified_existing_diagram_ids": [],
+      "script_fulltext_retrieved": true,
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json",
+      "draft_preview_paths": [
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-010/automatic-entry-calendar.svg"
+      ],
+      "pending_draft_targets": [
+        {
+          "id": "MS-010-D02-editorial-v1",
+          "kind": "new",
+          "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-010/automatic-entry-calendar.svg"
+        }
+      ]
     },
     {
       "lecture_id": "MS-011",
@@ -2095,11 +2109,12 @@
       ],
       "full_script_read": true,
       "lease": null,
-      "checkpoint": 6,
+      "checkpoint": 7,
       "evidence_refs": [
         "military-service-act/production-evidence/exam80-generation-2/MS-077/003-publication-review.json",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-04-visual-review.json",
-        "military-service-act/production-evidence/exam80-generation-2/MS-077/006-publication-review.json"
+        "military-service-act/production-evidence/exam80-generation-2/MS-077/006-publication-review.json",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json"
       ],
       "outcome": null,
       "changed_diagram_ids": [],
@@ -2119,7 +2134,7 @@
         "MS-077-D01-editorial-v1",
         "MS-077-D02-editorial-v1"
       ],
-      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/MS-077/006-publication-review.json",
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json",
       "draft_preview_paths": [
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-077/two-30-day-rules.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-077/transfer.svg",
@@ -2131,7 +2146,10 @@
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/study-during-service.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/transfer-application.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/transfer-excluded.svg",
-        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/military-demand-notification-corrected.svg"
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/military-demand-notification-corrected.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/cancellation-eight-grounds.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/art-sports-comparison.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/transfer-scope-clarified.svg"
       ],
       "script_fulltext_retrieved": true,
       "partial_publication": {
@@ -2139,7 +2157,24 @@
         "review_ref": "military-service-act/production-evidence/exam80-generation-2/MS-077/006-publication-review.json",
         "published_asset_source_commit": "dad67d12bd8b421ba54e01dca0b421bbfbe13a16",
         "remaining": "전체 원고 핵심 설명 누락 및 기존 도식 대응 최종 대조"
-      }
+      },
+      "pending_draft_targets": [
+        {
+          "id": "MS-077-D13-editorial-v1",
+          "kind": "new",
+          "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/cancellation-eight-grounds.svg"
+        },
+        {
+          "id": "MS-077-D14-editorial-v1",
+          "kind": "new",
+          "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/art-sports-comparison.svg"
+        },
+        {
+          "id": "MS-077-D05-editorial-v1",
+          "kind": "correction",
+          "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-077/transfer-scope-clarified.svg"
+        }
+      ]
     },
     {
       "lecture_id": "MS-078",
@@ -3129,14 +3164,28 @@
       "existing_diagram_ids": [
         "MS-117-D01-editorial-v1"
       ],
-      "full_script_read": false,
+      "full_script_read": true,
       "lease": null,
-      "checkpoint": 0,
-      "evidence_refs": [],
+      "checkpoint": 7,
+      "evidence_refs": [
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json"
+      ],
       "outcome": null,
       "changed_diagram_ids": [],
       "new_diagram_ids": [],
-      "previously_verified_existing_diagram_ids": []
+      "previously_verified_existing_diagram_ids": [],
+      "script_fulltext_retrieved": true,
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json",
+      "draft_preview_paths": [
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-117/three-day-counts.svg"
+      ],
+      "pending_draft_targets": [
+        {
+          "id": "MS-117-D02-editorial-v1",
+          "kind": "new",
+          "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-117/three-day-counts.svg"
+        }
+      ]
     },
     {
       "lecture_id": "MS-118",
@@ -4118,14 +4167,28 @@
       "existing_diagram_ids": [
         "MS-157-D01-editorial-v1"
       ],
-      "full_script_read": false,
+      "full_script_read": true,
       "lease": null,
-      "checkpoint": 0,
-      "evidence_refs": [],
+      "checkpoint": 7,
+      "evidence_refs": [
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json"
+      ],
       "outcome": null,
       "changed_diagram_ids": [],
       "new_diagram_ids": [],
-      "previously_verified_existing_diagram_ids": []
+      "previously_verified_existing_diagram_ids": [],
+      "script_fulltext_retrieved": true,
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json",
+      "draft_preview_paths": [
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-157/punishment-result-comparison.svg"
+      ],
+      "pending_draft_targets": [
+        {
+          "id": "MS-157-D02-editorial-v1",
+          "kind": "new",
+          "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-157/punishment-result-comparison.svg"
+        }
+      ]
     },
     {
       "lecture_id": "MS-158",
@@ -4381,5 +4444,17 @@
     ],
     "new_images": 0,
     "publication_commit": null
+  },
+  "last_draft_checkpoint": {
+    "date_kst": "2026-11-27",
+    "lecture_ids": [
+      "MS-077",
+      "MS-010",
+      "MS-117",
+      "MS-157"
+    ],
+    "evidence_ref": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-07-coverage-drafts.json",
+    "svg_drafts": 6,
+    "final_new_images": 0
   }
 }
