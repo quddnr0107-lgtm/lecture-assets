@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-27T23:27:42+09:00",
+  "updated_at": "2026-11-28T00:27:34+09:00",
   "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
     "status": "files_completed",
@@ -66,21 +66,34 @@
     ]
   },
   "state": {
-    "active_run": null,
+    "active_run": {
+      "id": "dr-20261128-002734-script",
+      "claimed_at": "2026-11-28T00:27:34+09:00",
+      "lease_expires_at": "2026-11-28T02:27:34+09:00",
+      "production_job_ids": [
+        "DR-021-D02-precision-002734",
+        "DR-076-D02-precision-002734",
+        "DR-051-D01-precision-002734",
+        "DR-051-D02-precision-002734",
+        "DR-070-D01-precision-002734"
+      ],
+      "status": "running",
+      "workers": 1
+    },
     "last_successful_run": {
-      "id": "dr-20261127-222906-script",
-      "render_commit": "a2e22e8e0620b233a913131abfcf897b8cd8ebd3",
-      "new_diagrams": 10,
-      "revised_diagrams": 7,
+      "id": "dr-20261127-232742-script",
+      "render_commit": "907555c634d8a50fa8b522f3e17c16054037f676",
+      "new_diagrams": 0,
+      "revised_diagrams": 3,
       "completed_reviews": 1,
       "visual_qa": "passed"
     },
     "coverage_reviews_total": 78,
-    "coverage_reviews_queued": 45,
-    "coverage_reviews_completed": 33,
-    "confirmed_production_jobs": 86,
+    "coverage_reviews_queued": 44,
+    "coverage_reviews_completed": 34,
+    "confirmed_production_jobs": 91,
     "diagrams_added_after_baseline": 30,
-    "diagrams_revised_after_baseline": 49,
+    "diagrams_revised_after_baseline": 52,
     "script_bindings_verified": 78,
     "last_correction": {
       "updated_at": "2026-11-27T11:59:19+09:00",
@@ -94,8 +107,8 @@
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
     "production_jobs_queued": 0,
-    "production_jobs_qa": 3,
-    "production_jobs_completed": 83
+    "production_jobs_qa": 0,
+    "production_jobs_completed": 86
   },
   "jobs": [
     {
@@ -1570,12 +1583,12 @@
       "lease_expires_at": null,
       "completed_at": null,
       "result": {
-        "scope": "기존 원고 전문 및 구조화 도식 대조, 추가 정밀 수정 필요",
+        "scope": "기존 원고 전문 및 구조화 도식·실제 PNG 대조; 정밀 수정 반영 후 최종 검수 필요",
         "full_review_completed": false,
         "source_sha256": "6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04",
         "source_git_blob": "a8908c2960fbcdd6a7da0a671575452b3ec83bea",
         "uncovered_required_learning_objectives": [
-          "필요시 지시 및 추가 편성 대상자·대상지역·필요사항의 시험 핵심 표현"
+          "별도 소대의 지역예비군 동원 조건"
         ],
         "additional_diagrams_required": false
       },
@@ -1584,7 +1597,8 @@
       "confirmed_production_job_ids": [
         "DR-021-exam80-01-revision-183200",
         "DR-021-exam80-01-revision-203000",
-        "DR-021-D01-precision-222906"
+        "DR-021-D01-precision-222906",
+        "DR-021-D02-precision-002734"
       ]
     },
     {
@@ -1812,9 +1826,23 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "scope": "기존 원고 전문 및 구조화 도식·실제 PNG 대조; 정밀 수정 반영 후 최종 검수 필요",
+        "full_review_completed": false,
+        "source_sha256": "298227f52d8160bc2c9b2de08f2f8c00270bfa7f06df3f27982b61ef717ee234",
+        "source_git_blob": "b3625b807ba3cd51349b192039a5ad8b962621d3",
+        "uncovered_required_learning_objectives": [
+          "각 군 참모총장과 작전사령관의 규정 작성 권한",
+          "훈령·규정·계획과 직할부대 직접 시행의 구분"
+        ],
+        "additional_diagrams_required": false
+      },
       "script_ref": "DR-051",
-      "script_sha256": "298227f52d8160bc2c9b2de08f2f8c00270bfa7f06df3f27982b61ef717ee234"
+      "script_sha256": "298227f52d8160bc2c9b2de08f2f8c00270bfa7f06df3f27982b61ef717ee234",
+      "confirmed_production_job_ids": [
+        "DR-051-D01-precision-002734",
+        "DR-051-D02-precision-002734"
+      ]
     },
     {
       "id": "DR-052-coverage-review-v1",
@@ -2451,7 +2479,7 @@
       "lesson_id": "DR-037",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제48조, 기동장비",
       "priority": 65,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 1,
       "existing_diagram_ids": [
         "DR-037-D01"
@@ -2463,12 +2491,26 @@
         "국방부훈령 제3104호"
       ],
       "output_directory": "defense-directives/lesson-037/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "6f66c8f02ea2ab75ffad24895ae6a90dbc57335ae99662701890b3105cb35085",
+        "existing_svg_sha256": [
+          "ddd4e9313712f212ea6ebfe70630cd8afcf40722003fd542b001f31184d68230"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
-      "result": null,
+      "completed_at": "2026-11-28T00:27:34+09:00",
+      "result": {
+        "scope": "원고 1–99행 전체와 DR-037-D01 구조화 원본·실제 PNG 대조",
+        "coverage": "23,47,51,57,59,69,71,77,90–94행: 수임군부대장, 평시 지원본부, 전시 동원지정차량, 시·도 통합방위협의회, 준비·협의·계획을 기존 도식이 포괄",
+        "source_git_blob": "a61286f01dcc5590af04dc1994115c2c5e4637d8",
+        "source_sha256": "6f66c8f02ea2ab75ffad24895ae6a90dbc57335ae99662701890b3105cb35085",
+        "uncovered_required_learning_objectives": [],
+        "additional_diagrams_required": false,
+        "visual_qa": "passed; 기존 이미지 유지"
+      },
       "script_ref": "DR-037",
       "script_sha256": "6f66c8f02ea2ab75ffad24895ae6a90dbc57335ae99662701890b3105cb35085"
     },
@@ -2916,9 +2958,21 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "scope": "기존 원고 전문 및 구조화 도식·실제 PNG 대조; 정밀 수정 반영 후 최종 검수 필요",
+        "full_review_completed": false,
+        "source_sha256": "8edf53a30a6f3b29468f5cadeaed29034c82833ea403f8345543c44e633b5c5e",
+        "source_git_blob": "4a8ec51989af64d319c635c81e97e3abd2145839",
+        "uncovered_required_learning_objectives": [
+          "교보재·탄약과 각 군 준거 규정의 대응"
+        ],
+        "additional_diagrams_required": false
+      },
       "script_ref": "DR-070",
-      "script_sha256": "8edf53a30a6f3b29468f5cadeaed29034c82833ea403f8345543c44e633b5c5e"
+      "script_sha256": "8edf53a30a6f3b29468f5cadeaed29034c82833ea403f8345543c44e633b5c5e",
+      "confirmed_production_job_ids": [
+        "DR-070-D01-precision-002734"
+      ]
     },
     {
       "id": "DR-076-coverage-review-v1",
@@ -2946,13 +3000,12 @@
       "lease_expires_at": null,
       "completed_at": null,
       "result": {
-        "scope": "기존 원고 전문 및 구조화 도식 대조, 추가 정밀 수정 필요",
+        "scope": "기존 원고 전문 및 구조화 도식·실제 PNG 대조; 정밀 수정 반영 후 최종 검수 필요",
         "full_review_completed": false,
         "source_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
         "source_git_blob": "899302aaf728a341ec23adad26262a73c91c6fe1",
         "uncovered_required_learning_objectives": [
-          "가산금과 중가산금의 명칭 및 기산",
-          "위반 근거와 산정 주체·절차의 명확한 구분"
+          "50% 감경 근거 시행령과 의견제출 수단"
         ],
         "additional_diagrams_required": false
       },
@@ -2962,7 +3015,8 @@
         "DR-076-exam80-02-new-203000",
         "DR-076-exam80-03-new-203000",
         "DR-076-D03-precision-222906",
-        "DR-076-D01-precision-222906"
+        "DR-076-D01-precision-222906",
+        "DR-076-D02-precision-002734"
       ]
     },
     {
@@ -7570,7 +7624,7 @@
       "script_sha256": "6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-021|6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04|19,47,58,166,168|필요시 지시 및 추가 편성 대상자·대상지역·필요사항의 시험 핵심 표현|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-021/diagrams/DR-021-D01-editorial-v1.svg",
@@ -7610,7 +7664,10 @@
       "diagram_id": "DR-021-D01",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "completed_at": "2026-11-28T00:27:34+09:00",
+      "render_commit": "907555c634d8a50fa8b522f3e17c16054037f676",
+      "visual_review_note": "main PNG 직접 확인: 글자·수치·조건 및 겹침·잘림 이상 없음. 기존 렌더러 PNG/WebP 픽셀 일치·해시 기록과 manifest 대조."
     },
     {
       "id": "DR-076-D03-precision-222906",
@@ -7623,7 +7680,7 @@
       "script_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-076|16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239|126,130,155|가산금과 중가산금의 명칭 및 기산|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-076/diagrams/DR-076-D03-editorial-v1.svg",
@@ -7661,7 +7718,10 @@
       "diagram_id": "DR-076-D03",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "completed_at": "2026-11-28T00:27:34+09:00",
+      "render_commit": "907555c634d8a50fa8b522f3e17c16054037f676",
+      "visual_review_note": "main PNG 직접 확인: 글자·수치·조건 및 겹침·잘림 이상 없음. 기존 렌더러 PNG/WebP 픽셀 일치·해시 기록과 manifest 대조."
     },
     {
       "id": "DR-076-D01-precision-222906",
@@ -7674,7 +7734,7 @@
       "script_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-076|16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239|19,58,68,82,96,148,150,151|위반 근거와 산정 주체·절차의 명확한 구분|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-076/diagrams/DR-076-D01-editorial-v1.svg",
@@ -7717,7 +7777,197 @@
       "diagram_id": "DR-076-D01",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "completed_at": "2026-11-28T00:27:34+09:00",
+      "render_commit": "907555c634d8a50fa8b522f3e17c16054037f676",
+      "visual_review_note": "main PNG 직접 확인: 글자·수치·조건 및 겹침·잘림 이상 없음. 기존 렌더러 PNG/WebP 픽셀 일치·해시 기록과 manifest 대조."
+    },
+    {
+      "id": "DR-021-D02-precision-002734",
+      "lesson_id": "DR-021",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-021-D02",
+      "learning_objective": "별도 소대의 지역예비군 동원 조건",
+      "script_ref": "DR-021",
+      "script_section": "115,127,131,133,149,175,176",
+      "script_sha256": "6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-021|6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04|115,127,131,133,149,175,176|별도 소대의 지역예비군 동원 조건|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-21.txt",
+          "source_git_blob": "a8908c2960fbcdd6a7da0a671575452b3ec83bea",
+          "source_sha256": "6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04",
+          "line_numbers": [
+            115,
+            127,
+            131,
+            133,
+            149,
+            175,
+            176
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-002734-script",
+      "claimed_at": "2026-11-28T00:27:34+09:00",
+      "lease_expires_at": "2026-11-28T02:27:34+09:00",
+      "finding": "동원 순서에서 지역예비군 동원 시라는 적용 범위가 생략됨",
+      "required_change": "동원 순서 항목에 지역예비군 동원 시 명시"
+    },
+    {
+      "id": "DR-076-D02-precision-002734",
+      "lesson_id": "DR-076",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-076-D02",
+      "learning_objective": "50% 감경 근거 시행령과 의견제출 수단",
+      "script_ref": "DR-076",
+      "script_section": "96,102,104,110,118,122,124,152,153,154",
+      "script_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-076|16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239|96,102,104,110,118,122,124,152,153,154|50% 감경 근거 시행령과 의견제출 수단|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-32.txt",
+          "source_git_blob": "899302aaf728a341ec23adad26262a73c91c6fe1",
+          "source_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
+          "line_numbers": [
+            96,
+            102,
+            104,
+            110,
+            118,
+            122,
+            124,
+            152,
+            153,
+            154
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-002734-script",
+      "claimed_at": "2026-11-28T00:27:34+09:00",
+      "lease_expires_at": "2026-11-28T02:27:34+09:00",
+      "finding": "시행령 해당 감경의 법령명이 생략되어 예비군법 시행령과 혼동 가능",
+      "required_change": "질서위반행위규제법 시행령 명시 및 서면·구두 의견제출 각주"
+    },
+    {
+      "id": "DR-051-D01-precision-002734",
+      "lesson_id": "DR-051",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-051-D01",
+      "learning_objective": "각 군 참모총장과 작전사령관의 규정 작성 권한",
+      "script_ref": "DR-051",
+      "script_section": "15,19,21,27,37,45,75,76",
+      "script_sha256": "298227f52d8160bc2c9b2de08f2f8c00270bfa7f06df3f27982b61ef717ee234",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-051|298227f52d8160bc2c9b2de08f2f8c00270bfa7f06df3f27982b61ef717ee234|15,19,21,27,37,45,75,76|각 군 참모총장과 작전사령관의 규정 작성 권한|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-7.txt",
+          "source_git_blob": "b3625b807ba3cd51349b192039a5ad8b962621d3",
+          "source_sha256": "298227f52d8160bc2c9b2de08f2f8c00270bfa7f06df3f27982b61ef717ee234",
+          "line_numbers": [
+            15,
+            19,
+            21,
+            27,
+            37,
+            45,
+            75,
+            76
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-002734-script",
+      "claimed_at": "2026-11-28T00:27:34+09:00",
+      "lease_expires_at": "2026-11-28T02:27:34+09:00",
+      "finding": "시험 핵심 주체가 각 군 지휘부라는 포괄 표현으로 표시됨",
+      "required_change": "각 군 참모총장을 직접 표기하고 해병대 예외 명시"
+    },
+    {
+      "id": "DR-051-D02-precision-002734",
+      "lesson_id": "DR-051",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-051-D02",
+      "learning_objective": "훈령·규정·계획과 직할부대 직접 시행의 구분",
+      "script_ref": "DR-051",
+      "script_section": "41,45,49,53,55,61,65,69,77,78,79,81",
+      "script_sha256": "298227f52d8160bc2c9b2de08f2f8c00270bfa7f06df3f27982b61ef717ee234",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-051|298227f52d8160bc2c9b2de08f2f8c00270bfa7f06df3f27982b61ef717ee234|41,45,49,53,55,61,65,69,77,78,79,81|훈령·규정·계획과 직할부대 직접 시행의 구분|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-7.txt",
+          "source_git_blob": "b3625b807ba3cd51349b192039a5ad8b962621d3",
+          "source_sha256": "298227f52d8160bc2c9b2de08f2f8c00270bfa7f06df3f27982b61ef717ee234",
+          "line_numbers": [
+            41,
+            45,
+            49,
+            53,
+            55,
+            61,
+            65,
+            69,
+            77,
+            78,
+            79,
+            81
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-002734-script",
+      "claimed_at": "2026-11-28T00:27:34+09:00",
+      "lease_expires_at": "2026-11-28T02:27:34+09:00",
+      "finding": "직할부대장이 반영 후 실시한다는 표현과 중간 제대의 장이라는 정의가 빠짐",
+      "required_change": "작전사령관의 중간 제대 지위, 직할부대의 실시, 문서 연결 순서를 명시"
+    },
+    {
+      "id": "DR-070-D01-precision-002734",
+      "lesson_id": "DR-070",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-070-D01",
+      "learning_objective": "교보재·탄약과 각 군 준거 규정의 대응",
+      "script_ref": "DR-070",
+      "script_section": "15,19,21,23,31,33,35,39,40,41",
+      "script_sha256": "8edf53a30a6f3b29468f5cadeaed29034c82833ea403f8345543c44e633b5c5e",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-070|8edf53a30a6f3b29468f5cadeaed29034c82833ea403f8345543c44e633b5c5e|15,19,21,23,31,33,35,39,40,41|교보재·탄약과 각 군 준거 규정의 대응|editorial-v1",
+      "status": "running",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-26.txt",
+          "source_git_blob": "4a8ec51989af64d319c635c81e97e3abd2145839",
+          "source_sha256": "8edf53a30a6f3b29468f5cadeaed29034c82833ea403f8345543c44e633b5c5e",
+          "line_numbers": [
+            15,
+            19,
+            21,
+            23,
+            31,
+            33,
+            35,
+            39,
+            40,
+            41
+          ]
+        }
+      ],
+      "claimed_by": "dr-20261128-002734-script",
+      "claimed_at": "2026-11-28T00:27:34+09:00",
+      "lease_expires_at": "2026-11-28T02:27:34+09:00",
+      "finding": "좌우 행 순서가 반대로 나열되어 교보재와 탄약규정을 짝짓는 것으로 오독 가능",
+      "required_change": "좌우 대응 순서를 정렬하고 훈령이 수량·절차를 직접 정하지 않음을 표시"
     }
   ],
   "runs": [
@@ -7954,7 +8204,7 @@
     },
     {
       "id": "dr-20261127-232742-script",
-      "status": "rendered_pending_visual_qa",
+      "status": "completed",
       "new_diagrams": 0,
       "revised_diagrams": 3,
       "completed_reviews": 0,
@@ -7962,7 +8212,33 @@
         "DR-021-D01",
         "DR-076-D03",
         "DR-076-D01"
-      ]
+      ],
+      "visual_qa": "passed",
+      "render_commit": "907555c634d8a50fa8b522f3e17c16054037f676",
+      "completed_at": "2026-11-28T00:27:34+09:00"
+    },
+    {
+      "id": "dr-20261128-002734-script",
+      "status": "running",
+      "new_diagrams": 0,
+      "revised_diagrams": 0,
+      "completed_reviews": 1,
+      "completed_lessons": [
+        "DR-037"
+      ],
+      "previous_visual_qa": [
+        "DR-021-D01",
+        "DR-076-D01",
+        "DR-076-D03"
+      ],
+      "requested_revisions": [
+        "DR-021-D02",
+        "DR-076-D02",
+        "DR-051-D01",
+        "DR-051-D02",
+        "DR-070-D01"
+      ],
+      "remaining_reviews": 44
     }
   ],
   "exam": {

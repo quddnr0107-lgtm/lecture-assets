@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "exam": 80,
-  "run_id": "dr-20261127-232742-script",
+  "run_id": "dr-20261128-002734-script",
   "groups": [
     {
       "lesson_id": "DR-021",
@@ -10,65 +10,53 @@
       "existing_max": 2,
       "items": [
         {
-          "id": "DR-021-D01",
-          "job_id": "DR-021-D01-precision-222906",
+          "id": "DR-021-D02",
+          "job_id": "DR-021-D02-precision-002734",
           "mode": "revision",
           "slide": {
             "lessonId": "DR-021",
             "articleKey": "1-21",
-            "title": "추가 편성의 지시와 통지",
-            "subtitle": "장관의 지시 뒤 병무청이 편성하고 지휘관이 본인에게 통지한다.",
+            "title": "추가 편성의 자원·연령 구분",
+            "subtitle": "가용자원에 따라 통합 또는 별도 소대를 편성한다.",
             "layout": "equal",
             "left": {
-              "title": "지시·편성·통지",
-              "subtitle": "제1항·제2항",
+              "title": "자원 규모별 편성",
+              "subtitle": "제5항",
               "items": [
                 {
-                  "label": "국방부장관",
-                  "text": "필요시 수임군부대장 및 병무청장에게 추가 편성 지시",
+                  "label": "가용자원 부족 지역",
+                  "text": "기존 예비군소대에 통합 편성",
                   "bold": false
                 },
                 {
-                  "label": "동시에 공고·협조",
-                  "text": "신문·방송 등 공고, 행정안전부장관에게 대책 협조",
-                  "bold": false
-                },
-                {
-                  "label": "병무청장 → 지방병무청장",
-                  "text": "추가 편성 조치 및 지방병무청장의 편성카드 작성",
+                  "label": "가용자원 충분 지역",
+                  "text": "별도 소대 편성",
                   "bold": false
                 }
               ]
             },
             "right": {
-              "title": "완료 보고·지원",
-              "subtitle": "제2항~제4항",
+              "title": "별도 소대 편성 시",
+              "subtitle": "제6항",
               "items": [
                 {
-                  "label": "지역예비군지휘관",
-                  "text": "국방동원정보체계로 카드 수신 후 본인 통지",
+                  "label": "제대 구분",
+                  "text": "35세 이하 / 36세 이상으로 구분",
                   "bold": false
                 },
                 {
-                  "label": "병무청장",
-                  "text": "완료 결과를 국방부장관에게 보고",
-                  "bold": false
-                },
-                {
-                  "label": "수임군부대장",
-                  "text": "장구류·피복류 등 작전지속지원 대책 강구",
+                  "label": "지역예비군 동원 시",
+                  "text": "35세 이하 제대부터 순차 동원",
                   "bold": false
                 }
               ]
             },
             "sourceArticle": "조직·편성 훈령 제21조",
             "sourceClauses": [
-              "제1항",
-              "제2항",
-              "제3항",
-              "제4항"
+              "제5항",
+              "제6항"
             ],
-            "note": "공고: 추가 편성 대상자·대상지역·필요사항. 협조: 민방위대 편성 제외 및 주소지 무단이탈 방지.",
+            "note": "",
             "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J21-0:0",
             "sourceVersion": "국방부훈령 제3104호",
             "effectiveDate": "2025-11-14",
@@ -77,18 +65,13 @@
               "source_git_blob": "a8908c2960fbcdd6a7da0a671575452b3ec83bea",
               "source_sha256": "6b603e3c654e139ba1dc751172ef540e254e451a7af3810fc2e907a29d241e04",
               "lines": [
-                19,
-                39,
-                43,
-                45,
-                57,
-                63,
-                85,
-                89,
-                99,
-                166,
-                168,
-                171
+                115,
+                127,
+                131,
+                133,
+                149,
+                175,
+                176
               ]
             }
           }
@@ -102,57 +85,58 @@
       "existing_max": 3,
       "items": [
         {
-          "id": "DR-076-D03",
-          "job_id": "DR-076-D03-precision-222906",
+          "id": "DR-076-D02",
+          "job_id": "DR-076-D02-precision-002734",
           "mode": "revision",
           "slide": {
             "lessonId": "DR-076",
             "articleKey": "2-32",
-            "title": "과태료 체납의 가산금과 후속조치",
-            "subtitle": "체납 금액과 후속조치의 요건을 비교한다.",
-            "layout": "equal",
+            "title": "과태료 감경과 이의제기",
+            "subtitle": "별지 제5호·제6호 서식의 핵심 수치와 효과를 비교한다.",
+            "layout": "split",
             "left": {
-              "title": "가산금·중가산금",
-              "subtitle": "납부기한까지 미납 시",
+              "title": "자진납부·감경",
+              "subtitle": "별지 제5호",
               "items": [
                 {
-                  "label": "최초 가산금",
-                  "text": "100분의 3",
+                  "label": "의견제출 기한 내 자진납부",
+                  "text": "100분의 20 범위 내 감경 가능",
                   "bold": false
                 },
                 {
-                  "label": "매 1개월마다 중가산금",
-                  "text": "1천분의 12",
+                  "label": "질서위반행위규제법 시행령 해당",
+                  "text": "100분의 50 범위 내 감경 가능",
+                  "bold": false
+                },
+                {
+                  "label": "감경 자진납부",
+                  "text": "절차 종료, 의견제출·이의제기 불가",
                   "bold": false
                 }
               ]
             },
             "right": {
-              "title": "후속조치",
-              "subtitle": "요건에 따른 조치",
+              "title": "이의제기",
+              "subtitle": "별지 제6호",
               "items": [
                 {
-                  "label": "관허사업",
-                  "text": "대통령령상 사유 없이 일정 횟수·금액 이상 체납 시 제한 가능",
+                  "label": "기한",
+                  "text": "부과통지를 받은 날부터 60일 이내",
                   "bold": false
                 },
                 {
-                  "label": "신용정보",
-                  "text": "신용정보집중기관 요청 시 체납·결손처분 자료 제공 가능",
-                  "bold": false
-                },
-                {
-                  "label": "감치",
-                  "text": "고액 또는 상습체납자 감치 가능",
+                  "label": "처리",
+                  "text": "법원의 과태료 재판",
                   "bold": false
                 }
               ]
             },
             "sourceArticle": "교육훈련 훈령 제32조",
             "sourceClauses": [
+              "별지 제5호",
               "별지 제6호"
             ],
-            "note": "",
+            "note": "의견제출: 서면(전자문서 포함) 또는 구두.",
             "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J32-0:0",
             "sourceVersion": "국방부훈령 제3216호",
             "effectiveDate": "2026-10-14",
@@ -161,91 +145,257 @@
               "source_git_blob": "899302aaf728a341ec23adad26262a73c91c6fe1",
               "source_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
               "lines": [
-                126,
-                130,
-                134,
-                140,
-                142,
-                155
+                96,
+                102,
+                104,
+                110,
+                118,
+                122,
+                124,
+                152,
+                153,
+                154
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson_id": "DR-051",
+      "expected_source_blob": "b3625b807ba3cd51349b192039a5ad8b962621d3",
+      "expected_script_sha256": "298227f52d8160bc2c9b2de08f2f8c00270bfa7f06df3f27982b61ef717ee234",
+      "existing_max": 2,
+      "items": [
+        {
+          "id": "DR-051-D01",
+          "job_id": "DR-051-D01-precision-002734",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-051",
+            "articleKey": "2-7",
+            "title": "기본정책에서 각 군 지시까지",
+            "subtitle": "국방부장관이 정책을 수립하고 참모총장이 승인받아 구체화한다.",
+            "layout": "equal",
+            "left": {
+              "title": "국방부장관",
+              "subtitle": "제1호",
+              "items": [
+                {
+                  "label": "정책",
+                  "text": "예비군훈련 기본정책 수립",
+                  "bold": false
+                },
+                {
+                  "label": "훈령",
+                  "text": "교육훈련 훈령 작성·하달",
+                  "bold": false
+                },
+                {
+                  "label": "시행 관리",
+                  "text": "조정·통제·평가",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "각 군 참모총장",
+              "subtitle": "제2호",
+              "items": [
+                {
+                  "label": "작성",
+                  "text": "훈령을 기초로 각 군 규정·지시 작성",
+                  "bold": false
+                },
+                {
+                  "label": "승인 후 하달",
+                  "text": "국방부장관 승인 후 예하부대에 하달",
+                  "bold": false
+                },
+                {
+                  "label": "시행 관리",
+                  "text": "조정·통제·평가",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "교육훈련 훈령 제7조",
+            "sourceClauses": [
+              "제1호",
+              "제2호"
+            ],
+            "note": "해병대의 경우 해병대사령관. 작전사령관은 작성·승인 주체가 아니다.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J7-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-051",
+            "scriptEvidence": {
+              "source_git_blob": "b3625b807ba3cd51349b192039a5ad8b962621d3",
+              "source_sha256": "298227f52d8160bc2c9b2de08f2f8c00270bfa7f06df3f27982b61ef717ee234",
+              "lines": [
+                15,
+                19,
+                21,
+                27,
+                37,
+                45,
+                75,
+                76
               ]
             }
           }
         },
         {
-          "id": "DR-076-D01",
-          "job_id": "DR-076-D01-precision-222906",
+          "id": "DR-051-D02",
+          "job_id": "DR-051-D02-precision-002734",
           "mode": "revision",
           "slide": {
-            "lessonId": "DR-076",
-            "articleKey": "2-32",
-            "title": "과태료 부과의 세 단계",
-            "subtitle": "수임군부대장이 의견을 듣고 산정한 뒤 징수를 의뢰한다.",
+            "lessonId": "DR-051",
+            "articleKey": "2-7",
+            "title": "작전사·수임군·국직의 임무",
+            "subtitle": "훈련업무 조정과 현장 계획·지원의 담당을 구분한다.",
             "layout": "split",
             "left": {
-              "title": "통지·의견제출",
-              "subtitle": "제1항",
+              "title": "작전사·수임군",
+              "subtitle": "제3호·제4호",
               "items": [
                 {
-                  "label": "위반 근거",
-                  "text": "예비군법 제6조의2 제4항 및 제10조의2",
+                  "label": "작전사령관(중간 지휘관리 제대의 장)",
+                  "text": "수임군부대의 훈련업무 조정·통제·평가",
                   "bold": false
                 },
                 {
-                  "label": "사전통지",
-                  "text": "수임군부대장 → 당사자, 별지 제5호",
+                  "label": "수임군부대장",
+                  "text": "각 군 규정·지시에 기초하여 훈련계획 수립",
                   "bold": false
                 },
                 {
-                  "label": "의견 기회",
-                  "text": "10일 이상의 의견제출 기간 부여",
+                  "label": "수임군부대장",
+                  "text": "훈련지원 및 조정·통제·감독·평가",
                   "bold": false
                 }
               ]
             },
             "right": {
-              "title": "산정·징수의뢰",
-              "subtitle": "제2항",
+              "title": "국방부 직할",
+              "subtitle": "제5호",
               "items": [
                 {
-                  "label": "의견제출 절차 종료 후",
-                  "text": "수임군부대장이 예비군법 시행령 제39조에 따라 산정",
+                  "label": "국직부대장",
+                  "text": "훈령을 기초로 부대 임무·여건 고려",
                   "bold": false
                 },
                 {
-                  "label": "첨부 자료",
-                  "text": "별지 제6호 부과 결정서와 기타 필요서류",
-                  "bold": false
-                },
-                {
-                  "label": "징수의뢰",
-                  "text": "수입징수관에게 의뢰",
+                  "label": "부대훈련지시",
+                  "text": "예하부대 훈련 조정·통제·시행·평가를 반영하여 실시",
                   "bold": false
                 }
               ]
             },
-            "sourceArticle": "교육훈련 훈령 제32조",
+            "sourceArticle": "교육훈련 훈령 제7조",
             "sourceClauses": [
-              "제1항",
-              "제2항",
-              "제3항"
+              "제3호",
+              "제4호",
+              "제5호"
             ],
-            "note": "부과 근거: 예비군법 제15조의2. 그 밖의 부과·징수·재판·집행: 질서위반행위규제법.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J32-0:0",
+            "note": "국방부장관: 훈령 → 참모총장: 규정·지시 → 수임군부대장: 계획. 직할부대는 훈령에 직접 기초.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J7-0:0",
             "sourceVersion": "국방부훈령 제3216호",
             "effectiveDate": "2026-10-14",
-            "scriptRef": "DR-076",
+            "scriptRef": "DR-051",
             "scriptEvidence": {
-              "source_git_blob": "899302aaf728a341ec23adad26262a73c91c6fe1",
-              "source_sha256": "16253b8ca9adec816f0029e6d9db649dc68dfc19fe6fcf31efeb25d13a0fe239",
+              "source_git_blob": "b3625b807ba3cd51349b192039a5ad8b962621d3",
+              "source_sha256": "298227f52d8160bc2c9b2de08f2f8c00270bfa7f06df3f27982b61ef717ee234",
               "lines": [
+                41,
+                45,
+                49,
+                53,
+                55,
+                61,
+                65,
+                69,
+                77,
+                78,
+                79,
+                81
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson_id": "DR-070",
+      "expected_source_blob": "4a8ec51989af64d319c635c81e97e3abd2145839",
+      "expected_script_sha256": "8edf53a30a6f3b29468f5cadeaed29034c82833ea403f8345543c44e633b5c5e",
+      "existing_max": 1,
+      "items": [
+        {
+          "id": "DR-070-D01",
+          "job_id": "DR-070-D01-precision-002734",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-070",
+            "articleKey": "2-26",
+            "title": "교보재·탄약의 적용 규정",
+            "subtitle": "훈련 지원에 쓰는 교보재와 탄약은 각 군 규정에 따른다.",
+            "layout": "split",
+            "left": {
+              "title": "지원 대상",
+              "subtitle": "제26조",
+              "items": [
+                {
+                  "label": "교육훈련 교보재",
+                  "text": "예비군훈련용 교보재",
+                  "bold": false
+                },
+                {
+                  "label": "탄약",
+                  "text": "예비군훈련용 탄약",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "준거 규정",
+              "subtitle": "각 군 규정",
+              "items": [
+                {
+                  "label": "교육훈련지원규정",
+                  "text": "각 군 교육훈련지원규정 적용",
+                  "bold": false
+                },
+                {
+                  "label": "탄약규정",
+                  "text": "각 군 탄약규정 적용",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "교육훈련 훈령 제26조",
+            "sourceClauses": [
+              "제26조"
+            ],
+            "note": "이 훈령은 수량·절차를 따로 정하지 않고 각 군 규정을 따른다.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J26-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-070",
+            "scriptEvidence": {
+              "source_git_blob": "4a8ec51989af64d319c635c81e97e3abd2145839",
+              "source_sha256": "8edf53a30a6f3b29468f5cadeaed29034c82833ea403f8345543c44e633b5c5e",
+              "lines": [
+                15,
                 19,
-                58,
-                68,
-                82,
-                96,
-                148,
-                150,
-                151
+                21,
+                23,
+                31,
+                33,
+                35,
+                39,
+                40,
+                41
               ]
             }
           }

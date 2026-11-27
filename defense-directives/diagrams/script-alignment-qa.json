@@ -6,7 +6,7 @@
     "cutoff_date": "2027-02-02",
     "cutoff_kind": "existing_user_specified_exam80_basis"
   },
-  "checked_at": "2026-11-27T22:29:06+09:00",
+  "checked_at": "2026-11-28T00:27:34+09:00",
   "source_commit": "2d696ecb8a2805b0bc42df8ce5754ae91914371d",
   "script_bindings_verified": 78,
   "diagram_corrections": [
@@ -75,10 +75,10 @@
       "full_lesson_coverage_review": "pending"
     }
   ],
-  "full_lecture_coverage_reviews_completed": 33,
-  "remaining_full_lecture_reviews": 45,
+  "full_lecture_coverage_reviews_completed": 34,
+  "remaining_full_lecture_reviews": 44,
   "new_diagrams": 30,
-  "revised_diagrams": 49,
+  "revised_diagrams": 52,
   "priority_script_comparison": {
     "schema_version": 1,
     "created_at": "2026-11-27T11:59:01+09:00",
@@ -20741,7 +20741,7 @@
             {
               "text": "대책 협조",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 143,
               "height": 34,
               "fontSize": 36,
@@ -21660,6 +21660,118 @@
           "objective": "위반 근거와 산정 주체·절차의 명확한 구분",
           "finding": "제1항의 위반 조문 및 제2항 금액 산정 주체가 명시되지 않음",
           "change": "예비군법 제6조의2제4항·제10조의2 위반과 수임군부대장 산정 주체 명시"
+        }
+      ]
+    },
+    {
+      "run_id": "dr-20261128-002734-script",
+      "completed_lessons": [
+        "DR-037"
+      ],
+      "visual_reviewed": [
+        "DR-021-D01",
+        "DR-076-D01",
+        "DR-076-D03"
+      ],
+      "render_commit": "907555c634d8a50fa8b522f3e17c16054037f676",
+      "remaining_reviews": 44,
+      "partial_reviews": [
+        "DR-021",
+        "DR-076",
+        "DR-051",
+        "DR-070"
+      ],
+      "next_render": {
+        "new": 0,
+        "revised": 5
+      },
+      "precision_followups": [
+        {
+          "diagram_id": "DR-021-D02",
+          "lines": [
+            115,
+            127,
+            131,
+            133,
+            149,
+            175,
+            176
+          ],
+          "objective": "별도 소대의 지역예비군 동원 조건",
+          "finding": "동원 순서에서 지역예비군 동원 시라는 적용 범위가 생략됨",
+          "change": "동원 순서 항목에 지역예비군 동원 시 명시"
+        },
+        {
+          "diagram_id": "DR-076-D02",
+          "lines": [
+            96,
+            102,
+            104,
+            110,
+            118,
+            122,
+            124,
+            152,
+            153,
+            154
+          ],
+          "objective": "50% 감경 근거 시행령과 의견제출 수단",
+          "finding": "시행령 해당 감경의 법령명이 생략되어 예비군법 시행령과 혼동 가능",
+          "change": "질서위반행위규제법 시행령 명시 및 서면·구두 의견제출 각주"
+        },
+        {
+          "diagram_id": "DR-051-D01",
+          "lines": [
+            15,
+            19,
+            21,
+            27,
+            37,
+            45,
+            75,
+            76
+          ],
+          "objective": "각 군 참모총장과 작전사령관의 규정 작성 권한",
+          "finding": "시험 핵심 주체가 각 군 지휘부라는 포괄 표현으로 표시됨",
+          "change": "각 군 참모총장을 직접 표기하고 해병대 예외 명시"
+        },
+        {
+          "diagram_id": "DR-051-D02",
+          "lines": [
+            41,
+            45,
+            49,
+            53,
+            55,
+            61,
+            65,
+            69,
+            77,
+            78,
+            79,
+            81
+          ],
+          "objective": "훈령·규정·계획과 직할부대 직접 시행의 구분",
+          "finding": "직할부대장이 반영 후 실시한다는 표현과 중간 제대의 장이라는 정의가 빠짐",
+          "change": "작전사령관의 중간 제대 지위, 직할부대의 실시, 문서 연결 순서를 명시"
+        },
+        {
+          "diagram_id": "DR-070-D01",
+          "lines": [
+            15,
+            19,
+            21,
+            23,
+            31,
+            33,
+            35,
+            39,
+            40,
+            41
+          ],
+          "objective": "교보재·탄약과 각 군 준거 규정의 대응",
+          "finding": "좌우 행 순서가 반대로 나열되어 교보재와 탄약규정을 짝짓는 것으로 오독 가능",
+          "change": "좌우 대응 순서를 정렬하고 훈령이 수량·절차를 직접 정하지 않음을 표시"
         }
       ]
     }
