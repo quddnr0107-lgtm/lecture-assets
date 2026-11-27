@@ -1,0 +1,599 @@
+{
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "reviewed_date_kst": "2026-11-27",
+  "status": "partial_checkpoint_not_final_assets",
+  "source_checks": [
+    {
+      "lecture_id": "MS-077",
+      "script_path": "docs/merged-lectures/병역법/본법_41.txt",
+      "script_git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+      "fulltext_retrieved": true,
+      "full_script_read_completed": false,
+      "existing_supported_pages": [
+        "MS-077-D01-editorial-v1",
+        "MS-077-D02-editorial-v1"
+      ]
+    },
+    {
+      "lecture_id": "MS-094",
+      "script_path": "docs/merged-lectures/병역법/본법_58.txt",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "fulltext_retrieved": true,
+      "full_script_read_completed": false,
+      "existing_supported_pages": [
+        "MS-094-D01-editorial-v1",
+        "MS-094-D02-editorial-v1"
+      ]
+    },
+    {
+      "lecture_id": "MS-109",
+      "script_path": "docs/merged-lectures/병역법/본법_70.txt",
+      "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "fulltext_retrieved": true,
+      "full_script_read_completed": false,
+      "existing_supported_pages": [
+        "MS-109-D01-editorial-v1",
+        "MS-109-D02-editorial-v1",
+        "MS-109-D03-editorial-v1"
+      ]
+    }
+  ],
+  "draft_pages": [
+    {
+      "lecture_id": "MS-077",
+      "topic": "두 단서, 서로 다른 30일",
+      "script_line_spans": "159–169, 197, 205",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-077/two-30-day-rules.svg",
+      "svg": {
+        "git_blob_sha": "860cf2a2f1514c84b7309ffb5bffdcade2c33248",
+        "sha256": "1a20572a48bd1d7e082517a5c10cf3c18f649e0fb6f3f7535bc1121ca260ee7a",
+        "bytes": 5717
+      },
+      "local_webp": {
+        "sha256": "828b070659ba158cf045edbb5a6e8af047ff970c6b2875ad10834430603a863e",
+        "bytes": 41142,
+        "canvas": [
+          1600,
+          1120
+        ],
+        "lossless": true,
+        "publicly_uploaded": false
+      },
+      "status": "draft_not_final",
+      "content": {
+        "subtitle": "편입취소 유보와 연장복무 예외",
+        "groups": [
+          [
+            "해고 다툼",
+            [
+              [
+                "노동위원회 구제신청·법원 소송",
+                [
+                  "계류 중: 확정까지 취소 유보 가능"
+                ]
+              ],
+              [
+                "해고일부터 30일 이내",
+                [
+                  "관할 지방병무청장에게",
+                  "유보원서 제출 (전자문서 포함)"
+                ]
+              ],
+              [
+                "유보 여부 결정",
+                [
+                  "관할 지방병무청장이 결정하고",
+                  "결과를 본인에게 통지"
+                ]
+              ]
+            ]
+          ],
+          [
+            "업체의 장 지시",
+            [
+              [
+                "부득이한 위반행위",
+                [
+                  "해당 분야 미복무에 해당할 때",
+                  "별표 3 기준으로 연장 가능"
+                ]
+              ],
+              [
+                "위반행위일부터 30일 이내",
+                [
+                  "관할 지방병무청장에게 신고"
+                ]
+              ],
+              [
+                "신고 시 예외",
+                [
+                  "의무복무기간을",
+                  "연장하지 아니할 수 있다."
+                ]
+              ]
+            ]
+          ]
+        ],
+        "takeaway": "해고일 → 유보원서  /  위반행위일 → 신고"
+      }
+    },
+    {
+      "lecture_id": "MS-077",
+      "topic": "전직의 사유와 기한",
+      "script_line_spans": "129–145, 203",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-077/transfer.svg",
+      "svg": {
+        "git_blob_sha": "a0b22ef90b0acd1f02daf1fef4aabefc99893a79",
+        "sha256": "0ea277cca453a633cd59feed36072b372f6ef1bcb0293eb4bd83adacd3fa4d92",
+        "bytes": 5844
+      },
+      "local_webp": {
+        "sha256": "a101b483193fef7daaa3b2aae987e62f0f2d53485868d5a69bace04a728995e5",
+        "bytes": 43290,
+        "canvas": [
+          1600,
+          1120
+        ],
+        "lossless": true,
+        "publicly_uploaded": false
+      },
+      "status": "draft_not_final",
+      "content": {
+        "subtitle": "전문연구요원·산업기능요원",
+        "groups": [
+          [
+            "옮겨야 하는 경우",
+            [
+              [
+                "업체 사정",
+                [
+                  "폐업·선정취소",
+                  "6개월 이상 휴업·영업정지",
+                  "농업기계 사후관리업체 인정취소"
+                ]
+              ],
+              [
+                "원칙적 전직 기한",
+                [
+                  "사유 발생일 또는 승인일부터",
+                  "3개월 이내"
+                ]
+              ],
+              [
+                "일부 예외",
+                [
+                  "14일 이내 전직"
+                ]
+              ]
+            ]
+          ],
+          [
+            "승인받아 옮기는 경우",
+            [
+              [
+                "편입 후 경과기간",
+                [
+                  "전문연구 1년 6개월",
+                  "산업기능 6개월 · 통틀어 2회"
+                ]
+              ],
+              [
+                "다른 승인 사유 예시",
+                [
+                  "임금체불 통틀어 3개월 이상",
+                  "부당해고 확정·산업재해 등"
+                ]
+              ],
+              [
+                "같은 법인 내 전직",
+                [
+                  "신상변동 통보로 승인 갈음"
+                ]
+              ]
+            ]
+          ]
+        ],
+        "takeaway": "전직 기한: 원칙 3개월 · 일부 14일 / 승인: 관할 지방병무청장"
+      }
+    },
+    {
+      "lecture_id": "MS-077",
+      "topic": "복무만료 처분의 순서",
+      "script_line_spans": "157, 206",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-077/completion.svg",
+      "svg": {
+        "git_blob_sha": "6627e7a841913e3e5f7d9ca50e302189f2cb55a8",
+        "sha256": "45cf2d66415e627725174165ff805840885c222c994189752ef6e659168a8603",
+        "bytes": 5437
+      },
+      "local_webp": {
+        "sha256": "2786ed398376be7981271e1be20e662f55996f2dc0a12c7f0b30382e098e3055",
+        "bytes": 36342,
+        "canvas": [
+          1600,
+          1120
+        ],
+        "lossless": true,
+        "publicly_uploaded": false
+      },
+      "status": "draft_not_final",
+      "content": {
+        "subtitle": "전문연구요원·산업기능요원",
+        "groups": [
+          [
+            "전달 10일까지",
+            [
+              [
+                "병역지정업체의 장",
+                [
+                  "만료자 명단·병역증·복무기록표",
+                  "관할 지방병무청장에게 송부"
+                ]
+              ],
+              [
+                "후계농어업경영인",
+                [
+                  "시·도지사가 송부"
+                ]
+              ],
+              [
+                "농업기계 업체",
+                [
+                  "시장·군수·구청장을 거침"
+                ]
+              ]
+            ]
+          ],
+          [
+            "만료되는 달 1일",
+            [
+              [
+                "관할 지방병무청장",
+                [
+                  "만료일을 명시하여",
+                  "복무만료처분"
+                ]
+              ],
+              [
+                "군사교육소집 미이수",
+                [
+                  "국외근무·승선복무로",
+                  "미이수한 경우 처분을 유보"
+                ]
+              ],
+              [
+                "군사교육소집 후",
+                [
+                  "복무만료처분"
+                ]
+              ]
+            ]
+          ]
+        ],
+        "takeaway": "서류: 전달 10일  /  처분: 그달 1일"
+      }
+    },
+    {
+      "lecture_id": "MS-094",
+      "topic": "군종장교운영심사위원회",
+      "script_line_spans": "250–276, 299",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-094/chaplain-committee.svg",
+      "svg": {
+        "git_blob_sha": "71f3b93b3bbcde7b20d6e7378e8e21f9b05f2db4",
+        "sha256": "b7145105d3244a7f2bbc98851cc016a513a13bb4028ee94d9db7f6d1629f5ff5",
+        "bytes": 5224
+      },
+      "local_webp": {
+        "sha256": "52f94f794f77cf663477fc3287d8f91f4dc0de02ffc0e75fad9b9bf1dcdd38f5",
+        "bytes": 38494,
+        "canvas": [
+          1600,
+          1120
+        ],
+        "lossless": true,
+        "publicly_uploaded": false
+      },
+      "status": "draft_not_final",
+      "content": {
+        "subtitle": "소속·구성·정족수의 구분",
+        "groups": [
+          [
+            "구성",
+            [
+              [
+                "국방부에 설치",
+                [
+                  "각 군 본부가 아님"
+                ]
+              ],
+              [
+                "위원장 포함 8~11명",
+                [
+                  "위원장: 국방부 인사복지실장"
+                ]
+              ],
+              [
+                "특정 종교 신자",
+                [
+                  "전체 위원의 3분의 1 미만"
+                ]
+              ]
+            ]
+          ],
+          [
+            "운영",
+            [
+              [
+                "개의",
+                [
+                  "재적위원 3분의 2 이상 출석"
+                ]
+              ],
+              [
+                "의결",
+                [
+                  "출석위원 과반수 찬성"
+                ]
+              ],
+              [
+                "심의·의결 사항",
+                [
+                  "대상 종교 선정·취소",
+                  "군종장교 선발·제도 운영",
+                  "종교 선정·취소 시 관계자 의견 청취"
+                ]
+              ]
+            ]
+          ]
+        ],
+        "takeaway": "신자 비율 1/3 미만  ≠  개의 2/3 이상"
+      }
+    },
+    {
+      "lecture_id": "MS-094",
+      "topic": "특수병과 사관후보생의 나이",
+      "script_line_spans": "101–122, 134–146, 293–295",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-094/candidate-ages.svg",
+      "svg": {
+        "git_blob_sha": "d5d56ed38bb4cecb3f970b31174ae2c1346bdc71",
+        "sha256": "b0183c4a046654204e995b302582248ad9ecfbb3648ad42f09ec0f0220e76e0e",
+        "bytes": 5309
+      },
+      "local_webp": {
+        "sha256": "974e85209d67356633c4bf3790c895e1a6597b2c24116922e30c3a5dfac547d0",
+        "bytes": 39050,
+        "canvas": [
+          1600,
+          1120
+        ],
+        "lossless": true,
+        "publicly_uploaded": false
+      },
+      "status": "draft_not_final",
+      "content": {
+        "subtitle": "후보생 제한연령과 장교 편입 연령",
+        "groups": [
+          [
+            "후보생 제한연령",
+            [
+              [
+                "의무 분야",
+                [
+                  "33세까지 수련과정 이수 가능"
+                ]
+              ],
+              [
+                "법무 분야",
+                [
+                  "30세까지 연수원 과정 이수 또는",
+                  "판사·검사·변호사 자격 취득 가능"
+                ]
+              ],
+              [
+                "군종·수의 분야",
+                [
+                  "28세까지 대학 과정 이수 가능"
+                ]
+              ]
+            ]
+          ],
+          [
+            "후보생 관리",
+            [
+              [
+                "군전공의 수련기관",
+                [
+                  "국방부장관이 지정"
+                ]
+              ],
+              [
+                "의무·법무·수의 선발인원",
+                [
+                  "장관들의 통보를 받아",
+                  "병무청장이 결정"
+                ]
+              ],
+              [
+                "특수병과 현역장교 편입",
+                [
+                  "35세까지 편입 가능"
+                ]
+              ]
+            ]
+          ]
+        ],
+        "takeaway": "33 · 30 · 28 / 35세는 별도의 편입 연령"
+      }
+    },
+    {
+      "lecture_id": "MS-109",
+      "topic": "국외여행허가 신청 경로",
+      "script_line_spans": "141–151, 289",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-109/travel-application.svg",
+      "svg": {
+        "git_blob_sha": "f941959c98d5b5e29dc154158b569ea4107166f6",
+        "sha256": "2607a9b4e9576f1a25dfcb2a6a5a949e8f5de8c6d4e42ee11e76f04bd83371b3",
+        "bytes": 5547
+      },
+      "local_webp": {
+        "sha256": "3e92ffff38de599bd08c91559473dd7125eeb79a91ed38cab0ff18d3a572bbb2",
+        "bytes": 44016,
+        "canvas": [
+          1600,
+          1120
+        ],
+        "lossless": true,
+        "publicly_uploaded": false
+      },
+      "status": "draft_not_final",
+      "content": {
+        "subtitle": "출국 전과 25세 전 출국자",
+        "groups": [
+          [
+            "출국 예정자",
+            [
+              [
+                "출국 예정일 2일 전까지",
+                [
+                  "병무청장에게 신청서 제출",
+                  "전자문서 포함"
+                ]
+              ],
+              [
+                "출국 전 허가기간 변경",
+                [
+                  "지방병무청장에게",
+                  "국외여행기간 연장허가 신청"
+                ]
+              ]
+            ]
+          ],
+          [
+            "25세 전에 출국한 사람",
+            [
+              [
+                "25세가 되는 해 1월 15일까지",
+                [
+                  "재외공관의 장을 거쳐",
+                  "병무청장에게 신청서 제출"
+                ]
+              ],
+              [
+                "직접 신청 가능",
+                [
+                  "국외이주·국외취업 외 사유는",
+                  "재외공관을 거치지 않을 수 있음"
+                ]
+              ],
+              [
+                "허가받은 것으로 보는 경우",
+                [
+                  "병역준비역 편입 전 해외이주신고",
+                  "후 잠시 귀국했다가 재출국"
+                ]
+              ]
+            ]
+          ]
+        ],
+        "takeaway": "처음 신청 2일 전  /  25세 전 출국자는 1월 15일"
+      }
+    },
+    {
+      "lecture_id": "MS-109",
+      "topic": "여행목적과 체재목적",
+      "script_line_spans": "153–171, 291",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-109/travel-stay-purpose.svg",
+      "svg": {
+        "git_blob_sha": "6dba24e5b89d7f64da41b782682ee4ee75407243",
+        "sha256": "f060c44012b0b4ccc95f5945d36925fecec468a3dc9f7bc77b8b9d47d696ec3a",
+        "bytes": 5301
+      },
+      "local_webp": {
+        "sha256": "09c1d88c2cee2ce11e991ddd62173ebf0116e8d501d036aacdecd6a83f3dc9f2",
+        "bytes": 37804,
+        "canvas": [
+          1600,
+          1120
+        ],
+        "lossless": true,
+        "publicly_uploaded": false
+      },
+      "status": "draft_not_final",
+      "content": {
+        "subtitle": "최초 허가와 국외 체류 중 연장",
+        "groups": [
+          [
+            "처음 허가",
+            [
+              [
+                "시행령 제146조제2항",
+                [
+                  "병역사항·여행목적·여행기간 고려"
+                ]
+              ],
+              [
+                "허가기준 및 기간",
+                [
+                  "병역의무 부과에 지장이 없는",
+                  "범위에서 병무청장이 정함"
+                ]
+              ]
+            ]
+          ],
+          [
+            "출국 후 연장",
+            [
+              [
+                "시행령 제147조제1항",
+                [
+                  "체재목적 증명 서류와",
+                  "기간연장허가 신청서 제출"
+                ]
+              ],
+              [
+                "신청 경로",
+                [
+                  "재외공관의 장을 거쳐",
+                  "병무청장에게 제출"
+                ]
+              ],
+              [
+                "연장허가 범위",
+                [
+                  "국외체재 목적을 보고",
+                  "병역의무부과에 지장이 없는 범위"
+                ]
+              ]
+            ]
+          ]
+        ],
+        "takeaway": "나가기 전: 여행목적  /  머무는 중: 체재목적"
+      }
+    }
+  ],
+  "review_note": "기존 원고의 명시된 문단과 기존 도식에 대한 부분 대조. 1600×1120 SVG·무손실 WebP 로컬 렌더 확인. WebP 바이너리 공개 업로드는 미완료. 전체 강의 원고 검토·정식 번호·manifest 반영·추가 필요한 설명 검토는 미완료. 원고 전문은 저장하지 않음.",
+  "remaining_topics": {
+    "MS-077": [
+      "전직 신청·직접 제출 예외와 대기",
+      "수학 예외·기간",
+      "복무기간 산입 제외",
+      "취소 후 복무기간 계산·이관",
+      "군 필요인원 통보 및 취소사유 상세"
+    ],
+    "MS-094": [
+      "자격 및 후보생 대상 차이",
+      "지원 마감·선발점수",
+      "필요인원 통보 5년/2년",
+      "제적·교육·입영 절차",
+      "위원회 위원 구성 세부"
+    ],
+    "MS-109": [
+      "허가 제한 예외·대상",
+      "연장 기간·학교별 연령",
+      "처음 허가 사유",
+      "허가 취소·국외이주·37세 간주·임기제공무원"
+    ]
+  }
+}

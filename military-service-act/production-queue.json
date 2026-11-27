@@ -6,7 +6,7 @@
   "updated_date_kst": "2026-11-27",
   "timezone": "Asia/Seoul",
   "queue_status": "pending",
-  "execution_started": false,
+  "execution_started": true,
   "source_basis": {
     "kind": "existing_exam80_lecture_scripts",
     "repository": "quddnr0107-lgtm/yebijun-muhanhoidok234",
@@ -2079,7 +2079,7 @@
       ],
       "full_script_read": false,
       "lease": null,
-      "checkpoint": 0,
+      "checkpoint": 1,
       "evidence_refs": [],
       "outcome": null,
       "changed_diagram_ids": [],
@@ -2087,7 +2087,14 @@
       "previously_verified_existing_diagram_ids": [
         "MS-077-D01-editorial-v1",
         "MS-077-D02-editorial-v1"
-      ]
+      ],
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/checkpoint.json",
+      "draft_preview_paths": [
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-077/two-30-day-rules.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-077/transfer.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-077/completion.svg"
+      ],
+      "script_fulltext_retrieved": true
     },
     {
       "lecture_id": "MS-078",
@@ -2479,7 +2486,7 @@
       ],
       "full_script_read": false,
       "lease": null,
-      "checkpoint": 0,
+      "checkpoint": 1,
       "evidence_refs": [],
       "outcome": null,
       "changed_diagram_ids": [],
@@ -2487,7 +2494,13 @@
       "previously_verified_existing_diagram_ids": [
         "MS-094-D01-editorial-v1",
         "MS-094-D02-editorial-v1"
-      ]
+      ],
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/checkpoint.json",
+      "draft_preview_paths": [
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-094/chaplain-committee.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-094/candidate-ages.svg"
+      ],
+      "script_fulltext_retrieved": true
     },
     {
       "lecture_id": "MS-095",
@@ -2832,7 +2845,7 @@
       ],
       "full_script_read": false,
       "lease": null,
-      "checkpoint": 0,
+      "checkpoint": 1,
       "evidence_refs": [],
       "outcome": null,
       "changed_diagram_ids": [],
@@ -2841,7 +2854,13 @@
         "MS-109-D01-editorial-v1",
         "MS-109-D02-editorial-v1",
         "MS-109-D03-editorial-v1"
-      ]
+      ],
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/checkpoint.json",
+      "draft_preview_paths": [
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-109/travel-application.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-109/travel-stay-purpose.svg"
+      ],
+      "script_fulltext_retrieved": true
     },
     {
       "lecture_id": "MS-110",
@@ -4191,5 +4210,12 @@
     "verified_existing_pages": 7,
     "pending_existing_pages": 276,
     "scope": "대표3강의 현재7장 주장에 원고 근거가 있음; 강의 전체 설명의 도식화 완료는 아님"
+  },
+  "last_partial_checkpoint": {
+    "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/checkpoint.json",
+    "reviewed_date_kst": "2026-11-27",
+    "draft_svg_count": 7,
+    "completed_lectures": 0,
+    "published_final_images": 0
   }
 }
