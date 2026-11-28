@@ -66,23 +66,7 @@
     ]
   },
   "state": {
-    "active_run": {
-      "id": "dr-20261128-132200-script",
-      "status": "running",
-      "started_at": "2026-11-28T13:22:00+09:00",
-      "lease_expires_at": "2026-11-28T15:22:00+09:00",
-      "claimed_job_ids": [
-        "DR-067-D02-script-082410",
-        "DR-067-D09-script-082410",
-        "DR-067-D10-script-082410",
-        "DR-067-D05-script-122506-followup",
-        "DR-067-D08-script-122506-followup",
-        "DR-067-D01-script-122506-followup"
-      ],
-      "mode": "targeted_render_three_workers",
-      "assets_start_commit": "fe1c8eebb142bde00f55d66da3fbfc8404daa73c",
-      "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b"
-    },
+    "active_run": null,
     "last_successful_run": {
       "id": "dr-20261128-122506-visual",
       "status": "completed_checkpoint_with_followups",
@@ -234,7 +218,7 @@
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
     "production_jobs_queued": 0,
-    "production_jobs_qa": 0,
+    "production_jobs_qa": 6,
     "production_jobs_completed": 120,
     "production_jobs_running": 6,
     "full_audit": {
@@ -9794,8 +9778,24 @@
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|85,97,115,117,119|기간제 교사 재계약·학생 보류 기간 조건|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D02-editorial-v1.svg",
+          "bytes": 6744,
+          "sha256": "c6016eea3a41f94cf1f08304e4f1104ae238b04e9804a90b6bbbc4eb57f8d7af"
+        },
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D02-editorial-v1.png",
+          "bytes": 202495,
+          "sha256": "c7ca50984568dfb2f3cf60c0a569b99b910f2fd6a14f5032c4c30cb4863041b6"
+        },
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D02-editorial-v1.webp",
+          "bytes": 60862,
+          "sha256": "24f252200f3e2ca1d617d34de8d51a32cc8bbd80414c947d7d2fc1139b5cd001"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
@@ -9810,9 +9810,9 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-132200-script",
-      "claimed_at": "2026-11-28T13:22:00+09:00",
-      "lease_expires_at": "2026-11-28T15:22:00+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "finding": "학생·기간제 교사 기간 산정과 수업연한 초과 조건 불충분",
       "required_change": "기간제 교사 재계약·학생 보류 기간 조건",
       "diagram_id": "DR-067-D02",
@@ -10019,8 +10019,24 @@
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|147,151,153,161,163,165,169,177,181|보류해소 신고·전산입력 기한과 휴직·휴학·외항선원 비교|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D09-editorial-v1.svg",
+          "bytes": 7105,
+          "sha256": "5b437eec77eff58571b8932293c360041d606e20c8cc601d95d3f8c0a60ac5bd"
+        },
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D09-editorial-v1.png",
+          "bytes": 199959,
+          "sha256": "d79c642ce92cdfcf5ab337b0e6472fe59bf64106a4083a3acbb25e37ac595b61"
+        },
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D09-editorial-v1.webp",
+          "bytes": 61130,
+          "sha256": "b1593f70daeb1a0028dc3ff31a83517ddc36c2f100a8ec8cfcf7b46b044b65d4"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
@@ -10039,9 +10055,9 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-132200-script",
-      "claimed_at": "2026-11-28T13:22:00+09:00",
-      "lease_expires_at": "2026-11-28T15:22:00+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "finding": "보류해소 절차 시험 핵심 누락",
       "required_change": "보류해소 신고·전산입력 기한과 휴직·휴학·외항선원 비교",
       "diagram_id": "DR-067-D09",
@@ -10081,8 +10097,24 @@
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|187,189,197,199,201|보류 대상 훈련 차수와 신분 상실 후 부과 시점|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D10-editorial-v1.svg",
+          "bytes": 6235,
+          "sha256": "1250b1ba9b02bbdf6b1b88f3583e32f0698569651f81d325553427587885745d"
+        },
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D10-editorial-v1.png",
+          "bytes": 171459,
+          "sha256": "232cbf8c0a61bd3035ef07120e808f819be195f2da9d90a47b157dc4e3061bd5"
+        },
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D10-editorial-v1.webp",
+          "bytes": 51330,
+          "sha256": "10cc3bb6fc13de12bde5124d30349b84861a2aa2a5e9692f31ac49fcf34ee59f"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
@@ -10097,9 +10129,9 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-132200-script",
-      "claimed_at": "2026-11-28T13:22:00+09:00",
-      "lease_expires_at": "2026-11-28T15:22:00+09:00",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "finding": "1·2차 한정 및 신분 상실 시점 비교 누락",
       "required_change": "보류 대상 훈련 차수와 신분 상실 후 부과 시점",
       "diagram_id": "DR-067-D10",
@@ -10431,8 +10463,24 @@
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|205,207,209,211,213|보류 신분 전환 및 별도 부과 시점·이수 처리 구체화|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D05-editorial-v1.svg",
+          "bytes": 6995,
+          "sha256": "b870ff2fda4e2580e8c5350cd7115ec49122c4d7b7be7b90716a2e0ee5f60f1b"
+        },
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D05-editorial-v1.png",
+          "bytes": 190480,
+          "sha256": "8847965e8fd7e22c4fd48715495917d1b1c71762076bcded0e03c226fb2022c8"
+        },
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D05-editorial-v1.webp",
+          "bytes": 57448,
+          "sha256": "8502358480c318417ab1f078a726d71463838a461632a1e6d5e63eff6b9102f8"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
@@ -10447,10 +10495,12 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-132200-script",
-      "claimed_at": "2026-11-28T13:22:00+09:00",
-      "lease_expires_at": "2026-11-28T15:22:00+09:00",
-      "visual_review": "pending"
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "visual_review": "pending",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true
     },
     {
       "id": "DR-067-D08-script-122506-followup",
@@ -10464,8 +10514,24 @@
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|131,133,139,141|복무 감당 불가 시 병역처분변경 신청 전제 명시|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D08-editorial-v1.svg",
+          "bytes": 6581,
+          "sha256": "0c944fa04f86305d01bd8b7b064f29d8b71088b93f59bf42cddbe421d44db5e4"
+        },
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D08-editorial-v1.png",
+          "bytes": 184325,
+          "sha256": "ab29b8268b6f0de0f05dedfd29926692c5abea521918c848673a789b56d490dc"
+        },
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D08-editorial-v1.webp",
+          "bytes": 55232,
+          "sha256": "19c64c46c736b117a342d0b43e25971d1e49901ea9d90236cff70dac2d818fb5"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
@@ -10479,10 +10545,12 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-132200-script",
-      "claimed_at": "2026-11-28T13:22:00+09:00",
-      "lease_expires_at": "2026-11-28T15:22:00+09:00",
-      "visual_review": "pending"
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "visual_review": "pending",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true
     },
     {
       "id": "DR-067-D01-script-122506-followup",
@@ -10496,8 +10564,24 @@
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|9,19,21,23,25,27,31,33,35,37,39,41|보류 적용 범위 및 법규·방침 근거 구분 보강|editorial-v1",
-      "status": "running",
-      "outputs": [],
+      "status": "qa",
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D01-editorial-v1.svg",
+          "bytes": 6306,
+          "sha256": "13b1f96dfccb61796f74fdad9af660b98243c0291e4863e991d85a905c4a7779"
+        },
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D01-editorial-v1.png",
+          "bytes": 165303,
+          "sha256": "49f28994b5cca82cad96338bde90f2bd312e31d49c79481980dfaa7fef31e11f"
+        },
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D01-editorial-v1.webp",
+          "bytes": 49474,
+          "sha256": "b7849b091a33ac47842a6e3e522d5da274d0862617e7c7bf2e27391234b3beed"
+        }
+      ],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
@@ -10519,10 +10603,12 @@
           ]
         }
       ],
-      "claimed_by": "dr-20261128-132200-script",
-      "claimed_at": "2026-11-28T13:22:00+09:00",
-      "lease_expires_at": "2026-11-28T15:22:00+09:00",
-      "visual_review": "pending"
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "visual_review": "pending",
+      "layout_errors": [],
+      "png_webp_pixel_equal": true
     }
   ],
   "runs": [
@@ -11080,6 +11166,21 @@
         "assets_start_commit": "6de9fbddf5e94a97e2a343c692a1fa333adaae34"
       },
       "lease_reconciliation_reason": "expired 02:57 UTC; queue and QA blobs unchanged, no renewed checkpoint; final write guarded by expected main HEAD"
+    },
+    {
+      "id": "dr-20261128-132200-script",
+      "status": "rendered_pending_visual_qa",
+      "new_diagrams": 0,
+      "revised_diagrams": 6,
+      "completed_reviews": 0,
+      "diagram_ids": [
+        "DR-067-D02",
+        "DR-067-D09",
+        "DR-067-D10",
+        "DR-067-D05",
+        "DR-067-D08",
+        "DR-067-D01"
+      ]
     }
   ],
   "exam": {

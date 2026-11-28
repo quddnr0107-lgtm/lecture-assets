@@ -8975,25 +8975,25 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
       "source_version": "국방부훈령 제3216호",
       "effective_date": "2026-10-14",
-      "note": "원칙: 사유 발생 즉시 적용. 기간 충족 요건이 있는 경우는 예외.",
+      "note": "보류기간: 사유 발생일부터 해소일까지. 기산일 예외와 기간 요건은 별도 도식 참조.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D01-editorial-v1.svg",
-          "bytes": 6477,
-          "sha256": "4da02dbc6d2c7761ce51e2f8530a69ed2361490345c069977de34c76dc1fe736"
+          "bytes": 6306,
+          "sha256": "13b1f96dfccb61796f74fdad9af660b98243c0291e4863e991d85a905c4a7779"
         },
         "png": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D01-editorial-v1.png",
-          "bytes": 161555,
-          "sha256": "7f73813b14b7ffd138698149a27b063af6b6fe175a05f71d28cda18e4fd8de05"
+          "bytes": 165303,
+          "sha256": "49f28994b5cca82cad96338bde90f2bd312e31d49c79481980dfaa7fef31e11f"
         },
         "webp": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D01-editorial-v1.webp",
-          "bytes": 50244,
-          "sha256": "65bbc1d5e1c97059fd17ac50fbd073645ac663048ea8162848129a4534a96645"
+          "bytes": 49474,
+          "sha256": "b7849b091a33ac47842a6e3e522d5da274d0862617e7c7bf2e27391234b3beed"
         }
       },
       "script_ref": "DR-067",
@@ -9001,11 +9001,18 @@
         "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
         "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
         "lines": [
+          9,
+          19,
+          21,
+          23,
+          25,
           27,
+          31,
+          33,
           35,
           37,
-          61,
-          79
+          39,
+          41
         ]
       }
     },
@@ -9022,25 +9029,25 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
       "source_version": "국방부훈령 제3216호",
       "effective_date": "2026-10-14",
-      "note": "국외체류·치료·일부보류의 정해진 기간 미달 시 그 기간은 연기 처리.",
+      "note": "수업연한 초과로 학생보류 제외 시 거주지 지역예비군부대 편성. 정해진 기간 미달 시 연기 처리.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D02-editorial-v1.svg",
-          "bytes": 6909,
-          "sha256": "27806eead112a594a86aee825a4c9addba07860ba260ea42f933faa85d251e21"
+          "bytes": 6744,
+          "sha256": "c6016eea3a41f94cf1f08304e4f1104ae238b04e9804a90b6bbbc4eb57f8d7af"
         },
         "png": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D02-editorial-v1.png",
-          "bytes": 204780,
-          "sha256": "accdafb40df1858f30db6a1293a70f6a6df3a46d5e7880816eedb89073129179"
+          "bytes": 202495,
+          "sha256": "c7ca50984568dfb2f3cf60c0a569b99b910f2fd6a14f5032c4c30cb4863041b6"
         },
         "webp": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D02-editorial-v1.webp",
-          "bytes": 61496,
-          "sha256": "074011521feeb180ac1fc2bcbb681e4f3fa28772009cdf869d380c2761ad0626"
+          "bytes": 60862,
+          "sha256": "24f252200f3e2ca1d617d34de8d51a32cc8bbd80414c947d7d2fc1139b5cd001"
         }
       },
       "script_ref": "DR-067",
@@ -9165,28 +9172,39 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
       "source_version": "국방부훈령 제3216호",
       "effective_date": "2026-10-14",
-      "note": "국외체류·승선·경찰학교는 별도 부과시기, 국가유공자·보훈대상 선정은 예외 적용.",
+      "note": "하선 후 부과(승선 전 아님). 전면보류 기간의 이수 처리 시간은 신분 전환 후에도 인정.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D05-editorial-v1.svg",
-          "bytes": 5642,
-          "sha256": "d92d6988250dcbd7fd8119728b6a1312e306ab56e395ce0b0ac8c96b9ff09aed"
+          "bytes": 6995,
+          "sha256": "b870ff2fda4e2580e8c5350cd7115ec49122c4d7b7be7b90716a2e0ee5f60f1b"
         },
         "png": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D05-editorial-v1.png",
-          "bytes": 142065,
-          "sha256": "6b536241d945aa8b3d238e31b2ee3b4848b1adcee76e5a4a0d7932008a24119d"
+          "bytes": 190480,
+          "sha256": "8847965e8fd7e22c4fd48715495917d1b1c71762076bcded0e03c226fb2022c8"
         },
         "webp": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D05-editorial-v1.webp",
-          "bytes": 44896,
-          "sha256": "20f21151257fdf920f54e96dfd7c5bd04df1cc9a0af3a5df6e0746cd291dc576"
+          "bytes": 57448,
+          "sha256": "8502358480c318417ab1f078a726d71463838a461632a1e6d5e63eff6b9102f8"
         }
       },
-      "script_ref": "DR-067"
+      "script_ref": "DR-067",
+      "script_evidence": {
+        "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+        "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+        "lines": [
+          205,
+          207,
+          209,
+          211,
+          213
+        ]
+      }
     },
     {
       "id": "DR-067-D06",
@@ -9294,25 +9312,25 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
       "source_version": "국방부훈령 제3216호",
       "effective_date": "2026-10-14",
-      "note": "",
+      "note": "신청 대상 기관은 거주지 지방병무청장. 별도 보류의 전산코드는 병역처분변경원서가 아님.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D08-editorial-v1.svg",
-          "bytes": 5725,
-          "sha256": "7f60f909e293ca2c9bea605c2ff192d8ecc08e6146da7f907c8ce1e5a0494ed3"
+          "bytes": 6581,
+          "sha256": "0c944fa04f86305d01bd8b7b064f29d8b71088b93f59bf42cddbe421d44db5e4"
         },
         "png": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D08-editorial-v1.png",
-          "bytes": 150855,
-          "sha256": "986b8b746ce577eaf0370deb4d8211a707e0a0b8945dab24b17c0ab024b97cdf"
+          "bytes": 184325,
+          "sha256": "ab29b8268b6f0de0f05dedfd29926692c5abea521918c848673a789b56d490dc"
         },
         "webp": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D08-editorial-v1.webp",
-          "bytes": 44936,
-          "sha256": "6bd613aa497842e234eefd51c11e8542a28c0040340f0ae5944fa9f86368e45b"
+          "bytes": 55232,
+          "sha256": "19c64c46c736b117a342d0b43e25971d1e49901ea9d90236cff70dac2d818fb5"
         }
       },
       "script_ref": "DR-067",
@@ -9340,25 +9358,25 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
       "source_version": "국방부훈령 제3216호",
       "effective_date": "2026-10-14",
-      "note": "귀국자의 보류해소도 14일. 30일은 직권해소 뒤 해소신고서 제출에 적용.",
+      "note": "귀국자 해소도 14일. 명백한 해소 사유는 지휘관이 직권해소 가능, 근거 기록 후 당사자 통보.",
       "width": 1600,
       "height": 1120,
-      "body_font_size": 33,
+      "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D09-editorial-v1.svg",
-          "bytes": 6980,
-          "sha256": "a739e7bb86e662351f7537743ab4c15905d72acaa4816ac4b05afb21c4f108cf"
+          "bytes": 7105,
+          "sha256": "5b437eec77eff58571b8932293c360041d606e20c8cc601d95d3f8c0a60ac5bd"
         },
         "png": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D09-editorial-v1.png",
-          "bytes": 198720,
-          "sha256": "385fd57f58adec2aef9eae7284855a856ca7c4813988d246e61ddfb8e97a697e"
+          "bytes": 199959,
+          "sha256": "d79c642ce92cdfcf5ab337b0e6472fe59bf64106a4083a3acbb25e37ac595b61"
         },
         "webp": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D09-editorial-v1.webp",
-          "bytes": 59854,
-          "sha256": "616d3607d1c3235cfcd2dd784df65e23b6aba6069e177bf30ce7f85bcc266577"
+          "bytes": 61130,
+          "sha256": "b1593f70daeb1a0028dc3ff31a83517ddc36c2f100a8ec8cfcf7b46b044b65d4"
         }
       },
       "script_ref": "DR-067",
@@ -9373,6 +9391,7 @@
           163,
           165,
           169,
+          177,
           181
         ]
       }
@@ -9390,25 +9409,25 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
       "source_version": "국방부훈령 제3216호",
       "effective_date": "2026-10-14",
-      "note": "3차 훈련은 1·2차 보류 규정에 포함되지 않는다.",
+      "note": "3차 훈련은 1·2차 보류 규정에 포함되지 않는다. 단서의 기산점은 '보류해소 후'.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D10-editorial-v1.svg",
-          "bytes": 6169,
-          "sha256": "365154f913bb73913452e188d11d085de71e482d36e63c235578c4c26fe13bb0"
+          "bytes": 6235,
+          "sha256": "1250b1ba9b02bbdf6b1b88f3583e32f0698569651f81d325553427587885745d"
         },
         "png": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D10-editorial-v1.png",
-          "bytes": 163580,
-          "sha256": "20c962820b4483b13a460b3c89853a41967c7a634fe2d74235d99c3fe567fe66"
+          "bytes": 171459,
+          "sha256": "232cbf8c0a61bd3035ef07120e808f819be195f2da9d90a47b157dc4e3061bd5"
         },
         "webp": {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D10-editorial-v1.webp",
-          "bytes": 50578,
-          "sha256": "18281771c8e90b0874e311eae463347e2e9e852f4bd1304b1bc29fa4edc88607"
+          "bytes": 51330,
+          "sha256": "10cc3bb6fc13de12bde5124d30349b84861a2aa2a5e9692f31ac49fcf34ee59f"
         }
       },
       "script_ref": "DR-067",
