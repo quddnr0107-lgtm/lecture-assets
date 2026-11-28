@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-28T14:25:22+09:00",
+  "updated_at": "2026-11-28T15:31:00+09:00",
   "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
     "status": "files_completed",
@@ -67,10 +67,10 @@
   },
   "state": {
     "active_run": {
-      "id": "dr-20261128-142522-script",
+      "id": "dr-20261128-153100-render-recovery",
       "status": "rendering",
-      "started_at": "2026-11-28T14:25:22+09:00",
-      "lease_expires_at": "2026-11-28T16:25:22+09:00",
+      "started_at": "2026-11-28T15:31:00+09:00",
+      "lease_expires_at": "2026-11-28T17:31:00+09:00",
       "claimed_job_ids": [
         "DR-067-D01-script-142522",
         "DR-005-D01-script-142522",
@@ -85,7 +85,9 @@
         "DR-030-D04-script-142522"
       ],
       "mode": "coordinator and existing renderer three raster workers",
-      "assets_start_commit": "d8551bee2de1e3bdbebe3a3a6393b69982941466"
+      "assets_start_commit": "70e5584b41bda21995eb1fe8e7a471b22c20fecc",
+      "recovery_of": "dr-20261128-142522-script",
+      "reason": "3-item regrouping for DR-005-D03 and DR-011-D03; DR-067-D01 source nuance retained; previous render failed before publishing"
     },
     "last_successful_run": {
       "id": "dr-20261128-122506-visual",
@@ -10693,9 +10695,9 @@
       "design_version": "editorial-v1",
       "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|9,15,19,21,23,25,27,31,33,35,37,41,47,51|머리 문장의 동원 및 훈련 접속어와 보류·연기 구별 명시|editorial-v1",
       "status": "running",
-      "claimed_by": "dr-20261128-142522-script",
-      "claimed_at": "2026-11-28T14:25:22+09:00",
-      "lease_expires_at": "2026-11-28T16:25:22+09:00",
+      "claimed_by": "dr-20261128-153100-render-recovery",
+      "claimed_at": "2026-11-28T15:31:00+09:00",
+      "lease_expires_at": "2026-11-28T17:31:00+09:00",
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
@@ -10733,9 +10735,9 @@
       "design_version": "editorial-v1",
       "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|25,26,27,29,34,46,56,74,75,76,78|장관 제도의 발전 및 참모총장 선발 세부계획 수립·시행 명확화|editorial-v1",
       "status": "running",
-      "claimed_by": "dr-20261128-142522-script",
-      "claimed_at": "2026-11-28T14:25:22+09:00",
-      "lease_expires_at": "2026-11-28T16:25:22+09:00",
+      "claimed_by": "dr-20261128-153100-render-recovery",
+      "claimed_at": "2026-11-28T15:31:00+09:00",
+      "lease_expires_at": "2026-11-28T17:31:00+09:00",
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-5.txt",
@@ -10770,9 +10772,9 @@
       "design_version": "editorial-v1",
       "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|162,164,166,170,172,184,192|소대장 전시교육계획 및 예비군지휘관 지시사항, 지원 건의 명시|editorial-v1",
       "status": "running",
-      "claimed_by": "dr-20261128-142522-script",
-      "claimed_at": "2026-11-28T14:25:22+09:00",
-      "lease_expires_at": "2026-11-28T16:25:22+09:00",
+      "claimed_by": "dr-20261128-153100-render-recovery",
+      "claimed_at": "2026-11-28T15:31:00+09:00",
+      "lease_expires_at": "2026-11-28T17:31:00+09:00",
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-5.txt",
@@ -10802,9 +10804,9 @@
       "design_version": "editorial-v1",
       "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|58,62,66,77,79,86,90,94|장관·참모총장 군수관리 및 예산 문구 비교|editorial-v1",
       "status": "running",
-      "claimed_by": "dr-20261128-142522-script",
-      "claimed_at": "2026-11-28T14:25:22+09:00",
-      "lease_expires_at": "2026-11-28T16:25:22+09:00",
+      "claimed_by": "dr-20261128-153100-render-recovery",
+      "claimed_at": "2026-11-28T15:31:00+09:00",
+      "lease_expires_at": "2026-11-28T17:31:00+09:00",
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-5.txt",
@@ -10835,9 +10837,9 @@
       "design_version": "editorial-v1",
       "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|28,30,31,68,70,78,98,99,100,136,144,249|치료·보상 및 감사·임명 주체 비교|editorial-v1",
       "status": "running",
-      "claimed_by": "dr-20261128-142522-script",
-      "claimed_at": "2026-11-28T14:25:22+09:00",
-      "lease_expires_at": "2026-11-28T16:25:22+09:00",
+      "claimed_by": "dr-20261128-153100-render-recovery",
+      "claimed_at": "2026-11-28T15:31:00+09:00",
+      "lease_expires_at": "2026-11-28T17:31:00+09:00",
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-5.txt",
@@ -10872,9 +10874,9 @@
       "design_version": "editorial-v1",
       "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|82,138,140,251,255,266|일곱 주체별 업무분장 개수 및 편성·해체 권한 구분|editorial-v1",
       "status": "running",
-      "claimed_by": "dr-20261128-142522-script",
-      "claimed_at": "2026-11-28T14:25:22+09:00",
-      "lease_expires_at": "2026-11-28T16:25:22+09:00",
+      "claimed_by": "dr-20261128-153100-render-recovery",
+      "claimed_at": "2026-11-28T15:31:00+09:00",
+      "lease_expires_at": "2026-11-28T17:31:00+09:00",
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-5.txt",
@@ -10904,9 +10906,9 @@
       "design_version": "editorial-v1",
       "deduplication_key": "DR-011|54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed|79,81,83,89,90,91,92,93,95,103,105|동원 미지정 간부 우선 및 예비군지휘관 선발대상 병과 명시|editorial-v1",
       "status": "running",
-      "claimed_by": "dr-20261128-142522-script",
-      "claimed_at": "2026-11-28T14:25:22+09:00",
-      "lease_expires_at": "2026-11-28T16:25:22+09:00",
+      "claimed_by": "dr-20261128-153100-render-recovery",
+      "claimed_at": "2026-11-28T15:31:00+09:00",
+      "lease_expires_at": "2026-11-28T17:31:00+09:00",
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-11.txt",
@@ -10941,9 +10943,9 @@
       "design_version": "editorial-v1",
       "deduplication_key": "DR-011|54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed|113,139,153,155,159,171,173,177,187,189|추천 승인 순서와 구비서류·임명 결과 확인 경로 및 예외 명시|editorial-v1",
       "status": "running",
-      "claimed_by": "dr-20261128-142522-script",
-      "claimed_at": "2026-11-28T14:25:22+09:00",
-      "lease_expires_at": "2026-11-28T16:25:22+09:00",
+      "claimed_by": "dr-20261128-153100-render-recovery",
+      "claimed_at": "2026-11-28T15:31:00+09:00",
+      "lease_expires_at": "2026-11-28T17:31:00+09:00",
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-11.txt",
@@ -10976,9 +10978,9 @@
       "design_version": "editorial-v1",
       "deduplication_key": "DR-011|54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed|113,119,127,129,135,159,244|선발공고 채널·여섯 항목 및 지원서 확인 포인트|editorial-v1",
       "status": "running",
-      "claimed_by": "dr-20261128-142522-script",
-      "claimed_at": "2026-11-28T14:25:22+09:00",
-      "lease_expires_at": "2026-11-28T16:25:22+09:00",
+      "claimed_by": "dr-20261128-153100-render-recovery",
+      "claimed_at": "2026-11-28T15:31:00+09:00",
+      "lease_expires_at": "2026-11-28T17:31:00+09:00",
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-11.txt",
@@ -11009,9 +11011,9 @@
       "design_version": "editorial-v1",
       "deduplication_key": "DR-030|03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504|35,65,67,208,209,210,211|지휘계통 비상연락망과 소대별 비상소집망 표현 구분|editorial-v1",
       "status": "running",
-      "claimed_by": "dr-20261128-142522-script",
-      "claimed_at": "2026-11-28T14:25:22+09:00",
-      "lease_expires_at": "2026-11-28T16:25:22+09:00",
+      "claimed_by": "dr-20261128-153100-render-recovery",
+      "claimed_at": "2026-11-28T15:31:00+09:00",
+      "lease_expires_at": "2026-11-28T17:31:00+09:00",
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-30.txt",
@@ -11042,9 +11044,9 @@
       "design_version": "editorial-v1",
       "deduplication_key": "DR-030|03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504|159,165,167,173,177,185,189,191|지역 단위와 전국 단위 해제 주체·판단 요소 및 의견 주체 명시|editorial-v1",
       "status": "running",
-      "claimed_by": "dr-20261128-142522-script",
-      "claimed_at": "2026-11-28T14:25:22+09:00",
-      "lease_expires_at": "2026-11-28T16:25:22+09:00",
+      "claimed_by": "dr-20261128-153100-render-recovery",
+      "claimed_at": "2026-11-28T15:31:00+09:00",
+      "lease_expires_at": "2026-11-28T17:31:00+09:00",
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-30.txt",
@@ -11665,6 +11667,17 @@
         "DR-030-D01",
         "DR-030-D04"
       ]
+    },
+    {
+      "id": "dr-20261128-142522-script",
+      "status": "render_failed_no_assets_published",
+      "workflow_run_id": 46112181741,
+      "reason": "DR-005-D03 pagination required; publish skipped",
+      "new_diagrams": 0,
+      "revised_diagrams": 0,
+      "completed_reviews": 0,
+      "remaining_reviews": 30,
+      "checked_at": "2026-11-28T15:31:00+09:00"
     }
   ],
   "exam": {
