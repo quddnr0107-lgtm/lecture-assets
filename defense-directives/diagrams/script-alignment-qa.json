@@ -77,7 +77,7 @@
   ],
   "full_lecture_coverage_reviews_completed": 48,
   "remaining_full_lecture_reviews": 30,
-  "new_diagrams": 40,
+  "new_diagrams": 44,
   "revised_diagrams": 75,
   "priority_script_comparison": {
     "schema_version": 1,
@@ -32667,6 +32667,2927 @@
           "png_git_blob": "3b1c0f09f8e9df10022b7b307f316100fd2f910b",
           "visual_review_commit": "d8551bee2de1e3bdbebe3a3a6393b69982941466",
           "visual_reviewed_at": "2026-11-28T14:25:22+09:00"
+        }
+      ]
+    },
+    {
+      "run_id": "dr-20261128-153100-render-recovery",
+      "lesson_ids": [
+        "DR-067",
+        "DR-005",
+        "DR-011",
+        "DR-030"
+      ],
+      "records": [
+        {
+          "id": "DR-067-D01",
+          "mode": "revision",
+          "script_evidence": {
+            "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+            "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+            "lines": [
+              9,
+              15,
+              19,
+              21,
+              23,
+              25,
+              27,
+              31,
+              33,
+              35,
+              37,
+              41,
+              47,
+              51
+            ]
+          },
+          "layout_errors": [],
+          "png_webp_pixel_equal": true,
+          "visual_review": "pending",
+          "files": {
+            "svg": {
+              "path": "defense-directives/lesson-067/diagrams/DR-067-D01-editorial-v1.svg",
+              "bytes": 6517,
+              "sha256": "01c85d3ebceb3cdf7f0978345ac7d8ce5b0819c3c998fc7e7960fb6be93b8894"
+            },
+            "png": {
+              "path": "defense-directives/lesson-067/diagrams/DR-067-D01-editorial-v1.png",
+              "bytes": 174934,
+              "sha256": "32180cc66a7c1677b59e0bf6f1cf7b5f1135298a1fcd3c8963e172c065cd70c8"
+            },
+            "webp": {
+              "path": "defense-directives/lesson-067/diagrams/DR-067-D01-editorial-v1.webp",
+              "bytes": 52282,
+              "sha256": "28ca52c6cca613df566facff7ece62636401229eab52020291f08b65bded6224"
+            }
+          },
+          "text_boxes": [
+            {
+              "text": "훈령  /  DR-067",
+              "x": 80,
+              "y": 52,
+              "width": 166,
+              "height": 27,
+              "fontSize": 25,
+              "role": "eyebrow"
+            },
+            {
+              "text": "교육훈련",
+              "x": 1435.38,
+              "y": 54,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "eyebrow"
+            },
+            {
+              "text": "보류의 결정과 적용기간",
+              "x": 80,
+              "y": 127,
+              "width": 625,
+              "height": 61,
+              "fontSize": 64,
+              "role": "title"
+            },
+            {
+              "text": "보류의 근거·결정권자와 적용 범위를 구분한다.",
+              "x": 84,
+              "y": 208,
+              "width": 544,
+              "height": 28,
+              "fontSize": 28,
+              "role": "subtitle"
+            },
+            {
+              "text": "근거와 결정",
+              "x": 80,
+              "y": 334,
+              "width": 215,
+              "height": 43,
+              "fontSize": 44,
+              "role": "section-title"
+            },
+            {
+              "text": "법규·방침",
+              "x": 84,
+              "y": 402,
+              "width": 115,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "법규보류",
+              "x": 144,
+              "y": 467,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "예비군법 제5·6조 및 별표 5",
+              "x": 144,
+              "y": 498,
+              "width": 417,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "방침보류",
+              "x": 144,
+              "y": 637.88,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "필요 기관 소요제기 → 국방부장관",
+              "x": 144,
+              "y": 668.88,
+              "width": 503,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "결정(별표 6)",
+              "x": 144,
+              "y": 720.0,
+              "width": 185,
+              "height": 38,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "개인 보류",
+              "x": 144,
+              "y": 859.88,
+              "width": 91,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "소속 예비군지휘관이 판단·결정",
+              "x": 144,
+              "y": 890.88,
+              "width": 471,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "적용 범위와 처리",
+              "x": 856,
+              "y": 336,
+              "width": 294,
+              "height": 41,
+              "fontSize": 42,
+              "role": "section-title"
+            },
+            {
+              "text": "동원·훈련",
+              "x": 860,
+              "y": 402,
+              "width": 115,
+              "height": 26,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "동원 및 훈련 (또는 아님)",
+              "x": 860,
+              "y": 467,
+              "width": 230,
+              "height": 25,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "예비군법상 동원·재난동원,",
+              "x": 860,
+              "y": 498,
+              "width": 407,
+              "height": 39,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "지역·동원예비군훈련 소집만",
+              "x": 860,
+              "y": 549.12,
+              "width": 429,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "동원보류",
+              "x": 860,
+              "y": 663.44,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "해소 즉시 동원 대상자로 관리",
+              "x": 860,
+              "y": 694.44,
+              "width": 438,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "훈련보류",
+              "x": 860,
+              "y": 808.76,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "전부·일부 이수 처리; 일부는 연간 훈련 별도",
+              "x": 860,
+              "y": 839.76,
+              "width": 655,
+              "height": 39,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "지정 가능",
+              "x": 860,
+              "y": 890.88,
+              "width": 143,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "제23조 머리 문장: 동원 및 훈련. 보류기간은 사유 발생~해소; 보류는 이수 처리, 연기는 추후 이수.",
+              "x": 80,
+              "y": 980,
+              "width": 917,
+              "height": 25,
+              "fontSize": 23,
+              "role": "note"
+            },
+            {
+              "text": "교육훈련 훈령 제23조 · DR-067-D01",
+              "x": 80,
+              "y": 1072,
+              "width": 341,
+              "height": 22,
+              "fontSize": 22,
+              "role": "footer"
+            },
+            {
+              "text": "무한회독",
+              "x": 1435.38,
+              "y": 1071,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "footer"
+            }
+          ]
+        },
+        {
+          "id": "DR-005-D01",
+          "mode": "revision",
+          "script_evidence": {
+            "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+            "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+            "lines": [
+              25,
+              26,
+              27,
+              29,
+              34,
+              46,
+              56,
+              74,
+              75,
+              76,
+              78
+            ]
+          },
+          "layout_errors": [],
+          "png_webp_pixel_equal": true,
+          "visual_review": "pending",
+          "files": {
+            "svg": {
+              "path": "defense-directives/lesson-005/diagrams/DR-005-D01-editorial-v1.svg",
+              "bytes": 6501,
+              "sha256": "a2033add290691a89b55aa91c51755b74874d0ec202deed6861ea422c4548717"
+            },
+            "png": {
+              "path": "defense-directives/lesson-005/diagrams/DR-005-D01-editorial-v1.png",
+              "bytes": 176925,
+              "sha256": "715e49c5aaf9502d3ff1fdf8462acd6f533e146b950837af7b35a05edea136bf"
+            },
+            "webp": {
+              "path": "defense-directives/lesson-005/diagrams/DR-005-D01-editorial-v1.webp",
+              "bytes": 53276,
+              "sha256": "56b25dfd16adf9015c97c1c09990a08b00274afd8f58515d72ee1e58e34a028e"
+            }
+          },
+          "text_boxes": [
+            {
+              "text": "훈령  /  DR-005",
+              "x": 80,
+              "y": 52,
+              "width": 166,
+              "height": 27,
+              "fontSize": 25,
+              "role": "eyebrow"
+            },
+            {
+              "text": "조직·편성·운영",
+              "x": 1367.25,
+              "y": 54,
+              "width": 153,
+              "height": 23,
+              "fontSize": 23,
+              "role": "eyebrow"
+            },
+            {
+              "text": "정책을 정하는 곳과 시행하는 곳",
+              "x": 80,
+              "y": 127,
+              "width": 837,
+              "height": 61,
+              "fontSize": 64,
+              "role": "title"
+            },
+            {
+              "text": "국방부장관과 각 군 참모총장의 업무를 비교한다.",
+              "x": 84,
+              "y": 208,
+              "width": 562,
+              "height": 28,
+              "fontSize": 28,
+              "role": "subtitle"
+            },
+            {
+              "text": "국방부장관",
+              "x": 80,
+              "y": 334,
+              "width": 202,
+              "height": 43,
+              "fontSize": 44,
+              "role": "section-title"
+            },
+            {
+              "text": "제1호",
+              "x": 84,
+              "y": 403,
+              "width": 65,
+              "height": 26,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "총괄·정책",
+              "x": 144,
+              "y": 467,
+              "width": 98,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "예비군 업무 총괄, 조직·편성·운영",
+              "x": 144,
+              "y": 498,
+              "width": 509,
+              "height": 38,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "정책수립 및 제도의 발전",
+              "x": 144,
+              "y": 549.12,
+              "width": 361,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "인사·승인",
+              "x": 144,
+              "y": 663.44,
+              "width": 98,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "업무담당자 임용·임명·해임과 추가 편성",
+              "x": 144,
+              "y": 694.44,
+              "width": 601,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "승인",
+              "x": 144,
+              "y": 745.56,
+              "width": 66,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "지정·해제",
+              "x": 144,
+              "y": 859.88,
+              "width": 98,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "수임군부대 지정 및 해제",
+              "x": 144,
+              "y": 890.88,
+              "width": 361,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "각 군 참모총장",
+              "x": 856,
+              "y": 336,
+              "width": 255,
+              "height": 41,
+              "fontSize": 42,
+              "role": "section-title"
+            },
+            {
+              "text": "제2호",
+              "x": 860,
+              "y": 403,
+              "width": 65,
+              "height": 26,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "시행·감독",
+              "x": 860,
+              "y": 467,
+              "width": 98,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "국방부 지침의 시행방침 수립과 집행 감독",
+              "x": 860,
+              "y": 497,
+              "width": 614,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "선발·훈련",
+              "x": 860,
+              "y": 637.88,
+              "width": 98,
+              "height": 22,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "업무담당자 선발 세부계획 수립·시행,",
+              "x": 860,
+              "y": 667.88,
+              "width": 560,
+              "height": 40,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "교육훈련 조정·통제",
+              "x": 860,
+              "y": 719.0,
+              "width": 296,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "지급",
+              "x": 860,
+              "y": 859.88,
+              "width": 42,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "예비군 치료 및 보상금 지급",
+              "x": 860,
+              "y": 890.88,
+              "width": 405,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "장관: 전반적인 인사업무. 참모총장: 선발에 관한 세부계획 수립 및 시행.",
+              "x": 80,
+              "y": 980,
+              "width": 672,
+              "height": 23,
+              "fontSize": 23,
+              "role": "note"
+            },
+            {
+              "text": "조직·편성 훈령 제5조 · DR-005-D01",
+              "x": 80,
+              "y": 1072,
+              "width": 341,
+              "height": 22,
+              "fontSize": 22,
+              "role": "footer"
+            },
+            {
+              "text": "무한회독",
+              "x": 1435.38,
+              "y": 1071,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "footer"
+            }
+          ]
+        },
+        {
+          "id": "DR-005-D03",
+          "mode": "revision",
+          "script_evidence": {
+            "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+            "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+            "lines": [
+              162,
+              164,
+              166,
+              170,
+              172,
+              184,
+              192
+            ]
+          },
+          "layout_errors": [],
+          "png_webp_pixel_equal": true,
+          "visual_review": "pending",
+          "files": {
+            "svg": {
+              "path": "defense-directives/lesson-005/diagrams/DR-005-D03-editorial-v1.svg",
+              "bytes": 6977,
+              "sha256": "7776493ec7aebea290f7207a2645c47fbbc4a0f43c86eb5deed4d270b22cd290"
+            },
+            "png": {
+              "path": "defense-directives/lesson-005/diagrams/DR-005-D03-editorial-v1.png",
+              "bytes": 199566,
+              "sha256": "623791a5bc33d3dc75c02437fe25bc3423a218c751fa31157f269073a6dc653a"
+            },
+            "webp": {
+              "path": "defense-directives/lesson-005/diagrams/DR-005-D03-editorial-v1.webp",
+              "bytes": 60010,
+              "sha256": "500110c2a72818a0ae4ed88ececf9ab44d5ddd7f7e02d1c55a62baa01215cf38"
+            }
+          },
+          "text_boxes": [
+            {
+              "text": "훈령  /  DR-005",
+              "x": 80,
+              "y": 52,
+              "width": 166,
+              "height": 27,
+              "fontSize": 25,
+              "role": "eyebrow"
+            },
+            {
+              "text": "조직·편성·운영",
+              "x": 1367.25,
+              "y": 54,
+              "width": 153,
+              "height": 23,
+              "fontSize": 23,
+              "role": "eyebrow"
+            },
+            {
+              "text": "부대지휘관과 소대장의 임무",
+              "x": 80,
+              "y": 126,
+              "width": 742,
+              "height": 62,
+              "fontSize": 64,
+              "role": "title"
+            },
+            {
+              "text": "부대 운영 책임과 현장 소대 지휘 임무를 나눠 본다.",
+              "x": 84,
+              "y": 208,
+              "width": 586,
+              "height": 28,
+              "fontSize": 28,
+              "role": "subtitle"
+            },
+            {
+              "text": "부대지휘관",
+              "x": 80,
+              "y": 334,
+              "width": 202,
+              "height": 43,
+              "fontSize": 44,
+              "role": "section-title"
+            },
+            {
+              "text": "제4호 · 중대 이상·독립 직장소대장",
+              "x": 84,
+              "y": 402,
+              "width": 395,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "운영·협조",
+              "x": 144,
+              "y": 467,
+              "width": 98,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "법령상 임무, 지방병무청장과 협조 및 부대",
+              "x": 144,
+              "y": 498,
+              "width": 622,
+              "height": 38,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "유지",
+              "x": 144,
+              "y": 549.12,
+              "width": 66,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "무기·탄약",
+              "x": 144,
+              "y": 663.44,
+              "width": 98,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "위임 시 관리책임, 훈련·작전 수령 시",
+              "x": 144,
+              "y": 694.44,
+              "width": 542,
+              "height": 38,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "관리·유지",
+              "x": 144,
+              "y": 745.56,
+              "width": 153,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "지역예비군",
+              "x": 144,
+              "y": 859.88,
+              "width": 106,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "국방동원자원조사 참여",
+              "x": 144,
+              "y": 890.88,
+              "width": 341,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "예비군소대장",
+              "x": 856,
+              "y": 336,
+              "width": 232,
+              "height": 41,
+              "fontSize": 42,
+              "role": "section-title"
+            },
+            {
+              "text": "제5호",
+              "x": 860,
+              "y": 403,
+              "width": 65,
+              "height": 26,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "자원·훈련",
+              "x": 860,
+              "y": 467,
+              "width": 98,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "소대자원 파악·유지, 참석 독려·확인,",
+              "x": 860,
+              "y": 497,
+              "width": 558,
+              "height": 40,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "인솔·군기유지, 부교관",
+              "x": 860,
+              "y": 548.12,
+              "width": 339,
+              "height": 40,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "지휘·보급",
+              "x": 860,
+              "y": 637.88,
+              "width": 98,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "동원 지휘통솔, 소대 편성·임무·응소 확인,",
+              "x": 860,
+              "y": 667.88,
+              "width": 634,
+              "height": 40,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "무기·탄약 수령·분배",
+              "x": 860,
+              "y": 720.0,
+              "width": 318,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "전투준비·교육",
+              "x": 860,
+              "y": 808.76,
+              "width": 140,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "진지투입계획 확인·정찰, 전투준비 통제,",
+              "x": 860,
+              "y": 838.76,
+              "width": 603,
+              "height": 40,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "전시교육계획 시행",
+              "x": 860,
+              "y": 889.88,
+              "width": 275,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "전투장비·물자 수령, 작전지속지원 확인·지원 건의, 예비군지휘관 지시사항 수행. 자원조사는 지역예비군부대.",
+              "x": 80,
+              "y": 980,
+              "width": 1036,
+              "height": 25,
+              "fontSize": 23,
+              "role": "note"
+            },
+            {
+              "text": "조직·편성 훈령 제5조 · DR-005-D03",
+              "x": 80,
+              "y": 1072,
+              "width": 341,
+              "height": 22,
+              "fontSize": 22,
+              "role": "footer"
+            },
+            {
+              "text": "무한회독",
+              "x": 1435.38,
+              "y": 1071,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "footer"
+            }
+          ]
+        },
+        {
+          "id": "DR-005-D05",
+          "mode": "new",
+          "script_evidence": {
+            "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+            "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+            "lines": [
+              58,
+              62,
+              66,
+              77,
+              79,
+              86,
+              90,
+              94
+            ]
+          },
+          "layout_errors": [],
+          "png_webp_pixel_equal": true,
+          "visual_review": "pending",
+          "files": {
+            "svg": {
+              "path": "defense-directives/lesson-005/diagrams/DR-005-D05-editorial-v1.svg",
+              "bytes": 5929,
+              "sha256": "86b95f0bff85d79701b2d8826e804b20b1c753be36009110a67f235291e83000"
+            },
+            "png": {
+              "path": "defense-directives/lesson-005/diagrams/DR-005-D05-editorial-v1.png",
+              "bytes": 137291,
+              "sha256": "0a45410bd57eaa06133cf45c15ef581ca9d9e3628387e72d8dc06204f51a32a6"
+            },
+            "webp": {
+              "path": "defense-directives/lesson-005/diagrams/DR-005-D05-editorial-v1.webp",
+              "bytes": 43950,
+              "sha256": "368fe237fb2e4a533dab7f2ca7ecf54d6616d435c648b67e3b8736f199f8749b"
+            }
+          },
+          "text_boxes": [
+            {
+              "text": "훈령  /  DR-005",
+              "x": 80,
+              "y": 52,
+              "width": 166,
+              "height": 27,
+              "fontSize": 25,
+              "role": "eyebrow"
+            },
+            {
+              "text": "조직·편성·운영",
+              "x": 1367.25,
+              "y": 54,
+              "width": 153,
+              "height": 23,
+              "fontSize": 23,
+              "role": "eyebrow"
+            },
+            {
+              "text": "군수관리와 예산의 주체별 구분",
+              "x": 80,
+              "y": 127,
+              "width": 819,
+              "height": 61,
+              "fontSize": 64,
+              "role": "title"
+            },
+            {
+              "text": "국방부장관과 각 군 참모총장의 동사와 예산 목적을 비교한다.",
+              "x": 84,
+              "y": 208,
+              "width": 707,
+              "height": 28,
+              "fontSize": 28,
+              "role": "subtitle"
+            },
+            {
+              "text": "국방부장관",
+              "x": 80,
+              "y": 334,
+              "width": 202,
+              "height": 43,
+              "fontSize": 44,
+              "role": "section-title"
+            },
+            {
+              "text": "방침 · 운영",
+              "x": 84,
+              "y": 402,
+              "width": 127,
+              "height": 26,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "군수관리",
+              "x": 144,
+              "y": 467,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "방침 수립 및 통제",
+              "x": 144,
+              "y": 497,
+              "width": 262,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "예산 목적",
+              "x": 144,
+              "y": 663.44,
+              "width": 91,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "예비군 육성·운영",
+              "x": 144,
+              "y": 694.44,
+              "width": 262,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "예산 업무",
+              "x": 144,
+              "y": 859.88,
+              "width": 91,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "예산의 획득 및 지원",
+              "x": 144,
+              "y": 889.88,
+              "width": 295,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "각 군 참모총장",
+              "x": 856,
+              "y": 336,
+              "width": 255,
+              "height": 41,
+              "fontSize": 42,
+              "role": "section-title"
+            },
+            {
+              "text": "세부계획 · 지휘관리",
+              "x": 860,
+              "y": 402,
+              "width": 226,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "군수관리",
+              "x": 860,
+              "y": 467,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "세부계획 수립, 시행, 감독 및 통제",
+              "x": 860,
+              "y": 497,
+              "width": 501,
+              "height": 40,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "예산 목적",
+              "x": 860,
+              "y": 663.44,
+              "width": 91,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "예비군 육성·지휘관리",
+              "x": 860,
+              "y": 693.44,
+              "width": 330,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "예산 업무",
+              "x": 860,
+              "y": 859.88,
+              "width": 91,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "예산의 획득 및 지원",
+              "x": 860,
+              "y": 889.88,
+              "width": 295,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "장관의 군수관리에는 시행이 없고, 양쪽 예산 업무는 획득 및 지원이다.",
+              "x": 80,
+              "y": 980,
+              "width": 662,
+              "height": 25,
+              "fontSize": 23,
+              "role": "note"
+            },
+            {
+              "text": "조직·편성 훈령 제5조 · DR-005-D05",
+              "x": 80,
+              "y": 1072,
+              "width": 341,
+              "height": 22,
+              "fontSize": 22,
+              "role": "footer"
+            },
+            {
+              "text": "무한회독",
+              "x": 1435.38,
+              "y": 1071,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "footer"
+            }
+          ]
+        },
+        {
+          "id": "DR-005-D06",
+          "mode": "new",
+          "script_evidence": {
+            "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+            "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+            "lines": [
+              28,
+              30,
+              31,
+              68,
+              70,
+              78,
+              98,
+              99,
+              100,
+              136,
+              144,
+              249
+            ]
+          },
+          "layout_errors": [],
+          "png_webp_pixel_equal": true,
+          "visual_review": "pending",
+          "files": {
+            "svg": {
+              "path": "defense-directives/lesson-005/diagrams/DR-005-D06-editorial-v1.svg",
+              "bytes": 5989,
+              "sha256": "1e2d20d470b437fe15a9807d1f02ed2745f9bc807ef061b13f232e56f4ec1c86"
+            },
+            "png": {
+              "path": "defense-directives/lesson-005/diagrams/DR-005-D06-editorial-v1.png",
+              "bytes": 157749,
+              "sha256": "bd154b94351e2415ba7f79f9a42649784ad119434ff715ee95e2a9e05c32a4ec"
+            },
+            "webp": {
+              "path": "defense-directives/lesson-005/diagrams/DR-005-D06-editorial-v1.webp",
+              "bytes": 49830,
+              "sha256": "7c34bd63ea2d1f526a8459e5cf5678b505acc37dff2e5d1b62e7937f1ea11fbd"
+            }
+          },
+          "text_boxes": [
+            {
+              "text": "훈령  /  DR-005",
+              "x": 80,
+              "y": 52,
+              "width": 166,
+              "height": 27,
+              "fontSize": 25,
+              "role": "eyebrow"
+            },
+            {
+              "text": "조직·편성·운영",
+              "x": 1367.25,
+              "y": 54,
+              "width": 153,
+              "height": 23,
+              "fontSize": 23,
+              "role": "eyebrow"
+            },
+            {
+              "text": "방침·지급·심의와 임명",
+              "x": 80,
+              "y": 127,
+              "width": 624,
+              "height": 61,
+              "fontSize": 64,
+              "role": "title"
+            },
+            {
+              "text": "치료·보상과 임명에 관한 권한을 서로 바꾸지 않는다.",
+              "x": 84,
+              "y": 208,
+              "width": 612,
+              "height": 28,
+              "fontSize": 28,
+              "role": "subtitle"
+            },
+            {
+              "text": "치료 및 보상",
+              "x": 80,
+              "y": 334,
+              "width": 227,
+              "height": 43,
+              "fontSize": 44,
+              "role": "section-title"
+            },
+            {
+              "text": "방침 → 지급 → 심의 (주체 비교)",
+              "x": 84,
+              "y": 402,
+              "width": 358,
+              "height": 30,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "국방부장관",
+              "x": 144,
+              "y": 467,
+              "width": 106,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "포상·치료·보상 방침 수립과 조정",
+              "x": 144,
+              "y": 498,
+              "width": 501,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "각 군 참모총장",
+              "x": 144,
+              "y": 663.44,
+              "width": 140,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "치료 및 보상금 지급",
+              "x": 144,
+              "y": 694.44,
+              "width": 295,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "수임군부대장",
+              "x": 144,
+              "y": 859.88,
+              "width": 127,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "치료 및 보상에 관한 심의",
+              "x": 144,
+              "y": 889.88,
+              "width": 372,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "임명하는 사람",
+              "x": 856,
+              "y": 336,
+              "width": 244,
+              "height": 41,
+              "fontSize": 42,
+              "role": "section-title"
+            },
+            {
+              "text": "서로 다른 임명 대상",
+              "x": 860,
+              "y": 402,
+              "width": 221,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "국방부장관",
+              "x": 860,
+              "y": 467,
+              "width": 106,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "업무담당자 임용·임명·해임",
+              "x": 860,
+              "y": 497,
+              "width": 417,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "수임군부대장",
+              "x": 860,
+              "y": 663.44,
+              "width": 127,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "위임된 예비군중대장 임명·해임",
+              "x": 860,
+              "y": 693.44,
+              "width": 472,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "수탁 경찰서장",
+              "x": 860,
+              "y": 859.88,
+              "width": 133,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "무기고·탄약고 관리책임자 임명·통제",
+              "x": 860,
+              "y": 889.88,
+              "width": 560,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "특별감사: 국방부장관(각 군 위임). 정기감사: 수임군부대장.",
+              "x": 80,
+              "y": 980,
+              "width": 556,
+              "height": 25,
+              "fontSize": 23,
+              "role": "note"
+            },
+            {
+              "text": "조직·편성 훈령 제5조 · DR-005-D06",
+              "x": 80,
+              "y": 1072,
+              "width": 341,
+              "height": 22,
+              "fontSize": 22,
+              "role": "footer"
+            },
+            {
+              "text": "무한회독",
+              "x": 1435.38,
+              "y": 1071,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "footer"
+            }
+          ]
+        },
+        {
+          "id": "DR-005-D07",
+          "mode": "new",
+          "script_evidence": {
+            "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+            "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+            "lines": [
+              82,
+              138,
+              140,
+              251,
+              255,
+              266
+            ]
+          },
+          "layout_errors": [],
+          "png_webp_pixel_equal": true,
+          "visual_review": "pending",
+          "files": {
+            "svg": {
+              "path": "defense-directives/lesson-005/diagrams/DR-005-D07-editorial-v1.svg",
+              "bytes": 5932,
+              "sha256": "7cf8b57b169abaf037971647d8ffdab4945521c720056354f4db8dc5e946d087"
+            },
+            "png": {
+              "path": "defense-directives/lesson-005/diagrams/DR-005-D07-editorial-v1.png",
+              "bytes": 147754,
+              "sha256": "1a4043a311f2239c3aa7f54ee1fc4fc82bb442de285cb9eb92feaa99e1c448e3"
+            },
+            "webp": {
+              "path": "defense-directives/lesson-005/diagrams/DR-005-D07-editorial-v1.webp",
+              "bytes": 45684,
+              "sha256": "429027dce12502ca5087761e8fe9ab323a26850bbb55b361fc725b46d6a73905"
+            }
+          },
+          "text_boxes": [
+            {
+              "text": "훈령  /  DR-005",
+              "x": 80,
+              "y": 52,
+              "width": 166,
+              "height": 27,
+              "fontSize": 25,
+              "role": "eyebrow"
+            },
+            {
+              "text": "조직·편성·운영",
+              "x": 1367.25,
+              "y": 54,
+              "width": 153,
+              "height": 23,
+              "fontSize": 23,
+              "role": "eyebrow"
+            },
+            {
+              "text": "일곱 주체의 업무 개수와 편성 권한",
+              "x": 80,
+              "y": 127,
+              "width": 914,
+              "height": 61,
+              "fontSize": 64,
+              "role": "title"
+            },
+            {
+              "text": "업무 목록의 끝과 편성·해체 권한을 비교한다.",
+              "x": 84,
+              "y": 208,
+              "width": 526,
+              "height": 28,
+              "fontSize": 28,
+              "role": "subtitle"
+            },
+            {
+              "text": "업무분장 개수",
+              "x": 80,
+              "y": 334,
+              "width": 255,
+              "height": 43,
+              "fontSize": 44,
+              "role": "section-title"
+            },
+            {
+              "text": "7개 주체",
+              "x": 84,
+              "y": 402,
+              "width": 97,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "국방부장관 / 각 군 참모총장",
+              "x": 144,
+              "y": 467,
+              "width": 265,
+              "height": 24,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "10 / 7",
+              "x": 144,
+              "y": 500,
+              "width": 90,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "수임군부대장 / 부대지휘관",
+              "x": 144,
+              "y": 663.44,
+              "width": 252,
+              "height": 24,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "12 / 5",
+              "x": 144,
+              "y": 696.44,
+              "width": 90,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "소대장 / 병무청장 / 수탁 경찰서장",
+              "x": 144,
+              "y": 859.88,
+              "width": 320,
+              "height": 24,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "8 / 8 / 7",
+              "x": 144,
+              "y": 892.88,
+              "width": 124,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "편성과 해체",
+              "x": 856,
+              "y": 336,
+              "width": 205,
+              "height": 41,
+              "fontSize": 42,
+              "role": "section-title"
+            },
+            {
+              "text": "주체와 동사의 정확한 짝",
+              "x": 860,
+              "y": 402,
+              "width": 271,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "국방부장관",
+              "x": 860,
+              "y": 467,
+              "width": 106,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "예비군 추가 편성 승인",
+              "x": 860,
+              "y": 497,
+              "width": 328,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "수임군부대장",
+              "x": 860,
+              "y": 663.44,
+              "width": 127,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "편성요건 검토 및 해체 요구",
+              "x": 860,
+              "y": 694.44,
+              "width": 405,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "병무청장",
+              "x": 860,
+              "y": 859.88,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "직장예비군부대 편성 및 해체",
+              "x": 860,
+              "y": 890.88,
+              "width": 428,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "해체 요구와 실제 해체는 다르다. 각 군 참모총장의 업무는 사목까지.",
+              "x": 80,
+              "y": 980,
+              "width": 641,
+              "height": 23,
+              "fontSize": 23,
+              "role": "note"
+            },
+            {
+              "text": "조직·편성 훈령 제5조 · DR-005-D07",
+              "x": 80,
+              "y": 1072,
+              "width": 341,
+              "height": 22,
+              "fontSize": 22,
+              "role": "footer"
+            },
+            {
+              "text": "무한회독",
+              "x": 1435.38,
+              "y": 1071,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "footer"
+            }
+          ]
+        },
+        {
+          "id": "DR-011-D02",
+          "mode": "revision",
+          "script_evidence": {
+            "source_git_blob": "c790262d0a78c11f2e59c0d9bb7cef7321c8995c",
+            "source_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed",
+            "lines": [
+              79,
+              81,
+              83,
+              89,
+              90,
+              91,
+              92,
+              93,
+              95,
+              103,
+              105
+            ]
+          },
+          "layout_errors": [],
+          "png_webp_pixel_equal": true,
+          "visual_review": "pending",
+          "files": {
+            "svg": {
+              "path": "defense-directives/lesson-011/diagrams/DR-011-D02-editorial-v1.svg",
+              "bytes": 6280,
+              "sha256": "08eba60c7042c86afe288ae6c9e5cd77e3f86b031ae3de2466a5455094bc9b3b"
+            },
+            "png": {
+              "path": "defense-directives/lesson-011/diagrams/DR-011-D02-editorial-v1.png",
+              "bytes": 158009,
+              "sha256": "6faed07084a19b358a8d3c816cb32c636f7b08ccafdd3e122a0d65ebd2568919"
+            },
+            "webp": {
+              "path": "defense-directives/lesson-011/diagrams/DR-011-D02-editorial-v1.webp",
+              "bytes": 47048,
+              "sha256": "eb81774e2cf4ba78e874da42fd9164011ec26ddbcddfefbcfedacc6cc8975dfc"
+            }
+          },
+          "text_boxes": [
+            {
+              "text": "훈령  /  DR-011",
+              "x": 80,
+              "y": 52,
+              "width": 166,
+              "height": 27,
+              "fontSize": 25,
+              "role": "eyebrow"
+            },
+            {
+              "text": "조직·편성·운영",
+              "x": 1367.25,
+              "y": 54,
+              "width": 153,
+              "height": 23,
+              "fontSize": 23,
+              "role": "eyebrow"
+            },
+            {
+              "text": "임명 직위와 자원의 우선순위",
+              "x": 80,
+              "y": 127,
+              "width": 760,
+              "height": 61,
+              "fontSize": 64,
+              "role": "title"
+            },
+            {
+              "text": "직위의 순서와 해당 직위에 임명할 자원의 순서를 분리한다.",
+              "x": 84,
+              "y": 208,
+              "width": 681,
+              "height": 28,
+              "fontSize": 28,
+              "role": "subtitle"
+            },
+            {
+              "text": "임명 직위",
+              "x": 80,
+              "y": 334,
+              "width": 174,
+              "height": 43,
+              "fontSize": 44,
+              "role": "section-title"
+            },
+            {
+              "text": "제1항제3호",
+              "x": 84,
+              "y": 403,
+              "width": 129,
+              "height": 26,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "1순위",
+              "x": 144,
+              "y": 467,
+              "width": 55,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "예비군소대장",
+              "x": 144,
+              "y": 498,
+              "width": 199,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "2순위",
+              "x": 144,
+              "y": 597.96,
+              "width": 55,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "부중대장·부기동대장",
+              "x": 144,
+              "y": 628.96,
+              "width": 318,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "3순위",
+              "x": 144,
+              "y": 728.92,
+              "width": 55,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "부지역대장",
+              "x": 144,
+              "y": 759.92,
+              "width": 166,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "4순위",
+              "x": 144,
+              "y": 859.88,
+              "width": 55,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "지역대 참모",
+              "x": 144,
+              "y": 890.88,
+              "width": 176,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "임명 자원",
+              "x": 856,
+              "y": 336,
+              "width": 166,
+              "height": 41,
+              "fontSize": 42,
+              "role": "section-title"
+            },
+            {
+              "text": "가능한 동원미지정 간부 우선",
+              "x": 860,
+              "y": 402,
+              "width": 321,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "위관장교",
+              "x": 860,
+              "y": 467,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "예비군지휘관 선발대상 병과 → 그 외 병과",
+              "x": 860,
+              "y": 497,
+              "width": 623,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "부사관",
+              "x": 860,
+              "y": 663.44,
+              "width": 63,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "예비군지휘관 선발대상 병과 → 그 외 병과",
+              "x": 860,
+              "y": 693.44,
+              "width": 623,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "그 다음",
+              "x": 860,
+              "y": 859.88,
+              "width": 70,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "지원 선발자 또는 예비역 병",
+              "x": 860,
+              "y": 890.88,
+              "width": 405,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "가급적 동원 미지정 간부자원 우선. 지역 내 예비역 병 가능, 인접지역 확산 시 제외.",
+              "x": 80,
+              "y": 980,
+              "width": 777,
+              "height": 25,
+              "fontSize": 23,
+              "role": "note"
+            },
+            {
+              "text": "조직·편성 훈령 제11조 · DR-011-D02",
+              "x": 80,
+              "y": 1072,
+              "width": 353,
+              "height": 22,
+              "fontSize": 22,
+              "role": "footer"
+            },
+            {
+              "text": "무한회독",
+              "x": 1435.38,
+              "y": 1071,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "footer"
+            }
+          ]
+        },
+        {
+          "id": "DR-011-D03",
+          "mode": "revision",
+          "script_evidence": {
+            "source_git_blob": "c790262d0a78c11f2e59c0d9bb7cef7321c8995c",
+            "source_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed",
+            "lines": [
+              113,
+              139,
+              153,
+              155,
+              159,
+              171,
+              173,
+              177,
+              187,
+              189
+            ]
+          },
+          "layout_errors": [],
+          "png_webp_pixel_equal": true,
+          "visual_review": "pending",
+          "files": {
+            "svg": {
+              "path": "defense-directives/lesson-011/diagrams/DR-011-D03-editorial-v1.svg",
+              "bytes": 6926,
+              "sha256": "0483cc004f7af8dd2545180c4a214cf0d4dc1795874b7e33b8b980adb1af0b5d"
+            },
+            "png": {
+              "path": "defense-directives/lesson-011/diagrams/DR-011-D03-editorial-v1.png",
+              "bytes": 206647,
+              "sha256": "b5848f19abd6bba9a2cdb2ede6b246794d39a06d3ec849a92b94a4a1e167fba8"
+            },
+            "webp": {
+              "path": "defense-directives/lesson-011/diagrams/DR-011-D03-editorial-v1.webp",
+              "bytes": 62610,
+              "sha256": "007070342ba05b80584fae742af6fac7188634f5d8539fab8bb5552772d347d6"
+            }
+          },
+          "text_boxes": [
+            {
+              "text": "훈령  /  DR-011",
+              "x": 80,
+              "y": 52,
+              "width": 166,
+              "height": 27,
+              "fontSize": 25,
+              "role": "eyebrow"
+            },
+            {
+              "text": "조직·편성·운영",
+              "x": 1367.25,
+              "y": 54,
+              "width": 153,
+              "height": 23,
+              "fontSize": 23,
+              "role": "eyebrow"
+            },
+            {
+              "text": "주요 직위자 임명 절차",
+              "x": 80,
+              "y": 127,
+              "width": 584,
+              "height": 61,
+              "fontSize": 64,
+              "role": "title"
+            },
+            {
+              "text": "중대장 추천부터 임명결과 안내까지의 흐름이다.",
+              "x": 84,
+              "y": 208,
+              "width": 554,
+              "height": 28,
+              "fontSize": 28,
+              "role": "subtitle"
+            },
+            {
+              "text": "추천과 임명",
+              "x": 80,
+              "y": 334,
+              "width": 215,
+              "height": 43,
+              "fontSize": 44,
+              "role": "section-title"
+            },
+            {
+              "text": "제2항제1호~제3호",
+              "x": 84,
+              "y": 403,
+              "width": 209,
+              "height": 26,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "중대장",
+              "x": 144,
+              "y": 467,
+              "width": 63,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "선발 후 지방병무청 후순위 조정 승인 →",
+              "x": 144,
+              "y": 497,
+              "width": 591,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "정보체계로 관리대대장 추천",
+              "x": 144,
+              "y": 549.12,
+              "width": 418,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "관리대대장",
+              "x": 144,
+              "y": 663.44,
+              "width": 106,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "적격 확인, 별지 7호 지원서·편성카드 첨부",
+              "x": 144,
+              "y": 694.44,
+              "width": 627,
+              "height": 38,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "후 임명권자 추천",
+              "x": 144,
+              "y": 745.56,
+              "width": 252,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "임명권자",
+              "x": 144,
+              "y": 859.88,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "인사명령으로 임명·임명장 수여",
+              "x": 144,
+              "y": 890.88,
+              "width": 471,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "지원자·결과 처리",
+              "x": 856,
+              "y": 336,
+              "width": 307,
+              "height": 41,
+              "fontSize": 42,
+              "role": "section-title"
+            },
+            {
+              "text": "제2항제2호·제4호",
+              "x": 860,
+              "y": 403,
+              "width": 209,
+              "height": 26,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "지원자 없음",
+              "x": 860,
+              "y": 467,
+              "width": 112,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "중대장이 소속 대원 중 적합 자원 선발·추천",
+              "x": 860,
+              "y": 497,
+              "width": 645,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "가능",
+              "x": 860,
+              "y": 549.12,
+              "width": 66,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "절차 간소화",
+              "x": 860,
+              "y": 637.88,
+              "width": 112,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "정보체계로 추천·인사명령·임명장",
+              "x": 860,
+              "y": 667.88,
+              "width": 516,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "생성·발송",
+              "x": 860,
+              "y": 720.0,
+              "width": 154,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "최종 확인",
+              "x": 860,
+              "y": 808.76,
+              "width": 91,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "중대장이 정보체계로 결과 확인, 임무·역할",
+              "x": 860,
+              "y": 838.76,
+              "width": 635,
+              "height": 40,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "안내",
+              "x": 860,
+              "y": 889.88,
+              "width": 66,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "승인 후 추천. 필요 시 관할 관리대대장(지역대장)이 임명장 수여 가능. 결과 확인: 국방동원정보체계.",
+              "x": 80,
+              "y": 980,
+              "width": 940,
+              "height": 25,
+              "fontSize": 23,
+              "role": "note"
+            },
+            {
+              "text": "조직·편성 훈령 제11조 · DR-011-D03",
+              "x": 80,
+              "y": 1072,
+              "width": 353,
+              "height": 22,
+              "fontSize": 22,
+              "role": "footer"
+            },
+            {
+              "text": "무한회독",
+              "x": 1435.38,
+              "y": 1071,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "footer"
+            }
+          ]
+        },
+        {
+          "id": "DR-011-D05",
+          "mode": "new",
+          "script_evidence": {
+            "source_git_blob": "c790262d0a78c11f2e59c0d9bb7cef7321c8995c",
+            "source_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed",
+            "lines": [
+              113,
+              119,
+              127,
+              129,
+              135,
+              159,
+              244
+            ]
+          },
+          "layout_errors": [],
+          "png_webp_pixel_equal": true,
+          "visual_review": "pending",
+          "files": {
+            "svg": {
+              "path": "defense-directives/lesson-011/diagrams/DR-011-D05-editorial-v1.svg",
+              "bytes": 5930,
+              "sha256": "d3b90e20e4d47acfb924ff663ff2a0b49ebbf3f7c1d754c18cba3910eb2c3a7e"
+            },
+            "png": {
+              "path": "defense-directives/lesson-011/diagrams/DR-011-D05-editorial-v1.png",
+              "bytes": 144361,
+              "sha256": "41ff1c6db0c65c58f449d1c63c46e30dc927399f0a62655803971f8699ddede7"
+            },
+            "webp": {
+              "path": "defense-directives/lesson-011/diagrams/DR-011-D05-editorial-v1.webp",
+              "bytes": 44814,
+              "sha256": "06c19ac04579dda71c1ef605b1507eaf2ce0cd9e4029d77ffcb4efd6dc8f0519"
+            }
+          },
+          "text_boxes": [
+            {
+              "text": "훈령  /  DR-011",
+              "x": 80,
+              "y": 52,
+              "width": 166,
+              "height": 27,
+              "fontSize": 25,
+              "role": "eyebrow"
+            },
+            {
+              "text": "조직·편성·운영",
+              "x": 1367.25,
+              "y": 54,
+              "width": 153,
+              "height": 23,
+              "fontSize": 23,
+              "role": "eyebrow"
+            },
+            {
+              "text": "선발공고와 지원서",
+              "x": 80,
+              "y": 127,
+              "width": 489,
+              "height": 61,
+              "fontSize": 64,
+              "role": "title"
+            },
+            {
+              "text": "공고 채널과 선발공고 필수 내용, 별지 제7호 지원서를 구분한다.",
+              "x": 84,
+              "y": 208,
+              "width": 736,
+              "height": 31,
+              "fontSize": 28,
+              "role": "subtitle"
+            },
+            {
+              "text": "선발공고",
+              "x": 80,
+              "y": 334,
+              "width": 162,
+              "height": 42,
+              "fontSize": 44,
+              "role": "section-title"
+            },
+            {
+              "text": "예비군홈페이지 등",
+              "x": 84,
+              "y": 402,
+              "width": 206,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "공고 주체",
+              "x": 144,
+              "y": 467,
+              "width": 91,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "예비군중대장",
+              "x": 144,
+              "y": 498,
+              "width": 199,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "항목 1~3",
+              "x": 144,
+              "y": 663.44,
+              "width": 86,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "선발직책, 자격기준, 의무 및 혜택",
+              "x": 144,
+              "y": 694.44,
+              "width": 487,
+              "height": 38,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "항목 4~6",
+              "x": 144,
+              "y": 859.88,
+              "width": 86,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "접수기간, 구비서류, 결과 발표 방법",
+              "x": 144,
+              "y": 889.88,
+              "width": 524,
+              "height": 40,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "지원서",
+              "x": 856,
+              "y": 336,
+              "width": 116,
+              "height": 41,
+              "fontSize": 42,
+              "role": "section-title"
+            },
+            {
+              "text": "별지 제7호서식",
+              "x": 860,
+              "y": 402,
+              "width": 172,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "제출",
+              "x": 860,
+              "y": 467,
+              "width": 42,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "예비군 주요 직위자 지원서",
+              "x": 860,
+              "y": 497,
+              "width": 395,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "확인",
+              "x": 860,
+              "y": 663.44,
+              "width": 42,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "후순위 승인일 기재",
+              "x": 860,
+              "y": 693.44,
+              "width": 285,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "추천 시 첨부",
+              "x": 860,
+              "y": 859.88,
+              "width": 119,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "지원서 및 예비군 편성카드",
+              "x": 860,
+              "y": 889.88,
+              "width": 395,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "공고는 홈페이지, 추천·결과 확인은 국방동원정보체계. 선발일정은 원고의 열거에 없다.",
+              "x": 80,
+              "y": 980,
+              "width": 821,
+              "height": 25,
+              "fontSize": 23,
+              "role": "note"
+            },
+            {
+              "text": "조직·편성 훈령 제11조 · DR-011-D05",
+              "x": 80,
+              "y": 1072,
+              "width": 353,
+              "height": 22,
+              "fontSize": 22,
+              "role": "footer"
+            },
+            {
+              "text": "무한회독",
+              "x": 1435.38,
+              "y": 1071,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "footer"
+            }
+          ]
+        },
+        {
+          "id": "DR-030-D01",
+          "mode": "revision",
+          "script_evidence": {
+            "source_git_blob": "41d907a7a6f3ef9d3929b57b0b704b18c0f70ecc",
+            "source_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
+            "lines": [
+              35,
+              65,
+              67,
+              208,
+              209,
+              210,
+              211
+            ]
+          },
+          "layout_errors": [],
+          "png_webp_pixel_equal": true,
+          "visual_review": "pending",
+          "files": {
+            "svg": {
+              "path": "defense-directives/lesson-030/diagrams/DR-030-D01-editorial-v1.svg",
+              "bytes": 6560,
+              "sha256": "db2fa6afea2f781722178b9d18851a7a8a6553744ea700e5cd066d88397e9a3d"
+            },
+            "png": {
+              "path": "defense-directives/lesson-030/diagrams/DR-030-D01-editorial-v1.png",
+              "bytes": 189059,
+              "sha256": "d08ddeaf07de437ba98e54bedb2084daf7abb0e14f02f19e3c6cee422a5aa7b3"
+            },
+            "webp": {
+              "path": "defense-directives/lesson-030/diagrams/DR-030-D01-editorial-v1.webp",
+              "bytes": 56854,
+              "sha256": "167b7a552f4f206817300f6e5d73a0a1bc9a818c963da4376872b722fcb03384"
+            }
+          },
+          "text_boxes": [
+            {
+              "text": "훈령  /  DR-030",
+              "x": 80,
+              "y": 52,
+              "width": 166,
+              "height": 27,
+              "fontSize": 25,
+              "role": "eyebrow"
+            },
+            {
+              "text": "조직·편성·운영",
+              "x": 1367.25,
+              "y": 54,
+              "width": 153,
+              "height": 23,
+              "fontSize": 23,
+              "role": "eyebrow"
+            },
+            {
+              "text": "동원령 발령과 다중 전파",
+              "x": 80,
+              "y": 127,
+              "width": 643,
+              "height": 61,
+              "fontSize": 64,
+              "role": "title"
+            },
+            {
+              "text": "발령권자와 평시 연락대책을 함께 확인한다.",
+              "x": 84,
+              "y": 208,
+              "width": 503,
+              "height": 28,
+              "fontSize": 28,
+              "role": "subtitle"
+            },
+            {
+              "text": "발령·전파",
+              "x": 80,
+              "y": 334,
+              "width": 188,
+              "height": 43,
+              "fontSize": 44,
+              "role": "section-title"
+            },
+            {
+              "text": "지역예비군 동원령",
+              "x": 84,
+              "y": 402,
+              "width": 206,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "제1항 · 발령권자",
+              "x": 144,
+              "y": 467,
+              "width": 163,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "국방부장관 또는 수임군부대장 및",
+              "x": 144,
+              "y": 498,
+              "width": 494,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "수탁경찰서장",
+              "x": 144,
+              "y": 548.12,
+              "width": 199,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "제2항제1호",
+              "x": 144,
+              "y": 721.24,
+              "width": 110,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "예비군 지휘계통의 비상연락망,",
+              "x": 144,
+              "y": 752.24,
+              "width": 461,
+              "height": 38,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "매스컴·경찰 및 행정관서·지역 연락체계",
+              "x": 144,
+              "y": 803.36,
+              "width": 601,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "지휘관 준비",
+              "x": 856,
+              "y": 336,
+              "width": 205,
+              "height": 41,
+              "fontSize": 42,
+              "role": "section-title"
+            },
+            {
+              "text": "신속한 경보전파",
+              "x": 860,
+              "y": 403,
+              "width": 182,
+              "height": 26,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "제2항제2호",
+              "x": 860,
+              "y": 467,
+              "width": 110,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "예비군지휘관: 예비군소대별 비상소집망",
+              "x": 860,
+              "y": 497,
+              "width": 593,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "유지",
+              "x": 860,
+              "y": 549.12,
+              "width": 66,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "제2항제2호",
+              "x": 860,
+              "y": 637.88,
+              "width": 110,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "출타 대원에게 명령 대리 수령인을 선정하게",
+              "x": 860,
+              "y": 667.88,
+              "width": 647,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "한다.",
+              "x": 860,
+              "y": 720.0,
+              "width": 78,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "제2항제2호",
+              "x": 860,
+              "y": 808.76,
+              "width": 110,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "대리 수령인의 주소·연락처·성명·본인과의",
+              "x": 860,
+              "y": 838.76,
+              "width": 647,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "관계 등을 확보한다.",
+              "x": 860,
+              "y": 889.88,
+              "width": 297,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "지휘계통은 비상연락망, 소대별은 비상소집망. 대리수령인 정보에 주민등록번호는 없음.",
+              "x": 80,
+              "y": 980,
+              "width": 823,
+              "height": 25,
+              "fontSize": 23,
+              "role": "note"
+            },
+            {
+              "text": "조직·편성 훈령 제30조 · DR-030-D01",
+              "x": 80,
+              "y": 1072,
+              "width": 353,
+              "height": 22,
+              "fontSize": 22,
+              "role": "footer"
+            },
+            {
+              "text": "무한회독",
+              "x": 1435.38,
+              "y": 1071,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "footer"
+            }
+          ]
+        },
+        {
+          "id": "DR-030-D04",
+          "mode": "revision",
+          "script_evidence": {
+            "source_git_blob": "41d907a7a6f3ef9d3929b57b0b704b18c0f70ecc",
+            "source_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
+            "lines": [
+              159,
+              165,
+              167,
+              173,
+              177,
+              185,
+              189,
+              191
+            ]
+          },
+          "layout_errors": [],
+          "png_webp_pixel_equal": true,
+          "visual_review": "pending",
+          "files": {
+            "svg": {
+              "path": "defense-directives/lesson-030/diagrams/DR-030-D04-editorial-v1.svg",
+              "bytes": 5901,
+              "sha256": "aaad0a789c37f196d36a0d6c0526bd7babc174c8a00f23c8a6774cf6ba57a466"
+            },
+            "png": {
+              "path": "defense-directives/lesson-030/diagrams/DR-030-D04-editorial-v1.png",
+              "bytes": 181199,
+              "sha256": "bb9ab84b535255bb9008b30e64c35bb3cb679f630ae840c73c5c8312086c46e5"
+            },
+            "webp": {
+              "path": "defense-directives/lesson-030/diagrams/DR-030-D04-editorial-v1.webp",
+              "bytes": 53772,
+              "sha256": "e10d636ebce84eadf6ba0bd63250242b94df50a2ac743349276b2a44948b5c45"
+            }
+          },
+          "text_boxes": [
+            {
+              "text": "훈령  /  DR-030",
+              "x": 80,
+              "y": 52,
+              "width": 166,
+              "height": 27,
+              "fontSize": 25,
+              "role": "eyebrow"
+            },
+            {
+              "text": "조직·편성·운영",
+              "x": 1367.25,
+              "y": 54,
+              "width": 153,
+              "height": 23,
+              "fontSize": 23,
+              "role": "eyebrow"
+            },
+            {
+              "text": "동원 해제권자와 사후처리",
+              "x": 80,
+              "y": 127,
+              "width": 683,
+              "height": 61,
+              "fontSize": 64,
+              "role": "title"
+            },
+            {
+              "text": "지역단위·전국단위 해제의 판단요소를 비교한다.",
+              "x": 84,
+              "y": 208,
+              "width": 562,
+              "height": 28,
+              "fontSize": 28,
+              "role": "subtitle"
+            },
+            {
+              "text": "해제권자",
+              "x": 80,
+              "y": 334,
+              "width": 162,
+              "height": 43,
+              "fontSize": 44,
+              "role": "section-title"
+            },
+            {
+              "text": "발령권자와 동일",
+              "x": 84,
+              "y": 402,
+              "width": 181,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "제7항 · 기본",
+              "x": 144,
+              "y": 467,
+              "width": 121,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "지역예비군 동원 해제권자는 발령권자와 같다.",
+              "x": 144,
+              "y": 497,
+              "width": 681,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "제7항제1호 · 지역",
+              "x": 144,
+              "y": 612.32,
+              "width": 176,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "책임지역 작전 종결 후 지역안정도 평가·지자체장",
+              "x": 144,
+              "y": 643.32,
+              "width": 733,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "요구·주민 및 언론동향·경제활동 고려",
+              "x": 144,
+              "y": 694.44,
+              "width": 568,
+              "height": 34,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "제7항제2호 · 전국",
+              "x": 144,
+              "y": 808.76,
+              "width": 176,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "국방부장관: 작전 종결 여부·정치·경제·국민",
+              "x": 144,
+              "y": 839.76,
+              "width": 662,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "여론·동원지역 수임군부대장 의견 고려",
+              "x": 144,
+              "y": 890.88,
+              "width": 580,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "사후처리",
+              "x": 1030,
+              "y": 336,
+              "width": 155,
+              "height": 41,
+              "fontSize": 42,
+              "role": "section-title"
+            },
+            {
+              "text": "적용하는 별도 훈령",
+              "x": 1034,
+              "y": 402,
+              "width": 214,
+              "height": 27,
+              "fontSize": 27,
+              "role": "section-subtitle"
+            },
+            {
+              "text": "제8항",
+              "x": 1034,
+              "y": 467,
+              "width": 55,
+              "height": 23,
+              "fontSize": 23,
+              "role": "label"
+            },
+            {
+              "text": "「국방동원업무에 관한 훈령」",
+              "x": 1034,
+              "y": 498,
+              "width": 457,
+              "height": 35,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "제80조를 적용한다.",
+              "x": 1034,
+              "y": 548.12,
+              "width": 296,
+              "height": 36,
+              "fontSize": 36,
+              "role": "body"
+            },
+            {
+              "text": "지역안정도 평가(피해상황 정도 아님). 전국 해제는 국방부장관.",
+              "x": 80,
+              "y": 980,
+              "width": 595,
+              "height": 25,
+              "fontSize": 23,
+              "role": "note"
+            },
+            {
+              "text": "조직·편성 훈령 제30조 · DR-030-D04",
+              "x": 80,
+              "y": 1072,
+              "width": 353,
+              "height": 22,
+              "fontSize": 22,
+              "role": "footer"
+            },
+            {
+              "text": "무한회독",
+              "x": 1435.38,
+              "y": 1071,
+              "width": 85,
+              "height": 23,
+              "fontSize": 23,
+              "role": "footer"
+            }
+          ]
         }
       ]
     }

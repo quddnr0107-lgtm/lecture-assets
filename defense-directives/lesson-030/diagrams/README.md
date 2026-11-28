@@ -12,6 +12,7 @@
 
 근거: [조직·편성 훈령 제30조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J30-0:0) · 국방부훈령 제3104호
 
+
 ## DR-030-D02 · 집결과 무기·탄약 분배
 
 [WebP](DR-030-D02-editorial-v1.webp) · [PNG](DR-030-D02-editorial-v1.png) · [SVG 원본](DR-030-D02-editorial-v1.svg)
@@ -19,6 +20,7 @@
 ![집결과 무기·탄약 분배](DR-030-D02-editorial-v1.webp)
 
 근거: [조직·편성 훈령 제30조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J30-0:0) · 국방부훈령 제3104호
+
 
 ## DR-030-D03 · 작전투입·교대와 긴급조치
 
@@ -28,6 +30,7 @@
 
 근거: [조직·편성 훈령 제30조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J30-0:0) · 국방부훈령 제3104호
 
+
 ## DR-030-D04 · 동원 해제권자와 사후처리
 
 [WebP](DR-030-D04-editorial-v1.webp) · [PNG](DR-030-D04-editorial-v1.png) · [SVG 원본](DR-030-D04-editorial-v1.svg)
@@ -35,3 +38,4 @@
 ![동원 해제권자와 사후처리](DR-030-D04-editorial-v1.webp)
 
 근거: [조직·편성 훈령 제30조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J30-0:0) · 국방부훈령 제3104호
+
