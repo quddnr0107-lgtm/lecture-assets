@@ -348,7 +348,18 @@
         "DR-030-D02",
         "DR-030-D03"
       ],
-      "errors": []
+      "errors": [],
+      "visual_review": "passed",
+      "reviewed_at": "2026-11-28T17:24:15+09:00",
+      "review_commit": "0ecf67dd5b592d089ceadd9d588e99e46c8d7d0e",
+      "review_format": "webp",
+      "reviewed_ids": [
+        "DR-005-D02",
+        "DR-005-D06",
+        "DR-011-D05",
+        "DR-030-D02",
+        "DR-030-D03"
+      ]
     }
   ]
 }

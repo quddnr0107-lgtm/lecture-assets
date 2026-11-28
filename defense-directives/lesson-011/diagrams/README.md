@@ -48,3 +48,8 @@
 
 근거: [조직·편성 훈령 제11조](https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J11-0:0) · 국방부훈령 제3104호
 
+## 제80회 스크립트 대조 기록 (2026-11-28)
+
+- DR-011-D05: 공개 무손실 WebP 직접 검수 통과. PNG/WebP 픽셀 일치, 렌더 해시·레이아웃 검증 확인.
+- 강의 전체 대조 상태: 완료.
+- [검수 기록](../../diagrams/production-queue.json) · [원고 기준](../../diagrams/SCRIPT-BASIS.md)
