@@ -6,7 +6,7 @@
     "cutoff_date": "2027-02-02",
     "cutoff_kind": "existing_user_specified_exam80_basis"
   },
-  "checked_at": "2026-11-28T07:30:14+09:00",
+  "checked_at": "2026-11-28T12:25:06+09:00",
   "source_commit": "2d696ecb8a2805b0bc42df8ce5754ae91914371d",
   "script_bindings_verified": 78,
   "diagram_corrections": [
@@ -75,8 +75,8 @@
       "full_lesson_coverage_review": "pending"
     }
   ],
-  "full_lecture_coverage_reviews_completed": 46,
-  "remaining_full_lecture_reviews": 32,
+  "full_lecture_coverage_reviews_completed": 48,
+  "remaining_full_lecture_reviews": 30,
   "new_diagrams": 40,
   "revised_diagrams": 69,
   "priority_script_comparison": {
@@ -27167,7 +27167,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-009/diagrams/DR-009-D02-editorial-v1.svg",
@@ -27420,7 +27420,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "content_review": "passed_for_targeted_objective",
+          "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+          "visual_reviewed_at": "2026-11-28T12:25:06+09:00"
         },
         {
           "id": "DR-009-D03",
@@ -27439,7 +27442,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-009/diagrams/DR-009-D03-editorial-v1.svg",
@@ -27665,7 +27668,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "content_review": "passed_for_targeted_objective",
+          "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+          "visual_reviewed_at": "2026-11-28T12:25:06+09:00"
         },
         {
           "id": "DR-009-D05",
@@ -27684,7 +27690,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-009/diagrams/DR-009-D05-editorial-v1.svg",
@@ -27805,7 +27811,7 @@
             {
               "text": "소대본부·3개 기동분대",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 348,
               "height": 34,
               "fontSize": 36,
@@ -27904,7 +27910,7 @@
             {
               "text": "확산",
               "x": 860,
-              "y": 719.0,
+              "y": 719,
               "width": 66,
               "height": 36,
               "fontSize": 36,
@@ -27964,7 +27970,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "content_review": "passed_for_targeted_objective",
+          "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+          "visual_reviewed_at": "2026-11-28T12:25:06+09:00"
         },
         {
           "id": "DR-067-D02",
@@ -27982,7 +27991,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-067/diagrams/DR-067-D02-editorial-v1.svg",
@@ -28253,7 +28262,11 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "content_review": "revision_required",
+          "followup_required": "115,117행: 방침일부 보류기간 기산점(종사/근무 시작일), 수업연한 초과 제외 학생의 지역예비군부대 편성 명시.",
+          "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+          "visual_reviewed_at": "2026-11-28T12:25:06+09:00"
         },
         {
           "id": "DR-067-D03",
@@ -28269,7 +28282,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-067/diagrams/DR-067-D03-editorial-v1.svg",
@@ -28549,7 +28562,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "content_review": "passed_for_targeted_objective",
+          "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+          "visual_reviewed_at": "2026-11-28T12:25:06+09:00"
         },
         {
           "id": "DR-067-D07",
@@ -28566,7 +28582,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-067/diagrams/DR-067-D07-editorial-v1.svg",
@@ -28810,7 +28826,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "content_review": "passed_for_targeted_objective",
+          "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+          "visual_reviewed_at": "2026-11-28T12:25:06+09:00"
         },
         {
           "id": "DR-067-D08",
@@ -28827,7 +28846,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-067/diagrams/DR-067-D08-editorial-v1.svg",
@@ -29044,7 +29063,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "content_review": "passed_for_targeted_objective",
+          "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+          "visual_reviewed_at": "2026-11-28T12:25:06+09:00"
         },
         {
           "id": "DR-067-D09",
@@ -29065,7 +29087,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-067/diagrams/DR-067-D09-editorial-v1.svg",
@@ -29336,7 +29358,11 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "content_review": "revision_required",
+          "followup_required": "177행: 외항선원 하선일 기준 90일째부터 14일 이내 해소 신고 기한 추가.",
+          "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+          "visual_reviewed_at": "2026-11-28T12:25:06+09:00"
         },
         {
           "id": "DR-067-D10",
@@ -29354,7 +29380,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-067/diagrams/DR-067-D10-editorial-v1.svg",
@@ -29589,7 +29615,11 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "content_review": "revision_required",
+          "followup_required": "197행: 신분 상실 다음 날 부과 원칙의 대상은 법규보류자 및 방침 전면보류자임을 명시.",
+          "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+          "visual_reviewed_at": "2026-11-28T12:25:06+09:00"
         },
         {
           "id": "DR-067-D11",
@@ -29607,7 +29637,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-067/diagrams/DR-067-D11-editorial-v1.svg",
@@ -29887,7 +29917,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "content_review": "passed_for_targeted_objective",
+          "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+          "visual_reviewed_at": "2026-11-28T12:25:06+09:00"
         },
         {
           "id": "DR-002-D03",
@@ -29907,7 +29940,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-002/diagrams/DR-002-D03-editorial-v1.svg",
@@ -30160,7 +30193,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "content_review": "passed_for_targeted_objective",
+          "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+          "visual_reviewed_at": "2026-11-28T12:25:06+09:00"
         },
         {
           "id": "DR-002-D04",
@@ -30179,7 +30215,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-002/diagrams/DR-002-D04-editorial-v1.svg",
@@ -30405,7 +30441,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "content_review": "passed_for_targeted_objective",
+          "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+          "visual_reviewed_at": "2026-11-28T12:25:06+09:00"
         },
         {
           "id": "DR-002-D05",
@@ -30426,7 +30465,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-002/diagrams/DR-002-D05-editorial-v1.svg",
@@ -30679,7 +30718,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "content_review": "passed_for_targeted_objective",
+          "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+          "visual_reviewed_at": "2026-11-28T12:25:06+09:00"
         },
         {
           "id": "DR-002-D06",
@@ -30697,7 +30739,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-002/diagrams/DR-002-D06-editorial-v1.svg",
@@ -30932,7 +30974,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "content_review": "passed_for_targeted_objective",
+          "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+          "visual_reviewed_at": "2026-11-28T12:25:06+09:00"
         }
       ]
     }
@@ -31493,6 +31538,44 @@
       "render_commit": "e8a97783ed7ed331fe15da1e1e76b92266ab734a",
       "remaining_reviews": 32,
       "visual_reviewed_at": "2026-11-28T07:30:14+09:00"
+    },
+    {
+      "run_id": "dr-20261128-122506-visual",
+      "completed_lessons": [
+        "DR-009",
+        "DR-002"
+      ],
+      "visual_reviewed": [
+        "DR-009-D02",
+        "DR-009-D03",
+        "DR-009-D05",
+        "DR-067-D02",
+        "DR-067-D03",
+        "DR-067-D07",
+        "DR-067-D08",
+        "DR-067-D09",
+        "DR-067-D10",
+        "DR-067-D11",
+        "DR-002-D03",
+        "DR-002-D04",
+        "DR-002-D05",
+        "DR-002-D06"
+      ],
+      "visual_reviewed_total": 26,
+      "asset_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+      "remaining_reviews": 30,
+      "visual_reviewed_at": "2026-11-28T12:25:06+09:00",
+      "followups": [
+        "115,117행: 방침일부 보류기간 기산점(종사/근무 시작일), 수업연한 초과 제외 학생의 지역예비군부대 편성 명시.",
+        "177행: 외항선원 하선일 기준 90일째부터 14일 이내 해소 신고 기한 추가.",
+        "197행: 신분 상실 다음 날 부과 원칙의 대상은 법규보류자 및 방침 전면보류자임을 명시.",
+        "D05: 207–213행, 국외·선원·경찰학교 별도 부과 시점, 국가유공자 등 기부과 훈련 이수, 전면→일부 보류 전환 시 기이수 시간 비교 기준 구체화.",
+        "D08: 131행, 질병 등으로 예비군복무 감당 불가 시 병역처분변경 신청이라는 전제 명시.",
+        "D01: 도입부 및 제1항, 보류 적용 범위와 별표5·6 법규/방침 구분 보강 검토."
+      ],
+      "content_review_lesson": "DR-067",
+      "new_diagrams": 0,
+      "revised_diagrams": 0
     }
   ]
 }

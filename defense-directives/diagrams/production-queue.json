@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-28T00:57:12.181Z",
+  "updated_at": "2026-11-28T12:25:06+09:00",
   "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
     "status": "files_completed",
@@ -66,106 +66,143 @@
     ]
   },
   "state": {
-    "active_run": {
-      "id": "dr-full-audit-20261128",
-      "started_at": "2026-11-28T00:57:12.181Z",
-      "lease_expires_at": "2026-11-28T02:57:12.181Z",
-      "claimed_job_ids": [
-        "DR-060-coverage-review-v1",
-        "DR-013-coverage-review-v1",
-        "DR-024-coverage-review-v1",
-        "DR-062-coverage-review-v1",
-        "DR-009-coverage-review-v1",
-        "DR-067-coverage-review-v1",
-        "DR-045-coverage-review-v1",
-        "DR-047-coverage-review-v1",
-        "DR-078-coverage-review-v1",
-        "DR-002-coverage-review-v1",
-        "DR-005-coverage-review-v1",
-        "DR-011-coverage-review-v1",
-        "DR-030-coverage-review-v1",
-        "DR-035-coverage-review-v1",
-        "DR-054-coverage-review-v1",
-        "DR-056-coverage-review-v1",
-        "DR-057-coverage-review-v1",
-        "DR-071-coverage-review-v1",
-        "DR-074-coverage-review-v1",
-        "DR-012-coverage-review-v1",
-        "DR-014-coverage-review-v1",
-        "DR-015-coverage-review-v1",
-        "DR-017-coverage-review-v1",
-        "DR-018-coverage-review-v1",
-        "DR-019-coverage-review-v1",
-        "DR-026-coverage-review-v1",
-        "DR-032-coverage-review-v1",
-        "DR-033-coverage-review-v1",
-        "DR-038-coverage-review-v1",
-        "DR-044-coverage-review-v1",
-        "DR-055-coverage-review-v1",
-        "DR-066-coverage-review-v1",
-        "DR-068-coverage-review-v1",
-        "DR-075-coverage-review-v1",
-        "DR-004-coverage-review-v1",
-        "DR-006-coverage-review-v1",
-        "DR-007-coverage-review-v1",
-        "DR-008-coverage-review-v1",
-        "DR-021-coverage-review-v1",
-        "DR-022-coverage-review-v1",
-        "DR-028-coverage-review-v1",
-        "DR-029-coverage-review-v1",
-        "DR-031-coverage-review-v1",
-        "DR-039-coverage-review-v1",
-        "DR-049-coverage-review-v1",
-        "DR-051-coverage-review-v1",
-        "DR-052-coverage-review-v1",
-        "DR-058-coverage-review-v1",
-        "DR-059-coverage-review-v1",
-        "DR-061-coverage-review-v1",
-        "DR-064-coverage-review-v1",
-        "DR-065-coverage-review-v1",
-        "DR-072-coverage-review-v1",
-        "DR-073-coverage-review-v1",
-        "DR-001-coverage-review-v1",
-        "DR-003-coverage-review-v1",
-        "DR-010-coverage-review-v1",
-        "DR-016-coverage-review-v1",
-        "DR-020-coverage-review-v1",
-        "DR-023-coverage-review-v1",
-        "DR-025-coverage-review-v1",
-        "DR-027-coverage-review-v1",
-        "DR-034-coverage-review-v1",
-        "DR-036-coverage-review-v1",
-        "DR-037-coverage-review-v1",
-        "DR-040-coverage-review-v1",
-        "DR-041-coverage-review-v1",
-        "DR-042-coverage-review-v1",
-        "DR-043-coverage-review-v1",
-        "DR-046-coverage-review-v1",
-        "DR-048-coverage-review-v1",
-        "DR-050-coverage-review-v1",
-        "DR-053-coverage-review-v1",
-        "DR-063-coverage-review-v1",
-        "DR-069-coverage-review-v1",
-        "DR-070-coverage-review-v1",
-        "DR-076-coverage-review-v1",
-        "DR-077-coverage-review-v1"
-      ],
-      "mode": "user_requested_full_audit; coordinator plus 3 content reviewers",
-      "source_commit": "352b4eb71cced810612b05c9a531060e1470d1f5",
-      "assets_start_commit": "6de9fbddf5e94a97e2a343c692a1fa333adaae34"
-    },
+    "active_run": null,
     "last_successful_run": {
-      "id": "dr-20261128-062514-script",
-      "render_commit": "e8a97783ed7ed331fe15da1e1e76b92266ab734a",
+      "id": "dr-20261128-122506-visual",
+      "status": "completed_checkpoint_with_followups",
+      "started_at": "2026-11-28T12:25:06+09:00",
+      "completed_at": "2026-11-28T12:25:06+09:00",
       "new_diagrams": 0,
-      "revised_diagrams": 6,
-      "completed_reviews": 3,
-      "visual_qa": "passed"
+      "revised_diagrams": 0,
+      "completed_reviews": 2,
+      "completed_lessons": [
+        "DR-009",
+        "DR-002"
+      ],
+      "visual_reviewed": [
+        "DR-009-D02",
+        "DR-009-D03",
+        "DR-009-D05",
+        "DR-067-D02",
+        "DR-067-D03",
+        "DR-067-D07",
+        "DR-067-D08",
+        "DR-067-D09",
+        "DR-067-D10",
+        "DR-067-D11",
+        "DR-002-D03",
+        "DR-002-D04",
+        "DR-002-D05",
+        "DR-002-D06"
+      ],
+      "visual_reviewed_total": 26,
+      "asset_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+      "source_commit": "f35ed684519bc4a91897366fbbe68e07181f4fa6",
+      "remaining_reviews": 30,
+      "requeued_diagrams": [
+        "DR-067-D02",
+        "DR-067-D09",
+        "DR-067-D10"
+      ],
+      "additional_revision_targets": [
+        "DR-067-D05",
+        "DR-067-D08",
+        "DR-067-D01"
+      ],
+      "expired_lease_reconciled": {
+        "id": "dr-full-audit-20261128",
+        "started_at": "2026-11-28T00:57:12.181Z",
+        "lease_expires_at": "2026-11-28T02:57:12.181Z",
+        "claimed_job_ids": [
+          "DR-060-coverage-review-v1",
+          "DR-013-coverage-review-v1",
+          "DR-024-coverage-review-v1",
+          "DR-062-coverage-review-v1",
+          "DR-009-coverage-review-v1",
+          "DR-067-coverage-review-v1",
+          "DR-045-coverage-review-v1",
+          "DR-047-coverage-review-v1",
+          "DR-078-coverage-review-v1",
+          "DR-002-coverage-review-v1",
+          "DR-005-coverage-review-v1",
+          "DR-011-coverage-review-v1",
+          "DR-030-coverage-review-v1",
+          "DR-035-coverage-review-v1",
+          "DR-054-coverage-review-v1",
+          "DR-056-coverage-review-v1",
+          "DR-057-coverage-review-v1",
+          "DR-071-coverage-review-v1",
+          "DR-074-coverage-review-v1",
+          "DR-012-coverage-review-v1",
+          "DR-014-coverage-review-v1",
+          "DR-015-coverage-review-v1",
+          "DR-017-coverage-review-v1",
+          "DR-018-coverage-review-v1",
+          "DR-019-coverage-review-v1",
+          "DR-026-coverage-review-v1",
+          "DR-032-coverage-review-v1",
+          "DR-033-coverage-review-v1",
+          "DR-038-coverage-review-v1",
+          "DR-044-coverage-review-v1",
+          "DR-055-coverage-review-v1",
+          "DR-066-coverage-review-v1",
+          "DR-068-coverage-review-v1",
+          "DR-075-coverage-review-v1",
+          "DR-004-coverage-review-v1",
+          "DR-006-coverage-review-v1",
+          "DR-007-coverage-review-v1",
+          "DR-008-coverage-review-v1",
+          "DR-021-coverage-review-v1",
+          "DR-022-coverage-review-v1",
+          "DR-028-coverage-review-v1",
+          "DR-029-coverage-review-v1",
+          "DR-031-coverage-review-v1",
+          "DR-039-coverage-review-v1",
+          "DR-049-coverage-review-v1",
+          "DR-051-coverage-review-v1",
+          "DR-052-coverage-review-v1",
+          "DR-058-coverage-review-v1",
+          "DR-059-coverage-review-v1",
+          "DR-061-coverage-review-v1",
+          "DR-064-coverage-review-v1",
+          "DR-065-coverage-review-v1",
+          "DR-072-coverage-review-v1",
+          "DR-073-coverage-review-v1",
+          "DR-001-coverage-review-v1",
+          "DR-003-coverage-review-v1",
+          "DR-010-coverage-review-v1",
+          "DR-016-coverage-review-v1",
+          "DR-020-coverage-review-v1",
+          "DR-023-coverage-review-v1",
+          "DR-025-coverage-review-v1",
+          "DR-027-coverage-review-v1",
+          "DR-034-coverage-review-v1",
+          "DR-036-coverage-review-v1",
+          "DR-037-coverage-review-v1",
+          "DR-040-coverage-review-v1",
+          "DR-041-coverage-review-v1",
+          "DR-042-coverage-review-v1",
+          "DR-043-coverage-review-v1",
+          "DR-046-coverage-review-v1",
+          "DR-048-coverage-review-v1",
+          "DR-050-coverage-review-v1",
+          "DR-053-coverage-review-v1",
+          "DR-063-coverage-review-v1",
+          "DR-069-coverage-review-v1",
+          "DR-070-coverage-review-v1",
+          "DR-076-coverage-review-v1",
+          "DR-077-coverage-review-v1"
+        ],
+        "mode": "user_requested_full_audit; coordinator plus 3 content reviewers",
+        "source_commit": "352b4eb71cced810612b05c9a531060e1470d1f5",
+        "assets_start_commit": "6de9fbddf5e94a97e2a343c692a1fa333adaae34"
+      },
+      "lease_reconciliation_reason": "expired 02:57 UTC; queue and QA blobs unchanged, no renewed checkpoint; final write guarded by expected main HEAD"
     },
     "coverage_reviews_total": 78,
-    "coverage_reviews_queued": 32,
-    "coverage_reviews_completed": 46,
-    "confirmed_production_jobs": 109,
+    "coverage_reviews_queued": 30,
+    "coverage_reviews_completed": 48,
+    "confirmed_production_jobs": 120,
     "diagrams_added_after_baseline": 40,
     "diagrams_revised_after_baseline": 69,
     "script_bindings_verified": 78,
@@ -180,10 +217,10 @@
       "report": "defense-directives/diagrams/script-alignment-qa.json",
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
-    "production_jobs_queued": 0,
-    "production_jobs_qa": 14,
-    "production_jobs_completed": 109,
-    "production_jobs_running": 14,
+    "production_jobs_queued": 6,
+    "production_jobs_qa": 0,
+    "production_jobs_completed": 120,
+    "production_jobs_running": 0,
     "full_audit": {
       "id": "dr-full-audit-20261128",
       "status": "in_progress",
@@ -450,7 +487,7 @@
       "lesson_id": "DR-009",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제9조, 편성방법",
       "priority": 5,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 9,
       "existing_diagram_ids": [
         "DR-009-D01",
@@ -470,23 +507,35 @@
         "국방부훈령 제3104호"
       ],
       "output_directory": "defense-directives/lesson-009/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
+        "existing_svg_sha256": [
+          "7dd28a284cefbefce4378b3f379071576fad4a4f9681515e78a381f88a85cf04",
+          "358d4e76bec0c45d88c158942ba6f949b7a81b3b086f30a6e8b84ea11c31918b",
+          "f150a66915d937105df61c0c42c5bec7043061af0de8a332488db33ba0133403",
+          "08285297d8162e322122047bec87abd17efb1b6cb08271858e30638caa5d6c82",
+          "7f0ef1a952ebcf6008028bf58dbe079302658d97f20ec7d2ff15e185d11e7293",
+          "a9c03006d2d13101745f10870d4897e4bfec6d908447ba40b7a79d9f2d6ebbfd",
+          "d14d7f3246536552ed1f97a19f5a46b63328f85e41e2a3cade14b4545d13f872",
+          "66f0fad2711e11f3e3a3aa8f705909294015c1606c139a07aca1052867d828e1",
+          "2c63cf828a30485039c445b2b0862fba1b5262e35c25a4813320ffe75969a0a7"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-28T12:25:06+09:00",
       "result": {
-        "scope": "기존 스크립트 전문의 주요 설명 및 기존 구조화 도식 대조",
-        "full_review_completed": false,
+        "scope": "제80회 기존 원고 전문 및 공개 PNG 전장 대조",
+        "full_review_completed": true,
         "source_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
         "source_git_blob": "3ecda6a43480e8512f969ce798eeb05611a91527",
-        "uncovered_required_learning_objectives": [
-          "도서 통합 조건과 접적도서 예외 정확화",
-          "동원지정·미지정 소대의 별도 편성 대상 대응",
-          "기동대 편성 및 감시정찰반 설치 조건"
-        ],
+        "uncovered_required_learning_objectives": [],
         "additional_diagrams_required": false,
-        "visual_qa": "수정·신규 렌더 및 실물 검수 필요"
+        "visual_qa": "전체 9장 실물 확인; 겹침·잘림 없음",
+        "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+        "coverage": "편성 단위·지역대/중대/기동대 구조, 별표3–8, 도서 및 동원지정 예외, 본부 인원·임무"
       },
       "script_ref": "DR-009",
       "script_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
@@ -494,7 +543,10 @@
         "DR-009-exam80-06-new-203000",
         "DR-009-exam80-07-new-203000",
         "DR-009-exam80-08-new-203000",
-        "DR-009-exam80-09-new-203000"
+        "DR-009-exam80-09-new-203000",
+        "DR-009-D02-script-082410",
+        "DR-009-D03-script-082410",
+        "DR-009-D05-script-082410"
       ]
     },
     {
@@ -525,27 +577,44 @@
         "국방부훈령 제3216호"
       ],
       "output_directory": "defense-directives/lesson-067/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+        "existing_svg_sha256": [
+          "4da02dbc6d2c7761ce51e2f8530a69ed2361490345c069977de34c76dc1fe736",
+          "27806eead112a594a86aee825a4c9addba07860ba260ea42f933faa85d251e21",
+          "2cda77651b76f4cf0ab7eea299d3a6ebabaea7fa2ec95fcc2a2217dad1061012",
+          "0e309afdd6edb7f99dfaefd08fba549753b6525c0fabdbf2a96c3ad7bbf6302b",
+          "d92d6988250dcbd7fd8119728b6a1312e306ab56e395ce0b0ac8c96b9ff09aed",
+          "06934cd9a4d0cea421b664c1ae91a4d688c34be12f1080026013f4cfe33c80ba",
+          "309b9f779fecf8a269cfb6daad5aca80a84952fa44b93d7628c2dfa1aabec86c",
+          "7f60f909e293ca2c9bea605c2ff192d8ecc08e6146da7f907c8ce1e5a0494ed3",
+          "a739e7bb86e662351f7537743ab4c15905d72acaa4816ac4b05afb21c4f108cf",
+          "365154f913bb73913452e188d11d085de71e482d36e63c235578c4c26fe13bb0",
+          "a33ee6346a88c1567d886d61a863e6aadf4e04424b94a7574b0c20acf939ddd3"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
       "result": {
-        "scope": "기존 스크립트 전문의 주요 설명 및 기존 구조화 도식 대조",
+        "scope": "제80회 기존 원고 전문 및 공개 PNG 전장 대조",
         "full_review_completed": false,
         "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
         "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
         "uncovered_required_learning_objectives": [
-          "기간제 교사 재계약·학생 보류 기간 조건",
-          "보류원서 대리 제출과 직권 처리 조건",
-          "질병 보류 두 심의 사유 구분",
-          "병역처분 변경 근거와 별도 보류 대상 정확화",
-          "보류해소 신고·전산입력 기한과 휴직·휴학·외항선원 비교",
-          "보류 대상 훈련 차수와 신분 상실 후 부과 시점",
-          "보류자 관리·전출입 문서 처리 비교"
+          "115,117행: 방침일부 보류기간 기산점(종사/근무 시작일), 수업연한 초과 제외 학생의 지역예비군부대 편성 명시.",
+          "177행: 외항선원 하선일 기준 90일째부터 14일 이내 해소 신고 기한 추가.",
+          "197행: 신분 상실 다음 날 부과 원칙의 대상은 법규보류자 및 방침 전면보류자임을 명시.",
+          "D05: 207–213행, 국외·선원·경찰학교 별도 부과 시점, 국가유공자 등 기부과 훈련 이수, 전면→일부 보류 전환 시 기이수 시간 비교 기준 구체화.",
+          "D08: 131행, 질병 등으로 예비군복무 감당 불가 시 병역처분변경 신청이라는 전제 명시.",
+          "D01: 도입부 및 제1항, 보류 적용 범위와 별표5·6 법규/방침 구분 보강 검토."
         ],
-        "additional_diagrams_required": true,
-        "visual_qa": "수정·신규 렌더 및 실물 검수 필요"
+        "additional_diagrams_required": false,
+        "visual_qa": "전체 11장 실물 확인; 겹침·잘림 없음",
+        "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+        "coverage": "보류 판단·기간·신고·전출입·훈련 부과를 대조; 추가 보강 필요"
       },
       "script_ref": "DR-067",
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
@@ -723,7 +792,7 @@
       "lesson_id": "DR-002",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제2조, 정의",
       "priority": 10,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 6,
       "existing_diagram_ids": [
         "DR-002-D01",
@@ -740,24 +809,32 @@
         "국방부훈령 제3104호"
       ],
       "output_directory": "defense-directives/lesson-002/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
+        "existing_svg_sha256": [
+          "c74400833b3026d77a9bb2f1b221d7b6c3017219de88a6816d33052bfc9f7b0c",
+          "f0fd75c6de70eda2fe8a7cf4f185313706127c18c52909db07548d4c4f84232c",
+          "6d840b52585f3a40239da510b6694470ecb7d55b37a5b7741aa5add6124aa879",
+          "33df893cb500570e0107ec8b8cbbf5fc919b96da3db5b32f57ff766d9b52ed33",
+          "a0f1e8e880322f1d628793ba7e57f53414d89ea28e93af49d65bfd98624717bc",
+          "5113ea8c032768c0f7b894356b4cb01eef4101ff04c3375fc683cc15642421f1"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-28T12:25:06+09:00",
       "result": {
-        "scope": "기존 스크립트 전문의 주요 설명 및 기존 구조화 도식 대조",
-        "full_review_completed": false,
+        "scope": "제80회 기존 원고 전문 및 공개 PNG 전장 대조",
+        "full_review_completed": true,
         "source_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
         "source_git_blob": "1fdb1e871dd507b7eafff5be6be788eb00abc150",
-        "uncovered_required_learning_objectives": [
-          "지역대 본부 설치 장소와 중간 지휘제대 명확화",
-          "관리대대장 정의의 해군·해병대 단서",
-          "권한 위임과 자료 공유 출발점 구분",
-          "별표 1 수임군부대장 현황 및 숫자 구분"
-        ],
-        "additional_diagrams_required": true,
-        "visual_qa": "수정·신규 렌더 및 실물 검수 필요"
+        "uncovered_required_learning_objectives": [],
+        "additional_diagrams_required": false,
+        "visual_qa": "전체 6장 실물 확인; 겹침·잘림 없음",
+        "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+        "coverage": "14개 정의와 별표1, 주체·단위·예외·숫자"
       },
       "script_ref": "DR-002",
       "script_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
@@ -765,7 +842,11 @@
         "DR-002-exam80-01-revision-203000",
         "DR-002-exam80-03-revision-203000",
         "DR-002-exam80-04-revision-203000",
-        "DR-002-exam80-05-new-203000"
+        "DR-002-exam80-05-new-203000",
+        "DR-002-D03-script-082410",
+        "DR-002-D04-script-082410",
+        "DR-002-D05-script-082410",
+        "DR-002-D06-script-082410"
       ]
     },
     {
@@ -9523,7 +9604,7 @@
       "script_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-009|dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9|75,91,97,111,119,131|도서 통합 조건과 접적도서 예외 정확화|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-009/diagrams/DR-009-D02-editorial-v1.svg",
@@ -9564,7 +9645,11 @@
       "diagram_id": "DR-009-D02",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "visual_reviewed_at": "2026-11-28T12:25:06+09:00",
+      "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+      "visual_review_scope": "published PNG: actual image inspected; text legible, no visible overlap/clipping; PNG/WebP equivalence from previous renderer record",
+      "completed_at": "2026-11-28T12:25:06+09:00"
     },
     {
       "id": "DR-009-D03-script-082410",
@@ -9577,7 +9662,7 @@
       "script_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-009|dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9|137,141,153,165,195,207|동원지정·미지정 소대의 별도 편성 대상 대응|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-009/diagrams/DR-009-D03-editorial-v1.svg",
@@ -9618,7 +9703,11 @@
       "diagram_id": "DR-009-D03",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "visual_reviewed_at": "2026-11-28T12:25:06+09:00",
+      "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+      "visual_review_scope": "published PNG: actual image inspected; text legible, no visible overlap/clipping; PNG/WebP equivalence from previous renderer record",
+      "completed_at": "2026-11-28T12:25:06+09:00"
     },
     {
       "id": "DR-009-D05-script-082410",
@@ -9631,7 +9720,7 @@
       "script_sha256": "dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-009|dc5fb37a4f795aa8876b3e769ea3540c75996699c76b3729658aa18c3e6232a9|217,219,221,225,235,241|기동대 편성 및 감시정찰반 설치 조건|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-009/diagrams/DR-009-D05-editorial-v1.svg",
@@ -9672,7 +9761,11 @@
       "diagram_id": "DR-009-D05",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "visual_reviewed_at": "2026-11-28T12:25:06+09:00",
+      "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+      "visual_review_scope": "published PNG: actual image inspected; text legible, no visible overlap/clipping; PNG/WebP equivalence from previous renderer record",
+      "completed_at": "2026-11-28T12:25:06+09:00"
     },
     {
       "id": "DR-067-D02-script-082410",
@@ -9685,24 +9778,8 @@
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|85,97,115,117,119|기간제 교사 재계약·학생 보류 기간 조건|editorial-v1",
-      "status": "qa",
-      "outputs": [
-        {
-          "path": "defense-directives/lesson-067/diagrams/DR-067-D02-editorial-v1.svg",
-          "bytes": 6909,
-          "sha256": "27806eead112a594a86aee825a4c9addba07860ba260ea42f933faa85d251e21"
-        },
-        {
-          "path": "defense-directives/lesson-067/diagrams/DR-067-D02-editorial-v1.png",
-          "bytes": 204780,
-          "sha256": "accdafb40df1858f30db6a1293a70f6a6df3a46d5e7880816eedb89073129179"
-        },
-        {
-          "path": "defense-directives/lesson-067/diagrams/DR-067-D02-editorial-v1.webp",
-          "bytes": 61496,
-          "sha256": "074011521feeb180ac1fc2bcbb681e4f3fa28772009cdf869d380c2761ad0626"
-        }
-      ],
+      "status": "queued",
+      "outputs": [],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
@@ -9725,7 +9802,28 @@
       "diagram_id": "DR-067-D02",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "visual_reviewed_at": "2026-11-28T12:25:06+09:00",
+      "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+      "visual_review_scope": "published PNG: actual image inspected; text legible, no visible overlap/clipping; PNG/WebP equivalence from previous renderer record",
+      "followup_required": "115,117행: 방침일부 보류기간 기산점(종사/근무 시작일), 수업연한 초과 제외 학생의 지역예비군부대 편성 명시.",
+      "previous_outputs": [
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D02-editorial-v1.svg",
+          "bytes": 6909,
+          "sha256": "27806eead112a594a86aee825a4c9addba07860ba260ea42f933faa85d251e21"
+        },
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D02-editorial-v1.png",
+          "bytes": 204780,
+          "sha256": "accdafb40df1858f30db6a1293a70f6a6df3a46d5e7880816eedb89073129179"
+        },
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D02-editorial-v1.webp",
+          "bytes": 61496,
+          "sha256": "074011521feeb180ac1fc2bcbb681e4f3fa28772009cdf869d380c2761ad0626"
+        }
+      ]
     },
     {
       "id": "DR-067-D03-script-082410",
@@ -9738,7 +9836,7 @@
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|63,125,127|보류원서 대리 제출과 직권 처리 조건|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D03-editorial-v1.svg",
@@ -9776,7 +9874,11 @@
       "diagram_id": "DR-067-D03",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "visual_reviewed_at": "2026-11-28T12:25:06+09:00",
+      "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+      "visual_review_scope": "published PNG: actual image inspected; text legible, no visible overlap/clipping; PNG/WebP equivalence from previous renderer record",
+      "completed_at": "2026-11-28T12:25:06+09:00"
     },
     {
       "id": "DR-067-D07-script-082410",
@@ -9789,7 +9891,7 @@
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|97,101,109,113|질병 보류 두 심의 사유 구분|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D07-editorial-v1.svg",
@@ -9828,7 +9930,11 @@
       "diagram_id": "DR-067-D07",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "visual_reviewed_at": "2026-11-28T12:25:06+09:00",
+      "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+      "visual_review_scope": "published PNG: actual image inspected; text legible, no visible overlap/clipping; PNG/WebP equivalence from previous renderer record",
+      "completed_at": "2026-11-28T12:25:06+09:00"
     },
     {
       "id": "DR-067-D08-script-082410",
@@ -9841,7 +9947,7 @@
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|131,133,139,141|병역처분 변경 근거와 별도 보류 대상 정확화|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D08-editorial-v1.svg",
@@ -9880,7 +9986,11 @@
       "diagram_id": "DR-067-D08",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "visual_reviewed_at": "2026-11-28T12:25:06+09:00",
+      "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+      "visual_review_scope": "published PNG: actual image inspected; text legible, no visible overlap/clipping; PNG/WebP equivalence from previous renderer record",
+      "completed_at": "2026-11-28T12:25:06+09:00"
     },
     {
       "id": "DR-067-D09-script-082410",
@@ -9893,24 +10003,8 @@
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|147,151,153,161,163,165,169,181|보류해소 신고·전산입력 기한과 휴직·휴학·외항선원 비교|editorial-v1",
-      "status": "qa",
-      "outputs": [
-        {
-          "path": "defense-directives/lesson-067/diagrams/DR-067-D09-editorial-v1.svg",
-          "bytes": 6980,
-          "sha256": "a739e7bb86e662351f7537743ab4c15905d72acaa4816ac4b05afb21c4f108cf"
-        },
-        {
-          "path": "defense-directives/lesson-067/diagrams/DR-067-D09-editorial-v1.png",
-          "bytes": 198720,
-          "sha256": "385fd57f58adec2aef9eae7284855a856ca7c4813988d246e61ddfb8e97a697e"
-        },
-        {
-          "path": "defense-directives/lesson-067/diagrams/DR-067-D09-editorial-v1.webp",
-          "bytes": 59854,
-          "sha256": "616d3607d1c3235cfcd2dd784df65e23b6aba6069e177bf30ce7f85bcc266577"
-        }
-      ],
+      "status": "queued",
+      "outputs": [],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
@@ -9936,7 +10030,28 @@
       "diagram_id": "DR-067-D09",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "visual_reviewed_at": "2026-11-28T12:25:06+09:00",
+      "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+      "visual_review_scope": "published PNG: actual image inspected; text legible, no visible overlap/clipping; PNG/WebP equivalence from previous renderer record",
+      "followup_required": "177행: 외항선원 하선일 기준 90일째부터 14일 이내 해소 신고 기한 추가.",
+      "previous_outputs": [
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D09-editorial-v1.svg",
+          "bytes": 6980,
+          "sha256": "a739e7bb86e662351f7537743ab4c15905d72acaa4816ac4b05afb21c4f108cf"
+        },
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D09-editorial-v1.png",
+          "bytes": 198720,
+          "sha256": "385fd57f58adec2aef9eae7284855a856ca7c4813988d246e61ddfb8e97a697e"
+        },
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D09-editorial-v1.webp",
+          "bytes": 59854,
+          "sha256": "616d3607d1c3235cfcd2dd784df65e23b6aba6069e177bf30ce7f85bcc266577"
+        }
+      ]
     },
     {
       "id": "DR-067-D10-script-082410",
@@ -9949,24 +10064,8 @@
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|187,189,197,199,201|보류 대상 훈련 차수와 신분 상실 후 부과 시점|editorial-v1",
-      "status": "qa",
-      "outputs": [
-        {
-          "path": "defense-directives/lesson-067/diagrams/DR-067-D10-editorial-v1.svg",
-          "bytes": 6169,
-          "sha256": "365154f913bb73913452e188d11d085de71e482d36e63c235578c4c26fe13bb0"
-        },
-        {
-          "path": "defense-directives/lesson-067/diagrams/DR-067-D10-editorial-v1.png",
-          "bytes": 163580,
-          "sha256": "20c962820b4483b13a460b3c89853a41967c7a634fe2d74235d99c3fe567fe66"
-        },
-        {
-          "path": "defense-directives/lesson-067/diagrams/DR-067-D10-editorial-v1.webp",
-          "bytes": 50578,
-          "sha256": "18281771c8e90b0874e311eae463347e2e9e852f4bd1304b1bc29fa4edc88607"
-        }
-      ],
+      "status": "queued",
+      "outputs": [],
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
@@ -9989,7 +10088,28 @@
       "diagram_id": "DR-067-D10",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "visual_reviewed_at": "2026-11-28T12:25:06+09:00",
+      "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+      "visual_review_scope": "published PNG: actual image inspected; text legible, no visible overlap/clipping; PNG/WebP equivalence from previous renderer record",
+      "followup_required": "197행: 신분 상실 다음 날 부과 원칙의 대상은 법규보류자 및 방침 전면보류자임을 명시.",
+      "previous_outputs": [
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D10-editorial-v1.svg",
+          "bytes": 6169,
+          "sha256": "365154f913bb73913452e188d11d085de71e482d36e63c235578c4c26fe13bb0"
+        },
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D10-editorial-v1.png",
+          "bytes": 163580,
+          "sha256": "20c962820b4483b13a460b3c89853a41967c7a634fe2d74235d99c3fe567fe66"
+        },
+        {
+          "path": "defense-directives/lesson-067/diagrams/DR-067-D10-editorial-v1.webp",
+          "bytes": 50578,
+          "sha256": "18281771c8e90b0874e311eae463347e2e9e852f4bd1304b1bc29fa4edc88607"
+        }
+      ]
     },
     {
       "id": "DR-067-D11-script-082410",
@@ -10002,7 +10122,7 @@
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|215,217,221,229,233|보류자 관리·전출입 문서 처리 비교|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-067/diagrams/DR-067-D11-editorial-v1.svg",
@@ -10042,7 +10162,11 @@
       "diagram_id": "DR-067-D11",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "visual_reviewed_at": "2026-11-28T12:25:06+09:00",
+      "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+      "visual_review_scope": "published PNG: actual image inspected; text legible, no visible overlap/clipping; PNG/WebP equivalence from previous renderer record",
+      "completed_at": "2026-11-28T12:25:06+09:00"
     },
     {
       "id": "DR-002-D03-script-082410",
@@ -10055,7 +10179,7 @@
       "script_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-002|8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e|95,97,109,113,123,127,139|지역대 본부 설치 장소와 중간 지휘제대 명확화|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-002/diagrams/DR-002-D03-editorial-v1.svg",
@@ -10097,7 +10221,11 @@
       "diagram_id": "DR-002-D03",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "visual_reviewed_at": "2026-11-28T12:25:06+09:00",
+      "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+      "visual_review_scope": "published PNG: actual image inspected; text legible, no visible overlap/clipping; PNG/WebP equivalence from previous renderer record",
+      "completed_at": "2026-11-28T12:25:06+09:00"
     },
     {
       "id": "DR-002-D04-script-082410",
@@ -10110,7 +10238,7 @@
       "script_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-002|8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e|69,89,145,161,177,189|관리대대장 정의의 해군·해병대 단서|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-002/diagrams/DR-002-D04-editorial-v1.svg",
@@ -10151,7 +10279,11 @@
       "diagram_id": "DR-002-D04",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "visual_reviewed_at": "2026-11-28T12:25:06+09:00",
+      "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+      "visual_review_scope": "published PNG: actual image inspected; text legible, no visible overlap/clipping; PNG/WebP equivalence from previous renderer record",
+      "completed_at": "2026-11-28T12:25:06+09:00"
     },
     {
       "id": "DR-002-D05-script-082410",
@@ -10164,7 +10296,7 @@
       "script_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-002|8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e|193,197,199,205,221,235,239,241|권한 위임과 자료 공유 출발점 구분|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-002/diagrams/DR-002-D05-editorial-v1.svg",
@@ -10207,7 +10339,11 @@
       "diagram_id": "DR-002-D05",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "visual_reviewed_at": "2026-11-28T12:25:06+09:00",
+      "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+      "visual_review_scope": "published PNG: actual image inspected; text legible, no visible overlap/clipping; PNG/WebP equivalence from previous renderer record",
+      "completed_at": "2026-11-28T12:25:06+09:00"
     },
     {
       "id": "DR-002-D06-script-082410",
@@ -10220,7 +10356,7 @@
       "script_sha256": "8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-002|8a7096e312e5f41e4bab5d0e2a08495008e91867ff27f3c328af472d6b2b594e|145,163,165,167,171|별표 1 수임군부대장 현황 및 숫자 구분|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "outputs": [
         {
           "path": "defense-directives/lesson-002/diagrams/DR-002-D06-editorial-v1.svg",
@@ -10260,7 +10396,108 @@
       "diagram_id": "DR-002-D06",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "passed",
+      "visual_reviewed_at": "2026-11-28T12:25:06+09:00",
+      "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+      "visual_review_scope": "published PNG: actual image inspected; text legible, no visible overlap/clipping; PNG/WebP equivalence from previous renderer record",
+      "completed_at": "2026-11-28T12:25:06+09:00"
+    },
+    {
+      "id": "DR-067-D05-script-122506-followup",
+      "lesson_id": "DR-067",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-067-D05",
+      "diagram_id": "DR-067-D05",
+      "learning_objective": "보류 신분 전환 및 별도 부과 시점·이수 처리 구체화",
+      "script_ref": "DR-067",
+      "script_section": "205,207,209,211,213",
+      "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|205,207,209,211,213|보류 신분 전환 및 별도 부과 시점·이수 처리 구체화|editorial-v1",
+      "status": "queued",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
+          "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+          "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+          "line_numbers": [
+            205,
+            207,
+            209,
+            211,
+            213
+          ]
+        }
+      ],
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null
+    },
+    {
+      "id": "DR-067-D08-script-122506-followup",
+      "lesson_id": "DR-067",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-067-D08",
+      "diagram_id": "DR-067-D08",
+      "learning_objective": "복무 감당 불가 시 병역처분변경 신청 전제 명시",
+      "script_ref": "DR-067",
+      "script_section": "131,133,139,141",
+      "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|131,133,139,141|복무 감당 불가 시 병역처분변경 신청 전제 명시|editorial-v1",
+      "status": "queued",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
+          "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+          "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+          "line_numbers": [
+            131,
+            133,
+            139,
+            141
+          ]
+        }
+      ],
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null
+    },
+    {
+      "id": "DR-067-D01-script-122506-followup",
+      "lesson_id": "DR-067",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-067-D01",
+      "diagram_id": "DR-067-D01",
+      "learning_objective": "보류 적용 범위 및 법규·방침 근거 구분 보강",
+      "script_ref": "DR-067",
+      "script_section": "9,19,21,23,37,39,41",
+      "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|9,19,21,23,37,39,41|보류 적용 범위 및 법규·방침 근거 구분 보강|editorial-v1",
+      "status": "queued",
+      "outputs": [],
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-23.txt",
+          "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
+          "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
+          "line_numbers": [
+            9,
+            19,
+            21,
+            23,
+            37,
+            39,
+            41
+          ]
+        }
+      ],
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null
     }
   ],
   "runs": [
@@ -10666,7 +10903,7 @@
     },
     {
       "id": "dr-20261128-082410-script",
-      "status": "rendered_pending_visual_qa",
+      "status": "visual_reviewed_followups_queued",
       "new_diagrams": 4,
       "revised_diagrams": 10,
       "completed_reviews": 0,
@@ -10686,6 +10923,138 @@
         "DR-002-D05",
         "DR-002-D06"
       ]
+    },
+    {
+      "id": "dr-20261128-122506-visual",
+      "status": "completed_checkpoint_with_followups",
+      "started_at": "2026-11-28T12:25:06+09:00",
+      "completed_at": "2026-11-28T12:25:06+09:00",
+      "new_diagrams": 0,
+      "revised_diagrams": 0,
+      "completed_reviews": 2,
+      "completed_lessons": [
+        "DR-009",
+        "DR-002"
+      ],
+      "visual_reviewed": [
+        "DR-009-D02",
+        "DR-009-D03",
+        "DR-009-D05",
+        "DR-067-D02",
+        "DR-067-D03",
+        "DR-067-D07",
+        "DR-067-D08",
+        "DR-067-D09",
+        "DR-067-D10",
+        "DR-067-D11",
+        "DR-002-D03",
+        "DR-002-D04",
+        "DR-002-D05",
+        "DR-002-D06"
+      ],
+      "visual_reviewed_total": 26,
+      "asset_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
+      "source_commit": "f35ed684519bc4a91897366fbbe68e07181f4fa6",
+      "remaining_reviews": 30,
+      "requeued_diagrams": [
+        "DR-067-D02",
+        "DR-067-D09",
+        "DR-067-D10"
+      ],
+      "additional_revision_targets": [
+        "DR-067-D05",
+        "DR-067-D08",
+        "DR-067-D01"
+      ],
+      "expired_lease_reconciled": {
+        "id": "dr-full-audit-20261128",
+        "started_at": "2026-11-28T00:57:12.181Z",
+        "lease_expires_at": "2026-11-28T02:57:12.181Z",
+        "claimed_job_ids": [
+          "DR-060-coverage-review-v1",
+          "DR-013-coverage-review-v1",
+          "DR-024-coverage-review-v1",
+          "DR-062-coverage-review-v1",
+          "DR-009-coverage-review-v1",
+          "DR-067-coverage-review-v1",
+          "DR-045-coverage-review-v1",
+          "DR-047-coverage-review-v1",
+          "DR-078-coverage-review-v1",
+          "DR-002-coverage-review-v1",
+          "DR-005-coverage-review-v1",
+          "DR-011-coverage-review-v1",
+          "DR-030-coverage-review-v1",
+          "DR-035-coverage-review-v1",
+          "DR-054-coverage-review-v1",
+          "DR-056-coverage-review-v1",
+          "DR-057-coverage-review-v1",
+          "DR-071-coverage-review-v1",
+          "DR-074-coverage-review-v1",
+          "DR-012-coverage-review-v1",
+          "DR-014-coverage-review-v1",
+          "DR-015-coverage-review-v1",
+          "DR-017-coverage-review-v1",
+          "DR-018-coverage-review-v1",
+          "DR-019-coverage-review-v1",
+          "DR-026-coverage-review-v1",
+          "DR-032-coverage-review-v1",
+          "DR-033-coverage-review-v1",
+          "DR-038-coverage-review-v1",
+          "DR-044-coverage-review-v1",
+          "DR-055-coverage-review-v1",
+          "DR-066-coverage-review-v1",
+          "DR-068-coverage-review-v1",
+          "DR-075-coverage-review-v1",
+          "DR-004-coverage-review-v1",
+          "DR-006-coverage-review-v1",
+          "DR-007-coverage-review-v1",
+          "DR-008-coverage-review-v1",
+          "DR-021-coverage-review-v1",
+          "DR-022-coverage-review-v1",
+          "DR-028-coverage-review-v1",
+          "DR-029-coverage-review-v1",
+          "DR-031-coverage-review-v1",
+          "DR-039-coverage-review-v1",
+          "DR-049-coverage-review-v1",
+          "DR-051-coverage-review-v1",
+          "DR-052-coverage-review-v1",
+          "DR-058-coverage-review-v1",
+          "DR-059-coverage-review-v1",
+          "DR-061-coverage-review-v1",
+          "DR-064-coverage-review-v1",
+          "DR-065-coverage-review-v1",
+          "DR-072-coverage-review-v1",
+          "DR-073-coverage-review-v1",
+          "DR-001-coverage-review-v1",
+          "DR-003-coverage-review-v1",
+          "DR-010-coverage-review-v1",
+          "DR-016-coverage-review-v1",
+          "DR-020-coverage-review-v1",
+          "DR-023-coverage-review-v1",
+          "DR-025-coverage-review-v1",
+          "DR-027-coverage-review-v1",
+          "DR-034-coverage-review-v1",
+          "DR-036-coverage-review-v1",
+          "DR-037-coverage-review-v1",
+          "DR-040-coverage-review-v1",
+          "DR-041-coverage-review-v1",
+          "DR-042-coverage-review-v1",
+          "DR-043-coverage-review-v1",
+          "DR-046-coverage-review-v1",
+          "DR-048-coverage-review-v1",
+          "DR-050-coverage-review-v1",
+          "DR-053-coverage-review-v1",
+          "DR-063-coverage-review-v1",
+          "DR-069-coverage-review-v1",
+          "DR-070-coverage-review-v1",
+          "DR-076-coverage-review-v1",
+          "DR-077-coverage-review-v1"
+        ],
+        "mode": "user_requested_full_audit; coordinator plus 3 content reviewers",
+        "source_commit": "352b4eb71cced810612b05c9a531060e1470d1f5",
+        "assets_start_commit": "6de9fbddf5e94a97e2a343c692a1fa333adaae34"
+      },
+      "lease_reconciliation_reason": "expired 02:57 UTC; queue and QA blobs unchanged, no renewed checkpoint; final write guarded by expected main HEAD"
     }
   ],
   "exam": {
