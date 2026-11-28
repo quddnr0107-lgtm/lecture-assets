@@ -66,32 +66,7 @@
     ]
   },
   "state": {
-    "active_run": {
-      "id": "dr-20261128-202807-script",
-      "status": "rendering_requested",
-      "started_at": "2026-11-28T20:28:07+09:00",
-      "lease_expires_at": "2026-11-28T22:28:07+09:00",
-      "lesson_ids": [
-        "DR-071",
-        "DR-054",
-        "DR-005",
-        "DR-056"
-      ],
-      "production_job_ids": [
-        "DR-071-D01-script-182907",
-        "DR-071-D02-script-202807",
-        "DR-054-D03-script-202807",
-        "DR-005-D03-script-202807",
-        "DR-005-D04-script-202807",
-        "DR-005-D06-script-202807",
-        "DR-056-D02-script-202807",
-        "DR-056-D03-script-202807",
-        "DR-056-D04-script-202807",
-        "DR-056-D06-script-202807"
-      ],
-      "checkpoint": "script blobs verified; targeted render request prepared; visual QA pending",
-      "expected_head": "6021d8a132b4552670c6bff7ff3c39412fe6e782"
-    },
+    "active_run": null,
     "last_successful_run": {
       "id": "dr-20261128-192226-visual",
       "status": "visual_checkpoint_completed",
@@ -120,7 +95,7 @@
     "coverage_reviews_queued": 27,
     "coverage_reviews_completed": 51,
     "confirmed_production_jobs": 149,
-    "diagrams_added_after_baseline": 49,
+    "diagrams_added_after_baseline": 50,
     "diagrams_revised_after_baseline": 82,
     "script_bindings_verified": 78,
     "last_correction": {
@@ -135,7 +110,7 @@
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
     "production_jobs_queued": 0,
-    "production_jobs_qa": 0,
+    "production_jobs_qa": 10,
     "production_jobs_completed": 149,
     "production_jobs_running": 10,
     "full_audit": {
@@ -1039,13 +1014,14 @@
       "title": "예비군 교육훈련 훈령 제12조, 공통과목",
       "priority": 16,
       "status": "queued",
-      "existing_diagram_count": 5,
+      "existing_diagram_count": 6,
       "existing_diagram_ids": [
         "DR-056-D01",
         "DR-056-D02",
         "DR-056-D03",
         "DR-056-D04",
-        "DR-056-D05"
+        "DR-056-D05",
+        "DR-056-D06"
       ],
       "article_keys": [
         "2-12"
@@ -11930,10 +11906,10 @@
       "script_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-071|8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c|17,23,29,33,35,37,39,45,49,59,63,65,157|민간 개방의 결정 주체·조건·각 군 지침 명시|editorial-v1",
-      "status": "running",
-      "claimed_by": "dr-20261128-202807-script",
-      "claimed_at": "2026-11-28T20:28:07+09:00",
-      "lease_expires_at": "2026-11-28T22:28:07+09:00",
+      "status": "qa",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_2-27.txt",
@@ -11959,23 +11935,23 @@
       "outputs": [
         {
           "path": "defense-directives/lesson-071/diagrams/DR-071-D01-editorial-v1.svg",
-          "bytes": 6392,
-          "sha256": "da43d39efb2e51ee317e4ee700408af1cb8a3ee21a858e8a9bea8b0a8b960e7c"
+          "bytes": 6363,
+          "sha256": "48fcef554046564a74e2ac9e1e4e88825fbff3c260b0d7f691ae0112828aabf4"
         },
         {
           "path": "defense-directives/lesson-071/diagrams/DR-071-D01-editorial-v1.png",
-          "bytes": 172172,
-          "sha256": "0f5719a5888cdbaa572bf1974c4090bf29ee95039415e31fae1a5cc1fa400094"
+          "bytes": 169282,
+          "sha256": "def057d36a3c6aa265c242a654d1f318660532da81fa3a7c654299795cd67c0b"
         },
         {
           "path": "defense-directives/lesson-071/diagrams/DR-071-D01-editorial-v1.webp",
-          "bytes": 52400,
-          "sha256": "385591be3424323415eec734668285ff7ff350fac8cbd228ddda0e99f2d1eaec"
+          "bytes": 51408,
+          "sha256": "0b69872160e8da5bc45bf5e336c56f5976cfec3b104a03d63147b98ab9a757c1"
         }
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "공개 WebP 실물 직접 확인: 글자·수치 표시, 겹침·잘림·문자 누락 없음. 1600×1120 및 PNG/WebP 픽셀 일치는 렌더러 검사 근거.",
+      "visual_review": "pending",
       "visual_reviewed_at": "2026-11-28T19:25:00+09:00",
       "webp_git_blob": "1232ebb5260ba3fe7d70299c8645a839a9c45000",
       "render_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
@@ -12132,11 +12108,31 @@
           ]
         }
       ],
-      "status": "running",
-      "claimed_by": "dr-20261128-202807-script",
-      "claimed_at": "2026-11-28T20:28:07+09:00",
-      "lease_expires_at": "2026-11-28T22:28:07+09:00",
-      "completed_at": null
+      "status": "qa",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-071/diagrams/DR-071-D02-editorial-v1.svg",
+          "bytes": 5535,
+          "sha256": "d7740c09df59a4cac85cfeb5c85d3aeed744ac26a293e8200945a664d15ede8b"
+        },
+        {
+          "path": "defense-directives/lesson-071/diagrams/DR-071-D02-editorial-v1.png",
+          "bytes": 145975,
+          "sha256": "36c3371bb41aef00738d0090c200bc4f698ee5c3c430277ef6f847893928d9b5"
+        },
+        {
+          "path": "defense-directives/lesson-071/diagrams/DR-071-D02-editorial-v1.webp",
+          "bytes": 45370,
+          "sha256": "3b7110689a354dd5671c22a63d8983a560dd89c45388f53467a2183cb884725b"
+        }
+      ],
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-054-D03-script-202807",
@@ -12164,11 +12160,31 @@
           ]
         }
       ],
-      "status": "running",
-      "claimed_by": "dr-20261128-202807-script",
-      "claimed_at": "2026-11-28T20:28:07+09:00",
-      "lease_expires_at": "2026-11-28T22:28:07+09:00",
-      "completed_at": null
+      "status": "qa",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-054/diagrams/DR-054-D03-editorial-v1.svg",
+          "bytes": 5408,
+          "sha256": "8482956a731c265dbb78e1b49f88c9eac40a19cedf58b7242fbed6788d54742f"
+        },
+        {
+          "path": "defense-directives/lesson-054/diagrams/DR-054-D03-editorial-v1.png",
+          "bytes": 142191,
+          "sha256": "e5f86c888554e4efa0301052183e846ec3323c7291b904762779630bf61d84ae"
+        },
+        {
+          "path": "defense-directives/lesson-054/diagrams/DR-054-D03-editorial-v1.webp",
+          "bytes": 43696,
+          "sha256": "6028a930649459beb8a05289fa163639789c0111d1710ec034e5404fd4366b38"
+        }
+      ],
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-005-D03-script-202807",
@@ -12198,11 +12214,31 @@
           ]
         }
       ],
-      "status": "running",
-      "claimed_by": "dr-20261128-202807-script",
-      "claimed_at": "2026-11-28T20:28:07+09:00",
-      "lease_expires_at": "2026-11-28T22:28:07+09:00",
-      "completed_at": null
+      "status": "qa",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D03-editorial-v1.svg",
+          "bytes": 6992,
+          "sha256": "1dad3397707042fb06606fa8c13761e12314be0a2090f5012477205a4d9f8357"
+        },
+        {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D03-editorial-v1.png",
+          "bytes": 201439,
+          "sha256": "09015b17fa0adf8bf23360582db520724b55d12d70c6492cee85c7d5e1b5c2f9"
+        },
+        {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D03-editorial-v1.webp",
+          "bytes": 63238,
+          "sha256": "9bcaf88a4bd34bbcb4e4409b10f6581ebc8aa97980b6d42379a21f86e7dc97cd"
+        }
+      ],
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-005-D04-script-202807",
@@ -12233,11 +12269,31 @@
           ]
         }
       ],
-      "status": "running",
-      "claimed_by": "dr-20261128-202807-script",
-      "claimed_at": "2026-11-28T20:28:07+09:00",
-      "lease_expires_at": "2026-11-28T22:28:07+09:00",
-      "completed_at": null
+      "status": "qa",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D04-editorial-v1.svg",
+          "bytes": 6327,
+          "sha256": "2c8a31e0c4988f5ab4e21b6f70f6a12470045c86830fc58be0fec820c4080d5d"
+        },
+        {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D04-editorial-v1.png",
+          "bytes": 166907,
+          "sha256": "b1cefded53194b469be7c774a151271bb5c8a3586de0d76bcac9863caeb6b2a1"
+        },
+        {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D04-editorial-v1.webp",
+          "bytes": 50106,
+          "sha256": "62b50a62de8e287636357b11cf85dc3a58c37c39bf8bcd37644d4074a132e57e"
+        }
+      ],
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-005-D06-script-202807",
@@ -12270,11 +12326,31 @@
           ]
         }
       ],
-      "status": "running",
-      "claimed_by": "dr-20261128-202807-script",
-      "claimed_at": "2026-11-28T20:28:07+09:00",
-      "lease_expires_at": "2026-11-28T22:28:07+09:00",
-      "completed_at": null
+      "status": "qa",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D06-editorial-v1.svg",
+          "bytes": 6056,
+          "sha256": "02772ec3b5208614b490c1cacb1bf61ec009e4c7af9684e77df72d155808bf7a"
+        },
+        {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D06-editorial-v1.png",
+          "bytes": 165521,
+          "sha256": "93c55ab498b8b1660dcb0940f7a710ef5f2809e8af582206672b24a14360460b"
+        },
+        {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D06-editorial-v1.webp",
+          "bytes": 50716,
+          "sha256": "643e09170e8eb1a2b1a37ee50978dc40f4ee4c7d42f8d62c49bbc0fdde8e5424"
+        }
+      ],
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-056-D02-script-202807",
@@ -12310,11 +12386,31 @@
           ]
         }
       ],
-      "status": "running",
-      "claimed_by": "dr-20261128-202807-script",
-      "claimed_at": "2026-11-28T20:28:07+09:00",
-      "lease_expires_at": "2026-11-28T22:28:07+09:00",
-      "completed_at": null
+      "status": "qa",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-056/diagrams/DR-056-D02-editorial-v1.svg",
+          "bytes": 6113,
+          "sha256": "d667666e20307e2c1fc4ae9bcdde617bfcd2be1845b5892c7c45cde0161ebb40"
+        },
+        {
+          "path": "defense-directives/lesson-056/diagrams/DR-056-D02-editorial-v1.png",
+          "bytes": 155048,
+          "sha256": "88a0dcf318238dce182b4e35b6721722ef3f3c02ecf19f5cfbf78b5fbb642b56"
+        },
+        {
+          "path": "defense-directives/lesson-056/diagrams/DR-056-D02-editorial-v1.webp",
+          "bytes": 46142,
+          "sha256": "b67cb4d8d9ccb4f9fa04151bb21461aa3f22459f06918057c5d0cb7ea931d45f"
+        }
+      ],
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-056-D03-script-202807",
@@ -12342,11 +12438,31 @@
           ]
         }
       ],
-      "status": "running",
-      "claimed_by": "dr-20261128-202807-script",
-      "claimed_at": "2026-11-28T20:28:07+09:00",
-      "lease_expires_at": "2026-11-28T22:28:07+09:00",
-      "completed_at": null
+      "status": "qa",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-056/diagrams/DR-056-D03-editorial-v1.svg",
+          "bytes": 6190,
+          "sha256": "5ed8df9841329dbe23913736068587d52cb2230c984185d87632e0b405bcbdba"
+        },
+        {
+          "path": "defense-directives/lesson-056/diagrams/DR-056-D03-editorial-v1.png",
+          "bytes": 175255,
+          "sha256": "aeae2cc01f8c22ca5495bdba33ebb3242f6c7baa9471b4d16f6c49854e07b4b9"
+        },
+        {
+          "path": "defense-directives/lesson-056/diagrams/DR-056-D03-editorial-v1.webp",
+          "bytes": 55224,
+          "sha256": "97b4fa0e7f54f20888e946c23a693c1619f0ca57fca0b1fb67ee0067e4692f5c"
+        }
+      ],
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-056-D04-script-202807",
@@ -12376,11 +12492,31 @@
           ]
         }
       ],
-      "status": "running",
-      "claimed_by": "dr-20261128-202807-script",
-      "claimed_at": "2026-11-28T20:28:07+09:00",
-      "lease_expires_at": "2026-11-28T22:28:07+09:00",
-      "completed_at": null
+      "status": "qa",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-056/diagrams/DR-056-D04-editorial-v1.svg",
+          "bytes": 6016,
+          "sha256": "a1fb0e19a0e2050549c3e9066c85f3f0a462640457382e937953d65e3b7be37c"
+        },
+        {
+          "path": "defense-directives/lesson-056/diagrams/DR-056-D04-editorial-v1.png",
+          "bytes": 168367,
+          "sha256": "9be49b03fd5fbdaafdb48b72447110bbf5d6f56977ecaa8cfa554d5b3dd93919"
+        },
+        {
+          "path": "defense-directives/lesson-056/diagrams/DR-056-D04-editorial-v1.webp",
+          "bytes": 51494,
+          "sha256": "018a2d34eae0aaecf9c3a75ec6c4ddaf5c3f4f54e6d1630a45e0f1572973d7b2"
+        }
+      ],
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-056-D06-script-202807",
@@ -12413,11 +12549,31 @@
           ]
         }
       ],
-      "status": "running",
-      "claimed_by": "dr-20261128-202807-script",
-      "claimed_at": "2026-11-28T20:28:07+09:00",
-      "lease_expires_at": "2026-11-28T22:28:07+09:00",
-      "completed_at": null
+      "status": "qa",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
+      "completed_at": null,
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-056/diagrams/DR-056-D06-editorial-v1.svg",
+          "bytes": 5725,
+          "sha256": "c9d4f70124cce35c556d30a3fb8756ef5358d366ee4abcbf55eb4c63047523cd"
+        },
+        {
+          "path": "defense-directives/lesson-056/diagrams/DR-056-D06-editorial-v1.png",
+          "bytes": 144564,
+          "sha256": "85bd77c60a77339dad7b4e58c1967532c1f361bd0c72788cfbdd5cb4a38f39cb"
+        },
+        {
+          "path": "defense-directives/lesson-056/diagrams/DR-056-D06-editorial-v1.webp",
+          "bytes": 45364,
+          "sha256": "6b0ddd4d7b49a9dd01298897d4de7df2739d905caf8295c4f557fc48462071dc"
+        }
+      ],
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     }
   ],
   "runs": [
@@ -13187,6 +13343,25 @@
         "DR-056-D06"
       ],
       "catalog_note": "Current catalog changed version/timelineVersion fields only for DR lessons; article/title mappings unchanged. Four script Git blobs match pinned basis. No original files modified."
+    },
+    {
+      "id": "dr-20261128-202807-script",
+      "status": "rendered_pending_visual_qa",
+      "new_diagrams": 1,
+      "revised_diagrams": 9,
+      "completed_reviews": 0,
+      "diagram_ids": [
+        "DR-071-D01",
+        "DR-071-D02",
+        "DR-054-D03",
+        "DR-005-D03",
+        "DR-005-D04",
+        "DR-005-D06",
+        "DR-056-D02",
+        "DR-056-D03",
+        "DR-056-D04",
+        "DR-056-D06"
+      ]
     }
   ],
   "exam": {
