@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-28T12:25:06+09:00",
+  "updated_at": "2026-11-28T13:22:00+09:00",
   "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
     "status": "files_completed",
@@ -66,7 +66,23 @@
     ]
   },
   "state": {
-    "active_run": null,
+    "active_run": {
+      "id": "dr-20261128-132200-script",
+      "status": "running",
+      "started_at": "2026-11-28T13:22:00+09:00",
+      "lease_expires_at": "2026-11-28T15:22:00+09:00",
+      "claimed_job_ids": [
+        "DR-067-D02-script-082410",
+        "DR-067-D09-script-082410",
+        "DR-067-D10-script-082410",
+        "DR-067-D05-script-122506-followup",
+        "DR-067-D08-script-122506-followup",
+        "DR-067-D01-script-122506-followup"
+      ],
+      "mode": "targeted_render_three_workers",
+      "assets_start_commit": "fe1c8eebb142bde00f55d66da3fbfc8404daa73c",
+      "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b"
+    },
     "last_successful_run": {
       "id": "dr-20261128-122506-visual",
       "status": "completed_checkpoint_with_followups",
@@ -217,10 +233,10 @@
       "report": "defense-directives/diagrams/script-alignment-qa.json",
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
-    "production_jobs_queued": 6,
+    "production_jobs_queued": 0,
     "production_jobs_qa": 0,
     "production_jobs_completed": 120,
-    "production_jobs_running": 0,
+    "production_jobs_running": 6,
     "full_audit": {
       "id": "dr-full-audit-20261128",
       "status": "in_progress",
@@ -9778,7 +9794,7 @@
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|85,97,115,117,119|기간제 교사 재계약·학생 보류 기간 조건|editorial-v1",
-      "status": "queued",
+      "status": "running",
       "outputs": [],
       "evidence": [
         {
@@ -9794,15 +9810,15 @@
           ]
         }
       ],
-      "claimed_by": null,
-      "claimed_at": null,
-      "lease_expires_at": null,
+      "claimed_by": "dr-20261128-132200-script",
+      "claimed_at": "2026-11-28T13:22:00+09:00",
+      "lease_expires_at": "2026-11-28T15:22:00+09:00",
       "finding": "학생·기간제 교사 기간 산정과 수업연한 초과 조건 불충분",
       "required_change": "기간제 교사 재계약·학생 보류 기간 조건",
       "diagram_id": "DR-067-D02",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "passed",
+      "visual_review": "pending",
       "visual_reviewed_at": "2026-11-28T12:25:06+09:00",
       "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
       "visual_review_scope": "published PNG: actual image inspected; text legible, no visible overlap/clipping; PNG/WebP equivalence from previous renderer record",
@@ -9999,11 +10015,11 @@
       "target_diagram_id": "DR-067-D09",
       "learning_objective": "보류해소 신고·전산입력 기한과 휴직·휴학·외항선원 비교",
       "script_ref": "DR-067",
-      "script_section": "147,151,153,161,163,165,169,181",
+      "script_section": "147,151,153,161,163,165,169,177,181",
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
-      "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|147,151,153,161,163,165,169,181|보류해소 신고·전산입력 기한과 휴직·휴학·외항선원 비교|editorial-v1",
-      "status": "queued",
+      "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|147,151,153,161,163,165,169,177,181|보류해소 신고·전산입력 기한과 휴직·휴학·외항선원 비교|editorial-v1",
+      "status": "running",
       "outputs": [],
       "evidence": [
         {
@@ -10018,19 +10034,20 @@
             163,
             165,
             169,
+            177,
             181
           ]
         }
       ],
-      "claimed_by": null,
-      "claimed_at": null,
-      "lease_expires_at": null,
+      "claimed_by": "dr-20261128-132200-script",
+      "claimed_at": "2026-11-28T13:22:00+09:00",
+      "lease_expires_at": "2026-11-28T15:22:00+09:00",
       "finding": "보류해소 절차 시험 핵심 누락",
       "required_change": "보류해소 신고·전산입력 기한과 휴직·휴학·외항선원 비교",
       "diagram_id": "DR-067-D09",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "passed",
+      "visual_review": "pending",
       "visual_reviewed_at": "2026-11-28T12:25:06+09:00",
       "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
       "visual_review_scope": "published PNG: actual image inspected; text legible, no visible overlap/clipping; PNG/WebP equivalence from previous renderer record",
@@ -10064,7 +10081,7 @@
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|187,189,197,199,201|보류 대상 훈련 차수와 신분 상실 후 부과 시점|editorial-v1",
-      "status": "queued",
+      "status": "running",
       "outputs": [],
       "evidence": [
         {
@@ -10080,15 +10097,15 @@
           ]
         }
       ],
-      "claimed_by": null,
-      "claimed_at": null,
-      "lease_expires_at": null,
+      "claimed_by": "dr-20261128-132200-script",
+      "claimed_at": "2026-11-28T13:22:00+09:00",
+      "lease_expires_at": "2026-11-28T15:22:00+09:00",
       "finding": "1·2차 한정 및 신분 상실 시점 비교 누락",
       "required_change": "보류 대상 훈련 차수와 신분 상실 후 부과 시점",
       "diagram_id": "DR-067-D10",
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "passed",
+      "visual_review": "pending",
       "visual_reviewed_at": "2026-11-28T12:25:06+09:00",
       "visual_review_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
       "visual_review_scope": "published PNG: actual image inspected; text legible, no visible overlap/clipping; PNG/WebP equivalence from previous renderer record",
@@ -10414,7 +10431,7 @@
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|205,207,209,211,213|보류 신분 전환 및 별도 부과 시점·이수 처리 구체화|editorial-v1",
-      "status": "queued",
+      "status": "running",
       "outputs": [],
       "evidence": [
         {
@@ -10430,9 +10447,10 @@
           ]
         }
       ],
-      "claimed_by": null,
-      "claimed_at": null,
-      "lease_expires_at": null
+      "claimed_by": "dr-20261128-132200-script",
+      "claimed_at": "2026-11-28T13:22:00+09:00",
+      "lease_expires_at": "2026-11-28T15:22:00+09:00",
+      "visual_review": "pending"
     },
     {
       "id": "DR-067-D08-script-122506-followup",
@@ -10446,7 +10464,7 @@
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|131,133,139,141|복무 감당 불가 시 병역처분변경 신청 전제 명시|editorial-v1",
-      "status": "queued",
+      "status": "running",
       "outputs": [],
       "evidence": [
         {
@@ -10461,9 +10479,10 @@
           ]
         }
       ],
-      "claimed_by": null,
-      "claimed_at": null,
-      "lease_expires_at": null
+      "claimed_by": "dr-20261128-132200-script",
+      "claimed_at": "2026-11-28T13:22:00+09:00",
+      "lease_expires_at": "2026-11-28T15:22:00+09:00",
+      "visual_review": "pending"
     },
     {
       "id": "DR-067-D01-script-122506-followup",
@@ -10473,11 +10492,11 @@
       "diagram_id": "DR-067-D01",
       "learning_objective": "보류 적용 범위 및 법규·방침 근거 구분 보강",
       "script_ref": "DR-067",
-      "script_section": "9,19,21,23,37,39,41",
+      "script_section": "9,19,21,23,25,27,31,33,35,37,39,41",
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
-      "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|9,19,21,23,37,39,41|보류 적용 범위 및 법규·방침 근거 구분 보강|editorial-v1",
-      "status": "queued",
+      "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|9,19,21,23,25,27,31,33,35,37,39,41|보류 적용 범위 및 법규·방침 근거 구분 보강|editorial-v1",
+      "status": "running",
       "outputs": [],
       "evidence": [
         {
@@ -10489,15 +10508,21 @@
             19,
             21,
             23,
+            25,
+            27,
+            31,
+            33,
+            35,
             37,
             39,
             41
           ]
         }
       ],
-      "claimed_by": null,
-      "claimed_at": null,
-      "lease_expires_at": null
+      "claimed_by": "dr-20261128-132200-script",
+      "claimed_at": "2026-11-28T13:22:00+09:00",
+      "lease_expires_at": "2026-11-28T15:22:00+09:00",
+      "visual_review": "pending"
     }
   ],
   "runs": [
