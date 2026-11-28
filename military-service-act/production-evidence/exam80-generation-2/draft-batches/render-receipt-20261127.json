@@ -2,7 +2,7 @@
   "generation": 2,
   "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
   "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
-  "request_sha256": "6109aa4e58dae9614211d81ef18b65b8845067c9486f802e75c57bbb819a0126",
+  "request_sha256": "e558c5ddda8acbdde44ac805fc80b1ca08917106ff3a495a25ecaee1be6fccc2",
   "status": "draft_raster_only_not_final",
   "final_new_images": 0,
   "items": [
@@ -703,6 +703,230 @@
       "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-service-end.webp",
       "webp_sha256": "b40213b9651da402b27f5e150676311cfed104d18a61ec1c47bbaa4dddde7c7c",
       "webp_bytes": 40320,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-094",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/religion-selection-criteria.svg",
+      "svg_sha256": "e974178030c5312820265bc1ee10c1ca69e7463d67801796def6e60f1b5ad388",
+      "svg_blob_sha": "f4c32fb20f8cee548aff8854ab13e91cd998070b",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/religion-selection-criteria.webp",
+      "webp_sha256": "e47c34780797ec88b7d6611ec841ba5c1fae4d05dc219b0a71a0e7e3675cd167",
+      "webp_bytes": 35146,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-094",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/chaplain-selection.svg",
+      "svg_sha256": "a6dcb20053d46964831db4e3958ee0987030e5e479a5e468ef5a1e7bee5fc91e",
+      "svg_blob_sha": "6322bc822f9f587b06bb170b6017c290c5ba05bd",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/chaplain-selection.webp",
+      "webp_sha256": "62a0938738eb9c2df788e80bac5f7c7fd2c9353f0285c6c00ecd4702d84afd55",
+      "webp_bytes": 37026,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-094",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/direct-officer-application.svg",
+      "svg_sha256": "21a59af9bc6f846892db3ef036df64f880e06377c75cf806e324027dae8eb04b",
+      "svg_blob_sha": "91dbf44ad8f3e901ca2825fbdfc95f5d81a37f00",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/direct-officer-application.webp",
+      "webp_sha256": "622953719ff29c58220ea0defcf4e92b724df8d8a38eefa0c8cba460566d4c52",
+      "webp_bytes": 39040,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-094",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-eligibility.svg",
+      "svg_sha256": "afa1dbb0d99768b6365b961df5ac9eb11e069ac900cccab1b9853ceea385b51f",
+      "svg_blob_sha": "8dc5d983005bc0a3f81fe291f27d192cb305b4ca",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-eligibility.webp",
+      "webp_sha256": "fc6ca9ec357dc652701e8b07d9460620824d822ac22ef78f14e0da09e0581899",
+      "webp_bytes": 40436,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-094",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-selection-followup.svg",
+      "svg_sha256": "c90a0ad91ef9013ff348a9f58118e72dc374a7478a787daaa3fc73d381523cb0",
+      "svg_blob_sha": "2f7c2d42c32d36cbe0888cc8ba4e98d6f37f32d4",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-selection-followup.webp",
+      "webp_sha256": "131f70beb259f47637be81f8081513ef40dfd247a30405b4233f239a860e7593",
+      "webp_bytes": 40072,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-094",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-change-notification.svg",
+      "svg_sha256": "0fb2590269f534001628b999b5f8bc08013916e614ad4508ef00b32eac25b432",
+      "svg_blob_sha": "a4fbcd111b2f967f8af85cc07b9fde36b5d8d445",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-change-notification.webp",
+      "webp_sha256": "25416025606f1045a395550b556ddbe36a61a310a711578f8adf9e82b38b1286",
+      "webp_bytes": 40820,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-094",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-removal-exception.svg",
+      "svg_sha256": "e5501a2d3959249dc3617dcd214f30bc60684a466451a5e7c380ae56b9f9a038",
+      "svg_blob_sha": "a7f5d2438234cd8f4086ecc7f0ed09dc693abc39",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-removal-exception.webp",
+      "webp_sha256": "9f9d5b49382febf5060f6b81fe04542ccf09c0689b4850ed1c8681b31991c523",
+      "webp_bytes": 39420,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-094",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/officer-entry-timeline.svg",
+      "svg_sha256": "497c0649e2e1d51ead478e63621c397413d39cfc05ec05615d1525e6015d5842",
+      "svg_blob_sha": "66abcb33259cbcc4d3c41f0dced658bf602285d0",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/officer-entry-timeline.webp",
+      "webp_sha256": "7a71a75f07699700863012544cecdcb9f0b2d396e12974be3fa25268c0210c77",
+      "webp_bytes": 51140,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-094",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/returned-candidate-reexamination.svg",
+      "svg_sha256": "5ebafd4bf877944a4a796d9aa6aad218a18335df6823c0efcb33fb2086d9bd11",
+      "svg_blob_sha": "a8a4c19beb8a9e382334f032912d563c7336e735",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/returned-candidate-reexamination.webp",
+      "webp_sha256": "d5f6aae305291e59c321163efdf90df38d1e3e3700a1a86627c88d70735a8676",
+      "webp_bytes": 42580,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-094",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/chaplain-committee-members.svg",
+      "svg_sha256": "a8ba2f4a6be0b2e31fd0d2f11cab3f66d3f0b482cb9fd65757d1d8b65512d76d",
+      "svg_blob_sha": "522554b9b16bf96ec8e20016a0d727f6713e2c8d",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/chaplain-committee-members.webp",
+      "webp_sha256": "43ad0200d99203d757315cfbb1bcf7d26c3e50bf63b1f2e2e5212faffd63e7d6",
+      "webp_bytes": 45264,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-094",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-to-officer-selection.svg",
+      "svg_sha256": "e8ccf6c70f5e94d237f4f0a0907db5f182854aeb1359f8eba4166bdf726b6780",
+      "svg_blob_sha": "3259e9b8f3e659dc162bd2bbce372d3c98ffa2bf",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-to-officer-selection.webp",
+      "webp_sha256": "44305ad957587576885f5ed3abe65d1564de225f50bc30a5a65783a47e044042",
+      "webp_bytes": 36414,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-094",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/officer-training-and-records.svg",
+      "svg_sha256": "3d25a66ac2943802db24e7a594e2aa5321440477814e4535f8540cd8d04fadb5",
+      "svg_blob_sha": "3ffa9405cf6bd082379c3ab3c3ceda37c81814f1",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/officer-training-and-records.webp",
+      "webp_sha256": "faf7857cb3c88c73f9c449b31a47fa6d95604952710181c35370788c6b2384c4",
+      "webp_bytes": 45212,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-094",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-application-documents.svg",
+      "svg_sha256": "bef427a9c3853dd819c338af5fb1affdff3102571950650d7ceea33b8014dd53",
+      "svg_blob_sha": "341336f7ab9a9ba46295d380e4ba034514cd022d",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-application-documents.webp",
+      "webp_sha256": "6dede35cde3da821931e368d9e421fbc58a66f80c84ed3f6c5a21318e686c10b",
+      "webp_bytes": 40292,
+      "dimensions": [
+        1600,
+        1120
+      ],
+      "lossless": true,
+      "status": "rendered_draft_requires_visual_review"
+    },
+    {
+      "lecture_id": "MS-094",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/non-illness-discharge.svg",
+      "svg_sha256": "bf598bb8a46acfe45f4086977be5af95cdd9ff767f0a7adcfb399bc3f48e1a88",
+      "svg_blob_sha": "8e920fa3062a28a4d43f386c3b4e8d0804f2bde2",
+      "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "webp_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/non-illness-discharge.webp",
+      "webp_sha256": "73a00850ab5952a1a1a46fba4450f40db69d1bc38a2abe548beacb5f47c0f326",
+      "webp_bytes": 33722,
       "dimensions": [
         1600,
         1120
