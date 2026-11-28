@@ -6,7 +6,7 @@
     "cutoff_date": "2027-02-02",
     "cutoff_kind": "existing_user_specified_exam80_basis"
   },
-  "checked_at": "2026-11-28T12:25:06+09:00",
+  "checked_at": "2026-11-28T14:25:22+09:00",
   "source_commit": "2d696ecb8a2805b0bc42df8ce5754ae91914371d",
   "script_bindings_verified": 78,
   "diagram_corrections": [
@@ -78,7 +78,7 @@
   "full_lecture_coverage_reviews_completed": 48,
   "remaining_full_lecture_reviews": 30,
   "new_diagrams": 40,
-  "revised_diagrams": 69,
+  "revised_diagrams": 75,
   "priority_script_comparison": {
     "schema_version": 1,
     "created_at": "2026-11-27T11:59:01+09:00",
@@ -31003,7 +31003,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: published PNG visually inspected",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-067/diagrams/DR-067-D02-editorial-v1.svg",
@@ -31205,7 +31205,7 @@
             {
               "text": "180일 이상",
               "x": 860,
-              "y": 720.0,
+              "y": 720,
               "width": 173,
               "height": 35,
               "fontSize": 36,
@@ -31265,7 +31265,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "png_git_blob": "92254d8268a8ce536c70a97e8648b3febe004a0d",
+          "visual_review_commit": "d8551bee2de1e3bdbebe3a3a6393b69982941466",
+          "visual_reviewed_at": "2026-11-28T14:25:22+09:00"
         },
         {
           "id": "DR-067-D09",
@@ -31287,7 +31290,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: published PNG visually inspected",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-067/diagrams/DR-067-D09-editorial-v1.svg",
@@ -31408,7 +31411,7 @@
             {
               "text": "이내 신고서 제출",
               "x": 144,
-              "y": 719.0,
+              "y": 719,
               "width": 252,
               "height": 36,
               "fontSize": 36,
@@ -31507,7 +31510,7 @@
             {
               "text": "기준 해소, 기간 중 훈련 연기",
               "x": 860,
-              "y": 720.0,
+              "y": 720,
               "width": 425,
               "height": 39,
               "fontSize": 36,
@@ -31567,7 +31570,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "png_git_blob": "faa7e0be438f49bb8233576006439ec903c943a3",
+          "visual_review_commit": "d8551bee2de1e3bdbebe3a3a6393b69982941466",
+          "visual_reviewed_at": "2026-11-28T14:25:22+09:00"
         },
         {
           "id": "DR-067-D10",
@@ -31585,7 +31591,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: published PNG visually inspected",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-067/diagrams/DR-067-D10-editorial-v1.svg",
@@ -31820,7 +31826,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "png_git_blob": "597c92e00f91e7c1397df8b0dc853f195561945d",
+          "visual_review_commit": "d8551bee2de1e3bdbebe3a3a6393b69982941466",
+          "visual_reviewed_at": "2026-11-28T14:25:22+09:00"
         },
         {
           "id": "DR-067-D05",
@@ -31838,7 +31847,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: published PNG visually inspected",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-067/diagrams/DR-067-D05-editorial-v1.svg",
@@ -31959,7 +31968,7 @@
             {
               "text": "경찰학교: 과정 이수 후",
               "x": 144,
-              "y": 719.0,
+              "y": 719,
               "width": 338,
               "height": 36,
               "fontSize": 36,
@@ -32109,7 +32118,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "png_git_blob": "d615ec1b3ff8dbf9cb3b204769e7881ba6681bb2",
+          "visual_review_commit": "d8551bee2de1e3bdbebe3a3a6393b69982941466",
+          "visual_reviewed_at": "2026-11-28T14:25:22+09:00"
         },
         {
           "id": "DR-067-D08",
@@ -32126,7 +32138,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: published PNG visually inspected",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-067/diagrams/DR-067-D08-editorial-v1.svg",
@@ -32247,7 +32259,7 @@
             {
               "text": "병역처분변경원서",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 265,
               "height": 34,
               "fontSize": 36,
@@ -32379,7 +32391,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "png_git_blob": "3057fdd2cf6c42727dcab2685711795551ba03c0",
+          "visual_review_commit": "d8551bee2de1e3bdbebe3a3a6393b69982941466",
+          "visual_reviewed_at": "2026-11-28T14:25:22+09:00"
         },
         {
           "id": "DR-067-D01",
@@ -32404,7 +32419,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed: published PNG visually inspected",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-067/diagrams/DR-067-D01-editorial-v1.svg",
@@ -32648,7 +32663,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "png_git_blob": "3b1c0f09f8e9df10022b7b307f316100fd2f910b",
+          "visual_review_commit": "d8551bee2de1e3bdbebe3a3a6393b69982941466",
+          "visual_reviewed_at": "2026-11-28T14:25:22+09:00"
         }
       ]
     }
@@ -33247,6 +33265,28 @@
       "content_review_lesson": "DR-067",
       "new_diagrams": 0,
       "revised_diagrams": 0
+    },
+    {
+      "run_id": "dr-20261128-142522-script-visual",
+      "full_review_completed": [],
+      "partial_reviews": [
+        "DR-067",
+        "DR-005",
+        "DR-011",
+        "DR-030"
+      ],
+      "visual_qa_passed": true,
+      "visual_reviewed": [
+        "DR-067-D01",
+        "DR-067-D02",
+        "DR-067-D05",
+        "DR-067-D08",
+        "DR-067-D09",
+        "DR-067-D10"
+      ],
+      "asset_commit": "d8551bee2de1e3bdbebe3a3a6393b69982941466",
+      "queued_production_jobs": 11,
+      "remaining_note": "67강 머리 문장 시험 접속어와 보류/연기 구분 추가 명시; 5·11·30강 보강 렌더 후 실물 대조 필요."
     }
   ]
 }

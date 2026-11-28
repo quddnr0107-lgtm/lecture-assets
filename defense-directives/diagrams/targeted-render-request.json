@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "exam": 80,
-  "run_id": "dr-20261128-132200-script",
+  "run_id": "dr-20261128-142522-script",
   "groups": [
     {
       "lesson_id": "DR-067",
@@ -10,372 +10,8 @@
       "existing_max": 11,
       "items": [
         {
-          "id": "DR-067-D02",
-          "job_id": "DR-067-D02-script-082410",
-          "mode": "revision",
-          "slide": {
-            "lessonId": "DR-067",
-            "articleKey": "2-23",
-            "title": "보류 적용에 필요한 기간",
-            "subtitle": "국외체류·치료·직종종사·학교 재학의 기준을 구분한다.",
-            "layout": "equal",
-            "left": {
-              "title": "365일과 180일",
-              "subtitle": "제1항제2호라목",
-              "items": [
-                {
-                  "label": "국외 여행·체류",
-                  "text": "365일 이상",
-                  "bold": false
-                },
-                {
-                  "label": "질병·심신장애",
-                  "text": "치료기간 180일 이상 진단서",
-                  "bold": false
-                },
-                {
-                  "label": "방침일부 보류",
-                  "text": "종사·근무 180일 이상; 그 시작일부터 보류기간 산정",
-                  "bold": true
-                }
-              ]
-            },
-            "right": {
-              "title": "학생·기간제 교사",
-              "subtitle": "180일 또는 한 학기",
-              "items": [
-                {
-                  "label": "기간·학기",
-                  "text": "180일 또는 1학기 이상; 3.1~8.31 / 9.1~2.28 (학칙 조정 가능)",
-                  "bold": false
-                },
-                {
-                  "label": "기간제 교사",
-                  "text": "6개월 미만 계약 후 연속 재계약, 근무 합산 180일 이상",
-                  "bold": false
-                },
-                {
-                  "label": "수업연한 초과",
-                  "text": "복수·부·연계전공, 재수강, 졸업유예·수료·유급: 학생보류 제외",
-                  "bold": true
-                }
-              ]
-            },
-            "sourceArticle": "교육훈련 훈령 제23조",
-            "sourceClauses": [
-              "제1항제2호라목"
-            ],
-            "note": "수업연한 초과로 학생보류 제외 시 거주지 지역예비군부대 편성. 정해진 기간 미달 시 연기 처리.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
-            "sourceVersion": "국방부훈령 제3216호",
-            "effectiveDate": "2026-10-14",
-            "scriptRef": "DR-067",
-            "scriptEvidence": {
-              "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
-              "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
-              "lines": [
-                85,
-                97,
-                115,
-                117,
-                119
-              ]
-            }
-          }
-        },
-        {
-          "id": "DR-067-D09",
-          "job_id": "DR-067-D09-script-082410",
-          "mode": "revision",
-          "slide": {
-            "lessonId": "DR-067",
-            "articleKey": "2-23",
-            "title": "보류해소의 기한과 예외",
-            "subtitle": "14일과 30일의 기산점, 신분별 해소 처리를 구분한다.",
-            "layout": "equal",
-            "left": {
-              "title": "신고와 직권해소",
-              "subtitle": "14일 / 30일",
-              "items": [
-                {
-                  "label": "본인 신고",
-                  "text": "해소일부터 14일 이내: 홈페이지·FAX·소속 예비군지휘관",
-                  "bold": true
-                },
-                {
-                  "label": "기관 통보",
-                  "text": "지체 없이 직권해소; 안내받은 날부터 30일 이내 신고서 제출",
-                  "bold": true
-                },
-                {
-                  "label": "전산입력",
-                  "text": "예비군지휘관이 해소 사유 발생 후 14일 이내 입력",
-                  "bold": false
-                }
-              ]
-            },
-            "right": {
-              "title": "신분별 처리",
-              "subtitle": "휴직·휴학·외항선원",
-              "items": [
-                {
-                  "label": "휴직 / 휴학",
-                  "text": "휴직기간 보류 유지 / 학생예비군 휴학 시 보류 해제",
-                  "bold": false
-                },
-                {
-                  "label": "외항선원",
-                  "text": "하선일로부터 90일째까지 미재승선: 하선일 기준 해소, 기간 중 훈련 연기",
-                  "bold": false
-                },
-                {
-                  "label": "외항선원 신고",
-                  "text": "하선일로부터 90일 되는 날부터 14일 이내 해소 신고",
-                  "bold": true
-                }
-              ]
-            },
-            "sourceArticle": "교육훈련 훈령 제23조",
-            "sourceClauses": [
-              "보류해소 절차"
-            ],
-            "note": "귀국자 해소도 14일. 명백한 해소 사유는 지휘관이 직권해소 가능, 근거 기록 후 당사자 통보.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
-            "sourceVersion": "국방부훈령 제3216호",
-            "effectiveDate": "2026-10-14",
-            "scriptRef": "DR-067",
-            "scriptEvidence": {
-              "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
-              "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
-              "lines": [
-                147,
-                151,
-                153,
-                161,
-                163,
-                165,
-                169,
-                177,
-                181
-              ]
-            }
-          }
-        },
-        {
-          "id": "DR-067-D10",
-          "job_id": "DR-067-D10-script-082410",
-          "mode": "revision",
-          "slide": {
-            "lessonId": "DR-067",
-            "articleKey": "2-23",
-            "title": "보류 훈련의 차수와 신분 상실",
-            "subtitle": "해당 연도 보류기간 중 부과된 훈련과 이후 훈련을 구분한다.",
-            "layout": "equal",
-            "left": {
-              "title": "차수·신분 상실",
-              "subtitle": "1차 및 2차",
-              "items": [
-                {
-                  "label": "보류 대상·처리",
-                  "text": "훈련유형별 보류기간 중 부과된 해당 연도 1·2차만 보류 및 이수 처리",
-                  "bold": true
-                },
-                {
-                  "label": "법규·방침전면 보류자",
-                  "text": "신분 상실 다음 날부터 훈련 부과",
-                  "bold": true
-                },
-                {
-                  "label": "단서",
-                  "text": "구속수감자·질병 및 심신장애인은 보류해소 후 부과",
-                  "bold": false
-                }
-              ]
-            },
-            "right": {
-              "title": "방침일부 보류",
-              "subtitle": "180일 기준",
-              "items": [
-                {
-                  "label": "180일 이상",
-                  "text": "해당 연도 방침보류자 훈련시간 적용",
-                  "bold": true
-                },
-                {
-                  "label": "180일 미만",
-                  "text": "부과된 훈련을 이미 이수한 경우 신분·연차별 훈련시간 적용",
-                  "bold": false
-                }
-              ]
-            },
-            "sourceArticle": "교육훈련 훈령 제23조",
-            "sourceClauses": [
-              "보류자 훈련시간 적용"
-            ],
-            "note": "3차 훈련은 1·2차 보류 규정에 포함되지 않는다. 단서의 기산점은 '보류해소 후'.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
-            "sourceVersion": "국방부훈령 제3216호",
-            "effectiveDate": "2026-10-14",
-            "scriptRef": "DR-067",
-            "scriptEvidence": {
-              "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
-              "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
-              "lines": [
-                187,
-                189,
-                197,
-                199,
-                201
-              ]
-            }
-          }
-        },
-        {
-          "id": "DR-067-D05",
-          "job_id": "DR-067-D05-script-122506-followup",
-          "mode": "revision",
-          "slide": {
-            "lessonId": "DR-067",
-            "articleKey": "2-23",
-            "title": "보류가 시작되어도 남는 훈련",
-            "subtitle": "보류 신분 취득·전환 후에도 남는 훈련과 이수 인정 기준.",
-            "layout": "equal",
-            "left": {
-              "title": "계속 부과와 예외",
-              "subtitle": "제1항제5호다목",
-              "items": [
-                {
-                  "label": "계속 부과",
-                  "text": "보류 전 해당 연도 2차부터 무단불참한 훈련 및 미이수 이월훈련",
-                  "bold": false
-                },
-                {
-                  "label": "별도 부과 시점",
-                  "text": "국외 체류: 귀국 후 / 외항선원: 하선 후 / 경찰학교: 과정 이수 후",
-                  "bold": true
-                },
-                {
-                  "label": "이수 인정",
-                  "text": "국가유공자·보훈대상자 선정 전 부과훈련 이수 처리",
-                  "bold": false
-                }
-              ]
-            },
-            "right": {
-              "title": "전면 → 일부 보류",
-              "subtitle": "기이수시간 반영",
-              "items": [
-                {
-                  "label": "전면보류 기간",
-                  "text": "부과된 훈련을 이수 처리",
-                  "bold": false
-                },
-                {
-                  "label": "일부보류 시간 미만",
-                  "text": "이수 처리 시간이 일부보류 훈련시간보다 적으면 부족분만 부과",
-                  "bold": true
-                },
-                {
-                  "label": "일부보류 시간 이상",
-                  "text": "이수 처리 시간이 같거나 많으면 해당 연도 훈련 종결",
-                  "bold": true
-                }
-              ]
-            },
-            "sourceArticle": "교육훈련 훈령 제23조",
-            "sourceClauses": [
-              "제1항제5호다목1)",
-              "제1항제5호다목2)"
-            ],
-            "note": "하선 후 부과(승선 전 아님). 전면보류 기간의 이수 처리 시간은 신분 전환 후에도 인정.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
-            "sourceVersion": "국방부훈령 제3216호",
-            "effectiveDate": "2026-10-14",
-            "scriptRef": "DR-067",
-            "scriptEvidence": {
-              "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
-              "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
-              "lines": [
-                205,
-                207,
-                209,
-                211,
-                213
-              ]
-            }
-          }
-        },
-        {
-          "id": "DR-067-D08",
-          "job_id": "DR-067-D08-script-122506-followup",
-          "mode": "revision",
-          "slide": {
-            "lessonId": "DR-067",
-            "articleKey": "2-23",
-            "title": "병역처분 변경과 보류",
-            "subtitle": "복무를 감당할 수 없는 경우의 병역처분 변경과 별도 보류를 구분한다.",
-            "layout": "equal",
-            "left": {
-              "title": "병역처분 변경",
-              "subtitle": "병역법 제65조·시행령 제135조",
-              "items": [
-                {
-                  "label": "신청 전제",
-                  "text": "질병 등으로 예비군복무를 감당할 수 없는 경우",
-                  "bold": true
-                },
-                {
-                  "label": "신청",
-                  "text": "거주지 지방병무청장에게 병역처분변경원서",
-                  "bold": false
-                },
-                {
-                  "label": "검사·처분",
-                  "text": "지정 신체검사기관 및 군 병원 검사 결과에 따라 전시근로역 편입 또는 병역면제 가능",
-                  "bold": false
-                }
-              ]
-            },
-            "right": {
-              "title": "별도 보류 가능",
-              "subtitle": "전산코드 확인",
-              "items": [
-                {
-                  "label": "대상",
-                  "text": "현역복무부적합 처분 후 보충역 복무 및 소집해제자",
-                  "bold": false
-                },
-                {
-                  "label": "확인",
-                  "text": "국방동원정보체계 전산코드상 정신이상·성격장애",
-                  "bold": true
-                }
-              ]
-            },
-            "sourceArticle": "교육훈련 훈령 제23조",
-            "sourceClauses": [
-              "제1항"
-            ],
-            "note": "신청 대상 기관은 거주지 지방병무청장. 별도 보류의 전산코드는 병역처분변경원서가 아님.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
-            "sourceVersion": "국방부훈령 제3216호",
-            "effectiveDate": "2026-10-14",
-            "scriptRef": "DR-067",
-            "scriptEvidence": {
-              "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
-              "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
-              "lines": [
-                131,
-                133,
-                139,
-                141
-              ]
-            }
-          }
-        },
-        {
           "id": "DR-067-D01",
-          "job_id": "DR-067-D01-script-122506-followup",
+          "job_id": "DR-067-D01-script-142522",
           "mode": "revision",
           "slide": {
             "lessonId": "DR-067",
@@ -409,7 +45,7 @@
               "subtitle": "동원·훈련",
               "items": [
                 {
-                  "label": "적용 범위",
+                  "label": "동원 및 훈련 (또는 아님)",
                   "text": "예비군법상 동원·재난동원, 지역·동원예비군훈련 소집만",
                   "bold": true
                 },
@@ -431,7 +67,7 @@
               "제1항제2호가목",
               "제1항제2호나목"
             ],
-            "note": "보류기간: 사유 발생일부터 해소일까지. 기산일 예외와 기간 요건은 별도 도식 참조.",
+            "note": "보류기간: 사유 발생일부터 해소일까지. 보류는 이수 처리, 연기는 추후 이수.",
             "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J23-0:0",
             "sourceVersion": "국방부훈령 제3216호",
             "effectiveDate": "2026-10-14",
@@ -441,6 +77,7 @@
               "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
               "lines": [
                 9,
+                15,
                 19,
                 21,
                 23,
@@ -450,8 +87,823 @@
                 33,
                 35,
                 37,
-                39,
-                41
+                41,
+                47,
+                51
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson_id": "DR-005",
+      "expected_source_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+      "expected_script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+      "existing_max": 4,
+      "items": [
+        {
+          "id": "DR-005-D01",
+          "job_id": "DR-005-D01-script-142522",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-005",
+            "articleKey": "1-5",
+            "title": "정책을 정하는 곳과 시행하는 곳",
+            "subtitle": "국방부장관과 각 군 참모총장의 업무를 비교한다.",
+            "layout": "equal",
+            "left": {
+              "title": "국방부장관",
+              "subtitle": "제1호",
+              "items": [
+                {
+                  "label": "총괄·정책",
+                  "text": "예비군 업무 총괄, 조직·편성·운영 정책수립 및 제도의 발전",
+                  "bold": false
+                },
+                {
+                  "label": "인사·승인",
+                  "text": "업무담당자 임용·임명·해임과 추가 편성 승인",
+                  "bold": false
+                },
+                {
+                  "label": "지정·해제",
+                  "text": "수임군부대 지정 및 해제",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "각 군 참모총장",
+              "subtitle": "제2호",
+              "items": [
+                {
+                  "label": "시행·감독",
+                  "text": "국방부 지침의 시행방침 수립과 집행 감독",
+                  "bold": false
+                },
+                {
+                  "label": "선발·훈련",
+                  "text": "업무담당자 선발 세부계획 수립·시행, 교육훈련 조정·통제",
+                  "bold": false
+                },
+                {
+                  "label": "지급",
+                  "text": "예비군 치료 및 보상금 지급",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "조직·편성 훈령 제5조",
+            "sourceClauses": [
+              "제1호",
+              "제2호"
+            ],
+            "note": "장관: 전반적인 인사업무. 참모총장: 선발에 관한 세부계획 수립 및 시행.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J5-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-005",
+            "scriptEvidence": {
+              "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+              "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+              "lines": [
+                25,
+                26,
+                27,
+                29,
+                34,
+                46,
+                56,
+                74,
+                75,
+                76,
+                78
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-005-D03",
+          "job_id": "DR-005-D03-script-142522",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-005",
+            "articleKey": "1-5",
+            "title": "부대지휘관과 소대장의 임무",
+            "subtitle": "부대 운영 책임과 현장 소대 지휘 임무를 나눠 본다.",
+            "layout": "equal",
+            "left": {
+              "title": "부대지휘관",
+              "subtitle": "제4호 · 중대 이상·독립 직장소대장",
+              "items": [
+                {
+                  "label": "운영·협조",
+                  "text": "법령상 임무, 지방병무청장과 협조 및 부대 유지",
+                  "bold": false
+                },
+                {
+                  "label": "무기·탄약",
+                  "text": "위임 시 관리책임, 훈련·작전 수령 시 관리·유지",
+                  "bold": false
+                },
+                {
+                  "label": "지역예비군",
+                  "text": "국방동원자원조사 참여",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "예비군소대장",
+              "subtitle": "제5호",
+              "items": [
+                {
+                  "label": "자원·훈련",
+                  "text": "소대자원 파악·유지, 참석 독려·확인·인솔·군기유지, 부교관",
+                  "bold": false
+                },
+                {
+                  "label": "지휘·보급",
+                  "text": "동원 예비군 지휘통솔, 응소 확인, 무기·탄약 분배",
+                  "bold": false
+                },
+                {
+                  "label": "전투준비",
+                  "text": "진지투입계획 확인·정찰, 전투준비 통제",
+                  "bold": false
+                },
+                {
+                  "label": "교육·지시",
+                  "text": "전시교육계획 시행 및 예비군지휘관 지시사항 수행",
+                  "bold": true
+                }
+              ]
+            },
+            "sourceArticle": "조직·편성 훈령 제5조",
+            "sourceClauses": [
+              "제4호",
+              "제5호"
+            ],
+            "note": "작전지속지원 사항 확인 및 지원 건의. 국방동원자원조사는 지역예비군부대.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J5-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-005",
+            "scriptEvidence": {
+              "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+              "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+              "lines": [
+                162,
+                164,
+                166,
+                170,
+                172,
+                184,
+                192
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-005-D05",
+          "job_id": "DR-005-D05-script-142522",
+          "mode": "new",
+          "slide": {
+            "lessonId": "DR-005",
+            "articleKey": "1-5",
+            "title": "군수관리와 예산의 주체별 구분",
+            "subtitle": "국방부장관과 각 군 참모총장의 동사와 예산 목적을 비교한다.",
+            "layout": "equal",
+            "left": {
+              "title": "국방부장관",
+              "subtitle": "방침 · 운영",
+              "items": [
+                {
+                  "label": "군수관리",
+                  "text": "방침 수립 및 통제",
+                  "bold": true
+                },
+                {
+                  "label": "예산 목적",
+                  "text": "예비군 육성·운영",
+                  "bold": false
+                },
+                {
+                  "label": "예산 업무",
+                  "text": "예산의 획득 및 지원",
+                  "bold": true
+                }
+              ]
+            },
+            "right": {
+              "title": "각 군 참모총장",
+              "subtitle": "세부계획 · 지휘관리",
+              "items": [
+                {
+                  "label": "군수관리",
+                  "text": "세부계획 수립, 시행, 감독 및 통제",
+                  "bold": true
+                },
+                {
+                  "label": "예산 목적",
+                  "text": "예비군 육성·지휘관리",
+                  "bold": false
+                },
+                {
+                  "label": "예산 업무",
+                  "text": "예산의 획득 및 지원",
+                  "bold": true
+                }
+              ]
+            },
+            "sourceArticle": "조직·편성 훈령 제5조",
+            "sourceClauses": [
+              "제1호아·자목",
+              "제2호라·바목"
+            ],
+            "note": "장관의 군수관리에는 시행이 없고, 양쪽 예산 업무는 획득 및 지원이다.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J5-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-005",
+            "scriptEvidence": {
+              "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+              "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+              "lines": [
+                58,
+                62,
+                66,
+                77,
+                79,
+                86,
+                90,
+                94
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-005-D06",
+          "job_id": "DR-005-D06-script-142522",
+          "mode": "new",
+          "slide": {
+            "lessonId": "DR-005",
+            "articleKey": "1-5",
+            "title": "방침·지급·심의와 임명",
+            "subtitle": "치료·보상과 임명에 관한 권한을 서로 바꾸지 않는다.",
+            "layout": "equal",
+            "left": {
+              "title": "치료 및 보상",
+              "subtitle": "방침 → 지급 → 심의 (주체 비교)",
+              "items": [
+                {
+                  "label": "국방부장관",
+                  "text": "포상·치료·보상 방침 수립과 조정",
+                  "bold": false
+                },
+                {
+                  "label": "각 군 참모총장",
+                  "text": "치료 및 보상금 지급",
+                  "bold": true
+                },
+                {
+                  "label": "수임군부대장",
+                  "text": "치료 및 보상에 관한 심의",
+                  "bold": true
+                }
+              ]
+            },
+            "right": {
+              "title": "임명하는 사람",
+              "subtitle": "서로 다른 임명 대상",
+              "items": [
+                {
+                  "label": "국방부장관",
+                  "text": "업무담당자 임용·임명·해임",
+                  "bold": false
+                },
+                {
+                  "label": "수임군부대장",
+                  "text": "위임된 예비군중대장 임명·해임",
+                  "bold": false
+                },
+                {
+                  "label": "수탁 경찰서장",
+                  "text": "무기고·탄약고 관리책임자 임명·통제",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "조직·편성 훈령 제5조",
+            "sourceClauses": [
+              "제1호다·라·바목",
+              "제2호마목",
+              "제3호다·자·차목",
+              "제7호라목"
+            ],
+            "note": "특별감사: 국방부장관(각 군 위임). 정기감사: 수임군부대장.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J5-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-005",
+            "scriptEvidence": {
+              "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+              "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+              "lines": [
+                28,
+                30,
+                31,
+                68,
+                70,
+                78,
+                98,
+                99,
+                100,
+                136,
+                144,
+                249
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-005-D07",
+          "job_id": "DR-005-D07-script-142522",
+          "mode": "new",
+          "slide": {
+            "lessonId": "DR-005",
+            "articleKey": "1-5",
+            "title": "일곱 주체의 업무 개수와 편성 권한",
+            "subtitle": "업무 목록의 끝과 편성·해체 권한을 비교한다.",
+            "layout": "equal",
+            "left": {
+              "title": "업무분장 개수",
+              "subtitle": "7개 주체",
+              "items": [
+                {
+                  "label": "국방부장관 / 각 군 참모총장",
+                  "text": "10 / 7",
+                  "bold": false
+                },
+                {
+                  "label": "수임군부대장 / 부대지휘관",
+                  "text": "12 / 5",
+                  "bold": false
+                },
+                {
+                  "label": "소대장 / 병무청장 / 수탁 경찰서장",
+                  "text": "8 / 8 / 7",
+                  "bold": true
+                }
+              ]
+            },
+            "right": {
+              "title": "편성과 해체",
+              "subtitle": "주체와 동사의 정확한 짝",
+              "items": [
+                {
+                  "label": "국방부장관",
+                  "text": "예비군 추가 편성 승인",
+                  "bold": false
+                },
+                {
+                  "label": "수임군부대장",
+                  "text": "편성요건 검토 및 해체 요구",
+                  "bold": true
+                },
+                {
+                  "label": "병무청장",
+                  "text": "직장예비군부대 편성 및 해체",
+                  "bold": true
+                }
+              ]
+            },
+            "sourceArticle": "조직·편성 훈령 제5조",
+            "sourceClauses": [
+              "제1호마목",
+              "제3호라목",
+              "제6호나목",
+              "제1~7호"
+            ],
+            "note": "해체 요구와 실제 해체는 다르다. 각 군 참모총장의 업무는 사목까지.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J5-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-005",
+            "scriptEvidence": {
+              "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+              "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+              "lines": [
+                82,
+                138,
+                140,
+                251,
+                255,
+                266
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson_id": "DR-011",
+      "expected_source_blob": "c790262d0a78c11f2e59c0d9bb7cef7321c8995c",
+      "expected_script_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed",
+      "existing_max": 4,
+      "items": [
+        {
+          "id": "DR-011-D02",
+          "job_id": "DR-011-D02-script-142522",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-011",
+            "articleKey": "1-11",
+            "title": "임명 직위와 자원의 우선순위",
+            "subtitle": "직위의 순서와 해당 직위에 임명할 자원의 순서를 분리한다.",
+            "layout": "equal",
+            "left": {
+              "title": "임명 직위",
+              "subtitle": "제1항제3호",
+              "items": [
+                {
+                  "label": "1순위",
+                  "text": "예비군소대장",
+                  "bold": false
+                },
+                {
+                  "label": "2순위",
+                  "text": "부중대장·부기동대장",
+                  "bold": false
+                },
+                {
+                  "label": "3순위",
+                  "text": "부지역대장",
+                  "bold": false
+                },
+                {
+                  "label": "4순위",
+                  "text": "지역대 참모",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "임명 자원",
+              "subtitle": "가능한 동원미지정 간부 우선",
+              "items": [
+                {
+                  "label": "위관장교",
+                  "text": "예비군지휘관 선발대상 병과 → 그 외 병과",
+                  "bold": false
+                },
+                {
+                  "label": "부사관",
+                  "text": "예비군지휘관 선발대상 병과 → 그 외 병과",
+                  "bold": false
+                },
+                {
+                  "label": "그 다음",
+                  "text": "지원 선발자 또는 예비역 병",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "조직·편성 훈령 제11조",
+            "sourceClauses": [
+              "제1항제3호"
+            ],
+            "note": "가급적 동원 미지정 간부자원 우선. 지역 내 예비역 병 가능, 인접지역 확산 시 제외.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J11-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-011",
+            "scriptEvidence": {
+              "source_git_blob": "c790262d0a78c11f2e59c0d9bb7cef7321c8995c",
+              "source_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed",
+              "lines": [
+                79,
+                81,
+                83,
+                89,
+                90,
+                91,
+                92,
+                93,
+                95,
+                103,
+                105
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-011-D03",
+          "job_id": "DR-011-D03-script-142522",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-011",
+            "articleKey": "1-11",
+            "title": "주요 직위자 임명 절차",
+            "subtitle": "중대장 추천부터 임명결과 안내까지의 흐름이다.",
+            "layout": "equal",
+            "left": {
+              "title": "추천과 임명",
+              "subtitle": "제2항제1호~제3호",
+              "items": [
+                {
+                  "label": "중대장",
+                  "text": "선발 후 지방병무청 후순위 조정 승인 → 정보체계로 관리대대장 추천",
+                  "bold": true
+                },
+                {
+                  "label": "관리대대장",
+                  "text": "적격 확인, 별지 7호 지원서·편성카드 첨부 후 임명권자 추천",
+                  "bold": false
+                },
+                {
+                  "label": "임명권자",
+                  "text": "인사명령으로 임명·임명장 수여",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "지원자·결과 처리",
+              "subtitle": "제2항제2호·제4호",
+              "items": [
+                {
+                  "label": "지원자 없음",
+                  "text": "중대장이 소속 대원 중 적합 자원 추천 가능",
+                  "bold": false
+                },
+                {
+                  "label": "절차 간소화",
+                  "text": "정보체계로 추천·인사명령·임명장 생성·발송",
+                  "bold": false
+                },
+                {
+                  "label": "수여 예외",
+                  "text": "필요 시 관할 관리대대장(지역대장) 수여 가능",
+                  "bold": false
+                },
+                {
+                  "label": "최종 확인",
+                  "text": "중대장이 정보체계로 결과 확인 후 임무·역할 안내",
+                  "bold": true
+                }
+              ]
+            },
+            "sourceArticle": "조직·편성 훈령 제11조",
+            "sourceClauses": [
+              "제2항"
+            ],
+            "note": "승인 후 추천. 임명 수단은 인사명령, 결과 확인 수단은 국방동원정보체계.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J11-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-011",
+            "scriptEvidence": {
+              "source_git_blob": "c790262d0a78c11f2e59c0d9bb7cef7321c8995c",
+              "source_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed",
+              "lines": [
+                113,
+                139,
+                153,
+                155,
+                159,
+                171,
+                173,
+                177,
+                187,
+                189
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-011-D05",
+          "job_id": "DR-011-D05-script-142522",
+          "mode": "new",
+          "slide": {
+            "lessonId": "DR-011",
+            "articleKey": "1-11",
+            "title": "선발공고와 지원서",
+            "subtitle": "공고 채널과 선발공고 필수 내용, 별지 제7호 지원서를 구분한다.",
+            "layout": "equal",
+            "left": {
+              "title": "선발공고",
+              "subtitle": "예비군홈페이지 등",
+              "items": [
+                {
+                  "label": "공고 주체",
+                  "text": "예비군중대장",
+                  "bold": false
+                },
+                {
+                  "label": "항목 1~3",
+                  "text": "선발직책, 자격기준, 의무 및 혜택",
+                  "bold": false
+                },
+                {
+                  "label": "항목 4~6",
+                  "text": "접수기간, 구비서류, 결과 발표 방법",
+                  "bold": true
+                }
+              ]
+            },
+            "right": {
+              "title": "지원서",
+              "subtitle": "별지 제7호서식",
+              "items": [
+                {
+                  "label": "제출",
+                  "text": "예비군 주요 직위자 지원서",
+                  "bold": false
+                },
+                {
+                  "label": "확인",
+                  "text": "후순위 승인일 기재",
+                  "bold": false
+                },
+                {
+                  "label": "추천 시 첨부",
+                  "text": "지원서 및 예비군 편성카드",
+                  "bold": true
+                }
+              ]
+            },
+            "sourceArticle": "조직·편성 훈령 제11조",
+            "sourceClauses": [
+              "제2항제1호",
+              "제2항제3호",
+              "별지 제7호서식"
+            ],
+            "note": "공고는 홈페이지, 추천·결과 확인은 국방동원정보체계. 선발일정은 원고의 열거에 없다.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J11-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-011",
+            "scriptEvidence": {
+              "source_git_blob": "c790262d0a78c11f2e59c0d9bb7cef7321c8995c",
+              "source_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed",
+              "lines": [
+                113,
+                119,
+                127,
+                129,
+                135,
+                159,
+                244
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson_id": "DR-030",
+      "expected_source_blob": "41d907a7a6f3ef9d3929b57b0b704b18c0f70ecc",
+      "expected_script_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
+      "existing_max": 4,
+      "items": [
+        {
+          "id": "DR-030-D01",
+          "job_id": "DR-030-D01-script-142522",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-030",
+            "articleKey": "1-30",
+            "title": "동원령 발령과 다중 전파",
+            "subtitle": "발령권자와 평시 연락대책을 함께 확인한다.",
+            "layout": "split",
+            "left": {
+              "title": "발령·전파",
+              "subtitle": "지역예비군 동원령",
+              "items": [
+                {
+                  "label": "제1항 · 발령권자",
+                  "text": "국방부장관 또는 수임군부대장 및 수탁경찰서장",
+                  "bold": true
+                },
+                {
+                  "label": "제2항제1호",
+                  "text": "예비군 지휘계통의 비상연락망, 매스컴·경찰 및 행정관서·지역 연락체계",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "지휘관 준비",
+              "subtitle": "신속한 경보전파",
+              "items": [
+                {
+                  "label": "제2항제2호",
+                  "text": "예비군지휘관: 예비군소대별 비상소집망 유지",
+                  "bold": false
+                },
+                {
+                  "label": "제2항제2호",
+                  "text": "출타 대원에게 명령 대리 수령인을 선정하게 한다.",
+                  "bold": false
+                },
+                {
+                  "label": "제2항제2호",
+                  "text": "대리 수령인의 주소·연락처·성명·본인과의 관계 등을 확보한다.",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "조직·편성 훈령 제30조",
+            "sourceClauses": [
+              "제1항",
+              "제2항"
+            ],
+            "note": "지휘계통은 비상연락망, 소대별은 비상소집망. 대리수령인 정보에 주민등록번호는 없음.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J30-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-030",
+            "scriptEvidence": {
+              "source_git_blob": "41d907a7a6f3ef9d3929b57b0b704b18c0f70ecc",
+              "source_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
+              "lines": [
+                35,
+                65,
+                67,
+                208,
+                209,
+                210,
+                211
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-030-D04",
+          "job_id": "DR-030-D04-script-142522",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-030",
+            "articleKey": "1-30",
+            "title": "동원 해제권자와 사후처리",
+            "subtitle": "지역단위·전국단위 해제의 판단요소를 비교한다.",
+            "layout": "split",
+            "left": {
+              "title": "해제권자",
+              "subtitle": "발령권자와 동일",
+              "items": [
+                {
+                  "label": "제7항 · 기본",
+                  "text": "지역예비군 동원 해제권자는 발령권자와 같다.",
+                  "bold": true
+                },
+                {
+                  "label": "제7항제1호 · 지역",
+                  "text": "책임지역 작전 종결 후 지역안정도 평가·지자체장 요구·주민 및 언론동향·경제활동 고려",
+                  "bold": false
+                },
+                {
+                  "label": "제7항제2호 · 전국",
+                  "text": "국방부장관: 작전 종결 여부·정치·경제·국민 여론·동원지역 수임군부대장 의견 고려",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "사후처리",
+              "subtitle": "적용하는 별도 훈령",
+              "items": [
+                {
+                  "label": "제8항",
+                  "text": "「국방동원업무에 관한 훈령」 제80조를 적용한다.",
+                  "bold": true
+                }
+              ]
+            },
+            "sourceArticle": "조직·편성 훈령 제30조",
+            "sourceClauses": [
+              "제7항",
+              "제8항"
+            ],
+            "note": "지역안정도 평가(피해상황 정도 아님). 전국 해제는 국방부장관.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J30-0:0",
+            "sourceVersion": "국방부훈령 제3104호",
+            "effectiveDate": "2025-11-14",
+            "scriptRef": "DR-030",
+            "scriptEvidence": {
+              "source_git_blob": "41d907a7a6f3ef9d3929b57b0b704b18c0f70ecc",
+              "source_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
+              "lines": [
+                159,
+                165,
+                167,
+                173,
+                177,
+                185,
+                189,
+                191
               ]
             }
           }
