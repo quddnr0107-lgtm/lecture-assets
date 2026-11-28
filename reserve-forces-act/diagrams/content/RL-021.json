@@ -1,0 +1,271 @@
+{
+  "lessonId": "RL-021",
+  "lessonTitle": "예비군법 제11조, 훈련비 등 지급",
+  "diagrams": [
+    {
+      "id": "training-cost-legal-basis",
+      "title": "훈련비 등 지급의 근거",
+      "subtitle": "법 제11조 · 대통령령에 따라 지급할 수 있음",
+      "kind": "rule",
+      "left": {
+        "title": "지급 대상",
+        "items": [
+          {
+            "label": "예비군부대의 지휘관",
+            "text": "부대를 지휘하는 사람"
+          },
+          {
+            "label": "소집된 대원",
+            "text": "동원 또는 훈련소집된 예비군대원"
+          }
+        ]
+      },
+      "right": {
+        "title": "지급 내용과 기준",
+        "items": [
+          {
+            "label": "내용",
+            "text": "급식과 훈련비 및 그 밖의 실비"
+          },
+          {
+            "label": "기준·표현",
+            "text": "대통령령에 따라 지급할 수 있음"
+          }
+        ]
+      },
+      "note": "지휘관과 소집된 대원을 함께 포함",
+      "sourceRanges": [
+        {
+          "startLine": 13,
+          "endLine": 37,
+          "topic": "법 제11조 대상·항목·위임"
+        }
+      ]
+    },
+    {
+      "id": "called-member-actual-costs",
+      "title": "소집 대원에게 가는 실비",
+      "subtitle": "시행령 제27조 제1항 · 예산의 범위",
+      "kind": "rule",
+      "left": {
+        "title": "대원과 지급 범위",
+        "items": [
+          {
+            "label": "대상",
+            "text": "동원 또는 훈련소집된 예비군대원"
+          },
+          {
+            "label": "한도",
+            "text": "예산의 범위에서 실비 변상을 할 수 있음"
+          }
+        ]
+      },
+      "right": {
+        "title": "원문에 든 대표 항목",
+        "items": [
+          {
+            "label": "급식비·훈련비",
+            "text": "법 제11조에서 이어지는 지급 항목"
+          },
+          {
+            "label": "교통비 등",
+            "text": "실비 변상의 대표 항목으로 함께 열거"
+          }
+        ]
+      },
+      "note": "열거된 훈련비를 숙박비로 바꾼 문장은 원문과 다름",
+      "sourceRanges": [
+        {
+          "startLine": 41,
+          "endLine": 63,
+          "topic": "실비 변상과 열거 항목"
+        }
+      ]
+    },
+    {
+      "id": "unit-expense-eligible-units",
+      "title": "부대운영비 대상 부대",
+      "subtitle": "지역예비군과 어민예비군의 규모 구별",
+      "kind": "compare",
+      "left": {
+        "title": "지역예비군",
+        "items": [
+          {
+            "label": "기본 규모",
+            "text": "중대 이상의 부대"
+          },
+          {
+            "label": "포함하는 소대",
+            "text": "국방부장관이 지정하는 소대"
+          }
+        ]
+      },
+      "right": {
+        "title": "직장예비군",
+        "items": [
+          {
+            "label": "해당 종류",
+            "text": "어민예비군"
+          },
+          {
+            "label": "규모",
+            "text": "중대 이상의 부대"
+          }
+        ]
+      },
+      "note": "지역의 지정 소대와 직장의 어민예비군 조건을 구분",
+      "sourceRanges": [
+        {
+          "startLine": 65,
+          "endLine": 73,
+          "topic": "부대운영비 대상 부대"
+        }
+      ]
+    },
+    {
+      "id": "unit-versus-commander-cost",
+      "title": "부대와 부대장의 돈 구별",
+      "subtitle": "부대운영비와 직무수행에 따르는 실비",
+      "kind": "compare",
+      "left": {
+        "title": "해당 부대",
+        "items": [
+          {
+            "label": "지급 이름",
+            "text": "부대운영비"
+          },
+          {
+            "label": "용도",
+            "text": "부대를 운영하기 위한 비용"
+          }
+        ]
+      },
+      "right": {
+        "title": "그 부대의 장",
+        "items": [
+          {
+            "label": "지급 이름",
+            "text": "직무수행에 따르는 실비"
+          },
+          {
+            "label": "범위·표현",
+            "text": "예산의 범위에서 지급할 수 있음"
+          }
+        ]
+      },
+      "note": "부대장에게 주는 실비를 업무추진비로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 67,
+          "endLine": 85,
+          "topic": "부대운영비와 지휘관 실비"
+        }
+      ]
+    },
+    {
+      "id": "cost-delegation-levels",
+      "title": "지급 근거와 산정방법",
+      "subtitle": "법 · 대통령령 · 국방부장관",
+      "kind": "compare",
+      "left": {
+        "title": "법과 대통령령",
+        "items": [
+          {
+            "label": "법 제11조",
+            "text": "지급의 근거를 두고 대통령령에 위임"
+          },
+          {
+            "label": "시행령 제27조",
+            "text": "소집 대원의 실비 변상과 부대운영비 등을 규정"
+          }
+        ]
+      },
+      "right": {
+        "title": "국방부장관",
+        "items": [
+          {
+            "label": "산정방법",
+            "text": "제27조 제1항의 지급액 산정방법을 정함"
+          },
+          {
+            "label": "지급절차",
+            "text": "같은 항의 지급절차 등에 필요한 사항을 정함"
+          }
+        ]
+      },
+      "note": "법의 대통령령 위임과 시행령의 장관 결정을 구분",
+      "sourceRanges": [
+        {
+          "startLine": 25,
+          "endLine": 37,
+          "topic": "위임 단계"
+        },
+        {
+          "startLine": 43,
+          "endLine": 43,
+          "topic": "산정방법·지급절차"
+        },
+        {
+          "startLine": 63,
+          "endLine": 67,
+          "topic": "장관 결정과 부대 지급"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "법 제11조의 대상·내용·위임",
+      "diagramIds": [
+        "training-cost-legal-basis"
+      ]
+    },
+    {
+      "topic": "대원 실비 변상",
+      "diagramIds": [
+        "called-member-actual-costs"
+      ]
+    },
+    {
+      "topic": "부대운영비 대상",
+      "diagramIds": [
+        "unit-expense-eligible-units"
+      ]
+    },
+    {
+      "topic": "부대·부대장 지급 구별",
+      "diagramIds": [
+        "unit-versus-commander-cost"
+      ]
+    },
+    {
+      "topic": "지급의 위임 단계",
+      "diagramIds": [
+        "cost-delegation-levels"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "주체와 대상",
+      "수치와 기산점",
+      "의무와 재량",
+      "또는·및 관계",
+      "원칙과 예외",
+      "설명 순서",
+      "원고 주요 갈래"
+    ],
+    "issues": [],
+    "sourceNotes": [
+      {
+        "lines": [
+          43,
+          61
+        ],
+        "note": "등을 포함한 원문의 열거 항목을 확인하는 도식이다. 숙박비가 모든 경우 지급 금지라는 일반적 결론은 도식에 추가하지 않음."
+      }
+    ]
+  }
+}

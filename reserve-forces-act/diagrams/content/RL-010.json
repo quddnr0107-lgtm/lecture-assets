@@ -1,0 +1,699 @@
+{
+  "lessonId": "RL-010",
+  "lessonTitle": "예비군법 제6조의3, 동원 등 보류원서의 제출 등",
+  "diagrams": [
+    {
+      "id": "reservation-submit",
+      "title": "보류원서 제출의 근거와 상대",
+      "subtitle": "동원·훈련을 보류받으려는 사람이 제출",
+      "kind": "compare",
+      "left": {
+        "title": "두 보류 근거",
+        "items": [
+          {
+            "label": "동원",
+            "text": "법 제5조제1항 단서"
+          },
+          {
+            "label": "훈련",
+            "text": "법 제6조제3항"
+          }
+        ]
+      },
+      "right": {
+        "title": "제출할 곳",
+        "items": [
+          {
+            "label": "제출 주체",
+            "text": "동원이나 훈련을 보류받으려는 사람"
+          },
+          {
+            "label": "제출 상대",
+            "text": "소속 예비군중대장에게 보류원서를 제출하여야 함"
+          }
+        ]
+      },
+      "note": "제1항의 말끝은 제출, 사유 해소 때의 말끝은 신고",
+      "sourceRanges": [
+        {
+          "startLine": 19,
+          "endLine": 35,
+          "topic": "본법 제1항 근거·제출처·제출과 신고 구별"
+        }
+      ]
+    },
+    {
+      "id": "reservation-application-proxy",
+      "title": "보류원서를 대신 낼 수 있는 때",
+      "subtitle": "본인이 제출할 수 없는 경우의 예외",
+      "kind": "compare",
+      "left": {
+        "title": "대리 제출 조건",
+        "items": [
+          {
+            "label": "조건",
+            "text": "본인이 보류원서를 제출할 수 없는 경우"
+          },
+          {
+            "label": "가능한 처리",
+            "text": "대리인이 대신 제출하게 할 수 있음"
+          }
+        ]
+      },
+      "right": {
+        "title": "대리 제출자 · 또는",
+        "items": [
+          {
+            "label": "세대주",
+            "text": "본인의 세대주"
+          },
+          {
+            "label": "성년 가족",
+            "text": "가족 중 성년자"
+          },
+          {
+            "label": "고용주",
+            "text": "본인의 고용주"
+          }
+        ]
+      },
+      "note": "본인이 원하기만 하면 대신 낼 수 있는 규정이 아님",
+      "sourceRanges": [
+        {
+          "startLine": 35,
+          "endLine": 35,
+          "topic": "시행령 제13조 대리 제출 요약"
+        }
+      ]
+    },
+    {
+      "id": "reservation-form-website",
+      "title": "보류원서 서식과 홈페이지 제출",
+      "subtitle": "별지 제18호서식의 원칙과 출국 목적의 예외",
+      "kind": "compare",
+      "left": {
+        "title": "일반 제출",
+        "items": [
+          {
+            "label": "서식",
+            "text": "별지 제18호서식 예비군 동원(교육훈련) 보류원서"
+          },
+          {
+            "label": "첨부·제출",
+            "text": "해당 구분의 서류를 첨부해 소속 예비군중대장에게 제출하여야 함"
+          }
+        ]
+      },
+      "right": {
+        "title": "국방부 홈페이지",
+        "items": [
+          {
+            "label": "대상",
+            "text": "외국에 여행 또는 체류하기 위하여 동원을 보류하려는 사람"
+          },
+          {
+            "label": "방법",
+            "text": "국방부 홈페이지를 통하여 보류원서를 제출할 수 있음"
+          }
+        ]
+      },
+      "note": "여행 또는 체류하기 위하여라는 원고의 시제를 보존",
+      "sourceRanges": [
+        {
+          "startLine": 37,
+          "endLine": 57,
+          "topic": "제18호서식·제출처·홈페이지 대상과 시제"
+        }
+      ]
+    },
+    {
+      "id": "us-force-employment-proof",
+      "title": "미군부대 종사원의 재직증명서",
+      "subtitle": "현재 일하고 있다는 증명을 발행하는 네 주체",
+      "kind": "compare",
+      "left": {
+        "title": "부대·노무 지원",
+        "items": [
+          {
+            "label": "발행 주체 ①",
+            "text": "소속 부대 인사처장"
+          },
+          {
+            "label": "발행 주체 ②",
+            "text": "미군부대 노무지원단장"
+          }
+        ]
+      },
+      "right": {
+        "title": "도급·경비 업체",
+        "items": [
+          {
+            "label": "발행 주체 ③",
+            "text": "도급업체 대표"
+          },
+          {
+            "label": "발행 주체 ④",
+            "text": "미군부대 경비업체 대표"
+          },
+          {
+            "label": "붙이는 서류",
+            "text": "위 주체 중 하나가 발행한 재직증명서 1부"
+          }
+        ]
+      },
+      "note": "보류원서에는 근로계약서가 아닌 재직증명서",
+      "sourceRanges": [
+        {
+          "startLine": 59,
+          "endLine": 75,
+          "topic": "미군부대 종사원의 4개 발행 주체·서류·부수"
+        }
+      ]
+    },
+    {
+      "id": "other-reservation-proof",
+      "title": "그 밖의 보류대상자 증명서",
+      "subtitle": "증명서를 발행할 곳과 붙일 서류를 구분",
+      "kind": "compare",
+      "left": {
+        "title": "발행 주체 · 또는",
+        "items": [
+          {
+            "label": "기관 등",
+            "text": "소속 기관 등의 장"
+          },
+          {
+            "label": "학교",
+            "text": "학교의 장"
+          }
+        ]
+      },
+      "right": {
+        "title": "첨부 서류 · 또는",
+        "items": [
+          {
+            "label": "재직",
+            "text": "재직증명서 1부"
+          },
+          {
+            "label": "재학",
+            "text": "재학증명서 1부"
+          }
+        ]
+      },
+      "note": "주한 미군부대 종사원에 해당하는 사람 외의 보류대상자에게 적용",
+      "sourceRanges": [
+        {
+          "startLine": 61,
+          "endLine": 65,
+          "topic": "제1호와 그 밖 대상의 구분·서류·발행 주체"
+        }
+      ]
+    },
+    {
+      "id": "entry-exit-confirmation",
+      "title": "출입국 사실의 확인 방법",
+      "subtitle": "행정정보 공동이용과 미동의 때의 첨부",
+      "kind": "compare",
+      "left": {
+        "title": "공동이용으로 확인",
+        "items": [
+          {
+            "label": "담당자",
+            "text": "보류원서를 받은 담당 공무원"
+          },
+          {
+            "label": "근거·의무",
+            "text": "전자정부법 제36조제1항의 행정정보 공동이용으로 출입국 사실 확인"
+          }
+        ]
+      },
+      "right": {
+        "title": "신청인이 동의하지 않음",
+        "items": [
+          {
+            "label": "예외 조건",
+            "text": "공동이용으로 확인하는 데 신청인이 동의하지 않음"
+          },
+          {
+            "label": "처리",
+            "text": "출입국사실증명을 직접 첨부하게 하여야 함"
+          }
+        ]
+      },
+      "note": "공동이용 동의 여부에 따라 확인 방법이 달라짐",
+      "sourceRanges": [
+        {
+          "startLine": 77,
+          "endLine": 79,
+          "topic": "담당자·공동이용·미동의의 출입국사실증명"
+        }
+      ]
+    },
+    {
+      "id": "delay-form-distinction",
+      "title": "보류 제18호와 연기 제19호",
+      "subtitle": "시행령 제14조 또는 제15조제4항의 동원·훈련 연기원서",
+      "kind": "compare",
+      "left": {
+        "title": "보류원서",
+        "items": [
+          {
+            "label": "서식",
+            "text": "별지 제18호서식"
+          },
+          {
+            "label": "증명 내용",
+            "text": "그 자리에 재직·재학한다는 사실 등"
+          }
+        ]
+      },
+      "right": {
+        "title": "연기원서",
+        "items": [
+          {
+            "label": "서식",
+            "text": "별지 제19호서식"
+          },
+          {
+            "label": "제출",
+            "text": "해당 서류를 첨부해 소속 예비군중대장에게 제출하여야 함"
+          }
+        ]
+      },
+      "note": "재직증명서를 동원 연기원서에 붙이는 것으로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 41,
+          "endLine": 63,
+          "topic": "보류원서 서식·서류"
+        },
+        {
+          "startLine": 81,
+          "endLine": 105,
+          "topic": "연기원서 근거·서식·구별"
+        }
+      ]
+    },
+    {
+      "id": "delay-three-proofs",
+      "title": "연기 사유별 첨부 서류",
+      "subtitle": "건강·구속·그 밖의 사유에 맞는 증명 1부",
+      "kind": "compare",
+      "left": {
+        "title": "건강·구속",
+        "items": [
+          {
+            "label": "질병·심신장애",
+            "text": "의사의 진단서 1부"
+          },
+          {
+            "label": "법률에 따라 구속",
+            "text": "교도소장 또는 수사기관의 장의 확인서 1부"
+          }
+        ]
+      },
+      "right": {
+        "title": "관혼상제·재해 등",
+        "items": [
+          {
+            "label": "관서 증명",
+            "text": "행정관서장이 발행한 사실증명서 1부"
+          },
+          {
+            "label": "다른 증명 가능",
+            "text": "또는 사실을 증명할 수 있는 서류 1부"
+          }
+        ]
+      },
+      "note": "진단서를 소견서로 바꾸거나 확인서 발행 주체를 중대장으로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 97,
+          "endLine": 113,
+          "topic": "연기 세 사유·각 서류·발행 주체·부수"
+        }
+      ]
+    },
+    {
+      "id": "reservation-processing",
+      "title": "보류원서 받은 뒤 중대장의 처리",
+      "subtitle": "확인 → 명부 정리 → 군에 지체 없이 통보",
+      "kind": "process",
+      "left": {
+        "title": "예비군중대장의 확인",
+        "items": [
+          {
+            "label": "시작",
+            "text": "제18조제1항의 보류원서를 받은 때"
+          },
+          {
+            "label": "확인·정리",
+            "text": "원서를 확인하고 별지 제12호서식 소속 대원 명부를 정리"
+          }
+        ]
+      },
+      "right": {
+        "title": "군에 알림",
+        "items": [
+          {
+            "label": "통보 상대",
+            "text": "수임군부대의 장"
+          },
+          {
+            "label": "기한·의무",
+            "text": "명부 정리 후 지체 없이 통보하여야 함"
+          }
+        ]
+      },
+      "note": "해소신고 처리의 정기 보고와 구별",
+      "sourceRanges": [
+        {
+          "startLine": 37,
+          "endLine": 41,
+          "topic": "시행규칙 제18조 및 제1항의 보류원서"
+        },
+        {
+          "startLine": 115,
+          "endLine": 129,
+          "topic": "보류원서 수령시 명부 정리·지체 없는 통보"
+        }
+      ]
+    },
+    {
+      "id": "reservation-result-notice",
+      "title": "보류 결과는 본인 또는 가족에게",
+      "subtitle": "수임군부대의 장이 중대장을 통하여 통보",
+      "kind": "process",
+      "left": {
+        "title": "알리는 쪽",
+        "items": [
+          {
+            "label": "통보 주체",
+            "text": "보류원서를 통보받은 수임군부대의 장"
+          },
+          {
+            "label": "경유",
+            "text": "예비군중대장을 통하여 통보"
+          }
+        ]
+      },
+      "right": {
+        "title": "받는 쪽과 시점",
+        "items": [
+          {
+            "label": "상대 · 또는",
+            "text": "본인 또는 그 가족"
+          },
+          {
+            "label": "내용·시점",
+            "text": "보류된 사실을 지체 없이 통보"
+          }
+        ]
+      },
+      "note": "가족에 성년자 한정을 덧붙이거나 고용주로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 131,
+          "endLine": 145,
+          "topic": "결과 통보 주체·경유·상대·기한"
+        }
+      ]
+    },
+    {
+      "id": "reservation-end-deadline",
+      "title": "보류 사유 해소는 그날부터 14일",
+      "subtitle": "보류원서를 냈던 본인이 해야 하는 신고",
+      "kind": "compare",
+      "left": {
+        "title": "신고 의무의 시작",
+        "items": [
+          {
+            "label": "신고자",
+            "text": "제1항에 따라 보류원서를 제출한 사람"
+          },
+          {
+            "label": "사유",
+            "text": "면직·퇴직·제적 등으로 보류 사유가 없어짐"
+          }
+        ]
+      },
+      "right": {
+        "title": "신고 기한",
+        "items": [
+          {
+            "label": "기산점",
+            "text": "그 보류 사유가 없어진 그날부터"
+          },
+          {
+            "label": "14일 이내",
+            "text": "그 사실을 신고하여야 함"
+          }
+        ]
+      },
+      "note": "다음 날부터나 30일 이내로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 149,
+          "endLine": 171,
+          "topic": "해소신고 주체·사유·기산·14일 기한"
+        }
+      ]
+    },
+    {
+      "id": "reservation-end-recipient",
+      "title": "해소신고를 받는 중대장",
+      "subtitle": "거주지와 현재·예정 직장에 따라 구분",
+      "kind": "compare",
+      "left": {
+        "title": "원칙 · 거주지",
+        "items": [
+          {
+            "label": "신고 상대",
+            "text": "거주지의 지역예비군중대장"
+          },
+          {
+            "label": "접수 역할",
+            "text": "보류 사유가 없어진 사실을 신고받음"
+          }
+        ]
+      },
+      "right": {
+        "title": "직장예비군이 편성된 직장",
+        "items": [
+          {
+            "label": "적용 대상",
+            "text": "그 직장에 근무하는 사람 또는 근무하게 될 사람"
+          },
+          {
+            "label": "신고 상대",
+            "text": "그 직장예비군중대장"
+          }
+        ]
+      },
+      "note": "직장예비군중대장을 직장의 장으로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 151,
+          "endLine": 155,
+          "topic": "신고 의무·주체"
+        },
+        {
+          "startLine": 173,
+          "endLine": 185,
+          "topic": "신고 상대·근무하게 될 사람 포함"
+        }
+      ]
+    },
+    {
+      "id": "reservation-end-records",
+      "title": "해소신고의 서식과 중대 명부",
+      "subtitle": "원서와 해소신고는 같은 제18호서식을 사용",
+      "kind": "compare",
+      "left": {
+        "title": "본인의 해소신고",
+        "items": [
+          {
+            "label": "신고 서식",
+            "text": "별지 제18호서식"
+          },
+          {
+            "label": "공통 서식",
+            "text": "보류원서도 별지 제18호서식"
+          }
+        ]
+      },
+      "right": {
+        "title": "접수한 예비군중대장",
+        "items": [
+          {
+            "label": "정리 대상",
+            "text": "중대에 보관된 소속 예비군대원 명부"
+          },
+          {
+            "label": "명부 서식",
+            "text": "별지 제12호서식의 명부를 정리"
+          }
+        ]
+      },
+      "note": "신고서식 제18호와 부대 명부 제12호를 구별",
+      "sourceRanges": [
+        {
+          "startLine": 41,
+          "endLine": 41,
+          "topic": "보류원서 서식"
+        },
+        {
+          "startLine": 187,
+          "endLine": 195,
+          "topic": "해소신고 서식과 명부 정리"
+        }
+      ]
+    },
+    {
+      "id": "reservation-end-report",
+      "title": "해소신고 명단의 정기 보고",
+      "subtitle": "매월 15일과 말일 기준, 기준일부터 5일 이내",
+      "kind": "compare",
+      "left": {
+        "title": "중대장의 명단 작성",
+        "items": [
+          {
+            "label": "명단 대상",
+            "text": "해소신고된 사람"
+          },
+          {
+            "label": "작성 기준",
+            "text": "매월 15일과 말일"
+          },
+          {
+            "label": "보고 기한",
+            "text": "그 작성기준일부터 5일 이내"
+          }
+        ]
+      },
+      "right": {
+        "title": "보고 또는 통보",
+        "items": [
+          {
+            "label": "받는 두 기관",
+            "text": "수임군부대의 장과 지방병무청장"
+          },
+          {
+            "label": "의무",
+            "text": "신고된 사람의 명단을 보고 또는 통보하여야 함"
+          }
+        ]
+      },
+      "note": "매월 두 기준일을 모두 유지",
+      "sourceRanges": [
+        {
+          "startLine": 191,
+          "endLine": 205,
+          "topic": "명단·두 기준일·기한·수신자"
+        }
+      ]
+    },
+    {
+      "id": "reservation-four-deadlines",
+      "title": "보류와 해소의 네 가지 기한",
+      "subtitle": "원서·결과의 즉시 처리와 해소의 기간을 구별",
+      "kind": "compare",
+      "left": {
+        "title": "보류의 시작·결과",
+        "items": [
+          {
+            "label": "원서 받은 중대장",
+            "text": "명부 정리 후 수임군부대의 장에게 지체 없이 통보"
+          },
+          {
+            "label": "원서 받은 군",
+            "text": "중대장을 통하여 본인 또는 가족에게 지체 없이 보류 사실 통보"
+          }
+        ]
+      },
+      "right": {
+        "title": "보류 사유의 해소",
+        "items": [
+          {
+            "label": "본인 신고",
+            "text": "사유가 없어진 그날부터 14일 이내"
+          },
+          {
+            "label": "중대장 명단 보고",
+            "text": "매월 15일과 말일 기준, 작성기준일부터 5일 이내"
+          }
+        ]
+      },
+      "note": "보류원서 제출과 보류 사유 해소신고를 혼동하지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 117,
+          "endLine": 145,
+          "topic": "보류원서 처리·결과 통보"
+        },
+        {
+          "startLine": 151,
+          "endLine": 171,
+          "topic": "본인 해소신고 기한"
+        },
+        {
+          "startLine": 193,
+          "endLine": 213,
+          "topic": "해소신고 명단·기한 정리"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "① 보류원서 제출: 두 근거·소속 중대·대리 제출",
+      "diagramIds": [
+        "reservation-submit",
+        "reservation-application-proxy"
+      ]
+    },
+    {
+      "topic": "② 서류·처리: 제18호·홈페이지·증명·공동이용·연기 제19호·군 통보·결과",
+      "diagramIds": [
+        "reservation-form-website",
+        "us-force-employment-proof",
+        "other-reservation-proof",
+        "entry-exit-confirmation",
+        "delay-form-distinction",
+        "delay-three-proofs",
+        "reservation-processing",
+        "reservation-result-notice"
+      ]
+    },
+    {
+      "topic": "③ 사유 해소: 본인·그날부터 14일·지역/직장·서식·명부·정기 명단",
+      "diagramIds": [
+        "reservation-end-deadline",
+        "reservation-end-recipient",
+        "reservation-end-records",
+        "reservation-end-report",
+        "reservation-four-deadlines"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "강의 번호·원고 제목",
+      "설명 순서",
+      "주체·대상",
+      "의무·재량",
+      "기한·숫자",
+      "원칙·예외",
+      "오답과 정답 구별",
+      "병렬 또는 관계"
+    ],
+    "issues": [],
+    "sourceNotes": [
+      "도입 9행의 같은 사람들 및 91행의 국회의원 예시는 보류 일반론 설명입니다. 이 강의의 도식은 21행에서 구분한 동원 보류(제5조제1항 단서)와 훈련 보류(제6조제3항)의 근거를 나누어 보존하며 국회의원을 훈련 보류자로 확장하지 않았습니다. 8강 원고 53·63·69행은 국회의원의 훈련 의무와 동원 보류를 명시적으로 구별합니다.",
+      "13행의 헌법재판 사건 일화는 조문 절차·기한을 구조화한 핵심 도식의 대상으로 삼지 않았으며 외부 판례 조회를 하지 않았습니다."
+    ]
+  }
+}

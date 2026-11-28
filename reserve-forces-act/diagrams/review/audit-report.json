@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "exam": "80",
+  "contentBasis": "script-only",
+  "expectedLessons": 34,
+  "renderedLessons": 34,
+  "renderedDiagrams": 335,
+  "sourceHashesVerified": true,
+  "scriptReview": "authored by agents after reading all assigned scripts; independent review recorded separately",
+  "textBoundsChecked": 6209,
+  "overflowCount": 0,
+  "overlapCount": 0,
+  "bodyFontSize": 32,
+  "autoFontShrink": false,
+  "textTruncation": false,
+  "rasterized": true,
+  "pngDimensions": [
+    1600,
+    900
+  ],
+  "sourceLawFreshnessVerified": false,
+  "siteIntegrationVerified": false,
+  "failures": [],
+  "fontSizes": [
+    {
+      "role": "body",
+      "size": 32,
+      "boxes": 1787
+    },
+    {
+      "role": "column-title",
+      "size": 34,
+      "boxes": 670
+    },
+    {
+      "role": "eyebrow",
+      "size": 23,
+      "boxes": 335
+    },
+    {
+      "role": "eyebrow",
+      "size": 25,
+      "boxes": 335
+    },
+    {
+      "role": "item-label",
+      "size": 24,
+      "boxes": 1407
+    },
+    {
+      "role": "note",
+      "size": 28,
+      "boxes": 335
+    },
+    {
+      "role": "page",
+      "size": 20,
+      "boxes": 335
+    },
+    {
+      "role": "source",
+      "size": 20,
+      "boxes": 335
+    },
+    {
+      "role": "subtitle",
+      "size": 27,
+      "boxes": 335
+    },
+    {
+      "role": "title",
+      "size": 52,
+      "boxes": 335
+    }
+  ],
+  "independentContentReview": {
+    "reviewedLessons": 34,
+    "reports": [
+      "cross-review-001-010.json",
+      "cross-review-011-023.json",
+      "cross-review-024-034.json"
+    ]
+  },
+  "galleryAssetLinksVerified": 670,
+  "sourceNotesCount": 22,
+  "visualReview": {
+    "method": "manual review of representative rendered PNGs and actual gallery screenshots",
+    "samples": [
+      "RL-001/purpose-four-actions",
+      "RL-004/workplace-unit-sizes",
+      "RL-013/emergency-two-grounds",
+      "RL-025/dismissal-authority-notice"
+    ],
+    "all335ManuallyViewed": false,
+    "all335RenderedAndGeometryChecked": true,
+    "galleryViewports": [
+      {
+        "width": 1440,
+        "height": 1100
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ]
+  },
+  "galleryCheck": "gallery-check.json"
+}

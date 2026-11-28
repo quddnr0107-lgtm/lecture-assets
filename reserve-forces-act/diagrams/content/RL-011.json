@@ -1,0 +1,674 @@
+{
+  "lessonId": "RL-011",
+  "lessonTitle": "예비군법 제7조, 무장",
+  "diagrams": [
+    {
+      "id": "armament-and-use",
+      "title": "무장과 무기 사용의 구별",
+      "subtitle": "갖추는 권한과 출동하여 사용하는 권한",
+      "kind": "compare",
+      "left": {
+        "title": "무장을 할 수 있음",
+        "items": [
+          {
+            "label": "목적",
+            "text": "예비군의 임무수행을 위하여 필요한 무장"
+          },
+          {
+            "label": "의미",
+            "text": "무기를 갖추고 들고 있는 것"
+          }
+        ]
+      },
+      "right": {
+        "title": "무기를 사용할 수 있음",
+        "items": [
+          {
+            "label": "출동 조건",
+            "text": "예비군이 출동한 경우"
+          },
+          {
+            "label": "임무 범위",
+            "text": "제2조제2호부터 제4호까지의 임무수행을 위함"
+          }
+        ]
+      },
+      "note": "제1항은 무장 · 제2항은 출동한 경우의 무기 사용",
+      "sourceRanges": [
+        {
+          "startLine": 19,
+          "endLine": 35,
+          "topic": "무장과 무기 사용의 요건"
+        }
+      ]
+    },
+    {
+      "id": "weapon-use-missions",
+      "title": "무기 사용이 가능한 임무",
+      "subtitle": "제2조제2호부터 제4호까지의 범위",
+      "kind": "compare",
+      "left": {
+        "title": "소멸과 진압",
+        "items": [
+          {
+            "label": "제2호",
+            "text": "침투한 적과 무장공비의 소멸"
+          },
+          {
+            "label": "제3호",
+            "text": "경찰력만으로 대처할 수 없는 무장 소요의 진압"
+          }
+        ]
+      },
+      "right": {
+        "title": "경비와 범위 구별",
+        "items": [
+          {
+            "label": "제4호",
+            "text": "제2호·제3호 지역의 중요시설·무기고·병참선 등의 경비"
+          },
+          {
+            "label": "사용 범위 밖",
+            "text": "제1호 동원 준비와 제5호 민방위 업무 지원"
+          }
+        ]
+      },
+      "note": "제2호만으로 좁히거나 민방위 지원을 넣지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 27,
+          "endLine": 43,
+          "topic": "다섯 임무와 무기 사용의 범위"
+        }
+      ]
+    },
+    {
+      "id": "weapon-use-proviso",
+      "title": "무장 소요 상황의 추가 제한",
+      "subtitle": "단서의 대상과 누적되는 사용 조건",
+      "kind": "exception",
+      "left": {
+        "title": "단서가 적용되는 경우",
+        "items": [
+          {
+            "label": "진압",
+            "text": "제2조제3호의 무장 소요 진압 임무 수행"
+          },
+          {
+            "label": "또는 경비",
+            "text": "제3호의 지역에서 제4호의 경비 임무 수행"
+          }
+        ]
+      },
+      "right": {
+        "title": "두 제한을 함께 충족",
+        "items": [
+          {
+            "label": "다른 수단 없음",
+            "text": "무기를 쓰지 않고는 진압하거나 경비할 수단이 없다고 인정되는 경우에만"
+          },
+          {
+            "label": "사용의 한도",
+            "text": "필요한 최소한도에서 무기를 사용할 수 있음"
+          }
+        ]
+      },
+      "note": "단서는 제3호와 그 지역의 제4호에 적용",
+      "sourceRanges": [
+        {
+          "startLine": 49,
+          "endLine": 72,
+          "topic": "단서의 적용 대상과 최소한도"
+        }
+      ]
+    },
+    {
+      "id": "maintenance-delegation",
+      "title": "무기 유지·관리의 위탁",
+      "subtitle": "원칙 주체와 필요한 경우의 위탁 경로",
+      "kind": "process",
+      "left": {
+        "title": "군부대의 장이 수행",
+        "items": [
+          {
+            "label": "관리 대상",
+            "text": "제1항의 무장을 위한 무기·탄약·장비 및 그 밖의 부속품 등"
+          },
+          {
+            "label": "원칙 업무",
+            "text": "유지와 관리에 관한 사항을 수행"
+          }
+        ]
+      },
+      "right": {
+        "title": "필요하면 위탁 가능",
+        "items": [
+          {
+            "label": "군 → 경찰서장",
+            "text": "대통령령으로 정하는 바에 따라 경찰서장에게 위탁 가능"
+          },
+          {
+            "label": "경찰서장 → 지휘관",
+            "text": "직장예비군부대의 지휘관에게 다시 위탁 가능"
+          }
+        ]
+      },
+      "note": "재위탁의 상대방은 직장예비군부대의 지휘관",
+      "sourceRanges": [
+        {
+          "startLine": 86,
+          "endLine": 104,
+          "topic": "관리 주체·대상과 위탁"
+        },
+        {
+          "startLine": 108,
+          "endLine": 116,
+          "topic": "위탁 근거와 재위탁 상대방의 구별"
+        }
+      ]
+    },
+    {
+      "id": "supply-storage-status",
+      "title": "보급·분리 보관·관리관",
+      "subtitle": "시행령 제18조의 역할 구분",
+      "kind": "rule",
+      "left": {
+        "title": "보급과 관리상 지위",
+        "items": [
+          {
+            "label": "군의 보급절차",
+            "text": "무기·탄약·장비와 그 밖의 부속품 등을 군의 보급절차에 따라 보급"
+          },
+          {
+            "label": "위탁받은 경찰서장",
+            "text": "군수품관리법 제6조제3항에 따른 물품관리관으로 봄"
+          }
+        ]
+      },
+      "right": {
+        "title": "분리·보관의 의무",
+        "items": [
+          {
+            "label": "수행자",
+            "text": "군부대의 장이 무장용 물품을 분리·보관하여야 함"
+          },
+          {
+            "label": "장소 지정자",
+            "text": "수임군부대의 장이 지정하는 장소에 보관"
+          }
+        ]
+      },
+      "note": "보관의 수행자와 장소를 지정하는 주체를 구별",
+      "sourceRanges": [
+        {
+          "startLine": 118,
+          "endLine": 128,
+          "topic": "보급·분리 보관·물품관리관"
+        }
+      ]
+    },
+    {
+      "id": "police-depot-duties",
+      "title": "경찰서장의 관리와 창고 설치",
+      "subtitle": "위탁받은 경찰서장이 수행하는 업무",
+      "kind": "rule",
+      "left": {
+        "title": "사용통제·보관·경비",
+        "items": [
+          {
+            "label": "무기·탄약·장비 등",
+            "text": "사용통제 및 보관 업무를 수행"
+          },
+          {
+            "label": "무기고·탄약고",
+            "text": "경비에 관한 업무를 수행"
+          }
+        ]
+      },
+      "right": {
+        "title": "설치 원칙과 예외",
+        "items": [
+          {
+            "label": "분리 설치",
+            "text": "무기고와 탄약고를 서로 분리하여 설치"
+          },
+          {
+            "label": "장소의 예외",
+            "text": "특히 필요하다고 인정하면 다른 적당한 장소에 설치할 수 있음"
+          }
+        ]
+      },
+      "note": "분리·보관과 함께 무기고·탄약고의 분리 설치도 확인",
+      "sourceRanges": [
+        {
+          "startLine": 142,
+          "endLine": 148,
+          "topic": "경찰서장의 관리 업무와 설치 원칙·예외"
+        }
+      ]
+    },
+    {
+      "id": "depot-locations",
+      "title": "무기고·탄약고를 두는 장소",
+      "subtitle": "지역예비군과 직장예비군의 장소 구분",
+      "kind": "compare",
+      "left": {
+        "title": "지역예비군",
+        "items": [
+          {
+            "label": "설치 장소",
+            "text": "경찰서 또는 지구대, 파출소"
+          }
+        ]
+      },
+      "right": {
+        "title": "직장예비군",
+        "items": [
+          {
+            "label": "설치 장소",
+            "text": "해당 직장 내의 장소"
+          },
+          {
+            "label": "지정 주체",
+            "text": "수임군부대의 장 또는 경찰서장이 지정"
+          }
+        ]
+      },
+      "note": "직장 내 장소를 지정하는 두 주체는 선택 관계",
+      "sourceRanges": [
+        {
+          "startLine": 150,
+          "endLine": 150,
+          "topic": "지역·직장예비군의 창고 장소"
+        }
+      ]
+    },
+    {
+      "id": "workplace-delegated-control",
+      "title": "재위탁받은 지휘관의 업무",
+      "subtitle": "직장예비군부대의 지휘관과 경찰서장의 관계",
+      "kind": "compare",
+      "left": {
+        "title": "지휘관이 수행",
+        "items": [
+          {
+            "label": "무기·탄약·장비 등",
+            "text": "사용통제 및 보관 업무"
+          },
+          {
+            "label": "창고의 경비",
+            "text": "무기고·탄약고 및 장비고 등의 경비 업무"
+          }
+        ]
+      },
+      "right": {
+        "title": "경찰서장의 통제",
+        "items": [
+          {
+            "label": "통제 대상",
+            "text": "무기 및 탄약의 사용"
+          },
+          {
+            "label": "지휘관의 의무",
+            "text": "무기 및 탄약을 사용할 때 경찰서장의 통제를 받아야 함"
+          }
+        ]
+      },
+      "note": "재위탁 후에도 무기·탄약 사용은 경찰서장 통제 아래 있음",
+      "sourceRanges": [
+        {
+          "startLine": 152,
+          "endLine": 154,
+          "topic": "직장 지휘관의 재위탁 업무와 사용통제"
+        }
+      ]
+    },
+    {
+      "id": "monthly-report-commander",
+      "title": "직장 지휘관의 월별 보고",
+      "subtitle": "매월 말일 기준으로 정리하여 다음 달에 보고",
+      "kind": "process",
+      "left": {
+        "title": "정리와 입력",
+        "items": [
+          {
+            "label": "보고 주체",
+            "text": "직장예비군부대의 지휘관"
+          },
+          {
+            "label": "기준과 내용",
+            "text": "매월 말일 기준 무기·탄약·장비 등의 유지·관리 상황"
+          },
+          {
+            "label": "먼저 입력",
+            "text": "예비군업무 통합관리용 전산시스템 양식에 입력"
+          }
+        ]
+      },
+      "right": {
+        "title": "관할 경찰서장에게 보고",
+        "items": [
+          {
+            "label": "기한",
+            "text": "다음 달 5일까지 보고하여야 함"
+          },
+          {
+            "label": "보고 방법",
+            "text": "서면 또는 전산시스템을 통하여 보고"
+          }
+        ]
+      },
+      "note": "월말 기준 → 전산시스템 입력 → 다음 달 5일까지 보고",
+      "sourceRanges": [
+        {
+          "startLine": 158,
+          "endLine": 160,
+          "topic": "직장 지휘관의 보고 기준·입력·수령자·기한·방법"
+        }
+      ]
+    },
+    {
+      "id": "monthly-report-police",
+      "title": "경찰서장의 취합과 보고",
+      "subtitle": "직접 관리한 몫과 직장 지휘관 보고를 합침",
+      "kind": "process",
+      "left": {
+        "title": "취합하여 작성",
+        "items": [
+          {
+            "label": "취합 대상",
+            "text": "경찰서장이 직접 관리하는 몫과 직장 지휘관의 보고"
+          },
+          {
+            "label": "서식",
+            "text": "별지 제21호서식에 따라 작성"
+          }
+        ]
+      },
+      "right": {
+        "title": "수임군부대의 장에게",
+        "items": [
+          {
+            "label": "기한",
+            "text": "다음 달 10일까지 보고"
+          },
+          {
+            "label": "원고의 복수 관할 설명",
+            "text": "수임군부대가 둘 넘게 걸쳐 있으면 관리 권한을 위탁한 부대에 보고"
+          }
+        ]
+      },
+      "note": "경찰서장의 정기 보고 기한은 다음 달 10일까지",
+      "sourceRanges": [
+        {
+          "startLine": 162,
+          "endLine": 162,
+          "topic": "경찰서장 취합 보고와 복수 관할의 원고 표현"
+        }
+      ]
+    },
+    {
+      "id": "report-upward-and-quarterly",
+      "title": "군의 상급 보고와 분기 종합",
+      "subtitle": "수임군부대의 장에서 국방부장관까지",
+      "kind": "process",
+      "left": {
+        "title": "수임군부대의 장",
+        "items": [
+          {
+            "label": "보고를 받으면",
+            "text": "경찰서장의 보고를 받았을 때 지체 없이 보고하여야 함"
+          },
+          {
+            "label": "경로와 수령자",
+            "text": "지휘계통을 거쳐 각 군 참모총장에게 보고"
+          }
+        ]
+      },
+      "right": {
+        "title": "각 군 참모총장",
+        "items": [
+          {
+            "label": "유지·관리 상황",
+            "text": "매 분기말 기준으로 종합"
+          },
+          {
+            "label": "수령자와 기한",
+            "text": "국방부장관에게 다음 달 20일까지 보고"
+          }
+        ]
+      },
+      "note": "수임군부대의 장은 지체 없이 · 참모총장은 분기말 기준 다음 달 20일",
+      "sourceRanges": [
+        {
+          "startLine": 162,
+          "endLine": 166,
+          "topic": "경찰서장 보고 수령과 군의 상급 보고·분기 종합"
+        }
+      ]
+    },
+    {
+      "id": "consumption-loss-immediate",
+      "title": "소모·망실은 지체 없이 보고",
+      "subtitle": "정기 유지·관리 보고와 구별되는 처리",
+      "kind": "process",
+      "left": {
+        "title": "경찰서장의 보고",
+        "items": [
+          {
+            "label": "발생 사유",
+            "text": "무기·탄약·장비 등을 소모하거나 망실한 경우"
+          },
+          {
+            "label": "보고",
+            "text": "수임군부대의 장에게 그 사실을 지체 없이 보고하여야 함"
+          }
+        ]
+      },
+      "right": {
+        "title": "군의 상급 보고",
+        "items": [
+          {
+            "label": "수임군부대의 장",
+            "text": "보고를 받으면 지체 없이 지휘계통을 거쳐 각 군 참모총장에게 보고"
+          },
+          {
+            "label": "각 군 참모총장",
+            "text": "소모·망실 상황을 국방부장관에게 지체 없이 보고"
+          }
+        ]
+      },
+      "note": "정기 기한을 기다리지 않으며 용어는 소모·망실",
+      "sourceRanges": [
+        {
+          "startLine": 162,
+          "endLine": 166,
+          "topic": "소모·망실 보고와 상급 보고"
+        },
+        {
+          "startLine": 180,
+          "endLine": 184,
+          "topic": "정기 기한과 즉시 보고의 구별"
+        }
+      ]
+    },
+    {
+      "id": "police-material-roles",
+      "title": "경찰서 안의 물품 담당 직위",
+      "subtitle": "시행규칙 제21조의 분임 업무 구분",
+      "kind": "compare",
+      "left": {
+        "title": "서장과 경비업무 과장",
+        "items": [
+          {
+            "label": "위탁받은 경찰서장",
+            "text": "군수품관리법에 따른 분임물품관리관"
+          },
+          {
+            "label": "경비업무 담당 과장",
+            "text": "분임물품운영관"
+          }
+        ]
+      },
+      "right": {
+        "title": "출납 담당자",
+        "items": [
+          {
+            "label": "분임물품출납공무원",
+            "text": "분임물품관리관이 소속 직원 중에서 지정하는 사람"
+          },
+          {
+            "label": "지정 주체 확인",
+            "text": "분임물품관리관이 지정함"
+          }
+        ]
+      },
+      "note": "서장은 관리관 · 경비업무 담당 과장은 운영관",
+      "sourceRanges": [
+        {
+          "startLine": 186,
+          "endLine": 198,
+          "topic": "경찰서 내 분임물품 직위와 지정 관계"
+        }
+      ]
+    },
+    {
+      "id": "general-logistics-details",
+      "title": "일반 군수지원의 세부 결정",
+      "subtitle": "시행규칙 제22조의 결정 주체",
+      "kind": "rule",
+      "left": {
+        "title": "일반 군수지원",
+        "items": [
+          {
+            "label": "물자·지원의 범위",
+            "text": "예비군에서 필요로 하는 무기·장비·병참"
+          },
+          {
+            "label": "정비",
+            "text": "해당 무기·장비·병참과 이의 정비 등"
+          }
+        ]
+      },
+      "right": {
+        "title": "세부 사항을 정하는 사람",
+        "items": [
+          {
+            "label": "각 군 참모총장",
+            "text": "일반 군수지원에 관한 세부 사항을 정함"
+          }
+        ]
+      },
+      "note": "보관 장소의 지정 주체와 군수지원 세부 결정 주체를 구별",
+      "sourceRanges": [
+        {
+          "startLine": 200,
+          "endLine": 208,
+          "topic": "일반 군수지원과 결정 주체"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "무장과 무기 사용의 요건·임무 범위",
+      "diagramIds": [
+        "armament-and-use",
+        "weapon-use-missions"
+      ]
+    },
+    {
+      "topic": "무장 소요 관련 단서의 적용 범위와 최소한도",
+      "diagramIds": [
+        "weapon-use-proviso"
+      ]
+    },
+    {
+      "topic": "유지관리 원칙·위탁·재위탁",
+      "diagramIds": [
+        "maintenance-delegation"
+      ]
+    },
+    {
+      "topic": "군 보급절차·분리 보관·물품관리관 의제",
+      "diagramIds": [
+        "supply-storage-status"
+      ]
+    },
+    {
+      "topic": "경찰서장 업무·창고 분리·장소·설치 예외",
+      "diagramIds": [
+        "police-depot-duties",
+        "depot-locations"
+      ]
+    },
+    {
+      "topic": "직장 지휘관의 재위탁 업무와 무기·탄약 사용통제",
+      "diagramIds": [
+        "workplace-delegated-control"
+      ]
+    },
+    {
+      "topic": "월말·분기말 기준의 단계별 보고 주체·기한·방법",
+      "diagramIds": [
+        "monthly-report-commander",
+        "monthly-report-police",
+        "report-upward-and-quarterly"
+      ]
+    },
+    {
+      "topic": "소모·망실의 지체 없는 보고",
+      "diagramIds": [
+        "consumption-loss-immediate"
+      ]
+    },
+    {
+      "topic": "분임물품관리관·운영관·출납공무원의 구분",
+      "diagramIds": [
+        "police-material-roles"
+      ]
+    },
+    {
+      "topic": "일반 군수지원 세부 결정",
+      "diagramIds": [
+        "general-logistics-details"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "주체와 대상",
+      "수치와 기산점",
+      "의무와 재량",
+      "또는·및 관계",
+      "원칙과 예외",
+      "설명 순서",
+      "원고 주요 갈래"
+    ],
+    "issues": [],
+    "sourceNotes": [
+      {
+        "lines": [
+          162
+        ],
+        "note": "복수 수임군부대의 보고 상대를 설명한 원고는 “둘 넘게 걸쳐 있으면”이라고 표현한다. 도식은 이를 그대로 표기하였으며, 별도의 법령 조사로 수량 요건을 고치지 않았다."
+      },
+      {
+        "lines": [
+          57,
+          63
+        ],
+        "note": "단서 적용 범위만 도식화하였다. 제2호에 단서가 적용되지 않는다는 설명을 무제한 무기 사용 허용으로 확대하지 않았다."
+      },
+      {
+        "lines": [
+          128,
+          188
+        ],
+        "note": "시행령 설명의 물품관리관 의제와 시행규칙 설명의 분임물품관리관을 각각 원고대로 구별하여 보존하였다."
+      }
+    ]
+  }
+}

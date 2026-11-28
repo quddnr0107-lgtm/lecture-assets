@@ -1,0 +1,108 @@
+{
+  "reviewer": "independent-agent",
+  "scope": "existing-script-only",
+  "lessons": [
+    {
+      "lessonId": "RL-011",
+      "status": "pass",
+      "diagramsReviewed": 14,
+      "contentSha256": "deb4928d22714a30745c65f1a3142923e1ff5a10ccf48da9f055ec84a672c10e",
+      "findingsResolved": []
+    },
+    {
+      "lessonId": "RL-012",
+      "status": "pass",
+      "diagramsReviewed": 13,
+      "contentSha256": "45c41b50833fbec1960204280d2c29653b62042a0c5357163a169244afa7c387",
+      "findingsResolved": []
+    },
+    {
+      "lessonId": "RL-013",
+      "status": "pass",
+      "diagramsReviewed": 12,
+      "contentSha256": "52a5bf60c3a2498d08c5cc455924f3359a79ac902c206ef67f5db6fb6606e89c",
+      "findingsResolved": [
+        "원고 233행에 따라 재심 청구의 상대가 국방부장관임을 decision-review-deadlines에 명시했다.",
+        "원고 199·209·217·225행의 구별점을 보완하여 손실증명서 추가 기재사항과 신청 방법은 국방부령에 따른다는 근거를 three-compensation-documents에 명시했다."
+      ]
+    },
+    {
+      "lessonId": "RL-014",
+      "status": "pass",
+      "diagramsReviewed": 9,
+      "contentSha256": "3594c2cc6dcb827f3f4b3dd0e69a8ab6f5ddbf2028d4629f564dd0f89d5fb51d",
+      "findingsResolved": []
+    },
+    {
+      "lessonId": "RL-015",
+      "status": "pass",
+      "diagramsReviewed": 11,
+      "contentSha256": "6cfa3061dd59dc4073dd612a91381fc51df1325a74cfe222e7e98a3fdb2847f0",
+      "findingsResolved": [
+        "원고 61~71행에 따라 여섯 보상 유형이 어느 보훈 법률에 속하는지 compensation-laws에 연결했다. 전상·공상·전몰·순직과 재해부상·재해사망의 적용법 구별을 명시했다.",
+        "원고 87행의 등록 신청 근거인 국가유공자 법률 제6조 또는 보훈보상 법률 제4조를 registration-and-report의 주석에 보완했다."
+      ]
+    },
+    {
+      "lessonId": "RL-016",
+      "status": "pass",
+      "diagramsReviewed": 4,
+      "contentSha256": "e30d67904241519b0339d575069214d694de62ecb816f98c83e9b2f90826f5d7",
+      "findingsResolved": []
+    },
+    {
+      "lessonId": "RL-017",
+      "status": "pass",
+      "diagramsReviewed": 4,
+      "contentSha256": "29d506e24e6a0e98e75f9853af0fc50e58c42f8f973acd25ccf8a0abbee136ae",
+      "findingsResolved": []
+    },
+    {
+      "lessonId": "RL-018",
+      "status": "pass",
+      "diagramsReviewed": 3,
+      "contentSha256": "312b85be7b35a189a3d1c82015889a85aa68ce6d8ab011cc03fdbdecfc820758",
+      "findingsResolved": []
+    },
+    {
+      "lessonId": "RL-019",
+      "status": "pass",
+      "diagramsReviewed": 5,
+      "contentSha256": "040986dab13f37c68fdc58c27dcc4204192bcdf5bf65d3c70c6985a2419f7be7",
+      "findingsResolved": [
+        "원고 83·91행에 맞춰 고발 대상 학교장의 범위를 고등학교 이상으로 명시하여 마지막 도식만 읽어도 학교 범위가 확정되도록 보완했다."
+      ]
+    },
+    {
+      "lessonId": "RL-020",
+      "status": "pass",
+      "diagramsReviewed": 3,
+      "contentSha256": "bf06eddb41bb93fab23bc0782731ba3cc9379a1a399ac366657851f718d567ed",
+      "findingsResolved": [
+        "센터 세부 위임 도식의 주석에 있는 운영 주체를 뒷받침하도록 원고 23~25행을 sourceRanges에 추가했다."
+      ]
+    },
+    {
+      "lessonId": "RL-021",
+      "status": "pass",
+      "diagramsReviewed": 5,
+      "contentSha256": "0eeabe117b58e790a87af91546e4c2860865ad658cb52dfb5fc1e03e40104fdd",
+      "findingsResolved": []
+    },
+    {
+      "lessonId": "RL-022",
+      "status": "pass",
+      "diagramsReviewed": 6,
+      "contentSha256": "f8faedef6bd999fc89ccba8f695479857b01107f91684ad1c38c835ba776bd2c",
+      "findingsResolved": []
+    },
+    {
+      "lessonId": "RL-023",
+      "status": "pass",
+      "diagramsReviewed": 3,
+      "contentSha256": "fa47169341c0c69e05505ed9c819dcaf149507ffae276f53c8591fd98edfb874",
+      "findingsResolved": []
+    }
+  ],
+  "issues": []
+}

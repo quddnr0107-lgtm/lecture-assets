@@ -1,0 +1,166 @@
+{
+  "lessonId": "RL-018",
+  "lessonTitle": "예비군법 제10조의3, 상비예비군의 휴무 등 처리",
+  "diagrams": [
+    {
+      "id": "standing-reserve-scope",
+      "title": "상비예비군 보호 예외의 대상",
+      "subtitle": "법 제10조의3 · 직장과 학업에 함께 적용",
+      "kind": "rule",
+      "left": {
+        "title": "예외가 걸리는 조문",
+        "items": [
+          {
+            "label": "직장 보장",
+            "text": "법 제10조"
+          },
+          {
+            "label": "학업 보장",
+            "text": "법 제10조의2"
+          }
+        ]
+      },
+      "right": {
+        "title": "대상과 세는 기간",
+        "items": [
+          {
+            "label": "대상",
+            "text": "제3조의3에 따라 선발된 상비예비군"
+          },
+          {
+            "label": "기간",
+            "text": "훈련 소집기간을 연간 기준으로 계산"
+          }
+        ]
+      },
+      "note": "모든 예비군에게 적용되는 예외가 아님",
+      "sourceRanges": [
+        {
+          "startLine": 19,
+          "endLine": 37,
+          "topic": "예외 조문·대상·기간"
+        }
+      ]
+    },
+    {
+      "id": "thirty-day-boundary",
+      "title": "30일까지와 30일 초과",
+      "subtitle": "초과는 기준일을 넘는 기간",
+      "kind": "deadline",
+      "left": {
+        "title": "연간 30일까지",
+        "items": [
+          {
+            "label": "원칙 적용",
+            "text": "제10조와 제10조의2를 적용"
+          },
+          {
+            "label": "30일째",
+            "text": "30일을 초과하지 않았으므로 보호 범위에 포함"
+          }
+        ]
+      },
+      "right": {
+        "title": "연간 30일을 초과",
+        "items": [
+          {
+            "label": "예외 적용 가능",
+            "text": "초과한 기간에 두 조문을 적용하지 아니할 수 있음"
+          },
+          {
+            "label": "31일째부터",
+            "text": "원고가 설명한 초과 기간의 시작"
+          }
+        ]
+      },
+      "note": "30일 이상으로 바꾸면 30일째의 포함 여부가 달라짐",
+      "sourceRanges": [
+        {
+          "startLine": 39,
+          "endLine": 47,
+          "topic": "30일 초과 경계"
+        }
+      ]
+    },
+    {
+      "id": "optional-nonapplication",
+      "title": "적용하지 아니할 수 있다",
+      "subtitle": "30일을 초과해도 보호를 금지하는 규정은 아님",
+      "kind": "exception",
+      "left": {
+        "title": "허용된 선택",
+        "items": [
+          {
+            "label": "초과 기간",
+            "text": "제10조·제10조의2를 적용하지 않을 수 있음"
+          },
+          {
+            "label": "필수 여부",
+            "text": "반드시 미적용해야 하는 문장은 아님"
+          }
+        ]
+      },
+      "right": {
+        "title": "지켜야 할 구별",
+        "items": [
+          {
+            "label": "보호 유지",
+            "text": "초과 기간에도 보호를 유지할 수 있음"
+          },
+          {
+            "label": "범위 한정",
+            "text": "제3조의3 선발 상비예비군의 훈련 소집기간에 한정"
+          }
+        ]
+      },
+      "note": "미적용할 수 있다는 표현을 자동 미적용으로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 21,
+          "endLine": 21,
+          "topic": "원문 대상과 표현"
+        },
+        {
+          "startLine": 49,
+          "endLine": 63,
+          "topic": "재량적 미적용"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "무엇의 예외인가·누구인가",
+      "diagramIds": [
+        "standing-reserve-scope"
+      ]
+    },
+    {
+      "topic": "연간 30일 초과 경계",
+      "diagramIds": [
+        "thirty-day-boundary"
+      ]
+    },
+    {
+      "topic": "미적용 가능의 의미",
+      "diagramIds": [
+        "optional-nonapplication"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "주체와 대상",
+      "수치와 기산점",
+      "의무와 재량",
+      "또는·및 관계",
+      "원칙과 예외",
+      "설명 순서",
+      "원고 주요 갈래"
+    ],
+    "issues": [],
+    "sourceNotes": []
+  }
+}

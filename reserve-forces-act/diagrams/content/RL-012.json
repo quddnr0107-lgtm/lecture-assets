@@ -1,0 +1,621 @@
+{
+  "lessonId": "RL-012",
+  "lessonTitle": "예비군법 제7조의2, 복장",
+  "diagrams": [
+    {
+      "id": "clothing-duty-and-basis",
+      "title": "복장 또는 표지장의 의무",
+      "subtitle": "법 제7조의2가 정한 대상 상황과 방식",
+      "kind": "rule",
+      "left": {
+        "title": "의무가 생기는 때",
+        "items": [
+          {
+            "label": "동원 중",
+            "text": "동원되어 임무수행 중일 때"
+          },
+          {
+            "label": "또는 훈련 중",
+            "text": "소집되어 훈련 중일 때"
+          }
+        ]
+      },
+      "right": {
+        "title": "정해진 방식을 갖춤",
+        "items": [
+          {
+            "label": "규정의 근거",
+            "text": "대통령령으로 정하는 예비군대원 복장"
+          },
+          {
+            "label": "두 방식",
+            "text": "복장을 착용하거나 표지장을 달아야 함"
+          }
+        ]
+      },
+      "note": "본법은 예비군대원 복장 · 달 수 있음이 아니라 달아야 함",
+      "sourceRanges": [
+        {
+          "startLine": 19,
+          "endLine": 31,
+          "topic": "본법의 상황·의무·대통령령"
+        },
+        {
+          "startLine": 41,
+          "endLine": 53,
+          "topic": "본법 용어와 의무 표현의 구별"
+        }
+      ]
+    },
+    {
+      "id": "clothing-six-types",
+      "title": "예비군복의 여섯 종류",
+      "subtitle": "복장과 표지장을 합쳐 예비군복이라 부름",
+      "kind": "compare",
+      "left": {
+        "title": "모자·제복·신발",
+        "items": [
+          {
+            "label": "예비군모",
+            "text": "예비군복에 포함되는 모자"
+          },
+          {
+            "label": "예비군제복",
+            "text": "예비군복 가운데 제복"
+          },
+          {
+            "label": "예비군화",
+            "text": "예비군복에 포함되는 신발"
+          }
+        ]
+      },
+      "right": {
+        "title": "표지·특수복·부속품",
+        "items": [
+          {
+            "label": "예비군표지장",
+            "text": "모표·이름표·흉장·휘장·견장"
+          },
+          {
+            "label": "예비군특수복",
+            "text": "야전상의·점퍼·근무복"
+          },
+          {
+            "label": "부속품",
+            "text": "요대"
+          }
+        ]
+      },
+      "note": "예비군복은 전체 명칭 · 예비군제복은 그 안의 한 종류",
+      "sourceRanges": [
+        {
+          "startLine": 55,
+          "endLine": 70,
+          "topic": "예비군복 명칭과 여섯 종류"
+        }
+      ]
+    },
+    {
+      "id": "insignia-commander-only",
+      "title": "표지장 중 지휘관만의 표시",
+      "subtitle": "모표·이름표·흉장과 휘장·견장을 구별",
+      "kind": "compare",
+      "left": {
+        "title": "대원에게 쓰는 표시",
+        "items": [
+          {
+            "label": "모표",
+            "text": "모자에 붙이는 표시"
+          },
+          {
+            "label": "이름표",
+            "text": "이름을 적은 표시"
+          },
+          {
+            "label": "흉장",
+            "text": "가슴에 다는 표시"
+          }
+        ]
+      },
+      "right": {
+        "title": "지휘관만 해당",
+        "items": [
+          {
+            "label": "휘장 및 견장",
+            "text": "지휘하는 사람을 나타내는 표시"
+          },
+          {
+            "label": "견장의 자리",
+            "text": "어깨에 다는 표시"
+          }
+        ]
+      },
+      "note": "지휘관만 해당하는 표지장은 휘장과 견장",
+      "sourceRanges": [
+        {
+          "startLine": 66,
+          "endLine": 82,
+          "topic": "표지장 구성과 지휘관 전용 범위"
+        }
+      ]
+    },
+    {
+      "id": "special-clothing-scope",
+      "title": "특수복의 구성과 착용 대상",
+      "subtitle": "야전상의와 지휘관용 점퍼·근무복",
+      "kind": "compare",
+      "left": {
+        "title": "대원이 입는 특수복",
+        "items": [
+          {
+            "label": "야전상의",
+            "text": "지휘관에게만 한정되는 특수복이 아님"
+          }
+        ]
+      },
+      "right": {
+        "title": "지휘관만 해당",
+        "items": [
+          {
+            "label": "점퍼",
+            "text": "지휘관만 해당"
+          },
+          {
+            "label": "근무복",
+            "text": "지휘관만 해당하며 하복과 동복으로 구분"
+          }
+        ]
+      },
+      "note": "지휘관만 해당: 휘장·견장·점퍼·근무복",
+      "sourceRanges": [
+        {
+          "startLine": 84,
+          "endLine": 92,
+          "topic": "특수복의 대상·구분과 지휘관 전용 네 가지"
+        }
+      ]
+    },
+    {
+      "id": "uniform-design-bases",
+      "title": "모양과 규격을 정하는 기준",
+      "subtitle": "시행령 제18조의3의 제식 구분",
+      "kind": "compare",
+      "left": {
+        "title": "군인복제령의 제식",
+        "items": [
+          {
+            "label": "모자·제복·신발",
+            "text": "각각 전투모·전투복·전투화의 제식"
+          },
+          {
+            "label": "부속품",
+            "text": "군인복제령에 따른 요대의 제식"
+          }
+        ]
+      },
+      "right": {
+        "title": "별도 그림의 제식",
+        "items": [
+          {
+            "label": "예비군표지장",
+            "text": "별도 1"
+          },
+          {
+            "label": "야전상의·점퍼",
+            "text": "별도 2"
+          }
+        ]
+      },
+      "note": "종류를 정한 조문과 제식을 정한 조문을 구별",
+      "sourceRanges": [
+        {
+          "startLine": 98,
+          "endLine": 118,
+          "topic": "예비군복 제식과 군인복제령·별도 구분"
+        }
+      ]
+    },
+    {
+      "id": "duty-uniform-authority",
+      "title": "근무복 제식을 정하는 주체",
+      "subtitle": "각 군이 정한 특수군복 중 근무복의 제식",
+      "kind": "rule",
+      "left": {
+        "title": "각 군의 결정 주체",
+        "items": [
+          {
+            "label": "육군·해군·공군",
+            "text": "육군참모총장·해군참모총장·공군참모총장"
+          },
+          {
+            "label": "해병대의 경우",
+            "text": "해군참모총장 자리에서 해병대사령관을 말함"
+          }
+        ]
+      },
+      "right": {
+        "title": "승인과 적용 범위",
+        "items": [
+          {
+            "label": "승인 조건",
+            "text": "국방부장관의 승인을 받아 정함"
+          },
+          {
+            "label": "따르는 제식",
+            "text": "군인복제령 제10조에 따른 특수군복 중 근무복의 제식"
+          }
+        ]
+      },
+      "note": "해병대는 해병대사령관을 말함 · 국방부장관의 승인 필요",
+      "sourceRanges": [
+        {
+          "startLine": 110,
+          "endLine": 110,
+          "topic": "근무복 제식의 근거와 결정·승인 주체"
+        },
+        {
+          "startLine": 122,
+          "endLine": 132,
+          "topic": "해병대 문구와 특수군복의 구별"
+        }
+      ]
+    },
+    {
+      "id": "wear-only-on-call",
+      "title": "예비군복을 착용하는 때",
+      "subtitle": "동원 또는 교육훈련 소집의 경우에만 착용",
+      "kind": "rule",
+      "left": {
+        "title": "착용하는 두 경우",
+        "items": [
+          {
+            "label": "동원",
+            "text": "예비군대원이 동원되었을 때"
+          },
+          {
+            "label": "또는 교육훈련",
+            "text": "교육훈련을 위하여 소집되었을 때"
+          }
+        ]
+      },
+      "right": {
+        "title": "범위를 정한 말",
+        "items": [
+          {
+            "label": "때에만 착용",
+            "text": "그 밖의 때까지 허용하는 때에도와 구별"
+          },
+          {
+            "label": "각종 행사",
+            "text": "조문이 정한 착용 사유에 해당하지 않음"
+          }
+        ]
+      },
+      "note": "동원되었거나 교육훈련을 위하여 소집되었을 때에만 착용",
+      "sourceRanges": [
+        {
+          "startLine": 134,
+          "endLine": 152,
+          "topic": "착용 시점과 한정 표현"
+        }
+      ]
+    },
+    {
+      "id": "uniform-set-and-women-hat",
+      "title": "제복의 한 벌과 여성 모자",
+      "subtitle": "함께 착용할 품목과 모자에 관한 예외",
+      "kind": "exception",
+      "left": {
+        "title": "예비군제복 착용 시",
+        "items": [
+          {
+            "label": "예비군모",
+            "text": "함께 착용하여야 함"
+          },
+          {
+            "label": "예비군화",
+            "text": "함께 착용하여야 함"
+          },
+          {
+            "label": "예비군표지장",
+            "text": "함께 착용하여야 함"
+          }
+        ]
+      },
+      "right": {
+        "title": "여성 예비군대원의 예외",
+        "items": [
+          {
+            "label": "정하는 사람",
+            "text": "국방부장관이 정하는 바에 따름"
+          },
+          {
+            "label": "대신 쓸 수 있는 것",
+            "text": "예비군모가 아닌 모자를 착용할 수 있음"
+          }
+        ]
+      },
+      "note": "제복 착용 시의 의무와 여성 대원의 모자 선택 예외를 구별",
+      "sourceRanges": [
+        {
+          "startLine": 154,
+          "endLine": 164,
+          "topic": "제복의 함께 착용 의무와 여성 모자 예외"
+        },
+        {
+          "startLine": 174,
+          "endLine": 178,
+          "topic": "여성·장관·예비군모 아닌 모자 확인"
+        }
+      ]
+    },
+    {
+      "id": "appearance-and-dignity",
+      "title": "단정한 복장과 품위 유지",
+      "subtitle": "예비군복을 착용할 때의 태도",
+      "kind": "rule",
+      "left": {
+        "title": "적용되는 때",
+        "items": [
+          {
+            "label": "예비군복 착용 시",
+            "text": "예비군제복만으로 적용 대상을 좁히지 않음"
+          }
+        ]
+      },
+      "right": {
+        "title": "착용 중 지킬 사항",
+        "items": [
+          {
+            "label": "복장과 용모",
+            "text": "단정히 하여야 함"
+          },
+          {
+            "label": "대원으로서의 품위",
+            "text": "품위 유지에 노력하여야 함"
+          }
+        ]
+      },
+      "note": "원고의 표현은 품위 유지",
+      "sourceRanges": [
+        {
+          "startLine": 180,
+          "endLine": 184,
+          "topic": "복장·용모와 품위 유지"
+        }
+      ]
+    },
+    {
+      "id": "outerwear-weather-period",
+      "title": "야전상의·점퍼의 착용 시기",
+      "subtitle": "기간 안에서도 기후에 따라 필요한 경우 착용",
+      "kind": "deadline",
+      "left": {
+        "title": "착용할 수 있는 기간",
+        "items": [
+          {
+            "label": "시작",
+            "text": "10월 1일"
+          },
+          {
+            "label": "종료",
+            "text": "다음 해 4월 30일"
+          }
+        ]
+      },
+      "right": {
+        "title": "대상과 착용 조건",
+        "items": [
+          {
+            "label": "해당 특수복",
+            "text": "야전상의 및 점퍼"
+          },
+          {
+            "label": "기후에 따른 필요",
+            "text": "해당 기간에 기후에 따라 필요한 경우 착용"
+          }
+        ]
+      },
+      "note": "기간에 들어간다는 이유만으로 항상 착용하는 것은 아님",
+      "sourceRanges": [
+        {
+          "startLine": 186,
+          "endLine": 208,
+          "topic": "야전상의·점퍼의 기간과 기후 조건"
+        }
+      ]
+    },
+    {
+      "id": "duty-uniform-seasons",
+      "title": "근무복의 하기와 동기",
+      "subtitle": "계절을 구분하여 착용하는 근무복",
+      "kind": "deadline",
+      "left": {
+        "title": "하기",
+        "items": [
+          {
+            "label": "기간",
+            "text": "5월 1일부터 9월 30일까지"
+          },
+          {
+            "label": "길이",
+            "text": "다섯 달"
+          }
+        ]
+      },
+      "right": {
+        "title": "동기",
+        "items": [
+          {
+            "label": "기간",
+            "text": "10월 1일부터 다음 해 4월 30일까지"
+          },
+          {
+            "label": "길이",
+            "text": "일곱 달"
+          }
+        ]
+      },
+      "note": "기후에 따라 필요한 경우라는 조건은 야전상의·점퍼에 붙음",
+      "sourceRanges": [
+        {
+          "startLine": 198,
+          "endLine": 212,
+          "topic": "근무복의 계절 구분과 야전상의 조건의 구별"
+        }
+      ]
+    },
+    {
+      "id": "duty-period-exception",
+      "title": "근무복 착용 시기를 달리 정함",
+      "subtitle": "근무복의 정해진 시기에 붙은 예외",
+      "kind": "exception",
+      "left": {
+        "title": "예외를 둘 수 있는 사유",
+        "items": [
+          {
+            "label": "특별한 사유",
+            "text": "기후, 장소, 그 밖의 특별한 사유가 있을 때"
+          }
+        ]
+      },
+      "right": {
+        "title": "달리 정할 수 있는 권한",
+        "items": [
+          {
+            "label": "주체",
+            "text": "국방부장관"
+          },
+          {
+            "label": "대상",
+            "text": "근무복의 착용 시기를 달리 정할 수 있음"
+          }
+        ]
+      },
+      "note": "이 단서는 근무복의 착용 시기에 붙음",
+      "sourceRanges": [
+        {
+          "startLine": 210,
+          "endLine": 228,
+          "topic": "근무복 착용 시기 변경의 사유·주체·범위"
+        }
+      ]
+    },
+    {
+      "id": "insignia-change-exception",
+      "title": "표지장의 제식·방법 변경",
+      "subtitle": "지역방위에 필요한 경우의 별도 권한",
+      "kind": "exception",
+      "left": {
+        "title": "함께 갖추어야 할 조건",
+        "items": [
+          {
+            "label": "특별한 상황",
+            "text": "전시, 사변, 그 밖에 특별한 사유가 있는 경우"
+          },
+          {
+            "label": "지역방위의 필요",
+            "text": "지역방위를 위하여 필요하다고 인정할 때"
+          }
+        ]
+      },
+      "right": {
+        "title": "국방부장관의 권한",
+        "items": [
+          {
+            "label": "변경 대상",
+            "text": "예비군표지장의 제식과 그 착용방법"
+          },
+          {
+            "label": "효과",
+            "text": "시행령의 규정과 다르게 정할 수 있음"
+          }
+        ]
+      },
+      "note": "근무복은 착용 시기 · 표지장은 제식과 착용방법",
+      "sourceRanges": [
+        {
+          "startLine": 230,
+          "endLine": 252,
+          "topic": "표지장 변경 요건·주체·내용"
+        },
+        {
+          "startLine": 214,
+          "endLine": 228,
+          "topic": "근무복 착용 시기 예외와의 구별"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "복장 또는 표지장 의무의 시점·대통령령 근거·법령 용어",
+      "diagramIds": [
+        "clothing-duty-and-basis",
+        "clothing-six-types"
+      ]
+    },
+    {
+      "topic": "예비군복 여섯 종류·표지장·특수복·지휘관 전용 범위",
+      "diagramIds": [
+        "clothing-six-types",
+        "insignia-commander-only",
+        "special-clothing-scope"
+      ]
+    },
+    {
+      "topic": "군인복제령·별도 그림·근무복의 제식과 승인 주체",
+      "diagramIds": [
+        "uniform-design-bases",
+        "duty-uniform-authority"
+      ]
+    },
+    {
+      "topic": "착용 사유 한정·제복 일체 착용·여성 모자 예외",
+      "diagramIds": [
+        "wear-only-on-call",
+        "uniform-set-and-women-hat"
+      ]
+    },
+    {
+      "topic": "단정한 복장·용모와 품위 유지 노력",
+      "diagramIds": [
+        "appearance-and-dignity"
+      ]
+    },
+    {
+      "topic": "야전상의·점퍼의 기간·기후 조건과 근무복의 하기·동기",
+      "diagramIds": [
+        "outerwear-weather-period",
+        "duty-uniform-seasons"
+      ]
+    },
+    {
+      "topic": "근무복 착용 시기를 달리 정하는 권한",
+      "diagramIds": [
+        "duty-period-exception"
+      ]
+    },
+    {
+      "topic": "표지장 제식·착용방법을 달리 정하는 요건과 권한",
+      "diagramIds": [
+        "insignia-change-exception"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "주체와 대상",
+      "수치와 기산점",
+      "의무와 재량",
+      "또는·및 관계",
+      "원칙과 예외",
+      "설명 순서",
+      "원고 주요 갈래"
+    ],
+    "issues": [],
+    "sourceNotes": []
+  }
+}

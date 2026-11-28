@@ -1,0 +1,784 @@
+{
+  "lessonId": "RL-008",
+  "lessonTitle": "예비군법 제6조, 훈련",
+  "diagrams": [
+    {
+      "id": "training-annual-cap",
+      "title": "훈련 권한과 연간 20일 한도",
+      "subtitle": "법 제6조제1항 본문의 주체·위임·상한",
+      "kind": "compare",
+      "left": {
+        "title": "훈련할 권한",
+        "items": [
+          {
+            "label": "주체",
+            "text": "국방부장관"
+          },
+          {
+            "label": "기준",
+            "text": "대통령령으로 정하는 바에 따라 훈련할 수 있음"
+          }
+        ]
+      },
+      "right": {
+        "title": "연간 한도",
+        "items": [
+          {
+            "label": "기간",
+            "text": "연간 20일의 한도"
+          },
+          {
+            "label": "뜻",
+            "text": "20일은 모두 채우는 기간이 아니라 넘을 수 없는 상한"
+          }
+        ]
+      },
+      "note": "국방부장관·대통령령·연간 20일을 함께 확인",
+      "sourceRanges": [
+        {
+          "startLine": 21,
+          "endLine": 49,
+          "topic": "훈련의 주체·위임·기간 한도"
+        }
+      ]
+    },
+    {
+      "id": "assembly-training-duty",
+      "title": "국회의원은 훈련 의무 대상",
+      "subtitle": "동원 보류와 훈련 의무의 차이",
+      "kind": "compare",
+      "left": {
+        "title": "동원 · 제5조",
+        "items": [
+          {
+            "label": "국회의원",
+            "text": "동원을 보류할 수 있는 대상"
+          },
+          {
+            "label": "문장 위치",
+            "text": "법 제5조제1항 단서에 직접 적힘"
+          }
+        ]
+      },
+      "right": {
+        "title": "훈련 · 제6조",
+        "items": [
+          {
+            "label": "국회의원",
+            "text": "훈련하여야 하는 대상"
+          },
+          {
+            "label": "함께 받는 사람",
+            "text": "대통령령으로 정하는 사람도 훈련하여야 함"
+          }
+        ]
+      },
+      "note": "국회의원은 법에 직접 적혀 있으며 시행령의 다섯 대상과 구별",
+      "sourceRanges": [
+        {
+          "startLine": 51,
+          "endLine": 69,
+          "topic": "국회의원과 대통령령 대상·동원과 대비"
+        },
+        {
+          "startLine": 205,
+          "endLine": 215,
+          "topic": "시행령의 다섯 대상"
+        }
+      ]
+    },
+    {
+      "id": "election-training-pause",
+      "title": "직접 공직 선거기간의 훈련",
+      "subtitle": "단서의 선거 종류와 하지 아니한다는 말끝",
+      "kind": "compare",
+      "left": {
+        "title": "적용되는 선거",
+        "items": [
+          {
+            "label": "근거",
+            "text": "법률에 따른 공직 선거"
+          },
+          {
+            "label": "방식",
+            "text": "국민이 직접 선거하는 경우"
+          }
+        ]
+      },
+      "right": {
+        "title": "훈련의 제한",
+        "items": [
+          {
+            "label": "기간",
+            "text": "그 공직 선거기간 중"
+          },
+          {
+            "label": "의무",
+            "text": "훈련을 하지 아니함"
+          }
+        ]
+      },
+      "note": "직접 선거를 간접 선거로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 71,
+          "endLine": 87,
+          "topic": "직접 공직 선거기간의 훈련 제한"
+        }
+      ]
+    },
+    {
+      "id": "training-command-obedience",
+      "title": "훈련 때의 지휘관과 교관",
+      "subtitle": "복종 의무는 정당한 명령에 한정",
+      "kind": "compare",
+      "left": {
+        "title": "훈련 소집된 대원",
+        "items": [
+          {
+            "label": "적용 시점",
+            "text": "법 제6조제1항의 훈련을 위하여 소집되었을 때"
+          },
+          {
+            "label": "의무",
+            "text": "지휘관의 정당한 명령에 복종하여야 함"
+          }
+        ]
+      },
+      "right": {
+        "title": "포함되는 지휘관",
+        "items": [
+          {
+            "label": "훈련",
+            "text": "훈련을 담당하는 교관 포함"
+          },
+          {
+            "label": "동원과 구별",
+            "text": "동원 조문의 괄호는 여단·연대·대대·중대·소대·분대의 장"
+          }
+        ]
+      },
+      "note": "훈련 조문의 낱말은 지휘관이며 교관을 포함",
+      "sourceRanges": [
+        {
+          "startLine": 89,
+          "endLine": 107,
+          "topic": "훈련 지휘관·교관·정당한 명령·동원 비교"
+        }
+      ]
+    },
+    {
+      "id": "training-reservation-act",
+      "title": "본법의 훈련 보류 대상",
+      "subtitle": "외국·국외 왕래와 대통령령의 추가 대상",
+      "kind": "compare",
+      "left": {
+        "title": "외국·국외 왕래",
+        "items": [
+          {
+            "label": "외국 체류",
+            "text": "외국에 여행 중이거나 체류 중인 사람"
+          },
+          {
+            "label": "국외 선박·항공기",
+            "text": "국외를 왕래하는 선박의 선원 또는 항공기의 조종사와 승무원"
+          }
+        ]
+      },
+      "right": {
+        "title": "그 밖의 대상",
+        "items": [
+          {
+            "label": "위임",
+            "text": "그 밖에 대통령령으로 정하는 사람"
+          },
+          {
+            "label": "효과",
+            "text": "제1항에도 불구하고 훈련을 보류할 수 있음"
+          }
+        ]
+      },
+      "note": "동원 보류에 있던 국회의원은 훈련 보류 본문에서 빠짐",
+      "sourceRanges": [
+        {
+          "startLine": 109,
+          "endLine": 127,
+          "topic": "훈련 보류 대상·위임 형식·국회의원 비교"
+        }
+      ]
+    },
+    {
+      "id": "training-delay-reference",
+      "title": "훈련 연기는 동원의 사유를 준용",
+      "subtitle": "제5조제2항을 가져오는 법 제6조제4항",
+      "kind": "compare",
+      "left": {
+        "title": "준용의 근거",
+        "items": [
+          {
+            "label": "대상",
+            "text": "훈련명령을 받은 사람의 훈련 연기"
+          },
+          {
+            "label": "준용 조문",
+            "text": "법 제5조제2항"
+          },
+          {
+            "label": "고의 제외",
+            "text": "일부러 그 사유를 만든 사람은 제외"
+          }
+        ]
+      },
+      "right": {
+        "title": "원고가 설명한 사유",
+        "items": [
+          {
+            "label": "건강",
+            "text": "질병이나 심신장애로 응할 수 없을 때"
+          },
+          {
+            "label": "구속",
+            "text": "법률에 따라 구속되어 있을 때"
+          },
+          {
+            "label": "부득이한 사유",
+            "text": "관혼상제나 재해 등 어쩔 수 없는 사유로 응할 수 없을 때"
+          }
+        ]
+      },
+      "note": "동원의 연기 규칙을 훈련에 준용",
+      "sourceRanges": [
+        {
+          "startLine": 129,
+          "endLine": 137,
+          "topic": "훈련 연기의 준용과 사유·고의 제외"
+        }
+      ]
+    },
+    {
+      "id": "particulate-training-measures",
+      "title": "미세먼지 때 필요한 훈련 조치",
+      "subtitle": "경보 발령 기준 이상이면 조치하도록 노력할 의무",
+      "kind": "compare",
+      "left": {
+        "title": "적용 기준",
+        "items": [
+          {
+            "label": "미세먼지 뜻",
+            "text": "미세먼지 저감 및 관리에 관한 특별법 제2조제1호"
+          },
+          {
+            "label": "농도 조건",
+            "text": "대기환경보전법 제8조의 대기오염경보 발령 기준 이상"
+          }
+        ]
+      },
+      "right": {
+        "title": "국방부장관의 조치",
+        "items": [
+          {
+            "label": "조치 예시",
+            "text": "실내훈련·훈련시간 조정 등 필요한 조치"
+          },
+          {
+            "label": "말끝",
+            "text": "그 조치를 취하도록 노력하여야 함"
+          }
+        ]
+      },
+      "note": "노력하여야 한다를 결과 조치의 단정 의무로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 139,
+          "endLine": 157,
+          "topic": "미세먼지 기준·주체·조치·노력 의무"
+        }
+      ]
+    },
+    {
+      "id": "particulate-information",
+      "title": "미세먼지 정보의 요청",
+      "subtitle": "조치하는 국방부장관이 중앙행정기관에 요청",
+      "kind": "compare",
+      "left": {
+        "title": "요청하는 사람",
+        "items": [
+          {
+            "label": "주체",
+            "text": "국방부장관"
+          },
+          {
+            "label": "정보 범위",
+            "text": "제5항에 따른 미세먼지에 관한 정보"
+          }
+        ]
+      },
+      "right": {
+        "title": "요청받는 사람",
+        "items": [
+          {
+            "label": "상대",
+            "text": "관계 중앙행정기관의 장"
+          },
+          {
+            "label": "권한",
+            "text": "정보를 제공하여 줄 것을 요청할 수 있음"
+          }
+        ]
+      },
+      "note": "요청 주체와 상대를 지방자치단체장으로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 159,
+          "endLine": 173,
+          "topic": "미세먼지 정보 요청 주체·상대·권한"
+        }
+      ]
+    },
+    {
+      "id": "training-hours-and-content",
+      "title": "복무 연차에 따라 연 160시간",
+      "subtitle": "시행령의 시간 상한과 내용·방법 결정권",
+      "kind": "compare",
+      "left": {
+        "title": "훈련시간",
+        "items": [
+          {
+            "label": "연차 기준",
+            "text": "복무 연차에 따라 실시"
+          },
+          {
+            "label": "상한",
+            "text": "연 160시간 이내"
+          },
+          {
+            "label": "법과 연결",
+            "text": "본법의 연간 20일 한도와 함께 적용"
+          }
+        ]
+      },
+      "right": {
+        "title": "훈련 내용과 방법",
+        "items": [
+          {
+            "label": "결정 주체",
+            "text": "국방부장관"
+          },
+          {
+            "label": "결정 범위",
+            "text": "훈련의 내용과 방법, 그 밖에 훈련에 필요한 사항"
+          }
+        ]
+      },
+      "note": "160시간 이내를 내외로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 177,
+          "endLine": 203,
+          "topic": "시행령 제15조제1항 시간·연차·결정 주체"
+        }
+      ]
+    },
+    {
+      "id": "mandatory-training-public",
+      "title": "시행령의 의무 훈련 대상 ①",
+      "subtitle": "제15조제2항 각 호 중 국가·지방의 공직",
+      "kind": "compare",
+      "left": {
+        "title": "국가·의회",
+        "items": [
+          {
+            "label": "제1호",
+            "text": "차관급 이상의 국가공무원"
+          },
+          {
+            "label": "제2호",
+            "text": "지방의회의원"
+          }
+        ]
+      },
+      "right": {
+        "title": "제3호 · 지방자치단체장",
+        "items": [
+          {
+            "label": "광역 단체장",
+            "text": "특별시장·광역시장·특별자치시장\n도지사·특별자치도지사"
+          },
+          {
+            "label": "기초 단체장",
+            "text": "시장·군수·구청장"
+          },
+          {
+            "label": "포함",
+            "text": "제주특별자치도의 행정시장 포함"
+          }
+        ]
+      },
+      "note": "각 호 어느 하나에 해당하면 후단의 훈련 의무 대상",
+      "sourceRanges": [
+        {
+          "startLine": 205,
+          "endLine": 219,
+          "topic": "시행령 의무 대상 제1·2·3호"
+        }
+      ]
+    },
+    {
+      "id": "mandatory-training-deputy",
+      "title": "시행령의 의무 훈련 대상 ②",
+      "subtitle": "특별시 부시장과 시·도 교육감",
+      "kind": "compare",
+      "left": {
+        "title": "제4호 · 특별시 부시장",
+        "items": [
+          {
+            "label": "지역",
+            "text": "특별시의 부시장"
+          },
+          {
+            "label": "신분 한정",
+            "text": "지방공무원으로 한정"
+          }
+        ]
+      },
+      "right": {
+        "title": "제5호 · 교육감",
+        "items": [
+          {
+            "label": "시 단위",
+            "text": "특별시·광역시·특별자치시의 교육감"
+          },
+          {
+            "label": "도 단위",
+            "text": "도·특별자치도의 교육감"
+          }
+        ]
+      },
+      "note": "특별시 부시장을 세종특별자치시 부시장으로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 205,
+          "endLine": 229,
+          "topic": "시행령 의무 대상 제4·5호와 한정"
+        }
+      ]
+    },
+    {
+      "id": "training-reservation-procedure",
+      "title": "훈련 보류 대상과 신청의 준용",
+      "subtitle": "대상 명단과 신청 절차가 빌려오는 조문",
+      "kind": "compare",
+      "left": {
+        "title": "보류 대상",
+        "items": [
+          {
+            "label": "시행령 제15조제3항",
+            "text": "제13조제1항 각 호 어느 하나에 해당하는 사람"
+          },
+          {
+            "label": "원고의 예",
+            "text": "경찰관·교도관·소방관, 군무원, 항로표지 공무원 등"
+          }
+        ]
+      },
+      "right": {
+        "title": "보류·연기 신청",
+        "items": [
+          {
+            "label": "준용 조문",
+            "text": "시행령 제13조제2항 및 제14조"
+          },
+          {
+            "label": "제출처",
+            "text": "소속 예비군중대장"
+          },
+          {
+            "label": "대리 제출",
+            "text": "본인이 못 낼 경우 세대주나 성년 가족 또는 고용주"
+          }
+        ]
+      },
+      "note": "연기는 명령을 받은 날부터 2일 안에 원서를 내는 것이 원칙",
+      "sourceRanges": [
+        {
+          "startLine": 231,
+          "endLine": 251,
+          "topic": "보류 대상과 신청 준용·대리·기한·제출처"
+        }
+      ]
+    },
+    {
+      "id": "annual-training-plan",
+      "title": "다음 해 훈련계획의 승인·지시",
+      "subtitle": "각 군 참모총장 → 국방부장관 승인 → 부대 지시",
+      "kind": "process",
+      "left": {
+        "title": "계획 작성·승인",
+        "items": [
+          {
+            "label": "작성 주체",
+            "text": "각 군 참모총장"
+          },
+          {
+            "label": "대상 계획",
+            "text": "다음 해의 예비군 훈련계획"
+          },
+          {
+            "label": "승인권자",
+            "text": "국방부장관"
+          }
+        ]
+      },
+      "right": {
+        "title": "기한·지시",
+        "items": [
+          {
+            "label": "승인·지시 기한",
+            "text": "매년 12월 31일까지 승인을 받아 지시하여야 함"
+          },
+          {
+            "label": "지시 상대",
+            "text": "관할 수임군부대의 장에게 지시하여야 함"
+          }
+        ]
+      },
+      "note": "작성은 각 군 참모총장, 승인은 국방부장관",
+      "sourceRanges": [
+        {
+          "startLine": 253,
+          "endLine": 269,
+          "topic": "연간 계획의 작성·승인·기한·지시"
+        }
+      ]
+    },
+    {
+      "id": "annual-training-results",
+      "title": "결과와 다음 해 대상 인원 보고",
+      "subtitle": "계획과 같은 12월 31일 기한",
+      "kind": "compare",
+      "left": {
+        "title": "보고 주체·상대·기한",
+        "items": [
+          {
+            "label": "누가",
+            "text": "각 군 참모총장"
+          },
+          {
+            "label": "누구에게",
+            "text": "국방부장관에게 각각 보고하여야 함"
+          },
+          {
+            "label": "언제까지",
+            "text": "매년 12월 31일까지"
+          }
+        ]
+      },
+      "right": {
+        "title": "보고할 두 자료",
+        "items": [
+          {
+            "label": "별지 제16호서식",
+            "text": "해당 연도의 예비군 교육훈련 실시결과"
+          },
+          {
+            "label": "별지 제17호서식",
+            "text": "다음 해의 예비군 교육훈련 대상 인원"
+          }
+        ]
+      },
+      "note": "12월 30일이나 다음 해 1월 31일로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 271,
+          "endLine": 285,
+          "topic": "결과·대상 인원의 보고 주체·상대·기한·서식"
+        }
+      ]
+    },
+    {
+      "id": "nationwide-training-request",
+      "title": "다른 지역 훈련의 참가 신청",
+      "subtitle": "관할지역 밖의 대원이 3일 전까지 신청 가능",
+      "kind": "compare",
+      "left": {
+        "title": "신청의 전제·대상",
+        "items": [
+          {
+            "label": "일정 공시",
+            "text": "수임군부대의 장이 제16조제4항에 따라 훈련 일정 공시"
+          },
+          {
+            "label": "대상",
+            "text": "그 관할지역 외의 예비군대원"
+          }
+        ]
+      },
+      "right": {
+        "title": "신청 기한·방법",
+        "items": [
+          {
+            "label": "기한",
+            "text": "훈련소집일 3일 전까지"
+          },
+          {
+            "label": "방법 · 또는",
+            "text": "전자문서로 신청하거나 수임군부대를 직접 방문"
+          },
+          {
+            "label": "신청 권한",
+            "text": "훈련 참가를 신청할 수 있음"
+          }
+        ]
+      },
+      "note": "기준일은 훈련공고일이 아니라 훈련소집일",
+      "sourceRanges": [
+        {
+          "startLine": 287,
+          "endLine": 303,
+          "topic": "전국 단위 훈련 신청 전제·대상·기한·방법"
+        }
+      ]
+    },
+    {
+      "id": "nationwide-training-consent",
+      "title": "참가 신청과 전자문서 동의",
+      "subtitle": "신청과 전달 방식에 대한 동의를 구분",
+      "kind": "compare",
+      "left": {
+        "title": "두 가지 조건",
+        "items": [
+          {
+            "label": "참가 신청",
+            "text": "제1항에 따라 예비군대원이 훈련 참가 신청"
+          },
+          {
+            "label": "본인 동의",
+            "text": "소집통지서의 전자문서 전달에 본인의 동의를 받음"
+          }
+        ]
+      },
+      "right": {
+        "title": "전달한 것으로 봄",
+        "items": [
+          {
+            "label": "대상 서류",
+            "text": "소집통지서"
+          },
+          {
+            "label": "효과",
+            "text": "전자문서로 전달한 것으로 봄"
+          }
+        ]
+      },
+      "note": "본인의 동의 없이 전달한 것으로 보는 규정이 아님",
+      "sourceRanges": [
+        {
+          "startLine": 305,
+          "endLine": 319,
+          "topic": "참가 신청·동의·전자문서 전달 간주"
+        }
+      ]
+    },
+    {
+      "id": "nationwide-training-details",
+      "title": "신청 가능한 훈련과 절차",
+      "subtitle": "전국 단위 훈련의 세부는 국방부장관이 결정",
+      "kind": "compare",
+      "left": {
+        "title": "정하는 사항",
+        "items": [
+          {
+            "label": "훈련의 종류",
+            "text": "제1항의 참가 신청을 할 수 있는 훈련"
+          },
+          {
+            "label": "신청절차",
+            "text": "훈련 참가의 신청절차"
+          },
+          {
+            "label": "그 밖의 사항",
+            "text": "그 밖에 필요한 사항"
+          }
+        ]
+      },
+      "right": {
+        "title": "결정 형식",
+        "items": [
+          {
+            "label": "결정 주체",
+            "text": "국방부장관"
+          },
+          {
+            "label": "규정의 말끝",
+            "text": "국방부장관이 정함"
+          }
+        ]
+      },
+      "note": "국방부령으로 정한다와 국방부장관이 정한다를 구별",
+      "sourceRanges": [
+        {
+          "startLine": 321,
+          "endLine": 333,
+          "topic": "전국 단위 훈련의 종류·절차·결정 형식"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "① 본법: 권한·한도·의무·선거·복종·보류·연기·미세먼지",
+      "diagramIds": [
+        "training-annual-cap",
+        "assembly-training-duty",
+        "election-training-pause",
+        "training-command-obedience",
+        "training-reservation-act",
+        "training-delay-reference",
+        "particulate-training-measures",
+        "particulate-information"
+      ]
+    },
+    {
+      "topic": "② 시행령 제15조: 시간·명단·준용",
+      "diagramIds": [
+        "training-hours-and-content",
+        "mandatory-training-public",
+        "mandatory-training-deputy",
+        "training-reservation-procedure"
+      ]
+    },
+    {
+      "topic": "③ 시행규칙 제16조: 다음 해 계획·올해 결과·대상 인원",
+      "diagramIds": [
+        "annual-training-plan",
+        "annual-training-results"
+      ]
+    },
+    {
+      "topic": "④ 시행령 제17조: 전국 단위 신청·동의·세부 결정",
+      "diagramIds": [
+        "nationwide-training-request",
+        "nationwide-training-consent",
+        "nationwide-training-details"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "강의 번호·원고 제목",
+      "설명 순서",
+      "주체·대상",
+      "의무·재량",
+      "기한·숫자",
+      "원칙·예외",
+      "오답과 정답 구별",
+      "병렬 또는 관계"
+    ],
+    "issues": [],
+    "sourceNotes": [
+      "이 원고 289·303행은 전국 단위 훈련 참가의 전제를 시행령 제16조제4항에 따른 일정 공시로 적고 있습니다. 별도 9강 원고 224·236행은 전자문서 전달을 위한 일정 공시를 제16조제5항으로 설명합니다. 외부 법령으로 조문 번호를 고치지 않고 각 강의 원고 표현을 보존했습니다."
+    ]
+  }
+}

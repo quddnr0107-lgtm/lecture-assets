@@ -1,0 +1,220 @@
+{
+  "lessonId": "RL-016",
+  "lessonTitle": "예비군법 제10조, 직장 보장",
+  "diagrams": [
+    {
+      "id": "employer-protection",
+      "title": "직장 보장의 주체와 두 금지",
+      "subtitle": "법 제10조 · 고용된 예비군대원을 보호",
+      "kind": "rule",
+      "left": {
+        "title": "지켜야 하는 사람",
+        "items": [
+          {
+            "label": "다른 사람을 사용하는 자",
+            "text": "예비군대원을 고용한 사용자"
+          },
+          {
+            "label": "적용 시점",
+            "text": "고용한 사람이 예비군대원으로 동원되거나 훈련받을 때"
+          }
+        ]
+      },
+      "right": {
+        "title": "각각 금지되는 행위",
+        "items": [
+          {
+            "label": "휴무 처리",
+            "text": "동원·훈련 기간을 휴무로 처리하여서는 안 됨"
+          },
+          {
+            "label": "불리한 처우",
+            "text": "동원·훈련을 이유로 불리하게 처우하여서는 안 됨"
+          }
+        ]
+      },
+      "note": "휴무 처리 또는 불리한 처우 중 하나만 해도 금지에 해당",
+      "sourceRanges": [
+        {
+          "startLine": 17,
+          "endLine": 47,
+          "topic": "사용자·시점·두 금지의 또는 관계"
+        }
+      ]
+    },
+    {
+      "id": "work-school-check",
+      "title": "직장과 학교의 보호 비교",
+      "subtitle": "근무의 보호와 출석의 보호",
+      "kind": "compare",
+      "left": {
+        "title": "직장 · 제10조",
+        "items": [
+          {
+            "label": "금지 표현",
+            "text": "휴무로 처리하거나 불리한 처우를 하여서는 아니 됨"
+          },
+          {
+            "label": "직장예비군 확인",
+            "text": "직장예비군부대의 지휘관이 확인"
+          }
+        ]
+      },
+      "right": {
+        "title": "학교 · 제10조의2",
+        "items": [
+          {
+            "label": "보호 주체",
+            "text": "고등학교 이상 학교의 장 및 교직원"
+          },
+          {
+            "label": "금지 표현",
+            "text": "결석으로 처리하거나 불리하게 처우하지 못함"
+          }
+        ]
+      },
+      "note": "직장은 휴무 · 학교는 결석",
+      "sourceRanges": [
+        {
+          "startLine": 51,
+          "endLine": 55,
+          "topic": "직장·학교 비교"
+        },
+        {
+          "startLine": 61,
+          "endLine": 61,
+          "topic": "직장예비군 확인 주체"
+        }
+      ]
+    },
+    {
+      "id": "protection-exception-report",
+      "title": "보호의 예외와 신고 경로",
+      "subtitle": "원고가 연결한 제10조의3부터 제10조의5까지",
+      "kind": "compare",
+      "left": {
+        "title": "장기 소집의 예외",
+        "items": [
+          {
+            "label": "대상",
+            "text": "제10조의3에서 정한 장기 소집 대상자"
+          },
+          {
+            "label": "기간·효과",
+            "text": "연간 30일을 초과한 훈련 소집기간에는 직장·학업 보장을 적용하지 않을 수 있음"
+          }
+        ]
+      },
+      "right": {
+        "title": "불이익 신고",
+        "items": [
+          {
+            "label": "신고자",
+            "text": "불리한 처우를 받은 사람 또는 사실을 아는 사람이나 단체"
+          },
+          {
+            "label": "신고처·창구",
+            "text": "국방부장관에게 신고 · 예비군권익보장센터가 처리"
+          }
+        ]
+      },
+      "note": "30일 초과 예외와 불이익 신고는 서로 다른 조문의 내용",
+      "sourceRanges": [
+        {
+          "startLine": 57,
+          "endLine": 59,
+          "topic": "장기 소집 예외와 신고·센터"
+        }
+      ]
+    },
+    {
+      "id": "employer-criminal-penalty",
+      "title": "사용자 불이익 처우의 벌칙",
+      "subtitle": "정당한 사유 없이 불리한 처우를 한 경우",
+      "kind": "compare",
+      "left": {
+        "title": "적용 대상과 행위",
+        "items": [
+          {
+            "label": "대상",
+            "text": "제10조를 위반한 사용자"
+          },
+          {
+            "label": "행위",
+            "text": "동원·훈련을 받는 사람에게 정당한 사유 없이 불리한 처우"
+          }
+        ]
+      },
+      "right": {
+        "title": "형벌",
+        "items": [
+          {
+            "label": "징역 또는 벌금",
+            "text": "2년 이하 징역 또는 2천만원 이하 벌금"
+          },
+          {
+            "label": "학교의 장",
+            "text": "제10조의2를 위반한 고등학교 이상 학교의 장에도 같은 벌칙"
+          }
+        ]
+      },
+      "note": "이 벌칙은 과태료가 아니라 징역 또는 벌금",
+      "sourceRanges": [
+        {
+          "startLine": 63,
+          "endLine": 77,
+          "topic": "직장·학교 불이익 처우 벌칙"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "사용자와 금지 행위",
+      "diagramIds": [
+        "employer-protection"
+      ]
+    },
+    {
+      "topic": "학업 보장 비교·직장예비군 확인",
+      "diagramIds": [
+        "work-school-check"
+      ]
+    },
+    {
+      "topic": "장기 소집 예외와 신고",
+      "diagramIds": [
+        "protection-exception-report"
+      ]
+    },
+    {
+      "topic": "위반 벌칙",
+      "diagramIds": [
+        "employer-criminal-penalty"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "주체와 대상",
+      "수치와 기산점",
+      "의무와 재량",
+      "또는·및 관계",
+      "원칙과 예외",
+      "설명 순서",
+      "원고 주요 갈래"
+    ],
+    "issues": [],
+    "sourceNotes": [
+      {
+        "lines": [
+          57,
+          57
+        ],
+        "note": "이 원고의 비상근 예비군 표현은 RL-018의 상비예비군 표현과 다름. 도식은 이 원고가 명시한 제10조의3의 장기 소집 대상자로 특정하고, 두 명칭을 임의로 하나로 고치지 않음."
+      }
+    ]
+  }
+}

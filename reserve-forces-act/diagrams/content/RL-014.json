@@ -1,0 +1,438 @@
+{
+  "lessonId": "RL-014",
+  "lessonTitle": "예비군법 제8조의2, 재해 등에 대한 보상",
+  "diagrams": [
+    {
+      "id": "compensation-time-scope",
+      "title": "보상에 포함되는 시간",
+      "subtitle": "임무·훈련과 연결된 이동·귀가 중까지",
+      "kind": "rule",
+      "left": {
+        "title": "언제 다쳤는가",
+        "items": [
+          {
+            "label": "기본 범위",
+            "text": "동원되어 임무수행 또는 훈련 중"
+          },
+          {
+            "label": "가는 길·오는 길",
+            "text": "명령에 따라 지정 장소로 이동 중이거나 해제·종료 후 귀가 중"
+          }
+        ]
+      },
+      "right": {
+        "title": "어떤 결과인가",
+        "items": [
+          {
+            "label": "부상 또는 사망",
+            "text": "재해보상금 지급"
+          },
+          {
+            "label": "부상 후 사망",
+            "text": "그 부상으로 인하여 사망한 경우도 포함"
+          }
+        ]
+      },
+      "note": "귀가 중과 귀가한 뒤를 구별",
+      "sourceRanges": [
+        {
+          "startLine": 19,
+          "endLine": 39,
+          "topic": "보상 시간·결과 범위"
+        }
+      ]
+    },
+    {
+      "id": "two-compensation-branches",
+      "title": "재해보상과 휴업 보상",
+      "subtitle": "몸의 손상과 치료로 쉰 기간을 구별",
+      "kind": "compare",
+      "left": {
+        "title": "재해보상금",
+        "items": [
+          {
+            "label": "장애보상금",
+            "text": "군인 재해보상법 제33조의 지급액·지급절차에 준함"
+          },
+          {
+            "label": "사망보상금",
+            "text": "같은 법 제39조의 지급액·지급절차에 준함"
+          }
+        ]
+      },
+      "right": {
+        "title": "휴업 보상금",
+        "items": [
+          {
+            "label": "지급 사유",
+            "text": "제9조 제2항의 치료로 생업에 종사하지 못한 경우"
+          },
+          {
+            "label": "지급 대상 기간",
+            "text": "치료 때문에 생업에 종사하지 못한 기간"
+          }
+        ]
+      },
+      "note": "장애·사망으로 나누는 것은 재해보상금",
+      "sourceRanges": [
+        {
+          "startLine": 37,
+          "endLine": 43,
+          "topic": "재해보상과 휴업 보상"
+        },
+        {
+          "startLine": 69,
+          "endLine": 85,
+          "topic": "장애·사망 보상금 준거"
+        }
+      ]
+    },
+    {
+      "id": "compensation-offsets",
+      "title": "보상금 공제의 두 경우",
+      "subtitle": "같은 종류의 보상과 같은 상이에 따른 후발 사망",
+      "kind": "compare",
+      "left": {
+        "title": "다른 법령의 같은 보상",
+        "items": [
+          {
+            "label": "조건",
+            "text": "국가나 지방자치단체가 부담하는 같은 종류의 보상금을 이미 받음"
+          },
+          {
+            "label": "효과",
+            "text": "이미 받은 보상금에 상당하는 금액은 지급하지 않음"
+          }
+        ]
+      },
+      "right": {
+        "title": "장애보상 후 사망",
+        "items": [
+          {
+            "label": "조건",
+            "text": "장애보상금을 받은 사람이 그 상이로 사망"
+          },
+          {
+            "label": "효과",
+            "text": "이미 지급한 장애보상금을 공제한 사망보상금을 지급"
+          }
+        ]
+      },
+      "note": "장애보상 후 사망 공제에 휴업 보상금까지 포함시키지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 45,
+          "endLine": 51,
+          "topic": "다른 법령 중복 보상"
+        },
+        {
+          "startLine": 87,
+          "endLine": 95,
+          "topic": "장애보상금 공제"
+        }
+      ]
+    },
+    {
+      "id": "lost-work-calculation",
+      "title": "휴업 보상금 계산의 기준",
+      "subtitle": "전년도 · 80% · 1일 단위 · 2년 이내",
+      "kind": "rule",
+      "left": {
+        "title": "하루의 기준 금액",
+        "items": [
+          {
+            "label": "통계 기준",
+            "text": "국가데이터처가 조사·공표한 전년도 전국가구 월평균 가계지출액"
+          },
+          {
+            "label": "산정",
+            "text": "그 금액의 80%를 1일 단위로 계산"
+          }
+        ]
+      },
+      "right": {
+        "title": "기간을 곱하기",
+        "items": [
+          {
+            "label": "계산 기간",
+            "text": "치료로 생업에 종사하지 못한 기간을 곱함"
+          },
+          {
+            "label": "지급기간 한도",
+            "text": "2년 이내"
+          }
+        ]
+      },
+      "note": "원고의 계산식을 유지하며 별도의 일액 나눗수는 추가하지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 99,
+          "endLine": 125,
+          "topic": "휴업 보상금 계산"
+        }
+      ]
+    },
+    {
+      "id": "lost-work-claim",
+      "title": "휴업 보상금 청구와 확인",
+      "subtitle": "대원이 청구하고 가까운 부대·경찰이 확인",
+      "kind": "process",
+      "left": {
+        "title": "대원의 청구",
+        "items": [
+          {
+            "label": "청구처",
+            "text": "소속 군부대의 장, 훈련부대의 장 또는 수탁경찰서장"
+          },
+          {
+            "label": "첨부 서류",
+            "text": "치료로 인하여 휴업한 사실을 증명하는 서류"
+          }
+        ]
+      },
+      "right": {
+        "title": "접수기관의 확인",
+        "items": [
+          {
+            "label": "확인 항목",
+            "text": "휴업 사실과 진료 기록부 등"
+          },
+          {
+            "label": "확인 후 송부",
+            "text": "수임군부대의 장에게 지급청구서를 보냄"
+          }
+        ]
+      },
+      "note": "치료로 인한 휴업과 진료 기록을 확인",
+      "sourceRanges": [
+        {
+          "startLine": 129,
+          "endLine": 159,
+          "topic": "청구 서류와 확인"
+        }
+      ]
+    },
+    {
+      "id": "lost-work-ordinary-payment",
+      "title": "휴업 보상금의 일반 지급",
+      "subtitle": "수임군부대의 장과 관할 군사령관의 역할",
+      "kind": "process",
+      "left": {
+        "title": "수임군부대의 장",
+        "items": [
+          {
+            "label": "지급액 결정",
+            "text": "접수한 지급청구서를 바탕으로 금액 결정"
+          },
+          {
+            "label": "지급 요청",
+            "text": "관할 군사령관에게 지급을 요청하여야 함"
+          }
+        ]
+      },
+      "right": {
+        "title": "관할 군사령관",
+        "items": [
+          {
+            "label": "지급 명령",
+            "text": "수임군부대의 장에게 지급을 명하여야 함"
+          },
+          {
+            "label": "흐름",
+            "text": "수임군부대의 장이 대원에게 지급"
+          }
+        ]
+      },
+      "note": "금액 결정·요청과 지급 명령을 구별",
+      "sourceRanges": [
+        {
+          "startLine": 161,
+          "endLine": 194,
+          "topic": "지급액 결정·요청·명령"
+        }
+      ]
+    },
+    {
+      "id": "lost-work-service-exception",
+      "title": "각 군이 부담하는 경우",
+      "subtitle": "시행령 제22조 제6항의 별도 지급 경로",
+      "kind": "exception",
+      "left": {
+        "title": "요청하는 쪽",
+        "items": [
+          {
+            "label": "전제",
+            "text": "육·해·공군참모총장이 지급액을 부담하여야 하는 경우"
+          },
+          {
+            "label": "관할 군사령관",
+            "text": "해당 참모총장에게 지급을 요청할 수 있음"
+          }
+        ]
+      },
+      "right": {
+        "title": "결정하고 지급하는 쪽",
+        "items": [
+          {
+            "label": "해당 참모총장",
+            "text": "금액을 결정하여 해당 예비군대원에게 지급하여야 함"
+          },
+          {
+            "label": "해병대",
+            "text": "해군참모총장 자리를 해병대사령관으로 읽음"
+          }
+        ]
+      },
+      "note": "예외 경로의 요청은 할 수 있음 · 결정과 지급은 하여야 함",
+      "sourceRanges": [
+        {
+          "startLine": 97,
+          "endLine": 101,
+          "topic": "시행령 제22조의 제목과 적용 범위"
+        },
+        {
+          "startLine": 196,
+          "endLine": 208,
+          "topic": "각 군 부담 예외"
+        }
+      ]
+    },
+    {
+      "id": "compensation-delegation",
+      "title": "보상 기준과 세부 절차",
+      "subtitle": "대통령령과 국방부장관의 역할 구분",
+      "kind": "compare",
+      "left": {
+        "title": "법 제8조의2 제2항",
+        "items": [
+          {
+            "label": "금액·지급 사항",
+            "text": "보상금 금액과 지급에 필요한 사항"
+          },
+          {
+            "label": "위임",
+            "text": "대통령령으로 정함"
+          }
+        ]
+      },
+      "right": {
+        "title": "시행령 제22조 제7항",
+        "items": [
+          {
+            "label": "나머지 절차·방법",
+            "text": "제1항부터 제6항에서 정한 사항 외의 필요한 사항"
+          },
+          {
+            "label": "정하는 주체",
+            "text": "국방부장관"
+          }
+        ]
+      },
+      "note": "금액·지급의 위임과 남은 절차·방법의 결정 주체를 구분",
+      "sourceRanges": [
+        {
+          "startLine": 55,
+          "endLine": 67,
+          "topic": "법의 대통령령 위임"
+        },
+        {
+          "startLine": 210,
+          "endLine": 224,
+          "topic": "시행령의 세부사항 위임"
+        }
+      ]
+    },
+    {
+      "id": "neighbor-article-number",
+      "title": "고유식별정보 사무의 조문",
+      "subtitle": "원고가 함께 정리한 시행령 제28조의2",
+      "kind": "compare",
+      "left": {
+        "title": "해당 사무의 조문",
+        "items": [
+          {
+            "label": "제3호",
+            "text": "법 제8조 및 제9조에 따른 보상에 관한 사무"
+          }
+        ]
+      },
+      "right": {
+        "title": "이번 강의와 구별",
+        "items": [
+          {
+            "label": "법 제8조의2",
+            "text": "재해 등에 대한 보상을 다루는 조문"
+          },
+          {
+            "label": "번호 확인",
+            "text": "제3호의 인용 조문을 제8조의2로 바꾸지 않음"
+          }
+        ]
+      },
+      "note": "보상이라는 제목이 같아도 인용 조문 번호는 별도 확인",
+      "sourceRanges": [
+        {
+          "startLine": 226,
+          "endLine": 228,
+          "topic": "이웃 조문의 인용번호"
+        },
+        {
+          "startLine": 1,
+          "endLine": 1,
+          "topic": "강의 주제"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "보상 범위·종류·중복 공제",
+      "diagramIds": [
+        "compensation-time-scope",
+        "two-compensation-branches",
+        "compensation-offsets"
+      ]
+    },
+    {
+      "topic": "휴업 보상금 계산",
+      "diagramIds": [
+        "lost-work-calculation"
+      ]
+    },
+    {
+      "topic": "휴업 보상금 청구·확인·일반 지급",
+      "diagramIds": [
+        "lost-work-claim",
+        "lost-work-ordinary-payment"
+      ]
+    },
+    {
+      "topic": "각 군 부담 예외",
+      "diagramIds": [
+        "lost-work-service-exception"
+      ]
+    },
+    {
+      "topic": "위임과 이웃 조문 번호",
+      "diagramIds": [
+        "compensation-delegation",
+        "neighbor-article-number"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "주체와 대상",
+      "수치와 기산점",
+      "의무와 재량",
+      "또는·및 관계",
+      "원칙과 예외",
+      "설명 순서",
+      "원고 주요 갈래"
+    ],
+    "issues": [],
+    "sourceNotes": []
+  }
+}

@@ -1,0 +1,579 @@
+{
+  "lessonId": "RL-027",
+  "lessonTitle": "예비군법 제15조, 벌칙",
+  "diagrams": [
+    {
+      "id": "checkpoint-offences",
+      "title": "작전상 검문 관련 위반",
+      "subtitle": "법 제15조제1항 · 법 제8조제2항의 작전지역 검문",
+      "kind": "rule",
+      "left": {
+        "title": "처벌 대상 행위",
+        "items": [
+          {
+            "label": "검문 불응",
+            "text": "동원된 예비군의 작전상 검문에 정당한 사유 없이 응하지 않음"
+          },
+          {
+            "label": "폭행·협박",
+            "text": "검문하는 예비군대원을 폭행하거나 협박"
+          }
+        ]
+      },
+      "right": {
+        "title": "정해진 형벌",
+        "items": [
+          {
+            "label": "징역",
+            "text": "3년 이하"
+          },
+          {
+            "label": "벌금 선택지",
+            "text": "제1항에는 벌금형을 두지 않음"
+          }
+        ]
+      },
+      "note": "작전지역 검문 불응과 검문 대원 폭행·협박은 3년 이하 징역",
+      "sourceRanges": [
+        {
+          "startLine": 19,
+          "endLine": 35,
+          "topic": "작전상 검문 위반 행위와 징역형"
+        }
+      ]
+    },
+    {
+      "id": "registration-evasion",
+      "title": "통지서를 피하려 주민등록 변경",
+      "subtitle": "법 제15조제2항 · 통지서 전달 회피와 주민등록의 결과",
+      "kind": "rule",
+      "left": {
+        "title": "행위와 결과",
+        "items": [
+          {
+            "label": "전달 회피",
+            "text": "소집통지서를 전달할 수 없도록 정당한 사유 없이 미신고 또는 허위 신고"
+          },
+          {
+            "label": "주민등록 결과",
+            "text": "주민등록 말소 또는 거주불명 등록이 되도록 함"
+          }
+        ]
+      },
+      "right": {
+        "title": "처벌과 조건",
+        "items": [
+          {
+            "label": "형벌",
+            "text": "3년 이하 징역 또는 3천만원 이하 벌금"
+          },
+          {
+            "label": "구별 조건",
+            "text": "원고는 통지서를 피하려는 목적이 있는 경우로 설명"
+          }
+        ]
+      },
+      "note": "주민등록법 제10조의 신고 위반으로 제8조 또는 제20조의 말소·거주불명 등록",
+      "sourceRanges": [
+        {
+          "startLine": 37,
+          "endLine": 51,
+          "topic": "주민등록 신고 위반의 목적·결과와 형벌"
+        }
+      ]
+    },
+    {
+      "id": "organization-politics",
+      "title": "조직체로서 정치운동 관여",
+      "subtitle": "법 제15조제3항 · 법 제12조제2항 위반",
+      "kind": "rule",
+      "left": {
+        "title": "위반 내용",
+        "items": [
+          {
+            "label": "금지되는 관계",
+            "text": "예비군이 편성된 조직체로서 정치운동에 관여"
+          },
+          {
+            "label": "벌칙 연결",
+            "text": "법 제12조제2항 위반"
+          }
+        ]
+      },
+      "right": {
+        "title": "형벌",
+        "items": [
+          {
+            "label": "징역 또는 벌금",
+            "text": "3년 이하 징역 또는 3천만원 이하 벌금"
+          },
+          {
+            "label": "다음 구별점",
+            "text": "지휘관의 지위 이용을 다루는 제15조제6항과 구별"
+          }
+        ]
+      },
+      "note": "조직체의 정치운동 관여는 3년·3천만원의 상한",
+      "sourceRanges": [
+        {
+          "startLine": 53,
+          "endLine": 65,
+          "topic": "조직체 정치운동 관여의 근거와 형벌"
+        }
+      ]
+    },
+    {
+      "id": "mobilization-evasion",
+      "title": "동원 불응과 기피 목적 거주 변경",
+      "subtitle": "법 제15조제4항 · 법 제5조제1항의 동원",
+      "kind": "exception",
+      "left": {
+        "title": "처벌 대상 행위",
+        "items": [
+          {
+            "label": "동원 불응",
+            "text": "정당한 사유 없이 동원에 응하지 않음"
+          },
+          {
+            "label": "거짓 거주 변경",
+            "text": "동원을 기피할 목적으로 거짓으로 거주지를 변경"
+          }
+        ]
+      },
+      "right": {
+        "title": "상황별 형벌",
+        "items": [
+          {
+            "label": "일반",
+            "text": "3년 이하 징역 또는 3천만원 이하 벌금"
+          },
+          {
+            "label": "전시·사변",
+            "text": "5년 이하 징역"
+          }
+        ]
+      },
+      "note": "전시·사변 단서는 5년 이하 징역이며 벌금 선택지를 두지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 67,
+          "endLine": 93,
+          "topic": "동원 위반 두 행위와 일반·전시사변 형벌"
+        }
+      ]
+    },
+    {
+      "id": "weapon-negligence",
+      "title": "무기 등의 과실 분실·탈취",
+      "subtitle": "법 제15조제5항 · 경비 임무와 보관 책임",
+      "kind": "compare",
+      "left": {
+        "title": "처벌 대상자 · 또는",
+        "items": [
+          {
+            "label": "경비",
+            "text": "예비군 무기·탄약·장비·부속품의 경비 임무를 수행하는 사람"
+          },
+          {
+            "label": "보관",
+            "text": "그 물품을 보관할 책임이 있는 사람"
+          }
+        ]
+      },
+      "right": {
+        "title": "행위와 형벌",
+        "items": [
+          {
+            "label": "행위 조건",
+            "text": "과실로 분실하거나 탈취당한 경우"
+          },
+          {
+            "label": "형벌",
+            "text": "3년 이하 징역 또는 3천만원 이하 벌금"
+          }
+        ]
+      },
+      "note": "경비는 임무 수행, 보관은 책임이며 과실도 제5항의 대상",
+      "sourceRanges": [
+        {
+          "startLine": 95,
+          "endLine": 117,
+          "topic": "경비·보관의 주체 표현과 과실 행위·형벌"
+        }
+      ]
+    },
+    {
+      "id": "commander-position",
+      "title": "지휘관의 지위 이용 위반",
+      "subtitle": "법 제15조제6항 · 법 제12조제1항 위반",
+      "kind": "compare",
+      "left": {
+        "title": "지휘관이 위반한 경우",
+        "items": [
+          {
+            "label": "처벌 대상",
+            "text": "예비군부대의 지휘관"
+          },
+          {
+            "label": "위반 내용",
+            "text": "소속 대원에게 지위를 이용하여 법정 외 의무 강요·권리행사 방해·특정 정당이나 후보 지지·반대"
+          }
+        ]
+      },
+      "right": {
+        "title": "형벌과 정치운동 구별",
+        "items": [
+          {
+            "label": "제6항",
+            "text": "2년 이하 징역 또는 2천만원 이하 벌금"
+          },
+          {
+            "label": "제3항과 구별",
+            "text": "조직체로서 정치운동 관여는 3년 이하 징역 또는 3천만원 이하 벌금"
+          }
+        ]
+      },
+      "note": "제12조제1항 위반 지휘관은 2년, 제12조제2항 정치운동 관여는 3년 상한",
+      "sourceRanges": [
+        {
+          "startLine": 121,
+          "endLine": 141,
+          "topic": "지휘관 지위 이용 위반과 조직체 정치운동의 구별"
+        }
+      ]
+    },
+    {
+      "id": "mobilized-disobedience",
+      "title": "동원 중 정당한 명령 불복종",
+      "subtitle": "법 제15조제7항 · 법 제5조제4항의 명령",
+      "kind": "exception",
+      "left": {
+        "title": "일반적인 경우",
+        "items": [
+          {
+            "label": "대상 행위",
+            "text": "지휘관의 정당한 명령에 반항하거나 복종하지 않음"
+          },
+          {
+            "label": "형벌",
+            "text": "2년 이하 징역, 2천만원 이하 벌금이나 구류 또는 과료"
+          }
+        ]
+      },
+      "right": {
+        "title": "단서가 적용되는 경우",
+        "items": [
+          {
+            "label": "가중 상황",
+            "text": "전시·사변이거나 적 또는 무장공비와 교전 중"
+          },
+          {
+            "label": "형벌",
+            "text": "5년 이하 징역"
+          }
+        ]
+      },
+      "note": "제7항의 단서에는 전시·사변뿐 아니라 적 또는 무장공비와의 교전 중도 포함",
+      "sourceRanges": [
+        {
+          "startLine": 143,
+          "endLine": 161,
+          "topic": "동원 중 명령 불복종의 형벌과 가중 조건"
+        }
+      ]
+    },
+    {
+      "id": "adverse-treatment",
+      "title": "직장·학교의 불리한 처우",
+      "subtitle": "법 제15조제8항 · 법 제10조 및 제10조의2 위반",
+      "kind": "rule",
+      "left": {
+        "title": "처벌 대상과 행위",
+        "items": [
+          {
+            "label": "대상자",
+            "text": "다른 사람을 사용하는 자 또는 고등학교 이상 학교의 장"
+          },
+          {
+            "label": "대상 행위",
+            "text": "동원되거나 훈련받는 예비군대원에게 정당한 사유 없이 불리한 처우"
+          }
+        ]
+      },
+      "right": {
+        "title": "형벌과 교직원 구별",
+        "items": [
+          {
+            "label": "형벌",
+            "text": "2년 이하 징역 또는 2천만원 이하 벌금"
+          },
+          {
+            "label": "교직원",
+            "text": "학교의 장과 구별하여 법 제15조의2의 과태료로 다룸"
+          }
+        ]
+      },
+      "note": "벌칙 연결 조문은 직장 보장의 제10조와 학업 보장의 제10조의2",
+      "sourceRanges": [
+        {
+          "startLine": 163,
+          "endLine": 181,
+          "topic": "불리한 처우의 주체·행위·형벌과 교직원 구별"
+        }
+      ]
+    },
+    {
+      "id": "training-orders",
+      "title": "제9항에 모인 위반 행위",
+      "subtitle": "법 제15조제9항 · 훈련과 임무수행 명령을 구별",
+      "kind": "compare",
+      "left": {
+        "title": "훈련 참가 위반",
+        "items": [
+          {
+            "label": "훈련 불참",
+            "text": "법 제6조제1항의 훈련을 정당한 사유 없이 받지 않음"
+          },
+          {
+            "label": "대리 훈련",
+            "text": "훈련받을 사람을 대신하여 훈련을 받음"
+          }
+        ]
+      },
+      "right": {
+        "title": "명령 위반",
+        "items": [
+          {
+            "label": "훈련 명령",
+            "text": "법 제6조제2항의 지휘관의 정당한 명령에 반항하거나 불복종"
+          },
+          {
+            "label": "임무수행 명령",
+            "text": "법 제8조제1항의 예비군 임무수행에 필요한 명령을 이행하지 않음"
+          }
+        ]
+      },
+      "note": "각 행위는 1년 이하 징역, 1천만원 이하 벌금, 구류 또는 과료",
+      "sourceRanges": [
+        {
+          "startLine": 183,
+          "endLine": 201,
+          "topic": "제9항 각 호의 행위와 공통 형벌"
+        }
+      ]
+    },
+    {
+      "id": "notice-refusal-delivery",
+      "title": "본인의 수령 거부와 전달 위반",
+      "subtitle": "법 제15조제10항 · 제15조의2제2항을 함께 구별",
+      "kind": "compare",
+      "left": {
+        "title": "예비군대원 본인",
+        "items": [
+          {
+            "label": "행위",
+            "text": "법 제6조의2제1항 본문·제4항의 소집통지서 수령 거부"
+          },
+          {
+            "label": "형벌",
+            "text": "6개월 이하 징역 또는 500만원 이하 벌금"
+          }
+        ]
+      },
+      "right": {
+        "title": "통지서 전달 의무자",
+        "items": [
+          {
+            "label": "행위",
+            "text": "정당한 사유 없이 미전달·지연·파기"
+          },
+          {
+            "label": "과태료",
+            "text": "100만원 이하"
+          }
+        ]
+      },
+      "note": "본인의 수령 거부는 형벌, 전달 의무자의 미전달·지연·파기는 과태료",
+      "sourceRanges": [
+        {
+          "startLine": 205,
+          "endLine": 223,
+          "topic": "수령 거부와 전달 의무 위반의 주체·제재 구별"
+        }
+      ]
+    },
+    {
+      "id": "false-hold-postponement",
+      "title": "보류·연기 사유를 거짓으로 만들면",
+      "subtitle": "법 제15조제11항 · 고의 발생 또는 거짓 행위",
+      "kind": "compare",
+      "left": {
+        "title": "동원·훈련 보류",
+        "items": [
+          {
+            "label": "근거",
+            "text": "법 제5조제1항 단서 및 제6조제3항"
+          },
+          {
+            "label": "행위",
+            "text": "보류를 받기 위하여 사유를 고의로 발생시키거나 거짓된 행위를 함"
+          }
+        ]
+      },
+      "right": {
+        "title": "동원·훈련 연기",
+        "items": [
+          {
+            "label": "근거",
+            "text": "법 제5조제2항에 따른 연기"
+          },
+          {
+            "label": "행위",
+            "text": "연기 사유를 고의로 발생시키거나 거짓된 행위를 함"
+          }
+        ]
+      },
+      "note": "3개월 이하 징역 또는 300만원 이하 벌금이나 구류",
+      "sourceRanges": [
+        {
+          "startLine": 225,
+          "endLine": 236,
+          "topic": "보류·연기의 허위 사유와 형벌"
+        }
+      ]
+    },
+    {
+      "id": "unreported-changes",
+      "title": "신고하지 않은 경우의 벌칙",
+      "subtitle": "법 제15조제12항 · 정당한 사유 없는 미신고",
+      "kind": "compare",
+      "left": {
+        "title": "법 제5조제3항 신고",
+        "items": [
+          {
+            "label": "신고 상황",
+            "text": "동원명령 발령 지역에 거주하는 대원이 다른 지역으로 거주지를 옮김"
+          },
+          {
+            "label": "신고 상대",
+            "text": "소속 예비군부대의 지휘관"
+          }
+        ]
+      },
+      "right": {
+        "title": "법 제6조의3제2항 신고",
+        "items": [
+          {
+            "label": "신고 상황",
+            "text": "보류받던 사람의 면직·퇴직 등으로 보류 사유가 없어짐"
+          },
+          {
+            "label": "신고 기한",
+            "text": "보류 사유가 없어진 날부터 14일 이내"
+          }
+        ]
+      },
+      "note": "정당한 사유 없이 신고하지 않으면 200만원 이하 벌금이나 구류",
+      "sourceRanges": [
+        {
+          "startLine": 238,
+          "endLine": 248,
+          "topic": "두 신고의 위반과 벌금·구류"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "제1항 작전상 검문 관련 위반",
+      "diagramIds": [
+        "checkpoint-offences"
+      ]
+    },
+    {
+      "topic": "제2항 주민등록을 이용한 통지 회피",
+      "diagramIds": [
+        "registration-evasion"
+      ]
+    },
+    {
+      "topic": "제3항 조직체 정치운동",
+      "diagramIds": [
+        "organization-politics"
+      ]
+    },
+    {
+      "topic": "제4항 동원 불응·기피와 전시사변 가중",
+      "diagramIds": [
+        "mobilization-evasion"
+      ]
+    },
+    {
+      "topic": "제5항 무기 등의 과실 분실·탈취",
+      "diagramIds": [
+        "weapon-negligence"
+      ]
+    },
+    {
+      "topic": "제6항 지휘관의 지위 이용 위반",
+      "diagramIds": [
+        "commander-position"
+      ]
+    },
+    {
+      "topic": "제7항 동원 명령 불복종·교전 가중",
+      "diagramIds": [
+        "mobilized-disobedience"
+      ]
+    },
+    {
+      "topic": "제8항 직장·학교 불리한 처우",
+      "diagramIds": [
+        "adverse-treatment"
+      ]
+    },
+    {
+      "topic": "제9항 훈련 및 임무수행 명령 위반",
+      "diagramIds": [
+        "training-orders"
+      ]
+    },
+    {
+      "topic": "제10항 수령 거부와 전달 의무자의 과태료 구별",
+      "diagramIds": [
+        "notice-refusal-delivery"
+      ]
+    },
+    {
+      "topic": "제11항 허위 보류·연기 사유",
+      "diagramIds": [
+        "false-hold-postponement"
+      ]
+    },
+    {
+      "topic": "제12항 정당한 사유 없는 미신고",
+      "diagramIds": [
+        "unreported-changes"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "행위 요건",
+      "정당한 사유",
+      "처벌 주체",
+      "근거 조문",
+      "형기·금액",
+      "벌금·과료·과태료",
+      "일반형·가중 단서",
+      "설명 순서"
+    ],
+    "sourceNotes": [
+      "원고의 “벌금 없이 징역만 있는 유일한 항” 표현은 제1항의 일반 규정을 가리키는 설명으로 한정했다. 제4항·제7항의 전시·사변 등 단서에 있는 5년 이하 징역도 각각 별도 표기했다.",
+      "원고 191행은 제9항을 훈련에 관한 일로 묶지만, 제3호는 법 제8조제1항의 임무수행 명령이다. 도식은 실제 열거된 세 호에 따라 훈련 명령과 임무수행 명령을 분리했다."
+    ],
+    "issues": []
+  }
+}

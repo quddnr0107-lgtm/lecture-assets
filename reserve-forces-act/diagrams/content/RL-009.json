@@ -1,0 +1,637 @@
+{
+  "lessonId": "RL-009",
+  "lessonTitle": "예비군법 제6조의2, 소집통지서의 전달 등",
+  "diagrams": [
+    {
+      "id": "notice-personal-principle",
+      "title": "소집통지서는 사전에 본인에게",
+      "subtitle": "본법의 원칙과 불시훈련·점검의 예외",
+      "kind": "compare",
+      "left": {
+        "title": "원칙 · 제1항 본문",
+        "items": [
+          {
+            "label": "대상·시점",
+            "text": "예비군대원을 훈련할 때 사전에 전달"
+          },
+          {
+            "label": "상대·의무",
+            "text": "소집통지서를 본인에게 전달하여야 함"
+          },
+          {
+            "label": "규정 형식",
+            "text": "대통령령으로 정하는 바에 따름"
+          }
+        ]
+      },
+      "right": {
+        "title": "예외 · 제1항 단서",
+        "items": [
+          {
+            "label": "대상 상황",
+            "text": "동원에 대비한 불시훈련이나 점검"
+          },
+          {
+            "label": "방법",
+            "text": "소집통지서 없이 대통령령 방법으로 통지하여 소집할 수 있음"
+          }
+        ]
+      },
+      "note": "본인 부재의 예외를 원칙의 전달 상대로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 17,
+          "endLine": 53,
+          "topic": "사전 본인 전달 원칙·불시훈련과 점검의 예외"
+        }
+      ]
+    },
+    {
+      "id": "surprise-training-call",
+      "title": "불시훈련·점검의 통지와 응소",
+      "subtitle": "전화 또는 방문 통보로 소집통지",
+      "kind": "compare",
+      "left": {
+        "title": "수임군부대의 장",
+        "items": [
+          {
+            "label": "적용 상황",
+            "text": "동원에 대비한 불시훈련이나 점검"
+          },
+          {
+            "label": "통지 방법",
+            "text": "전화 또는 방문 통보로 대원에게 소집통지를 하여야 함"
+          }
+        ]
+      },
+      "right": {
+        "title": "소집통지를 받은 대원",
+        "items": [
+          {
+            "label": "응소시간",
+            "text": "시행령 제12조 각 호 구분에 따른 시간 이내"
+          },
+          {
+            "label": "장소·의무",
+            "text": "지정된 장소에 응소하여야 함"
+          }
+        ]
+      },
+      "note": "불시훈련 뒤의 점검도 적용 대상",
+      "sourceRanges": [
+        {
+          "startLine": 55,
+          "endLine": 69,
+          "topic": "불시훈련·점검의 주체·방법·응소"
+        }
+      ]
+    },
+    {
+      "id": "notice-seven-days-form",
+      "title": "7일 전 전달과 통지서 서식",
+      "subtitle": "시행령의 기한과 국방부령의 서식을 구별",
+      "kind": "compare",
+      "left": {
+        "title": "전달 주체·상대",
+        "items": [
+          {
+            "label": "주체",
+            "text": "수임군부대의 장"
+          },
+          {
+            "label": "기한",
+            "text": "훈련소집일 7일 전까지"
+          },
+          {
+            "label": "상대·의무",
+            "text": "소집통지서를 본인에게 전달하여야 함"
+          }
+        ]
+      },
+      "right": {
+        "title": "통지서 서식",
+        "items": [
+          {
+            "label": "대상",
+            "text": "제1항에 따른 소집통지서의 서식"
+          },
+          {
+            "label": "규정 형식",
+            "text": "국방부령으로 정함"
+          }
+        ]
+      },
+      "note": "일반 전달의 7일과 휴일 일정 선택의 3일은 다른 기한",
+      "sourceRanges": [
+        {
+          "startLine": 71,
+          "endLine": 89,
+          "topic": "일반 전달 기한·주체·서식"
+        },
+        {
+          "startLine": 238,
+          "endLine": 244,
+          "topic": "휴일 일정 선택 3일과 대비"
+        }
+      ]
+    },
+    {
+      "id": "absent-person-recipients",
+      "title": "본인이 없을 때 받는 네 사람",
+      "subtitle": "제2항의 예외 수령인들을 세대주등으로 부름",
+      "kind": "compare",
+      "left": {
+        "title": "가정의 수령인",
+        "items": [
+          {
+            "label": "같은 세대",
+            "text": "같은 세대 내의 세대주"
+          },
+          {
+            "label": "가족",
+            "text": "가족 중 성년자"
+          }
+        ]
+      },
+      "right": {
+        "title": "고용·선정 관계",
+        "items": [
+          {
+            "label": "고용주",
+            "text": "본인의 고용주"
+          },
+          {
+            "label": "선정 수령인",
+            "text": "본인이 선정한 소집통지서 수령인"
+          }
+        ]
+      },
+      "note": "본인이 없을 때 이들에게 전달하여야 하며 미성년 가족은 해당하지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 93,
+          "endLine": 116,
+          "topic": "부재 조건·세대주등의 네 범주·성년 요건"
+        }
+      ]
+    },
+    {
+      "id": "selected-recipient-consent",
+      "title": "선정 수령인의 동의와 전달 효과",
+      "subtitle": "선정된 사람의 사전 동의, 세대주등 수령의 효과",
+      "kind": "compare",
+      "left": {
+        "title": "선정 수령인에게 줄 때",
+        "items": [
+          {
+            "label": "적용 대상",
+            "text": "네 범주 중 본인이 선정한 소집통지서 수령인"
+          },
+          {
+            "label": "사전 동의",
+            "text": "소집통지서 전달 전에 수령에 관한 동의를 받아야 함"
+          }
+        ]
+      },
+      "right": {
+        "title": "세대주등에게 전달된 때",
+        "items": [
+          {
+            "label": "법적 효과",
+            "text": "대원 본인에게 전달된 것으로 봄"
+          },
+          {
+            "label": "대신 받은 사람",
+            "text": "지체 없이 본인에게 넘겨야 할 의무가 있음"
+          }
+        ]
+      },
+      "note": "선정만으로 동의가 끝난 것으로 처리하지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 118,
+          "endLine": 128,
+          "topic": "선정 수령인 사전 동의와 전달 의무"
+        },
+        {
+          "startLine": 174,
+          "endLine": 180,
+          "topic": "세대주등 수령시 본인 전달 간주"
+        }
+      ]
+    },
+    {
+      "id": "recipient-forwarding-methods",
+      "title": "세대주등이 본인에게 넘기는 방법",
+      "subtitle": "직접 전달 또는 대통령령이 정한 다섯 방법",
+      "kind": "compare",
+      "left": {
+        "title": "종이·촬영물",
+        "items": [
+          {
+            "label": "제1호",
+            "text": "소집통지서 사본을 직접 전달"
+          },
+          {
+            "label": "제2호",
+            "text": "원본 또는 사본을 우편이나 팩스로 전송"
+          },
+          {
+            "label": "제3호",
+            "text": "촬영물(전자문서 포함)을 전자적 방법으로 전송"
+          }
+        ]
+      },
+      "right": {
+        "title": "주요 사항을 알림",
+        "items": [
+          {
+            "label": "제4호",
+            "text": "주요 사항을 휴대전화 문자메시지 등 전자적 방법으로 전송"
+          },
+          {
+            "label": "제5호",
+            "text": "앞의 네 방법에 준하는 방법으로 주요 사항을 알림"
+          }
+        ]
+      },
+      "note": "정당한 사유 없이 미전달·지연·폐기하면 과태료가 부과됨",
+      "sourceRanges": [
+        {
+          "startLine": 124,
+          "endLine": 156,
+          "topic": "전달 의무·대통령령 위임·다섯 방법·전자문서 포함"
+        }
+      ]
+    },
+    {
+      "id": "forwarding-required-details",
+      "title": "핵심만 보내도 빠지면 안 될 셋",
+      "subtitle": "제4호 문자 전송과 제5호 준하는 방법의 공통 내용",
+      "kind": "compare",
+      "left": {
+        "title": "반드시 포함할 내용",
+        "items": [
+          {
+            "label": "기간",
+            "text": "훈련 소집기간"
+          },
+          {
+            "label": "장소",
+            "text": "훈련장소"
+          },
+          {
+            "label": "시간",
+            "text": "훈련장소 도착시간"
+          }
+        ]
+      },
+      "right": {
+        "title": "적용되는 전달 방식",
+        "items": [
+          {
+            "label": "제4호",
+            "text": "주요 사항을 문자메시지 등 전자적 방법으로 전송"
+          },
+          {
+            "label": "제5호",
+            "text": "앞의 네 방법에 준하는 방법으로 주요 사항 전달"
+          }
+        ]
+      },
+      "note": "출발시간이 아니라 훈련장소 도착시간",
+      "sourceRanges": [
+        {
+          "startLine": 158,
+          "endLine": 172,
+          "topic": "주요 사항 전달의 세 필수 내용·적용 범위"
+        }
+      ]
+    },
+    {
+      "id": "special-postal-service",
+      "title": "특별한 송달의 요건과 법령",
+      "subtitle": "제1항이나 제2항에 따라 소집통지서를 전달하는 경우",
+      "kind": "compare",
+      "left": {
+        "title": "특별한 송달을 쓸 때",
+        "items": [
+          {
+            "label": "판단 조건",
+            "text": "특히 필요하다고 인정되어 국방부장관이 정하는 경우"
+          },
+          {
+            "label": "가능한 조치",
+            "text": "우편법령에 따른 특별한 송달로 전달할 수 있음"
+          }
+        ]
+      },
+      "right": {
+        "title": "빌려오는 송달 규정",
+        "items": [
+          {
+            "label": "준용",
+            "text": "민사소송법 중 송달에 관한 규정"
+          },
+          {
+            "label": "제외",
+            "text": "같은 법 제189조는 제외"
+          }
+        ]
+      },
+      "note": "준용할 규정은 민사소송법, 보내는 방법은 우편법령",
+      "sourceRanges": [
+        {
+          "startLine": 182,
+          "endLine": 202,
+          "topic": "특별 송달 요건·주체·준용·제189조 제외"
+        }
+      ]
+    },
+    {
+      "id": "electronic-notice-consent",
+      "title": "전자문서 전달은 본인의 동의로",
+      "subtitle": "법 제7항의 동의 상대·위임·전자문서 정의",
+      "kind": "compare",
+      "left": {
+        "title": "전달의 전제",
+        "items": [
+          {
+            "label": "동의 상대",
+            "text": "대원 본인으로부터 동의를 받았을 때"
+          },
+          {
+            "label": "전달 권한",
+            "text": "대통령령에 따라 전자문서로 전달할 수 있음"
+          }
+        ]
+      },
+      "right": {
+        "title": "전자문서의 근거",
+        "items": [
+          {
+            "label": "법률",
+            "text": "정보통신망 이용촉진 및 정보보호 등에 관한 법률"
+          },
+          {
+            "label": "정의 조문",
+            "text": "제2조제1항제5호의 전자문서"
+          },
+          {
+            "label": "전달 상대",
+            "text": "본인에게 전달하는 경로"
+          }
+        ]
+      },
+      "note": "본인의 동의를 세대주등의 동의로 대체하지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 204,
+          "endLine": 220,
+          "topic": "전자문서 동의·법률 정의·전달 상대"
+        }
+      ]
+    },
+    {
+      "id": "electronic-schedule-publication",
+      "title": "전자우편주소·동의와 30일 전 공시",
+      "subtitle": "수임군부대의 장이 미리 갖추어야 하는 두 일",
+      "kind": "compare",
+      "left": {
+        "title": "미리 받는 것",
+        "items": [
+          {
+            "label": "전자우편주소",
+            "text": "예비군대원의 전자우편주소"
+          },
+          {
+            "label": "수신 동의",
+            "text": "예비군대원의 수신 동의를 받아야 함"
+          }
+        ]
+      },
+      "right": {
+        "title": "훈련 일정 공시",
+        "items": [
+          {
+            "label": "주체",
+            "text": "수임군부대의 장"
+          },
+          {
+            "label": "시점",
+            "text": "훈련소집일 30일 전에"
+          },
+          {
+            "label": "방법·의무",
+            "text": "인터넷을 이용하여 훈련 일정을 공시하여야 함"
+          }
+        ]
+      },
+      "note": "원고는 이 절차를 시행령 제16조제5항으로 설명",
+      "sourceRanges": [
+        {
+          "startLine": 222,
+          "endLine": 236,
+          "topic": "전자문서 전달 준비·30일 공시·주체"
+        }
+      ]
+    },
+    {
+      "id": "electronic-selection-deadline",
+      "title": "공시된 훈련 선택은 12일 전",
+      "subtitle": "휴일은 3일 전까지 전자문서로 의사 통지",
+      "kind": "compare",
+      "left": {
+        "title": "대원이 고르는 기한",
+        "items": [
+          {
+            "label": "일반 훈련",
+            "text": "훈련소집일 12일 전까지"
+          },
+          {
+            "label": "휴일 훈련",
+            "text": "훈련소집일이 휴일이면 3일 전까지"
+          },
+          {
+            "label": "통지 방법",
+            "text": "공시한 훈련을 받겠다는 의사를 전자문서로 통지"
+          }
+        ]
+      },
+      "right": {
+        "title": "전달 간주의 효과",
+        "items": [
+          {
+            "label": "전제",
+            "text": "제5항에 따라 수임군부대의 장이 공시한 훈련"
+          },
+          {
+            "label": "효과",
+            "text": "본인의 동의를 받아 소집통지서를 전자문서로 전달한 것으로 봄"
+          }
+        ]
+      },
+      "note": "일반의 12일과 휴일의 3일을 구별",
+      "sourceRanges": [
+        {
+          "startLine": 238,
+          "endLine": 244,
+          "topic": "전자문서 의사 통지·두 기한·전달 간주"
+        }
+      ]
+    },
+    {
+      "id": "notice-rule-authorities",
+      "title": "전달의 길·서식·남은 세부",
+      "subtitle": "대통령령·국방부령·국방부장관의 구분",
+      "kind": "compare",
+      "left": {
+        "title": "규정으로 정하는 것",
+        "items": [
+          {
+            "label": "대통령령",
+            "text": "사전 전달·불시 통지·세대주등의 전달·전자문서 전달 방법"
+          },
+          {
+            "label": "국방부령",
+            "text": "소집통지서의 서식"
+          }
+        ]
+      },
+      "right": {
+        "title": "국방부장관이 정하는 것",
+        "items": [
+          {
+            "label": "특별 송달",
+            "text": "특히 필요하다고 인정되어 특별한 송달을 쓸 경우"
+          },
+          {
+            "label": "전자문서 세부",
+            "text": "시행령 제5·6항 외의 전자문서 전달 방법 및 절차"
+          }
+        ]
+      },
+      "note": "일정을 공시하는 수임군부대의 장과 세부를 정하는 국방부장관을 구별",
+      "sourceRanges": [
+        {
+          "startLine": 186,
+          "endLine": 202,
+          "topic": "특별 송달 결정"
+        },
+        {
+          "startLine": 246,
+          "endLine": 266,
+          "topic": "전자문서 세부와 세 규정 주체 정리"
+        }
+      ]
+    },
+    {
+      "id": "notice-four-deadlines",
+      "title": "30·12·3·7일의 서로 다른 자리",
+      "subtitle": "일정 공시·선택·일반 전달을 나란히 확인",
+      "kind": "compare",
+      "left": {
+        "title": "전자문서 일정 공시·선택",
+        "items": [
+          {
+            "label": "30일 전",
+            "text": "수임군부대의 장이 인터넷으로 훈련 일정 공시"
+          },
+          {
+            "label": "12일 전까지",
+            "text": "공시한 일반 훈련을 받겠다는 의사를 전자문서로 통지"
+          },
+          {
+            "label": "3일 전까지",
+            "text": "공시한 훈련소집일이 휴일인 경우 의사 통지"
+          }
+        ]
+      },
+      "right": {
+        "title": "일반 소집통지서 전달",
+        "items": [
+          {
+            "label": "7일 전까지",
+            "text": "훈련소집일을 기준으로 본인에게 전달"
+          },
+          {
+            "label": "구별",
+            "text": "공시·선택·일반 전달은 각각의 절차와 요건에 따른 기한"
+          }
+        ]
+      },
+      "note": "휴일의 3일은 훈련을 고르는 기한",
+      "sourceRanges": [
+        {
+          "startLine": 73,
+          "endLine": 85,
+          "topic": "일반 전달 7일"
+        },
+        {
+          "startLine": 224,
+          "endLine": 244,
+          "topic": "일정 공시·일반과 휴일 선택"
+        },
+        {
+          "startLine": 250,
+          "endLine": 256,
+          "topic": "네 기한 비교"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "① 본인 전달: 원칙·불시훈련 및 점검·7일·서식",
+      "diagramIds": [
+        "notice-personal-principle",
+        "surprise-training-call",
+        "notice-seven-days-form"
+      ]
+    },
+    {
+      "topic": "② 대신 받기: 네 수령인·동의·전달 의무·방법·주요 사항·간주",
+      "diagramIds": [
+        "absent-person-recipients",
+        "selected-recipient-consent",
+        "recipient-forwarding-methods",
+        "forwarding-required-details"
+      ]
+    },
+    {
+      "topic": "③ 특별한 송달: 요건·주체·준용·제외",
+      "diagramIds": [
+        "special-postal-service"
+      ]
+    },
+    {
+      "topic": "④ 전자문서: 본인 동의·정의·주소·공시·선택·간주·세부",
+      "diagramIds": [
+        "electronic-notice-consent",
+        "electronic-schedule-publication",
+        "electronic-selection-deadline",
+        "notice-rule-authorities",
+        "notice-four-deadlines"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "강의 번호·원고 제목",
+      "설명 순서",
+      "주체·대상",
+      "의무·재량",
+      "기한·숫자",
+      "원칙·예외",
+      "오답과 정답 구별",
+      "병렬 또는 관계"
+    ],
+    "issues": [],
+    "sourceNotes": [
+      "이 원고는 세대주등의 전달 방법을 시행령 제16조제4항(132행), 전자문서 전달용 일정 공시를 제5항(222·224·236행)으로 적고 있습니다. 8강 원고의 전국 단위 훈련 설명에 있는 제16조제4항 공시 표기와 차이가 있으나 외부 법령으로 고치지 않고 각 원고를 보존했습니다.",
+      "숫자 복습 도식은 30·12·3·7일을 하나의 필수 연속 절차로 그리지 않고 각각의 공시·의사 통지·일반 전달 조건으로 구분했습니다."
+    ]
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "lessonId": "RL-019",
+  "lessonTitle": "예비군법 제10조의4, 불이익처우의 시정",
+  "diagrams": [
+    {
+      "id": "rights-reporters",
+      "title": "불이익처우 신고의 문",
+      "subtitle": "본인뿐 아니라 사실을 아는 사람·단체도 신고 가능",
+      "kind": "rule",
+      "left": {
+        "title": "신고할 수 있는 사람",
+        "items": [
+          {
+            "label": "당사자",
+            "text": "제10조·제10조의2에 따른 불리한 처우를 받은 사람"
+          },
+          {
+            "label": "사실을 아는 사람·단체",
+            "text": "그 사실을 알고 있는 사람이나 단체"
+          }
+        ]
+      },
+      "right": {
+        "title": "신고의 대상과 수령자",
+        "items": [
+          {
+            "label": "대상 사실",
+            "text": "직장 보장·학업 보장에 관한 불리한 처우"
+          },
+          {
+            "label": "수령자",
+            "text": "국방부장관에게 해당 사실을 신고할 수 있음"
+          }
+        ]
+      },
+      "note": "신고 자격을 피해자 본인으로만 좁히지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 17,
+          "endLine": 33,
+          "topic": "불이익처우 신고자와 수령자"
+        }
+      ]
+    },
+    {
+      "id": "rights-fact-check",
+      "title": "사실확인을 위한 자료와 의견",
+      "subtitle": "인지 또는 신고 접수 후 필요한 경우",
+      "kind": "rule",
+      "left": {
+        "title": "국방부장관의 요청",
+        "items": [
+          {
+            "label": "시작 경로",
+            "text": "불리한 처우 사실을 알게 되거나 신고를 접수함"
+          },
+          {
+            "label": "요청 내용",
+            "text": "사실확인에 필요하면 관련 기관·단체·개인에게 자료 제출 또는 의견 진술 요청 가능"
+          }
+        ]
+      },
+      "right": {
+        "title": "요청받은 자의 의무",
+        "items": [
+          {
+            "label": "원칙",
+            "text": "요청에 따라야 함"
+          },
+          {
+            "label": "조건",
+            "text": "정당한 사유가 없으면 따라야 한다는 규정"
+          }
+        ]
+      },
+      "note": "신고가 들어온 경우에만 사실확인을 할 수 있는 것은 아님",
+      "sourceRanges": [
+        {
+          "startLine": 35,
+          "endLine": 51,
+          "topic": "자료 제출·의견 진술 요청과 응할 의무"
+        }
+      ]
+    },
+    {
+      "id": "rights-correction-request",
+      "title": "위반 확인 후 시정 요구",
+      "subtitle": "국방부장관이 사용자 또는 학교의 장에게 요구",
+      "kind": "process",
+      "left": {
+        "title": "먼저 확인할 사실",
+        "items": [
+          {
+            "label": "위반 여부",
+            "text": "제10조 또는 제10조의2 위반 사실이 확인된 경우"
+          },
+          {
+            "label": "시정 요구",
+            "text": "국방부장관은 시정하도록 요구할 수 있음"
+          }
+        ]
+      },
+      "right": {
+        "title": "시정요구 상대방",
+        "items": [
+          {
+            "label": "직장",
+            "text": "다른 사람을 사용하는 자"
+          },
+          {
+            "label": "학교",
+            "text": "고등학교 이상의 학교의 장"
+          }
+        ]
+      },
+      "note": "확인이 먼저 · 시정 요구가 다음",
+      "sourceRanges": [
+        {
+          "startLine": 53,
+          "endLine": 63,
+          "topic": "시정요구 요건과 상대방"
+        }
+      ]
+    },
+    {
+      "id": "rights-thirty-day-compliance",
+      "title": "시정 이행은 30일 이내",
+      "subtitle": "이행결과 제출처는 국방부",
+      "kind": "deadline",
+      "left": {
+        "title": "시정요구를 받은 자",
+        "items": [
+          {
+            "label": "이행 의무",
+            "text": "30일 이내에 시정요구를 이행하여야 함"
+          },
+          {
+            "label": "결과 제출",
+            "text": "이행결과를 제출하여야 함"
+          }
+        ]
+      },
+      "right": {
+        "title": "요구자와 제출처",
+        "items": [
+          {
+            "label": "시정요구",
+            "text": "국방부장관이 요구"
+          },
+          {
+            "label": "이행결과",
+            "text": "국방부에 제출"
+          }
+        ]
+      },
+      "note": "국방부장관의 요구와 국방부에 결과 제출을 구분",
+      "sourceRanges": [
+        {
+          "startLine": 55,
+          "endLine": 55,
+          "topic": "시정요구 주체"
+        },
+        {
+          "startLine": 65,
+          "endLine": 79,
+          "topic": "이행 기한과 결과 제출"
+        }
+      ]
+    },
+    {
+      "id": "rights-referral-and-framework",
+      "title": "정당한 사유 없는 미이행",
+      "subtitle": "제10조의4의 고발 요건과 권익보장 체계",
+      "kind": "exception",
+      "left": {
+        "title": "고발할 수 있는 경우",
+        "items": [
+          {
+            "label": "요건",
+            "text": "정당한 사유 없이 시정요구를 이행하지 않음"
+          },
+          {
+            "label": "대상·기관",
+            "text": "국방부장관은 위반 사용자 또는 고등학교 이상 학교의 장을 수사기관에 고발할 수 있음"
+          }
+        ]
+      },
+      "right": {
+        "title": "관련 조문의 역할",
+        "items": [
+          {
+            "label": "제10조·제10조의2",
+            "text": "직장·학업의 불리한 처우 금지"
+          },
+          {
+            "label": "제10조의4·제10조의5",
+            "text": "신고·확인·시정 절차와 권익보장센터의 근거"
+          }
+        ]
+      },
+      "note": "고발은 할 수 있다는 규정이며 시정요구 미이행 조건을 확인",
+      "sourceRanges": [
+        {
+          "startLine": 81,
+          "endLine": 103,
+          "topic": "고발 요건과 보호 체계"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "신고",
+      "diagramIds": [
+        "rights-reporters"
+      ]
+    },
+    {
+      "topic": "자료·의견 요청을 통한 사실확인",
+      "diagramIds": [
+        "rights-fact-check"
+      ]
+    },
+    {
+      "topic": "시정요구",
+      "diagramIds": [
+        "rights-correction-request"
+      ]
+    },
+    {
+      "topic": "이행과 결과 제출",
+      "diagramIds": [
+        "rights-thirty-day-compliance"
+      ]
+    },
+    {
+      "topic": "미이행 고발과 센터 연결",
+      "diagramIds": [
+        "rights-referral-and-framework"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "주체와 대상",
+      "수치와 기산점",
+      "의무와 재량",
+      "또는·및 관계",
+      "원칙과 예외",
+      "설명 순서",
+      "원고 주요 갈래"
+    ],
+    "issues": [],
+    "sourceNotes": []
+  }
+}

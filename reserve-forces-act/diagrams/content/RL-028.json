@@ -1,0 +1,217 @@
+{
+  "lessonId": "RL-028",
+  "lessonTitle": "예비군법 제15조의2, 과태료",
+  "diagrams": [
+    {
+      "id": "criminal-administrative",
+      "title": "벌금과 과태료의 구별",
+      "subtitle": "제15조의 형벌과 제15조의2의 행정상 제재",
+      "kind": "compare",
+      "left": {
+        "title": "벌금",
+        "items": [
+          {
+            "label": "성격",
+            "text": "법원의 재판을 거치는 형벌"
+          },
+          {
+            "label": "구별",
+            "text": "전과가 남는 형벌"
+          }
+        ]
+      },
+      "right": {
+        "title": "과태료",
+        "items": [
+          {
+            "label": "성격",
+            "text": "행정기관이 부과하는 행정상의 제재"
+          },
+          {
+            "label": "구별",
+            "text": "형벌과 달리 전과가 남지 않음"
+          }
+        ]
+      },
+      "note": "금액만 보지 말고 벌금인지 과태료인지 먼저 구별한다.",
+      "sourceRanges": [
+        {
+          "startLine": 7,
+          "endLine": 15,
+          "topic": "벌금과 과태료의 성격 구별"
+        }
+      ]
+    },
+    {
+      "id": "school-staff-penalty",
+      "title": "학업상 불리한 처우의 제재",
+      "subtitle": "제15조의2제1항과 제15조제8항의 주체 비교",
+      "kind": "compare",
+      "left": {
+        "title": "교직원",
+        "items": [
+          {
+            "label": "행위",
+            "text": "동원·훈련받은 사람에게 정당한 사유 없이 학업상 불리한 처우"
+          },
+          {
+            "label": "과태료",
+            "text": "500만원 이하"
+          }
+        ]
+      },
+      "right": {
+        "title": "고등학교 이상 학교장",
+        "items": [
+          {
+            "label": "같은 금지",
+            "text": "제10조의2에 따른 학업상 불리한 처우 금지"
+          },
+          {
+            "label": "형벌",
+            "text": "2년 이하 징역 또는 2,000만원 이하 벌금"
+          }
+        ]
+      },
+      "note": "주체가 교직원인지 학교장인지에 따라 제재가 달라진다.",
+      "sourceRanges": [
+        {
+          "startLine": 19,
+          "endLine": 31,
+          "topic": "교직원 과태료와 학교장 형벌 비교"
+        }
+      ]
+    },
+    {
+      "id": "notice-delivery-penalty",
+      "title": "통지서 전달 위반과 수령 거부",
+      "subtitle": "제15조의2제2항과 제15조제10항의 구별",
+      "kind": "compare",
+      "left": {
+        "title": "전달 의무자",
+        "items": [
+          {
+            "label": "의무",
+            "text": "대신 받은 소집통지서를 본인에게 지체 없이 전달"
+          },
+          {
+            "label": "위반·제재",
+            "text": "정당한 사유 없는 미전달·지연·파기: 100만원 이하 과태료"
+          }
+        ]
+      },
+      "right": {
+        "title": "예비군 본인",
+        "items": [
+          {
+            "label": "위반",
+            "text": "제6조의2에 따른 소집통지서의 수령 거부"
+          },
+          {
+            "label": "형벌",
+            "text": "6개월 이하 징역 또는 500만원 이하 벌금"
+          }
+        ]
+      },
+      "note": "대리 수령자의 전달 위반과 본인의 수령 거부를 구별한다.",
+      "sourceRanges": [
+        {
+          "startLine": 33,
+          "endLine": 41,
+          "topic": "전달 의무와 세 가지 위반 행위"
+        },
+        {
+          "startLine": 51,
+          "endLine": 62,
+          "topic": "본인 수령 거부와 과태료 금액 비교"
+        }
+      ]
+    },
+    {
+      "id": "assessment-collection",
+      "title": "과태료의 기준과 부과·징수",
+      "subtitle": "제15조의2제3항·시행령 제39조",
+      "kind": "rule",
+      "left": {
+        "title": "정하는 기준",
+        "items": [
+          {
+            "label": "대통령령",
+            "text": "과태료의 부과 기준을 정함"
+          },
+          {
+            "label": "시행령 별표",
+            "text": "제15조의2제1항·제2항의 구체적인 부과 기준"
+          }
+        ]
+      },
+      "right": {
+        "title": "집행하는 주체",
+        "items": [
+          {
+            "label": "국방부장관",
+            "text": "대통령령이 정한 기준에 따라 부과·징수"
+          },
+          {
+            "label": "금액의 구별",
+            "text": "법률은 상한을, 시행령 별표는 부과 기준을 규정"
+          }
+        ]
+      },
+      "note": "부과·징수는 국방부장관, 부과 기준은 대통령령이다.",
+      "sourceRanges": [
+        {
+          "startLine": 64,
+          "endLine": 80,
+          "topic": "대통령령과 국방부장관의 역할"
+        },
+        {
+          "startLine": 82,
+          "endLine": 104,
+          "topic": "시행령 제39조의 제1항·제2항과 별표"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "형벌인 벌금과 행정상 제재인 과태료의 구별",
+      "diagramIds": [
+        "criminal-administrative"
+      ]
+    },
+    {
+      "topic": "교직원의 학업상 불리한 처우와 학교장 비교",
+      "diagramIds": [
+        "school-staff-penalty"
+      ]
+    },
+    {
+      "topic": "소집통지서 전달 의무 위반과 본인 수령 거부",
+      "diagramIds": [
+        "notice-delivery-penalty"
+      ]
+    },
+    {
+      "topic": "과태료의 부과·징수 주체, 대통령령과 별표 기준",
+      "diagramIds": [
+        "assessment-collection"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "주체",
+      "행위 요건",
+      "벌금·과태료 구별",
+      "금액",
+      "전달 시기",
+      "부과·징수",
+      "근거 조문",
+      "설명 순서"
+    ],
+    "issues": []
+  }
+}

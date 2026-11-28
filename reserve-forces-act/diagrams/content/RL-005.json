@@ -1,0 +1,467 @@
+{
+  "lessonId": "RL-005",
+  "lessonTitle": "예비군법 제3조의3, 상비예비군 제도",
+  "diagrams": [
+    {
+      "id": "standing-system-name",
+      "title": "상비예비군 제도의 이름과 주체",
+      "subtitle": "본법과 시행령이 쓰는 이름을 그대로 구분",
+      "kind": "compare",
+      "left": {
+        "title": "본법 · 상비예비군",
+        "items": [
+          {
+            "label": "시행 주체",
+            "text": "국방부장관"
+          },
+          {
+            "label": "권한·시기",
+            "text": "평시에 일정기간 소집할 수 있는 제도를 시행할 수 있음"
+          }
+        ]
+      },
+      "right": {
+        "title": "시행령 · 비상근예비군",
+        "items": [
+          {
+            "label": "이름의 차이",
+            "text": "시행령 제5조의2는 비상근예비군이라고 표현"
+          },
+          {
+            "label": "같은 제도",
+            "text": "스크립트는 두 명칭이 같은 제도를 가리킨다고 설명"
+          }
+        ]
+      },
+      "note": "시행 주체는 국방부장관, 시기는 평시",
+      "sourceRanges": [
+        {
+          "startLine": 17,
+          "endLine": 49,
+          "topic": "명칭 차이·시행 주체·평시·재량"
+        }
+      ]
+    },
+    {
+      "id": "standing-volunteer-selection",
+      "title": "선발은 예비역의 지원을 받아",
+      "subtitle": "간부뿐 아니라 병도 선발 대상에 포함",
+      "kind": "rule",
+      "left": {
+        "title": "선발 대상",
+        "items": [
+          {
+            "label": "간부",
+            "text": "예비역인 장교·준사관·부사관"
+          },
+          {
+            "label": "병",
+            "text": "예비역인 병도 대상"
+          }
+        ]
+      },
+      "right": {
+        "title": "선발 방식",
+        "items": [
+          {
+            "label": "누가",
+            "text": "국방부장관"
+          },
+          {
+            "label": "어떻게",
+            "text": "대상자 중에서 지원을 받아 선발"
+          }
+        ]
+      },
+      "note": "장교·준사관·부사관 다음의 병을 빠뜨리지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 51,
+          "endLine": 69,
+          "topic": "대상과 지원 선발"
+        }
+      ]
+    },
+    {
+      "id": "standing-delegated-matters",
+      "title": "대통령령에 맡긴 여섯 가지",
+      "subtitle": "본법 제3항의 항목과 위임 형식을 유지",
+      "kind": "compare",
+      "left": {
+        "title": "규모와 소집",
+        "items": [
+          {
+            "label": "정원",
+            "text": "몇 명을 둘 것인가"
+          },
+          {
+            "label": "소집 분야",
+            "text": "어느 분야에 소집할 것인가"
+          },
+          {
+            "label": "소집 기간",
+            "text": "얼마 동안 소집할 것인가"
+          }
+        ]
+      },
+      "right": {
+        "title": "선발과 중단·보상",
+        "items": [
+          {
+            "label": "선발",
+            "text": "어떻게 선발할 것인가"
+          },
+          {
+            "label": "소집 중단",
+            "text": "언제 소집을 중단할 것인가"
+          },
+          {
+            "label": "보상",
+            "text": "어떻게 보상할 것인가"
+          }
+        ]
+      },
+      "note": "여섯 사항 등은 대통령령으로 정함",
+      "sourceRanges": [
+        {
+          "startLine": 71,
+          "endLine": 87,
+          "topic": "본법 제3항 위임 항목·형식"
+        }
+      ]
+    },
+    {
+      "id": "standing-days-and-quotas",
+      "title": "단기·장기의 기간과 정원",
+      "subtitle": "30일은 기간의 경계이며 정원은 별도 숫자",
+      "kind": "compare",
+      "left": {
+        "title": "단기 비상근예비군",
+        "items": [
+          {
+            "label": "연간 소집 기간",
+            "text": "30일 이내"
+          },
+          {
+            "label": "정원 범위",
+            "text": "5,000명 이하"
+          }
+        ]
+      },
+      "right": {
+        "title": "장기 비상근예비군",
+        "items": [
+          {
+            "label": "연간 소집 기간",
+            "text": "30일 초과 180일 이내"
+          },
+          {
+            "label": "정원 범위",
+            "text": "700명 이하"
+          }
+        ]
+      },
+      "note": "30일은 단기, 30일을 초과하면 장기 범위",
+      "sourceRanges": [
+        {
+          "startLine": 91,
+          "endLine": 102,
+          "topic": "연간 소집 기간"
+        },
+        {
+          "startLine": 112,
+          "endLine": 131,
+          "topic": "유형별 정원 상한"
+        }
+      ]
+    },
+    {
+      "id": "standing-quota-decision",
+      "title": "정원은 매년 협의하여 결정",
+      "subtitle": "국방부장관의 결정과 고려 요소를 연결",
+      "kind": "compare",
+      "left": {
+        "title": "결정·협의",
+        "items": [
+          {
+            "label": "결정 주체",
+            "text": "국방부장관"
+          },
+          {
+            "label": "협의 상대",
+            "text": "기획예산처장관"
+          },
+          {
+            "label": "주기",
+            "text": "매년 협의를 거쳐 정함"
+          }
+        ]
+      },
+      "right": {
+        "title": "고려 요소",
+        "items": [
+          {
+            "label": "안보환경",
+            "text": "안보환경을 고려"
+          },
+          {
+            "label": "군 구조",
+            "text": "군 구조 개편 정도를 고려"
+          },
+          {
+            "label": "상비 병력",
+            "text": "상비 병력의 연차적 조정 규모 등을 고려"
+          }
+        ]
+      },
+      "note": "스크립트의 기획예산처장관 명칭을 그대로 보존",
+      "sourceRanges": [
+        {
+          "startLine": 112,
+          "endLine": 131,
+          "topic": "정원 결정 주체·협의·주기·고려 사항"
+        }
+      ]
+    },
+    {
+      "id": "standing-field-and-period",
+      "title": "소집 분야와 실제 기간",
+      "subtitle": "평시 추가 훈련의 분야에 부대 훈련계획을 연결",
+      "kind": "compare",
+      "left": {
+        "title": "어느 분야에",
+        "items": [
+          {
+            "label": "직무 범위",
+            "text": "병역법 제46조제1항에 따라 동원되는 예비군의 주요 직무"
+          },
+          {
+            "label": "필요 조건",
+            "text": "그중 평시에 추가 훈련이 필요한 분야에 소집"
+          }
+        ]
+      },
+      "right": {
+        "title": "기간은 누가",
+        "items": [
+          {
+            "label": "입영부대장",
+            "text": "병역법 제50조제1항 단서에 따른 입영부대의 장"
+          },
+          {
+            "label": "결정 기준",
+            "text": "제1항 각 호의 기간 범위에서 해당 부대 훈련계획에 따라 정함"
+          }
+        ]
+      },
+      "note": "정원 결정 주체와 소집기간 결정 주체를 구별",
+      "sourceRanges": [
+        {
+          "startLine": 104,
+          "endLine": 110,
+          "topic": "소집 분야"
+        },
+        {
+          "startLine": 159,
+          "endLine": 165,
+          "topic": "소집기간의 주체·범위·계획"
+        }
+      ]
+    },
+    {
+      "id": "standing-selection-notice",
+      "title": "연 1회 선발과 30일 전 공고",
+      "subtitle": "계획을 세워 선발하고 정원 미달이면 추가 가능",
+      "kind": "compare",
+      "left": {
+        "title": "선발 계획",
+        "items": [
+          {
+            "label": "원칙",
+            "text": "국방부장관이 선발계획을 수립하여 연 1회 선발"
+          },
+          {
+            "label": "추가 선발",
+            "text": "정원에 미달해 선발한 경우 수시 선발계획으로 추가 선발할 수 있음"
+          }
+        ]
+      },
+      "right": {
+        "title": "선발계획 공고",
+        "items": [
+          {
+            "label": "공고 주체",
+            "text": "국방부장관"
+          },
+          {
+            "label": "공고 기한",
+            "text": "선발일 30일 전까지"
+          },
+          {
+            "label": "공고 방법",
+            "text": "국방부 인터넷 홈페이지 등을 통하여 공고해야 함"
+          }
+        ]
+      },
+      "note": "연간 소집 30일과 선발 공고 30일 전을 구분",
+      "sourceRanges": [
+        {
+          "startLine": 93,
+          "endLine": 94,
+          "topic": "연간 소집 기간"
+        },
+        {
+          "startLine": 133,
+          "endLine": 157,
+          "topic": "선발 주기·미달 예외·공고"
+        }
+      ]
+    },
+    {
+      "id": "standing-suspension",
+      "title": "소집 중단의 주체와 사유",
+      "subtitle": "감당할 수 없다는 인정이 먼저 필요",
+      "kind": "compare",
+      "left": {
+        "title": "입영부대장의 판단",
+        "items": [
+          {
+            "label": "대상",
+            "text": "선발된 비상근예비군"
+          },
+          {
+            "label": "조건",
+            "text": "사유 등으로 소집을 감당할 수 없다고 인정"
+          },
+          {
+            "label": "조치",
+            "text": "소집을 중단할 수 있음"
+          }
+        ]
+      },
+      "right": {
+        "title": "판단할 사유",
+        "items": [
+          {
+            "label": "건강",
+            "text": "질병 및 심신장애"
+          },
+          {
+            "label": "수행 능력",
+            "text": "직무수행능력의 부족"
+          },
+          {
+            "label": "복무·사정",
+            "text": "불성실 복무 및 개인 사정 등"
+          }
+        ]
+      },
+      "note": "소집 중단은 각 군 참모총장이 아니라 입영부대장",
+      "sourceRanges": [
+        {
+          "startLine": 167,
+          "endLine": 181,
+          "topic": "중단 주체·대상·사유·재량"
+        }
+      ]
+    },
+    {
+      "id": "standing-compensation-detail",
+      "title": "보상비와 세부 사항의 결정",
+      "subtitle": "국방부장관의 두 업무를 구별",
+      "kind": "compare",
+      "left": {
+        "title": "보상비 지급",
+        "items": [
+          {
+            "label": "지급 주체",
+            "text": "국방부장관"
+          },
+          {
+            "label": "지급 조건",
+            "text": "병역법 제50조제1항 단서에 따라 소집된 경우"
+          },
+          {
+            "label": "지급 범위",
+            "text": "예산의 범위에서 보상비를 지급"
+          }
+        ]
+      },
+      "right": {
+        "title": "세부 사항 결정",
+        "items": [
+          {
+            "label": "범위",
+            "text": "시행령 제1항부터 제8항까지 규정한 사항 외"
+          },
+          {
+            "label": "내용",
+            "text": "세부 소집 분야·선발 등에 필요한 사항"
+          },
+          {
+            "label": "결정 주체",
+            "text": "국방부장관이 정함"
+          }
+        ]
+      },
+      "note": "본법 제3항은 대통령령, 시행령 제9항의 세부는 국방부장관",
+      "sourceRanges": [
+        {
+          "startLine": 71,
+          "endLine": 87,
+          "topic": "본법 위임 형식"
+        },
+        {
+          "startLine": 183,
+          "endLine": 199,
+          "topic": "보상비·세부 사항 결정"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "① 시행 주체·명칭·지원 선발·대통령령 위임",
+      "diagramIds": [
+        "standing-system-name",
+        "standing-volunteer-selection",
+        "standing-delegated-matters"
+      ]
+    },
+    {
+      "topic": "② 소집 기간·정원·협의·소집 분야",
+      "diagramIds": [
+        "standing-days-and-quotas",
+        "standing-quota-decision",
+        "standing-field-and-period"
+      ]
+    },
+    {
+      "topic": "③ 선발·공고·중단·보상·세부 결정",
+      "diagramIds": [
+        "standing-selection-notice",
+        "standing-suspension",
+        "standing-compensation-detail"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "강의 번호·원고 제목",
+      "설명 순서",
+      "주체·대상",
+      "의무·재량",
+      "기한·숫자",
+      "원칙·예외",
+      "오답과 정답 구별",
+      "병렬 또는 관계"
+    ],
+    "issues": [],
+    "sourceNotes": [
+      "본법의 상비예비군과 시행령의 비상근예비군 명칭 차이는 원고 17행의 설명에 따라 나란히 보존했습니다.",
+      "정원 협의 상대는 기존 원고 114·119·129행의 기획예산처장관을 사용했습니다. 외부 법령으로 현행 직함을 대체하지 않았습니다."
+    ]
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "lessonId": "RL-017",
+  "lessonTitle": "예비군법 제10조의2, 예비군 동원 또는 훈련 관련 학업 보장",
+  "diagrams": [
+    {
+      "id": "school-threshold-duty",
+      "title": "학업 보장을 지킬 사람",
+      "subtitle": "고등학교 이상의 학교의 장 및 교직원",
+      "kind": "rule",
+      "left": {
+        "title": "학교와 보호 대상",
+        "items": [
+          {
+            "label": "학교 범위",
+            "text": "고등학교 이상의 학교"
+          },
+          {
+            "label": "학생",
+            "text": "예비군대원으로 동원되거나 훈련을 받는 학생"
+          }
+        ]
+      },
+      "right": {
+        "title": "의무를 지는 사람",
+        "items": [
+          {
+            "label": "학교의 장",
+            "text": "교장·총장 등 학교를 대표하는 사람"
+          },
+          {
+            "label": "교직원",
+            "text": "교원과 직원 · 실제 출석을 처리하는 담당자 포함"
+          }
+        ]
+      },
+      "note": "학교 범위를 중학교 이상이나 대학교 이상으로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 15,
+          "endLine": 37,
+          "topic": "학교 범위·대상·의무자"
+        }
+      ]
+    },
+    {
+      "id": "school-prohibited-treatment",
+      "title": "결석 처리와 불리한 처우 금지",
+      "subtitle": "법 제10조의2 · 두 행위를 각각 금지",
+      "kind": "compare",
+      "left": {
+        "title": "학업 보장",
+        "items": [
+          {
+            "label": "결석 처리 금지",
+            "text": "동원·훈련 기간을 결석으로 처리하지 못함"
+          },
+          {
+            "label": "불리한 처우 금지",
+            "text": "동원·훈련을 이유로 불리하게 처우하지 못함"
+          }
+        ]
+      },
+      "right": {
+        "title": "직장 보장과 비교",
+        "items": [
+          {
+            "label": "제10조",
+            "text": "휴무로 처리하거나 불리한 처우를 하여서는 아니 됨"
+          },
+          {
+            "label": "제10조의2",
+            "text": "결석으로 처리하거나 불리하게 처우하지 못함"
+          }
+        ]
+      },
+      "note": "직장 조문의 휴무와 학교 조문의 결석을 구별",
+      "sourceRanges": [
+        {
+          "startLine": 39,
+          "endLine": 55,
+          "topic": "두 금지와 직장 보장 비교"
+        }
+      ]
+    },
+    {
+      "id": "school-head-staff-sanctions",
+      "title": "학교의 장과 교직원의 제재",
+      "subtitle": "금지 대상은 모두 포함 · 제재는 구분",
+      "kind": "compare",
+      "left": {
+        "title": "고등학교 이상 학교의 장",
+        "items": [
+          {
+            "label": "행위 요건",
+            "text": "정당한 사유 없이 동원·훈련자에게 불리한 처우"
+          },
+          {
+            "label": "형벌",
+            "text": "2년 이하 징역 또는 2천만원 이하 벌금"
+          }
+        ]
+      },
+      "right": {
+        "title": "교직원",
+        "items": [
+          {
+            "label": "위반 행위",
+            "text": "학업 보장 조문을 위반하여 불리한 처우"
+          },
+          {
+            "label": "과태료",
+            "text": "500만원 이하 · 국방부장관이 부과·징수"
+          }
+        ]
+      },
+      "note": "교직원에게 학교의 장의 형벌을 그대로 옮기지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 57,
+          "endLine": 71,
+          "topic": "학교장과 교직원 제재 구분"
+        }
+      ]
+    },
+    {
+      "id": "school-long-call-exception",
+      "title": "학업 보장에도 있는 30일 예외",
+      "subtitle": "제10조의3과의 연결",
+      "kind": "exception",
+      "left": {
+        "title": "원칙",
+        "items": [
+          {
+            "label": "학업 보장",
+            "text": "동원·훈련을 받는 학생의 결석 처리와 불리한 처우 금지"
+          }
+        ]
+      },
+      "right": {
+        "title": "특정 선발자의 예외",
+        "items": [
+          {
+            "label": "대상",
+            "text": "제10조의3에서 정한 장기 소집 대상자"
+          },
+          {
+            "label": "범위",
+            "text": "연간 30일을 초과한 훈련 소집기간에 제10조의2를 적용하지 않을 수 있음"
+          }
+        ]
+      },
+      "note": "예외가 있다는 이유로 모든 예비군 학생의 보호를 줄이지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 17,
+          "endLine": 17,
+          "topic": "학업 보장 원칙"
+        },
+        {
+          "startLine": 73,
+          "endLine": 85,
+          "topic": "장기 소집 예외"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "학교 범위·의무자",
+      "diagramIds": [
+        "school-threshold-duty"
+      ]
+    },
+    {
+      "topic": "금지 행위와 직장 보장 비교",
+      "diagramIds": [
+        "school-prohibited-treatment"
+      ]
+    },
+    {
+      "topic": "학교장·교직원 제재 차이",
+      "diagramIds": [
+        "school-head-staff-sanctions"
+      ]
+    },
+    {
+      "topic": "장기 소집 예외",
+      "diagramIds": [
+        "school-long-call-exception"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "주체와 대상",
+      "수치와 기산점",
+      "의무와 재량",
+      "또는·및 관계",
+      "원칙과 예외",
+      "설명 순서",
+      "원고 주요 갈래"
+    ],
+    "issues": [],
+    "sourceNotes": [
+      {
+        "lines": [
+          73,
+          85
+        ],
+        "note": "이 원고의 비상근 예비군 표현은 RL-018의 상비예비군 표현과 다름. 도식은 이 원고가 명시한 제10조의3의 장기 소집 대상자로 특정하고, 두 명칭을 임의로 하나로 고치지 않음."
+      }
+    ]
+  }
+}

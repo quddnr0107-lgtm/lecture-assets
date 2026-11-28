@@ -1,0 +1,535 @@
+{
+  "lessonId": "RL-015",
+  "lessonTitle": "예비군법 제9조, 보상 및 치료",
+  "diagrams": [
+    {
+      "id": "persons-and-period",
+      "title": "보상 대상과 적용 시간",
+      "subtitle": "법 제9조 제1항",
+      "kind": "compare",
+      "left": {
+        "title": "적용되는 때",
+        "items": [
+          {
+            "label": "임무·훈련 중",
+            "text": "예비군대원으로 동원되어 임무수행 또는 훈련 중"
+          },
+          {
+            "label": "이동·귀가 중",
+            "text": "명령에 따른 지정 장소 이동과 해제·종료 후 귀가 중도 포함"
+          }
+        ]
+      },
+      "right": {
+        "title": "보상 대상",
+        "items": [
+          {
+            "label": "부상",
+            "text": "부상을 입은 사람과 그 가족"
+          },
+          {
+            "label": "사망",
+            "text": "사망한 사람의 유족 · 해당 부상으로 인한 사망도 포함"
+          }
+        ]
+      },
+      "note": "본인·가족·유족을 구분하고 부상 후 사망도 포함",
+      "sourceRanges": [
+        {
+          "startLine": 17,
+          "endLine": 39,
+          "topic": "보상 대상과 범위"
+        }
+      ]
+    },
+    {
+      "id": "compensation-laws",
+      "title": "보상 대상자별 적용 법률",
+      "subtitle": "두 보훈 법률과 보상 대상자 유형의 연결",
+      "kind": "compare",
+      "left": {
+        "title": "국가유공자 법률",
+        "items": [
+          {
+            "label": "법률",
+            "text": "국가유공자 등 예우 및 지원에 관한 법률"
+          },
+          {
+            "label": "해당 유형",
+            "text": "전상군경·공상군경·전몰군경·순직군경"
+          }
+        ]
+      },
+      "right": {
+        "title": "보훈보상 법률",
+        "items": [
+          {
+            "label": "법률",
+            "text": "보훈보상대상자 지원에 관한 법률"
+          },
+          {
+            "label": "해당 유형",
+            "text": "재해부상군경·재해사망군경"
+          }
+        ]
+      },
+      "note": "제9조는 대상자 지위, 제8조의2 관련 금액·절차는 군인 재해보상법을 준거로 한다.",
+      "sourceRanges": [
+        {
+          "startLine": 41,
+          "endLine": 55,
+          "topic": "보상 법률과 재해보상금 준거"
+        },
+        {
+          "startLine": 57,
+          "endLine": 71,
+          "topic": "여섯 보상 유형과 적용되는 두 법률의 구별"
+        }
+      ]
+    },
+    {
+      "id": "injury-death-categories",
+      "title": "부상·사망의 여섯 구분",
+      "subtitle": "전투 여부와 국가 수호 등 직접 관련성",
+      "kind": "compare",
+      "left": {
+        "title": "부상자와 그 가족",
+        "items": [
+          {
+            "label": "전투 또는 준하는 임무",
+            "text": "전상군경과 그 가족"
+          },
+          {
+            "label": "직접 관련 임무·훈련",
+            "text": "공상군경과 그 가족"
+          },
+          {
+            "label": "직접 관련 없는 임무·훈련",
+            "text": "재해부상군경과 그 가족"
+          }
+        ]
+      },
+      "right": {
+        "title": "사망자의 유족",
+        "items": [
+          {
+            "label": "전투 또는 준하는 임무",
+            "text": "전몰군경의 유족"
+          },
+          {
+            "label": "직접 관련 임무·훈련",
+            "text": "순직군경의 유족"
+          },
+          {
+            "label": "직접 관련 없는 임무·훈련",
+            "text": "재해사망군경의 유족"
+          }
+        ]
+      },
+      "note": "직접 관련성은 국가 수호·안전보장 또는 국민의 생명·재산 보호와의 관계",
+      "sourceRanges": [
+        {
+          "startLine": 57,
+          "endLine": 83,
+          "topic": "보상대상자 여섯 구분"
+        }
+      ]
+    },
+    {
+      "id": "registration-and-report",
+      "title": "등록 신청과 기관 간 통보",
+      "subtitle": "신청인이 내는 증명서 · 기관이 보내는 확인서",
+      "kind": "process",
+      "left": {
+        "title": "신청인의 등록 신청",
+        "items": [
+          {
+            "label": "증명서 발급",
+            "text": "수임군부대의 장이 사망증명서 또는 부상증명서 발급"
+          },
+          {
+            "label": "신청 근거",
+            "text": "증명서를 첨부하여 해당 보훈 법률에 따라 등록 신청"
+          }
+        ]
+      },
+      "right": {
+        "title": "기관 간 보고·통보",
+        "items": [
+          {
+            "label": "발급 사실 보고",
+            "text": "수임군부대의 장이 지체 없이 지휘 계통을 거쳐 국방부장관에게 보고"
+          },
+          {
+            "label": "국가보훈부장관 통보",
+            "text": "국방부장관이 사망확인서 또는 부상확인서를 작성해 통보"
+          }
+        ]
+      },
+      "note": "등록 신청 근거는 국가유공자 법률 제6조 또는 보훈보상 법률 제4조다.",
+      "sourceRanges": [
+        {
+          "startLine": 85,
+          "endLine": 103,
+          "topic": "등록 신청과 보고·통보"
+        }
+      ]
+    },
+    {
+      "id": "treatment-and-cost",
+      "title": "치료받는 곳과 비용 부담",
+      "subtitle": "치료는 부상 대원 본인 · 비용은 국가",
+      "kind": "compare",
+      "left": {
+        "title": "치료 대상과 장소",
+        "items": [
+          {
+            "label": "대상",
+            "text": "임무수행이나 훈련 중 부상을 입은 예비군대원"
+          },
+          {
+            "label": "장소",
+            "text": "국가나 지방자치단체 의료시설 또는 민간의료시설"
+          }
+        ]
+      },
+      "right": {
+        "title": "치료의 기준과 비용",
+        "items": [
+          {
+            "label": "기준",
+            "text": "대통령령으로 정하는 바에 따라 치료받을 수 있음"
+          },
+          {
+            "label": "비용",
+            "text": "국가가 부담"
+          }
+        ]
+      },
+      "note": "병원 운영 주체와 치료비 부담 주체를 구분",
+      "sourceRanges": [
+        {
+          "startLine": 107,
+          "endLine": 147,
+          "topic": "치료 범위·위임·국가 부담"
+        }
+      ]
+    },
+    {
+      "id": "prompt-treatment-duty",
+      "title": "부상 대원은 지체 없이 치료",
+      "subtitle": "시행령 제24조",
+      "kind": "rule",
+      "left": {
+        "title": "치료를 받게 할 주체",
+        "items": [
+          {
+            "label": "소속 군부대의 장",
+            "text": "대원이 소속된 군부대의 장"
+          },
+          {
+            "label": "그 밖의 담당자",
+            "text": "훈련부대의 장 또는 수탁경찰서장"
+          }
+        ]
+      },
+      "right": {
+        "title": "치료 조치",
+        "items": [
+          {
+            "label": "조치 시점",
+            "text": "부상 대원이 지체 없이 치료받을 수 있도록 해야 함"
+          },
+          {
+            "label": "국가·지자체 시설",
+            "text": "국공립 병원, 특별자치시·시·군·자치구 보건소, 군 의료시설"
+          }
+        ]
+      },
+      "note": "치료 조치의 표현은 지체 없이",
+      "sourceRanges": [
+        {
+          "startLine": 151,
+          "endLine": 167,
+          "topic": "치료 조치 의무와 시설"
+        }
+      ]
+    },
+    {
+      "id": "hospital-claim-and-verification",
+      "title": "민간 병원의 치료비 청구",
+      "subtitle": "청구 서류와 최초 수령자를 정확히 연결",
+      "kind": "process",
+      "left": {
+        "title": "민간의료시설의 장",
+        "items": [
+          {
+            "label": "청구 서류",
+            "text": "치료비용 명세서를 첨부하여 치료비 지급 청구"
+          },
+          {
+            "label": "청구처",
+            "text": "소속 군부대의 장, 훈련부대의 장 또는 수탁경찰서장"
+          }
+        ]
+      },
+      "right": {
+        "title": "청구서를 받은 기관",
+        "items": [
+          {
+            "label": "확인",
+            "text": "부상 사실 및 치료기간 등을 확인"
+          },
+          {
+            "label": "송부",
+            "text": "수임군부대의 장에게 치료비 지급청구서를 보냄"
+          }
+        ]
+      },
+      "note": "청구에는 치료비용 명세서 · 부상 보고에는 진단서",
+      "sourceRanges": [
+        {
+          "startLine": 169,
+          "endLine": 189,
+          "topic": "치료비 청구와 확인"
+        },
+        {
+          "startLine": 217,
+          "endLine": 221,
+          "topic": "부상 보고 진단서"
+        }
+      ]
+    },
+    {
+      "id": "treatment-payment-orders",
+      "title": "치료비의 요청·명령·지급",
+      "subtitle": "관할 군사령관과 수임군부대의 장",
+      "kind": "process",
+      "left": {
+        "title": "요청과 명령",
+        "items": [
+          {
+            "label": "수임군부대의 장",
+            "text": "관할 군사령관에게 치료비 지급 요청"
+          },
+          {
+            "label": "관할 군사령관",
+            "text": "민간의료시설의 장에게 지급 통지 · 수임군부대의 장에게 지급 명령"
+          }
+        ]
+      },
+      "right": {
+        "title": "실제 지급",
+        "items": [
+          {
+            "label": "지급 주체",
+            "text": "지급명령을 받은 수임군부대의 장"
+          },
+          {
+            "label": "지급처·시점",
+            "text": "해당 민간의료시설의 장에게 지체 없이 지급"
+          }
+        ]
+      },
+      "note": "군사령관의 지급 통지와 지급 명령은 받는 사람이 다름",
+      "sourceRanges": [
+        {
+          "startLine": 189,
+          "endLine": 207,
+          "topic": "요청·통지·명령·지급"
+        }
+      ]
+    },
+    {
+      "id": "prepaid-treatment-exception",
+      "title": "대원이 치료비를 먼저 냈다면",
+      "subtitle": "시행령 제25조 제5항·제6항",
+      "kind": "exception",
+      "left": {
+        "title": "이미 지급한 경우",
+        "items": [
+          {
+            "label": "조건",
+            "text": "예비군대원이 민간의료시설의 장에게 치료비용을 지급함"
+          },
+          {
+            "label": "준용",
+            "text": "앞의 청구·확인·요청·지급 절차를 적용"
+          }
+        ]
+      },
+      "right": {
+        "title": "달라지는 자리",
+        "items": [
+          {
+            "label": "대원으로 바꾸어 읽기",
+            "text": "민간의료시설의 장을 예비군대원으로 봄"
+          },
+          {
+            "label": "나머지 절차·방법",
+            "text": "국방부장관이 정함"
+          }
+        ]
+      },
+      "note": "기존 절차를 따르되 청구·지급의 병원 자리에 대원을 놓음",
+      "sourceRanges": [
+        {
+          "startLine": 169,
+          "endLine": 171,
+          "topic": "시행령 제25조의 제목과 치료비용 절차"
+        },
+        {
+          "startLine": 209,
+          "endLine": 215,
+          "topic": "선지급 비용 준용과 세부 위임"
+        }
+      ]
+    },
+    {
+      "id": "injury-death-report",
+      "title": "사망·부상 사실의 보고",
+      "subtitle": "시행령 제26조 · 부상 보고에는 진단서",
+      "kind": "process",
+      "left": {
+        "title": "보고하는 주체",
+        "items": [
+          {
+            "label": "군부대·훈련부대",
+            "text": "소속 군부대의 장 또는 훈련부대의 장"
+          },
+          {
+            "label": "경찰",
+            "text": "수탁경찰서장"
+          }
+        ]
+      },
+      "right": {
+        "title": "보고 내용과 첨부",
+        "items": [
+          {
+            "label": "수임군부대의 장에게",
+            "text": "임무수행·훈련 중 사망 또는 부상 사실을 지체 없이 보고"
+          },
+          {
+            "label": "부상 보고 첨부",
+            "text": "치료 의료시설의 장이 발급한 진단서"
+          }
+        ]
+      },
+      "note": "진단서 발급자는 치료 의료시설의 장",
+      "sourceRanges": [
+        {
+          "startLine": 217,
+          "endLine": 225,
+          "topic": "사망·부상 보고"
+        }
+      ]
+    },
+    {
+      "id": "rights-center-neighbor",
+      "title": "권익보장센터의 연결 업무",
+      "subtitle": "원고가 함께 다룬 시행령 제26조의2",
+      "kind": "rule",
+      "left": {
+        "title": "접수·확인·시정",
+        "items": [
+          {
+            "label": "운영",
+            "text": "국방부장관이 예비군권익보장센터 운영"
+          },
+          {
+            "label": "접수와 확인",
+            "text": "불이익 신고 접수 · 자료 제출 또는 의견 진술 요청"
+          },
+          {
+            "label": "시정",
+            "text": "시정요구와 이행결과 접수"
+          }
+        ]
+      },
+      "right": {
+        "title": "고발·처리 수단",
+        "items": [
+          {
+            "label": "고발 등",
+            "text": "수사기관 고발과 장관이 권익보호에 필요하다고 인정하는 업무"
+          },
+          {
+            "label": "이행하지 못한 경우",
+            "text": "사유를 포함한 이행결과를 국방부장관에게 제출"
+          },
+          {
+            "label": "전자민원창구",
+            "text": "설치하여 문자·전자우편으로 처리할 수 있음"
+          }
+        ]
+      },
+      "note": "이 강의의 보상·치료와 권익보장센터의 업무를 구분",
+      "sourceRanges": [
+        {
+          "startLine": 227,
+          "endLine": 235,
+          "topic": "권익보장센터 이웃 조문"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "보상 대상·법률·유형",
+      "diagramIds": [
+        "persons-and-period",
+        "compensation-laws",
+        "injury-death-categories"
+      ]
+    },
+    {
+      "topic": "등록 신청·발급 사실 보고",
+      "diagramIds": [
+        "registration-and-report"
+      ]
+    },
+    {
+      "topic": "치료 장소·비용·즉시 조치",
+      "diagramIds": [
+        "treatment-and-cost",
+        "prompt-treatment-duty"
+      ]
+    },
+    {
+      "topic": "치료비 청구·지급·대원 선지급",
+      "diagramIds": [
+        "hospital-claim-and-verification",
+        "treatment-payment-orders",
+        "prepaid-treatment-exception"
+      ]
+    },
+    {
+      "topic": "사망·부상 보고",
+      "diagramIds": [
+        "injury-death-report"
+      ]
+    },
+    {
+      "topic": "원고의 이웃 조문: 권익보장센터",
+      "diagramIds": [
+        "rights-center-neighbor"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "주체와 대상",
+      "수치와 기산점",
+      "의무와 재량",
+      "또는·및 관계",
+      "원칙과 예외",
+      "설명 순서",
+      "원고 주요 갈래"
+    ],
+    "issues": [],
+    "sourceNotes": []
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "lessonId": "RL-034",
+  "lessonTitle": "예비군 육성ㆍ지원에 관한 규칙 제19조와 제20조, 감독과 추진실적의 보고",
+  "diagrams": [
+    {
+      "id": "oversight-receiving-units",
+      "title": "지원사업 집행의 감독",
+      "subtitle": "제19조제1항·제2항: 관할 수임군부대의 지원사업",
+      "kind": "compare",
+      "left": {
+        "title": "군 지휘관의 감독",
+        "items": [
+          {
+            "label": "주체",
+            "text": "각 군 참모총장·군사령관·군단장, 해군작전사령관·해병대사령관 포함"
+          },
+          {
+            "label": "검사 담당",
+            "text": "소속 부대원"
+          }
+        ]
+      },
+      "right": {
+        "title": "지방자치단체의 감독",
+        "items": [
+          {
+            "label": "주체",
+            "text": "지방자치단체의 장"
+          },
+          {
+            "label": "검사 담당",
+            "text": "소속 공무원"
+          }
+        ]
+      },
+      "note": "적절한 집행에 필요하다고 인정하면 장부·서류 또는 내용 검사나 감독상 처분을 할 수 있음",
+      "sourceRanges": [
+        {
+          "startLine": 13,
+          "endLine": 25,
+          "topic": "제19조제1항·제2항 감독의 주체·담당·대상·요건·처분"
+        }
+      ]
+    },
+    {
+      "id": "oversight-reserve-units",
+      "title": "수임군부대의 장의 예비군 감독",
+      "subtitle": "제19조제3항: 관할 예비군부대의 지원사업",
+      "kind": "rule",
+      "left": {
+        "title": "주체와 목적",
+        "items": [
+          {
+            "label": "수임군부대의 장",
+            "text": "소속 부대원으로 하여금 검사하게 할 수 있음"
+          },
+          {
+            "label": "목적",
+            "text": "예비군부대의 원활한 육성·지원"
+          }
+        ]
+      },
+      "right": {
+        "title": "할 수 있는 일",
+        "items": [
+          {
+            "label": "검사",
+            "text": "지원사업의 관계 장부·서류 또는 내용을 검사"
+          },
+          {
+            "label": "의견·처분",
+            "text": "의견 제시 또는 그 밖에 감독상 필요한 처분"
+          }
+        ]
+      },
+      "note": "원활한 육성·지원을 위해 필요하다고 인정할 때 행사할 수 있는 권한이다.",
+      "sourceRanges": [
+        {
+          "startLine": 13,
+          "endLine": 13,
+          "topic": "제19조 도입"
+        },
+        {
+          "startLine": 27,
+          "endLine": 33,
+          "topic": "제3항의 주체·대상·목적·검사·의견 제시"
+        }
+      ]
+    },
+    {
+      "id": "annual-performance-report",
+      "title": "지원사업 추진실적의 보고",
+      "subtitle": "제20조제1항: 수임군부대의 장의 보고와 통보",
+      "kind": "deadline",
+      "left": {
+        "title": "국방부장관에게 보고",
+        "items": [
+          {
+            "label": "내용·경로",
+            "text": "관할 지역예비군 지원사업의 추진실적을 지휘계통을 통하여 보고"
+          },
+          {
+            "label": "기한",
+            "text": "매년 1월 31일까지"
+          }
+        ]
+      },
+      "right": {
+        "title": "관할 지방자치단체의 장",
+        "items": [
+          {
+            "label": "통보",
+            "text": "같은 추진실적을 관할 지방자치단체의 장에게 통보"
+          },
+          {
+            "label": "서식",
+            "text": "별지 제6호서식에 따라 작성"
+          }
+        ]
+      },
+      "note": "추진실적은 매년 1월 31일까지 국방부장관에게 보고하고 관할 지방자치단체의 장에게 통보하여야 함",
+      "sourceRanges": [
+        {
+          "startLine": 37,
+          "endLine": 53,
+          "topic": "제20조제1항 추진실적의 주체·서식·경로·기한·보고와 통보"
+        }
+      ]
+    },
+    {
+      "id": "completion-notification",
+      "title": "지원사업 완료 결과의 통보",
+      "subtitle": "제20조제2항: 수임군부대의 장이 완료 결과를 알림",
+      "kind": "deadline",
+      "left": {
+        "title": "관할 지방자치단체",
+        "items": [
+          {
+            "label": "조건",
+            "text": "지방자치단체의 지원사업이 완료된 경우"
+          },
+          {
+            "label": "통보 시기",
+            "text": "완료 결과를 지체 없이 통보하여야 함"
+          }
+        ]
+      },
+      "right": {
+        "title": "방위협의회",
+        "items": [
+          {
+            "label": "보고할 회의",
+            "text": "그 후 최초로 개최되는 방위협의회"
+          },
+          {
+            "label": "보고 내용",
+            "text": "완료된 지원사업의 결과를 보고하여야 함"
+          }
+        ]
+      },
+      "note": "관할 지방자치단체에 통보하고, 그 후 최초로 개최되는 방위협의회에 보고하여야 함",
+      "sourceRanges": [
+        {
+          "startLine": 37,
+          "endLine": 37,
+          "topic": "제20조 도입"
+        },
+        {
+          "startLine": 55,
+          "endLine": 73,
+          "topic": "제2항 완료 통보와 다음 첫 방위협의회 보고"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "상급 군 지휘관과 지자체장의 수임군부대 지원사업 감독",
+      "diagramIds": [
+        "oversight-receiving-units"
+      ]
+    },
+    {
+      "topic": "수임군부대의 장의 관할 예비군부대 감독과 의견 제시",
+      "diagramIds": [
+        "oversight-reserve-units"
+      ]
+    },
+    {
+      "topic": "연간 추진실적 보고·통보의 주체·상대·서식·기한",
+      "diagramIds": [
+        "annual-performance-report"
+      ]
+    },
+    {
+      "topic": "지방자치단체 지원사업 완료의 통보와 최초 방위협의회 보고",
+      "diagramIds": [
+        "completion-notification"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "감독 주체·검사 담당",
+      "감독 대상의 차이",
+      "목적과 행사 요건",
+      "검사·의견·처분",
+      "보고·통보의 상대",
+      "서식",
+      "연간 보고 기한",
+      "완료 통보 시기",
+      "설명 순서"
+    ],
+    "issues": []
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "reviewer": "independent-agent",
+  "scope": "existing-script-only",
+  "lessons": [
+    {
+      "lessonId": "RL-001",
+      "status": "pass",
+      "diagramsReviewed": 4,
+      "contentSha256": "784b35d7c80ff4986653437e79f90489e7ff7f66303e3cd9d6e5dc098e42ee4f",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        113
+      ],
+      "findingsResolved": []
+    },
+    {
+      "lessonId": "RL-002",
+      "status": "pass",
+      "diagramsReviewed": 5,
+      "contentSha256": "83ab1bc27a6c264fdc95ecd22adb762e3430e9721473de3f86a329a6aa8f4fac",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        167
+      ],
+      "findingsResolved": [
+        {
+          "diagramId": "weapon-mission-link",
+          "finding": "무기 사용의 선행 조건인 출동한 경우가 표시에서 빠졌음",
+          "resolution": "부제에 출동한 경우를 명시하고 사용 제한의 경우에만 표현을 보존",
+          "sourceLines": [
+            133,
+            135
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "RL-003",
+      "status": "pass",
+      "diagramsReviewed": 16,
+      "contentSha256": "327795c140e3c6debb8633757406d3a9fb563f527fa2b96e8b53965d9dacd503",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        364
+      ],
+      "findingsResolved": [
+        {
+          "diagramId": "officer-soldier-scope",
+          "finding": "제2호의 현역 복무를 마친 것으로 보는 사람 포함 문구가 빠졌음",
+          "resolution": "해당 포함 대상을 명시",
+          "sourceLines": [
+            63
+          ]
+        },
+        {
+          "diagramId": "inclusion-exclusion",
+          "finding": "편입·소집해제의 선택 관계와 제65조 대상 전환 결과가 축약되어 있었음",
+          "resolution": "양 열 모두 보충역에 편입되거나 소집이 해제된 사람으로 명시",
+          "sourceLines": [
+            93,
+            113
+          ]
+        },
+        {
+          "diagramId": "expired-service-reentry",
+          "finding": "해안 지역이나 산악으로 둘러싸인 지역의 리·동이라는 공간 범위가 축약되었고 편입 재량이 명시되지 않았음",
+          "resolution": "지역 수식 관계를 원고에 맞추고 편입할 수 있음으로 명시",
+          "sourceLines": [
+            223,
+            235
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "RL-004",
+      "status": "pass",
+      "diagramsReviewed": 33,
+      "contentSha256": "1d98bb2ebc3a238d67132023a16358f362ec300cdbd0b238680e8b990ac6431a",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        554
+      ],
+      "findingsResolved": [
+        {
+          "diagramIds": [
+            "mandatory-workplace-scale",
+            "regional-adjustments",
+            "integration-responsibility"
+          ],
+          "finding": "또는 관계가 일부 병렬 기호나 묶음 표현으로 축약됨",
+          "resolution": "동원 또는 훈련 보류, 자원 부족 또는 불가피한 사유, 같은 건물 또는 같은 계열을 명시하고 간부 대상과 사유를 분리",
+          "sourceLines": [
+            187,
+            221,
+            223,
+            358
+          ]
+        },
+        {
+          "diagramId": "workplace-integration",
+          "finding": "지역예비군 편입 사유의 특히 필요한 경우라는 문턱이 빠졌음",
+          "resolution": "지리적 조건 또는 자원 사정으로 특히 필요한 경우를 명시",
+          "sourceLines": [
+            262
+          ]
+        },
+        {
+          "diagramId": "sea-reserve-units",
+          "finding": "어선 여러 척이 무리 지어 출어한다는 집단 출어 조건이 축약됨",
+          "resolution": "무리 지어 출어하는 동안으로 명시",
+          "sourceLines": [
+            410
+          ]
+        },
+        {
+          "diagramId": "roster-and-certificate",
+          "finding": "노트의 지방청 다음 달 20일 비교 근거가 선택 출처 구간 밖에 있었음",
+          "resolution": "원고 426줄을 sourceRanges에 추가",
+          "sourceLines": [
+            426,
+            428
+          ]
+        },
+        {
+          "diagramId": "workplace-change-notice",
+          "finding": "모든 신상 변동 통보가 새 직장으로 카드가 가는 흐름인 것처럼 읽힐 수 있었음",
+          "resolution": "비교형으로 바꾸고 오른쪽 절차는 새 직장에 편성된 경우라고 한정",
+          "sourceLines": [
+            460,
+            474,
+            484
+          ]
+        },
+        {
+          "diagramIds": [
+            "jurisdiction-and-oath",
+            "resident-data-and-staff"
+          ],
+          "finding": "화면 제목이 해당 장 내용보다 넓거나 상근이라는 부가 해석을 포함함",
+          "resolution": "관할구역과 부대 이름, 거주지 이동 자료와 군인 배치로 제목을 정확히 조정",
+          "sourceLines": [
+            306,
+            310,
+            504,
+            506
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "RL-005",
+      "status": "pass",
+      "diagramsReviewed": 9,
+      "contentSha256": "66af11745f15a63a10d874ffd493e94304573e0a3f4d622739feddde00eb43c5",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        220
+      ],
+      "findingsResolved": []
+    },
+    {
+      "lessonId": "RL-006",
+      "status": "pass",
+      "diagramsReviewed": 3,
+      "contentSha256": "1d25b1af2eb7813722507e986812fb84326a2442ff2c1fcb953937e744447d0b",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        105
+      ],
+      "findingsResolved": [
+        {
+          "diagramId": "affairs-and-delegation",
+          "finding": "위임 상대와 필요 인정 조건을 원고보다 일반적으로 표현함",
+          "resolution": "예하군부대의 장과 국방부장관이 필요하다고 인정하는 경우로 구체화",
+          "sourceLines": [
+            39
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "RL-007",
+      "status": "pass",
+      "diagramsReviewed": 23,
+      "contentSha256": "cfb78d9307011f712faf68d8be6970ff01392e21142f9e2dfd58b9302fb75c11",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        468
+      ],
+      "findingsResolved": [
+        {
+          "diagramIds": [
+            "act-reservation-targets",
+            "reservation-other-listed",
+            "reservation-special-discretion"
+          ],
+          "finding": "주체 및 조문 번호가 선택한 출처 구간의 선행 문장에 있었음",
+          "resolution": "제1항의 국방부장관 주체와 시행규칙 제17조 제목의 출처 구간을 추가",
+          "sourceLines": [
+            17,
+            312
+          ]
+        },
+        {
+          "diagramId": "response-hours",
+          "finding": "부제의 현재 위치라는 표현이 발령 당시 위치와 혼동될 수 있었음",
+          "resolution": "발령 당시 위치로 명시",
+          "sourceLines": [
+            241,
+            255,
+            257
+          ]
+        },
+        {
+          "diagramId": "delay-proxy-oral",
+          "finding": "사후 서류 보완의 기산 사유가 일반적인 사유 종료로 축약됨",
+          "resolution": "원서를 제출할 수 없던 사유가 끝났을 때로 한정",
+          "sourceLines": [
+            409
+          ]
+        },
+        {
+          "diagramId": "delay-report-and-moving",
+          "finding": "원서 수령으로만 적어 구술 신청 수령을 빠뜨릴 수 있고 전출 신고의 동원지역 거주 조건이 화면에 없었음",
+          "resolution": "연기 신청을 받은 중대장으로 넓히고 동원명령 발령 지역 거주자의 전출임을 명시",
+          "sourceLines": [
+            413,
+            427
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "RL-008",
+      "status": "pass",
+      "diagramsReviewed": 17,
+      "contentSha256": "82775fb3d64e6c643aa30275c5d68aa6f5d058dcb5e2a3946ece9b348946ed7a",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        359
+      ],
+      "findingsResolved": [
+        {
+          "diagramId": "annual-training-plan",
+          "finding": "12월 31일을 승인만의 기한처럼 읽을 여지가 있었음",
+          "resolution": "승인을 받아 지시하여야 하는 기한으로 표현",
+          "sourceLines": [
+            255,
+            267
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "RL-009",
+      "status": "pass",
+      "diagramsReviewed": 13,
+      "contentSha256": "90e8ffa03386e1383f721f72cae7878284caa465b2fdb779e832d816b4f7fe23",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        287
+      ],
+      "findingsResolved": [
+        {
+          "diagramId": "electronic-notice-consent",
+          "finding": "동의 대체 금지를 설명한 노트의 방향이 반대로 적혀 있었음",
+          "resolution": "본인의 동의를 세대주등의 동의로 대체하지 않음으로 수정",
+          "sourceLines": [
+            208,
+            212,
+            220
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "RL-010",
+      "status": "pass",
+      "diagramsReviewed": 15,
+      "contentSha256": "ab99ae48852f1c247f9f228380d808179479ded7c669d495ff59eecc82c3b233",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        235
+      ],
+      "findingsResolved": [
+        {
+          "diagramId": "reservation-processing",
+          "finding": "제18조제1항이라는 전체 조문 번호의 제목이 선택 출처 구간 밖에 있었음",
+          "resolution": "시행규칙 제18조 제목과 제1항의 원서 조항을 sourceRanges에 추가",
+          "sourceLines": [
+            37,
+            39,
+            41,
+            117
+          ]
+        }
+      ]
+    }
+  ],
+  "issues": [],
+  "validation": {
+    "sourceLineCountRead": 2872,
+    "diagramCount": 138,
+    "contentHashesMatched": true,
+    "sourceHashesMatched": true,
+    "numericAndActorEvidenceFlags": 0,
+    "svgOnlyRender": {
+      "lessons": 10,
+      "diagrams": 138,
+      "textBoxes": 2613,
+      "errors": 0
+    },
+    "method": "All source scripts and all instructional diagram text directly compared; automated checks are supplementary."
+  }
+}

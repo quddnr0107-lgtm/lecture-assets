@@ -1,0 +1,487 @@
+{
+  "lessonId": "RL-029",
+  "lessonTitle": "예비군법 시행령 제29조와 시행규칙 제24조부터 제29조까지, 예비군부대기",
+  "diagrams": [
+    {
+      "id": "flag-framework",
+      "title": "부대기의 수여와 위임 범위",
+      "subtitle": "시행령 제29조: 수여의 기본 틀",
+      "kind": "rule",
+      "left": {
+        "title": "국방부장관의 수여",
+        "items": [
+          {
+            "label": "대상",
+            "text": "중대 이상의 예비군부대"
+          },
+          {
+            "label": "목적",
+            "text": "부대를 상징하고 존엄성과 명예를 표시"
+          }
+        ]
+      },
+      "right": {
+        "title": "국방부령에 맡긴 사항",
+        "items": [
+          {
+            "label": "종류·제식",
+            "text": "부대기의 갈래와 규격·모양"
+          },
+          {
+            "label": "수여방법 등",
+            "text": "수여방법과 그 밖에 필요한 사항"
+          }
+        ]
+      },
+      "note": "시행령의 위임 문구는 수여방법이며 수여시기가 아니다.",
+      "sourceRanges": [
+        {
+          "startLine": 15,
+          "endLine": 31,
+          "topic": "시행령 제29조의 수여 주체·대상·목적과 국방부령 위임"
+        },
+        {
+          "startLine": 35,
+          "endLine": 43,
+          "topic": "수여방법과 수여시기의 구별"
+        }
+      ]
+    },
+    {
+      "id": "flag-types",
+      "title": "부대기의 다섯 종류",
+      "subtitle": "시행규칙 제24조제1항: 근거는 시행령 제29조",
+      "kind": "rule",
+      "left": {
+        "title": "전체·상위 부대",
+        "items": [
+          {
+            "label": "예비군기",
+            "text": "예비군 전체를 나타내는 부대기"
+          },
+          {
+            "label": "예비군여단기",
+            "text": "여단의 부대기"
+          },
+          {
+            "label": "예비군연대기",
+            "text": "연대의 부대기"
+          }
+        ]
+      },
+      "right": {
+        "title": "대대·중대",
+        "items": [
+          {
+            "label": "예비군대대기",
+            "text": "대대의 부대기"
+          },
+          {
+            "label": "예비군중대기",
+            "text": "중대의 부대기"
+          }
+        ]
+      },
+      "note": "수여 대상이 중대 이상이므로 다섯 종류는 중대기에서 끝난다.",
+      "sourceRanges": [
+        {
+          "startLine": 45,
+          "endLine": 61,
+          "topic": "다섯 종류와 중대까지의 범위 및 근거 조문"
+        }
+      ]
+    },
+    {
+      "id": "award-exception",
+      "title": "창설 때의 수여와 대행",
+      "subtitle": "시행규칙 제25조: 원칙과 필요한 경우의 예외",
+      "kind": "exception",
+      "left": {
+        "title": "원칙",
+        "items": [
+          {
+            "label": "수여자",
+            "text": "국방부장관"
+          },
+          {
+            "label": "수여 시기",
+            "text": "예비군부대가 창설될 때"
+          }
+        ]
+      },
+      "right": {
+        "title": "필요한 경우",
+        "items": [
+          {
+            "label": "대행할 주체",
+            "text": "시행령 제28조제1항에 따라 관리·운용을 위임받은 군부대의 장"
+          },
+          {
+            "label": "대행할 부대기",
+            "text": "예비군대대기와 예비군중대기"
+          }
+        ]
+      },
+      "note": "국방부장관은 군부대의 장이 대대기·중대기를 수여하게 할 수 있음",
+      "sourceRanges": [
+        {
+          "startLine": 67,
+          "endLine": 81,
+          "topic": "창설 시 국방부장관 수여"
+        },
+        {
+          "startLine": 83,
+          "endLine": 91,
+          "topic": "군부대의 장에 의한 대대기·중대기 수여"
+        }
+      ]
+    },
+    {
+      "id": "flag-use",
+      "title": "부대기를 사용할 수 있는 때",
+      "subtitle": "시행규칙 제26조: 임무·훈련·행사와 예식띠",
+      "kind": "rule",
+      "left": {
+        "title": "부대단위의 활동",
+        "items": [
+          {
+            "label": "동원 임무",
+            "text": "동원된 예비군대원이 부대단위로 임무 수행"
+          },
+          {
+            "label": "소집 훈련",
+            "text": "소집된 예비군대원이 부대단위로 훈련"
+          }
+        ]
+      },
+      "right": {
+        "title": "행사와 예식띠",
+        "items": [
+          {
+            "label": "행사 참가",
+            "text": "예비군부대로서 각종 기념일이나 그 밖의 행사에 참가"
+          },
+          {
+            "label": "예식띠",
+            "text": "부대기를 사용할 때 착용할 수 있음"
+          }
+        ]
+      },
+      "note": "부대의 활동이라는 조건을 지키며 예식띠 착용은 선택 사항이다.",
+      "sourceRanges": [
+        {
+          "startLine": 93,
+          "endLine": 115,
+          "topic": "세 가지 사용 경우와 예식띠의 임의 착용"
+        }
+      ]
+    },
+    {
+      "id": "storage-design",
+      "title": "관리 방법과 세 가지 별도",
+      "subtitle": "시행규칙 제24조·제26조·제27조",
+      "kind": "compare",
+      "left": {
+        "title": "관리 방법",
+        "items": [
+          {
+            "label": "보관 방식",
+            "text": "받침다리에 세우거나 보관상자에 넣어 관리"
+          },
+          {
+            "label": "관리 의무",
+            "text": "훼손되거나 잃어버리지 않도록 관리"
+          }
+        ]
+      },
+      "right": {
+        "title": "제식의 연결",
+        "items": [
+          {
+            "label": "별도 1",
+            "text": "부대기"
+          },
+          {
+            "label": "별도 2",
+            "text": "예식띠"
+          },
+          {
+            "label": "별도 3",
+            "text": "받침다리와 보관상자"
+          }
+        ]
+      },
+      "note": "부대기·예식띠·받침다리와 보관상자를 별도 1·2·3에 연결한다.",
+      "sourceRanges": [
+        {
+          "startLine": 45,
+          "endLine": 47,
+          "topic": "부대기 제식의 조문 도입"
+        },
+        {
+          "startLine": 63,
+          "endLine": 65,
+          "topic": "부대기의 별도 1"
+        },
+        {
+          "startLine": 93,
+          "endLine": 93,
+          "topic": "사용 조문의 도입"
+        },
+        {
+          "startLine": 115,
+          "endLine": 125,
+          "topic": "별도 2와 관리 방법 및 별도 3"
+        }
+      ]
+    },
+    {
+      "id": "return-grounds",
+      "title": "부대기를 반납하는 세 사유",
+      "subtitle": "시행규칙 제28조제1항: 부대의 장이 수여자에게",
+      "kind": "rule",
+      "left": {
+        "title": "부대가 달라진 때",
+        "items": [
+          {
+            "label": "해체",
+            "text": "예비군부대가 해체된 경우"
+          },
+          {
+            "label": "개편·명칭 변경",
+            "text": "부대가 개편되어 명칭이 변경된 경우"
+          }
+        ]
+      },
+      "right": {
+        "title": "부대기와 반납 상대",
+        "items": [
+          {
+            "label": "제식 변경",
+            "text": "부대기의 제식이 변경된 경우"
+          },
+          {
+            "label": "반납 상대",
+            "text": "부대의 장은 제25조의 부대기수여자에게 해당 부대기를 반납하여야 함"
+          }
+        ]
+      },
+      "note": "반납 상대는 그 부대기를 수여한 국방부장관 또는 군부대의 장이다.",
+      "sourceRanges": [
+        {
+          "startLine": 127,
+          "endLine": 139,
+          "topic": "제28조제1항의 반납 의무·상대·세 사유"
+        }
+      ]
+    },
+    {
+      "id": "renewal-and-storage",
+      "title": "반납받은 부대기의 처리",
+      "subtitle": "시행규칙 제28조제2항: 보관과 새 부대기 수여",
+      "kind": "compare",
+      "left": {
+        "title": "반납받은 부대기",
+        "items": [
+          {
+            "label": "처리 주체",
+            "text": "부대기수여자"
+          },
+          {
+            "label": "보관",
+            "text": "일정한 장소에 보관하거나 기념관 등에 영구 보관하여야 함"
+          }
+        ]
+      },
+      "right": {
+        "title": "새 부대기 수여",
+        "items": [
+          {
+            "label": "제1항제2호·제3호",
+            "text": "개편에 따른 명칭 변경 또는 제식 변경이면 새 부대기를 수여하여야 함"
+          },
+          {
+            "label": "해체의 구별",
+            "text": "해체는 반납 사유이지만 새 부대기를 수여할 사유에서 제외"
+          }
+        ]
+      },
+      "note": "새 부대기를 주는 사유는 명칭 변경과 제식 변경이다.",
+      "sourceRanges": [
+        {
+          "startLine": 127,
+          "endLine": 127,
+          "topic": "제28조 도입"
+        },
+        {
+          "startLine": 135,
+          "endLine": 157,
+          "topic": "반납 사유와 제2항의 보관·새 부대기 수여"
+        }
+      ]
+    },
+    {
+      "id": "disposal-approval",
+      "title": "부대기를 폐기할 때의 승인",
+      "subtitle": "시행규칙 제28조제3항: 반납받은 수여자의 처리",
+      "kind": "exception",
+      "left": {
+        "title": "폐기할 수 있는 경우",
+        "items": [
+          {
+            "label": "판단 주체",
+            "text": "반납받은 부대기수여자"
+          },
+          {
+            "label": "조건",
+            "text": "필요하다고 인정할 때 폐기할 수 있음"
+          }
+        ]
+      },
+      "right": {
+        "title": "군부대의 장이 폐기",
+        "items": [
+          {
+            "label": "추가 절차",
+            "text": "국방부장관의 승인을 받아야 함"
+          },
+          {
+            "label": "권한 구별",
+            "text": "부대의 장은 반납하고, 반납받은 수여자가 폐기 여부 판단"
+          }
+        ]
+      },
+      "note": "군부대의 장이 폐기할 때 승인하는 사람은 국방부장관이다.",
+      "sourceRanges": [
+        {
+          "startLine": 127,
+          "endLine": 127,
+          "topic": "제28조 도입"
+        },
+        {
+          "startLine": 159,
+          "endLine": 173,
+          "topic": "제3항의 폐기와 국방부장관 승인"
+        },
+        {
+          "startLine": 195,
+          "endLine": 199,
+          "topic": "반납하는 부대장과 폐기하는 수여자의 구별"
+        }
+      ]
+    },
+    {
+      "id": "damage-loss",
+      "title": "훼손·분실 때의 보고와 반납",
+      "subtitle": "시행규칙 제29조: 지체 없이 수여자에게 보고",
+      "kind": "process",
+      "left": {
+        "title": "발생 사유",
+        "items": [
+          {
+            "label": "훼손",
+            "text": "부대기가 훼손되어 사용할 수 없게 된 경우"
+          },
+          {
+            "label": "분실",
+            "text": "부대기를 잃어버린 경우"
+          }
+        ]
+      },
+      "right": {
+        "title": "부대의 장의 처리",
+        "items": [
+          {
+            "label": "보고",
+            "text": "부대기수여자에게 그 사실을 지체 없이 보고하여야 함"
+          },
+          {
+            "label": "훼손된 부대기",
+            "text": "반납하고 새로운 부대기를 받아야 함"
+          }
+        ]
+      },
+      "note": "보고는 지체 없이 하며, 훼손된 부대기의 처리는 반납이다.",
+      "sourceRanges": [
+        {
+          "startLine": 175,
+          "endLine": 193,
+          "topic": "제29조의 훼손·분실 보고와 시기"
+        },
+        {
+          "startLine": 195,
+          "endLine": 203,
+          "topic": "훼손된 부대기의 반납과 새 부대기"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "시행령상 부대기 수여의 주체·대상·목적과 국방부령 위임",
+      "diagramIds": [
+        "flag-framework"
+      ]
+    },
+    {
+      "topic": "다섯 종류와 부대기·예식띠·관리용품의 제식",
+      "diagramIds": [
+        "flag-types",
+        "storage-design"
+      ]
+    },
+    {
+      "topic": "창설 시 수여와 군부대의 장에 의한 수여 예외",
+      "diagramIds": [
+        "award-exception"
+      ]
+    },
+    {
+      "topic": "세 가지 사용 경우와 예식띠 착용",
+      "diagramIds": [
+        "flag-use"
+      ]
+    },
+    {
+      "topic": "관리 방법과 훼손·분실 방지",
+      "diagramIds": [
+        "storage-design"
+      ]
+    },
+    {
+      "topic": "세 가지 반납 사유, 보관, 새 부대기 수여",
+      "diagramIds": [
+        "return-grounds",
+        "renewal-and-storage"
+      ]
+    },
+    {
+      "topic": "반납받은 부대기의 폐기와 승인",
+      "diagramIds": [
+        "disposal-approval"
+      ]
+    },
+    {
+      "topic": "훼손·분실의 보고 주체·상대·시기와 반납",
+      "diagramIds": [
+        "damage-loss"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "수여·반납·폐기 주체",
+      "부대 규모",
+      "부대기 종류",
+      "방법·시기의 구별",
+      "사용 조건",
+      "제식 별도 번호",
+      "기한",
+      "예외",
+      "설명 순서"
+    ],
+    "issues": []
+  }
+}

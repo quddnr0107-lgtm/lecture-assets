@@ -1,0 +1,163 @@
+{
+  "lessonId": "RL-023",
+  "lessonTitle": "예비군법 제13조, 병역법과의 관계",
+  "diagrams": [
+    {
+      "id": "mobilized-person-scope",
+      "title": "두 법의 부름이 겹칠 때",
+      "subtitle": "법 제13조 · 제5조에 따라 동원된 사람",
+      "kind": "rule",
+      "left": {
+        "title": "적용 대상과 시간",
+        "items": [
+          {
+            "label": "대상",
+            "text": "예비군법 제5조에 따라 동원된 사람"
+          },
+          {
+            "label": "시간",
+            "text": "그 사람이 동원된 기간"
+          }
+        ]
+      },
+      "right": {
+        "title": "다른 소집의 처리",
+        "items": [
+          {
+            "label": "일반 원칙",
+            "text": "병역법에 규정된 다른 소집은 하지 않음"
+          },
+          {
+            "label": "예외 보존",
+            "text": "현역입영·병력동원소집·전시근로소집은 제외"
+          }
+        ]
+      },
+      "note": "대상은 동원된 사람 · 적용 범위는 동원된 기간",
+      "sourceRanges": [
+        {
+          "startLine": 17,
+          "endLine": 29,
+          "topic": "대상·기간·원칙과 예외"
+        }
+      ]
+    },
+    {
+      "id": "three-preserved-calls",
+      "title": "동원 중에도 남는 세 가지",
+      "subtitle": "현역입영을 빠뜨리지 않기",
+      "kind": "exception",
+      "left": {
+        "title": "먼저 기억할 예외",
+        "items": [
+          {
+            "label": "현역입영",
+            "text": "원문 맨 앞에 있는 예외"
+          }
+        ]
+      },
+      "right": {
+        "title": "함께 남는 두 소집",
+        "items": [
+          {
+            "label": "병력동원소집",
+            "text": "동원된 기간에도 남는 소집"
+          },
+          {
+            "label": "전시근로소집",
+            "text": "동원된 기간에도 남는 소집"
+          }
+        ]
+      },
+      "note": "이 셋 외의 소집을 하지 않는다는 문장",
+      "sourceRanges": [
+        {
+          "startLine": 29,
+          "endLine": 41,
+          "topic": "예외 세 항목"
+        }
+      ]
+    },
+    {
+      "id": "period-not-exemption",
+      "title": "다른 소집의 제한은 동원기간",
+      "subtitle": "영구 면제가 아니라 기간을 한정한 조정",
+      "kind": "compare",
+      "left": {
+        "title": "동원된 동안",
+        "items": [
+          {
+            "label": "세 예외 외의 소집",
+            "text": "병역법상의 다른 소집을 하지 않음"
+          }
+        ]
+      },
+      "right": {
+        "title": "동원이 끝나면",
+        "items": [
+          {
+            "label": "기간 한정의 종료",
+            "text": "제13조의 동원기간에 대한 조정도 끝남"
+          },
+          {
+            "label": "면제와 구별",
+            "text": "병역법의 의무 자체를 없애는 규정은 아님"
+          }
+        ]
+      },
+      "note": "동원된 기간에는이라는 말을 빼지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 29,
+          "endLine": 41,
+          "topic": "제외되는 세 가지 소집"
+        },
+        {
+          "startLine": 43,
+          "endLine": 49,
+          "topic": "동원기간 한정"
+        },
+        {
+          "startLine": 55,
+          "endLine": 58,
+          "topic": "정리"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "무엇이 물러서는가",
+      "diagramIds": [
+        "mobilized-person-scope"
+      ]
+    },
+    {
+      "topic": "무엇이 남는가",
+      "diagramIds": [
+        "three-preserved-calls"
+      ]
+    },
+    {
+      "topic": "언제까지인가",
+      "diagramIds": [
+        "period-not-exemption"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "주체와 대상",
+      "수치와 기산점",
+      "의무와 재량",
+      "또는·및 관계",
+      "원칙과 예외",
+      "설명 순서",
+      "원고 주요 갈래"
+    ],
+    "issues": [],
+    "sourceNotes": []
+  }
+}

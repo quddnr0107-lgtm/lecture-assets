@@ -1,0 +1,1116 @@
+{
+  "lessonId": "RL-007",
+  "lessonTitle": "예비군법 제5조, 동원",
+  "diagrams": [
+    {
+      "id": "mobilize-and-release",
+      "title": "동원 명령과 해제의 주체",
+      "subtitle": "임무수행에 필요하면 명령, 사유가 없어지면 해제",
+      "kind": "compare",
+      "left": {
+        "title": "동원 명령",
+        "items": [
+          {
+            "label": "주체·요건",
+            "text": "국방부장관이 예비군의 임무수행을 위하여 출동이 필요하다고 인정"
+          },
+          {
+            "label": "명령 가능",
+            "text": "대통령령의 시간 이내에 지정 장소의 소집에 응하도록 명령할 수 있음"
+          }
+        ]
+      },
+      "right": {
+        "title": "동원 해제",
+        "items": [
+          {
+            "label": "주체",
+            "text": "국방부장관"
+          },
+          {
+            "label": "시점·의무",
+            "text": "동원 사유가 없어지면 지체 없이 동원을 해제하여야 함"
+          }
+        ]
+      },
+      "note": "동원 명령의 재량과 사유 소멸 뒤 해제 의무를 구분",
+      "sourceRanges": [
+        {
+          "startLine": 15,
+          "endLine": 29,
+          "topic": "본법 제1항 동원명령"
+        },
+        {
+          "startLine": 103,
+          "endLine": 117,
+          "topic": "본법 제5항 해제"
+        }
+      ]
+    },
+    {
+      "id": "act-reservation-targets",
+      "title": "본법의 동원 보류 대상",
+      "subtitle": "제5조제1항 단서의 대상과 범위를 확인",
+      "kind": "compare",
+      "left": {
+        "title": "직위·해외 체류",
+        "items": [
+          {
+            "label": "국회의원",
+            "text": "본법 단서의 보류 대상"
+          },
+          {
+            "label": "외국에 있는 사람",
+            "text": "외국 여행 중이거나 외국에 체류 중인 사람"
+          }
+        ]
+      },
+      "right": {
+        "title": "국외 왕래와 추가 대상",
+        "items": [
+          {
+            "label": "선박·항공기",
+            "text": "국외를 왕래하는 선박의 선원 또는 항공기의 조종사와 승무원"
+          },
+          {
+            "label": "위임 대상",
+            "text": "그 밖에 대통령령으로 정하는 사람"
+          }
+        ]
+      },
+      "note": "국방부장관은 해당자의 동원을 보류할 수 있음",
+      "sourceRanges": [
+        {
+          "startLine": 17,
+          "endLine": 17,
+          "topic": "제1항 본문의 국방부장관 주체"
+        },
+        {
+          "startLine": 31,
+          "endLine": 47,
+          "topic": "동원 보류의 네 대상과 국외 범위"
+        }
+      ]
+    },
+    {
+      "id": "act-delay-causes",
+      "title": "연기는 명령을 받은 뒤의 사정",
+      "subtitle": "본인이 원하고 어느 한 사유에 해당해야 가능",
+      "kind": "compare",
+      "left": {
+        "title": "성립 조건",
+        "items": [
+          {
+            "label": "명령 수령",
+            "text": "동원명령을 받은 사람"
+          },
+          {
+            "label": "본인의 뜻",
+            "text": "각 사유 중 하나에 해당하고 본인이 원하면 연기할 수 있음"
+          },
+          {
+            "label": "제외",
+            "text": "고의로 사유를 발생시킨 사람은 제외"
+          }
+        ]
+      },
+      "right": {
+        "title": "세 가지 사유",
+        "items": [
+          {
+            "label": "건강",
+            "text": "질병이나 심신장애로 동원에 응할 수 없는 경우"
+          },
+          {
+            "label": "구속",
+            "text": "법률에 따라 구속 중인 경우"
+          },
+          {
+            "label": "부득이한 사정",
+            "text": "관혼상제·재해 또는 그 밖의 부득이한 사유로 응할 수 없는 경우"
+          }
+        ]
+      },
+      "note": "고의 발생 제외를 고의·과실 발생 제외로 넓히지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 49,
+          "endLine": 81,
+          "topic": "본법 제2항 조건·세 사유·고의 제외"
+        }
+      ]
+    },
+    {
+      "id": "mobilized-member-duties",
+      "title": "동원지역 전출과 명령 복종",
+      "subtitle": "신고 의무와 정당한 명령에 따를 의무",
+      "kind": "compare",
+      "left": {
+        "title": "다른 지역으로 전출",
+        "items": [
+          {
+            "label": "대상",
+            "text": "동원명령이 발령된 지역에 거주하는 예비군대원"
+          },
+          {
+            "label": "신고",
+            "text": "다른 지역으로 거주지를 옮기면 대통령령에 따라 소속 부대 지휘관에게 신고"
+          }
+        ]
+      },
+      "right": {
+        "title": "동원된 대원",
+        "items": [
+          {
+            "label": "조건",
+            "text": "제1항에 따라 동원된 경우"
+          },
+          {
+            "label": "복종",
+            "text": "예비군부대 지휘관의 정당한 명령에 복종하여야 함"
+          }
+        ]
+      },
+      "note": "지휘관에는 여단장·연대장·대대장·중대장·소대장·분대장 포함",
+      "sourceRanges": [
+        {
+          "startLine": 83,
+          "endLine": 101,
+          "topic": "본법 제3항 전출 신고·제4항 정당한 명령"
+        }
+      ]
+    },
+    {
+      "id": "mobilization-command-path",
+      "title": "수임군부대의 장의 두 경로",
+      "subtitle": "시행령 제11조제1항의 명령 또는 요청",
+      "kind": "compare",
+      "left": {
+        "title": "예비군부대 지휘 계통",
+        "items": [
+          {
+            "label": "주체",
+            "text": "수임군부대의 장"
+          },
+          {
+            "label": "첫째 경로",
+            "text": "예비군부대의 지휘 계통에 따라 동원을 명함"
+          }
+        ]
+      },
+      "right": {
+        "title": "수탁경찰서장",
+        "items": [
+          {
+            "label": "다른 경로",
+            "text": "수탁경찰서장에게 동원을 요청함"
+          },
+          {
+            "label": "의무의 구조",
+            "text": "지휘 계통 명령 또는 경찰서장 요청을 하여야 함"
+          }
+        ]
+      },
+      "note": "본법의 국방부장관과 시행령의 수임군부대의 장을 구별",
+      "sourceRanges": [
+        {
+          "startLine": 15,
+          "endLine": 29,
+          "topic": "본법의 동원 주체"
+        },
+        {
+          "startLine": 119,
+          "endLine": 135,
+          "topic": "시행령 제11조제1항 두 경로"
+        }
+      ]
+    },
+    {
+      "id": "mobilization-announcement",
+      "title": "동원명령을 알리는 방법",
+      "subtitle": "수임군부대의 장 또는 수탁경찰서장이 명령",
+      "kind": "compare",
+      "left": {
+        "title": "신문·방송·전화",
+        "items": [
+          {
+            "label": "일간신문",
+            "text": "전국적으로 배포되는 일간신문"
+          },
+          {
+            "label": "방송",
+            "text": "방송을 통한 명령"
+          },
+          {
+            "label": "전화",
+            "text": "전화를 통한 명령"
+          }
+        ]
+      },
+      "right": {
+        "title": "확성기·사이렌·그 밖",
+        "items": [
+          {
+            "label": "확성기",
+            "text": "확성기를 통한 명령"
+          },
+          {
+            "label": "사이렌",
+            "text": "사이렌을 통한 명령"
+          },
+          {
+            "label": "추가 방법",
+            "text": "그 밖에 국방부령으로 정하는 방법"
+          }
+        ]
+      },
+      "note": "이 방법에 따라 예비군대원에게 동원을 명하여야 함",
+      "sourceRanges": [
+        {
+          "startLine": 137,
+          "endLine": 153,
+          "topic": "알리는 주체·5개 방법·국방부령 위임"
+        }
+      ]
+    },
+    {
+      "id": "advance-order-authority",
+      "title": "동원명령서의 사전 송달",
+      "subtitle": "국방부장관의 판단과 수임군부대의 장의 실행",
+      "kind": "process",
+      "left": {
+        "title": "사전 준비 판단",
+        "items": [
+          {
+            "label": "주체",
+            "text": "국방부장관"
+          },
+          {
+            "label": "조건",
+            "text": "작전 임무수행에 대비하여 필요하다고 인정할 때"
+          }
+        ]
+      },
+      "right": {
+        "title": "미리 송달하게 함",
+        "items": [
+          {
+            "label": "실행 상대",
+            "text": "수임군부대의 장으로 하여금 송달하게 할 수 있음"
+          },
+          {
+            "label": "규정 형식",
+            "text": "국방부령에 따라 동원명령서를 미리 송달"
+          },
+          {
+            "label": "발령",
+            "text": "제2항 방법에 따라 동원을 명하게 할 수 있음"
+          }
+        ]
+      },
+      "note": "시키는 주체는 국방부장관, 송달 기준은 국방부령",
+      "sourceRanges": [
+        {
+          "startLine": 155,
+          "endLine": 169,
+          "topic": "사전 송달 조건·주체·기준·발령"
+        }
+      ]
+    },
+    {
+      "id": "advance-order-recipient",
+      "title": "사전 명령서를 받은 사람의 집결",
+      "subtitle": "대상·서식과 발령 뒤 지정 일시·장소",
+      "kind": "compare",
+      "left": {
+        "title": "미리 받는 사람",
+        "items": [
+          {
+            "label": "대상",
+            "text": "병역법에 따라 동원이 지정된 사람"
+          },
+          {
+            "label": "서식",
+            "text": "동원명령서는 별지 제15호서식"
+          }
+        ]
+      },
+      "right": {
+        "title": "발령되면 집결",
+        "items": [
+          {
+            "label": "일시",
+            "text": "지정된 일시에 집결하여야 함"
+          },
+          {
+            "label": "장소 선택",
+            "text": "동원명령서에 적힌 장소 또는 신문·방송 등으로 지정한 장소"
+          }
+        ]
+      },
+      "note": "서류 이름은 동원명령서",
+      "sourceRanges": [
+        {
+          "startLine": 171,
+          "endLine": 185,
+          "topic": "사전 수령자의 지정 일시·장소"
+        },
+        {
+          "startLine": 219,
+          "endLine": 219,
+          "topic": "사전교부 대상과 서식"
+        }
+      ]
+    },
+    {
+      "id": "local-announcement-support",
+      "title": "지방자치단체의 협조 의무",
+      "subtitle": "알리는 주체와 알리도록 돕는 주체를 분리",
+      "kind": "compare",
+      "left": {
+        "title": "협조하는 사람",
+        "items": [
+          {
+            "label": "지방자치단체장",
+            "text": "특별자치시장·시장·군수·구청장"
+          },
+          {
+            "label": "언제",
+            "text": "동원명령이 발령된 경우"
+          },
+          {
+            "label": "의무",
+            "text": "명령 내용을 대원에게 알릴 수 있도록 협조하여야 함"
+          }
+        ]
+      },
+      "right": {
+        "title": "명령을 알리는 사람",
+        "items": [
+          {
+            "label": "알림 주체",
+            "text": "수임군부대의 장 또는 수탁경찰서장"
+          },
+          {
+            "label": "사용 방법",
+            "text": "확성기·게시판·유선방송 또는 반상회 등의 방법"
+          }
+        ]
+      },
+      "note": "지방병무청장을 알림 주체로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 187,
+          "endLine": 201,
+          "topic": "지방자치단체의 협조·알림 주체·방법"
+        }
+      ]
+    },
+    {
+      "id": "mobilization-limits-methods",
+      "title": "임무 외 동원 금지와 추가 방법",
+      "subtitle": "시행령의 제한과 시행규칙의 네 방법",
+      "kind": "compare",
+      "left": {
+        "title": "동원 사유의 경계",
+        "items": [
+          {
+            "label": "금지 주체",
+            "text": "수임군부대의 장과 수탁경찰서장"
+          },
+          {
+            "label": "금지 내용",
+            "text": "법 제2조의 예비군 임무수행 외 다른 사유로 동원해서는 안 됨"
+          }
+        ]
+      },
+      "right": {
+        "title": "국방부령의 추가 방법",
+        "items": [
+          {
+            "label": "구두·가두방송",
+            "text": "미리 정한 비상소집망 구두 전달 / 마이크나 확성기 가두방송"
+          },
+          {
+            "label": "게시",
+            "text": "공고문의 게시"
+          },
+          {
+            "label": "전산망",
+            "text": "전산망을 통한 공고"
+          }
+        ]
+      },
+      "note": "비상소집망이며 전산망 공고도 포함",
+      "sourceRanges": [
+        {
+          "startLine": 203,
+          "endLine": 217,
+          "topic": "다른 사유 동원 금지·시행규칙 네 방법"
+        }
+      ]
+    },
+    {
+      "id": "mobilization-rosters",
+      "title": "동원 결과 명부와 사전 명부",
+      "subtitle": "시·군·구별 작성 뒤 지방병무청장에게 통보",
+      "kind": "compare",
+      "left": {
+        "title": "실제 모인 사람의 명부",
+        "items": [
+          {
+            "label": "작성 주체",
+            "text": "수임군부대의 장 또는 수탁경찰서장"
+          },
+          {
+            "label": "정리·통보",
+            "text": "동원해서 모인 사람을 시·군·구별로 작성해 지방병무청장에게 통보"
+          }
+        ]
+      },
+      "right": {
+        "title": "사전 명령서 수령 명부",
+        "items": [
+          {
+            "label": "작성 주체",
+            "text": "수임군부대의 장"
+          },
+          {
+            "label": "정리·통보",
+            "text": "미리 명령서를 준 사람을 시·군·구별로 작성해 지방병무청장에게 통보"
+          }
+        ]
+      },
+      "note": "수임군부대의 장은 지역 동원절차를 세워 대원들이 자세히 알도록 해야 함",
+      "sourceRanges": [
+        {
+          "startLine": 221,
+          "endLine": 223,
+          "topic": "두 명부의 주체·정리·통보와 절차 숙지"
+        }
+      ]
+    },
+    {
+      "id": "response-hours",
+      "title": "응소시간은 발령 후부터 계산",
+      "subtitle": "발령 당시 위치에 따라 6·24·48시간",
+      "kind": "compare",
+      "left": {
+        "title": "육상에서의 두 구분",
+        "items": [
+          {
+            "label": "6시간",
+            "text": "발령지역 및 그와 인접한 특별자치시·시·군·자치구"
+          },
+          {
+            "label": "24시간",
+            "text": "그 밖의 육상지역"
+          }
+        ]
+      },
+      "right": {
+        "title": "섬·출어 중인 경우",
+        "items": [
+          {
+            "label": "48시간",
+            "text": "발령 당시 섬 지역 또는 출어 중인 어선 승선자 등"
+          },
+          {
+            "label": "기산점",
+            "text": "세 시간 모두 동원명령 발령 후부터 계산"
+          }
+        ]
+      },
+      "note": "받은 때가 아니라 발령 후이며 근거는 법 제5조제1항",
+      "sourceRanges": [
+        {
+          "startLine": 225,
+          "endLine": 259,
+          "topic": "응소시간 3구간·기산점·근거"
+        }
+      ]
+    },
+    {
+      "id": "reservation-public-roles",
+      "title": "시행령의 보류 대상 ①",
+      "subtitle": "치안·군 지원과 민방위 지휘의 자리",
+      "kind": "compare",
+      "left": {
+        "title": "치안·군 지원",
+        "items": [
+          {
+            "label": "제1호",
+            "text": "경찰관·교도관·소방관"
+          },
+          {
+            "label": "제2호",
+            "text": "군부대에 근무하는 군무원"
+          },
+          {
+            "label": "제3호",
+            "text": "주한 외국군부대에 근무하는 종업원"
+          }
+        ]
+      },
+      "right": {
+        "title": "민방위와 추가 위임",
+        "items": [
+          {
+            "label": "제7호",
+            "text": "민방위기본법에 따라 민방위 대장으로 임명된 사람"
+          },
+          {
+            "label": "제8호",
+            "text": "그 밖에 국방부령으로 정하는 사람"
+          }
+        ]
+      },
+      "note": "민방위 대장과 대원을 구별",
+      "sourceRanges": [
+        {
+          "startLine": 261,
+          "endLine": 274,
+          "topic": "시행령 제13조제1항 열거"
+        },
+        {
+          "startLine": 278,
+          "endLine": 292,
+          "topic": "보류 대상의 단어 구별"
+        }
+      ]
+    },
+    {
+      "id": "reservation-navigation",
+      "title": "시행령의 보류 대상 ②",
+      "subtitle": "항로표지·항공·해안무선의 정확한 대상",
+      "kind": "compare",
+      "left": {
+        "title": "제4호 · 항로표지",
+        "items": [
+          {
+            "label": "정비 담당",
+            "text": "항로표지정비 담당 공무원"
+          },
+          {
+            "label": "등대·선박 근무",
+            "text": "등대나 항로표지용 선박에서 근무하는 공무원"
+          },
+          {
+            "label": "한정 범위",
+            "text": "위 두 공무원 집단을 및으로 나란히 열거"
+          }
+        ]
+      },
+      "right": {
+        "title": "제5·6호",
+        "items": [
+          {
+            "label": "항공 분야",
+            "text": "항공기정비사·항공교통관제사 및\n항공무선표지소 근무자"
+          },
+          {
+            "label": "해안무선국",
+            "text": "해안무선국에 근무하는 통신사·정비사"
+          }
+        ]
+      },
+      "note": "항로표지정비 담당 중 등대 근무자로 범위를 좁히지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 270,
+          "endLine": 292,
+          "topic": "제4·5·6호와 항로표지 병렬 조건"
+        }
+      ]
+    },
+    {
+      "id": "reservation-proxy",
+      "title": "보류원서의 대리 제출",
+      "subtitle": "본인이 제출할 수 없는 경우에만 가능한 경로",
+      "kind": "compare",
+      "left": {
+        "title": "원서·조건",
+        "items": [
+          {
+            "label": "보류 근거",
+            "text": "법 제5조제1항 단서"
+          },
+          {
+            "label": "원서 근거",
+            "text": "법 제6조의3제1항의 동원 보류원서"
+          },
+          {
+            "label": "대리 제출 조건",
+            "text": "본인이 제출할 수 없는 경우 대리 제출하게 할 수 있음"
+          }
+        ]
+      },
+      "right": {
+        "title": "대리 제출자 · 또는",
+        "items": [
+          {
+            "label": "세대주",
+            "text": "본인의 세대주"
+          },
+          {
+            "label": "성년 가족",
+            "text": "가족 중 성년자"
+          },
+          {
+            "label": "고용주",
+            "text": "본인의 고용주"
+          }
+        ]
+      },
+      "note": "본인이 원할 경우와 세대를 같이하는 사람으로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 294,
+          "endLine": 310,
+          "topic": "보류원서 대리 제출의 요건·대상·근거"
+        }
+      ]
+    },
+    {
+      "id": "foreign-force-workers",
+      "title": "주한 외국군부대 종업원의 한정",
+      "subtitle": "협정에 따른 두 직종과 국내 용역 경비요원",
+      "kind": "compare",
+      "left": {
+        "title": "협정에 따른 고용",
+        "items": [
+          {
+            "label": "종업원",
+            "text": "주한미군 지위에 관한 협정에 따라 주한 미군부대에 고용된 종업원"
+          },
+          {
+            "label": "고용원",
+            "text": "한국노무단 지위에 관한 협정에 따라 주한 미군부대에 고용된 고용원"
+          }
+        ]
+      },
+      "right": {
+        "title": "국내 기업체의 경비요원",
+        "items": [
+          {
+            "label": "계약 조건",
+            "text": "주한 미군부대 경비를 위하여 미군부대와 용역계약 체결"
+          },
+          {
+            "label": "소속·직무",
+            "text": "그 국내 기업체 소속인 주한 미군부대 경비요원"
+          }
+        ]
+      },
+      "note": "세 범주 중 어느 하나에 해당하는 사람으로 한정",
+      "sourceRanges": [
+        {
+          "startLine": 312,
+          "endLine": 330,
+          "topic": "시행규칙 제17조제1항의 세 범주"
+        }
+      ]
+    },
+    {
+      "id": "rail-subway-reservation",
+      "title": "철도종사원과 지하철종사원",
+      "subtitle": "시행규칙의 동원·훈련 보류 대상 구별",
+      "kind": "compare",
+      "left": {
+        "title": "철도종사원",
+        "items": [
+          {
+            "label": "운행",
+            "text": "기관사"
+          },
+          {
+            "label": "차량·장비",
+            "text": "차량·장비 관리원"
+          },
+          {
+            "label": "시설·전기",
+            "text": "시설관리원 및 전기원"
+          }
+        ]
+      },
+      "right": {
+        "title": "지하철종사원",
+        "items": [
+          {
+            "label": "승무사무소",
+            "text": "기관사"
+          },
+          {
+            "label": "시설사업소",
+            "text": "선로보수원"
+          },
+          {
+            "label": "철도토목사무소",
+            "text": "철도토목원"
+          }
+        ]
+      },
+      "note": "사무소·사업소 이름이 붙은 쪽은 지하철종사원",
+      "sourceRanges": [
+        {
+          "startLine": 332,
+          "endLine": 346,
+          "topic": "보류 근거·철도와 지하철의 구성"
+        }
+      ]
+    },
+    {
+      "id": "reservation-other-listed",
+      "title": "스크립트의 그 밖 보류 대상",
+      "subtitle": "동원이나 훈련을 함께 보류하는 근거",
+      "kind": "compare",
+      "left": {
+        "title": "함께 열거된 대상",
+        "items": [
+          {
+            "label": "외교부",
+            "text": "외신업무 담당 공무원"
+          },
+          {
+            "label": "어업지도선",
+            "text": "승선요원"
+          }
+        ]
+      },
+      "right": {
+        "title": "시행규칙 제17조제2항",
+        "items": [
+          {
+            "label": "효과",
+            "text": "각 호 어느 하나에 해당하면 동원이나 훈련을 보류"
+          },
+          {
+            "label": "근거",
+            "text": "영 제13조제1항제8호 및 영 제15조제3항"
+          }
+        ]
+      },
+      "note": "스크립트가 읽은 명단과 정확한 근거 항을 보존",
+      "sourceRanges": [
+        {
+          "startLine": 312,
+          "endLine": 312,
+          "topic": "시행규칙 제17조의 조문 번호"
+        },
+        {
+          "startLine": 332,
+          "endLine": 346,
+          "topic": "그 밖 대상과 보류 효과·근거 조문"
+        }
+      ]
+    },
+    {
+      "id": "reservation-special-discretion",
+      "title": "국가기관 종사자 등의 특별 보류",
+      "subtitle": "기존 명단 밖에서 특히 필요한 사람",
+      "kind": "compare",
+      "left": {
+        "title": "대상·인정 조건",
+        "items": [
+          {
+            "label": "명단 밖",
+            "text": "제17조제2항에 따라 보류되는 사람 외"
+          },
+          {
+            "label": "종사 분야",
+            "text": "국가기관 등에 종사하는 사람"
+          },
+          {
+            "label": "필요 인정",
+            "text": "그 임무수행을 위하여 특히 필요하다고 인정"
+          }
+        ]
+      },
+      "right": {
+        "title": "국방부장관의 권한",
+        "items": [
+          {
+            "label": "범위",
+            "text": "동원 또는 훈련의 일부 또는 전부"
+          },
+          {
+            "label": "조치",
+            "text": "보류할 수 있음"
+          }
+        ]
+      },
+      "note": "국가기관 등을 국가중요시설로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 312,
+          "endLine": 312,
+          "topic": "시행규칙 제17조의 조문 번호"
+        },
+        {
+          "startLine": 348,
+          "endLine": 362,
+          "topic": "특별 보류의 주체·조건·범위·재량"
+        }
+      ]
+    },
+    {
+      "id": "delay-application-deadline",
+      "title": "동원 연기원서 제출 기한",
+      "subtitle": "명령 수령일과 사전 명령서의 지정 일시",
+      "kind": "compare",
+      "left": {
+        "title": "일반 동원명령 수령",
+        "items": [
+          {
+            "label": "기산·기한",
+            "text": "동원명령을 받은 날부터 2일 안"
+          },
+          {
+            "label": "제출 서류",
+            "text": "동원 연기원서"
+          }
+        ]
+      },
+      "right": {
+        "title": "사전 동원명령서 수령",
+        "items": [
+          {
+            "label": "특별 기한",
+            "text": "시행령 제11조제4항의 지정된 일시 안"
+          },
+          {
+            "label": "공통 제출처",
+            "text": "소속 예비군중대장에게 제출하여야 함"
+          }
+        ]
+      },
+      "note": "연기원서 기산은 받은 날, 응소시간 기산은 발령 후",
+      "sourceRanges": [
+        {
+          "startLine": 237,
+          "endLine": 259,
+          "topic": "응소시간 기산과 구별"
+        },
+        {
+          "startLine": 364,
+          "endLine": 378,
+          "topic": "연기원서 기한·예외·제출처"
+        }
+      ]
+    },
+    {
+      "id": "delay-proxy-oral",
+      "title": "연기원서 대리·구술 신청",
+      "subtitle": "본인 제출 곤란과 서면 제출 곤란을 구분",
+      "kind": "compare",
+      "left": {
+        "title": "본인이 제출할 수 없음",
+        "items": [
+          {
+            "label": "대리 가능",
+            "text": "본인의 세대주나 가족 중 성년자 또는 본인의 고용주"
+          },
+          {
+            "label": "처리",
+            "text": "대리인이 제출하게 할 수 있음"
+          }
+        ]
+      },
+      "right": {
+        "title": "서면 제출이 불가능",
+        "items": [
+          {
+            "label": "사유",
+            "text": "천재지변 또는 그 밖의 부득이한 사유"
+          },
+          {
+            "label": "신청 방법",
+            "text": "구술이나 그 밖의 방법으로 신청할 수 있음"
+          },
+          {
+            "label": "뒤의 보완",
+            "text": "원서를 제출할 수 없던 사유가 끝나면 지체 없이 연기원서와 증명서류 제출"
+          }
+        ]
+      },
+      "note": "구술 신청 뒤에도 서류 보완이 필요",
+      "sourceRanges": [
+        {
+          "startLine": 380,
+          "endLine": 409,
+          "topic": "대리 제출·서면 불가시 신청·사후 보완"
+        }
+      ]
+    },
+    {
+      "id": "delay-report-and-moving",
+      "title": "중대장의 통보와 대원의 전출 신고",
+      "subtitle": "늦추는 신청과 지역을 떠나는 신고를 구별",
+      "kind": "compare",
+      "left": {
+        "title": "연기 신청을 받은 중대장",
+        "items": [
+          {
+            "label": "기한",
+            "text": "지체 없이 통보"
+          },
+          {
+            "label": "통보 상대",
+            "text": "동원명령을 발령한 수임군부대의 장 또는 수탁경찰서장"
+          }
+        ]
+      },
+      "right": {
+        "title": "동원지역에서 전출하는 대원",
+        "items": [
+          {
+            "label": "적용 상황",
+            "text": "동원명령이 발령된 지역에 거주하는 대원이 다른 지역으로 거주지를 옮김"
+          },
+          {
+            "label": "신고 내용",
+            "text": "전출 목적·전출지·전출일"
+          },
+          {
+            "label": "신고 상대",
+            "text": "소속 예비군중대장"
+          }
+        ]
+      },
+      "note": "연기 처리 통보와 전출 신고 모두 소속 관계를 따라감",
+      "sourceRanges": [
+        {
+          "startLine": 411,
+          "endLine": 439,
+          "topic": "연기원서 수령 통보와 거주지 이동 신고"
+        }
+      ]
+    },
+    {
+      "id": "reservation-versus-delay",
+      "title": "보류와 연기의 요건을 비교",
+      "subtitle": "근거·사유·제출 기한을 한 번 더 구별",
+      "kind": "compare",
+      "left": {
+        "title": "보류",
+        "items": [
+          {
+            "label": "근거",
+            "text": "법 제5조제1항 단서"
+          },
+          {
+            "label": "구별 기준",
+            "text": "법령에서 정한 직위·대상 등"
+          },
+          {
+            "label": "원서 기한",
+            "text": "이 강의의 보류원서 규정에는 며칠이라는 제출 기한이 없음"
+          }
+        ]
+      },
+      "right": {
+        "title": "연기",
+        "items": [
+          {
+            "label": "근거",
+            "text": "법 제5조제2항"
+          },
+          {
+            "label": "구별 기준",
+            "text": "명령을 받은 뒤 사유가 있고 본인이 원하는 경우"
+          },
+          {
+            "label": "원서 기한",
+            "text": "받은 날부터 2일, 사전 명령서는 지정된 일시 안"
+          }
+        ]
+      },
+      "note": "대리 제출은 두 원서 모두 본인 제출 불가와 같은 세 대상",
+      "sourceRanges": [
+        {
+          "startLine": 294,
+          "endLine": 310,
+          "topic": "보류 대리 제출"
+        },
+        {
+          "startLine": 368,
+          "endLine": 380,
+          "topic": "연기 기한·대리 제출"
+        },
+        {
+          "startLine": 394,
+          "endLine": 403,
+          "topic": "보류와 연기의 비교 설명"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "① 본법: 명령·보류·연기·전출·복종·해제",
+      "diagramIds": [
+        "mobilize-and-release",
+        "act-reservation-targets",
+        "act-delay-causes",
+        "mobilized-member-duties"
+      ]
+    },
+    {
+      "topic": "② 부르는 방법: 지휘·명령서·협조·제한·기록",
+      "diagramIds": [
+        "mobilization-command-path",
+        "mobilization-announcement",
+        "advance-order-authority",
+        "advance-order-recipient",
+        "local-announcement-support",
+        "mobilization-limits-methods",
+        "mobilization-rosters"
+      ]
+    },
+    {
+      "topic": "③ 응소시간: 6·24·48시간과 발령 기산",
+      "diagramIds": [
+        "response-hours"
+      ]
+    },
+    {
+      "topic": "④ 보류: 시행령·시행규칙 대상과 대리 제출",
+      "diagramIds": [
+        "reservation-public-roles",
+        "reservation-navigation",
+        "reservation-proxy",
+        "foreign-force-workers",
+        "rail-subway-reservation",
+        "reservation-other-listed",
+        "reservation-special-discretion"
+      ]
+    },
+    {
+      "topic": "⑤ 연기: 기한·대리·구술·통보·전출·보류 비교",
+      "diagramIds": [
+        "delay-application-deadline",
+        "delay-proxy-oral",
+        "delay-report-and-moving",
+        "reservation-versus-delay"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "강의 번호·원고 제목",
+      "설명 순서",
+      "주체·대상",
+      "의무·재량",
+      "기한·숫자",
+      "원칙·예외",
+      "오답과 정답 구별",
+      "병렬 또는 관계"
+    ],
+    "issues": [],
+    "sourceNotes": [
+      "시행규칙 제17조제2항의 대상은 원고 338행에서 실제 설명한 철도·지하철·외교부 외신업무 담당 공무원·어업지도선 승선요원을 보존했습니다. 원고가 읽지 않은 다른 법령 항목을 외부 자료로 보충하지 않았습니다."
+    ]
+  }
+}

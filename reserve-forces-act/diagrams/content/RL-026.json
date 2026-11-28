@@ -1,0 +1,621 @@
+{
+  "lessonId": "RL-026",
+  "lessonTitle": "예비군법 제14조의3, 예비군의 육성 및 지원 책임",
+  "diagrams": [
+    {
+      "id": "support-duty-council",
+      "title": "육성·지원 책임과 협의회",
+      "subtitle": "법 제14조의3제1항·제2항",
+      "kind": "rule",
+      "left": {
+        "title": "육성·지원 의무",
+        "items": [
+          {
+            "label": "책임 주체",
+            "text": "국가기관·지방자치단체의 장과 직장예비군이 편성된 직장의 장"
+          },
+          {
+            "label": "책임 범위",
+            "text": "관할구역 또는 해당 직장의 예비군을 육성·지원해야 함"
+          }
+        ]
+      },
+      "right": {
+        "title": "방위협의회 설치·운영",
+        "items": [
+          {
+            "label": "설치 단위",
+            "text": "각급 행정구역 및 직장 단위"
+          },
+          {
+            "label": "규정 형식",
+            "text": "구체적 범위와 운영에 필요한 사항은 대통령령으로 정함"
+          }
+        ]
+      },
+      "note": "육성·지원과 방위협의회 설치·운영은 모두 의무",
+      "sourceRanges": [
+        {
+          "startLine": 17,
+          "endLine": 59,
+          "topic": "육성·지원 책임과 협의회 설치·운영 의무"
+        }
+      ]
+    },
+    {
+      "id": "police-support-mobilization",
+      "title": "군이 동원할 때 경찰의 지원",
+      "subtitle": "법 제14조의3제3항 · 동원하는 사람과 돕는 사람",
+      "kind": "compare",
+      "left": {
+        "title": "군부대의 장",
+        "items": [
+          {
+            "label": "동원",
+            "text": "법 제5조제1항에 따라 예비군을 동원"
+          }
+        ]
+      },
+      "right": {
+        "title": "경찰서장",
+        "items": [
+          {
+            "label": "지원 의무",
+            "text": "군의 동원이 원활히 될 수 있도록 지원해야 함"
+          },
+          {
+            "label": "위탁과 구별",
+            "text": "예비군 사무를 위탁받은 경찰서장에게만 한정하지 않음"
+          }
+        ]
+      },
+      "note": "동원 주체는 군부대의 장, 지원 주체는 경찰서장",
+      "sourceRanges": [
+        {
+          "startLine": 61,
+          "endLine": 79,
+          "topic": "동원 지원의 두 주체와 수탁경찰서장 한정의 오류"
+        }
+      ]
+    },
+    {
+      "id": "five-support-items",
+      "title": "육성·지원의 다섯 사항",
+      "subtitle": "시행령 제32조제1항 · 법 제14조의3제1항의 구체화",
+      "kind": "rule",
+      "left": {
+        "title": "제1호부터 제3호",
+        "items": [
+          {
+            "label": "사무실",
+            "text": "예비군부대 사무실의 설치·운영·유지"
+          },
+          {
+            "label": "장비·물자",
+            "text": "예비군부대 운영을 위한 장비·물자 지원"
+          },
+          {
+            "label": "훈련장·시설",
+            "text": "예비군훈련장과 훈련시설의 유지 지원"
+          }
+        ]
+      },
+      "right": {
+        "title": "제4호와 제5호",
+        "items": [
+          {
+            "label": "지역방위작전 관련",
+            "text": "급식·수송·통신·의료·장비·물자 및 전투시설 지원"
+          },
+          {
+            "label": "사기·유대·홍보",
+            "text": "예비군대원 사기앙양, 민·관·군 유대 강화·홍보 등 육성에 필요한 사항"
+          }
+        ]
+      },
+      "note": "제4호는 지역방위작전과 관련된 지원, 제5호 사기앙양 대상은 예비군대원",
+      "sourceRanges": [
+        {
+          "startLine": 81,
+          "endLine": 81,
+          "topic": "시행령 제32조 도입"
+        },
+        {
+          "startLine": 83,
+          "endLine": 111,
+          "topic": "육성·지원 다섯 사항과 관련된·사기앙양 대상 구별"
+        }
+      ]
+    },
+    {
+      "id": "mobilized-meals",
+      "title": "동원된 예비군의 급식 지원",
+      "subtitle": "시행령 제32조제2항 · 지역과 직장을 구별",
+      "kind": "compare",
+      "left": {
+        "title": "동원된 지역예비군",
+        "items": [
+          {
+            "label": "지원 주체",
+            "text": "작전지역을 관할하는 지방자치단체의 장"
+          },
+          {
+            "label": "지역의 기준",
+            "text": "대원의 거주지가 아니라 실제 작전지역"
+          }
+        ]
+      },
+      "right": {
+        "title": "직장예비군",
+        "items": [
+          {
+            "label": "지원 주체",
+            "text": "해당 직장의 장"
+          },
+          {
+            "label": "책임 구별",
+            "text": "지역예비군과 직장예비군의 급식 지원 주체를 합치지 않음"
+          }
+        ]
+      },
+      "note": "지역예비군은 작전지역의 지방자치단체의 장, 직장예비군은 해당 직장의 장",
+      "sourceRanges": [
+        {
+          "startLine": 81,
+          "endLine": 81,
+          "topic": "시행령 제32조 도입"
+        },
+        {
+          "startLine": 113,
+          "endLine": 131,
+          "topic": "동원 급식의 두 지원 주체와 작전지역 기준"
+        }
+      ]
+    },
+    {
+      "id": "council-units",
+      "title": "방위협의회의 설치 단위",
+      "subtitle": "시행령 제33조 · 지역방위협의회와 직장방위협의회",
+      "kind": "compare",
+      "left": {
+        "title": "지역방위협의회",
+        "items": [
+          {
+            "label": "광역 단위",
+            "text": "특별시·광역시·특별자치시·도·특별자치도"
+          },
+          {
+            "label": "기초·생활 단위",
+            "text": "시·군·자치구·읍·면·동"
+          },
+          {
+            "label": "포함 범위",
+            "text": "각급 출장소 포함"
+          }
+        ]
+      },
+      "right": {
+        "title": "직장방위협의회",
+        "items": [
+          {
+            "label": "일반",
+            "text": "직장 단위로 설치·운영"
+          },
+          {
+            "label": "통합 편성",
+            "text": "제5조제6항제1호에 따라 통합 편성한 경우 산업단지 단위"
+          }
+        ]
+      },
+      "note": "각급 출장소는 지역 단위에 포함되며, 직장 통합 편성의 단위는 산업단지",
+      "sourceRanges": [
+        {
+          "startLine": 133,
+          "endLine": 151,
+          "topic": "협의회 구분과 지역·직장 설치 단위"
+        }
+      ]
+    },
+    {
+      "id": "council-deliberations",
+      "title": "협의회의 여섯 심의 사항",
+      "subtitle": "시행령 제34조 · 작전·훈련과 지원 범위",
+      "kind": "rule",
+      "left": {
+        "title": "수단·급식·사기",
+        "items": [
+          {
+            "label": "차량·선박·시설",
+            "text": "지역방위작전 시 지원"
+          },
+          {
+            "label": "급식",
+            "text": "지역방위작전 참가 예비군의 급식 지원"
+          },
+          {
+            "label": "사기·유대",
+            "text": "지역방위작전 및 훈련 참가 예비군의 사기앙양과 민·관·군 유대 강화"
+          }
+        ]
+      },
+      "right": {
+        "title": "전파·통합직장·안건",
+        "items": [
+          {
+            "label": "동원명령 전파",
+            "text": "지역방위작전 동원명령 발령의 전파"
+          },
+          {
+            "label": "통합직장예비군",
+            "text": "산업단지 직장방위협의회에 한해 육성·지원 심의"
+          },
+          {
+            "label": "그 밖의 안건",
+            "text": "협의회 의장 또는 위원이 제출한 안건"
+          }
+        ]
+      },
+      "note": "급식 심의는 작전 참가자가 대상이며, 부상 보상심의는 이 협의회의 사무가 아님",
+      "sourceRanges": [
+        {
+          "startLine": 153,
+          "endLine": 172,
+          "topic": "여섯 심의 사항과 작전·훈련 및 보상심의의 구별"
+        }
+      ]
+    },
+    {
+      "id": "regional-council-chairs",
+      "title": "지역방위협의회의 의장",
+      "subtitle": "시행령 제35조 · 행정구역별 의장 직위를 모두 확인",
+      "kind": "rule",
+      "left": {
+        "title": "광역 단위",
+        "items": [
+          {
+            "label": "시",
+            "text": "특별시장·광역시장·특별자치시장"
+          },
+          {
+            "label": "도",
+            "text": "도지사·특별자치도지사"
+          }
+        ]
+      },
+      "right": {
+        "title": "기초·생활 단위",
+        "items": [
+          {
+            "label": "시·군·구",
+            "text": "시장·군수·구청장"
+          },
+          {
+            "label": "읍·면·동",
+            "text": "읍장·면장·동장"
+          },
+          {
+            "label": "포함되는 직위",
+            "text": "제주의 행정시장과 출장소장"
+          }
+        ]
+      },
+      "note": "그 행정구역의 장이 지역방위협의회의 의장",
+      "sourceRanges": [
+        {
+          "startLine": 174,
+          "endLine": 176,
+          "topic": "제35조 지역 협의회 의장의 전체 직위"
+        }
+      ]
+    },
+    {
+      "id": "council-chairs",
+      "title": "세 협의회의 의장",
+      "subtitle": "시행령 제35조 · 지역·직장·산업단지",
+      "kind": "compare",
+      "left": {
+        "title": "지역방위협의회",
+        "items": [
+          {
+            "label": "해당 구역의 장",
+            "text": "특별시장부터 동장까지 해당 행정구역의 장"
+          },
+          {
+            "label": "포함되는 직위",
+            "text": "제주의 행정시장과 출장소장도 포함"
+          }
+        ]
+      },
+      "right": {
+        "title": "직장방위협의회",
+        "items": [
+          {
+            "label": "일반 직장",
+            "text": "직장의 장"
+          },
+          {
+            "label": "산업단지",
+            "text": "산업단지를 관리하는 대표자"
+          }
+        ]
+      },
+      "note": "산업단지 의장은 산업단지를 관리하는 대표자",
+      "sourceRanges": [
+        {
+          "startLine": 174,
+          "endLine": 186,
+          "topic": "지역·직장·산업단지의 의장"
+        }
+      ]
+    },
+    {
+      "id": "regional-workplace-members",
+      "title": "지역과 직장의 위원",
+      "subtitle": "시행령 제35조 · 위촉과 임명",
+      "kind": "compare",
+      "left": {
+        "title": "지역방위협의회",
+        "items": [
+          {
+            "label": "선정 대상",
+            "text": "관할구역의 각급 국가기관·지방자치단체·군부대의 장 및 주민"
+          },
+          {
+            "label": "선정 방식",
+            "text": "의장이 위촉"
+          }
+        ]
+      },
+      "right": {
+        "title": "직장방위협의회",
+        "items": [
+          {
+            "label": "선정 대상",
+            "text": "직장예비군부대 지휘관 및 해당 직장의 간부급 직원"
+          },
+          {
+            "label": "선정 방식",
+            "text": "의장이 임명"
+          }
+        ]
+      },
+      "note": "지역은 의장이 위촉하고, 일반 직장은 의장이 임명",
+      "sourceRanges": [
+        {
+          "startLine": 174,
+          "endLine": 174,
+          "topic": "시행령 제35조 도입"
+        },
+        {
+          "startLine": 188,
+          "endLine": 210,
+          "topic": "지역과 일반 직장의 위원 구성·선정 방식"
+        }
+      ]
+    },
+    {
+      "id": "industrial-members",
+      "title": "산업단지 협의회의 위원",
+      "subtitle": "시행령 제35조 · 일반 직장과 다른 위촉 방식",
+      "kind": "rule",
+      "left": {
+        "title": "위원이 될 수 있는 사람",
+        "items": [
+          {
+            "label": "통합부대",
+            "text": "통합직장예비군부대의 지휘관"
+          },
+          {
+            "label": "방위기관",
+            "text": "방위관련 기관의 관계관"
+          },
+          {
+            "label": "기업체",
+            "text": "산업단지에 있는 기업체의 대표"
+          }
+        ]
+      },
+      "right": {
+        "title": "선정하는 의장",
+        "items": [
+          {
+            "label": "의장",
+            "text": "산업단지를 관리하는 대표자"
+          },
+          {
+            "label": "선정 방식",
+            "text": "정해진 대상 중에서 위원을 위촉"
+          }
+        ]
+      },
+      "note": "산업단지 직장방위협의회 위원은 의장이 위촉",
+      "sourceRanges": [
+        {
+          "startLine": 174,
+          "endLine": 174,
+          "topic": "시행령 제35조 도입"
+        },
+        {
+          "startLine": 176,
+          "endLine": 186,
+          "topic": "산업단지 의장"
+        },
+        {
+          "startLine": 192,
+          "endLine": 210,
+          "topic": "산업단지 위원과 위촉 방식"
+        }
+      ]
+    },
+    {
+      "id": "chair-and-meetings",
+      "title": "의장 직무와 회의 개최",
+      "subtitle": "시행령 제36조·제37조제1항·제2항",
+      "kind": "compare",
+      "left": {
+        "title": "의장과 직무대행",
+        "items": [
+          {
+            "label": "의장 직무",
+            "text": "협의회 대표·업무 총괄, 회의 소집 및 회의의 의장"
+          },
+          {
+            "label": "직무대행",
+            "text": "부득이하게 직무를 수행할 수 없으면 의장이 미리 지명한 위원이 대행"
+          }
+        ]
+      },
+      "right": {
+        "title": "정기회의와 임시회의",
+        "items": [
+          {
+            "label": "정기회의",
+            "text": "분기별로 한 차례 개최"
+          },
+          {
+            "label": "임시회의",
+            "text": "의장이 필요하다고 인정할 때 수시로 개최"
+          }
+        ]
+      },
+      "note": "회의 이름은 정기회의와 임시회의이며, 수시로는 임시회의의 개최 방식",
+      "sourceRanges": [
+        {
+          "startLine": 212,
+          "endLine": 228,
+          "topic": "의장 직무·대행과 회의의 구분·개최 시기"
+        }
+      ]
+    },
+    {
+      "id": "quorum-other-rules",
+      "title": "의결 정족수와 나머지 운영",
+      "subtitle": "시행령 제37조제3항·제38조",
+      "kind": "compare",
+      "left": {
+        "title": "개의와 의결",
+        "items": [
+          {
+            "label": "개의",
+            "text": "재적위원 과반수 출석"
+          },
+          {
+            "label": "의결",
+            "text": "출석위원 과반수 찬성"
+          }
+        ]
+      },
+      "right": {
+        "title": "운영 규정의 구분",
+        "items": [
+          {
+            "label": "법에서 위임한 범위",
+            "text": "협의회의 구체적 범위·운영은 대통령령으로 정함"
+          },
+          {
+            "label": "시행령 밖의 세부",
+            "text": "이 영에서 규정한 사항 외의 운영에 필요한 사항은 국방부장관이 정함"
+          }
+        ]
+      },
+      "note": "개의는 재적위원, 의결은 출석위원을 기준으로 각각 과반수",
+      "sourceRanges": [
+        {
+          "startLine": 39,
+          "endLine": 55,
+          "topic": "협의회 범위·운영의 대통령령 위임"
+        },
+        {
+          "startLine": 214,
+          "endLine": 214,
+          "topic": "시행령 제37조 도입"
+        },
+        {
+          "startLine": 230,
+          "endLine": 236,
+          "topic": "회의 정족수와 국방부장관의 나머지 운영사항 규정"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "육성·지원 책임과 협의회 설치 의무",
+      "diagramIds": [
+        "support-duty-council"
+      ]
+    },
+    {
+      "topic": "군 동원 시 경찰서장의 지원",
+      "diagramIds": [
+        "police-support-mobilization"
+      ]
+    },
+    {
+      "topic": "육성·지원의 다섯 사항",
+      "diagramIds": [
+        "five-support-items"
+      ]
+    },
+    {
+      "topic": "동원 급식의 지역·직장 구별",
+      "diagramIds": [
+        "mobilized-meals"
+      ]
+    },
+    {
+      "topic": "협의회 구분과 설치 단위",
+      "diagramIds": [
+        "council-units"
+      ]
+    },
+    {
+      "topic": "협의회의 여섯 심의 사항",
+      "diagramIds": [
+        "council-deliberations"
+      ]
+    },
+    {
+      "topic": "지역·직장·산업단지 의장",
+      "diagramIds": [
+        "regional-council-chairs",
+        "council-chairs"
+      ]
+    },
+    {
+      "topic": "세 협의회의 위원과 위촉·임명",
+      "diagramIds": [
+        "regional-workplace-members",
+        "industrial-members"
+      ]
+    },
+    {
+      "topic": "의장 직무·대행과 정기·임시회의",
+      "diagramIds": [
+        "chair-and-meetings"
+      ]
+    },
+    {
+      "topic": "정족수와 나머지 운영사항",
+      "diagramIds": [
+        "quorum-other-rules"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "책임 주체",
+      "지원 범위",
+      "급식 지원 주체",
+      "협의회 단위",
+      "위원 구성",
+      "위촉·임명",
+      "주기·정족수",
+      "예외",
+      "설명 순서"
+    ],
+    "issues": []
+  }
+}

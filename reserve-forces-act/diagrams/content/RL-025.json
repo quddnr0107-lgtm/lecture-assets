@@ -1,0 +1,673 @@
+{
+  "lessonId": "RL-025",
+  "lessonTitle": "예비군법 제14조의2, 예비군부대 지휘관의 임무 및 결격사유",
+  "diagrams": [
+    {
+      "id": "statutory-duties",
+      "title": "지휘관의 네 가지 임무",
+      "subtitle": "법 제14조의2제1항 · 지휘·관리·참여·추가 임무",
+      "kind": "rule",
+      "left": {
+        "title": "지휘와 관리",
+        "items": [
+          {
+            "label": "지휘·통솔",
+            "text": "지휘계통에 따라 동원되거나 소집된 대원을 지휘·통솔"
+          },
+          {
+            "label": "관리",
+            "text": "예비군대원과 장비를 관리"
+          }
+        ]
+      },
+      "right": {
+        "title": "조사 참여와 추가 임무",
+        "items": [
+          {
+            "label": "자원조사 참여",
+            "text": "비상대비에 관한 법률 제10조제1항·제3항에 따른 자원조사에 참여"
+          },
+          {
+            "label": "추가 임무",
+            "text": "그 밖에 국방부령으로 정하는 임무 수행"
+          }
+        ]
+      },
+      "note": "자원조사는 참여이며, 추가 임무를 정하는 규정은 국방부령",
+      "sourceRanges": [
+        {
+          "startLine": 17,
+          "endLine": 39,
+          "topic": "본법의 지휘관 임무 네 갈래"
+        }
+      ]
+    },
+    {
+      "id": "appointment-eligibility",
+      "title": "임명 결격과 임명 주체",
+      "subtitle": "법 제14조의2제2항 · 시행규칙 제12조제1항",
+      "kind": "rule",
+      "left": {
+        "title": "임명할 수 없는 사람",
+        "items": [
+          {
+            "label": "결격 기준",
+            "text": "국가공무원법 제33조 각 호의 결격사유 중 어느 하나에 해당"
+          },
+          {
+            "label": "적용 범위",
+            "text": "본법의 임명 결격 기준에는 제5호 제외 단서가 없음"
+          }
+        ]
+      },
+      "right": {
+        "title": "임명의 원칙",
+        "items": [
+          {
+            "label": "임명 주체",
+            "text": "예비군부대 지휘관은 국방부장관이 임명"
+          }
+        ]
+      },
+      "note": "임명 결격 기준은 국가공무원법 제33조 각 호이며, 임명 주체는 국방부장관",
+      "sourceRanges": [
+        {
+          "startLine": 43,
+          "endLine": 67,
+          "topic": "결격 기준과 임명 주체"
+        },
+        {
+          "startLine": 183,
+          "endLine": 189,
+          "topic": "임명 결격에는 제5호 제외 단서가 없음"
+        }
+      ]
+    },
+    {
+      "id": "appointment-delegation",
+      "title": "임명권 위임의 두 짝",
+      "subtitle": "시행규칙 제12조제1항 단서 · 국방부장관이 위임 가능",
+      "kind": "compare",
+      "left": {
+        "title": "중대장 또는 소대장",
+        "items": [
+          {
+            "label": "임명권 대상",
+            "text": "중대장 또는 소대장"
+          },
+          {
+            "label": "받는 사람",
+            "text": "수임군부대의 장"
+          }
+        ]
+      },
+      "right": {
+        "title": "분대장",
+        "items": [
+          {
+            "label": "임명권 대상",
+            "text": "분대장"
+          },
+          {
+            "label": "받는 사람",
+            "text": "대대장 또는 중대장"
+          }
+        ]
+      },
+      "note": "중대장·소대장은 한 묶음이며, 분대장 임명권의 수임자는 대대장 또는 중대장",
+      "sourceRanges": [
+        {
+          "startLine": 53,
+          "endLine": 53,
+          "topic": "시행규칙 제12조 도입"
+        },
+        {
+          "startLine": 69,
+          "endLine": 83,
+          "topic": "임명권을 위임할 수 있는 대상과 수임자"
+        }
+      ]
+    },
+    {
+      "id": "workplace-rank-exception",
+      "title": "최종 선발과 계급 예외",
+      "subtitle": "시행규칙 제12조제2항·제3항",
+      "kind": "exception",
+      "left": {
+        "title": "임명 대상의 원칙",
+        "items": [
+          {
+            "label": "최종 선발",
+            "text": "선발 규칙에 따라 예비전력관리 업무담당자로 최종 선발된 사람을 임명하여야 함"
+          },
+          {
+            "label": "선발 단계",
+            "text": "필기시험 합격만으로 최종 선발을 대신하지 않음"
+          }
+        ]
+      },
+      "right": {
+        "title": "직장부대의 계급 예외",
+        "items": [
+          {
+            "label": "부대 조건",
+            "text": "소속 대원 전부가 훈련의 일부를 보류할 수 있는 직장예비군부대"
+          },
+          {
+            "label": "직위·계급",
+            "text": "여단장·연대장·대대장은 정해진 계급보다 한 계급 아래의 사람 중 임명 가능"
+          }
+        ]
+      },
+      "note": "대원 전부라는 조건, 세 직위, 한 계급 아래라는 폭을 함께 기억",
+      "sourceRanges": [
+        {
+          "startLine": 53,
+          "endLine": 53,
+          "topic": "시행규칙 제12조 도입"
+        },
+        {
+          "startLine": 85,
+          "endLine": 113,
+          "topic": "최종 선발된 사람 임명과 직장부대 계급 예외"
+        }
+      ]
+    },
+    {
+      "id": "appointment-reporting",
+      "title": "임명 통보와 분기 보고",
+      "subtitle": "시행규칙 제12조제4항·제5항 · 통보와 보고를 구별",
+      "kind": "deadline",
+      "left": {
+        "title": "5일 이내 통보",
+        "items": [
+          {
+            "label": "통보 주체",
+            "text": "수임군부대의 장"
+          },
+          {
+            "label": "통보 대상",
+            "text": "지방병무청장·경찰서장·지역 또는 직장방위협의회 의장"
+          },
+          {
+            "label": "서식",
+            "text": "별지 제13호서식으로 임명 사실을 각각 통보"
+          }
+        ]
+      },
+      "right": {
+        "title": "분기 말 기준 보고",
+        "items": [
+          {
+            "label": "다음 달 20일까지",
+            "text": "수임군부대의 장이 소속 각 군 참모총장에게 보고"
+          },
+          {
+            "label": "그 달 말일까지",
+            "text": "각 군 참모총장은 종합하여 국방부장관에게 보고"
+          }
+        ]
+      },
+      "note": "관계 기관에는 5일 이내 통보, 군 계통에는 다음 달 20일과 그 달 말일 보고",
+      "sourceRanges": [
+        {
+          "startLine": 53,
+          "endLine": 53,
+          "topic": "시행규칙 제12조 도입"
+        },
+        {
+          "startLine": 115,
+          "endLine": 149,
+          "topic": "임명 통보·분기 보고의 주체·대상·서식·기한"
+        }
+      ]
+    },
+    {
+      "id": "dismissal-process",
+      "title": "해임 사유의 통보와 건의",
+      "subtitle": "해임 사유에 해당하는 지휘관이 있을 때의 통보·건의·해임",
+      "kind": "process",
+      "left": {
+        "title": "통보와 건의",
+        "items": [
+          {
+            "label": "협의회 의장",
+            "text": "지역 또는 직장 방위협의회 의장이 수임군부대의 장에게 지체 없이 통보하여야 함"
+          },
+          {
+            "label": "수임군부대의 장",
+            "text": "통보를 받으면 국방부장관에게 해당 지휘관의 해임을 건의하여야 함"
+          }
+        ]
+      },
+      "right": {
+        "title": "해임 처리",
+        "items": [
+          {
+            "label": "국방부장관",
+            "text": "해임건의가 있으면 해당 지휘관을 해임해야 함"
+          },
+          {
+            "label": "기관 간 전달",
+            "text": "협의회 의장이 수임군부대의 장에게 알리는 행위는 통보"
+          }
+        ]
+      },
+      "note": "협의회 의장의 통보를 받은 수임군부대의 장이 장관에게 해임을 건의",
+      "sourceRanges": [
+        {
+          "startLine": 151,
+          "endLine": 173,
+          "topic": "해임 사유 통보와 해임 건의"
+        },
+        {
+          "startLine": 199,
+          "endLine": 209,
+          "topic": "해임건의에 따른 해임"
+        }
+      ]
+    },
+    {
+      "id": "dismissal-grounds",
+      "title": "해임 사유와 결격의 예외",
+      "subtitle": "시행규칙 제13조제1항 · 세 사유",
+      "kind": "compare",
+      "left": {
+        "title": "결격사유에 따른 해임",
+        "items": [
+          {
+            "label": "첫째 사유",
+            "text": "법 제14조의2제2항의 결격사유 해당"
+          },
+          {
+            "label": "제외 단서",
+            "text": "국가공무원법 제33조제5호 해당자는 이 해임 사유에서 제외"
+          }
+        ]
+      },
+      "right": {
+        "title": "나머지 두 사유",
+        "items": [
+          {
+            "label": "직권면직 사유",
+            "text": "군무원인사법 제28조제1항 해당"
+          },
+          {
+            "label": "근무성적",
+            "text": "종합평가 결과 지휘관으로 적당하지 않다고 인정"
+          }
+        ]
+      },
+      "note": "제33조제5호 제외는 해임 사유에만 붙으며 임명 결격 기준으로 옮기지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 175,
+          "endLine": 197,
+          "topic": "해임 사유 세 가지와 제33조제5호 제외"
+        }
+      ]
+    },
+    {
+      "id": "dismissal-authority-notice",
+      "title": "해임 권한과 사후 통보",
+      "subtitle": "국방부장관의 해임 담당 지정과 5일 이내 통보",
+      "kind": "compare",
+      "left": {
+        "title": "해임하게 할 수 있는 짝",
+        "items": [
+          {
+            "label": "중대장 또는 소대장",
+            "text": "수임군부대의 장으로 하여금 해임하게 할 수 있음"
+          },
+          {
+            "label": "분대장",
+            "text": "대대장 또는 중대장으로 하여금 해임하게 할 수 있음"
+          }
+        ]
+      },
+      "right": {
+        "title": "해임 사실 통보",
+        "items": [
+          {
+            "label": "누가·언제",
+            "text": "수임군부대의 장이 5일 이내에 통보"
+          },
+          {
+            "label": "누구에게",
+            "text": "지방병무청장·경찰서장·지역 또는 직장 방위협의회 의장"
+          },
+          {
+            "label": "어떤 서식",
+            "text": "별지 제13호서식으로 해임 사실을 통보"
+          }
+        ]
+      },
+      "note": "해임 권한의 두 짝은 임명권 위임과 같고, 해임 사실도 5일 이내 통보",
+      "sourceRanges": [
+        {
+          "startLine": 199,
+          "endLine": 221,
+          "topic": "해임 주체의 예외와 해임 사실 통보"
+        }
+      ]
+    },
+    {
+      "id": "detailed-duties-one",
+      "title": "지휘관의 세부 임무 ①",
+      "subtitle": "시행규칙 제14조제1항 · 제1호부터 제6호",
+      "kind": "rule",
+      "left": {
+        "title": "방위·대원·자원",
+        "items": [
+          {
+            "label": "제1호",
+            "text": "해당 지역 또는 직장의 방위와 그 대비"
+          },
+          {
+            "label": "제2호",
+            "text": "동원된 소속 예비군대원의 지휘·통솔"
+          },
+          {
+            "label": "제3호",
+            "text": "소속 예비군자원의 유지와 관리"
+          }
+        ]
+      },
+      "right": {
+        "title": "시설·통지·훈련 확인",
+        "items": [
+          {
+            "label": "제4호",
+            "text": "시설·장비 및 그 밖의 비품의 유지와 관리"
+          },
+          {
+            "label": "제5호",
+            "text": "동원명령의 통지 및 훈련 소집통지서의 전달"
+          },
+          {
+            "label": "제6호",
+            "text": "훈련참가자의 확인과 감독"
+          }
+        ]
+      },
+      "note": "동원명령은 통지하고, 훈련 소집통지서는 전달",
+      "sourceRanges": [
+        {
+          "startLine": 225,
+          "endLine": 236,
+          "topic": "지휘를 받는 관계와 세부 임무 제1호~제6호"
+        },
+        {
+          "startLine": 247,
+          "endLine": 255,
+          "topic": "동원명령의 통지와 소집통지서의 전달 구별"
+        }
+      ]
+    },
+    {
+      "id": "detailed-duties-two",
+      "title": "지휘관의 세부 임무 ②",
+      "subtitle": "시행규칙 제14조제1항 · 제7호부터 제11호",
+      "kind": "rule",
+      "left": {
+        "title": "훈련과 지휘관·대원",
+        "items": [
+          {
+            "label": "제7호",
+            "text": "예비군대원의 훈련 실시: 위임받은 경우로 한정"
+          },
+          {
+            "label": "제8호",
+            "text": "예하 지휘관의 임명 또는 임명 추천"
+          },
+          {
+            "label": "제9호",
+            "text": "파견 상근예비역의 지휘와 감독"
+          }
+        ]
+      },
+      "right": {
+        "title": "포상과 부대 운영",
+        "items": [
+          {
+            "label": "제10호",
+            "text": "소속 예비군대원의 포상 추천"
+          },
+          {
+            "label": "제11호",
+            "text": "그 밖에 부대 운영에 필요한 사항"
+          }
+        ]
+      },
+      "note": "관할 군부대의 장과 영 제28조제2항에 따라 위탁받은 경찰서장의 지휘를 받음",
+      "sourceRanges": [
+        {
+          "startLine": 225,
+          "endLine": 245,
+          "topic": "지휘 관계와 세부 임무 제7호~제11호"
+        }
+      ]
+    },
+    {
+      "id": "integrated-command-duties",
+      "title": "통합지휘관의 다섯 임무",
+      "subtitle": "시행규칙 제14조제1항 단서 · 수행 호를 한정",
+      "kind": "exception",
+      "left": {
+        "title": "제1호·제2호",
+        "items": [
+          {
+            "label": "제1호",
+            "text": "지역 또는 직장의 방위와 그 대비"
+          },
+          {
+            "label": "제2호",
+            "text": "동원된 소속 예비군대원의 지휘·통솔"
+          }
+        ]
+      },
+      "right": {
+        "title": "제6호·제7호·제11호",
+        "items": [
+          {
+            "label": "제6호",
+            "text": "훈련참가자의 확인과 감독"
+          },
+          {
+            "label": "제7호",
+            "text": "위임받은 경우에 한한 예비군대원 훈련 실시"
+          },
+          {
+            "label": "제11호",
+            "text": "그 밖에 부대 운영에 필요한 사항"
+          }
+        ]
+      },
+      "note": "통합지휘관은 제1·2·6·7·11호의 임무만 수행",
+      "sourceRanges": [
+        {
+          "startLine": 231,
+          "endLine": 245,
+          "topic": "임무별 정확한 명칭과 훈련의 위임 조건"
+        },
+        {
+          "startLine": 257,
+          "endLine": 257,
+          "topic": "통합지휘관의 다섯 임무 제한"
+        }
+      ]
+    },
+    {
+      "id": "office-and-communication",
+      "title": "사무를 수행하는 장소",
+      "subtitle": "시행규칙 제14조제2항: 평상시와 작전 시",
+      "kind": "compare",
+      "left": {
+        "title": "평상시",
+        "items": [
+          {
+            "label": "원칙",
+            "text": "해당 예비군부대의 사무소"
+          },
+          {
+            "label": "사무소가 없으면",
+            "text": "읍·면·동 사무소나 관할구역 내 국가 또는 지자체의 다른 사무소에서 수행 가능"
+          }
+        ]
+      },
+      "right": {
+        "title": "작전 시",
+        "items": [
+          {
+            "label": "경찰의 현장 사무소",
+            "text": "지구대 또는 파출소"
+          },
+          {
+            "label": "지정 장소",
+            "text": "군부대의 장이 지정하는 장소"
+          }
+        ]
+      },
+      "note": "작전 시 그 밖의 장소를 지정하는 주체는 군부대의 장",
+      "sourceRanges": [
+        {
+          "startLine": 259,
+          "endLine": 271,
+          "topic": "사무 장소의 원칙·사무소 부재·작전 시 예외"
+        }
+      ]
+    },
+    {
+      "id": "existing-communication",
+      "title": "부대 간 기존 통신망 활용",
+      "subtitle": "시행규칙 제14조제3항: 경찰 및 행정관서 시설망",
+      "kind": "rule",
+      "left": {
+        "title": "통신의 상대",
+        "items": [
+          {
+            "label": "예비군부대끼리",
+            "text": "예비군부대 상호 간 통신"
+          },
+          {
+            "label": "수임군부대와",
+            "text": "예비군부대와 수임군부대 간 통신"
+          }
+        ]
+      },
+      "right": {
+        "title": "활용할 기존 시설망",
+        "items": [
+          {
+            "label": "경찰",
+            "text": "경찰의 기존 통신시설망"
+          },
+          {
+            "label": "행정관서",
+            "text": "행정관서의 기존 통신시설망"
+          }
+        ]
+      },
+      "note": "예비군부대 간 또는 수임군부대와 통신할 때 기존 시설망을 활용한다.",
+      "sourceRanges": [
+        {
+          "startLine": 225,
+          "endLine": 225,
+          "topic": "시행규칙 제14조 도입"
+        },
+        {
+          "startLine": 273,
+          "endLine": 275,
+          "topic": "제3항의 통신 상대와 기존 경찰·행정관서 통신망"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "본법상 네 가지 임무",
+      "diagramIds": [
+        "statutory-duties"
+      ]
+    },
+    {
+      "topic": "임명 결격사유와 최종 선발",
+      "diagramIds": [
+        "appointment-eligibility",
+        "workplace-rank-exception"
+      ]
+    },
+    {
+      "topic": "국방부장관의 임명 및 임명권 위임",
+      "diagramIds": [
+        "appointment-eligibility",
+        "appointment-delegation"
+      ]
+    },
+    {
+      "topic": "직장부대 지휘관 계급 예외",
+      "diagramIds": [
+        "workplace-rank-exception"
+      ]
+    },
+    {
+      "topic": "임명 통보·분기 보고",
+      "diagramIds": [
+        "appointment-reporting"
+      ]
+    },
+    {
+      "topic": "해임 통보·건의·처리",
+      "diagramIds": [
+        "dismissal-process"
+      ]
+    },
+    {
+      "topic": "해임 사유 세 가지와 제5호 제외",
+      "diagramIds": [
+        "dismissal-grounds"
+      ]
+    },
+    {
+      "topic": "해임 권한의 예외와 5일 통보",
+      "diagramIds": [
+        "dismissal-authority-notice"
+      ]
+    },
+    {
+      "topic": "세부 임무 열한 가지와 지휘 관계",
+      "diagramIds": [
+        "detailed-duties-one",
+        "detailed-duties-two"
+      ]
+    },
+    {
+      "topic": "통합지휘관의 제한된 다섯 임무",
+      "diagramIds": [
+        "integrated-command-duties"
+      ]
+    },
+    {
+      "topic": "사무 장소와 통신시설망",
+      "diagramIds": [
+        "office-and-communication",
+        "existing-communication"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "주체",
+      "임명·해임 권한의 짝",
+      "결격사유와 제5호 제외",
+      "기한",
+      "열한 임무",
+      "통합지휘관의 다섯 임무",
+      "예외",
+      "설명 순서"
+    ],
+    "issues": []
+  }
+}

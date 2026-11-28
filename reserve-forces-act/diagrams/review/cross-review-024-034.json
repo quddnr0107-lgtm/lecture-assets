@@ -1,0 +1,547 @@
+{
+  "reviewer": "independent-agent",
+  "scope": "existing-script-only",
+  "lessons": [
+    {
+      "lessonId": "RL-024",
+      "status": "pass",
+      "diagramsReviewed": 8,
+      "contentSha256": "3b473125582e2e3ac45879ef352d23d7ea8becbb9f73520209ae221a005fff66",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        283
+      ],
+      "findingsResolved": [
+        {
+          "diagramIds": [
+            "entrust-police",
+            "urgent-mobilization"
+          ],
+          "finding": "필요한 경우의 위탁 조건과 사태 긴박성이 일부 축약됨",
+          "resolution": "조건을 본문에 명시하고 국방부장관의 전체 직함을 복원",
+          "sourceLines": [
+            55,
+            67,
+            83,
+            103
+          ]
+        },
+        {
+          "diagramIds": [
+            "oversight-command",
+            "reentrust-three"
+          ],
+          "finding": "지휘를 받아야 하는 의무와 재위탁할 수 있다는 재량이 압축 표기됨",
+          "resolution": "하여야 함과 할 수 있음을 원고대로 명시",
+          "sourceLines": [
+            133,
+            149,
+            179
+          ]
+        },
+        {
+          "diagramIds": [
+            "report-release"
+          ],
+          "finding": "동원·해제 보고 경찰서장의 제2항 적용 범위가 화면에서 빠짐",
+          "resolution": "위임·위탁 혼재에 새 용어를 덧붙이지 않고 제28조제2항에 따른 경찰서장으로 한정",
+          "sourceLines": [
+            213,
+            223
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "RL-025",
+      "status": "pass",
+      "diagramsReviewed": 13,
+      "contentSha256": "acbd26e652092ab798539db48922fbadb10ecee5d68d7934a6cc3a6184b0b08b",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        296
+      ],
+      "findingsResolved": [
+        {
+          "diagramIds": [
+            "workplace-rank-exception"
+          ],
+          "finding": "최종 선발자를 임명하여야 한다는 의무가 축약됨",
+          "resolution": "임명하여야 함으로 보정",
+          "sourceLines": [
+            87,
+            101
+          ]
+        },
+        {
+          "diagramIds": [
+            "dismissal-process"
+          ],
+          "finding": "해임 전의 사유 통보를 해임 사실 전달로 읽을 수 있고 통보·건의 의무가 압축됨",
+          "resolution": "제목을 해임 사유로 바로잡고 선행 조건과 두 의무를 명시",
+          "sourceLines": [
+            153,
+            173,
+            199
+          ]
+        },
+        {
+          "diagramIds": [
+            "dismissal-authority-notice"
+          ],
+          "finding": "해임하게 할 수 있는 권한의 주체가 같은 장에 드러나지 않음",
+          "resolution": "국방부장관을 부제에 명시",
+          "sourceLines": [
+            199,
+            209
+          ]
+        },
+        {
+          "diagramIds": [
+            "office-and-communication"
+          ],
+          "finding": "사무소 부재 시 다른 사무소를 사용할 수 있다는 가능 규정이 압축됨",
+          "resolution": "대체 사무소에서 수행 가능으로 보정",
+          "sourceLines": [
+            259,
+            271
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "RL-026",
+      "status": "pass",
+      "diagramsReviewed": 12,
+      "contentSha256": "6014422b42cfd8a8d7bb3f1ca6bb1aa15a0a490c80a3f40b0cdf557a7c122a8a",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        256
+      ],
+      "findingsResolved": [
+        {
+          "diagramIds": [
+            "council-units"
+          ],
+          "finding": "산업단지 단위의 적용을 모든 직장 통합 편성으로 확대해 읽을 수 있음",
+          "resolution": "제5조제6항제1호에 따른 통합 편성 조건을 명시",
+          "sourceLines": [
+            151
+          ]
+        },
+        {
+          "diagramIds": [
+            "council-chairs",
+            "regional-council-chairs"
+          ],
+          "finding": "지역 의장들을 특별시장부터 동장까지로 압축해 개별 직위가 생략됨",
+          "resolution": "원고의 전체 직위와 제주 행정시장·출장소장을 별도 한 장에 열거하여 큰 글씨 유지",
+          "sourceLines": [
+            176
+          ]
+        },
+        {
+          "diagramIds": [
+            "regional-workplace-members"
+          ],
+          "finding": "국가기관 대상의 각급 범위가 축약됨",
+          "resolution": "각급 표현 복원",
+          "sourceLines": [
+            190
+          ]
+        },
+        {
+          "diagramIds": [
+            "council-deliberations"
+          ],
+          "finding": "원고가 강조한 부상 보상심의와 협의회 심의의 경계가 노트에 명시되지 않음",
+          "resolution": "보상심의는 협의회 사무가 아님을 명시",
+          "sourceLines": [
+            164,
+            168,
+            172
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "RL-027",
+      "status": "pass",
+      "diagramsReviewed": 12,
+      "contentSha256": "e46814c8aafbfe4326adc201149df62f4435472636d07b123fa70cd068a379bf",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        270
+      ],
+      "findingsResolved": [
+        {
+          "diagramIds": [
+            "registration-evasion"
+          ],
+          "finding": "주민등록법의 신고·결과 근거 조문이 화면에서 생략됨",
+          "resolution": "노트에 제10조와 제8조 또는 제20조를 연결",
+          "sourceLines": [
+            39
+          ]
+        },
+        {
+          "diagramIds": [
+            "commander-position"
+          ],
+          "finding": "지위 이용 행위가 소속 대원을 상대로 한다는 범위가 빠짐",
+          "resolution": "소속 대원과 특정 정당이나 후보의 범위를 명시하고 처벌 대상 표기로 정정",
+          "sourceLines": [
+            123,
+            125,
+            127,
+            141
+          ]
+        },
+        {
+          "diagramIds": [
+            "weapon-negligence"
+          ],
+          "finding": "경비 임무 수행자와 보관 책임자의 선택 관계가 압축됨",
+          "resolution": "열 제목에 또는 관계를 명시",
+          "sourceLines": [
+            97,
+            117
+          ]
+        },
+        {
+          "diagramIds": [
+            "unreported-changes"
+          ],
+          "finding": "다른 지역 이동이라는 축약이 일시적인 이동까지 넓게 읽힐 수 있음",
+          "resolution": "거주지를 옮기는 경우로 한정",
+          "sourceLines": [
+            240,
+            242
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "RL-028",
+      "status": "pass",
+      "diagramsReviewed": 4,
+      "contentSha256": "ebc9930a3b03c2c6b30a579d7412d2d056219f74d5d48efd9778c265419d8a6b",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        119
+      ],
+      "findingsResolved": [
+        {
+          "diagramIds": [
+            "criminal-administrative"
+          ],
+          "finding": "원고의 전과 유무 설명이 전과의 문제라는 추상적인 표현으로 축약됨",
+          "resolution": "원고의 형벌·행정상 제재 및 전과 유무를 직접 표시하고 원고 밖 용어 행정질서벌을 행정상 제재로 조정",
+          "sourceLines": [
+            9,
+            11,
+            110
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "RL-029",
+      "status": "pass",
+      "diagramsReviewed": 9,
+      "contentSha256": "dc2c508bddc921e3d519a90c30453acfaa3cc25748614875dc746c76d6a2c62d",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        221
+      ],
+      "findingsResolved": [
+        {
+          "diagramIds": [
+            "award-exception"
+          ],
+          "finding": "대신 수여하게 하는 주체가 군부대의 장인 것으로 읽힐 수 있는 노트",
+          "resolution": "수여하게 할 수 있는 주체인 국방부장관을 명시",
+          "sourceLines": [
+            85,
+            87
+          ]
+        },
+        {
+          "diagramIds": [
+            "return-grounds",
+            "renewal-and-storage",
+            "damage-loss"
+          ],
+          "finding": "반납·보관·새 수여·보고 의무가 명사형으로 압축됨",
+          "resolution": "각 조문의 하여야 한다와 받아야 한다를 표시",
+          "sourceLines": [
+            129,
+            143,
+            157,
+            177,
+            193,
+            203
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "RL-030",
+      "status": "pass",
+      "diagramsReviewed": 17,
+      "contentSha256": "234b0323f69be0ca6690f3ee492e620dabbbb64ad3121ea97611a0aea3595bb5",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        291
+      ],
+      "findingsResolved": [
+        {
+          "diagramIds": [
+            "regular-special"
+          ],
+          "finding": "각 군 참모총장이 특별감사를 실시하게 할 수 있다는 문장이 권한 주체를 뒤집어 읽게 함",
+          "resolution": "국방부장관이 실시하게 하는 주체이고 각 군 참모총장은 실행 상대임을 명시",
+          "sourceLines": [
+            39,
+            45,
+            51,
+            55
+          ]
+        },
+        {
+          "diagramIds": [
+            "commission-members",
+            "plan-report",
+            "advance-notice"
+          ],
+          "finding": "협의·계획 보고·변경 사전 통보 의무가 압축됨",
+          "resolution": "각각 협의하여야 함·보고하여야 함·통보하여야 함을 표시",
+          "sourceLines": [
+            95,
+            107,
+            179,
+            185,
+            187
+          ]
+        },
+        {
+          "diagramIds": [
+            "cooperation-feedback"
+          ],
+          "finding": "서면 제출 요구 상대인 관계자가 생략됨",
+          "resolution": "관계자에게 요구할 수 있음을 명시",
+          "sourceLines": [
+            205
+          ]
+        },
+        {
+          "diagramIds": [
+            "audit-guidelines",
+            "urgent-formal-action",
+            "accountability-followup"
+          ],
+          "finding": "원고 표현 건전한 육성·각 군 참모총장·문책 필요 인정이 일부 축약됨",
+          "resolution": "본래 표현과 인정 조건을 복원",
+          "sourceLines": [
+            122,
+            245,
+            251
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "RL-031",
+      "status": "pass",
+      "diagramsReviewed": 5,
+      "contentSha256": "6f85d3e20c40d428485debc8a508bd7509d73c837fe932e749810e6c69f976d6",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        86
+      ],
+      "findingsResolved": [
+        {
+          "diagramIds": [
+            "nurture-support"
+          ],
+          "finding": "법정 정의의 최고도 유지·임무수행 보장이 설명형으로 완화됨",
+          "resolution": "최고도로 유지·성공적인 임무수행 보장·행정 재정 및 역무 표현을 복원",
+          "sourceLines": [
+            25,
+            27,
+            29,
+            33
+          ]
+        },
+        {
+          "diagramIds": [
+            "applicable-range",
+            "responsible-institutions"
+          ],
+          "finding": "직장예비군의 편성 조건과 국가기관장의 육성 책임이 축약됨",
+          "resolution": "직장예비군 편성 조건과 육성·지원 양쪽 책임을 명시하고 직장의 장을 원고식으로 표기",
+          "sourceLines": [
+            39,
+            43,
+            45,
+            49,
+            53,
+            55,
+            59,
+            61
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "RL-032",
+      "status": "pass",
+      "diagramsReviewed": 14,
+      "contentSha256": "d327bb45d46d33cf21a74df27245c45ea79319d40a4da8a0c5db00d794edc4ef",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        122
+      ],
+      "findingsResolved": [
+        {
+          "diagramIds": [
+            "midterm-preparation",
+            "annual-requests",
+            "confirmation-cooperation",
+            "change-permission",
+            "use-and-settlement"
+          ],
+          "finding": "수립·통보·보고·제출·협조·사전 동의 및 용도 제한이 명사형으로 압축됨",
+          "resolution": "원고에 의무로 표현된 문장을 의무·금지 형태로 표시",
+          "sourceLines": [
+            31,
+            35,
+            43,
+            45,
+            55,
+            79,
+            95,
+            101
+          ]
+        },
+        {
+          "diagramIds": [
+            "annual-requests",
+            "annual-deliberation"
+          ],
+          "finding": "연도계획의 수립 주체와 지원안의 다음 해 대상이 화면에서 일부 생략됨",
+          "resolution": "수임군부대의 장과 다음 해 계획·지원안을 명시",
+          "sourceLines": [
+            53,
+            65
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "RL-033",
+      "status": "pass",
+      "diagramsReviewed": 7,
+      "contentSha256": "edc0481d36a3129fa8a9e2d58dd9e2e8deef5bd0bf20555a0420b11ab9e8f6f3",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        105
+      ],
+      "findingsResolved": [
+        {
+          "diagramIds": [
+            "workplace-midterm"
+          ],
+          "finding": "직장의 장이 직장예비군이 편성된 직장의 장이라는 정의가 화면에서 생략됨",
+          "resolution": "정의 항목과 통합직장의 대표자 정의를 명시",
+          "sourceLines": [
+            11,
+            15,
+            17
+          ]
+        },
+        {
+          "diagramIds": [
+            "workplace-midterm",
+            "midterm-confirm-notify",
+            "annual-confirm-notify",
+            "bylaws-formation"
+          ],
+          "finding": "수립·통보·회칙 시행 의무가 명사형으로 압축됨",
+          "resolution": "원고의 하여야 함을 보존하고 직장예비군부대의 장 표기를 복원",
+          "sourceLines": [
+            15,
+            29,
+            47,
+            51,
+            53,
+            63,
+            73,
+            77
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "RL-034",
+      "status": "pass",
+      "diagramsReviewed": 4,
+      "contentSha256": "5084d8a7370aed9647b73a69a5568b97c5946cb3685acd8b8768d66e34672f73",
+      "sourceReadInFull": true,
+      "sourceLinesRead": [
+        1,
+        89
+      ],
+      "findingsResolved": [
+        {
+          "diagramIds": [
+            "oversight-receiving-units"
+          ],
+          "finding": "검사 대상의 장부·서류 또는 내용 관계가 가운데점 나열로 압축됨",
+          "resolution": "또는을 명시해 원고의 선택 관계를 보존",
+          "sourceLines": [
+            17,
+            23
+          ]
+        },
+        {
+          "diagramIds": [
+            "annual-performance-report",
+            "completion-notification"
+          ],
+          "finding": "통보와 보고의 의무가 압축되고 완료 노트의 문장이 양쪽 모두 보고로 읽힐 수 있음",
+          "resolution": "연간 보고·통보 기한과 의무를 연결하고 완료 통보·후속 회의 보고를 각각 명시",
+          "sourceLines": [
+            41,
+            53,
+            57,
+            73
+          ]
+        }
+      ]
+    }
+  ],
+  "issues": [],
+  "verification": {
+    "method": "full-script-and-all-diagram-content-comparison",
+    "sourceRoot": "/workspace/scratch/94ea250da362/source-data",
+    "sourceBasis": "existing-course-80-scripts-only",
+    "svgValidation": {
+      "lessons": 11,
+      "diagrams": 105,
+      "textBoxes": 1946,
+      "errors": 0
+    },
+    "rasterVisualReview": "handled-separately-by-root"
+  }
+}

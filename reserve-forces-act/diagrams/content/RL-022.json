@@ -1,0 +1,314 @@
+{
+  "lessonId": "RL-022",
+  "lessonTitle": "예비군법 제12조, 정치운동 등의 금지",
+  "diagrams": [
+    {
+      "id": "political-ban-persons",
+      "title": "지위를 이용한 행위의 금지",
+      "subtitle": "법 제12조 제1항의 주체와 조건",
+      "kind": "compare",
+      "left": {
+        "title": "금지를 받는 사람",
+        "items": [
+          {
+            "label": "예비군부대의 지휘관",
+            "text": "해당 예비군부대를 지휘하는 사람"
+          },
+          {
+            "label": "외부강사",
+            "text": "예비군훈련 중 외부강사 자격으로 교육이나 강의를 하는 사람"
+          }
+        ]
+      },
+      "right": {
+        "title": "행위의 조건",
+        "items": [
+          {
+            "label": "상대",
+            "text": "소속 예비군대원을 상대로 함"
+          },
+          {
+            "label": "수단",
+            "text": "그 지위를 이용함"
+          }
+        ]
+      },
+      "note": "외부강사의 원문 조건은 예비군훈련 중",
+      "sourceRanges": [
+        {
+          "startLine": 15,
+          "endLine": 45,
+          "topic": "제1항의 주체와 조건"
+        }
+      ]
+    },
+    {
+      "id": "three-prohibited-conducts",
+      "title": "금지하는 세 가지 행위",
+      "subtitle": "법 제12조 제1항 각 호",
+      "kind": "rule",
+      "left": {
+        "title": "임무와 권리",
+        "items": [
+          {
+            "label": "임무 외 업무",
+            "text": "법에 규정된 임무 밖의 업무를 하게 하는 행위"
+          },
+          {
+            "label": "권리 방해",
+            "text": "예비군대원의 권리 행사를 방해하는 행위"
+          }
+        ]
+      },
+      "right": {
+        "title": "정당·후보에 대한 행위",
+        "items": [
+          {
+            "label": "대상",
+            "text": "특정 정당이나 후보"
+          },
+          {
+            "label": "행위",
+            "text": "지지 또는 반대하는 행위"
+          }
+        ]
+      },
+      "note": "세 행위 중 어느 하나도 지위를 이용해 해서는 안 됨",
+      "sourceRanges": [
+        {
+          "startLine": 17,
+          "endLine": 17,
+          "topic": "어느 하나의 금지"
+        },
+        {
+          "startLine": 47,
+          "endLine": 61,
+          "topic": "금지 행위 세 가지"
+        }
+      ]
+    },
+    {
+      "id": "organized-political-activity",
+      "title": "편성된 조직체의 정치운동",
+      "subtitle": "법 제12조 제2항의 금지 범위",
+      "kind": "compare",
+      "left": {
+        "title": "조문이 금지하는 것",
+        "items": [
+          {
+            "label": "주체의 자격",
+            "text": "예비군이 편성된 조직체로서 행동"
+          },
+          {
+            "label": "금지",
+            "text": "정치운동에 관여할 수 없음"
+          }
+        ]
+      },
+      "right": {
+        "title": "구별해야 할 대상",
+        "items": [
+          {
+            "label": "개인과 조직",
+            "text": "개인의 정치 참여와 조직체의 정치 관여를 구별"
+          },
+          {
+            "label": "핵심 표현",
+            "text": "편성된 조직체로서라는 한정을 생략하지 않음"
+          }
+        ]
+      },
+      "note": "제2항의 주어는 지휘관 한 사람이 아니라 편성된 조직체",
+      "sourceRanges": [
+        {
+          "startLine": 63,
+          "endLine": 83,
+          "topic": "제2항의 조직체 한정"
+        }
+      ]
+    },
+    {
+      "id": "commander-and-organization-penalty",
+      "title": "제1항과 제2항의 벌칙",
+      "subtitle": "금지 조문의 주체와 벌칙의 주체를 대조",
+      "kind": "compare",
+      "left": {
+        "title": "제1항 위반 지휘관",
+        "items": [
+          {
+            "label": "벌칙 대상",
+            "text": "예비군부대의 지휘관"
+          },
+          {
+            "label": "형벌",
+            "text": "2년 이하 징역 또는 2천만원 이하 벌금"
+          }
+        ]
+      },
+      "right": {
+        "title": "제2항의 조직 정치 관여",
+        "items": [
+          {
+            "label": "행위",
+            "text": "편성된 조직체로서 정치운동에 관여"
+          },
+          {
+            "label": "형벌",
+            "text": "3년 이하 징역 또는 3천만원 이하 벌금"
+          }
+        ]
+      },
+      "note": "외부강사도 제1항의 금지 대상이지만 이 2년 벌칙의 지휘관에 포함되지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 85,
+          "endLine": 95,
+          "topic": "두 벌칙의 구별"
+        },
+        {
+          "startLine": 111,
+          "endLine": 115,
+          "topic": "외부강사와 벌칙 주체"
+        }
+      ]
+    },
+    {
+      "id": "training-offense-comparison",
+      "title": "훈련 불참·대리 훈련과 비교",
+      "subtitle": "원고에서 함께 정리한 제15조 벌칙",
+      "kind": "compare",
+      "left": {
+        "title": "훈련 관련 행위",
+        "items": [
+          {
+            "label": "훈련 불참",
+            "text": "정당한 사유 없이 훈련을 받지 않은 사람"
+          },
+          {
+            "label": "대리 훈련",
+            "text": "대리 훈련을 받은 사람"
+          }
+        ]
+      },
+      "right": {
+        "title": "형벌의 선택지",
+        "items": [
+          {
+            "label": "징역 또는 벌금",
+            "text": "1년 이하 징역 또는 1천만원 이하 벌금"
+          },
+          {
+            "label": "그 밖의 선택지",
+            "text": "구류 또는 과료"
+          }
+        ]
+      },
+      "note": "훈련 관련 벌칙의 구류·과료를 빠뜨리지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 85,
+          "endLine": 91,
+          "topic": "제15조 벌칙의 비교 문맥"
+        },
+        {
+          "startLine": 91,
+          "endLine": 109,
+          "topic": "훈련 벌칙과 비교"
+        }
+      ]
+    },
+    {
+      "id": "negligent-weapon-loss",
+      "title": "무기·탄약·장비의 과실 손실",
+      "subtitle": "원고가 연결한 이웃 벌칙",
+      "kind": "compare",
+      "left": {
+        "title": "대상과 요건",
+        "items": [
+          {
+            "label": "대상",
+            "text": "무기·탄약·장비 등을 지키는 임무를 맡은 사람 또는 보관 책임자"
+          },
+          {
+            "label": "과실",
+            "text": "과실로 잃어버리거나 빼앗긴 경우"
+          }
+        ]
+      },
+      "right": {
+        "title": "원고의 벌칙 비교",
+        "items": [
+          {
+            "label": "과실의 벌칙",
+            "text": "3년 이하 징역 또는 3천만원 이하 벌금"
+          },
+          {
+            "label": "구별점",
+            "text": "이 과실 사례를 5년 이하 징역으로 바꾸지 않음"
+          }
+        ]
+      },
+      "note": "과실 요건과 경비 임무자·보관 책임자라는 대상을 함께 확인",
+      "sourceRanges": [
+        {
+          "startLine": 113,
+          "endLine": 113,
+          "topic": "과실 무기 손실 벌칙"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "제1항의 지휘관·외부강사와 조건",
+      "diagramIds": [
+        "political-ban-persons"
+      ]
+    },
+    {
+      "topic": "금지 행위 세 가지",
+      "diagramIds": [
+        "three-prohibited-conducts"
+      ]
+    },
+    {
+      "topic": "제2항 조직체의 정치 관여 금지",
+      "diagramIds": [
+        "organized-political-activity"
+      ]
+    },
+    {
+      "topic": "지휘관과 조직 정치 관여의 벌칙",
+      "diagramIds": [
+        "commander-and-organization-penalty"
+      ]
+    },
+    {
+      "topic": "훈련 불참·대리 훈련 비교",
+      "diagramIds": [
+        "training-offense-comparison"
+      ]
+    },
+    {
+      "topic": "과실 무기 손실 이웃 벌칙",
+      "diagramIds": [
+        "negligent-weapon-loss"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "주체와 대상",
+      "수치와 기산점",
+      "의무와 재량",
+      "또는·및 관계",
+      "원칙과 예외",
+      "설명 순서",
+      "원고 주요 갈래"
+    ],
+    "issues": [],
+    "sourceNotes": []
+  }
+}

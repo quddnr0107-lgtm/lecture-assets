@@ -1,0 +1,577 @@
+{
+  "lessonId": "RL-013",
+  "lessonTitle": "예비군법 제8조, 긴급조치 및 보상",
+  "diagrams": [
+    {
+      "id": "emergency-authority",
+      "title": "긴급조치의 권한과 한계",
+      "subtitle": "법 제8조 제1항 · 임무수행에 필요한 범위",
+      "kind": "rule",
+      "left": {
+        "title": "권한과 기준",
+        "items": [
+          {
+            "label": "권한자",
+            "text": "국방부장관"
+          },
+          {
+            "label": "요건",
+            "text": "예비군 임무수행을 위하여 필요하다고 인정"
+          }
+        ]
+      },
+      "right": {
+        "title": "방법과 범위",
+        "items": [
+          {
+            "label": "방법",
+            "text": "대통령령으로 정하는 바에 따름"
+          },
+          {
+            "label": "범위",
+            "text": "필요한 범위에서 조치할 수 있음"
+          }
+        ]
+      },
+      "note": "필요성 판단과 필요한 범위라는 두 한계를 함께 확인",
+      "sourceRanges": [
+        {
+          "startLine": 19,
+          "endLine": 53,
+          "topic": "긴급조치 권한·요건·위임"
+        }
+      ]
+    },
+    {
+      "id": "emergency-three-actions",
+      "title": "긴급조치의 세 가지 내용",
+      "subtitle": "명령과 재산 제거를 구분",
+      "kind": "rule",
+      "left": {
+        "title": "주민에게 하는 명령",
+        "items": [
+          {
+            "label": "소개 또는 피난",
+            "text": "주민의 소개 또는 피난을 명령"
+          },
+          {
+            "label": "교통·조명·출입",
+            "text": "교통, 조명 또는 출입의 제한 등을 명령"
+          }
+        ]
+      },
+      "right": {
+        "title": "재산에 대한 조치",
+        "items": [
+          {
+            "label": "제거 대상",
+            "text": "임무수행에 지장을 주는 주민의 재산"
+          },
+          {
+            "label": "한정 조건",
+            "text": "주민의 모든 재산이 제거 대상은 아님"
+          }
+        ]
+      },
+      "note": "재산 제거에는 임무수행에 지장을 준다는 조건이 붙음",
+      "sourceRanges": [
+        {
+          "startLine": 23,
+          "endLine": 25,
+          "topic": "세 조치 목록"
+        },
+        {
+          "startLine": 55,
+          "endLine": 65,
+          "topic": "명령과 재산 제거 구별"
+        }
+      ]
+    },
+    {
+      "id": "checkpoint-boundary",
+      "title": "긴급조치와 검문의 조건",
+      "subtitle": "법 제8조 제1항·제2항의 주어와 요건 비교",
+      "kind": "compare",
+      "left": {
+        "title": "긴급조치",
+        "items": [
+          {
+            "label": "주체",
+            "text": "국방부장관"
+          },
+          {
+            "label": "필요성",
+            "text": "예비군의 임무수행을 위하여 필요하다고 인정"
+          }
+        ]
+      },
+      "right": {
+        "title": "검문",
+        "items": [
+          {
+            "label": "주체",
+            "text": "예비군"
+          },
+          {
+            "label": "필요성과 장소",
+            "text": "작전상 필요한 경우에만 작전지역 출입자를 검문할 수 있음"
+          }
+        ]
+      },
+      "note": "검문은 작전상 필요와 작전지역이라는 조건을 함께 확인",
+      "sourceRanges": [
+        {
+          "startLine": 21,
+          "endLine": 45,
+          "topic": "긴급조치 조건"
+        },
+        {
+          "startLine": 67,
+          "endLine": 89,
+          "topic": "검문 주체와 제한"
+        }
+      ]
+    },
+    {
+      "id": "property-compensation",
+      "title": "재산 손해와 정당한 보상",
+      "subtitle": "법 제8조 제3항 · 보상 책임은 국가",
+      "kind": "rule",
+      "left": {
+        "title": "보상 원인과 대상",
+        "items": [
+          {
+            "label": "원인",
+            "text": "제1항의 긴급조치로 발생한 손해"
+          },
+          {
+            "label": "대상",
+            "text": "재산상의 손해를 입은 사람"
+          }
+        ]
+      },
+      "right": {
+        "title": "보상 책임과 기준",
+        "items": [
+          {
+            "label": "책임",
+            "text": "국가가 보상"
+          },
+          {
+            "label": "기준",
+            "text": "대통령령에 따라 정당한 보상"
+          }
+        ]
+      },
+      "note": "제1항의 조치·재산상 손해·대통령령·정당한 보상을 한 묶음으로",
+      "sourceRanges": [
+        {
+          "startLine": 91,
+          "endLine": 109,
+          "topic": "재산 손해 보상 기준"
+        }
+      ]
+    },
+    {
+      "id": "emergency-two-grounds",
+      "title": "긴급조치를 할 수 있는 두 경우",
+      "subtitle": "수임군부대의 장 또는 수탁경찰서장",
+      "kind": "compare",
+      "left": {
+        "title": "마을·민가 침입",
+        "items": [
+          {
+            "label": "상황",
+            "text": "적·무장공비 또는 무장폭도가 마을에 침투하거나 민가에 침입"
+          },
+          {
+            "label": "목적",
+            "text": "소멸하거나 체포"
+          },
+          {
+            "label": "요건",
+            "text": "작전상 긴급하고 부득이하다고 인정"
+          }
+        ]
+      },
+      "right": {
+        "title": "침투·은신·도주로",
+        "items": [
+          {
+            "label": "상황",
+            "text": "침투·은신 지역 또는 도주로로 예상되는 지역"
+          },
+          {
+            "label": "목적",
+            "text": "적·무장공비 또는 무장폭도를 고립"
+          },
+          {
+            "label": "요건",
+            "text": "전술상 다른 방법이 없다고 인정"
+          }
+        ]
+      },
+      "note": "두 사유 중 어느 하나에 해당하는 경우에만 긴급조치 가능",
+      "sourceRanges": [
+        {
+          "startLine": 113,
+          "endLine": 149,
+          "topic": "시행령 제19조 제1항 두 사유"
+        }
+      ]
+    },
+    {
+      "id": "notice-before-action",
+      "title": "주민 알림과 사후 보고",
+      "subtitle": "주민에게는 조치 전 · 지휘 계통에는 조치 후",
+      "kind": "compare",
+      "left": {
+        "title": "조치하려는 때",
+        "items": [
+          {
+            "label": "통지 또는 게시",
+            "text": "수임군부대의 장 또는 수탁경찰서장이 내용·기간·구역 등을 알림"
+          },
+          {
+            "label": "재산 제거",
+            "text": "그 사유를 재산 소유자 본인에게 통보"
+          }
+        ]
+      },
+      "right": {
+        "title": "군부대가 조치한 때",
+        "items": [
+          {
+            "label": "보고 주체",
+            "text": "수임군부대의 장"
+          },
+          {
+            "label": "보고 경로",
+            "text": "조치 내용을 지휘 계통에 따라 국방부장관에게 보고"
+          }
+        ]
+      },
+      "note": "주민에 대한 사전 알림과 국방부장관에 대한 사후 보고를 구분",
+      "sourceRanges": [
+        {
+          "startLine": 151,
+          "endLine": 173,
+          "topic": "주민 알림과 군 보고"
+        }
+      ]
+    },
+    {
+      "id": "police-report-options",
+      "title": "경찰의 보고 또는 통보",
+      "subtitle": "수탁경찰서장이 긴급조치를 하였을 때",
+      "kind": "compare",
+      "left": {
+        "title": "군에 보고하는 경로",
+        "items": [
+          {
+            "label": "최초 보고",
+            "text": "수임군부대의 장에게 조치 내용을 보고"
+          },
+          {
+            "label": "상향 보고",
+            "text": "수임군부대의 장이 보고받은 사항을 지휘 계통으로 국방부장관에게 보고"
+          }
+        ]
+      },
+      "right": {
+        "title": "시·도에 통보하는 경로",
+        "items": [
+          {
+            "label": "대안 경로",
+            "text": "특별시장·광역시장·특별자치시장·도지사 또는 특별자치도지사에게 통보"
+          },
+          {
+            "label": "접속 관계",
+            "text": "군 보고 또는 시·도 통보"
+          }
+        ]
+      },
+      "note": "두 경로를 모두 거치는 절차로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 175,
+          "endLine": 193,
+          "topic": "시행령 제19조 제4항 보고·통보"
+        }
+      ]
+    },
+    {
+      "id": "three-compensation-documents",
+      "title": "보상 절차의 세 가지 서류",
+      "subtitle": "증명서 · 지급신청서 · 지급통지서",
+      "kind": "process",
+      "left": {
+        "title": "손실 확인과 신청",
+        "items": [
+          {
+            "label": "손실증명서",
+            "text": "수임군부대의 장 또는 수탁경찰서장이 손실 당사자에게 발급"
+          },
+          {
+            "label": "지급신청서",
+            "text": "손실을 입은 사람이 국방부장관에게 제출"
+          }
+        ]
+      },
+      "right": {
+        "title": "금액 결정과 통지",
+        "items": [
+          {
+            "label": "보상금액 결정",
+            "text": "국방부장관이 보상심의회의 심의를 거쳐 결정"
+          },
+          {
+            "label": "지급통지서",
+            "text": "국방부장관이 신청인에게 지체 없이 송부"
+          }
+        ]
+      },
+      "note": "손실증명서의 추가 기재사항과 보상금 신청 방법은 국방부령에 따른다.",
+      "sourceRanges": [
+        {
+          "startLine": 195,
+          "endLine": 229,
+          "topic": "증명·신청·통지 절차"
+        }
+      ]
+    },
+    {
+      "id": "decision-review-deadlines",
+      "title": "결정과 재심의 세 기한",
+      "subtitle": "기산점과 행동 주체를 함께 기억",
+      "kind": "deadline",
+      "left": {
+        "title": "최초 결정·재심 청구",
+        "items": [
+          {
+            "label": "최초 결정 30일",
+            "text": "국방부장관이 신청을 받은 날부터 30일 이내 금액 결정"
+          },
+          {
+            "label": "재심 청구 30일",
+            "text": "보상금액에 이의 있는 사람이 지급통지서를 받은 날부터 30일 이내 국방부장관에게 청구"
+          }
+        ]
+      },
+      "right": {
+        "title": "재심 결정",
+        "items": [
+          {
+            "label": "결정 기한 60일",
+            "text": "국방부장관이 재심 청구를 받은 날부터 60일 이내 결정"
+          },
+          {
+            "label": "공통 심의",
+            "text": "최초 결정과 재심 결정 모두 보상심의회 심의를 거침"
+          }
+        ]
+      },
+      "note": "최초 결정 30일 · 재심 청구 30일 · 재심 결정 60일",
+      "sourceRanges": [
+        {
+          "startLine": 227,
+          "endLine": 251,
+          "topic": "최초 결정과 재심 기한"
+        }
+      ]
+    },
+    {
+      "id": "loss-certificate-records",
+      "title": "손실증명서의 기록 항목",
+      "subtitle": "피해자에게 발급하고 부본은 보관",
+      "kind": "compare",
+      "left": {
+        "title": "형상과 가격",
+        "items": [
+          {
+            "label": "형상",
+            "text": "재산 상태·피해 상황을 상세히 기록하고, 기록 곤란 시 사진 보존"
+          },
+          {
+            "label": "가격",
+            "text": "인근 시가에 따른 일반가격과 과세표준을 조사하여 기록"
+          }
+        ]
+      },
+      "right": {
+        "title": "구조와 부수 피해",
+        "items": [
+          {
+            "label": "구조",
+            "text": "내용·조성·건립 또는 제조 연월일, 증축·개축과 부속물건 유무 조사"
+          },
+          {
+            "label": "그 밖의 기록",
+            "text": "부수되는 피해재산 목록과 필요하다고 인정되는 사항"
+          }
+        ]
+      },
+      "note": "형상은 상태와 사진 · 구조는 구성과 이력",
+      "sourceRanges": [
+        {
+          "startLine": 263,
+          "endLine": 300,
+          "topic": "시행규칙 제23조 증명서 항목"
+        }
+      ]
+    },
+    {
+      "id": "application-sixty-days",
+      "title": "보상 신청은 손실일부터 60일",
+      "subtitle": "시행규칙 제23조 제2항",
+      "kind": "deadline",
+      "left": {
+        "title": "신청 서류",
+        "items": [
+          {
+            "label": "신청인",
+            "text": "긴급조치로 재산상 손실을 입은 사람"
+          },
+          {
+            "label": "첨부",
+            "text": "보상금 지급신청서에 손실증명서를 첨부"
+          }
+        ]
+      },
+      "right": {
+        "title": "기한과 제출처",
+        "items": [
+          {
+            "label": "기산점·기한",
+            "text": "손실을 입은 날부터 60일 이내"
+          },
+          {
+            "label": "제출처",
+            "text": "국방부장관에게 제출하여야 함"
+          }
+        ]
+      },
+      "note": "손실증명서를 받은 날이 아니라 손실을 입은 날부터 계산",
+      "sourceRanges": [
+        {
+          "startLine": 302,
+          "endLine": 320,
+          "topic": "보상 신청 기한·제출처"
+        }
+      ]
+    },
+    {
+      "id": "compensation-council",
+      "title": "심의회와 서식의 기준",
+      "subtitle": "시행령 제20조 · 시행규칙 제23조",
+      "kind": "compare",
+      "left": {
+        "title": "기준과 심의회",
+        "items": [
+          {
+            "label": "구성·운영",
+            "text": "보상심의회의 구성·운영 등은 국방부령으로 정함"
+          },
+          {
+            "label": "실제 심의",
+            "text": "징발법에 따른 징발보상심의회가 심의"
+          }
+        ]
+      },
+      "right": {
+        "title": "국방부장관의 처리",
+        "items": [
+          {
+            "label": "금액 결정",
+            "text": "심의를 거쳐 보상금액 등을 결정"
+          },
+          {
+            "label": "통지",
+            "text": "별지 제24호 서식의 지급통지서를 신청인에게 송부"
+          }
+        ]
+      },
+      "note": "손실증명서 22호 · 지급신청서 23호 · 지급통지서 24호",
+      "sourceRanges": [
+        {
+          "startLine": 253,
+          "endLine": 259,
+          "topic": "심의회 구성·운영 위임"
+        },
+        {
+          "startLine": 263,
+          "endLine": 275,
+          "topic": "증명서 서식"
+        },
+        {
+          "startLine": 302,
+          "endLine": 304,
+          "topic": "신청서 서식"
+        },
+        {
+          "startLine": 322,
+          "endLine": 334,
+          "topic": "심의회와 지급통지"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "법 제8조의 긴급조치·검문·보상",
+      "diagramIds": [
+        "emergency-authority",
+        "emergency-three-actions",
+        "checkpoint-boundary",
+        "property-compensation"
+      ]
+    },
+    {
+      "topic": "시행령 제19조의 사유·알림·보고",
+      "diagramIds": [
+        "emergency-two-grounds",
+        "notice-before-action",
+        "police-report-options"
+      ]
+    },
+    {
+      "topic": "시행령 제20조의 보상 서류·결정·재심",
+      "diagramIds": [
+        "three-compensation-documents",
+        "decision-review-deadlines"
+      ]
+    },
+    {
+      "topic": "시행규칙 제23조의 증명서·신청·심의",
+      "diagramIds": [
+        "loss-certificate-records",
+        "application-sixty-days",
+        "compensation-council"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "주체와 대상",
+      "수치와 기산점",
+      "의무와 재량",
+      "또는·및 관계",
+      "원칙과 예외",
+      "설명 순서",
+      "원고 주요 갈래"
+    ],
+    "issues": [],
+    "sourceNotes": [
+      {
+        "lines": [
+          177,
+          179,
+          193
+        ],
+        "note": "179행 설명의 포괄적 표현을 확대하지 않고, 인용된 조항의 군 보고 또는 시·도 통보 두 경로만 도식화함."
+      }
+    ]
+  }
+}

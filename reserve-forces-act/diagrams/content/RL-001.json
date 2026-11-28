@@ -1,0 +1,202 @@
+{
+  "lessonId": "RL-001",
+  "lessonTitle": "예비군법 제1조, 목적",
+  "diagrams": [
+    {
+      "id": "purpose-four-actions",
+      "title": "법이 정한 네 가지 사항",
+      "subtitle": "국가 방위를 위한 설치·조직·편성·동원",
+      "kind": "rule",
+      "left": {
+        "title": "제도와 부대 구성",
+        "items": [
+          {
+            "label": "설치",
+            "text": "예비군이라는 조직을 둠"
+          },
+          {
+            "label": "조직·편성",
+            "text": "부대를 나누고 사람을 배치함"
+          }
+        ]
+      },
+      "right": {
+        "title": "필요할 때 소집",
+        "items": [
+          {
+            "label": "동원",
+            "text": "필요한 때 사람을 불러 모음"
+          },
+          {
+            "label": "구별할 낱말",
+            "text": "목적 조문의 네 번째 낱말은 동원"
+          }
+        ]
+      },
+      "note": "제1조의 동원을 훈련으로 바꾸면 원문과 달라짐",
+      "sourceRanges": [
+        {
+          "startLine": 17,
+          "endLine": 39,
+          "topic": "목적과 네 가지 사항"
+        }
+      ]
+    },
+    {
+      "id": "delegation-levels",
+      "title": "시행령과 시행규칙의 역할",
+      "subtitle": "위임받는 근거를 구분하면 단계가 보인다",
+      "kind": "compare",
+      "left": {
+        "title": "시행령 · 대통령령",
+        "items": [
+          {
+            "label": "위임 근거",
+            "text": "예비군법"
+          },
+          {
+            "label": "규정할 사항",
+            "text": "법에서 위임된 사항과 그 시행에 필요한 사항"
+          }
+        ]
+      },
+      "right": {
+        "title": "시행규칙 · 국방부령",
+        "items": [
+          {
+            "label": "위임 근거",
+            "text": "예비군법 및 같은 법 시행령"
+          },
+          {
+            "label": "규정할 사항",
+            "text": "위임된 사항과 그 시행에 필요한 사항"
+          }
+        ]
+      },
+      "note": "시행규칙은 법과 시행령 양쪽에서 위임을 받음",
+      "sourceRanges": [
+        {
+          "startLine": 41,
+          "endLine": 65,
+          "topic": "법·시행령·시행규칙의 위임 관계"
+        }
+      ]
+    },
+    {
+      "id": "resource-organization",
+      "title": "예비군자원은 누구인가",
+      "subtitle": "조직대상자와 부대 편성은 단계가 다르다",
+      "kind": "compare",
+      "left": {
+        "title": "조직 · 제3조",
+        "items": [
+          {
+            "label": "판단",
+            "text": "누가 예비군이 되는가"
+          },
+          {
+            "label": "예비군자원",
+            "text": "법 제3조제1항 본문에 따른 예비군 조직대상자"
+          }
+        ]
+      },
+      "right": {
+        "title": "편성 · 제3조의2",
+        "items": [
+          {
+            "label": "판단",
+            "text": "그 사람을 어느 부대에 넣는가"
+          },
+          {
+            "label": "구별",
+            "text": "예비군자원을 편성대상자로 바꾸지 않음"
+          }
+        ]
+      },
+      "note": "예비군자원의 정의는 조직대상자",
+      "sourceRanges": [
+        {
+          "startLine": 67,
+          "endLine": 77,
+          "topic": "예비군자원 정의와 조직·편성 구별"
+        }
+      ]
+    },
+    {
+      "id": "delegation-recipients",
+      "title": "수임군부대의 장과 수탁경찰서장",
+      "subtitle": "권한을 주는 사람과 위임·위탁을 함께 구분",
+      "kind": "compare",
+      "left": {
+        "title": "수임군부대의 장",
+        "items": [
+          {
+            "label": "권한의 출발",
+            "text": "국방부장관"
+          },
+          {
+            "label": "받는 방식",
+            "text": "군부대의 장이 권한을 위임받음"
+          }
+        ]
+      },
+      "right": {
+        "title": "수탁경찰서장",
+        "items": [
+          {
+            "label": "권한의 출발",
+            "text": "국방부장관 또는 수임군부대의 장"
+          },
+          {
+            "label": "받는 방식",
+            "text": "경찰서장이 권한을 위탁받음"
+          }
+        ]
+      },
+      "note": "수탁경찰서장 정의에 각 군 참모총장을 넣지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 79,
+          "endLine": 97,
+          "topic": "수임·수탁 정의와 권한의 출발"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "법 제1조 목적",
+      "diagramIds": [
+        "purpose-four-actions"
+      ]
+    },
+    {
+      "topic": "시행령·시행규칙 목적",
+      "diagramIds": [
+        "delegation-levels"
+      ]
+    },
+    {
+      "topic": "이웃 조문: 시행령 제2조 정의",
+      "diagramIds": [
+        "resource-organization",
+        "delegation-recipients"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "강의 번호·원고 제목",
+      "설명 순서",
+      "주체·대상",
+      "의무·재량",
+      "기한·숫자",
+      "원칙·예외",
+      "오답과 정답 구별",
+      "병렬 또는 관계"
+    ],
+    "issues": []
+  }
+}

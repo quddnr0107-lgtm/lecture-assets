@@ -1,0 +1,170 @@
+{
+  "lessonId": "RL-006",
+  "lessonTitle": "예비군법 제4조, 업무 관장",
+  "diagrams": [
+    {
+      "id": "affairs-and-delegation",
+      "title": "업무 관장과 권한 위임",
+      "subtitle": "제4조의 주인과 제14조의 위임을 구별",
+      "kind": "compare",
+      "left": {
+        "title": "업무 관장 · 제4조",
+        "items": [
+          {
+            "label": "주체",
+            "text": "국방부장관"
+          },
+          {
+            "label": "업무",
+            "text": "예비군에 관한 업무를 관장함"
+          },
+          {
+            "label": "예시",
+            "text": "편성·동원·훈련·보상 등의 업무"
+          }
+        ]
+      },
+      "right": {
+        "title": "권한 위임 · 제14조",
+        "items": [
+          {
+            "label": "필요한 경우",
+            "text": "국방부장관이 필요하다고 인정하면 예하군부대의 장에게 위임할 수 있음"
+          },
+          {
+            "label": "범위",
+            "text": "권한의 전부 또는 일부"
+          }
+        ]
+      },
+      "note": "제4조의 관장한다를 위임한다로 바꾸지 않음",
+      "sourceRanges": [
+        {
+          "startLine": 15,
+          "endLine": 49,
+          "topic": "업무 관장·위임과의 구별"
+        }
+      ]
+    },
+    {
+      "id": "identifier-processing",
+      "title": "주민등록번호 처리의 조건",
+      "subtitle": "시행령 제28조의2는 불가피한 경우에 한정",
+      "kind": "compare",
+      "left": {
+        "title": "처리 주체",
+        "items": [
+          {
+            "label": "국방부장관",
+            "text": "예비군 업무 관장 주체"
+          },
+          {
+            "label": "포함되는 사람",
+            "text": "제28조에 따라 권한을 위임받은 자 포함"
+          }
+        ]
+      },
+      "right": {
+        "title": "처리 조건·범위",
+        "items": [
+          {
+            "label": "불가피성",
+            "text": "열거된 사무를 수행하기 위해 불가피한 경우"
+          },
+          {
+            "label": "처리 가능",
+            "text": "주민등록번호가 포함된 자료를 처리할 수 있음"
+          }
+        ]
+      },
+      "note": "주체·사무·불가피성 조건을 함께 확인",
+      "sourceRanges": [
+        {
+          "startLine": 51,
+          "endLine": 65,
+          "topic": "고유식별정보 처리 주체·조건·자료"
+        }
+      ]
+    },
+    {
+      "id": "identifier-three-tasks",
+      "title": "처리할 수 있는 세 가지 사무",
+      "subtitle": "편성, 동원·훈련, 보상의 근거 조문",
+      "kind": "compare",
+      "left": {
+        "title": "편성과 동원·훈련",
+        "items": [
+          {
+            "label": "제1호 · 편성",
+            "text": "법 제3조의2에 따른 예비군의 편성"
+          },
+          {
+            "label": "제2호 · 동원·훈련",
+            "text": "법 제5조·제6조·제6조의2·제6조의3에 따른 사무"
+          }
+        ]
+      },
+      "right": {
+        "title": "보상",
+        "items": [
+          {
+            "label": "제3호 · 보상",
+            "text": "법 제8조·제9조에 따른 보상"
+          },
+          {
+            "label": "공통 조건",
+            "text": "해당 사무 수행에 불가피하면 주민등록번호 포함자료 처리 가능"
+          }
+        ]
+      },
+      "note": "편성·동원 및 훈련·보상의 세 갈래",
+      "sourceRanges": [
+        {
+          "startLine": 51,
+          "endLine": 65,
+          "topic": "공통 처리 조건"
+        },
+        {
+          "startLine": 67,
+          "endLine": 91,
+          "topic": "처리 대상 사무의 세 항목"
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "topic": "본법 제4조 업무 관장과 제14조 위임 구별",
+      "diagramIds": [
+        "affairs-and-delegation"
+      ]
+    },
+    {
+      "topic": "시행령 제28조의2 주체·불가피성·자료",
+      "diagramIds": [
+        "identifier-processing"
+      ]
+    },
+    {
+      "topic": "고유식별정보 처리 사무 세 갈래",
+      "diagramIds": [
+        "identifier-three-tasks"
+      ]
+    }
+  ],
+  "review": {
+    "scriptReadInFull": true,
+    "scope": "script-only",
+    "checked": [
+      "강의 번호·원고 제목",
+      "설명 순서",
+      "주체·대상",
+      "의무·재량",
+      "기한·숫자",
+      "원칙·예외",
+      "오답과 정답 구별",
+      "병렬 또는 관계"
+    ],
+    "issues": []
+  }
+}
