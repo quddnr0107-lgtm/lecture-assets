@@ -17,7 +17,7 @@
   "coverage": {
     "expected_lessons": 78,
     "included_lessons": 78,
-    "diagrams": 234,
+    "diagrams": 239,
     "missing_lessons": []
   },
   "law_versions": [
@@ -103,7 +103,7 @@
     {
       "id": "DR-005",
       "title": "예비군 조직·편성과 운영에 관한 훈령 제5조, 예비군 조직·편성과 운영에 관한 업무분장",
-      "diagram_count": 7,
+      "diagram_count": 8,
       "diagram_ids": [
         "DR-005-D01",
         "DR-005-D02",
@@ -111,7 +111,8 @@
         "DR-005-D04",
         "DR-005-D05",
         "DR-005-D06",
-        "DR-005-D07"
+        "DR-005-D07",
+        "DR-005-D08"
       ],
       "path": "defense-directives/lesson-005/diagrams/",
       "script_ref": "DR-005"
@@ -677,12 +678,14 @@
     {
       "id": "DR-054",
       "title": "예비군 교육훈련 훈령 제10조, 소집방법",
-      "diagram_count": 4,
+      "diagram_count": 6,
       "diagram_ids": [
         "DR-054-D01",
         "DR-054-D02",
         "DR-054-D03",
-        "DR-054-D04"
+        "DR-054-D04",
+        "DR-054-D05",
+        "DR-054-D06"
       ],
       "path": "defense-directives/lesson-054/diagrams/",
       "script_ref": "DR-054"
@@ -702,12 +705,13 @@
     {
       "id": "DR-056",
       "title": "예비군 교육훈련 훈령 제12조, 공통과목",
-      "diagram_count": 4,
+      "diagram_count": 5,
       "diagram_ids": [
         "DR-056-D01",
         "DR-056-D02",
         "DR-056-D03",
-        "DR-056-D04"
+        "DR-056-D04",
+        "DR-056-D05"
       ],
       "path": "defense-directives/lesson-056/diagrams/",
       "script_ref": "DR-056"
@@ -893,12 +897,13 @@
     {
       "id": "DR-071",
       "title": "예비군 교육훈련 훈령 제27조, 훈련시설 및 예산",
-      "diagram_count": 4,
+      "diagram_count": 5,
       "diagram_ids": [
         "DR-071-D01",
         "DR-071-D02",
         "DR-071-D03",
-        "DR-071-D04"
+        "DR-071-D04",
+        "DR-071-D05"
       ],
       "path": "defense-directives/lesson-071/diagrams/",
       "script_ref": "DR-071"
@@ -1552,25 +1557,25 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J5-0:0",
       "source_version": "국방부훈령 제3104호",
       "effective_date": "2025-11-14",
-      "note": "훈련 소집자 지휘감독. 해체 요구: 자격조건 미달 부대 및 소대급 이하 직장예비군부대.",
+      "note": "훈련에 소집된 예비군 지휘감독. 해체 요구: 자격조건 미달 부대 및 소대급 이하 직장예비군부대.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-005/diagrams/DR-005-D02-editorial-v1.svg",
-          "bytes": 6921,
-          "sha256": "efaf0e05ae10e0f2426d1ac5821f982e24dd7ab44ab5aac0ce7a2add566c7631"
+          "bytes": 7101,
+          "sha256": "608fe5433b6b32b11b221808a74e1860d560a1e982a1ed44b7c7594db81de8c5"
         },
         "png": {
           "path": "defense-directives/lesson-005/diagrams/DR-005-D02-editorial-v1.png",
-          "bytes": 198019,
-          "sha256": "4e009258e53fe33cc4a86d2a089f266c4b6c2fb9dd20a801ef3f5dd64b2ba33d"
+          "bytes": 199832,
+          "sha256": "7cc700a8fd27257d22db720309b1089f6cdcb045f33116b9a8c0ba064efbe176"
         },
         "webp": {
           "path": "defense-directives/lesson-005/diagrams/DR-005-D02-editorial-v1.webp",
-          "bytes": 59350,
-          "sha256": "e2704cc2e6d06223326c9ea3a99eeb522ea5e75bb37c5725fed1b3d526cef1e1"
+          "bytes": 60686,
+          "sha256": "15c6fcbec5015fd814a4b834ac2003dec9aab73f7713263bc59a2187cc6593dd"
         }
       },
       "script_ref": "DR-005",
@@ -1588,16 +1593,14 @@
           148,
           156,
           158,
+          198,
+          199,
+          200,
+          201,
+          203,
+          204,
           221
         ]
-      },
-      "visual_review": {
-        "status": "passed",
-        "date": "2026-11-28T17:24:15+09:00",
-        "format": "webp",
-        "git_blob": "0f25f7c68a64531d15bd50e60607e492ff011350",
-        "review_commit": "0ecf67dd5b592d089ceadd9d588e99e46c8d7d0e",
-        "script_section": "112,114,122,138,142,144,146,148,156,158,221"
       }
     },
     {
@@ -1843,6 +1846,58 @@
           251,
           255,
           266
+        ]
+      }
+    },
+    {
+      "id": "DR-005-D08",
+      "lecture_id": "DR-005",
+      "lesson_number": 5,
+      "title": "명부·편성카드와 상호 협조",
+      "article": "조직·편성 훈령 제5조",
+      "article_key": "1-5",
+      "source_clauses": [
+        "제3호타목",
+        "제6호마·바·아목"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J5-0:0",
+      "source_version": "국방부훈령 제3104호",
+      "effective_date": "2025-11-14",
+      "note": "소대자원 현황 파악 유지는 소대장, 예비군자원관리는 병무청장.",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D08-editorial-v1.svg",
+          "bytes": 5660,
+          "sha256": "34587150b956af2c3fcbd4ff75790566ceea1ead429acab64a968fdfcc0a1187"
+        },
+        "png": {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D08-editorial-v1.png",
+          "bytes": 159128,
+          "sha256": "c4f19b18d1f31a0f481bbcc57a38987d46aa10b34c9b4fbecc21bce9cc084111"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D08-editorial-v1.webp",
+          "bytes": 50364,
+          "sha256": "b7bae222e01046e00f9127b5dee07fb864e12478dd363d7ade21fb2c437df602"
+        }
+      },
+      "script_ref": "DR-005",
+      "script_evidence": {
+        "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+        "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+        "lines": [
+          158,
+          196,
+          202,
+          203,
+          205,
+          213,
+          217,
+          221,
+          223
         ]
       }
     },
@@ -7358,28 +7413,40 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J10-0:0",
       "source_version": "국방부훈령 제3216호",
       "effective_date": "2026-10-14",
-      "note": "",
+      "note": "제1항 단서: 상비예비군의 병력동원훈련을 제외한 훈련소집은 각 군에서 구체화·시행.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-054/diagrams/DR-054-D01-editorial-v1.svg",
-          "bytes": 5037,
-          "sha256": "ac4fc7573b4f6dfd6310faabb52c0aca48efc28fd94df6b472062dbe9487d03e"
+          "bytes": 5711,
+          "sha256": "3712b7e8d9eb4ef3265d1bb3b10ebbb149fae8ef59dda307ff9043d25aebffd0"
         },
         "png": {
           "path": "defense-directives/lesson-054/diagrams/DR-054-D01-editorial-v1.png",
-          "bytes": 126980,
-          "sha256": "6b8ad5fb6f6dbd228dfec98927af8562d433d1c6e37b287861211d186a022436"
+          "bytes": 160651,
+          "sha256": "29a9d6da8a038291ad3387248e04ef7d2d6456b41d15a6bb3f0bf482f4baed5a"
         },
         "webp": {
           "path": "defense-directives/lesson-054/diagrams/DR-054-D01-editorial-v1.webp",
-          "bytes": 38238,
-          "sha256": "6f8883f52f9fe5d2ecbd73308993d74ee6eef5b70576f2cd2983430909e19b3d"
+          "bytes": 50680,
+          "sha256": "b2c7e4586deb7cfb3b27455ed8b43d799cb2204e59c489a3a3e775f2f7a19cec"
         }
       },
-      "script_ref": "DR-054"
+      "script_ref": "DR-054",
+      "script_evidence": {
+        "source_git_blob": "1d254945393cb22f81facc46ec50d3e926579e6a",
+        "source_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
+        "lines": [
+          15,
+          19,
+          21,
+          25,
+          27,
+          43
+        ]
+      }
     },
     {
       "id": "DR-054-D02",
@@ -7492,6 +7559,105 @@
         }
       },
       "script_ref": "DR-054"
+    },
+    {
+      "id": "DR-054-D05",
+      "lecture_id": "DR-054",
+      "lesson_number": 54,
+      "title": "인터넷 신청의 효력과 기한",
+      "article": "교육훈련 훈령 제10조",
+      "article_key": "2-10",
+      "source_clauses": [
+        "제5항제1·3·4·5호"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J10-0:0",
+      "source_version": "국방부훈령 제3216호",
+      "effective_date": "2026-10-14",
+      "note": "인터넷 대상은 동원훈련Ⅱ형·기본훈련·예비군훈련장 소집대상 작계 3차.",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-054/diagrams/DR-054-D05-editorial-v1.svg",
+          "bytes": 6157,
+          "sha256": "41f4f336cd9ef4e367c94dedef387caad7f123f9aac16f79ce0d0aa9406e7003"
+        },
+        "png": {
+          "path": "defense-directives/lesson-054/diagrams/DR-054-D05-editorial-v1.png",
+          "bytes": 169105,
+          "sha256": "04b4bd930c0987a5d57a0def75bbfb8757a3f8c73c84c21f932fdcc5371d3775"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-054/diagrams/DR-054-D05-editorial-v1.webp",
+          "bytes": 53292,
+          "sha256": "1960ee87d196bd78e31b4643f7ba72a41d642205149cce5b398aef9ccb0c8f9f"
+        }
+      },
+      "script_ref": "DR-054",
+      "script_evidence": {
+        "source_git_blob": "1d254945393cb22f81facc46ec50d3e926579e6a",
+        "source_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
+        "lines": [
+          47,
+          78,
+          80,
+          82,
+          90,
+          92,
+          94,
+          96
+        ]
+      }
+    },
+    {
+      "id": "DR-054-D06",
+      "lecture_id": "DR-054",
+      "lesson_number": 54,
+      "title": "차수별 통지 수단과 증빙",
+      "article": "교육훈련 훈령 제10조",
+      "article_key": "2-10",
+      "source_clauses": [
+        "제7항제1호",
+        "제7항"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J10-0:0",
+      "source_version": "국방부훈령 제3216호",
+      "effective_date": "2026-10-14",
+      "note": "고발 연계 3차는 모바일 전자고지·등기·방문 등 입증 가능한 수단.",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-054/diagrams/DR-054-D06-editorial-v1.svg",
+          "bytes": 6119,
+          "sha256": "d3e68f2e15fbb00ccc1dd189ca1b392ad3a51d36db0066410d7672bcacde14ed"
+        },
+        "png": {
+          "path": "defense-directives/lesson-054/diagrams/DR-054-D06-editorial-v1.png",
+          "bytes": 159711,
+          "sha256": "92ad4256f22d31dd2ab28c27cb8582e22bbc9fca75305cb305d8af4aad7897b6"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-054/diagrams/DR-054-D06-editorial-v1.webp",
+          "bytes": 47642,
+          "sha256": "e887f23d4819ae7b83a325d92bebee46acb3f52bb27c225d54361c22545e9dee"
+        }
+      },
+      "script_ref": "DR-054",
+      "script_evidence": {
+        "source_git_blob": "1d254945393cb22f81facc46ec50d3e926579e6a",
+        "source_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
+        "lines": [
+          116,
+          118,
+          120,
+          122,
+          132,
+          134
+        ]
+      }
     },
     {
       "id": "DR-055-D01",
@@ -7751,6 +7917,63 @@
         }
       },
       "script_ref": "DR-056"
+    },
+    {
+      "id": "DR-056-D05",
+      "lecture_id": "DR-056",
+      "lesson_number": 56,
+      "title": "공통과목과 안보교육 책임",
+      "article": "교육훈련 훈령 제12조",
+      "article_key": "2-12",
+      "source_clauses": [
+        "제1항",
+        "제1항제1호",
+        "제1항제1호나목",
+        "제1항제1호 단서"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J12-0:0",
+      "source_version": "국방부훈령 제3216호",
+      "effective_date": "2026-10-14",
+      "note": "지휘관 교육은 국방부 통제 하 각 군 지침에 따라 부대·지역 특성에 맞게 실시.",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-056/diagrams/DR-056-D05-editorial-v1.svg",
+          "bytes": 6342,
+          "sha256": "25a13917ff98d726ea6ef736250dec2b94cdb91b4a1b2909e8423cabf2ac08d9"
+        },
+        "png": {
+          "path": "defense-directives/lesson-056/diagrams/DR-056-D05-editorial-v1.png",
+          "bytes": 159972,
+          "sha256": "5db74b8c6c3fce83944d713532c1b1b74ab4f38c7297fead2db154aebdf9e32d"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-056/diagrams/DR-056-D05-editorial-v1.webp",
+          "bytes": 50890,
+          "sha256": "ff58b5deed68d80deae9afdeb87b240c7e071b5d70103f895151b03a7768c756"
+        }
+      },
+      "script_ref": "DR-056",
+      "script_evidence": {
+        "source_git_blob": "3f7d287b41bcd46c67b630f6190db29fcdaa959f",
+        "source_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0",
+        "lines": [
+          15,
+          21,
+          25,
+          31,
+          35,
+          43,
+          63,
+          65,
+          71,
+          75,
+          77,
+          85
+        ]
+      }
     },
     {
       "id": "DR-057-D01",
@@ -10078,28 +10301,44 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J27-0:0",
       "source_version": "국방부훈령 제3216호",
       "effective_date": "2026-10-14",
-      "note": "",
+      "note": "건전한 프로그램 선정·관련 단체 협조. 정기 개방은 국유재산법 제30·31조 사용허가.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-071/diagrams/DR-071-D01-editorial-v1.svg",
-          "bytes": 5912,
-          "sha256": "1b72837cf443bfa6a326e396d37e4cf5e9dd8a0d04b2af9090ba8e8ddc08e695"
+          "bytes": 6392,
+          "sha256": "da43d39efb2e51ee317e4ee700408af1cb8a3ee21a858e8a9bea8b0a8b960e7c"
         },
         "png": {
           "path": "defense-directives/lesson-071/diagrams/DR-071-D01-editorial-v1.png",
-          "bytes": 148003,
-          "sha256": "9fdfaa97976967fb5eee22eaf0650a6532c97a77ffae18972837147ce4d00f8e"
+          "bytes": 172172,
+          "sha256": "0f5719a5888cdbaa572bf1974c4090bf29ee95039415e31fae1a5cc1fa400094"
         },
         "webp": {
           "path": "defense-directives/lesson-071/diagrams/DR-071-D01-editorial-v1.webp",
-          "bytes": 45810,
-          "sha256": "1a2da5432c2a99d1dacd639e12afd401b5791b42dbf810c809ba3d5eb4370dc3"
+          "bytes": 52400,
+          "sha256": "385591be3424323415eec734668285ff7ff350fac8cbd228ddda0e99f2d1eaec"
         }
       },
-      "script_ref": "DR-071"
+      "script_ref": "DR-071",
+      "script_evidence": {
+        "source_git_blob": "869c8d8eb80efbba19eb02e9a719f65395751f42",
+        "source_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
+        "lines": [
+          25,
+          29,
+          33,
+          35,
+          37,
+          39,
+          45,
+          49,
+          63,
+          65
+        ]
+      }
     },
     {
       "id": "DR-071-D02",
@@ -10210,6 +10449,61 @@
         }
       },
       "script_ref": "DR-071"
+    },
+    {
+      "id": "DR-071-D05",
+      "lecture_id": "DR-071",
+      "lesson_number": 71,
+      "title": "참가비 지급범위와 예외",
+      "article": "교육훈련 훈령 제27조",
+      "article_key": "2-27",
+      "source_clauses": [
+        "제2항제2호가목",
+        "제2항제2호나목2)~6)"
+      ],
+      "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J27-0:0",
+      "source_version": "국방부훈령 제3216호",
+      "effective_date": "2026-10-14",
+      "note": "급식지원 시 급식비 미지급. 상비 추가 지급은 각 군 지침·소집여건·예산 고려.",
+      "width": 1600,
+      "height": 1120,
+      "body_font_size": 36,
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-071/diagrams/DR-071-D05-editorial-v1.svg",
+          "bytes": 5941,
+          "sha256": "8360cba7058ac60f0bba629c1cf7060a8d3b767df41265c7bec3408d059ca9e2"
+        },
+        "png": {
+          "path": "defense-directives/lesson-071/diagrams/DR-071-D05-editorial-v1.png",
+          "bytes": 144273,
+          "sha256": "5f1dfc0ad063698446b7d5cff6a4f17143853adab2dd28cb8c704d7fa135b53a"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-071/diagrams/DR-071-D05-editorial-v1.webp",
+          "bytes": 45868,
+          "sha256": "c1e3330d697ae745b4b23c6e1a30dde97304de41919a0c8363c8fb7c2d7866ad"
+        }
+      },
+      "script_ref": "DR-071",
+      "script_evidence": {
+        "source_git_blob": "869c8d8eb80efbba19eb02e9a719f65395751f42",
+        "source_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
+        "lines": [
+          91,
+          95,
+          115,
+          117,
+          119,
+          123,
+          125,
+          127,
+          160,
+          162,
+          163,
+          164
+        ]
+      }
     },
     {
       "id": "DR-072-D01",
