@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-28T17:24:15+09:00",
+  "updated_at": "2026-11-28T18:29:07+09:00",
   "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
     "status": "files_completed",
@@ -66,7 +66,31 @@
     ]
   },
   "state": {
-    "active_run": null,
+    "active_run": {
+      "id": "dr-20261128-182907-script",
+      "status": "rendering",
+      "started_at": "2026-11-28T18:29:07+09:00",
+      "lease_expires_at": "2026-11-28T20:29:07+09:00",
+      "expected_head": "14a3c71a1db1557a45a1a89f22f8a91792b56141",
+      "lesson_ids": [
+        "DR-005",
+        "DR-054",
+        "DR-071",
+        "DR-056"
+      ],
+      "diagram_ids": [
+        "DR-005-D02",
+        "DR-005-D08",
+        "DR-054-D01",
+        "DR-054-D05",
+        "DR-054-D06",
+        "DR-071-D01",
+        "DR-071-D05",
+        "DR-056-D05"
+      ],
+      "coordinator": "single_writer",
+      "worker_slots": 3
+    },
     "last_successful_run": {
       "id": "dr-20261128-172415-visual-checkpoint",
       "status": "visual_checkpoint_completed",
@@ -114,7 +138,7 @@
     "production_jobs_queued": 0,
     "production_jobs_qa": 0,
     "production_jobs_completed": 142,
-    "production_jobs_running": 0,
+    "production_jobs_running": 8,
     "full_audit": {
       "id": "dr-full-audit-20261128",
       "status": "in_progress",
@@ -785,7 +809,7 @@
       "lease_expires_at": null,
       "completed_at": null,
       "result": {
-        "scope": "제80회 기존 원고 및 구조화 기존 도식 대조; 확인된 학습 목적 우선 수정",
+        "scope": "기존 제80회 원고와 구조화 도식 대조, 확인된 누락·표현 보완",
         "full_review_completed": false,
         "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
         "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
@@ -793,8 +817,12 @@
           "원고 158·202–205행의 수임군부대장과 병무청장 상호 업무협조, 전산명부 및 편성카드 전송 매체 명시 검토",
           "원고 201행의 병력동원 훈련소집 명칭을 축약 없이 표시할 필요 검토"
         ],
-        "visual_qa": "이번 D02·D06 수정 이미지 검수 통과; 기존 7장 대조 중 추가 확인 사항 남음",
-        "visual_review_commit": "0ecf67dd5b592d089ceadd9d588e99e46c8d7d0e"
+        "visual_qa": "수정/신규 도식 렌더링 및 직접 이미지 검수 대기",
+        "visual_review_commit": "0ecf67dd5b592d089ceadd9d588e99e46c8d7d0e",
+        "pending_production_job_ids": [
+          "DR-005-D02-script-182907",
+          "DR-005-D08-script-182907"
+        ]
       },
       "script_ref": "DR-005",
       "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
@@ -974,7 +1002,18 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "full_review_completed": false,
+        "scope": "기존 제80회 원고와 구조화 도식 대조, 확인된 누락·표현 보완",
+        "source_git_blob": "1d254945393cb22f81facc46ec50d3e926579e6a",
+        "source_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
+        "visual_qa": "수정/신규 도식 렌더링 및 직접 이미지 검수 대기",
+        "pending_production_job_ids": [
+          "DR-054-D01-script-182907",
+          "DR-054-D05-script-182907",
+          "DR-054-D06-script-182907"
+        ]
+      },
       "script_ref": "DR-054",
       "script_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f"
     },
@@ -1004,7 +1043,16 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "full_review_completed": false,
+        "scope": "기존 제80회 원고와 구조화 도식 대조, 확인된 누락·표현 보완",
+        "source_git_blob": "3f7d287b41bcd46c67b630f6190db29fcdaa959f",
+        "source_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0",
+        "visual_qa": "수정/신규 도식 렌더링 및 직접 이미지 검수 대기",
+        "pending_production_job_ids": [
+          "DR-056-D05-script-182907"
+        ]
+      },
       "script_ref": "DR-056",
       "script_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0"
     },
@@ -1064,7 +1112,17 @@
       "claimed_at": null,
       "lease_expires_at": null,
       "completed_at": null,
-      "result": null,
+      "result": {
+        "full_review_completed": false,
+        "scope": "기존 제80회 원고와 구조화 도식 대조, 확인된 누락·표현 보완",
+        "source_git_blob": "869c8d8eb80efbba19eb02e9a719f65395751f42",
+        "source_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
+        "visual_qa": "수정/신규 도식 렌더링 및 직접 이미지 검수 대기",
+        "pending_production_job_ids": [
+          "DR-071-D01-script-182907",
+          "DR-071-D05-script-182907"
+        ]
+      },
       "script_ref": "DR-071",
       "script_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c"
     },
@@ -11525,6 +11583,302 @@
       "completed_at": "2026-11-28T17:24:15+09:00",
       "webp_git_blob": "2d21151c5be46ba0b8a79d1448fc4d6879c2a36c",
       "visual_review_commit": "0ecf67dd5b592d089ceadd9d588e99e46c8d7d0e"
+    },
+    {
+      "id": "DR-005-D02-script-182907",
+      "lesson_id": "DR-005",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-005-D02",
+      "diagram_id": "DR-005-D02",
+      "learning_objective": "병력동원 훈련소집의 원고상 명칭 유지",
+      "script_ref": "DR-005",
+      "script_section": "112,114,122,138,142,144,146,148,156,158,198,199,200,201,203,204,221",
+      "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|112,114,122,138,142,144,146,148,156,158,198,199,200,201,203,204,221|병력동원 훈련소집의 원고상 명칭 유지|editorial-v1",
+      "status": "running",
+      "claimed_by": "dr-20261128-182907-script",
+      "claimed_at": "2026-11-28T18:29:07+09:00",
+      "lease_expires_at": "2026-11-28T20:29:07+09:00",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-5.txt",
+          "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+          "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+          "line_numbers": [
+            112,
+            114,
+            122,
+            138,
+            142,
+            144,
+            146,
+            148,
+            156,
+            158,
+            198,
+            199,
+            200,
+            201,
+            203,
+            204,
+            221
+          ]
+        }
+      ],
+      "outputs": []
+    },
+    {
+      "id": "DR-005-D08-script-182907",
+      "lesson_id": "DR-005",
+      "type": "script_alignment_supplement",
+      "target_diagram_id": "DR-005-D08",
+      "diagram_id": "DR-005-D08",
+      "learning_objective": "병무청 명부관리·편성카드 전송 및 상호 업무협조",
+      "script_ref": "DR-005",
+      "script_section": "158,196,202,203,205,213,217,221,223",
+      "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|158,196,202,203,205,213,217,221,223|병무청 명부관리·편성카드 전송 및 상호 업무협조|editorial-v1",
+      "status": "running",
+      "claimed_by": "dr-20261128-182907-script",
+      "claimed_at": "2026-11-28T18:29:07+09:00",
+      "lease_expires_at": "2026-11-28T20:29:07+09:00",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-5.txt",
+          "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+          "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+          "line_numbers": [
+            158,
+            196,
+            202,
+            203,
+            205,
+            213,
+            217,
+            221,
+            223
+          ]
+        }
+      ],
+      "outputs": []
+    },
+    {
+      "id": "DR-054-D01-script-182907",
+      "lesson_id": "DR-054",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-054-D01",
+      "diagram_id": "DR-054-D01",
+      "learning_objective": "정기 소집의 법률 근거·상비예비군 예외 및 불시 대상 구분",
+      "script_ref": "DR-054",
+      "script_section": "15,19,21,25,27,43",
+      "script_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-054|1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f|15,19,21,25,27,43|정기 소집의 법률 근거·상비예비군 예외 및 불시 대상 구분|editorial-v1",
+      "status": "running",
+      "claimed_by": "dr-20261128-182907-script",
+      "claimed_at": "2026-11-28T18:29:07+09:00",
+      "lease_expires_at": "2026-11-28T20:29:07+09:00",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-10.txt",
+          "source_git_blob": "1d254945393cb22f81facc46ec50d3e926579e6a",
+          "source_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
+          "line_numbers": [
+            15,
+            19,
+            21,
+            25,
+            27,
+            43
+          ]
+        }
+      ],
+      "outputs": []
+    },
+    {
+      "id": "DR-054-D05-script-182907",
+      "lesson_id": "DR-054",
+      "type": "script_alignment_supplement",
+      "target_diagram_id": "DR-054-D05",
+      "diagram_id": "DR-054-D05",
+      "learning_objective": "인터넷 신청 후 추가 홍보·무단불참 차수 증가 및 휴일·전국단위 신청기한",
+      "script_ref": "DR-054",
+      "script_section": "47,78,80,82,90,92,94,96",
+      "script_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-054|1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f|47,78,80,82,90,92,94,96|인터넷 신청 후 추가 홍보·무단불참 차수 증가 및 휴일·전국단위 신청기한|editorial-v1",
+      "status": "running",
+      "claimed_by": "dr-20261128-182907-script",
+      "claimed_at": "2026-11-28T18:29:07+09:00",
+      "lease_expires_at": "2026-11-28T20:29:07+09:00",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-10.txt",
+          "source_git_blob": "1d254945393cb22f81facc46ec50d3e926579e6a",
+          "source_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
+          "line_numbers": [
+            47,
+            78,
+            80,
+            82,
+            90,
+            92,
+            94,
+            96
+          ]
+        }
+      ],
+      "outputs": []
+    },
+    {
+      "id": "DR-054-D06-script-182907",
+      "lesson_id": "DR-054",
+      "type": "script_alignment_supplement",
+      "target_diagram_id": "DR-054-D06",
+      "diagram_id": "DR-054-D06",
+      "learning_objective": "훈련 차수별 통지 수단과 증빙·동의 조건",
+      "script_ref": "DR-054",
+      "script_section": "116,118,120,122,132,134",
+      "script_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-054|1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f|116,118,120,122,132,134|훈련 차수별 통지 수단과 증빙·동의 조건|editorial-v1",
+      "status": "running",
+      "claimed_by": "dr-20261128-182907-script",
+      "claimed_at": "2026-11-28T18:29:07+09:00",
+      "lease_expires_at": "2026-11-28T20:29:07+09:00",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-10.txt",
+          "source_git_blob": "1d254945393cb22f81facc46ec50d3e926579e6a",
+          "source_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
+          "line_numbers": [
+            116,
+            118,
+            120,
+            122,
+            132,
+            134
+          ]
+        }
+      ],
+      "outputs": []
+    },
+    {
+      "id": "DR-071-D01-script-182907",
+      "lesson_id": "DR-071",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-071-D01",
+      "diagram_id": "DR-071-D01",
+      "learning_objective": "민간 개방의 결정 주체·조건·각 군 지침 명시",
+      "script_ref": "DR-071",
+      "script_section": "25,29,33,35,37,39,45,49,63,65",
+      "script_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-071|8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c|25,29,33,35,37,39,45,49,63,65|민간 개방의 결정 주체·조건·각 군 지침 명시|editorial-v1",
+      "status": "running",
+      "claimed_by": "dr-20261128-182907-script",
+      "claimed_at": "2026-11-28T18:29:07+09:00",
+      "lease_expires_at": "2026-11-28T20:29:07+09:00",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-27.txt",
+          "source_git_blob": "869c8d8eb80efbba19eb02e9a719f65395751f42",
+          "source_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
+          "line_numbers": [
+            25,
+            29,
+            33,
+            35,
+            37,
+            39,
+            45,
+            49,
+            63,
+            65
+          ]
+        }
+      ],
+      "outputs": []
+    },
+    {
+      "id": "DR-071-D05-script-182907",
+      "lesson_id": "DR-071",
+      "type": "script_alignment_supplement",
+      "target_diagram_id": "DR-071-D05",
+      "diagram_id": "DR-071-D05",
+      "learning_objective": "지역·Ⅱ형 참가비 예외와 훈련 유형별 지급범위",
+      "script_ref": "DR-071",
+      "script_section": "91,95,115,117,119,123,125,127,160,162,163,164",
+      "script_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-071|8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c|91,95,115,117,119,123,125,127,160,162,163,164|지역·Ⅱ형 참가비 예외와 훈련 유형별 지급범위|editorial-v1",
+      "status": "running",
+      "claimed_by": "dr-20261128-182907-script",
+      "claimed_at": "2026-11-28T18:29:07+09:00",
+      "lease_expires_at": "2026-11-28T20:29:07+09:00",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-27.txt",
+          "source_git_blob": "869c8d8eb80efbba19eb02e9a719f65395751f42",
+          "source_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
+          "line_numbers": [
+            91,
+            95,
+            115,
+            117,
+            119,
+            123,
+            125,
+            127,
+            160,
+            162,
+            163,
+            164
+          ]
+        }
+      ],
+      "outputs": []
+    },
+    {
+      "id": "DR-056-D05-script-182907",
+      "lesson_id": "DR-056",
+      "type": "script_alignment_supplement",
+      "target_diagram_id": "DR-056-D05",
+      "diagram_id": "DR-056-D05",
+      "learning_objective": "공통과목 전 부대 실시·정치적 중립·자료 적합성 검토 및 과학화 교육 주체",
+      "script_ref": "DR-056",
+      "script_section": "15,21,25,31,35,43,63,65,71,75,77,85",
+      "script_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-056|bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0|15,21,25,31,35,43,63,65,71,75,77,85|공통과목 전 부대 실시·정치적 중립·자료 적합성 검토 및 과학화 교육 주체|editorial-v1",
+      "status": "running",
+      "claimed_by": "dr-20261128-182907-script",
+      "claimed_at": "2026-11-28T18:29:07+09:00",
+      "lease_expires_at": "2026-11-28T20:29:07+09:00",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-12.txt",
+          "source_git_blob": "3f7d287b41bcd46c67b630f6190db29fcdaa959f",
+          "source_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0",
+          "line_numbers": [
+            15,
+            21,
+            25,
+            31,
+            35,
+            43,
+            63,
+            65,
+            71,
+            75,
+            77,
+            85
+          ]
+        }
+      ],
+      "outputs": []
     }
   ],
   "runs": [

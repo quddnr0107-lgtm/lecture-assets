@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "exam": 80,
-  "run_id": "dr-20261128-162738-visual-followup",
+  "run_id": "dr-20261128-182907-script",
   "groups": [
     {
       "lesson_id": "DR-005",
@@ -11,7 +11,7 @@
       "items": [
         {
           "id": "DR-005-D02",
-          "job_id": "DR-005-D02-script-162738",
+          "job_id": "DR-005-D02-script-182907",
           "mode": "revision",
           "slide": {
             "lessonId": "DR-005",
@@ -51,7 +51,7 @@
                 },
                 {
                   "label": "자원·소집",
-                  "text": "예비군 자원관리, 병력동원소집·훈련소집",
+                  "text": "예비군자원관리, 병력동원소집 및 병력동원 훈련소집",
                   "bold": false
                 },
                 {
@@ -85,71 +85,65 @@
                 148,
                 156,
                 158,
+                198,
+                199,
+                200,
+                201,
+                203,
+                204,
                 221
               ]
             }
           }
         },
         {
-          "id": "DR-005-D06",
-          "job_id": "DR-005-D06-script-162738",
-          "mode": "revision",
+          "id": "DR-005-D08",
+          "job_id": "DR-005-D08-script-182907",
+          "mode": "new",
           "slide": {
             "lessonId": "DR-005",
             "articleKey": "1-5",
-            "title": "방침·지급·심의와 임명",
-            "subtitle": "치료·보상과 임명에 관한 권한을 서로 바꾸지 않는다.",
+            "title": "명부·편성카드와 상호 협조",
+            "subtitle": "병무청장의 명부관리와 군·병무청 간 업무협조를 구분한다.",
             "layout": "equal",
             "left": {
-              "title": "치료 및 보상",
-              "subtitle": "방침 / 지급 / 심의 (주체 비교)",
+              "title": "병무청장",
+              "subtitle": "제6호마목·바목",
               "items": [
                 {
-                  "label": "국방부장관",
-                  "text": "포상·치료·보상 방침 수립과 조정",
+                  "label": "전산명부",
+                  "text": "예비군 조직·편성 대상자의 전산명부 관리",
                   "bold": false
                 },
                 {
-                  "label": "각 군 참모총장",
-                  "text": "치료 및 보상금 지급",
-                  "bold": true
-                },
-                {
-                  "label": "수임군부대장",
-                  "text": "치료 및 보상에 관한 심의",
+                  "label": "편성카드",
+                  "text": "소속 예비군지휘관에게 국방동원정보체계로 전송",
                   "bold": true
                 }
               ]
             },
             "right": {
-              "title": "임명하는 사람",
-              "subtitle": "서로 다른 임명 대상",
+              "title": "상호 업무협조",
+              "subtitle": "제3호타목 · 제6호아목",
               "items": [
                 {
-                  "label": "국방부장관",
-                  "text": "업무담당자 임용·임명·해임",
-                  "bold": false
-                },
-                {
                   "label": "수임군부대장",
-                  "text": "위임된 예비군중대장 임명·해임",
+                  "text": "병무청장·지방병무청장·병무지청장과 업무협조 유지",
                   "bold": false
                 },
                 {
-                  "label": "수탁 경찰서장",
-                  "text": "무기고·탄약고 관리책임자 임명·통제",
+                  "label": "병무청장",
+                  "text": "수임군부대장과 예비군 관련 업무협조 유지",
                   "bold": false
                 }
               ]
             },
             "sourceArticle": "조직·편성 훈령 제5조",
             "sourceClauses": [
-              "제1호다·라·바목",
-              "제2호마목",
-              "제3호다·자·차목",
-              "제7호라목"
+              "제3호타목",
+              "제6호마·바·아목"
             ],
-            "note": "특별감사: 국방부장관(각 군 위임). 정기감사: 수임군부대장.",
+            "note": "소대자원 현황 파악 유지는 소대장, 예비군자원관리는 병무청장.",
             "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J5-0:0",
             "sourceVersion": "국방부훈령 제3104호",
             "effectiveDate": "2025-11-14",
@@ -158,10 +152,15 @@
               "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
               "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
               "lines": [
-                98,
-                99,
-                100,
-                249
+                158,
+                196,
+                202,
+                203,
+                205,
+                213,
+                217,
+                221,
+                223
               ]
             }
           }
@@ -169,236 +168,489 @@
       ]
     },
     {
-      "lesson_id": "DR-011",
-      "expected_source_blob": "c790262d0a78c11f2e59c0d9bb7cef7321c8995c",
-      "expected_script_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed",
-      "existing_max": 5,
-      "items": [
-        {
-          "id": "DR-011-D05",
-          "job_id": "DR-011-D05-script-162738",
-          "mode": "revision",
-          "slide": {
-            "lessonId": "DR-011",
-            "articleKey": "1-11",
-            "title": "선발공고와 지원서",
-            "subtitle": "공고 채널과 선발공고 필수 내용, 별지 제7호 지원서를 구분한다.",
-            "layout": "equal",
-            "left": {
-              "title": "선발공고",
-              "subtitle": "예비군홈페이지 등",
-              "items": [
-                {
-                  "label": "공고 주체",
-                  "text": "예비군중대장: 공석 및 신규 소요 발생 시",
-                  "bold": false
-                },
-                {
-                  "label": "항목 1~3",
-                  "text": "선발직책, 자격기준, 의무 및 혜택",
-                  "bold": false
-                },
-                {
-                  "label": "항목 4~6",
-                  "text": "접수기간, 구비서류, 결과 발표 방법",
-                  "bold": true
-                }
-              ]
-            },
-            "right": {
-              "title": "지원서",
-              "subtitle": "별지 제7호서식",
-              "items": [
-                {
-                  "label": "제출",
-                  "text": "예비군 주요 직위자 지원서",
-                  "bold": false
-                },
-                {
-                  "label": "확인",
-                  "text": "후순위 승인일 기재",
-                  "bold": false
-                },
-                {
-                  "label": "추천 시 첨부",
-                  "text": "지원서 및 예비군 편성카드",
-                  "bold": true
-                }
-              ]
-            },
-            "sourceArticle": "조직·편성 훈령 제11조",
-            "sourceClauses": [
-              "제2항제1호",
-              "제2항제3호",
-              "별지 제7호서식"
-            ],
-            "note": "공고는 홈페이지, 추천·결과 확인은 국방동원정보체계. 선발일정은 원고의 열거에 없다.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J11-0:0",
-            "sourceVersion": "국방부훈령 제3104호",
-            "effectiveDate": "2025-11-14",
-            "scriptRef": "DR-011",
-            "scriptEvidence": {
-              "source_git_blob": "c790262d0a78c11f2e59c0d9bb7cef7321c8995c",
-              "source_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed",
-              "lines": [
-                113,
-                115,
-                127,
-                135,
-                159,
-                244
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "lesson_id": "DR-030",
-      "expected_source_blob": "41d907a7a6f3ef9d3929b57b0b704b18c0f70ecc",
-      "expected_script_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
+      "lesson_id": "DR-054",
+      "expected_source_blob": "1d254945393cb22f81facc46ec50d3e926579e6a",
+      "expected_script_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
       "existing_max": 4,
       "items": [
         {
-          "id": "DR-030-D02",
-          "job_id": "DR-030-D02-script-162738",
+          "id": "DR-054-D01",
+          "job_id": "DR-054-D01-script-182907",
           "mode": "revision",
           "slide": {
-            "lessonId": "DR-030",
-            "articleKey": "1-30",
-            "title": "집결과 무기·탄약 분배",
-            "subtitle": "응소기준과 분배체계는 동원 전에 준비한다.",
+            "lessonId": "DR-054",
+            "articleKey": "2-10",
+            "title": "유형별 훈련소집 방법",
+            "subtitle": "Ⅰ형, 그 밖의 정기훈련, 지역 불시훈련의 통지방법이다.",
             "layout": "split",
             "left": {
-              "title": "동원명령 응소",
-              "subtitle": "직접·간접 명령 수령 모두",
+              "title": "정기 훈련",
+              "subtitle": "제1항·제2항",
               "items": [
                 {
-                  "label": "제3항 · 도착기준",
-                  "text": "동원 발령일시부터 시행령 제12조에 명시된 시간 내 집결장소에 도착한다.",
-                  "bold": true
+                  "label": "동원훈련Ⅰ형",
+                  "text": "병역법 제50조 통지서 또는 시행령 제3조의4 전자고지",
+                  "bold": false
                 },
                 {
-                  "label": "제3항 · 부득이한 사유",
-                  "text": "소속 예비군지휘관에게 가용한 방법으로 보고하고 조치를 받는다.",
+                  "label": "Ⅱ형·상비·기본·작계",
+                  "text": "예비군법 제6조의2 통지서 또는 모바일·우편·홈페이지 등",
                   "bold": false
                 }
               ]
             },
             "right": {
-              "title": "분배·보관",
-              "subtitle": "관리대대 및 예비군부대",
+              "title": "불시 훈련",
+              "subtitle": "제3항·제4항",
               "items": [
                 {
-                  "label": "제4항제1호",
-                  "text": "최단시간 내 지급하도록 부대별 계획과 수송·분배체계를 갖춘다.",
+                  "label": "지역예비군",
+                  "text": "전화 또는 방문 통보",
                   "bold": false
                 },
                 {
-                  "label": "제4항제2호",
-                  "text": "무기·탄약 수송 간 안전대책을 강구한다.",
-                  "bold": false
-                },
-                {
-                  "label": "제4항제2호",
-                  "text": "분배 후 잔여 총기·탄약을 회수하여 경계대책이 있는 안전한 시설에 보관한다.",
+                  "label": "동원예비군 불시 Ⅰ형",
+                  "text": "전시 소집절차, 병무청 및 각 군이 세부절차 구체화",
                   "bold": false
                 }
               ]
             },
-            "sourceArticle": "조직·편성 훈령 제30조",
+            "sourceArticle": "교육훈련 훈령 제10조",
             "sourceClauses": [
+              "제1항",
+              "제2항",
               "제3항",
               "제4항"
             ],
-            "note": "원고 설명: 발령지역 인근 6시간 / 그 밖의 육지 24시간 / 섬·출어 중 48시간.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J30-0:0",
-            "sourceVersion": "국방부훈령 제3104호",
-            "effectiveDate": "2025-11-14",
-            "scriptRef": "DR-030",
+            "note": "제1항 단서: 상비예비군의 병력동원훈련을 제외한 훈련소집은 각 군에서 구체화·시행.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J10-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-054",
             "scriptEvidence": {
-              "source_git_blob": "41d907a7a6f3ef9d3929b57b0b704b18c0f70ecc",
-              "source_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
+              "source_git_blob": "1d254945393cb22f81facc46ec50d3e926579e6a",
+              "source_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
               "lines": [
-                73,
-                75,
-                83,
-                89,
-                107
+                15,
+                19,
+                21,
+                25,
+                27,
+                43
               ]
             }
           }
         },
         {
-          "id": "DR-030-D03",
-          "job_id": "DR-030-D03-script-162738",
-          "mode": "revision",
+          "id": "DR-054-D05",
+          "job_id": "DR-054-D05-script-182907",
+          "mode": "new",
           "slide": {
-            "lessonId": "DR-030",
-            "articleKey": "1-30",
-            "title": "작전투입·교대와 긴급조치",
-            "subtitle": "교대근무의 원칙과 조정권자, 긴급조치 권한을 구분한다.",
-            "layout": "split",
+            "lessonId": "DR-054",
+            "articleKey": "2-10",
+            "title": "인터넷 신청의 효력과 기한",
+            "subtitle": "신청 후 통지 효력·무단불참 처리와 별도 신청기한을 비교한다.",
+            "layout": "equal",
             "left": {
-              "title": "투입·근무교대",
-              "subtitle": "작전 준비와 지속 운용",
+              "title": "인터넷 신청",
+              "subtitle": "제5항제1·3·4호",
               "items": [
                 {
-                  "label": "제5항제1호",
-                  "text": "예비군지휘관은 투입 전 임무확인·전투태세 점검·정신교육 등을 한다.",
+                  "label": "연간 계획·공시",
+                  "text": "수임군부대장이 수립하고 신청가능 일정 공시",
                   "bold": false
                 },
                 {
-                  "label": "제5항제2호 · 원칙",
-                  "text": "근무·휴식·생업이 조화되도록 24시간 단위 교대근무 원칙",
+                  "label": "신청 완료",
+                  "text": "통지서 수령 간주, 부대는 추가 홍보 병행",
+                  "bold": false
+                },
+                {
+                  "label": "무단불참",
+                  "text": "제18조제4항에 따라 훈련차수 증가",
+                  "bold": true
+                }
+              ]
+            },
+            "right": {
+              "title": "휴일·전국단위훈련",
+              "subtitle": "제5항제5호",
+              "items": [
+                {
+                  "label": "신청 기한",
+                  "text": "훈련 3일 전까지",
                   "bold": true
                 },
                 {
-                  "label": "제5항제2호 · 조정",
-                  "text": "수임군부대장은 작전상황을 고려하여 교대주기 등을 조정할 수 있다.",
+                  "label": "포함 계산",
+                  "text": "신청일과 훈련일 포함 5일 전까지",
+                  "bold": false
+                },
+                {
+                  "label": "신청 매체",
+                  "text": "예비군 홈페이지 또는 예비군앱",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "교육훈련 훈령 제10조",
+            "sourceClauses": [
+              "제5항제1·3·4·5호"
+            ],
+            "note": "인터넷 대상은 동원훈련Ⅱ형·기본훈련·예비군훈련장 소집대상 작계 3차.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J10-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-054",
+            "scriptEvidence": {
+              "source_git_blob": "1d254945393cb22f81facc46ec50d3e926579e6a",
+              "source_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
+              "lines": [
+                47,
+                78,
+                80,
+                82,
+                90,
+                92,
+                94,
+                96
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-054-D06",
+          "job_id": "DR-054-D06-script-182907",
+          "mode": "new",
+          "slide": {
+            "lessonId": "DR-054",
+            "articleKey": "2-10",
+            "title": "차수별 통지 수단과 증빙",
+            "subtitle": "차수별 기본수단과 예외, 팩스·이메일의 확인 절차를 구분한다.",
+            "layout": "equal",
+            "left": {
+              "title": "1·2차 / 3차",
+              "subtitle": "제7항제1호 · 별표 4",
+              "items": [
+                {
+                  "label": "1·2차",
+                  "text": "홈페이지·앱, 모바일, 팩스, 이메일, 일반우편",
+                  "bold": false
+                },
+                {
+                  "label": "1·2차 예외",
+                  "text": "방문이 쉽거나 우편 수취 불능 시 방문 가능",
+                  "bold": false
+                },
+                {
+                  "label": "3차",
+                  "text": "방문·등기, 고발 연계 시 입증 가능한 수단",
                   "bold": false
                 }
               ]
             },
             "right": {
-              "title": "긴급조치",
-              "subtitle": "국방부장관이 필요 시 조치",
+              "title": "확인과 동의",
+              "subtitle": "제7항",
               "items": [
                 {
-                  "label": "제6항제1호",
-                  "text": "주민의 소개 또는 피난명령",
+                  "label": "팩스",
+                  "text": "수령증을 팩스로 회신할 수 있게 함",
                   "bold": false
                 },
                 {
-                  "label": "제6항제1호",
-                  "text": "교통·조명·출입의 제한",
+                  "label": "이메일",
+                  "text": "본인 동의, 전화·문자·SNS 추가 홍보",
                   "bold": false
                 },
                 {
-                  "label": "제6항제1호",
-                  "text": "임무수행에 지장을 주는 주민의 재산 제거 등",
+                  "label": "기록",
+                  "text": "수신동의 결과 유지",
                   "bold": false
                 }
               ]
             },
-            "sourceArticle": "조직·편성 훈령 제30조",
+            "sourceArticle": "교육훈련 훈령 제10조",
             "sourceClauses": [
-              "제5항",
-              "제6항"
+              "제7항제1호",
+              "제7항"
             ],
-            "note": "긴급조치 세부사항: 예비군법 제8조 및 시행령 제19조·제20조.",
-            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J30-0:0",
-            "sourceVersion": "국방부훈령 제3104호",
-            "effectiveDate": "2025-11-14",
-            "scriptRef": "DR-030",
+            "note": "고발 연계 3차는 모바일 전자고지·등기·방문 등 입증 가능한 수단.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J10-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-054",
             "scriptEvidence": {
-              "source_git_blob": "41d907a7a6f3ef9d3929b57b0b704b18c0f70ecc",
-              "source_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
+              "source_git_blob": "1d254945393cb22f81facc46ec50d3e926579e6a",
+              "source_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
               "lines": [
-                137,
-                141,
-                153,
-                155
+                116,
+                118,
+                120,
+                122,
+                132,
+                134
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson_id": "DR-071",
+      "expected_source_blob": "869c8d8eb80efbba19eb02e9a719f65395751f42",
+      "expected_script_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
+      "existing_max": 4,
+      "items": [
+        {
+          "id": "DR-071-D01",
+          "job_id": "DR-071-D01-script-182907",
+          "mode": "revision",
+          "slide": {
+            "lessonId": "DR-071",
+            "articleKey": "2-27",
+            "title": "훈련시설 책임과 민간 개방",
+            "subtitle": "시설 관리는 각 군이 맡고, 민간 개방은 안전·보안대책을 갖춘다.",
+            "layout": "split",
+            "left": {
+              "title": "시설 관리",
+              "subtitle": "제1항제1호·제2호",
+              "items": [
+                {
+                  "label": "책임",
+                  "text": "각 군 참모총장·해병대사령관",
+                  "bold": false
+                },
+                {
+                  "label": "업무",
+                  "text": "소요제기·사업집행·관리운영·조정통제",
+                  "bold": false
+                },
+                {
+                  "label": "기준",
+                  "text": "훈련장 표준규격과 보유기준 준수",
+                  "bold": false
+                }
+              ]
+            },
+            "right": {
+              "title": "민간 개방",
+              "subtitle": "제1항제3호",
+              "items": [
+                {
+                  "label": "주체·범위",
+                  "text": "각 수임군부대, 임무·여건 고려해 시설 일부 개방 가능",
+                  "bold": false
+                },
+                {
+                  "label": "대상·기준",
+                  "text": "비영리 민간단체·지역주민 등, 각 군 지침",
+                  "bold": false
+                },
+                {
+                  "label": "사전 준비",
+                  "text": "안전점검·보험·사고예방계획·책임소재·보안대책",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "교육훈련 훈령 제27조",
+            "sourceClauses": [
+              "제1항"
+            ],
+            "note": "건전한 프로그램 선정·관련 단체 협조. 정기 개방은 국유재산법 제30·31조 사용허가.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J27-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-071",
+            "scriptEvidence": {
+              "source_git_blob": "869c8d8eb80efbba19eb02e9a719f65395751f42",
+              "source_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
+              "lines": [
+                25,
+                29,
+                33,
+                35,
+                37,
+                39,
+                45,
+                49,
+                63,
+                65
+              ]
+            }
+          }
+        },
+        {
+          "id": "DR-071-D05",
+          "job_id": "DR-071-D05-script-182907",
+          "mode": "new",
+          "slide": {
+            "lessonId": "DR-071",
+            "articleKey": "2-27",
+            "title": "참가비 지급범위와 예외",
+            "subtitle": "Ⅰ형 외 훈련의 지급 항목과 지급하지 않는 조건을 비교한다.",
+            "layout": "equal",
+            "left": {
+              "title": "지역·동원훈련Ⅱ형",
+              "subtitle": "제2항제2호가목",
+              "items": [
+                {
+                  "label": "원칙",
+                  "text": "1일 단위 지급",
+                  "bold": false
+                },
+                {
+                  "label": "중식 이후 조기퇴소",
+                  "text": "참가비 지급",
+                  "bold": false
+                },
+                {
+                  "label": "2차 및 3차 훈련",
+                  "text": "지급하지 않음",
+                  "bold": true
+                }
+              ]
+            },
+            "right": {
+              "title": "유형별 지급 항목",
+              "subtitle": "제2항제2호나목2)~6)",
+              "items": [
+                {
+                  "label": "Ⅱ형·기본·작계",
+                  "text": "훈련비·교통비·급식비",
+                  "bold": false
+                },
+                {
+                  "label": "숙영하는 Ⅱ형",
+                  "text": "동원훈련Ⅰ형에 준하여 지급",
+                  "bold": false
+                },
+                {
+                  "label": "상비예비군",
+                  "text": "훈련비, 교통비·여비 등 추가 가능",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "교육훈련 훈령 제27조",
+            "sourceClauses": [
+              "제2항제2호가목",
+              "제2항제2호나목2)~6)"
+            ],
+            "note": "급식지원 시 급식비 미지급. 상비 추가 지급은 각 군 지침·소집여건·예산 고려.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J27-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-071",
+            "scriptEvidence": {
+              "source_git_blob": "869c8d8eb80efbba19eb02e9a719f65395751f42",
+              "source_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
+              "lines": [
+                91,
+                95,
+                115,
+                117,
+                119,
+                123,
+                125,
+                127,
+                160,
+                162,
+                163,
+                164
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "lesson_id": "DR-056",
+      "expected_source_blob": "3f7d287b41bcd46c67b630f6190db29fcdaa959f",
+      "expected_script_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0",
+      "existing_max": 4,
+      "items": [
+        {
+          "id": "DR-056-D05",
+          "job_id": "DR-056-D05-script-182907",
+          "mode": "new",
+          "slide": {
+            "lessonId": "DR-056",
+            "articleKey": "2-12",
+            "title": "공통과목과 안보교육 책임",
+            "subtitle": "전 부대 실시 원칙과 안보교육 자료·세부방법의 담당 주체를 구분한다.",
+            "layout": "equal",
+            "left": {
+              "title": "공통과목",
+              "subtitle": "제1항 · 제1호",
+              "items": [
+                {
+                  "label": "전 부대",
+                  "text": "안보교육과 개인화기 사격은 공통과목",
+                  "bold": false
+                },
+                {
+                  "label": "안보교육 목적",
+                  "text": "국가 안보관·대적관 확립, 역할·사명감 고양",
+                  "bold": false
+                },
+                {
+                  "label": "실시 조건",
+                  "text": "정치적 중립 유지",
+                  "bold": true
+                }
+              ]
+            },
+            "right": {
+              "title": "교육자료·세부방법",
+              "subtitle": "제1항제1호나목 및 단서",
+              "items": [
+                {
+                  "label": "자료 검토",
+                  "text": "내용 적합성: 각 군 및 국직부대장 책임",
+                  "bold": false
+                },
+                {
+                  "label": "보고 대상",
+                  "text": "국방부",
+                  "bold": true
+                },
+                {
+                  "label": "과학화훈련장",
+                  "text": "각 군 참모총장(해병대사령관)이 세부방법 정함",
+                  "bold": false
+                }
+              ]
+            },
+            "sourceArticle": "교육훈련 훈령 제12조",
+            "sourceClauses": [
+              "제1항",
+              "제1항제1호",
+              "제1항제1호나목",
+              "제1항제1호 단서"
+            ],
+            "note": "지휘관 교육은 국방부 통제 하 각 군 지침에 따라 부대·지역 특성에 맞게 실시.",
+            "sourceUrl": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286712#J12-0:0",
+            "sourceVersion": "국방부훈령 제3216호",
+            "effectiveDate": "2026-10-14",
+            "scriptRef": "DR-056",
+            "scriptEvidence": {
+              "source_git_blob": "3f7d287b41bcd46c67b630f6190db29fcdaa959f",
+              "source_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0",
+              "lines": [
+                15,
+                21,
+                25,
+                31,
+                35,
+                43,
+                63,
+                65,
+                71,
+                75,
+                77,
+                85
               ]
             }
           }
