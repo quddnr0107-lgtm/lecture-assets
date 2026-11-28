@@ -2638,14 +2638,15 @@
         "MS-094-D01-editorial-v1",
         "MS-094-D02-editorial-v1"
       ],
-      "full_script_read": false,
+      "full_script_read": true,
       "lease": null,
-      "checkpoint": 6,
+      "checkpoint": 17,
       "evidence_refs": [
         "military-service-act/production-evidence/exam80-generation-2/MS-094/002-publication-review.json",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-04-visual-review.json",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/checkpoint-05-corrected-drafts.json",
-        "military-service-act/production-evidence/exam80-generation-2/MS-094/006-publication-review.json"
+        "military-service-act/production-evidence/exam80-generation-2/MS-094/006-publication-review.json",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json"
       ],
       "outcome": null,
       "changed_diagram_ids": [],
@@ -2660,7 +2661,7 @@
         "MS-094-D01-editorial-v1",
         "MS-094-D02-editorial-v1"
       ],
-      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/MS-094/006-publication-review.json",
+      "partial_draft_checkpoint": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json",
       "draft_preview_paths": [
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-094/chaplain-committee.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-01/MS-094/candidate-ages.svg",
@@ -2668,7 +2669,21 @@
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-094/candidate-selection-scoring.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-094/candidate-demand-notification.svg",
         "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-094/candidate-application-deadlines-r2.svg",
-        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-094/candidate-selection-scoring-r2.svg"
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261127-02/MS-094/candidate-selection-scoring-r2.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/religion-selection-criteria.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/chaplain-selection.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/direct-officer-application.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-eligibility.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-selection-followup.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-change-notification.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-removal-exception.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/officer-entry-timeline.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/returned-candidate-reexamination.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/chaplain-committee-members.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-to-officer-selection.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/officer-training-and-records.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-application-documents.svg",
+        "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/non-illness-discharge.svg"
       ],
       "script_fulltext_retrieved": true,
       "partial_publication": {
@@ -2676,7 +2691,23 @@
         "review_ref": "military-service-act/production-evidence/exam80-generation-2/MS-094/006-publication-review.json",
         "remaining": "전체 원고 핵심 설명 누락 및 기존 도식 대응 최종 대조",
         "published_asset_source_commit": "dad67d12bd8b421ba54e01dca0b421bbfbe13a16"
-      }
+      },
+      "pending_draft_targets": [
+        "MS-094-D08-editorial-v1",
+        "MS-094-D09-editorial-v1",
+        "MS-094-D10-editorial-v1",
+        "MS-094-D11-editorial-v1",
+        "MS-094-D12-editorial-v1",
+        "MS-094-D13-editorial-v1",
+        "MS-094-D14-editorial-v1",
+        "MS-094-D15-editorial-v1",
+        "MS-094-D16-editorial-v1",
+        "MS-094-D17-editorial-v1",
+        "MS-094-D18-editorial-v1",
+        "MS-094-D19-editorial-v1",
+        "MS-094-D20-editorial-v1",
+        "MS-094-D21-editorial-v1"
+      ]
     },
     {
       "lecture_id": "MS-095",
@@ -4558,16 +4589,28 @@
   "last_draft_checkpoint": {
     "date_kst": "2026-11-28",
     "lecture_ids": [
-      "MS-109",
-      "MS-065",
-      "MS-001"
+      "MS-094"
     ],
-    "svg_drafts": 7,
-    "evidence_ref": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-12.json",
-    "status": "three_more_published",
-    "publication_parent": "24f1ea84f146149742dbdea1472fb05a07345b7d",
-    "visual_review_ref": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-13-visual-review.json",
-    "remaining_drafts": 3
+    "svg_drafts": 14,
+    "evidence_ref": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json",
+    "status": "svg_drafts_pending_raster_visual_review",
+    "publication_parent": "645e37e7c188b8c041bb2cc5b2db3506bb8e8d25",
+    "remaining_drafts": [
+      "MS-094-D08-editorial-v1",
+      "MS-094-D09-editorial-v1",
+      "MS-094-D10-editorial-v1",
+      "MS-094-D11-editorial-v1",
+      "MS-094-D12-editorial-v1",
+      "MS-094-D13-editorial-v1",
+      "MS-094-D14-editorial-v1",
+      "MS-094-D15-editorial-v1",
+      "MS-094-D16-editorial-v1",
+      "MS-094-D17-editorial-v1",
+      "MS-094-D18-editorial-v1",
+      "MS-094-D19-editorial-v1",
+      "MS-094-D20-editorial-v1",
+      "MS-094-D21-editorial-v1"
+    ]
   },
   "last_publication_checkpoint": {
     "date_kst": "2026-11-28",

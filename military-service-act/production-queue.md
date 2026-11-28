@@ -111,3 +111,7 @@
 ## 2026-11-28 전체 원고 범위 검수 체크포인트 16
 - MS-156·MS-158: 각 1장 재사용. [156강 근거](production-evidence/exam80-generation-2/MS-156/001-af0c7faf52471215c3c5c860501f7ea60ad114764d263e616eee34259bb50d8b.json) · [158강 근거](production-evidence/exam80-generation-2/MS-158/001-3c7a4aaa776d8b6ce186aa913b2fcf205ec8ea7ea239f3d53e19776010726518.json)
 - 전체 19강 완료, 147강 대기, 공개 316장. 이번 신규·교정 0장, 기존 기준 신규 검증 2장. 이미지·목록 변경 없음.
+
+## 2026-11-28 94강 원고 범위 체크포인트 17
+- 기존 공개 7장과 원고 전문 305행을 대조하여 누락 설명의 SVG 초안 14장 및 편집 데이터 작성. 원고 SHA와 generation 2 일치. [근거](production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json).
+- 무손실 WebP 및 실제 화면 검수·정식 통합 대기. 공개 316장, 전체 19강 완료·147강 대기 유지.

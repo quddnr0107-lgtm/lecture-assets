@@ -1,0 +1,268 @@
+{
+  "lecture_id": "MS-094",
+  "generation": 2,
+  "source_basis_sha256": "bf68691d04f95eff7dd32466abd15c49a68fd5ba1bca938f99d1032ac59dd6ee",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_58.txt",
+  "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+  "full_script_read": true,
+  "script_line_count": 305,
+  "script_topic_mapping": [
+    {
+      "proposed_diagram_id": "MS-094-D08-editorial-v1",
+      "topic": "군종 대상 종교의 선정기준",
+      "script_line_spans": [
+        [
+          42,
+          54
+        ]
+      ]
+    },
+    {
+      "proposed_diagram_id": "MS-094-D09-editorial-v1",
+      "topic": "군종장교 선발대상과 추천",
+      "script_line_spans": [
+        [
+          42,
+          56
+        ]
+      ]
+    },
+    {
+      "proposed_diagram_id": "MS-094-D10-editorial-v1",
+      "topic": "현역장교 편입 지원",
+      "script_line_spans": [
+        [
+          58,
+          64
+        ]
+      ]
+    },
+    {
+      "proposed_diagram_id": "MS-094-D11-editorial-v1",
+      "topic": "사관후보생 분야별 편입 자격",
+      "script_line_spans": [
+        [
+          68,
+          103
+        ]
+      ]
+    },
+    {
+      "proposed_diagram_id": "MS-094-D12-editorial-v1",
+      "topic": "사관후보생 선발 이후 관리",
+      "script_line_spans": [
+        [
+          130,
+          132
+        ]
+      ]
+    },
+    {
+      "proposed_diagram_id": "MS-094-D13-editorial-v1",
+      "topic": "후보생 신상변동 통보",
+      "script_line_spans": [
+        [
+          162,
+          164
+        ]
+      ]
+    },
+    {
+      "proposed_diagram_id": "MS-094-D14-editorial-v1",
+      "topic": "사관후보생 제적과 예외",
+      "script_line_spans": [
+        [
+          150,
+          160
+        ],
+        [
+          166,
+          172
+        ]
+      ]
+    },
+    {
+      "proposed_diagram_id": "MS-094-D15-editorial-v1",
+      "topic": "입영과 현역장교 편입 일정",
+      "script_line_spans": [
+        [
+          240,
+          242
+        ]
+      ]
+    },
+    {
+      "proposed_diagram_id": "MS-094-D16-editorial-v1",
+      "topic": "귀가자의 재신체검사 처리",
+      "script_line_spans": [
+        [
+          218,
+          238
+        ]
+      ]
+    },
+    {
+      "proposed_diagram_id": "MS-094-D17-editorial-v1",
+      "topic": "군종장교운영심사위원회 세부 구성",
+      "script_line_spans": [
+        [
+          264,
+          276
+        ]
+      ]
+    },
+    {
+      "proposed_diagram_id": "MS-094-D18-editorial-v1",
+      "topic": "후보생에서 현역장교로 선발",
+      "script_line_spans": [
+        [
+          278,
+          284
+        ]
+      ]
+    },
+    {
+      "proposed_diagram_id": "MS-094-D19-editorial-v1",
+      "topic": "군사교육 및 입영 명부 관리",
+      "script_line_spans": [
+        [
+          174,
+          190
+        ],
+        [
+          238,
+          244
+        ]
+      ]
+    },
+    {
+      "proposed_diagram_id": "MS-094-D20-editorial-v1",
+      "topic": "사관후보생 지원 증빙서류",
+      "script_line_spans": [
+        [
+          124,
+          132
+        ]
+      ]
+    },
+    {
+      "proposed_diagram_id": "MS-094-D21-editorial-v1",
+      "topic": "군간부후보생 교육기관 퇴교",
+      "script_line_spans": [
+        [
+          170,
+          172
+        ]
+      ]
+    }
+  ],
+  "existing_diagram_ids": [
+    "MS-094-D01-editorial-v1",
+    "MS-094-D02-editorial-v1",
+    "MS-094-D03-editorial-v1",
+    "MS-094-D04-editorial-v1",
+    "MS-094-D05-editorial-v1",
+    "MS-094-D06-editorial-v1",
+    "MS-094-D07-editorial-v1"
+  ],
+  "decision": "draft_missing_explanations_only",
+  "changed_artifacts_and_hashes": [
+    {
+      "id": "MS-094-D08-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/religion-selection-criteria.svg",
+      "svg_sha256": "e974178030c5312820265bc1ee10c1ca69e7463d67801796def6e60f1b5ad388",
+      "svg_blob_sha": "f4c32fb20f8cee548aff8854ab13e91cd998070b"
+    },
+    {
+      "id": "MS-094-D09-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/chaplain-selection.svg",
+      "svg_sha256": "a6dcb20053d46964831db4e3958ee0987030e5e479a5e468ef5a1e7bee5fc91e",
+      "svg_blob_sha": "6322bc822f9f587b06bb170b6017c290c5ba05bd"
+    },
+    {
+      "id": "MS-094-D10-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/direct-officer-application.svg",
+      "svg_sha256": "21a59af9bc6f846892db3ef036df64f880e06377c75cf806e324027dae8eb04b",
+      "svg_blob_sha": "91dbf44ad8f3e901ca2825fbdfc95f5d81a37f00"
+    },
+    {
+      "id": "MS-094-D11-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-eligibility.svg",
+      "svg_sha256": "afa1dbb0d99768b6365b961df5ac9eb11e069ac900cccab1b9853ceea385b51f",
+      "svg_blob_sha": "8dc5d983005bc0a3f81fe291f27d192cb305b4ca"
+    },
+    {
+      "id": "MS-094-D12-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-selection-followup.svg",
+      "svg_sha256": "c90a0ad91ef9013ff348a9f58118e72dc374a7478a787daaa3fc73d381523cb0",
+      "svg_blob_sha": "2f7c2d42c32d36cbe0888cc8ba4e98d6f37f32d4"
+    },
+    {
+      "id": "MS-094-D13-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-change-notification.svg",
+      "svg_sha256": "0fb2590269f534001628b999b5f8bc08013916e614ad4508ef00b32eac25b432",
+      "svg_blob_sha": "a4fbcd111b2f967f8af85cc07b9fde36b5d8d445"
+    },
+    {
+      "id": "MS-094-D14-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-removal-exception.svg",
+      "svg_sha256": "e5501a2d3959249dc3617dcd214f30bc60684a466451a5e7c380ae56b9f9a038",
+      "svg_blob_sha": "a7f5d2438234cd8f4086ecc7f0ed09dc693abc39"
+    },
+    {
+      "id": "MS-094-D15-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/officer-entry-timeline.svg",
+      "svg_sha256": "497c0649e2e1d51ead478e63621c397413d39cfc05ec05615d1525e6015d5842",
+      "svg_blob_sha": "66abcb33259cbcc4d3c41f0dced658bf602285d0"
+    },
+    {
+      "id": "MS-094-D16-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/returned-candidate-reexamination.svg",
+      "svg_sha256": "5ebafd4bf877944a4a796d9aa6aad218a18335df6823c0efcb33fb2086d9bd11",
+      "svg_blob_sha": "a8a4c19beb8a9e382334f032912d563c7336e735"
+    },
+    {
+      "id": "MS-094-D17-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/chaplain-committee-members.svg",
+      "svg_sha256": "a8ba2f4a6be0b2e31fd0d2f11cab3f66d3f0b482cb9fd65757d1d8b65512d76d",
+      "svg_blob_sha": "522554b9b16bf96ec8e20016a0d727f6713e2c8d"
+    },
+    {
+      "id": "MS-094-D18-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-to-officer-selection.svg",
+      "svg_sha256": "e8ccf6c70f5e94d237f4f0a0907db5f182854aeb1359f8eba4166bdf726b6780",
+      "svg_blob_sha": "3259e9b8f3e659dc162bd2bbce372d3c98ffa2bf"
+    },
+    {
+      "id": "MS-094-D19-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/officer-training-and-records.svg",
+      "svg_sha256": "3d25a66ac2943802db24e7a594e2aa5321440477814e4535f8540cd8d04fadb5",
+      "svg_blob_sha": "3ffa9405cf6bd082379c3ab3c3ceda37c81814f1"
+    },
+    {
+      "id": "MS-094-D20-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-application-documents.svg",
+      "svg_sha256": "bef427a9c3853dd819c338af5fb1affdff3102571950650d7ceea33b8014dd53",
+      "svg_blob_sha": "341336f7ab9a9ba46295d380e4ba034514cd022d"
+    },
+    {
+      "id": "MS-094-D21-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/non-illness-discharge.svg",
+      "svg_sha256": "bf598bb8a46acfe45f4086977be5af95cdd9ff767f0a7adcfb399bc3f48e1a88",
+      "svg_blob_sha": "8e920fa3062a28a4d43f386c3b4e8d0804f2bde2"
+    }
+  ],
+  "previous_evidence_sha256": null,
+  "publication_commit_or_null": null,
+  "status": "svg_drafts_pending_raster_visual_review",
+  "layout_basis": "approved editorial monochrome draft template; conservative per-line width check; visual review still required",
+  "final_new_images": 0,
+  "full_lecture_complete": false,
+  "remaining": [
+    "기존 공개 도식 7장 전체의 최종 원고 대응 재확인",
+    "신규 초안 WebP 렌더링 및 실제 화면 검수",
+    "원고 문구 및 누락 범위 재대조",
+    "정식 목록과 공개 경로 통합"
+  ]
+}
