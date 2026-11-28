@@ -1,0 +1,769 @@
+{
+  "schema_version": 1,
+  "reviewed_date_kst": "2026-11-28",
+  "status": "postfix_visual_review_completed",
+  "scope": "Only 22 official pages changed by corrections.json; prior baseline evidence is preserved.",
+  "source_reference": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/corrections.json",
+  "summary": {
+    "pages": 22,
+    "content_correction_pages": 11,
+    "files_sha256_and_bytes_checked": 44,
+    "text_runs_checked": 556,
+    "visible_content_fields_checked": 368,
+    "exact_svg_raster_matches": 22,
+    "findings_by_kind": {},
+    "content_fields_checked": 372,
+    "source_reference_fields_aggregated": 4,
+    "confirmed_remaining_defects": 0,
+    "visual_pages_inspected": 22,
+    "minimum_body_font_px": 36,
+    "raster_matches_by_renderer": {
+      "sharp": 21,
+      "inkscape": 1
+    }
+  },
+  "findings": [],
+  "pages": [
+    {
+      "id": "MS-001-D01-editorial-v1",
+      "content_corrected": false,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-001/diagrams/MS-001-D01-editorial-v1.svg",
+          "sha256": "f146743643eb7281c20bf3c2a264adb2b7254097d88ae9228e89bf690fe28d3a",
+          "bytes": 5907
+        },
+        "webp": {
+          "path": "military-service-act/lesson-001/diagrams/MS-001-D01-editorial-v1.webp",
+          "sha256": "6b2ee4e6a02807500b7f752e187298b8053e4c8c405400c506a944f8160e696e",
+          "bytes": 39452
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 22,
+      "minimum_body_font_px": 40,
+      "visible_text_fields_checked": 16,
+      "text_sequence_sha256": "e67ced10ea98f9b1c97ac6bc4e9ff8f65c250009e5d7092acb8ca8b7c70b183e",
+      "printed_counter": "개념·핵심 도식   01 / 02",
+      "raster_verification": {
+        "id": "MS-001-D01-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-010-D01-editorial-v1",
+      "content_corrected": false,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-010/diagrams/MS-010-D01-editorial-v1.svg",
+          "sha256": "4023b227c0c6a5e550d5653da414d0fca8b93d1e5885d6e3560131613134c4d3",
+          "bytes": 5353
+        },
+        "webp": {
+          "path": "military-service-act/lesson-010/diagrams/MS-010-D01-editorial-v1.webp",
+          "sha256": "fd8eebe577f2ee4f40fd14c107c64df17b05dd87c3a8ac5f147f851e8285a914",
+          "bytes": 29470
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 20,
+      "minimum_body_font_px": 40,
+      "visible_text_fields_checked": 16,
+      "text_sequence_sha256": "3eaed166265ede03ec6113c83fbf9ff122e30b05ecb2fecf8911190b6433d9db",
+      "printed_counter": "개념·핵심 도식   01 / 02",
+      "raster_verification": {
+        "id": "MS-010-D01-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-027-D01-editorial-v1",
+      "content_corrected": true,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-027/diagrams/MS-027-D01-editorial-v1.svg",
+          "sha256": "9ffa400ac30cdbfc792ca49b23135f2ea6afcab1a871762a0bb789857d99f069",
+          "bytes": 8285
+        },
+        "webp": {
+          "path": "military-service-act/lesson-027/diagrams/MS-027-D01-editorial-v1.webp",
+          "sha256": "9cb6e2b792e9d67c23ccf08584f822d2db39a7cc17163bc9afe354aa70942dab",
+          "bytes": 63368
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 32,
+      "minimum_body_font_px": 38,
+      "visible_text_fields_checked": 22,
+      "text_sequence_sha256": "4cf82947c08d3945b12c83b5b67700254400e5d14025437e7be00d74c43ee23c",
+      "printed_counter": "개념·핵심 도식   01 / 01",
+      "raster_verification": {
+        "id": "MS-027-D01-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-045-D02-editorial-v1",
+      "content_corrected": true,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-045/diagrams/MS-045-D02-editorial-v1.svg",
+          "sha256": "99ae1f41c2ddcbf7b2079bc05c068486092862c24d0dfe51e6081c9d12313d63",
+          "bytes": 7455
+        },
+        "webp": {
+          "path": "military-service-act/lesson-045/diagrams/MS-045-D02-editorial-v1.webp",
+          "sha256": "8ba514cefdf075b1f272f878ea4a26e464a2c95992e76c03a381d90c4cae3693",
+          "bytes": 60864
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 29,
+      "minimum_body_font_px": 40,
+      "visible_text_fields_checked": 23,
+      "text_sequence_sha256": "b5a8cb5c8c6a065f467cb272b36e118fd5c596bf17fbcc5ee5390e9f5eebfa0d",
+      "printed_counter": "개념·핵심 도식   02 / 03",
+      "raster_verification": {
+        "id": "MS-045-D02-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-065-D01-editorial-v1",
+      "content_corrected": false,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-065/diagrams/MS-065-D01-editorial-v1.svg",
+          "sha256": "566195af05510ba5782157099964ae8ae860db647d051e471559e308f4f6c43c",
+          "bytes": 5397
+        },
+        "webp": {
+          "path": "military-service-act/lesson-065/diagrams/MS-065-D01-editorial-v1.webp",
+          "sha256": "a60ae4bd7ba04295e957148a4cb80c6b33519148bbb5c04764f630ad7db54f83",
+          "bytes": 35078
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 21,
+      "minimum_body_font_px": 38,
+      "visible_text_fields_checked": 14,
+      "text_sequence_sha256": "9d1f6e388fbe477652c333ba30405a9fc0131c785463d16c809b6fdb64cc4a00",
+      "printed_counter": "개념·핵심 도식   01 / 03",
+      "raster_verification": {
+        "id": "MS-065-D01-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-077-D01-editorial-v1",
+      "content_corrected": false,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D01-editorial-v1.svg",
+          "sha256": "e6cedead7e172eff9b680bb25f79ac7dbc5be880507c8b3e8c23bb39628a0502",
+          "bytes": 7889
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D01-editorial-v1.webp",
+          "sha256": "f28f29fbb663d7e2b7dd893c42fc5eb72258aa5807e970acfa801714cca432a7",
+          "bytes": 66176
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 29,
+      "minimum_body_font_px": 40,
+      "visible_text_fields_checked": 17,
+      "text_sequence_sha256": "0a823ca9881e67a5847be658311f4f9b5695aae2252269e23096ce272a40d3d2",
+      "printed_counter": "개념·핵심 도식   01 / 14",
+      "raster_verification": {
+        "id": "MS-077-D01-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-077-D02-editorial-v1",
+      "content_corrected": false,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D02-editorial-v1.svg",
+          "sha256": "6549290de405debb02425e684789864649a2465d622e4ef7e0c56f146d92d4a8",
+          "bytes": 7168
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D02-editorial-v1.webp",
+          "sha256": "3f2e32ed9eb0c621ddce8df365c05c151dfa2ad10736d137759e46f311056cfc",
+          "bytes": 57836
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 26,
+      "minimum_body_font_px": 40,
+      "visible_text_fields_checked": 17,
+      "text_sequence_sha256": "e744da9cf412bb4b9b6d68baa6449e5f2374230acb6ad0afc3e9953b022809de",
+      "printed_counter": "개념·핵심 도식   02 / 14",
+      "raster_verification": {
+        "id": "MS-077-D02-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-077-D12-editorial-v1",
+      "content_corrected": true,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D12-editorial-v1.svg",
+          "sha256": "7d047dc111f78b40a613ac6a30eacd5eccf5f045436f02f63b6ac52896684800",
+          "bytes": 5187
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D12-editorial-v1.webp",
+          "sha256": "6b8837d83f90b60159800857f4d2d8462d20888936f5b069af16085d3d3890bd",
+          "bytes": 52794
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 21,
+      "minimum_body_font_px": 36,
+      "visible_text_fields_checked": 13,
+      "text_sequence_sha256": "cd6f45caccf4299f49c6fa8fa1882961ee81dfc51a38f36a8a846e2bf042aace",
+      "printed_counter": "supplement header",
+      "raster_verification": {
+        "id": "MS-077-D12-editorial-v1",
+        "renderer": "inkscape",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed",
+      "source_reference_fields_aggregated": 4
+    },
+    {
+      "id": "MS-086-D02-editorial-v1",
+      "content_corrected": true,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-086/diagrams/MS-086-D02-editorial-v1.svg",
+          "sha256": "dfabed78cf1e33ec2f85f5c54daf58c6661eb3a1ae79cf59e3d6192137a18dea",
+          "bytes": 7361
+        },
+        "webp": {
+          "path": "military-service-act/lesson-086/diagrams/MS-086-D02-editorial-v1.webp",
+          "sha256": "20b58f5f59e46038052b52b80747b4c5df1827acf0b8497c31b6fd7ee5629a47",
+          "bytes": 64794
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 27,
+      "minimum_body_font_px": 40,
+      "visible_text_fields_checked": 16,
+      "text_sequence_sha256": "862c30a2e37ff3f19bb3bc61d29a7e80c2a66a447bd8bc661fd2d4ea2d60aac1",
+      "printed_counter": "개념·핵심 도식   02 / 02",
+      "raster_verification": {
+        "id": "MS-086-D02-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-091-D02-editorial-v1",
+      "content_corrected": true,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-091/diagrams/MS-091-D02-editorial-v1.svg",
+          "sha256": "9c9ae57d62c6eb523998c53f50b29cd6a11335b474e87317f668ab027c955947",
+          "bytes": 7323
+        },
+        "webp": {
+          "path": "military-service-act/lesson-091/diagrams/MS-091-D02-editorial-v1.webp",
+          "sha256": "0a0da785ec3ddb3674a99f0d65c80f46ae17b8cde128cbdaa283833e9100e06a",
+          "bytes": 61482
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 26,
+      "minimum_body_font_px": 40,
+      "visible_text_fields_checked": 17,
+      "text_sequence_sha256": "c4ff67197f6b328a1a360aa51d1e213bc818a1c8191100b88f9ad43f710f061c",
+      "printed_counter": "개념·핵심 도식   02 / 02",
+      "raster_verification": {
+        "id": "MS-091-D02-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-094-D01-editorial-v1",
+      "content_corrected": false,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D01-editorial-v1.svg",
+          "sha256": "5cb17cf1b817fff0972d880e441cffa5f9d2d04943c61e08d33d493f94e103b3",
+          "bytes": 6586
+        },
+        "webp": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D01-editorial-v1.webp",
+          "sha256": "2c1cfa427bcc4d61f9d89c78e6dad0e9aec08f25fa60ad0dc4a9fe8dec859523",
+          "bytes": 50024
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 24,
+      "minimum_body_font_px": 40,
+      "visible_text_fields_checked": 17,
+      "text_sequence_sha256": "1e3cb626323e4f59cd83d7b6b760a1d712489f93c6e2aec61de4a8144071b147",
+      "printed_counter": "개념·핵심 도식   01 / 07",
+      "raster_verification": {
+        "id": "MS-094-D01-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-094-D02-editorial-v1",
+      "content_corrected": false,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D02-editorial-v1.svg",
+          "sha256": "907614f2f5c29a3242edbb2ca6e9bce102e93eaa81abdd0887f2787178a939cc",
+          "bytes": 7652
+        },
+        "webp": {
+          "path": "military-service-act/lesson-094/diagrams/MS-094-D02-editorial-v1.webp",
+          "sha256": "bc1afe8d30eb4920db457b4179dccfbd4aac798a906724b1385143891a4e041d",
+          "bytes": 66904
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 28,
+      "minimum_body_font_px": 40,
+      "visible_text_fields_checked": 17,
+      "text_sequence_sha256": "08eefc22e1bddbbbba770081b91d2ebb5f30d11f3be733820d2718fe6066da7a",
+      "printed_counter": "개념·핵심 도식   02 / 07",
+      "raster_verification": {
+        "id": "MS-094-D02-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-102-D01-editorial-v1",
+      "content_corrected": true,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-102/diagrams/MS-102-D01-editorial-v1.svg",
+          "sha256": "f51d1ed1f6dda4ceeac70b5c44a8ed06c041234ea74fb01716d7040d8a5c27f1",
+          "bytes": 7476
+        },
+        "webp": {
+          "path": "military-service-act/lesson-102/diagrams/MS-102-D01-editorial-v1.webp",
+          "sha256": "c941a88d93504a7198c78d3d6edd5d67315ad79d5608aa0fa556077f591cabef",
+          "bytes": 61238
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 28,
+      "minimum_body_font_px": 40,
+      "visible_text_fields_checked": 16,
+      "text_sequence_sha256": "a16efdc949d3eda09edccd2c6ddf04e702b644bc9b05d898b98583cda64f7750",
+      "printed_counter": "개념·핵심 도식   01 / 03",
+      "raster_verification": {
+        "id": "MS-102-D01-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-109-D01-editorial-v1",
+      "content_corrected": false,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D01-editorial-v1.svg",
+          "sha256": "a7b2c7cb4c89e7160731798b2c754c52ac7624d23cccbc14772e2ade6f6e9754",
+          "bytes": 6878
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D01-editorial-v1.webp",
+          "sha256": "351e0e492ddeb170e9fed761be72642d7467d904eace93ddec4a92688daec475",
+          "bytes": 54270
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 25,
+      "minimum_body_font_px": 40,
+      "visible_text_fields_checked": 17,
+      "text_sequence_sha256": "91f15f310537d7b4e3503b3b06464863467100b6d1bafa6f4709eaee34b46e20",
+      "printed_counter": "개념·핵심 도식   01 / 13",
+      "raster_verification": {
+        "id": "MS-109-D01-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-109-D02-editorial-v1",
+      "content_corrected": true,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D02-editorial-v1.svg",
+          "sha256": "1224022563e6d74e88419966ef774f194ade220899a5ac6a2a82fb3da6840179",
+          "bytes": 7187
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D02-editorial-v1.webp",
+          "sha256": "9eb714cb652c6a1706dbaf628c1bb259ebcf69538b705c1987f0c86c0c487a34",
+          "bytes": 57636
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 27,
+      "minimum_body_font_px": 40,
+      "visible_text_fields_checked": 16,
+      "text_sequence_sha256": "1db5f501faab5bdf975e57096ebe1b63f36069ff62b47e6c0f242bca352206bc",
+      "printed_counter": "개념·핵심 도식   02 / 13",
+      "raster_verification": {
+        "id": "MS-109-D02-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-109-D03-editorial-v1",
+      "content_corrected": false,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D03-editorial-v1.svg",
+          "sha256": "9a7ea1c41392745ddbc6158f21da2ab1a770a94ac9ac59985ae3344b5afb53aa",
+          "bytes": 7324
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D03-editorial-v1.webp",
+          "sha256": "81ce0d072eda286ac3528e71b8d79268082963c39e890cd4e8e990ec1b578581",
+          "bytes": 61714
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 27,
+      "minimum_body_font_px": 40,
+      "visible_text_fields_checked": 16,
+      "text_sequence_sha256": "07142a046783e4968b201daa00cd39ad34a289340e5023a933e4efc5b71c39cf",
+      "printed_counter": "개념·핵심 도식   03 / 13",
+      "raster_verification": {
+        "id": "MS-109-D03-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-117-D01-editorial-v1",
+      "content_corrected": false,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-117/diagrams/MS-117-D01-editorial-v1.svg",
+          "sha256": "5f3af575d47338a31f633a8173ac33eade8a3c2dbb418a40d93fc9455a6c5117",
+          "bytes": 6567
+        },
+        "webp": {
+          "path": "military-service-act/lesson-117/diagrams/MS-117-D01-editorial-v1.webp",
+          "sha256": "6a36b93353d0ebda11f5d3a9f22025714fbb12ad1ec93aa2eb6e7def3a6ef6ff",
+          "bytes": 48330
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 25,
+      "minimum_body_font_px": 40,
+      "visible_text_fields_checked": 16,
+      "text_sequence_sha256": "510b0718b10ad137bfa3274a8f40992e89c99a96376af6a5380eeba7ca658b2a",
+      "printed_counter": "개념·핵심 도식   01 / 02",
+      "raster_verification": {
+        "id": "MS-117-D01-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-135-D02-editorial-v1",
+      "content_corrected": true,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-135/diagrams/MS-135-D02-editorial-v1.svg",
+          "sha256": "d428c6e3e2e90f4223b4bfd3f860a19854aac385f6f49cf1eeaea06f1f1336b8",
+          "bytes": 6921
+        },
+        "webp": {
+          "path": "military-service-act/lesson-135/diagrams/MS-135-D02-editorial-v1.webp",
+          "sha256": "86aad42b63a873706ccf8e1b838f068bc76ced37d0e7ec357820fcab0f9b96b0",
+          "bytes": 55572
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 26,
+      "minimum_body_font_px": 40,
+      "visible_text_fields_checked": 16,
+      "text_sequence_sha256": "580eecf5fa3c48634b4f5f657f71f3ffcbdbb3cb2185e10edaf920d8bbc5956c",
+      "printed_counter": "개념·핵심 도식   02 / 03",
+      "raster_verification": {
+        "id": "MS-135-D02-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-149-D01-editorial-v1",
+      "content_corrected": true,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D01-editorial-v1.svg",
+          "sha256": "19fecd5b1123f647d61aadead54ec7e43b7a4e21d2518257b0ec9763ab027835",
+          "bytes": 6418
+        },
+        "webp": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D01-editorial-v1.webp",
+          "sha256": "39c25108bbb14016644e50e47848a1b167fbd711608a78c96e9c292f20af31a9",
+          "bytes": 35362
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 24,
+      "minimum_body_font_px": 40,
+      "visible_text_fields_checked": 20,
+      "text_sequence_sha256": "72cfc63d642cab060697828703e38eef5186b00b63c57aaec5d43cfcca040103",
+      "printed_counter": "개념·핵심 도식   01 / 03",
+      "raster_verification": {
+        "id": "MS-149-D01-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-149-D02-editorial-v1",
+      "content_corrected": true,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D02-editorial-v1.svg",
+          "sha256": "a5b7aab812af46c39dc8f015d446d7d7ed3aa003ccdd3015977cf047a65bb4ed",
+          "bytes": 6256
+        },
+        "webp": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D02-editorial-v1.webp",
+          "sha256": "6474766b99303fd06877aa53176951b818c2b1b1b622dcbbf5009d405e3bd21e",
+          "bytes": 44356
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 23,
+      "minimum_body_font_px": 40,
+      "visible_text_fields_checked": 16,
+      "text_sequence_sha256": "eafe5c1ee31cdd027f5a0baa6ea124435689e5077fd2df757a1e6bb37089581c",
+      "printed_counter": "개념·핵심 도식   02 / 03",
+      "raster_verification": {
+        "id": "MS-149-D02-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-149-D03-editorial-v1",
+      "content_corrected": true,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D03-editorial-v1.svg",
+          "sha256": "307bf1fb57b242c160f492c606feb5df5eed8e2efff5779fa8d5c13ce6f671ac",
+          "bytes": 5902
+        },
+        "webp": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D03-editorial-v1.webp",
+          "sha256": "8a4502f2e06c1f42ef367156784f3e8fd87f82552bac7e4a4e4776898b327a9a",
+          "bytes": 48954
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 23,
+      "minimum_body_font_px": 38,
+      "visible_text_fields_checked": 14,
+      "text_sequence_sha256": "644ea7296a17c114ab8a0300791bb71626dfd7bd81baf85eb5fda4364b36dfcd",
+      "printed_counter": "개념·핵심 도식   03 / 03",
+      "raster_verification": {
+        "id": "MS-149-D03-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "MS-157-D01-editorial-v1",
+      "content_corrected": false,
+      "files": {
+        "svg": {
+          "path": "military-service-act/lesson-157/diagrams/MS-157-D01-editorial-v1.svg",
+          "sha256": "62b0deccc63cdc39281f0afd1d1cafa7bc725b9007dee63c9a441f683596d6fc",
+          "bytes": 6140
+        },
+        "webp": {
+          "path": "military-service-act/lesson-157/diagrams/MS-157-D01-editorial-v1.webp",
+          "sha256": "f5b77356a1ea04e24965ec5042aa76b5894cc68ebef98f1a603701c4126e8739",
+          "bytes": 41454
+        }
+      },
+      "findings": [],
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "text_run_count": 23,
+      "minimum_body_font_px": 40,
+      "visible_text_fields_checked": 16,
+      "text_sequence_sha256": "7b3deefdb42f8e7a7d836b7d8a86127311e5303ea10aa1a9811c34f7b2122d56",
+      "printed_counter": "개념·핵심 도식   01 / 02",
+      "raster_verification": {
+        "id": "MS-157-D01-editorial-v1",
+        "renderer": "sharp",
+        "exact_pixel_match": true
+      },
+      "visual_inspection": "passed"
+    }
+  ],
+  "known_regression_fixed": {
+    "id": "MS-086-D02-editorial-v1",
+    "observation": "The first label initially lost 지방병무청장 during heading correction. The coordinator restored 지방병무청장 · 7일 전까지 before this final audit; both current SVG and WebP show the restored subject.",
+    "restored_subject_present": true,
+    "restored_subject_visually_confirmed": true
+  },
+  "limits": [
+    "Private manuscripts are not reinterpreted by this visual audit. Corrected visible values are checked against the coordinator-reviewed content data and correction record.",
+    "Per-lesson manifest consistency is covered by the coordinator’s separate all-316 integrity validation and is outside this narrow 22-page visual report.",
+    "Raster viewing and font geometry do not constitute a direct phone-width readability guarantee."
+  ],
+  "observations": [
+    {
+      "id": "MS-077-D12-editorial-v1",
+      "kind": "source_reference_aggregated_in_footer",
+      "count": 4,
+      "disposition": "intentional_template_behavior_not_a_defect",
+      "detail": "Four per-item source-reference metadata fields use 제80회 강의 원고. The supplemental template displays this source collectively in its visible footer, 병역법 · MS-077 · 기존 제80회 원고. Title, headings, labels, bodies, and takeaway all match corrected content; no substantive field is missing."
+    }
+  ],
+  "visual_inspection": {
+    "method": "All 22 current WebPs were visually inspected in three contact sheets; four listed full-size WebPs were also inspected for detailed typography, restored authority, deadline scope, source-footer aggregation, and the rewritten flow layout.",
+    "contact_sheets": [
+      "audit-tmp/postfix-review/changed-pages-01.jpg",
+      "audit-tmp/postfix-review/changed-pages-02.jpg",
+      "audit-tmp/postfix-review/changed-pages-03.jpg"
+    ],
+    "full_size_pages": [
+      "MS-077-D12-editorial-v1",
+      "MS-086-D02-editorial-v1",
+      "MS-149-D03-editorial-v1",
+      "MS-157-D01-editorial-v1"
+    ],
+    "result": "No clipped text, text collisions, missing glyphs, unreadable native-size body text, or substantive content-to-image discrepancies remain in these 22 pages.",
+    "automated_geometry_result": "All 556 text runs passed canvas-bound, text-overlap, and installed-font glyph coverage checks."
+  }
+}

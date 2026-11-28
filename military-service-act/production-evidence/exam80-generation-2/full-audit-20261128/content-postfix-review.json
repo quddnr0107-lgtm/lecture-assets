@@ -1,0 +1,669 @@
+{
+  "schema_version": 1,
+  "audit_id": "exam80-generation-2/full-audit-20261128/content-postfix-review",
+  "created_at_utc": "2026-11-28T01:10:30.160207+00:00",
+  "status": "all_11_content_corrections_pass_independent_review",
+  "source_authority": "existing_exam80_lecture_script_only",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "scope": "corrections.json의 content_corrections11개 공식 페이지. 번호만 변경된 페이지는 제외.",
+  "snapshot_hashes": {
+    "editorial_content": "f599b6d887990aa9c2e8f2caf4e1eb031168c76a9b6ad2f6d29af80191a80e93",
+    "global_manifest": "978e9d8a785e55365feca2e9569c443c2e56749cc7026af9cbe426c4f230d44d",
+    "corrections": "ca14f0cbaca11dd6fc60128765363f1199fabc316b452b80952dc0ac1fbfb819",
+    "source_index": "2dedea6f4e7f5c8e5937f48b637c004ad4beefbe8e8809e2bcec7b6a4b79a64e"
+  },
+  "summary": {
+    "official_pages_reviewed": 11,
+    "unique_lectures": 9,
+    "content_corrections_passed": 11,
+    "editorial_global_content_matches": 11,
+    "svg_text_fields_checked": 145,
+    "missing_svg_text_fields": 0,
+    "unsupported_replaced_text_remaining": 0,
+    "new_content_blockers": 0,
+    "per_lesson_content_sync_pending_at_snapshot": 11
+  },
+  "method": [
+    "각 교정의 이전 문구와 현재editorial/global manifest/SVG를 직접 읽고 고정 원고의 관련 문단과 주변 문맥을 대조했다.",
+    "제목·부제·단락제목·라벨·본문·takeaway145개 필드가 SVG text에 있는지 공백·줄바꿈만 정규화하여 확인했다. 법령ref의 축약 표기는 의미 대조로 확인했다.",
+    "특히149강3페이지의 형량·기산일·대상·요건·대리 행위자,91강 재교육 제외 대상,102강 처분 범위의 교체와 옛 문구 제거를 확인했다.",
+    "86D02는 추가 재수정된 지방병무청장·7일 전까지 라벨을 현재파일에서 다시 확인했다."
+  ],
+  "integration_observation": {
+    "issue": "강의별manifest에 교정 전 본문·파일 메타데이터가 남아 있는 항목이 있다.",
+    "coordinator_response": "root가166개 강의별manifest의 총계·본문·해시 동기화를 수행할 예정임을 확인했다.",
+    "meaning": "새 내용 오류로 집계하지 않는다. 배포 완료 판정 전에 root가 계획한 동기화를 끝내야 한다.",
+    "files_modified_by_reviewer": []
+  },
+  "limitations": [
+    "11개 교정의 내용과 현재SVG본문에 대한 재검수이며 강의 전문의 미도식화 주제를 모두 검수한 것이 아니다.",
+    "픽셀 기반 레이아웃 재검수나SVG-WebP 픽셀 동일성의 독립 재측정은 수행하지 않았다. 해당 검증은 별도 시각검수 보고서 범위이다.",
+    "private 원고 전문·장문 인용은 보고서에 넣지 않았다. 앵커는 빈 행을 포함한1-based 물리 행 번호이다.",
+    "외부법령 검색이나 원고 밖 법률 내용을 추가하지 않았다."
+  ],
+  "reviews": [
+    {
+      "id": "MS-027-D01-editorial-v1",
+      "lecture_id": "MS-027",
+      "content_index": 49,
+      "current_title": "임기제부사관의 선발과 복무",
+      "decision": "pass",
+      "judgement": "본인의 중단 희망이 본문에 추가되고 허가권자인 각 군 참모총장이 항목 라벨에 유지되어 결합 요건이 드러난다.",
+      "source_evidence": {
+        "private_source_path": "docs/merged-lectures/병역법/본법_20의2.txt",
+        "script_git_blob_sha": "9ab10b0fee95d312fe37c0ef50bff24bfbe5ef17",
+        "script_sha256": "90bd230aa3639730f7b8f7feffbcdaaed5839820918ebb65db815538a2ec1eb0",
+        "pinned_sha256_match": true,
+        "line_numbers": [
+          92,
+          94,
+          96
+        ]
+      },
+      "consistency": {
+        "editorial_equals_global_manifest_content": true,
+        "global_title_equals_content_title": true,
+        "svg_text_fields_checked": 16,
+        "svg_missing_text_fields": [],
+        "removed_unsupported_text_remaining": [],
+        "content_json_sha256": "ff2e94dd87ace2b7a8be01a70f65ac2f1f1eed25857153dc20c9c82aa5adc6b9",
+        "files": [
+          {
+            "kind": "svg",
+            "path": "military-service-act/lesson-027/diagrams/MS-027-D01-editorial-v1.svg",
+            "sha256": "9ffa400ac30cdbfc792ca49b23135f2ea6afcab1a871762a0bb789857d99f069",
+            "bytes": 8285,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          },
+          {
+            "kind": "webp",
+            "path": "military-service-act/lesson-027/diagrams/MS-027-D01-editorial-v1.webp",
+            "sha256": "9cb6e2b792e9d67c23ccf08584f822d2db39a7cc17163bc9afe354aa70942dab",
+            "bytes": 63368,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          }
+        ]
+      },
+      "per_lesson_manifest_snapshot": {
+        "path": "military-service-act/lesson-027/diagrams/manifest.json",
+        "content_matches_global": false,
+        "title_matches_global": true,
+        "file_metadata_matches_global": false,
+        "disposition": "coordinator_planned_synchronization_expected_remaining"
+      }
+    },
+    {
+      "id": "MS-045-D02-editorial-v1",
+      "lecture_id": "MS-045",
+      "content_index": 81,
+      "current_title": "사회복무요원의 보수 단계",
+      "decision": "pass",
+      "judgement": "단락제목을 보수·별도 지원의 병렬 범주로 바꾸어 실비·합숙 지원에 특정 월수 구간이 적용되는 오독을 제거했다. 네 보수 구간은 항목 라벨에 유지되어 있다.",
+      "source_evidence": {
+        "private_source_path": "docs/merged-lectures/병역법/본법_31.txt",
+        "script_git_blob_sha": "1f5644d06c710b987d16c7df7cefd8018d3c6be5",
+        "script_sha256": "57b49a7bdb675fc8a363fd83d50e72cb95f464f1a59321079437b643491431c2",
+        "pinned_sha256_match": true,
+        "line_numbers": [
+          112,
+          113,
+          114,
+          115,
+          121,
+          123,
+          125
+        ]
+      },
+      "consistency": {
+        "editorial_equals_global_manifest_content": true,
+        "global_title_equals_content_title": true,
+        "svg_text_fields_checked": 17,
+        "svg_missing_text_fields": [],
+        "removed_unsupported_text_remaining": [],
+        "content_json_sha256": "1bc69060a7acea1dca2d9030fa6b73dcee85871b2ec1226e70da5600c661cfa6",
+        "files": [
+          {
+            "kind": "svg",
+            "path": "military-service-act/lesson-045/diagrams/MS-045-D02-editorial-v1.svg",
+            "sha256": "99ae1f41c2ddcbf7b2079bc05c068486092862c24d0dfe51e6081c9d12313d63",
+            "bytes": 7455,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          },
+          {
+            "kind": "webp",
+            "path": "military-service-act/lesson-045/diagrams/MS-045-D02-editorial-v1.webp",
+            "sha256": "8ba514cefdf075b1f272f878ea4a26e464a2c95992e76c03a381d90c4cae3693",
+            "bytes": 60864,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          }
+        ]
+      },
+      "per_lesson_manifest_snapshot": {
+        "path": "military-service-act/lesson-045/diagrams/manifest.json",
+        "content_matches_global": false,
+        "title_matches_global": true,
+        "file_metadata_matches_global": false,
+        "disposition": "coordinator_planned_synchronization_expected_remaining"
+      }
+    },
+    {
+      "id": "MS-077-D12-editorial-v1",
+      "lecture_id": "MS-077",
+      "content_index": 272,
+      "current_title": "군 필요인원 통보의 두 날짜",
+      "decision": "pass",
+      "judgement": "12월31일을 전체 기준 결정·배정의 제목에서 떼어 각 군 참모총장에 대한 기준 통보 항목에만 붙였다.10월31일 필요인원 통보와 구별된다.",
+      "source_evidence": {
+        "private_source_path": "docs/merged-lectures/병역법/본법_41.txt",
+        "script_git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+        "script_sha256": "617f85b91800f4b7aeea48c0936bc53de869541452b338670e3b9bd527f63f1e",
+        "pinned_sha256_match": true,
+        "line_numbers": [
+          179,
+          181,
+          183
+        ]
+      },
+      "consistency": {
+        "editorial_equals_global_manifest_content": true,
+        "global_title_equals_content_title": true,
+        "svg_text_fields_checked": 13,
+        "svg_missing_text_fields": [],
+        "removed_unsupported_text_remaining": [],
+        "content_json_sha256": "038d88fa6a26985afa72c18bb4c87d28ae5f3ce251b40aaf6e2cb352b0b6d5c0",
+        "files": [
+          {
+            "kind": "svg",
+            "path": "military-service-act/lesson-077/diagrams/MS-077-D12-editorial-v1.svg",
+            "sha256": "7d047dc111f78b40a613ac6a30eacd5eccf5f045436f02f63b6ac52896684800",
+            "bytes": 5187,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          },
+          {
+            "kind": "webp",
+            "path": "military-service-act/lesson-077/diagrams/MS-077-D12-editorial-v1.webp",
+            "sha256": "6b8837d83f90b60159800857f4d2d8462d20888936f5b069af16085d3d3890bd",
+            "bytes": 52794,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          }
+        ]
+      },
+      "per_lesson_manifest_snapshot": {
+        "path": "military-service-act/lesson-077/diagrams/manifest.json",
+        "content_matches_global": false,
+        "title_matches_global": true,
+        "file_metadata_matches_global": false,
+        "disposition": "coordinator_planned_synchronization_expected_remaining"
+      }
+    },
+    {
+      "id": "MS-086-D02-editorial-v1",
+      "lecture_id": "MS-086",
+      "content_index": 143,
+      "current_title": "동원훈련 통지서의 송달 기한",
+      "decision": "pass",
+      "judgement": "7일 전 송달, 전날 송달 특례, 가족 이사 특례를 각각 구분했다. 최종 첫 라벨에 지방병무청장을 명시하여 기본 송달 주체도 유지되었다.",
+      "source_evidence": {
+        "private_source_path": "docs/merged-lectures/병역법/본법_50.txt",
+        "script_git_blob_sha": "c82b9c3e4132fee9a1dcdf65def36dc6c07f636c",
+        "script_sha256": "1a7829ca2a12d014a2549a6cc592bf5cb7bf0ba89fe4dff6cf89219d34f4a19a",
+        "pinned_sha256_match": true,
+        "line_numbers": [
+          119,
+          133,
+          137,
+          141,
+          143,
+          147,
+          149
+        ]
+      },
+      "consistency": {
+        "editorial_equals_global_manifest_content": true,
+        "global_title_equals_content_title": true,
+        "svg_text_fields_checked": 12,
+        "svg_missing_text_fields": [],
+        "removed_unsupported_text_remaining": [],
+        "content_json_sha256": "d92ed8af61edff619bc3fe9676ea90ea1b2dd0d5482cc265e4cd6c03893b3c20",
+        "files": [
+          {
+            "kind": "svg",
+            "path": "military-service-act/lesson-086/diagrams/MS-086-D02-editorial-v1.svg",
+            "sha256": "dfabed78cf1e33ec2f85f5c54daf58c6661eb3a1ae79cf59e3d6192137a18dea",
+            "bytes": 7361,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          },
+          {
+            "kind": "webp",
+            "path": "military-service-act/lesson-086/diagrams/MS-086-D02-editorial-v1.webp",
+            "sha256": "20b58f5f59e46038052b52b80747b4c5df1827acf0b8497c31b6fd7ee5629a47",
+            "bytes": 64794,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          }
+        ]
+      },
+      "per_lesson_manifest_snapshot": {
+        "path": "military-service-act/lesson-086/diagrams/manifest.json",
+        "content_matches_global": false,
+        "title_matches_global": true,
+        "file_metadata_matches_global": false,
+        "disposition": "coordinator_planned_synchronization_expected_remaining"
+      }
+    },
+    {
+      "id": "MS-091-D02-editorial-v1",
+      "lecture_id": "MS-091",
+      "content_index": 150,
+      "current_title": "보충역 군사교육소집 시기",
+      "decision": "pass",
+      "judgement": "재교육 제외 요약을 사회복무요원으로 한정하고 원고에 명시된 기이수자 및 현역병 입영 후 보충역 편입자를 적었다. 예술·체육요원은 편입일부터1년 이내라는 원고 설명만 남아 있다.",
+      "source_evidence": {
+        "private_source_path": "docs/merged-lectures/병역법/본법_55.txt",
+        "script_git_blob_sha": "f1c66934bde36004befb0712caedaa3d32e39cb7",
+        "script_sha256": "897130a437dcbfc0cccf4adebad81a28ef85607cf36898cd3c589a5b5ba81de8",
+        "pinned_sha256_match": true,
+        "line_numbers": [
+          139,
+          143,
+          145,
+          147,
+          149,
+          151,
+          153,
+          155
+        ]
+      },
+      "consistency": {
+        "editorial_equals_global_manifest_content": true,
+        "global_title_equals_content_title": true,
+        "svg_text_fields_checked": 13,
+        "svg_missing_text_fields": [],
+        "removed_unsupported_text_remaining": [],
+        "content_json_sha256": "b1065e36ffdee942416d4fd7517ee028edcb3f4ba6476c9302b4d9555c5bdbfa",
+        "files": [
+          {
+            "kind": "svg",
+            "path": "military-service-act/lesson-091/diagrams/MS-091-D02-editorial-v1.svg",
+            "sha256": "9c9ae57d62c6eb523998c53f50b29cd6a11335b474e87317f668ab027c955947",
+            "bytes": 7323,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          },
+          {
+            "kind": "webp",
+            "path": "military-service-act/lesson-091/diagrams/MS-091-D02-editorial-v1.webp",
+            "sha256": "0a0da785ec3ddb3674a99f0d65c80f46ae17b8cde128cbdaa283833e9100e06a",
+            "bytes": 61482,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          }
+        ]
+      },
+      "per_lesson_manifest_snapshot": {
+        "path": "military-service-act/lesson-091/diagrams/manifest.json",
+        "content_matches_global": false,
+        "title_matches_global": true,
+        "file_metadata_matches_global": false,
+        "disposition": "coordinator_planned_synchronization_expected_remaining"
+      }
+    },
+    {
+      "id": "MS-102-D01-editorial-v1",
+      "lecture_id": "MS-102",
+      "content_index": 162,
+      "current_title": "병역처분 변경의 기본 구조",
+      "decision": "pass",
+      "judgement": "원고에 직접 제시되지 않은 병역범죄 제외 단서를 제거했다. 질병 등 제1호의 신체검사 및 면제 가능과 수형·귀화 등 제2·3호의 보충역·전시근로역 한정이라는 원고 비교로 교체했다.",
+      "source_evidence": {
+        "private_source_path": "docs/merged-lectures/병역법/본법_65.txt",
+        "script_git_blob_sha": "c8c0955119706a230272c3420d3f809166bf5d4a",
+        "script_sha256": "ba4c9f932c6bc5c08b25c9974b912d4d2dfbdaa6735f3d777bfdf01390b425d1",
+        "pinned_sha256_match": true,
+        "line_numbers": [
+          19,
+          23,
+          25,
+          29,
+          31,
+          33,
+          37,
+          51,
+          351
+        ]
+      },
+      "consistency": {
+        "editorial_equals_global_manifest_content": true,
+        "global_title_equals_content_title": true,
+        "svg_text_fields_checked": 12,
+        "svg_missing_text_fields": [],
+        "removed_unsupported_text_remaining": [],
+        "content_json_sha256": "c0bc61f99ca6e74427b9093e8a95549b071abd26a1923cacfc42b27ea9b2bd21",
+        "files": [
+          {
+            "kind": "svg",
+            "path": "military-service-act/lesson-102/diagrams/MS-102-D01-editorial-v1.svg",
+            "sha256": "f51d1ed1f6dda4ceeac70b5c44a8ed06c041234ea74fb01716d7040d8a5c27f1",
+            "bytes": 7476,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          },
+          {
+            "kind": "webp",
+            "path": "military-service-act/lesson-102/diagrams/MS-102-D01-editorial-v1.webp",
+            "sha256": "c941a88d93504a7198c78d3d6edd5d67315ad79d5608aa0fa556077f591cabef",
+            "bytes": 61238,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          }
+        ]
+      },
+      "per_lesson_manifest_snapshot": {
+        "path": "military-service-act/lesson-102/diagrams/manifest.json",
+        "content_matches_global": false,
+        "title_matches_global": true,
+        "file_metadata_matches_global": false,
+        "disposition": "coordinator_planned_synchronization_expected_remaining"
+      }
+    },
+    {
+      "id": "MS-109-D02-editorial-v1",
+      "lecture_id": "MS-109",
+      "content_index": 173,
+      "current_title": "국외여행허가의 두 기한",
+      "decision": "pass",
+      "judgement": "25세가 되는 해1월15일을 해당 출국자 허가 항목의 라벨로 옮겼다. 병무청장의 법무부장관 통보에는 그 날짜가 걸리지 않는다.",
+      "source_evidence": {
+        "private_source_path": "docs/merged-lectures/병역법/본법_70.txt",
+        "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+        "script_sha256": "cef65091efcc97d0698da1fd1213af04b41917c7805d640048e9e955dd3e3ac9",
+        "pinned_sha256_match": true,
+        "line_numbers": [
+          125,
+          199
+        ]
+      },
+      "consistency": {
+        "editorial_equals_global_manifest_content": true,
+        "global_title_equals_content_title": true,
+        "svg_text_fields_checked": 12,
+        "svg_missing_text_fields": [],
+        "removed_unsupported_text_remaining": [],
+        "content_json_sha256": "538785175c81afd34caa9edf7bfc34816c3ef1bd7b2b457d5e5f6246d0f13f6e",
+        "files": [
+          {
+            "kind": "svg",
+            "path": "military-service-act/lesson-109/diagrams/MS-109-D02-editorial-v1.svg",
+            "sha256": "1224022563e6d74e88419966ef774f194ade220899a5ac6a2a82fb3da6840179",
+            "bytes": 7187,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          },
+          {
+            "kind": "webp",
+            "path": "military-service-act/lesson-109/diagrams/MS-109-D02-editorial-v1.webp",
+            "sha256": "9eb714cb652c6a1706dbaf628c1bb259ebcf69538b705c1987f0c86c0c487a34",
+            "bytes": 57636,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          }
+        ]
+      },
+      "per_lesson_manifest_snapshot": {
+        "path": "military-service-act/lesson-109/diagrams/manifest.json",
+        "content_matches_global": false,
+        "title_matches_global": true,
+        "file_metadata_matches_global": false,
+        "disposition": "coordinator_planned_synchronization_expected_remaining"
+      }
+    },
+    {
+      "id": "MS-135-D02-editorial-v1",
+      "lecture_id": "MS-135",
+      "content_index": 215,
+      "current_title": "공개 내용과 공개 제외 사유",
+      "decision": "pass",
+      "judgement": "도로명과 건물번호까지라는 제한을 주소의 괄호 안에 두어 성명·연령에 잘못 연결되지 않는다.",
+      "source_evidence": {
+        "private_source_path": "docs/merged-lectures/병역법/본법_81의2.txt",
+        "script_git_blob_sha": "c96ea18dc2509405b2981ed2e5869790e86b4b19",
+        "script_sha256": "4ab37b4a620fd8f9c368545b4b887c9f3f518afa4f258c94f57a3e8786364e6a",
+        "pinned_sha256_match": true,
+        "line_numbers": [
+          117,
+          121,
+          129,
+          131,
+          133,
+          135,
+          137,
+          141,
+          147,
+          151
+        ]
+      },
+      "consistency": {
+        "editorial_equals_global_manifest_content": true,
+        "global_title_equals_content_title": true,
+        "svg_text_fields_checked": 12,
+        "svg_missing_text_fields": [],
+        "removed_unsupported_text_remaining": [],
+        "content_json_sha256": "ecd6333e756b0699de397192b993576888e062d2e6ae08477fb7b033617fb002",
+        "files": [
+          {
+            "kind": "svg",
+            "path": "military-service-act/lesson-135/diagrams/MS-135-D02-editorial-v1.svg",
+            "sha256": "d428c6e3e2e90f4223b4bfd3f860a19854aac385f6f49cf1eeaea06f1f1336b8",
+            "bytes": 6921,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          },
+          {
+            "kind": "webp",
+            "path": "military-service-act/lesson-135/diagrams/MS-135-D02-editorial-v1.webp",
+            "sha256": "86aad42b63a873706ccf8e1b838f068bc76ced37d0e7ec357820fcab0f9b96b0",
+            "bytes": 55572,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          }
+        ]
+      },
+      "per_lesson_manifest_snapshot": {
+        "path": "military-service-act/lesson-135/diagrams/manifest.json",
+        "content_matches_global": false,
+        "title_matches_global": true,
+        "file_metadata_matches_global": false,
+        "disposition": "coordinator_planned_synchronization_expected_remaining"
+      }
+    },
+    {
+      "id": "MS-149-D01-editorial-v1",
+      "lecture_id": "MS-149",
+      "content_index": 236,
+      "current_title": "입영·소집 기피의 3일과 2일",
+      "decision": "pass",
+      "judgement": "3년 이하의 징역을2일 단락에서 빼고3일·2일에 공통 적용되는 takeaway로 이동했다. 부제의 통지서 수령·정당한 사유 없음 조건도 유지했다.",
+      "source_evidence": {
+        "private_source_path": "docs/merged-lectures/병역법/본법_88.txt",
+        "script_git_blob_sha": "6944fa63d0587e7d0a5b447fabac3ba0a362e99b",
+        "script_sha256": "f12d24ff29db5e3016d013d4262dae8dbb097aeb7b077ae228492f3365ef22d7",
+        "pinned_sha256_match": true,
+        "line_numbers": [
+          33,
+          37,
+          67,
+          68,
+          69,
+          70,
+          94,
+          104,
+          105,
+          106,
+          107,
+          108
+        ]
+      },
+      "consistency": {
+        "editorial_equals_global_manifest_content": true,
+        "global_title_equals_content_title": true,
+        "svg_text_fields_checked": 15,
+        "svg_missing_text_fields": [],
+        "removed_unsupported_text_remaining": [],
+        "content_json_sha256": "747cc7720313cee1d73000c43a5f21f4a6f7c015866fb76804b0a3a1a90c1aa2",
+        "files": [
+          {
+            "kind": "svg",
+            "path": "military-service-act/lesson-149/diagrams/MS-149-D01-editorial-v1.svg",
+            "sha256": "19fecd5b1123f647d61aadead54ec7e43b7a4e21d2518257b0ec9763ab027835",
+            "bytes": 6418,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          },
+          {
+            "kind": "webp",
+            "path": "military-service-act/lesson-149/diagrams/MS-149-D01-editorial-v1.webp",
+            "sha256": "39c25108bbb14016644e50e47848a1b167fbd711608a78c96e9c292f20af31a9",
+            "bytes": 35362,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          }
+        ]
+      },
+      "per_lesson_manifest_snapshot": {
+        "path": "military-service-act/lesson-149/diagrams/manifest.json",
+        "content_matches_global": false,
+        "title_matches_global": true,
+        "file_metadata_matches_global": false,
+        "disposition": "coordinator_planned_synchronization_expected_remaining"
+      }
+    },
+    {
+      "id": "MS-149-D02-editorial-v1",
+      "lecture_id": "MS-149",
+      "content_index": 237,
+      "current_title": "본인의 기피와 대리입영",
+      "decision": "pass",
+      "judgement": "본인 기피3년 이하와 대리입영1년 이상3년 이하의 비교로 완전히 교체되었다. 원고 밖의 전시근로 점검 대리 및1년 이하 처벌은 제목·본문·SVG에서 제거되었다.",
+      "source_evidence": {
+        "private_source_path": "docs/merged-lectures/병역법/본법_88.txt",
+        "script_git_blob_sha": "6944fa63d0587e7d0a5b447fabac3ba0a362e99b",
+        "script_sha256": "f12d24ff29db5e3016d013d4262dae8dbb097aeb7b077ae228492f3365ef22d7",
+        "pinned_sha256_match": true,
+        "line_numbers": [
+          17,
+          27,
+          33,
+          37,
+          84,
+          90,
+          94,
+          98,
+          104,
+          105
+        ]
+      },
+      "consistency": {
+        "editorial_equals_global_manifest_content": true,
+        "global_title_equals_content_title": true,
+        "svg_text_fields_checked": 12,
+        "svg_missing_text_fields": [],
+        "removed_unsupported_text_remaining": [],
+        "content_json_sha256": "d9b9f32a3c6e043297d3f7aa2e2386cbd6960e88b8ec7892fd48c67efa265ef4",
+        "files": [
+          {
+            "kind": "svg",
+            "path": "military-service-act/lesson-149/diagrams/MS-149-D02-editorial-v1.svg",
+            "sha256": "a5b7aab812af46c39dc8f015d446d7d7ed3aa003ccdd3015977cf047a65bb4ed",
+            "bytes": 6256,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          },
+          {
+            "kind": "webp",
+            "path": "military-service-act/lesson-149/diagrams/MS-149-D02-editorial-v1.webp",
+            "sha256": "6474766b99303fd06877aa53176951b818c2b1b1b622dcbbf5009d405e3bd21e",
+            "bytes": 44356,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          }
+        ]
+      },
+      "per_lesson_manifest_snapshot": {
+        "path": "military-service-act/lesson-149/diagrams/manifest.json",
+        "content_matches_global": false,
+        "title_matches_global": false,
+        "file_metadata_matches_global": false,
+        "disposition": "coordinator_planned_synchronization_expected_remaining"
+      }
+    },
+    {
+      "id": "MS-149-D03-editorial-v1",
+      "lecture_id": "MS-149",
+      "content_index": 238,
+      "current_title": "입영기피의 세 가지 요건",
+      "decision": "pass",
+      "judgement": "통지서 수령(모집 포함), 정당한 사유 없음, 입영일·소집일로부터 정해진 기간 경과의 세 요건으로 교체되었다. 원고 밖의 점검 불참·6개월/500만원 처벌은 제목·본문·SVG에서 제거되었다.",
+      "source_evidence": {
+        "private_source_path": "docs/merged-lectures/병역법/본법_88.txt",
+        "script_git_blob_sha": "6944fa63d0587e7d0a5b447fabac3ba0a362e99b",
+        "script_sha256": "f12d24ff29db5e3016d013d4262dae8dbb097aeb7b077ae228492f3365ef22d7",
+        "pinned_sha256_match": true,
+        "line_numbers": [
+          33,
+          37,
+          39,
+          49,
+          51,
+          61,
+          67,
+          68,
+          69,
+          70,
+          106,
+          107,
+          108
+        ]
+      },
+      "consistency": {
+        "editorial_equals_global_manifest_content": true,
+        "global_title_equals_content_title": true,
+        "svg_text_fields_checked": 11,
+        "svg_missing_text_fields": [],
+        "removed_unsupported_text_remaining": [],
+        "content_json_sha256": "35018e32e7250305f9d34c8138f2f003fe470ee7c80397cb920f23b264992ea4",
+        "files": [
+          {
+            "kind": "svg",
+            "path": "military-service-act/lesson-149/diagrams/MS-149-D03-editorial-v1.svg",
+            "sha256": "307bf1fb57b242c160f492c606feb5df5eed8e2efff5779fa8d5c13ce6f671ac",
+            "bytes": 5902,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          },
+          {
+            "kind": "webp",
+            "path": "military-service-act/lesson-149/diagrams/MS-149-D03-editorial-v1.webp",
+            "sha256": "8a4502f2e06c1f42ef367156784f3e8fd87f82552bac7e4a4e4776898b327a9a",
+            "bytes": 48954,
+            "global_manifest_hash_matches": true,
+            "global_manifest_bytes_match": true
+          }
+        ]
+      },
+      "per_lesson_manifest_snapshot": {
+        "path": "military-service-act/lesson-149/diagrams/manifest.json",
+        "content_matches_global": false,
+        "title_matches_global": false,
+        "file_metadata_matches_global": false,
+        "disposition": "coordinator_planned_synchronization_expected_remaining"
+      }
+    }
+  ]
+}

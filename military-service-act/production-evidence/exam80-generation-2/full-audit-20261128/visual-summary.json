@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "date_kst": "2026-11-28",
+  "baseline_commit": "6de9fbddf5e94a97e2a343c692a1fa333adaae34",
+  "scope": "All316 official military-service-act diagram pages only; private manuscript semantics reviewed separately by other agents",
+  "official_page_count": 316,
+  "official_lecture_count": 166,
+  "official_file_count": 632,
+  "manifest_hashes_bytes_paths": "pass",
+  "all_webp_decodable_1600x1120_lossless": "pass",
+  "all_svg_parseable_1600x1120": "pass",
+  "all_166_lesson_manifests_match_global": "pass",
+  "gallery_assets_and_links": "pass",
+  "text_runs_measured": 7786,
+  "missing_font_glyphs": 0,
+  "measured_canvas_overflow": 0,
+  "measured_text_overlap_candidates": 0,
+  "svg_raster_exact_pixel_comparison": {
+    "sharp_baseline_exact": 283,
+    "inkscape_supplement_exact": 33,
+    "total_exact": 316,
+    "unresolved_mismatches": 0,
+    "explanation": "33 supplement pages use Inkscape, so sharp differences are renderer differences, not stale artwork."
+  },
+  "visual_inspection": {
+    "all_contact_sheets_opened": 20,
+    "all_official_pages_visible_in_contact_sheets": 316,
+    "confirmed_clipping_or_overlap": 0,
+    "confirmed_missing_glyphs": 0,
+    "dense_page_comment": "Dense list page MS-109-D10 remains within its columns, with adequate line separation at native size. Contact sheets are a gross-layout screen, not full-text accuracy verification.",
+    "readability_limit": "Native1600px pages are readable;30px supplementary body becomes7.5px at400px wide. Gallery recommends enlarging images, so no direct phone-width readability guarantee is made."
+  },
+  "actual_minimum_body_font_px": 30,
+  "pages_below_previous_declared36px_minimum": 21,
+  "confirmed_metadata_defects": [
+    {
+      "kind": "stale_page_counter",
+      "id": "MS-001-D01-editorial-v1",
+      "detail": "개념·핵심 도식   01 / 01",
+      "expected_diagram_number": 1,
+      "actual_published_pages": 2
+    },
+    {
+      "kind": "stale_page_counter",
+      "id": "MS-010-D01-editorial-v1",
+      "detail": "개념·핵심 도식   01 / 01",
+      "expected_diagram_number": 1,
+      "actual_published_pages": 2
+    },
+    {
+      "kind": "stale_page_counter",
+      "id": "MS-065-D01-editorial-v1",
+      "detail": "개념·핵심 도식   01 / 01",
+      "expected_diagram_number": 1,
+      "actual_published_pages": 3
+    },
+    {
+      "kind": "stale_page_counter",
+      "id": "MS-077-D01-editorial-v1",
+      "detail": "개념·핵심 도식   01 / 02",
+      "expected_diagram_number": 1,
+      "actual_published_pages": 14
+    },
+    {
+      "kind": "stale_page_counter",
+      "id": "MS-077-D02-editorial-v1",
+      "detail": "개념·핵심 도식   02 / 02",
+      "expected_diagram_number": 2,
+      "actual_published_pages": 14
+    },
+    {
+      "kind": "stale_page_counter",
+      "id": "MS-094-D01-editorial-v1",
+      "detail": "개념·핵심 도식   01 / 02",
+      "expected_diagram_number": 1,
+      "actual_published_pages": 7
+    },
+    {
+      "kind": "stale_page_counter",
+      "id": "MS-094-D02-editorial-v1",
+      "detail": "개념·핵심 도식   02 / 02",
+      "expected_diagram_number": 2,
+      "actual_published_pages": 7
+    },
+    {
+      "kind": "stale_page_counter",
+      "id": "MS-109-D01-editorial-v1",
+      "detail": "개념·핵심 도식   01 / 03",
+      "expected_diagram_number": 1,
+      "actual_published_pages": 13
+    },
+    {
+      "kind": "stale_page_counter",
+      "id": "MS-109-D02-editorial-v1",
+      "detail": "개념·핵심 도식   02 / 03",
+      "expected_diagram_number": 2,
+      "actual_published_pages": 13
+    },
+    {
+      "kind": "stale_page_counter",
+      "id": "MS-109-D03-editorial-v1",
+      "detail": "개념·핵심 도식   03 / 03",
+      "expected_diagram_number": 3,
+      "actual_published_pages": 13
+    },
+    {
+      "kind": "stale_page_counter",
+      "id": "MS-117-D01-editorial-v1",
+      "detail": "개념·핵심 도식   01 / 01",
+      "expected_diagram_number": 1,
+      "actual_published_pages": 2
+    },
+    {
+      "kind": "stale_page_counter",
+      "id": "MS-157-D01-editorial-v1",
+      "detail": "개념·핵심 도식   01 / 01",
+      "expected_diagram_number": 1,
+      "actual_published_pages": 2
+    },
+    {
+      "kind": "gallery_stale_status",
+      "id": "gallery",
+      "detail": "verified existing pages",
+      "recorded": 21,
+      "expected": 25
+    },
+    {
+      "kind": "gallery_stale_status",
+      "id": "gallery",
+      "detail": "pending existing pages",
+      "recorded": 262,
+      "expected": 258
+    },
+    {
+      "kind": "gallery_stale_status",
+      "id": "gallery",
+      "detail": "completed lectures",
+      "recorded": 14,
+      "expected": 19
+    },
+    {
+      "kind": "audit_font_minimum_stale",
+      "id": "editorial-audit.json",
+      "detail": "Declared minimum36px is no longer actual after supplements. No confirmed clipping or overlap.",
+      "declared_minimum_px": 36,
+      "actual_minimum_px": 30.0,
+      "affected_pages": [
+        {
+          "id": "MS-001-D02-editorial-v1",
+          "min_body_font_px": 30.0
+        },
+        {
+          "id": "MS-010-D02-editorial-v1",
+          "min_body_font_px": 33.0
+        },
+        {
+          "id": "MS-065-D02-editorial-v1",
+          "min_body_font_px": 30.0
+        },
+        {
+          "id": "MS-065-D04-editorial-v1",
+          "min_body_font_px": 30.0
+        },
+        {
+          "id": "MS-077-D04-editorial-v1",
+          "min_body_font_px": 35.0
+        },
+        {
+          "id": "MS-077-D05-editorial-v1",
+          "min_body_font_px": 33.0
+        },
+        {
+          "id": "MS-077-D10-editorial-v1",
+          "min_body_font_px": 35.0
+        },
+        {
+          "id": "MS-077-D13-editorial-v1",
+          "min_body_font_px": 33.0
+        },
+        {
+          "id": "MS-077-D14-editorial-v1",
+          "min_body_font_px": 33.0
+        },
+        {
+          "id": "MS-094-D03-editorial-v1",
+          "min_body_font_px": 35.0
+        },
+        {
+          "id": "MS-094-D04-editorial-v1",
+          "min_body_font_px": 35.0
+        },
+        {
+          "id": "MS-094-D05-editorial-v1",
+          "min_body_font_px": 34.0
+        },
+        {
+          "id": "MS-094-D06-editorial-v1",
+          "min_body_font_px": 34.0
+        },
+        {
+          "id": "MS-109-D04-editorial-v1",
+          "min_body_font_px": 35.0
+        },
+        {
+          "id": "MS-109-D05-editorial-v1",
+          "min_body_font_px": 35.0
+        },
+        {
+          "id": "MS-109-D06-editorial-v1",
+          "min_body_font_px": 34.0
+        },
+        {
+          "id": "MS-109-D07-editorial-v1",
+          "min_body_font_px": 34.0
+        },
+        {
+          "id": "MS-109-D08-editorial-v1",
+          "min_body_font_px": 34.0
+        },
+        {
+          "id": "MS-109-D14-editorial-v1",
+          "min_body_font_px": 30.0
+        },
+        {
+          "id": "MS-117-D02-editorial-v1",
+          "min_body_font_px": 33.0
+        },
+        {
+          "id": "MS-157-D02-editorial-v1",
+          "min_body_font_px": 33.0
+        }
+      ]
+    }
+  ],
+  "nondefect_observations": [
+    {
+      "kind": "punctuation_replaced_by_linebreak",
+      "id": "MS-094-D06-editorial-v1",
+      "detail": "section1.item1.text",
+      "content": "사법연수원생: 사법시험 성적 / 법학전문대학원생: 법학적성시험 50점 + 1학년 성적 50점",
+      "disposition": "Full visible text inspected in SVG and WebP contact sheet; all substantive words and numbers retained. Slashes, commas, or colons are replaced by line breaks."
+    },
+    {
+      "kind": "punctuation_replaced_by_linebreak",
+      "id": "MS-109-D06-editorial-v1",
+      "detail": "section0.item1.text",
+      "content": "제한연령 + 1년, 29세 이내에서 허가 가능",
+      "disposition": "Full visible text inspected in SVG and WebP contact sheet; all substantive words and numbers retained. Slashes, commas, or colons are replaced by line breaks."
+    },
+    {
+      "kind": "punctuation_replaced_by_linebreak",
+      "id": "MS-109-D07-editorial-v1",
+      "detail": "section0.item0.text",
+      "content": "1년 중 통틀어 6개월 이상, 정해진 사유 60일 이내 제외",
+      "disposition": "Full visible text inspected in SVG and WebP contact sheet; all substantive words and numbers retained. Slashes, commas, or colons are replaced by line breaks."
+    },
+    {
+      "kind": "punctuation_replaced_by_linebreak",
+      "id": "MS-109-D07-editorial-v1",
+      "detail": "section0.item2.text",
+      "content": "국내 6개월 이상 또는 영리활동: 한 번 3개월, 미출국 시 취소",
+      "disposition": "Full visible text inspected in SVG and WebP contact sheet; all substantive words and numbers retained. Slashes, commas, or colons are replaced by line breaks."
+    }
+  ],
+  "draft_counts": {
+    "physical_svg": 58,
+    "physical_webp": 58,
+    "meaning": "Historical/superseded/promoted draft files are included; these are not58 new pending images."
+  },
+  "files": {
+    "visual-contact-sheet-index.json": "072b4ef759f65cab605daf6e2ed3adce66ce6cc7431addb2dc0ea3c492c13c2e",
+    "visual-raster-inkscape-comparison.json": "1c1c05c5770d1263b550c8816f81308174ea12474bf7fec95d06c869e08ff72c",
+    "visual-integrity-report.json": "1bb7fa78d2b75d66794ddde1ca38d703f56309127b8d4f55ac3b971c22f8238e",
+    "visual-raster-comparison.json": "f4a5e6e85373f77047f820bdef2a1651bb839c1b38012aa47d5c1f072b3c7e19"
+  },
+  "limitations": [
+    "No private source scripts read by this audit worker.",
+    "Browser DOM audit was unavailable; Noto Sans CJK KR FreeType geometry plus native-raster pixels and contact sheets were used.",
+    "This baseline report precedes root coordinator corrections and must be followed by targeted post-change validation."
+  ]
+}

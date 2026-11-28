@@ -1,0 +1,321 @@
+{
+  "schema_version": 1,
+  "audit_id": "exam80-generation-2/full-audit-20261128/content-094-draft-corrections",
+  "created_at_utc": "2026-11-28T01:09:04.844472+00:00",
+  "status": "two_active_draft_content_corrections_applied_and_visually_verified",
+  "source_authority": {
+    "authority": "기존 exam80 고정 강의 원고만",
+    "pinned_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+    "lecture_id": "MS-094",
+    "private_source_path": "docs/merged-lectures/병역법/본법_58.txt",
+    "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+    "expected_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+    "actual_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+    "script_bytes": 49822,
+    "entire_script_read_for_this_correction": true,
+    "external_legal_sources_used": false,
+    "anchor_scheme": "UTF-8 원고의 빈 행을 포함한 1-based 물리 행 번호"
+  },
+  "changes": [
+    {
+      "id": "MS-094-D11-editorial-v1",
+      "stem": "candidate-eligibility",
+      "issue": "군종 후보 대학의 국방부장관 지정 조건 누락",
+      "content_patch": {
+        "json_pointer_within_content": "/sections/1/items/0/text",
+        "before": "신학·불교·성직자 양성 대학\n성직 자격 취득을 위해 재학 중",
+        "after": "국방부장관 지정\n신학·불교·성직자 양성 대학\n성직 자격 취득을 위해 재학 중"
+      },
+      "source_mapping_patch": {
+        "json_pointer_within_content": "/script_line_spans",
+        "before": [
+          [
+            68,
+            103
+          ]
+        ],
+        "after": [
+          [
+            68,
+            120
+          ]
+        ]
+      },
+      "rendered_lines": [
+        "국방부장관 지정",
+        "신학·불교·성직자 양성 대학",
+        "성직 자격 취득을 위해 재학 중"
+      ],
+      "layout_changes": "군종 본문에 1행을 추가하고 수의 항목 전체를 41px 아래로 이동; 본문 32px 유지",
+      "artifacts": [
+        {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-eligibility.svg",
+          "before": {
+            "sha256": "afa1dbb0d99768b6365b961df5ac9eb11e069ac900cccab1b9853ceea385b51f",
+            "bytes": 4877
+          },
+          "after": {
+            "sha256": "99768088fe2729667d01726ba2f6c63423ca74f199c8b07a1b96344d5bce03a9",
+            "bytes": 5052
+          }
+        },
+        {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-eligibility.webp",
+          "before": {
+            "sha256": "fc6ca9ec357dc652701e8b07d9460620824d822ac22ef78f14e0da09e0581899",
+            "bytes": 40436
+          },
+          "after": {
+            "sha256": "5a917395fa474005fda7d94202860e8d47773331ae58b87cded5160fbba57a6e",
+            "bytes": 41780
+          }
+        }
+      ],
+      "source_evidence": {
+        "private_source_path": "docs/merged-lectures/병역법/본법_58.txt",
+        "script_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+        "line_numbers": [
+          80,
+          103,
+          109,
+          120
+        ]
+      },
+      "validation": {
+        "svg_xml_parse": "pass",
+        "dimensions": [
+          1600,
+          1120
+        ],
+        "inkscape_png_render": "pass",
+        "pillow_lossless_webp": "pass",
+        "webp_contains_VP8L_chunk": true,
+        "png_webp_decoded_pixels_identical": true,
+        "decoded_rgba_pixel_sha256": "90d08cc3212b78b5ed1bb86b629e814f10f22d6c0a61e5e992e62b3ee2220673",
+        "actual_rendered_webp_visually_reviewed": true,
+        "effective_draft_json_matches_svg_text": true,
+        "visual_result": "추가 조건을 포함한 한글 본문이 잘림·겹침 없이 읽힘. 32px 본문 크기를 유지하고 다음 항목·열 경계·하단 정리 사이의 여백을 확인함."
+      },
+      "renderer_stderr": "** (inkscape:6): WARNING **: 10:09:03.670: Failed to wrap object of type 'PangoFT2FontMap'. Hint: this error is commonly caused by failing to call a library init() function.\n\n** (inkscape:6): WARNING **: 10:09:03.789: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function."
+    },
+    {
+      "id": "MS-094-D18-editorial-v1",
+      "stem": "candidate-to-officer-selection",
+      "issue": "예외 선발 대상인 수련기관 변경의 병무청장 무허가 조건 누락",
+      "content_patch": {
+        "json_pointer_within_content": "/sections/0/items/1/text",
+        "before": "제한연령까지 수련 미완료\n수련기관 변경·퇴직 후보생",
+        "after": "제한연령까지 수련 미완료\n병무청장 허가 없이 수련기관 변경\n수련기관에서 퇴직한 후보생"
+      },
+      "source_mapping_patch": {
+        "json_pointer_within_content": "/script_line_spans",
+        "before": [
+          [
+            278,
+            284
+          ]
+        ],
+        "after": [
+          [
+            168,
+            174
+          ],
+          [
+            278,
+            284
+          ]
+        ]
+      },
+      "rendered_lines": [
+        "제한연령까지 수련 미완료",
+        "병무청장 허가 없이 수련기관 변경",
+        "수련기관에서 퇴직한 후보생"
+      ],
+      "layout_changes": "예외 선발 대상 본문을 3행으로 나누어 허가 없는 변경과 퇴직을 분리; 본문 32px 유지",
+      "artifacts": [
+        {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-to-officer-selection.svg",
+          "before": {
+            "sha256": "e8ccf6c70f5e94d237f4f0a0907db5f182854aeb1359f8eba4166bdf726b6780",
+            "bytes": 4868
+          },
+          "after": {
+            "sha256": "c97fabe7c9f51db32d4c669691948b14ccb791aaad378ec6a7593dff192d8205",
+            "bytes": 5068
+          }
+        },
+        {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-to-officer-selection.webp",
+          "before": {
+            "sha256": "44305ad957587576885f5ed3abe65d1564de225f50bc30a5a65783a47e044042",
+            "bytes": 36414
+          },
+          "after": {
+            "sha256": "995e2e0b56e0618e7cf3fb2610ebb45ac5fa8bf043a911ee86c34b4e981cd94f",
+            "bytes": 39356
+          }
+        }
+      ],
+      "source_evidence": {
+        "private_source_path": "docs/merged-lectures/병역법/본법_58.txt",
+        "script_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+        "line_numbers": [
+          170,
+          172,
+          174,
+          284
+        ]
+      },
+      "validation": {
+        "svg_xml_parse": "pass",
+        "dimensions": [
+          1600,
+          1120
+        ],
+        "inkscape_png_render": "pass",
+        "pillow_lossless_webp": "pass",
+        "webp_contains_VP8L_chunk": true,
+        "png_webp_decoded_pixels_identical": true,
+        "decoded_rgba_pixel_sha256": "81e31c7763df3fb7719308afbf2b634d65d8b8b012587d4b788ed218f4e81dd3",
+        "actual_rendered_webp_visually_reviewed": true,
+        "effective_draft_json_matches_svg_text": true,
+        "visual_result": "추가 조건을 포함한 한글 본문이 잘림·겹침 없이 읽힘. 32px 본문 크기를 유지하고 다음 항목·열 경계·하단 정리 사이의 여백을 확인함."
+      },
+      "renderer_stderr": "** (inkscape:13): WARNING **: 10:09:04.457: Failed to wrap object of type 'PangoFT2FontMap'. Hint: this error is commonly caused by failing to call a library init() function.\n\n** (inkscape:13): WARNING **: 10:09:04.574: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function."
+    }
+  ],
+  "source_mapping_only_changes": [
+    {
+      "id": "MS-094-D13-editorial-v1",
+      "source_mapping_patch": {
+        "json_pointer_within_content": "/script_line_spans",
+        "before": [
+          [
+            162,
+            164
+          ]
+        ],
+        "after": [
+          [
+            168,
+            170
+          ]
+        ]
+      },
+      "reason": "신상변동 통보 주체·14일·사유의 실제 근거로 교정",
+      "source_line_anchors": [
+        168,
+        170
+      ]
+    },
+    {
+      "id": "MS-094-D14-editorial-v1",
+      "source_mapping_patch": {
+        "json_pointer_within_content": "/script_line_spans",
+        "before": [
+          [
+            150,
+            160
+          ],
+          [
+            166,
+            172
+          ]
+        ],
+        "after": [
+          [
+            150,
+            176
+          ]
+        ]
+      },
+      "reason": "의사 자격 및 가사사정 처리 근거 174·176줄을 포함",
+      "source_line_anchors": [
+        152,
+        166,
+        172,
+        174,
+        176
+      ]
+    },
+    {
+      "id": "MS-094-D21-editorial-v1",
+      "source_mapping_patch": {
+        "json_pointer_within_content": "/script_line_spans",
+        "before": [
+          [
+            170,
+            172
+          ]
+        ],
+        "after": [
+          [
+            178,
+            178
+          ]
+        ]
+      },
+      "reason": "질병 아닌 사유의 교육기관 퇴교를 설명하는 실제 근거로 교정",
+      "source_line_anchors": [
+        178
+      ]
+    }
+  ],
+  "preserved_historical_artifacts": [
+    {
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+      "before": {
+        "sha256": "bf792535755aae8a09dab53498b1090b082f817ae29dc556eca87fbece118d64",
+        "bytes": 24627
+      },
+      "after": {
+        "sha256": "bf792535755aae8a09dab53498b1090b082f817ae29dc556eca87fbece118d64",
+        "bytes": 24627
+      },
+      "unchanged": true
+    },
+    {
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json",
+      "before": {
+        "sha256": "a24fcfbf8f289f6f647195b3affb7bb59c5c71ca1ac0cecd02e5f6dcaab54e53",
+        "bytes": 9221
+      },
+      "after": {
+        "sha256": "a24fcfbf8f289f6f647195b3affb7bb59c5c71ca1ac0cecd02e5f6dcaab54e53",
+        "bytes": 9221
+      },
+      "unchanged": true
+    }
+  ],
+  "scope_controls": {
+    "only_existing_two_svg_and_corresponding_two_webp_modified": true,
+    "new_report_append_only": true,
+    "historical_checkpoints_overwritten": false,
+    "original_draft_editorial_json_overwritten": false,
+    "ids_renumbered": false,
+    "manifest_changed_by_this_agent": false,
+    "editorial_content_changed_by_this_agent": false,
+    "queue_changed_by_this_agent": false,
+    "render_requests_changed_by_this_agent": false,
+    "promoted": false,
+    "full_lecture_production_completion_claimed": false
+  },
+  "historical_evidence_note": "checkpoint-17과 원래 coverage-drafts-editorial-content.json은 과거 기록으로 보존했다. 향후 유효 콘텐츠와 출처 매핑에는 이 보고서의 content_patch 및 source_mapping_patch를 적용해야 한다.",
+  "rendering": {
+    "inkscape_version": "Inkscape 1.4 (e7c3feb100, 2024-10-09)",
+    "webp_encoder": "Pillow WEBP lossless=True, method=6, exact=True",
+    "raster_dimensions": [
+      1600,
+      1120
+    ]
+  },
+  "renderer_note": "Inkscape 종료코드0, 1600×1120 PNG 출력 및 Pillow 무손실 WebP 변환 완료. 두 페이지 모두 실제 WebP를 열어 시각 검수했고 PNG와 디코딩된 WebP의 RGBA 픽셀이 완전히 일치함.",
+  "resolved_audit_items": [
+    "content-draft-094.json:D094-01",
+    "content-draft-094.json:D094-02",
+    "content-draft-094.json:D094-03",
+    "content-draft-094.json:D094-04",
+    "content-draft-094.json:D094-G01"
+  ],
+  "resolved_audit_items_note": "내용 조건 및 대학 지정 누락은 활성 SVG/WebP에 반영. 출처 매핑은 이 append-only 보고서의 source_mapping_patch가 수정 기록이며, 역사적 JSON 및 checkpoint는 보존."
+}

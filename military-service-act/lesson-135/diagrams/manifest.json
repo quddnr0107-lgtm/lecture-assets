@@ -103,8 +103,11 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "published_diagram_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-111-166.json",
+        "reviewed_date_kst": "2026-11-28",
+        "full_script_coverage_certified_by_this_claim_review": false
       }
     },
     {
@@ -124,13 +127,13 @@
       "files": {
         "svg": {
           "path": "military-service-act/lesson-135/diagrams/MS-135-D02-editorial-v1.svg",
-          "bytes": 6925,
-          "sha256": "011ba287e4e8a844a8b5eb25aa1ede0908ebb470ee0bf5561b9f630761b013b3"
+          "bytes": 6921,
+          "sha256": "d428c6e3e2e90f4223b4bfd3f860a19854aac385f6f49cf1eeaea06f1f1336b8"
         },
         "webp": {
           "path": "military-service-act/lesson-135/diagrams/MS-135-D02-editorial-v1.webp",
-          "bytes": 54884,
-          "sha256": "349d8fc5ced9f2f11c8dd99af292a8f0b17e9c4cc52a624b755817679341ea63"
+          "bytes": 55572,
+          "sha256": "86aad42b63a873706ccf8e1b838f068bc76ced37d0e7ec357820fcab0f9b96b0"
         }
       },
       "content": {
@@ -148,7 +151,7 @@
             "items": [
               {
                 "label": "인적사항",
-                "text": "성명·연령·주소는 도로명과 건물번호까지",
+                "text": "성명·연령, 주소(도로명과 건물번호까지)",
                 "ref": "영 제160조제3항제1호"
               },
               {
@@ -173,6 +176,13 @@
               }
             ]
           }
+        ],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            129,
+            135
+          ]
         ]
       },
       "lecture_title": "병역법 제81조의2, 병역의무 기피자의 인적사항 등의 공개",
@@ -199,8 +209,18 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "published_diagram_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-111-166.json",
+        "reviewed_date_kst": "2026-11-28",
+        "full_script_coverage_certified_by_this_claim_review": false,
+        "source_line_spans": [
+          [
+            129,
+            135
+          ]
+        ],
+        "correction_ref": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/corrections.json"
       }
     },
     {
@@ -287,8 +307,11 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "published_diagram_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-111-166.json",
+        "reviewed_date_kst": "2026-11-28",
+        "full_script_coverage_certified_by_this_claim_review": false
       }
     }
   ],
@@ -298,8 +321,12 @@
   "script_git_blob_sha": "c96ea18dc2509405b2981ed2e5869790e86b4b19",
   "exam_number": 80,
   "script_alignment": {
-    "verified_existing_pages": 0,
-    "pending_existing_pages": 3,
-    "complete_script_coverage": "pending"
+    "verified_existing_pages": 3,
+    "pending_existing_pages": 0,
+    "complete_script_coverage": "pending",
+    "published_diagram_claims_verified_pages": 3,
+    "published_supplement_pages": 0,
+    "full_lecture_complete": false,
+    "latest_claim_review": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-111-166.json"
   }
 }

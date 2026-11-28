@@ -25,13 +25,13 @@
       "files": {
         "svg": {
           "path": "military-service-act/lesson-027/diagrams/MS-027-D01-editorial-v1.svg",
-          "bytes": 8223,
-          "sha256": "0343ccb72ca06e79f13af758e4924672cf2f1203177ed9445a59ae6ae44012d7"
+          "bytes": 8285,
+          "sha256": "9ffa400ac30cdbfc792ca49b23135f2ea6afcab1a871762a0bb789857d99f069"
         },
         "webp": {
           "path": "military-service-act/lesson-027/diagrams/MS-027-D01-editorial-v1.webp",
-          "bytes": 61810,
-          "sha256": "758af5f3670b574f465b4c93d628b5011d04b8883f2263cd8dabcc9992556970"
+          "bytes": 63368,
+          "sha256": "9cb6e2b792e9d67c23ccf08584f822d2db39a7cc17163bc9afe354aa70942dab"
         }
       },
       "content": {
@@ -72,8 +72,8 @@
                 "ref": "법 제20조의2제1항"
               },
               {
-                "label": "복무 중단",
-                "text": "각 군 참모총장이 질병·심신장애 등 법정 사유로 현역복무 부적합을 인정한 경우만 허가 가능",
+                "label": "복무 중단 · 각 군 참모총장",
+                "text": "본인이 중단을 원하고, 질병·심신장애 등 법정 사유로 현역복무 부적합을 인정한 경우만 허가 가능",
                 "ref": "법 제20조의2제5항"
               },
               {
@@ -83,6 +83,13 @@
               }
             ]
           }
+        ],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            90,
+            94
+          ]
         ]
       },
       "lecture_title": "병역법 제20조의2, 임기제부사관제의 운영",
@@ -103,8 +110,18 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "published_diagram_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-001-055.json",
+        "reviewed_date_kst": "2026-11-28",
+        "full_script_coverage_certified_by_this_claim_review": false,
+        "source_line_spans": [
+          [
+            90,
+            94
+          ]
+        ],
+        "correction_ref": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/corrections.json"
       }
     }
   ],
@@ -114,8 +131,12 @@
   "script_git_blob_sha": "9ab10b0fee95d312fe37c0ef50bff24bfbe5ef17",
   "exam_number": 80,
   "script_alignment": {
-    "verified_existing_pages": 0,
-    "pending_existing_pages": 1,
-    "complete_script_coverage": "pending"
+    "verified_existing_pages": 1,
+    "pending_existing_pages": 0,
+    "complete_script_coverage": "pending",
+    "published_diagram_claims_verified_pages": 1,
+    "published_supplement_pages": 0,
+    "full_lecture_complete": false,
+    "latest_claim_review": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-001-055.json"
   }
 }

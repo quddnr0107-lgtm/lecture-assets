@@ -89,8 +89,10 @@
       },
       "script_alignment": {
         "status": "verified",
-        "scope": "full_script_core_visual_coverage",
-        "evidence": "military-service-act/production-evidence/exam80-generation-2/MS-137/001-ec420b7d8a5bb1d8b782f0ac819afca21ab1baa8c2189888e4c16bb69b6a1685.json",
+        "scope": "published_diagram_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-111-166.json",
+        "reviewed_date_kst": "2026-11-28",
+        "full_script_coverage_certified_by_this_claim_review": false,
         "source_line_spans": [
           [
             17,
@@ -104,8 +106,7 @@
             51,
             65
           ]
-        ],
-        "related_existing_diagram_ids": []
+        ]
       }
     }
   ],
@@ -115,8 +116,12 @@
   "script_git_blob_sha": "3d624697ea06026cc1ade97fbb3925184f2d573a",
   "exam_number": 80,
   "script_alignment": {
-    "verified_existing_pages": 0,
-    "pending_existing_pages": 1,
-    "complete_script_coverage": "pending"
+    "verified_existing_pages": 1,
+    "pending_existing_pages": 0,
+    "complete_script_coverage": "verified",
+    "published_diagram_claims_verified_pages": 1,
+    "published_supplement_pages": 0,
+    "full_lecture_complete": true,
+    "latest_claim_review": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-111-166.json"
   }
 }

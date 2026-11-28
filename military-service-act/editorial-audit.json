@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_date_kst": "2026-11-27",
+  "checked_date_kst": "2026-11-28",
   "coverage": {
     "expected_lectures": 166,
     "actual_lectures": 166,
@@ -15,11 +15,12 @@
       1600,
       1120
     ],
-    "body_font_minimum_px": 36,
+    "body_font_minimum_px": 30,
     "word_wrapping": "어절 단위; 긴 문장은 장 분리",
     "font": "Noto Sans CJK KR",
     "text_bounds_errors": 0,
-    "raster_dimensions_checked": true
+    "raster_dimensions_checked": true,
+    "font_measurement_note": "현재316장 실제본문 최소30px; 기존36px 표기는 최초기본283장 기준으로 현재보완33장까지 포괄하지 못했다."
   },
   "sources": [
     {
@@ -90,8 +91,8 @@
     "webp_min_bytes": 25526,
     "webp_median_bytes": 53131,
     "webp_max_bytes": 74434,
-    "webp_total_bytes": 16358568,
-    "all_formats_total_bytes": 18426245
+    "webp_total_bytes": 16365894,
+    "all_formats_total_bytes": 18433717
   },
   "limitations": [
     "핵심 구조를 요약한 강의 보조 도식으로, 강의 대본 전체나 모든 항·호의 전문은 포함하지 않음",
@@ -105,26 +106,30 @@
     "fulltext_files_identity_verified": 166,
     "old_law_expansion_queue": "superseded",
     "replacement_queue_generation": 2,
-    "sample_script_aligned_pages": 25,
-    "remaining_script_alignment_pages": 258,
+    "sample_script_aligned_pages": 283,
+    "remaining_script_alignment_pages": 0,
     "past_law_review_is_not_full_script_alignment": true,
     "completed_script_coverage_lectures": 19,
     "latest_reuse_evidence": [
       "military-service-act/production-evidence/exam80-generation-2/MS-156/001-af0c7faf52471215c3c5c860501f7ea60ad114764d263e616eee34259bb50d8b.json",
       "military-service-act/production-evidence/exam80-generation-2/MS-158/001-3c7a4aaa776d8b6ce186aa913b2fcf205ec8ea7ea239f3d53e19776010726518.json"
-    ]
+    ],
+    "current_review_scope": "all316 published diagram claims; full lecture coverage remains19/166"
   },
   "current_publication": {
     "diagram_count": 316,
     "concept_diagram_count": 292,
     "existing_pages": 283,
     "new_script_supplement_pages": 33,
-    "verified_existing_pages": 25,
+    "verified_existing_pages": 283,
     "completed_lectures": 19,
     "evidence": [
       "military-service-act/production-evidence/exam80-generation-2/MS-065/014-publication-review.json",
       "military-service-act/production-evidence/exam80-generation-2/MS-109/014-publication-review.json"
-    ]
+    ],
+    "published_diagram_claims_verified_pages": 316,
+    "pending_full_script_coverage_lectures": 147,
+    "latest_full_asset_audit": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/REPORT.md"
   },
   "latest_coverage_review": {
     "date_kst": "2026-11-28",
@@ -141,5 +146,17 @@
     "new_images": 0,
     "corrected_images": 0,
     "publication_parent": "3e78aa08fe1db42ce20c1937a4c28e5404cd192f"
+  },
+  "latest_full_asset_audit": {
+    "date_kst": "2026-11-28",
+    "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+    "evidence_ref": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/REPORT.md",
+    "published_pages_reviewed": 316,
+    "body_items_plus_takeaways": 1423,
+    "official_content_corrected_pages": 11,
+    "official_rerendered_pages": 22,
+    "full_script_coverage_newly_completed_lectures": 0,
+    "completed_lectures": 19,
+    "pending_lectures": 147
   }
 }

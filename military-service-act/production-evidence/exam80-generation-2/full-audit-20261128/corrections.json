@@ -1,0 +1,1572 @@
+{
+  "schema_version": 1,
+  "reviewed_date_kst": "2026-11-28",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "content_corrections": [
+    {
+      "id": "MS-027-D01-editorial-v1",
+      "lecture_id": "MS-027",
+      "reason": "복무 중단에는 본인의 중단 희망과 각 군 참모총장의 부적합 인정이 함께 필요하다.",
+      "source_line_spans": [
+        [
+          90,
+          94
+        ]
+      ],
+      "before_content": {
+        "lecture_id": "MS-027",
+        "title": "임기제부사관의 선발과 복무",
+        "subtitle": "본인의 지원으로 현역병 복무를 마친 뒤 복무",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|20의2"
+        ],
+        "sections": [
+          {
+            "heading": "지원·선발",
+            "items": [
+              {
+                "label": "선발 주체",
+                "text": "병무청장이나 각 군 참모총장은 우수 숙련인력 확보에 필요하면 선발 가능",
+                "ref": "법 제20조의2제1항"
+              },
+              {
+                "label": "대상",
+                "text": "병역준비역 편입자 또는 현역병 복무 중인 사람",
+                "ref": "법 제20조의2제2항"
+              },
+              {
+                "label": "지원에 의한 선발",
+                "text": "본인의 지원에 의하여 선발",
+                "ref": "법 제20조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "임기·복무 중단",
+            "items": [
+              {
+                "label": "임기 4년 범위",
+                "text": "현역병 복무를 마친 후 4년의 범위에서 정한 기간을 임기로 부사관 복무",
+                "ref": "법 제20조의2제1항"
+              },
+              {
+                "label": "복무 중단",
+                "text": "각 군 참모총장이 질병·심신장애 등 법정 사유로 현역복무 부적합을 인정한 경우만 허가 가능",
+                "ref": "법 제20조의2제5항"
+              },
+              {
+                "label": "보수 지급",
+                "text": "대통령령으로 정하는 바에 따라 보수 지급",
+                "ref": "법 제20조의2제3항"
+              }
+            ]
+          }
+        ]
+      },
+      "before_files": {
+        "svg": {
+          "path": "military-service-act/lesson-027/diagrams/MS-027-D01-editorial-v1.svg",
+          "bytes": 8223,
+          "sha256": "0343ccb72ca06e79f13af758e4924672cf2f1203177ed9445a59ae6ae44012d7"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-027/diagrams/MS-027-D01-editorial-v1.webp",
+          "bytes": 61810,
+          "sha256": "758af5f3670b574f465b4c93d628b5011d04b8883f2263cd8dabcc9992556970"
+        }
+      },
+      "after_content": {
+        "lecture_id": "MS-027",
+        "title": "임기제부사관의 선발과 복무",
+        "subtitle": "본인의 지원으로 현역병 복무를 마친 뒤 복무",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|20의2"
+        ],
+        "sections": [
+          {
+            "heading": "지원·선발",
+            "items": [
+              {
+                "label": "선발 주체",
+                "text": "병무청장이나 각 군 참모총장은 우수 숙련인력 확보에 필요하면 선발 가능",
+                "ref": "법 제20조의2제1항"
+              },
+              {
+                "label": "대상",
+                "text": "병역준비역 편입자 또는 현역병 복무 중인 사람",
+                "ref": "법 제20조의2제2항"
+              },
+              {
+                "label": "지원에 의한 선발",
+                "text": "본인의 지원에 의하여 선발",
+                "ref": "법 제20조의2제1항"
+              }
+            ]
+          },
+          {
+            "heading": "임기·복무 중단",
+            "items": [
+              {
+                "label": "임기 4년 범위",
+                "text": "현역병 복무를 마친 후 4년의 범위에서 정한 기간을 임기로 부사관 복무",
+                "ref": "법 제20조의2제1항"
+              },
+              {
+                "label": "복무 중단 · 각 군 참모총장",
+                "text": "본인이 중단을 원하고, 질병·심신장애 등 법정 사유로 현역복무 부적합을 인정한 경우만 허가 가능",
+                "ref": "법 제20조의2제5항"
+              },
+              {
+                "label": "보수 지급",
+                "text": "대통령령으로 정하는 바에 따라 보수 지급",
+                "ref": "법 제20조의2제3항"
+              }
+            ]
+          }
+        ],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            90,
+            94
+          ]
+        ]
+      },
+      "after_files": {
+        "svg": {
+          "path": "military-service-act/lesson-027/diagrams/MS-027-D01-editorial-v1.svg",
+          "bytes": 8285,
+          "sha256": "9ffa400ac30cdbfc792ca49b23135f2ea6afcab1a871762a0bb789857d99f069"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-027/diagrams/MS-027-D01-editorial-v1.webp",
+          "bytes": 63368,
+          "sha256": "9cb6e2b792e9d67c23ccf08584f822d2db39a7cc17163bc9afe354aa70942dab"
+        }
+      }
+    },
+    {
+      "id": "MS-045-D02-editorial-v1",
+      "lecture_id": "MS-045",
+      "reason": "실비와 합숙 지원에 보수 산정 월수 조건이 적용되는 것으로 읽히지 않도록 소제목을 분리한다.",
+      "source_line_spans": [
+        [
+          113,
+          125
+        ]
+      ],
+      "before_content": {
+        "lecture_id": "MS-045",
+        "title": "사회복무요원의 보수 단계",
+        "subtitle": "소집월부터 계산하는 현역병 봉급 해당 보수",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|시행령|62"
+        ],
+        "sections": [
+          {
+            "heading": "소집월부터 8개월까지",
+            "items": [
+              {
+                "label": "1~2개월",
+                "text": "이등병의 보수",
+                "ref": "시행령 제62조제1항제1호"
+              },
+              {
+                "label": "3~8개월",
+                "text": "일등병의 보수",
+                "ref": "시행령 제62조제1항제2호"
+              },
+              {
+                "label": "별도 실비",
+                "text": "보수 외에 직무수행 여비·급식비 등 실비를 지급하여야 함",
+                "ref": "시행령 제62조제3항"
+              }
+            ]
+          },
+          {
+            "heading": "9개월부터",
+            "items": [
+              {
+                "label": "9~14개월",
+                "text": "상등병의 보수",
+                "ref": "시행령 제62조제1항제3호"
+              },
+              {
+                "label": "15개월 이상",
+                "text": "병장의 보수",
+                "ref": "시행령 제62조제1항제4호"
+              },
+              {
+                "label": "합숙근무",
+                "text": "합숙에 따른 숙식과 일상용품을 제공하여야 함",
+                "ref": "시행령 제62조제3항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "법정 편입취소자·퇴교자 등은 시행령 제62조제2항의 기간을 보수 산정 기준기간에 합산합니다."
+      },
+      "before_files": {
+        "svg": {
+          "path": "military-service-act/lesson-045/diagrams/MS-045-D02-editorial-v1.svg",
+          "bytes": 7425,
+          "sha256": "7ea0687f0006441d50fa1d46e35462dea88480df63321b00c125a3c18db89287"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-045/diagrams/MS-045-D02-editorial-v1.webp",
+          "bytes": 60342,
+          "sha256": "43ff9f10528e265c11acab2ae1b4dd4524c1f1436dc9b540023f326e45b4462d"
+        }
+      },
+      "after_content": {
+        "lecture_id": "MS-045",
+        "title": "사회복무요원의 보수 단계",
+        "subtitle": "소집월부터 계산하는 현역병 봉급 해당 보수",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|시행령|62"
+        ],
+        "sections": [
+          {
+            "heading": "초기 보수·별도 실비",
+            "items": [
+              {
+                "label": "1~2개월",
+                "text": "이등병의 보수",
+                "ref": "시행령 제62조제1항제1호"
+              },
+              {
+                "label": "3~8개월",
+                "text": "일등병의 보수",
+                "ref": "시행령 제62조제1항제2호"
+              },
+              {
+                "label": "별도 실비",
+                "text": "보수 외에 직무수행 여비·급식비 등 실비를 지급하여야 함",
+                "ref": "시행령 제62조제3항"
+              }
+            ]
+          },
+          {
+            "heading": "이후 보수·합숙 지원",
+            "items": [
+              {
+                "label": "9~14개월",
+                "text": "상등병의 보수",
+                "ref": "시행령 제62조제1항제3호"
+              },
+              {
+                "label": "15개월 이상",
+                "text": "병장의 보수",
+                "ref": "시행령 제62조제1항제4호"
+              },
+              {
+                "label": "합숙근무",
+                "text": "합숙에 따른 숙식과 일상용품을 제공하여야 함",
+                "ref": "시행령 제62조제3항"
+              }
+            ]
+          }
+        ],
+        "takeaway": "법정 편입취소자·퇴교자 등은 시행령 제62조제2항의 기간을 보수 산정 기준기간에 합산합니다.",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            113,
+            125
+          ]
+        ]
+      },
+      "after_files": {
+        "svg": {
+          "path": "military-service-act/lesson-045/diagrams/MS-045-D02-editorial-v1.svg",
+          "bytes": 7455,
+          "sha256": "99ae1f41c2ddcbf7b2079bc05c068486092862c24d0dfe51e6081c9d12313d63"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-045/diagrams/MS-045-D02-editorial-v1.webp",
+          "bytes": 60864,
+          "sha256": "8ba514cefdf075b1f272f878ea4a26e464a2c95992e76c03a381d90c4cae3693"
+        }
+      }
+    },
+    {
+      "id": "MS-077-D12-editorial-v1",
+      "lecture_id": "MS-077",
+      "reason": "12월 31일은 각 군 참모총장에게 기준을 통보하는 기한이며 결정·배정 전체의 기한으로 확대하지 않는다.",
+      "source_line_spans": [
+        [
+          179,
+          183
+        ]
+      ],
+      "before_content": {
+        "lecture_id": "MS-077",
+        "title": "군 필요인원 통보의 두 날짜",
+        "subtitle": "시행령 제10조 · 군 필요인원과 병역처분 기준",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "10월 31일까지",
+            "items": [
+              {
+                "label": "각 군 참모총장 → 병무청장",
+                "text": "매년 다다음 해에 징집으로 현역병 입영할 사람의 적성별 필요인원 통보",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "12월 31일까지",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "다음 해 병역판정검사의 현역병입영·보충역 편입 처분 기준 결정",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "병무청장 → 지방병무청장",
+                "text": "시·도별·적성별 현역병입영 인원 배정",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "병무청장 → 각 군 참모총장",
+                "text": "정해진 기준을 통보",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "군의 필요인원 통보 10월 31일 / 병무청의 기준 통보 12월 31일",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            179,
+            183
+          ]
+        ]
+      },
+      "before_files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D12-editorial-v1.svg",
+          "bytes": 5159,
+          "sha256": "ec8d84ee21eb2c613532faeca2d64b96ddf44fde40b95a37b3689c2e929616e4"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D12-editorial-v1.webp",
+          "bytes": 50898,
+          "sha256": "7a159eae26c8304d98c31c79b7627ba5d33160ace95eb8aedea122119c8e7ddd"
+        }
+      },
+      "after_content": {
+        "lecture_id": "MS-077",
+        "title": "군 필요인원 통보의 두 날짜",
+        "subtitle": "시행령 제10조 · 군 필요인원과 병역처분 기준",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "10월 31일까지",
+            "items": [
+              {
+                "label": "각 군 참모총장 → 병무청장",
+                "text": "매년 다다음 해에 징집으로 현역병 입영할 사람의 적성별 필요인원 통보",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "기준 결정·배정·통보",
+            "items": [
+              {
+                "label": "병무청장",
+                "text": "다음 해 병역판정검사의 현역병입영·보충역 편입 처분 기준 결정",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "병무청장 → 지방병무청장",
+                "text": "시·도별·적성별 현역병입영 인원 배정",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "병무청장 → 각 군 참모총장",
+                "text": "12월 31일까지 정해진 기준 통보",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "군의 필요인원 통보 10월 31일 / 병무청의 기준 통보 12월 31일",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            179,
+            183
+          ]
+        ]
+      },
+      "after_files": {
+        "svg": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D12-editorial-v1.svg",
+          "bytes": 5187,
+          "sha256": "7d047dc111f78b40a613ac6a30eacd5eccf5f045436f02f63b6ac52896684800"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-077/diagrams/MS-077-D12-editorial-v1.webp",
+          "bytes": 52794,
+          "sha256": "6b8837d83f90b60159800857f4d2d8462d20888936f5b069af16085d3d3890bd"
+        }
+      }
+    },
+    {
+      "id": "MS-086-D02-editorial-v1",
+      "lecture_id": "MS-086",
+      "reason": "전 가족 이사 특례를 전날 송달 기한의 하위 항목으로 묶지 않는다.",
+      "source_line_spans": [
+        [
+          137,
+          149
+        ]
+      ],
+      "before_content": {
+        "lecture_id": "MS-086",
+        "title": "동원훈련 통지서의 송달 기한",
+        "subtitle": "사전 입영일 지정 여부에 따른 차이",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|시행령|101"
+        ],
+        "sections": [
+          {
+            "heading": "원칙 7일 전까지",
+            "items": [
+              {
+                "label": "지방병무청장",
+                "text": "소집 통지서를 입영일 7일 전까지 본인에게 송달하여야 한다.",
+                "ref": "영 제101조제1항"
+              },
+              {
+                "label": "이사 후에도 입영",
+                "text": "통지서를 받고 이사한 경우에도 원칙적으로 지정되거나 공고된 바에 따라 입영한다.",
+                "ref": "영 제101조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "예외 전날까지",
+            "items": [
+              {
+                "label": "사전 날짜 미지정",
+                "text": "운영계획서 등에 사전 입영일을 지정하지 않고 실시하는 훈련소집 등은 전날까지 송달 가능.",
+                "ref": "영 제101조제3항"
+              },
+              {
+                "label": "전 가족 이사 특례",
+                "text": "같은 세대의 전 가족과 이사한 법정 대상자는 입영부대·일시를 다시 지정할 수 있다.",
+                "ref": "영 제101조제2항 단서"
+              }
+            ]
+          }
+        ]
+      },
+      "before_files": {
+        "svg": {
+          "path": "military-service-act/lesson-086/diagrams/MS-086-D02-editorial-v1.svg",
+          "bytes": 7289,
+          "sha256": "e0f1b4425373fd422a5686745abbbc76a891f1f3c80a8e71b5255b450a03dfd0"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-086/diagrams/MS-086-D02-editorial-v1.webp",
+          "bytes": 62624,
+          "sha256": "470a4eb37de7fad60e38d0f6d6b427ee898f385fe29c48367f9ada3b1e66e8af"
+        }
+      },
+      "after_content": {
+        "lecture_id": "MS-086",
+        "title": "동원훈련 통지서의 송달 기한",
+        "subtitle": "사전 입영일 지정 여부에 따른 차이",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|시행령|101"
+        ],
+        "sections": [
+          {
+            "heading": "기본 송달·이사 원칙",
+            "items": [
+              {
+                "label": "지방병무청장 · 7일 전까지",
+                "text": "소집 통지서를 입영일 7일 전까지 본인에게 송달하여야 한다.",
+                "ref": "영 제101조제1항"
+              },
+              {
+                "label": "이사 후에도 입영",
+                "text": "통지서를 받고 이사한 경우에도 원칙적으로 지정되거나 공고된 바에 따라 입영한다.",
+                "ref": "영 제101조제2항"
+              }
+            ]
+          },
+          {
+            "heading": "송달·이사의 특례",
+            "items": [
+              {
+                "label": "송달 예외 · 전날까지",
+                "text": "운영계획서 등에 사전 입영일을 지정하지 않고 실시하는 훈련소집 등은 전날까지 송달 가능.",
+                "ref": "영 제101조제3항"
+              },
+              {
+                "label": "전 가족 이사 특례",
+                "text": "같은 세대의 전 가족과 이사한 법정 대상자는 입영부대·일시를 다시 지정할 수 있다.",
+                "ref": "영 제101조제2항 단서"
+              }
+            ]
+          }
+        ],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            137,
+            149
+          ]
+        ]
+      },
+      "after_files": {
+        "svg": {
+          "path": "military-service-act/lesson-086/diagrams/MS-086-D02-editorial-v1.svg",
+          "bytes": 7361,
+          "sha256": "dfabed78cf1e33ec2f85f5c54daf58c6661eb3a1ae79cf59e3d6192137a18dea"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-086/diagrams/MS-086-D02-editorial-v1.webp",
+          "bytes": 64794,
+          "sha256": "20b58f5f59e46038052b52b80747b4c5df1827acf0b8497c31b6fd7ee5629a47"
+        }
+      }
+    },
+    {
+      "id": "MS-091-D02-editorial-v1",
+      "lecture_id": "MS-091",
+      "reason": "원고에 직접 제시되지 않은 예술·체육요원의 재교육 제외를 빼고 사회복무요원에 관한 원고 설명만 남긴다.",
+      "source_line_spans": [
+        [
+          145,
+          149
+        ]
+      ],
+      "before_content": {
+        "lecture_id": "MS-091",
+        "title": "보충역 군사교육소집 시기",
+        "subtitle": "복무 유형에 따라 교육하는 때가 다르다",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|시행령|107"
+        ],
+        "sections": [
+          {
+            "heading": "소집·편입 초기",
+            "items": [
+              {
+                "label": "사회복무요원",
+                "text": "소집과 동시에 실시. 부득이한 경우 소집일부터 1년 이내에 실시한다.",
+                "ref": "영 제107조제1호"
+              },
+              {
+                "label": "예술·체육요원",
+                "text": "편입일부터 1년 이내에 실시한다.",
+                "ref": "영 제107조제1호의3"
+              }
+            ]
+          },
+          {
+            "heading": "배치 전·복무 중",
+            "items": [
+              {
+                "label": "의사·법무관·수의사",
+                "text": "공중보건·전담의사·공익법무관·공중방역수의사는 복무기관 배치 전. 공익상 필요 시 협의해 배치 후 가능.",
+                "ref": "영 제107조제2호"
+              },
+              {
+                "label": "전문연구·산업기능",
+                "text": "의무복무기간 중 실시. 국외근무·승선 등으로 불가능하면 그 사유가 없어진 때 실시한다.",
+                "ref": "영 제107조제3호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "사회복무·예술체육요원의 기이수자 등에는 시행령이 정한 재교육 제외 규정을 적용한다."
+      },
+      "before_files": {
+        "svg": {
+          "path": "military-service-act/lesson-091/diagrams/MS-091-D02-editorial-v1.svg",
+          "bytes": 7321,
+          "sha256": "02307a93cea4066907e29ddc20d5c0a66903abcbc98241a2a86a71aac01c97e0"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-091/diagrams/MS-091-D02-editorial-v1.webp",
+          "bytes": 61876,
+          "sha256": "22a220eeb684d23d5bac1ce5cdba6232e88aba05f80dd2ba1b25bcfea9c6617e"
+        }
+      },
+      "after_content": {
+        "lecture_id": "MS-091",
+        "title": "보충역 군사교육소집 시기",
+        "subtitle": "복무 유형에 따라 교육하는 때가 다르다",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|시행령|107"
+        ],
+        "sections": [
+          {
+            "heading": "소집·편입 초기",
+            "items": [
+              {
+                "label": "사회복무요원",
+                "text": "소집과 동시에 실시. 부득이한 경우 소집일부터 1년 이내에 실시한다.",
+                "ref": "영 제107조제1호"
+              },
+              {
+                "label": "예술·체육요원",
+                "text": "편입일부터 1년 이내에 실시한다.",
+                "ref": "영 제107조제1호의3"
+              }
+            ]
+          },
+          {
+            "heading": "배치 전·복무 중",
+            "items": [
+              {
+                "label": "의사·법무관·수의사",
+                "text": "공중보건·전담의사·공익법무관·공중방역수의사는 복무기관 배치 전. 공익상 필요 시 협의해 배치 후 가능.",
+                "ref": "영 제107조제2호"
+              },
+              {
+                "label": "전문연구·산업기능",
+                "text": "의무복무기간 중 실시. 국외근무·승선 등으로 불가능하면 그 사유가 없어진 때 실시한다.",
+                "ref": "영 제107조제3호"
+              }
+            ]
+          }
+        ],
+        "takeaway": "사회복무요원: 군사교육 기이수자·현역병 입영 후 보충역이 된 사람은 다시 소집하지 않음",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            145,
+            149
+          ]
+        ]
+      },
+      "after_files": {
+        "svg": {
+          "path": "military-service-act/lesson-091/diagrams/MS-091-D02-editorial-v1.svg",
+          "bytes": 7323,
+          "sha256": "9c9ae57d62c6eb523998c53f50b29cd6a11335b474e87317f668ab027c955947"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-091/diagrams/MS-091-D02-editorial-v1.webp",
+          "bytes": 61482,
+          "sha256": "0a0da785ec3ddb3674a99f0d65c80f46ae17b8cde128cbdaa283833e9100e06a"
+        }
+      }
+    },
+    {
+      "id": "MS-102-D01-editorial-v1",
+      "lecture_id": "MS-102",
+      "reason": "원고에 없는 병역범죄 제외 단서 대신 원고에 있는 처분 범위 비교로 교정한다.",
+      "source_line_spans": [
+        [
+          19,
+          51
+        ],
+        [
+          351,
+          351
+        ]
+      ],
+      "before_content": {
+        "lecture_id": "MS-102",
+        "title": "병역처분 변경의 기본 구조",
+        "subtitle": "현역병·승선근무예비역·보충역의 사유별 처분",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|65"
+        ],
+        "sections": [
+          {
+            "heading": "전상·공상·질병 등",
+            "items": [
+              {
+                "label": "신체검사를 거쳐",
+                "text": "병역을 감당할 수 없으면 보충역·전시근로역 편입 또는 병역면제 처분을 할 수 있다.",
+                "ref": "법 제65조제1항제1호"
+              },
+              {
+                "label": "대상 범위",
+                "text": "현역병에는 상근예비역·전환복무 중인 사람과 현역병입영 대상자가 포함된다.",
+                "ref": "법 제65조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "수형·귀화 등",
+            "items": [
+              {
+                "label": "보충·전시근로역",
+                "text": "대통령령상 수형자 또는 귀화 등 법정 사유로 부적합한 사람은 보충역·전시근로역 편입 가능.",
+                "ref": "법 제65조제1항제2·3호"
+              },
+              {
+                "label": "일부 범죄 제외",
+                "text": "수형 사유의 변경에는 법 제65조제1항제2호 단서에서 열거한 병역범죄자를 제외한다.",
+                "ref": "법 제65조제1항제2호 단서"
+              }
+            ]
+          }
+        ]
+      },
+      "before_files": {
+        "svg": {
+          "path": "military-service-act/lesson-102/diagrams/MS-102-D01-editorial-v1.svg",
+          "bytes": 7504,
+          "sha256": "2702e4de4e8eea9e996df43b3457164d6450063541bd2cd95600bdf886beac1a"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-102/diagrams/MS-102-D01-editorial-v1.webp",
+          "bytes": 63256,
+          "sha256": "ec4d060b66d2acfdf763b97514163ff79102156a2d3d8e246a419c188c9658c6"
+        }
+      },
+      "after_content": {
+        "lecture_id": "MS-102",
+        "title": "병역처분 변경의 기본 구조",
+        "subtitle": "현역병·승선근무예비역·보충역의 사유별 처분",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|65"
+        ],
+        "sections": [
+          {
+            "heading": "전상·공상·질병 등",
+            "items": [
+              {
+                "label": "신체검사를 거쳐",
+                "text": "병역을 감당할 수 없으면 보충역·전시근로역 편입 또는 병역면제 처분을 할 수 있다.",
+                "ref": "법 제65조제1항제1호"
+              },
+              {
+                "label": "대상 범위",
+                "text": "현역병에는 상근예비역·전환복무 중인 사람과 현역병입영 대상자가 포함된다.",
+                "ref": "법 제65조제1항"
+              }
+            ]
+          },
+          {
+            "heading": "수형·귀화 등",
+            "items": [
+              {
+                "label": "보충·전시근로역",
+                "text": "대통령령상 수형자 또는 귀화 등 법정 사유로 부적합한 사람은 보충역·전시근로역 편입 가능.",
+                "ref": "법 제65조제1항제2·3호"
+              },
+              {
+                "label": "처분 범위",
+                "text": "수형·귀화 등은 보충역·전시근로역 편입만 가능하며 병역면제는 포함하지 않음",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            19,
+            51
+          ],
+          [
+            351,
+            351
+          ]
+        ]
+      },
+      "after_files": {
+        "svg": {
+          "path": "military-service-act/lesson-102/diagrams/MS-102-D01-editorial-v1.svg",
+          "bytes": 7476,
+          "sha256": "f51d1ed1f6dda4ceeac70b5c44a8ed06c041234ea74fb01716d7040d8a5c27f1"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-102/diagrams/MS-102-D01-editorial-v1.webp",
+          "bytes": 61238,
+          "sha256": "c941a88d93504a7198c78d3d6edd5d67315ad79d5608aa0fa556077f591cabef"
+        }
+      }
+    },
+    {
+      "id": "MS-109-D02-editorial-v1",
+      "lecture_id": "MS-109",
+      "reason": "25세의 해 1월 15일 허가 기한을 법무부장관 통보 의무에 적용하는 것으로 읽히지 않도록 분리한다.",
+      "source_line_spans": [
+        [
+          109,
+          129
+        ],
+        [
+          197,
+          199
+        ]
+      ],
+      "before_content": {
+        "lecture_id": "MS-109",
+        "title": "국외여행허가의 두 기한",
+        "subtitle": "허가기간 연장과 25세 전 출국",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|70"
+        ],
+        "sections": [
+          {
+            "heading": "기간만료 15일 전",
+            "items": [
+              {
+                "label": "허가받은 사람",
+                "text": "허가기간에 귀국하기 어려우면 기간만료 15일 전까지 병무청장 허가를 받아야 한다.",
+                "ref": "법 제70조제3항"
+              },
+              {
+                "label": "기간연장허가",
+                "text": "기존 허가기간을 넘겨 체류하려는 경우의 기한.",
+                "ref": "법 제70조제3항"
+              }
+            ]
+          },
+          {
+            "heading": "25세의 해 1월 15일",
+            "items": [
+              {
+                "label": "25세 전에 출국",
+                "text": "25세가 되기 전에 출국한 사람은 25세가 되는 해 1월 15일까지 허가를 받아야 한다.",
+                "ref": "법 제70조제3항"
+              },
+              {
+                "label": "허가 사실의 통보",
+                "text": "병무청장은 국외여행허가·기간연장허가 사실을 법무부장관에게 통보한다.",
+                "ref": "법 제70조제5항"
+              }
+            ]
+          }
+        ]
+      },
+      "before_files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D02-editorial-v1.svg",
+          "bytes": 7151,
+          "sha256": "4866a1461ab24e7843da2dbc462b768c1d5a7e351fdea89efd787fc4cf35f6c6"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D02-editorial-v1.webp",
+          "bytes": 56672,
+          "sha256": "43ed6811ed2cce384a2cbac1b471fd544e6c01e774535df62ac2e072d9cae95c"
+        }
+      },
+      "after_content": {
+        "lecture_id": "MS-109",
+        "title": "국외여행허가의 두 기한",
+        "subtitle": "허가기간 연장과 25세 전 출국",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|70"
+        ],
+        "sections": [
+          {
+            "heading": "기간만료 15일 전",
+            "items": [
+              {
+                "label": "허가받은 사람",
+                "text": "허가기간에 귀국하기 어려우면 기간만료 15일 전까지 병무청장 허가를 받아야 한다.",
+                "ref": "법 제70조제3항"
+              },
+              {
+                "label": "기간연장허가",
+                "text": "기존 허가기간을 넘겨 체류하려는 경우의 기한.",
+                "ref": "법 제70조제3항"
+              }
+            ]
+          },
+          {
+            "heading": "25세 전 출국·허가 통보",
+            "items": [
+              {
+                "label": "25세의 해 1월 15일까지",
+                "text": "25세가 되기 전에 출국한 사람은 25세가 되는 해 1월 15일까지 허가를 받아야 한다.",
+                "ref": "법 제70조제3항"
+              },
+              {
+                "label": "허가 사실의 통보",
+                "text": "병무청장은 국외여행허가·기간연장허가 사실을 법무부장관에게 통보한다.",
+                "ref": "법 제70조제5항"
+              }
+            ]
+          }
+        ],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            109,
+            129
+          ],
+          [
+            197,
+            199
+          ]
+        ]
+      },
+      "after_files": {
+        "svg": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D02-editorial-v1.svg",
+          "bytes": 7187,
+          "sha256": "1224022563e6d74e88419966ef774f194ade220899a5ac6a2a82fb3da6840179"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-109/diagrams/MS-109-D02-editorial-v1.webp",
+          "bytes": 57636,
+          "sha256": "9eb714cb652c6a1706dbaf628c1bb259ebcf69538b705c1987f0c86c0c487a34"
+        }
+      }
+    },
+    {
+      "id": "MS-135-D02-editorial-v1",
+      "lecture_id": "MS-135",
+      "reason": "도로명·건물번호 제한이 주소에만 걸리는 것을 명확히 표현한다.",
+      "source_line_spans": [
+        [
+          129,
+          135
+        ]
+      ],
+      "before_content": {
+        "lecture_id": "MS-135",
+        "title": "공개 내용과 공개 제외 사유",
+        "subtitle": "병무청·관할 지방병무청 홈페이지 게시",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|81의2",
+          "병역법|시행령|160"
+        ],
+        "sections": [
+          {
+            "heading": "공개 항목",
+            "items": [
+              {
+                "label": "인적사항",
+                "text": "성명·연령·주소는 도로명과 건물번호까지",
+                "ref": "영 제160조제3항제1호"
+              },
+              {
+                "label": "기피 사항",
+                "text": "기피일자·기피요지·법 위반 조항. 국외여행 기피자는 허가신청 당시 여행국",
+                "ref": "영 제160조제3항"
+              }
+            ]
+          },
+          {
+            "heading": "제외·삭제",
+            "items": [
+              {
+                "label": "공개 제외",
+                "text": "위원회가 질병·수감·천재지변 등 부득이한 이행 곤란 또는 공개 부적절·실익 없음을 인정",
+                "ref": "영 제160조제1항"
+              },
+              {
+                "label": "게시 후 삭제",
+                "text": "병역의무 이행 등으로 공개 실익이 없어지면 인적사항등 삭제 의무",
+                "ref": "영 제160조제5항"
+              }
+            ]
+          }
+        ]
+      },
+      "before_files": {
+        "svg": {
+          "path": "military-service-act/lesson-135/diagrams/MS-135-D02-editorial-v1.svg",
+          "bytes": 6925,
+          "sha256": "011ba287e4e8a844a8b5eb25aa1ede0908ebb470ee0bf5561b9f630761b013b3"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-135/diagrams/MS-135-D02-editorial-v1.webp",
+          "bytes": 54884,
+          "sha256": "349d8fc5ced9f2f11c8dd99af292a8f0b17e9c4cc52a624b755817679341ea63"
+        }
+      },
+      "after_content": {
+        "lecture_id": "MS-135",
+        "title": "공개 내용과 공개 제외 사유",
+        "subtitle": "병무청·관할 지방병무청 홈페이지 게시",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|81의2",
+          "병역법|시행령|160"
+        ],
+        "sections": [
+          {
+            "heading": "공개 항목",
+            "items": [
+              {
+                "label": "인적사항",
+                "text": "성명·연령, 주소(도로명과 건물번호까지)",
+                "ref": "영 제160조제3항제1호"
+              },
+              {
+                "label": "기피 사항",
+                "text": "기피일자·기피요지·법 위반 조항. 국외여행 기피자는 허가신청 당시 여행국",
+                "ref": "영 제160조제3항"
+              }
+            ]
+          },
+          {
+            "heading": "제외·삭제",
+            "items": [
+              {
+                "label": "공개 제외",
+                "text": "위원회가 질병·수감·천재지변 등 부득이한 이행 곤란 또는 공개 부적절·실익 없음을 인정",
+                "ref": "영 제160조제1항"
+              },
+              {
+                "label": "게시 후 삭제",
+                "text": "병역의무 이행 등으로 공개 실익이 없어지면 인적사항등 삭제 의무",
+                "ref": "영 제160조제5항"
+              }
+            ]
+          }
+        ],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            129,
+            135
+          ]
+        ]
+      },
+      "after_files": {
+        "svg": {
+          "path": "military-service-act/lesson-135/diagrams/MS-135-D02-editorial-v1.svg",
+          "bytes": 6921,
+          "sha256": "d428c6e3e2e90f4223b4bfd3f860a19854aac385f6f49cf1eeaea06f1f1336b8"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-135/diagrams/MS-135-D02-editorial-v1.webp",
+          "bytes": 55572,
+          "sha256": "86aad42b63a873706ccf8e1b838f068bc76ced37d0e7ec357820fcab0f9b96b0"
+        }
+      }
+    },
+    {
+      "id": "MS-149-D01-editorial-v1",
+      "lecture_id": "MS-149",
+      "reason": "3년 이하의 징역이 2일 대상뿐 아니라 3일 대상에도 공통 적용됨을 정리란에 표시한다.",
+      "source_line_spans": [
+        [
+          31,
+          70
+        ],
+        [
+          94,
+          106
+        ]
+      ],
+      "before_content": {
+        "lecture_id": "MS-149",
+        "title": "입영·소집 기피의 3일과 2일",
+        "subtitle": "통지서 수령 후 정당한 사유 없이 기간이 지나도 불응",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|88"
+        ],
+        "sections": [
+          {
+            "heading": "3일",
+            "items": [
+              {
+                "label": "현역입영",
+                "text": "입영일부터 3일 경과",
+                "ref": "법 제88조제1항제1호"
+              },
+              {
+                "label": "사회·대체복무요원",
+                "text": "소집일부터 3일 경과",
+                "ref": "법 제88조제1항제2호"
+              },
+              {
+                "label": "군사교육소집",
+                "text": "소집일부터 3일 경과",
+                "ref": "법 제88조제1항제3호"
+              }
+            ]
+          },
+          {
+            "heading": "2일",
+            "items": [
+              {
+                "label": "병력동원소집",
+                "text": "소집일부터 2일 경과",
+                "ref": "법 제88조제1항제4호"
+              },
+              {
+                "label": "전시근로소집",
+                "text": "소집일부터 2일 경과",
+                "ref": "법 제88조제1항제4호"
+              },
+              {
+                "label": "법정형",
+                "text": "해당 기간이 지나도 입영·소집에 불응하면 3년 이하의 징역",
+                "ref": "법 제88조제1항 본문"
+              }
+            ]
+          }
+        ]
+      },
+      "before_files": {
+        "svg": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D01-editorial-v1.svg",
+          "bytes": 6889,
+          "sha256": "7a1008253a7e48e918fc202295ffbb71755d783c9227b96ade221ec50817d4c0"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D01-editorial-v1.webp",
+          "bytes": 38706,
+          "sha256": "ed188c5310686f432c22891fc95be194cc653eca072c2cda5f5707cf45663f46"
+        }
+      },
+      "after_content": {
+        "lecture_id": "MS-149",
+        "title": "입영·소집 기피의 3일과 2일",
+        "subtitle": "통지서 수령 후 정당한 사유 없이 기간이 지나도 불응",
+        "layout": "numbers",
+        "source_keys": [
+          "병역법|본법|88"
+        ],
+        "sections": [
+          {
+            "heading": "3일",
+            "items": [
+              {
+                "label": "현역입영",
+                "text": "입영일부터 3일 경과",
+                "ref": "법 제88조제1항제1호"
+              },
+              {
+                "label": "사회·대체복무요원",
+                "text": "소집일부터 3일 경과",
+                "ref": "법 제88조제1항제2호"
+              },
+              {
+                "label": "군사교육소집",
+                "text": "소집일부터 3일 경과",
+                "ref": "법 제88조제1항제3호"
+              }
+            ]
+          },
+          {
+            "heading": "2일",
+            "items": [
+              {
+                "label": "병력동원소집",
+                "text": "소집일부터 2일 경과",
+                "ref": "법 제88조제1항제4호"
+              },
+              {
+                "label": "전시근로소집",
+                "text": "소집일부터 2일 경과",
+                "ref": "법 제88조제1항제4호"
+              }
+            ]
+          }
+        ],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            31,
+            70
+          ],
+          [
+            94,
+            106
+          ]
+        ],
+        "takeaway": "3일·2일의 해당 기간이 지나도 불응하면 3년 이하의 징역"
+      },
+      "after_files": {
+        "svg": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D01-editorial-v1.svg",
+          "bytes": 6418,
+          "sha256": "19fecd5b1123f647d61aadead54ec7e43b7a4e21d2518257b0ec9763ab027835"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D01-editorial-v1.webp",
+          "bytes": 35362,
+          "sha256": "39c25108bbb14016644e50e47848a1b167fbd711608a78c96e9c292f20af31a9"
+        }
+      }
+    },
+    {
+      "id": "MS-149-D02-editorial-v1",
+      "lecture_id": "MS-149",
+      "reason": "원고에 없는 전시근로 점검 대리 처벌 대신 원고의 본인 기피·대리입영 비교를 담는다.",
+      "source_line_spans": [
+        [
+          15,
+          27
+        ],
+        [
+          31,
+          37
+        ],
+        [
+          84,
+          98
+        ]
+      ],
+      "before_content": {
+        "lecture_id": "MS-149",
+        "title": "대리입영과 전시근로 점검",
+        "subtitle": "입영·소집과 점검 대리출석의 형을 구별",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|88"
+        ],
+        "sections": [
+          {
+            "heading": "대리입영·대리소집",
+            "items": [
+              {
+                "label": "행위",
+                "text": "통지서를 받은 입영·소집 대상자를 대리하여 입영하거나 소집에 응함",
+                "ref": "법 제88조제2항 본문"
+              },
+              {
+                "label": "법정형",
+                "text": "1년 이상 3년 이하의 징역",
+                "ref": "법 제88조제2항 본문"
+              }
+            ]
+          },
+          {
+            "heading": "전시근로 점검 대리",
+            "items": [
+              {
+                "label": "행위",
+                "text": "제53조제2항에 따라 점검받을 사람을 대리하여 출석",
+                "ref": "법 제88조제2항 단서"
+              },
+              {
+                "label": "법정형",
+                "text": "1년 이하의 징역",
+                "ref": "법 제88조제2항 단서"
+              }
+            ]
+          }
+        ]
+      },
+      "before_files": {
+        "svg": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D02-editorial-v1.svg",
+          "bytes": 6024,
+          "sha256": "cd793bb88bfd3ca33731c58a7f087f4b9e4d7ec0c5b232159dfdee026de9528d"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D02-editorial-v1.webp",
+          "bytes": 41680,
+          "sha256": "797fcdc3ae3457d2a48e5f05e92d69958623b9deca95babace12948e579f84bc"
+        }
+      },
+      "after_content": {
+        "lecture_id": "MS-149",
+        "title": "본인의 기피와 대리입영",
+        "subtitle": "징역 상한은 3년 · 대리입영에는 1년의 하한",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|88"
+        ],
+        "sections": [
+          {
+            "heading": "본인의 입영·소집 기피",
+            "items": [
+              {
+                "label": "행위와 조건",
+                "text": "통지서를 받고 정당한 사유 없이 정해진 기간이 지나도 입영·소집에 불응",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "법정형",
+                "text": "3년 이하의 징역",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "대리입영·대리소집",
+            "items": [
+              {
+                "label": "처벌 대상",
+                "text": "통지서를 받은 사람을 대신하여 입영하거나 소집에 응한 사람",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "법정형",
+                "text": "1년 이상 3년 이하의 징역",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            15,
+            27
+          ],
+          [
+            31,
+            37
+          ],
+          [
+            84,
+            98
+          ]
+        ]
+      },
+      "after_files": {
+        "svg": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D02-editorial-v1.svg",
+          "bytes": 6256,
+          "sha256": "a5b7aab812af46c39dc8f015d446d7d7ed3aa003ccdd3015977cf047a65bb4ed"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D02-editorial-v1.webp",
+          "bytes": 44356,
+          "sha256": "6474766b99303fd06877aa53176951b818c2b1b1b622dcbbf5009d405e3bd21e"
+        }
+      }
+    },
+    {
+      "id": "MS-149-D03-editorial-v1",
+      "lecture_id": "MS-149",
+      "reason": "원고에 없는 점검 불참 처벌 대신 원고가 제시한 입영기피의 세 가지 요건을 담는다.",
+      "source_line_spans": [
+        [
+          31,
+          70
+        ],
+        [
+          103,
+          108
+        ]
+      ],
+      "before_content": {
+        "lecture_id": "MS-149",
+        "title": "전시근로소집 대비 점검 불참",
+        "subtitle": "입영 지연기간 규정과 다른 단서 규정",
+        "layout": "compare",
+        "source_keys": [
+          "병역법|본법|88"
+        ],
+        "sections": [
+          {
+            "heading": "점검 불참 요건",
+            "items": [
+              {
+                "label": "통지서 수령",
+                "text": "제53조제2항에 따른 전시근로소집 대비 점검통지서를 받은 사람",
+                "ref": "법 제88조제1항 단서"
+              },
+              {
+                "label": "불참",
+                "text": "정당한 사유 없이 지정된 일시의 점검에 참석하지 않은 경우",
+                "ref": "법 제88조제1항 단서"
+              }
+            ]
+          },
+          {
+            "heading": "법정형",
+            "items": [
+              {
+                "label": "징역·벌금·구류",
+                "text": "6개월 이하의 징역이나 500만원 이하의 벌금 또는 구류",
+                "ref": "법 제88조제1항 단서"
+              }
+            ]
+          }
+        ]
+      },
+      "before_files": {
+        "svg": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D03-editorial-v1.svg",
+          "bytes": 5715,
+          "sha256": "7f082f920f5a0cdc03a29658de58e18c79dc0da3f2aa8612a952a4d5803a30ca"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D03-editorial-v1.webp",
+          "bytes": 43382,
+          "sha256": "c787bbf558f1be70254dce6c63c1a0c5bb1b4944a3cce1a92928e6720a862e82"
+        }
+      },
+      "after_content": {
+        "lecture_id": "MS-149",
+        "title": "입영기피의 세 가지 요건",
+        "subtitle": "통지서 수령 · 정당한 사유 없음 · 정해진 기간 경과",
+        "layout": "flow",
+        "source_keys": [
+          "병역법|본법|88"
+        ],
+        "sections": [
+          {
+            "heading": "통지서를 받음",
+            "items": [
+              {
+                "label": "모집 통지서 포함",
+                "text": "현역입영 또는 소집 통지서를 받은 사람. 모집에 의한 입영 통지서도 포함.",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "정당한 사유 없음",
+            "items": [
+              {
+                "label": "처벌의 조건",
+                "text": "정당한 사유 없이 입영하지 않거나 소집에 응하지 않은 경우.",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "정해진 기간 경과",
+            "items": [
+              {
+                "label": "입영일·소집일부터",
+                "text": "현역입영·사회복무·대체복무·군사교육 3일, 병력동원소집·전시근로소집 2일.",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            31,
+            70
+          ],
+          [
+            103,
+            108
+          ]
+        ]
+      },
+      "after_files": {
+        "svg": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D03-editorial-v1.svg",
+          "bytes": 5902,
+          "sha256": "307bf1fb57b242c160f492c606feb5df5eed8e2efff5779fa8d5c13ce6f671ac"
+        },
+        "webp": {
+          "path": "military-service-act/lesson-149/diagrams/MS-149-D03-editorial-v1.webp",
+          "bytes": 48954,
+          "sha256": "8a4502f2e06c1f42ef367156784f3e8fd87f82552bac7e4a4e4776898b327a9a"
+        }
+      }
+    }
+  ],
+  "counter_only_corrections": [
+    {
+      "id": "MS-001-D01-editorial-v1",
+      "before": "개념·핵심 도식   01 / 01",
+      "after": "개념·핵심 도식   01 / 02"
+    },
+    {
+      "id": "MS-010-D01-editorial-v1",
+      "before": "개념·핵심 도식   01 / 01",
+      "after": "개념·핵심 도식   01 / 02"
+    },
+    {
+      "id": "MS-065-D01-editorial-v1",
+      "before": "개념·핵심 도식   01 / 01",
+      "after": "개념·핵심 도식   01 / 03"
+    },
+    {
+      "id": "MS-077-D01-editorial-v1",
+      "before": "개념·핵심 도식   01 / 02",
+      "after": "개념·핵심 도식   01 / 14"
+    },
+    {
+      "id": "MS-077-D02-editorial-v1",
+      "before": "개념·핵심 도식   02 / 02",
+      "after": "개념·핵심 도식   02 / 14"
+    },
+    {
+      "id": "MS-094-D01-editorial-v1",
+      "before": "개념·핵심 도식   01 / 02",
+      "after": "개념·핵심 도식   01 / 07"
+    },
+    {
+      "id": "MS-094-D02-editorial-v1",
+      "before": "개념·핵심 도식   02 / 02",
+      "after": "개념·핵심 도식   02 / 07"
+    },
+    {
+      "id": "MS-109-D01-editorial-v1",
+      "before": "개념·핵심 도식   01 / 03",
+      "after": "개념·핵심 도식   01 / 13"
+    },
+    {
+      "id": "MS-109-D03-editorial-v1",
+      "before": "개념·핵심 도식   03 / 03",
+      "after": "개념·핵심 도식   03 / 13"
+    },
+    {
+      "id": "MS-117-D01-editorial-v1",
+      "before": "개념·핵심 도식   01 / 01",
+      "after": "개념·핵심 도식   01 / 02"
+    },
+    {
+      "id": "MS-157-D01-editorial-v1",
+      "before": "개념·핵심 도식   01 / 01",
+      "after": "개념·핵심 도식   01 / 02"
+    }
+  ],
+  "changed_svg_ids": [
+    "MS-001-D01-editorial-v1",
+    "MS-010-D01-editorial-v1",
+    "MS-027-D01-editorial-v1",
+    "MS-045-D02-editorial-v1",
+    "MS-065-D01-editorial-v1",
+    "MS-077-D01-editorial-v1",
+    "MS-077-D02-editorial-v1",
+    "MS-077-D12-editorial-v1",
+    "MS-086-D02-editorial-v1",
+    "MS-091-D02-editorial-v1",
+    "MS-094-D01-editorial-v1",
+    "MS-094-D02-editorial-v1",
+    "MS-102-D01-editorial-v1",
+    "MS-109-D01-editorial-v1",
+    "MS-109-D02-editorial-v1",
+    "MS-109-D03-editorial-v1",
+    "MS-117-D01-editorial-v1",
+    "MS-135-D02-editorial-v1",
+    "MS-149-D01-editorial-v1",
+    "MS-149-D02-editorial-v1",
+    "MS-149-D03-editorial-v1",
+    "MS-157-D01-editorial-v1"
+  ],
+  "status": "corrected_rerendered_semantically_and_visually_verified",
+  "validation_refs": [
+    "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-postfix-review.json",
+    "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-postfix-summary.json",
+    "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/current-visual-integrity-report.json"
+  ],
+  "total_official_content_pages_corrected": 11,
+  "total_printed_page_counters_corrected": 12,
+  "counter_count_note": "11 counter-only rerenders plus MS-109-D02 counter corrected during its content rerender; 12 affected counters and 11 content pages overlap by one, so22 official pages changed.",
+  "total_official_pages_rerendered": 22
+}

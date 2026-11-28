@@ -94,8 +94,11 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "published_diagram_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-056-110.json",
+        "reviewed_date_kst": "2026-11-28",
+        "full_script_coverage_certified_by_this_claim_review": false
       }
     },
     {
@@ -114,13 +117,13 @@
       "files": {
         "svg": {
           "path": "military-service-act/lesson-091/diagrams/MS-091-D02-editorial-v1.svg",
-          "bytes": 7321,
-          "sha256": "02307a93cea4066907e29ddc20d5c0a66903abcbc98241a2a86a71aac01c97e0"
+          "bytes": 7323,
+          "sha256": "9c9ae57d62c6eb523998c53f50b29cd6a11335b474e87317f668ab027c955947"
         },
         "webp": {
           "path": "military-service-act/lesson-091/diagrams/MS-091-D02-editorial-v1.webp",
-          "bytes": 61876,
-          "sha256": "22a220eeb684d23d5bac1ce5cdba6232e88aba05f80dd2ba1b25bcfea9c6617e"
+          "bytes": 61482,
+          "sha256": "0a0da785ec3ddb3674a99f0d65c80f46ae17b8cde128cbdaa283833e9100e06a"
         }
       },
       "content": {
@@ -163,7 +166,14 @@
             ]
           }
         ],
-        "takeaway": "사회복무·예술체육요원의 기이수자 등에는 시행령이 정한 재교육 제외 규정을 적용한다."
+        "takeaway": "사회복무요원: 군사교육 기이수자·현역병 입영 후 보충역이 된 사람은 다시 소집하지 않음",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            145,
+            149
+          ]
+        ]
       },
       "lecture_title": "병역법 제55조, 군사교육소집 대상 등",
       "main_article": "병역법 제55조",
@@ -183,8 +193,18 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "published_diagram_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-056-110.json",
+        "reviewed_date_kst": "2026-11-28",
+        "full_script_coverage_certified_by_this_claim_review": false,
+        "source_line_spans": [
+          [
+            145,
+            149
+          ]
+        ],
+        "correction_ref": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/corrections.json"
       }
     }
   ],
@@ -194,8 +214,12 @@
   "script_git_blob_sha": "f1c66934bde36004befb0712caedaa3d32e39cb7",
   "exam_number": 80,
   "script_alignment": {
-    "verified_existing_pages": 0,
-    "pending_existing_pages": 2,
-    "complete_script_coverage": "pending"
+    "verified_existing_pages": 2,
+    "pending_existing_pages": 0,
+    "complete_script_coverage": "pending",
+    "published_diagram_claims_verified_pages": 2,
+    "published_supplement_pages": 0,
+    "full_lecture_complete": false,
+    "latest_claim_review": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-056-110.json"
   }
 }

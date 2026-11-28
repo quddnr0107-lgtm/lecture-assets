@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "audit_id": "exam80-generation-2/full-audit-20261128/content-065-draft-corrections",
+  "created_at_utc": "2026-11-28T01:06:54.692722+00:00",
+  "status": "two_active_draft_content_corrections_applied_and_visually_verified",
+  "source_authority": {
+    "authority": "기존 exam80 고정 강의 원고만",
+    "pinned_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+    "lecture_id": "MS-065",
+    "private_source_path": "docs/merged-lectures/병역법/본법_34의5.txt",
+    "script_git_blob_sha": "74c8bb42ce2c144513f61ff341683c2c94c9fc98",
+    "expected_sha256": "185389966439ba264ef4c8b2869740bc2a626542e5fee178fde0e60f9e862b34",
+    "actual_sha256": "185389966439ba264ef4c8b2869740bc2a626542e5fee178fde0e60f9e862b34",
+    "script_bytes": 18908,
+    "entire_script_read_for_this_correction": true,
+    "external_legal_sources_used": false,
+    "anchor_scheme": "UTF-8 원고의 빈 행을 포함한 1-based 물리 행 번호"
+  },
+  "changes": [
+    {
+      "id": "MS-065-D03-editorial-v1",
+      "stem": "research-industrial-records",
+      "issue": "개별복무 예외에 병역지정업체 밖의 업체라는 적용범위가 빠져 있었다.",
+      "content_patch": {
+        "json_pointer_within_content": "/sections/1/items/1/text",
+        "before": "편입 당시 지방병무청장이 직접 관리",
+        "after": "병역지정업체 밖의 업체에서 개별복무 시 편입 당시 지방병무청장이 직접 관리"
+      },
+      "rendered_lines": [
+        "병역지정업체 밖의 업체에서 개별복무 시",
+        "편입 당시 지방병무청장이 직접 관리"
+      ],
+      "layout_changes": "예외 본문을2행으로 나누고 뒤의 업체 이동 항목을37px 아래로 이동. 본문 글자30px 유지.",
+      "artifacts": [
+        {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-records.svg",
+          "before": {
+            "sha256": "cf20a959d166b7745de2b4259a06691425210034040d549aeffee7ab37e8f272",
+            "bytes": 4856
+          },
+          "after": {
+            "sha256": "1bf19bac6ddc0567a17c37b2f879a3a481900d20025e63ec5c2412e06a972265",
+            "bytes": 5064
+          }
+        },
+        {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-records.webp",
+          "before": {
+            "sha256": "58044f04641afa7911b98ab9c1092ce63b2913f79fc7362f98b987b00ca25055",
+            "bytes": 40194
+          },
+          "after": {
+            "sha256": "109a5ac2bb2583071e9daccba992bb3a861d7b81ea50b2340e3e6fd822d15402",
+            "bytes": 38062
+          }
+        }
+      ],
+      "source_evidence": {
+        "private_source_path": "docs/merged-lectures/병역법/본법_34의5.txt",
+        "script_sha256": "185389966439ba264ef4c8b2869740bc2a626542e5fee178fde0e60f9e862b34",
+        "line_numbers": [
+          75,
+          85,
+          87
+        ]
+      },
+      "validation": {
+        "svg_xml_parse": "pass",
+        "dimensions": [
+          1600,
+          1120
+        ],
+        "inkscape_png_render": "pass",
+        "pillow_lossless_webp": "pass",
+        "png_webp_decoded_pixels_identical": true,
+        "actual_rendered_webp_visually_reviewed": true,
+        "visual_result": "한글 잘림·겹침 없음. 추가 조건·사본 표현이 읽히며 뒤 항목과 구분선 사이 여백 유지."
+      }
+    },
+    {
+      "id": "MS-065-D05-editorial-v1",
+      "stem": "research-industrial-service-end",
+      "issue": "구제신청서 또는 소송서류 사본이라는 표현에서 사본이 소송서류에만 붙는 것으로 읽힐 수 있었다.",
+      "content_patch": {
+        "json_pointer_within_content": "/sections/1/items/0/text",
+        "before": "62호 + 구제신청서 또는 소송서류 사본",
+        "after": "62호 신청서에 구제신청서 사본 또는 소송서류 사본을 첨부"
+      },
+      "rendered_lines": [
+        "62호 신청서에 구제신청서 사본",
+        "또는 소송서류 사본을 첨부"
+      ],
+      "layout_changes": "신청 본문을2행으로 나누고 제출·유보 이후 항목을37px 아래로 이동. 왼쪽 신상변동 문구는 내용 변경 없이 67호 명부 정리를 같은 행에 놓아 한 단어만 남던 줄바꿈을 정돈. 본문 글자30px 유지.",
+      "artifacts": [
+        {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-service-end.svg",
+          "before": {
+            "sha256": "f5005d1672865da458cb6dc2cf411fe243c1d0cffa668743b1f63a05e35dec4c",
+            "bytes": 5006
+          },
+          "after": {
+            "sha256": "062b20f1274fbd55075da8fccfcc3fe431ea391fa998863bc5e5572be4668553",
+            "bytes": 5186
+          }
+        },
+        {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-service-end.webp",
+          "before": {
+            "sha256": "b40213b9651da402b27f5e150676311cfed104d18a61ec1c47bbaa4dddde7c7c",
+            "bytes": 40320
+          },
+          "after": {
+            "sha256": "ee005e26a58f130e5ef5fdc7619ccbcf2acef053690758295e5728a8caca2b22",
+            "bytes": 41550
+          }
+        }
+      ],
+      "source_evidence": {
+        "private_source_path": "docs/merged-lectures/병역법/본법_34의5.txt",
+        "script_sha256": "185389966439ba264ef4c8b2869740bc2a626542e5fee178fde0e60f9e862b34",
+        "line_numbers": [
+          91,
+          97,
+          99
+        ]
+      },
+      "validation": {
+        "svg_xml_parse": "pass",
+        "dimensions": [
+          1600,
+          1120
+        ],
+        "inkscape_png_render": "pass",
+        "pillow_lossless_webp": "pass",
+        "png_webp_decoded_pixels_identical": true,
+        "actual_rendered_webp_visually_reviewed": true,
+        "visual_result": "한글 잘림·겹침 없음. 추가 조건·사본 표현이 읽히며 뒤 항목과 구분선 사이 여백 유지."
+      }
+    }
+  ],
+  "scope_controls": {
+    "only_existing_two_svg_and_corresponding_two_webp_modified": true,
+    "new_report_append_only": true,
+    "historical_checkpoints_overwritten": false,
+    "ids_renumbered": false,
+    "manifest_changed_by_this_agent": false,
+    "editorial_content_changed_by_this_agent": false,
+    "queue_changed_by_this_agent": false,
+    "promoted": false,
+    "full_lecture_production_completion_claimed": false
+  },
+  "historical_evidence_note": "checkpoint-12.json과 checkpoint-13-visual-review.json은 과거 기록으로 보존했다. 향후 승격 때에는 이 보고서의 content_patch를 적용한 내용을 사용해야 과거 문구가 되돌아오지 않는다.",
+  "renderer_note": "Inkscape는 종료코드0으로 PNG를 생성했다. PangoFT2FontMap/GtkRecentManager 초기화 경고는 있었으나 실제 한글 렌더링 및 무손실 픽셀 비교를 확인했다."
+}

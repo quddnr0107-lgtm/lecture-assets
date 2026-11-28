@@ -26,12 +26,12 @@
         "svg": {
           "path": "military-service-act/lesson-010/diagrams/MS-010-D01-editorial-v1.svg",
           "bytes": 5353,
-          "sha256": "e918580289d3ac76742262a9c960d1db7442888ac64943d31ec0e03fe7ab81a8"
+          "sha256": "4023b227c0c6a5e550d5653da414d0fca8b93d1e5885d6e3560131613134c4d3"
         },
         "webp": {
           "path": "military-service-act/lesson-010/diagrams/MS-010-D01-editorial-v1.webp",
-          "bytes": 30896,
-          "sha256": "30cd84afa69baca1c7a27bd7e6b35489d43d39018a7986a701225551e2eac4ca"
+          "bytes": 29470,
+          "sha256": "fd8eebe577f2ee4f40fd14c107c64df17b05dd87c3a8ac5f147f851e8285a914"
         }
       },
       "content": {
@@ -94,8 +94,11 @@
       },
       "script_alignment": {
         "status": "verified",
-        "scope": "full_script_coverage_review",
-        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-010/008-publication-review.json",
+        "scope": "published_diagram_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-001-055.json",
+        "reviewed_date_kst": "2026-11-28",
+        "full_script_coverage_certified_by_this_claim_review": false,
+        "prior_audit": "military-service-act/production-evidence/exam80-generation-2/MS-010/008-publication-review.json",
         "source_line_spans": [
           [
             15,
@@ -208,8 +211,11 @@
       },
       "script_alignment": {
         "status": "verified",
-        "scope": "script_supplement_claims_only",
-        "audit": "military-service-act/production-evidence/exam80-generation-2/MS-010/008-publication-review.json",
+        "scope": "published_diagram_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-001-055.json",
+        "reviewed_date_kst": "2026-11-28",
+        "full_script_coverage_certified_by_this_claim_review": false,
+        "prior_audit": "military-service-act/production-evidence/exam80-generation-2/MS-010/008-publication-review.json",
         "source_line_spans": [
           [
             15,
@@ -240,6 +246,9 @@
     "verified_existing_pages": 1,
     "pending_existing_pages": 0,
     "complete_script_coverage": "verified",
-    "published_supplement_pages": 1
+    "published_supplement_pages": 1,
+    "published_diagram_claims_verified_pages": 2,
+    "full_lecture_complete": true,
+    "latest_claim_review": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-001-055.json"
   }
 }

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "date_kst": "2026-11-28",
+  "status": "local_integrated_verification_passed",
+  "asset_baseline_commit": "6de9fbddf5e94a97e2a343c692a1fa333adaae34",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "checks": {
+    "source_files_hash_verified": 166,
+    "published_pages": 316,
+    "published_asset_files": 632,
+    "editorial_concepts": 292,
+    "body_items_plus_takeaways_reviewed": 1423,
+    "titles_subtitles_headings_labels_also_reviewed": true,
+    "official_content_pages_corrected": 11,
+    "printed_counters_corrected": 12,
+    "official_pages_rerendered": 22,
+    "all_lesson_manifests_match_global": true,
+    "all_asset_hashes_and_bytes_match": true,
+    "svg_canvas": [
+      1600,
+      1120
+    ],
+    "all_webp_dimensions": [
+      1600,
+      1120
+    ],
+    "all_webp_lossless": true,
+    "final_text_runs_measured": 7787,
+    "final_geometry_or_metadata_findings": 0,
+    "all316_baseline_svg_raster_exact": true,
+    "changed22_svg_raster_exact": true,
+    "official_minimum_body_font_px": 30.0,
+    "active_drafts_reviewed": 17,
+    "active_draft_content_corrections": 4,
+    "active_draft_visual_only_corrections": 1,
+    "formal_promotions": 0,
+    "full_script_coverage_completed_lectures": 19,
+    "full_script_coverage_pending_lectures": 147,
+    "new_full_script_coverage_completions_from_this_audit": 0
+  },
+  "current_diagrams_manifest_sha256": "421e50eed2859c7ffb44618f7173078e4e678002e96c5f774aef7bd99316d1f6",
+  "current_editorial_content_sha256": "f599b6d887990aa9c2e8f2caf4e1eb031168c76a9b6ad2f6d29af80191a80e93",
+  "evidence_refs": [
+    "source-identity.json",
+    "content-001-055.json",
+    "content-056-110.json",
+    "content-111-166.json",
+    "content-postfix-review.json",
+    "current-visual-integrity-report.json",
+    "visual-postfix-summary.json",
+    "active-drafts-current.json"
+  ],
+  "remaining_work": [
+    "147강의 전체 원고 범위·누락 주제에 대한 제작 검토",
+    "미승격 초안17장의 후속 제작 통합;109D09는 원고 적용범위 모호성 해소 필요"
+  ],
+  "scope_limit": "All currently published diagram assertions and assets reviewed. This is not a certificate that every source-script topic is diagrammed."
+}

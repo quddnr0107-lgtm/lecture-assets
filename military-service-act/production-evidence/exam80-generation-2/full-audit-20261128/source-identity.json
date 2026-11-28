@@ -1,0 +1,1340 @@
+{
+  "schema_version": 1,
+  "date_kst": "2026-11-28",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_count": 166,
+  "total_bytes": 3836874,
+  "all_hashes_match": true,
+  "index_sha256": "2dedea6f4e7f5c8e5937f48b637c004ad4beefbe8e8809e2bcec7b6a4b79a64e",
+  "sources": [
+    {
+      "lecture_id": "MS-001",
+      "path": "docs/merged-lectures/병역법/본법_1.txt",
+      "bytes": 11705,
+      "sha256": "b0a9854bbbd5d56857af90d29a67aed4f5de8604d4e03f0e8b9039a6a9504d46",
+      "git_blob_sha": "f28ae8d03a454f402157d3040628a872bcc969d7",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-002",
+      "path": "docs/merged-lectures/병역법/본법_2.txt",
+      "bytes": 38501,
+      "sha256": "72fbefe70e72ad27158bc76985cd49edd881d9f0164aa353b046c50bfeab9871",
+      "git_blob_sha": "0fdec4ec6d063fae8891365b6bd3c8566c609f0d",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-003",
+      "path": "docs/merged-lectures/병역법/본법_3.txt",
+      "bytes": 19827,
+      "sha256": "d395fe175822cf561af23d26db2cfdd6f65e7a15895c9e64121e77c9ca86515a",
+      "git_blob_sha": "ba913acb0d18fe5258942504ea5aba1f6625b0f3",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-004",
+      "path": "docs/merged-lectures/병역법/본법_4.txt",
+      "bytes": 13286,
+      "sha256": "358b2eb93b68b919c6a475ab9923de959b182a9dacbf5414fdaac3cb50ff0049",
+      "git_blob_sha": "1c31dd87c4575669197f3d3583a82677ebbe5702",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-005",
+      "path": "docs/merged-lectures/병역법/본법_5.txt",
+      "bytes": 31660,
+      "sha256": "cab2ca88762cb451e6ae7b74cdf2202d6adff83f18f600255cdb168999f71fad",
+      "git_blob_sha": "ed87b5e86c13d74ba57b9f9f5f5674f8ccceec89",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-006",
+      "path": "docs/merged-lectures/병역법/본법_5의2.txt",
+      "bytes": 20656,
+      "sha256": "79ac86f1dab9a7e4e057565ea63bde6afce61ef4a8fa6f93b7d0794d283d9375",
+      "git_blob_sha": "83d299ff131f858a9f85e45b5c69f7c65b997e3a",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-007",
+      "path": "docs/merged-lectures/병역법/본법_6.txt",
+      "bytes": 42008,
+      "sha256": "5112b019278bcaf233d2e036c9fa2a1863d2a4f9dc4a20f6ec965adf9a6f4f1d",
+      "git_blob_sha": "b5017194dda15d1a53f48df8edba0cbbf52cfa98",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-008",
+      "path": "docs/merged-lectures/병역법/본법_6의2.txt",
+      "bytes": 27995,
+      "sha256": "29448a62888e7905cd1d3fae53efee821b68bdd42344be7675678cbcd687a260",
+      "git_blob_sha": "737fd77a974cd467125992a043d04bba9cb4d1bd",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-009",
+      "path": "docs/merged-lectures/병역법/본법_7.txt",
+      "bytes": 29849,
+      "sha256": "3b080d47e686febe726e7ea258706ebbcbc42fe8226e80fd68b78d0cc20ae4c5",
+      "git_blob_sha": "e5fdfd96f47b76ffedc2108341470bd5db396ca4",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-010",
+      "path": "docs/merged-lectures/병역법/본법_8.txt",
+      "bytes": 9500,
+      "sha256": "b4c50eae8c3950494b1c9b7fab06d89fe65673f0e7ba99eafb177b1e2453a040",
+      "git_blob_sha": "3212a7c3a553fd2344d7598ed127a3865932bca0",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-011",
+      "path": "docs/merged-lectures/병역법/본법_9.txt",
+      "bytes": 28837,
+      "sha256": "f05ac8cfe35b204795eac151d33d506f80719404e5234367d891bec4d703bc20",
+      "git_blob_sha": "9b15183b0051919e13aa90d6d2b02f8449afe458",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-012",
+      "path": "docs/merged-lectures/병역법/본법_10.txt",
+      "bytes": 20474,
+      "sha256": "c0d07ccc51575a07f6c569a5aa1ddca98a3ac6dacf6a10a5552b26f23fc58f5e",
+      "git_blob_sha": "7ed3d9477e90f8aac2597c6b8442e9a5bc875511",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-013",
+      "path": "docs/merged-lectures/병역법/본법_11.txt",
+      "bytes": 40890,
+      "sha256": "52aafa003aa1f735ef70e73d19ab2f1ec0405c4302ff10843fdeee8979aa9c61",
+      "git_blob_sha": "5aeb01121b481c49e4fa6a0ca724339a14a8d3c7",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-014",
+      "path": "docs/merged-lectures/병역법/본법_11의2.txt",
+      "bytes": 12762,
+      "sha256": "b7f929fe17a585a99ef9ff117af64a82833d4ce70ae1c37f04f4ca82a176a7ad",
+      "git_blob_sha": "49906f083cdf92e629a90f605941d497156b1946",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-015",
+      "path": "docs/merged-lectures/병역법/본법_12.txt",
+      "bytes": 24193,
+      "sha256": "f4d29a32782b0ed44cba32c058c805f6be192d4c123d5163e13e8c1dee2d034d",
+      "git_blob_sha": "0f5a2bebe29a372de5b394e5aeeea2dbe10363df",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-016",
+      "path": "docs/merged-lectures/병역법/본법_12의2.txt",
+      "bytes": 10873,
+      "sha256": "206a84fefa9a3642051a973e78aee7ce3ef2f05095c4a0ce70b037ea8a553b3c",
+      "git_blob_sha": "2d6863fb3a18b11f6c463dd5974d012d466298f9",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-017",
+      "path": "docs/merged-lectures/병역법/본법_13.txt",
+      "bytes": 19033,
+      "sha256": "b5a761f432d21f93c1d6ee55c3a83c85526a18b90744f3f9841791c7561f5682",
+      "git_blob_sha": "322b958e86a3aaf24376ec0053f03adccc06350e",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-018",
+      "path": "docs/merged-lectures/병역법/본법_13의2.txt",
+      "bytes": 12324,
+      "sha256": "7e5e0be8836bc0364811ee75f354ac5b38860fa856f3afc5fb9381ff22608fce",
+      "git_blob_sha": "99cc801483637047e65cd08b97ef09806935d990",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-019",
+      "path": "docs/merged-lectures/병역법/본법_14.txt",
+      "bytes": 35801,
+      "sha256": "d8dd3def2e3d1d836f21b0602fcce953ab62a1cfd8f9ecd0c731d3f0ba604174",
+      "git_blob_sha": "da2c3a6ff2332bc18447c3ccbee22c1d7db824cc",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-020",
+      "path": "docs/merged-lectures/병역법/본법_14의2.txt",
+      "bytes": 22683,
+      "sha256": "9cbd043938edcd3ed8f87742bec597030cddf380fc4a95481e09382d7aa56bb7",
+      "git_blob_sha": "4baa8183d009be70daa17fc810e3556125a0235f",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-021",
+      "path": "docs/merged-lectures/병역법/본법_14의3.txt",
+      "bytes": 44509,
+      "sha256": "2e6dff306b8181eb1e73ebea7329a82e8869747975a01edfcfaf1d16539fb2b6",
+      "git_blob_sha": "ccfe1749b445542263b0260ba648328521c9c69f",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-022",
+      "path": "docs/merged-lectures/병역법/본법_15.txt",
+      "bytes": 17646,
+      "sha256": "39a2a94f533eb90d60620a8661f405f3128cb829e409ad8d7dad628ec6e1841f",
+      "git_blob_sha": "f038e322bdb1929d53e4c8b0053695229294f1dc",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-023",
+      "path": "docs/merged-lectures/병역법/본법_16.txt",
+      "bytes": 42593,
+      "sha256": "4cbf419b9719c7b288141a7e9e2bbe69fcf24bd52348edf7bed79455ebe5f2d3",
+      "git_blob_sha": "6a00ffb73ab967a999a9ad1751a123a6a460bc61",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-024",
+      "path": "docs/merged-lectures/병역법/본법_18.txt",
+      "bytes": 36711,
+      "sha256": "09463f51fbde3eece5a03efc089898783a1785298906b45ce2105db65261dced",
+      "git_blob_sha": "73e00af1e7a32201d8664b856fe4373d3dc00a23",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-025",
+      "path": "docs/merged-lectures/병역법/본법_19.txt",
+      "bytes": 24620,
+      "sha256": "9bfc6a52ed6711414261df00e0e953bff326c5428b4115e77a9e8456a92ff6a8",
+      "git_blob_sha": "4479b8b67bcfa605aa46c36afb2c63f450f3d0cb",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-026",
+      "path": "docs/merged-lectures/병역법/본법_20.txt",
+      "bytes": 26570,
+      "sha256": "0cca6bde8ceb413f20c9339e78eff3a15cd80cee18c1cebe4fbf8ac12619bab6",
+      "git_blob_sha": "7eba97abbb97297bfee415ba03d3d9fbda2ed53b",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-027",
+      "path": "docs/merged-lectures/병역법/본법_20의2.txt",
+      "bytes": 24125,
+      "sha256": "90bd230aa3639730f7b8f7feffbcdaaed5839820918ebb65db815538a2ec1eb0",
+      "git_blob_sha": "9ab10b0fee95d312fe37c0ef50bff24bfbe5ef17",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-028",
+      "path": "docs/merged-lectures/병역법/본법_20의3.txt",
+      "bytes": 24730,
+      "sha256": "c4d4b44a5e9dcea383e38e9298a022f0546c1b06fa960c81f262edac88a14fca",
+      "git_blob_sha": "d515976c2fcbfa46d22a0ede1e74cf701e85b894",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-029",
+      "path": "docs/merged-lectures/병역법/본법_20의4.txt",
+      "bytes": 12283,
+      "sha256": "d377d3066ca19c980b7ef5ba670d02d3f9a106b28bfce9ece337b8b1c37e9f0f",
+      "git_blob_sha": "3fcf124978b2e10e357fa370b7cb8341ab010a4a",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-030",
+      "path": "docs/merged-lectures/병역법/본법_21.txt",
+      "bytes": 26406,
+      "sha256": "97823831ca5d1771c884d517b66d2d88a29ebbc258b44912e16993a0e11b04ce",
+      "git_blob_sha": "8c0b035fd7e04003777f5047ee9dcbb11969da70",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-031",
+      "path": "docs/merged-lectures/병역법/본법_21의2.txt",
+      "bytes": 29886,
+      "sha256": "76c8131e012ee43c970c4352310f5c77df460084288b4eaac2fe8ee1864d7b3f",
+      "git_blob_sha": "f3a8c13e325bff00fbafc691da39550fbee27152",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-032",
+      "path": "docs/merged-lectures/병역법/본법_22.txt",
+      "bytes": 24199,
+      "sha256": "aa9757bfc117803a2f516ad562ecd1b0064ed2377956133080dc90e6cc5838ac",
+      "git_blob_sha": "dad1d50083dc78b06c760dc751d263d8a080fa56",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-033",
+      "path": "docs/merged-lectures/병역법/본법_23.txt",
+      "bytes": 38960,
+      "sha256": "fc1c1b080e0181b608c95854f21daea22f0036cc8147cfa4259337244f78bf7d",
+      "git_blob_sha": "3a9888558c118c459f7159da196abe17740b64c9",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-034",
+      "path": "docs/merged-lectures/병역법/본법_23의2.txt",
+      "bytes": 27039,
+      "sha256": "0eb9d0d9e741ae4328d12e1cd627e101da103ae1302601a82574a3d8f0d2a769",
+      "git_blob_sha": "a04aa67932faf62c330fd878ed173dd40d3f75e2",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-035",
+      "path": "docs/merged-lectures/병역법/본법_23의3.txt",
+      "bytes": 21922,
+      "sha256": "56c26aecedc20ea8d259208df8fb1e1e4812ecc711458057151612ca00ec5f1d",
+      "git_blob_sha": "337da684f459c47bb4401ab68406a6d654c9e9bd",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-036",
+      "path": "docs/merged-lectures/병역법/본법_23의4.txt",
+      "bytes": 20631,
+      "sha256": "56ec54223d21b527cdcc55b831c7bee967146d84f06a645b5cbb2d308ead7f97",
+      "git_blob_sha": "6aa4b5aa3c8d9e6990a35b68298273dbac618a9f",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-037",
+      "path": "docs/merged-lectures/병역법/본법_23의5.txt",
+      "bytes": 24098,
+      "sha256": "32bff698c8795d5a22e690cbc3ac12a76471af7d9e8f6f939e23363dceaad408",
+      "git_blob_sha": "44c4958df2006503855d30849a4f12b9bbb27f3a",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-038",
+      "path": "docs/merged-lectures/병역법/본법_23의6.txt",
+      "bytes": 37553,
+      "sha256": "8ef16b6cd41b6d6dc396d10d6da6ad532950c0a9a44af130d74b0cc0372cdf6a",
+      "git_blob_sha": "2d2954194de115194296705da207a77e06f833e7",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-039",
+      "path": "docs/merged-lectures/병역법/본법_25.txt",
+      "bytes": 35656,
+      "sha256": "5afa462eae4c5e9f52014c4b101e973b876c590b782b55d9f5b113c5e8a50602",
+      "git_blob_sha": "1f03a28a83cf795887115d37e029c27bca79538a",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-040",
+      "path": "docs/merged-lectures/병역법/본법_26.txt",
+      "bytes": 21897,
+      "sha256": "2edbc614635a2a9df6cdacbb0e93f610ea9253615c51ebdc3711afd3e4dad31a",
+      "git_blob_sha": "75845b6102ab170fbb7a6382f08c2c274a3619ed",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-041",
+      "path": "docs/merged-lectures/병역법/본법_27.txt",
+      "bytes": 19548,
+      "sha256": "b35af854a0e2ad3fbaa9f282d0f373ff7fd7ebe81072c7bc513314d8c7aea952",
+      "git_blob_sha": "d9763ef903780e869d9dd5a5b7222555bd95bdbc",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-042",
+      "path": "docs/merged-lectures/병역법/본법_28.txt",
+      "bytes": 17398,
+      "sha256": "950a3470787e5053ca93378910e5a31cb3ebcedf3a2b8a60e918d2c64b2ea632",
+      "git_blob_sha": "c591e0e161c2db14012fba19bddad78fb9abc9c2",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-043",
+      "path": "docs/merged-lectures/병역법/본법_29.txt",
+      "bytes": 25130,
+      "sha256": "5c167f8baa3b36c2e9400d670cdc4e71f2d152aa41e8b7c35b81ff0480f1dfb0",
+      "git_blob_sha": "46d7d38533817602e179f630995c305dda3ed294",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-044",
+      "path": "docs/merged-lectures/병역법/본법_30.txt",
+      "bytes": 29540,
+      "sha256": "505a9cf03981e88e745499378342b6e100db74cb1d3a4fc1d28e001f7cd9c2af",
+      "git_blob_sha": "5f3fa48a8859fbfbed3ad10fda9148e29c049f99",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-045",
+      "path": "docs/merged-lectures/병역법/본법_31.txt",
+      "bytes": 24006,
+      "sha256": "57b49a7bdb675fc8a363fd83d50e72cb95f464f1a59321079437b643491431c2",
+      "git_blob_sha": "1f5644d06c710b987d16c7df7cefd8018d3c6be5",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-046",
+      "path": "docs/merged-lectures/병역법/본법_31의2.txt",
+      "bytes": 17070,
+      "sha256": "1d80a24d7885bec3d4d9bded9fa0a9052fff0b9f5d2f7198d6a785571f043c7b",
+      "git_blob_sha": "e6318ea2c2a21eab930d729f89dacae1f35e498a",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-047",
+      "path": "docs/merged-lectures/병역법/본법_31의3.txt",
+      "bytes": 26494,
+      "sha256": "588320778ce2d1e105d9553531be98b6011f3c0553bd42d5f549815837659838",
+      "git_blob_sha": "ee27f99f20afb04faa7a1c59bc47a163197ce9ea",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-048",
+      "path": "docs/merged-lectures/병역법/본법_31의4.txt",
+      "bytes": 11206,
+      "sha256": "954dc2a03ea1e66bf339e8785ced94c0b4d0330b0a10e7696ce10e0644b905db",
+      "git_blob_sha": "0d100986e35de9f9c8ac82d1866d89e73fd3d179",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-049",
+      "path": "docs/merged-lectures/병역법/본법_31의5.txt",
+      "bytes": 11690,
+      "sha256": "4fb571b90b75443694957838a5d9a63d4d3270c4087f0c58249f4af37130b89e",
+      "git_blob_sha": "ecf37f45d12f623d898d1e7418bde31a4db3350b",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-050",
+      "path": "docs/merged-lectures/병역법/본법_31의6.txt",
+      "bytes": 25601,
+      "sha256": "15eacd8e60d591a0c8de4b9c6752d30af91b7f5a8515def4a575afe6ceac214d",
+      "git_blob_sha": "bc7630348d55c58fe0abd05556057c216b4dc925",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-051",
+      "path": "docs/merged-lectures/병역법/본법_32.txt",
+      "bytes": 30420,
+      "sha256": "cf86d65966ecf6e55704cafedc6da6f8fab7a1fc96092d7d7180f1df336dade7",
+      "git_blob_sha": "50264e2ee57c0237ebe4fb5921ed14ed8d57fb51",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-052",
+      "path": "docs/merged-lectures/병역법/본법_32의2.txt",
+      "bytes": 10711,
+      "sha256": "86bf1608cb33e8db5f9c6c559816c34bb06cd864b0c87528b13c3f13a6a75850",
+      "git_blob_sha": "6c9097d9dfcb7e8ce4cadb35a041aa28d8a737b3",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-053",
+      "path": "docs/merged-lectures/병역법/본법_32의3.txt",
+      "bytes": 21238,
+      "sha256": "77b1026eb1e4c7dd57f53d34607305315d272ce304850c53c5ca76d8bd0c9fe5",
+      "git_blob_sha": "4c116f81a25dabb5812e22f57ab81311252337f8",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-054",
+      "path": "docs/merged-lectures/병역법/본법_33.txt",
+      "bytes": 26886,
+      "sha256": "9506a57b40bc6976ef62e06f409d9167f5fc33a354e01bb0f9b8780960865ee9",
+      "git_blob_sha": "7376455c7c37433488a2b8a01b882c7b14946568",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-055",
+      "path": "docs/merged-lectures/병역법/본법_33의2.txt",
+      "bytes": 29125,
+      "sha256": "c7ada3b3893bca6e1f79eb27212b8aa5a754f6e025e476b6b3f7ef18ffb6b411",
+      "git_blob_sha": "ac9be3d61becb5566f60bf9e49f62c06a04b3c27",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-056",
+      "path": "docs/merged-lectures/병역법/본법_33의7.txt",
+      "bytes": 33209,
+      "sha256": "b3add353b131794a04344b8dda349b7de588bd013841406027d42a6ff63f341d",
+      "git_blob_sha": "4e366436caf9df43f427adc749315531050b6eff",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-057",
+      "path": "docs/merged-lectures/병역법/본법_33의8.txt",
+      "bytes": 28924,
+      "sha256": "d07cbb1a5412e9d3918a2e3465cea33515d222b1a4d604403128068aedae69c7",
+      "git_blob_sha": "7459f0e92bdfd88479d7ff43075bc0ee9fc6a192",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-058",
+      "path": "docs/merged-lectures/병역법/본법_33의9.txt",
+      "bytes": 16588,
+      "sha256": "f1ff5656c6061db61b0c7500c7b5eca10f3c14b14025e942e1a48b76e69191dd",
+      "git_blob_sha": "da76b55868277dc3931fdb6a5779a75248c022a7",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-059",
+      "path": "docs/merged-lectures/병역법/본법_33의10.txt",
+      "bytes": 31963,
+      "sha256": "ae5d49ccda3671415bf1bbb2798c03cfe72781db5f4f516dc8292a24d4beffd8",
+      "git_blob_sha": "73062b9d14a57f01bb3ef2ceec687b7005bb1262",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-060",
+      "path": "docs/merged-lectures/병역법/본법_33의11.txt",
+      "bytes": 18494,
+      "sha256": "ca92dae8095e2ae8e90b678c7791b64a3ecc3712014426db82e5a3629228390f",
+      "git_blob_sha": "a1f2551a024e8cde875532d5e31ad904abcbf9ac",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-061",
+      "path": "docs/merged-lectures/병역법/본법_34.txt",
+      "bytes": 34987,
+      "sha256": "82e2d68e42cf0dd3d653fc4bc2e4c626257dc928b98941408403a0cd11c88ce6",
+      "git_blob_sha": "7a53bd1db2181e6c021f6eb9beaecb426438cb41",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-062",
+      "path": "docs/merged-lectures/병역법/본법_34의2.txt",
+      "bytes": 31542,
+      "sha256": "16fd5ce571e9460316c12ead10de65187be19cd91772df33f506ddb927f3b38d",
+      "git_blob_sha": "6c7df7e2292625dbe32b0b75cc2da9b61139bdab",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-063",
+      "path": "docs/merged-lectures/병역법/본법_34의3.txt",
+      "bytes": 18696,
+      "sha256": "788dd630ab6966d22a251cd9c732f27d6c2d19f56cce17be71e9e1911f7f66dd",
+      "git_blob_sha": "d1f474dc46cecdc36d1f394eb37d75f3477628c4",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-064",
+      "path": "docs/merged-lectures/병역법/본법_34의4.txt",
+      "bytes": 21687,
+      "sha256": "60d5b5733e3fa3f8d246a49e9d2d25737e502eca89f62d789e77d6b37e07df60",
+      "git_blob_sha": "ff87307c2e70789b0bc6e02752a491f9e5db7b92",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-065",
+      "path": "docs/merged-lectures/병역법/본법_34의5.txt",
+      "bytes": 18908,
+      "sha256": "185389966439ba264ef4c8b2869740bc2a626542e5fee178fde0e60f9e862b34",
+      "git_blob_sha": "74c8bb42ce2c144513f61ff341683c2c94c9fc98",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-066",
+      "path": "docs/merged-lectures/병역법/본법_34의6.txt",
+      "bytes": 19551,
+      "sha256": "3521a61f59003f08632a8346c2c0989c0904e309e4a3016f5565d96fbab6f791",
+      "git_blob_sha": "20c2878425ec7aa0fe718b5b717384d6e954b463",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-067",
+      "path": "docs/merged-lectures/병역법/본법_34의7.txt",
+      "bytes": 18258,
+      "sha256": "40c4d0390926c3ffe355f0792d1e69422bbedddf49bcb181db28038e3fc6e25d",
+      "git_blob_sha": "3120ab96a2711aff69c7b23097bf864f3052e677",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-068",
+      "path": "docs/merged-lectures/병역법/본법_35.txt",
+      "bytes": 26453,
+      "sha256": "ea372ba19c86977a4477be7583311382c455946aefb80a54ee9dcce0f976fad3",
+      "git_blob_sha": "a0be802c814c6351d8aa089a403da9e3b06342a6",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-069",
+      "path": "docs/merged-lectures/병역법/본법_35의2.txt",
+      "bytes": 15619,
+      "sha256": "18da27eccebdc844280675a436e6561875546a54a44b2ccbef926e1e35ec78d2",
+      "git_blob_sha": "88c087d883835050bd1c96d123dd70f5fe72331c",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-070",
+      "path": "docs/merged-lectures/병역법/본법_35의3.txt",
+      "bytes": 19818,
+      "sha256": "6c4915c4bbca884d8796b973293c4e81952d51e661cadb02f0e9491cc3aa4769",
+      "git_blob_sha": "43e9eb1176be5b2c9d70fdc9c65e23d538da854e",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-071",
+      "path": "docs/merged-lectures/병역법/본법_36.txt",
+      "bytes": 27619,
+      "sha256": "a595ab8cbbc95e8fd15fd2bee032dfd569000bb8f946b0f4b7be523af64e113b",
+      "git_blob_sha": "a2d98068e1933085cd0316e021ac6050fc259a23",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-072",
+      "path": "docs/merged-lectures/병역법/본법_37.txt",
+      "bytes": 36592,
+      "sha256": "24fb79427148582cdb53f9de5d6581cb2eee4a40b9f1d62a06d19873ab850aef",
+      "git_blob_sha": "7322978cca28e94bf48a7d065ee718429a1471fe",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-073",
+      "path": "docs/merged-lectures/병역법/본법_38.txt",
+      "bytes": 30531,
+      "sha256": "5359c7cf79f9508cc46f6505cdfda0c14c2ed3eb6c389ec882d51d58856b34af",
+      "git_blob_sha": "33bdc46af797aaba83a92880c5860ba3db440134",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-074",
+      "path": "docs/merged-lectures/병역법/본법_38의2.txt",
+      "bytes": 17628,
+      "sha256": "77394c510fdb8fb179126686dba12a2723f5f712cf271a7b1cbd49e3a4fb9487",
+      "git_blob_sha": "e187923b26cdc05658b78401420201ec92ff3c9b",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-075",
+      "path": "docs/merged-lectures/병역법/본법_39.txt",
+      "bytes": 35590,
+      "sha256": "5bcb6e15a463b13e777a9d2888da8838d5a9ca642d8b49b1a2188de9aa915ff4",
+      "git_blob_sha": "6aba620782a87a7ae65b4f1b7e54cc899faeb1f4",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-076",
+      "path": "docs/merged-lectures/병역법/본법_40.txt",
+      "bytes": 17818,
+      "sha256": "d7a9db14c0a751384a9992f47f0d9cc70fd3a234a75a610ad9676a7bd1a6286b",
+      "git_blob_sha": "73c49441f9de7965f2b5438982ca097e8eea4b73",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-077",
+      "path": "docs/merged-lectures/병역법/본법_41.txt",
+      "bytes": 34537,
+      "sha256": "617f85b91800f4b7aeea48c0936bc53de869541452b338670e3b9bd527f63f1e",
+      "git_blob_sha": "222f01f2db5c9f827b2b689505d249f5e76973b2",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-078",
+      "path": "docs/merged-lectures/병역법/본법_42.txt",
+      "bytes": 20367,
+      "sha256": "6190017ec27edb499b5feb5ef9a03483a2aa521398e8bb3962c06630deaa202b",
+      "git_blob_sha": "4a8daf1a94a4f42b16f0915b364ae06c6b766f08",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-079",
+      "path": "docs/merged-lectures/병역법/본법_43.txt",
+      "bytes": 24248,
+      "sha256": "f3b4d3be22b4c87862fef5cefb31bbaa79f7928a287ca7b567fffb1cf324424d",
+      "git_blob_sha": "7f1a4d3d286f1ba53058ffc9eb5ea99089cb6359",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-080",
+      "path": "docs/merged-lectures/병역법/본법_44.txt",
+      "bytes": 24281,
+      "sha256": "73fcf3e94c45b028614ce08521df438aef902170ada5e9bfa9d4f428dab0c03d",
+      "git_blob_sha": "1d028373e8b132af5f3f4594a932ad894d0a4965",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-081",
+      "path": "docs/merged-lectures/병역법/본법_45.txt",
+      "bytes": 24720,
+      "sha256": "406429eb3aa395c56689a077197e1f7a0ad6d020c6e3bc68b2f3adf26d9814ad",
+      "git_blob_sha": "cbed407503724c7dc0e4bc67d163edf011fde41b",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-082",
+      "path": "docs/merged-lectures/병역법/본법_46.txt",
+      "bytes": 24088,
+      "sha256": "1ce127120a9bd4192e18e7545cbab02e26541d3a586f0f667911231fdc35247b",
+      "git_blob_sha": "7294d1d848f5fcadec7da9b3ecae9a4fca1d4988",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-083",
+      "path": "docs/merged-lectures/병역법/본법_47.txt",
+      "bytes": 20817,
+      "sha256": "d5b7004f96d04be467c72c728cfb46c724ba0f64815895a69ec8d2e59a3239fc",
+      "git_blob_sha": "8d39129fc554b3a68222ab0167ad898517fd420f",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-084",
+      "path": "docs/merged-lectures/병역법/본법_48.txt",
+      "bytes": 31540,
+      "sha256": "930efa06ea07e7fc52843088230a8a213e23659f8b7ad9aff02828beb4fd4ae0",
+      "git_blob_sha": "ff0e3a168ec91f7c85f3c038949ca09188819445",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-085",
+      "path": "docs/merged-lectures/병역법/본법_49.txt",
+      "bytes": 21672,
+      "sha256": "bca7718484cee599736aa1c1524cbd95e7ef3b587d792e1422728c123f8929a7",
+      "git_blob_sha": "15c12400718f1229f90800dee34b2b6e45bef314",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-086",
+      "path": "docs/merged-lectures/병역법/본법_50.txt",
+      "bytes": 26431,
+      "sha256": "1a7829ca2a12d014a2549a6cc592bf5cb7bf0ba89fe4dff6cf89219d34f4a19a",
+      "git_blob_sha": "c82b9c3e4132fee9a1dcdf65def36dc6c07f636c",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-087",
+      "path": "docs/merged-lectures/병역법/본법_51.txt",
+      "bytes": 16474,
+      "sha256": "3959a15f64b01adddde35ebbdd49e31b99fead8fa282318736a447dae6f9f8b4",
+      "git_blob_sha": "78489bf8e22f92a7457160061f9f47ca660f733b",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-088",
+      "path": "docs/merged-lectures/병역법/본법_52.txt",
+      "bytes": 19064,
+      "sha256": "678f75ff3a66b858bf32c81a34384fd6104e2acf0c5ac682e09df59c1e7785f4",
+      "git_blob_sha": "593f65425a8ca7f8d58d83e510b6f1ea2960c02e",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-089",
+      "path": "docs/merged-lectures/병역법/본법_53.txt",
+      "bytes": 22176,
+      "sha256": "7d02c6ed1c6708c4019e929a7c5dca545f3c9e01930949755412a68e0b7f5513",
+      "git_blob_sha": "de5d74caae933186123cb66c5172f1726c02daf3",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-090",
+      "path": "docs/merged-lectures/병역법/본법_54.txt",
+      "bytes": 20127,
+      "sha256": "e66e87969438d1f077ca986d2613918023996aab5b6322b0fdcc859806e8c218",
+      "git_blob_sha": "e589161de701b98de12ddc9e0711e2750d0d593f",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-091",
+      "path": "docs/merged-lectures/병역법/본법_55.txt",
+      "bytes": 54886,
+      "sha256": "897130a437dcbfc0cccf4adebad81a28ef85607cf36898cd3c589a5b5ba81de8",
+      "git_blob_sha": "f1c66934bde36004befb0712caedaa3d32e39cb7",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-092",
+      "path": "docs/merged-lectures/병역법/본법_56.txt",
+      "bytes": 14577,
+      "sha256": "77bd3003abbf9412d0fa6cedfa8a43876015ca1bf7f256c37d56f9c5c0b9c9e3",
+      "git_blob_sha": "c63e71626edefbb4ef31fd1644f307aa5da72c9b",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-093",
+      "path": "docs/merged-lectures/병역법/본법_57.txt",
+      "bytes": 27755,
+      "sha256": "7d4a1da18ed2979924ed753166e676f8378820d401264883cfe9a515bcf0b79c",
+      "git_blob_sha": "9e4620e5bd80ed3688b165a52a6adbea9327190f",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-094",
+      "path": "docs/merged-lectures/병역법/본법_58.txt",
+      "bytes": 49822,
+      "sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+      "git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-095",
+      "path": "docs/merged-lectures/병역법/본법_59.txt",
+      "bytes": 23799,
+      "sha256": "f38de329393c412c8aa69d342a70fb237d181c446fd8776bb2a93516e1cb4849",
+      "git_blob_sha": "ee5f7a9c576541e385942405f14959d7bdadff60",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-096",
+      "path": "docs/merged-lectures/병역법/본법_60.txt",
+      "bytes": 43672,
+      "sha256": "b291f0d577e280ea334c62d0376f3bc6bc26cf4ea365536871e9a752fe6c4cab",
+      "git_blob_sha": "8a3cef578649ff7a91077f6d66c28b610dfd07a3",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-097",
+      "path": "docs/merged-lectures/병역법/본법_61.txt",
+      "bytes": 22411,
+      "sha256": "6f8f041d967cc67e791867bacd2c5586932eb6dd6214bfc237185978a0ddb352",
+      "git_blob_sha": "52b9a3695038b296fb4f61ba63de6b2f3470112c",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-098",
+      "path": "docs/merged-lectures/병역법/본법_62.txt",
+      "bytes": 49274,
+      "sha256": "ff7305452ba20b217a67b1f4669bb997c6b4b7f25451688e5f5b7d9da8fb9b59",
+      "git_blob_sha": "afc68d2d511c45e4c4053b642306747c8678dc93",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-099",
+      "path": "docs/merged-lectures/병역법/본법_63.txt",
+      "bytes": 27163,
+      "sha256": "217bcdccdd49eea360a71f6e251a414bc8a1d0beae7b87c42114ac3ee147f527",
+      "git_blob_sha": "e03b1a70f9b29cf7999beb5cc7e23003de394250",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-100",
+      "path": "docs/merged-lectures/병역법/본법_63의2.txt",
+      "bytes": 12945,
+      "sha256": "54bf8b86eaab6514a0026ad841fce41a76203f3ea9d03bab05d15a7c038f768c",
+      "git_blob_sha": "82a1eeadb3219091efbc40dfed1eee4fb48c1257",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-101",
+      "path": "docs/merged-lectures/병역법/본법_64.txt",
+      "bytes": 26688,
+      "sha256": "122927913117b74da869d51328ef34f2d6a126bfbd7db0bf196f38c938f9eb67",
+      "git_blob_sha": "a35c5c9c0170a1daa2f5aeb71ea369bf5da120f6",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-102",
+      "path": "docs/merged-lectures/병역법/본법_65.txt",
+      "bytes": 64182,
+      "sha256": "ba4c9f932c6bc5c08b25c9974b912d4d2dfbdaa6735f3d777bfdf01390b425d1",
+      "git_blob_sha": "c8c0955119706a230272c3420d3f809166bf5d4a",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-103",
+      "path": "docs/merged-lectures/병역법/본법_65의2.txt",
+      "bytes": 35225,
+      "sha256": "ec2541dd9325410fed03f3657b52d0d1fe524c554419b7236924d76b4bc40fae",
+      "git_blob_sha": "883be35e67a7dee807762cab50008bd392068c9b",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-104",
+      "path": "docs/merged-lectures/병역법/본법_66.txt",
+      "bytes": 32108,
+      "sha256": "e0cbc0ceaefc822d39b5deab9a90c7be05ebc4900ea84cb95ab44edd2c8b0370",
+      "git_blob_sha": "d1b2b75bfa5fd8dcf0c91cf3d601748bc28bdd00",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-105",
+      "path": "docs/merged-lectures/병역법/본법_67.txt",
+      "bytes": 20376,
+      "sha256": "69b422350b4b15b346598e75ac3e4dc29710de84a75df5d96d429b65ac5d62fa",
+      "git_blob_sha": "d64070ddf00e47836613cb009e52497e62b0c65c",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-106",
+      "path": "docs/merged-lectures/병역법/본법_68.txt",
+      "bytes": 17341,
+      "sha256": "dc9c359e311643827698310509fcea2488198e3a31663b39e9d37aa617da6c92",
+      "git_blob_sha": "512051f346077405571bc80d7acdfe30cb14313c",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-107",
+      "path": "docs/merged-lectures/병역법/본법_69.txt",
+      "bytes": 16673,
+      "sha256": "10feeab19898f96d3ff0d902588e39ffb22a8f032aee4db6e7c96c7f1e790687",
+      "git_blob_sha": "cc576105b8927289e41edfb09cfa53b9bcd4769d",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-108",
+      "path": "docs/merged-lectures/병역법/본법_69의2.txt",
+      "bytes": 18218,
+      "sha256": "2a38bdcd6f829dab77c064e0021a31d456accc0ba0efb89b14cb00405222d5f5",
+      "git_blob_sha": "85b83060d121991e30b00928df236c342cce22d9",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-109",
+      "path": "docs/merged-lectures/병역법/본법_70.txt",
+      "bytes": 39903,
+      "sha256": "cef65091efcc97d0698da1fd1213af04b41917c7805d640048e9e955dd3e3ac9",
+      "git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-110",
+      "path": "docs/merged-lectures/병역법/본법_71.txt",
+      "bytes": 30162,
+      "sha256": "934059be018a7fd65ca396fdfabbd5c9b190ab21788599359a58c63a7b1fd41c",
+      "git_blob_sha": "af7f175002480e3bfb9d2b5969cd93e60eab4e52",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-111",
+      "path": "docs/merged-lectures/병역법/본법_72.txt",
+      "bytes": 14890,
+      "sha256": "1e6f0f1e874a2e9729e08e50ab451ac635e9acdb62ca12163f967c91c50924ed",
+      "git_blob_sha": "bcf483b18b7dfe709396f1922fb32b1d0f4d3d9c",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-112",
+      "path": "docs/merged-lectures/병역법/본법_73.txt",
+      "bytes": 23180,
+      "sha256": "b9067bf57c921d59319398bd1bcb3282a6dfc1e94328cdd662634f0b5a44f9b3",
+      "git_blob_sha": "930b644b028457ba505813330592529a2fe93313",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-113",
+      "path": "docs/merged-lectures/병역법/본법_74.txt",
+      "bytes": 25260,
+      "sha256": "4c52c49fbc7d74baa4fd90459de191a6a55aa839ef19cdb939e3795fc62ee898",
+      "git_blob_sha": "d8b46cd3ef001536a6eb7b850eb4e8eb2bb02131",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-114",
+      "path": "docs/merged-lectures/병역법/본법_74의2.txt",
+      "bytes": 15410,
+      "sha256": "dc380e034bd8bae0897dace405fd15c075a7d88acadbbcb312bef2e29552c8f2",
+      "git_blob_sha": "529730a8934031994b89d980a727bcb11f97c574",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-115",
+      "path": "docs/merged-lectures/병역법/본법_74의3.txt",
+      "bytes": 19671,
+      "sha256": "1efefe6d8ee23c5944a1396ff0ecb109076a7cedbdb0909211263ecf1b78b537",
+      "git_blob_sha": "c05dcd4fd6d942f69fff08677ce93aef0722b15c",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-116",
+      "path": "docs/merged-lectures/병역법/본법_74의4.txt",
+      "bytes": 13958,
+      "sha256": "529b7065eeb66bbcaa583fe0444c218aa3b82d51e7254cf5a046b26e16ef0d6c",
+      "git_blob_sha": "e2ea83535b7474f52dfb5b202d166bcbe4d034af",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-117",
+      "path": "docs/merged-lectures/병역법/본법_74의5.txt",
+      "bytes": 10864,
+      "sha256": "7c3bc53c689e04a65bf4fc7fb0bd053b2cb3805f7260963923d6425dd64a52c0",
+      "git_blob_sha": "5d781d1a08a60f8d47fe9d2aa2df5fcae4f8380e",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-118",
+      "path": "docs/merged-lectures/병역법/본법_74의6.txt",
+      "bytes": 14612,
+      "sha256": "4cbef0f822906492aad26ab8f9df16649d054a3fec41074a8192a27c384b20fd",
+      "git_blob_sha": "63f565353cff30b4c573c1b652390ef05793d641",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-119",
+      "path": "docs/merged-lectures/병역법/본법_75.txt",
+      "bytes": 37355,
+      "sha256": "e5b76d98c3d33678716dfd49de735aee7a242550fbe44a5782be46a292427d89",
+      "git_blob_sha": "8ebf5727e9f647c00a15c0b82b01f70d1a79c08e",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-120",
+      "path": "docs/merged-lectures/병역법/본법_75의2.txt",
+      "bytes": 23757,
+      "sha256": "f627e258dc5fac1a68cce0062d30f7afc283bcc149c9a17b122d940e67c7a8fc",
+      "git_blob_sha": "1bb768c08a74700b38561263d03cc6f165e62a49",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-121",
+      "path": "docs/merged-lectures/병역법/본법_75의3.txt",
+      "bytes": 18992,
+      "sha256": "3d26c395be0e88fc604731b578e7c20f7ef38ee81b6a25a980edb7b4695a386d",
+      "git_blob_sha": "9aab5801a48e04ec3e29ca77a2fcf10b2222dee7",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-122",
+      "path": "docs/merged-lectures/병역법/본법_76.txt",
+      "bytes": 21985,
+      "sha256": "e636c8ab752bd0866f33254b40552091af657b57322794b1c3650c7583134a4d",
+      "git_blob_sha": "cdc573cb94ee4e8cf5a5a868b49a849a2fc12251",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-123",
+      "path": "docs/merged-lectures/병역법/본법_77.txt",
+      "bytes": 13899,
+      "sha256": "40d8a24c7af48b17c8d1e560b49c2db1e155405c2b4004550c2918ca642af3f4",
+      "git_blob_sha": "709115e951454e2c789320605eb3e0d0ab95791a",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-124",
+      "path": "docs/merged-lectures/병역법/본법_77의2.txt",
+      "bytes": 23715,
+      "sha256": "b5cdfbe3a0d9ea634bb4b47309e3397b17d08c198a2da87280cd6fc0aec32f74",
+      "git_blob_sha": "709c5d8e6c011f92afb803e553687009b75ea369",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-125",
+      "path": "docs/merged-lectures/병역법/본법_77의3.txt",
+      "bytes": 19709,
+      "sha256": "cfd09118a7b610e6f3b26cfb58e175ff32f3f13c1e359a96e70dfff9b298e5ae",
+      "git_blob_sha": "6cb558ba63cf8e58cbcc01710ac149efa839182a",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-126",
+      "path": "docs/merged-lectures/병역법/본법_77의4.txt",
+      "bytes": 25227,
+      "sha256": "a1ffc534931158de7cb6058408a1a29059f70b1ccde0ad3c46224c821aa2c9e1",
+      "git_blob_sha": "eaaba762be8b06699e24bfb12dc0a7d834f36f1e",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-127",
+      "path": "docs/merged-lectures/병역법/본법_77의5.txt",
+      "bytes": 19906,
+      "sha256": "805e87d02d243c941116bac70a0b6f7e100c0fb7369942df82e2a2a966ee7e9f",
+      "git_blob_sha": "450302a453f57d757dc169f0d4572524f6e76f31",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-128",
+      "path": "docs/merged-lectures/병역법/본법_77의6.txt",
+      "bytes": 17062,
+      "sha256": "42187078cb6665ac5be584f0dc3427711cf73385bb00df157c76ae220a2822ab",
+      "git_blob_sha": "2512bdd27f3b0098c9c7a48a015bc9fe120daf69",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-129",
+      "path": "docs/merged-lectures/병역법/본법_78.txt",
+      "bytes": 16189,
+      "sha256": "e83f5c0dc82c9e4a57649a8197693f86e861d5d33f698e7d7b2ecf08575e495d",
+      "git_blob_sha": "a59df0bbd045fb796e1d6bb715eb88b39068f4e7",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-130",
+      "path": "docs/merged-lectures/병역법/본법_79.txt",
+      "bytes": 21807,
+      "sha256": "5f53775e2512a2c01a1eaa6121eaf3c00349f7d9110e6555991fc8990df0690b",
+      "git_blob_sha": "e4472f8d666b774f937309369a43c320d7c00659",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-131",
+      "path": "docs/merged-lectures/병역법/본법_79의2.txt",
+      "bytes": 14234,
+      "sha256": "4816c7265c6834218f9c63fd88414c6a8333d401388d744e3d053f9108f4bcba",
+      "git_blob_sha": "650e6fa429f28681568051172916ff426df27093",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-132",
+      "path": "docs/merged-lectures/병역법/본법_80.txt",
+      "bytes": 21202,
+      "sha256": "ec196e61c36608d7b9326e098594341b1208f29b3b71682541a997d447bbf90f",
+      "git_blob_sha": "4190c3975928822d7e5b80444326e0ee778928ba",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-133",
+      "path": "docs/merged-lectures/병역법/본법_80의2.txt",
+      "bytes": 11783,
+      "sha256": "c2484a48a4312cd98948e285a220fab1d51b7aa741d78379b50abbf3ea913c94",
+      "git_blob_sha": "734442d2944ec50dff0682ab85e487b0f01fb450",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-134",
+      "path": "docs/merged-lectures/병역법/본법_81.txt",
+      "bytes": 23715,
+      "sha256": "f0ace2ac1f4ace44b859357bad8bb6cc021192a2c4839dc767129e969c29bf63",
+      "git_blob_sha": "232e6fedf3747d9c174bed3304f218f6ba58a054",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-135",
+      "path": "docs/merged-lectures/병역법/본법_81의2.txt",
+      "bytes": 27800,
+      "sha256": "4ab37b4a620fd8f9c368545b4b887c9f3f518afa4f258c94f57a3e8786364e6a",
+      "git_blob_sha": "c96ea18dc2509405b2981ed2e5869790e86b4b19",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-136",
+      "path": "docs/merged-lectures/병역법/본법_81의3.txt",
+      "bytes": 15676,
+      "sha256": "ab62d96bdbf3cff0c901631ceabb4d4f73b2e444e3262f7f0d6a0f49b675b61c",
+      "git_blob_sha": "994349aca94ad968835f66ff6a1afd2649fba541",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-137",
+      "path": "docs/merged-lectures/병역법/본법_82.txt",
+      "bytes": 9420,
+      "sha256": "9f427925486aa6fc636da75d704e8d1621fc1f8273d9173166855d1f1f3aab33",
+      "git_blob_sha": "3d624697ea06026cc1ade97fbb3925184f2d573a",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-138",
+      "path": "docs/merged-lectures/병역법/본법_82의3.txt",
+      "bytes": 24319,
+      "sha256": "396c66a32d8e97bb9f4a91e167caf4027e57eb87f648de736571d93aa6d5aa38",
+      "git_blob_sha": "3db3a898f975614f4057a3ce51eb05a16160cde0",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-139",
+      "path": "docs/merged-lectures/병역법/본법_82의4.txt",
+      "bytes": 19551,
+      "sha256": "e4fb21b26f1462b1e823974c7e0e42f0d97a8897df182098e652fa0ebf175ed7",
+      "git_blob_sha": "5c7329b728ce1a6b9e5f9f1c8f6a8d38567dabde",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-140",
+      "path": "docs/merged-lectures/병역법/본법_82의5.txt",
+      "bytes": 15933,
+      "sha256": "1044065c6b3dbbb378cc75cac3cfd1eec38fe0fb1bf91880edcd8ca8b2c766c1",
+      "git_blob_sha": "38521e28b2e58779577e0afb486d972cfa84b976",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-141",
+      "path": "docs/merged-lectures/병역법/본법_83.txt",
+      "bytes": 52521,
+      "sha256": "578c41647782d6f40ed32ef4e92d056b26b5678340336432cb6b062e505d306a",
+      "git_blob_sha": "fe16b8f0d2fdc8da9808c7d318621d1b6b3e2021",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-142",
+      "path": "docs/merged-lectures/병역법/본법_83의2.txt",
+      "bytes": 18514,
+      "sha256": "5f454e3ae5eec1a0ff8f295f326869ffb87a27285aa5bcd90c9e1162b8abee86",
+      "git_blob_sha": "48a096d442c091be100b4d443df4d9dcaca35f66",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-143",
+      "path": "docs/merged-lectures/병역법/본법_83의3.txt",
+      "bytes": 7031,
+      "sha256": "cc7099e3f27d43cda61dd0a4b055ce7e8bfc7ae25148c7e709a15827bd3d625d",
+      "git_blob_sha": "82065918dd6d1367388898c5ebc7d3bf789afb77",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-144",
+      "path": "docs/merged-lectures/병역법/본법_84.txt",
+      "bytes": 20250,
+      "sha256": "c9a368dfc13ecae544a04abb8c6d3f5164bb84db03e9ce163f37a6eea88df27c",
+      "git_blob_sha": "810f2a08477ca6c50ee4fd7fa29c71773b18edd2",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-145",
+      "path": "docs/merged-lectures/병역법/본법_85.txt",
+      "bytes": 9249,
+      "sha256": "4f3dd974e3f4ae3f87a75493a89089b8921546d150dc826539d45d8a23c06d7b",
+      "git_blob_sha": "2c04d26a16e425933f47619846a1a5a075038ab1",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-146",
+      "path": "docs/merged-lectures/병역법/본법_86.txt",
+      "bytes": 12950,
+      "sha256": "27ee91bd4873c3ca96f7e0b55369a18a877809b11769effaf15f49980d9dc59f",
+      "git_blob_sha": "197fbcd8439ad6e876d35b41a9edd17574dc1b0c",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-147",
+      "path": "docs/merged-lectures/병역법/본법_87.txt",
+      "bytes": 12561,
+      "sha256": "b4a0141e2458bad1863ccedd502545ad2a0e4422562c7375a8c0bee6c72d43e2",
+      "git_blob_sha": "00212123efb9aba2bff1c46c63b9f96a0827bd33",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-148",
+      "path": "docs/merged-lectures/병역법/본법_87의2.txt",
+      "bytes": 12301,
+      "sha256": "f4927d4e583949c616c5a2222caab40aea71b074e557bcba2751ae9258f27a45",
+      "git_blob_sha": "4e07fde9eb3a962c80df363114c7f1657f4684fa",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-149",
+      "path": "docs/merged-lectures/병역법/본법_88.txt",
+      "bytes": 15269,
+      "sha256": "f12d24ff29db5e3016d013d4262dae8dbb097aeb7b077ae228492f3365ef22d7",
+      "git_blob_sha": "6944fa63d0587e7d0a5b447fabac3ba0a362e99b",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-150",
+      "path": "docs/merged-lectures/병역법/본법_88의2.txt",
+      "bytes": 7950,
+      "sha256": "14c82e5f28f972bec6454b960eb131c6a6bc226ea0e908568e406a9a8805ffe2",
+      "git_blob_sha": "ad862fb15bd27e2a4dcd5b6688c671523d8404c2",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-151",
+      "path": "docs/merged-lectures/병역법/본법_89.txt",
+      "bytes": 12923,
+      "sha256": "631deed800ba46017601521785f1aba3bbb3875954125c6022f41d331bac199b",
+      "git_blob_sha": "c401f2c22ad1d83466e6ebff00cecd7283c8a9e8",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-152",
+      "path": "docs/merged-lectures/병역법/본법_89의2.txt",
+      "bytes": 23672,
+      "sha256": "3c7484b32085fb0878310384dab43a97eceed08fd07b6fb7b3c947d0f339ca3b",
+      "git_blob_sha": "dc4792a290d2bb7029eda74493ed7decffa69f80",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-153",
+      "path": "docs/merged-lectures/병역법/본법_89의3.txt",
+      "bytes": 19066,
+      "sha256": "08dea23f72cb2f7c77f55bb0f3f5fe321c8001a12b474db21f7975f433e02d6f",
+      "git_blob_sha": "355e32173269b62f3a246c44a66b2c3bacceecc9",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-154",
+      "path": "docs/merged-lectures/병역법/본법_89의4.txt",
+      "bytes": 9492,
+      "sha256": "38b4502580fc50a74229d61023b6894c3cf4b4ab8b3b6a6e7436e6b61f364596",
+      "git_blob_sha": "85752845e146c89bf6dfc9482c9f0695e0c3b2f5",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-155",
+      "path": "docs/merged-lectures/병역법/본법_90.txt",
+      "bytes": 14650,
+      "sha256": "b554812ea93533e7dabd4c0bd278251b39b67f4dbdc426048d1b3988ba5c0986",
+      "git_blob_sha": "8023efa5a982192552491d86972a602088457fbe",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-156",
+      "path": "docs/merged-lectures/병역법/본법_90의2.txt",
+      "bytes": 12543,
+      "sha256": "b42f489b484aa27db0df5629dbbf385263f16b946313db00621520858f32d630",
+      "git_blob_sha": "b135345a7a888caea45b90e1c40600aebac0467c",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-157",
+      "path": "docs/merged-lectures/병역법/본법_91.txt",
+      "bytes": 9809,
+      "sha256": "af014cbdc3452dfa6e94200681ad34618e3eab0e7dcd1756fd412f9b8929470d",
+      "git_blob_sha": "727888ecbcc939f6dc1053e1f20c2d216fd54182",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-158",
+      "path": "docs/merged-lectures/병역법/본법_91의2.txt",
+      "bytes": 12733,
+      "sha256": "cb19e05d1be87a642481eb9a2f517cc801e42b5cdcafd3e9beaddedba98ad35b",
+      "git_blob_sha": "d8d4d53cbdc2ea3e84f2f0424443299ece93f1c8",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-159",
+      "path": "docs/merged-lectures/병역법/본법_92.txt",
+      "bytes": 23672,
+      "sha256": "5f87c782cb934c818727e94592f2d313ccb5dfc4d438830ef31c5b3b2fe49832",
+      "git_blob_sha": "30f48840709d8eb70acb3acd46b81802c506f881",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-160",
+      "path": "docs/merged-lectures/병역법/본법_92의2.txt",
+      "bytes": 8691,
+      "sha256": "97243774c9c7b7280541bf245461d9ac8d08ef433f250970ea53e7eb969823d4",
+      "git_blob_sha": "9212a3423de859bcdc322d1f4ca70fa3fcb8ad7f",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-161",
+      "path": "docs/merged-lectures/병역법/본법_93.txt",
+      "bytes": 19017,
+      "sha256": "7b4011f2a4f482e20d66adff6a32e5337457db2c4bc04ae5d43eb194103326f3",
+      "git_blob_sha": "9f8b8ea18ae6082642f17674e6b16f46d2a3dbf8",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-162",
+      "path": "docs/merged-lectures/병역법/본법_93의2.txt",
+      "bytes": 12866,
+      "sha256": "1a5e1c453f9c6c5c9c4eac0eead8d14d2f24913c435531902df3c12fbc61da85",
+      "git_blob_sha": "0b2e07a85ef09edc02338d0c3f5713c9167700ad",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-163",
+      "path": "docs/merged-lectures/병역법/본법_94.txt",
+      "bytes": 20679,
+      "sha256": "8be93eab698a5f2e71fb8007a1465d341a09ed0addc52688844d67802fa29f9c",
+      "git_blob_sha": "4c5e1d0f746a2aae516d5c2224ba40134745a1ff",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-164",
+      "path": "docs/merged-lectures/병역법/본법_95.txt",
+      "bytes": 18581,
+      "sha256": "42f4946e941dac2f06b54e7dcf1096cebb2a27c3713aa6ee44002906e967c95e",
+      "git_blob_sha": "be400424b3ebc61aa203d50f7ee477efada9217c",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-165",
+      "path": "docs/merged-lectures/병역법/본법_96.txt",
+      "bytes": 16962,
+      "sha256": "5da331b10275482dfa13ffa724bcd43130910bd583f0000044bd627399f05721",
+      "git_blob_sha": "1cd232b4adde19303279166646f7d5ef7c0dee4e",
+      "matches_pinned_index": true
+    },
+    {
+      "lecture_id": "MS-166",
+      "path": "docs/merged-lectures/병역법/본법_97.txt",
+      "bytes": 12690,
+      "sha256": "814eb0e9f6e2476ceb79fdfb8ad5e6ba9f12ca4b3a7af605b6c8d6c1305d47e8",
+      "git_blob_sha": "5f611f7f719bd79b89bbba97bc474a9f4c0cd60e",
+      "matches_pinned_index": true
+    }
+  ],
+  "privacy": "Private manuscript text is not included."
+}

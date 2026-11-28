@@ -8,15 +8,15 @@
 
 [강의용 WebP](MS-149-D01-editorial-v1.webp) · [편집용 SVG](MS-149-D01-editorial-v1.svg)
 
-## 02. 대리입영과 전시근로 점검
+## 02. 본인의 기피와 대리입영
 
-![대리입영과 전시근로 점검](MS-149-D02-editorial-v1.webp)
+![본인의 기피와 대리입영](MS-149-D02-editorial-v1.webp)
 
 [강의용 WebP](MS-149-D02-editorial-v1.webp) · [편집용 SVG](MS-149-D02-editorial-v1.svg)
 
-## 03. 전시근로소집 대비 점검 불참
+## 03. 입영기피의 세 가지 요건
 
-![전시근로소집 대비 점검 불참](MS-149-D03-editorial-v1.webp)
+![입영기피의 세 가지 요건](MS-149-D03-editorial-v1.webp)
 
 [강의용 WebP](MS-149-D03-editorial-v1.webp) · [편집용 SVG](MS-149-D03-editorial-v1.svg)
 

@@ -1,0 +1,2790 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "exam80-generation-2/full-audit-20261128/active-drafts-current",
+  "created_at_utc": "2026-11-28T01:11:55.466855+00:00",
+  "status": "current_active_draft_content_snapshot_verified_against_svg",
+  "generation": 2,
+  "active_batch": "20261128-11",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "scope": "미승격 활성 초안 17장: MS-065 D03/D05, MS-094 D08~D21, MS-109 D09",
+  "usage_policy": [
+    "이 스냅샷은 현재 활성 초안 내용과 출처 매핑의 최신 상태다. 향후 렌더·승격 작업의 콘텐츠 입력으로 이 파일을 사용한다.",
+    "원래 draft JSON 및 checkpoint는 과거 기록이며 변경하지 않았다. 이 파일의 supersedes와 applied_patch_refs가 수정 이력을 연결한다.",
+    "이 파일 생성은 정식 승격이나 원고 전체 범위 제작 완료를 뜻하지 않는다. MS-109-D09는 내용의 범위가 불명확하여 보류 상태를 유지한다.",
+    "원고 전문은 포함하지 않으며 원고의 식별 해시·경로·줄 범위와 검수 근거만 기록한다."
+  ],
+  "content_hash_canonicalization": "UTF-8 JSON, ensure_ascii=false, sort_keys=true, separators=(comma,colon)",
+  "totals": {
+    "active_drafts": 17,
+    "lectures": 3,
+    "content_corrected_pages": 4,
+    "source_mapping_patched_pages": 5,
+    "svg_text_sequence_matches": 17,
+    "content_fields_checked": 269,
+    "held_for_source_ambiguity": 1,
+    "formal_promotions": 0
+  },
+  "evidence_documents": [
+    {
+      "key": "source_index",
+      "path": "military-service-act/script-sources-exam80.json",
+      "sha256": "2dedea6f4e7f5c8e5937f48b637c004ad4beefbe8e8809e2bcec7b6a4b79a64e",
+      "bytes": 93126
+    },
+    {
+      "key": "checkpoint12",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-12.json",
+      "sha256": "6d69c2b34dcd197c037c55d4185ae7e1a2f0c9a86c000401f0ad6468636d6bd0",
+      "bytes": 21531
+    },
+    {
+      "key": "checkpoint17",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json",
+      "sha256": "a24fcfbf8f289f6f647195b3affb7bb59c5c71ca1ac0cecd02e5f6dcaab54e53",
+      "bytes": 9221
+    },
+    {
+      "key": "draft94",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+      "sha256": "bf792535755aae8a09dab53498b1090b082f817ae29dc556eca87fbece118d64",
+      "bytes": 24627
+    },
+    {
+      "key": "correction65",
+      "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-065-draft-corrections.json",
+      "sha256": "2aef4fcff548e5aa0aec3d232e82c6356db16981dbdca6335e07e15e557b0093",
+      "bytes": 7083
+    },
+    {
+      "key": "correction94",
+      "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-094-draft-corrections.json",
+      "sha256": "57efbf80b3cecc2e77ab6b73abbd937eef10dab9bbed479feb2ac98b5723db74",
+      "bytes": 12249
+    },
+    {
+      "key": "audit94",
+      "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-draft-094.json",
+      "sha256": "f937ca9a3ab1e05d6e92d141dd518fcf0931b2378a03865e335b479a5cd37c21",
+      "bytes": 15971
+    },
+    {
+      "key": "visual_correction109",
+      "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-draft-correction.json",
+      "sha256": "2fa53e620d8f4e02c06cfc0822fe03360976e29253367e4103c16f24dd6e389a",
+      "bytes": 3178
+    },
+    {
+      "key": "visual_active",
+      "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+      "sha256": "3e254cafd8cdbb6de387ab4f263580ec6bb851e288693226da2be9e0a92d15cc",
+      "bytes": 123536
+    }
+  ],
+  "items": [
+    {
+      "id": "MS-065-D03-editorial-v1",
+      "lecture_id": "MS-065",
+      "status": "active_draft_corrected_reviewed_not_promoted",
+      "formal_publication": false,
+      "full_lecture_production_complete": false,
+      "content": {
+        "lecture_id": "MS-065",
+        "title": "병적기록표와 복무기록표",
+        "subtitle": "시행규칙 제55·56조 · 정리하는 장부와 송부하는 장부",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "병적기록표",
+            "items": [
+              {
+                "label": "관리 주체",
+                "text": "관할 지방병무청장",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "정리 시점",
+                "text": "편입·편입취소·복무만료",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "명부",
+                "text": "제67호서식",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "복무기록표",
+            "items": [
+              {
+                "label": "제68호서식",
+                "text": "편입 시 관할 지방병무청장이 작성 → 병역지정업체의 장",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "개별복무 예외",
+                "text": "병역지정업체 밖의 업체에서 개별복무 시 편입 당시 지방병무청장이 직접 관리",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "업체 이동",
+                "text": "새 복무 업체의 장에게 송부",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "제69호 관리현황서: 분기 말일 기준 → 다음 달 15일까지 병무청장 보고",
+        "source_keys": [],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            69,
+            89
+          ],
+          [
+            111,
+            114
+          ]
+        ]
+      },
+      "content_sha256": "4d2b3ca03e45f93d9a192e1aa80858d0a289717d51c3db3c6a8ca6fcf0a48f05",
+      "artifacts": {
+        "svg": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-records.svg",
+          "bytes": 5064,
+          "sha256": "1bf19bac6ddc0567a17c37b2f879a3a481900d20025e63ec5c2412e06a972265",
+          "dimensions": [
+            1600,
+            1120
+          ]
+        },
+        "webp": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-records.webp",
+          "bytes": 38062,
+          "sha256": "109a5ac2bb2583071e9daccba992bb3a861d7b81ea50b2340e3e6fd822d15402",
+          "dimensions": [
+            1600,
+            1120
+          ],
+          "encoding": "lossless_webp"
+        }
+      },
+      "source": {
+        "authority": "existing_exam80_lecture_script",
+        "pinned_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+        "private_source_path": "docs/merged-lectures/병역법/본법_34의5.txt",
+        "script_git_blob_sha": "74c8bb42ce2c144513f61ff341683c2c94c9fc98",
+        "script_sha256": "185389966439ba264ef4c8b2869740bc2a626542e5fee178fde0e60f9e862b34",
+        "script_bytes": 18908,
+        "script_identity_verified": true,
+        "line_spans": [
+          [
+            69,
+            89
+          ],
+          [
+            111,
+            114
+          ]
+        ],
+        "line_anchors": [
+          69,
+          75,
+          85,
+          87,
+          89,
+          111,
+          114
+        ]
+      },
+      "evidence_refs": [
+        {
+          "evidence_document": "checkpoint12",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-12.json",
+          "json_pointer": "/records/3/content"
+        },
+        {
+          "evidence_document": "correction65",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-065-draft-corrections.json",
+          "json_pointer": "/changes/0"
+        },
+        {
+          "evidence_document": "source_index",
+          "path": "military-service-act/script-sources-exam80.json",
+          "json_pointer": "/lectures/64"
+        }
+      ],
+      "applied_patch_refs": [
+        {
+          "kind": "content_patch",
+          "evidence_ref": {
+            "evidence_document": "correction65",
+            "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-065-draft-corrections.json",
+            "json_pointer": "/changes/0/content_patch"
+          }
+        }
+      ],
+      "supersedes": [
+        {
+          "evidence_document": "checkpoint12",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-12.json",
+          "json_pointer": "/records/3/content"
+        }
+      ],
+      "validation": {
+        "svg_text_sequence_matches_snapshot": true,
+        "content_text_fields_checked": 17,
+        "comparison": "공백 및 줄바꿈만 제거한 뒤 제목·부제·섹션·라벨·본문·정리의 순서 전체를 실제 SVG text 요소와 비교; 공통 머리글·바닥글만 제외",
+        "missing_content_strings": [],
+        "content_alignment_status": "reviewed_after_source_correction",
+        "actual_artifacts_match_latest_evidence_hashes": true,
+        "visual_review_status": "pass",
+        "visual_evidence_ref": {
+          "evidence_document": "correction65",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-065-draft-corrections.json",
+          "json_pointer": "/changes/0/validation"
+        }
+      }
+    },
+    {
+      "id": "MS-065-D05-editorial-v1",
+      "lecture_id": "MS-065",
+      "status": "active_draft_corrected_reviewed_not_promoted",
+      "formal_publication": false,
+      "full_lecture_production_complete": false,
+      "content": {
+        "lecture_id": "MS-065",
+        "title": "복무 관리와 편입취소 유보",
+        "subtitle": "시행규칙 제60·62·64·65·65조의2",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "복무 관리",
+            "items": [
+              {
+                "label": "전직·교육훈련·파견 승인",
+                "text": "62호 신청서",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "신상변동 통보",
+                "text": "76호 통보서 → 지방병무청장이 67호 명부 정리",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "복무만료 처분",
+                "text": "75호 / 관할 지방병무청장이 병적기록표·명부 정리",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "해고 다툼 중 유보",
+            "items": [
+              {
+                "label": "신청",
+                "text": "62호 신청서에 구제신청서 사본 또는 소송서류 사본을 첨부",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제출",
+                "text": "관할 지방병무청장",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "유보 이후",
+                "text": "결과 수시 확인 → 편입취소 여부 결정",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "해고를 다투는 중이면 편입취소 유보 가능",
+        "source_keys": [],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            91,
+            101
+          ],
+          [
+            115,
+            115
+          ]
+        ]
+      },
+      "content_sha256": "547d29941f16f8bec3607ece0d59b026306df44a29b73dd0b8010e6f136b4fde",
+      "artifacts": {
+        "svg": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-service-end.svg",
+          "bytes": 5186,
+          "sha256": "062b20f1274fbd55075da8fccfcc3fe431ea391fa998863bc5e5572be4668553",
+          "dimensions": [
+            1600,
+            1120
+          ]
+        },
+        "webp": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-service-end.webp",
+          "bytes": 41550,
+          "sha256": "ee005e26a58f130e5ef5fdc7619ccbcf2acef053690758295e5728a8caca2b22",
+          "dimensions": [
+            1600,
+            1120
+          ],
+          "encoding": "lossless_webp"
+        }
+      },
+      "source": {
+        "authority": "existing_exam80_lecture_script",
+        "pinned_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+        "private_source_path": "docs/merged-lectures/병역법/본법_34의5.txt",
+        "script_git_blob_sha": "74c8bb42ce2c144513f61ff341683c2c94c9fc98",
+        "script_sha256": "185389966439ba264ef4c8b2869740bc2a626542e5fee178fde0e60f9e862b34",
+        "script_bytes": 18908,
+        "script_identity_verified": true,
+        "line_spans": [
+          [
+            91,
+            101
+          ],
+          [
+            115,
+            115
+          ]
+        ],
+        "line_anchors": [
+          91,
+          97,
+          99,
+          101,
+          115
+        ]
+      },
+      "evidence_refs": [
+        {
+          "evidence_document": "checkpoint12",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-12.json",
+          "json_pointer": "/records/5/content"
+        },
+        {
+          "evidence_document": "correction65",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-065-draft-corrections.json",
+          "json_pointer": "/changes/1"
+        },
+        {
+          "evidence_document": "source_index",
+          "path": "military-service-act/script-sources-exam80.json",
+          "json_pointer": "/lectures/64"
+        }
+      ],
+      "applied_patch_refs": [
+        {
+          "kind": "content_patch",
+          "evidence_ref": {
+            "evidence_document": "correction65",
+            "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-065-draft-corrections.json",
+            "json_pointer": "/changes/1/content_patch"
+          }
+        }
+      ],
+      "supersedes": [
+        {
+          "evidence_document": "checkpoint12",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-12.json",
+          "json_pointer": "/records/5/content"
+        }
+      ],
+      "validation": {
+        "svg_text_sequence_matches_snapshot": true,
+        "content_text_fields_checked": 17,
+        "comparison": "공백 및 줄바꿈만 제거한 뒤 제목·부제·섹션·라벨·본문·정리의 순서 전체를 실제 SVG text 요소와 비교; 공통 머리글·바닥글만 제외",
+        "missing_content_strings": [],
+        "content_alignment_status": "reviewed_after_source_correction",
+        "actual_artifacts_match_latest_evidence_hashes": true,
+        "visual_review_status": "pass",
+        "visual_evidence_ref": {
+          "evidence_document": "correction65",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-065-draft-corrections.json",
+          "json_pointer": "/changes/1/validation"
+        }
+      }
+    },
+    {
+      "id": "MS-094-D08-editorial-v1",
+      "lecture_id": "MS-094",
+      "status": "active_draft_reviewed_not_promoted",
+      "formal_publication": false,
+      "full_lecture_production_complete": false,
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "군종 대상 종교의 선정기준",
+        "subtitle": "대통령령으로 정하는 세 가지 요건",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "종교로서의 틀",
+            "items": [
+              {
+                "label": "교리와 조직",
+                "text": "사회통념상 종교로 인정",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제도화",
+                "text": "성직 승인·취소 절차\n성직자 양성교육",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "기여 및 필요성",
+            "items": [
+              {
+                "label": "장병에게 기여",
+                "text": "가치관·도덕심·준법성\n정신전력 강화",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "선정 필요성",
+                "text": "국민·군내 신자 수와\n종교 행사 수행 가능성",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "세 기준을 모두 갖추어야 함",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            42,
+            54
+          ]
+        ]
+      },
+      "content_sha256": "ca7d302e42f6dacf264f9dccbffc655edf586b19eb0b31c2c12a3ef5862b0b81",
+      "artifacts": {
+        "svg": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/religion-selection-criteria.svg",
+          "bytes": 4579,
+          "sha256": "e974178030c5312820265bc1ee10c1ca69e7463d67801796def6e60f1b5ad388",
+          "dimensions": [
+            1600,
+            1120
+          ]
+        },
+        "webp": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/religion-selection-criteria.webp",
+          "bytes": 35146,
+          "sha256": "e47c34780797ec88b7d6611ec841ba5c1fae4d05dc219b0a71a0e7e3675cd167",
+          "dimensions": [
+            1600,
+            1120
+          ],
+          "encoding": "lossless_webp"
+        }
+      },
+      "source": {
+        "authority": "existing_exam80_lecture_script",
+        "pinned_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+        "private_source_path": "docs/merged-lectures/병역법/본법_58.txt",
+        "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "script_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+        "script_bytes": 49822,
+        "script_identity_verified": true,
+        "line_spans": [
+          [
+            42,
+            54
+          ]
+        ],
+        "line_anchors": [
+          42,
+          54
+        ]
+      },
+      "evidence_refs": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/0"
+        },
+        {
+          "evidence_document": "source_index",
+          "path": "military-service-act/script-sources-exam80.json",
+          "json_pointer": "/lectures/93"
+        },
+        {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/2"
+        },
+        {
+          "evidence_document": "audit94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-draft-094.json",
+          "json_pointer": "/pages/0"
+        }
+      ],
+      "applied_patch_refs": [],
+      "supersedes": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/0"
+        },
+        {
+          "evidence_document": "checkpoint17",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json",
+          "json_pointer": "/script_topic_mapping/0"
+        }
+      ],
+      "validation": {
+        "svg_text_sequence_matches_snapshot": true,
+        "content_text_fields_checked": 13,
+        "comparison": "공백 및 줄바꿈만 제거한 뒤 제목·부제·섹션·라벨·본문·정리의 순서 전체를 실제 SVG text 요소와 비교; 공통 머리글·바닥글만 제외",
+        "missing_content_strings": [],
+        "content_alignment_status": "reviewed_no_confirmed_defect",
+        "actual_artifacts_match_latest_evidence_hashes": true,
+        "visual_review_status": "pass",
+        "visual_evidence_ref": {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/2"
+        }
+      }
+    },
+    {
+      "id": "MS-094-D09-editorial-v1",
+      "lecture_id": "MS-094",
+      "status": "active_draft_reviewed_not_promoted",
+      "formal_publication": false,
+      "full_lecture_production_complete": false,
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "군종장교 선발대상과 추천",
+        "subtitle": "대상 종교 선정과 장교 선발은 구별",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "선발 대상",
+            "items": [
+              {
+                "label": "성직자",
+                "text": "학사 이상 학위와 성직 자격",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "자격 취득 예정",
+                "text": "입영일 전 자격 취득 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "후보생",
+                "text": "군종사관후보생 병적 편입자",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "선발 절차",
+            "items": [
+              {
+                "label": "국방부장관",
+                "text": "해당 종교단체에 추천 의뢰",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "해당 종교단체",
+                "text": "선발 대상자 추천",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "국방부장관",
+                "text": "추천을 받아 선발",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "선정·선발 기준 및 절차: 대통령령 / 선발 세부: 국방부령",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            42,
+            56
+          ]
+        ]
+      },
+      "content_sha256": "fb688fa13185bb87c6e656e4734a1567f89a2733d38a69bbeb91319e2e60b814",
+      "artifacts": {
+        "svg": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/chaplain-selection.svg",
+          "bytes": 4882,
+          "sha256": "a6dcb20053d46964831db4e3958ee0987030e5e479a5e468ef5a1e7bee5fc91e",
+          "dimensions": [
+            1600,
+            1120
+          ]
+        },
+        "webp": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/chaplain-selection.webp",
+          "bytes": 37026,
+          "sha256": "62a0938738eb9c2df788e80bac5f7c7fd2c9353f0285c6c00ecd4702d84afd55",
+          "dimensions": [
+            1600,
+            1120
+          ],
+          "encoding": "lossless_webp"
+        }
+      },
+      "source": {
+        "authority": "existing_exam80_lecture_script",
+        "pinned_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+        "private_source_path": "docs/merged-lectures/병역법/본법_58.txt",
+        "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "script_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+        "script_bytes": 49822,
+        "script_identity_verified": true,
+        "line_spans": [
+          [
+            42,
+            56
+          ]
+        ],
+        "line_anchors": [
+          42,
+          56
+        ]
+      },
+      "evidence_refs": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/1"
+        },
+        {
+          "evidence_document": "source_index",
+          "path": "military-service-act/script-sources-exam80.json",
+          "json_pointer": "/lectures/93"
+        },
+        {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/3"
+        },
+        {
+          "evidence_document": "audit94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-draft-094.json",
+          "json_pointer": "/pages/1"
+        }
+      ],
+      "applied_patch_refs": [],
+      "supersedes": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/1"
+        },
+        {
+          "evidence_document": "checkpoint17",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json",
+          "json_pointer": "/script_topic_mapping/1"
+        }
+      ],
+      "validation": {
+        "svg_text_sequence_matches_snapshot": true,
+        "content_text_fields_checked": 17,
+        "comparison": "공백 및 줄바꿈만 제거한 뒤 제목·부제·섹션·라벨·본문·정리의 순서 전체를 실제 SVG text 요소와 비교; 공통 머리글·바닥글만 제외",
+        "missing_content_strings": [],
+        "content_alignment_status": "reviewed_no_confirmed_defect",
+        "actual_artifacts_match_latest_evidence_hashes": true,
+        "visual_review_status": "pass",
+        "visual_evidence_ref": {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/3"
+        }
+      }
+    },
+    {
+      "id": "MS-094-D10-editorial-v1",
+      "lecture_id": "MS-094",
+      "status": "active_draft_reviewed_not_promoted",
+      "formal_publication": false,
+      "full_lecture_production_complete": false,
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "현역장교 편입 지원",
+        "subtitle": "자격 보유자의 직접 지원 절차",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "지원서",
+            "items": [
+              {
+                "label": "전년도 10월 31일까지",
+                "text": "편입되는 연도 기준",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제출 경로",
+                "text": "학교·연수기관·종교단체의\n장을 거쳐 병무청장에게",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "소속 없는 사람",
+                "text": "병무청장에게 직접 제출",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "서류 및 대체 편입",
+            "items": [
+              {
+                "label": "첨부",
+                "text": "신원진술서(사진 포함)\n기본증명서·해당 자격 증명",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "장교 미편입 대비",
+                "text": "의무·법무·수의 지원자는\n다른 편입 희망을 기재 가능",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "군종 분야는 대체 편입 희망 기재 대상이 아님",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            58,
+            64
+          ]
+        ]
+      },
+      "content_sha256": "b9250ee998e6687f7c7bf5017b578f92ea428f21483bc0b394044cbaa480ef6d",
+      "artifacts": {
+        "svg": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/direct-officer-application.svg",
+          "bytes": 5030,
+          "sha256": "21a59af9bc6f846892db3ef036df64f880e06377c75cf806e324027dae8eb04b",
+          "dimensions": [
+            1600,
+            1120
+          ]
+        },
+        "webp": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/direct-officer-application.webp",
+          "bytes": 39040,
+          "sha256": "622953719ff29c58220ea0defcf4e92b724df8d8a38eefa0c8cba460566d4c52",
+          "dimensions": [
+            1600,
+            1120
+          ],
+          "encoding": "lossless_webp"
+        }
+      },
+      "source": {
+        "authority": "existing_exam80_lecture_script",
+        "pinned_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+        "private_source_path": "docs/merged-lectures/병역법/본법_58.txt",
+        "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "script_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+        "script_bytes": 49822,
+        "script_identity_verified": true,
+        "line_spans": [
+          [
+            58,
+            64
+          ]
+        ],
+        "line_anchors": [
+          58,
+          64
+        ]
+      },
+      "evidence_refs": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/2"
+        },
+        {
+          "evidence_document": "source_index",
+          "path": "military-service-act/script-sources-exam80.json",
+          "json_pointer": "/lectures/93"
+        },
+        {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/4"
+        },
+        {
+          "evidence_document": "audit94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-draft-094.json",
+          "json_pointer": "/pages/2"
+        }
+      ],
+      "applied_patch_refs": [],
+      "supersedes": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/2"
+        },
+        {
+          "evidence_document": "checkpoint17",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json",
+          "json_pointer": "/script_topic_mapping/2"
+        }
+      ],
+      "validation": {
+        "svg_text_sequence_matches_snapshot": true,
+        "content_text_fields_checked": 15,
+        "comparison": "공백 및 줄바꿈만 제거한 뒤 제목·부제·섹션·라벨·본문·정리의 순서 전체를 실제 SVG text 요소와 비교; 공통 머리글·바닥글만 제외",
+        "missing_content_strings": [],
+        "content_alignment_status": "reviewed_no_confirmed_defect",
+        "actual_artifacts_match_latest_evidence_hashes": true,
+        "visual_review_status": "pass",
+        "visual_evidence_ref": {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/4"
+        }
+      }
+    },
+    {
+      "id": "MS-094-D11-editorial-v1",
+      "lecture_id": "MS-094",
+      "status": "active_draft_corrected_reviewed_not_promoted",
+      "formal_publication": false,
+      "full_lecture_production_complete": false,
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "사관후보생 분야별 편입 자격",
+        "subtitle": "병역판정검사·현역병입영·사회복무요원 소집 대상자",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "의무·법무",
+            "items": [
+              {
+                "label": "의무",
+                "text": "의사·치과의사·한의사 자격\n군전공의 수련과정 이수 중",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "법무",
+                "text": "연수기관·법학전문대학원\n자격 취득 과정 이수 중",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "군종·수의",
+            "items": [
+              {
+                "label": "군종",
+                "text": "국방부장관 지정\n신학·불교·성직자 양성 대학\n성직 자격 취득을 위해 재학 중",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "수의",
+                "text": "수의과대학 또는 수의학과\n수의사 자격 취득을 위해 재학 중",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "의무는 이미 자격 보유 / 군종은 재학 중 / 수의는 의과대학이 아님",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            68,
+            120
+          ]
+        ]
+      },
+      "content_sha256": "781fcb3c29495f7bb64170b9ad83ca26cca67c2f95a87a44952abda3310493e6",
+      "artifacts": {
+        "svg": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-eligibility.svg",
+          "bytes": 5052,
+          "sha256": "99768088fe2729667d01726ba2f6c63423ca74f199c8b07a1b96344d5bce03a9",
+          "dimensions": [
+            1600,
+            1120
+          ]
+        },
+        "webp": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-eligibility.webp",
+          "bytes": 41780,
+          "sha256": "5a917395fa474005fda7d94202860e8d47773331ae58b87cded5160fbba57a6e",
+          "dimensions": [
+            1600,
+            1120
+          ],
+          "encoding": "lossless_webp"
+        }
+      },
+      "source": {
+        "authority": "existing_exam80_lecture_script",
+        "pinned_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+        "private_source_path": "docs/merged-lectures/병역법/본법_58.txt",
+        "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "script_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+        "script_bytes": 49822,
+        "script_identity_verified": true,
+        "line_spans": [
+          [
+            68,
+            120
+          ]
+        ],
+        "line_anchors": [
+          68,
+          80,
+          103,
+          109,
+          120
+        ]
+      },
+      "evidence_refs": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/3"
+        },
+        {
+          "evidence_document": "correction94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-094-draft-corrections.json",
+          "json_pointer": "/changes/0"
+        },
+        {
+          "evidence_document": "source_index",
+          "path": "military-service-act/script-sources-exam80.json",
+          "json_pointer": "/lectures/93"
+        },
+        {
+          "evidence_document": "audit94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-draft-094.json",
+          "json_pointer": "/pages/3"
+        }
+      ],
+      "applied_patch_refs": [
+        {
+          "kind": "content_patch",
+          "evidence_ref": {
+            "evidence_document": "correction94",
+            "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-094-draft-corrections.json",
+            "json_pointer": "/changes/0/content_patch"
+          }
+        },
+        {
+          "kind": "source_mapping_patch",
+          "evidence_ref": {
+            "evidence_document": "correction94",
+            "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-094-draft-corrections.json",
+            "json_pointer": "/changes/0/source_mapping_patch"
+          }
+        }
+      ],
+      "supersedes": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/3"
+        },
+        {
+          "evidence_document": "checkpoint17",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json",
+          "json_pointer": "/script_topic_mapping/3"
+        }
+      ],
+      "validation": {
+        "svg_text_sequence_matches_snapshot": true,
+        "content_text_fields_checked": 13,
+        "comparison": "공백 및 줄바꿈만 제거한 뒤 제목·부제·섹션·라벨·본문·정리의 순서 전체를 실제 SVG text 요소와 비교; 공통 머리글·바닥글만 제외",
+        "missing_content_strings": [],
+        "content_alignment_status": "reviewed_after_source_correction",
+        "actual_artifacts_match_latest_evidence_hashes": true,
+        "visual_review_status": "pass",
+        "visual_evidence_ref": {
+          "evidence_document": "correction94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-094-draft-corrections.json",
+          "json_pointer": "/changes/0/validation"
+        }
+      }
+    },
+    {
+      "id": "MS-094-D12-editorial-v1",
+      "lecture_id": "MS-094",
+      "status": "active_draft_reviewed_not_promoted",
+      "formal_publication": false,
+      "full_lecture_production_complete": false,
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "사관후보생 선발 이후 관리",
+        "subtitle": "일반 선발과 군종 선발의 전달 경로",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "선발 명단 전달",
+            "items": [
+              {
+                "label": "의무·법무·수의",
+                "text": "병무청장 → 학교·수련기관\n및 지방병무청장",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "군종",
+                "text": "국방부장관 → 병무청장\n→ 지방병무청장",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "병적 편입",
+                "text": "지방병무청장이 처리",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "후보생 계속 관리",
+            "items": [
+              {
+                "label": "과정 완료",
+                "text": "제한연령 전에 과정 이수",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "자격 미취득",
+                "text": "제한연령에 이를 때까지\n후보생으로 관리 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "선발 사실 통지",
+                "text": "학교·수련기관의 장",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "과정 수료와 자격 취득은 별개의 조건",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            130,
+            132
+          ]
+        ]
+      },
+      "content_sha256": "d9347ad98d95c9c5b41db0b1c69c248cf3ff0413010d05760221abb9f407ec42",
+      "artifacts": {
+        "svg": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-selection-followup.svg",
+          "bytes": 5408,
+          "sha256": "c90a0ad91ef9013ff348a9f58118e72dc374a7478a787daaa3fc73d381523cb0",
+          "dimensions": [
+            1600,
+            1120
+          ]
+        },
+        "webp": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-selection-followup.webp",
+          "bytes": 40072,
+          "sha256": "131f70beb259f47637be81f8081513ef40dfd247a30405b4233f239a860e7593",
+          "dimensions": [
+            1600,
+            1120
+          ],
+          "encoding": "lossless_webp"
+        }
+      },
+      "source": {
+        "authority": "existing_exam80_lecture_script",
+        "pinned_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+        "private_source_path": "docs/merged-lectures/병역법/본법_58.txt",
+        "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "script_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+        "script_bytes": 49822,
+        "script_identity_verified": true,
+        "line_spans": [
+          [
+            130,
+            132
+          ]
+        ],
+        "line_anchors": [
+          130,
+          132
+        ]
+      },
+      "evidence_refs": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/4"
+        },
+        {
+          "evidence_document": "source_index",
+          "path": "military-service-act/script-sources-exam80.json",
+          "json_pointer": "/lectures/93"
+        },
+        {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/6"
+        },
+        {
+          "evidence_document": "audit94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-draft-094.json",
+          "json_pointer": "/pages/4"
+        }
+      ],
+      "applied_patch_refs": [],
+      "supersedes": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/4"
+        },
+        {
+          "evidence_document": "checkpoint17",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json",
+          "json_pointer": "/script_topic_mapping/4"
+        }
+      ],
+      "validation": {
+        "svg_text_sequence_matches_snapshot": true,
+        "content_text_fields_checked": 17,
+        "comparison": "공백 및 줄바꿈만 제거한 뒤 제목·부제·섹션·라벨·본문·정리의 순서 전체를 실제 SVG text 요소와 비교; 공통 머리글·바닥글만 제외",
+        "missing_content_strings": [],
+        "content_alignment_status": "reviewed_no_confirmed_defect",
+        "actual_artifacts_match_latest_evidence_hashes": true,
+        "visual_review_status": "pass",
+        "visual_evidence_ref": {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/6"
+        }
+      }
+    },
+    {
+      "id": "MS-094-D13-editorial-v1",
+      "lecture_id": "MS-094",
+      "status": "active_draft_reviewed_not_promoted",
+      "formal_publication": false,
+      "full_lecture_production_complete": false,
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "후보생 신상변동 통보",
+        "subtitle": "수련기관·학교의 장이 14일 이내 통보",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "일반 신상변동",
+            "items": [
+              {
+                "label": "학업·자격",
+                "text": "학교·과정 중단\n제한연령 내 이수·취득 불가",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "군전공의",
+                "text": "병무청장 허가 없는 기관·전공 변경\n또는 퇴직",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "그 밖의 경우",
+                "text": "가사사정 해당",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "군종 및 공통",
+            "items": [
+              {
+                "label": "군종",
+                "text": "전학·종교단체 이탈\n성직취득 보장 철회",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "본인 의사",
+                "text": "후보생 신분 포기 희망",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "학업 일정",
+                "text": "과정을 마치는 연도·월 변경",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "관할 지방병무청장에게 통보 / 군종사관후보생은 국방부장관에게",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            168,
+            170
+          ]
+        ]
+      },
+      "content_sha256": "1ac86b0f8d06363db51bb9c30c3d2e7bda4447146760a0bc6103989d041787dd",
+      "artifacts": {
+        "svg": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-change-notification.svg",
+          "bytes": 5410,
+          "sha256": "0fb2590269f534001628b999b5f8bc08013916e614ad4508ef00b32eac25b432",
+          "dimensions": [
+            1600,
+            1120
+          ]
+        },
+        "webp": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-change-notification.webp",
+          "bytes": 40820,
+          "sha256": "25416025606f1045a395550b556ddbe36a61a310a711578f8adf9e82b38b1286",
+          "dimensions": [
+            1600,
+            1120
+          ],
+          "encoding": "lossless_webp"
+        }
+      },
+      "source": {
+        "authority": "existing_exam80_lecture_script",
+        "pinned_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+        "private_source_path": "docs/merged-lectures/병역법/본법_58.txt",
+        "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "script_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+        "script_bytes": 49822,
+        "script_identity_verified": true,
+        "line_spans": [
+          [
+            168,
+            170
+          ]
+        ],
+        "line_anchors": [
+          168,
+          170
+        ]
+      },
+      "evidence_refs": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/5"
+        },
+        {
+          "evidence_document": "correction94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-094-draft-corrections.json",
+          "json_pointer": "/source_mapping_only_changes/0"
+        },
+        {
+          "evidence_document": "source_index",
+          "path": "military-service-act/script-sources-exam80.json",
+          "json_pointer": "/lectures/93"
+        },
+        {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/7"
+        },
+        {
+          "evidence_document": "audit94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-draft-094.json",
+          "json_pointer": "/pages/5"
+        }
+      ],
+      "applied_patch_refs": [
+        {
+          "kind": "source_mapping_patch",
+          "evidence_ref": {
+            "evidence_document": "correction94",
+            "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-094-draft-corrections.json",
+            "json_pointer": "/source_mapping_only_changes/0/source_mapping_patch"
+          }
+        }
+      ],
+      "supersedes": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/5"
+        },
+        {
+          "evidence_document": "checkpoint17",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json",
+          "json_pointer": "/script_topic_mapping/5"
+        }
+      ],
+      "validation": {
+        "svg_text_sequence_matches_snapshot": true,
+        "content_text_fields_checked": 17,
+        "comparison": "공백 및 줄바꿈만 제거한 뒤 제목·부제·섹션·라벨·본문·정리의 순서 전체를 실제 SVG text 요소와 비교; 공통 머리글·바닥글만 제외",
+        "missing_content_strings": [],
+        "content_alignment_status": "reviewed_no_confirmed_defect",
+        "actual_artifacts_match_latest_evidence_hashes": true,
+        "visual_review_status": "pass",
+        "visual_evidence_ref": {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/7"
+        }
+      }
+    },
+    {
+      "id": "MS-094-D14-editorial-v1",
+      "lecture_id": "MS-094",
+      "status": "active_draft_reviewed_not_promoted",
+      "formal_publication": false,
+      "full_lecture_production_complete": false,
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "사관후보생 제적과 예외",
+        "subtitle": "일반 처리와 군전공의요원 예외",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "제적 후 처리",
+            "items": [
+              {
+                "label": "일반 제적",
+                "text": "신체등급에 따라 현역병 입영\n또는 사회복무요원 소집 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "가사사정",
+                "text": "생계곤란 → 전시근로역\n전사·순직자 등 가족 → 보충역",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "군전공의 예외",
+            "items": [
+              {
+                "label": "제적하지 않는 경우",
+                "text": "제한연령까지 수련 미완료\n허가 없는 수련기관 변경·퇴직",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "처리",
+                "text": "의무사관후보생으로 입영",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "이유",
+                "text": "이미 의사 자격 보유",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "35세까지 특수병과 현역장교 편입 가능",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            150,
+            176
+          ]
+        ]
+      },
+      "content_sha256": "b57ca85851da758fab1e019560b6dd18285f69b2ebb688d4f86d50778c331863",
+      "artifacts": {
+        "svg": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-removal-exception.svg",
+          "bytes": 5035,
+          "sha256": "e5501a2d3959249dc3617dcd214f30bc60684a466451a5e7c380ae56b9f9a038",
+          "dimensions": [
+            1600,
+            1120
+          ]
+        },
+        "webp": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-removal-exception.webp",
+          "bytes": 39420,
+          "sha256": "9f9d5b49382febf5060f6b81fe04542ccf09c0689b4850ed1c8681b31991c523",
+          "dimensions": [
+            1600,
+            1120
+          ],
+          "encoding": "lossless_webp"
+        }
+      },
+      "source": {
+        "authority": "existing_exam80_lecture_script",
+        "pinned_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+        "private_source_path": "docs/merged-lectures/병역법/본법_58.txt",
+        "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "script_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+        "script_bytes": 49822,
+        "script_identity_verified": true,
+        "line_spans": [
+          [
+            150,
+            176
+          ]
+        ],
+        "line_anchors": [
+          150,
+          152,
+          166,
+          172,
+          174,
+          176
+        ]
+      },
+      "evidence_refs": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/6"
+        },
+        {
+          "evidence_document": "correction94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-094-draft-corrections.json",
+          "json_pointer": "/source_mapping_only_changes/1"
+        },
+        {
+          "evidence_document": "source_index",
+          "path": "military-service-act/script-sources-exam80.json",
+          "json_pointer": "/lectures/93"
+        },
+        {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/8"
+        },
+        {
+          "evidence_document": "audit94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-draft-094.json",
+          "json_pointer": "/pages/6"
+        }
+      ],
+      "applied_patch_refs": [
+        {
+          "kind": "source_mapping_patch",
+          "evidence_ref": {
+            "evidence_document": "correction94",
+            "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-094-draft-corrections.json",
+            "json_pointer": "/source_mapping_only_changes/1/source_mapping_patch"
+          }
+        }
+      ],
+      "supersedes": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/6"
+        },
+        {
+          "evidence_document": "checkpoint17",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json",
+          "json_pointer": "/script_topic_mapping/6"
+        }
+      ],
+      "validation": {
+        "svg_text_sequence_matches_snapshot": true,
+        "content_text_fields_checked": 15,
+        "comparison": "공백 및 줄바꿈만 제거한 뒤 제목·부제·섹션·라벨·본문·정리의 순서 전체를 실제 SVG text 요소와 비교; 공통 머리글·바닥글만 제외",
+        "missing_content_strings": [],
+        "content_alignment_status": "reviewed_no_confirmed_defect",
+        "actual_artifacts_match_latest_evidence_hashes": true,
+        "visual_review_status": "pass",
+        "visual_evidence_ref": {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/8"
+        }
+      }
+    },
+    {
+      "id": "MS-094-D15-editorial-v1",
+      "lecture_id": "MS-094",
+      "status": "active_draft_reviewed_not_promoted",
+      "formal_publication": false,
+      "full_lecture_production_complete": false,
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "입영과 현역장교 편입 일정",
+        "subtitle": "입영일과 교육 수료일을 구분",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "입영 전",
+            "items": [
+              {
+                "label": "40일 전까지",
+                "text": "국방부장관: 입영기본계획서\n병무청장·해당 군 참모총장에게",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "20일 전까지",
+                "text": "입영 명단: 병무청장을 거쳐\n지방병무청장에게",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "7일 전까지",
+                "text": "지방병무청장: 본인에게\n현역입영 통지서 송달",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "교육 및 편입",
+            "items": [
+              {
+                "label": "통지 예외",
+                "text": "전문의 시험 결과 미확인 의무·수의\n편입 대상자: 입영 전날까지 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "수료 10일 전까지",
+                "text": "입영부대의 장 → 국방부장관\n교육수료 명단 보고",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "교육 수료 다음 날",
+                "text": "국방부장관: 현역장교 병적 편입",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "계획 40 · 명단 20 · 통지 7 / 수료 보고 10 · 편입 다음 날",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            240,
+            242
+          ]
+        ]
+      },
+      "content_sha256": "2ccbe90e5a3b3fcb3ba7d40070de913604f83c29aa272cdac95287e7088f2715",
+      "artifacts": {
+        "svg": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/officer-entry-timeline.svg",
+          "bytes": 5868,
+          "sha256": "497c0649e2e1d51ead478e63621c397413d39cfc05ec05615d1525e6015d5842",
+          "dimensions": [
+            1600,
+            1120
+          ]
+        },
+        "webp": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/officer-entry-timeline.webp",
+          "bytes": 51140,
+          "sha256": "7a71a75f07699700863012544cecdcb9f0b2d396e12974be3fa25268c0210c77",
+          "dimensions": [
+            1600,
+            1120
+          ],
+          "encoding": "lossless_webp"
+        }
+      },
+      "source": {
+        "authority": "existing_exam80_lecture_script",
+        "pinned_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+        "private_source_path": "docs/merged-lectures/병역법/본법_58.txt",
+        "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "script_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+        "script_bytes": 49822,
+        "script_identity_verified": true,
+        "line_spans": [
+          [
+            240,
+            242
+          ]
+        ],
+        "line_anchors": [
+          240,
+          242
+        ]
+      },
+      "evidence_refs": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/7"
+        },
+        {
+          "evidence_document": "source_index",
+          "path": "military-service-act/script-sources-exam80.json",
+          "json_pointer": "/lectures/93"
+        },
+        {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/9"
+        },
+        {
+          "evidence_document": "audit94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-draft-094.json",
+          "json_pointer": "/pages/7"
+        }
+      ],
+      "applied_patch_refs": [],
+      "supersedes": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/7"
+        },
+        {
+          "evidence_document": "checkpoint17",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json",
+          "json_pointer": "/script_topic_mapping/7"
+        }
+      ],
+      "validation": {
+        "svg_text_sequence_matches_snapshot": true,
+        "content_text_fields_checked": 17,
+        "comparison": "공백 및 줄바꿈만 제거한 뒤 제목·부제·섹션·라벨·본문·정리의 순서 전체를 실제 SVG text 요소와 비교; 공통 머리글·바닥글만 제외",
+        "missing_content_strings": [],
+        "content_alignment_status": "reviewed_no_confirmed_defect",
+        "actual_artifacts_match_latest_evidence_hashes": true,
+        "visual_review_status": "pass",
+        "visual_evidence_ref": {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/9"
+        }
+      }
+    },
+    {
+      "id": "MS-094-D16-editorial-v1",
+      "lecture_id": "MS-094",
+      "status": "active_draft_reviewed_not_promoted",
+      "formal_publication": false,
+      "full_lecture_production_complete": false,
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "귀가자의 재신체검사 처리",
+        "subtitle": "치유기간 기재 여부에 따라 분기",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "치유기간이 명시됨",
+            "items": [
+              {
+                "label": "3개월 미만",
+                "text": "기간 경과 후 다음 입영일에 입영\n재신체검사 생략 가능",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "3개월 이상",
+                "text": "기간 경과 후 재신체검사\n신체등급에 따라 처분",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "추가 처리",
+            "items": [
+              {
+                "label": "치유기간 미기재",
+                "text": "지체 없이 재신체검사",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "재신체검사 1~4급",
+                "text": "다음 입영일에 다시 입영",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "같은 질병으로 다시 귀가",
+                "text": "재입영 후 입영신체검사일부터\n치유기간 계산",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "법률상 주체: 병무청장 / 시행령 재검 처리: 지방병무청장",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            218,
+            238
+          ]
+        ]
+      },
+      "content_sha256": "f43d5291c66c28e3c24b9dd4c8f00dd52b8987c741e8431924a5384558e2bc5a",
+      "artifacts": {
+        "svg": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/returned-candidate-reexamination.svg",
+          "bytes": 5079,
+          "sha256": "5ebafd4bf877944a4a796d9aa6aad218a18335df6823c0efcb33fb2086d9bd11",
+          "dimensions": [
+            1600,
+            1120
+          ]
+        },
+        "webp": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/returned-candidate-reexamination.webp",
+          "bytes": 42580,
+          "sha256": "d5f6aae305291e59c321163efdf90df38d1e3e3700a1a86627c88d70735a8676",
+          "dimensions": [
+            1600,
+            1120
+          ],
+          "encoding": "lossless_webp"
+        }
+      },
+      "source": {
+        "authority": "existing_exam80_lecture_script",
+        "pinned_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+        "private_source_path": "docs/merged-lectures/병역법/본법_58.txt",
+        "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "script_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+        "script_bytes": 49822,
+        "script_identity_verified": true,
+        "line_spans": [
+          [
+            218,
+            238
+          ]
+        ],
+        "line_anchors": [
+          218,
+          238
+        ]
+      },
+      "evidence_refs": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/8"
+        },
+        {
+          "evidence_document": "source_index",
+          "path": "military-service-act/script-sources-exam80.json",
+          "json_pointer": "/lectures/93"
+        },
+        {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/10"
+        },
+        {
+          "evidence_document": "audit94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-draft-094.json",
+          "json_pointer": "/pages/8"
+        }
+      ],
+      "applied_patch_refs": [],
+      "supersedes": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/8"
+        },
+        {
+          "evidence_document": "checkpoint17",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json",
+          "json_pointer": "/script_topic_mapping/8"
+        }
+      ],
+      "validation": {
+        "svg_text_sequence_matches_snapshot": true,
+        "content_text_fields_checked": 15,
+        "comparison": "공백 및 줄바꿈만 제거한 뒤 제목·부제·섹션·라벨·본문·정리의 순서 전체를 실제 SVG text 요소와 비교; 공통 머리글·바닥글만 제외",
+        "missing_content_strings": [],
+        "content_alignment_status": "reviewed_no_confirmed_defect",
+        "actual_artifacts_match_latest_evidence_hashes": true,
+        "visual_review_status": "pass",
+        "visual_evidence_ref": {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/10"
+        }
+      }
+    },
+    {
+      "id": "MS-094-D17-editorial-v1",
+      "lecture_id": "MS-094",
+      "status": "active_draft_reviewed_not_promoted",
+      "formal_publication": false,
+      "full_lecture_production_complete": false,
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "군종장교운영심사위원회 세부 구성",
+        "subtitle": "위원회는 국방부에 설치",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "위원 구성",
+            "items": [
+              {
+                "label": "위원장",
+                "text": "국방부 인사복지실장",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "국방부 소속 위원",
+                "text": "인사기획관·군종업무 담당 과장\n장관 지정 대령 이상 또는 4급 이상 등",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "각 군 위원",
+                "text": "육군·해군·공군 본부\n인사참모부장",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "위원회 운영 보조",
+            "items": [
+              {
+                "label": "간사 1명",
+                "text": "국방부 공무원 중 위원장이 임명",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "전문위원회",
+                "text": "종교 선정 사전 검토를 위해\n둘 수 있음",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "수당·여비",
+                "text": "민간위원·전문가에게\n예산 범위에서 지급 가능",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "위원장 포함 8~11명 / 특정 종교 신자 3분의 1 미만",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            264,
+            276
+          ]
+        ]
+      },
+      "content_sha256": "5a79b0418f8de52e28db8a74cc181af13d8bacef6d709b678485e750623bf481",
+      "artifacts": {
+        "svg": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/chaplain-committee-members.svg",
+          "bytes": 5633,
+          "sha256": "a8ba2f4a6be0b2e31fd0d2f11cab3f66d3f0b482cb9fd65757d1d8b65512d76d",
+          "dimensions": [
+            1600,
+            1120
+          ]
+        },
+        "webp": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/chaplain-committee-members.webp",
+          "bytes": 45264,
+          "sha256": "43ad0200d99203d757315cfbb1bcf7d26c3e50bf63b1f2e2e5212faffd63e7d6",
+          "dimensions": [
+            1600,
+            1120
+          ],
+          "encoding": "lossless_webp"
+        }
+      },
+      "source": {
+        "authority": "existing_exam80_lecture_script",
+        "pinned_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+        "private_source_path": "docs/merged-lectures/병역법/본법_58.txt",
+        "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "script_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+        "script_bytes": 49822,
+        "script_identity_verified": true,
+        "line_spans": [
+          [
+            264,
+            276
+          ]
+        ],
+        "line_anchors": [
+          264,
+          276
+        ]
+      },
+      "evidence_refs": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/9"
+        },
+        {
+          "evidence_document": "source_index",
+          "path": "military-service-act/script-sources-exam80.json",
+          "json_pointer": "/lectures/93"
+        },
+        {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/11"
+        },
+        {
+          "evidence_document": "audit94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-draft-094.json",
+          "json_pointer": "/pages/9"
+        }
+      ],
+      "applied_patch_refs": [],
+      "supersedes": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/9"
+        },
+        {
+          "evidence_document": "checkpoint17",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json",
+          "json_pointer": "/script_topic_mapping/9"
+        }
+      ],
+      "validation": {
+        "svg_text_sequence_matches_snapshot": true,
+        "content_text_fields_checked": 17,
+        "comparison": "공백 및 줄바꿈만 제거한 뒤 제목·부제·섹션·라벨·본문·정리의 순서 전체를 실제 SVG text 요소와 비교; 공통 머리글·바닥글만 제외",
+        "missing_content_strings": [],
+        "content_alignment_status": "reviewed_no_confirmed_defect",
+        "actual_artifacts_match_latest_evidence_hashes": true,
+        "visual_review_status": "pass",
+        "visual_evidence_ref": {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/11"
+        }
+      }
+    },
+    {
+      "id": "MS-094-D18-editorial-v1",
+      "lecture_id": "MS-094",
+      "status": "active_draft_corrected_reviewed_not_promoted",
+      "formal_publication": false,
+      "full_lecture_production_complete": false,
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "후보생에서 현역장교로 선발",
+        "subtitle": "의무·법무·수의 분야의 선발 기준",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "의무 분야",
+            "items": [
+              {
+                "label": "일반 선발 대상",
+                "text": "의무사관후보생 과정 수료자",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "예외 선발 대상",
+                "text": "제한연령까지 수련 미완료\n병무청장 허가 없이 수련기관 변경\n수련기관에서 퇴직한 후보생",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "법무·수의",
+            "items": [
+              {
+                "label": "법무",
+                "text": "과정 수료 후 판사·검사·변호사\n자격을 취득한 사람",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "수의",
+                "text": "과정 수료 후 수의사 자격 취득자",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "명단 통보",
+                "text": "병무청장 → 국방부장관",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "선발 기준·절차는 대통령령 / 세부는 국방부령",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            168,
+            174
+          ],
+          [
+            278,
+            284
+          ]
+        ]
+      },
+      "content_sha256": "7e9341dd2300f1e3c954c685a2bb67c8df7cef4fd04fdaee0697412a300ebb61",
+      "artifacts": {
+        "svg": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-to-officer-selection.svg",
+          "bytes": 5068,
+          "sha256": "c97fabe7c9f51db32d4c669691948b14ccb791aaad378ec6a7593dff192d8205",
+          "dimensions": [
+            1600,
+            1120
+          ]
+        },
+        "webp": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-to-officer-selection.webp",
+          "bytes": 39356,
+          "sha256": "995e2e0b56e0618e7cf3fb2610ebb45ac5fa8bf043a911ee86c34b4e981cd94f",
+          "dimensions": [
+            1600,
+            1120
+          ],
+          "encoding": "lossless_webp"
+        }
+      },
+      "source": {
+        "authority": "existing_exam80_lecture_script",
+        "pinned_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+        "private_source_path": "docs/merged-lectures/병역법/본법_58.txt",
+        "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "script_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+        "script_bytes": 49822,
+        "script_identity_verified": true,
+        "line_spans": [
+          [
+            168,
+            174
+          ],
+          [
+            278,
+            284
+          ]
+        ],
+        "line_anchors": [
+          168,
+          170,
+          172,
+          174,
+          278,
+          284
+        ]
+      },
+      "evidence_refs": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/10"
+        },
+        {
+          "evidence_document": "correction94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-094-draft-corrections.json",
+          "json_pointer": "/changes/1"
+        },
+        {
+          "evidence_document": "source_index",
+          "path": "military-service-act/script-sources-exam80.json",
+          "json_pointer": "/lectures/93"
+        },
+        {
+          "evidence_document": "audit94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-draft-094.json",
+          "json_pointer": "/pages/10"
+        }
+      ],
+      "applied_patch_refs": [
+        {
+          "kind": "content_patch",
+          "evidence_ref": {
+            "evidence_document": "correction94",
+            "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-094-draft-corrections.json",
+            "json_pointer": "/changes/1/content_patch"
+          }
+        },
+        {
+          "kind": "source_mapping_patch",
+          "evidence_ref": {
+            "evidence_document": "correction94",
+            "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-094-draft-corrections.json",
+            "json_pointer": "/changes/1/source_mapping_patch"
+          }
+        }
+      ],
+      "supersedes": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/10"
+        },
+        {
+          "evidence_document": "checkpoint17",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json",
+          "json_pointer": "/script_topic_mapping/10"
+        }
+      ],
+      "validation": {
+        "svg_text_sequence_matches_snapshot": true,
+        "content_text_fields_checked": 15,
+        "comparison": "공백 및 줄바꿈만 제거한 뒤 제목·부제·섹션·라벨·본문·정리의 순서 전체를 실제 SVG text 요소와 비교; 공통 머리글·바닥글만 제외",
+        "missing_content_strings": [],
+        "content_alignment_status": "reviewed_after_source_correction",
+        "actual_artifacts_match_latest_evidence_hashes": true,
+        "visual_review_status": "pass",
+        "visual_evidence_ref": {
+          "evidence_document": "correction94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-094-draft-corrections.json",
+          "json_pointer": "/changes/1/validation"
+        }
+      }
+    },
+    {
+      "id": "MS-094-D19-editorial-v1",
+      "lecture_id": "MS-094",
+      "status": "active_draft_reviewed_not_promoted",
+      "formal_publication": false,
+      "full_lecture_production_complete": false,
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "군사교육 및 입영 명부 관리",
+        "subtitle": "장교 편입 대상자의 입영 전후 처리",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "군사교육 대상",
+            "items": [
+              {
+                "label": "군사교육 가능",
+                "text": "법 제58조 제1·3항 및 제59조\n현역장교 병적 편입 대상자",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "임용결격사유 조회",
+                "text": "병무청장: 해당 관서에 조회\n결격자는 병적 제외 후 원신분 복귀",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "입영 명부 처리",
+            "items": [
+              {
+                "label": "입영부대의 장",
+                "text": "입영·미입영(귀가자 포함) 명부와\n병적기록표를 지방병무청장에게",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "지방병무청장",
+                "text": "현황을 지체 없이 병무청장에게\n보고",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "사회복무요원 소집 대상자 일반을 군사교육 대상으로 바꾸지 않음",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            174,
+            190
+          ],
+          [
+            238,
+            244
+          ]
+        ]
+      },
+      "content_sha256": "e997477fa9b2949fb8273bcb5b6350940104e3b12847bd068b9734658d22ef2d",
+      "artifacts": {
+        "svg": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/officer-training-and-records.svg",
+          "bytes": 4909,
+          "sha256": "3d25a66ac2943802db24e7a594e2aa5321440477814e4535f8540cd8d04fadb5",
+          "dimensions": [
+            1600,
+            1120
+          ]
+        },
+        "webp": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/officer-training-and-records.webp",
+          "bytes": 45212,
+          "sha256": "faf7857cb3c88c73f9c449b31a47fa6d95604952710181c35370788c6b2384c4",
+          "dimensions": [
+            1600,
+            1120
+          ],
+          "encoding": "lossless_webp"
+        }
+      },
+      "source": {
+        "authority": "existing_exam80_lecture_script",
+        "pinned_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+        "private_source_path": "docs/merged-lectures/병역법/본법_58.txt",
+        "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "script_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+        "script_bytes": 49822,
+        "script_identity_verified": true,
+        "line_spans": [
+          [
+            174,
+            190
+          ],
+          [
+            238,
+            244
+          ]
+        ],
+        "line_anchors": [
+          174,
+          190,
+          238,
+          244
+        ]
+      },
+      "evidence_refs": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/11"
+        },
+        {
+          "evidence_document": "source_index",
+          "path": "military-service-act/script-sources-exam80.json",
+          "json_pointer": "/lectures/93"
+        },
+        {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/13"
+        },
+        {
+          "evidence_document": "audit94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-draft-094.json",
+          "json_pointer": "/pages/11"
+        }
+      ],
+      "applied_patch_refs": [],
+      "supersedes": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/11"
+        },
+        {
+          "evidence_document": "checkpoint17",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json",
+          "json_pointer": "/script_topic_mapping/11"
+        }
+      ],
+      "validation": {
+        "svg_text_sequence_matches_snapshot": true,
+        "content_text_fields_checked": 13,
+        "comparison": "공백 및 줄바꿈만 제거한 뒤 제목·부제·섹션·라벨·본문·정리의 순서 전체를 실제 SVG text 요소와 비교; 공통 머리글·바닥글만 제외",
+        "missing_content_strings": [],
+        "content_alignment_status": "reviewed_no_confirmed_defect",
+        "actual_artifacts_match_latest_evidence_hashes": true,
+        "visual_review_status": "pass",
+        "visual_evidence_ref": {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/13"
+        }
+      }
+    },
+    {
+      "id": "MS-094-D20-editorial-v1",
+      "lecture_id": "MS-094",
+      "status": "active_draft_reviewed_not_promoted",
+      "formal_publication": false,
+      "full_lecture_production_complete": false,
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "사관후보생 지원 증빙서류",
+        "subtitle": "선발 점수에 사용하는 성적의 증명",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "분야별 서류",
+            "items": [
+              {
+                "label": "의무",
+                "text": "면허시험 성적증명서",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "법무",
+                "text": "사법시험 성적 또는 법학적성시험\n성적과 1학년 성적 증명",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "수의",
+                "text": "본과 1·2학년 성적증명서",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "추가 확인",
+            "items": [
+              {
+                "label": "주민등록표 등본",
+                "text": "병무청장이 행정정보 공동이용으로\n확인, 미동의 시 본인 첨부",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "대체 편입 희망",
+                "text": "장교 미선발 시 공중보건의사\n공익법무관 등 편입 희망 기재 가능",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "지원서류는 시행규칙 제79조",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            124,
+            132
+          ]
+        ]
+      },
+      "content_sha256": "c9d86195410caa0029a2dcc088d21f5e2b11d02341af9594407cec811ca1e944",
+      "artifacts": {
+        "svg": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-application-documents.svg",
+          "bytes": 5036,
+          "sha256": "bef427a9c3853dd819c338af5fb1affdff3102571950650d7ceea33b8014dd53",
+          "dimensions": [
+            1600,
+            1120
+          ]
+        },
+        "webp": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-application-documents.webp",
+          "bytes": 40292,
+          "sha256": "6dede35cde3da821931e368d9e421fbc58a66f80c84ed3f6c5a21318e686c10b",
+          "dimensions": [
+            1600,
+            1120
+          ],
+          "encoding": "lossless_webp"
+        }
+      },
+      "source": {
+        "authority": "existing_exam80_lecture_script",
+        "pinned_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+        "private_source_path": "docs/merged-lectures/병역법/본법_58.txt",
+        "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "script_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+        "script_bytes": 49822,
+        "script_identity_verified": true,
+        "line_spans": [
+          [
+            124,
+            132
+          ]
+        ],
+        "line_anchors": [
+          124,
+          132
+        ]
+      },
+      "evidence_refs": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/12"
+        },
+        {
+          "evidence_document": "source_index",
+          "path": "military-service-act/script-sources-exam80.json",
+          "json_pointer": "/lectures/93"
+        },
+        {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/14"
+        },
+        {
+          "evidence_document": "audit94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-draft-094.json",
+          "json_pointer": "/pages/12"
+        }
+      ],
+      "applied_patch_refs": [],
+      "supersedes": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/12"
+        },
+        {
+          "evidence_document": "checkpoint17",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json",
+          "json_pointer": "/script_topic_mapping/12"
+        }
+      ],
+      "validation": {
+        "svg_text_sequence_matches_snapshot": true,
+        "content_text_fields_checked": 15,
+        "comparison": "공백 및 줄바꿈만 제거한 뒤 제목·부제·섹션·라벨·본문·정리의 순서 전체를 실제 SVG text 요소와 비교; 공통 머리글·바닥글만 제외",
+        "missing_content_strings": [],
+        "content_alignment_status": "reviewed_no_confirmed_defect",
+        "actual_artifacts_match_latest_evidence_hashes": true,
+        "visual_review_status": "pass",
+        "visual_evidence_ref": {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/14"
+        }
+      }
+    },
+    {
+      "id": "MS-094-D21-editorial-v1",
+      "lecture_id": "MS-094",
+      "status": "active_draft_reviewed_not_promoted",
+      "formal_publication": false,
+      "full_lecture_production_complete": false,
+      "content": {
+        "lecture_id": "MS-094",
+        "title": "군간부후보생 교육기관 퇴교",
+        "subtitle": "질병이 아닌 사유로 퇴교된 경우",
+        "layout": "compare",
+        "source_keys": [],
+        "sections": [
+          {
+            "heading": "교육기관의 장",
+            "items": [
+              {
+                "label": "지체 없이",
+                "text": "퇴교자 명단과 병적기록표를\n지방병무청장에게 전달",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "지방병무청장",
+            "items": [
+              {
+                "label": "장교 편입 대상에서 제외",
+                "text": "현역병입영 대상자 또는\n사회복무요원 소집 대상자로 관리",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "구별",
+                "text": "질병으로 인한 퇴교와는\n별개의 처리",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "시행규칙 제25조: 질병이 아닌 사유",
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            178,
+            178
+          ]
+        ]
+      },
+      "content_sha256": "e4793367b1da78f559cffce0d4c05eeae168107b9a4089fc505fd86df378d3a2",
+      "artifacts": {
+        "svg": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/non-illness-discharge.svg",
+          "bytes": 4229,
+          "sha256": "bf598bb8a46acfe45f4086977be5af95cdd9ff767f0a7adcfb399bc3f48e1a88",
+          "dimensions": [
+            1600,
+            1120
+          ]
+        },
+        "webp": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/non-illness-discharge.webp",
+          "bytes": 33722,
+          "sha256": "73a00850ab5952a1a1a46fba4450f40db69d1bc38a2abe548beacb5f47c0f326",
+          "dimensions": [
+            1600,
+            1120
+          ],
+          "encoding": "lossless_webp"
+        }
+      },
+      "source": {
+        "authority": "existing_exam80_lecture_script",
+        "pinned_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+        "private_source_path": "docs/merged-lectures/병역법/본법_58.txt",
+        "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+        "script_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+        "script_bytes": 49822,
+        "script_identity_verified": true,
+        "line_spans": [
+          [
+            178,
+            178
+          ]
+        ],
+        "line_anchors": [
+          178
+        ]
+      },
+      "evidence_refs": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/13"
+        },
+        {
+          "evidence_document": "correction94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-094-draft-corrections.json",
+          "json_pointer": "/source_mapping_only_changes/2"
+        },
+        {
+          "evidence_document": "source_index",
+          "path": "military-service-act/script-sources-exam80.json",
+          "json_pointer": "/lectures/93"
+        },
+        {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/15"
+        },
+        {
+          "evidence_document": "audit94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-draft-094.json",
+          "json_pointer": "/pages/13"
+        }
+      ],
+      "applied_patch_refs": [
+        {
+          "kind": "source_mapping_patch",
+          "evidence_ref": {
+            "evidence_document": "correction94",
+            "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-094-draft-corrections.json",
+            "json_pointer": "/source_mapping_only_changes/2/source_mapping_patch"
+          }
+        }
+      ],
+      "supersedes": [
+        {
+          "evidence_document": "draft94",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+          "json_pointer": "/13"
+        },
+        {
+          "evidence_document": "checkpoint17",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-17-MS-094-coverage-drafts.json",
+          "json_pointer": "/script_topic_mapping/13"
+        }
+      ],
+      "validation": {
+        "svg_text_sequence_matches_snapshot": true,
+        "content_text_fields_checked": 11,
+        "comparison": "공백 및 줄바꿈만 제거한 뒤 제목·부제·섹션·라벨·본문·정리의 순서 전체를 실제 SVG text 요소와 비교; 공통 머리글·바닥글만 제외",
+        "missing_content_strings": [],
+        "content_alignment_status": "reviewed_no_confirmed_defect",
+        "actual_artifacts_match_latest_evidence_hashes": true,
+        "visual_review_status": "pass",
+        "visual_evidence_ref": {
+          "evidence_document": "visual_active",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-active-drafts.json",
+          "json_pointer": "/pages/15"
+        }
+      }
+    },
+    {
+      "id": "MS-109-D09-editorial-v1",
+      "lecture_id": "MS-109",
+      "status": "active_draft_held_source_scope_ambiguity",
+      "formal_publication": false,
+      "full_lecture_production_complete": false,
+      "content": {
+        "lecture_id": "MS-109",
+        "title": "국외여행 제한 유형과 예외",
+        "subtitle": "시행령 제145조 · 제한 사유와 예외의 구분",
+        "layout": "compare",
+        "sections": [
+          {
+            "heading": "제한 사유 6가지",
+            "items": [
+              {
+                "label": "검사·입영·소집",
+                "text": "기피 중 또는 기피한 사실",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "사회복무요원 등의 복무",
+                "text": "이탈 중 또는 이탈한 사실",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "국외여행허가 의무",
+                "text": "위반한 사실",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "연기·소집 해제처분",
+                "text": "정해진 사유로 취소",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "병역 기피·감면 목적",
+                "text": "도망·은신·신체손상·속임수",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "병역의무부과 통지서",
+                "text": "정당한 사유 없이 미수령",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "제한할 수 없는 사유",
+            "items": [
+              {
+                "label": "가족 사망",
+                "text": "국외 거주 배우자, 본인·배우자의 형제자매·직계존속·직계비속",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "본인 질병",
+                "text": "국내에서 치료 곤란",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "가사 정리",
+                "text": "입영·소집을 위한 경우",
+                "ref": "제80회 강의 원고"
+              },
+              {
+                "label": "제한 조치의 주체",
+                "text": "병무청장",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          }
+        ],
+        "takeaway": "복무 중인 사람의 제외 적용 범위는 원고상 불명확하여 별도 검토 보류",
+        "source_keys": [],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            58,
+            95
+          ]
+        ]
+      },
+      "content_sha256": "28f34d15d63aab4419347033064990b84eeaa9c626e970eea43db15462b6e178",
+      "artifacts": {
+        "svg": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-109/restriction-grounds-and-exceptions-revised.svg",
+          "bytes": 6529,
+          "sha256": "a765f530f100072f69549f53c96dd4bda6f0f0df79963171774b61f66a73181a",
+          "dimensions": [
+            1600,
+            1120
+          ]
+        },
+        "webp": {
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-109/restriction-grounds-and-exceptions-revised.webp",
+          "bytes": 54180,
+          "sha256": "f5f35833ffc62bea23dcda22d7f98191d5c3e6c6fad2faa76d7a33bdd580a511",
+          "dimensions": [
+            1600,
+            1120
+          ],
+          "encoding": "lossless_webp"
+        }
+      },
+      "source": {
+        "authority": "existing_exam80_lecture_script",
+        "pinned_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+        "private_source_path": "docs/merged-lectures/병역법/본법_70.txt",
+        "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+        "script_sha256": "cef65091efcc97d0698da1fd1213af04b41917c7805d640048e9e955dd3e3ac9",
+        "script_bytes": 39903,
+        "script_identity_verified": true,
+        "line_spans": [
+          [
+            58,
+            95
+          ]
+        ],
+        "line_anchors": [
+          58,
+          95
+        ]
+      },
+      "evidence_refs": [
+        {
+          "evidence_document": "checkpoint12",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-12.json",
+          "json_pointer": "/records/0/content"
+        },
+        {
+          "evidence_document": "source_index",
+          "path": "military-service-act/script-sources-exam80.json",
+          "json_pointer": "/lectures/108"
+        },
+        {
+          "evidence_document": "visual_correction109",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-draft-correction.json"
+        }
+      ],
+      "applied_patch_refs": [],
+      "supersedes": [
+        {
+          "evidence_document": "checkpoint12",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-12.json",
+          "json_pointer": "/records/0/content"
+        }
+      ],
+      "validation": {
+        "svg_text_sequence_matches_snapshot": true,
+        "content_text_fields_checked": 25,
+        "comparison": "공백 및 줄바꿈만 제거한 뒤 제목·부제·섹션·라벨·본문·정리의 순서 전체를 실제 SVG text 요소와 비교; 공통 머리글·바닥글만 제외",
+        "missing_content_strings": [],
+        "content_alignment_status": "pending_source_scope_ambiguity",
+        "actual_artifacts_match_latest_evidence_hashes": true,
+        "visual_review_status": "pass",
+        "visual_evidence_ref": {
+          "evidence_document": "visual_correction109",
+          "path": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/visual-draft-correction.json",
+          "json_pointer": "/verification"
+        }
+      },
+      "hold": {
+        "reason": "복무 중인 사람의 제외 적용 범위가 원고상 불명확하여 정식 반영 보류",
+        "source_line": 87,
+        "content_unchanged_from_original": true,
+        "latest_change_scope": "font_and_layout_only",
+        "automatic_promotion_allowed": false,
+        "evidence_ref": {
+          "evidence_document": "checkpoint12",
+          "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/checkpoint-12.json",
+          "json_pointer": "/unresolved/0"
+        }
+      }
+    }
+  ],
+  "verification": {
+    "all_expected_ids_present": true,
+    "all_actual_svg_webp_files_exist": true,
+    "all_17_svgs_text_match_snapshot": true,
+    "all_17_webps_1600x1120_lossless": true,
+    "all_actual_artifacts_match_latest_evidence_hashes": true,
+    "historical_evidence_files_unchanged": true,
+    "queue_manifest_render_requests_modified": false,
+    "source_fulltext_included": false
+  }
+}

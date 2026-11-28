@@ -484,10 +484,12 @@
     "completed_lectures": []
   },
   "current_review_totals": {
-    "verified_existing_pages": 25,
-    "pending_existing_pages": 258,
+    "verified_existing_pages": 283,
+    "pending_existing_pages": 0,
     "completed_lectures": 19,
-    "published_pages": 316
+    "published_pages": 316,
+    "published_diagram_claims_verified_pages": 316,
+    "pending_full_script_coverage_lectures": 147
   },
   "latest_coverage_review": {
     "date_kst": "2026-11-28",
@@ -504,5 +506,18 @@
     "new_images": 0,
     "corrected_images": 0,
     "publication_parent": "3e78aa08fe1db42ce20c1937a4c28e5404cd192f"
+  },
+  "historical_record_scope": "상단 대표검수·paused 상태·당시 발견0건 등은 2026-11-27 최초 표본검수 이력이다. 현재 상태는 current_review_totals와 latest_full_asset_audit를 따른다.",
+  "latest_full_asset_audit": {
+    "date_kst": "2026-11-28",
+    "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+    "evidence_ref": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/REPORT.md",
+    "published_pages_reviewed": 316,
+    "body_items_plus_takeaways": 1423,
+    "official_content_corrected_pages": 11,
+    "official_rerendered_pages": 22,
+    "full_script_coverage_newly_completed_lectures": 0,
+    "completed_lectures": 19,
+    "pending_lectures": 147
   }
 }

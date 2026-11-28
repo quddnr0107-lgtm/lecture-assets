@@ -25,13 +25,13 @@
       "files": {
         "svg": {
           "path": "military-service-act/lesson-149/diagrams/MS-149-D01-editorial-v1.svg",
-          "bytes": 6889,
-          "sha256": "7a1008253a7e48e918fc202295ffbb71755d783c9227b96ade221ec50817d4c0"
+          "bytes": 6418,
+          "sha256": "19fecd5b1123f647d61aadead54ec7e43b7a4e21d2518257b0ec9763ab027835"
         },
         "webp": {
           "path": "military-service-act/lesson-149/diagrams/MS-149-D01-editorial-v1.webp",
-          "bytes": 38706,
-          "sha256": "ed188c5310686f432c22891fc95be194cc653eca072c2cda5f5707cf45663f46"
+          "bytes": 35362,
+          "sha256": "39c25108bbb14016644e50e47848a1b167fbd711608a78c96e9c292f20af31a9"
         }
       },
       "content": {
@@ -75,15 +75,22 @@
                 "label": "전시근로소집",
                 "text": "소집일부터 2일 경과",
                 "ref": "법 제88조제1항제4호"
-              },
-              {
-                "label": "법정형",
-                "text": "해당 기간이 지나도 입영·소집에 불응하면 3년 이하의 징역",
-                "ref": "법 제88조제1항 본문"
               }
             ]
           }
-        ]
+        ],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            31,
+            70
+          ],
+          [
+            94,
+            106
+          ]
+        ],
+        "takeaway": "3일·2일의 해당 기간이 지나도 불응하면 3년 이하의 징역"
       },
       "lecture_title": "병역법 제88조, 입영의 기피 등",
       "main_article": "병역법 제88조",
@@ -103,8 +110,22 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "published_diagram_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-111-166.json",
+        "reviewed_date_kst": "2026-11-28",
+        "full_script_coverage_certified_by_this_claim_review": false,
+        "source_line_spans": [
+          [
+            31,
+            70
+          ],
+          [
+            94,
+            106
+          ]
+        ],
+        "correction_ref": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/corrections.json"
       }
     },
     {
@@ -112,7 +133,7 @@
       "lecture_id": "MS-149",
       "lesson_number": 149,
       "diagram_number": 2,
-      "title": "대리입영과 전시근로 점검",
+      "title": "본인의 기피와 대리입영",
       "layout": "compare",
       "source_keys": [
         "병역법|본법|88"
@@ -123,54 +144,69 @@
       "files": {
         "svg": {
           "path": "military-service-act/lesson-149/diagrams/MS-149-D02-editorial-v1.svg",
-          "bytes": 6024,
-          "sha256": "cd793bb88bfd3ca33731c58a7f087f4b9e4d7ec0c5b232159dfdee026de9528d"
+          "bytes": 6256,
+          "sha256": "a5b7aab812af46c39dc8f015d446d7d7ed3aa003ccdd3015977cf047a65bb4ed"
         },
         "webp": {
           "path": "military-service-act/lesson-149/diagrams/MS-149-D02-editorial-v1.webp",
-          "bytes": 41680,
-          "sha256": "797fcdc3ae3457d2a48e5f05e92d69958623b9deca95babace12948e579f84bc"
+          "bytes": 44356,
+          "sha256": "6474766b99303fd06877aa53176951b818c2b1b1b622dcbbf5009d405e3bd21e"
         }
       },
       "content": {
         "lecture_id": "MS-149",
-        "title": "대리입영과 전시근로 점검",
-        "subtitle": "입영·소집과 점검 대리출석의 형을 구별",
+        "title": "본인의 기피와 대리입영",
+        "subtitle": "징역 상한은 3년 · 대리입영에는 1년의 하한",
         "layout": "compare",
         "source_keys": [
           "병역법|본법|88"
         ],
         "sections": [
           {
-            "heading": "대리입영·대리소집",
+            "heading": "본인의 입영·소집 기피",
             "items": [
               {
-                "label": "행위",
-                "text": "통지서를 받은 입영·소집 대상자를 대리하여 입영하거나 소집에 응함",
-                "ref": "법 제88조제2항 본문"
+                "label": "행위와 조건",
+                "text": "통지서를 받고 정당한 사유 없이 정해진 기간이 지나도 입영·소집에 불응",
+                "ref": "제80회 강의 원고"
               },
               {
                 "label": "법정형",
-                "text": "1년 이상 3년 이하의 징역",
-                "ref": "법 제88조제2항 본문"
+                "text": "3년 이하의 징역",
+                "ref": "제80회 강의 원고"
               }
             ]
           },
           {
-            "heading": "전시근로 점검 대리",
+            "heading": "대리입영·대리소집",
             "items": [
               {
-                "label": "행위",
-                "text": "제53조제2항에 따라 점검받을 사람을 대리하여 출석",
-                "ref": "법 제88조제2항 단서"
+                "label": "처벌 대상",
+                "text": "통지서를 받은 사람을 대신하여 입영하거나 소집에 응한 사람",
+                "ref": "제80회 강의 원고"
               },
               {
                 "label": "법정형",
-                "text": "1년 이하의 징역",
-                "ref": "법 제88조제2항 단서"
+                "text": "1년 이상 3년 이하의 징역",
+                "ref": "제80회 강의 원고"
               }
             ]
           }
+        ],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            15,
+            27
+          ],
+          [
+            31,
+            37
+          ],
+          [
+            84,
+            98
+          ]
         ]
       },
       "lecture_title": "병역법 제88조, 입영의 기피 등",
@@ -191,8 +227,26 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "published_diagram_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-111-166.json",
+        "reviewed_date_kst": "2026-11-28",
+        "full_script_coverage_certified_by_this_claim_review": false,
+        "source_line_spans": [
+          [
+            15,
+            27
+          ],
+          [
+            31,
+            37
+          ],
+          [
+            84,
+            98
+          ]
+        ],
+        "correction_ref": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/corrections.json"
       }
     },
     {
@@ -200,8 +254,8 @@
       "lecture_id": "MS-149",
       "lesson_number": 149,
       "diagram_number": 3,
-      "title": "전시근로소집 대비 점검 불참",
-      "layout": "compare",
+      "title": "입영기피의 세 가지 요건",
+      "layout": "flow",
       "source_keys": [
         "병역법|본법|88"
       ],
@@ -211,49 +265,65 @@
       "files": {
         "svg": {
           "path": "military-service-act/lesson-149/diagrams/MS-149-D03-editorial-v1.svg",
-          "bytes": 5715,
-          "sha256": "7f082f920f5a0cdc03a29658de58e18c79dc0da3f2aa8612a952a4d5803a30ca"
+          "bytes": 5902,
+          "sha256": "307bf1fb57b242c160f492c606feb5df5eed8e2efff5779fa8d5c13ce6f671ac"
         },
         "webp": {
           "path": "military-service-act/lesson-149/diagrams/MS-149-D03-editorial-v1.webp",
-          "bytes": 43382,
-          "sha256": "c787bbf558f1be70254dce6c63c1a0c5bb1b4944a3cce1a92928e6720a862e82"
+          "bytes": 48954,
+          "sha256": "8a4502f2e06c1f42ef367156784f3e8fd87f82552bac7e4a4e4776898b327a9a"
         }
       },
       "content": {
         "lecture_id": "MS-149",
-        "title": "전시근로소집 대비 점검 불참",
-        "subtitle": "입영 지연기간 규정과 다른 단서 규정",
-        "layout": "compare",
+        "title": "입영기피의 세 가지 요건",
+        "subtitle": "통지서 수령 · 정당한 사유 없음 · 정해진 기간 경과",
+        "layout": "flow",
         "source_keys": [
           "병역법|본법|88"
         ],
         "sections": [
           {
-            "heading": "점검 불참 요건",
+            "heading": "통지서를 받음",
             "items": [
               {
-                "label": "통지서 수령",
-                "text": "제53조제2항에 따른 전시근로소집 대비 점검통지서를 받은 사람",
-                "ref": "법 제88조제1항 단서"
-              },
-              {
-                "label": "불참",
-                "text": "정당한 사유 없이 지정된 일시의 점검에 참석하지 않은 경우",
-                "ref": "법 제88조제1항 단서"
+                "label": "모집 통지서 포함",
+                "text": "현역입영 또는 소집 통지서를 받은 사람. 모집에 의한 입영 통지서도 포함.",
+                "ref": "제80회 강의 원고"
               }
             ]
           },
           {
-            "heading": "법정형",
+            "heading": "정당한 사유 없음",
             "items": [
               {
-                "label": "징역·벌금·구류",
-                "text": "6개월 이하의 징역이나 500만원 이하의 벌금 또는 구류",
-                "ref": "법 제88조제1항 단서"
+                "label": "처벌의 조건",
+                "text": "정당한 사유 없이 입영하지 않거나 소집에 응하지 않은 경우.",
+                "ref": "제80회 강의 원고"
+              }
+            ]
+          },
+          {
+            "heading": "정해진 기간 경과",
+            "items": [
+              {
+                "label": "입영일·소집일부터",
+                "text": "현역입영·사회복무·대체복무·군사교육 3일, 병력동원소집·전시근로소집 2일.",
+                "ref": "제80회 강의 원고"
               }
             ]
           }
+        ],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            31,
+            70
+          ],
+          [
+            103,
+            108
+          ]
         ]
       },
       "lecture_title": "병역법 제88조, 입영의 기피 등",
@@ -274,8 +344,22 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "published_diagram_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-111-166.json",
+        "reviewed_date_kst": "2026-11-28",
+        "full_script_coverage_certified_by_this_claim_review": false,
+        "source_line_spans": [
+          [
+            31,
+            70
+          ],
+          [
+            103,
+            108
+          ]
+        ],
+        "correction_ref": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/corrections.json"
       }
     }
   ],
@@ -285,8 +369,12 @@
   "script_git_blob_sha": "6944fa63d0587e7d0a5b447fabac3ba0a362e99b",
   "exam_number": 80,
   "script_alignment": {
-    "verified_existing_pages": 0,
-    "pending_existing_pages": 3,
-    "complete_script_coverage": "pending"
+    "verified_existing_pages": 3,
+    "pending_existing_pages": 0,
+    "complete_script_coverage": "pending",
+    "published_diagram_claims_verified_pages": 3,
+    "published_supplement_pages": 0,
+    "full_lecture_complete": false,
+    "latest_claim_review": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-111-166.json"
   }
 }

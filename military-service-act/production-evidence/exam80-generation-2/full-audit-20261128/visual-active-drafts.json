@@ -1,0 +1,5306 @@
+{
+  "date_kst": "2026-11-28",
+  "status": "visual_inspection_completed_not_promoted",
+  "scope": "Only17 active unfinished drafts; no promotion and no source semantics judgment",
+  "summary": {
+    "active_drafts": 17,
+    "text_runs": 384,
+    "findings_by_kind": {},
+    "draft_raster_pixel_matches": 17,
+    "minimum_body_font_px": 24
+  },
+  "pages": [
+    {
+      "id": "MS-065-D03-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-records.svg",
+      "svg_sha256": "cf20a959d166b7745de2b4259a06691425210034040d549aeffee7ab37e8f272",
+      "findings": [],
+      "text_boxes": [
+        {
+          "text": "병역법 / MS-065",
+          "box": [
+            80.0,
+            52.0,
+            261.0,
+            79.0
+          ],
+          "font_size": 25,
+          "baseline": 74.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제80회 · 스크립트 도식",
+          "box": [
+            1295.5625,
+            54.0,
+            1519.5625,
+            77.0
+          ],
+          "font_size": 23,
+          "baseline": 74.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "병적기록표와 복무기록표",
+          "box": [
+            80.0,
+            133.0,
+            683.0,
+            188.0
+          ],
+          "font_size": 58,
+          "baseline": 182.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "시행규칙 제55·56조 · 정리하는 장부와 송부하는 장부",
+          "box": [
+            84.0,
+            215.0,
+            733.0,
+            244.0
+          ],
+          "font_size": 29,
+          "baseline": 241.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "병적기록표",
+          "box": [
+            80.0,
+            337.0,
+            264.0,
+            376.0
+          ],
+          "font_size": 40,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "관리 주체",
+          "box": [
+            128.0,
+            405.0,
+            239.0,
+            433.0
+          ],
+          "font_size": 28,
+          "baseline": 430.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "관할 지방병무청장",
+          "box": [
+            128.0,
+            441.0,
+            357.0,
+            471.0
+          ],
+          "font_size": 30,
+          "baseline": 467.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "정리 시점",
+          "box": [
+            128.0,
+            495.0,
+            239.0,
+            523.0
+          ],
+          "font_size": 28,
+          "baseline": 520.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "편입·편입취소·복무만료",
+          "box": [
+            128.0,
+            531.0,
+            438.0,
+            561.0
+          ],
+          "font_size": 30,
+          "baseline": 557.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "명부",
+          "box": [
+            128.0,
+            585.0,
+            180.0,
+            613.0
+          ],
+          "font_size": 28,
+          "baseline": 610.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "제67호서식",
+          "box": [
+            128.0,
+            622.0,
+            272.0,
+            651.0
+          ],
+          "font_size": 30,
+          "baseline": 647.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "복무기록표",
+          "box": [
+            840.0,
+            337.0,
+            1024.0,
+            376.0
+          ],
+          "font_size": 40,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제68호서식",
+          "box": [
+            888.0,
+            405.0,
+            1024.0,
+            433.0
+          ],
+          "font_size": 28,
+          "baseline": 430.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "편입 시 관할 지방병무청장이 작성 →",
+          "box": [
+            888.0,
+            441.0,
+            1345.0,
+            471.0
+          ],
+          "font_size": 30,
+          "baseline": 467.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역지정업체의 장",
+          "box": [
+            888.0,
+            479.0,
+            1117.0,
+            508.0
+          ],
+          "font_size": 30,
+          "baseline": 504.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "개별복무 예외",
+          "box": [
+            888.0,
+            532.0,
+            1050.0,
+            560.0
+          ],
+          "font_size": 28,
+          "baseline": 557.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "편입 당시 지방병무청장이 직접 관리",
+          "box": [
+            888.0,
+            568.0,
+            1336.0,
+            598.0
+          ],
+          "font_size": 30,
+          "baseline": 594.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "업체 이동",
+          "box": [
+            888.0,
+            622.0,
+            999.0,
+            650.0
+          ],
+          "font_size": 28,
+          "baseline": 647.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "새 복무 업체의 장에게 송부",
+          "box": [
+            888.0,
+            659.0,
+            1225.0,
+            688.0
+          ],
+          "font_size": 30,
+          "baseline": 684.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제69호 관리현황서: 분기 말일 기준 → 다음 달 15일까지 병무청장 보고",
+          "box": [
+            80.0,
+            967.0,
+            841.0,
+            993.0
+          ],
+          "font_size": 26,
+          "baseline": 990.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역법 · MS-065 · 기존 제80회 원고",
+          "box": [
+            80.0,
+            1070.0,
+            434.0,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "무한회독",
+          "box": [
+            1435.375,
+            1070.0,
+            1520.375,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": true,
+          "fill": "#25241F"
+        }
+      ],
+      "minimum_body_font_px": 30,
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "png_sha256": "6ef5f8db666f4b7a3e0b25e75fcc9fe47c520e708b7fc9c6ba0b68fefb8daa93",
+      "existing_draft_webp_pixel_match": true,
+      "existing_draft_webp_sha256": "58044f04641afa7911b98ab9c1092ce63b2913f79fc7362f98b987b00ca25055"
+    },
+    {
+      "id": "MS-065-D05-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-065/research-industrial-service-end.svg",
+      "svg_sha256": "f5005d1672865da458cb6dc2cf411fe243c1d0cffa668743b1f63a05e35dec4c",
+      "findings": [],
+      "text_boxes": [
+        {
+          "text": "병역법 / MS-065",
+          "box": [
+            80.0,
+            52.0,
+            261.0,
+            79.0
+          ],
+          "font_size": 25,
+          "baseline": 74.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제80회 · 스크립트 도식",
+          "box": [
+            1295.5625,
+            54.0,
+            1519.5625,
+            77.0
+          ],
+          "font_size": 23,
+          "baseline": 74.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "복무 관리와 편입취소 유보",
+          "box": [
+            80.0,
+            132.0,
+            716.0,
+            188.0
+          ],
+          "font_size": 58,
+          "baseline": 182.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "시행규칙 제60·62·64·65·65조의2",
+          "box": [
+            84.0,
+            215.0,
+            521.0,
+            244.0
+          ],
+          "font_size": 29,
+          "baseline": 241.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "복무 관리",
+          "box": [
+            80.0,
+            337.0,
+            238.0,
+            376.0
+          ],
+          "font_size": 40,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "전직·교육훈련·파견 승인",
+          "box": [
+            128.0,
+            405.0,
+            427.0,
+            433.0
+          ],
+          "font_size": 28,
+          "baseline": 430.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "62호 신청서",
+          "box": [
+            128.0,
+            442.0,
+            280.0,
+            471.0
+          ],
+          "font_size": 30,
+          "baseline": 467.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "신상변동 통보",
+          "box": [
+            128.0,
+            495.0,
+            290.0,
+            523.0
+          ],
+          "font_size": 28,
+          "baseline": 520.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "76호 통보서 → 지방병무청장이 67호 명부",
+          "box": [
+            128.0,
+            532.0,
+            648.0,
+            561.0
+          ],
+          "font_size": 30,
+          "baseline": 557.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "정리",
+          "box": [
+            128.0,
+            569.0,
+            183.0,
+            598.0
+          ],
+          "font_size": 30,
+          "baseline": 594.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "복무만료 처분",
+          "box": [
+            128.0,
+            622.0,
+            290.0,
+            650.0
+          ],
+          "font_size": 28,
+          "baseline": 647.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "75호 / 관할 지방병무청장이",
+          "box": [
+            128.0,
+            658.0,
+            471.0,
+            690.0
+          ],
+          "font_size": 30,
+          "baseline": 684.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병적기록표·명부 정리",
+          "box": [
+            128.0,
+            696.0,
+            402.0,
+            725.0
+          ],
+          "font_size": 30,
+          "baseline": 721.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "해고 다툼 중 유보",
+          "box": [
+            840.0,
+            337.0,
+            1131.0,
+            376.0
+          ],
+          "font_size": 40,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "신청",
+          "box": [
+            888.0,
+            405.0,
+            940.0,
+            433.0
+          ],
+          "font_size": 28,
+          "baseline": 430.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "62호 + 구제신청서 또는 소송서류 사본",
+          "box": [
+            888.0,
+            442.0,
+            1363.0,
+            471.0
+          ],
+          "font_size": 30,
+          "baseline": 467.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제출",
+          "box": [
+            888.0,
+            495.0,
+            940.0,
+            523.0
+          ],
+          "font_size": 28,
+          "baseline": 520.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "관할 지방병무청장",
+          "box": [
+            888.0,
+            531.0,
+            1117.0,
+            561.0
+          ],
+          "font_size": 30,
+          "baseline": 557.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "유보 이후",
+          "box": [
+            888.0,
+            585.0,
+            999.0,
+            613.0
+          ],
+          "font_size": 28,
+          "baseline": 610.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "결과 수시 확인 → 편입취소 여부 결정",
+          "box": [
+            888.0,
+            621.0,
+            1351.0,
+            651.0
+          ],
+          "font_size": 30,
+          "baseline": 647.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "해고를 다투는 중이면 편입취소 유보 가능",
+          "box": [
+            80.0,
+            967.0,
+            523.0,
+            993.0
+          ],
+          "font_size": 26,
+          "baseline": 990.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역법 · MS-065 · 기존 제80회 원고",
+          "box": [
+            80.0,
+            1070.0,
+            434.0,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "무한회독",
+          "box": [
+            1435.375,
+            1070.0,
+            1520.375,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": true,
+          "fill": "#25241F"
+        }
+      ],
+      "minimum_body_font_px": 30,
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "png_sha256": "bb35ea3ca12d2f398cf7d50f7a32277e887067bc72d825db98a7c2b751c195eb",
+      "existing_draft_webp_pixel_match": true,
+      "existing_draft_webp_sha256": "b40213b9651da402b27f5e150676311cfed104d18a61ec1c47bbaa4dddde7c7c"
+    },
+    {
+      "id": "MS-094-D08-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/religion-selection-criteria.svg",
+      "svg_sha256": "e974178030c5312820265bc1ee10c1ca69e7463d67801796def6e60f1b5ad388",
+      "findings": [],
+      "text_boxes": [
+        {
+          "text": "병역법 / MS-094",
+          "box": [
+            80.0,
+            52.0,
+            261.0,
+            79.0
+          ],
+          "font_size": 25,
+          "baseline": 74.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제80회 · 스크립트 도식",
+          "box": [
+            1295.5625,
+            54.0,
+            1519.5625,
+            77.0
+          ],
+          "font_size": 23,
+          "baseline": 74.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "군종 대상 종교의 선정기준",
+          "box": [
+            80.0,
+            132.0,
+            716.0,
+            188.0
+          ],
+          "font_size": 58,
+          "baseline": 182.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "대통령령으로 정하는 세 가지 요건",
+          "box": [
+            84.0,
+            215.0,
+            490.0,
+            244.0
+          ],
+          "font_size": 29,
+          "baseline": 241.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "종교로서의 틀",
+          "box": [
+            80.0,
+            335.0,
+            324.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "교리와 조직",
+          "box": [
+            128.0,
+            411.0,
+            265.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "사회통념상 종교로 인정",
+          "box": [
+            128.0,
+            452.0,
+            440.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제도화",
+          "box": [
+            128.0,
+            522.0,
+            206.0,
+            550.0
+          ],
+          "font_size": 28,
+          "baseline": 547.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "성직 승인·취소 절차",
+          "box": [
+            128.0,
+            563.0,
+            399.0,
+            594.0
+          ],
+          "font_size": 32,
+          "baseline": 590.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "성직자 양성교육",
+          "box": [
+            128.0,
+            604.0,
+            343.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "기여 및 필요성",
+          "box": [
+            840.0,
+            335.0,
+            1095.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "장병에게 기여",
+          "box": [
+            888.0,
+            411.0,
+            1050.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "가치관·도덕심·준법성",
+          "box": [
+            888.0,
+            452.0,
+            1189.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "정신전력 강화",
+          "box": [
+            888.0,
+            493.0,
+            1074.0,
+            524.0
+          ],
+          "font_size": 32,
+          "baseline": 520.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "선정 필요성",
+          "box": [
+            888.0,
+            563.0,
+            1025.0,
+            591.0
+          ],
+          "font_size": 28,
+          "baseline": 588.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "국민·군내 신자 수와",
+          "box": [
+            888.0,
+            604.0,
+            1159.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "종교 행사 수행 가능성",
+          "box": [
+            888.0,
+            645.0,
+            1180.0,
+            676.0
+          ],
+          "font_size": 32,
+          "baseline": 672.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "세 기준을 모두 갖추어야 함",
+          "box": [
+            80.0,
+            983.0,
+            406.0,
+            1012.0
+          ],
+          "font_size": 29,
+          "baseline": 1009.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역법 · MS-094 · 기존 제80회 원고",
+          "box": [
+            80.0,
+            1070.0,
+            434.0,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "무한회독",
+          "box": [
+            1435.375,
+            1070.0,
+            1520.375,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": true,
+          "fill": "#25241F"
+        }
+      ],
+      "minimum_body_font_px": 32,
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "png_sha256": "f29e98c396ebd289df77a4a468ee0f32babacd69f6ff29cf3307844e3b7ac1fe",
+      "existing_draft_webp_pixel_match": true,
+      "existing_draft_webp_sha256": "e47c34780797ec88b7d6611ec841ba5c1fae4d05dc219b0a71a0e7e3675cd167"
+    },
+    {
+      "id": "MS-094-D09-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/chaplain-selection.svg",
+      "svg_sha256": "a6dcb20053d46964831db4e3958ee0987030e5e479a5e468ef5a1e7bee5fc91e",
+      "findings": [],
+      "text_boxes": [
+        {
+          "text": "병역법 / MS-094",
+          "box": [
+            80.0,
+            52.0,
+            261.0,
+            79.0
+          ],
+          "font_size": 25,
+          "baseline": 74.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제80회 · 스크립트 도식",
+          "box": [
+            1295.5625,
+            54.0,
+            1519.5625,
+            77.0
+          ],
+          "font_size": 23,
+          "baseline": 74.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "군종장교 선발대상과 추천",
+          "box": [
+            80.0,
+            133.0,
+            699.0,
+            188.0
+          ],
+          "font_size": 58,
+          "baseline": 182.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "대상 종교 선정과 장교 선발은 구별",
+          "box": [
+            84.0,
+            215.0,
+            498.0,
+            244.0
+          ],
+          "font_size": 29,
+          "baseline": 241.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "선발 대상",
+          "box": [
+            80.0,
+            335.0,
+            246.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "성직자",
+          "box": [
+            128.0,
+            411.0,
+            206.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "학사 이상 학위와 성직 자격",
+          "box": [
+            128.0,
+            452.0,
+            488.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "자격 취득 예정",
+          "box": [
+            128.0,
+            522.0,
+            298.0,
+            550.0
+          ],
+          "font_size": 28,
+          "baseline": 547.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "입영일 전 자격 취득 가능",
+          "box": [
+            128.0,
+            563.0,
+            458.0,
+            594.0
+          ],
+          "font_size": 32,
+          "baseline": 590.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "후보생",
+          "box": [
+            128.0,
+            633.0,
+            205.0,
+            661.0
+          ],
+          "font_size": 28,
+          "baseline": 658.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "군종사관후보생 병적 편입자",
+          "box": [
+            128.0,
+            674.0,
+            499.0,
+            705.0
+          ],
+          "font_size": 32,
+          "baseline": 701.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "선발 절차",
+          "box": [
+            840.0,
+            335.0,
+            1006.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "국방부장관",
+          "box": [
+            888.0,
+            411.0,
+            1017.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "해당 종교단체에 추천 의뢰",
+          "box": [
+            888.0,
+            452.0,
+            1239.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "해당 종교단체",
+          "box": [
+            888.0,
+            522.0,
+            1050.0,
+            550.0
+          ],
+          "font_size": 28,
+          "baseline": 547.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "선발 대상자 추천",
+          "box": [
+            888.0,
+            563.0,
+            1112.0,
+            594.0
+          ],
+          "font_size": 32,
+          "baseline": 590.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "국방부장관",
+          "box": [
+            888.0,
+            633.0,
+            1017.0,
+            661.0
+          ],
+          "font_size": 28,
+          "baseline": 658.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "추천을 받아 선발",
+          "box": [
+            888.0,
+            674.0,
+            1112.0,
+            705.0
+          ],
+          "font_size": 32,
+          "baseline": 701.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "선정·선발 기준 및 절차: 대통령령 / 선발 세부: 국방부령",
+          "box": [
+            80.0,
+            983.0,
+            746.0,
+            1014.0
+          ],
+          "font_size": 29,
+          "baseline": 1009.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역법 · MS-094 · 기존 제80회 원고",
+          "box": [
+            80.0,
+            1070.0,
+            434.0,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "무한회독",
+          "box": [
+            1435.375,
+            1070.0,
+            1520.375,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": true,
+          "fill": "#25241F"
+        }
+      ],
+      "minimum_body_font_px": 32,
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "png_sha256": "40b5fe14c5959dede9b9d7d67cc52014845c5c428491897a908ea71abef952a8",
+      "existing_draft_webp_pixel_match": true,
+      "existing_draft_webp_sha256": "62a0938738eb9c2df788e80bac5f7c7fd2c9353f0285c6c00ecd4702d84afd55"
+    },
+    {
+      "id": "MS-094-D10-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/direct-officer-application.svg",
+      "svg_sha256": "21a59af9bc6f846892db3ef036df64f880e06377c75cf806e324027dae8eb04b",
+      "findings": [],
+      "text_boxes": [
+        {
+          "text": "병역법 / MS-094",
+          "box": [
+            80.0,
+            52.0,
+            261.0,
+            79.0
+          ],
+          "font_size": 25,
+          "baseline": 74.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제80회 · 스크립트 도식",
+          "box": [
+            1295.5625,
+            54.0,
+            1519.5625,
+            77.0
+          ],
+          "font_size": 23,
+          "baseline": 74.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "현역장교 편입 지원",
+          "box": [
+            80.0,
+            132.0,
+            539.0,
+            188.0
+          ],
+          "font_size": 58,
+          "baseline": 182.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "자격 보유자의 직접 지원 절차",
+          "box": [
+            84.0,
+            216.0,
+            437.0,
+            244.0
+          ],
+          "font_size": 29,
+          "baseline": 241.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "지원서",
+          "box": [
+            80.0,
+            335.0,
+            196.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "전년도 10월 31일까지",
+          "box": [
+            128.0,
+            411.0,
+            387.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "편입되는 연도 기준",
+          "box": [
+            128.0,
+            452.0,
+            381.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제출 경로",
+          "box": [
+            128.0,
+            522.0,
+            239.0,
+            550.0
+          ],
+          "font_size": 28,
+          "baseline": 547.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "학교·연수기관·종교단체의",
+          "box": [
+            128.0,
+            563.0,
+            488.0,
+            594.0
+          ],
+          "font_size": 32,
+          "baseline": 590.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "장을 거쳐 병무청장에게",
+          "box": [
+            128.0,
+            604.0,
+            440.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "소속 없는 사람",
+          "box": [
+            128.0,
+            674.0,
+            298.0,
+            702.0
+          ],
+          "font_size": 28,
+          "baseline": 699.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "병무청장에게 직접 제출",
+          "box": [
+            128.0,
+            715.0,
+            440.0,
+            746.0
+          ],
+          "font_size": 32,
+          "baseline": 742.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "서류 및 대체 편입",
+          "box": [
+            840.0,
+            335.0,
+            1146.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "첨부",
+          "box": [
+            888.0,
+            411.0,
+            940.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "신원진술서(사진 포함)",
+          "box": [
+            888.0,
+            452.0,
+            1184.0,
+            486.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "기본증명서·해당 자격 증명",
+          "box": [
+            888.0,
+            493.0,
+            1248.0,
+            524.0
+          ],
+          "font_size": 32,
+          "baseline": 520.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "장교 미편입 대비",
+          "box": [
+            888.0,
+            563.0,
+            1084.0,
+            591.0
+          ],
+          "font_size": 28,
+          "baseline": 588.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "의무·법무·수의 지원자는",
+          "box": [
+            888.0,
+            604.0,
+            1227.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "다른 편입 희망을 기재 가능",
+          "box": [
+            888.0,
+            645.0,
+            1248.0,
+            676.0
+          ],
+          "font_size": 32,
+          "baseline": 672.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "군종 분야는 대체 편입 희망 기재 대상이 아님",
+          "box": [
+            80.0,
+            983.0,
+            617.0,
+            1012.0
+          ],
+          "font_size": 29,
+          "baseline": 1009.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역법 · MS-094 · 기존 제80회 원고",
+          "box": [
+            80.0,
+            1070.0,
+            434.0,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "무한회독",
+          "box": [
+            1435.375,
+            1070.0,
+            1520.375,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": true,
+          "fill": "#25241F"
+        }
+      ],
+      "minimum_body_font_px": 32,
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "png_sha256": "ba34cefafd14d339d18928302f92e7b53e8b6c896e2db97b0da79263a46a0123",
+      "existing_draft_webp_pixel_match": true,
+      "existing_draft_webp_sha256": "622953719ff29c58220ea0defcf4e92b724df8d8a38eefa0c8cba460566d4c52"
+    },
+    {
+      "id": "MS-094-D11-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-eligibility.svg",
+      "svg_sha256": "afa1dbb0d99768b6365b961df5ac9eb11e069ac900cccab1b9853ceea385b51f",
+      "findings": [],
+      "text_boxes": [
+        {
+          "text": "병역법 / MS-094",
+          "box": [
+            80.0,
+            52.0,
+            261.0,
+            79.0
+          ],
+          "font_size": 25,
+          "baseline": 74.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제80회 · 스크립트 도식",
+          "box": [
+            1295.5625,
+            54.0,
+            1519.5625,
+            77.0
+          ],
+          "font_size": 23,
+          "baseline": 74.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "사관후보생 분야별 편입 자격",
+          "box": [
+            80.0,
+            132.0,
+            769.0,
+            188.0
+          ],
+          "font_size": 58,
+          "baseline": 182.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역판정검사·현역병입영·사회복무요원 소집 대상자",
+          "box": [
+            84.0,
+            215.0,
+            720.0,
+            244.0
+          ],
+          "font_size": 29,
+          "baseline": 241.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "의무·법무",
+          "box": [
+            80.0,
+            335.0,
+            259.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "의무",
+          "box": [
+            128.0,
+            411.0,
+            180.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "의사·치과의사·한의사 자격",
+          "box": [
+            128.0,
+            452.0,
+            497.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "군전공의 수련과정 이수 중",
+          "box": [
+            128.0,
+            493.0,
+            479.0,
+            524.0
+          ],
+          "font_size": 32,
+          "baseline": 520.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "법무",
+          "box": [
+            128.0,
+            563.0,
+            180.0,
+            591.0
+          ],
+          "font_size": 28,
+          "baseline": 588.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "연수기관·법학전문대학원",
+          "box": [
+            128.0,
+            604.0,
+            470.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "자격 취득 과정 이수 중",
+          "box": [
+            128.0,
+            645.0,
+            429.0,
+            676.0
+          ],
+          "font_size": 32,
+          "baseline": 672.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "군종·수의",
+          "box": [
+            840.0,
+            335.0,
+            1019.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "군종",
+          "box": [
+            888.0,
+            413.0,
+            940.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "신학·불교·성직자 양성 대학",
+          "box": [
+            888.0,
+            452.0,
+            1266.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "성직 자격 취득을 위해 재학 중",
+          "box": [
+            888.0,
+            493.0,
+            1286.0,
+            524.0
+          ],
+          "font_size": 32,
+          "baseline": 520.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "수의",
+          "box": [
+            888.0,
+            563.0,
+            940.0,
+            591.0
+          ],
+          "font_size": 28,
+          "baseline": 588.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "수의과대학 또는 수의학과",
+          "box": [
+            888.0,
+            604.0,
+            1230.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "수의사 자격 취득을 위해 재학 중",
+          "box": [
+            888.0,
+            645.0,
+            1315.0,
+            676.0
+          ],
+          "font_size": 32,
+          "baseline": 672.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "의무는 이미 자격 보유 / 군종은 재학 중 / 수의는 의과대학이 아님",
+          "box": [
+            80.0,
+            983.0,
+            853.0,
+            1014.0
+          ],
+          "font_size": 29,
+          "baseline": 1009.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역법 · MS-094 · 기존 제80회 원고",
+          "box": [
+            80.0,
+            1070.0,
+            434.0,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "무한회독",
+          "box": [
+            1435.375,
+            1070.0,
+            1520.375,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": true,
+          "fill": "#25241F"
+        }
+      ],
+      "minimum_body_font_px": 32,
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "png_sha256": "94dc28af9de22d45f796fa5cb99b5f6f64d29bb2d7d69d5f45bc4a537e0f98e5",
+      "existing_draft_webp_pixel_match": true,
+      "existing_draft_webp_sha256": "fc6ca9ec357dc652701e8b07d9460620824d822ac22ef78f14e0da09e0581899"
+    },
+    {
+      "id": "MS-094-D12-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-selection-followup.svg",
+      "svg_sha256": "c90a0ad91ef9013ff348a9f58118e72dc374a7478a787daaa3fc73d381523cb0",
+      "findings": [],
+      "text_boxes": [
+        {
+          "text": "병역법 / MS-094",
+          "box": [
+            80.0,
+            52.0,
+            261.0,
+            79.0
+          ],
+          "font_size": 25,
+          "baseline": 74.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제80회 · 스크립트 도식",
+          "box": [
+            1295.5625,
+            54.0,
+            1519.5625,
+            77.0
+          ],
+          "font_size": 23,
+          "baseline": 74.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "사관후보생 선발 이후 관리",
+          "box": [
+            80.0,
+            132.0,
+            716.0,
+            188.0
+          ],
+          "font_size": 58,
+          "baseline": 182.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "일반 선발과 군종 선발의 전달 경로",
+          "box": [
+            84.0,
+            216.0,
+            498.0,
+            244.0
+          ],
+          "font_size": 29,
+          "baseline": 241.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "선발 명단 전달",
+          "box": [
+            80.0,
+            335.0,
+            335.0,
+            375.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "의무·법무·수의",
+          "box": [
+            128.0,
+            411.0,
+            316.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "병무청장 → 학교·수련기관",
+          "box": [
+            128.0,
+            452.0,
+            487.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "및 지방병무청장",
+          "box": [
+            128.0,
+            493.0,
+            343.0,
+            524.0
+          ],
+          "font_size": 32,
+          "baseline": 520.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "군종",
+          "box": [
+            128.0,
+            565.0,
+            180.0,
+            591.0
+          ],
+          "font_size": 28,
+          "baseline": 588.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "국방부장관 → 병무청장",
+          "box": [
+            128.0,
+            604.0,
+            439.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "→ 지방병무청장",
+          "box": [
+            128.0,
+            645.0,
+            344.0,
+            676.0
+          ],
+          "font_size": 32,
+          "baseline": 672.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병적 편입",
+          "box": [
+            128.0,
+            715.0,
+            239.0,
+            743.0
+          ],
+          "font_size": 28,
+          "baseline": 740.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "지방병무청장이 처리",
+          "box": [
+            128.0,
+            756.0,
+            402.0,
+            787.0
+          ],
+          "font_size": 32,
+          "baseline": 783.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "후보생 계속 관리",
+          "box": [
+            840.0,
+            335.0,
+            1134.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "과정 완료",
+          "box": [
+            888.0,
+            411.0,
+            999.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "제한연령 전에 과정 이수",
+          "box": [
+            888.0,
+            452.0,
+            1209.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "자격 미취득",
+          "box": [
+            888.0,
+            522.0,
+            1025.0,
+            550.0
+          ],
+          "font_size": 28,
+          "baseline": 547.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "제한연령에 이를 때까지",
+          "box": [
+            888.0,
+            563.0,
+            1200.0,
+            594.0
+          ],
+          "font_size": 32,
+          "baseline": 590.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "후보생으로 관리 가능",
+          "box": [
+            888.0,
+            604.0,
+            1171.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "선발 사실 통지",
+          "box": [
+            888.0,
+            674.0,
+            1058.0,
+            702.0
+          ],
+          "font_size": 28,
+          "baseline": 699.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "학교·수련기관의 장",
+          "box": [
+            888.0,
+            715.0,
+            1150.0,
+            746.0
+          ],
+          "font_size": 32,
+          "baseline": 742.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "과정 수료와 자격 취득은 별개의 조건",
+          "box": [
+            80.0,
+            983.0,
+            521.0,
+            1012.0
+          ],
+          "font_size": 29,
+          "baseline": 1009.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역법 · MS-094 · 기존 제80회 원고",
+          "box": [
+            80.0,
+            1070.0,
+            434.0,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "무한회독",
+          "box": [
+            1435.375,
+            1070.0,
+            1520.375,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": true,
+          "fill": "#25241F"
+        }
+      ],
+      "minimum_body_font_px": 32,
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "png_sha256": "0bf0b9c3269a08a0b6a1d904576b36076a4dd0565b248323a9d21d105cad3e24",
+      "existing_draft_webp_pixel_match": true,
+      "existing_draft_webp_sha256": "131f70beb259f47637be81f8081513ef40dfd247a30405b4233f239a860e7593"
+    },
+    {
+      "id": "MS-094-D13-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-change-notification.svg",
+      "svg_sha256": "0fb2590269f534001628b999b5f8bc08013916e614ad4508ef00b32eac25b432",
+      "findings": [],
+      "text_boxes": [
+        {
+          "text": "병역법 / MS-094",
+          "box": [
+            80.0,
+            52.0,
+            261.0,
+            79.0
+          ],
+          "font_size": 25,
+          "baseline": 74.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제80회 · 스크립트 도식",
+          "box": [
+            1295.5625,
+            54.0,
+            1519.5625,
+            77.0
+          ],
+          "font_size": 23,
+          "baseline": 74.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "후보생 신상변동 통보",
+          "box": [
+            80.0,
+            133.0,
+            593.0,
+            188.0
+          ],
+          "font_size": 58,
+          "baseline": 182.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "수련기관·학교의 장이 14일 이내 통보",
+          "box": [
+            84.0,
+            215.0,
+            537.0,
+            244.0
+          ],
+          "font_size": 29,
+          "baseline": 241.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "일반 신상변동",
+          "box": [
+            80.0,
+            335.0,
+            324.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "학업·자격",
+          "box": [
+            128.0,
+            411.0,
+            248.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "학교·과정 중단",
+          "box": [
+            128.0,
+            452.0,
+            332.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제한연령 내 이수·취득 불가",
+          "box": [
+            128.0,
+            493.0,
+            497.0,
+            524.0
+          ],
+          "font_size": 32,
+          "baseline": 520.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "군전공의",
+          "box": [
+            128.0,
+            563.0,
+            231.0,
+            591.0
+          ],
+          "font_size": 28,
+          "baseline": 588.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "병무청장 허가 없는 기관·전공 변경",
+          "box": [
+            128.0,
+            604.0,
+            594.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "또는 퇴직",
+          "box": [
+            128.0,
+            645.0,
+            255.0,
+            676.0
+          ],
+          "font_size": 32,
+          "baseline": 672.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "그 밖의 경우",
+          "box": [
+            128.0,
+            715.0,
+            273.0,
+            743.0
+          ],
+          "font_size": 28,
+          "baseline": 740.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "가사사정 해당",
+          "box": [
+            128.0,
+            756.0,
+            314.0,
+            787.0
+          ],
+          "font_size": 32,
+          "baseline": 783.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "군종 및 공통",
+          "box": [
+            840.0,
+            335.0,
+            1057.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "군종",
+          "box": [
+            888.0,
+            413.0,
+            940.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "전학·종교단체 이탈",
+          "box": [
+            888.0,
+            452.0,
+            1150.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "성직취득 보장 철회",
+          "box": [
+            888.0,
+            493.0,
+            1141.0,
+            524.0
+          ],
+          "font_size": 32,
+          "baseline": 520.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "본인 의사",
+          "box": [
+            888.0,
+            563.0,
+            999.0,
+            591.0
+          ],
+          "font_size": 28,
+          "baseline": 588.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "후보생 신분 포기 희망",
+          "box": [
+            888.0,
+            604.0,
+            1180.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "학업 일정",
+          "box": [
+            888.0,
+            674.0,
+            999.0,
+            702.0
+          ],
+          "font_size": 28,
+          "baseline": 699.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "과정을 마치는 연도·월 변경",
+          "box": [
+            888.0,
+            715.0,
+            1257.0,
+            746.0
+          ],
+          "font_size": 32,
+          "baseline": 742.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "관할 지방병무청장에게 통보 / 군종사관후보생은 국방부장관에게",
+          "box": [
+            80.0,
+            983.0,
+            849.0,
+            1014.0
+          ],
+          "font_size": 29,
+          "baseline": 1009.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역법 · MS-094 · 기존 제80회 원고",
+          "box": [
+            80.0,
+            1070.0,
+            434.0,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "무한회독",
+          "box": [
+            1435.375,
+            1070.0,
+            1520.375,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": true,
+          "fill": "#25241F"
+        }
+      ],
+      "minimum_body_font_px": 32,
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "png_sha256": "9855ab35b31e5a7839b7a07f018b58e0925bdbd64bd2f10e36bc40fbd2250480",
+      "existing_draft_webp_pixel_match": true,
+      "existing_draft_webp_sha256": "25416025606f1045a395550b556ddbe36a61a310a711578f8adf9e82b38b1286"
+    },
+    {
+      "id": "MS-094-D14-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-removal-exception.svg",
+      "svg_sha256": "e5501a2d3959249dc3617dcd214f30bc60684a466451a5e7c380ae56b9f9a038",
+      "findings": [],
+      "text_boxes": [
+        {
+          "text": "병역법 / MS-094",
+          "box": [
+            80.0,
+            52.0,
+            261.0,
+            79.0
+          ],
+          "font_size": 25,
+          "baseline": 74.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제80회 · 스크립트 도식",
+          "box": [
+            1295.5625,
+            54.0,
+            1519.5625,
+            77.0
+          ],
+          "font_size": 23,
+          "baseline": 74.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "사관후보생 제적과 예외",
+          "box": [
+            80.0,
+            132.0,
+            646.0,
+            188.0
+          ],
+          "font_size": 58,
+          "baseline": 182.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "일반 처리와 군전공의요원 예외",
+          "box": [
+            84.0,
+            216.0,
+            455.0,
+            244.0
+          ],
+          "font_size": 29,
+          "baseline": 241.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "제적 후 처리",
+          "box": [
+            80.0,
+            335.0,
+            297.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "일반 제적",
+          "box": [
+            128.0,
+            411.0,
+            239.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "신체등급에 따라 현역병 입영",
+          "box": [
+            128.0,
+            452.0,
+            508.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "또는 사회복무요원 소집 가능",
+          "box": [
+            128.0,
+            493.0,
+            508.0,
+            524.0
+          ],
+          "font_size": 32,
+          "baseline": 520.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "가사사정",
+          "box": [
+            128.0,
+            563.0,
+            231.0,
+            591.0
+          ],
+          "font_size": 28,
+          "baseline": 588.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "생계곤란 → 전시근로역",
+          "box": [
+            128.0,
+            604.0,
+            439.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "전사·순직자 등 가족 → 보충역",
+          "box": [
+            128.0,
+            645.0,
+            534.0,
+            676.0
+          ],
+          "font_size": 32,
+          "baseline": 672.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "군전공의 예외",
+          "box": [
+            840.0,
+            335.0,
+            1084.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제적하지 않는 경우",
+          "box": [
+            888.0,
+            411.0,
+            1110.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "제한연령까지 수련 미완료",
+          "box": [
+            888.0,
+            452.0,
+            1230.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "허가 없는 수련기관 변경·퇴직",
+          "box": [
+            888.0,
+            493.0,
+            1286.0,
+            524.0
+          ],
+          "font_size": 32,
+          "baseline": 520.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "처리",
+          "box": [
+            888.0,
+            563.0,
+            940.0,
+            591.0
+          ],
+          "font_size": 28,
+          "baseline": 588.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "의무사관후보생으로 입영",
+          "box": [
+            888.0,
+            604.0,
+            1221.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "이유",
+          "box": [
+            888.0,
+            674.0,
+            940.0,
+            702.0
+          ],
+          "font_size": 28,
+          "baseline": 699.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "이미 의사 자격 보유",
+          "box": [
+            888.0,
+            715.0,
+            1150.0,
+            746.0
+          ],
+          "font_size": 32,
+          "baseline": 742.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "35세까지 특수병과 현역장교 편입 가능",
+          "box": [
+            80.0,
+            983.0,
+            547.0,
+            1012.0
+          ],
+          "font_size": 29,
+          "baseline": 1009.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역법 · MS-094 · 기존 제80회 원고",
+          "box": [
+            80.0,
+            1070.0,
+            434.0,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "무한회독",
+          "box": [
+            1435.375,
+            1070.0,
+            1520.375,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": true,
+          "fill": "#25241F"
+        }
+      ],
+      "minimum_body_font_px": 32,
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "png_sha256": "daf28540525ee3569589a736ead84f71d9b6f9c01d0e4aaa07a9150da2f8498a",
+      "existing_draft_webp_pixel_match": true,
+      "existing_draft_webp_sha256": "9f9d5b49382febf5060f6b81fe04542ccf09c0689b4850ed1c8681b31991c523"
+    },
+    {
+      "id": "MS-094-D15-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/officer-entry-timeline.svg",
+      "svg_sha256": "497c0649e2e1d51ead478e63621c397413d39cfc05ec05615d1525e6015d5842",
+      "findings": [],
+      "text_boxes": [
+        {
+          "text": "병역법 / MS-094",
+          "box": [
+            80.0,
+            52.0,
+            261.0,
+            79.0
+          ],
+          "font_size": 25,
+          "baseline": 74.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제80회 · 스크립트 도식",
+          "box": [
+            1295.5625,
+            54.0,
+            1519.5625,
+            77.0
+          ],
+          "font_size": 23,
+          "baseline": 74.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "입영과 현역장교 편입 일정",
+          "box": [
+            80.0,
+            132.0,
+            716.0,
+            188.0
+          ],
+          "font_size": 58,
+          "baseline": 182.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "입영일과 교육 수료일을 구분",
+          "box": [
+            84.0,
+            215.0,
+            429.0,
+            244.0
+          ],
+          "font_size": 29,
+          "baseline": 241.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "입영 전",
+          "box": [
+            80.0,
+            335.0,
+            208.0,
+            375.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "40일 전까지",
+          "box": [
+            128.0,
+            411.0,
+            272.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "국방부장관: 입영기본계획서",
+          "box": [
+            128.0,
+            452.0,
+            497.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병무청장·해당 군 참모총장에게",
+          "box": [
+            128.0,
+            493.0,
+            547.0,
+            524.0
+          ],
+          "font_size": 32,
+          "baseline": 520.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "20일 전까지",
+          "box": [
+            128.0,
+            563.0,
+            272.0,
+            591.0
+          ],
+          "font_size": 28,
+          "baseline": 588.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "입영 명단: 병무청장을 거쳐",
+          "box": [
+            128.0,
+            604.0,
+            486.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "지방병무청장에게",
+          "box": [
+            128.0,
+            645.0,
+            364.0,
+            676.0
+          ],
+          "font_size": 32,
+          "baseline": 672.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "7일 전까지",
+          "box": [
+            128.0,
+            715.0,
+            255.0,
+            743.0
+          ],
+          "font_size": 28,
+          "baseline": 740.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "지방병무청장: 본인에게",
+          "box": [
+            128.0,
+            756.0,
+            438.0,
+            787.0
+          ],
+          "font_size": 32,
+          "baseline": 783.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "현역입영 통지서 송달",
+          "box": [
+            128.0,
+            797.0,
+            411.0,
+            828.0
+          ],
+          "font_size": 32,
+          "baseline": 824.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "교육 및 편입",
+          "box": [
+            840.0,
+            335.0,
+            1057.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "통지 예외",
+          "box": [
+            888.0,
+            411.0,
+            999.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "전문의 시험 결과 미확인 의무·수의",
+          "box": [
+            888.0,
+            452.0,
+            1354.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "편입 대상자: 입영 전날까지 가능",
+          "box": [
+            888.0,
+            493.0,
+            1314.0,
+            524.0
+          ],
+          "font_size": 32,
+          "baseline": 520.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "수료 10일 전까지",
+          "box": [
+            888.0,
+            563.0,
+            1090.0,
+            591.0
+          ],
+          "font_size": 28,
+          "baseline": 588.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "입영부대의 장 → 국방부장관",
+          "box": [
+            888.0,
+            604.0,
+            1267.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "교육수료 명단 보고",
+          "box": [
+            888.0,
+            645.0,
+            1141.0,
+            676.0
+          ],
+          "font_size": 32,
+          "baseline": 672.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "교육 수료 다음 날",
+          "box": [
+            888.0,
+            715.0,
+            1092.0,
+            743.0
+          ],
+          "font_size": 28,
+          "baseline": 740.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "국방부장관: 현역장교 병적 편입",
+          "box": [
+            888.0,
+            756.0,
+            1305.0,
+            787.0
+          ],
+          "font_size": 32,
+          "baseline": 783.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "계획 40 · 명단 20 · 통지 7 / 수료 보고 10 · 편입 다음 날",
+          "box": [
+            80.0,
+            983.0,
+            766.0,
+            1014.0
+          ],
+          "font_size": 29,
+          "baseline": 1009.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역법 · MS-094 · 기존 제80회 원고",
+          "box": [
+            80.0,
+            1070.0,
+            434.0,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "무한회독",
+          "box": [
+            1435.375,
+            1070.0,
+            1520.375,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": true,
+          "fill": "#25241F"
+        }
+      ],
+      "minimum_body_font_px": 32,
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "png_sha256": "025491ff81577abf4d5af1a01b6f3ab6d1feea3bcd70f79b38e274fdab52a050",
+      "existing_draft_webp_pixel_match": true,
+      "existing_draft_webp_sha256": "7a71a75f07699700863012544cecdcb9f0b2d396e12974be3fa25268c0210c77"
+    },
+    {
+      "id": "MS-094-D16-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/returned-candidate-reexamination.svg",
+      "svg_sha256": "5ebafd4bf877944a4a796d9aa6aad218a18335df6823c0efcb33fb2086d9bd11",
+      "findings": [],
+      "text_boxes": [
+        {
+          "text": "병역법 / MS-094",
+          "box": [
+            80.0,
+            52.0,
+            261.0,
+            79.0
+          ],
+          "font_size": 25,
+          "baseline": 74.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제80회 · 스크립트 도식",
+          "box": [
+            1295.5625,
+            54.0,
+            1519.5625,
+            77.0
+          ],
+          "font_size": 23,
+          "baseline": 74.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "귀가자의 재신체검사 처리",
+          "box": [
+            80.0,
+            132.0,
+            699.0,
+            188.0
+          ],
+          "font_size": 58,
+          "baseline": 182.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "치유기간 기재 여부에 따라 분기",
+          "box": [
+            84.0,
+            216.0,
+            463.0,
+            244.0
+          ],
+          "font_size": 29,
+          "baseline": 241.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "치유기간이 명시됨",
+          "box": [
+            80.0,
+            335.0,
+            401.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "3개월 미만",
+          "box": [
+            128.0,
+            411.0,
+            255.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "기간 경과 후 다음 입영일에 입영",
+          "box": [
+            128.0,
+            452.0,
+            555.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "재신체검사 생략 가능",
+          "box": [
+            128.0,
+            493.0,
+            411.0,
+            524.0
+          ],
+          "font_size": 32,
+          "baseline": 520.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "3개월 이상",
+          "box": [
+            128.0,
+            563.0,
+            255.0,
+            591.0
+          ],
+          "font_size": 28,
+          "baseline": 588.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "기간 경과 후 재신체검사",
+          "box": [
+            128.0,
+            604.0,
+            449.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "신체등급에 따라 처분",
+          "box": [
+            128.0,
+            645.0,
+            411.0,
+            676.0
+          ],
+          "font_size": 32,
+          "baseline": 672.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "추가 처리",
+          "box": [
+            840.0,
+            335.0,
+            1006.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "치유기간 미기재",
+          "box": [
+            888.0,
+            411.0,
+            1076.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "지체 없이 재신체검사",
+          "box": [
+            888.0,
+            452.0,
+            1171.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "재신체검사 1~4급",
+          "box": [
+            888.0,
+            522.0,
+            1099.0,
+            550.0
+          ],
+          "font_size": 28,
+          "baseline": 547.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "다음 입영일에 다시 입영",
+          "box": [
+            888.0,
+            563.0,
+            1209.0,
+            594.0
+          ],
+          "font_size": 32,
+          "baseline": 590.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "같은 질병으로 다시 귀가",
+          "box": [
+            888.0,
+            633.0,
+            1169.0,
+            661.0
+          ],
+          "font_size": 28,
+          "baseline": 658.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "재입영 후 입영신체검사일부터",
+          "box": [
+            888.0,
+            674.0,
+            1289.0,
+            705.0
+          ],
+          "font_size": 32,
+          "baseline": 701.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "치유기간 계산",
+          "box": [
+            888.0,
+            715.0,
+            1074.0,
+            746.0
+          ],
+          "font_size": 32,
+          "baseline": 742.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "법률상 주체: 병무청장 / 시행령 재검 처리: 지방병무청장",
+          "box": [
+            80.0,
+            983.0,
+            748.0,
+            1014.0
+          ],
+          "font_size": 29,
+          "baseline": 1009.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역법 · MS-094 · 기존 제80회 원고",
+          "box": [
+            80.0,
+            1070.0,
+            434.0,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "무한회독",
+          "box": [
+            1435.375,
+            1070.0,
+            1520.375,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": true,
+          "fill": "#25241F"
+        }
+      ],
+      "minimum_body_font_px": 32,
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "png_sha256": "47b94d81bf4b4233674957ed29353654ea2dd5e216f50ef2f7e584bf7f63388f",
+      "existing_draft_webp_pixel_match": true,
+      "existing_draft_webp_sha256": "d5f6aae305291e59c321163efdf90df38d1e3e3700a1a86627c88d70735a8676"
+    },
+    {
+      "id": "MS-094-D17-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/chaplain-committee-members.svg",
+      "svg_sha256": "a8ba2f4a6be0b2e31fd0d2f11cab3f66d3f0b482cb9fd65757d1d8b65512d76d",
+      "findings": [],
+      "text_boxes": [
+        {
+          "text": "병역법 / MS-094",
+          "box": [
+            80.0,
+            52.0,
+            261.0,
+            79.0
+          ],
+          "font_size": 25,
+          "baseline": 74.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제80회 · 스크립트 도식",
+          "box": [
+            1295.5625,
+            54.0,
+            1519.5625,
+            77.0
+          ],
+          "font_size": 23,
+          "baseline": 74.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "군종장교운영심사위원회 세부 구성",
+          "box": [
+            80.0,
+            132.0,
+            913.0,
+            188.0
+          ],
+          "font_size": 58,
+          "baseline": 182.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "위원회는 국방부에 설치",
+          "box": [
+            84.0,
+            215.0,
+            367.0,
+            244.0
+          ],
+          "font_size": 29,
+          "baseline": 241.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "위원 구성",
+          "box": [
+            80.0,
+            335.0,
+            246.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "위원장",
+          "box": [
+            128.0,
+            411.0,
+            205.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "국방부 인사복지실장",
+          "box": [
+            128.0,
+            452.0,
+            402.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "국방부 소속 위원",
+          "box": [
+            128.0,
+            522.0,
+            324.0,
+            550.0
+          ],
+          "font_size": 28,
+          "baseline": 547.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "인사기획관·군종업무 담당 과장",
+          "box": [
+            128.0,
+            563.0,
+            547.0,
+            594.0
+          ],
+          "font_size": 32,
+          "baseline": 590.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "장관 지정 대령 이상 또는 4급 이상 등",
+          "box": [
+            128.0,
+            604.0,
+            619.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "각 군 위원",
+          "box": [
+            128.0,
+            674.0,
+            247.0,
+            702.0
+          ],
+          "font_size": 28,
+          "baseline": 699.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "육군·해군·공군 본부",
+          "box": [
+            128.0,
+            715.0,
+            408.0,
+            746.0
+          ],
+          "font_size": 32,
+          "baseline": 742.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "인사참모부장",
+          "box": [
+            128.0,
+            756.0,
+            305.0,
+            787.0
+          ],
+          "font_size": 32,
+          "baseline": 783.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "위원회 운영 보조",
+          "box": [
+            840.0,
+            335.0,
+            1134.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "간사 1명",
+          "box": [
+            888.0,
+            411.0,
+            988.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "국방부 공무원 중 위원장이 임명",
+          "box": [
+            888.0,
+            452.0,
+            1307.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "전문위원회",
+          "box": [
+            888.0,
+            522.0,
+            1017.0,
+            550.0
+          ],
+          "font_size": 28,
+          "baseline": 547.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "종교 선정 사전 검토를 위해",
+          "box": [
+            888.0,
+            563.0,
+            1248.0,
+            594.0
+          ],
+          "font_size": 32,
+          "baseline": 590.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "둘 수 있음",
+          "box": [
+            888.0,
+            604.0,
+            1024.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "수당·여비",
+          "box": [
+            888.0,
+            674.0,
+            1008.0,
+            702.0
+          ],
+          "font_size": 28,
+          "baseline": 699.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "민간위원·전문가에게",
+          "box": [
+            888.0,
+            715.0,
+            1171.0,
+            746.0
+          ],
+          "font_size": 32,
+          "baseline": 742.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "예산 범위에서 지급 가능",
+          "box": [
+            888.0,
+            756.0,
+            1209.0,
+            787.0
+          ],
+          "font_size": 32,
+          "baseline": 783.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "위원장 포함 8~11명 / 특정 종교 신자 3분의 1 미만",
+          "box": [
+            80.0,
+            983.0,
+            685.0,
+            1014.0
+          ],
+          "font_size": 29,
+          "baseline": 1009.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역법 · MS-094 · 기존 제80회 원고",
+          "box": [
+            80.0,
+            1070.0,
+            434.0,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "무한회독",
+          "box": [
+            1435.375,
+            1070.0,
+            1520.375,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": true,
+          "fill": "#25241F"
+        }
+      ],
+      "minimum_body_font_px": 32,
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "png_sha256": "ef825c8ca3b4a5c698a9893c997813143accc61b118bf483b1571aad7634aae7",
+      "existing_draft_webp_pixel_match": true,
+      "existing_draft_webp_sha256": "43ad0200d99203d757315cfbb1bcf7d26c3e50bf63b1f2e2e5212faffd63e7d6"
+    },
+    {
+      "id": "MS-094-D18-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-to-officer-selection.svg",
+      "svg_sha256": "e8ccf6c70f5e94d237f4f0a0907db5f182854aeb1359f8eba4166bdf726b6780",
+      "findings": [],
+      "text_boxes": [
+        {
+          "text": "병역법 / MS-094",
+          "box": [
+            80.0,
+            52.0,
+            261.0,
+            79.0
+          ],
+          "font_size": 25,
+          "baseline": 74.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제80회 · 스크립트 도식",
+          "box": [
+            1295.5625,
+            54.0,
+            1519.5625,
+            77.0
+          ],
+          "font_size": 23,
+          "baseline": 74.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "후보생에서 현역장교로 선발",
+          "box": [
+            80.0,
+            132.0,
+            753.0,
+            188.0
+          ],
+          "font_size": 58,
+          "baseline": 182.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "의무·법무·수의 분야의 선발 기준",
+          "box": [
+            84.0,
+            216.0,
+            488.0,
+            244.0
+          ],
+          "font_size": 29,
+          "baseline": 241.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "의무 분야",
+          "box": [
+            80.0,
+            335.0,
+            246.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "일반 선발 대상",
+          "box": [
+            128.0,
+            411.0,
+            298.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "의무사관후보생 과정 수료자",
+          "box": [
+            128.0,
+            452.0,
+            499.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "예외 선발 대상",
+          "box": [
+            128.0,
+            522.0,
+            298.0,
+            550.0
+          ],
+          "font_size": 28,
+          "baseline": 547.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "제한연령까지 수련 미완료",
+          "box": [
+            128.0,
+            563.0,
+            470.0,
+            594.0
+          ],
+          "font_size": 32,
+          "baseline": 590.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "수련기관 변경·퇴직 후보생",
+          "box": [
+            128.0,
+            604.0,
+            488.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "법무·수의",
+          "box": [
+            840.0,
+            335.0,
+            1019.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "법무",
+          "box": [
+            888.0,
+            411.0,
+            940.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "과정 수료 후 판사·검사·변호사",
+          "box": [
+            888.0,
+            452.0,
+            1304.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "자격을 취득한 사람",
+          "box": [
+            888.0,
+            493.0,
+            1141.0,
+            524.0
+          ],
+          "font_size": 32,
+          "baseline": 520.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "수의",
+          "box": [
+            888.0,
+            563.0,
+            940.0,
+            591.0
+          ],
+          "font_size": 28,
+          "baseline": 588.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "과정 수료 후 수의사 자격 취득자",
+          "box": [
+            888.0,
+            604.0,
+            1315.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "명단 통보",
+          "box": [
+            888.0,
+            674.0,
+            999.0,
+            702.0
+          ],
+          "font_size": 28,
+          "baseline": 699.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "병무청장 → 국방부장관",
+          "box": [
+            888.0,
+            715.0,
+            1199.0,
+            746.0
+          ],
+          "font_size": 32,
+          "baseline": 742.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "선발 기준·절차는 대통령령 / 세부는 국방부령",
+          "box": [
+            80.0,
+            983.0,
+            626.0,
+            1014.0
+          ],
+          "font_size": 29,
+          "baseline": 1009.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역법 · MS-094 · 기존 제80회 원고",
+          "box": [
+            80.0,
+            1070.0,
+            434.0,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "무한회독",
+          "box": [
+            1435.375,
+            1070.0,
+            1520.375,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": true,
+          "fill": "#25241F"
+        }
+      ],
+      "minimum_body_font_px": 32,
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "png_sha256": "c69826607be9a9b218f622ab0596f441fae89bb2f4bd8623ed6e9f038de1b8f1",
+      "existing_draft_webp_pixel_match": true,
+      "existing_draft_webp_sha256": "44305ad957587576885f5ed3abe65d1564de225f50bc30a5a65783a47e044042"
+    },
+    {
+      "id": "MS-094-D19-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/officer-training-and-records.svg",
+      "svg_sha256": "3d25a66ac2943802db24e7a594e2aa5321440477814e4535f8540cd8d04fadb5",
+      "findings": [],
+      "text_boxes": [
+        {
+          "text": "병역법 / MS-094",
+          "box": [
+            80.0,
+            52.0,
+            261.0,
+            79.0
+          ],
+          "font_size": 25,
+          "baseline": 74.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제80회 · 스크립트 도식",
+          "box": [
+            1295.5625,
+            54.0,
+            1519.5625,
+            77.0
+          ],
+          "font_size": 23,
+          "baseline": 74.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "군사교육 및 입영 명부 관리",
+          "box": [
+            80.0,
+            132.0,
+            732.0,
+            188.0
+          ],
+          "font_size": 58,
+          "baseline": 182.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "장교 편입 대상자의 입영 전후 처리",
+          "box": [
+            84.0,
+            215.0,
+            498.0,
+            244.0
+          ],
+          "font_size": 29,
+          "baseline": 241.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "군사교육 대상",
+          "box": [
+            80.0,
+            335.0,
+            324.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "군사교육 가능",
+          "box": [
+            128.0,
+            411.0,
+            290.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "법 제58조 제1·3항 및 제59조",
+          "box": [
+            128.0,
+            452.0,
+            524.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "현역장교 병적 편입 대상자",
+          "box": [
+            128.0,
+            493.0,
+            479.0,
+            524.0
+          ],
+          "font_size": 32,
+          "baseline": 520.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "임용결격사유 조회",
+          "box": [
+            128.0,
+            563.0,
+            342.0,
+            591.0
+          ],
+          "font_size": 28,
+          "baseline": 588.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "병무청장: 해당 관서에 조회",
+          "box": [
+            128.0,
+            604.0,
+            486.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "결격자는 병적 제외 후 원신분 복귀",
+          "box": [
+            128.0,
+            645.0,
+            585.0,
+            676.0
+          ],
+          "font_size": 32,
+          "baseline": 672.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "입영 명부 처리",
+          "box": [
+            840.0,
+            335.0,
+            1095.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "입영부대의 장",
+          "box": [
+            888.0,
+            411.0,
+            1050.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "입영·미입영(귀가자 포함) 명부와",
+          "box": [
+            888.0,
+            452.0,
+            1326.0,
+            486.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병적기록표를 지방병무청장에게",
+          "box": [
+            888.0,
+            493.0,
+            1309.0,
+            524.0
+          ],
+          "font_size": 32,
+          "baseline": 520.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "지방병무청장",
+          "box": [
+            888.0,
+            563.0,
+            1043.0,
+            591.0
+          ],
+          "font_size": 28,
+          "baseline": 588.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "현황을 지체 없이 병무청장에게",
+          "box": [
+            888.0,
+            604.0,
+            1298.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "보고",
+          "box": [
+            888.0,
+            647.0,
+            947.0,
+            672.0
+          ],
+          "font_size": 32,
+          "baseline": 672.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "사회복무요원 소집 대상자 일반을 군사교육 대상으로 바꾸지 않음",
+          "box": [
+            80.0,
+            983.0,
+            857.0,
+            1012.0
+          ],
+          "font_size": 29,
+          "baseline": 1009.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역법 · MS-094 · 기존 제80회 원고",
+          "box": [
+            80.0,
+            1070.0,
+            434.0,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "무한회독",
+          "box": [
+            1435.375,
+            1070.0,
+            1520.375,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": true,
+          "fill": "#25241F"
+        }
+      ],
+      "minimum_body_font_px": 32,
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "png_sha256": "f6d3e93032312749f37df3e388a4666bcac168b24358a1db30838ab7cdbe5bc8",
+      "existing_draft_webp_pixel_match": true,
+      "existing_draft_webp_sha256": "faf7857cb3c88c73f9c449b31a47fa6d95604952710181c35370788c6b2384c4"
+    },
+    {
+      "id": "MS-094-D20-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-application-documents.svg",
+      "svg_sha256": "bef427a9c3853dd819c338af5fb1affdff3102571950650d7ceea33b8014dd53",
+      "findings": [],
+      "text_boxes": [
+        {
+          "text": "병역법 / MS-094",
+          "box": [
+            80.0,
+            52.0,
+            261.0,
+            79.0
+          ],
+          "font_size": 25,
+          "baseline": 74.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제80회 · 스크립트 도식",
+          "box": [
+            1295.5625,
+            54.0,
+            1519.5625,
+            77.0
+          ],
+          "font_size": 23,
+          "baseline": 74.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "사관후보생 지원 증빙서류",
+          "box": [
+            80.0,
+            132.0,
+            699.0,
+            188.0
+          ],
+          "font_size": 58,
+          "baseline": 182.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "선발 점수에 사용하는 성적의 증명",
+          "box": [
+            84.0,
+            215.0,
+            490.0,
+            244.0
+          ],
+          "font_size": 29,
+          "baseline": 241.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "분야별 서류",
+          "box": [
+            80.0,
+            335.0,
+            285.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "의무",
+          "box": [
+            128.0,
+            411.0,
+            180.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "면허시험 성적증명서",
+          "box": [
+            128.0,
+            452.0,
+            402.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "법무",
+          "box": [
+            128.0,
+            522.0,
+            180.0,
+            550.0
+          ],
+          "font_size": 28,
+          "baseline": 547.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "사법시험 성적 또는 법학적성시험",
+          "box": [
+            128.0,
+            563.0,
+            567.0,
+            594.0
+          ],
+          "font_size": 32,
+          "baseline": 590.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "성적과 1학년 성적 증명",
+          "box": [
+            128.0,
+            604.0,
+            436.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "수의",
+          "box": [
+            128.0,
+            674.0,
+            180.0,
+            702.0
+          ],
+          "font_size": 28,
+          "baseline": 699.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "본과 1·2학년 성적증명서",
+          "box": [
+            128.0,
+            715.0,
+            463.0,
+            746.0
+          ],
+          "font_size": 32,
+          "baseline": 742.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "추가 확인",
+          "box": [
+            840.0,
+            334.0,
+            1006.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "주민등록표 등본",
+          "box": [
+            888.0,
+            411.0,
+            1076.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "병무청장이 행정정보 공동이용으로",
+          "box": [
+            888.0,
+            452.0,
+            1347.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "확인, 미동의 시 본인 첨부",
+          "box": [
+            888.0,
+            493.0,
+            1225.0,
+            527.0
+          ],
+          "font_size": 32,
+          "baseline": 520.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "대체 편입 희망",
+          "box": [
+            888.0,
+            563.0,
+            1058.0,
+            591.0
+          ],
+          "font_size": 28,
+          "baseline": 588.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "장교 미선발 시 공중보건의사",
+          "box": [
+            888.0,
+            604.0,
+            1268.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "공익법무관 등 편입 희망 기재 가능",
+          "box": [
+            888.0,
+            645.0,
+            1345.0,
+            676.0
+          ],
+          "font_size": 32,
+          "baseline": 672.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "지원서류는 시행규칙 제79조",
+          "box": [
+            80.0,
+            983.0,
+            424.0,
+            1012.0
+          ],
+          "font_size": 29,
+          "baseline": 1009.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역법 · MS-094 · 기존 제80회 원고",
+          "box": [
+            80.0,
+            1070.0,
+            434.0,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "무한회독",
+          "box": [
+            1435.375,
+            1070.0,
+            1520.375,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": true,
+          "fill": "#25241F"
+        }
+      ],
+      "minimum_body_font_px": 32,
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "png_sha256": "286cf97028f717c3458e2de696060376c35e55970d6daab0a886e44732bef775",
+      "existing_draft_webp_pixel_match": true,
+      "existing_draft_webp_sha256": "6dede35cde3da821931e368d9e421fbc58a66f80c84ed3f6c5a21318e686c10b"
+    },
+    {
+      "id": "MS-094-D21-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/non-illness-discharge.svg",
+      "svg_sha256": "bf598bb8a46acfe45f4086977be5af95cdd9ff767f0a7adcfb399bc3f48e1a88",
+      "findings": [],
+      "text_boxes": [
+        {
+          "text": "병역법 / MS-094",
+          "box": [
+            80.0,
+            52.0,
+            261.0,
+            79.0
+          ],
+          "font_size": 25,
+          "baseline": 74.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제80회 · 스크립트 도식",
+          "box": [
+            1295.5625,
+            54.0,
+            1519.5625,
+            77.0
+          ],
+          "font_size": 23,
+          "baseline": 74.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "군간부후보생 교육기관 퇴교",
+          "box": [
+            80.0,
+            132.0,
+            753.0,
+            188.0
+          ],
+          "font_size": 58,
+          "baseline": 182.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "질병이 아닌 사유로 퇴교된 경우",
+          "box": [
+            84.0,
+            216.0,
+            463.0,
+            244.0
+          ],
+          "font_size": 29,
+          "baseline": 241.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "교육기관의 장",
+          "box": [
+            80.0,
+            335.0,
+            324.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "지체 없이",
+          "box": [
+            128.0,
+            411.0,
+            239.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "퇴교자 명단과 병적기록표를",
+          "box": [
+            128.0,
+            452.0,
+            499.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "지방병무청장에게 전달",
+          "box": [
+            128.0,
+            493.0,
+            431.0,
+            524.0
+          ],
+          "font_size": 32,
+          "baseline": 520.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "지방병무청장",
+          "box": [
+            840.0,
+            335.0,
+            1072.0,
+            376.0
+          ],
+          "font_size": 42,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "장교 편입 대상에서 제외",
+          "box": [
+            888.0,
+            411.0,
+            1169.0,
+            439.0
+          ],
+          "font_size": 28,
+          "baseline": 436.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "현역병입영 대상자 또는",
+          "box": [
+            888.0,
+            452.0,
+            1200.0,
+            483.0
+          ],
+          "font_size": 32,
+          "baseline": 479.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "사회복무요원 소집 대상자로 관리",
+          "box": [
+            888.0,
+            493.0,
+            1327.0,
+            524.0
+          ],
+          "font_size": 32,
+          "baseline": 520.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "구별",
+          "box": [
+            888.0,
+            563.0,
+            940.0,
+            591.0
+          ],
+          "font_size": 28,
+          "baseline": 588.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "질병으로 인한 퇴교와는",
+          "box": [
+            888.0,
+            604.0,
+            1200.0,
+            635.0
+          ],
+          "font_size": 32,
+          "baseline": 631.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "별개의 처리",
+          "box": [
+            888.0,
+            645.0,
+            1044.0,
+            676.0
+          ],
+          "font_size": 32,
+          "baseline": 672.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "시행규칙 제25조: 질병이 아닌 사유",
+          "box": [
+            80.0,
+            983.0,
+            502.0,
+            1012.0
+          ],
+          "font_size": 29,
+          "baseline": 1009.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역법 · MS-094 · 기존 제80회 원고",
+          "box": [
+            80.0,
+            1070.0,
+            434.0,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "무한회독",
+          "box": [
+            1435.375,
+            1070.0,
+            1520.375,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": true,
+          "fill": "#25241F"
+        }
+      ],
+      "minimum_body_font_px": 32,
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "png_sha256": "8b9febeeae33ed373a4c1d3b6cad6b34d9238d9f3657a4a7ca2ac7d8cba58fa3",
+      "existing_draft_webp_pixel_match": true,
+      "existing_draft_webp_sha256": "73a00850ab5952a1a1a46fba4450f40db69d1bc38a2abe548beacb5f47c0f326"
+    },
+    {
+      "id": "MS-109-D09-editorial-v1",
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-109/restriction-grounds-and-exceptions-revised.svg",
+      "svg_sha256": "14b48614b167b116fa073eaef021c451bbd57250f22de1efd9edd7f192360258",
+      "findings": [],
+      "text_boxes": [
+        {
+          "text": "병역법 / MS-109",
+          "box": [
+            80.0,
+            52.0,
+            261.0,
+            79.0
+          ],
+          "font_size": 25,
+          "baseline": 74.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제80회 · 스크립트 도식",
+          "box": [
+            1295.5625,
+            54.0,
+            1519.5625,
+            77.0
+          ],
+          "font_size": 23,
+          "baseline": 74.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "국외여행 제한 유형과 예외",
+          "box": [
+            80.0,
+            132.0,
+            716.0,
+            188.0
+          ],
+          "font_size": 58,
+          "baseline": 182.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "시행령 제145조 · 제한 사유와 예외의 구분",
+          "box": [
+            84.0,
+            215.0,
+            594.0,
+            244.0
+          ],
+          "font_size": 29,
+          "baseline": 241.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "제한 사유 6가지",
+          "box": [
+            80.0,
+            337.0,
+            345.0,
+            376.0
+          ],
+          "font_size": 40,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "검사·입영·소집",
+          "box": [
+            128.0,
+            411.0,
+            275.0,
+            433.0
+          ],
+          "font_size": 22,
+          "baseline": 430.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "기피 중 또는 기피한 사실",
+          "box": [
+            128.0,
+            440.0,
+            376.0,
+            464.0
+          ],
+          "font_size": 24,
+          "baseline": 461.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "사회복무요원 등의 복무",
+          "box": [
+            128.0,
+            482.0,
+            343.0,
+            504.0
+          ],
+          "font_size": 22,
+          "baseline": 501.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "이탈 중 또는 이탈한 사실",
+          "box": [
+            128.0,
+            511.0,
+            376.0,
+            535.0
+          ],
+          "font_size": 24,
+          "baseline": 532.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "국외여행허가 의무",
+          "box": [
+            128.0,
+            553.0,
+            296.0,
+            575.0
+          ],
+          "font_size": 22,
+          "baseline": 572.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "위반한 사실",
+          "box": [
+            128.0,
+            582.0,
+            245.0,
+            606.0
+          ],
+          "font_size": 24,
+          "baseline": 603.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "연기·소집 해제처분",
+          "box": [
+            128.0,
+            624.0,
+            309.0,
+            646.0
+          ],
+          "font_size": 22,
+          "baseline": 643.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "정해진 사유로 취소",
+          "box": [
+            128.0,
+            653.0,
+            318.0,
+            677.0
+          ],
+          "font_size": 24,
+          "baseline": 674.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역 기피·감면 목적",
+          "box": [
+            128.0,
+            695.0,
+            315.0,
+            717.0
+          ],
+          "font_size": 22,
+          "baseline": 714.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "도망·은신·신체손상·속임수",
+          "box": [
+            128.0,
+            724.0,
+            411.0,
+            748.0
+          ],
+          "font_size": 24,
+          "baseline": 745.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역의무부과 통지서",
+          "box": [
+            128.0,
+            766.0,
+            316.0,
+            788.0
+          ],
+          "font_size": 22,
+          "baseline": 785.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "정당한 사유 없이 미수령",
+          "box": [
+            128.0,
+            795.0,
+            369.0,
+            819.0
+          ],
+          "font_size": 24,
+          "baseline": 816.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제한할 수 없는 사유",
+          "box": [
+            840.0,
+            336.0,
+            1168.0,
+            376.0
+          ],
+          "font_size": 40,
+          "baseline": 371.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "가족 사망",
+          "box": [
+            888.0,
+            405.0,
+            999.0,
+            433.0
+          ],
+          "font_size": 28,
+          "baseline": 430.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "국외 거주 배우자, 본인·배우자의",
+          "box": [
+            888.0,
+            442.0,
+            1295.0,
+            473.0
+          ],
+          "font_size": 30,
+          "baseline": 467.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "형제자매·직계존속·직계비속",
+          "box": [
+            888.0,
+            479.0,
+            1253.0,
+            508.0
+          ],
+          "font_size": 30,
+          "baseline": 504.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "본인 질병",
+          "box": [
+            888.0,
+            532.0,
+            999.0,
+            560.0
+          ],
+          "font_size": 28,
+          "baseline": 557.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "국내에서 치료 곤란",
+          "box": [
+            888.0,
+            569.0,
+            1126.0,
+            598.0
+          ],
+          "font_size": 30,
+          "baseline": 594.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "가사 정리",
+          "box": [
+            888.0,
+            622.0,
+            999.0,
+            650.0
+          ],
+          "font_size": 28,
+          "baseline": 647.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "입영·소집을 위한 경우",
+          "box": [
+            888.0,
+            659.0,
+            1170.0,
+            688.0
+          ],
+          "font_size": 30,
+          "baseline": 684.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "제한 조치의 주체",
+          "box": [
+            888.0,
+            712.0,
+            1084.0,
+            740.0
+          ],
+          "font_size": 28,
+          "baseline": 737.0,
+          "bold": true,
+          "fill": "#77756E"
+        },
+        {
+          "text": "병무청장",
+          "box": [
+            888.0,
+            749.0,
+            998.0,
+            778.0
+          ],
+          "font_size": 30,
+          "baseline": 774.0,
+          "bold": false,
+          "fill": "#25241F"
+        },
+        {
+          "text": "복무 중인 사람의 제외 적용 범위는 원고상 불명확하여 별도 검토 보류",
+          "box": [
+            80.0,
+            967.0,
+            823.0,
+            993.0
+          ],
+          "font_size": 26,
+          "baseline": 990.0,
+          "bold": true,
+          "fill": "#25241F"
+        },
+        {
+          "text": "병역법 · MS-109 · 기존 제80회 원고",
+          "box": [
+            80.0,
+            1070.0,
+            434.0,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": false,
+          "fill": "#77756E"
+        },
+        {
+          "text": "무한회독",
+          "box": [
+            1435.375,
+            1070.0,
+            1520.375,
+            1093.0
+          ],
+          "font_size": 23,
+          "baseline": 1090.0,
+          "bold": true,
+          "fill": "#25241F"
+        }
+      ],
+      "minimum_body_font_px": 24,
+      "raster_dimensions": [
+        1600,
+        1120
+      ],
+      "png_sha256": "605b12b28ae9f52ecdd83bd7ee691eac1093b943e0df40d164812d5a1fab84f6",
+      "existing_draft_webp_pixel_match": true,
+      "existing_draft_webp_sha256": "0307254e919f711afeeeb1a1e811c9d511a04c33946a05029415743fe1bf3ec5"
+    }
+  ],
+  "note": "MS-109-D09 is evaluated only for geometry and rendered legibility; its ambiguous source-content scope remains unresolved by this audit.",
+  "visual_inspection": {
+    "contact_sheets_opened": 2,
+    "active_pages_seen": 17,
+    "native_resolution_detail_opened": [
+      "MS-109-D09-editorial-v1"
+    ],
+    "confirmed_overflow_or_overlap": 0,
+    "confirmed_missing_glyph": 0,
+    "source_semantics_reviewed": false
+  },
+  "manual_findings": [
+    {
+      "id": "MS-109-D09-editorial-v1",
+      "kind": "uneven_small_body_type",
+      "severity": "readability_improvement_before_publication",
+      "detail": "The6-item left list uses22px labels and24px body; rightcolumn uses28px labels and30px body. Left list is visibly small when scaled; it can be enlarged without changing content.",
+      "suggested_layout": {
+        "left_label_font_px": 26,
+        "left_body_font_px": 30,
+        "left_label_y": "430 +81*i for i0..5",
+        "left_body_y": "467 +81*i for i0..5",
+        "last_body_baseline": 872,
+        "body_area_bottom": 925
+      },
+      "source_content_scope": "Unresolved source exception applicability is neither altered nor judged by this visual audit."
+    }
+  ]
+}

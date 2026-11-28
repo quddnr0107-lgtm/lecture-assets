@@ -1,0 +1,418 @@
+{
+  "schema_version": "1.0",
+  "audit_id": "exam80-full-audit-20261128-draft-MS-094",
+  "audited_at": "2026-11-28",
+  "reviewer": "content_056_110",
+  "scope": "활성 배치 20261128-11의 미승격 MS-094-D08~D21 14장",
+  "draft_metadata_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/coverage-drafts-editorial-content.json",
+  "draft_metadata_sha256": "bf792535755aae8a09dab53498b1090b082f817ae29dc556eca87fbece118d64",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "source": {
+    "lecture_id": "MS-094",
+    "title": "병역법 제58조, 의무·법무·군종·수의장교 등의 병적 편입",
+    "article": "병역법 제58조",
+    "path": "docs/merged-lectures/병역법/본법_58.txt",
+    "script_git_blob_sha": "a4302771d25f6aeaa0c197145c1748d4360e184e",
+    "catalog_version": "c5053f3631f438ea59956024081db556d04518acf98bf170a1cd0063dd7e540d",
+    "script_sha256": "c8035d8561e76b4f7c9f3738367683b749b806f3e997e78292f9d26a830173ea",
+    "script_bytes": 49822,
+    "fulltext_identity_verified": true
+  },
+  "method": {
+    "external_law_or_web_used": false,
+    "full_MS_094_source_read": true,
+    "all_active_draft_assertions_reviewed": true,
+    "source_line_count": 304,
+    "semantic_review": "주체·요건·기간·예외·의무/재량 및 제목·머리말의 적용 범위를 기존 원고와 대조. 원고의 앞선 한정조건을 참조하는 문장은 앞뒤 문맥까지 확인.",
+    "svg_text_integrity": "14 SVG에서 제목·부제·소제목·라벨·항목·정리의 텍스트가 활성 초안 JSON과 일치함을 공백 정규화하여 확인. 렌더 시각검수는 별도 담당 결과에 따름.",
+    "production_status": "검수만 수행. 수정·승격·신규 도해 제작·공식 manifest 변경을 하지 않음."
+  },
+  "totals": {
+    "draft_pages": 14,
+    "item_and_takeaway_claims": 84,
+    "content_findings": 1,
+    "source_mapping_findings": 3,
+    "content_pages_without_confirmed_defect": 13
+  },
+  "findings": [
+    {
+      "id": "D094-01",
+      "page_id": "MS-094-D18-editorial-v1",
+      "classification": "condition_omitted",
+      "status": "confirmed_at_audit_baseline",
+      "field": "sections[0].items[1].text",
+      "original": "제한연령까지 수련 미완료\n수련기관 변경·퇴직 후보생",
+      "issue": "예외 선발 대상이 되는 수련기관 변경에는 병무청장 허가 없이 변경한 경우라는 조건이 있다. 원고 284줄의 앞에서 본 대로라는 표현은 172줄의 조건을 다시 가리키는데, 도해의 예외 선발 대상에서는 그 조건이 빠졌다.",
+      "suggested_text": "제한연령까지 수련 미완료\n병무청장 허가 없는 수련기관 변경\n수련기관 퇴직",
+      "suggested_script_line_spans": [
+        [
+          168,
+          174
+        ],
+        [
+          278,
+          284
+        ]
+      ],
+      "source_line_anchors": [
+        168,
+        170,
+        172,
+        174,
+        284
+      ]
+    },
+    {
+      "id": "D094-02",
+      "page_id": "MS-094-D13-editorial-v1",
+      "classification": "source_mapping_incorrect",
+      "status": "confirmed_at_audit_baseline",
+      "field": "script_line_spans",
+      "original": [
+        [
+          162,
+          164
+        ]
+      ],
+      "issue": "기록된 줄은 비유 및 35세 설명이다. 도해에 있는 신상변동 통보의 주체·14일·사유를 설명하는 실제 근거는 168~170줄이다.",
+      "suggested_script_line_spans": [
+        [
+          168,
+          170
+        ]
+      ],
+      "source_line_anchors": [
+        168,
+        170
+      ]
+    },
+    {
+      "id": "D094-03",
+      "page_id": "MS-094-D14-editorial-v1",
+      "classification": "source_mapping_incomplete",
+      "status": "confirmed_at_audit_baseline",
+      "field": "script_line_spans",
+      "original": [
+        [
+          150,
+          160
+        ],
+        [
+          166,
+          172
+        ]
+      ],
+      "issue": "도해의 가사사정 처리와 이미 의사 자격을 보유했다는 설명은 각각 176줄과 174줄에 있다. 현재 줄 범위에서 빠졌다.",
+      "suggested_script_line_spans": [
+        [
+          150,
+          176
+        ]
+      ],
+      "source_line_anchors": [
+        152,
+        166,
+        172,
+        174,
+        176
+      ]
+    },
+    {
+      "id": "D094-04",
+      "page_id": "MS-094-D21-editorial-v1",
+      "classification": "source_mapping_incorrect",
+      "status": "confirmed_at_audit_baseline",
+      "field": "script_line_spans",
+      "original": [
+        [
+          170,
+          172
+        ]
+      ],
+      "issue": "기록된 범위는 사관후보생 신상변동·군전공의 제적 예외이며, 질병 아닌 사유의 군간부후보생 교육기관 퇴교 처리는 178줄이다.",
+      "suggested_script_line_spans": [
+        [
+          178,
+          178
+        ]
+      ],
+      "source_line_anchors": [
+        178
+      ]
+    }
+  ],
+  "coverage_gaps_identified": [
+    {
+      "id": "D094-G01",
+      "classification": "missing_script_topic",
+      "page_id": "MS-094-D11-editorial-v1",
+      "description": "군종사관후보생의 재학 대학은 국방부장관이 지정하는 대학이라는 조건이 원고에 있으나, 공식 7장과 활성 초안 14장 어디에도 군종 대학의 지정 주체를 명시한 문장이 없다. 군전공의 수련기관의 지정 주체는 공식 D04에 별도로 있다.",
+      "source_line_anchors": [
+        109,
+        120
+      ],
+      "suggestion": "D11 군종 항목에 국방부장관이 지정한 대학임을 덧붙이고 근거 범위를 109~120줄까지 보완할 수 있다.",
+      "counted_as_false_statement": false
+    }
+  ],
+  "optional_clarity": [
+    {
+      "page_id": "MS-094-D17-editorial-v1",
+      "field": "sections[0].items[1].text",
+      "suggestion": "대령 이상 뒤에 현역장교를 명시하면 원고의 위원 자격이 더 분명해짐.",
+      "source_line_anchors": [
+        270
+      ],
+      "counted_as_confirmed_error": false
+    }
+  ],
+  "pages": [
+    {
+      "page_id": "MS-094-D08-editorial-v1",
+      "title": "군종 대상 종교의 선정기준",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/religion-selection-criteria.svg",
+      "svg_sha256": "e974178030c5312820265bc1ee10c1ca69e7463d67801796def6e60f1b5ad388",
+      "item_and_takeaway_claim_count": 5,
+      "content_status": "reviewed_no_confirmed_defect",
+      "source_mapping_status": "reviewed_supporting_range_present",
+      "svg_text_matches_draft_json": true,
+      "source_line_anchors": [
+        42,
+        48,
+        49,
+        50,
+        54
+      ],
+      "finding_ids": []
+    },
+    {
+      "page_id": "MS-094-D09-editorial-v1",
+      "title": "군종장교 선발대상과 추천",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/chaplain-selection.svg",
+      "svg_sha256": "a6dcb20053d46964831db4e3958ee0987030e5e479a5e468ef5a1e7bee5fc91e",
+      "item_and_takeaway_claim_count": 7,
+      "content_status": "reviewed_no_confirmed_defect",
+      "source_mapping_status": "reviewed_supporting_range_present",
+      "svg_text_matches_draft_json": true,
+      "source_line_anchors": [
+        42,
+        56
+      ],
+      "finding_ids": []
+    },
+    {
+      "page_id": "MS-094-D10-editorial-v1",
+      "title": "현역장교 편입 지원",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/direct-officer-application.svg",
+      "svg_sha256": "21a59af9bc6f846892db3ef036df64f880e06377c75cf806e324027dae8eb04b",
+      "item_and_takeaway_claim_count": 6,
+      "content_status": "reviewed_no_confirmed_defect",
+      "source_mapping_status": "reviewed_supporting_range_present",
+      "svg_text_matches_draft_json": true,
+      "source_line_anchors": [
+        58,
+        60,
+        62,
+        64
+      ],
+      "finding_ids": []
+    },
+    {
+      "page_id": "MS-094-D11-editorial-v1",
+      "title": "사관후보생 분야별 편입 자격",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-eligibility.svg",
+      "svg_sha256": "afa1dbb0d99768b6365b961df5ac9eb11e069ac900cccab1b9853ceea385b51f",
+      "item_and_takeaway_claim_count": 5,
+      "content_status": "reviewed_no_confirmed_defect",
+      "source_mapping_status": "reviewed_supporting_range_present",
+      "svg_text_matches_draft_json": true,
+      "source_line_anchors": [
+        70,
+        78,
+        79,
+        80,
+        81,
+        83,
+        103
+      ],
+      "finding_ids": []
+    },
+    {
+      "page_id": "MS-094-D12-editorial-v1",
+      "title": "사관후보생 선발 이후 관리",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-selection-followup.svg",
+      "svg_sha256": "c90a0ad91ef9013ff348a9f58118e72dc374a7478a787daaa3fc73d381523cb0",
+      "item_and_takeaway_claim_count": 7,
+      "content_status": "reviewed_no_confirmed_defect",
+      "source_mapping_status": "reviewed_supporting_range_present",
+      "svg_text_matches_draft_json": true,
+      "source_line_anchors": [
+        130,
+        132
+      ],
+      "finding_ids": []
+    },
+    {
+      "page_id": "MS-094-D13-editorial-v1",
+      "title": "후보생 신상변동 통보",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-change-notification.svg",
+      "svg_sha256": "0fb2590269f534001628b999b5f8bc08013916e614ad4508ef00b32eac25b432",
+      "item_and_takeaway_claim_count": 7,
+      "content_status": "reviewed_no_confirmed_defect",
+      "source_mapping_status": "correction_required_at_baseline",
+      "svg_text_matches_draft_json": true,
+      "source_line_anchors": [
+        168,
+        170
+      ],
+      "finding_ids": [
+        "D094-02"
+      ]
+    },
+    {
+      "page_id": "MS-094-D14-editorial-v1",
+      "title": "사관후보생 제적과 예외",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-removal-exception.svg",
+      "svg_sha256": "e5501a2d3959249dc3617dcd214f30bc60684a466451a5e7c380ae56b9f9a038",
+      "item_and_takeaway_claim_count": 6,
+      "content_status": "reviewed_no_confirmed_defect",
+      "source_mapping_status": "correction_required_at_baseline",
+      "svg_text_matches_draft_json": true,
+      "source_line_anchors": [
+        152,
+        166,
+        172,
+        174,
+        176
+      ],
+      "finding_ids": [
+        "D094-03"
+      ]
+    },
+    {
+      "page_id": "MS-094-D15-editorial-v1",
+      "title": "입영과 현역장교 편입 일정",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/officer-entry-timeline.svg",
+      "svg_sha256": "497c0649e2e1d51ead478e63621c397413d39cfc05ec05615d1525e6015d5842",
+      "item_and_takeaway_claim_count": 7,
+      "content_status": "reviewed_no_confirmed_defect",
+      "source_mapping_status": "reviewed_supporting_range_present",
+      "svg_text_matches_draft_json": true,
+      "source_line_anchors": [
+        240,
+        242
+      ],
+      "finding_ids": []
+    },
+    {
+      "page_id": "MS-094-D16-editorial-v1",
+      "title": "귀가자의 재신체검사 처리",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/returned-candidate-reexamination.svg",
+      "svg_sha256": "5ebafd4bf877944a4a796d9aa6aad218a18335df6823c0efcb33fb2086d9bd11",
+      "item_and_takeaway_claim_count": 6,
+      "content_status": "reviewed_no_confirmed_defect",
+      "source_mapping_status": "reviewed_supporting_range_present",
+      "svg_text_matches_draft_json": true,
+      "source_line_anchors": [
+        216,
+        218,
+        226,
+        234,
+        236
+      ],
+      "finding_ids": []
+    },
+    {
+      "page_id": "MS-094-D17-editorial-v1",
+      "title": "군종장교운영심사위원회 세부 구성",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/chaplain-committee-members.svg",
+      "svg_sha256": "a8ba2f4a6be0b2e31fd0d2f11cab3f66d3f0b482cb9fd65757d1d8b65512d76d",
+      "item_and_takeaway_claim_count": 7,
+      "content_status": "reviewed_no_confirmed_defect",
+      "source_mapping_status": "reviewed_supporting_range_present",
+      "svg_text_matches_draft_json": true,
+      "source_line_anchors": [
+        250,
+        264,
+        270,
+        276
+      ],
+      "finding_ids": []
+    },
+    {
+      "page_id": "MS-094-D18-editorial-v1",
+      "title": "후보생에서 현역장교로 선발",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-to-officer-selection.svg",
+      "svg_sha256": "e8ccf6c70f5e94d237f4f0a0907db5f182854aeb1359f8eba4166bdf726b6780",
+      "item_and_takeaway_claim_count": 6,
+      "content_status": "correction_required_at_baseline",
+      "source_mapping_status": "add_condition_anchor_with_content_fix",
+      "svg_text_matches_draft_json": true,
+      "source_line_anchors": [
+        172,
+        174,
+        280,
+        284
+      ],
+      "finding_ids": [
+        "D094-01"
+      ]
+    },
+    {
+      "page_id": "MS-094-D19-editorial-v1",
+      "title": "군사교육 및 입영 명부 관리",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/officer-training-and-records.svg",
+      "svg_sha256": "3d25a66ac2943802db24e7a594e2aa5321440477814e4535f8540cd8d04fadb5",
+      "item_and_takeaway_claim_count": 5,
+      "content_status": "reviewed_no_confirmed_defect",
+      "source_mapping_status": "reviewed_supporting_range_present",
+      "svg_text_matches_draft_json": true,
+      "source_line_anchors": [
+        184,
+        188,
+        190,
+        194,
+        238,
+        244
+      ],
+      "finding_ids": []
+    },
+    {
+      "page_id": "MS-094-D20-editorial-v1",
+      "title": "사관후보생 지원 증빙서류",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/candidate-application-documents.svg",
+      "svg_sha256": "bef427a9c3853dd819c338af5fb1affdff3102571950650d7ceea33b8014dd53",
+      "item_and_takeaway_claim_count": 6,
+      "content_status": "reviewed_no_confirmed_defect",
+      "source_mapping_status": "reviewed_supporting_range_present",
+      "svg_text_matches_draft_json": true,
+      "source_line_anchors": [
+        124,
+        128,
+        132
+      ],
+      "finding_ids": []
+    },
+    {
+      "page_id": "MS-094-D21-editorial-v1",
+      "title": "군간부후보생 교육기관 퇴교",
+      "svg_path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-094/non-illness-discharge.svg",
+      "svg_sha256": "bf598bb8a46acfe45f4086977be5af95cdd9ff767f0a7adcfb399bc3f48e1a88",
+      "item_and_takeaway_claim_count": 4,
+      "content_status": "reviewed_no_confirmed_defect",
+      "source_mapping_status": "correction_required_at_baseline",
+      "svg_text_matches_draft_json": true,
+      "source_line_anchors": [
+        178
+      ],
+      "finding_ids": [
+        "D094-04"
+      ]
+    }
+  ],
+  "limitations": [
+    "이번 검수의 14장은 미승격 초안이므로 공식 페이지 수 316장 및 본 담당 공식 범위 104장에 더하지 않는다.",
+    "원고 전문을 읽었어도 이 보고서만으로 full-script 제작 완료·승격 완료로 바꾸지 않는다.",
+    "확정 내용 오류 1건, 출처 매핑 오류 3건, 별도 원고 범위 누락 1건을 구분하였다."
+  ]
+}

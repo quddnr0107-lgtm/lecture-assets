@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "date_kst": "2026-11-28",
+  "generation": 2,
+  "lecture_id": "MS-109",
+  "diagram_id": "MS-109-D09-editorial-v1",
+  "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f",
+  "script_path": "docs/merged-lectures/병역법/본법_70.txt",
+  "script_git_blob_sha": "bee6208eb42d8b39e90471d37490fdbe22e304d8",
+  "decision": "draft_visual_correction_only",
+  "formal_publication": false,
+  "full_lecture_complete": false,
+  "content_alignment_status": "pending_source_scope_ambiguity",
+  "scope_unchanged": "복무 중인 사람의 제외 적용 범위는 원고상 불명확하여 별도 검토 보류",
+  "changed_artifacts": [
+    {
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-109/restriction-grounds-and-exceptions-revised.svg",
+      "before_sha256": "14b48614b167b116fa073eaef021c451bbd57250f22de1efd9edd7f192360258",
+      "after_sha256": "a765f530f100072f69549f53c96dd4bda6f0f0df79963171774b61f66a73181a",
+      "bytes": 6529
+    },
+    {
+      "path": "military-service-act/production-evidence/exam80-generation-2/draft-batches/20261128-11/MS-109/restriction-grounds-and-exceptions-revised.webp",
+      "before_sha256": "0307254e919f711afeeeb1a1e811c9d511a04c33946a05029415743fe1bf3ec5",
+      "after_sha256": "f5f35833ffc62bea23dcda22d7f98191d5c3e6c6fad2faa76d7a33bdd580a511",
+      "bytes": 54180
+    }
+  ],
+  "changes": {
+    "left_labels": {
+      "count": 6,
+      "font_size_before": 22,
+      "font_size_after": 26,
+      "y_after": [
+        430,
+        511,
+        592,
+        673,
+        754,
+        835
+      ]
+    },
+    "left_body": {
+      "count": 6,
+      "font_size_before": 24,
+      "font_size_after": 30,
+      "y_after": [
+        467,
+        548,
+        629,
+        710,
+        791,
+        872
+      ]
+    },
+    "left_bullet_dots": {
+      "count": 6,
+      "cy_after": [
+        421,
+        502,
+        583,
+        664,
+        745,
+        826
+      ]
+    }
+  },
+  "verification": {
+    "text_runs": 30,
+    "all_text_exactly_preserved": true,
+    "text_sequence_sha256": "473b4144caa9a5d068662277c859022c7d0cc5573a39732f5830219492a65974",
+    "only_text_font_y_and_bullet_cy_attributes_changed": true,
+    "canvas": [
+      1600,
+      1120
+    ],
+    "measured_glyph_overflow": 0,
+    "measured_text_overlaps": 0,
+    "lossless_webp_vp8l": true,
+    "inkscape_png_vs_webp_exact_pixels": true,
+    "actual_rendered_image_opened_and_visually_reviewed": true,
+    "visual_result": "좌우 본문 크기 일치, 여섯 항목과 하단 보류 문구가 잘림·겹침 없이 표시됨"
+  },
+  "prior_evidence_policy": "Prior evidence and recorded hashes are not overwritten; this new record describes the superseding visual-only correction.",
+  "coordinator_followup": {
+    "render_request_entry_matches_corrected_svg": false,
+    "existing_request_svg_sha256": "14b48614b167b116fa073eaef021c451bbd57250f22de1efd9edd7f192360258",
+    "required_action": "Update active render request/cache receipt provenance during coordinator integration if the corrected draft remains an active render target; do not rewrite historical review records."
+  }
+}

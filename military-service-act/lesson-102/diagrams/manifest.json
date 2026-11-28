@@ -25,13 +25,13 @@
       "files": {
         "svg": {
           "path": "military-service-act/lesson-102/diagrams/MS-102-D01-editorial-v1.svg",
-          "bytes": 7504,
-          "sha256": "2702e4de4e8eea9e996df43b3457164d6450063541bd2cd95600bdf886beac1a"
+          "bytes": 7476,
+          "sha256": "f51d1ed1f6dda4ceeac70b5c44a8ed06c041234ea74fb01716d7040d8a5c27f1"
         },
         "webp": {
           "path": "military-service-act/lesson-102/diagrams/MS-102-D01-editorial-v1.webp",
-          "bytes": 63256,
-          "sha256": "ec4d060b66d2acfdf763b97514163ff79102156a2d3d8e246a419c188c9658c6"
+          "bytes": 61238,
+          "sha256": "c941a88d93504a7198c78d3d6edd5d67315ad79d5608aa0fa556077f591cabef"
         }
       },
       "content": {
@@ -67,12 +67,23 @@
                 "ref": "법 제65조제1항제2·3호"
               },
               {
-                "label": "일부 범죄 제외",
-                "text": "수형 사유의 변경에는 법 제65조제1항제2호 단서에서 열거한 병역범죄자를 제외한다.",
-                "ref": "법 제65조제1항제2호 단서"
+                "label": "처분 범위",
+                "text": "수형·귀화 등은 보충역·전시근로역 편입만 가능하며 병역면제는 포함하지 않음",
+                "ref": "제80회 강의 원고"
               }
             ]
           }
+        ],
+        "content_authority": "existing_exam80_lecture_script",
+        "script_line_spans": [
+          [
+            19,
+            51
+          ],
+          [
+            351,
+            351
+          ]
         ]
       },
       "lecture_title": "병역법 제65조, 병역처분 변경 등",
@@ -93,8 +104,22 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "published_diagram_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-056-110.json",
+        "reviewed_date_kst": "2026-11-28",
+        "full_script_coverage_certified_by_this_claim_review": false,
+        "source_line_spans": [
+          [
+            19,
+            51
+          ],
+          [
+            351,
+            351
+          ]
+        ],
+        "correction_ref": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/corrections.json"
       }
     },
     {
@@ -181,8 +206,11 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "published_diagram_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-056-110.json",
+        "reviewed_date_kst": "2026-11-28",
+        "full_script_coverage_certified_by_this_claim_review": false
       }
     },
     {
@@ -269,8 +297,11 @@
         "source_commit": "ca55be300f0280bb52e874eb93c540ca76c5c16f"
       },
       "script_alignment": {
-        "status": "pending",
-        "scope": "not_yet_compared"
+        "status": "verified",
+        "scope": "published_diagram_claims_only",
+        "audit": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-056-110.json",
+        "reviewed_date_kst": "2026-11-28",
+        "full_script_coverage_certified_by_this_claim_review": false
       }
     }
   ],
@@ -280,8 +311,12 @@
   "script_git_blob_sha": "c8c0955119706a230272c3420d3f809166bf5d4a",
   "exam_number": 80,
   "script_alignment": {
-    "verified_existing_pages": 0,
-    "pending_existing_pages": 3,
-    "complete_script_coverage": "pending"
+    "verified_existing_pages": 3,
+    "pending_existing_pages": 0,
+    "complete_script_coverage": "pending",
+    "published_diagram_claims_verified_pages": 3,
+    "published_supplement_pages": 0,
+    "full_lecture_complete": false,
+    "latest_claim_review": "military-service-act/production-evidence/exam80-generation-2/full-audit-20261128/content-056-110.json"
   }
 }
