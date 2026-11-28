@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-28T19:25:00+09:00",
+  "updated_at": "2026-11-28T20:28:07+09:00",
   "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
     "status": "files_completed",
@@ -66,7 +66,32 @@
     ]
   },
   "state": {
-    "active_run": null,
+    "active_run": {
+      "id": "dr-20261128-202807-script",
+      "status": "rendering_requested",
+      "started_at": "2026-11-28T20:28:07+09:00",
+      "lease_expires_at": "2026-11-28T22:28:07+09:00",
+      "lesson_ids": [
+        "DR-071",
+        "DR-054",
+        "DR-005",
+        "DR-056"
+      ],
+      "production_job_ids": [
+        "DR-071-D01-script-182907",
+        "DR-071-D02-script-202807",
+        "DR-054-D03-script-202807",
+        "DR-005-D03-script-202807",
+        "DR-005-D04-script-202807",
+        "DR-005-D06-script-202807",
+        "DR-056-D02-script-202807",
+        "DR-056-D03-script-202807",
+        "DR-056-D04-script-202807",
+        "DR-056-D06-script-202807"
+      ],
+      "checkpoint": "script blobs verified; targeted render request prepared; visual QA pending",
+      "expected_head": "6021d8a132b4552670c6bff7ff3c39412fe6e782"
+    },
     "last_successful_run": {
       "id": "dr-20261128-192226-visual",
       "status": "visual_checkpoint_completed",
@@ -109,10 +134,10 @@
       "report": "defense-directives/diagrams/script-alignment-qa.json",
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
-    "production_jobs_queued": 1,
+    "production_jobs_queued": 0,
     "production_jobs_qa": 0,
     "production_jobs_completed": 149,
-    "production_jobs_running": 0,
+    "production_jobs_running": 10,
     "full_audit": {
       "id": "dr-full-audit-20261128",
       "status": "in_progress",
@@ -795,7 +820,11 @@
         ],
         "visual_qa": "이번 보강 WebP 직접 검수 완료; 남은 원고 정밀 대조는 별도 표시",
         "visual_review_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
-        "pending_production_job_ids": [],
+        "pending_production_job_ids": [
+          "DR-005-D03-script-202807",
+          "DR-005-D04-script-202807",
+          "DR-005-D06-script-202807"
+        ],
         "review_record": "defense-directives/diagrams/reviews/dr-20261128-192226-visual.json"
       },
       "script_ref": "DR-005",
@@ -986,7 +1015,9 @@
         "source_git_blob": "1d254945393cb22f81facc46ec50d3e926579e6a",
         "source_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
         "visual_qa": "이번 보강 WebP 직접 검수 완료; 남은 원고 정밀 대조는 별도 표시",
-        "pending_production_job_ids": [],
+        "pending_production_job_ids": [
+          "DR-054-D03-script-202807"
+        ],
         "visual_review_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
         "uncovered_required_learning_objectives": [
           "100·128행: 전자고지 및 통지서 전달의 주체인 예비군지휘관을 D03 또는 D04에 명시"
@@ -1034,7 +1065,12 @@
         "source_git_blob": "3f7d287b41bcd46c67b630f6190db29fcdaa959f",
         "source_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0",
         "visual_qa": "이번 보강 WebP 직접 검수 완료; 남은 원고 정밀 대조는 별도 표시",
-        "pending_production_job_ids": [],
+        "pending_production_job_ids": [
+          "DR-056-D02-script-202807",
+          "DR-056-D03-script-202807",
+          "DR-056-D04-script-202807",
+          "DR-056-D06-script-202807"
+        ],
         "visual_review_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
         "uncovered_required_learning_objectives": [
           "91·101·195–222행: 연 1회·수준유지·기초사격능력 및 원고의 시험 핵심 누락 검토",
@@ -1112,7 +1148,8 @@
         "source_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
         "visual_qa": "이번 보강 WebP 직접 검수 완료; 남은 원고 정밀 대조는 별도 표시",
         "pending_production_job_ids": [
-          "DR-071-D01-script-182907"
+          "DR-071-D01-script-182907",
+          "DR-071-D02-script-202807"
         ],
         "visual_review_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
         "uncovered_required_learning_objectives": [
@@ -11889,21 +11926,22 @@
       "diagram_id": "DR-071-D01",
       "learning_objective": "민간 개방의 결정 주체·조건·각 군 지침 명시",
       "script_ref": "DR-071",
-      "script_section": "25,29,33,35,37,39,45,49,63,65",
+      "script_section": "17,23,29,33,35,37,39,45,49,59,63,65,157",
       "script_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
       "design_version": "editorial-v1",
-      "deduplication_key": "DR-071|8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c|25,29,33,35,37,39,45,49,63,65|민간 개방의 결정 주체·조건·각 군 지침 명시|editorial-v1",
-      "status": "queued",
-      "claimed_by": null,
-      "claimed_at": null,
-      "lease_expires_at": null,
+      "deduplication_key": "DR-071|8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c|17,23,29,33,35,37,39,45,49,59,63,65,157|민간 개방의 결정 주체·조건·각 군 지침 명시|editorial-v1",
+      "status": "running",
+      "claimed_by": "dr-20261128-202807-script",
+      "claimed_at": "2026-11-28T20:28:07+09:00",
+      "lease_expires_at": "2026-11-28T22:28:07+09:00",
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_2-27.txt",
           "source_git_blob": "869c8d8eb80efbba19eb02e9a719f65395751f42",
           "source_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
           "line_numbers": [
-            25,
+            17,
+            23,
             29,
             33,
             35,
@@ -11911,8 +11949,10 @@
             39,
             45,
             49,
+            59,
             63,
-            65
+            65,
+            157
           ]
         }
       ],
@@ -11939,8 +11979,7 @@
       "visual_reviewed_at": "2026-11-28T19:25:00+09:00",
       "webp_git_blob": "1232ebb5260ba3fe7d70299c8645a839a9c45000",
       "render_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
-      "completed_at": null,
-      "remaining_correction": "군사시설 보안대책으로 명시. 원고 49·59·63행. 기존 ID 유지, 중복 생성 금지."
+      "completed_at": null
     },
     {
       "id": "DR-071-D05-script-182907",
@@ -12065,6 +12104,320 @@
       "webp_git_blob": "59141f3a5d89bfd3032c6e6d0c6f0aa4b969219f",
       "render_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
       "completed_at": "2026-11-28T19:25:00+09:00"
+    },
+    {
+      "id": "DR-071-D02-script-202807",
+      "lesson_id": "DR-071",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-071-D02",
+      "diagram_id": "DR-071-D02",
+      "learning_objective": "예산 요구 수신 주체 및 예산편성지침",
+      "script_ref": "DR-071",
+      "script_section": "69,73,77,85,87,159",
+      "script_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-071|8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c|69,73,77,85,87,159|예산 요구 수신 주체 및 예산편성지침|editorial-v1",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-27.txt",
+          "source_git_blob": "869c8d8eb80efbba19eb02e9a719f65395751f42",
+          "source_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
+          "line_numbers": [
+            69,
+            73,
+            77,
+            85,
+            87,
+            159
+          ]
+        }
+      ],
+      "status": "running",
+      "claimed_by": "dr-20261128-202807-script",
+      "claimed_at": "2026-11-28T20:28:07+09:00",
+      "lease_expires_at": "2026-11-28T22:28:07+09:00",
+      "completed_at": null
+    },
+    {
+      "id": "DR-054-D03-script-202807",
+      "lesson_id": "DR-054",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-054-D03",
+      "diagram_id": "DR-054-D03",
+      "learning_objective": "전자고지와 통지서 전달 주체 및 기한 명시",
+      "script_ref": "DR-054",
+      "script_section": "100,118,122,128,130",
+      "script_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-054|1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f|100,118,122,128,130|전자고지와 통지서 전달 주체 및 기한 명시|editorial-v1",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-10.txt",
+          "source_git_blob": "1d254945393cb22f81facc46ec50d3e926579e6a",
+          "source_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
+          "line_numbers": [
+            100,
+            118,
+            122,
+            128,
+            130
+          ]
+        }
+      ],
+      "status": "running",
+      "claimed_by": "dr-20261128-202807-script",
+      "claimed_at": "2026-11-28T20:28:07+09:00",
+      "lease_expires_at": "2026-11-28T22:28:07+09:00",
+      "completed_at": null
+    },
+    {
+      "id": "DR-005-D03-script-202807",
+      "lesson_id": "DR-005",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-005-D03",
+      "diagram_id": "DR-005-D03",
+      "learning_objective": "예비군부대 지휘관의 정의와 독립 직장예비군소대장 포함",
+      "script_ref": "DR-005",
+      "script_section": "162,164,166,170,172,184,192",
+      "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|162,164,166,170,172,184,192|예비군부대 지휘관의 정의와 독립 직장예비군소대장 포함|editorial-v1",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-5.txt",
+          "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+          "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+          "line_numbers": [
+            162,
+            164,
+            166,
+            170,
+            172,
+            184,
+            192
+          ]
+        }
+      ],
+      "status": "running",
+      "claimed_by": "dr-20261128-202807-script",
+      "claimed_at": "2026-11-28T20:28:07+09:00",
+      "lease_expires_at": "2026-11-28T22:28:07+09:00",
+      "completed_at": null
+    },
+    {
+      "id": "DR-005-D04-script-202807",
+      "lesson_id": "DR-005",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-005-D04",
+      "diagram_id": "DR-005-D04",
+      "learning_objective": "수탁 경찰서장 일곱 가지 위탁 업무의 정확한 범위",
+      "script_ref": "DR-005",
+      "script_section": "229,230,231,232,233,234,235,237",
+      "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|229,230,231,232,233,234,235,237|수탁 경찰서장 일곱 가지 위탁 업무의 정확한 범위|editorial-v1",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-5.txt",
+          "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+          "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+          "line_numbers": [
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            237
+          ]
+        }
+      ],
+      "status": "running",
+      "claimed_by": "dr-20261128-202807-script",
+      "claimed_at": "2026-11-28T20:28:07+09:00",
+      "lease_expires_at": "2026-11-28T22:28:07+09:00",
+      "completed_at": null
+    },
+    {
+      "id": "DR-005-D06-script-202807",
+      "lesson_id": "DR-005",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-005-D06",
+      "diagram_id": "DR-005-D06",
+      "learning_objective": "특별감사와 부대기·현판의 위임 주체 및 포상 조치",
+      "script_ref": "DR-005",
+      "script_section": "28,30,31,68,70,98,99,100,144,249",
+      "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|28,30,31,68,70,98,99,100,144,249|특별감사와 부대기·현판의 위임 주체 및 포상 조치|editorial-v1",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-5.txt",
+          "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+          "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+          "line_numbers": [
+            28,
+            30,
+            31,
+            68,
+            70,
+            98,
+            99,
+            100,
+            144,
+            249
+          ]
+        }
+      ],
+      "status": "running",
+      "claimed_by": "dr-20261128-202807-script",
+      "claimed_at": "2026-11-28T20:28:07+09:00",
+      "lease_expires_at": "2026-11-28T22:28:07+09:00",
+      "completed_at": null
+    },
+    {
+      "id": "DR-056-D02-script-202807",
+      "lesson_id": "DR-056",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-056-D02",
+      "diagram_id": "DR-056-D02",
+      "learning_objective": "연 1회 수준유지·기초사격능력 배양 목적 명시",
+      "script_ref": "DR-056",
+      "script_section": "91,93,97,101,105,106,116,118,122,148,156,216,217",
+      "script_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-056|bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0|91,93,97,101,105,106,116,118,122,148,156,216,217|연 1회 수준유지·기초사격능력 배양 목적 명시|editorial-v1",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-12.txt",
+          "source_git_blob": "3f7d287b41bcd46c67b630f6190db29fcdaa959f",
+          "source_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0",
+          "line_numbers": [
+            91,
+            93,
+            97,
+            101,
+            105,
+            106,
+            116,
+            118,
+            122,
+            148,
+            156,
+            216,
+            217
+          ]
+        }
+      ],
+      "status": "running",
+      "claimed_by": "dr-20261128-202807-script",
+      "claimed_at": "2026-11-28T20:28:07+09:00",
+      "lease_expires_at": "2026-11-28T22:28:07+09:00",
+      "completed_at": null
+    },
+    {
+      "id": "DR-056-D03-script-202807",
+      "lesson_id": "DR-056",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-056-D03",
+      "diagram_id": "DR-056-D03",
+      "learning_objective": "사수통제원 현역 편성 제한 시 예외 명시",
+      "script_ref": "DR-056",
+      "script_section": "160,166,170,180,203",
+      "script_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-056|bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0|160,166,170,180,203|사수통제원 현역 편성 제한 시 예외 명시|editorial-v1",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-12.txt",
+          "source_git_blob": "3f7d287b41bcd46c67b630f6190db29fcdaa959f",
+          "source_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0",
+          "line_numbers": [
+            160,
+            166,
+            170,
+            180,
+            203
+          ]
+        }
+      ],
+      "status": "running",
+      "claimed_by": "dr-20261128-202807-script",
+      "claimed_at": "2026-11-28T20:28:07+09:00",
+      "lease_expires_at": "2026-11-28T22:28:07+09:00",
+      "completed_at": null
+    },
+    {
+      "id": "DR-056-D04-script-202807",
+      "lesson_id": "DR-056",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-056-D04",
+      "diagram_id": "DR-056-D04",
+      "learning_objective": "안전조치 여섯 가지와 의료인력 예외",
+      "script_ref": "DR-056",
+      "script_section": "184,185,186,187,188,189,193",
+      "script_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-056|bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0|184,185,186,187,188,189,193|안전조치 여섯 가지와 의료인력 예외|editorial-v1",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-12.txt",
+          "source_git_blob": "3f7d287b41bcd46c67b630f6190db29fcdaa959f",
+          "source_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0",
+          "line_numbers": [
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            193
+          ]
+        }
+      ],
+      "status": "running",
+      "claimed_by": "dr-20261128-202807-script",
+      "claimed_at": "2026-11-28T20:28:07+09:00",
+      "lease_expires_at": "2026-11-28T22:28:07+09:00",
+      "completed_at": null
+    },
+    {
+      "id": "DR-056-D06-script-202807",
+      "lesson_id": "DR-056",
+      "type": "script_alignment_supplement",
+      "target_diagram_id": "DR-056-D06",
+      "diagram_id": "DR-056-D06",
+      "learning_objective": "사격자세·대체 승인·횟수 증가 결정 주체 구분",
+      "script_ref": "DR-056",
+      "script_section": "126,140,142,144,146,148,156,200,201,202",
+      "script_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-056|bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0|126,140,142,144,146,148,156,200,201,202|사격자세·대체 승인·횟수 증가 결정 주체 구분|editorial-v1",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_2-12.txt",
+          "source_git_blob": "3f7d287b41bcd46c67b630f6190db29fcdaa959f",
+          "source_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0",
+          "line_numbers": [
+            126,
+            140,
+            142,
+            144,
+            146,
+            148,
+            156,
+            200,
+            201,
+            202
+          ]
+        }
+      ],
+      "status": "running",
+      "claimed_by": "dr-20261128-202807-script",
+      "claimed_at": "2026-11-28T20:28:07+09:00",
+      "lease_expires_at": "2026-11-28T22:28:07+09:00",
+      "completed_at": null
     }
   ],
   "runs": [
@@ -12810,6 +13163,30 @@
       ],
       "asset_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
       "review_record": "defense-directives/diagrams/reviews/dr-20261128-192226-visual.json"
+    },
+    {
+      "id": "dr-20261128-202807-script",
+      "status": "rendering_requested",
+      "started_at": "2026-11-28T20:28:07+09:00",
+      "lesson_ids": [
+        "DR-071",
+        "DR-054",
+        "DR-005",
+        "DR-056"
+      ],
+      "diagram_ids": [
+        "DR-071-D01",
+        "DR-071-D02",
+        "DR-054-D03",
+        "DR-005-D03",
+        "DR-005-D04",
+        "DR-005-D06",
+        "DR-056-D02",
+        "DR-056-D03",
+        "DR-056-D04",
+        "DR-056-D06"
+      ],
+      "catalog_note": "Current catalog changed version/timelineVersion fields only for DR lessons; article/title mappings unchanged. Four script Git blobs match pinned basis. No original files modified."
     }
   ],
   "exam": {
