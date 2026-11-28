@@ -280,6 +280,42 @@
         "DR-030-D04"
       ],
       "status": "content_checked_rendered_visual_pending"
+    },
+    {
+      "run_id": "dr-20261128-162738-visual-followup",
+      "ids": [
+        "DR-067-D01",
+        "DR-005-D01",
+        "DR-005-D03",
+        "DR-005-D05",
+        "DR-005-D06",
+        "DR-005-D07",
+        "DR-011-D02",
+        "DR-011-D03",
+        "DR-011-D05",
+        "DR-030-D01",
+        "DR-030-D04"
+      ],
+      "status": "published_png_visual_and_script_target_passed",
+      "asset_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747",
+      "additional_existing_png_reviewed": [
+        "DR-005-D02",
+        "DR-005-D04",
+        "DR-011-D01",
+        "DR-011-D04",
+        "DR-030-D02",
+        "DR-030-D03"
+      ],
+      "followup_revision_ids": [
+        "DR-005-D02",
+        "DR-005-D06",
+        "DR-011-D05",
+        "DR-030-D02",
+        "DR-030-D03"
+      ],
+      "completed_lesson_ids": [
+        "DR-067"
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-28T15:31:00+09:00",
+  "updated_at": "2026-11-28T16:27:38+09:00",
   "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
     "status": "files_completed",
@@ -66,143 +66,66 @@
     ]
   },
   "state": {
-    "active_run": null,
+    "active_run": {
+      "id": "dr-20261128-162738-visual-followup",
+      "status": "rendering_requested",
+      "started_at": "2026-11-28T16:27:38+09:00",
+      "lease_expires_at": "2026-11-28T18:27:38+09:00",
+      "claimed_job_ids": [
+        "DR-005-D02-script-162738",
+        "DR-005-D06-script-162738",
+        "DR-011-D05-script-162738",
+        "DR-030-D02-script-162738",
+        "DR-030-D03-script-162738"
+      ],
+      "mode": "coordinator and existing renderer",
+      "assets_start_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747"
+    },
     "last_successful_run": {
-      "id": "dr-20261128-122506-visual",
-      "status": "completed_checkpoint_with_followups",
-      "started_at": "2026-11-28T12:25:06+09:00",
-      "completed_at": "2026-11-28T12:25:06+09:00",
-      "new_diagrams": 0,
-      "revised_diagrams": 0,
-      "completed_reviews": 2,
+      "id": "dr-20261128-162738-visual-followup",
+      "status": "visual_checkpoint_completed_followup_render_requested",
+      "started_at": "2026-11-28T16:27:38+09:00",
+      "new_diagrams_confirmed": 4,
+      "revised_diagrams_confirmed": 7,
+      "completed_reviews": 1,
       "completed_lessons": [
-        "DR-009",
-        "DR-002"
+        "DR-067"
       ],
       "visual_reviewed": [
-        "DR-009-D02",
-        "DR-009-D03",
-        "DR-009-D05",
-        "DR-067-D02",
-        "DR-067-D03",
-        "DR-067-D07",
-        "DR-067-D08",
-        "DR-067-D09",
-        "DR-067-D10",
-        "DR-067-D11",
-        "DR-002-D03",
-        "DR-002-D04",
-        "DR-002-D05",
-        "DR-002-D06"
+        "DR-067-D01",
+        "DR-005-D01",
+        "DR-005-D03",
+        "DR-005-D05",
+        "DR-005-D06",
+        "DR-005-D07",
+        "DR-011-D02",
+        "DR-011-D03",
+        "DR-011-D05",
+        "DR-030-D01",
+        "DR-030-D04"
       ],
-      "visual_reviewed_total": 26,
-      "asset_commit": "a4d124b160d95dc9ea68f7c2e9ebaa2666778838",
-      "source_commit": "f35ed684519bc4a91897366fbbe68e07181f4fa6",
-      "remaining_reviews": 30,
-      "requeued_diagrams": [
-        "DR-067-D02",
-        "DR-067-D09",
-        "DR-067-D10"
+      "additional_existing_png_reviewed": [
+        "DR-005-D02",
+        "DR-005-D04",
+        "DR-011-D01",
+        "DR-011-D04",
+        "DR-030-D02",
+        "DR-030-D03"
       ],
-      "additional_revision_targets": [
-        "DR-067-D05",
-        "DR-067-D08",
-        "DR-067-D01"
-      ],
-      "expired_lease_reconciled": {
-        "id": "dr-full-audit-20261128",
-        "started_at": "2026-11-28T00:57:12.181Z",
-        "lease_expires_at": "2026-11-28T02:57:12.181Z",
-        "claimed_job_ids": [
-          "DR-060-coverage-review-v1",
-          "DR-013-coverage-review-v1",
-          "DR-024-coverage-review-v1",
-          "DR-062-coverage-review-v1",
-          "DR-009-coverage-review-v1",
-          "DR-067-coverage-review-v1",
-          "DR-045-coverage-review-v1",
-          "DR-047-coverage-review-v1",
-          "DR-078-coverage-review-v1",
-          "DR-002-coverage-review-v1",
-          "DR-005-coverage-review-v1",
-          "DR-011-coverage-review-v1",
-          "DR-030-coverage-review-v1",
-          "DR-035-coverage-review-v1",
-          "DR-054-coverage-review-v1",
-          "DR-056-coverage-review-v1",
-          "DR-057-coverage-review-v1",
-          "DR-071-coverage-review-v1",
-          "DR-074-coverage-review-v1",
-          "DR-012-coverage-review-v1",
-          "DR-014-coverage-review-v1",
-          "DR-015-coverage-review-v1",
-          "DR-017-coverage-review-v1",
-          "DR-018-coverage-review-v1",
-          "DR-019-coverage-review-v1",
-          "DR-026-coverage-review-v1",
-          "DR-032-coverage-review-v1",
-          "DR-033-coverage-review-v1",
-          "DR-038-coverage-review-v1",
-          "DR-044-coverage-review-v1",
-          "DR-055-coverage-review-v1",
-          "DR-066-coverage-review-v1",
-          "DR-068-coverage-review-v1",
-          "DR-075-coverage-review-v1",
-          "DR-004-coverage-review-v1",
-          "DR-006-coverage-review-v1",
-          "DR-007-coverage-review-v1",
-          "DR-008-coverage-review-v1",
-          "DR-021-coverage-review-v1",
-          "DR-022-coverage-review-v1",
-          "DR-028-coverage-review-v1",
-          "DR-029-coverage-review-v1",
-          "DR-031-coverage-review-v1",
-          "DR-039-coverage-review-v1",
-          "DR-049-coverage-review-v1",
-          "DR-051-coverage-review-v1",
-          "DR-052-coverage-review-v1",
-          "DR-058-coverage-review-v1",
-          "DR-059-coverage-review-v1",
-          "DR-061-coverage-review-v1",
-          "DR-064-coverage-review-v1",
-          "DR-065-coverage-review-v1",
-          "DR-072-coverage-review-v1",
-          "DR-073-coverage-review-v1",
-          "DR-001-coverage-review-v1",
-          "DR-003-coverage-review-v1",
-          "DR-010-coverage-review-v1",
-          "DR-016-coverage-review-v1",
-          "DR-020-coverage-review-v1",
-          "DR-023-coverage-review-v1",
-          "DR-025-coverage-review-v1",
-          "DR-027-coverage-review-v1",
-          "DR-034-coverage-review-v1",
-          "DR-036-coverage-review-v1",
-          "DR-037-coverage-review-v1",
-          "DR-040-coverage-review-v1",
-          "DR-041-coverage-review-v1",
-          "DR-042-coverage-review-v1",
-          "DR-043-coverage-review-v1",
-          "DR-046-coverage-review-v1",
-          "DR-048-coverage-review-v1",
-          "DR-050-coverage-review-v1",
-          "DR-053-coverage-review-v1",
-          "DR-063-coverage-review-v1",
-          "DR-069-coverage-review-v1",
-          "DR-070-coverage-review-v1",
-          "DR-076-coverage-review-v1",
-          "DR-077-coverage-review-v1"
-        ],
-        "mode": "user_requested_full_audit; coordinator plus 3 content reviewers",
-        "source_commit": "352b4eb71cced810612b05c9a531060e1470d1f5",
-        "assets_start_commit": "6de9fbddf5e94a97e2a343c692a1fa333adaae34"
-      },
-      "lease_reconciliation_reason": "expired 02:57 UTC; queue and QA blobs unchanged, no renewed checkpoint; final write guarded by expected main HEAD"
+      "asset_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747",
+      "remaining_reviews": 29,
+      "followup_revision_ids": [
+        "DR-005-D02",
+        "DR-005-D06",
+        "DR-011-D05",
+        "DR-030-D02",
+        "DR-030-D03"
+      ]
     },
     "coverage_reviews_total": 78,
-    "coverage_reviews_queued": 30,
-    "coverage_reviews_completed": 48,
-    "confirmed_production_jobs": 126,
+    "coverage_reviews_queued": 29,
+    "coverage_reviews_completed": 49,
+    "confirmed_production_jobs": 137,
     "diagrams_added_after_baseline": 44,
     "diagrams_revised_after_baseline": 75,
     "script_bindings_verified": 78,
@@ -218,9 +141,9 @@
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
     "production_jobs_queued": 0,
-    "production_jobs_qa": 11,
-    "production_jobs_completed": 126,
-    "production_jobs_running": 11,
+    "production_jobs_qa": 0,
+    "production_jobs_completed": 137,
+    "production_jobs_running": 5,
     "full_audit": {
       "id": "dr-full-audit-20261128",
       "status": "in_progress",
@@ -555,7 +478,7 @@
       "lesson_id": "DR-067",
       "title": "예비군 교육훈련 훈령 제23조, 예비군훈련 보류",
       "priority": 6,
-      "status": "queued",
+      "status": "completed",
       "existing_diagram_count": 11,
       "existing_diagram_ids": [
         "DR-067-D01",
@@ -580,7 +503,7 @@
       "input_fingerprint": {
         "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
         "existing_svg_sha256": [
-          "13b1f96dfccb61796f74fdad9af660b98243c0291e4863e991d85a905c4a7779",
+          "01c85d3ebceb3cdf7f0978345ac7d8ce5b0819c3c998fc7e7960fb6be93b8894",
           "c6016eea3a41f94cf1f08304e4f1104ae238b04e9804a90b6bbbc4eb57f8d7af",
           "2cda77651b76f4cf0ab7eea299d3a6ebabaea7fa2ec95fcc2a2217dad1061012",
           "0e309afdd6edb7f99dfaefd08fba549753b6525c0fabdbf2a96c3ad7bbf6302b",
@@ -597,18 +520,16 @@
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
-      "completed_at": null,
+      "completed_at": "2026-11-28T16:27:38+09:00",
       "result": {
         "scope": "제80회 기존 원고 전문 및 공개 PNG 전장 대조",
-        "full_review_completed": false,
+        "full_review_completed": true,
         "source_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
         "source_git_blob": "8885ff52fa9681f4a069ab958a7483af0b6bb02b",
-        "uncovered_required_learning_objectives": [
-          "D01: 19–27행, '동원 및 훈련'의 접속어를 시험 핵심 그대로 명시; 15행 보류와 연기 구별을 명시."
-        ],
+        "uncovered_required_learning_objectives": [],
         "additional_diagrams_required": false,
-        "visual_qa": "보강 6장 공개 PNG 재검수 통과; 기존 5장 이전 검수 유지",
-        "visual_review_commit": "d8551bee2de1e3bdbebe3a3a6393b69982941466",
+        "visual_qa": "이전 10장 검수와 이번 D01 검수 완료; 확인된 스크립트 불일치 해소",
+        "visual_review_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747",
         "coverage": "보류 판단·기간·신고·전출입·훈련 부과를 대조; 추가 보강 필요"
       },
       "script_ref": "DR-067",
@@ -624,7 +545,8 @@
         "DR-067-D10-script-082410",
         "DR-067-D05-script-122506-followup",
         "DR-067-D08-script-122506-followup",
-        "DR-067-D01-script-122506-followup"
+        "DR-067-D01-script-122506-followup",
+        "DR-067-D01-script-142522"
       ]
     },
     {
@@ -874,7 +796,19 @@
         "국방부훈령 제3104호"
       ],
       "output_directory": "defense-directives/lesson-005/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+        "existing_svg_sha256": [
+          "a2033add290691a89b55aa91c51755b74874d0ec202deed6861ea422c4548717",
+          "5e52b8972b8dda209b9d2b54aa5fb07dc78e3474d03bfc0ccce5562fca958a7d",
+          "7776493ec7aebea290f7207a2645c47fbbc4a0f43c86eb5deed4d270b22cd290",
+          "4f93acf24629d4278e88abc5d79654061f5a7cfbee2f1ed9b40467c6445c949e",
+          "86b95f0bff85d79701b2d8826e804b20b1c753be36009110a67f235291e83000",
+          "1e2d20d470b437fe15a9807d1f02ed2745f9bc807ef061b13f232e56f4ec1c86",
+          "7cf8b57b169abaf037971647d8ffdab4945521c720056354f4db8dc5e946d087"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -885,16 +819,21 @@
         "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
         "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
         "uncovered_required_learning_objectives": [
-          "장관 제도의 발전 및 참모총장 선발 세부계획 수립·시행 명확화",
-          "소대장 전시교육계획 및 예비군지휘관 지시사항, 지원 건의 명시",
-          "장관·참모총장 군수관리 및 예산 문구 비교",
-          "치료·보상 및 감사·임명 주체 비교",
-          "일곱 주체별 업무분장 개수 및 편성·해체 권한 구분"
+          "지휘관리 위임사항·지역예비군 육성지원계획 수립 및 시행과 해체 요구의 범위 명시",
+          "방침·지급·심의는 주체 비교이며 시간 순서가 아님을 명시"
         ],
-        "visual_qa": "pending"
+        "visual_qa": "기존 보강 11장 및 005/011/030 기존 6장 실제 PNG 대조 중 해당 강의 이미지 확인 완료",
+        "visual_review_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747"
       },
       "script_ref": "DR-005",
-      "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1"
+      "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+      "confirmed_production_job_ids": [
+        "DR-005-D01-script-142522",
+        "DR-005-D03-script-142522",
+        "DR-005-D05-script-142522",
+        "DR-005-D06-script-142522",
+        "DR-005-D07-script-142522"
+      ]
     },
     {
       "id": "DR-011-coverage-review-v1",
@@ -918,7 +857,17 @@
         "국방부훈령 제3104호"
       ],
       "output_directory": "defense-directives/lesson-011/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed",
+        "existing_svg_sha256": [
+          "e256be09f99bb3acae03677439b13b6c565ee0efe837e7cca637fae712845708",
+          "08eba60c7042c86afe288ae6c9e5cd77e3f86b031ae3de2466a5455094bc9b3b",
+          "0483cc004f7af8dd2545180c4a214cf0d4dc1795874b7e33b8b980adb1af0b5d",
+          "dd057b92312b88f136146af6c473d8ea1cebe031f1891f480d5f486fcaad763b",
+          "d3b90e20e4d47acfb924ff663ff2a0b49ebbf3f7c1d754c18cba3910eb2c3a7e"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -929,14 +878,18 @@
         "source_git_blob": "c790262d0a78c11f2e59c0d9bb7cef7321c8995c",
         "source_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed",
         "uncovered_required_learning_objectives": [
-          "동원 미지정 간부 우선 및 예비군지휘관 선발대상 병과 명시",
-          "추천 승인 순서와 구비서류·임명 결과 확인 경로 및 예외 명시",
-          "선발공고 채널·여섯 항목 및 지원서 확인 포인트"
+          "선발공고의 공석 및 신규 소요 발생 조건 명시"
         ],
-        "visual_qa": "pending"
+        "visual_qa": "기존 보강 11장 및 005/011/030 기존 6장 실제 PNG 대조 중 해당 강의 이미지 확인 완료",
+        "visual_review_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747"
       },
       "script_ref": "DR-011",
-      "script_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed"
+      "script_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed",
+      "confirmed_production_job_ids": [
+        "DR-011-D02-script-142522",
+        "DR-011-D03-script-142522",
+        "DR-011-D05-script-142522"
+      ]
     },
     {
       "id": "DR-030-coverage-review-v1",
@@ -959,7 +912,16 @@
         "국방부훈령 제3104호"
       ],
       "output_directory": "defense-directives/lesson-030/diagrams/",
-      "input_fingerprint": null,
+      "input_fingerprint": {
+        "script_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
+        "existing_svg_sha256": [
+          "db2fa6afea2f781722178b9d18851a7a8a6553744ea700e5cd066d88397e9a3d",
+          "5766ebaa662370ff2b25fd0e267b964f99ca973619374bd5f4f2eb11270b9e81",
+          "c606f7902e40081243e37878d5f1b78eddfe70b57b1ee6d7489e3a1877f91968",
+          "aaad0a789c37f196d36a0d6c0526bd7babc174c8a00f23c8a6774cf6ba57a466"
+        ],
+        "design_version": "editorial-v1"
+      },
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -970,13 +932,18 @@
         "source_git_blob": "41d907a7a6f3ef9d3929b57b0b704b18c0f70ecc",
         "source_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
         "uncovered_required_learning_objectives": [
-          "지휘계통 비상연락망과 소대별 비상소집망 표현 구분",
-          "지역 단위와 전국 단위 해제 주체·판단 요소 및 의견 주체 명시"
+          "시행령 제12조의 원고 설명상 응소 시간 비교 명시",
+          "24시간 단위 교대는 원칙임을 명확히 하고 긴급조치 세부 근거 표시"
         ],
-        "visual_qa": "pending"
+        "visual_qa": "기존 보강 11장 및 005/011/030 기존 6장 실제 PNG 대조 중 해당 강의 이미지 확인 완료",
+        "visual_review_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747"
       },
       "script_ref": "DR-030",
-      "script_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504"
+      "script_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
+      "confirmed_production_job_ids": [
+        "DR-030-D01-script-142522",
+        "DR-030-D04-script-142522"
+      ]
     },
     {
       "id": "DR-035-coverage-review-v1",
@@ -10676,7 +10643,7 @@
       "script_sha256": "9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-067|9b6ca657ce25f6356a636b75a725af4d7e0583c61c57357361532a953cf98daf|9,15,19,21,23,25,27,31,33,35,37,41,47,51|머리 문장의 동원 및 훈련 접속어와 보류·연기 구별 명시|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -10722,7 +10689,11 @@
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "실제 공개 PNG를 열어 제80회 원고 지정 구간과 수치·문구·글자 누락·겹침·잘림 대조; 기존 작업 목표 통과. 추가 개선은 별도 큐.",
+      "completed_at": "2026-11-28T16:27:38+09:00",
+      "png_git_blob": "977aa79128d1c11f9176816c073f195b6bfdce91",
+      "render_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747",
+      "visual_review_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747"
     },
     {
       "id": "DR-005-D01-script-142522",
@@ -10736,7 +10707,7 @@
       "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|25,26,27,29,34,46,56,74,75,76,78|장관 제도의 발전 및 참모총장 선발 세부계획 수립·시행 명확화|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -10779,7 +10750,11 @@
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "실제 공개 PNG를 열어 제80회 원고 지정 구간과 수치·문구·글자 누락·겹침·잘림 대조; 기존 작업 목표 통과. 추가 개선은 별도 큐.",
+      "completed_at": "2026-11-28T16:27:38+09:00",
+      "png_git_blob": "4b571570962899233d605680a46895a5ad314555",
+      "render_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747",
+      "visual_review_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747"
     },
     {
       "id": "DR-005-D03-script-142522",
@@ -10793,7 +10768,7 @@
       "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|162,164,166,170,172,184,192|소대장 전시교육계획 및 예비군지휘관 지시사항, 지원 건의 명시|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -10832,7 +10807,11 @@
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "실제 공개 PNG를 열어 제80회 원고 지정 구간과 수치·문구·글자 누락·겹침·잘림 대조; 기존 작업 목표 통과. 추가 개선은 별도 큐.",
+      "completed_at": "2026-11-28T16:27:38+09:00",
+      "png_git_blob": "7c4579118e2d545ea504c54484bab3766a20bdc2",
+      "render_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747",
+      "visual_review_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747"
     },
     {
       "id": "DR-005-D05-script-142522",
@@ -10845,7 +10824,7 @@
       "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|58,62,66,77,79,86,90,94|장관·참모총장 군수관리 및 예산 문구 비교|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -10885,7 +10864,11 @@
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "실제 공개 PNG를 열어 제80회 원고 지정 구간과 수치·문구·글자 누락·겹침·잘림 대조; 기존 작업 목표 통과. 추가 개선은 별도 큐.",
+      "completed_at": "2026-11-28T16:27:38+09:00",
+      "png_git_blob": "76c158e006300dac5e07930f19a6c80f32a36caf",
+      "render_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747",
+      "visual_review_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747"
     },
     {
       "id": "DR-005-D06-script-142522",
@@ -10898,7 +10881,7 @@
       "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|28,30,31,68,70,78,98,99,100,136,144,249|치료·보상 및 감사·임명 주체 비교|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -10942,7 +10925,11 @@
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "실제 공개 PNG를 열어 제80회 원고 지정 구간과 수치·문구·글자 누락·겹침·잘림 대조; 기존 작업 목표 통과. 추가 개선은 별도 큐.",
+      "completed_at": "2026-11-28T16:27:38+09:00",
+      "png_git_blob": "03740fdf04cc4bcadbc1b5715fa4e5d3c6648ed0",
+      "render_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747",
+      "visual_review_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747"
     },
     {
       "id": "DR-005-D07-script-142522",
@@ -10955,7 +10942,7 @@
       "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|82,138,140,251,255,266|일곱 주체별 업무분장 개수 및 편성·해체 권한 구분|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -10993,7 +10980,11 @@
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "실제 공개 PNG를 열어 제80회 원고 지정 구간과 수치·문구·글자 누락·겹침·잘림 대조; 기존 작업 목표 통과. 추가 개선은 별도 큐.",
+      "completed_at": "2026-11-28T16:27:38+09:00",
+      "png_git_blob": "0b0d6822230143bca0978acd72de740940773c81",
+      "render_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747",
+      "visual_review_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747"
     },
     {
       "id": "DR-011-D02-script-142522",
@@ -11007,7 +10998,7 @@
       "script_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-011|54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed|79,81,83,89,90,91,92,93,95,103,105|동원 미지정 간부 우선 및 예비군지휘관 선발대상 병과 명시|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -11050,7 +11041,11 @@
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "실제 공개 PNG를 열어 제80회 원고 지정 구간과 수치·문구·글자 누락·겹침·잘림 대조; 기존 작업 목표 통과. 추가 개선은 별도 큐.",
+      "completed_at": "2026-11-28T16:27:38+09:00",
+      "png_git_blob": "abe652989d0d80a662752f6267a95fca60cf4523",
+      "render_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747",
+      "visual_review_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747"
     },
     {
       "id": "DR-011-D03-script-142522",
@@ -11064,7 +11059,7 @@
       "script_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-011|54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed|113,139,153,155,159,171,173,177,187,189|추천 승인 순서와 구비서류·임명 결과 확인 경로 및 예외 명시|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -11106,7 +11101,11 @@
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "실제 공개 PNG를 열어 제80회 원고 지정 구간과 수치·문구·글자 누락·겹침·잘림 대조; 기존 작업 목표 통과. 추가 개선은 별도 큐.",
+      "completed_at": "2026-11-28T16:27:38+09:00",
+      "png_git_blob": "03d9bb2beef7471b614fb1d0e7185f533e50f69f",
+      "render_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747",
+      "visual_review_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747"
     },
     {
       "id": "DR-011-D05-script-142522",
@@ -11119,7 +11118,7 @@
       "script_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-011|54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed|113,119,127,129,135,159,244|선발공고 채널·여섯 항목 및 지원서 확인 포인트|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -11158,7 +11157,11 @@
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "실제 공개 PNG를 열어 제80회 원고 지정 구간과 수치·문구·글자 누락·겹침·잘림 대조; 기존 작업 목표 통과. 추가 개선은 별도 큐.",
+      "completed_at": "2026-11-28T16:27:38+09:00",
+      "png_git_blob": "f2b67021872230b5fea8bc05baf336e0ed0161cd",
+      "render_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747",
+      "visual_review_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747"
     },
     {
       "id": "DR-030-D01-script-142522",
@@ -11172,7 +11175,7 @@
       "script_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-030|03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504|35,65,67,208,209,210,211|지휘계통 비상연락망과 소대별 비상소집망 표현 구분|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -11211,7 +11214,11 @@
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "실제 공개 PNG를 열어 제80회 원고 지정 구간과 수치·문구·글자 누락·겹침·잘림 대조; 기존 작업 목표 통과. 추가 개선은 별도 큐.",
+      "completed_at": "2026-11-28T16:27:38+09:00",
+      "png_git_blob": "b4f4d259edff85d5950e39296faacffb96a6d861",
+      "render_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747",
+      "visual_review_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747"
     },
     {
       "id": "DR-030-D04-script-142522",
@@ -11225,7 +11232,7 @@
       "script_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-030|03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504|159,165,167,173,177,185,189,191|지역 단위와 전국 단위 해제 주체·판단 요소 및 의견 주체 명시|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -11265,7 +11272,171 @@
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "실제 공개 PNG를 열어 제80회 원고 지정 구간과 수치·문구·글자 누락·겹침·잘림 대조; 기존 작업 목표 통과. 추가 개선은 별도 큐.",
+      "completed_at": "2026-11-28T16:27:38+09:00",
+      "png_git_blob": "8da5ef2025ca27f7c233e3e15411c5bb68d4586f",
+      "render_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747",
+      "visual_review_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747"
+    },
+    {
+      "id": "DR-005-D02-script-162738",
+      "lesson_id": "DR-005",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-005-D02",
+      "diagram_id": "DR-005-D02",
+      "learning_objective": "지휘관리 위임사항·지역예비군 육성지원계획 수립 및 시행과 해체 요구의 범위 명시",
+      "script_ref": "DR-005",
+      "script_section": "112,114,122,138,142,144,146,148,156,158,221",
+      "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|112,114,122,138,142,144,146,148,156,158,221|지휘관리 위임사항·지역예비군 육성지원계획 수립 및 시행과 해체 요구의 범위 명시|editorial-v1",
+      "status": "running",
+      "claimed_by": "dr-20261128-162738-visual-followup",
+      "claimed_at": "2026-11-28T16:27:38+09:00",
+      "lease_expires_at": "2026-11-28T18:27:38+09:00",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-5.txt",
+          "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+          "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+          "line_numbers": [
+            112,
+            114,
+            122,
+            138,
+            142,
+            144,
+            146,
+            148,
+            156,
+            158,
+            221
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DR-005-D06-script-162738",
+      "lesson_id": "DR-005",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-005-D06",
+      "diagram_id": "DR-005-D06",
+      "learning_objective": "방침·지급·심의는 주체 비교이며 시간 순서가 아님을 명시",
+      "script_ref": "DR-005",
+      "script_section": "98,99,100,249",
+      "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|98,99,100,249|방침·지급·심의는 주체 비교이며 시간 순서가 아님을 명시|editorial-v1",
+      "status": "running",
+      "claimed_by": "dr-20261128-162738-visual-followup",
+      "claimed_at": "2026-11-28T16:27:38+09:00",
+      "lease_expires_at": "2026-11-28T18:27:38+09:00",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-5.txt",
+          "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+          "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+          "line_numbers": [
+            98,
+            99,
+            100,
+            249
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DR-011-D05-script-162738",
+      "lesson_id": "DR-011",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-011-D05",
+      "diagram_id": "DR-011-D05",
+      "learning_objective": "선발공고의 공석 및 신규 소요 발생 조건 명시",
+      "script_ref": "DR-011",
+      "script_section": "113,115,127,135,159,244",
+      "script_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-011|54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed|113,115,127,135,159,244|선발공고의 공석 및 신규 소요 발생 조건 명시|editorial-v1",
+      "status": "running",
+      "claimed_by": "dr-20261128-162738-visual-followup",
+      "claimed_at": "2026-11-28T16:27:38+09:00",
+      "lease_expires_at": "2026-11-28T18:27:38+09:00",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-11.txt",
+          "source_git_blob": "c790262d0a78c11f2e59c0d9bb7cef7321c8995c",
+          "source_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed",
+          "line_numbers": [
+            113,
+            115,
+            127,
+            135,
+            159,
+            244
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DR-030-D02-script-162738",
+      "lesson_id": "DR-030",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-030-D02",
+      "diagram_id": "DR-030-D02",
+      "learning_objective": "시행령 제12조의 원고 설명상 응소 시간 비교 명시",
+      "script_ref": "DR-030",
+      "script_section": "73,75,83,89,107",
+      "script_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-030|03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504|73,75,83,89,107|시행령 제12조의 원고 설명상 응소 시간 비교 명시|editorial-v1",
+      "status": "running",
+      "claimed_by": "dr-20261128-162738-visual-followup",
+      "claimed_at": "2026-11-28T16:27:38+09:00",
+      "lease_expires_at": "2026-11-28T18:27:38+09:00",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-30.txt",
+          "source_git_blob": "41d907a7a6f3ef9d3929b57b0b704b18c0f70ecc",
+          "source_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
+          "line_numbers": [
+            73,
+            75,
+            83,
+            89,
+            107
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DR-030-D03-script-162738",
+      "lesson_id": "DR-030",
+      "type": "script_alignment_revision",
+      "target_diagram_id": "DR-030-D03",
+      "diagram_id": "DR-030-D03",
+      "learning_objective": "24시간 단위 교대는 원칙임을 명확히 하고 긴급조치 세부 근거 표시",
+      "script_ref": "DR-030",
+      "script_section": "137,141,153,155",
+      "script_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
+      "design_version": "editorial-v1",
+      "deduplication_key": "DR-030|03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504|137,141,153,155|24시간 단위 교대는 원칙임을 명확히 하고 긴급조치 세부 근거 표시|editorial-v1",
+      "status": "running",
+      "claimed_by": "dr-20261128-162738-visual-followup",
+      "claimed_at": "2026-11-28T16:27:38+09:00",
+      "lease_expires_at": "2026-11-28T18:27:38+09:00",
+      "evidence": [
+        {
+          "source_path": "docs/merged-lectures/훈령/본훈_1-30.txt",
+          "source_git_blob": "41d907a7a6f3ef9d3929b57b0b704b18c0f70ecc",
+          "source_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
+          "line_numbers": [
+            137,
+            141,
+            153,
+            155
+          ]
+        }
+      ]
     }
   ],
   "runs": [
@@ -11899,6 +12070,47 @@
         "DR-011-D05",
         "DR-030-D01",
         "DR-030-D04"
+      ]
+    },
+    {
+      "id": "dr-20261128-162738-visual-followup",
+      "status": "visual_checkpoint_completed_followup_render_requested",
+      "started_at": "2026-11-28T16:27:38+09:00",
+      "new_diagrams_confirmed": 4,
+      "revised_diagrams_confirmed": 7,
+      "completed_reviews": 1,
+      "completed_lessons": [
+        "DR-067"
+      ],
+      "visual_reviewed": [
+        "DR-067-D01",
+        "DR-005-D01",
+        "DR-005-D03",
+        "DR-005-D05",
+        "DR-005-D06",
+        "DR-005-D07",
+        "DR-011-D02",
+        "DR-011-D03",
+        "DR-011-D05",
+        "DR-030-D01",
+        "DR-030-D04"
+      ],
+      "additional_existing_png_reviewed": [
+        "DR-005-D02",
+        "DR-005-D04",
+        "DR-011-D01",
+        "DR-011-D04",
+        "DR-030-D02",
+        "DR-030-D03"
+      ],
+      "asset_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747",
+      "remaining_reviews": 29,
+      "followup_revision_ids": [
+        "DR-005-D02",
+        "DR-005-D06",
+        "DR-011-D05",
+        "DR-030-D02",
+        "DR-030-D03"
       ]
     }
   ],
