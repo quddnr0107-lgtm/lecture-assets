@@ -1,0 +1,31 @@
+{
+  "scope": "packaging-completion-regression",
+  "validCurrentArtifacts": {
+    "algorithm": "sha256",
+    "verifiedSvg": 335,
+    "verifiedPng": 335,
+    "verifiedContentFiles": 34,
+    "mismatches": 0,
+    "checkedBeforeWritingCompletionRecords": true
+  },
+  "negativeCases": [
+    {
+      "case": "corrupted-png",
+      "exitCode": 1,
+      "rejectedWith": "ValueError: Asset checksum mismatch: reserve-forces-act/lesson-001/diagrams/rl-001-01-purpose-four-actions.png",
+      "completionRecordsUnchanged": true
+    },
+    {
+      "case": "svg-only-render-with-old-png-present",
+      "exitCode": 1,
+      "rejectedWith": "ValueError: A complete, successful SVG and PNG render is required",
+      "completionRecordsUnchanged": true
+    },
+    {
+      "case": "png-without-rendered-checksum",
+      "exitCode": 1,
+      "rejectedWith": "ValueError: Asset checksum mismatch: reserve-forces-act/lesson-001/diagrams/rl-001-01-purpose-four-actions.png",
+      "completionRecordsUnchanged": true
+    }
+  ]
+}

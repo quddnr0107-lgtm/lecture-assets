@@ -31,13 +31,45 @@ const artifacts=process.env.RESERVE_GALLERY_QA_DIR;
     const empty=await page.locator('.diagram:not([hidden])').count();
     if(empty!==0)throw new Error('Empty search does not hide diagrams');
     await page.fill('#q','');
+    await page.selectOption('#lesson','');
+    const bodyKeywordResults=[];
+    for(const [term,expectedCount,expectedLessons] of [
+      ['6시간',1,['RL-007']],
+      ['관혼상제',3,['RL-007','RL-008','RL-010']],
+    ]){
+      await page.fill('#q',term);
+      const count=await page.locator('.diagram:not([hidden])').count();
+      const lessons=await page.locator('section:not([hidden])').evaluateAll(nodes=>nodes.map(n=>n.dataset.lesson));
+      if(count!==expectedCount||JSON.stringify(lessons)!==JSON.stringify(expectedLessons))throw new Error('Body keyword search failed: '+term);
+      bodyKeywordResults.push({term,count,lessons});
+    }
+    const exactLessonQueries=[];
+    for(const term of ['7강','제7강','RL-007']){
+      await page.fill('#q',term);
+      const count=await page.locator('.diagram:not([hidden])').count();
+      const lessons=await page.locator('section:not([hidden])').evaluateAll(nodes=>nodes.map(n=>n.dataset.lesson));
+      if(count!==manifest.lessons.find(l=>l.lessonId==='RL-007').diagrams.length||JSON.stringify(lessons)!=='["RL-007"]')throw new Error('Exact lesson search failed: '+term);
+      exactLessonQueries.push({term,count,lessons});
+    }
+    await page.fill('#q','7강 관혼상제');
+    const combinedQueryResults=await page.locator('.diagram:not([hidden])').count();
+    if(combinedQueryResults!==1)throw new Error('Lesson and keyword search failed');
+    await page.fill('#q','');
+    const clearedSearchResults=await page.locator('.diagram:not([hidden])').count();
+    if(clearedSearchResults!==manifest.diagramCount)throw new Error('Clearing search did not restore all diagrams');
+    await page.selectOption('#lesson','RL-004');
+    await page.fill('#q','7강');
+    const filterIntersectionResults=await page.locator('.diagram:not([hidden])').count();
+    if(filterIntersectionResults!==0)throw new Error('Lesson selection and number query should both apply');
+    await page.fill('#q','');
+    if(await page.locator('.diagram:not([hidden])').count()!==selected)throw new Error('Clearing search did not preserve lesson selection');
     await page.setViewportSize({width:390,height:844});
     const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);
     if(overflow||errors.length)throw new Error(JSON.stringify({overflow,errors}));
     const wordBreak=await page.evaluate(()=>getComputedStyle(document.body).wordBreak);
     if(wordBreak!=='keep-all')throw new Error('Korean word wrapping is not protected');
     if(artifacts)await page.screenshot({path:path.join(artifacts,'gallery-mobile.png')});
-    const result={renderer:'Chromium',totalDiagrams:all,selectedRL004:selected,keywordResults:searched,emptySearchResults:empty,mobileWidth:390,mobileHorizontalOverflow:overflow,koreanWordBreak:wordBreak,pageErrors:errors};
+    const result={renderer:'Chromium',totalDiagrams:all,selectedRL004:selected,keywordResults:searched,emptySearchResults:empty,bodyKeywordResults,exactLessonQueries,combinedQueryResults,clearedSearchResults,filterIntersectionResults,mobileWidth:390,mobileHorizontalOverflow:overflow,koreanWordBreak:wordBreak,pageErrors:errors};
     fs.writeFileSync(path.join(base,'review','gallery-check.json'),JSON.stringify(result,null,2)+'\n');
     console.log(JSON.stringify(result));
   }finally{await browser.close();}

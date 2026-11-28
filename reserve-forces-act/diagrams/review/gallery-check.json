@@ -2,8 +2,52 @@
   "renderer": "Chromium",
   "totalDiagrams": 335,
   "selectedRL004": 33,
-  "keywordResults": 1,
+  "keywordResults": 3,
   "emptySearchResults": 0,
+  "bodyKeywordResults": [
+    {
+      "term": "6시간",
+      "count": 1,
+      "lessons": [
+        "RL-007"
+      ]
+    },
+    {
+      "term": "관혼상제",
+      "count": 3,
+      "lessons": [
+        "RL-007",
+        "RL-008",
+        "RL-010"
+      ]
+    }
+  ],
+  "exactLessonQueries": [
+    {
+      "term": "7강",
+      "count": 23,
+      "lessons": [
+        "RL-007"
+      ]
+    },
+    {
+      "term": "제7강",
+      "count": 23,
+      "lessons": [
+        "RL-007"
+      ]
+    },
+    {
+      "term": "RL-007",
+      "count": 23,
+      "lessons": [
+        "RL-007"
+      ]
+    }
+  ],
+  "combinedQueryResults": 1,
+  "clearedSearchResults": 335,
+  "filterIntersectionResults": 0,
   "mobileWidth": 390,
   "mobileHorizontalOverflow": false,
   "koreanWordBreak": "keep-all",

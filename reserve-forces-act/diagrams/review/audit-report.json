@@ -104,5 +104,13 @@
       }
     ]
   },
-  "galleryCheck": "gallery-check.json"
+  "galleryCheck": "gallery-check.json",
+  "artifactIntegrity": {
+    "algorithm": "sha256",
+    "verifiedSvg": 335,
+    "verifiedPng": 335,
+    "verifiedContentFiles": 34,
+    "mismatches": 0,
+    "checkedBeforeWritingCompletionRecords": true
+  }
 }

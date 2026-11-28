@@ -216,16 +216,44 @@ def gallery(manifest):
     cards=[]
     for lesson in manifest['lessons']:
         heading=esc(lesson['title'])
+        content=json.loads((ROOT/lesson['contentPath']).read_text(encoding='utf-8'))
+        visible_diagrams={d['id']:d for d in content['diagrams']}
         items=[]
         for d in lesson['diagrams']:
             svg='../'+d['svg'].removeprefix('reserve-forces-act/')
             png='../'+d['png'].removeprefix('reserve-forces-act/')
-            items.append(f'<article class="diagram" data-search="{esc(lesson["lessonId"]+" "+lesson["title"]+" "+d["title"])}"><a href="{png}" target="_blank"><img loading="lazy" src="{png}" width="1600" height="900" alt="{esc(d["title"])}"></a><div class="caption"><b>{esc(d["title"])}</b><span><a href="{svg}" download>SVG</a><a href="{png}" download>PNG</a></span></div></article>')
+            visible=visible_diagrams[d['id']]
+            search_parts=[lesson['lessonId'],lesson['title'],d['title'],visible.get('subtitle',''),visible.get('note','')]
+            for side in ('left','right'):
+                column=visible[side]
+                search_parts.append(column['title'])
+                for item in column['items']:
+                    search_parts.extend([item.get('label',''),item['text']])
+            search_text=re.sub(r'\s+',' ',' '.join(search_parts))
+            items.append(f'<article class="diagram" data-search="{esc(search_text)}"><a href="{png}" target="_blank"><img loading="lazy" src="{png}" width="1600" height="900" alt="{esc(d["title"])}"></a><div class="caption"><b>{esc(d["title"])}</b><span><a href="{svg}" download>SVG</a><a href="{png}" download>PNG</a></span></div></article>')
         cards.append(f'<section data-lesson="{esc(lesson["lessonId"])}"><h2>{esc(lesson["lessonId"])} <span>{heading}</span><small>{len(items)}장</small></h2><div class="grid">'+''.join(items)+'</div></section>')
     doc='''<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>예비군법 제80회 강의 도식</title><style>
 *{box-sizing:border-box}body{margin:0;background:#f4f4f4;color:#202124;word-break:keep-all;font:16px/1.55 "Noto Sans CJK KR",sans-serif}header{padding:40px max(24px,calc((100% - 1440px)/2));background:#fff;border-bottom:1px solid #dce0e5}header p{color:#545860;max-width:900px}h1{margin:0 0 12px;font-size:34px;letter-spacing:-1px}.tools{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}input,select{font:inherit;padding:12px 16px;border:1px solid #b8c2d1;border-radius:8px;background:#fff}input{flex:1;min-width:230px}main{max-width:1488px;margin:auto;padding:24px}h2{display:flex;gap:15px;align-items:baseline;font-size:17px;color:#275aa3;margin:32px 0 14px}h2 span{font-size:20px;color:#202124}h2 small{margin-left:auto;white-space:nowrap}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.diagram{background:#fff;border:1px solid #dce0e5;border-radius:12px;overflow:hidden}img{width:100%;height:auto;display:block}.caption{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 18px;border-top:1px solid #edf0f3}.caption span{display:flex;gap:14px}.caption a{color:#275aa3;text-decoration:none}footer{max-width:1440px;margin:20px auto 45px;padding:0 24px;color:#545860}a{color:#275aa3}[hidden]{display:none!important}.count{font-size:15px;color:#545860;margin-top:16px}@media(max-width:850px){.grid{grid-template-columns:1fr}header{padding:28px 20px}main{padding:16px}h1{font-size:28px}h2{flex-wrap:wrap;gap:6px 12px}h2 span{font-size:18px;flex-basis:100%}.caption{font-size:14px}h2 small{margin:0}.tools{gap:8px}select{width:100%}}@media print{header .tools,.caption span{display:none}.grid{grid-template-columns:1fr}.diagram{break-inside:avoid}body{background:white}}
 </style><header><h1>예비군법 강의 도식</h1><p>제80회 · 2027년 전반기. 기존 34강 스크립트의 설명 순서에 맞춰 주체, 절차, 기한, 원칙과 예외를 정리했습니다. 이미지를 누르면 원래 크기로 볼 수 있습니다.</p><div class="tools"><input id="q" aria-label="강의와 도식 검색" placeholder="강의 번호·제목·키워드 검색"><select id="lesson" aria-label="강의 선택"><option value="">전체 강의</option>'''+''.join(f'<option value="{l["lessonId"]}">{l["lessonId"]} · {esc(l["title"])}</option>' for l in manifest['lessons'])+'''</select></div><div class="count" id="count"></div></header><main>'''+''.join(cards)+'''</main><footer>내용 기준: 제80회 기존 강의 스크립트. 강의 화면에 삽입하기 전용으로 정리한 자료이며, 법령을 독립적으로 최신 검증한 자료는 아닙니다. <a href="manifest.json">도식 목록</a> · <a href="review/audit-report.json">제작·검수 기록</a></footer><script>
-const q=document.querySelector('#q'),sel=document.querySelector('#lesson');function filter(){let n=0;const term=q.value.trim().toLowerCase();for(const s of document.querySelectorAll('section')){let visible=0;for(const d of s.querySelectorAll('.diagram')){const show=(!sel.value||sel.value===s.dataset.lesson)&&d.dataset.search.toLowerCase().includes(term);d.hidden=!show;if(show){n++;visible++}}s.hidden=!visible}document.querySelector('#count').textContent=`현재 ${n}장 표시`;}q.addEventListener('input',filter);sel.addEventListener('change',filter);filter();
+const q=document.querySelector('#q'),sel=document.querySelector('#lesson');
+function filter(){
+  let n=0;
+  const query=q.value.trim().toLowerCase().replace(/\\s+/g,' ');
+  const numbered=query.match(/^(?:제\\s*)?0*(\\d{1,3})\\s*강(?:\\s+(.*))?$/);
+  const lessonId=numbered?'RL-'+String(Number(numbered[1])).padStart(3,'0'):'';
+  const term=numbered?(numbered[2]||''):query;
+  for(const s of document.querySelectorAll('section')){
+    let visible=0;
+    for(const d of s.querySelectorAll('.diagram')){
+      const show=(!sel.value||sel.value===s.dataset.lesson)&&(!lessonId||lessonId===s.dataset.lesson)&&d.dataset.search.toLowerCase().includes(term);
+      d.hidden=!show;
+      if(show){n++;visible++}
+    }
+    s.hidden=!visible;
+  }
+  document.querySelector('#count').textContent=`현재 ${n}장 표시`;
+}
+q.addEventListener('input',filter);sel.addEventListener('change',filter);filter();
 </script></html>'''
     (DATA/'gallery.html').write_text(doc)
 

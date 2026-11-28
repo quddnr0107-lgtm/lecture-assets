@@ -11,7 +11,17 @@
 - [배치·렌더링 검수 결과](diagrams/review/audit-report.json)
 - [원고 표현 차이와 처리 기록](diagrams/review/source-notes.json)
 - [내용 검수 요약](diagrams/review/CONTENT-REVIEW.md)
+- [강의 제작 도구에 연결하는 방법](diagrams/INTEGRATION.md)
+- [파일 무결성·완료 판정 검증](diagrams/review/packaging-check.json)
 - [디자인 기준과 복구 기록](diagrams/DESIGN-REVIEW.md)
+
+## 열람과 검색
+
+저장소를 내려받아 압축을 풀고, 폴더 구조를 유지한 채 `reserve-forces-act/diagrams/gallery.html`을 브라우저로 엽니다. HTML 파일만 따로 옮기면 상대 경로로 연결된 이미지가 표시되지 않습니다.
+
+검색은 제목과 도식 화면에 표시된 본문을 함께 찾습니다. `6시간`, `관혼상제`, `7강`, `7강 관혼상제`처럼 입력할 수 있습니다. `7강`은 17강·27강을 포함하지 않습니다. 강의 선택 메뉴와 검색어는 함께 적용되며, 전체를 보려면 검색어를 지우고 전체 강의를 선택합니다.
+
+SVG·PNG 버튼은 원본 파일을 엽니다. 오프라인 브라우저에서 자동 다운로드 대신 이미지가 열리면 브라우저의 저장 기능을 사용합니다.
 
 ## 강의별 목록
 
@@ -60,12 +70,16 @@
 
 ## 재생성
 
-Python 3, Pillow, Noto CJK 글꼴, Inkscape가 필요합니다.
+아래 명령은 저장소 루트에서 실행합니다. Python 3, Pillow, Inkscape가 필요합니다. 현재 렌더러는 Linux의 `/usr/share/fonts/opentype/noto/`에서 `NotoSansCJK-Regular.ttc`와 `NotoSansCJK-Bold.ttc`를 읽습니다. 다른 환경에서는 같은 글꼴 파일을 준비하고 렌더러의 `FONT_DIR`을 설치 위치에 맞춥니다.
 
 ```bash
 python tools/render_reserve_diagrams.py --source-root /path/to/private/source-checkout --workers 4
 python tools/audit_reserve_content.py --source-root /path/to/private/source-checkout
 python tools/package_reserve_diagrams.py
 ```
+
+패키징은 34강의 연결·내용 해시·렌더 상태와 SVG/PNG 670개 파일의 SHA256을 먼저 확인합니다. 손상된 파일, 이전 PNG가 남은 SVG 전용 렌더, 누락된 이미지 해시는 완료 기록을 쓰기 전에 차단합니다. 원고 내용을 수정했다면 독립 내용검수 기록도 해당 내용 해시에 맞춰 갱신해야 합니다.
+
+갤러리를 수정한 경우 Node.js, Playwright와 Chromium을 준비한 후 `node tools/check_reserve_gallery.cjs`로 실제 검색·필터·모바일 동작을 확인합니다. 별도 Chromium 실행 파일을 사용할 때는 `RESERVE_DIAGRAM_CHROMIUM`에 그 경로를 지정합니다.
 
 원고 경로는 해당 비공개 저장소 체크아웃 안의 `docs/merged-lectures/예비군법/*.txt`입니다. 원고 해시가 달라지면 렌더러가 중단하므로 원고 변경을 먼저 검토하고 출처 기록을 갱신해야 합니다. 공개 콘텐츠만으로 다시 렌더하려면 `--source-root`를 생략할 수 있으나 출처 대조는 미실시로 기록됩니다.
