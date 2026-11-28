@@ -1,0 +1,399 @@
+{
+  "run_id": "dr-20261128-192226-visual",
+  "source_run": "dr-20261128-182907-script",
+  "checked_at": "2026-11-28T19:25:00+09:00",
+  "exam": 80,
+  "asset_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
+  "render_fix_commit": "759f6311474304676316b153ec64576a2ba441c6",
+  "render_run": 46134963029,
+  "source_basis": "existing_exam80_scripts",
+  "visual_reviewed": [
+    "DR-005-D02",
+    "DR-005-D08",
+    "DR-054-D01",
+    "DR-054-D05",
+    "DR-054-D06",
+    "DR-056-D05",
+    "DR-071-D01",
+    "DR-071-D05",
+    "DR-054-D02",
+    "DR-054-D03",
+    "DR-054-D04"
+  ],
+  "records": [
+    {
+      "id": "DR-005-D02",
+      "mode": "revision",
+      "webp_git_blob": "12f1fada028fe3c2b39f23bdd512f32dba5ddf37",
+      "visual_review": "passed",
+      "content_review": "passed_for_targeted_scope",
+      "script_evidence": {
+        "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+        "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+        "lines": [
+          112,
+          114,
+          122,
+          138,
+          142,
+          144,
+          146,
+          148,
+          156,
+          158,
+          198,
+          199,
+          200,
+          201,
+          203,
+          204,
+          221
+        ]
+      },
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D02-editorial-v1.svg",
+          "bytes": 7101,
+          "sha256": "608fe5433b6b32b11b221808a74e1860d560a1e982a1ed44b7c7594db81de8c5"
+        },
+        "png": {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D02-editorial-v1.png",
+          "bytes": 199832,
+          "sha256": "7cc700a8fd27257d22db720309b1089f6cdcb045f33116b9a8c0ba064efbe176"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D02-editorial-v1.webp",
+          "bytes": 60686,
+          "sha256": "15c6fcbec5015fd814a4b834ac2003dec9aab73f7713263bc59a2187cc6593dd"
+        }
+      },
+      "remaining_correction": null
+    },
+    {
+      "id": "DR-005-D08",
+      "mode": "new",
+      "webp_git_blob": "e4fb32fc52cd23e33853286c7d9da471c1f5d5de",
+      "visual_review": "passed",
+      "content_review": "passed_for_targeted_scope",
+      "script_evidence": {
+        "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+        "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+        "lines": [
+          158,
+          196,
+          202,
+          203,
+          205,
+          213,
+          217,
+          221,
+          223
+        ]
+      },
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D08-editorial-v1.svg",
+          "bytes": 5660,
+          "sha256": "34587150b956af2c3fcbd4ff75790566ceea1ead429acab64a968fdfcc0a1187"
+        },
+        "png": {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D08-editorial-v1.png",
+          "bytes": 159128,
+          "sha256": "c4f19b18d1f31a0f481bbcc57a38987d46aa10b34c9b4fbecc21bce9cc084111"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D08-editorial-v1.webp",
+          "bytes": 50364,
+          "sha256": "b7bae222e01046e00f9127b5dee07fb864e12478dd363d7ade21fb2c437df602"
+        }
+      },
+      "remaining_correction": null
+    },
+    {
+      "id": "DR-054-D01",
+      "mode": "revision",
+      "webp_git_blob": "49c0acc8f0a07dc9f67a223414004fb62bbba21d",
+      "visual_review": "passed",
+      "content_review": "passed_for_targeted_scope",
+      "script_evidence": {
+        "source_git_blob": "1d254945393cb22f81facc46ec50d3e926579e6a",
+        "source_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
+        "lines": [
+          15,
+          19,
+          21,
+          25,
+          27,
+          43
+        ]
+      },
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-054/diagrams/DR-054-D01-editorial-v1.svg",
+          "bytes": 5711,
+          "sha256": "3712b7e8d9eb4ef3265d1bb3b10ebbb149fae8ef59dda307ff9043d25aebffd0"
+        },
+        "png": {
+          "path": "defense-directives/lesson-054/diagrams/DR-054-D01-editorial-v1.png",
+          "bytes": 160651,
+          "sha256": "29a9d6da8a038291ad3387248e04ef7d2d6456b41d15a6bb3f0bf482f4baed5a"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-054/diagrams/DR-054-D01-editorial-v1.webp",
+          "bytes": 50680,
+          "sha256": "b2c7e4586deb7cfb3b27455ed8b43d799cb2204e59c489a3a3e775f2f7a19cec"
+        }
+      },
+      "remaining_correction": null
+    },
+    {
+      "id": "DR-054-D05",
+      "mode": "new",
+      "webp_git_blob": "2e89d5af6a741b8868920d69d7c10bbcfaca70c3",
+      "visual_review": "passed",
+      "content_review": "passed_for_targeted_scope",
+      "script_evidence": {
+        "source_git_blob": "1d254945393cb22f81facc46ec50d3e926579e6a",
+        "source_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
+        "lines": [
+          47,
+          78,
+          80,
+          82,
+          90,
+          92,
+          94,
+          96
+        ]
+      },
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-054/diagrams/DR-054-D05-editorial-v1.svg",
+          "bytes": 6157,
+          "sha256": "41f4f336cd9ef4e367c94dedef387caad7f123f9aac16f79ce0d0aa9406e7003"
+        },
+        "png": {
+          "path": "defense-directives/lesson-054/diagrams/DR-054-D05-editorial-v1.png",
+          "bytes": 169105,
+          "sha256": "04b4bd930c0987a5d57a0def75bbfb8757a3f8c73c84c21f932fdcc5371d3775"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-054/diagrams/DR-054-D05-editorial-v1.webp",
+          "bytes": 53292,
+          "sha256": "1960ee87d196bd78e31b4643f7ba72a41d642205149cce5b398aef9ccb0c8f9f"
+        }
+      },
+      "remaining_correction": null
+    },
+    {
+      "id": "DR-054-D06",
+      "mode": "new",
+      "webp_git_blob": "0f2f83b8c05bf97f3a39be51d6834e29bef047c6",
+      "visual_review": "passed",
+      "content_review": "passed_for_targeted_scope",
+      "script_evidence": {
+        "source_git_blob": "1d254945393cb22f81facc46ec50d3e926579e6a",
+        "source_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
+        "lines": [
+          116,
+          118,
+          120,
+          122,
+          132,
+          134
+        ]
+      },
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-054/diagrams/DR-054-D06-editorial-v1.svg",
+          "bytes": 6119,
+          "sha256": "d3e68f2e15fbb00ccc1dd189ca1b392ad3a51d36db0066410d7672bcacde14ed"
+        },
+        "png": {
+          "path": "defense-directives/lesson-054/diagrams/DR-054-D06-editorial-v1.png",
+          "bytes": 159711,
+          "sha256": "92ad4256f22d31dd2ab28c27cb8582e22bbc9fca75305cb305d8af4aad7897b6"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-054/diagrams/DR-054-D06-editorial-v1.webp",
+          "bytes": 47642,
+          "sha256": "e887f23d4819ae7b83a325d92bebee46acb3f52bb27c225d54361c22545e9dee"
+        }
+      },
+      "remaining_correction": null
+    },
+    {
+      "id": "DR-071-D01",
+      "mode": "revision",
+      "webp_git_blob": "1232ebb5260ba3fe7d70299c8645a839a9c45000",
+      "visual_review": "passed",
+      "content_review": "precision_correction_required",
+      "script_evidence": {
+        "source_git_blob": "869c8d8eb80efbba19eb02e9a719f65395751f42",
+        "source_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
+        "lines": [
+          25,
+          29,
+          33,
+          35,
+          37,
+          39,
+          45,
+          49,
+          63,
+          65
+        ]
+      },
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-071/diagrams/DR-071-D01-editorial-v1.svg",
+          "bytes": 6392,
+          "sha256": "da43d39efb2e51ee317e4ee700408af1cb8a3ee21a858e8a9bea8b0a8b960e7c"
+        },
+        "png": {
+          "path": "defense-directives/lesson-071/diagrams/DR-071-D01-editorial-v1.png",
+          "bytes": 172172,
+          "sha256": "0f5719a5888cdbaa572bf1974c4090bf29ee95039415e31fae1a5cc1fa400094"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-071/diagrams/DR-071-D01-editorial-v1.webp",
+          "bytes": 52400,
+          "sha256": "385591be3424323415eec734668285ff7ff350fac8cbd228ddda0e99f2d1eaec"
+        }
+      },
+      "remaining_correction": "군사시설 보안대책으로 명시. 원고 49·59·63행. 기존 ID 유지, 중복 생성 금지."
+    },
+    {
+      "id": "DR-071-D05",
+      "mode": "new",
+      "webp_git_blob": "76aa13a0c575e7befdec1eff40065a4a1a03beb3",
+      "visual_review": "passed",
+      "content_review": "passed_for_targeted_scope",
+      "script_evidence": {
+        "source_git_blob": "869c8d8eb80efbba19eb02e9a719f65395751f42",
+        "source_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
+        "lines": [
+          91,
+          95,
+          115,
+          117,
+          119,
+          123,
+          125,
+          127,
+          160,
+          162,
+          163,
+          164
+        ]
+      },
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-071/diagrams/DR-071-D05-editorial-v1.svg",
+          "bytes": 5941,
+          "sha256": "8360cba7058ac60f0bba629c1cf7060a8d3b767df41265c7bec3408d059ca9e2"
+        },
+        "png": {
+          "path": "defense-directives/lesson-071/diagrams/DR-071-D05-editorial-v1.png",
+          "bytes": 144273,
+          "sha256": "5f1dfc0ad063698446b7d5cff6a4f17143853adab2dd28cb8c704d7fa135b53a"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-071/diagrams/DR-071-D05-editorial-v1.webp",
+          "bytes": 45868,
+          "sha256": "c1e3330d697ae745b4b23c6e1a30dde97304de41919a0c8363c8fb7c2d7866ad"
+        }
+      },
+      "remaining_correction": null
+    },
+    {
+      "id": "DR-056-D05",
+      "mode": "new",
+      "webp_git_blob": "59141f3a5d89bfd3032c6e6d0c6f0aa4b969219f",
+      "visual_review": "passed",
+      "content_review": "passed_for_targeted_scope",
+      "script_evidence": {
+        "source_git_blob": "3f7d287b41bcd46c67b630f6190db29fcdaa959f",
+        "source_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0",
+        "lines": [
+          15,
+          21,
+          25,
+          31,
+          35,
+          43,
+          63,
+          65,
+          71,
+          75,
+          77,
+          85
+        ]
+      },
+      "files": {
+        "svg": {
+          "path": "defense-directives/lesson-056/diagrams/DR-056-D05-editorial-v1.svg",
+          "bytes": 6342,
+          "sha256": "25a13917ff98d726ea6ef736250dec2b94cdb91b4a1b2909e8423cabf2ac08d9"
+        },
+        "png": {
+          "path": "defense-directives/lesson-056/diagrams/DR-056-D05-editorial-v1.png",
+          "bytes": 159972,
+          "sha256": "5db74b8c6c3fce83944d713532c1b1b74ab4f38c7297fead2db154aebdf9e32d"
+        },
+        "webp": {
+          "path": "defense-directives/lesson-056/diagrams/DR-056-D05-editorial-v1.webp",
+          "bytes": 50890,
+          "sha256": "ff58b5deed68d80deae9afdeb87b240c7e071b5d70103f895151b03a7768c756"
+        }
+      },
+      "remaining_correction": null
+    }
+  ],
+  "additional_existing_webp": [
+    {
+      "id": "DR-054-D02",
+      "webp_git_blob": "a8526b9ff8f2ac1dafc50c7e61f4fc8dac57fd11",
+      "visual_review": "passed"
+    },
+    {
+      "id": "DR-054-D03",
+      "webp_git_blob": "bc1d4798c09b5ea3588013f4486997939289e952",
+      "visual_review": "passed"
+    },
+    {
+      "id": "DR-054-D04",
+      "webp_git_blob": "3aafabd6ac2f7ad04e0d87b9aa71d90faee40e3f",
+      "visual_review": "passed"
+    }
+  ],
+  "full_review_completed": [],
+  "partial_reviews": [
+    "DR-005",
+    "DR-054",
+    "DR-056",
+    "DR-071"
+  ],
+  "remaining_corrections": {
+    "DR-005": [
+      "30–31·68행: 부대기 및 현판 수여의 위임 주체와 특별감사 위임 비교",
+      "162행: 예비군부대 지휘관 정의 및 독립 직장예비군소대장 포함",
+      "144·229–235행: 포상 조치 및 수탁 경찰서장 나목·사목 표현 검토"
+    ],
+    "DR-054": [
+      "100·128행: 전자고지 및 통지서 전달의 주체인 예비군지휘관을 D03 또는 D04에 명시"
+    ],
+    "DR-056": [
+      "91·101·195–222행: 연 1회·수준유지·기초사격능력 및 원고의 시험 핵심 누락 검토",
+      "126–156·180·193행: 결정권자, 통제원 편성 예외, 안전절차의 전후 조건을 기존 도식과 정밀 대조"
+    ],
+    "DR-071": [
+      "49·59·63·157행: D01 보안대책을 군사시설 보안대책으로 명시(스크립트 시험 핵심)",
+      "69·77·85행: D02의 예산소요 제기 대상 및 예산편성지침 조건 명시 검토"
+    ]
+  },
+  "new_diagrams_rendered": 5,
+  "revised_diagrams_rendered": 3,
+  "final_targeted_passed": 7,
+  "remaining_coverage_reviews": 27
+}

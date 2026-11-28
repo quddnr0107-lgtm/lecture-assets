@@ -3,7 +3,7 @@
   "subject": "defense-directives",
   "subject_name": "훈령",
   "created_at": "2026-11-27T10:25:00+09:00",
-  "updated_at": "2026-11-28T18:29:07+09:00",
+  "updated_at": "2026-11-28T19:25:00+09:00",
   "purpose": "제80회 기존 강의 스크립트 78편에 도식을 맞추고, 스크립트에 있는 학습 목적 중 필요한 내용만 보강한다.",
   "baseline": {
     "status": "files_completed",
@@ -68,37 +68,35 @@
   "state": {
     "active_run": null,
     "last_successful_run": {
-      "id": "dr-20261128-172415-visual-checkpoint",
+      "id": "dr-20261128-192226-visual",
       "status": "visual_checkpoint_completed",
-      "started_at": "2026-11-28T17:24:15+09:00",
-      "new_diagrams_confirmed": 0,
-      "revised_diagrams_confirmed": 5,
-      "completed_reviews": 2,
-      "completed_lessons": [
-        "DR-011",
-        "DR-030"
-      ],
+      "started_at": "2026-11-28T19:25:00+09:00",
+      "new_diagrams_confirmed": 5,
+      "revised_diagrams_confirmed": 2,
+      "completed_reviews": 0,
       "visual_reviewed": [
         "DR-005-D02",
-        "DR-005-D06",
-        "DR-011-D05",
-        "DR-030-D02",
-        "DR-030-D03"
+        "DR-005-D08",
+        "DR-054-D01",
+        "DR-054-D05",
+        "DR-054-D06",
+        "DR-056-D05",
+        "DR-071-D01",
+        "DR-071-D05",
+        "DR-054-D02",
+        "DR-054-D03",
+        "DR-054-D04"
       ],
-      "asset_commit": "0ecf67dd5b592d089ceadd9d588e99e46c8d7d0e",
+      "asset_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
       "remaining_reviews": 27,
-      "catalog_check": {
-        "current_blob": "9389d38bdcebf3b1f1b36aa14a6ef79565888558",
-        "baseline_blob": "3c6d7aea9de0fdb1ea709f2ab20728d7a88a9866",
-        "note": "훈령 78개 강의 ID·제목·조문 등 동일; version/timelineVersion 필드 변경만 확인. 지도 및 회차 설정 blob 동일. 이번 3편 원고 blob 동일."
-      }
+      "review_record": "defense-directives/diagrams/reviews/dr-20261128-192226-visual.json"
     },
     "coverage_reviews_total": 78,
     "coverage_reviews_queued": 27,
     "coverage_reviews_completed": 51,
-    "confirmed_production_jobs": 142,
+    "confirmed_production_jobs": 149,
     "diagrams_added_after_baseline": 49,
-    "diagrams_revised_after_baseline": 80,
+    "diagrams_revised_after_baseline": 82,
     "script_bindings_verified": 78,
     "last_correction": {
       "updated_at": "2026-11-27T11:59:19+09:00",
@@ -111,10 +109,10 @@
       "report": "defense-directives/diagrams/script-alignment-qa.json",
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
-    "production_jobs_queued": 0,
-    "production_jobs_qa": 8,
-    "production_jobs_completed": 142,
-    "production_jobs_running": 8,
+    "production_jobs_queued": 1,
+    "production_jobs_qa": 0,
+    "production_jobs_completed": 149,
+    "production_jobs_running": 0,
     "full_audit": {
       "id": "dr-full-audit-20261128",
       "status": "in_progress",
@@ -791,15 +789,14 @@
         "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
         "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
         "uncovered_required_learning_objectives": [
-          "원고 158·202–205행의 수임군부대장과 병무청장 상호 업무협조, 전산명부 및 편성카드 전송 매체 명시 검토",
-          "원고 201행의 병력동원 훈련소집 명칭을 축약 없이 표시할 필요 검토"
+          "30–31·68행: 부대기 및 현판 수여의 위임 주체와 특별감사 위임 비교",
+          "162행: 예비군부대 지휘관 정의 및 독립 직장예비군소대장 포함",
+          "144·229–235행: 포상 조치 및 수탁 경찰서장 나목·사목 표현 검토"
         ],
-        "visual_qa": "수정/신규 도식 렌더링 및 직접 이미지 검수 대기",
-        "visual_review_commit": "0ecf67dd5b592d089ceadd9d588e99e46c8d7d0e",
-        "pending_production_job_ids": [
-          "DR-005-D02-script-182907",
-          "DR-005-D08-script-182907"
-        ]
+        "visual_qa": "이번 보강 WebP 직접 검수 완료; 남은 원고 정밀 대조는 별도 표시",
+        "visual_review_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
+        "pending_production_job_ids": [],
+        "review_record": "defense-directives/diagrams/reviews/dr-20261128-192226-visual.json"
       },
       "script_ref": "DR-005",
       "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
@@ -808,7 +805,9 @@
         "DR-005-D03-script-142522",
         "DR-005-D05-script-142522",
         "DR-005-D06-script-142522",
-        "DR-005-D07-script-142522"
+        "DR-005-D07-script-142522",
+        "DR-005-D02-script-182907",
+        "DR-005-D08-script-182907"
       ]
     },
     {
@@ -986,15 +985,21 @@
         "scope": "기존 제80회 원고와 구조화 도식 대조, 확인된 누락·표현 보완",
         "source_git_blob": "1d254945393cb22f81facc46ec50d3e926579e6a",
         "source_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
-        "visual_qa": "수정/신규 도식 렌더링 및 직접 이미지 검수 대기",
-        "pending_production_job_ids": [
-          "DR-054-D01-script-182907",
-          "DR-054-D05-script-182907",
-          "DR-054-D06-script-182907"
-        ]
+        "visual_qa": "이번 보강 WebP 직접 검수 완료; 남은 원고 정밀 대조는 별도 표시",
+        "pending_production_job_ids": [],
+        "visual_review_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
+        "uncovered_required_learning_objectives": [
+          "100·128행: 전자고지 및 통지서 전달의 주체인 예비군지휘관을 D03 또는 D04에 명시"
+        ],
+        "review_record": "defense-directives/diagrams/reviews/dr-20261128-192226-visual.json"
       },
       "script_ref": "DR-054",
-      "script_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f"
+      "script_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
+      "confirmed_production_job_ids": [
+        "DR-054-D01-script-182907",
+        "DR-054-D05-script-182907",
+        "DR-054-D06-script-182907"
+      ]
     },
     {
       "id": "DR-056-coverage-review-v1",
@@ -1028,13 +1033,20 @@
         "scope": "기존 제80회 원고와 구조화 도식 대조, 확인된 누락·표현 보완",
         "source_git_blob": "3f7d287b41bcd46c67b630f6190db29fcdaa959f",
         "source_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0",
-        "visual_qa": "수정/신규 도식 렌더링 및 직접 이미지 검수 대기",
-        "pending_production_job_ids": [
-          "DR-056-D05-script-182907"
-        ]
+        "visual_qa": "이번 보강 WebP 직접 검수 완료; 남은 원고 정밀 대조는 별도 표시",
+        "pending_production_job_ids": [],
+        "visual_review_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
+        "uncovered_required_learning_objectives": [
+          "91·101·195–222행: 연 1회·수준유지·기초사격능력 및 원고의 시험 핵심 누락 검토",
+          "126–156·180·193행: 결정권자, 통제원 편성 예외, 안전절차의 전후 조건을 기존 도식과 정밀 대조"
+        ],
+        "review_record": "defense-directives/diagrams/reviews/dr-20261128-192226-visual.json"
       },
       "script_ref": "DR-056",
-      "script_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0"
+      "script_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0",
+      "confirmed_production_job_ids": [
+        "DR-056-D05-script-182907"
+      ]
     },
     {
       "id": "DR-057-coverage-review-v1",
@@ -1098,14 +1110,22 @@
         "scope": "기존 제80회 원고와 구조화 도식 대조, 확인된 누락·표현 보완",
         "source_git_blob": "869c8d8eb80efbba19eb02e9a719f65395751f42",
         "source_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
-        "visual_qa": "수정/신규 도식 렌더링 및 직접 이미지 검수 대기",
+        "visual_qa": "이번 보강 WebP 직접 검수 완료; 남은 원고 정밀 대조는 별도 표시",
         "pending_production_job_ids": [
-          "DR-071-D01-script-182907",
-          "DR-071-D05-script-182907"
-        ]
+          "DR-071-D01-script-182907"
+        ],
+        "visual_review_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
+        "uncovered_required_learning_objectives": [
+          "49·59·63·157행: D01 보안대책을 군사시설 보안대책으로 명시(스크립트 시험 핵심)",
+          "69·77·85행: D02의 예산소요 제기 대상 및 예산편성지침 조건 명시 검토"
+        ],
+        "review_record": "defense-directives/diagrams/reviews/dr-20261128-192226-visual.json"
       },
       "script_ref": "DR-071",
-      "script_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c"
+      "script_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
+      "confirmed_production_job_ids": [
+        "DR-071-D05-script-182907"
+      ]
     },
     {
       "id": "DR-074-coverage-review-v1",
@@ -11577,7 +11597,7 @@
       "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|112,114,122,138,142,144,146,148,156,158,198,199,200,201,203,204,221|병력동원 훈련소집의 원고상 명칭 유지|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -11626,7 +11646,11 @@
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "공개 WebP 실물 직접 확인: 글자·수치 표시, 겹침·잘림·문자 누락 없음. 1600×1120 및 PNG/WebP 픽셀 일치는 렌더러 검사 근거.",
+      "visual_reviewed_at": "2026-11-28T19:25:00+09:00",
+      "webp_git_blob": "12f1fada028fe3c2b39f23bdd512f32dba5ddf37",
+      "render_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
+      "completed_at": "2026-11-28T19:25:00+09:00"
     },
     {
       "id": "DR-005-D08-script-182907",
@@ -11640,7 +11664,7 @@
       "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|158,196,202,203,205,213,217,221,223|병무청 명부관리·편성카드 전송 및 상호 업무협조|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -11681,7 +11705,11 @@
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "공개 WebP 실물 직접 확인: 글자·수치 표시, 겹침·잘림·문자 누락 없음. 1600×1120 및 PNG/WebP 픽셀 일치는 렌더러 검사 근거.",
+      "visual_reviewed_at": "2026-11-28T19:25:00+09:00",
+      "webp_git_blob": "e4fb32fc52cd23e33853286c7d9da471c1f5d5de",
+      "render_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
+      "completed_at": "2026-11-28T19:25:00+09:00"
     },
     {
       "id": "DR-054-D01-script-182907",
@@ -11695,7 +11723,7 @@
       "script_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-054|1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f|15,19,21,25,27,43|정기 소집의 법률 근거·상비예비군 예외 및 불시 대상 구분|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -11733,7 +11761,11 @@
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "공개 WebP 실물 직접 확인: 글자·수치 표시, 겹침·잘림·문자 누락 없음. 1600×1120 및 PNG/WebP 픽셀 일치는 렌더러 검사 근거.",
+      "visual_reviewed_at": "2026-11-28T19:25:00+09:00",
+      "webp_git_blob": "49c0acc8f0a07dc9f67a223414004fb62bbba21d",
+      "render_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
+      "completed_at": "2026-11-28T19:25:00+09:00"
     },
     {
       "id": "DR-054-D05-script-182907",
@@ -11747,7 +11779,7 @@
       "script_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-054|1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f|47,78,80,82,90,92,94,96|인터넷 신청 후 추가 홍보·무단불참 차수 증가 및 휴일·전국단위 신청기한|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -11787,7 +11819,11 @@
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "공개 WebP 실물 직접 확인: 글자·수치 표시, 겹침·잘림·문자 누락 없음. 1600×1120 및 PNG/WebP 픽셀 일치는 렌더러 검사 근거.",
+      "visual_reviewed_at": "2026-11-28T19:25:00+09:00",
+      "webp_git_blob": "2e89d5af6a741b8868920d69d7c10bbcfaca70c3",
+      "render_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
+      "completed_at": "2026-11-28T19:25:00+09:00"
     },
     {
       "id": "DR-054-D06-script-182907",
@@ -11801,7 +11837,7 @@
       "script_sha256": "1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-054|1a3289c6e64971170d302817facad9a9d3c64bc8b87e885983454280ee1f579f|116,118,120,122,132,134|훈련 차수별 통지 수단과 증빙·동의 조건|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -11839,7 +11875,11 @@
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "공개 WebP 실물 직접 확인: 글자·수치 표시, 겹침·잘림·문자 누락 없음. 1600×1120 및 PNG/WebP 픽셀 일치는 렌더러 검사 근거.",
+      "visual_reviewed_at": "2026-11-28T19:25:00+09:00",
+      "webp_git_blob": "0f2f83b8c05bf97f3a39be51d6834e29bef047c6",
+      "render_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
+      "completed_at": "2026-11-28T19:25:00+09:00"
     },
     {
       "id": "DR-071-D01-script-182907",
@@ -11853,7 +11893,7 @@
       "script_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-071|8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c|25,29,33,35,37,39,45,49,63,65|민간 개방의 결정 주체·조건·각 군 지침 명시|editorial-v1",
-      "status": "qa",
+      "status": "queued",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -11895,7 +11935,12 @@
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "공개 WebP 실물 직접 확인: 글자·수치 표시, 겹침·잘림·문자 누락 없음. 1600×1120 및 PNG/WebP 픽셀 일치는 렌더러 검사 근거.",
+      "visual_reviewed_at": "2026-11-28T19:25:00+09:00",
+      "webp_git_blob": "1232ebb5260ba3fe7d70299c8645a839a9c45000",
+      "render_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
+      "completed_at": null,
+      "remaining_correction": "군사시설 보안대책으로 명시. 원고 49·59·63행. 기존 ID 유지, 중복 생성 금지."
     },
     {
       "id": "DR-071-D05-script-182907",
@@ -11909,7 +11954,7 @@
       "script_sha256": "8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-071|8300580714187ba1f9e36b4c4b605c06d9570acf1ad072b5de787a5558a46b2c|91,95,115,117,119,123,125,127,160,162,163,164|지역·Ⅱ형 참가비 예외와 훈련 유형별 지급범위|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -11953,7 +11998,11 @@
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "공개 WebP 실물 직접 확인: 글자·수치 표시, 겹침·잘림·문자 누락 없음. 1600×1120 및 PNG/WebP 픽셀 일치는 렌더러 검사 근거.",
+      "visual_reviewed_at": "2026-11-28T19:25:00+09:00",
+      "webp_git_blob": "76aa13a0c575e7befdec1eff40065a4a1a03beb3",
+      "render_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
+      "completed_at": "2026-11-28T19:25:00+09:00"
     },
     {
       "id": "DR-056-D05-script-182907",
@@ -11967,7 +12016,7 @@
       "script_sha256": "bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-056|bb42502a69465eaf13d277e43078bfe024b10b77533fcd4a33b16ebeffc7d4e0|15,21,25,31,35,43,63,65,71,75,77,85|공통과목 전 부대 실시·정치적 중립·자료 적합성 검토 및 과학화 교육 주체|editorial-v1",
-      "status": "qa",
+      "status": "completed",
       "claimed_by": null,
       "claimed_at": null,
       "lease_expires_at": null,
@@ -12011,7 +12060,11 @@
       ],
       "layout_errors": [],
       "png_webp_pixel_equal": true,
-      "visual_review": "pending"
+      "visual_review": "공개 WebP 실물 직접 확인: 글자·수치 표시, 겹침·잘림·문자 누락 없음. 1600×1120 및 PNG/WebP 픽셀 일치는 렌더러 검사 근거.",
+      "visual_reviewed_at": "2026-11-28T19:25:00+09:00",
+      "webp_git_blob": "59141f3a5d89bfd3032c6e6d0c6f0aa4b969219f",
+      "render_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
+      "completed_at": "2026-11-28T19:25:00+09:00"
     }
   ],
   "runs": [
@@ -12723,7 +12776,7 @@
     },
     {
       "id": "dr-20261128-182907-script",
-      "status": "rendered_pending_visual_qa",
+      "status": "visual_reviewed_precision_followup",
       "new_diagrams": 5,
       "revised_diagrams": 3,
       "completed_reviews": 0,
@@ -12737,6 +12790,26 @@
         "DR-071-D05",
         "DR-056-D05"
       ]
+    },
+    {
+      "id": "dr-20261128-192226-visual",
+      "status": "visual_checkpoint_completed",
+      "new_diagrams": 5,
+      "revised_diagrams": 3,
+      "final_targeted_passed": 7,
+      "completed_reviews": 0,
+      "diagram_ids": [
+        "DR-005-D02",
+        "DR-005-D08",
+        "DR-054-D01",
+        "DR-054-D05",
+        "DR-054-D06",
+        "DR-071-D01",
+        "DR-071-D05",
+        "DR-056-D05"
+      ],
+      "asset_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
+      "review_record": "defense-directives/diagrams/reviews/dr-20261128-192226-visual.json"
     }
   ],
   "exam": {

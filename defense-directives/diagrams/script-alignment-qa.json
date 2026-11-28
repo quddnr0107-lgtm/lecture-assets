@@ -6,7 +6,7 @@
     "cutoff_date": "2027-02-02",
     "cutoff_kind": "existing_user_specified_exam80_basis"
   },
-  "checked_at": "2026-11-28T14:25:22+09:00",
+  "checked_at": "2026-11-28T19:25:00+09:00",
   "source_commit": "2d696ecb8a2805b0bc42df8ce5754ae91914371d",
   "script_bindings_verified": 78,
   "diagram_corrections": [
@@ -75,10 +75,10 @@
       "full_lesson_coverage_review": "pending"
     }
   ],
-  "full_lecture_coverage_reviews_completed": 48,
-  "remaining_full_lecture_reviews": 30,
+  "full_lecture_coverage_reviews_completed": 51,
+  "remaining_full_lecture_reviews": 27,
   "new_diagrams": 49,
-  "revised_diagrams": 75,
+  "revised_diagrams": 82,
   "priority_script_comparison": {
     "schema_version": 1,
     "created_at": "2026-11-27T11:59:01+09:00",
@@ -32816,7 +32816,7 @@
             {
               "text": "결정(별표 6)",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 185,
               "height": 38,
               "fontSize": 36,
@@ -33183,7 +33183,7 @@
             {
               "text": "교육훈련 조정·통제",
               "x": 860,
-              "y": 719.0,
+              "y": 719,
               "width": 296,
               "height": 36,
               "fontSize": 36,
@@ -33465,7 +33465,7 @@
             {
               "text": "무기·탄약 수령·분배",
               "x": 860,
-              "y": 720.0,
+              "y": 720,
               "width": 318,
               "height": 35,
               "fontSize": 36,
@@ -34770,7 +34770,7 @@
             {
               "text": "생성·발송",
               "x": 860,
-              "y": 720.0,
+              "y": 720,
               "width": 154,
               "height": 35,
               "fontSize": 36,
@@ -35289,7 +35289,7 @@
             {
               "text": "한다.",
               "x": 860,
-              "y": 720.0,
+              "y": 720,
               "width": 78,
               "height": 35,
               "fontSize": 36,
@@ -35742,7 +35742,7 @@
             {
               "text": "통합 운영",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 143,
               "height": 34,
               "fontSize": 36,
@@ -36780,7 +36780,7 @@
             {
               "text": "원칙",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 66,
               "height": 35,
               "fontSize": 36,
@@ -36962,7 +36962,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-005/diagrams/DR-005-D02-editorial-v1.svg",
@@ -37083,7 +37083,7 @@
             {
               "text": "통합 운영",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 143,
               "height": 34,
               "fontSize": 36,
@@ -37182,7 +37182,7 @@
             {
               "text": "훈련소집",
               "x": 860,
-              "y": 720.0,
+              "y": 720,
               "width": 133,
               "height": 34,
               "fontSize": 36,
@@ -37242,7 +37242,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "visual_reviewed_at": "2026-11-28T19:25:00+09:00",
+          "webp_git_blob": "12f1fada028fe3c2b39f23bdd512f32dba5ddf37",
+          "content_review": "passed_for_targeted_scope"
         },
         {
           "id": "DR-005-D08",
@@ -37264,7 +37267,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-005/diagrams/DR-005-D08-editorial-v1.svg",
@@ -37472,7 +37475,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "visual_reviewed_at": "2026-11-28T19:25:00+09:00",
+          "webp_git_blob": "e4fb32fc52cd23e33853286c7d9da471c1f5d5de",
+          "content_review": "passed_for_targeted_scope"
         },
         {
           "id": "DR-054-D01",
@@ -37491,7 +37497,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-054/diagrams/DR-054-D01-editorial-v1.svg",
@@ -37699,7 +37705,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "visual_reviewed_at": "2026-11-28T19:25:00+09:00",
+          "webp_git_blob": "49c0acc8f0a07dc9f67a223414004fb62bbba21d",
+          "content_review": "passed_for_targeted_scope"
         },
         {
           "id": "DR-054-D05",
@@ -37720,7 +37729,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-054/diagrams/DR-054-D05-editorial-v1.svg",
@@ -37823,7 +37832,7 @@
             {
               "text": "신청 완료",
               "x": 144,
-              "y": 689.0,
+              "y": 689,
               "width": 91,
               "height": 23,
               "fontSize": 23,
@@ -37832,7 +37841,7 @@
             {
               "text": "통지서 수령 간주, 부대는 추가 홍보 병행",
               "x": 144,
-              "y": 719.0,
+              "y": 719,
               "width": 598,
               "height": 39,
               "fontSize": 36,
@@ -37955,7 +37964,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "visual_reviewed_at": "2026-11-28T19:25:00+09:00",
+          "webp_git_blob": "2e89d5af6a741b8868920d69d7c10bbcfaca70c3",
+          "content_review": "passed_for_targeted_scope"
         },
         {
           "id": "DR-054-D06",
@@ -37974,7 +37986,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-054/diagrams/DR-054-D06-editorial-v1.svg",
@@ -38077,7 +38089,7 @@
             {
               "text": "1·2차 예외",
               "x": 144,
-              "y": 689.0,
+              "y": 689,
               "width": 108,
               "height": 23,
               "fontSize": 23,
@@ -38086,7 +38098,7 @@
             {
               "text": "방문이 쉽거나 우편 수취 불능 시 방문 가능",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 634,
               "height": 35,
               "fontSize": 36,
@@ -38209,7 +38221,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "visual_reviewed_at": "2026-11-28T19:25:00+09:00",
+          "webp_git_blob": "0f2f83b8c05bf97f3a39be51d6834e29bef047c6",
+          "content_review": "passed_for_targeted_scope"
         },
         {
           "id": "DR-071-D01",
@@ -38232,7 +38247,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-071/diagrams/DR-071-D01-editorial-v1.svg",
@@ -38476,7 +38491,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "visual_reviewed_at": "2026-11-28T19:25:00+09:00",
+          "webp_git_blob": "1232ebb5260ba3fe7d70299c8645a839a9c45000",
+          "content_review": "precision_correction_required"
         },
         {
           "id": "DR-071-D05",
@@ -38501,7 +38519,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-071/diagrams/DR-071-D05-editorial-v1.svg",
@@ -38727,7 +38745,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "visual_reviewed_at": "2026-11-28T19:25:00+09:00",
+          "webp_git_blob": "76aa13a0c575e7befdec1eff40065a4a1a03beb3",
+          "content_review": "passed_for_targeted_scope"
         },
         {
           "id": "DR-056-D05",
@@ -38752,7 +38773,7 @@
           },
           "layout_errors": [],
           "png_webp_pixel_equal": true,
-          "visual_review": "pending",
+          "visual_review": "passed",
           "files": {
             "svg": {
               "path": "defense-directives/lesson-056/diagrams/DR-056-D05-editorial-v1.svg",
@@ -38864,7 +38885,7 @@
             {
               "text": "고양",
               "x": 144,
-              "y": 720.0,
+              "y": 720,
               "width": 66,
               "height": 34,
               "fontSize": 36,
@@ -38996,7 +39017,10 @@
               "fontSize": 23,
               "role": "footer"
             }
-          ]
+          ],
+          "visual_reviewed_at": "2026-11-28T19:25:00+09:00",
+          "webp_git_blob": "59141f3a5d89bfd3032c6e6d0c6f0aa4b969219f",
+          "content_review": "passed_for_targeted_scope"
         }
       ]
     }
@@ -39617,6 +39641,34 @@
       "asset_commit": "d8551bee2de1e3bdbebe3a3a6393b69982941466",
       "queued_production_jobs": 11,
       "remaining_note": "67강 머리 문장 시험 접속어와 보류/연기 구분 추가 명시; 5·11·30강 보강 렌더 후 실물 대조 필요."
+    },
+    {
+      "run_id": "dr-20261128-192226-visual",
+      "full_review_completed": [],
+      "partial_reviews": [
+        "DR-005",
+        "DR-054",
+        "DR-056",
+        "DR-071"
+      ],
+      "visual_qa_passed": true,
+      "visual_reviewed": [
+        "DR-005-D02",
+        "DR-005-D08",
+        "DR-054-D01",
+        "DR-054-D05",
+        "DR-054-D06",
+        "DR-056-D05",
+        "DR-071-D01",
+        "DR-071-D05",
+        "DR-054-D02",
+        "DR-054-D03",
+        "DR-054-D04"
+      ],
+      "asset_commit": "f00cf0dcd03c9b5f3e2d584c379417f86d84a3df",
+      "queued_production_jobs": 1,
+      "review_record": "defense-directives/diagrams/reviews/dr-20261128-192226-visual.json",
+      "remaining_note": "DR-071-D01 군사시설 보안대책 명시 등 4강 정밀 대조 유지"
     }
   ]
 }
