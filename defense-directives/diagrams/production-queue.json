@@ -66,21 +66,7 @@
     ]
   },
   "state": {
-    "active_run": {
-      "id": "dr-20261128-162738-visual-followup",
-      "status": "rendering_requested",
-      "started_at": "2026-11-28T16:27:38+09:00",
-      "lease_expires_at": "2026-11-28T18:27:38+09:00",
-      "claimed_job_ids": [
-        "DR-005-D02-script-162738",
-        "DR-005-D06-script-162738",
-        "DR-011-D05-script-162738",
-        "DR-030-D02-script-162738",
-        "DR-030-D03-script-162738"
-      ],
-      "mode": "coordinator and existing renderer",
-      "assets_start_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747"
-    },
+    "active_run": null,
     "last_successful_run": {
       "id": "dr-20261128-162738-visual-followup",
       "status": "visual_checkpoint_completed_followup_render_requested",
@@ -141,7 +127,7 @@
       "visual_review": "3 rendered PNGs visually checked: no clipping or overlap"
     },
     "production_jobs_queued": 0,
-    "production_jobs_qa": 0,
+    "production_jobs_qa": 5,
     "production_jobs_completed": 137,
     "production_jobs_running": 5,
     "full_audit": {
@@ -11290,10 +11276,10 @@
       "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|112,114,122,138,142,144,146,148,156,158,221|지휘관리 위임사항·지역예비군 육성지원계획 수립 및 시행과 해체 요구의 범위 명시|editorial-v1",
-      "status": "running",
-      "claimed_by": "dr-20261128-162738-visual-followup",
-      "claimed_at": "2026-11-28T16:27:38+09:00",
-      "lease_expires_at": "2026-11-28T18:27:38+09:00",
+      "status": "qa",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-5.txt",
@@ -11313,7 +11299,27 @@
             221
           ]
         }
-      ]
+      ],
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D02-editorial-v1.svg",
+          "bytes": 6921,
+          "sha256": "efaf0e05ae10e0f2426d1ac5821f982e24dd7ab44ab5aac0ce7a2add566c7631"
+        },
+        {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D02-editorial-v1.png",
+          "bytes": 198019,
+          "sha256": "4e009258e53fe33cc4a86d2a089f266c4b6c2fb9dd20a801ef3f5dd64b2ba33d"
+        },
+        {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D02-editorial-v1.webp",
+          "bytes": 59350,
+          "sha256": "e2704cc2e6d06223326c9ea3a99eeb522ea5e75bb37c5725fed1b3d526cef1e1"
+        }
+      ],
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-005-D06-script-162738",
@@ -11327,10 +11333,10 @@
       "script_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-005|3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1|98,99,100,249|방침·지급·심의는 주체 비교이며 시간 순서가 아님을 명시|editorial-v1",
-      "status": "running",
-      "claimed_by": "dr-20261128-162738-visual-followup",
-      "claimed_at": "2026-11-28T16:27:38+09:00",
-      "lease_expires_at": "2026-11-28T18:27:38+09:00",
+      "status": "qa",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-5.txt",
@@ -11343,7 +11349,27 @@
             249
           ]
         }
-      ]
+      ],
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D06-editorial-v1.svg",
+          "bytes": 5985,
+          "sha256": "a3a2e5385b2144bd8286197be3fd8e69578bcd0cdc83e15c1de631d28040a1bf"
+        },
+        {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D06-editorial-v1.png",
+          "bytes": 157694,
+          "sha256": "4066a9421332143ed4a5d70d0a1bdd55ff9dda290c7ca23107d36479522954e3"
+        },
+        {
+          "path": "defense-directives/lesson-005/diagrams/DR-005-D06-editorial-v1.webp",
+          "bytes": 49874,
+          "sha256": "b334cedf0534f0322de628364ef333d90de25b032c814502902f34a6f4d401d9"
+        }
+      ],
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-011-D05-script-162738",
@@ -11357,10 +11383,10 @@
       "script_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-011|54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed|113,115,127,135,159,244|선발공고의 공석 및 신규 소요 발생 조건 명시|editorial-v1",
-      "status": "running",
-      "claimed_by": "dr-20261128-162738-visual-followup",
-      "claimed_at": "2026-11-28T16:27:38+09:00",
-      "lease_expires_at": "2026-11-28T18:27:38+09:00",
+      "status": "qa",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-11.txt",
@@ -11375,7 +11401,27 @@
             244
           ]
         }
-      ]
+      ],
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-011/diagrams/DR-011-D05-editorial-v1.svg",
+          "bytes": 5967,
+          "sha256": "4d94fbf83601dca54a6d50e5d342b01766cafa71424a54ba1d1f706e263e6754"
+        },
+        {
+          "path": "defense-directives/lesson-011/diagrams/DR-011-D05-editorial-v1.png",
+          "bytes": 151400,
+          "sha256": "5a9b1778fa2e48f9029a4484fea4480c86b08f8b4a798571fca79327a69dbd70"
+        },
+        {
+          "path": "defense-directives/lesson-011/diagrams/DR-011-D05-editorial-v1.webp",
+          "bytes": 47006,
+          "sha256": "f06b3b0ed38a6da71ea01070acea2b4ca9396df2fa8e2049c49596cfd4a51406"
+        }
+      ],
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-030-D02-script-162738",
@@ -11389,10 +11435,10 @@
       "script_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-030|03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504|73,75,83,89,107|시행령 제12조의 원고 설명상 응소 시간 비교 명시|editorial-v1",
-      "status": "running",
-      "claimed_by": "dr-20261128-162738-visual-followup",
-      "claimed_at": "2026-11-28T16:27:38+09:00",
-      "lease_expires_at": "2026-11-28T18:27:38+09:00",
+      "status": "qa",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-30.txt",
@@ -11406,7 +11452,27 @@
             107
           ]
         }
-      ]
+      ],
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-030/diagrams/DR-030-D02-editorial-v1.svg",
+          "bytes": 6480,
+          "sha256": "99663d868c572f74f0157b8e549261c6873068a1ef71da7025a4688194c23039"
+        },
+        {
+          "path": "defense-directives/lesson-030/diagrams/DR-030-D02-editorial-v1.png",
+          "bytes": 191911,
+          "sha256": "80805351d512fb9d3a981222d0d0fc096d0b1a8c0fe1c7423421f2919e362995"
+        },
+        {
+          "path": "defense-directives/lesson-030/diagrams/DR-030-D02-editorial-v1.webp",
+          "bytes": 58238,
+          "sha256": "90d775ce3fe96aeb0c98963dc41317538fe29b3353a21794a2b350fae78005fd"
+        }
+      ],
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     },
     {
       "id": "DR-030-D03-script-162738",
@@ -11420,10 +11486,10 @@
       "script_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
       "design_version": "editorial-v1",
       "deduplication_key": "DR-030|03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504|137,141,153,155|24시간 단위 교대는 원칙임을 명확히 하고 긴급조치 세부 근거 표시|editorial-v1",
-      "status": "running",
-      "claimed_by": "dr-20261128-162738-visual-followup",
-      "claimed_at": "2026-11-28T16:27:38+09:00",
-      "lease_expires_at": "2026-11-28T18:27:38+09:00",
+      "status": "qa",
+      "claimed_by": null,
+      "claimed_at": null,
+      "lease_expires_at": null,
       "evidence": [
         {
           "source_path": "docs/merged-lectures/훈령/본훈_1-30.txt",
@@ -11436,7 +11502,27 @@
             155
           ]
         }
-      ]
+      ],
+      "outputs": [
+        {
+          "path": "defense-directives/lesson-030/diagrams/DR-030-D03-editorial-v1.svg",
+          "bytes": 6784,
+          "sha256": "a8f02ce3185959b31fbc9ee7e8d8c888dc6323eed6866fdb25b987897f55a4a3"
+        },
+        {
+          "path": "defense-directives/lesson-030/diagrams/DR-030-D03-editorial-v1.png",
+          "bytes": 187295,
+          "sha256": "51b0e99fbba6c6fad12686e3d74fefd580cb63fdf119e7fe6b169a05c64b326d"
+        },
+        {
+          "path": "defense-directives/lesson-030/diagrams/DR-030-D03-editorial-v1.webp",
+          "bytes": 57584,
+          "sha256": "9b892050cba5380981894b19fdf463266c083e067cd7970df76686a9ab419200"
+        }
+      ],
+      "layout_errors": [],
+      "png_webp_pixel_equal": true,
+      "visual_review": "pending"
     }
   ],
   "runs": [
@@ -12106,6 +12192,20 @@
       "asset_commit": "5aaccd98f2b097b4c9e016fb6a192d098183a747",
       "remaining_reviews": 29,
       "followup_revision_ids": [
+        "DR-005-D02",
+        "DR-005-D06",
+        "DR-011-D05",
+        "DR-030-D02",
+        "DR-030-D03"
+      ]
+    },
+    {
+      "id": "dr-20261128-162738-visual-followup",
+      "status": "rendered_pending_visual_qa",
+      "new_diagrams": 0,
+      "revised_diagrams": 5,
+      "completed_reviews": 0,
+      "diagram_ids": [
         "DR-005-D02",
         "DR-005-D06",
         "DR-011-D05",

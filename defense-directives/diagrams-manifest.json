@@ -1552,28 +1552,45 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J5-0:0",
       "source_version": "국방부훈령 제3104호",
       "effective_date": "2025-11-14",
-      "note": "",
+      "note": "훈련 소집자 지휘감독. 해체 요구: 자격조건 미달 부대 및 소대급 이하 직장예비군부대.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-005/diagrams/DR-005-D02-editorial-v1.svg",
-          "bytes": 6469,
-          "sha256": "5e52b8972b8dda209b9d2b54aa5fb07dc78e3474d03bfc0ccce5562fca958a7d"
+          "bytes": 6921,
+          "sha256": "efaf0e05ae10e0f2426d1ac5821f982e24dd7ab44ab5aac0ce7a2add566c7631"
         },
         "png": {
           "path": "defense-directives/lesson-005/diagrams/DR-005-D02-editorial-v1.png",
-          "bytes": 177316,
-          "sha256": "6df1658f6ddd8197bf7f30196a7fe814f79686d7192a5241a50c2d3378e8d607"
+          "bytes": 198019,
+          "sha256": "4e009258e53fe33cc4a86d2a089f266c4b6c2fb9dd20a801ef3f5dd64b2ba33d"
         },
         "webp": {
           "path": "defense-directives/lesson-005/diagrams/DR-005-D02-editorial-v1.webp",
-          "bytes": 52944,
-          "sha256": "4358a87a6f3f7b6652279bdfccd7f6f4ce36dd74ead823d711b820d4a80030fa"
+          "bytes": 59350,
+          "sha256": "e2704cc2e6d06223326c9ea3a99eeb522ea5e75bb37c5725fed1b3d526cef1e1"
         }
       },
-      "script_ref": "DR-005"
+      "script_ref": "DR-005",
+      "script_evidence": {
+        "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
+        "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
+        "lines": [
+          112,
+          114,
+          122,
+          138,
+          142,
+          144,
+          146,
+          148,
+          156,
+          158,
+          221
+        ]
+      }
     },
     {
       "id": "DR-005-D03",
@@ -1736,18 +1753,18 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-005/diagrams/DR-005-D06-editorial-v1.svg",
-          "bytes": 5989,
-          "sha256": "1e2d20d470b437fe15a9807d1f02ed2745f9bc807ef061b13f232e56f4ec1c86"
+          "bytes": 5985,
+          "sha256": "a3a2e5385b2144bd8286197be3fd8e69578bcd0cdc83e15c1de631d28040a1bf"
         },
         "png": {
           "path": "defense-directives/lesson-005/diagrams/DR-005-D06-editorial-v1.png",
-          "bytes": 157749,
-          "sha256": "bd154b94351e2415ba7f79f9a42649784ad119434ff715ee95e2a9e05c32a4ec"
+          "bytes": 157694,
+          "sha256": "4066a9421332143ed4a5d70d0a1bdd55ff9dda290c7ca23107d36479522954e3"
         },
         "webp": {
           "path": "defense-directives/lesson-005/diagrams/DR-005-D06-editorial-v1.webp",
-          "bytes": 49830,
-          "sha256": "7c34bd63ea2d1f526a8459e5cf5678b505acc37dff2e5d1b62e7937f1ea11fbd"
+          "bytes": 49874,
+          "sha256": "b334cedf0534f0322de628364ef333d90de25b032c814502902f34a6f4d401d9"
         }
       },
       "script_ref": "DR-005",
@@ -1755,17 +1772,9 @@
         "source_git_blob": "e119829698465fab59a5cdda4e40edf9fca6be9e",
         "source_sha256": "3f5414920b4eaf0b29eb1e6779e71f6208c164c2384841a885ea24b52045f5e1",
         "lines": [
-          28,
-          30,
-          31,
-          68,
-          70,
-          78,
           98,
           99,
           100,
-          136,
-          144,
           249
         ]
       }
@@ -2811,18 +2820,18 @@
       "files": {
         "svg": {
           "path": "defense-directives/lesson-011/diagrams/DR-011-D05-editorial-v1.svg",
-          "bytes": 5930,
-          "sha256": "d3b90e20e4d47acfb924ff663ff2a0b49ebbf3f7c1d754c18cba3910eb2c3a7e"
+          "bytes": 5967,
+          "sha256": "4d94fbf83601dca54a6d50e5d342b01766cafa71424a54ba1d1f706e263e6754"
         },
         "png": {
           "path": "defense-directives/lesson-011/diagrams/DR-011-D05-editorial-v1.png",
-          "bytes": 144361,
-          "sha256": "41ff1c6db0c65c58f449d1c63c46e30dc927399f0a62655803971f8699ddede7"
+          "bytes": 151400,
+          "sha256": "5a9b1778fa2e48f9029a4484fea4480c86b08f8b4a798571fca79327a69dbd70"
         },
         "webp": {
           "path": "defense-directives/lesson-011/diagrams/DR-011-D05-editorial-v1.webp",
-          "bytes": 44814,
-          "sha256": "06c19ac04579dda71c1ef605b1507eaf2ce0cd9e4029d77ffcb4efd6dc8f0519"
+          "bytes": 47006,
+          "sha256": "f06b3b0ed38a6da71ea01070acea2b4ca9396df2fa8e2049c49596cfd4a51406"
         }
       },
       "script_ref": "DR-011",
@@ -2831,9 +2840,8 @@
         "source_sha256": "54a8233ae1707a8274977d473a3521aacbb7d6e1292abbd89cf9db5473b631ed",
         "lines": [
           113,
-          119,
+          115,
           127,
-          129,
           135,
           159,
           244
@@ -5127,28 +5135,39 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J30-0:0",
       "source_version": "국방부훈령 제3104호",
       "effective_date": "2025-11-14",
-      "note": "",
+      "note": "원고 설명: 발령지역 인근 6시간 / 그 밖의 육지 24시간 / 섬·출어 중 48시간.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-030/diagrams/DR-030-D02-editorial-v1.svg",
-          "bytes": 6229,
-          "sha256": "5766ebaa662370ff2b25fd0e267b964f99ca973619374bd5f4f2eb11270b9e81"
+          "bytes": 6480,
+          "sha256": "99663d868c572f74f0157b8e549261c6873068a1ef71da7025a4688194c23039"
         },
         "png": {
           "path": "defense-directives/lesson-030/diagrams/DR-030-D02-editorial-v1.png",
-          "bytes": 178267,
-          "sha256": "2d353258bfce1995688889922e0334083d969bd67aa5ffc29556808eb9b60e5e"
+          "bytes": 191911,
+          "sha256": "80805351d512fb9d3a981222d0d0fc096d0b1a8c0fe1c7423421f2919e362995"
         },
         "webp": {
           "path": "defense-directives/lesson-030/diagrams/DR-030-D02-editorial-v1.webp",
-          "bytes": 54038,
-          "sha256": "488cf7b2cf2d2346e2f0abd27277929f1e3eee8f90bee716170fb0aebd62e948"
+          "bytes": 58238,
+          "sha256": "90d775ce3fe96aeb0c98963dc41317538fe29b3353a21794a2b350fae78005fd"
         }
       },
-      "script_ref": "DR-030"
+      "script_ref": "DR-030",
+      "script_evidence": {
+        "source_git_blob": "41d907a7a6f3ef9d3929b57b0b704b18c0f70ecc",
+        "source_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
+        "lines": [
+          73,
+          75,
+          83,
+          89,
+          107
+        ]
+      }
     },
     {
       "id": "DR-030-D03",
@@ -5164,28 +5183,38 @@
       "source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268674#J30-0:0",
       "source_version": "국방부훈령 제3104호",
       "effective_date": "2025-11-14",
-      "note": "",
+      "note": "긴급조치 세부사항: 예비군법 제8조 및 시행령 제19조·제20조.",
       "width": 1600,
       "height": 1120,
       "body_font_size": 36,
       "files": {
         "svg": {
           "path": "defense-directives/lesson-030/diagrams/DR-030-D03-editorial-v1.svg",
-          "bytes": 6550,
-          "sha256": "c606f7902e40081243e37878d5f1b78eddfe70b57b1ee6d7489e3a1877f91968"
+          "bytes": 6784,
+          "sha256": "a8f02ce3185959b31fbc9ee7e8d8c888dc6323eed6866fdb25b987897f55a4a3"
         },
         "png": {
           "path": "defense-directives/lesson-030/diagrams/DR-030-D03-editorial-v1.png",
-          "bytes": 174761,
-          "sha256": "76619548a3321fe54a63d11a2908e054d8720627b6979e02d26820eb0fb36d39"
+          "bytes": 187295,
+          "sha256": "51b0e99fbba6c6fad12686e3d74fefd580cb63fdf119e7fe6b169a05c64b326d"
         },
         "webp": {
           "path": "defense-directives/lesson-030/diagrams/DR-030-D03-editorial-v1.webp",
-          "bytes": 53808,
-          "sha256": "88765069f5b716b2dfcfbe9770400efe9dac6d82abe46d21a218552c6c04554b"
+          "bytes": 57584,
+          "sha256": "9b892050cba5380981894b19fdf463266c083e067cd7970df76686a9ab419200"
         }
       },
-      "script_ref": "DR-030"
+      "script_ref": "DR-030",
+      "script_evidence": {
+        "source_git_blob": "41d907a7a6f3ef9d3929b57b0b704b18c0f70ecc",
+        "source_sha256": "03aee5bda60f5a8b3f9eddaab8211066ff74c7e5f8747977597da1b1e87e4504",
+        "lines": [
+          137,
+          141,
+          153,
+          155
+        ]
+      }
     },
     {
       "id": "DR-030-D04",
